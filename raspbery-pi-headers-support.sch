@@ -31,7 +31,7 @@ LIBS:valves
 LIBS:SW-RaspberryPi-Headers
 EELAYER 25 0
 EELAYER END
-$Descr USLetter 11000 8500
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
@@ -43,28 +43,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 850  850  1850 1500
-U 58DED9F1
-F0 "Power Handling" 60
-F1 "power_handling.sch" 60
-$EndSheet
-$Sheet
-S 3300 850  2150 1500
-U 58DEDA35
-F0 "Raspberry Pi Headers and Support Circuitry" 60
-F1 "raspbery-pi-headers-support.sch" 60
-$EndSheet
-$Sheet
-S 5850 850  2300 1550
-U 58DEDA38
-F0 "Audio Mux and Control" 60
-F1 "audio-mux-control.sch" 60
-$EndSheet
-$Sheet
-S 900  3350 2000 1650
-U 58DEDA3B
-F0 "USB C Support + Hub" 60
-F1 "usbc-support.sch" 60
-$EndSheet
 $EndSCHEMATC
