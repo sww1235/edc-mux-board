@@ -1,4 +1,4 @@
-update=Thursday, March 30, 2017 'PMt' 02:16:56 PM
+update=Friday, April 07, 2017 'PMt' 04:36:33 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=/Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,3 +59,9 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-RaspberryPi-Headers
+LibName31=/Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Texas
+LibName32=/Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-dallas-semi-maxim
+LibName33=/Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Passives
+LibName34=SW-con
+LibName35=SW-power
+LibName36=SW-Linear
