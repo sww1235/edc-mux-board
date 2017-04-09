@@ -182,18 +182,18 @@ $EndComp
 $Comp
 L GNDREF #PWR?
 U 1 1 58EA1603
-P 8250 6000
-F 0 "#PWR?" H 8250 5750 50  0001 C CNN
-F 1 "GNDREF" H 8250 5850 50  0000 C CNN
-F 2 "" H 8250 6000 50  0001 C CNN
-F 3 "" H 8250 6000 50  0001 C CNN
-	1    8250 6000
+P 8250 6650
+F 0 "#PWR?" H 8250 6400 50  0001 C CNN
+F 1 "GNDREF" H 8250 6500 50  0000 C CNN
+F 2 "" H 8250 6650 50  0001 C CNN
+F 3 "" H 8250 6650 50  0001 C CNN
+	1    8250 6650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8250 4650 8350 4650
 Wire Wire Line
-	8250 3550 8250 6000
+	8250 3550 8250 6650
 Wire Wire Line
 	8350 5850 8250 5850
 Connection ~ 8250 5850
@@ -206,7 +206,7 @@ Connection ~ 8250 5100
 Wire Wire Line
 	8100 5700 8350 5700
 Wire Wire Line
-	8100 3250 8100 5700
+	8100 3250 8100 6450
 Wire Wire Line
 	8350 5350 8100 5350
 Connection ~ 8100 5350
@@ -230,12 +230,12 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 58EAA584
-P 8050 6000
-F 0 "#PWR?" H 8050 5750 50  0001 C CNN
-F 1 "GND" H 8050 5850 50  0000 C CNN
-F 2 "" H 8050 6000 50  0001 C CNN
-F 3 "" H 8050 6000 50  0001 C CNN
-	1    8050 6000
+P 7900 6000
+F 0 "#PWR?" H 7900 5750 50  0001 C CNN
+F 1 "GND" H 7900 5850 50  0000 C CNN
+F 2 "" H 7900 6000 50  0001 C CNN
+F 3 "" H 7900 6000 50  0001 C CNN
+	1    7900 6000
 	1    0    0    -1  
 $EndComp
 Text Notes 10100 4350 0    60   ~ 0
@@ -289,9 +289,9 @@ Wire Wire Line
 	8250 3550 8350 3550
 Connection ~ 8250 3700
 Wire Wire Line
-	8050 6000 8050 5950
+	7900 6000 7900 5950
 Wire Wire Line
-	8050 5950 8250 5950
+	7900 5950 8250 5950
 Connection ~ 8250 5950
 $Comp
 L +5VD #PWR?
@@ -306,4 +306,80 @@ F 3 "" H 9900 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 4400 9900 4250
+$Comp
+L TS12A44514 U?
+U 5 1 5924713E
+P 8500 6150
+F 0 "U?" H 8350 6350 60  0000 C CNN
+F 1 "TS12A44514" H 8800 6350 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 9000 7450 60  0001 C CNN
+F 3 "" H 8650 6100 60  0001 C CNN
+F 4 "0.00@0" H 8550 7150 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 8850 7700 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 8800 7250 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 8900 7600 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 8800 7350 60  0001 C CNN "Package ID"
+	5    8500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS12A44514 U?
+U 5 1 592471A2
+P 8500 6500
+F 0 "U?" H 8350 6700 60  0000 C CNN
+F 1 "TS12A44514" H 8800 6700 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 9000 7800 60  0001 C CNN
+F 3 "" H 8650 6450 60  0001 C CNN
+F 4 "0.00@0" H 8550 7500 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 8850 8050 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 8800 7600 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 8900 7950 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 8800 7700 60  0001 C CNN "Package ID"
+	5    8500 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 6600 8250 6600
+Connection ~ 8250 6600
+Wire Wire Line
+	8350 6250 8250 6250
+Connection ~ 8250 6250
+Wire Wire Line
+	8100 6100 8350 6100
+Connection ~ 8100 5700
+Wire Wire Line
+	8100 6450 8350 6450
+Connection ~ 8100 6100
+$Comp
+L TS12A44514 U?
+U 5 1 592494F2
+P 7350 5200
+F 0 "U?" H 7200 5400 60  0000 C CNN
+F 1 "TS12A44514" H 7650 5400 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 7850 6500 60  0001 C CNN
+F 3 "" H 7500 5150 60  0001 C CNN
+F 4 "0.00@0" H 7400 6200 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 7700 6750 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 7650 6300 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 7750 6650 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 7650 6400 60  0001 C CNN "Package ID"
+	5    7350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS12A44514 U?
+U 5 1 59249556
+P 7300 5750
+F 0 "U?" H 7150 5950 60  0000 C CNN
+F 1 "TS12A44514" H 7600 5950 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 7800 7050 60  0001 C CNN
+F 3 "" H 7450 5700 60  0001 C CNN
+F 4 "0.00@0" H 7350 6750 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 7650 7300 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 7600 6850 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 7700 7200 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 7600 6950 60  0001 C CNN "Package ID"
+	5    7300 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
