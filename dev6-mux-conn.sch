@@ -496,4 +496,6 @@ Wire Wire Line
 	6900 5300 7200 5300
 Wire Wire Line
 	6900 5400 7200 5400
+Text Notes 1550 3150 0    60   ~ 0
+1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
 $EndSCHEMATC
