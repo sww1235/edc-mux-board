@@ -1918,4 +1918,74 @@ Wire Wire Line
 	11150 6000 11250 6000
 Wire Wire Line
 	11150 7000 11250 7000
+$Comp
+L RasPi-CM3-Headers J?
+U 5 1 59349764
+P 7550 12000
+F 0 "J?" H 7500 10900 60  0000 C CNN
+F 1 "RasPi-CM3-Headers" H 7500 11000 60  0000 C CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 7600 17100 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 7600 16800 60  0001 C CNN
+F 4 "0.00@0" H 7550 16700 60  0001 C CNN "Pricing"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 7550 17000 60  0001 C CNN "Description"
+F 6 "Raspberry Pi Foundation" H 7550 16900 60  0001 C CNN "Manufacturer"
+	5    7550 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RasPi-CM3-Headers J?
+U 6 1 5934A1A4
+P 7550 13650
+F 0 "J?" H 7500 12550 60  0000 C CNN
+F 1 "RasPi-CM3-Headers" H 7500 12650 60  0000 C CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 7600 18750 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 7600 18450 60  0001 C CNN
+F 4 "0.00@0" H 7550 18350 60  0001 C CNN "Pricing"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 7550 18650 60  0001 C CNN "Description"
+F 6 "Raspberry Pi Foundation" H 7550 18550 60  0001 C CNN "Manufacturer"
+	6    7550 13650
+	1    0    0    -1  
+$EndComp
+$Comp
+L RasPi-CM3-Headers J?
+U 7 1 5934ABD7
+P 7500 15400
+F 0 "J?" H 7450 14300 60  0000 C CNN
+F 1 "RasPi-CM3-Headers" H 7450 14400 60  0000 C CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 7550 20500 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 7550 20200 60  0001 C CNN
+F 4 "0.00@0" H 7500 20100 60  0001 C CNN "Pricing"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 7500 20400 60  0001 C CNN "Description"
+F 6 "Raspberry Pi Foundation" H 7500 20300 60  0001 C CNN "Manufacturer"
+	7    7500 15400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RasPi-CM3-Headers J?
+U 8 1 5934B614
+P 7600 17300
+F 0 "J?" H 7550 16200 60  0000 C CNN
+F 1 "RasPi-CM3-Headers" H 7550 16300 60  0000 C CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 7650 22400 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 7650 22100 60  0001 C CNN
+F 4 "0.00@0" H 7600 22000 60  0001 C CNN "Pricing"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 7600 22300 60  0001 C CNN "Description"
+F 6 "Raspberry Pi Foundation" H 7600 22200 60  0001 C CNN "Manufacturer"
+	8    7600 17300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RasPi-CM3-Headers J?
+U 9 1 5934C056
+P 9250 13000
+F 0 "J?" H 9200 11900 60  0000 C CNN
+F 1 "RasPi-CM3-Headers" H 9200 12000 60  0000 C CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 9300 18100 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 9300 17800 60  0001 C CNN
+F 4 "0.00@0" H 9250 17700 60  0001 C CNN "Pricing"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 9250 18000 60  0001 C CNN "Description"
+F 6 "Raspberry Pi Foundation" H 9250 17900 60  0001 C CNN "Manufacturer"
+	9    9250 13000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
