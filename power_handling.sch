@@ -38,7 +38,7 @@ LIBS:SW-Linear
 LIBS:edc-mux-board-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 13
 Title ""
@@ -191,7 +191,7 @@ F 3 "" H 8250 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8350 4650 8250 4650
+	8250 4650 8350 4650
 Wire Wire Line
 	8250 3550 8250 6000
 Wire Wire Line
@@ -230,12 +230,12 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 58EAA584
-P 9900 4450
-F 0 "#PWR?" H 9900 4200 50  0001 C CNN
-F 1 "GND" H 9900 4300 50  0000 C CNN
-F 2 "" H 9900 4450 50  0001 C CNN
-F 3 "" H 9900 4450 50  0001 C CNN
-	1    9900 4450
+P 8050 6000
+F 0 "#PWR?" H 8050 5750 50  0001 C CNN
+F 1 "GND" H 8050 5850 50  0000 C CNN
+F 2 "" H 8050 6000 50  0001 C CNN
+F 3 "" H 8050 6000 50  0001 C CNN
+	1    8050 6000
 	1    0    0    -1  
 $EndComp
 Text Notes 10100 4350 0    60   ~ 0
@@ -288,4 +288,22 @@ Connection ~ 8250 4050
 Wire Wire Line
 	8250 3550 8350 3550
 Connection ~ 8250 3700
+Wire Wire Line
+	8050 6000 8050 5950
+Wire Wire Line
+	8050 5950 8250 5950
+Connection ~ 8250 5950
+$Comp
+L +5VD #PWR?
+U 1 1 58EAEDB2
+P 9900 4400
+F 0 "#PWR?" H 9900 4250 50  0001 C CNN
+F 1 "+5VD" H 9900 4540 50  0000 C CNN
+F 2 "" H 9900 4400 50  0001 C CNN
+F 3 "" H 9900 4400 50  0001 C CNN
+	1    9900 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9900 4400 9900 4250
 $EndSCHEMATC

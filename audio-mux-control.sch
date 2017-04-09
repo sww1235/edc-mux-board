@@ -38,7 +38,7 @@ LIBS:SW-Linear
 LIBS:edc-mux-board-cache
 EELAYER 25 0
 EELAYER END
-$Descr USLetter 11000 8500
+$Descr User 12000 24000
 encoding utf-8
 Sheet 4 13
 Title ""
@@ -53,1054 +53,1445 @@ $EndDescr
 $Comp
 L CONN_01X07 J?
 U 1 1 58EE3208
-P 10350 1000
-F 0 "J?" H 10350 1450 50  0000 C CNN
-F 1 "Headset 4" V 10450 1000 50  0000 C CNN
-F 2 "" H 10350 1000 50  0001 C CNN
-F 3 "" H 10350 1000 50  0001 C CNN
-	1    10350 1000
+P 12450 4200
+F 0 "J?" H 12450 4650 50  0000 C CNN
+F 1 "Headset 4" V 12550 4200 50  0000 C CNN
+F 2 "" H 12450 4200 50  0001 C CNN
+F 3 "" H 12450 4200 50  0001 C CNN
+	1    12450 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X07 J?
 U 1 1 58EE3230
-P 10350 2050
-F 0 "J?" H 10350 2500 50  0000 C CNN
-F 1 "Headset 5" V 10450 2050 50  0000 C CNN
-F 2 "" H 10350 2050 50  0001 C CNN
-F 3 "" H 10350 2050 50  0001 C CNN
-	1    10350 2050
+P 12450 5250
+F 0 "J?" H 12450 5700 50  0000 C CNN
+F 1 "Headset 5" V 12550 5250 50  0000 C CNN
+F 2 "" H 12450 5250 50  0001 C CNN
+F 3 "" H 12450 5250 50  0001 C CNN
+	1    12450 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X07 J?
 U 1 1 58EE3245
-P 10350 3050
-F 0 "J?" H 10350 3500 50  0000 C CNN
-F 1 "Headset 6" V 10450 3050 50  0000 C CNN
-F 2 "" H 10350 3050 50  0001 C CNN
-F 3 "" H 10350 3050 50  0001 C CNN
-	1    10350 3050
+P 12450 6250
+F 0 "J?" H 12450 6700 50  0000 C CNN
+F 1 "Headset 6" V 12550 6250 50  0000 C CNN
+F 2 "" H 12450 6250 50  0001 C CNN
+F 3 "" H 12450 6250 50  0001 C CNN
+	1    12450 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X07 J?
 U 1 1 58EE3264
-P 10350 4050
-F 0 "J?" H 10350 4500 50  0000 C CNN
-F 1 "Headset 7" V 10450 4050 50  0000 C CNN
-F 2 "" H 10350 4050 50  0001 C CNN
-F 3 "" H 10350 4050 50  0001 C CNN
-	1    10350 4050
+P 12450 7250
+F 0 "J?" H 12450 7700 50  0000 C CNN
+F 1 "Headset 7" V 12550 7250 50  0000 C CNN
+F 2 "" H 12450 7250 50  0001 C CNN
+F 3 "" H 12450 7250 50  0001 C CNN
+	1    12450 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X07 J?
 U 1 1 58EE3284
-P 8700 2000
-F 0 "J?" H 8700 2450 50  0000 C CNN
-F 1 "Headset 1" V 8800 2000 50  0000 C CNN
-F 2 "" H 8700 2000 50  0001 C CNN
-F 3 "" H 8700 2000 50  0001 C CNN
-	1    8700 2000
+P 10800 5200
+F 0 "J?" H 10800 5650 50  0000 C CNN
+F 1 "Headset 1" V 10900 5200 50  0000 C CNN
+F 2 "" H 10800 5200 50  0001 C CNN
+F 3 "" H 10800 5200 50  0001 C CNN
+	1    10800 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X07 J?
 U 1 1 58EE33A8
-P 8700 3000
-F 0 "J?" H 8700 3450 50  0000 C CNN
-F 1 "Headset 2" V 8800 3000 50  0000 C CNN
-F 2 "" H 8700 3000 50  0001 C CNN
-F 3 "" H 8700 3000 50  0001 C CNN
-	1    8700 3000
+P 10800 6200
+F 0 "J?" H 10800 6650 50  0000 C CNN
+F 1 "Headset 2" V 10900 6200 50  0000 C CNN
+F 2 "" H 10800 6200 50  0001 C CNN
+F 3 "" H 10800 6200 50  0001 C CNN
+	1    10800 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X07 J?
 U 1 1 58EE33D0
-P 8700 4000
-F 0 "J?" H 8700 4450 50  0000 C CNN
-F 1 "Headset 3" V 8800 4000 50  0000 C CNN
-F 2 "" H 8700 4000 50  0001 C CNN
-F 3 "" H 8700 4000 50  0001 C CNN
-	1    8700 4000
+P 10800 7200
+F 0 "J?" H 10800 7650 50  0000 C CNN
+F 1 "Headset 3" V 10900 7200 50  0000 C CNN
+F 2 "" H 10800 7200 50  0001 C CNN
+F 3 "" H 10800 7200 50  0001 C CNN
+	1    10800 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X07 J?
 U 1 1 58EE341B
-P 8700 1000
-F 0 "J?" H 8700 1450 50  0000 C CNN
-F 1 "Headset 0" V 8800 1000 50  0000 C CNN
-F 2 "" H 8700 1000 50  0001 C CNN
-F 3 "" H 8700 1000 50  0001 C CNN
-	1    8700 1000
+P 10800 4200
+F 0 "J?" H 10800 4650 50  0000 C CNN
+F 1 "Headset 0" V 10900 4200 50  0000 C CNN
+F 2 "" H 10800 4200 50  0001 C CNN
+F 3 "" H 10800 4200 50  0001 C CNN
+	1    10800 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L DB25_FEMALE J?
 U 1 1 58EE37AA
-P 4300 7600
-F 0 "J?" H 4300 8950 50  0000 C CNN
-F 1 "Mixer Outputs" H 4300 6225 50  0000 C CNN
-F 2 "" H 4300 7600 50  0001 C CNN
-F 3 "" H 4300 7600 50  0001 C CNN
-	1    4300 7600
+P 5250 23050
+F 0 "J?" H 5250 24400 50  0000 C CNN
+F 1 "Mixer Outputs" H 5250 21675 50  0000 C CNN
+F 2 "" H 5250 23050 50  0001 C CNN
+F 3 "" H 5250 23050 50  0001 C CNN
+	1    5250 23050
 	0    -1   1    0   
 $EndComp
-Text Notes 3450 7860 0    60   ~ 0
+Text Notes 4400 23310 0    60   ~ 0
 Using TASCAM DB-25 pinout\n+ = right, - = left
-$Comp
-L CONN_01X07 J?
-U 1 1 58EE3EF8
-P 750 4600
-F 0 "J?" H 750 5050 50  0000 C CNN
-F 1 "Device 4" V 850 4600 50  0000 C CNN
-F 2 "" H 750 4600 50  0001 C CNN
-F 3 "" H 750 4600 50  0001 C CNN
-	1    750  4600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X07 J?
-U 1 1 58EE3EFE
-P 750 5500
-F 0 "J?" H 750 5950 50  0000 C CNN
-F 1 "Device 5" V 850 5500 50  0000 C CNN
-F 2 "" H 750 5500 50  0001 C CNN
-F 3 "" H 750 5500 50  0001 C CNN
-	1    750  5500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X07 J?
-U 1 1 58EE3F04
-P 750 6400
-F 0 "J?" H 750 6850 50  0000 C CNN
-F 1 "Device 6" V 850 6400 50  0000 C CNN
-F 2 "" H 750 6400 50  0001 C CNN
-F 3 "" H 750 6400 50  0001 C CNN
-	1    750  6400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X07 J?
-U 1 1 58EE3F0A
-P 750 7300
-F 0 "J?" H 750 7750 50  0000 C CNN
-F 1 "Device 7" V 850 7300 50  0000 C CNN
-F 2 "" H 750 7300 50  0001 C CNN
-F 3 "" H 750 7300 50  0001 C CNN
-	1    750  7300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X07 J?
-U 1 1 58EE3F10
-P 750 1900
-F 0 "J?" H 750 2350 50  0000 C CNN
-F 1 "Device 1" V 850 1900 50  0000 C CNN
-F 2 "" H 750 1900 50  0001 C CNN
-F 3 "" H 750 1900 50  0001 C CNN
-	1    750  1900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X07 J?
-U 1 1 58EE3F16
-P 750 2800
-F 0 "J?" H 750 3250 50  0000 C CNN
-F 1 "Device 2" V 850 2800 50  0000 C CNN
-F 2 "" H 750 2800 50  0001 C CNN
-F 3 "" H 750 2800 50  0001 C CNN
-	1    750  2800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X07 J?
-U 1 1 58EE3F1C
-P 750 3700
-F 0 "J?" H 750 4150 50  0000 C CNN
-F 1 "Device 3" V 850 3700 50  0000 C CNN
-F 2 "" H 750 3700 50  0001 C CNN
-F 3 "" H 750 3700 50  0001 C CNN
-	1    750  3700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X07 J?
-U 1 1 58EE3F22
-P 750 1000
-F 0 "J?" H 750 1450 50  0000 C CNN
-F 1 "Device 0" V 850 1000 50  0000 C CNN
-F 2 "" H 750 1000 50  0001 C CNN
-F 3 "" H 750 1000 50  0001 C CNN
-	1    750  1000
-	-1   0    0    -1  
-$EndComp
 $Comp
 L JACK-TRS J?
 U 1 1 58EE411D
-P 6150 7400
-F 0 "J?" H 6150 7300 60  0000 C CNN
-F 1 "JACK-TRS" H 6150 7400 60  0000 C CNN
-F 2 "" H 6150 7400 60  0000 C CNN
-F 3 "" H 6150 7400 60  0000 C CNN
-	1    6150 7400
+P 7100 22850
+F 0 "J?" H 7100 22750 60  0000 C CNN
+F 1 "JACK-TRS" H 7100 22850 60  0000 C CNN
+F 2 "" H 7100 22850 60  0000 C CNN
+F 3 "" H 7100 22850 60  0000 C CNN
+	1    7100 22850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GNDA #PWR?
 U 1 1 58EE59AB
-P 5750 7900
-F 0 "#PWR?" H 5750 7650 50  0001 C CNN
-F 1 "GNDA" H 5750 7750 50  0000 C CNN
-F 2 "" H 5750 7900 50  0001 C CNN
-F 3 "" H 5750 7900 50  0001 C CNN
-	1    5750 7900
+P 6700 23350
+F 0 "#PWR?" H 6700 23100 50  0001 C CNN
+F 1 "GNDA" H 6700 23200 50  0000 C CNN
+F 2 "" H 6700 23350 50  0001 C CNN
+F 3 "" H 6700 23350 50  0001 C CNN
+	1    6700 23350
 	-1   0    0    -1  
 $EndComp
-Text Notes -650 950  0    60   ~ 0
+Text Notes 3050 -750 0    60   ~ 0
 1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
 $Comp
 L GNDA #PWR?
 U 1 1 58E85F83
-P 1150 7800
-F 0 "#PWR?" H 1150 7550 50  0001 C CNN
-F 1 "GNDA" H 1150 7650 50  0000 C CNN
-F 2 "" H 1150 7800 50  0001 C CNN
-F 3 "" H 1150 7800 50  0001 C CNN
-	1    1150 7800
+P 11800 2500
+F 0 "#PWR?" H 11800 2250 50  0001 C CNN
+F 1 "GNDA" H 11800 2350 50  0000 C CNN
+F 2 "" H 11800 2500 50  0001 C CNN
+F 3 "" H 11800 2500 50  0001 C CNN
+	1    11800 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L LTC1391 U?
-U 1 1 58E86BD0
-P 6250 1250
-F 0 "U?" H 6000 1750 60  0000 C CNN
-F 1 "LTC1391" H 6600 1700 60  0000 C CNN
-F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 6350 2500 60  0001 C CNN
-F 3 "" H 6250 1250 60  0001 C CNN
-F 4 "0.00@0" H 6300 2100 60  0001 C CNN "Pricing"
-F 5 "8-Channel Analog Multiplexer with Cascadable Serial Interface" H 6350 2300 60  0001 C CNN "Description"
-F 6 "Linear Technology" H 6250 2200 60  0001 C CNN "Manufacturer"
-F 7 "SSOP" H 6250 2400 60  0001 C CNN "Package ID"
-	1    6250 1250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 1 1 58E891C4
-P 2800 1000
-F 0 "U?" H 2550 1250 60  0000 C CNN
-F 1 "TS12A44514" H 3200 1200 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3300 2300 60  0001 C CNN
-F 3 "" H 2800 1000 60  0001 C CNN
-F 4 "0.00@0" H 2850 2000 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3150 2550 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3100 2100 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 3200 2450 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3100 2200 60  0001 C CNN "Package ID"
-	1    2800 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 2 1 58E89241
-P 2800 1900
-F 0 "U?" H 2550 2150 60  0000 C CNN
-F 1 "TS12A44514" H 3200 2100 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3300 3200 60  0001 C CNN
-F 3 "" H 2800 1900 60  0001 C CNN
-F 4 "0.00@0" H 2850 2900 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3150 3450 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3100 3000 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 3200 3350 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3100 3100 60  0001 C CNN "Package ID"
-	2    2800 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 3 1 58E892D5
-P 3100 2800
-F 0 "U?" H 2850 3050 60  0000 C CNN
-F 1 "TS12A44514" H 3500 3000 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3600 4100 60  0001 C CNN
-F 3 "" H 3100 2800 60  0001 C CNN
-F 4 "0.00@0" H 3150 3800 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3450 4350 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3400 3900 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 3500 4250 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3400 4000 60  0001 C CNN "Package ID"
-	3    3100 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 4 1 58E89362
-P 2800 3700
-F 0 "U?" H 2550 3950 60  0000 C CNN
-F 1 "TS12A44514" H 3200 3900 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3300 5000 60  0001 C CNN
-F 3 "" H 2800 3700 60  0001 C CNN
-F 4 "0.00@0" H 2850 4700 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3150 5250 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3100 4800 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 3200 5150 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3100 4900 60  0001 C CNN "Package ID"
-	4    2800 3700
-	1    0    0    -1  
-$EndComp
-Text Notes 450  200  0    60   ~ 0
+Text Notes 450  -100 0    60   ~ 0
 For 2 wire mic connection (separate ground, baofeng)\nConnect +,- mic to +,- mic in cable\nFor 1 wire mic connection (same ground, iphone)\nconnect +,- mic to +,ground in cable.
-$Comp
-L TS12A44514 U?
-U 1 1 58E8A1F8
-P 1550 1300
-F 0 "U?" H 1250 1250 60  0000 C CNN
-F 1 "TS12A44514" H 1250 1150 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2050 2600 60  0001 C CNN
-F 3 "" H 1550 1300 60  0001 C CNN
-F 4 "0.00@0" H 1600 2300 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 1900 2850 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 1850 2400 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 1950 2750 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 1850 2500 60  0001 C CNN "Package ID"
-	1    1550 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 2 1 58E8CE09
-P 1550 2200
-F 0 "U?" H 1250 2150 60  0000 C CNN
-F 1 "TS12A44514" H 1250 2050 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2050 3500 60  0001 C CNN
-F 3 "" H 1700 2150 60  0001 C CNN
-F 4 "0.00@0" H 1600 3200 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 1900 3750 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 1850 3300 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 1950 3650 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 1850 3400 60  0001 C CNN "Package ID"
-	2    1550 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 3 1 58E8CFFB
-P 1550 3100
-F 0 "U?" H 1400 3300 60  0000 C CNN
-F 1 "TS12A44514" H 1850 3300 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2050 4400 60  0001 C CNN
-F 3 "" H 1700 3050 60  0001 C CNN
-F 4 "0.00@0" H 1600 4100 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 1900 4650 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 1850 4200 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 1950 4550 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 1850 4300 60  0001 C CNN "Package ID"
-	3    1550 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 4 1 58E8D0BE
-P 1550 4000
-F 0 "U?" H 1400 4200 60  0000 C CNN
-F 1 "TS12A44514" H 1850 4200 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2050 5300 60  0001 C CNN
-F 3 "" H 1700 3950 60  0001 C CNN
-F 4 "0.00@0" H 1600 5000 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 1900 5550 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 1850 5100 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 1950 5450 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 1850 5200 60  0001 C CNN "Package ID"
-	4    1550 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 1 1 58E8D27F
-P 1550 4900
-F 0 "U?" H 1400 5100 60  0000 C CNN
-F 1 "TS12A44514" H 1850 5100 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2050 6200 60  0001 C CNN
-F 3 "" H 1700 4850 60  0001 C CNN
-F 4 "0.00@0" H 1600 5900 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 1900 6450 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 1850 6000 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 1950 6350 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 1850 6100 60  0001 C CNN "Package ID"
-	1    1550 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 2 1 58E8D315
-P 1550 5800
-F 0 "U?" H 1400 6000 60  0000 C CNN
-F 1 "TS12A44514" H 1850 6000 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2050 7100 60  0001 C CNN
-F 3 "" H 1700 5750 60  0001 C CNN
-F 4 "0.00@0" H 1600 6800 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 1900 7350 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 1850 6900 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 1950 7250 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 1850 7000 60  0001 C CNN "Package ID"
-	2    1550 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 3 1 58E8D3AC
-P 1550 6700
-F 0 "U?" H 1400 6900 60  0000 C CNN
-F 1 "TS12A44514" H 1850 6900 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2050 8000 60  0001 C CNN
-F 3 "" H 1700 6650 60  0001 C CNN
-F 4 "0.00@0" H 1600 7700 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 1900 8250 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 1850 7800 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 1950 8150 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 1850 7900 60  0001 C CNN "Package ID"
-	3    1550 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 4 1 58E8D487
-P 1550 7600
-F 0 "U?" H 1400 7800 60  0000 C CNN
-F 1 "TS12A44514" H 1850 7800 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2050 8900 60  0001 C CNN
-F 3 "" H 1700 7550 60  0001 C CNN
-F 4 "0.00@0" H 1600 8600 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 1900 9150 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 1850 8700 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 1950 9050 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 1850 8800 60  0001 C CNN "Package ID"
-	4    1550 7600
-	1    0    0    -1  
-$EndComp
-Text Notes 3550 200  0    60   ~ 0
+Text Notes 4100 -150 0    60   ~ 0
 PTT for each device is an electronic switch closure. \nThis can be controlled via a digital signal from RPi\nor from other ptt inputs
-$Comp
-L C_Small C?
-U 1 1 58E8EB8B
-P 2350 1000
-F 0 "C?" H 2360 1070 50  0000 L CNN
-F 1 "10u" H 2360 920 50  0000 L CNN
-F 2 "" H 2350 1000 50  0001 C CNN
-F 3 "" H 2350 1000 50  0001 C CNN
-	1    2350 1000
-	0    1    1    0   
-$EndComp
-Text Notes 1700 750  0    60   ~ 0
-cap to block dc bias from devices
-$Comp
-L C_Small C?
-U 1 1 58E8F5E7
-P 2350 1900
-F 0 "C?" H 2360 1970 50  0000 L CNN
-F 1 "10u" H 2360 1820 50  0000 L CNN
-F 2 "" H 2350 1900 50  0001 C CNN
-F 3 "" H 2350 1900 50  0001 C CNN
-	1    2350 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 58E8F7E0
-P 2350 2800
-F 0 "C?" H 2360 2870 50  0000 L CNN
-F 1 "10u" H 2360 2720 50  0000 L CNN
-F 2 "" H 2350 2800 50  0001 C CNN
-F 3 "" H 2350 2800 50  0001 C CNN
-	1    2350 2800
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 58E8F897
-P 2350 5500
-F 0 "C?" H 2360 5570 50  0000 L CNN
-F 1 "10u" H 2360 5420 50  0000 L CNN
-F 2 "" H 2350 5500 50  0001 C CNN
-F 3 "" H 2350 5500 50  0001 C CNN
-	1    2350 5500
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 58E8F8FC
-P 2350 4600
-F 0 "C?" H 2360 4670 50  0000 L CNN
-F 1 "10u" H 2360 4520 50  0000 L CNN
-F 2 "" H 2350 4600 50  0001 C CNN
-F 3 "" H 2350 4600 50  0001 C CNN
-	1    2350 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 58E8FA3F
-P 2350 3700
-F 0 "C?" H 2360 3770 50  0000 L CNN
-F 1 "10u" H 2360 3620 50  0000 L CNN
-F 2 "" H 2350 3700 50  0001 C CNN
-F 3 "" H 2350 3700 50  0001 C CNN
-	1    2350 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 58E8FAA4
-P 2350 6400
-F 0 "C?" H 2360 6470 50  0000 L CNN
-F 1 "10u" H 2360 6320 50  0000 L CNN
-F 2 "" H 2350 6400 50  0001 C CNN
-F 3 "" H 2350 6400 50  0001 C CNN
-	1    2350 6400
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 58E8FB13
-P 2000 7300
-F 0 "C?" V 1950 7350 50  0000 L CNN
-F 1 "10u" V 1950 7100 50  0000 L CNN
-F 2 "" H 2000 7300 50  0001 C CNN
-F 3 "" H 2000 7300 50  0001 C CNN
-	1    2000 7300
-	0    1    1    0   
-$EndComp
-$Comp
-L TS12A44514 U?
-U 1 1 58E9092A
-P 2800 4600
-F 0 "U?" H 2650 4800 60  0000 C CNN
-F 1 "TS12A44514" H 3100 4800 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3300 5900 60  0001 C CNN
-F 3 "" H 2950 4550 60  0001 C CNN
-F 4 "0.00@0" H 2850 5600 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3150 6150 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3100 5700 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 3200 6050 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3100 5800 60  0001 C CNN "Package ID"
-	1    2800 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 2 1 58E90AF4
-P 2800 5500
-F 0 "U?" H 2650 5700 60  0000 C CNN
-F 1 "TS12A44514" H 3100 5700 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3300 6800 60  0001 C CNN
-F 3 "" H 2950 5450 60  0001 C CNN
-F 4 "0.00@0" H 2850 6500 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3150 7050 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3100 6600 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 3200 6950 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3100 6700 60  0001 C CNN "Package ID"
-	2    2800 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 4 1 58E90D94
-P 2450 7300
-F 0 "U?" H 2300 7500 60  0000 C CNN
-F 1 "TS12A44514" H 2750 7500 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2950 8600 60  0001 C CNN
-F 3 "" H 2600 7250 60  0001 C CNN
-F 4 "0.00@0" H 2500 8300 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2800 8850 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2750 8400 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 2850 8750 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 2750 8500 60  0001 C CNN "Package ID"
-	4    2450 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 3 1 58E959BE
-P 2800 6400
-F 0 "U?" H 2650 6600 60  0000 C CNN
-F 1 "TS12A44514" H 3100 6600 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3300 7700 60  0001 C CNN
-F 3 "" H 2950 6350 60  0001 C CNN
-F 4 "0.00@0" H 2850 7400 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3150 7950 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3100 7500 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 3200 7850 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3100 7600 60  0001 C CNN "Package ID"
-	3    2800 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 7300 3300 7100
-Wire Wire Line
-	3300 7100 3600 7100
-Wire Wire Line
-	3600 7100 3900 7100
-Wire Wire Line
-	3900 7100 4200 7100
-Wire Wire Line
-	4200 7100 4500 7100
-Wire Wire Line
-	4500 7100 4800 7100
-Wire Wire Line
-	4800 7100 5100 7100
-Wire Wire Line
-	5100 7100 5400 7100
-Wire Wire Line
-	5400 7100 5500 7100
-Wire Wire Line
-	5500 7100 5750 7100
-Wire Wire Line
-	5750 7100 5850 7100
-Wire Wire Line
-	3900 7300 3900 7100
-Connection ~ 3300 7100
-Wire Wire Line
-	4500 7300 4500 7100
-Connection ~ 3900 7100
-Wire Wire Line
-	5100 7300 5100 7100
-Connection ~ 4500 7100
-Wire Wire Line
-	3600 7300 3600 7100
-Connection ~ 3600 7100
-Wire Wire Line
-	4200 7300 4200 7100
-Connection ~ 4200 7100
-Wire Wire Line
-	4800 7300 4800 7100
-Connection ~ 4800 7100
-Wire Wire Line
-	5400 7100 5400 7300
-Connection ~ 5100 7100
-Wire Wire Line
-	1150 7000 950  7000
-Wire Wire Line
-	1150 700  1150 1100
-Wire Wire Line
-	1150 1100 1150 1600
-Wire Wire Line
-	1150 1600 1150 2000
-Wire Wire Line
-	1150 2000 1150 2500
-Wire Wire Line
-	1150 2500 1150 2900
-Wire Wire Line
-	1150 2900 1150 3400
-Wire Wire Line
-	1150 3400 1150 3800
-Wire Wire Line
-	1150 3800 1150 4300
-Wire Wire Line
-	1150 4300 1150 4700
-Wire Wire Line
-	1150 4700 1150 5200
-Wire Wire Line
-	1150 5200 1150 5600
-Wire Wire Line
-	1150 5600 1150 6100
-Wire Wire Line
-	1150 6100 1150 6500
-Wire Wire Line
-	1150 6500 1150 7000
-Wire Wire Line
-	1150 7000 1150 7400
-Wire Wire Line
-	1150 7400 1150 7800
-Wire Wire Line
-	950  6100 1150 6100
-Connection ~ 1150 7000
-Wire Wire Line
-	950  5200 1150 5200
-Connection ~ 1150 6100
-Wire Wire Line
-	950  4300 1150 4300
-Connection ~ 1150 5200
-Wire Wire Line
-	950  3400 1150 3400
-Connection ~ 1150 4300
-Wire Wire Line
-	950  2500 1150 2500
-Connection ~ 1150 3400
-Connection ~ 1150 2500
-Wire Wire Line
-	950  700  1150 700 
-Wire Wire Line
-	5850 7100 5850 7150
-Connection ~ 5400 7100
-Wire Wire Line
-	5750 7100 5750 7900
-Connection ~ 5750 7100
-Wire Wire Line
-	3100 7300 3100 7200
-Wire Wire Line
-	3100 7200 950  7200
-Wire Wire Line
-	950  7100 3200 7100
-Wire Wire Line
-	3200 7100 3200 7300
-Wire Wire Line
-	950  6200 3500 6200
-Wire Wire Line
-	3500 6200 3500 7300
-Wire Wire Line
-	950  6300 3400 6300
-Wire Wire Line
-	3400 6300 3400 7300
-Wire Wire Line
-	950  5300 3800 5300
-Wire Wire Line
-	3800 5300 3800 7300
-Wire Wire Line
-	950  5400 3700 5400
-Wire Wire Line
-	3700 5400 3700 7300
-Wire Wire Line
-	950  4400 4100 4400
-Wire Wire Line
-	4100 4400 4100 7300
-Wire Wire Line
-	950  4500 4000 4500
-Wire Wire Line
-	4000 4500 4000 7300
-Wire Wire Line
-	950  3500 4400 3500
-Wire Wire Line
-	4400 3500 4400 7300
-Wire Wire Line
-	950  3600 4300 3600
-Wire Wire Line
-	4300 3600 4300 7300
-Wire Wire Line
-	950  2600 4700 2600
-Wire Wire Line
-	4700 2600 4700 7300
-Wire Wire Line
-	950  2700 4600 2700
-Wire Wire Line
-	4600 2700 4600 7300
-Wire Wire Line
-	950  1700 5000 1700
-Wire Wire Line
-	5000 1700 5000 7300
-Wire Wire Line
-	950  1800 4900 1800
-Wire Wire Line
-	4900 1800 4900 7300
-Wire Wire Line
-	950  800  5300 800 
-Wire Wire Line
-	5300 800  5300 7300
-Wire Wire Line
-	950  900  5200 900 
-Wire Wire Line
-	5200 900  5200 7300
-Wire Wire Line
-	5500 7300 5500 7100
-Connection ~ 5500 7100
-Connection ~ 1150 1600
-Wire Wire Line
-	950  1600 1150 1600
-Wire Wire Line
-	950  1300 1250 1300
-Wire Wire Line
-	1850 1150 1850 1300
-Wire Wire Line
-	1250 1150 1850 1150
-Wire Wire Line
-	1250 1150 1250 1200
-Wire Wire Line
-	1250 1200 950  1200
-Wire Wire Line
-	950  2200 1250 2200
-Wire Wire Line
-	1850 2200 1850 2050
-Wire Wire Line
-	1850 2050 1250 2050
-Wire Wire Line
-	1250 2050 1250 2100
-Wire Wire Line
-	1250 2100 950  2100
-Wire Wire Line
-	1250 7600 950  7600
-Wire Wire Line
-	950  7500 1250 7500
-Wire Wire Line
-	1250 7500 1250 7450
-Wire Wire Line
-	1250 7450 1850 7450
-Wire Wire Line
-	1850 7450 1850 7600
-Wire Wire Line
-	1250 6700 950  6700
-Wire Wire Line
-	950  6600 1250 6600
-Wire Wire Line
-	1250 6600 1250 6550
-Wire Wire Line
-	1250 6550 1850 6550
-Wire Wire Line
-	1850 6550 1850 6700
-Wire Wire Line
-	950  5800 1250 5800
-Wire Wire Line
-	950  5700 1250 5700
-Wire Wire Line
-	1250 5700 1250 5650
-Wire Wire Line
-	1250 5650 1850 5650
-Wire Wire Line
-	1850 5650 1850 5800
-Wire Wire Line
-	950  4900 1250 4900
-Wire Wire Line
-	950  4800 1250 4800
-Wire Wire Line
-	1250 4800 1250 4750
-Wire Wire Line
-	1250 4750 1850 4750
-Wire Wire Line
-	1850 4750 1850 4900
-Wire Wire Line
-	950  4000 1250 4000
-Wire Wire Line
-	950  3900 1250 3900
-Wire Wire Line
-	1250 3900 1250 3850
-Wire Wire Line
-	1250 3850 1850 3850
-Wire Wire Line
-	1850 3850 1850 4000
-Wire Wire Line
-	950  3100 1250 3100
-Wire Wire Line
-	950  3000 1250 3000
-Wire Wire Line
-	1250 3000 1250 2950
-Wire Wire Line
-	1250 2950 1850 2950
-Wire Wire Line
-	1850 2950 1850 3100
-Wire Wire Line
-	950  1000 2250 1000
-Wire Wire Line
-	950  1100 1150 1100
-Wire Wire Line
-	950  1900 2250 1900
-Wire Wire Line
-	950  2000 1150 2000
-Wire Wire Line
-	950  2800 2250 2800
-Wire Wire Line
-	950  2900 1150 2900
-Wire Wire Line
-	950  5500 2250 5500
-Wire Wire Line
-	950  5600 1150 5600
-Wire Wire Line
-	950  4600 2250 4600
-Wire Wire Line
-	950  4700 1150 4700
-Wire Wire Line
-	950  3700 2250 3700
-Wire Wire Line
-	950  3800 1150 3800
-Wire Wire Line
-	950  6400 2250 6400
-Wire Wire Line
-	950  6500 1150 6500
-Wire Wire Line
-	950  7300 1900 7300
-Wire Wire Line
-	950  7400 1150 7400
-Wire Wire Line
-	2500 1000 2450 1000
-Wire Wire Line
-	2500 1900 2450 1900
-Wire Wire Line
-	2800 2800 2450 2800
-Wire Wire Line
-	2450 3700 2500 3700
-Wire Wire Line
-	2500 5500 2450 5500
-Wire Wire Line
-	2500 6400 2450 6400
-Wire Wire Line
-	2500 4600 2450 4600
-Wire Wire Line
-	2150 7300 2100 7300
-Connection ~ 1150 1100
-Connection ~ 1150 2000
-Connection ~ 1150 2900
-Connection ~ 1150 3800
-Connection ~ 1150 4700
-Connection ~ 1150 5600
-Connection ~ 1150 6500
-Connection ~ 1150 7400
-$Comp
-L LTC1391 U?
-U 1 1 58E971F2
-P 7400 3950
-F 0 "U?" H 7150 4450 60  0000 C CNN
-F 1 "LTC1391" H 7750 4400 60  0000 C CNN
-F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 7500 5200 60  0001 C CNN
-F 3 "" H 7400 3950 60  0001 C CNN
-F 4 "0.00@0" H 7450 4800 60  0001 C CNN "Pricing"
-F 5 "8-Channel Analog Multiplexer with Cascadable Serial Interface" H 7500 5000 60  0001 C CNN "Description"
-F 6 "Linear Technology" H 7400 4900 60  0001 C CNN "Manufacturer"
-F 7 "SSOP" H 7400 5100 60  0001 C CNN "Package ID"
-	1    7400 3950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L LTC1391 U?
-U 1 1 58E972F9
-P 6250 3050
-F 0 "U?" H 6000 3550 60  0000 C CNN
-F 1 "LTC1391" H 6600 3500 60  0000 C CNN
-F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 6350 4300 60  0001 C CNN
-F 3 "" H 6250 3050 60  0001 C CNN
-F 4 "0.00@0" H 6300 3900 60  0001 C CNN "Pricing"
-F 5 "8-Channel Analog Multiplexer with Cascadable Serial Interface" H 6350 4100 60  0001 C CNN "Description"
-F 6 "Linear Technology" H 6250 4000 60  0001 C CNN "Manufacturer"
-F 7 "SSOP" H 6250 4200 60  0001 C CNN "Package ID"
-	1    6250 3050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L LTC1391 U?
-U 1 1 58E973A2
-P 7400 5750
-F 0 "U?" H 7150 6250 60  0000 C CNN
-F 1 "LTC1391" H 7750 6200 60  0000 C CNN
-F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 7500 7000 60  0001 C CNN
-F 3 "" H 7400 5750 60  0001 C CNN
-F 4 "0.00@0" H 7450 6600 60  0001 C CNN "Pricing"
-F 5 "8-Channel Analog Multiplexer with Cascadable Serial Interface" H 7500 6800 60  0001 C CNN "Description"
-F 6 "Linear Technology" H 7400 6700 60  0001 C CNN "Manufacturer"
-F 7 "SSOP" H 7400 6900 60  0001 C CNN "Package ID"
-	1    7400 5750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L LTC1391 U?
-U 1 1 58E975CA
-P 7400 2150
-F 0 "U?" H 7150 2650 60  0000 C CNN
-F 1 "LTC1391" H 7750 2600 60  0000 C CNN
-F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 7500 3400 60  0001 C CNN
-F 3 "" H 7400 2150 60  0001 C CNN
-F 4 "0.00@0" H 7450 3000 60  0001 C CNN "Pricing"
-F 5 "8-Channel Analog Multiplexer with Cascadable Serial Interface" H 7500 3200 60  0001 C CNN "Description"
-F 6 "Linear Technology" H 7400 3100 60  0001 C CNN "Manufacturer"
-F 7 "SSOP" H 7400 3300 60  0001 C CNN "Package ID"
-	1    7400 2150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L LTC1391 U?
-U 1 1 58E976E3
-P 6250 4850
-F 0 "U?" H 6000 5350 60  0000 C CNN
-F 1 "LTC1391" H 6600 5300 60  0000 C CNN
-F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 6350 6100 60  0001 C CNN
-F 3 "" H 6250 4850 60  0001 C CNN
-F 4 "0.00@0" H 6300 5700 60  0001 C CNN "Pricing"
-F 5 "8-Channel Analog Multiplexer with Cascadable Serial Interface" H 6350 5900 60  0001 C CNN "Description"
-F 6 "Linear Technology" H 6250 5800 60  0001 C CNN "Manufacturer"
-F 7 "SSOP" H 6250 6000 60  0001 C CNN "Package ID"
-	1    6250 4850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 1000 3250 1000
-Wire Wire Line
-	3100 1900 3300 1900
-Wire Wire Line
-	3400 2800 3600 2800
-Wire Wire Line
-	3100 3700 3350 3700
-Wire Wire Line
-	3100 4600 3300 4600
-Wire Wire Line
-	3100 5500 3250 5500
-Wire Wire Line
-	3100 6400 3250 6400
-Wire Wire Line
-	2750 7300 2800 7300
-Text Label 2800 7300 0    60   ~ 0
-Dev7-Mic-in
-Text Label 3250 6400 0    60   ~ 0
-Dev6-Mic-in
-Text Label 3250 5500 0    60   ~ 0
-Dev5-Mic-in
-Text Label 3300 4600 0    60   ~ 0
-Dev4-Mic-in
-Text Label 3350 3700 0    60   ~ 0
-Dev3-Mic-in
-Text Label 3600 2800 0    60   ~ 0
-Dev2-Mic-in
-Text Label 3300 1900 0    60   ~ 0
-Dev1-Mic-in
-Text Label 3250 1000 0    60   ~ 0
-Dev0-Mic-in
 $Sheet
-S -2100 250  1350 750 
-U 58E9E25B
-F0 "Device 0 MUX connections" 60
-F1 "dev0-mux-conn.sch" 60
-$EndSheet
-$Sheet
-S -2100 1350 1350 850 
+S 950  3350 1600 2600
 U 58E9E2BE
 F0 "Device 1 MUX connections" 60
 F1 "dev1-mux-conn.sch" 60
+F2 "LEFT-OUT" O R 2550 3400 60 
+F3 "RIGHT-OUT" O R 2550 3500 60 
+F4 "PTT-Pi" I L 950 3950 60 
+F5 "AUDIO-GROUND" I L 950 4850 60 
+F6 "CLK" I L 950 4750 60 
+F7 "~CS" I L 950 4650 60 
+F8 "DIN" I L 950 4550 60 
+F9 "DOUT" O L 950 4450 60 
+F10 "MIC-IN-0" I R 2550 5900 60 
+F11 "MIC-IN-1" I R 2550 5800 60 
+F12 "MIC-IN-2" I R 2550 5700 60 
+F13 "MIC-IN-3" I R 2550 5600 60 
+F14 "MIC-IN-4" I R 2550 5500 60 
+F15 "MIC-IN-5" I R 2550 5400 60 
+F16 "MIC-IN-6" I R 2550 5300 60 
+F17 "MIC-IN-7" I R 2550 5200 60 
+F18 "MIC-MUTE-Pi" I L 950 4100 60 
+F19 "PTT-0" I R 2550 4300 60 
+F20 "PTT/MIC-MUTE-COMBI" I L 950 4200 60 
+F21 "MIC-MUTE-0" I R 2550 5100 60 
+F22 "MIC-MUTE-1" I R 2550 5000 60 
+F23 "MIC-MUTE-2" I R 2550 4900 60 
+F24 "MIC-MUTE-3" I R 2550 4800 60 
+F25 "MIC-MUTE-4" I R 2550 4700 60 
+F26 "MIC-MUTE-5" I R 2550 4600 60 
+F27 "MIC-MUTE-6" I R 2550 4500 60 
+F28 "MIC-MUTE-7" I R 2550 4400 60 
+F29 "PTT-1" I R 2550 4200 60 
+F30 "PTT-2" I R 2550 4100 60 
+F31 "PTT-3" I R 2550 4000 60 
+F32 "PTT-4" I R 2550 3900 60 
+F33 "PTT-5" I R 2550 3800 60 
+F34 "PTT-6" I R 2550 3700 60 
+F35 "PTT-7" I R 2550 3600 60 
 $EndSheet
 $Sheet
-S -2050 2500 1300 750 
+S 950  6100 1600 2600
 U 58E9E991
 F0 "Device 2 MUX connections" 60
 F1 "dev2-mux-conn.sch" 60
+F2 "LEFT-OUT" O R 2550 6150 60 
+F3 "RIGHT-OUT" O R 2550 6250 60 
+F4 "PTT-Pi" I L 950 6700 60 
+F5 "AUDIO-GROUND" I L 950 7600 60 
+F6 "CLK" I L 950 7500 60 
+F7 "~CS" I L 950 7400 60 
+F8 "DIN" I L 950 7300 60 
+F9 "DOUT" O L 950 7200 60 
+F10 "MIC-IN-0" I R 2550 8650 60 
+F11 "MIC-IN-1" I R 2550 8550 60 
+F12 "MIC-IN-2" I R 2550 8450 60 
+F13 "MIC-IN-3" I R 2550 8350 60 
+F14 "MIC-IN-4" I R 2550 8250 60 
+F15 "MIC-IN-5" I R 2550 8150 60 
+F16 "MIC-IN-6" I R 2550 8050 60 
+F17 "MIC-IN-7" I R 2550 7950 60 
+F18 "MIC-MUTE-Pi" I L 950 6850 60 
+F19 "PTT-0" I R 2550 7050 60 
+F20 "PTT/MIC-MUTE-COMBI" I L 950 6950 60 
+F21 "MIC-MUTE-0" I R 2550 7850 60 
+F22 "MIC-MUTE-1" I R 2550 7750 60 
+F23 "MIC-MUTE-2" I R 2550 7650 60 
+F24 "MIC-MUTE-3" I R 2550 7550 60 
+F25 "MIC-MUTE-4" I R 2550 7450 60 
+F26 "MIC-MUTE-5" I R 2550 7350 60 
+F27 "MIC-MUTE-6" I R 2550 7250 60 
+F28 "MIC-MUTE-7" I R 2550 7150 60 
+F29 "PTT-1" I R 2550 6950 60 
+F30 "PTT-2" I R 2550 6850 60 
+F31 "PTT-3" I R 2550 6750 60 
+F32 "PTT-4" I R 2550 6650 60 
+F33 "PTT-5" I R 2550 6550 60 
+F34 "PTT-6" I R 2550 6450 60 
+F35 "PTT-7" I R 2550 6350 60 
 $EndSheet
 $Sheet
-S -2050 3550 1300 600 
+S 950  8850 1600 2600
 U 58E9E9F4
 F0 "Device 3 MUX connections" 60
 F1 "dev3-mux-conn.sch" 60
+F2 "LEFT-OUT" O R 2550 8900 60 
+F3 "RIGHT-OUT" O R 2550 9000 60 
+F4 "PTT-Pi" I L 950 9450 60 
+F5 "AUDIO-GROUND" I L 950 10350 60 
+F6 "CLK" I L 950 10250 60 
+F7 "~CS" I L 950 10150 60 
+F8 "DIN" I L 950 10050 60 
+F9 "DOUT" O L 950 9950 60 
+F10 "MIC-IN-0" I R 2550 11400 60 
+F11 "MIC-IN-1" I R 2550 11300 60 
+F12 "MIC-IN-2" I R 2550 11200 60 
+F13 "MIC-IN-3" I R 2550 11100 60 
+F14 "MIC-IN-4" I R 2550 11000 60 
+F15 "MIC-IN-5" I R 2550 10900 60 
+F16 "MIC-IN-6" I R 2550 10800 60 
+F17 "MIC-IN-7" I R 2550 10700 60 
+F18 "MIC-MUTE-Pi" I L 950 9550 60 
+F19 "PTT-0" I R 2550 9800 60 
+F20 "PTT/MIC-MUTE-COMBI" I L 950 9650 60 
+F21 "MIC-MUTE-0" I R 2550 10600 60 
+F22 "MIC-MUTE-1" I R 2550 10500 60 
+F23 "MIC-MUTE-2" I R 2550 10400 60 
+F24 "MIC-MUTE-3" I R 2550 10300 60 
+F25 "MIC-MUTE-4" I R 2550 10200 60 
+F26 "MIC-MUTE-5" I R 2550 10100 60 
+F27 "MIC-MUTE-6" I R 2550 10000 60 
+F28 "MIC-MUTE-7" I R 2550 9900 60 
+F29 "PTT-1" I R 2550 9700 60 
+F30 "PTT-2" I R 2550 9600 60 
+F31 "PTT-3" I R 2550 9500 60 
+F32 "PTT-4" I R 2550 9400 60 
+F33 "PTT-5" I R 2550 9300 60 
+F34 "PTT-6" I R 2550 9200 60 
+F35 "PTT-7" I R 2550 9100 60 
 $EndSheet
 $Sheet
-S -2050 4450 1350 900 
+S 950  11600 1600 2600
 U 58E9EC07
 F0 "Device 4 MUX connections" 60
 F1 "dev4-mux-conn.sch" 60
+F2 "LEFT-OUT" O R 2550 11650 60 
+F3 "RIGHT-OUT" O R 2550 11750 60 
+F4 "PTT-Pi" I L 950 12200 60 
+F5 "AUDIO-GROUND" I L 950 13150 60 
+F6 "CLK" I L 950 13050 60 
+F7 "~CS" I L 950 12950 60 
+F8 "DIN" I L 950 12850 60 
+F9 "DOUT" O L 950 12750 60 
+F10 "MIC-IN-0" I R 2550 14150 60 
+F11 "MIC-IN-1" I R 2550 14050 60 
+F12 "MIC-IN-2" I R 2550 13950 60 
+F13 "MIC-IN-3" I R 2550 13850 60 
+F14 "MIC-IN-4" I R 2550 13750 60 
+F15 "MIC-IN-5" I R 2550 13650 60 
+F16 "MIC-IN-6" I R 2550 13550 60 
+F17 "MIC-IN-7" I R 2550 13450 60 
+F18 "MIC-MUTE-Pi" I L 950 12550 60 
+F19 "PTT-0" I R 2550 12550 60 
+F20 "PTT/MIC-MUTE-COMBI" I L 950 12350 60 
+F21 "MIC-MUTE-0" I R 2550 13350 60 
+F22 "MIC-MUTE-1" I R 2550 13250 60 
+F23 "MIC-MUTE-2" I R 2550 13150 60 
+F24 "MIC-MUTE-3" I R 2550 13050 60 
+F25 "MIC-MUTE-4" I R 2550 12950 60 
+F26 "MIC-MUTE-5" I R 2550 12850 60 
+F27 "MIC-MUTE-6" I R 2550 12750 60 
+F28 "MIC-MUTE-7" I R 2550 12650 60 
+F29 "PTT-1" I R 2550 12450 60 
+F30 "PTT-2" I R 2550 12350 60 
+F31 "PTT-3" I R 2550 12250 60 
+F32 "PTT-4" I R 2550 12150 60 
+F33 "PTT-5" I R 2550 12050 60 
+F34 "PTT-6" I R 2550 11950 60 
+F35 "PTT-7" I R 2550 11850 60 
 $EndSheet
 $Sheet
-S -2050 5600 1400 1000
+S 950  14350 1600 2600
 U 58E9EDEA
 F0 "Device 5 MUX connections" 60
 F1 "dev5-mux-conn.sch" 60
+F2 "LEFT-OUT" O R 2550 14400 60 
+F3 "RIGHT-OUT" O R 2550 14500 60 
+F4 "PTT-Pi" I L 950 14950 60 
+F5 "AUDIO-GROUND" I L 950 15900 60 
+F6 "CLK" I L 950 15800 60 
+F7 "~CS" I L 950 15700 60 
+F8 "DIN" I L 950 15600 60 
+F9 "DOUT" O L 950 15500 60 
+F10 "MIC-IN-0" I R 2550 16900 60 
+F11 "MIC-IN-1" I R 2550 16800 60 
+F12 "MIC-IN-2" I R 2550 16700 60 
+F13 "MIC-IN-3" I R 2550 16600 60 
+F14 "MIC-IN-4" I R 2550 16500 60 
+F15 "MIC-IN-5" I R 2550 16400 60 
+F16 "MIC-IN-6" I R 2550 16300 60 
+F17 "MIC-IN-7" I R 2550 16200 60 
+F18 "MIC-MUTE-Pi" I L 950 15250 60 
+F19 "PTT-0" I R 2550 15300 60 
+F20 "PTT/MIC-MUTE-COMBI" I L 950 15150 60 
+F21 "MIC-MUTE-0" I R 2550 16100 60 
+F22 "MIC-MUTE-1" I R 2550 16000 60 
+F23 "MIC-MUTE-2" I R 2550 15900 60 
+F24 "MIC-MUTE-3" I R 2550 15800 60 
+F25 "MIC-MUTE-4" I R 2550 15700 60 
+F26 "MIC-MUTE-5" I R 2550 15600 60 
+F27 "MIC-MUTE-6" I R 2550 15500 60 
+F28 "MIC-MUTE-7" I R 2550 15400 60 
+F29 "PTT-1" I R 2550 15200 60 
+F30 "PTT-2" I R 2550 15100 60 
+F31 "PTT-3" I R 2550 15000 60 
+F32 "PTT-4" I R 2550 14900 60 
+F33 "PTT-5" I R 2550 14800 60 
+F34 "PTT-6" I R 2550 14700 60 
+F35 "PTT-7" I R 2550 14600 60 
 $EndSheet
 $Sheet
-S -2000 6900 1350 850 
+S 950  17100 1600 2600
 U 58E9EE4D
 F0 "Device 6 MUX connections" 60
 F1 "dev6-mux-conn.sch" 60
+F2 "LEFT-OUT" O R 2550 17150 60 
+F3 "RIGHT-OUT" O R 2550 17250 60 
+F4 "PTT-Pi" I L 950 17650 60 
+F5 "AUDIO-GROUND" I L 950 18650 60 
+F6 "CLK" I L 950 18550 60 
+F7 "~CS" I L 950 18450 60 
+F8 "DIN" I L 950 18350 60 
+F9 "DOUT" O L 950 18250 60 
+F10 "MIC-IN-0" I R 2550 19650 60 
+F11 "MIC-IN-1" I R 2550 19550 60 
+F12 "MIC-IN-2" I R 2550 19450 60 
+F13 "MIC-IN-3" I R 2550 19350 60 
+F14 "MIC-IN-4" I R 2550 19250 60 
+F15 "MIC-IN-5" I R 2550 19150 60 
+F16 "MIC-IN-6" I R 2550 19050 60 
+F17 "MIC-IN-7" I R 2550 18950 60 
+F18 "MIC-MUTE-Pi" I L 950 17950 60 
+F19 "PTT-0" I R 2550 18050 60 
+F20 "PTT/MIC-MUTE-COMBI" I L 950 17850 60 
+F21 "MIC-MUTE-0" I R 2550 18850 60 
+F22 "MIC-MUTE-1" I R 2550 18750 60 
+F23 "MIC-MUTE-2" I R 2550 18650 60 
+F24 "MIC-MUTE-3" I R 2550 18550 60 
+F25 "MIC-MUTE-4" I R 2550 18450 60 
+F26 "MIC-MUTE-5" I R 2550 18350 60 
+F27 "MIC-MUTE-6" I R 2550 18250 60 
+F28 "MIC-MUTE-7" I R 2550 18150 60 
+F29 "PTT-1" I R 2550 17950 60 
+F30 "PTT-2" I R 2550 17850 60 
+F31 "PTT-3" I R 2550 17750 60 
+F32 "PTT-4" I R 2550 17650 60 
+F33 "PTT-5" I R 2550 17550 60 
+F34 "PTT-6" I R 2550 17450 60 
+F35 "PTT-7" I R 2550 17350 60 
 $EndSheet
 $Sheet
-S -2000 8100 1450 1150
+S 950  19850 1600 2600
 U 58E9F030
 F0 "Device 7 MUX connections" 60
 F1 "dev7-mux-conn.sch" 60
+F2 "LEFT-OUT" O R 2550 19900 60 
+F3 "RIGHT-OUT" O R 2550 20000 60 
+F4 "PTT-Pi" I L 950 20400 60 
+F5 "AUDIO-GROUND" I L 950 21400 60 
+F6 "CLK" I L 950 21300 60 
+F7 "~CS" I L 950 21200 60 
+F8 "DIN" I L 950 21100 60 
+F9 "DOUT" O L 950 21000 60 
+F10 "MIC-IN-0" I R 2550 22400 60 
+F11 "MIC-IN-1" I R 2550 22300 60 
+F12 "MIC-IN-2" I R 2550 22200 60 
+F13 "MIC-IN-3" I R 2550 22100 60 
+F14 "MIC-IN-4" I R 2550 22000 60 
+F15 "MIC-IN-5" I R 2550 21900 60 
+F16 "MIC-IN-6" I R 2550 21800 60 
+F17 "MIC-IN-7" I R 2550 21700 60 
+F18 "MIC-MUTE-Pi" I L 950 20700 60 
+F19 "PTT-0" I R 2550 20800 60 
+F20 "PTT/MIC-MUTE-COMBI" I L 950 20800 60 
+F21 "MIC-MUTE-0" I R 2550 21600 60 
+F22 "MIC-MUTE-1" I R 2550 21500 60 
+F23 "MIC-MUTE-2" I R 2550 21400 60 
+F24 "MIC-MUTE-3" I R 2550 21300 60 
+F25 "MIC-MUTE-4" I R 2550 21200 60 
+F26 "MIC-MUTE-5" I R 2550 21100 60 
+F27 "MIC-MUTE-6" I R 2550 21000 60 
+F28 "MIC-MUTE-7" I R 2550 20900 60 
+F29 "PTT-1" I R 2550 20700 60 
+F30 "PTT-2" I R 2550 20600 60 
+F31 "PTT-3" I R 2550 20500 60 
+F32 "PTT-4" I R 2550 20400 60 
+F33 "PTT-5" I R 2550 20300 60 
+F34 "PTT-6" I R 2550 20200 60 
+F35 "PTT-7" I R 2550 20100 60 
 $EndSheet
 Text Notes 3400 -550 0    60   ~ 0
 Serial control of MUXs is daisy chain SPI
+$Sheet
+S 950  600  1600 2600
+U 58E9E25B
+F0 "Device 0 MUX connections" 60
+F1 "dev0-mux-conn.sch" 60
+F2 "LEFT-OUT" O R 2550 650 60 
+F3 "RIGHT-OUT" O R 2550 750 60 
+F4 "PTT-Pi" I L 950 1200 60 
+F5 "AUDIO-GROUND" I L 950 2050 60 
+F6 "CLK" I L 950 1950 60 
+F7 "~CS" I L 950 1850 60 
+F8 "DIN" I L 950 1750 60 
+F9 "DOUT" O L 950 1650 60 
+F10 "MIC-IN-0" I R 2550 3150 60 
+F11 "MIC-IN-1" I R 2550 3050 60 
+F12 "MIC-IN-2" I R 2550 2950 60 
+F13 "MIC-IN-3" I R 2550 2850 60 
+F14 "MIC-IN-4" I R 2550 2750 60 
+F15 "MIC-IN-5" I R 2550 2650 60 
+F16 "MIC-IN-6" I R 2550 2550 60 
+F17 "MIC-IN-7" I R 2550 2450 60 
+F18 "MIC-MUTE-Pi" I L 950 1400 60 
+F19 "PTT-0" I R 2550 1550 60 
+F20 "PTT/MIC-MUTE-COMBI" I L 950 1300 60 
+F21 "MIC-MUTE-0" I R 2550 2350 60 
+F22 "MIC-MUTE-1" I R 2550 2250 60 
+F23 "MIC-MUTE-2" I R 2550 2150 60 
+F24 "MIC-MUTE-3" I R 2550 2050 60 
+F25 "MIC-MUTE-4" I R 2550 1950 60 
+F26 "MIC-MUTE-5" I R 2550 1850 60 
+F27 "MIC-MUTE-6" I R 2550 1750 60 
+F28 "MIC-MUTE-7" I R 2550 1650 60 
+F29 "PTT-1" I R 2550 1450 60 
+F30 "PTT-2" I R 2550 1350 60 
+F31 "PTT-3" I R 2550 1250 60 
+F32 "PTT-4" I R 2550 1150 60 
+F33 "PTT-5" I R 2550 1050 60 
+F34 "PTT-6" I R 2550 950 60 
+F35 "PTT-7" I R 2550 850 60 
+$EndSheet
+Wire Wire Line
+	4250 22750 4250 22550
+Wire Wire Line
+	4250 22550 4550 22550
+Wire Wire Line
+	4550 22550 4850 22550
+Wire Wire Line
+	4850 22550 5150 22550
+Wire Wire Line
+	5150 22550 5450 22550
+Wire Wire Line
+	5450 22550 5750 22550
+Wire Wire Line
+	5750 22550 6050 22550
+Wire Wire Line
+	6050 22550 6350 22550
+Wire Wire Line
+	6350 22550 6450 22550
+Wire Wire Line
+	6450 22550 6700 22550
+Wire Wire Line
+	6700 22550 6800 22550
+Wire Wire Line
+	4850 22750 4850 22550
+Connection ~ 4250 22550
+Wire Wire Line
+	5450 22750 5450 22550
+Connection ~ 4850 22550
+Wire Wire Line
+	6050 22750 6050 22550
+Connection ~ 5450 22550
+Wire Wire Line
+	4550 22750 4550 22550
+Connection ~ 4550 22550
+Wire Wire Line
+	5150 22750 5150 22550
+Connection ~ 5150 22550
+Wire Wire Line
+	5750 22750 5750 22550
+Connection ~ 5750 22550
+Wire Wire Line
+	6350 22550 6350 22750
+Connection ~ 6050 22550
+Wire Wire Line
+	6800 22550 6800 22600
+Connection ~ 6350 22550
+Wire Wire Line
+	6700 22550 6700 23350
+Connection ~ 6700 22550
+Wire Wire Line
+	4050 20000 4050 22750
+Wire Wire Line
+	4150 19900 4150 22750
+Wire Wire Line
+	4450 17150 4450 22750
+Wire Wire Line
+	4350 17250 4350 22750
+Wire Wire Line
+	4750 14400 4750 22750
+Wire Wire Line
+	4650 14500 4650 22750
+Wire Wire Line
+	5050 11650 5050 22750
+Wire Wire Line
+	4950 11750 4950 22750
+Wire Wire Line
+	5350 8900 5350 22750
+Wire Wire Line
+	5250 9000 5250 22750
+Wire Wire Line
+	5650 6150 5650 22750
+Wire Wire Line
+	5550 6250 5550 22750
+Wire Wire Line
+	5950 3400 5950 22750
+Wire Wire Line
+	5850 3500 5850 22750
+Wire Wire Line
+	6250 650  6250 22750
+Wire Wire Line
+	6150 750  6150 22750
+Wire Wire Line
+	6450 22750 6450 22550
+Connection ~ 6450 22550
+Wire Wire Line
+	4050 20000 2550 20000
+Wire Wire Line
+	4150 19900 2550 19900
+Wire Wire Line
+	4350 17250 2550 17250
+Wire Wire Line
+	2550 17150 4450 17150
+Wire Wire Line
+	4650 14500 2550 14500
+Wire Wire Line
+	4750 14400 2550 14400
+Wire Wire Line
+	2550 11750 4950 11750
+Wire Wire Line
+	5050 11650 2550 11650
+Wire Wire Line
+	2550 9000 5250 9000
+Wire Wire Line
+	5350 8900 2550 8900
+Wire Wire Line
+	2550 6250 5550 6250
+Wire Wire Line
+	5650 6150 2550 6150
+Wire Wire Line
+	2550 3500 5850 3500
+Wire Wire Line
+	5950 3400 2550 3400
+Wire Wire Line
+	2550 750  6150 750 
+Wire Wire Line
+	6250 650  2550 650 
+Wire Wire Line
+	2550 3150 2600 3150
+Wire Wire Line
+	2600 3150 2600 5900
+Wire Wire Line
+	2600 5900 2600 8650
+Wire Wire Line
+	2600 8650 2600 11400
+Wire Wire Line
+	2600 11400 2600 14150
+Wire Wire Line
+	2600 14150 2600 16900
+Wire Wire Line
+	2600 16900 2600 19650
+Wire Wire Line
+	2600 19650 2600 22400
+Wire Wire Line
+	2600 5900 2550 5900
+Wire Wire Line
+	2600 8650 2550 8650
+Connection ~ 2600 5900
+Wire Wire Line
+	2600 11400 2550 11400
+Connection ~ 2600 8650
+Wire Wire Line
+	2600 14150 2550 14150
+Connection ~ 2600 11400
+Wire Wire Line
+	2600 16900 2550 16900
+Connection ~ 2600 14150
+Wire Wire Line
+	2600 19650 2550 19650
+Connection ~ 2600 16900
+Wire Wire Line
+	2600 22400 2550 22400
+Connection ~ 2600 19650
+Wire Wire Line
+	2650 22300 2550 22300
+Wire Wire Line
+	2650 3050 2650 5800
+Wire Wire Line
+	2650 5800 2650 8550
+Wire Wire Line
+	2650 8550 2650 11300
+Wire Wire Line
+	2650 11300 2650 14050
+Wire Wire Line
+	2650 14050 2650 16800
+Wire Wire Line
+	2650 16800 2650 19550
+Wire Wire Line
+	2650 19550 2650 22300
+Wire Wire Line
+	2650 3050 2550 3050
+Wire Wire Line
+	2550 2950 2700 2950
+Wire Wire Line
+	2700 2950 2700 5700
+Wire Wire Line
+	2700 5700 2700 8450
+Wire Wire Line
+	2700 8450 2700 11200
+Wire Wire Line
+	2700 11200 2700 13950
+Wire Wire Line
+	2700 13950 2700 16700
+Wire Wire Line
+	2700 16700 2700 19450
+Wire Wire Line
+	2700 19450 2700 22200
+Wire Wire Line
+	2700 22200 2550 22200
+Wire Wire Line
+	2750 22100 2550 22100
+Wire Wire Line
+	2750 2850 2750 5600
+Wire Wire Line
+	2750 5600 2750 8350
+Wire Wire Line
+	2750 8350 2750 11100
+Wire Wire Line
+	2750 11100 2750 13850
+Wire Wire Line
+	2750 13850 2750 16600
+Wire Wire Line
+	2750 16600 2750 19350
+Wire Wire Line
+	2750 19350 2750 22100
+Wire Wire Line
+	2750 2850 2550 2850
+Wire Wire Line
+	2550 2750 2800 2750
+Wire Wire Line
+	2800 2750 2800 5500
+Wire Wire Line
+	2800 5500 2800 8250
+Wire Wire Line
+	2800 8250 2800 11000
+Wire Wire Line
+	2800 11000 2800 13750
+Wire Wire Line
+	2800 13750 2800 16500
+Wire Wire Line
+	2800 16500 2800 19250
+Wire Wire Line
+	2800 19250 2800 22000
+Wire Wire Line
+	2800 22000 2550 22000
+Wire Wire Line
+	2850 21900 2550 21900
+Wire Wire Line
+	2850 2650 2850 5400
+Wire Wire Line
+	2850 5400 2850 8150
+Wire Wire Line
+	2850 8150 2850 10900
+Wire Wire Line
+	2850 10900 2850 13650
+Wire Wire Line
+	2850 13650 2850 16400
+Wire Wire Line
+	2850 16400 2850 19150
+Wire Wire Line
+	2850 19150 2850 21900
+Wire Wire Line
+	2850 2650 2550 2650
+Wire Wire Line
+	2900 21800 2550 21800
+Wire Wire Line
+	2900 2550 2900 5300
+Wire Wire Line
+	2900 5300 2900 8050
+Wire Wire Line
+	2900 8050 2900 10800
+Wire Wire Line
+	2900 10800 2900 13550
+Wire Wire Line
+	2900 13550 2900 16300
+Wire Wire Line
+	2900 16300 2900 19050
+Wire Wire Line
+	2900 19050 2900 21800
+Wire Wire Line
+	2900 2550 2550 2550
+Wire Wire Line
+	2550 2450 2950 2450
+Wire Wire Line
+	2950 2450 2950 5200
+Wire Wire Line
+	2950 5200 2950 7950
+Wire Wire Line
+	2950 7950 2950 10700
+Wire Wire Line
+	2950 10700 2950 13450
+Wire Wire Line
+	2950 13450 2950 16200
+Wire Wire Line
+	2950 16200 2950 18950
+Wire Wire Line
+	2950 18950 2950 21700
+Wire Wire Line
+	2950 21700 2550 21700
+Wire Wire Line
+	2550 19550 2650 19550
+Connection ~ 2650 19550
+Wire Wire Line
+	2550 19450 2700 19450
+Connection ~ 2700 19450
+Wire Wire Line
+	2550 19350 2750 19350
+Connection ~ 2750 19350
+Wire Wire Line
+	2550 19250 2800 19250
+Connection ~ 2800 19250
+Wire Wire Line
+	2550 19150 2850 19150
+Connection ~ 2850 19150
+Wire Wire Line
+	2550 19050 2900 19050
+Wire Wire Line
+	2900 19050 2900 19050
+Connection ~ 2900 19050
+Wire Wire Line
+	2550 18950 2950 18950
+Connection ~ 2950 18950
+Wire Wire Line
+	2550 21600 3000 21600
+Wire Wire Line
+	3000 21600 3000 18850
+Wire Wire Line
+	3000 18850 3000 16100
+Wire Wire Line
+	3000 16100 3000 13350
+Wire Wire Line
+	3000 13350 3000 10600
+Wire Wire Line
+	3000 10600 3000 7850
+Wire Wire Line
+	3000 7850 3000 5100
+Wire Wire Line
+	3000 5100 3000 2350
+Wire Wire Line
+	3000 2350 2550 2350
+Wire Wire Line
+	2550 2250 3050 2250
+Wire Wire Line
+	3050 2250 3050 5000
+Wire Wire Line
+	3050 5000 3050 7750
+Wire Wire Line
+	3050 7750 3050 10500
+Wire Wire Line
+	3050 10500 3050 13250
+Wire Wire Line
+	3050 13250 3050 16000
+Wire Wire Line
+	3050 16000 3050 18750
+Wire Wire Line
+	3050 18750 3050 21500
+Wire Wire Line
+	3050 21500 2550 21500
+Wire Wire Line
+	2550 21400 3100 21400
+Wire Wire Line
+	3100 21400 3100 18650
+Wire Wire Line
+	3100 18650 3100 15900
+Wire Wire Line
+	3100 15900 3100 13150
+Wire Wire Line
+	3100 13150 3100 10400
+Wire Wire Line
+	3100 10400 3100 7650
+Wire Wire Line
+	3100 7650 3100 4900
+Wire Wire Line
+	3100 4900 3100 2150
+Wire Wire Line
+	3100 2150 2550 2150
+Wire Wire Line
+	2550 2050 3150 2050
+Wire Wire Line
+	3150 2050 3150 4800
+Wire Wire Line
+	3150 4800 3150 7550
+Wire Wire Line
+	3150 7550 3150 10300
+Wire Wire Line
+	3150 10300 3150 13050
+Wire Wire Line
+	3150 13050 3150 15800
+Wire Wire Line
+	3150 15800 3150 18550
+Wire Wire Line
+	3150 18550 3150 21300
+Wire Wire Line
+	3150 21300 2550 21300
+Wire Wire Line
+	2550 21200 3200 21200
+Wire Wire Line
+	3200 21200 3200 18450
+Wire Wire Line
+	3200 18450 3200 15700
+Wire Wire Line
+	3200 15700 3200 12950
+Wire Wire Line
+	3200 12950 3200 10200
+Wire Wire Line
+	3200 10200 3200 7450
+Wire Wire Line
+	3200 7450 3200 4700
+Wire Wire Line
+	3200 4700 3200 1950
+Wire Wire Line
+	3200 1950 2550 1950
+Wire Wire Line
+	2550 1850 3250 1850
+Wire Wire Line
+	3250 1850 3250 4600
+Wire Wire Line
+	3250 4600 3250 7350
+Wire Wire Line
+	3250 7350 3250 10100
+Wire Wire Line
+	3250 10100 3250 12850
+Wire Wire Line
+	3250 12850 3250 15600
+Wire Wire Line
+	3250 15600 3250 18350
+Wire Wire Line
+	3250 18350 3250 21100
+Wire Wire Line
+	3250 21100 2550 21100
+Wire Wire Line
+	2550 21000 3300 21000
+Wire Wire Line
+	3300 21000 3300 18250
+Wire Wire Line
+	3300 18250 3300 15500
+Wire Wire Line
+	3300 15500 3300 12750
+Wire Wire Line
+	3300 12750 3300 10000
+Wire Wire Line
+	3300 10000 3300 7250
+Wire Wire Line
+	3300 7250 3300 4500
+Wire Wire Line
+	3300 4500 3300 1750
+Wire Wire Line
+	3300 1750 2550 1750
+Wire Wire Line
+	2550 1650 3350 1650
+Wire Wire Line
+	3350 1650 3350 4400
+Wire Wire Line
+	3350 4400 3350 7150
+Wire Wire Line
+	3350 7150 3350 9900
+Wire Wire Line
+	3350 9900 3350 12650
+Wire Wire Line
+	3350 12650 3350 15400
+Wire Wire Line
+	3350 15400 3350 18150
+Wire Wire Line
+	3350 18150 3350 20900
+Wire Wire Line
+	3350 20900 2550 20900
+Wire Wire Line
+	2550 20800 3400 20800
+Wire Wire Line
+	3400 20800 3400 18050
+Wire Wire Line
+	3400 18050 3400 15300
+Wire Wire Line
+	3400 15300 3400 12550
+Wire Wire Line
+	3400 12550 3400 9800
+Wire Wire Line
+	3400 9800 3400 7050
+Wire Wire Line
+	3400 7050 3400 4300
+Wire Wire Line
+	3400 4300 3400 1550
+Wire Wire Line
+	3400 1550 2550 1550
+Wire Wire Line
+	2550 1450 3450 1450
+Wire Wire Line
+	3450 1450 3450 4200
+Wire Wire Line
+	3450 4200 3450 6950
+Wire Wire Line
+	3450 6950 3450 9700
+Wire Wire Line
+	3450 9700 3450 12450
+Wire Wire Line
+	3450 12450 3450 15200
+Wire Wire Line
+	3450 15200 3450 17950
+Wire Wire Line
+	3450 17950 3450 20700
+Wire Wire Line
+	3450 20700 2550 20700
+Wire Wire Line
+	2550 20600 3500 20600
+Wire Wire Line
+	3500 20600 3500 17850
+Wire Wire Line
+	3500 17850 3500 15100
+Wire Wire Line
+	3500 15100 3500 12350
+Wire Wire Line
+	3500 12350 3500 9600
+Wire Wire Line
+	3500 9600 3500 6850
+Wire Wire Line
+	3500 6850 3500 4100
+Wire Wire Line
+	3500 4100 3500 1350
+Wire Wire Line
+	3500 1350 2550 1350
+Wire Wire Line
+	2550 1250 3550 1250
+Wire Wire Line
+	3550 1250 3550 4000
+Wire Wire Line
+	3550 4000 3550 6750
+Wire Wire Line
+	3550 6750 3550 9500
+Wire Wire Line
+	3550 9500 3550 12250
+Wire Wire Line
+	3550 12250 3550 15000
+Wire Wire Line
+	3550 15000 3550 17750
+Wire Wire Line
+	3550 17750 3550 20500
+Wire Wire Line
+	3550 20500 2550 20500
+Wire Wire Line
+	2550 20400 3600 20400
+Wire Wire Line
+	3600 20400 3600 17650
+Wire Wire Line
+	3600 17650 3600 14900
+Wire Wire Line
+	3600 14900 3600 12150
+Wire Wire Line
+	3600 12150 3600 9400
+Wire Wire Line
+	3600 9400 3600 6650
+Wire Wire Line
+	3600 6650 3600 3900
+Wire Wire Line
+	3600 3900 3600 1150
+Wire Wire Line
+	3600 1150 2550 1150
+Wire Wire Line
+	2550 20300 3650 20300
+Wire Wire Line
+	3650 20300 3650 17550
+Wire Wire Line
+	3650 17550 3650 14800
+Wire Wire Line
+	3650 14800 3650 12050
+Wire Wire Line
+	3650 12050 3650 9300
+Wire Wire Line
+	3650 9300 3650 6550
+Wire Wire Line
+	3650 6550 3650 3800
+Wire Wire Line
+	3650 3800 3650 1050
+Wire Wire Line
+	3650 1050 2550 1050
+Wire Wire Line
+	2550 950  3700 950 
+Wire Wire Line
+	3700 950  3700 3700
+Wire Wire Line
+	3700 3700 3700 6450
+Wire Wire Line
+	3700 6450 3700 9200
+Wire Wire Line
+	3700 9200 3700 11950
+Wire Wire Line
+	3700 11950 3700 14700
+Wire Wire Line
+	3700 14700 3700 17450
+Wire Wire Line
+	3700 17450 3700 20200
+Wire Wire Line
+	3700 20200 2550 20200
+Wire Wire Line
+	2550 20100 3750 20100
+Wire Wire Line
+	3750 20100 3750 17350
+Wire Wire Line
+	3750 17350 3750 14600
+Wire Wire Line
+	3750 14600 3750 11850
+Wire Wire Line
+	3750 11850 3750 9100
+Wire Wire Line
+	3750 9100 3750 6350
+Wire Wire Line
+	3750 6350 3750 3600
+Wire Wire Line
+	3750 3600 3750 850 
+Wire Wire Line
+	3750 850  2550 850 
+Wire Wire Line
+	2550 3600 3750 3600
+Connection ~ 3750 3600
+Wire Wire Line
+	2550 3700 3700 3700
+Connection ~ 3700 3700
+Wire Wire Line
+	2550 3800 3650 3800
+Connection ~ 3650 3800
+Wire Wire Line
+	2550 3900 3600 3900
+Connection ~ 3600 3900
+Wire Wire Line
+	2550 4000 3550 4000
+Connection ~ 3550 4000
+Wire Wire Line
+	2550 4100 3500 4100
+Connection ~ 3500 4100
+Wire Wire Line
+	2550 4200 3450 4200
+Connection ~ 3450 4200
+Wire Wire Line
+	2550 4300 3400 4300
+Connection ~ 3400 4300
+Wire Wire Line
+	2550 4400 3350 4400
+Connection ~ 3350 4400
+Wire Wire Line
+	2550 4500 3300 4500
+Connection ~ 3300 4500
+Wire Wire Line
+	2550 4600 3250 4600
+Connection ~ 3250 4600
+Wire Wire Line
+	2550 4700 3200 4700
+Connection ~ 3200 4700
+Wire Wire Line
+	2550 4800 3150 4800
+Connection ~ 3150 4800
+Wire Wire Line
+	2550 4900 3100 4900
+Connection ~ 3100 4900
+Wire Wire Line
+	2550 5000 3050 5000
+Connection ~ 3050 5000
+Wire Wire Line
+	2550 5100 3000 5100
+Connection ~ 3000 5100
+Wire Wire Line
+	2550 5200 2950 5200
+Connection ~ 2950 5200
+Wire Wire Line
+	2550 5300 2900 5300
+Connection ~ 2900 5300
+Wire Wire Line
+	2550 5400 2850 5400
+Connection ~ 2850 5400
+Wire Wire Line
+	2550 5500 2800 5500
+Connection ~ 2800 5500
+Wire Wire Line
+	2550 5600 2750 5600
+Connection ~ 2750 5600
+Wire Wire Line
+	2550 5700 2700 5700
+Connection ~ 2700 5700
+Wire Wire Line
+	2550 5800 2650 5800
+Connection ~ 2650 5800
+Wire Wire Line
+	2550 6350 3750 6350
+Connection ~ 3750 6350
+Wire Wire Line
+	2550 6450 3700 6450
+Connection ~ 3700 6450
+Wire Wire Line
+	2550 6550 3650 6550
+Connection ~ 3650 6550
+Wire Wire Line
+	2550 6650 3600 6650
+Connection ~ 3600 6650
+Wire Wire Line
+	2550 6750 3550 6750
+Connection ~ 3550 6750
+Wire Wire Line
+	2550 6850 3500 6850
+Connection ~ 3500 6850
+Wire Wire Line
+	2550 6950 3450 6950
+Connection ~ 3450 6950
+Wire Wire Line
+	2550 7050 3400 7050
+Connection ~ 3400 7050
+Wire Wire Line
+	2550 7150 3350 7150
+Connection ~ 3350 7150
+Wire Wire Line
+	2550 7250 3300 7250
+Connection ~ 3300 7250
+Wire Wire Line
+	2550 7350 3250 7350
+Connection ~ 3250 7350
+Wire Wire Line
+	2550 7450 3200 7450
+Connection ~ 3200 7450
+Wire Wire Line
+	2550 7550 3150 7550
+Connection ~ 3150 7550
+Wire Wire Line
+	2550 7650 3100 7650
+Connection ~ 3100 7650
+Wire Wire Line
+	2550 7750 3050 7750
+Connection ~ 3050 7750
+Wire Wire Line
+	2550 7850 3000 7850
+Connection ~ 3000 7850
+Wire Wire Line
+	2550 7950 2950 7950
+Connection ~ 2950 7950
+Wire Wire Line
+	2550 8050 2900 8050
+Connection ~ 2900 8050
+Wire Wire Line
+	2550 8150 2850 8150
+Connection ~ 2850 8150
+Wire Wire Line
+	2550 8250 2800 8250
+Connection ~ 2800 8250
+Wire Wire Line
+	2550 8350 2750 8350
+Connection ~ 2750 8350
+Wire Wire Line
+	2550 8450 2700 8450
+Connection ~ 2700 8450
+Wire Wire Line
+	2550 8550 2650 8550
+Connection ~ 2650 8550
+Wire Wire Line
+	2550 9100 3750 9100
+Connection ~ 3750 9100
+Wire Wire Line
+	2550 9200 3700 9200
+Connection ~ 3700 9200
+Wire Wire Line
+	2550 9300 3650 9300
+Connection ~ 3650 9300
+Wire Wire Line
+	2550 9400 3600 9400
+Connection ~ 3600 9400
+Wire Wire Line
+	2550 9500 3550 9500
+Connection ~ 3550 9500
+Wire Wire Line
+	2550 9600 3500 9600
+Connection ~ 3500 9600
+Wire Wire Line
+	2550 9700 3450 9700
+Connection ~ 3450 9700
+Wire Wire Line
+	2550 9800 3400 9800
+Connection ~ 3400 9800
+Wire Wire Line
+	2550 9900 3350 9900
+Connection ~ 3350 9900
+Wire Wire Line
+	2550 10000 3300 10000
+Connection ~ 3300 10000
+Wire Wire Line
+	2550 10100 3250 10100
+Connection ~ 3250 10100
+Wire Wire Line
+	2550 10200 3200 10200
+Connection ~ 3200 10200
+Wire Wire Line
+	2550 10300 3150 10300
+Connection ~ 3150 10300
+Wire Wire Line
+	2550 10400 3100 10400
+Connection ~ 3100 10400
+Wire Wire Line
+	2550 10500 3050 10500
+Connection ~ 3050 10500
+Wire Wire Line
+	2550 10600 3000 10600
+Connection ~ 3000 10600
+Wire Wire Line
+	2550 10700 2950 10700
+Connection ~ 2950 10700
+Wire Wire Line
+	2550 10800 2900 10800
+Connection ~ 2900 10800
+Wire Wire Line
+	2550 10900 2850 10900
+Connection ~ 2850 10900
+Wire Wire Line
+	2550 11000 2800 11000
+Connection ~ 2800 11000
+Wire Wire Line
+	2550 11100 2750 11100
+Connection ~ 2750 11100
+Wire Wire Line
+	2550 11200 2700 11200
+Connection ~ 2700 11200
+Wire Wire Line
+	2550 11300 2650 11300
+Connection ~ 2650 11300
+Wire Wire Line
+	2550 11850 3750 11850
+Connection ~ 3750 11850
+Wire Wire Line
+	2550 11950 3700 11950
+Connection ~ 3700 11950
+Wire Wire Line
+	2550 12050 3650 12050
+Connection ~ 3650 12050
+Wire Wire Line
+	2550 12150 3600 12150
+Connection ~ 3600 12150
+Wire Wire Line
+	2550 12250 3550 12250
+Connection ~ 3550 12250
+Wire Wire Line
+	2550 12350 3500 12350
+Connection ~ 3500 12350
+Wire Wire Line
+	2550 12450 3450 12450
+Connection ~ 3450 12450
+Wire Wire Line
+	2550 12550 3400 12550
+Connection ~ 3400 12550
+Wire Wire Line
+	2550 12650 3350 12650
+Connection ~ 3350 12650
+Wire Wire Line
+	2550 12750 3300 12750
+Connection ~ 3300 12750
+Wire Wire Line
+	2550 12850 3250 12850
+Connection ~ 3250 12850
+Wire Wire Line
+	2550 12950 3200 12950
+Connection ~ 3200 12950
+Wire Wire Line
+	2550 13050 3150 13050
+Connection ~ 3150 13050
+Wire Wire Line
+	2550 13150 3100 13150
+Connection ~ 3100 13150
+Wire Wire Line
+	2550 13250 3050 13250
+Connection ~ 3050 13250
+Wire Wire Line
+	2550 13350 3000 13350
+Connection ~ 3000 13350
+Wire Wire Line
+	2550 13450 2950 13450
+Connection ~ 2950 13450
+Wire Wire Line
+	2550 13550 2900 13550
+Connection ~ 2900 13550
+Wire Wire Line
+	2550 13650 2850 13650
+Connection ~ 2850 13650
+Wire Wire Line
+	2550 13750 2800 13750
+Connection ~ 2800 13750
+Wire Wire Line
+	2550 13850 2750 13850
+Connection ~ 2750 13850
+Wire Wire Line
+	2550 13950 2700 13950
+Connection ~ 2700 13950
+Wire Wire Line
+	2550 14050 2650 14050
+Connection ~ 2650 14050
+Wire Wire Line
+	2550 14600 3750 14600
+Connection ~ 3750 14600
+Wire Wire Line
+	2550 14700 3700 14700
+Connection ~ 3700 14700
+Wire Wire Line
+	2550 14800 3650 14800
+Connection ~ 3650 14800
+Wire Wire Line
+	2550 14900 3600 14900
+Connection ~ 3600 14900
+Wire Wire Line
+	2550 15000 3550 15000
+Connection ~ 3550 15000
+Wire Wire Line
+	2550 15100 3500 15100
+Connection ~ 3500 15100
+Wire Wire Line
+	2550 15200 3450 15200
+Connection ~ 3450 15200
+Wire Wire Line
+	2550 15300 3400 15300
+Connection ~ 3400 15300
+Wire Wire Line
+	2550 15400 3350 15400
+Connection ~ 3350 15400
+Wire Wire Line
+	2550 15500 3300 15500
+Connection ~ 3300 15500
+Wire Wire Line
+	2550 15600 3250 15600
+Connection ~ 3250 15600
+Wire Wire Line
+	2550 15700 3200 15700
+Connection ~ 3200 15700
+Wire Wire Line
+	2550 15800 3150 15800
+Connection ~ 3150 15800
+Wire Wire Line
+	2550 15900 3100 15900
+Connection ~ 3100 15900
+Wire Wire Line
+	2550 16000 3050 16000
+Connection ~ 3050 16000
+Wire Wire Line
+	2550 16100 3000 16100
+Connection ~ 3000 16100
+Wire Wire Line
+	2550 16200 2950 16200
+Connection ~ 2950 16200
+Wire Wire Line
+	2550 16300 2900 16300
+Connection ~ 2900 16300
+Wire Wire Line
+	2550 16400 2850 16400
+Connection ~ 2850 16400
+Wire Wire Line
+	2550 16500 2800 16500
+Connection ~ 2800 16500
+Wire Wire Line
+	2550 16600 2750 16600
+Connection ~ 2750 16600
+Wire Wire Line
+	2550 16700 2700 16700
+Connection ~ 2700 16700
+Wire Wire Line
+	2550 16800 2650 16800
+Connection ~ 2650 16800
+Wire Wire Line
+	2550 17350 3750 17350
+Connection ~ 3750 17350
+Wire Wire Line
+	2550 17450 3700 17450
+Connection ~ 3700 17450
+Wire Wire Line
+	2550 17550 3650 17550
+Connection ~ 3650 17550
+Wire Wire Line
+	2550 17650 3600 17650
+Connection ~ 3600 17650
+Wire Wire Line
+	2550 17750 3550 17750
+Connection ~ 3550 17750
+Wire Wire Line
+	2550 17850 3500 17850
+Connection ~ 3500 17850
+Wire Wire Line
+	2550 17950 3450 17950
+Connection ~ 3450 17950
+Wire Wire Line
+	2550 18050 3400 18050
+Connection ~ 3400 18050
+Wire Wire Line
+	2550 18150 3350 18150
+Connection ~ 3350 18150
+Wire Wire Line
+	2550 18250 3300 18250
+Connection ~ 3300 18250
+Wire Wire Line
+	2550 18350 3250 18350
+Connection ~ 3250 18350
+Wire Wire Line
+	2550 18450 3200 18450
+Connection ~ 3200 18450
+Wire Wire Line
+	2550 18550 3150 18550
+Connection ~ 3150 18550
+Wire Wire Line
+	2550 18650 3100 18650
+Connection ~ 3100 18650
+Wire Wire Line
+	2550 18750 3050 18750
+Connection ~ 3050 18750
+Wire Wire Line
+	2550 18850 3000 18850
+Connection ~ 3000 18850
 $EndSCHEMATC
