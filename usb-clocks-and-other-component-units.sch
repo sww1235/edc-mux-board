@@ -39,6 +39,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:SW-HALO
+LIBS:SW-Fairchild-On-Semi
 LIBS:edc-mux-board-cache
 EELAYER 25 0
 EELAYER END

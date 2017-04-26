@@ -1,4 +1,4 @@
-update=Tuesday, April 25, 2017 'PMt' 04:44:32 PM
+update=Wednesday, April 26, 2017 'PMt' 03:42:19 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,4 @@ LibName37=atmel
 LibName38=contrib
 LibName39=valves
 LibName40=SW-HALO
+LibName41=SW-Fairchild-On-Semi
