@@ -1,5 +1,15 @@
 EESchema Schematic File Version 2
 LIBS:power
+LIBS:SW-con
+LIBS:SW-power
+LIBS:SW-Linear
+LIBS:SW-gTransistors
+LIBS:SW-Winbond
+LIBS:SW-Microchip
+LIBS:SW-Passives
+LIBS:SW-dallas-semi-maxim
+LIBS:SW-Texas
+LIBS:SW-RaspberryPi-Headers
 LIBS:device
 LIBS:transistors
 LIBS:conn
@@ -28,19 +38,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:SW-RaspberryPi-Headers
-LIBS:SW-Texas
-LIBS:SW-dallas-semi-maxim
-LIBS:SW-Passives
-LIBS:SW-con
-LIBS:SW-power
-LIBS:SW-Linear
+LIBS:SW-HALO
 LIBS:edc-mux-board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 13
+Sheet 12 24
 Title ""
 Date ""
 Rev ""
@@ -148,4 +152,10 @@ F 6 "Raspberry Pi Foundation" H 5450 10850 60  0001 C CNN "Manufacturer"
 	14   5450 5950
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 8650 750  2150 1600
+U 5903AB75
+F0 "USB Ethernet" 60
+F1 "usb-ethernet.sch" 60
+$EndSheet
 $EndSCHEMATC

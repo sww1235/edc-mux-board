@@ -36,3 +36,4 @@ via the [mixer](https://github.com/sww1235/portable-line-mixer).
 -   <http://electronics.stackexchange.com/questions/38452/electronic-aspects-of-iphone-3-5mm-audio-output>
 -   <http://www.echoireland.com/Interface/PTT_to_Computer_Information.pdf>
 -   <http://electronics.stackexchange.com/questions/22486/help-with-ptt-circuit-for-icom-radio>
+-   <http://electronics.stackexchange.com/questions/176442/what-is-the-wiring-for-a-pull-down-resistor-on-the-or-gate>
