@@ -9,6 +9,10 @@ scripting support, android app based control, as well as integrating additional
 physical control panels. Will also potentially allow for audio priority ducking
 via the [mixer](https://github.com/sww1235/portable-line-mixer).
 
+## TODO
+
+-   review capacitor sizing for LAN9514 PLL caps, look at RPi schematic
+
 ## References
 
 -   <http://www.epanorama.net/circuits/line_to_mic.html>
