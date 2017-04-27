@@ -40,6 +40,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:SW-HALO
 LIBS:SW-Fairchild-On-Semi
+LIBS:SW-Diodes-Inc
 LIBS:edc-mux-board-cache
 EELAYER 25 0
 EELAYER END
@@ -517,15 +518,15 @@ $EndComp
 $Comp
 L ESD7484 U?
 U 1 1 591189BB
-P 2450 700
-F 0 "U?" H 2150 350 60  0000 C CNN
-F 1 "ESD7484" H 2300 950 60  0000 C CNN
-F 2 "" H 2450 700 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD7484-D.PDF" H 2950 1450 60  0001 C CNN
-F 4 "0.00@0" H 2550 1600 60  0001 C CNN "Pricing"
-F 5 "4-Line Ultra-Large Bandwidth ESD Protection" H 2750 1250 60  0001 C CNN "Description"
-F 6 "Fairchild/ON Semiconductor" H 2650 1350 60  0001 C CNN "Manufacturer"
-	1    2450 700 
+P 2450 850
+F 0 "U?" H 2150 500 60  0000 C CNN
+F 1 "ESD7484" H 2300 1100 60  0000 C CNN
+F 2 "" H 2450 850 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD7484-D.PDF" H 2950 1600 60  0001 C CNN
+F 4 "0.00@0" H 2550 1750 60  0001 C CNN "Pricing"
+F 5 "4-Line Ultra-Large Bandwidth ESD Protection" H 2750 1400 60  0001 C CNN "Description"
+F 6 "Fairchild/ON Semiconductor" H 2650 1500 60  0001 C CNN "Manufacturer"
+	1    2450 850 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -581,39 +582,39 @@ Wire Wire Line
 Wire Wire Line
 	1600 1150 1600 550 
 Wire Wire Line
-	1600 550  1900 550 
+	1600 550  1900 700 
 Wire Wire Line
 	1500 1250 1650 1250
 Wire Wire Line
 	1650 1250 1650 650 
 Wire Wire Line
-	1650 650  1900 650 
+	1650 650  1900 800 
 Wire Wire Line
 	1500 1350 1700 1350
 Wire Wire Line
 	1700 1350 1700 750 
 Wire Wire Line
-	1700 750  1900 750 
+	1700 750  1900 900 
 Wire Wire Line
 	1500 1450 1750 1450
 Wire Wire Line
 	1750 1450 1750 850 
 Wire Wire Line
-	1750 850  1900 850 
+	1750 850  1900 1000
 Wire Wire Line
-	2950 550  3250 550 
+	2950 700  3250 550 
 Wire Wire Line
 	3250 550  3250 1150
 Wire Wire Line
 	3250 1150 3750 1150
 Wire Wire Line
-	2950 650  3200 650 
+	2950 800  3200 650 
 Wire Wire Line
 	3200 650  3200 1250
 Wire Wire Line
 	3200 1250 3750 1250
 Wire Wire Line
-	2950 750  3150 750 
+	2950 900  3150 750 
 Wire Wire Line
 	3150 750  3150 1350
 Wire Wire Line
@@ -623,5 +624,5 @@ Wire Wire Line
 Wire Wire Line
 	3100 1450 3100 850 
 Wire Wire Line
-	3100 850  2950 850 
+	3100 850  2950 1000
 $EndSCHEMATC
