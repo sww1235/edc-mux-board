@@ -99,9 +99,7 @@ $EndComp
 Wire Wire Line
 	2550 2300 3100 2300
 Wire Wire Line
-	2550 1550 2550 1900
-Wire Wire Line
-	2550 1900 2550 2300
+	2550 1550 2550 2300
 Wire Wire Line
 	2550 1900 2650 1900
 Wire Wire Line
@@ -125,9 +123,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 2250 3950 1800
 Wire Wire Line
-	3750 1800 3950 1800
-Wire Wire Line
-	3950 1800 4250 1800
+	3750 1800 4250 1800
 Text Notes 2000 2550 0    60   ~ 0
 USB C SPI Flash
 $Comp
@@ -142,13 +138,7 @@ F 3 "" H 4600 1750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4800 1400 4800 1550
-Wire Wire Line
-	4800 1550 4800 1650
-Wire Wire Line
-	4800 1650 4800 1750
-Wire Wire Line
-	4800 1750 4800 1850
+	4800 1400 4800 1850
 Wire Wire Line
 	4250 1800 4250 1650
 Wire Wire Line
@@ -170,9 +160,7 @@ Wire Wire Line
 	2550 1550 4400 1550
 Connection ~ 2550 1900
 Wire Wire Line
-	2350 1400 2600 1400
-Wire Wire Line
-	2600 1400 4800 1400
+	2350 1400 4800 1400
 Wire Wire Line
 	2600 1400 2600 1700
 Wire Wire Line
@@ -205,9 +193,7 @@ F 3 "" H 2350 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 2000 2350 2000
-Wire Wire Line
-	2350 2000 2650 2000
+	2250 2000 2650 2000
 Wire Wire Line
 	2250 2000 2250 2100
 Wire Wire Line
