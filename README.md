@@ -11,7 +11,9 @@ via the [mixer](https://github.com/sww1235/portable-line-mixer).
 
 ## TODO
 
--   review capacitor sizing for LAN9514 PLL caps, look at RPi schematic
+-   review capacitor sizing for LAN9514 PLL caps, look at RPi schematic Check
+-   all mosfets and other larger chips, especially around HDMI connector for
+potentially smaller versions.
 
 ## References
 
