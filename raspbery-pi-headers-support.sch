@@ -128,15 +128,15 @@ $EndComp
 $Comp
 L RasPi-CM3-Headers J?
 U 12 1 58ECDBAE
-P 1850 1600
-F 0 "J?" H 1700 900 60  0000 C CNN
-F 1 "RasPi-CM3-Headers" V 2350 1600 60  0000 C CNN
-F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 1900 6700 60  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 1900 6400 60  0001 C CNN
-F 4 "0.00@0" H 1850 6300 60  0001 C CNN "Pricing"
-F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 1850 6600 60  0001 C CNN "Description"
-F 6 "Raspberry Pi Foundation" H 1850 6500 60  0001 C CNN "Manufacturer"
-	12   1850 1600
+P 1050 1600
+F 0 "J?" H 900 900 60  0000 C CNN
+F 1 "RasPi-CM3-Headers" V 1550 1600 60  0000 C CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 1100 6700 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 1100 6400 60  0001 C CNN
+F 4 "0.00@0" H 1050 6300 60  0001 C CNN "Pricing"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 1050 6600 60  0001 C CNN "Description"
+F 6 "Raspberry Pi Foundation" H 1050 6500 60  0001 C CNN "Manufacturer"
+	12   1050 1600
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -267,15 +267,15 @@ $EndComp
 $Comp
 L ESD5384 U?
 U 1 1 591172E0
-P 3750 2800
-F 0 "U?" H 3600 3100 60  0000 C CNN
-F 1 "ESD5384" H 3750 2500 60  0000 C CNN
-F 2 "" H 3750 2850 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD5384-D.PDF" H 3950 3650 60  0001 C CNN
-F 4 "0.00@0" H 3750 3350 60  0001 C CNN "Pricing"
-F 5 "5-Line HDMI Control Line ESD Protection" H 4000 3450 60  0001 C CNN "Description"
-F 6 "Fairchild/ON Semiconductor" H 3800 3550 60  0001 C CNN "Manufacturer"
-	1    3750 2800
+P 4050 2800
+F 0 "U?" H 3900 3100 60  0000 C CNN
+F 1 "ESD5384" H 4050 2500 60  0000 C CNN
+F 2 "" H 4050 2850 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5384-D.PDF" H 4250 3650 60  0001 C CNN
+F 4 "0.00@0" H 4050 3350 60  0001 C CNN "Pricing"
+F 5 "5-Line HDMI Control Line ESD Protection" H 4300 3450 60  0001 C CNN "Description"
+F 6 "Fairchild/ON Semiconductor" H 4100 3550 60  0001 C CNN "Manufacturer"
+	1    4050 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -332,7 +332,11 @@ Wire Wire Line
 Wire Wire Line
 	3350 6150 3300 6150
 Wire Wire Line
-	3300 6150 3300 6850
+	3300 6150 3300 6700
+Wire Wire Line
+	3300 6700 3300 6750
+Wire Wire Line
+	3300 6750 3300 6850
 Wire Wire Line
 	3300 6700 5150 6700
 Wire Wire Line
@@ -342,15 +346,23 @@ Wire Wire Line
 Wire Wire Line
 	2200 6250 2350 6250
 Wire Wire Line
-	2350 6250 2350 6450
+	2350 6250 2350 6350
+Wire Wire Line
+	2350 6350 2350 6450
 Wire Wire Line
 	2350 6350 2200 6350
 Wire Wire Line
 	3350 5950 3000 5950
 Wire Wire Line
-	3000 6450 3000 5500
+	3000 6450 3000 5950
 Wire Wire Line
-	2350 6450 3000 6450
+	3000 5950 3000 5500
+Wire Wire Line
+	2350 6450 2450 6450
+Wire Wire Line
+	2450 6450 2650 6450
+Wire Wire Line
+	2650 6450 3000 6450
 Connection ~ 2350 6350
 Connection ~ 3000 5950
 Wire Wire Line
@@ -362,67 +374,77 @@ Connection ~ 2650 6450
 Wire Wire Line
 	2450 6700 2450 6750
 Wire Wire Line
-	2450 6750 3300 6750
+	2450 6750 2650 6750
+Wire Wire Line
+	2650 6750 3300 6750
 Wire Wire Line
 	2650 6750 2650 6700
 Connection ~ 3300 6700
 Connection ~ 3300 6750
 Connection ~ 2650 6750
 Wire Wire Line
-	2300 2150 3750 2150
+	1500 2150 3500 2150
 Wire Wire Line
-	2300 2050 3750 2050
+	3500 2150 3750 2150
 Wire Wire Line
-	3750 1850 2300 1850
+	1500 2050 3550 2050
 Wire Wire Line
-	2300 1750 3750 1750
+	3550 2050 3750 2050
 Wire Wire Line
-	2300 1650 3750 1650
+	3650 2950 3400 2950
 Wire Wire Line
-	3750 1550 2300 1550
+	3400 2950 3400 1950
 Wire Wire Line
-	2300 1450 3750 1450
+	3400 1950 3750 1950
 Wire Wire Line
-	3750 1350 2300 1350
+	3650 2650 3450 2650
 Wire Wire Line
-	2300 1250 3750 1250
+	3450 2650 3450 1050
 Wire Wire Line
-	2300 1150 3750 1150
+	3450 1050 3750 1050
 Wire Wire Line
-	3350 2950 3050 2950
+	3650 2750 3550 2750
 Wire Wire Line
-	3050 2950 3050 1950
+	3550 2750 3550 2050
+Connection ~ 3550 2050
 Wire Wire Line
-	3050 1950 3750 1950
+	3650 2850 3500 2850
 Wire Wire Line
-	3350 2650 3150 2650
+	3500 2850 3500 2150
+Connection ~ 3500 2150
 Wire Wire Line
-	3150 2650 3150 1050
+	4450 2600 4500 2600
 Wire Wire Line
-	3150 1050 3750 1050
+	4500 2600 5050 2600
 Wire Wire Line
-	3350 2750 3300 2750
+	4500 2500 4500 2600
 Wire Wire Line
-	3300 2750 3300 2050
-Connection ~ 3300 2050
+	4500 2600 4500 2700
 Wire Wire Line
-	3350 2850 3250 2850
-Wire Wire Line
-	3250 2850 3250 2150
-Connection ~ 3250 2150
-Wire Wire Line
-	4150 2600 5050 2600
-Wire Wire Line
-	4200 2600 4200 2700
-Wire Wire Line
-	4200 2700 4150 2700
-Connection ~ 4200 2600
+	4500 2700 4450 2700
+Connection ~ 4500 2600
 Wire Wire Line
 	5050 1200 5150 1200
 Wire Wire Line
-	5150 1200 5150 2000
+	5150 1200 5150 1300
 Wire Wire Line
-	5050 2000 5450 2000
+	5150 1300 5150 1400
+Wire Wire Line
+	5150 1400 5150 1500
+Wire Wire Line
+	5150 1500 5150 1600
+Wire Wire Line
+	5150 1600 5150 1700
+Wire Wire Line
+	5150 1700 5150 1800
+Wire Wire Line
+	5150 1800 5150 1900
+Wire Wire Line
+	5150 1900 5150 2000
+Wire Wire Line
+	5050 2000 5150 2000
+Wire Wire Line
+	5150 2000 5450 2000
 Wire Wire Line
 	5050 1900 5150 1900
 Connection ~ 5150 1900
@@ -444,9 +466,6 @@ Connection ~ 5150 1400
 Wire Wire Line
 	5050 1300 5150 1300
 Connection ~ 5150 1300
-Wire Wire Line
-	4500 2500 4500 2600
-Connection ~ 4500 2600
 $Comp
 L GNDREF #PWR?
 U 1 1 59117C76
@@ -464,19 +483,145 @@ Connection ~ 5150 2000
 $Comp
 L GNDREF #PWR?
 U 1 1 59117D13
-P 4250 3100
-F 0 "#PWR?" H 4250 2850 50  0001 C CNN
-F 1 "GNDREF" H 4250 2950 50  0000 C CNN
-F 2 "" H 4250 3100 50  0001 C CNN
-F 3 "" H 4250 3100 50  0001 C CNN
-	1    4250 3100
+P 4600 3100
+F 0 "#PWR?" H 4600 2850 50  0001 C CNN
+F 1 "GNDREF" H 4600 2950 50  0000 C CNN
+F 2 "" H 4600 3100 50  0001 C CNN
+F 3 "" H 4600 3100 50  0001 C CNN
+	1    4600 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 2900 4250 2900
+	4450 2900 4600 2900
 Wire Wire Line
-	4250 2900 4250 3100
+	4600 2900 4600 3000
 Wire Wire Line
-	4150 3000 4250 3000
-Connection ~ 4250 3000
+	4600 3000 4600 3100
+Wire Wire Line
+	4450 3000 4600 3000
+Connection ~ 4600 3000
+$Comp
+L ESD7484 U?
+U 1 1 5911871C
+P 2450 2600
+F 0 "U?" H 2150 2250 60  0000 C CNN
+F 1 "ESD7484" H 2300 2850 60  0000 C CNN
+F 2 "" H 2450 2600 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD7484-D.PDF" H 2950 3350 60  0001 C CNN
+F 4 "0.00@0" H 2550 3500 60  0001 C CNN "Pricing"
+F 5 "4-Line Ultra-Large Bandwidth ESD Protection" H 2750 3150 60  0001 C CNN "Description"
+F 6 "Fairchild/ON Semiconductor" H 2650 3250 60  0001 C CNN "Manufacturer"
+	1    2450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESD7484 U?
+U 1 1 591189BB
+P 2450 700
+F 0 "U?" H 2150 350 60  0000 C CNN
+F 1 "ESD7484" H 2300 950 60  0000 C CNN
+F 2 "" H 2450 700 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD7484-D.PDF" H 2950 1450 60  0001 C CNN
+F 4 "0.00@0" H 2550 1600 60  0001 C CNN "Pricing"
+F 5 "4-Line Ultra-Large Bandwidth ESD Protection" H 2750 1250 60  0001 C CNN "Description"
+F 6 "Fairchild/ON Semiconductor" H 2650 1350 60  0001 C CNN "Manufacturer"
+	1    2450 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1850 1600 1850
+Wire Wire Line
+	1600 1850 1600 2750
+Wire Wire Line
+	1600 2750 1900 2750
+Wire Wire Line
+	1500 1750 1650 1750
+Wire Wire Line
+	1650 1750 1650 2650
+Wire Wire Line
+	1650 2650 1900 2650
+Wire Wire Line
+	1500 1650 1700 1650
+Wire Wire Line
+	1700 1650 1700 2550
+Wire Wire Line
+	1700 2550 1900 2550
+Wire Wire Line
+	1500 1550 1750 1550
+Wire Wire Line
+	1750 2450 1900 2450
+Wire Wire Line
+	1750 1550 1750 2450
+Wire Wire Line
+	2950 2750 3250 2750
+Wire Wire Line
+	3250 2750 3250 1850
+Wire Wire Line
+	3250 1850 3750 1850
+Wire Wire Line
+	2950 2650 3200 2650
+Wire Wire Line
+	3200 2650 3200 1750
+Wire Wire Line
+	3200 1750 3750 1750
+Wire Wire Line
+	2950 2550 3150 2550
+Wire Wire Line
+	3150 2550 3150 1650
+Wire Wire Line
+	3150 1650 3750 1650
+Wire Wire Line
+	3750 1550 3100 1550
+Wire Wire Line
+	3100 1550 3100 2450
+Wire Wire Line
+	3100 2450 2950 2450
+Wire Wire Line
+	1500 1150 1600 1150
+Wire Wire Line
+	1600 1150 1600 550 
+Wire Wire Line
+	1600 550  1900 550 
+Wire Wire Line
+	1500 1250 1650 1250
+Wire Wire Line
+	1650 1250 1650 650 
+Wire Wire Line
+	1650 650  1900 650 
+Wire Wire Line
+	1500 1350 1700 1350
+Wire Wire Line
+	1700 1350 1700 750 
+Wire Wire Line
+	1700 750  1900 750 
+Wire Wire Line
+	1500 1450 1750 1450
+Wire Wire Line
+	1750 1450 1750 850 
+Wire Wire Line
+	1750 850  1900 850 
+Wire Wire Line
+	2950 550  3250 550 
+Wire Wire Line
+	3250 550  3250 1150
+Wire Wire Line
+	3250 1150 3750 1150
+Wire Wire Line
+	2950 650  3200 650 
+Wire Wire Line
+	3200 650  3200 1250
+Wire Wire Line
+	3200 1250 3750 1250
+Wire Wire Line
+	2950 750  3150 750 
+Wire Wire Line
+	3150 750  3150 1350
+Wire Wire Line
+	3150 1350 3750 1350
+Wire Wire Line
+	3750 1450 3100 1450
+Wire Wire Line
+	3100 1450 3100 850 
+Wire Wire Line
+	3100 850  2950 850 
 $EndSCHEMATC
