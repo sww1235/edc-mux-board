@@ -46,7 +46,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 11 24
+Sheet 10 24
 Title ""
 Date ""
 Rev ""
@@ -57,10 +57,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L W25Q80DVUXIG U28
+L W25Q80DVUXIG U?
 U 1 1 59156349
 P 3200 1850
-F 0 "U28" H 2900 2100 60  0000 C CNN
+F 0 "U?" H 2900 2100 60  0000 C CNN
 F 1 "W25Q80DVUXIG" H 3200 1600 60  0000 C CNN
 F 2 "" H 2250 1750 60  0001 C CNN
 F 3 "https://www.winbond.com/resource-files/w25q80dv_revf_02112015.pdf" H 3300 2750 60  0001 C CNN
@@ -84,8 +84,8 @@ AR Path="/58DED9F1/58F8C4D7/59156354" Ref="U?"  Part="7"
 AR Path="/58DED9F1/58F8C53D/59156354" Ref="U?"  Part="7" 
 AR Path="/58DED9F1/58F8C5A3/59156354" Ref="U?"  Part="7" 
 AR Path="/58DED9F1/58F8C609/59156354" Ref="U?"  Part="7" 
-AR Path="/58DED9F1/59155E95/59156354" Ref="U26"  Part="7" 
-F 0 "U26" H 3050 3050 60  0000 C CNN
+AR Path="/58DED9F1/59155E95/59156354" Ref="U0"  Part="7" 
+F 0 "U0" H 3050 3050 60  0000 C CNN
 F 1 "TPS65982" H 3200 2450 60  0000 C CNN
 F 2 "SW-Texas:PBGA_96_ZQZ" H 3300 6150 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3250 6300 60  0001 C CNN
@@ -127,10 +127,10 @@ Wire Wire Line
 Text Notes 2000 2550 0    60   ~ 0
 USB C SPI Flash
 $Comp
-L R_Pack04 RN1
+L R_Pack04 RN?
 U 1 1 5915636A
 P 4600 1750
-F 0 "RN1" V 4300 1750 50  0000 C CNN
+F 0 "RN?" V 4300 1750 50  0000 C CNN
 F 1 "3.3kΩ" V 4800 1750 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Concave_4x0603" V 4875 1750 50  0001 C CNN
 F 3 "" H 4600 1750 50  0001 C CNN
@@ -171,10 +171,10 @@ Connection ~ 4800 1550
 Connection ~ 4800 1750
 Connection ~ 4800 1650
 $Comp
-L GNDREF #PWR0138
+L GNDREF #PWR?
 U 1 1 59156384
 P 2250 2100
-F 0 "#PWR0138" H 2250 1850 50  0001 C CNN
+F 0 "#PWR?" H 2250 1850 50  0001 C CNN
 F 1 "GNDREF" H 2250 1950 50  0000 C CNN
 F 2 "" H 2250 2100 50  0001 C CNN
 F 3 "" H 2250 2100 50  0001 C CNN
@@ -182,10 +182,10 @@ F 3 "" H 2250 2100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C190
+L C_Small C?
 U 1 1 5915638A
 P 2350 1800
-F 0 "C190" H 2360 1870 50  0000 L CNN
+F 0 "C?" H 2360 1870 50  0000 L CNN
 F 1 "0.1uF" V 2250 1750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2350 1800 50  0001 C CNN
 F 3 "" H 2350 1800 50  0001 C CNN
@@ -203,181 +203,208 @@ Wire Wire Line
 	2350 1400 2350 1700
 Connection ~ 2600 1400
 $Comp
-L TPS65982 U14
+L TPS65982 U2
 U 7 1 591563D5
-P 3150 3650
-F 0 "U14" H 3000 4000 60  0000 C CNN
-F 1 "TPS65982" H 3150 3350 60  0000 C CNN
-F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 7050 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 7200 60  0001 C CNN
-F 4 "0.00@0" H 3150 6700 60  0001 C CNN "Pricing"
-F 5 "Texas Instruments" H 3200 6850 60  0001 C CNN "Manufacturer"
-F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 6450 60  0001 C CNN "Description"
-F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 6600 60  0001 C CNN "Package ID"
-	7    3150 3650
+P 3150 4650
+F 0 "U2" H 3000 5000 60  0000 C CNN
+F 1 "TPS65982" H 3150 4350 60  0000 C CNN
+F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 8050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 8200 60  0001 C CNN
+F 4 "0.00@0" H 3150 7700 60  0001 C CNN "Pricing"
+F 5 "Texas Instruments" H 3200 7850 60  0001 C CNN "Manufacturer"
+F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 7450 60  0001 C CNN "Description"
+F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 7600 60  0001 C CNN "Package ID"
+	7    3150 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L TPS65982 U16
+L TPS65982 U3
 U 7 1 59156744
-P 3150 4450
-F 0 "U16" H 3000 4800 60  0000 C CNN
-F 1 "TPS65982" H 3150 4150 60  0000 C CNN
-F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 7850 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 8000 60  0001 C CNN
-F 4 "0.00@0" H 3150 7500 60  0001 C CNN "Pricing"
-F 5 "Texas Instruments" H 3200 7650 60  0001 C CNN "Manufacturer"
-F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 7250 60  0001 C CNN "Description"
-F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 7400 60  0001 C CNN "Package ID"
-	7    3150 4450
+P 3150 5450
+F 0 "U3" H 3000 5800 60  0000 C CNN
+F 1 "TPS65982" H 3150 5150 60  0000 C CNN
+F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 8850 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 9000 60  0001 C CNN
+F 4 "0.00@0" H 3150 8500 60  0001 C CNN "Pricing"
+F 5 "Texas Instruments" H 3200 8650 60  0001 C CNN "Manufacturer"
+F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 8250 60  0001 C CNN "Description"
+F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 8400 60  0001 C CNN "Package ID"
+	7    3150 5450
 	1    0    0    -1  
 $EndComp
 $Comp
-L TPS65982 U18
+L TPS65982 U4
 U 7 1 591567F0
-P 3150 5250
-F 0 "U18" H 3000 5600 60  0000 C CNN
-F 1 "TPS65982" H 3150 4950 60  0000 C CNN
-F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 8650 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 8800 60  0001 C CNN
-F 4 "0.00@0" H 3150 8300 60  0001 C CNN "Pricing"
-F 5 "Texas Instruments" H 3200 8450 60  0001 C CNN "Manufacturer"
-F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 8050 60  0001 C CNN "Description"
-F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 8200 60  0001 C CNN "Package ID"
-	7    3150 5250
+P 3150 6250
+F 0 "U4" H 3000 6600 60  0000 C CNN
+F 1 "TPS65982" H 3150 5950 60  0000 C CNN
+F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 9650 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 9800 60  0001 C CNN
+F 4 "0.00@0" H 3150 9300 60  0001 C CNN "Pricing"
+F 5 "Texas Instruments" H 3200 9450 60  0001 C CNN "Manufacturer"
+F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 9050 60  0001 C CNN "Description"
+F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 9200 60  0001 C CNN "Package ID"
+	7    3150 6250
 	1    0    0    -1  
 $EndComp
 $Comp
-L TPS65982 U20
+L TPS65982 U5
 U 7 1 591567FA
-P 3150 6050
-F 0 "U20" H 3000 6400 60  0000 C CNN
-F 1 "TPS65982" H 3150 5750 60  0000 C CNN
-F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 9450 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 9600 60  0001 C CNN
-F 4 "0.00@0" H 3150 9100 60  0001 C CNN "Pricing"
-F 5 "Texas Instruments" H 3200 9250 60  0001 C CNN "Manufacturer"
-F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 8850 60  0001 C CNN "Description"
-F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 9000 60  0001 C CNN "Package ID"
-	7    3150 6050
+P 3150 7050
+F 0 "U5" H 3000 7400 60  0000 C CNN
+F 1 "TPS65982" H 3150 6750 60  0000 C CNN
+F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 10450 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 10600 60  0001 C CNN
+F 4 "0.00@0" H 3150 10100 60  0001 C CNN "Pricing"
+F 5 "Texas Instruments" H 3200 10250 60  0001 C CNN "Manufacturer"
+F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 9850 60  0001 C CNN "Description"
+F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 10000 60  0001 C CNN "Package ID"
+	7    3150 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L TPS65982 U22
+L TPS65982 U6
 U 7 1 5915684A
-P 3150 6850
-F 0 "U22" H 3000 7200 60  0000 C CNN
-F 1 "TPS65982" H 3150 6550 60  0000 C CNN
-F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 10250 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 10400 60  0001 C CNN
-F 4 "0.00@0" H 3150 9900 60  0001 C CNN "Pricing"
-F 5 "Texas Instruments" H 3200 10050 60  0001 C CNN "Manufacturer"
-F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 9650 60  0001 C CNN "Description"
-F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 9800 60  0001 C CNN "Package ID"
-	7    3150 6850
+P 3150 7850
+F 0 "U6" H 3000 8200 60  0000 C CNN
+F 1 "TPS65982" H 3150 7550 60  0000 C CNN
+F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 11250 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 11400 60  0001 C CNN
+F 4 "0.00@0" H 3150 10900 60  0001 C CNN "Pricing"
+F 5 "Texas Instruments" H 3200 11050 60  0001 C CNN "Manufacturer"
+F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 10650 60  0001 C CNN "Description"
+F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 10800 60  0001 C CNN "Package ID"
+	7    3150 7850
 	1    0    0    -1  
 $EndComp
 $Comp
-L TPS65982 U24
+L TPS65982 U7
 U 7 1 59156854
-P 3150 7650
-F 0 "U24" H 3000 8000 60  0000 C CNN
-F 1 "TPS65982" H 3150 7350 60  0000 C CNN
-F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 11050 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 11200 60  0001 C CNN
-F 4 "0.00@0" H 3150 10700 60  0001 C CNN "Pricing"
-F 5 "Texas Instruments" H 3200 10850 60  0001 C CNN "Manufacturer"
-F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 10450 60  0001 C CNN "Description"
-F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 10600 60  0001 C CNN "Package ID"
-	7    3150 7650
+P 3150 8650
+F 0 "U7" H 3000 9000 60  0000 C CNN
+F 1 "TPS65982" H 3150 8350 60  0000 C CNN
+F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 12050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 12200 60  0001 C CNN
+F 4 "0.00@0" H 3150 11700 60  0001 C CNN "Pricing"
+F 5 "Texas Instruments" H 3200 11850 60  0001 C CNN "Manufacturer"
+F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 11450 60  0001 C CNN "Description"
+F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 11600 60  0001 C CNN "Package ID"
+	7    3150 8650
 	1    0    0    -1  
 $EndComp
 Text HLabel 5050 1550 2    60   Input ~ 0
 LDO_3V3
 $Comp
-L GNDREF #PWR0139
+L GNDREF #PWR?
 U 1 1 59157486
-P 3800 8000
-F 0 "#PWR0139" H 3800 7750 50  0001 C CNN
-F 1 "GNDREF" H 3800 7850 50  0000 C CNN
-F 2 "" H 3800 8000 50  0001 C CNN
-F 3 "" H 3800 8000 50  0001 C CNN
-	1    3800 8000
+P 3800 9000
+F 0 "#PWR?" H 3800 8750 50  0001 C CNN
+F 1 "GNDREF" H 3800 8850 50  0000 C CNN
+F 2 "" H 3800 9000 50  0001 C CNN
+F 3 "" H 3800 9000 50  0001 C CNN
+	1    3800 9000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 8000 3800 3450
-Wire Wire Line
-	3800 3450 3600 3450
-Wire Wire Line
-	3800 3550 3600 3550
-Wire Wire Line
-	3800 3650 3600 3650
-Wire Wire Line
-	3800 3750 3600 3750
-Wire Wire Line
-	3800 4250 3600 4250
-Wire Wire Line
-	3800 4350 3600 4350
+	3800 3650 3800 9000
 Wire Wire Line
 	3800 4450 3600 4450
 Wire Wire Line
 	3800 4550 3600 4550
 Wire Wire Line
-	3800 5050 3600 5050
+	3800 4650 3600 4650
 Wire Wire Line
-	3800 5150 3600 5150
+	3800 4750 3600 4750
 Wire Wire Line
 	3800 5250 3600 5250
 Wire Wire Line
 	3800 5350 3600 5350
 Wire Wire Line
-	3800 5850 3600 5850
+	3800 5450 3600 5450
 Wire Wire Line
-	3800 5950 3600 5950
+	3800 5550 3600 5550
 Wire Wire Line
 	3800 6050 3600 6050
 Wire Wire Line
 	3800 6150 3600 6150
 Wire Wire Line
-	3800 6650 3600 6650
+	3800 6250 3600 6250
 Wire Wire Line
-	3800 6750 3600 6750
+	3800 6350 3600 6350
 Wire Wire Line
 	3800 6850 3600 6850
 Wire Wire Line
 	3800 6950 3600 6950
 Wire Wire Line
-	3800 7450 3600 7450
+	3800 7050 3600 7050
 Wire Wire Line
-	3800 7550 3600 7550
+	3800 7150 3600 7150
 Wire Wire Line
 	3800 7650 3600 7650
 Wire Wire Line
 	3800 7750 3600 7750
-Connection ~ 3800 3550
-Connection ~ 3800 3650
-Connection ~ 3800 3750
-Connection ~ 3800 4250
-Connection ~ 3800 4350
-Connection ~ 3800 4450
+Wire Wire Line
+	3800 7850 3600 7850
+Wire Wire Line
+	3800 7950 3600 7950
+Wire Wire Line
+	3800 8450 3600 8450
+Wire Wire Line
+	3800 8550 3600 8550
+Wire Wire Line
+	3800 8650 3600 8650
+Wire Wire Line
+	3800 8750 3600 8750
 Connection ~ 3800 4550
-Connection ~ 3800 5050
-Connection ~ 3800 5150
+Connection ~ 3800 4650
+Connection ~ 3800 4750
 Connection ~ 3800 5250
 Connection ~ 3800 5350
-Connection ~ 3800 5850
-Connection ~ 3800 5950
+Connection ~ 3800 5450
+Connection ~ 3800 5550
 Connection ~ 3800 6050
 Connection ~ 3800 6150
-Connection ~ 3800 6650
-Connection ~ 3800 6750
+Connection ~ 3800 6250
+Connection ~ 3800 6350
 Connection ~ 3800 6850
 Connection ~ 3800 6950
-Connection ~ 3800 7450
-Connection ~ 3800 7550
+Connection ~ 3800 7050
+Connection ~ 3800 7150
 Connection ~ 3800 7650
 Connection ~ 3800 7750
+Connection ~ 3800 7850
+Connection ~ 3800 7950
+Connection ~ 3800 8450
+Connection ~ 3800 8550
+Connection ~ 3800 8650
+Connection ~ 3800 8750
 Text Notes 4150 5450 0    60   ~ 0
 Extra SPI connections are grounded for USB C drivers 1-7\nsince the drivers are daisy-chained via UART. \nThey are connected here to make DRC happy as well as\nmake sure that sheet 0 stays in order.
+$Comp
+L TPS65982 U1
+U 7 1 5915F140
+P 3150 3850
+F 0 "U1" H 3000 4200 60  0000 C CNN
+F 1 "TPS65982" H 3150 3550 60  0000 C CNN
+F 2 "SW-Texas:PBGA_96_ZQZ" H 3250 7250 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" H 3200 7400 60  0001 C CNN
+F 4 "0.00@0" H 3150 6900 60  0001 C CNN "Pricing"
+F 5 "Texas Instruments" H 3200 7050 60  0001 C CNN "Manufacturer"
+F 6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" H 3350 6650 60  0001 C CNN "Description"
+F 7 "ZQZ Package 96-Pin BGA MicroStar Junior" H 3200 6800 60  0001 C CNN "Package ID"
+	7    3150 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3650 3800 3650
+Connection ~ 3800 4450
+Wire Wire Line
+	3600 3750 3800 3750
+Connection ~ 3800 3750
+Wire Wire Line
+	3600 3850 3800 3850
+Connection ~ 3800 3850
+Wire Wire Line
+	3600 3950 3800 3950
+Connection ~ 3800 3950
 $EndSCHEMATC
