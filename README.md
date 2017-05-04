@@ -20,7 +20,7 @@ potentially smaller versions.
 
 |Quantity|Description|Part Number|Individual Power Consumption|
 |--------|-----------|-----------|----------------------------|
-|5|IO expanders|TCA9534|250mA @3V3|
+|5|IO expanders|TCA9534|33uA @3V3|
 |1|usb/ethernet|LAN9514|288mA @3V3|
 |2|SPDT switches|MAX4533|350uA @12V|
 |1|USB power switch|MIC2026|160uA @5V|
@@ -29,6 +29,8 @@ potentially smaller versions.
 |8|SPST switch|TS12A44514|0.2uA @12V|
 |2|USB hub|TUSB4041i|80mA @3V3 <br/> 225mA @1V1|
 |8|USB C controllers|TPS65982|6mA @3V3|
+
+
 ## References
 
 -   <http://www.epanorama.net/circuits/line_to_mic.html>
