@@ -79,7 +79,7 @@ U 1 1 590032EB
 P 5550 3800
 F 0 "U44" H 5500 4150 60  0000 C CNN
 F 1 "TG110-RPE5N5xx" H 5550 3400 60  0000 C CNN
-F 2 "" H 5050 4000 60  0001 C CNN
+F 2 "SW-HALO:HALO-Ultra-POE-XFMR" H 5050 4000 60  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/706/discrete-ultrapoe-100baset-523855.pdf" H 5550 4600 60  0001 C CNN
 F 4 "0.00@0" H 5550 4750 60  0001 C CNN "Pricing"
 F 5 "Halo Electronics" H 5350 4300 60  0001 C CNN "Manufacturer"
@@ -94,12 +94,12 @@ U 1 1 5900332E
 P 7100 3800
 F 0 "J12" H 6850 4250 60  0000 C CNN
 F 1 "NE8FBH-C5-LED1-S" V 7450 3750 60  0000 C CNN
-F 2 "" H 7000 3700 60  0001 C CNN
+F 2 "SW-Neutrik:NE8FBH-C5-LED1-S" H 7000 3700 60  0001 C CNN
 F 3 "http://www.neutrik.us/zoolu-website/media/download/13417/Drawing+NE8FBH-C5-LED1-S" H 7100 4950 60  0001 C CNN
-F 4 "0.00@0" H 7100 5500 60  0001 C CNN "Pricing"
-F 5 "Horizontal PCB mount RJ45 receptacle, CAT5e, shielded, two light pipes for SMD-LEDs, B-Series cutout with latch lock, max. panel thickness 3 mm" H 6900 5100 60  0001 C CNN "Characteristics"
+F 4 "Horizontal PCB mount RJ45 receptacle, CAT5e, shielded, two light pipes for SMD-LEDs, B-Series cutout with latch lock, max. panel thickness 3 mm" H 6900 5100 60  0001 C CNN "Characteristics"
+F 5 "Neutrik" H 7000 5200 60  0001 C CNN "Manufacturer"
 F 6 "Horizontal PCB mount RJ45 receptacle, CAT5e, shielded, two light pipes for SMD-LEDs, B-Series cutout with latch lock, max. panel thickness 3 mm" H 7100 5300 60  0001 C CNN "Description"
-F 7 "Neutrik" H 7000 5200 60  0001 C CNN "Manufacturer"
+F 7 "0.00@0" H 7100 5500 60  0001 C CNN "Pricing"
 	1    7100 3800
 	1    0    0    -1  
 $EndComp
