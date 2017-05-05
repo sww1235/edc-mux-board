@@ -256,19 +256,6 @@ F 3 "" H 2650 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HDMI-A-connector J11
-U 1 1 5911658C
-P 5450 2950
-F 0 "J11" H 5050 3600 60  0000 C CNN
-F 1 "HDMI-A-connector" H 5450 2300 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch1.27mm" H 5450 2950 60  0001 C CNN
-F 3 "" H 5450 2950 60  0001 C CNN
-F 4 "0.00@0" H 5500 3850 60  0001 C CNN "Pricing"
-F 5 "Generic HDMI Connector pinout" H 5500 3750 60  0001 C CNN "Description"
-	1    5450 2950
-	1    0    0    1   
-$EndComp
-$Comp
 L ESD5384 U42
 U 1 1 591172E0
 P 5100 4150
@@ -409,15 +396,6 @@ Wire Wire Line
 	6200 2550 6200 3350
 Wire Wire Line
 	6100 3350 6500 3350
-Wire Wire Line
-	6100 3250 6200 3250
-Connection ~ 6200 3250
-Wire Wire Line
-	6100 3150 6200 3150
-Connection ~ 6200 3150
-Wire Wire Line
-	6100 3050 6200 3050
-Connection ~ 6200 3050
 Wire Wire Line
 	6100 2950 6200 2950
 Connection ~ 6200 2950
@@ -780,7 +758,7 @@ F 7 "SOT523" H 3450 4500 60  0001 C CNN "Package ID"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3100 3300 2550 3300
+	2550 3300 3100 3300
 Text Label 3350 2950 2    60   ~ 0
 H5V
 Wire Wire Line
@@ -814,4 +792,17 @@ $EndComp
 Wire Wire Line
 	2900 2850 2900 3000
 NoConn ~ 6100 2450
+$Comp
+L HDMI-A-connector-no-shield J11
+U 1 1 59200D14
+P 5450 2950
+F 0 "J11" H 5050 3600 60  0000 C CNN
+F 1 "HDMI-A-connector-no-shield" H 5450 2300 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch1.27mm" H 5450 2950 60  0001 C CNN
+F 3 "" H 5450 2950 60  0001 C CNN
+F 4 "Generic HDMI Connector pinout" H 5500 3750 60  0001 C CNN "Description"
+F 5 "0.00@0" H 5500 3850 60  0001 C CNN "Pricing"
+	1    5450 2950
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

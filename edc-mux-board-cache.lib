@@ -768,11 +768,11 @@ X GNDREF 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# HDMI-A-connector
+# HDMI-A-connector-no-shield
 #
-DEF HDMI-A-connector J 0 40 Y Y 1 F N
+DEF HDMI-A-connector-no-shield J 0 40 Y Y 1 F N
 F0 "J" -400 650 60 H V C CNN
-F1 "HDMI-A-connector" 0 -650 60 H V C CNN
+F1 "HDMI-A-connector-no-shield" 0 -650 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "0.00@0" 50 900 60 H I C CNN "Pricing"
@@ -791,11 +791,8 @@ X Data_0- 9 -650 -250 200 R 50 50 1 1 B
 X Clock+ 10 -650 -350 200 R 50 50 1 1 B
 X Shield 20 650 400 200 L 50 50 1 1 P
 X Clock_SHLD 11 650 -300 200 L 50 50 1 1 B
-X Shield 21 650 300 200 L 50 50 1 1 P
 X Clock- 12 -650 -450 200 R 50 50 1 1 B
-X Shield 22 650 200 200 L 50 50 1 1 P
 X CEC 13 -650 350 200 R 50 50 1 1 B
-X Shield 23 650 100 200 L 50 50 1 1 P
 X Reserved 14 650 -500 200 L 50 50 1 1 B
 X SCL 15 -650 550 200 R 50 50 1 1 B
 X SDA 16 -650 450 200 R 50 50 1 1 B
