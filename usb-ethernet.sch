@@ -183,17 +183,6 @@ F 4 "0.00@0" H 5250 3100 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Network04 RN2
-U 1 1 5900455A
-P 4750 3000
-F 0 "RN2" V 4450 3000 50  0000 C CNN
-F 1 "49.9Ω 1/16W 1%" H 4900 3200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Array_SIP5" V 5025 3000 50  0001 C CNN
-F 3 "" H 4750 3000 50  0001 C CNN
-	1    4750 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L LED_Small D10
 U 1 1 59005A5F
 P 7100 2950
@@ -370,9 +359,9 @@ Wire Wire Line
 Wire Wire Line
 	3950 3450 5100 3450
 Wire Wire Line
-	5350 3850 4900 3850
+	4900 3850 5350 3850
 Wire Wire Line
-	4900 3850 4900 3750
+	4900 3100 4900 3850
 Wire Wire Line
 	4900 3750 3950 3750
 Wire Wire Line
@@ -381,24 +370,22 @@ Wire Wire Line
 	5000 4050 5000 3650
 Wire Wire Line
 	5000 3650 3950 3650
+Connection ~ 4900 3750
 Wire Wire Line
-	4850 3200 4850 3750
-Connection ~ 4850 3750
-Wire Wire Line
-	4750 3200 4750 3650
+	4750 3100 4750 3650
 Connection ~ 4750 3650
 Wire Wire Line
-	4650 3200 4650 3550
-Connection ~ 4650 3550
+	4600 3100 4600 3550
+Connection ~ 4600 3550
 Wire Wire Line
-	4550 3200 4550 3450
-Connection ~ 4550 3450
+	4450 3100 4450 3450
+Connection ~ 4450 3450
 Wire Wire Line
 	5250 2700 5250 3000
 Wire Wire Line
-	4550 2700 5250 2700
+	4450 2700 5250 2700
 Wire Wire Line
-	4550 2700 4550 2800
+	4600 2700 4600 2900
 Wire Wire Line
 	7450 3250 7200 3250
 Wire Wire Line
@@ -455,4 +442,57 @@ F 3 "" H 5250 2700 50  0001 C CNN
 $EndComp
 Text Notes 4500 2350 0    60   ~ 0
 VDD3V3A is filtered supply for LAN only.\nCreated from 3V3
+$Comp
+L R_Small R162
+U 1 1 591AD852
+P 4450 3000
+F 0 "R162" V 4375 2825 50  0000 L CNN
+F 1 "49.9Ω 1/16W 1%" V 4375 3075 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4450 3000 50  0001 C CNN
+F 3 "" H 4450 3000 50  0001 C CNN
+	1    4450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R163
+U 1 1 591ADAD2
+P 4600 3000
+F 0 "R163" V 4525 2825 50  0000 L CNN
+F 1 "49.9Ω 1/16W 1%" V 4525 3075 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4600 3000 50  0001 C CNN
+F 3 "" H 4600 3000 50  0001 C CNN
+	1    4600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R164
+U 1 1 591ADB16
+P 4750 3000
+F 0 "R164" V 4675 2825 50  0000 L CNN
+F 1 "49.9Ω 1/16W 1%" V 4675 3075 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4750 3000 50  0001 C CNN
+F 3 "" H 4750 3000 50  0001 C CNN
+	1    4750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R165
+U 1 1 591ADB5D
+P 4900 3000
+F 0 "R165" V 4825 2825 50  0000 L CNN
+F 1 "49.9Ω 1/16W 1%" V 4825 3075 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4900 3000 50  0001 C CNN
+F 3 "" H 4900 3000 50  0001 C CNN
+	1    4900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2900 4450 2700
+Connection ~ 4600 2700
+Wire Wire Line
+	4750 2900 4750 2700
+Connection ~ 4750 2700
+Wire Wire Line
+	4900 2900 4900 2700
+Connection ~ 4900 2700
 $EndSCHEMATC

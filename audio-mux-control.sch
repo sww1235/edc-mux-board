@@ -952,21 +952,21 @@ Text Label 5950 4200 0    60   ~ 0
 PTT-1
 Text Label 6050 4300 0    60   ~ 0
 PTT-0
-Text Label 6350 4400 0    60   ~ 0
+Text Label 6250 4400 0    60   ~ 0
 MIC-MUTE-7
-Text Label 6450 4500 0    60   ~ 0
+Text Label 6350 4500 0    60   ~ 0
 MIC-MUTE-6
-Text Label 6550 4600 0    60   ~ 0
+Text Label 6450 4600 0    60   ~ 0
 MIC-MUTE-5
-Text Label 6650 4700 0    60   ~ 0
+Text Label 6550 4700 0    60   ~ 0
 MIC-MUTE-4
-Text Label 6750 4800 0    60   ~ 0
+Text Label 6650 4800 0    60   ~ 0
 MIC-MUTE-3
-Text Label 6850 4900 0    60   ~ 0
+Text Label 6750 4900 0    60   ~ 0
 MIC-MUTE-2
-Text Label 6950 5000 0    60   ~ 0
+Text Label 6850 5000 0    60   ~ 0
 MIC-MUTE-1
-Text Label 7050 5100 0    60   ~ 0
+Text Label 6950 5100 0    60   ~ 0
 MIC-MUTE-0
 Text Label 12550 1450 2    60   ~ 0
 MIC-MUTE-0
@@ -1001,36 +1001,14 @@ MIC-MUTE-7
 Text Label 12550 8300 2    60   ~ 0
 PTT-7
 $Comp
-L R_Network08 RN3
-U 1 1 58F3AE06
-P 5700 5600
-F 0 "RN3" V 5200 5600 50  0000 C CNN
-F 1 "2k" V 6100 5600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Array_SIP9" V 6175 5600 50  0001 C CNN
-F 3 "" H 5700 5600 50  0001 C CNN
-	1    5700 5600
-	1    0    0    1   
-$EndComp
-$Comp
-L R_Network08 RN4
-U 1 1 58F3E098
-P 6700 5600
-F 0 "RN4" V 6200 5600 50  0000 C CNN
-F 1 "2k" V 7100 5600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Array_SIP9" V 7175 5600 50  0001 C CNN
-F 3 "" H 6700 5600 50  0001 C CNN
-	1    6700 5600
-	1    0    0    1   
-$EndComp
-$Comp
 L GNDREF #PWR0191
 U 1 1 58F504DD
-P 6000 5800
-F 0 "#PWR0191" H 6000 5550 50  0001 C CNN
-F 1 "GNDREF" H 6000 5650 50  0000 C CNN
-F 2 "" H 6000 5800 50  0001 C CNN
-F 3 "" H 6000 5800 50  0001 C CNN
-	1    6000 5800
+P 5300 5800
+F 0 "#PWR0191" H 5300 5550 50  0001 C CNN
+F 1 "GNDREF" H 5300 5650 50  0000 C CNN
+F 2 "" H 5300 5800 50  0001 C CNN
+F 3 "" H 5300 5800 50  0001 C CNN
+	1    5300 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1696,28 +1674,28 @@ Wire Wire Line
 	3950 4300 6050 4300
 Connection ~ 4800 4300
 Wire Wire Line
-	3950 4400 6350 4400
+	3950 4400 6250 4400
 Connection ~ 4750 4400
 Wire Wire Line
-	3950 4500 6450 4500
+	3950 4500 6350 4500
 Connection ~ 4700 4500
 Wire Wire Line
-	3950 4600 6550 4600
+	3950 4600 6450 4600
 Connection ~ 4650 4600
 Wire Wire Line
-	3950 4700 6650 4700
+	3950 4700 6550 4700
 Connection ~ 4600 4700
 Wire Wire Line
-	3950 4800 6750 4800
+	3950 4800 6650 4800
 Connection ~ 4550 4800
 Wire Wire Line
-	3950 4900 6850 4900
+	3950 4900 6750 4900
 Connection ~ 4500 4900
 Wire Wire Line
-	3950 5000 6950 5000
+	3950 5000 6850 5000
 Connection ~ 4450 5000
 Wire Wire Line
-	3950 5100 7050 5100
+	3950 5100 6950 5100
 Connection ~ 4400 5100
 Wire Wire Line
 	3950 5200 4350 5200
@@ -2467,32 +2445,29 @@ Wire Wire Line
 	6000 5400 6000 4300
 Connection ~ 6000 4300
 Wire Wire Line
-	6300 5400 6300 4400
-Connection ~ 6300 4400
+	6200 5400 6200 4400
+Connection ~ 6200 4400
 Wire Wire Line
-	6400 5400 6400 4500
-Connection ~ 6400 4500
+	6300 5400 6300 4500
+Connection ~ 6300 4500
 Wire Wire Line
-	6500 5400 6500 4600
-Connection ~ 6500 4600
+	6400 5400 6400 4600
+Connection ~ 6400 4600
 Wire Wire Line
-	6600 5400 6600 4700
-Connection ~ 6600 4700
+	6500 5400 6500 4700
+Connection ~ 6500 4700
 Wire Wire Line
-	6700 5400 6700 4800
-Connection ~ 6700 4800
+	6600 5400 6600 4800
+Connection ~ 6600 4800
 Wire Wire Line
-	6800 5400 6800 4900
-Connection ~ 6800 4900
+	6700 5400 6700 4900
+Connection ~ 6700 4900
 Wire Wire Line
-	6900 5400 6900 5000
-Connection ~ 6900 5000
+	6800 5400 6800 5000
+Connection ~ 6800 5000
 Wire Wire Line
-	7000 5400 7000 5100
-Connection ~ 7000 5100
-Wire Wire Line
-	5300 5800 6300 5800
-Connection ~ 6000 5800
+	6900 5400 6900 5100
+Connection ~ 6900 5100
 Wire Wire Line
 	10100 10650 9950 10650
 Wire Wire Line
@@ -3001,4 +2976,20 @@ NoConn ~ 10800 13250
 NoConn ~ 2350 1650
 NoConn ~ 8550 11200
 NoConn ~ 10750 11200
+$Comp
+L R_Network17 RN1
+U 1 1 591C378D
+P 6100 5600
+F 0 "RN1" V 5200 5600 50  0000 C CNN
+F 1 "4818P-T02-202LF" V 7000 5600 50  0000 C CNN
+F 2 "SW-Bournes:SOM-18" V 6875 5600 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/54/800P-777115.pdf" V 5400 5600 50  0001 C CNN
+F 4 "Bournes" H 6100 5600 60  0001 C CNN "Manufacturer"
+F 5 "Resistor Network star topology" H 6000 6350 60  0001 C CNN "Description"
+F 6 "SOM-18" H 6100 5600 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 6050 6250 60  0001 C CNN "Pricing"
+	1    6100 5600
+	1    0    0    1   
+$EndComp
+NoConn ~ 6100 5400
 $EndSCHEMATC
