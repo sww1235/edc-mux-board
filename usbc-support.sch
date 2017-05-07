@@ -1581,4 +1581,12 @@ Text Label 11200 8900 0    60   ~ 0
 USBH_N
 Text Label 11200 9000 0    60   ~ 0
 USBH_P
+Text Label 3050 3700 0    60   ~ 0
+USBC-SDA
+Text Label 3050 3600 0    60   ~ 0
+USBC-SCL
+Text Label 950  3600 1    60   ~ 0
+USBC-SCL2
+Text Label 1000 4250 1    60   ~ 0
+USBC-SDA2
 $EndSCHEMATC
