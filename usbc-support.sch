@@ -1589,4 +1589,20 @@ Text Label 950  3600 1    60   ~ 0
 USBC-SCL2
 Text Label 1000 4250 1    60   ~ 0
 USBC-SDA2
+Text Label 1300 11950 1    60   ~ 0
+TX6-RX7
+Text Label 1300 10500 1    60   ~ 0
+TX5-RX6
+Text Label 1300 8950 1    60   ~ 0
+TX4-RX5
+Text Label 1300 7600 1    60   ~ 0
+TX3-RX4
+Text Label 1300 6100 1    60   ~ 0
+TX2-RX3
+Text Label 1300 4550 1    60   ~ 0
+TX1-RX2
+Text Label 1300 3000 1    60   ~ 0
+TX0-RX1
+Text Label 1300 1750 0    60   ~ 0
+RX0
 $EndSCHEMATC
