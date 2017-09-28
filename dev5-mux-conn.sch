@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:edc-mux-board-rescue
 LIBS:power
 LIBS:SW-con
 LIBS:SW-power
@@ -41,12 +42,11 @@ LIBS:valves
 LIBS:SW-HALO
 LIBS:SW-Fairchild-On-Semi
 LIBS:SW-Diodes-Inc
-LIBS:edc-mux-board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 9 24
+Sheet 9 15
 Title ""
 Date ""
 Rev ""
@@ -57,7 +57,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X07 J29
+L Conn_01x07 J29
 U 1 1 58EA992C
 P 850 1100
 F 0 "J29" H 850 1550 50  0000 C CNN

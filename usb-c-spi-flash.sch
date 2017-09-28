@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:edc-mux-board-rescue
 LIBS:power
 LIBS:SW-con
 LIBS:SW-power
@@ -41,8 +42,7 @@ LIBS:valves
 LIBS:SW-HALO
 LIBS:SW-Fairchild-On-Semi
 LIBS:SW-Diodes-Inc
-LIBS:edc-mux-board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
