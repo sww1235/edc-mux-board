@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SW-Texas
 LIBS:power
 LIBS:SW-con
 LIBS:SW-power
@@ -8,7 +9,6 @@ LIBS:SW-Winbond
 LIBS:SW-Microchip
 LIBS:SW-Passives
 LIBS:SW-dallas-semi-maxim
-LIBS:SW-Texas
 LIBS:SW-RaspberryPi-Headers
 LIBS:device
 LIBS:transistors
@@ -28,7 +28,6 @@ LIBS:motorola
 LIBS:texas
 LIBS:intel
 LIBS:audio
-LIBS:interface
 LIBS:digital-audio
 LIBS:philips
 LIBS:display
@@ -41,6 +40,7 @@ LIBS:valves
 LIBS:SW-HALO
 LIBS:SW-Fairchild-On-Semi
 LIBS:SW-Diodes-Inc
+LIBS:interface
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
@@ -974,7 +974,7 @@ Connection ~ 4450 4050
 Wire Wire Line
 	4800 6100 4800 6200
 Wire Wire Line
-	4450 6200 7300 6200
+	7300 6200 4450 6200
 Wire Wire Line
 	6900 6200 6900 6100
 Wire Wire Line
@@ -1134,7 +1134,7 @@ $EndComp
 Wire Wire Line
 	5750 2900 5750 2850
 Wire Wire Line
-	5750 2850 6050 2850
+	6050 2850 5750 2850
 Wire Wire Line
 	6050 2300 6050 2900
 Wire Wire Line
@@ -1176,7 +1176,7 @@ Connection ~ 5650 2650
 Wire Wire Line
 	6450 2900 6450 2850
 Wire Wire Line
-	6450 2850 6750 2850
+	6750 2850 6450 2850
 Wire Wire Line
 	6750 2550 6750 2900
 Wire Wire Line
@@ -1958,5 +1958,181 @@ F 2 "" H 11300 4200 50  0001 C CNN
 F 3 "" H 11300 4200 50  0001 C CNN
 	1    11300 4200
 	1    0    0    -1  
+$EndComp
+$Comp
+L Barrel_Jack J?
+U 1 1 59CF03DD
+P 13600 7000
+F 0 "J?" H 13415 6977 50  0000 R CNN
+F 1 "VbattIn" H 13415 7068 50  0000 R CNN
+F 2 "" H 13650 6960 50  0001 C CNN
+F 3 "" H 13650 6960 50  0001 C CNN
+	1    13600 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Barrel_Jack J?
+U 1 1 59CF078B
+P 7850 9400
+F 0 "J?" V 7974 9259 50  0000 R CNN
+F 1 "PowerOut0" H 7883 9259 50  0000 R CNN
+F 2 "" H 7900 9360 50  0001 C CNN
+F 3 "" H 7900 9360 50  0001 C CNN
+	1    7850 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Barrel_Jack J?
+U 1 1 59CF0A5F
+P 8400 9400
+F 0 "J?" V 8524 9259 50  0000 R CNN
+F 1 "PowerOut1" H 8433 9259 50  0000 R CNN
+F 2 "" H 8450 9360 50  0001 C CNN
+F 3 "" H 8450 9360 50  0001 C CNN
+	1    8400 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Barrel_Jack J?
+U 1 1 59CF0AFA
+P 8850 9400
+F 0 "J?" V 8974 9259 50  0000 R CNN
+F 1 "PowerOut2" H 8883 9259 50  0000 R CNN
+F 2 "" H 8900 9360 50  0001 C CNN
+F 3 "" H 8900 9360 50  0001 C CNN
+	1    8850 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Barrel_Jack J?
+U 1 1 59CF0B93
+P 9350 9400
+F 0 "J?" V 9474 9259 50  0000 R CNN
+F 1 "PowerOut3" H 9383 9259 50  0000 R CNN
+F 2 "" H 9400 9360 50  0001 C CNN
+F 3 "" H 9400 9360 50  0001 C CNN
+	1    9350 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Barrel_Jack J?
+U 1 1 59CF0C2F
+P 9850 9400
+F 0 "J?" V 9974 9259 50  0000 R CNN
+F 1 "PowerOut4" H 9883 9259 50  0000 R CNN
+F 2 "" H 9900 9360 50  0001 C CNN
+F 3 "" H 9900 9360 50  0001 C CNN
+	1    9850 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Barrel_Jack J?
+U 1 1 59CF0CCD
+P 10350 9400
+F 0 "J?" V 10474 9259 50  0000 R CNN
+F 1 "PowerOut5" H 10383 9259 50  0000 R CNN
+F 2 "" H 10400 9360 50  0001 C CNN
+F 3 "" H 10400 9360 50  0001 C CNN
+	1    10350 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Barrel_Jack J?
+U 1 1 59CF0D6E
+P 10800 9400
+F 0 "J?" V 10924 9259 50  0000 R CNN
+F 1 "PowerOut6" H 10833 9259 50  0000 R CNN
+F 2 "" H 10850 9360 50  0001 C CNN
+F 3 "" H 10850 9360 50  0001 C CNN
+	1    10800 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Barrel_Jack J?
+U 1 1 59CF0E0F
+P 11350 9400
+F 0 "J?" V 11474 9259 50  0000 R CNN
+F 1 "PowerOut7" H 11383 9259 50  0000 R CNN
+F 2 "" H 11400 9360 50  0001 C CNN
+F 3 "" H 11400 9360 50  0001 C CNN
+	1    11350 9400
+	0    -1   -1   0   
+$EndComp
+Text Label 7300 7900 2    60   ~ 0
+VBUS_SUPPLY
+Wire Wire Line
+	7950 9100 7950 9000
+Wire Wire Line
+	7950 9000 12700 9000
+Wire Wire Line
+	8500 9000 8500 9100
+Wire Wire Line
+	8950 9000 8950 9100
+Connection ~ 8500 9000
+Wire Wire Line
+	9450 9000 9450 9100
+Connection ~ 8950 9000
+Wire Wire Line
+	9950 9000 9950 9100
+Connection ~ 9450 9000
+Wire Wire Line
+	10450 9000 10450 9100
+Connection ~ 9950 9000
+Wire Wire Line
+	10900 9000 10900 9100
+Connection ~ 10450 9000
+Wire Wire Line
+	11450 9000 11450 9100
+Connection ~ 10900 9000
+Wire Wire Line
+	12700 9000 12700 6900
+Wire Wire Line
+	12700 6900 13300 6900
+Connection ~ 11450 9000
+$Comp
+L GNDREF #PWR?
+U 1 1 59CF46A7
+P 11950 9550
+F 0 "#PWR?" H 11950 9300 50  0001 C CNN
+F 1 "GNDREF" H 11950 9400 50  0000 C CNN
+F 2 "" H 11950 9550 50  0001 C CNN
+F 3 "" H 11950 9550 50  0001 C CNN
+	1    11950 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11950 9550 11950 9000
+Connection ~ 11950 9000
+$Comp
+L Fuse_Small F?
+U 1 1 59CF4EE0
+P 13000 7100
+F 0 "F?" H 13000 7285 50  0000 C CNN
+F 1 "03420006Z" H 13000 7194 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_2x_1-5mmDrill" H 13000 7100 50  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_342_datasheet.pdf.pdf" H 13000 7100 50  0001 C CNN
+F 4 "20A max watertight 3AG/AB" H 13000 7100 60  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 13000 7100 60  0001 C CNN "Manufacturer"
+F 6 "Watertight fuse holder for 3AG/AB fuses" H 13000 7100 60  0001 C CNN "Description"
+F 7 "342 006" H 13000 7100 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13000 7100 60  0001 C CNN "Pricing"
+	1    13000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse_Small F?
+U 1 1 59CF51CD
+P 11250 8600
+F 0 "F?" V 11204 8648 50  0000 L CNN
+F 1 "02540121" V 11295 8648 50  0000 L CNN
+F 2 "" H 11250 8600 50  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 11250 8600 50  0001 C CNN
+F 4 "400 VAC/DC / 10A" H 11250 8600 60  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 11250 8600 60  0001 C CNN "Manufacturer"
+F 6 "PCB mount fuse holder for 2AG fuses" H 11250 8600 60  0001 C CNN "Description"
+F 7 "254 121" H 11250 8600 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 11250 8600 60  0001 C CNN "Pricing"
+	1    11250 8600
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

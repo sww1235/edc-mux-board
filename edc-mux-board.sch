@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SW-Texas
 LIBS:power
 LIBS:SW-con
 LIBS:SW-power
@@ -8,7 +9,6 @@ LIBS:SW-Winbond
 LIBS:SW-Microchip
 LIBS:SW-Passives
 LIBS:SW-dallas-semi-maxim
-LIBS:SW-Texas
 LIBS:SW-RaspberryPi-Headers
 LIBS:device
 LIBS:transistors
@@ -28,7 +28,6 @@ LIBS:motorola
 LIBS:texas
 LIBS:intel
 LIBS:audio
-LIBS:interface
 LIBS:digital-audio
 LIBS:philips
 LIBS:display
@@ -41,6 +40,7 @@ LIBS:valves
 LIBS:SW-HALO
 LIBS:SW-Fairchild-On-Semi
 LIBS:SW-Diodes-Inc
+LIBS:interface
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
