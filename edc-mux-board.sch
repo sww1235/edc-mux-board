@@ -78,7 +78,7 @@ $Sheet
 S 900  3350 2000 1650
 U 58DEDA3B
 F0 "USB hub" 60
-F1 "usbc-support.sch" 60
+F1 "usb-hub.sch" 60
 $EndSheet
 Text Notes 6950 6200 0    60   ~ 0
 All signal directions are indicated from the\nperspective of the MUX box\n\n8x connectors with stereo audio out, mono mic in, PTT in, Mic Mute in, +5V bias out\nEach connector can be used for one or more functions.\nThese connectors are for speakermics, headsets and ptt switches.\nConnector model is Amphenol LTW circular connector 8 pin\n\n8x connectors with stereo audio in, mono mic out, PTT out\nEach connector can be used for one or more functions.\nThese connectors are for smartphones and radios.\nConnector model is Amphenol LTW circular connector 7pin\n\n1x DB25 connector to connect to mixer\n1x TRS connector for output from mixer to MUX\n\n4x USB A charge + data, connected to Pi\n\n2x Circular connectors for bike light/flashlight\nHave 12V power, i2c serial. Add more ports?\nConnector model is Amphenol LTW circular connector 4pin\n\nHelmet connects via two connectors, power+data and audio/ptt\nThis is done via a Y cable that mates to the magnetic connector\n\nOptional Ports\nHDMI\n1 or 2 Displayport converted from DSI interface\nEthernet (connected via USB to Pi)\n12V power out
