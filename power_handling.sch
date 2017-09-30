@@ -974,7 +974,7 @@ Connection ~ 4450 4050
 Wire Wire Line
 	4800 6100 4800 6200
 Wire Wire Line
-	7300 6200 4450 6200
+	4450 6200 7300 6200
 Wire Wire Line
 	6900 6200 6900 6100
 Wire Wire Line
@@ -1134,7 +1134,7 @@ $EndComp
 Wire Wire Line
 	5750 2900 5750 2850
 Wire Wire Line
-	6050 2850 5750 2850
+	5750 2850 6050 2850
 Wire Wire Line
 	6050 2300 6050 2900
 Wire Wire Line
@@ -1176,7 +1176,7 @@ Connection ~ 5650 2650
 Wire Wire Line
 	6450 2900 6450 2850
 Wire Wire Line
-	6750 2850 6450 2850
+	6450 2850 6750 2850
 Wire Wire Line
 	6750 2550 6750 2900
 Wire Wire Line
@@ -2125,7 +2125,7 @@ U 1 1 59CF51CD
 P 11250 8600
 F 0 "F?" V 11204 8648 50  0000 L CNN
 F 1 "02540121" V 11295 8648 50  0000 L CNN
-F 2 "" H 11250 8600 50  0001 C CNN
+F 2 "SW-Littelfuse:02540121Z" H 11250 8600 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 11250 8600 50  0001 C CNN
 F 4 "400 VAC/DC / 10A" H 11250 8600 60  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 11250 8600 60  0001 C CNN "Manufacturer"
