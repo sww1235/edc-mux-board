@@ -24,11 +24,12 @@ potentially smaller versions.
 |1|usb/ethernet|LAN9514|288mA @3V3|
 |2|SPDT switches|MAX4533|350uA @12V|
 |4|USB power switch|MIC2026|160uA @5V|
-|1|Compute Module||4W @5V -> 0.8A @5V<br/> 1.5W @3V3 -> 0.3A @5V <br/> 0.45W @1V8 -> 0.09A @5V <br/> Note: power consumption on 3V3 and 1V8 rails is idealized and should be rounded up|
+|1|Compute Module||4W @5V -> 0.8A @5V<br/> 1.5W @3V3 -> 0.3A @5V <br/> 0.45W @1V8 -> 0.09A @5V <br/> total current 1.2A@5V round up to 1.5A <br/> Note: power consumption on 3V3 and 1V8 rails is idealized and should be rounded up|
 |2|OR gate|SN74LS32|1mA @5V|
 |8|SPST switch|TS12A44514|0.2uA @12V|
-|0|USB hub|TUSB4041i|80mA @3V3 <br/> 225mA @1V1|
-|0|USB C controllers|TPS65982|6mA @3V3|
+|Total|3V3 rail||228.2mA (rounded ->) 500mA -> 137mA@12V|
+|Total|5V rail||1.5A+2.64mA (rounded ->) 1.6A-> 667mA@12V|
+|Total|12V rail||0.8047A (rounded ->) 1A (includes 3v3 and 5V conversions)|
 
 
 ## References
