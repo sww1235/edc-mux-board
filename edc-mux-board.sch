@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:SW-Texas
 LIBS:power
 LIBS:SW-con
@@ -57,7 +57,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 850  850  1850 1500
+S 900  850  2000 1500
 U 58DED9F1
 F0 "Power Handling" 60
 F1 "power_handling.sch" 60

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:SW-Texas
 LIBS:power
 LIBS:SW-con
@@ -46,7 +46,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 9 15
+Sheet 10 15
 Title ""
 Date ""
 Rev ""
@@ -57,10 +57,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x07 J29
+L Conn_01x07 J31
 U 1 1 58EA992C
 P 850 1100
-F 0 "J29" H 850 1550 50  0000 C CNN
+F 0 "J31" H 850 1550 50  0000 C CNN
 F 1 "Device 5" V 950 1100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 850 1100 50  0001 C CNN
 F 3 "" H 850 1100 50  0001 C CNN
@@ -69,10 +69,10 @@ F 4 "0.00@0" H 850 1100 60  0001 C CNN "Pricing"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C247
+L C_Small C55
 U 1 1 58EA9933
 P 2450 1100
-F 0 "C247" H 2460 1170 50  0000 L CNN
+F 0 "C55" H 2460 1170 50  0000 L CNN
 F 1 "10u" H 2460 1020 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2450 1100 50  0001 C CNN
 F 3 "" H 2450 1100 50  0001 C CNN
@@ -90,10 +90,10 @@ PTT-Pi
 Text HLabel 1250 1700 3    60   Input ~ 0
 AUDIO-GROUND
 $Comp
-L LTC1391 U65
+L LTC1391 U45
 U 1 1 58EA9943
 P 6350 1350
-F 0 "U65" H 6100 1850 60  0000 C CNN
+F 0 "U45" H 6100 1850 60  0000 C CNN
 F 1 "LTC1391" H 6700 1800 60  0000 C CNN
 F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 6450 2600 60  0001 C CNN
 F 3 "" H 6350 1350 60  0001 C CNN
@@ -113,10 +113,10 @@ DIN
 Text HLabel 3850 5050 0    60   Output ~ 0
 DOUT
 $Comp
-L +5VD #PWR0223
+L +5VD #PWR090
 U 1 1 58EA994E
 P 6350 650
-F 0 "#PWR0223" H 6350 500 50  0001 C CNN
+F 0 "#PWR090" H 6350 500 50  0001 C CNN
 F 1 "+5VD" H 6350 790 50  0000 C CNN
 F 2 "" H 6350 650 50  0001 C CNN
 F 3 "" H 6350 650 50  0001 C CNN
@@ -124,10 +124,10 @@ F 3 "" H 6350 650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR0224
+L GNDREF #PWR091
 U 1 1 58EA9954
 P 6350 1950
-F 0 "#PWR0224" H 6350 1700 50  0001 C CNN
+F 0 "#PWR091" H 6350 1700 50  0001 C CNN
 F 1 "GNDREF" H 6350 1800 50  0000 C CNN
 F 2 "" H 6350 1950 50  0001 C CNN
 F 3 "" H 6350 1950 50  0001 C CNN
@@ -187,10 +187,10 @@ PTT-6
 Text HLabel 7100 5200 2    60   Input ~ 0
 PTT-7
 $Comp
-L LTC1391 U66
+L LTC1391 U46
 U 1 1 58EA9978
 P 6350 3150
-F 0 "U66" H 6100 3650 60  0000 C CNN
+F 0 "U46" H 6100 3650 60  0000 C CNN
 F 1 "LTC1391" H 6700 3600 60  0000 C CNN
 F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 6450 4400 60  0001 C CNN
 F 3 "" H 6350 3150 60  0001 C CNN
@@ -202,10 +202,10 @@ F 7 "SSOP" H 6350 4300 60  0001 C CNN "Package ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +5VD #PWR0225
+L +5VD #PWR092
 U 1 1 58EA997F
 P 6350 2450
-F 0 "#PWR0225" H 6350 2300 50  0001 C CNN
+F 0 "#PWR092" H 6350 2300 50  0001 C CNN
 F 1 "+5VD" H 6350 2590 50  0000 C CNN
 F 2 "" H 6350 2450 50  0001 C CNN
 F 3 "" H 6350 2450 50  0001 C CNN
@@ -213,10 +213,10 @@ F 3 "" H 6350 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR0226
+L GNDREF #PWR093
 U 1 1 58EA9985
 P 6350 3750
-F 0 "#PWR0226" H 6350 3500 50  0001 C CNN
+F 0 "#PWR093" H 6350 3500 50  0001 C CNN
 F 1 "GNDREF" H 6350 3600 50  0000 C CNN
 F 2 "" H 6350 3750 50  0001 C CNN
 F 3 "" H 6350 3750 50  0001 C CNN
@@ -224,10 +224,10 @@ F 3 "" H 6350 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LTC1391 U67
+L LTC1391 U47
 U 1 1 58EA998F
 P 6350 4850
-F 0 "U67" H 6100 5350 60  0000 C CNN
+F 0 "U47" H 6100 5350 60  0000 C CNN
 F 1 "LTC1391" H 6700 5300 60  0000 C CNN
 F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 6450 6100 60  0001 C CNN
 F 3 "" H 6350 4850 60  0001 C CNN
@@ -239,10 +239,10 @@ F 7 "SSOP" H 6350 6000 60  0001 C CNN "Package ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +5VD #PWR0227
+L +5VD #PWR094
 U 1 1 58EA9996
 P 6350 4150
-F 0 "#PWR0227" H 6350 4000 50  0001 C CNN
+F 0 "#PWR094" H 6350 4000 50  0001 C CNN
 F 1 "+5VD" H 6350 4290 50  0000 C CNN
 F 2 "" H 6350 4150 50  0001 C CNN
 F 3 "" H 6350 4150 50  0001 C CNN
@@ -250,10 +250,10 @@ F 3 "" H 6350 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR0228
+L GNDREF #PWR095
 U 1 1 58EA999C
 P 6350 5450
-F 0 "#PWR0228" H 6350 5200 50  0001 C CNN
+F 0 "#PWR095" H 6350 5200 50  0001 C CNN
 F 1 "GNDREF" H 6350 5300 50  0000 C CNN
 F 2 "" H 6350 5450 50  0001 C CNN
 F 3 "" H 6350 5450 50  0001 C CNN
@@ -317,8 +317,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 1450 3300 1450
 Connection ~ 3300 1450
-Wire Wire Line
-	2850 4500 2650 4500
 Wire Wire Line
 	2650 4500 2650 1650
 Wire Wire Line
@@ -426,8 +424,8 @@ L MAX4533 U?
 U 2 1 58EA9A04
 P 2300 1550
 AR Path="/58DEDA38/58E9E2BE/58EA9A04" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9EDEA/58EA9A04" Ref="U21"  Part="2" 
-F 0 "U21" H 2400 1750 60  0000 C CNN
+AR Path="/58DEDA38/58E9EDEA/58EA9A04" Ref="U12"  Part="2" 
+F 0 "U12" H 2400 1750 60  0000 C CNN
 F 1 "MAX4533" H 1950 1300 60  0000 C CNN
 F 2 "Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm" H 2400 2500 60  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4533.pdf" H 2100 2400 60  0001 C CNN
@@ -439,65 +437,73 @@ F 7 "SSOP20" H 2300 2200 60  0001 C CNN "Package ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74LS32 U64
-U 1 1 58EA9A0B
-P 3450 2800
-F 0 "U64" H 3450 2850 50  0000 C CNN
-F 1 "74LS32" H 3450 2750 50  0000 C CNN
-F 2 "SMD_Packages:SSOP-14" H 3450 2800 50  0001 C CNN
-F 3 "" H 3450 2800 50  0001 C CNN
-F 4 "0.00@0" H 3450 2800 60  0001 C CNN "Pricing"
-	1    3450 2800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 74LS32 U64
-U 2 1 58EA9A12
-P 3450 4500
-F 0 "U64" H 3450 4550 50  0000 C CNN
-F 1 "74LS32" H 3450 4450 50  0000 C CNN
-F 2 "SMD_Packages:SSOP-14" H 3450 4500 50  0001 C CNN
-F 3 "" H 3450 4500 50  0001 C CNN
-F 4 "0.00@0" H 3450 4500 60  0001 C CNN "Pricing"
-	2    3450 4500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L TS12A44514 U?
-U 2 1 58EA9A1E
+U 3 1 58EA9A1E
 P 1650 1400
 AR Path="/58DEDA38/58E9E2BE/58EA9A1E" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9EDEA/58EA9A1E" Ref="U18"  Part="2" 
-F 0 "U18" H 1500 1600 60  0000 C CNN
+AR Path="/58DEDA38/58E9EDEA/58EA9A1E" Ref="U8"  Part="3" 
+F 0 "U8" H 1500 1600 60  0000 C CNN
 F 1 "TS12A44514" H 1950 1600 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2150 2700 60  0001 C CNN
 F 3 "" H 1800 1350 60  0001 C CNN
-F 4 "0.00@0" H 1700 2400 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2000 2950 60  0001 C CNN "Characteristics"
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2000 2950 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 2050 2850 60  0001 C CNN "Manufacturer"
 F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 1950 2500 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 2050 2850 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 1950 2600 60  0001 C CNN "Package ID"
-	2    1650 1400
+F 7 "TSSOP14" H 1950 2600 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 1700 2400 60  0001 C CNN "Pricing"
+	3    1650 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L TS12A44514 U?
-U 2 1 58EA9A2A
+U 4 1 58EA9A2A
 P 2900 1100
 AR Path="/58DEDA38/58E9E2BE/58EA9A2A" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9EDEA/58EA9A2A" Ref="U19"  Part="2" 
-F 0 "U19" H 2750 1300 60  0000 C CNN
+AR Path="/58DEDA38/58E9EDEA/58EA9A2A" Ref="U8"  Part="4" 
+F 0 "U8" H 2750 1300 60  0000 C CNN
 F 1 "TS12A44514" H 3200 1300 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3400 2400 60  0001 C CNN
 F 3 "" H 3050 1050 60  0001 C CNN
-F 4 "0.00@0" H 2950 2100 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3250 2650 60  0001 C CNN "Characteristics"
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3250 2650 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 3300 2550 60  0001 C CNN "Manufacturer"
 F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3200 2200 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 3300 2550 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3200 2300 60  0001 C CNN "Package ID"
-	2    2900 1100
+F 7 "TSSOP14" H 3200 2300 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 2950 2100 60  0001 C CNN "Pricing"
+	4    2900 1100
 	1    0    0    -1  
 $EndComp
 Text Notes 1450 2900 0    60   ~ 0
 1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
+Wire Wire Line
+	2650 4500 3450 4500
+$Comp
+L 74LS32 U?
+U 3 1 59D2618F
+P 3750 2800
+AR Path="/58DEDA38/58E9E2BE/59D2618F" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/58E9E9F4/59D2618F" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/58E9EDEA/59D2618F" Ref="U16"  Part="3" 
+F 0 "U16" H 3750 2483 50  0000 C CNN
+F 1 "74LS32" H 3750 2574 50  0000 C CNN
+F 2 "" H 3750 2800 50  0001 C CNN
+F 3 "" H 3750 2800 50  0001 C CNN
+	3    3750 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 2800 3450 2800
+$Comp
+L 74LS32 U?
+U 4 1 59D26197
+P 3750 4500
+AR Path="/58DEDA38/58E9E2BE/59D26197" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E9F4/59D26197" Ref="U?"  Part="4" 
+AR Path="/58DEDA38/58E9EDEA/59D26197" Ref="U16"  Part="4" 
+F 0 "U16" H 3750 4183 50  0000 C CNN
+F 1 "74LS32" H 3750 4274 50  0000 C CNN
+F 2 "" H 3750 4500 50  0001 C CNN
+F 3 "" H 3750 4500 50  0001 C CNN
+	4    3750 4500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
