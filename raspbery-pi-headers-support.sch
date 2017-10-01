@@ -41,6 +41,7 @@ LIBS:SW-HALO
 LIBS:SW-Fairchild-On-Semi
 LIBS:SW-Diodes-Inc
 LIBS:interface
+LIBS:SW-gElectroMech
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
@@ -280,6 +281,336 @@ F 3 "" H 7100 4150 50  0001 C CNN
 	1    7100 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L GNDREF #PWR049
+U 1 1 59117C76
+P 6500 3400
+F 0 "#PWR049" H 6500 3150 50  0001 C CNN
+F 1 "GNDREF" H 6500 3250 50  0000 C CNN
+F 2 "" H 6500 3400 50  0001 C CNN
+F 3 "" H 6500 3400 50  0001 C CNN
+	1    6500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR048
+U 1 1 59117D13
+P 5650 4450
+F 0 "#PWR048" H 5650 4200 50  0001 C CNN
+F 1 "GNDREF" H 5650 4300 50  0000 C CNN
+F 2 "" H 5650 4450 50  0001 C CNN
+F 3 "" H 5650 4450 50  0001 C CNN
+	1    5650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESD7484 U24
+U 1 1 5911871C
+P 3500 3950
+F 0 "U24" H 3200 3600 60  0000 C CNN
+F 1 "ESD7484" H 3350 4200 60  0000 C CNN
+F 2 "SW-On-Semi:WLCSP10-1.6x1.1mm" H 3500 3950 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD7484-D.PDF" H 4000 4700 60  0001 C CNN
+F 4 "0.00@0" H 3600 4850 60  0001 C CNN "Pricing"
+F 5 "4-Line Ultra-Large Bandwidth ESD Protection" H 3800 4500 60  0001 C CNN "Description"
+F 6 "Fairchild/ON Semiconductor" H 3700 4600 60  0001 C CNN "Manufacturer"
+	1    3500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESD7484 U23
+U 1 1 591189BB
+P 3500 2200
+F 0 "U23" H 3200 1850 60  0000 C CNN
+F 1 "ESD7484" H 3350 2450 60  0000 C CNN
+F 2 "SW-On-Semi:WLCSP10-1.6x1.1mm" H 3500 2200 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD7484-D.PDF" H 4000 2950 60  0001 C CNN
+F 4 "0.00@0" H 3600 3100 60  0001 C CNN "Pricing"
+F 5 "4-Line Ultra-Large Bandwidth ESD Protection" H 3800 2750 60  0001 C CNN "Description"
+F 6 "Fairchild/ON Semiconductor" H 3700 2850 60  0001 C CNN "Manufacturer"
+	1    3500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L DMG1012T U21
+U 1 1 5911B6F8
+P 3150 1350
+F 0 "U21" H 2750 1600 60  0000 C CNN
+F 1 "DMG1012T" V 3000 1350 60  0000 C CNN
+F 2 "SW-Diodes:SOT523" H 2750 1800 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 3150 2400 60  0001 C CNN
+F 4 "0.00@0" H 3150 2500 60  0001 C CNN "Pricing"
+F 5 "Diodes Inc" H 3050 2100 60  0001 C CNN "Manufacturer"
+F 6 "N-CHANNEL ENHANCEMENT MODE MOSFET" H 3150 2200 60  0001 C CNN "Description"
+F 7 "SOT523" H 3250 2300 60  0001 C CNN "Package ID"
+	1    3150 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +1V8 #PWR044
+U 1 1 5911B770
+P 3400 700
+F 0 "#PWR044" H 3400 550 50  0001 C CNN
+F 1 "+1V8" H 3400 840 50  0000 C CNN
+F 2 "" H 3400 700 50  0001 C CNN
+F 3 "" H 3400 700 50  0001 C CNN
+	1    3400 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R7
+U 1 1 5911BA5B
+P 3400 900
+F 0 "R7" H 3430 920 50  0000 L CNN
+F 1 "100k 1%" H 3430 860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 3400 900 50  0001 C CNN
+F 3 "" H 3400 900 50  0001 C CNN
+	1    3400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR045
+U 1 1 5911BCE1
+P 3400 1650
+F 0 "#PWR045" H 3400 1400 50  0001 C CNN
+F 1 "GNDREF" H 3400 1500 50  0000 C CNN
+F 2 "" H 3400 1650 50  0001 C CNN
+F 3 "" H 3400 1650 50  0001 C CNN
+	1    3400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L AP2331X U26
+U 1 1 5911C05E
+P 6700 4150
+F 0 "U26" H 6550 4200 60  0000 C CNN
+F 1 "AP2331X" H 6600 3800 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6800 5100 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2331.pdf" H 6800 5200 60  0001 C CNN
+F 4 "0.00@0" H 6750 5400 60  0001 C CNN "Pricing"
+F 5 "0.2A SINGLE CHANNEL CURRENT-LIMITED LOAD SWITCH" H 6750 4950 60  0001 C CNN "Description"
+F 6 "Diodes Inc" H 6800 5300 60  0001 C CNN "Manufacturer"
+F 7 "SOT-23, U-DFN2020-3" H 6850 4750 60  0001 C CNN "Package ID"
+	1    6700 4150
+	-1   0    0    -1  
+$EndComp
+Text Notes 8050 3700 2    60   ~ 0
+HDMI power limiter
+$Comp
+L C_Small C40
+U 1 1 5911FC51
+P 7100 4300
+F 0 "C40" H 7110 4370 50  0000 L CNN
+F 1 "100n" H 7110 4220 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7100 4300 50  0001 C CNN
+F 3 "" H 7100 4300 50  0001 C CNN
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR051
+U 1 1 5911FE33
+P 7100 4650
+F 0 "#PWR051" H 7100 4400 50  0001 C CNN
+F 1 "GNDREF" H 7100 4500 50  0000 C CNN
+F 2 "" H 7100 4650 50  0001 C CNN
+F 3 "" H 7100 4650 50  0001 C CNN
+	1    7100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C39
+U 1 1 59120198
+P 6450 4450
+F 0 "C39" H 6460 4520 50  0000 L CNN
+F 1 "100n" H 6460 4370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6450 4450 50  0001 C CNN
+F 3 "" H 6450 4450 50  0001 C CNN
+	1    6450 4450
+	1    0    0    -1  
+$EndComp
+Text Label 6350 3950 2    60   ~ 0
+H5V
+$Comp
+L GNDREF #PWR047
+U 1 1 5912041E
+P 4000 4450
+F 0 "#PWR047" H 4000 4200 50  0001 C CNN
+F 1 "GNDREF" H 4000 4300 50  0000 C CNN
+F 2 "" H 4000 4450 50  0001 C CNN
+F 3 "" H 4000 4450 50  0001 C CNN
+	1    4000 4450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5500 4150
+$Comp
+L GNDREF #PWR046
+U 1 1 59120752
+P 4000 2700
+F 0 "#PWR046" H 4000 2450 50  0001 C CNN
+F 1 "GNDREF" H 4000 2550 50  0000 C CNN
+F 2 "" H 4000 2700 50  0001 C CNN
+F 3 "" H 4000 2700 50  0001 C CNN
+	1    4000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DMG1012T U22
+U 1 1 591207FB
+P 3350 3550
+F 0 "U22" H 2950 3800 60  0000 C CNN
+F 1 "DMG1012T" V 3200 3550 60  0000 C CNN
+F 2 "SW-Diodes:SOT523" H 2950 4000 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 3350 4600 60  0001 C CNN
+F 4 "0.00@0" H 3350 4700 60  0001 C CNN "Pricing"
+F 5 "Diodes Inc" H 3250 4300 60  0001 C CNN "Manufacturer"
+F 6 "N-CHANNEL ENHANCEMENT MODE MOSFET" H 3350 4400 60  0001 C CNN "Description"
+F 7 "SOT523" H 3450 4500 60  0001 C CNN "Package ID"
+	1    3350 3550
+	0    1    1    0   
+$EndComp
+Text Label 3350 2950 2    60   ~ 0
+H5V
+$Comp
+L R_Small R6
+U 1 1 591214D4
+P 2900 3100
+F 0 "R6" H 2930 3120 50  0000 L CNN
+F 1 "27k 1%" H 2930 3060 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 2900 3100 50  0001 C CNN
+F 3 "" H 2900 3100 50  0001 C CNN
+	1    2900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR041
+U 1 1 59121601
+P 2900 2850
+F 0 "#PWR041" H 2900 2700 50  0001 C CNN
+F 1 "+3V3" H 2900 2990 50  0000 C CNN
+F 2 "" H 2900 2850 50  0001 C CNN
+F 3 "" H 2900 2850 50  0001 C CNN
+	1    2900 2850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6100 2450
+$Comp
+L HDMI-A-connector-no-shield J13
+U 1 1 59200D14
+P 5450 2950
+F 0 "J13" H 5050 3600 60  0000 C CNN
+F 1 "HDMI-A-connector-no-shield" H 5450 2300 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch1.27mm" H 5450 2950 60  0001 C CNN
+F 3 "" H 5450 2950 60  0001 C CNN
+F 4 "Generic HDMI Connector pinout" H 5500 3750 60  0001 C CNN "Description"
+F 5 "0.00@0" H 5500 3850 60  0001 C CNN "Pricing"
+	1    5450 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L RasPi-CM3-Headers J11
+U 8 1 59DA305A
+P 8700 4450
+F 0 "J11" H 8927 4558 60  0000 L CNN
+F 1 "RasPi-CM3-Headers" H 8927 4452 60  0000 L CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 8750 9550 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 8750 9250 60  0001 C CNN
+F 4 "Raspberry Pi Foundation" H 8700 9350 60  0001 C CNN "Manufacturer"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 8700 9450 60  0001 C CNN "Description"
+F 6 "0.00@0" H 8700 9150 60  0001 C CNN "Pricing"
+	8    8700 4450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8350 4000
+NoConn ~ 8350 4300
+NoConn ~ 8350 4400
+NoConn ~ 8350 4500
+NoConn ~ 8350 4600
+NoConn ~ 8350 4700
+NoConn ~ 8350 4800
+$Comp
+L RasPi-CM3-Headers J11
+U 9 1 59DA31C2
+P 8600 5700
+F 0 "J11" H 8927 5758 60  0000 L CNN
+F 1 "RasPi-CM3-Headers" H 8927 5652 60  0000 L CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 8650 10800 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 8650 10500 60  0001 C CNN
+F 4 "Raspberry Pi Foundation" H 8600 10600 60  0001 C CNN "Manufacturer"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 8600 10700 60  0001 C CNN "Description"
+F 6 "0.00@0" H 8600 10400 60  0001 C CNN "Pricing"
+	9    8600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR0139
+U 1 1 59DA3737
+P 7350 5250
+F 0 "#PWR0139" H 7350 5000 50  0001 C CNN
+F 1 "GNDREF" H 7350 5100 50  0000 C CNN
+F 2 "" H 7350 5250 50  0001 C CNN
+F 3 "" H 7350 5250 50  0001 C CNN
+	1    7350 5250
+	1    0    0    -1  
+$EndComp
+Text Notes 7900 5800 2    60   ~ 0
+GPIO 28, 29, 44, 45 do not \nhave on chip pull resistors.\nExternal ones are needed
+$Comp
+L R_Pack04 RN2
+U 1 1 59D068F9
+P 7700 4900
+F 0 "RN2" V 8025 4900 50  0000 C CNN
+F 1 "20k" V 7934 4900 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" V 7975 4900 50  0001 C CNN
+F 3 "" H 7700 4900 50  0001 C CNN
+F 4 "0.00@0" H 7700 4900 60  0001 C CNN "Pricing"
+	1    7700 4900
+	0    1    -1   0   
+$EndComp
+Text Label 3600 3500 0    60   ~ 0
+HDMI_SCL
+Text Label 3600 3400 0    60   ~ 0
+HDMI_SDA
+Text Label 3800 3300 0    60   ~ 0
+CON_HDMI_CEC
+Text Label 2550 3300 0    60   ~ 0
+RPI_HDMI_CEC
+Text Label 2550 3200 0    60   ~ 0
+RPI_HDMI_D2P
+Text Label 2550 3100 0    60   ~ 0
+RPI_HDMI_D2N
+Text Label 2550 3000 0    60   ~ 0
+RPI_HDMI_D1P
+Text Label 2550 2900 0    60   ~ 0
+RPI_HDMI_D1N
+Text Label 2550 2800 0    60   ~ 0
+RPI_HDMI_D0P
+Text Label 2550 2700 0    60   ~ 0
+RPI_HDMI_D0N
+Text Label 2550 2600 0    60   ~ 0
+RPI_HDMI_CLKP
+Text Label 2550 2500 0    60   ~ 0
+RPI_HDMI_CLKN
+Text Label 2550 2400 0    60   ~ 0
+RPI_HDMI_HPD
+Text Label 4000 4100 0    60   ~ 0
+CON_HDMI_D2P
+Text Label 4000 4000 0    60   ~ 0
+CON_HDMI_D2N
+Text Label 4000 3900 0    60   ~ 0
+CON_HDMI_D1P
+Text Label 4000 3800 0    60   ~ 0
+CON_HDMI_D1N
+Text Label 3750 1350 0    60   ~ 0
+CON_HDMI_HPD
+Text Label 4000 2050 0    60   ~ 0
+CON_HDMI_CLKN
+Text Label 4000 2150 0    60   ~ 0
+CON_HDMI_CLKP
+Text Label 4000 2250 0    60   ~ 0
+CON_HDMI_D0N
+Text Label 4000 2350 0    60   ~ 0
+CON_HDMI_D0P
 Wire Wire Line
 	3050 5650 3350 5650
 Wire Wire Line
@@ -408,31 +739,9 @@ Connection ~ 6200 2750
 Wire Wire Line
 	6100 2650 6200 2650
 Connection ~ 6200 2650
-$Comp
-L GNDREF #PWR049
-U 1 1 59117C76
-P 6500 3400
-F 0 "#PWR049" H 6500 3150 50  0001 C CNN
-F 1 "GNDREF" H 6500 3250 50  0000 C CNN
-F 2 "" H 6500 3400 50  0001 C CNN
-F 3 "" H 6500 3400 50  0001 C CNN
-	1    6500 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6500 3350 6500 3400
 Connection ~ 6200 3350
-$Comp
-L GNDREF #PWR048
-U 1 1 59117D13
-P 5650 4450
-F 0 "#PWR048" H 5650 4200 50  0001 C CNN
-F 1 "GNDREF" H 5650 4300 50  0000 C CNN
-F 2 "" H 5650 4450 50  0001 C CNN
-F 3 "" H 5650 4450 50  0001 C CNN
-	1    5650 4450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 4250 5650 4250
 Wire Wire Line
@@ -440,34 +749,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 4350 5650 4350
 Connection ~ 5650 4350
-$Comp
-L ESD7484 U24
-U 1 1 5911871C
-P 3500 3950
-F 0 "U24" H 3200 3600 60  0000 C CNN
-F 1 "ESD7484" H 3350 4200 60  0000 C CNN
-F 2 "SW-On-Semi:WLCSP10-1.6x1.1mm" H 3500 3950 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD7484-D.PDF" H 4000 4700 60  0001 C CNN
-F 4 "0.00@0" H 3600 4850 60  0001 C CNN "Pricing"
-F 5 "4-Line Ultra-Large Bandwidth ESD Protection" H 3800 4500 60  0001 C CNN "Description"
-F 6 "Fairchild/ON Semiconductor" H 3700 4600 60  0001 C CNN "Manufacturer"
-	1    3500 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L ESD7484 U23
-U 1 1 591189BB
-P 3500 2200
-F 0 "U23" H 3200 1850 60  0000 C CNN
-F 1 "ESD7484" H 3350 2450 60  0000 C CNN
-F 2 "SW-On-Semi:WLCSP10-1.6x1.1mm" H 3500 2200 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD7484-D.PDF" H 4000 2950 60  0001 C CNN
-F 4 "0.00@0" H 3600 3100 60  0001 C CNN "Pricing"
-F 5 "4-Line Ultra-Large Bandwidth ESD Protection" H 3800 2750 60  0001 C CNN "Description"
-F 6 "Fairchild/ON Semiconductor" H 3700 2850 60  0001 C CNN "Manufacturer"
-	1    3500 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2550 3200 2650 3200
 Wire Wire Line
@@ -564,61 +845,13 @@ Wire Wire Line
 	4150 2800 4150 2350
 Wire Wire Line
 	4150 2350 4000 2350
-$Comp
-L DMG1012T U21
-U 1 1 5911B6F8
-P 3150 1350
-F 0 "U21" H 2750 1600 60  0000 C CNN
-F 1 "DMG1012T" V 3000 1350 60  0000 C CNN
-F 2 "SW-Diodes:SOT523" H 2750 1800 60  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 3150 2400 60  0001 C CNN
-F 4 "0.00@0" H 3150 2500 60  0001 C CNN "Pricing"
-F 5 "Diodes Inc" H 3050 2100 60  0001 C CNN "Manufacturer"
-F 6 "N-CHANNEL ENHANCEMENT MODE MOSFET" H 3150 2200 60  0001 C CNN "Description"
-F 7 "SOT523" H 3250 2300 60  0001 C CNN "Package ID"
-	1    3150 1350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L +1V8 #PWR044
-U 1 1 5911B770
-P 3400 700
-F 0 "#PWR044" H 3400 550 50  0001 C CNN
-F 1 "+1V8" H 3400 840 50  0000 C CNN
-F 2 "" H 3400 700 50  0001 C CNN
-F 3 "" H 3400 700 50  0001 C CNN
-	1    3400 700 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3650 1350 4500 1350
 Connection ~ 4500 2400
-$Comp
-L R_Small R7
-U 1 1 5911BA5B
-P 3400 900
-F 0 "R7" H 3430 920 50  0000 L CNN
-F 1 "100k 1%" H 3430 860 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" H 3400 900 50  0001 C CNN
-F 3 "" H 3400 900 50  0001 C CNN
-	1    3400 900 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3400 800  3400 700 
 Wire Wire Line
 	3400 1000 3400 1100
-$Comp
-L GNDREF #PWR045
-U 1 1 5911BCE1
-P 3400 1650
-F 0 "#PWR045" H 3400 1400 50  0001 C CNN
-F 1 "GNDREF" H 3400 1500 50  0000 C CNN
-F 2 "" H 3400 1650 50  0001 C CNN
-F 3 "" H 3400 1650 50  0001 C CNN
-	1    3400 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3400 1650 3400 1600
 Wire Wire Line
@@ -628,51 +861,12 @@ Wire Wire Line
 Wire Wire Line
 	2600 2400 2550 2400
 Connection ~ 3400 1050
-$Comp
-L AP2331X U26
-U 1 1 5911C05E
-P 6700 4150
-F 0 "U26" H 6550 4200 60  0000 C CNN
-F 1 "AP2331X" H 6600 3800 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6800 5100 60  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2331.pdf" H 6800 5200 60  0001 C CNN
-F 4 "0.00@0" H 6750 5400 60  0001 C CNN "Pricing"
-F 5 "0.2A SINGLE CHANNEL CURRENT-LIMITED LOAD SWITCH" H 6750 4950 60  0001 C CNN "Description"
-F 6 "Diodes Inc" H 6800 5300 60  0001 C CNN "Manufacturer"
-F 7 "SOT-23, U-DFN2020-3" H 6850 4750 60  0001 C CNN "Package ID"
-	1    6700 4150
-	-1   0    0    -1  
-$EndComp
-Text Notes 8050 3700 2    60   ~ 0
-HDMI power limiter
 Wire Wire Line
 	6100 3950 6100 3450
-$Comp
-L C_Small C40
-U 1 1 5911FC51
-P 7100 4300
-F 0 "C40" H 7110 4370 50  0000 L CNN
-F 1 "100n" H 7110 4220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7100 4300 50  0001 C CNN
-F 3 "" H 7100 4300 50  0001 C CNN
-	1    7100 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7000 4200 7100 4200
 Wire Wire Line
 	7000 4400 7100 4400
-$Comp
-L GNDREF #PWR051
-U 1 1 5911FE33
-P 7100 4650
-F 0 "#PWR051" H 7100 4400 50  0001 C CNN
-F 1 "GNDREF" H 7100 4500 50  0000 C CNN
-F 2 "" H 7100 4650 50  0001 C CNN
-F 3 "" H 7100 4650 50  0001 C CNN
-	1    7100 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 4400 7100 4650
 Wire Wire Line
@@ -684,17 +878,6 @@ Wire Wire Line
 Connection ~ 6100 3950
 Wire Wire Line
 	5550 4050 5550 3950
-$Comp
-L C_Small C39
-U 1 1 59120198
-P 6450 4450
-F 0 "C39" H 6460 4520 50  0000 L CNN
-F 1 "100n" H 6460 4370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6450 4450 50  0001 C CNN
-F 3 "" H 6450 4450 50  0001 C CNN
-	1    6450 4450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6450 4350 6450 4300
 Connection ~ 6450 4300
@@ -703,19 +886,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 4600 7100 4600
 Connection ~ 7100 4600
-Text Label 6350 3950 2    60   ~ 0
-H5V
-$Comp
-L GNDREF #PWR047
-U 1 1 5912041E
-P 4000 4450
-F 0 "#PWR047" H 4000 4200 50  0001 C CNN
-F 1 "GNDREF" H 4000 4300 50  0000 C CNN
-F 2 "" H 4000 4450 50  0001 C CNN
-F 3 "" H 4000 4450 50  0001 C CNN
-	1    4000 4450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 4350 2950 4350
 Wire Wire Line
@@ -723,18 +893,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 4200 4000 4450
 Connection ~ 4000 4350
-NoConn ~ 5500 4150
-$Comp
-L GNDREF #PWR046
-U 1 1 59120752
-P 4000 2700
-F 0 "#PWR046" H 4000 2450 50  0001 C CNN
-F 1 "GNDREF" H 4000 2550 50  0000 C CNN
-F 2 "" H 4000 2700 50  0001 C CNN
-F 3 "" H 4000 2700 50  0001 C CNN
-	1    4000 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 2600 2950 2600
 Wire Wire Line
@@ -742,67 +900,65 @@ Wire Wire Line
 Wire Wire Line
 	4000 2450 4000 2700
 Connection ~ 4000 2600
-$Comp
-L DMG1012T U22
-U 1 1 591207FB
-P 3350 3550
-F 0 "U22" H 2950 3800 60  0000 C CNN
-F 1 "DMG1012T" V 3200 3550 60  0000 C CNN
-F 2 "SW-Diodes:SOT523" H 2950 4000 60  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 3350 4600 60  0001 C CNN
-F 4 "0.00@0" H 3350 4700 60  0001 C CNN "Pricing"
-F 5 "Diodes Inc" H 3250 4300 60  0001 C CNN "Manufacturer"
-F 6 "N-CHANNEL ENHANCEMENT MODE MOSFET" H 3350 4400 60  0001 C CNN "Description"
-F 7 "SOT523" H 3450 4500 60  0001 C CNN "Package ID"
-	1    3350 3550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2550 3300 3100 3300
-Text Label 3350 2950 2    60   ~ 0
-H5V
 Wire Wire Line
 	3350 2950 3350 3050
 Connection ~ 4450 3300
-$Comp
-L R_Small R6
-U 1 1 591214D4
-P 2900 3100
-F 0 "R6" H 2930 3120 50  0000 L CNN
-F 1 "27k 1%" H 2930 3060 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" H 2900 3100 50  0001 C CNN
-F 3 "" H 2900 3100 50  0001 C CNN
-	1    2900 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2900 3200 2900 3300
 Connection ~ 2900 3300
-$Comp
-L +3V3 #PWR041
-U 1 1 59121601
-P 2900 2850
-F 0 "#PWR041" H 2900 2700 50  0001 C CNN
-F 1 "+3V3" H 2900 2990 50  0000 C CNN
-F 2 "" H 2900 2850 50  0001 C CNN
-F 3 "" H 2900 2850 50  0001 C CNN
-	1    2900 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2900 2850 2900 3000
-NoConn ~ 6100 2450
-$Comp
-L HDMI-A-connector-no-shield J13
-U 1 1 59200D14
-P 5450 2950
-F 0 "J13" H 5050 3600 60  0000 C CNN
-F 1 "HDMI-A-connector-no-shield" H 5450 2300 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch1.27mm" H 5450 2950 60  0001 C CNN
-F 3 "" H 5450 2950 60  0001 C CNN
-F 4 "Generic HDMI Connector pinout" H 5500 3750 60  0001 C CNN "Description"
-F 5 "0.00@0" H 5500 3850 60  0001 C CNN "Pricing"
-	1    5450 2950
-	1    0    0    1   
-$EndComp
+Wire Wire Line
+	8350 4100 8000 4100
+Wire Wire Line
+	8000 4100 8000 4800
+Wire Wire Line
+	8350 4200 8100 4200
+Wire Wire Line
+	8100 4200 8100 4900
+Wire Wire Line
+	8350 6050 8100 6050
+Wire Wire Line
+	8100 6050 8100 5000
+Wire Wire Line
+	8100 5000 7900 5000
+Wire Wire Line
+	7900 5100 8000 5100
+Wire Wire Line
+	8000 5100 8000 6150
+Wire Wire Line
+	8000 6150 8350 6150
+Wire Wire Line
+	7350 5100 7500 5100
+Wire Wire Line
+	7350 5100 7350 5250
+Wire Wire Line
+	7500 4800 7450 4800
+Wire Wire Line
+	7450 4800 7450 5100
+Connection ~ 7450 5100
+Wire Wire Line
+	7500 5000 7450 5000
+Connection ~ 7450 5000
+Wire Wire Line
+	7500 4900 7450 4900
+Connection ~ 7450 4900
+Wire Wire Line
+	8000 4800 7900 4800
+Wire Wire Line
+	8100 4900 7900 4900
+Text Label 2350 5650 0    60   ~ 0
+SD_D3
+Text Label 2350 5750 0    60   ~ 0
+SD_D2
+Text Label 2350 5850 0    60   ~ 0
+SD_D1
+Text Label 2350 5950 0    60   ~ 0
+SD_D0
+Text Label 2350 6050 0    60   ~ 0
+SD_CMD
+Text Label 2350 6150 0    60   ~ 0
+SD_CLK
 $EndSCHEMATC

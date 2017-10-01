@@ -41,6 +41,7 @@ LIBS:SW-HALO
 LIBS:SW-Fairchild-On-Semi
 LIBS:SW-Diodes-Inc
 LIBS:interface
+LIBS:SW-gElectroMech
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END

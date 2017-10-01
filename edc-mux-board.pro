@@ -1,4 +1,4 @@
-update=Friday, September 29, 2017 'PMt' 11:46:57 PM
+update=Saturday, September 30, 2017 'AMt' 02:09:15 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,4 @@ LibName39=SW-HALO
 LibName40=SW-Fairchild-On-Semi
 LibName41=SW-Diodes-Inc
 LibName42=interface
+LibName43=SW-gElectroMech
