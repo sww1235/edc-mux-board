@@ -535,4 +535,12 @@ Wire Wire Line
 	3600 5450 3700 5450
 Wire Wire Line
 	3600 5150 3600 4650
+Text Label 5000 4500 0    60   ~ 0
+USB_0_PWR
+Text Label 5000 4750 0    60   ~ 0
+USB_1_PWR
+Text Label 4950 6600 0    60   ~ 0
+USB_2_PWR
+Text Label 4950 6700 0    60   ~ 0
+USB_3_PWR
 $EndSCHEMATC

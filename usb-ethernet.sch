@@ -496,4 +496,20 @@ Connection ~ 4750 2700
 Wire Wire Line
 	4900 2900 4900 2700
 Connection ~ 4900 2700
+Text Label 4000 3450 0    60   ~ 0
+LAN_TXN
+Text Label 4000 3550 0    60   ~ 0
+LAN_TXP
+Text Label 4000 3650 0    60   ~ 0
+LAN_RXN
+Text Label 4000 3750 0    60   ~ 0
+LAN_RXP
+Text Label 6050 3850 0    60   ~ 0
+CON_RXP
+Text Label 6050 4050 0    60   ~ 0
+CON_RXN
+Text Label 6000 3550 0    60   ~ 0
+CON_TXP
+Text Label 6050 3750 0    60   ~ 0
+CON_TXN
 $EndSCHEMATC
