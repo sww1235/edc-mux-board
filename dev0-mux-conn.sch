@@ -70,20 +70,20 @@ F 3 "" H 1000 1150 50  0001 C CNN
 $EndComp
 $Comp
 L TS12A44514 U?
-U 2 1 58EA0AC9
+U 1 1 58EA0AC9
 P 3050 1150
 AR Path="/58DEDA38/58EA0AC9" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E25B/58EA0AC9" Ref="U9"  Part="2" 
-F 0 "U9" H 2800 1400 60  0000 C CNN
+AR Path="/58DEDA38/58E9E25B/58EA0AC9" Ref="U7"  Part="1" 
+F 0 "U7" H 2800 1400 60  0000 C CNN
 F 1 "TS12A44514" H 3450 1350 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3550 2450 60  0001 C CNN
 F 3 "" H 3050 1150 60  0001 C CNN
-F 4 "0.00@0" H 3100 2150 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3400 2700 60  0001 C CNN "Characteristics"
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3400 2700 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 3450 2600 60  0001 C CNN "Manufacturer"
 F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3350 2250 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 3450 2600 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3350 2350 60  0001 C CNN "Package ID"
-	2    3050 1150
+F 7 "TSSOP14" H 3350 2350 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3100 2150 60  0001 C CNN "Pricing"
+	1    3050 1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -446,11 +446,12 @@ L 74LS32 U?
 U 1 1 59D24759
 P 3900 2850
 AR Path="/58DEDA38/58E9E2BE/59D24759" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E25B/59D24759" Ref="U19"  Part="1" 
-F 0 "U19" H 3900 2533 50  0000 C CNN
+AR Path="/58DEDA38/58E9E25B/59D24759" Ref="U14"  Part="1" 
+F 0 "U14" H 3900 2533 50  0000 C CNN
 F 1 "74LS32" H 3900 2624 50  0000 C CNN
 F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3900 2850 50  0001 C CNN
 F 3 "" H 3900 2850 50  0001 C CNN
+F 4 "0.00@0" H 3900 2850 60  0001 C CNN "Pricing"
 	1    3900 2850
 	-1   0    0    1   
 $EndComp
@@ -458,16 +459,17 @@ Wire Wire Line
 	3000 2850 3600 2850
 $Comp
 L 74LS32 U?
-U 2 1 59D24761
+U 1 1 59D24761
 P 3900 4550
 AR Path="/58DEDA38/58E9E2BE/59D24761" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/59D24761" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9E25B/59D24761" Ref="U19"  Part="2" 
-F 0 "U19" H 3900 4233 50  0000 C CNN
+AR Path="/58DEDA38/58E9E25B/59D24761" Ref="U16"  Part="1" 
+F 0 "U16" H 3900 4233 50  0000 C CNN
 F 1 "74LS32" H 3900 4324 50  0000 C CNN
 F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3900 4550 50  0001 C CNN
 F 3 "" H 3900 4550 50  0001 C CNN
-	2    3900 4550
+F 4 "0.00@0" H 3900 4550 60  0001 C CNN "Pricing"
+	1    3900 4550
 	-1   0    0    1   
 $EndComp
 $Comp

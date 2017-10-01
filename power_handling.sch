@@ -1389,7 +1389,7 @@ U 1 1 59CF51CD
 P 11250 8600
 F 0 "F9" V 11204 8648 50  0000 L CNN
 F 1 "1A" V 11295 8648 50  0000 L CNN
-F 2 "SW-Littelfuse:02540121Z" H 11250 8600 50  0001 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 11250 8600 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 11250 8600 50  0001 C CNN
 F 4 "400 VAC/DC / 10A" H 11250 8600 60  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 11250 8600 60  0001 C CNN "Manufacturer"
@@ -1405,7 +1405,7 @@ U 1 1 59CF417F
 P 10700 8600
 F 0 "F8" V 10654 8648 50  0000 L CNN
 F 1 "1A" V 10745 8648 50  0000 L CNN
-F 2 "SW-Littelfuse:02540121Z" H 10700 8600 50  0001 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 10700 8600 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 10700 8600 50  0001 C CNN
 F 4 "400 VAC/DC / 10A" H 10700 8600 60  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 10700 8600 60  0001 C CNN "Manufacturer"
@@ -1421,7 +1421,7 @@ U 1 1 59CF4234
 P 10250 8650
 F 0 "F7" V 10204 8698 50  0000 L CNN
 F 1 "1A" V 10295 8698 50  0000 L CNN
-F 2 "SW-Littelfuse:02540121Z" H 10250 8650 50  0001 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 10250 8650 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 10250 8650 50  0001 C CNN
 F 4 "400 VAC/DC / 10A" H 10250 8650 60  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 10250 8650 60  0001 C CNN "Manufacturer"
@@ -1437,7 +1437,7 @@ U 1 1 59CF42EA
 P 9750 8650
 F 0 "F6" V 9704 8698 50  0000 L CNN
 F 1 "1A" V 9795 8698 50  0000 L CNN
-F 2 "SW-Littelfuse:02540121Z" H 9750 8650 50  0001 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 9750 8650 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 9750 8650 50  0001 C CNN
 F 4 "400 VAC/DC / 10A" H 9750 8650 60  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 9750 8650 60  0001 C CNN "Manufacturer"
@@ -1453,7 +1453,7 @@ U 1 1 59CF43A2
 P 9250 8650
 F 0 "F5" V 9204 8698 50  0000 L CNN
 F 1 "1A" V 9295 8698 50  0000 L CNN
-F 2 "SW-Littelfuse:02540121Z" H 9250 8650 50  0001 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 9250 8650 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 9250 8650 50  0001 C CNN
 F 4 "400 VAC/DC / 10A" H 9250 8650 60  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 9250 8650 60  0001 C CNN "Manufacturer"
@@ -1469,7 +1469,7 @@ U 1 1 59CF445D
 P 8750 8650
 F 0 "F4" V 8704 8698 50  0000 L CNN
 F 1 "1A" V 8795 8698 50  0000 L CNN
-F 2 "SW-Littelfuse:02540121Z" H 8750 8650 50  0001 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 8750 8650 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 8750 8650 50  0001 C CNN
 F 4 "400 VAC/DC / 10A" H 8750 8650 60  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 8750 8650 60  0001 C CNN "Manufacturer"
@@ -1485,7 +1485,7 @@ U 1 1 59CF48C1
 P 8300 8650
 F 0 "F3" V 8254 8698 50  0000 L CNN
 F 1 "1A" V 8345 8698 50  0000 L CNN
-F 2 "SW-Littelfuse:02540121Z" H 8300 8650 50  0001 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 8300 8650 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 8300 8650 50  0001 C CNN
 F 4 "400 VAC/DC / 10A" H 8300 8650 60  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 8300 8650 60  0001 C CNN "Manufacturer"
@@ -1501,7 +1501,7 @@ U 1 1 59CF4980
 P 7750 8650
 F 0 "F2" V 7704 8698 50  0000 L CNN
 F 1 "1A" V 7795 8698 50  0000 L CNN
-F 2 "SW-Littelfuse:02540121Z" H 7750 8650 50  0001 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 7750 8650 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 7750 8650 50  0001 C CNN
 F 4 "400 VAC/DC / 10A" H 7750 8650 60  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 7750 8650 60  0001 C CNN "Manufacturer"
@@ -1549,7 +1549,7 @@ U 1 1 59D03CA2
 P 1300 9150
 F 0 "F1" V 1254 9102 50  0000 R CNN
 F 1 "5A" V 1345 9102 50  0000 R CNN
-F 2 "SW-Littelfuse:02540121Z" H 1300 9150 50  0001 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 1300 9150 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 1300 9150 50  0001 C CNN
 F 4 "400 VAC/DC / 10A" H 1300 9150 60  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 1300 9150 60  0001 C CNN "Manufacturer"
@@ -3306,4 +3306,28 @@ F 3 "" H 3900 1150 50  0001 C CNN
 	1    3900 1150
 	1    0    0    -1  
 $EndComp
+Text Label 7750 9100 1    60   ~ 0
+PowerOut0+
+Text Label 8300 9100 1    60   ~ 0
+PowerOut1+
+Text Label 8750 9100 1    60   ~ 0
+PowerOut2+
+Text Label 9250 9100 1    60   ~ 0
+PowerOut3+
+Text Label 9750 9100 1    60   ~ 0
+PowerOut4+
+Text Label 10250 9100 1    60   ~ 0
+PowerOut5+
+Text Label 10700 9100 1    60   ~ 0
+PowerOut6+
+Text Label 11250 9100 1    60   ~ 0
+PowerOut7+
+Text Label 13100 7100 0    60   ~ 0
+VBatIn1+
+Text Label 13100 7700 0    60   ~ 0
+VBatIn2+
+Text Label 12500 7400 0    60   ~ 0
+VBatSw2+
+Text Label 12500 7300 0    60   ~ 0
+VBatSw1+
 $EndSCHEMATC

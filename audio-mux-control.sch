@@ -160,17 +160,6 @@ $EndComp
 Text Notes 5800 23310 0    60   ~ 0
 Using TASCAM DB-25 pinout\n+ = right, - = left
 $Comp
-L JACK-TRS J16
-U 1 1 58EE411D
-P 10400 10900
-F 0 "J16" H 10400 10800 60  0000 C CNN
-F 1 "Input from Mixer" H 10400 10900 60  0000 C CNN
-F 2 "SW-CUI-INC:SJ1-353XNG-3Pin" H 10400 10900 60  0001 C CNN
-F 3 "" H 10400 10900 60  0000 C CNN
-	1    10400 10900
-	0    -1   -1   0   
-$EndComp
-$Comp
 L GNDA #PWR060
 U 1 1 58EE59AB
 P 8100 23350
@@ -787,8 +776,8 @@ F 8 "TSSOP14" H 10400 10750 60  0001 C CNN "Package ID"
 	4    10100 9550
 	0    1    1    0   
 $EndComp
-Text Notes 9400 11250 0    60   ~ 0
-TIp=Left\nRight=Right\nSleeve=Ground
+Text Notes 8650 12600 0    60   ~ 0
+1=Left=Tip\n2=Right=Ring\n3=GNDA=Sleeve\n4=SDA\n5=SCL\n6=+12V\n7=GND\n8=GND
 $Comp
 L C_Small C43
 U 1 1 592C60EA
@@ -912,29 +901,29 @@ MIC-IN-0
 $Comp
 L RasPi-CM3-Headers J11
 U 5 1 59349764
-P 11700 12600
-F 0 "J11" H 11600 12100 60  0000 C CNN
-F 1 "RasPi-CM3-Headers" V 11950 12600 60  0000 C CNN
-F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 11750 17700 60  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 11750 17400 60  0001 C CNN
-F 4 "0.00@0" H 11700 17300 60  0001 C CNN "Pricing"
-F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 11700 17600 60  0001 C CNN "Description"
-F 6 "Raspberry Pi Foundation" H 11700 17500 60  0001 C CNN "Manufacturer"
-	5    11700 12600
+P 12600 12650
+F 0 "J11" H 12500 12150 60  0000 C CNN
+F 1 "RasPi-CM3-Headers" V 12850 12650 60  0000 C CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 12650 17750 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 12650 17450 60  0001 C CNN
+F 4 "0.00@0" H 12600 17350 60  0001 C CNN "Pricing"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 12600 17650 60  0001 C CNN "Description"
+F 6 "Raspberry Pi Foundation" H 12600 17550 60  0001 C CNN "Manufacturer"
+	5    12600 12650
 	1    0    0    -1  
 $EndComp
 $Comp
 L RasPi-CM3-Headers J11
 U 6 1 5934A1A4
-P 11700 13650
-F 0 "J11" H 11650 13150 60  0000 C CNN
-F 1 "RasPi-CM3-Headers" V 11950 13650 60  0000 C CNN
-F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 11750 18750 60  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 11750 18450 60  0001 C CNN
-F 4 "0.00@0" H 11700 18350 60  0001 C CNN "Pricing"
-F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 11700 18650 60  0001 C CNN "Description"
-F 6 "Raspberry Pi Foundation" H 11700 18550 60  0001 C CNN "Manufacturer"
-	6    11700 13650
+P 12600 13700
+F 0 "J11" H 12550 13200 60  0000 C CNN
+F 1 "RasPi-CM3-Headers" V 12850 13700 60  0000 C CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 12650 18800 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 12650 18500 60  0001 C CNN
+F 4 "0.00@0" H 12600 18400 60  0001 C CNN "Pricing"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 12600 18700 60  0001 C CNN "Description"
+F 6 "Raspberry Pi Foundation" H 12600 18600 60  0001 C CNN "Manufacturer"
+	6    12600 13700
 	1    0    0    -1  
 $EndComp
 Text Label 5450 3600 0    60   ~ 0
@@ -1015,13 +1004,13 @@ $EndComp
 $Comp
 L GNDA #PWR062
 U 1 1 58F72C23
-P 9950 10850
-F 0 "#PWR062" H 9950 10600 50  0001 C CNN
-F 1 "GNDA" H 9950 10700 50  0000 C CNN
-F 2 "" H 9950 10850 50  0001 C CNN
-F 3 "" H 9950 10850 50  0001 C CNN
-	1    9950 10850
-	1    0    0    -1  
+P 9700 12000
+F 0 "#PWR062" H 9700 11750 50  0001 C CNN
+F 1 "GNDA" H 9700 11850 50  0000 C CNN
+F 2 "" H 9700 12000 50  0001 C CNN
+F 3 "" H 9700 12000 50  0001 C CNN
+	1    9700 12000
+	-1   0    0    1   
 $EndComp
 $Comp
 L TCA9534(A) U31
@@ -1314,9 +1303,9 @@ F 3 "" H 12900 16950 50  0001 C CNN
 $EndComp
 Text Notes 11800 15800 0    60   ~ 0
 Flashlight/headlamp connectors\n12V+, GND, SDA, SCL
-Text Notes 9400 12800 0    60   ~ 0
+Text Notes 10300 12850 0    60   ~ 0
 i2c pins (I2C 1) GPIO 2,3 alt0\nspi pins (SPI 0) GPIO 7,8,9,10,11 alt0
-Text Notes 7950 12200 0    60   ~ 0
+Text Notes 10350 11900 0    60   ~ 0
 TCA9534 addresses all start with 0100 (32-39),\nTCA9534A variant starts with 0111 (56-63)
 $Comp
 L +3V3 #PWR059
@@ -1334,17 +1323,17 @@ Verify IO voltage levels for\nswitch inputs.
 $Comp
 L GNDREF #PWR061
 U 1 1 59070455
-P 9150 11750
-F 0 "#PWR061" H 9150 11500 50  0001 C CNN
-F 1 "GNDREF" H 9150 11600 50  0000 C CNN
-F 2 "" H 9150 11750 50  0001 C CNN
-F 3 "" H 9150 11750 50  0001 C CNN
-	1    9150 11750
+P 8450 11800
+F 0 "#PWR061" H 8450 11550 50  0001 C CNN
+F 1 "GNDREF" H 8450 11650 50  0000 C CNN
+F 2 "" H 8450 11800 50  0001 C CNN
+F 3 "" H 8450 11800 50  0001 C CNN
+	1    8450 11800
 	1    0    0    -1  
 $EndComp
-Text Label 11100 12400 2    60   ~ 0
+Text Label 12000 12450 2    60   ~ 0
 SDA
-Text Label 11100 12500 2    60   ~ 0
+Text Label 12000 12550 2    60   ~ 0
 SCL
 Text Label 3550 23700 0    60   ~ 0
 SDA
@@ -1372,6 +1361,211 @@ F 3 "" H 2800 26200 50  0001 C CNN
 	1    2800 26200
 	1    0    0    -1  
 $EndComp
+Text Notes 8350 10850 1    60   ~ 0
+ADR: 32
+Text Notes 10550 10850 1    60   ~ 0
+ADR: 33
+Text Notes 2300 23300 2    60   ~ 0
+ADR: 34
+Text Notes 2300 24350 2    60   ~ 0
+ADR: 35
+Text Notes 2300 25350 2    60   ~ 0
+ADR: 36
+NoConn ~ 2650 23500
+NoConn ~ 2650 24500
+NoConn ~ 2650 25500
+Text Label 11750 11400 0    60   ~ 0
+SDA
+Text Label 11750 11500 0    60   ~ 0
+SCL
+Text Label 2050 21100 2    60   ~ 0
+MOSI
+Text Label 12000 13400 2    60   ~ 0
+MOSI
+Text Label 12000 13300 2    60   ~ 0
+MISO
+Text Label 12000 13050 2    60   ~ 0
+CE0
+Text Label 12000 12950 2    60   ~ 0
+CE1
+Text Label 12000 13500 2    60   ~ 0
+SCLK
+Text Label 2050 21300 2    60   ~ 0
+SCLK
+Text Label 2050 21200 2    60   ~ 0
+CE0
+NoConn ~ 12250 12250
+NoConn ~ 12250 12350
+NoConn ~ 12250 12650
+NoConn ~ 12250 12750
+NoConn ~ 12250 12850
+NoConn ~ 12250 13600
+NoConn ~ 12250 13700
+NoConn ~ 12250 13800
+NoConn ~ 12250 13900
+NoConn ~ 12250 14000
+NoConn ~ 12250 14100
+Text Label 11900 16200 2    60   ~ 0
+SDA
+Text Label 11900 16300 2    60   ~ 0
+SCL
+$Comp
+L GNDREF #PWR063
+U 1 1 59106419
+P 12100 17200
+F 0 "#PWR063" H 12100 16950 50  0001 C CNN
+F 1 "GNDREF" H 12100 17050 50  0000 C CNN
+F 2 "" H 12100 17200 50  0001 C CNN
+F 3 "" H 12100 17200 50  0001 C CNN
+	1    12100 17200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR064
+U 1 1 59107523
+P 12150 16000
+F 0 "#PWR064" H 12150 15850 50  0001 C CNN
+F 1 "+12V" H 12150 16140 50  0000 C CNN
+F 2 "" H 12150 16000 50  0001 C CNN
+F 3 "" H 12150 16000 50  0001 C CNN
+	1    12150 16000
+	1    0    0    -1  
+$EndComp
+Text Label 11650 12950 2    60   ~ 0
+CE1
+NoConn ~ 11650 12950
+Text Label 11700 13300 2    60   ~ 0
+MISO
+NoConn ~ 11700 13300
+NoConn ~ 2350 1650
+NoConn ~ 8550 11200
+NoConn ~ 10750 11200
+$Comp
+L R_Network17 RN1
+U 1 1 591C378D
+P 6100 5600
+F 0 "RN1" V 5200 5600 50  0000 C CNN
+F 1 "4818P-T02-202LF" V 7000 5600 50  0000 C CNN
+F 2 "SW-Bournes:SOM-18" V 6875 5600 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/54/800P-777115.pdf" V 5400 5600 50  0001 C CNN
+F 4 "Bournes" H 6100 5600 60  0001 C CNN "Manufacturer"
+F 5 "Resistor Network star topology" H 6000 6350 60  0001 C CNN "Description"
+F 6 "SOM-18" H 6100 5600 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 6050 6250 60  0001 C CNN "Pricing"
+	1    6100 5600
+	1    0    0    1   
+$EndComp
+NoConn ~ 6100 5400
+$Comp
+L Fuse_Small F12
+U 1 1 59D072D5
+P 12500 16100
+F 0 "F12" H 12500 15915 50  0000 C CNN
+F 1 "2A" H 12500 16006 50  0000 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 12500 16100 50  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 12500 16100 50  0001 C CNN
+F 4 "400 VAC/DC / 10A" H 12500 16100 60  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 12500 16100 60  0001 C CNN "Manufacturer"
+F 6 "PCB mount fuse holder for 2AG fuses" H 12500 16100 60  0001 C CNN "Description"
+F 7 "254 121" H 12500 16100 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 12500 16100 60  0001 C CNN "Pricing"
+	1    12500 16100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Fuse_Small F13
+U 1 1 59D0A8B6
+P 12500 16850
+F 0 "F13" H 12500 16665 50  0000 C CNN
+F 1 "2A" H 12500 16756 50  0000 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 12500 16850 50  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 12500 16850 50  0001 C CNN
+F 4 "400 VAC/DC / 10A" H 12500 16850 60  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 12500 16850 60  0001 C CNN "Manufacturer"
+F 6 "PCB mount fuse holder for 2AG fuses" H 12500 16850 60  0001 C CNN "Description"
+F 7 "254 121" H 12500 16850 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 12500 16850 60  0001 C CNN "Pricing"
+	1    12500 16850
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R40
+U 1 1 59D4DF66
+P 11550 11150
+F 0 "R40" H 11400 11200 50  0000 L CNN
+F 1 "1.8k" H 11350 11100 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 11550 11150 50  0001 C CNN
+F 3 "" H 11550 11150 50  0001 C CNN
+	1    11550 11150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R41
+U 1 1 59D4F06D
+P 11650 11150
+F 0 "R41" H 11700 11200 50  0000 L CNN
+F 1 "1.8k" H 11709 11105 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 11650 11150 50  0001 C CNN
+F 3 "" H 11650 11150 50  0001 C CNN
+	1    11650 11150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR0141
+U 1 1 59D592B7
+P 11600 10950
+F 0 "#PWR0141" H 11600 10800 50  0001 C CNN
+F 1 "+3V3" H 11600 11090 50  0000 C CNN
+F 2 "" H 11600 10950 50  0001 C CNN
+F 3 "" H 11600 10950 50  0001 C CNN
+	1    11600 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08 J16
+U 1 1 59D78AB1
+P 10150 12200
+F 0 "J16" H 10150 12650 50  0000 C CNN
+F 1 "Mixer_Power_CTL" V 10250 12200 50  0000 C CNN
+F 2 "SW-TEConn:3-794681-8" H 10150 12200 50  0001 C CNN
+F 3 "" H 10150 12200 50  0001 C CNN
+F 4 "0.00@0" H 10150 12200 60  0001 C CNN "Pricing"
+	1    10150 12200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse_Small F14
+U 1 1 59DF7D67
+P 9750 12400
+F 0 "F14" H 9750 12215 50  0000 C CNN
+F 1 "600mA" H 9750 12306 50  0000 C CNN
+F 2 "SW-Littelfuse:NANO-0154-OMNI-BLOK-Fuse-Holder" H 9750 12400 50  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 9750 12400 50  0001 C CNN
+F 4 "400 VAC/DC / 10A" H 9750 12400 60  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 9750 12400 60  0001 C CNN "Manufacturer"
+F 6 "PCB mount fuse holder for 2AG fuses" H 9750 12400 60  0001 C CNN "Description"
+F 7 "254 121" H 9750 12400 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 9750 12400 60  0001 C CNN "Pricing"
+	1    9750 12400
+	-1   0    0    1   
+$EndComp
+$Comp
+L +12V #PWR0142
+U 1 1 59E0869E
+P 9350 12350
+F 0 "#PWR0142" H 9350 12200 50  0001 C CNN
+F 1 "+12V" H 9350 12490 50  0000 C CNN
+F 2 "" H 9350 12350 50  0001 C CNN
+F 3 "" H 9350 12350 50  0001 C CNN
+	1    9350 12350
+	1    0    0    -1  
+$EndComp
+Text Label 9900 12400 0    60   ~ 0
+MixerPower+
+Text Label 12650 16100 0    60   ~ 0
+Light0Vout+
+Text Label 12650 16850 0    60   ~ 0
+Light1Vout+
 Wire Wire Line
 	5650 22750 5650 22550
 Wire Wire Line
@@ -2234,7 +2428,7 @@ Connection ~ 13050 7200
 Wire Wire Line
 	10100 10000 10100 9850
 Wire Wire Line
-	8000 10000 10150 10000
+	8000 10000 10100 10000
 Wire Wire Line
 	9800 10000 9800 9850
 Wire Wire Line
@@ -2258,7 +2452,7 @@ Connection ~ 8300 10000
 Wire Wire Line
 	10400 9850 10400 10000
 Wire Wire Line
-	10350 10000 12500 10000
+	10150 10000 12500 10000
 Wire Wire Line
 	10700 10000 10700 9850
 Wire Wire Line
@@ -2280,10 +2474,10 @@ Wire Wire Line
 	12500 10000 12500 9850
 Connection ~ 12200 10000
 Wire Wire Line
-	10150 10000 10150 10650
+	10000 10000 10000 10650
 Connection ~ 10100 10000
 Wire Wire Line
-	10350 10650 10350 10000
+	10150 10700 10150 10000
 Connection ~ 10400 10000
 Wire Wire Line
 	13200 7800 12500 7800
@@ -2470,27 +2664,17 @@ Wire Wire Line
 	6900 5400 6900 5100
 Connection ~ 6900 5100
 Wire Wire Line
-	10100 10650 9950 10650
-Wire Wire Line
-	9950 10650 9950 10850
-Wire Wire Line
 	7850 9850 7850 10350
 Wire Wire Line
-	7850 10350 8450 10350
-Wire Wire Line
-	8450 10350 8450 10400
+	7850 10350 8650 10350
 Wire Wire Line
 	8150 9850 8150 10300
 Wire Wire Line
-	8150 10300 8550 10300
-Wire Wire Line
-	8550 10300 8550 10400
+	8150 10300 8450 10300
 Wire Wire Line
 	8450 9850 8450 10250
 Wire Wire Line
-	8450 10250 8650 10250
-Wire Wire Line
-	8650 10250 8650 10400
+	8450 10250 8550 10250
 Wire Wire Line
 	9950 9850 9950 10100
 Wire Wire Line
@@ -2498,27 +2682,19 @@ Wire Wire Line
 Wire Wire Line
 	9800 10100 9800 10350
 Wire Wire Line
-	9800 10350 9150 10350
+	9800 10350 9050 10350
 Wire Wire Line
-	9150 10350 9150 10400
+	9650 10300 9650 9850
 Wire Wire Line
-	9650 9850 9650 10300
-Wire Wire Line
-	9650 10300 9050 10300
-Wire Wire Line
-	9050 10300 9050 10400
+	8850 10300 9650 10300
 Wire Wire Line
 	9350 9850 9350 10250
 Wire Wire Line
 	9350 10250 8950 10250
 Wire Wire Line
-	8950 10250 8950 10400
-Wire Wire Line
 	9050 9850 9050 10200
 Wire Wire Line
-	9050 10200 8850 10200
-Wire Wire Line
-	8850 10200 8850 10400
+	9050 10200 9150 10200
 Wire Wire Line
 	8750 9850 8750 10400
 Wire Wire Line
@@ -2530,15 +2706,9 @@ Wire Wire Line
 Wire Wire Line
 	10550 9850 10550 10300
 Wire Wire Line
-	10550 10300 10750 10300
+	10550 10300 10850 10300
 Wire Wire Line
-	10750 10300 10750 10400
-Wire Wire Line
-	10850 9850 10850 10400
-Wire Wire Line
-	11350 10400 11350 10350
-Wire Wire Line
-	11350 10350 12350 10350
+	11050 10350 12350 10350
 Wire Wire Line
 	12350 10350 12350 9850
 Wire Wire Line
@@ -2550,21 +2720,15 @@ Wire Wire Line
 Wire Wire Line
 	11750 9850 11750 10250
 Wire Wire Line
-	11750 10250 11150 10250
-Wire Wire Line
-	11150 10250 11150 10400
+	11750 10250 11350 10250
 Wire Wire Line
 	11450 9850 11450 10200
 Wire Wire Line
-	11450 10200 11050 10200
+	11450 10200 11150 10200
 Wire Wire Line
-	11050 10200 11050 10400
+	11150 10150 11150 9850
 Wire Wire Line
-	11150 9850 11150 10150
-Wire Wire Line
-	11150 10150 10950 10150
-Wire Wire Line
-	10950 10150 10950 10400
+	10750 10150 11150 10150
 Wire Bus Line
 	600  1000 600  26050
 Wire Bus Line
@@ -2741,18 +2905,18 @@ Wire Wire Line
 	8950 11200 8950 11300
 Connection ~ 8950 11300
 Wire Wire Line
-	9150 11200 9150 11750
+	9150 11200 9150 11700
 Connection ~ 9050 11300
 Wire Wire Line
 	8750 11200 8750 11400
 Wire Wire Line
-	8750 11400 11650 11400
+	8750 11400 11750 11400
 Wire Wire Line
 	10950 11400 10950 11200
 Wire Wire Line
-	10850 11200 10850 11500
+	10850 11500 10850 11200
 Wire Wire Line
-	8650 11500 11650 11500
+	8650 11500 11750 11500
 Wire Wire Line
 	8650 11500 8650 11200
 Wire Wire Line
@@ -2768,7 +2932,7 @@ Wire Wire Line
 Connection ~ 8450 11400
 Connection ~ 9150 11300
 Wire Wire Line
-	11150 11200 11150 11700
+	11150 11700 11150 11200
 Wire Wire Line
 	11150 11300 11350 11300
 Wire Wire Line
@@ -2780,7 +2944,7 @@ Wire Wire Line
 	11050 11600 11050 11200
 Connection ~ 10650 11600
 Wire Wire Line
-	11150 11700 9150 11700
+	8450 11700 11150 11700
 Connection ~ 9150 11700
 Connection ~ 11150 11300
 Connection ~ 10950 11400
@@ -2814,12 +2978,6 @@ Connection ~ 2800 24000
 Wire Wire Line
 	2650 23900 2900 23900
 Connection ~ 2900 23900
-Text Notes 8350 10850 1    60   ~ 0
-ADR: 32
-Text Notes 10550 10850 1    60   ~ 0
-ADR: 33
-Text Notes 2300 23300 2    60   ~ 0
-ADR: 34
 Wire Wire Line
 	2650 24900 2900 24900
 Connection ~ 2900 24900
@@ -2829,10 +2987,6 @@ Connection ~ 2900 24800
 Wire Wire Line
 	2650 25000 2800 25000
 Connection ~ 2800 25000
-Text Notes 2300 24350 2    60   ~ 0
-ADR: 35
-Text Notes 2300 25350 2    60   ~ 0
-ADR: 36
 Wire Wire Line
 	2900 26000 2650 26000
 Connection ~ 2900 25400
@@ -2860,64 +3014,26 @@ Connection ~ 3000 24700
 Wire Wire Line
 	2650 23600 3550 23600
 Connection ~ 3100 24600
-NoConn ~ 2650 23500
-NoConn ~ 2650 24500
-NoConn ~ 2650 25500
 Connection ~ 3100 23600
 Connection ~ 3000 23700
 Wire Wire Line
-	11350 12400 11100 12400
+	12250 12450 12000 12450
 Wire Wire Line
-	11100 12500 11350 12500
-Text Label 11650 11400 0    60   ~ 0
-SDA
-Text Label 11650 11500 0    60   ~ 0
-SCL
+	12000 12550 12250 12550
 Wire Wire Line
 	2350 21100 2050 21100
-Text Label 2050 21100 2    60   ~ 0
-MOSI
-Text Label 11100 13350 2    60   ~ 0
-MOSI
-Text Label 11100 13250 2    60   ~ 0
-MISO
-Text Label 11100 13000 2    60   ~ 0
-CE0
-Text Label 11100 12900 2    60   ~ 0
-CE1
 Wire Wire Line
-	11100 12900 11350 12900
+	12000 12950 12250 12950
 Wire Wire Line
-	11100 13000 11350 13000
+	12000 13050 12250 13050
 Wire Wire Line
-	11100 13250 11350 13250
+	12000 13300 12250 13300
 Wire Wire Line
-	11100 13350 11350 13350
-Text Label 11100 13450 2    60   ~ 0
-SCLK
+	12000 13400 12250 13400
 Wire Wire Line
-	11100 13450 11350 13450
-Text Label 2050 21300 2    60   ~ 0
-SCLK
+	12000 13500 12250 13500
 Connection ~ 2250 21300
-Text Label 2050 21200 2    60   ~ 0
-CE0
 Connection ~ 2200 21200
-NoConn ~ 11350 12200
-NoConn ~ 11350 12300
-NoConn ~ 11350 12600
-NoConn ~ 11350 12700
-NoConn ~ 11350 12800
-NoConn ~ 11350 13550
-NoConn ~ 11350 13650
-NoConn ~ 11350 13750
-NoConn ~ 11350 13850
-NoConn ~ 11350 13950
-NoConn ~ 11350 14050
-Text Label 11900 16200 2    60   ~ 0
-SDA
-Text Label 11900 16300 2    60   ~ 0
-SCL
 Wire Wire Line
 	11900 16200 12700 16200
 Wire Wire Line
@@ -2940,93 +3056,104 @@ Wire Wire Line
 Wire Wire Line
 	12000 17050 12000 16300
 Connection ~ 12000 16300
-$Comp
-L GNDREF #PWR063
-U 1 1 59106419
-P 12100 17200
-F 0 "#PWR063" H 12100 16950 50  0001 C CNN
-F 1 "GNDREF" H 12100 17050 50  0000 C CNN
-F 2 "" H 12100 17200 50  0001 C CNN
-F 3 "" H 12100 17200 50  0001 C CNN
-	1    12100 17200
-	1    0    0    -1  
-$EndComp
 Connection ~ 12100 17150
-$Comp
-L +12V #PWR064
-U 1 1 59107523
-P 12150 16000
-F 0 "#PWR064" H 12150 15850 50  0001 C CNN
-F 1 "+12V" H 12150 16140 50  0000 C CNN
-F 2 "" H 12150 16000 50  0001 C CNN
-F 3 "" H 12150 16000 50  0001 C CNN
-	1    12150 16000
-	1    0    0    -1  
-$EndComp
 Connection ~ 12150 16100
-Text Label 10750 12900 2    60   ~ 0
-CE1
-NoConn ~ 10750 12900
-Text Label 10800 13250 2    60   ~ 0
-MISO
-NoConn ~ 10800 13250
-NoConn ~ 2350 1650
-NoConn ~ 8550 11200
-NoConn ~ 10750 11200
-$Comp
-L R_Network17 RN1
-U 1 1 591C378D
-P 6100 5600
-F 0 "RN1" V 5200 5600 50  0000 C CNN
-F 1 "4818P-T02-202LF" V 7000 5600 50  0000 C CNN
-F 2 "SW-Bournes:SOM-18" V 6875 5600 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/54/800P-777115.pdf" V 5400 5600 50  0001 C CNN
-F 4 "Bournes" H 6100 5600 60  0001 C CNN "Manufacturer"
-F 5 "Resistor Network star topology" H 6000 6350 60  0001 C CNN "Description"
-F 6 "SOM-18" H 6100 5600 60  0001 C CNN "Package ID"
-F 7 "0.00@0" H 6050 6250 60  0001 C CNN "Pricing"
-	1    6100 5600
-	1    0    0    1   
-$EndComp
-NoConn ~ 6100 5400
-$Comp
-L Fuse_Small F12
-U 1 1 59D072D5
-P 12500 16100
-F 0 "F12" H 12500 15915 50  0000 C CNN
-F 1 "2A" H 12500 16006 50  0000 C CNN
-F 2 "SW-Littelfuse:02540121Z" H 12500 16100 50  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 12500 16100 50  0001 C CNN
-F 4 "400 VAC/DC / 10A" H 12500 16100 60  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 12500 16100 60  0001 C CNN "Manufacturer"
-F 6 "PCB mount fuse holder for 2AG fuses" H 12500 16100 60  0001 C CNN "Description"
-F 7 "254 121" H 12500 16100 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 12500 16100 60  0001 C CNN "Pricing"
-	1    12500 16100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	12600 16100 12700 16100
 Wire Wire Line
 	12400 16100 12150 16100
-$Comp
-L Fuse_Small F13
-U 1 1 59D0A8B6
-P 12500 16850
-F 0 "F13" H 12500 16665 50  0000 C CNN
-F 1 "2A" H 12500 16756 50  0000 C CNN
-F 2 "SW-Littelfuse:02540121Z" H 12500 16850 50  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_254_datasheet.pdf.pdf" H 12500 16850 50  0001 C CNN
-F 4 "400 VAC/DC / 10A" H 12500 16850 60  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 12500 16850 60  0001 C CNN "Manufacturer"
-F 6 "PCB mount fuse holder for 2AG fuses" H 12500 16850 60  0001 C CNN "Description"
-F 7 "254 121" H 12500 16850 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 12500 16850 60  0001 C CNN "Pricing"
-	1    12500 16850
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	12700 16850 12600 16850
 Wire Wire Line
 	12150 16850 12400 16850
+Wire Wire Line
+	11550 11050 11550 11000
+Wire Wire Line
+	11550 11000 11650 11000
+Wire Wire Line
+	11650 11000 11650 11050
+Wire Wire Line
+	11650 11250 11650 11400
+Connection ~ 11650 11400
+Wire Wire Line
+	11550 11250 11550 11500
+Connection ~ 11550 11500
+Wire Wire Line
+	11600 10950 11600 11000
+Connection ~ 11600 11000
+Wire Wire Line
+	9500 12500 9950 12500
+Wire Wire Line
+	9500 11700 9500 12600
+Connection ~ 9500 11700
+Wire Wire Line
+	9500 12600 9950 12600
+Wire Wire Line
+	9950 12100 9700 12100
+Wire Wire Line
+	9700 12100 9700 12000
+Connection ~ 9500 12500
+Wire Wire Line
+	8450 11700 8450 11800
+Wire Wire Line
+	10150 10700 9900 10700
+Wire Wire Line
+	9900 10700 9900 11900
+Wire Wire Line
+	9900 11900 9950 11900
+Wire Wire Line
+	10000 10650 9850 10650
+Wire Wire Line
+	9850 10650 9850 12000
+Wire Wire Line
+	9850 12000 9950 12000
+Connection ~ 10000 10000
+Wire Wire Line
+	9950 12400 9850 12400
+Wire Wire Line
+	9650 12400 9350 12400
+Wire Wire Line
+	9350 12400 9350 12350
+Wire Wire Line
+	9950 12200 9600 12200
+Wire Wire Line
+	9600 12200 9600 11400
+Connection ~ 9600 11400
+Wire Wire Line
+	9950 12300 9550 12300
+Wire Wire Line
+	9550 12300 9550 11500
+Connection ~ 9550 11500
+Wire Wire Line
+	8450 10300 8450 10400
+Wire Wire Line
+	8550 10250 8550 10400
+Wire Wire Line
+	8650 10350 8650 10400
+Wire Wire Line
+	9050 10350 9050 10400
+Wire Wire Line
+	8850 10300 8850 10400
+Wire Wire Line
+	8950 10250 8950 10400
+Wire Wire Line
+	9150 10200 9150 10400
+Wire Wire Line
+	10750 10150 10750 10400
+Wire Wire Line
+	10850 10300 10850 10400
+Wire Wire Line
+	10850 9850 10850 10250
+Wire Wire Line
+	10850 10250 10950 10250
+Wire Wire Line
+	10950 10250 10950 10400
+Wire Wire Line
+	11050 10350 11050 10400
+Wire Wire Line
+	11150 10200 11150 10400
+Wire Wire Line
+	11350 10250 11350 10400
+Text Notes 12000 11150 0    60   ~ 0
+Messiness between \nswitches and port\nexpanders is for cleaner\nPCB trace layout
 $EndSCHEMATC

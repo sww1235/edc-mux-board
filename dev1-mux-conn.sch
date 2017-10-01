@@ -406,60 +406,62 @@ F 7 "SSOP20" H 2350 2250 60  0001 C CNN "Package ID"
 $EndComp
 $Comp
 L TS12A44514 U9
-U 3 1 58EA90C5
+U 2 1 58EA90C5
 P 1700 1450
 F 0 "U9" H 1550 1650 60  0000 C CNN
 F 1 "TS12A44514" H 2000 1650 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2200 2750 60  0001 C CNN
 F 3 "" H 1850 1400 60  0001 C CNN
-F 4 "0.00@0" H 1750 2450 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2050 3000 60  0001 C CNN "Characteristics"
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2050 3000 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 2100 2900 60  0001 C CNN "Manufacturer"
 F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2000 2550 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 2100 2900 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 2000 2650 60  0001 C CNN "Package ID"
-	3    1700 1450
+F 7 "TSSOP14" H 2000 2650 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 1750 2450 60  0001 C CNN "Pricing"
+	2    1700 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L TS12A44514 U9
-U 4 1 58EA913D
+L TS12A44514 U7
+U 2 1 58EA913D
 P 2950 1150
-F 0 "U9" H 2800 1350 60  0000 C CNN
+F 0 "U7" H 2800 1350 60  0000 C CNN
 F 1 "TS12A44514" H 3250 1350 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3450 2450 60  0001 C CNN
 F 3 "" H 3100 1100 60  0001 C CNN
-F 4 "0.00@0" H 3000 2150 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3300 2700 60  0001 C CNN "Characteristics"
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3300 2700 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 3350 2600 60  0001 C CNN "Manufacturer"
 F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3250 2250 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 3350 2600 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3250 2350 60  0001 C CNN "Package ID"
-	4    2950 1150
+F 7 "TSSOP14" H 3250 2350 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3000 2150 60  0001 C CNN "Pricing"
+	2    2950 1150
 	1    0    0    -1  
 $EndComp
 Text Notes 800  3350 0    60   ~ 0
 1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
 $Comp
-L 74LS32 U19
-U 3 1 59D22D32
+L 74LS32 U14
+U 2 1 59D22D32
 P 3500 2850
-F 0 "U19" H 3500 2533 50  0000 C CNN
+F 0 "U14" H 3500 2533 50  0000 C CNN
 F 1 "74LS32" H 3500 2624 50  0000 C CNN
 F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3500 2850 50  0001 C CNN
 F 3 "" H 3500 2850 50  0001 C CNN
-	3    3500 2850
+F 4 "0.00@0" H 3500 2850 60  0001 C CNN "Pricing"
+	2    3500 2850
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2900 2850 3200 2850
 $Comp
-L 74LS32 U19
-U 4 1 59D22F35
+L 74LS32 U16
+U 2 1 59D22F35
 P 3450 4550
-F 0 "U19" H 3450 4233 50  0000 C CNN
+F 0 "U16" H 3450 4233 50  0000 C CNN
 F 1 "74LS32" H 3450 4324 50  0000 C CNN
 F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3450 4550 50  0001 C CNN
 F 3 "" H 3450 4550 50  0001 C CNN
-	4    3450 4550
+F 4 "0.00@0" H 3450 4550 60  0001 C CNN "Pricing"
+	2    3450 4550
 	-1   0    0    1   
 $EndComp
 $Comp
