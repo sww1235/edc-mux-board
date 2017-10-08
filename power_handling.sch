@@ -3330,4 +3330,6 @@ Text Label 12500 7400 0    60   ~ 0
 VBatSw2+
 Text Label 12500 7300 0    60   ~ 0
 VBatSw1+
+Text Label 1200 9450 1    60   ~ 0
++12V-F
 $EndSCHEMATC
