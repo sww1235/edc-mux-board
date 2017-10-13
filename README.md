@@ -32,6 +32,13 @@ potentially smaller versions.
 |Total|12V rail||0.8047A (rounded ->) 1A (includes 3v3 and 5V conversions)|
 
 
+
+## Notes
+
+Rasp pi power supply can produce max 1A. to allow for easier pcb layout,
+usb/ethernet chip will also pull off of its 3v3 supply.
+
+
 ## References
 
 -   <http://www.epanorama.net/circuits/line_to_mic.html>
