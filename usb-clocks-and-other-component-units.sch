@@ -137,9 +137,7 @@ NoConn ~ 3850 2700
 Wire Wire Line
 	3250 2500 3000 2500
 Wire Wire Line
-	3000 2500 3000 2950
-Wire Wire Line
-	3000 2950 3000 3000
+	3000 2500 3000 3000
 Wire Wire Line
 	3000 2950 4000 2950
 Wire Wire Line
@@ -197,13 +195,9 @@ $EndComp
 Wire Wire Line
 	3250 2400 2850 2400
 Wire Wire Line
-	2850 2300 2850 2400
+	2850 2300 2850 2450
 Wire Wire Line
-	2850 2400 2850 2450
-Wire Wire Line
-	2850 2650 2850 2700
-Wire Wire Line
-	2850 2700 2850 3250
+	2850 2650 2850 3250
 Wire Wire Line
 	2850 2700 3250 2700
 Connection ~ 2850 2700
@@ -245,19 +239,11 @@ Wire Wire Line
 Wire Wire Line
 	3600 4250 3600 4350
 Wire Wire Line
-	2900 4250 3050 4250
-Wire Wire Line
-	3050 4250 3400 4250
-Wire Wire Line
-	3400 4250 3600 4250
+	2900 4250 3600 4250
 Wire Wire Line
 	3600 4450 3600 4550
 Wire Wire Line
-	3600 4550 3400 4550
-Wire Wire Line
-	3400 4550 3050 4550
-Wire Wire Line
-	3050 4550 2900 4550
+	3600 4550 2900 4550
 $Comp
 L R_Small R21
 U 1 1 590394C7
@@ -307,9 +293,7 @@ F 3 "" H 2550 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 4250 2700 4400
-Wire Wire Line
-	2700 4400 2700 4550
+	2700 4250 2700 4550
 Wire Wire Line
 	2700 4400 2550 4400
 Connection ~ 2700 4400
@@ -378,9 +362,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 7300 4300 7300
 Wire Wire Line
-	4150 7400 4250 7400
-Wire Wire Line
-	4250 7400 4300 7400
+	4150 7400 4300 7400
 Text Notes 3500 7850 0    60   ~ 0
 If not needed, leave disconnected\nPull ~TRST\nhigh if not used
 Wire Wire Line
@@ -434,8 +416,6 @@ F 3 "" H 4100 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 3550 4100 3550
-Wire Wire Line
-	4100 3550 4200 3550
+	3950 3550 4200 3550
 Connection ~ 4100 3550
 $EndSCHEMATC
