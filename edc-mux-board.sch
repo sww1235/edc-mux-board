@@ -47,7 +47,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 15
+Sheet 1 14
 Title ""
 Date ""
 Rev ""
@@ -64,13 +64,7 @@ F0 "Power Handling" 60
 F1 "power_handling.sch" 60
 $EndSheet
 $Sheet
-S 3300 850  2150 1500
-U 58DEDA35
-F0 "Raspberry Pi Headers and Support Circuitry" 60
-F1 "raspbery-pi-headers-support.sch" 60
-$EndSheet
-$Sheet
-S 5850 850  2300 1550
+S 3300 850  2150 1550
 U 58DEDA38
 F0 "Audio Mux and Control" 60
 F1 "audio-mux-control.sch" 60
