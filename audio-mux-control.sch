@@ -3156,4 +3156,6 @@ Wire Wire Line
 	11350 10250 11350 10400
 Text Notes 12000 11150 0    60   ~ 0
 Messiness between \nswitches and port\nexpanders is for cleaner\nPCB trace layout
+Text Notes 13200 10800 0    60   ~ 0
+IO expanders are 0 to 5V logic. VCC at +5V to support this.\n\nSPST switches support rail to rail voltages at switch terminals. \nControl signals are a function of VCC. use +5V in order to \nsupport 0-5V logic on the control inputs.\n\nMic Mute and PTT signals are 0-5V logic.\n\nConsumer level audio: Mic in and headphone out are\nconsumer line level devices with Vpp of 0.894 and Vpk of 0.447\n\nAll I2C pullups need to be to VCC of specific chip, \nuse level shifters if needed. May need I2C switch ic
 $EndSCHEMATC
