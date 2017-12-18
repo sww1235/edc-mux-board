@@ -42,6 +42,8 @@ LIBS:SW-Fairchild-On-Semi
 LIBS:SW-Diodes-Inc
 LIBS:interface
 LIBS:SW-gElectroMech
+LIBS:SW-Analog
+LIBS:SW-Semtech
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
@@ -1396,10 +1398,6 @@ Text Label 2050 21200 2    60   ~ 0
 CE0
 NoConn ~ 12250 12250
 NoConn ~ 12250 12350
-NoConn ~ 12250 12650
-NoConn ~ 12250 12750
-NoConn ~ 12250 12850
-NoConn ~ 12250 13600
 NoConn ~ 12250 13700
 NoConn ~ 12250 13800
 NoConn ~ 12250 13900
@@ -3158,4 +3156,24 @@ Text Notes 12000 11150 0    60   ~ 0
 Messiness between \nswitches and port\nexpanders is for cleaner\nPCB trace layout
 Text Notes 13200 10800 0    60   ~ 0
 IO expanders are 0 to 5V logic. VCC at +5V to support this.\n\nSPST switches support rail to rail voltages at switch terminals. \nControl signals are a function of VCC. use +5V in order to \nsupport 0-5V logic on the control inputs.\n\nMic Mute and PTT signals are 0-5V logic.\n\nConsumer level audio: Mic in and headphone out are\nconsumer line level devices with Vpp of 0.894 and Vpk of 0.447\n\nAll I2C pullups need to be to VCC of specific chip, \nuse level shifters if needed. May need I2C switch ic
+Text Notes 13700 1250 0    60   ~ 0
+Standard Android headset controls can be accomodated\nwith an external converter that measures the resistances\non the mic line and transforms those into a pulse code on\nthe mic mute line that the raspberry pi is monitoring for.
+Text Notes 13000 12700 0    60   ~ 0
+GPIO Pins 4,5,6,12 are\nused to monitor PiUPS
+$Comp
+L RasPi-CM3-Headers J11
+U 7 1 5A350A6E
+P 10650 13700
+F 0 "J11" H 10877 13758 60  0000 L CNN
+F 1 "RasPi-CM3-Headers" H 10877 13652 60  0000 L CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 10700 18800 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 10700 18500 60  0001 C CNN
+F 4 "Raspberry Pi Foundation" H 10650 18600 60  0001 C CNN "Manufacturer"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 10650 18700 60  0001 C CNN "Description"
+F 6 "0.00@0" H 10650 18400 60  0001 C CNN "Pricing"
+	7    10650 13700
+	1    0    0    -1  
+$EndComp
+Text Notes 9850 13200 0    60   ~ 0
+Pins 18-21 are PCM/i2s data
 $EndSCHEMATC

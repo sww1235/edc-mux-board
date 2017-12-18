@@ -42,6 +42,8 @@ LIBS:SW-Fairchild-On-Semi
 LIBS:SW-Diodes-Inc
 LIBS:interface
 LIBS:SW-gElectroMech
+LIBS:SW-Analog
+LIBS:SW-Semtech
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
@@ -1955,7 +1957,7 @@ Text Label 14700 6950 2    60   ~ 0
 ~PG
 Text Label 14750 6850 2    60   ~ 0
 ~LBO
-Text Notes 14650 6700 0    60   ~ 0
+Text Notes 14300 6700 0    60   ~ 0
 RPI monitors\nPG and LBO\nPG means running on batteries\nLDO means shut down now
 $Comp
 L R_Small R30
@@ -2056,25 +2058,6 @@ F 3 "" H 16300 10050 60  0001 C CNN
 	1    16250 10050
 	0    1    1    0   
 $EndComp
-$Comp
-L RasPi-CM3-Headers J11
-U 7 1 59DA0310
-P 15450 7250
-F 0 "J11" H 15677 7308 60  0000 L CNN
-F 1 "RasPi-CM3-Headers" H 15677 7202 60  0000 L CNN
-F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 15500 12350 60  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 15500 12050 60  0001 C CNN
-F 4 "Raspberry Pi Foundation" H 15450 12150 60  0001 C CNN "Manufacturer"
-F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 15450 12250 60  0001 C CNN "Description"
-F 6 "0.00@0" H 15450 11950 60  0001 C CNN "Pricing"
-	7    15450 7250
-	1    0    0    -1  
-$EndComp
-NoConn ~ 15100 7250
-NoConn ~ 15100 7350
-NoConn ~ 15100 7450
-NoConn ~ 15100 7550
-NoConn ~ 15100 7650
 $Comp
 L PWR_FLAG #FLG05
 U 1 1 59DBD76B
@@ -3570,9 +3553,9 @@ Wire Wire Line
 Wire Wire Line
 	16250 10150 16250 10200
 Wire Wire Line
-	14750 6850 15100 6850
+	14750 6850 15450 6850
 Wire Wire Line
-	14700 6950 15100 6950
+	14700 6950 15350 6950
 Wire Wire Line
 	13550 8700 13550 9100
 Connection ~ 13550 9100
@@ -3593,7 +3576,7 @@ Wire Wire Line
 Wire Wire Line
 	19300 13450 19200 13450
 Wire Wire Line
-	14200 7050 15100 7050
+	14200 7050 15250 7050
 Wire Wire Line
 	14200 7050 14200 7000
 Wire Wire Line
@@ -3837,4 +3820,50 @@ Text Notes 9450 4350 0    60   ~ 0
 Powering HDMI 5V off \nof RasPi UPS supply
 Text Notes 18150 11400 0    60   ~ 0
 +12L is unregulated DC input. Around +12V\n+12V is regulated +12V@5A DC supply. \n+5VD is 5V@3A supply for microcontroller and accessories\n+5V is 5V@3A supply for other 5V needs.\n+3V3 is 3V3@500mA supply for MUX only\n+3V3A is battery backed 3v3 from RPi regulator\n+1V8 is battery backed 1v8 from RPi regulator\n(Combo of +3V3A and +1V8 is ~1A total)\n\nLabel RPI_VIN is output of UPS for RPi and support circuitry.\nLabel VDD3V3_ETH is a further filtered supply off of +3V3A\njust for USB/Ethernet chip
+$Comp
+L RasPi-CM3-Headers J11
+U 5 1 5A34FFE2
+P 16000 7100
+F 0 "J11" H 16227 7158 60  0000 L CNN
+F 1 "RasPi-CM3-Headers" H 16227 7052 60  0000 L CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 16050 12200 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 16050 11900 60  0001 C CNN
+F 4 "Raspberry Pi Foundation" H 16000 12000 60  0001 C CNN "Manufacturer"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 16000 12100 60  0001 C CNN "Description"
+F 6 "0.00@0" H 16000 11800 60  0001 C CNN "Pricing"
+	5    16000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L RasPi-CM3-Headers J11
+U 6 1 5A35020E
+P 16000 8150
+F 0 "J11" H 16227 8208 60  0000 L CNN
+F 1 "RasPi-CM3-Headers" H 16227 8102 60  0000 L CNN
+F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 16050 13250 60  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 16050 12950 60  0001 C CNN
+F 4 "Raspberry Pi Foundation" H 16000 13050 60  0001 C CNN "Manufacturer"
+F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 16000 13150 60  0001 C CNN "Description"
+F 6 "0.00@0" H 16000 12850 60  0001 C CNN "Pricing"
+	6    16000 8150
+	1    0    0    -1  
+$EndComp
+Text Notes 16400 7000 0    60   ~ 0
+GPIO Pins 4,5,6,12 are\nused to monitor PiUPS\nas well
+Wire Wire Line
+	15450 6850 15450 7100
+Wire Wire Line
+	15450 7100 15650 7100
+Wire Wire Line
+	15350 6950 15350 7200
+Wire Wire Line
+	15350 7200 15650 7200
+Wire Wire Line
+	15250 7050 15250 7300
+Wire Wire Line
+	15250 7300 15650 7300
+Wire Wire Line
+	15100 7150 15100 8050
+Wire Wire Line
+	15100 8050 15650 8050
 $EndSCHEMATC

@@ -42,6 +42,8 @@ LIBS:SW-Fairchild-On-Semi
 LIBS:SW-Diodes-Inc
 LIBS:interface
 LIBS:SW-gElectroMech
+LIBS:SW-Analog
+LIBS:SW-Semtech
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
@@ -230,9 +232,9 @@ Wire Wire Line
 Wire Wire Line
 	2900 4250 3600 4250
 Wire Wire Line
-	3600 4550 3600 4450
+	3600 4450 3600 4550
 Wire Wire Line
-	2900 4550 3600 4550
+	3600 4550 2900 4550
 $Comp
 L R_Small R21
 U 1 1 590394C7

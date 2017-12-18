@@ -1,4 +1,4 @@
-update=Thursday, December 14, 2017 'PMt' 03:13:28 PM
+update=Sunday, December 17, 2017 'PMt' 09:03:23 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,4 @@ LibName41=SW-Diodes-Inc
 LibName42=interface
 LibName43=SW-gElectroMech
 LibName44=SW-Analog
+LibName45=SW-Semtech

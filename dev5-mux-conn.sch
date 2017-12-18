@@ -42,12 +42,14 @@ LIBS:SW-Fairchild-On-Semi
 LIBS:SW-Diodes-Inc
 LIBS:interface
 LIBS:SW-gElectroMech
+LIBS:SW-Analog
+LIBS:SW-Semtech
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 10 14
+Sheet 9 14
 Title ""
 Date ""
 Rev ""
@@ -509,4 +511,6 @@ F 3 "" H 6350 4150 50  0001 C CNN
 	1    6350 4150
 	1    0    0    -1  
 $EndComp
+Text Notes -650 1200 0    60   ~ 0
+Device power provided by\nexternal connection
 $EndSCHEMATC
