@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 14000 28000
 encoding utf-8
-Sheet 4 14
+Sheet 4 15
 Title ""
 Date ""
 Rev ""
@@ -3176,4 +3176,10 @@ F 6 "0.00@0" H 10650 18400 60  0001 C CNN "Pricing"
 $EndComp
 Text Notes 9850 13200 0    60   ~ 0
 Pins 18-21 are PCM/i2s data
+$Sheet
+S 14600 1750 1950 950 
+U 5A3A9015
+F0 "Stereo Amplifier 0" 60
+F1 "stereo-amp.sch" 60
+$EndSheet
 $EndSCHEMATC
