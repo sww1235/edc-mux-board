@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
-Sheet 2 15
+Sheet 2 16
 Title ""
 Date ""
 Rev ""
@@ -2436,7 +2436,7 @@ F 4 "0.00@0" H 3450 10800 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 Text Notes 2700 8950 0    60   ~ 0
-VDD3V3A is filtered supply for LAN only.\nCreated from 3V3
+VDD3V3_ETH is filtered supply for LAN only.\nCreated from +3V3A
 $Comp
 L R_Small R8
 U 1 1 59E1BE2D
@@ -3819,7 +3819,7 @@ Wire Wire Line
 Text Notes 9450 4350 0    60   ~ 0
 Powering HDMI 5V off \nof RasPi UPS supply
 Text Notes 18150 11400 0    60   ~ 0
-+12L is unregulated DC input. Around +12V\n+12V is regulated +12V@5A DC supply. \n+5VD is 5V@3A supply for microcontroller and accessories\n+5V is 5V@3A supply for other 5V needs.\n+3V3 is 3V3@500mA supply for MUX only\n+3V3A is battery backed 3v3 from RPi regulator\n+1V8 is battery backed 1v8 from RPi regulator\n(Combo of +3V3A and +1V8 is ~1A total)\n\nLabel RPI_VIN is output of UPS for RPi and support circuitry.\nLabel VDD3V3_ETH is a further filtered supply off of +3V3A\njust for USB/Ethernet chip
++12L is unregulated DC input. Around +12V\n+12V is regulated +12V@5A DC supply. \n+5VD is 5V@3A supply for microcontroller and accessories\n+5V is 5V@3A supply for other 5V needs.\n+3V3 is 3V3@500mA supply for MUX only\n+3V3A is battery backed 3v3 from RPi regulator\n+1V8 is battery backed 1v8 from RPi regulator\n(Combo of +3V3A and +1V8 is ~~1A total)\n\n+12VA is positive supply for op amps used as audio amplifiers\n-12VA is negative supply for op amps used as audio amplifiers\n+5VA is positive analog supply for potentiometer chips\n-5VA is negative analog supply for potentiometer chips\n+2.5V is positive supply for audio switch chips and io \nexpanders at that logic level\n-2.5V is positive supply for audio switch chips and io \nexpanders at that logic level\n\n\nLabel RPI_VIN is output of UPS for RPi and support circuitry.\nLabel VDD3V3_ETH is a further filtered supply off of +3V3A\njust for USB/Ethernet chip
 $Comp
 L RasPi-CM3-Headers J11
 U 5 1 5A34FFE2
@@ -3866,4 +3866,6 @@ Wire Wire Line
 	15100 7150 15100 8050
 Wire Wire Line
 	15100 8050 15650 8050
+Text Notes 18100 8550 0    60   ~ 0
+0-5V control signal switch/mux chips will use 5V as power\n\naudio signal switch chips will use \n+2.5VA as positive rail\n-2.5VA as negative rail\n\nPotentiometers use \n5V as digital power\n5VA as analog positive rail\n-5VA as negative analog rail\n\nop amps use \n+12VA as analog positive rail\n-12VA as analog negative rail\n\nfor each chip voltage level, i2c lines are pulled to \nthe individual vdd of the chip.\n\n
 $EndSCHEMATC
