@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
-Sheet 2 16
+Sheet 2 23
 Title ""
 Date ""
 Rev ""
@@ -3868,4 +3868,98 @@ Wire Wire Line
 	15100 8050 15650 8050
 Text Notes 18100 8550 0    60   ~ 0
 0-5V control signal switch/mux chips will use 5V as power\n\naudio signal switch chips will use \n+2.5VA as positive rail\n-2.5VA as negative rail\n\nPotentiometers use \n5V as digital power\n5VA as analog positive rail\n-5VA as negative analog rail\n\nop amps use \n+12VA as analog positive rail\n-12VA as analog negative rail\n\nfor each chip voltage level, i2c lines are pulled to \nthe individual vdd of the chip.\n\n
+$Comp
+L ADG715 U?
+U 1 1 5A5751BA
+P 18850 2250
+F 0 "U?" H 18978 2303 60  0000 L CNN
+F 1 "ADG715" H 18978 2197 60  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19100 3200 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19100 3300 60  0001 C CNN
+F 4 "0.00@0" H 18900 3850 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 18850 3500 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 18950 3600 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 18950 3400 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 19050 3700 60  0001 C CNN "Package ID"
+	1    18850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADG715 U?
+U 1 1 5A57533C
+P 18850 2900
+F 0 "U?" H 18978 2953 60  0000 L CNN
+F 1 "ADG715" H 18978 2847 60  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19100 3850 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19100 3950 60  0001 C CNN
+F 4 "0.00@0" H 18900 4500 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 18850 4150 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 18950 4250 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 18950 4050 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 19050 4350 60  0001 C CNN "Package ID"
+	1    18850 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 18500 2600 0    60   ~ 0
+Power for i2c SPST switches
+$Comp
+L ADG734 U?
+U 5 1 5A58FEE8
+P 18850 3600
+F 0 "U?" H 19723 3603 60  0000 L CNN
+F 1 "ADG734" H 19723 3497 60  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 18950 4550 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 18650 4450 60  0001 C CNN
+F 4 "0.00@0" H 18850 4050 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 18900 4350 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 18800 4150 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 18850 4250 60  0001 C CNN "Package ID"
+	5    18850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADG734 U?
+U 5 1 5A590061
+P 18900 4250
+F 0 "U?" H 19773 4253 60  0000 L CNN
+F 1 "ADG734" H 19773 4147 60  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 19000 5200 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 18700 5100 60  0001 C CNN
+F 4 "0.00@0" H 18900 4700 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 18950 5000 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 18850 4800 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 18900 4900 60  0001 C CNN "Package ID"
+	5    18900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADG734 U?
+U 5 1 5A5901AE
+P 20450 3650
+F 0 "U?" H 21323 3653 60  0000 L CNN
+F 1 "ADG734" H 21323 3547 60  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 20550 4600 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 20250 4500 60  0001 C CNN
+F 4 "0.00@0" H 20450 4100 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 20500 4400 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 20400 4200 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 20450 4300 60  0001 C CNN "Package ID"
+	5    20450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADG734 U?
+U 5 1 5A5902FD
+P 20450 4300
+F 0 "U?" H 21323 4303 60  0000 L CNN
+F 1 "ADG734" H 21323 4197 60  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 20550 5250 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 20250 5150 60  0001 C CNN
+F 4 "0.00@0" H 20450 4750 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 20500 5050 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 20400 4850 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 20450 4950 60  0001 C CNN "Package ID"
+	5    20450 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
