@@ -1,0 +1,1888 @@
+EESchema Schematic File Version 3
+LIBS:SW-Texas
+LIBS:power
+LIBS:SW-con
+LIBS:SW-power
+LIBS:SW-Linear
+LIBS:SW-gTransistors
+LIBS:SW-Winbond
+LIBS:SW-Microchip
+LIBS:SW-Passives
+LIBS:SW-dallas-semi-maxim
+LIBS:SW-RaspberryPi-Headers
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SW-HALO
+LIBS:SW-Fairchild-On-Semi
+LIBS:SW-Diodes-Inc
+LIBS:interface
+LIBS:SW-gElectroMech
+LIBS:SW-Analog
+LIBS:SW-Semtech
+LIBS:edc-mux-board-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLedger 11000 17000 portrait
+encoding utf-8
+Sheet 30 32
+Title "Stereo 1:8 Audio Unity Gain Buffer"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1000 2050 0    60   Input ~ 0
+L_IN
+Text HLabel 1000 3200 0    60   Input ~ 0
+R_IN
+$Comp
+L OPA1604 U?
+U 2 1 5A4A1409
+P 4400 1300
+AR Path="/58DEDA38/5A3A9015/5A4A1409" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A43AB61/5A4A1409" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1409" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1409" Ref="U?"  Part="2" 
+F 0 "U?" H 4475 1687 60  0000 C CNN
+F 1 "OPA1604" H 4475 1581 60  0000 C CNN
+F 2 "" H 4400 2700 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 3200 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 2900 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 3000 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 3100 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 3400 60  0001 C CNN "Pricing"
+	2    4400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 3 1 5A4A141F
+P 4400 2150
+AR Path="/58DEDA38/5A3A9015/5A4A141F" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A43AB61/5A4A141F" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A141F" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A141F" Ref="U?"  Part="3" 
+F 0 "U?" H 4475 2537 60  0000 C CNN
+F 1 "OPA1604" H 4475 2431 60  0000 C CNN
+F 2 "" H 4400 3550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 4050 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 3750 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 3850 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 3950 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 4250 60  0001 C CNN "Pricing"
+	3    4400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A1426
+P 1400 2050
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1426" Ref="R?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1426" Ref="R?"  Part="1" 
+F 0 "R?" V 1204 2050 50  0000 C CNN
+F 1 "100k" V 1295 2050 50  0000 C CNN
+F 2 "" H 1400 2050 50  0001 C CNN
+F 3 "" H 1400 2050 50  0001 C CNN
+	1    1400 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A142D
+P 1400 3200
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A142D" Ref="R?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A142D" Ref="R?"  Part="1" 
+F 0 "R?" V 1204 3200 50  0000 C CNN
+F 1 "100k" V 1295 3200 50  0000 C CNN
+F 2 "" H 1400 3200 50  0001 C CNN
+F 3 "" H 1400 3200 50  0001 C CNN
+	1    1400 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A1434
+P 2150 1650
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1434" Ref="R?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1434" Ref="R?"  Part="1" 
+F 0 "R?" V 1954 1650 50  0000 C CNN
+F 1 "100k" V 2045 1650 50  0000 C CNN
+F 2 "" H 2150 1650 50  0001 C CNN
+F 3 "" H 2150 1650 50  0001 C CNN
+	1    2150 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A143B
+P 2100 2800
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A143B" Ref="R?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A143B" Ref="R?"  Part="1" 
+F 0 "R?" V 1904 2800 50  0000 C CNN
+F 1 "100k" V 1995 2800 50  0000 C CNN
+F 2 "" H 2100 2800 50  0001 C CNN
+F 3 "" H 2100 2800 50  0001 C CNN
+	1    2100 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A1442
+P 4500 800
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1442" Ref="R?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1442" Ref="R?"  Part="1" 
+F 0 "R?" V 4304 800 50  0000 C CNN
+F 1 "100k" V 4395 800 50  0000 C CNN
+F 2 "" H 4500 800 50  0001 C CNN
+F 3 "" H 4500 800 50  0001 C CNN
+	1    4500 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A1449
+P 3900 2050
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1449" Ref="R?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1449" Ref="R?"  Part="1" 
+F 0 "R?" V 3704 2050 50  0000 C CNN
+F 1 "100k" V 3795 2050 50  0000 C CNN
+F 2 "" H 3900 2050 50  0001 C CNN
+F 3 "" H 3900 2050 50  0001 C CNN
+	1    3900 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A1450
+P 3900 1200
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1450" Ref="R?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1450" Ref="R?"  Part="1" 
+F 0 "R?" V 3704 1200 50  0000 C CNN
+F 1 "100k" V 3795 1200 50  0000 C CNN
+F 2 "" H 3900 1200 50  0001 C CNN
+F 3 "" H 3900 1200 50  0001 C CNN
+	1    3900 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A1457
+P 4500 1650
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1457" Ref="R?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1457" Ref="R?"  Part="1" 
+F 0 "R?" V 4304 1650 50  0000 C CNN
+F 1 "100k" V 4395 1650 50  0000 C CNN
+F 2 "" H 4500 1650 50  0001 C CNN
+F 3 "" H 4500 1650 50  0001 C CNN
+	1    4500 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L OPA1604 U?
+U 1 1 5A4A1462
+P 7900 1500
+AR Path="/58DEDA38/5A3A9015/5A4A1462" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A43AB61/5A4A1462" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1462" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1462" Ref="U?"  Part="1" 
+F 0 "U?" H 8128 1548 60  0000 L CNN
+F 1 "OPA1604" H 8128 1442 60  0000 L CNN
+F 2 "" H 7900 2900 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 8500 3400 60  0001 C CNN
+F 4 "0.00@0" H 8100 3600 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 8300 3300 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 8200 3200 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 8100 3100 60  0001 C CNN "Manufacturer"
+	1    7900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4A1469
+P 1800 3650
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1469" Ref="#PWR?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1469" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1800 3400 50  0001 C CNN
+F 1 "GNDREF" H 1805 3477 50  0000 C CNN
+F 2 "" H 1800 3650 50  0001 C CNN
+F 3 "" H 1800 3650 50  0001 C CNN
+	1    1800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12VA #PWR?
+U 1 1 5A4A1487
+P 7250 1300
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1487" Ref="#PWR?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1487" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7250 1150 50  0001 C CNN
+F 1 "-12VA" H 7265 1473 50  0000 C CNN
+F 2 "" H 7250 1300 50  0001 C CNN
+F 3 "" H 7250 1300 50  0001 C CNN
+	1    7250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12VA #PWR?
+U 1 1 5A4A148D
+P 7550 1300
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A148D" Ref="#PWR?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A148D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7550 1150 50  0001 C CNN
+F 1 "+12VA" H 7565 1473 50  0000 C CNN
+F 2 "" H 7550 1300 50  0001 C CNN
+F 3 "" H 7550 1300 50  0001 C CNN
+	1    7550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A4A14C9
+P 7250 1800
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A14C9" Ref="C?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A14C9" Ref="C?"  Part="1" 
+F 0 "C?" H 7341 1754 50  0000 L CNN
+F 1 "0.1uF" H 7341 1845 50  0000 L CNN
+F 2 "" H 7250 1800 50  0001 C CNN
+F 3 "" H 7250 1800 50  0001 C CNN
+	1    7250 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A4A14D0
+P 7500 1800
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A14D0" Ref="C?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A14D0" Ref="C?"  Part="1" 
+F 0 "C?" H 7408 1754 50  0000 R CNN
+F 1 "0.1uF" H 7408 1845 50  0000 R CNN
+F 2 "" H 7500 1800 50  0001 C CNN
+F 3 "" H 7500 1800 50  0001 C CNN
+	1    7500 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4A14D7
+P 7400 2000
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A14D7" Ref="#PWR?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A14D7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7400 1750 50  0001 C CNN
+F 1 "GNDREF" H 7405 1827 50  0000 C CNN
+F 2 "" H 7400 2000 50  0001 C CNN
+F 3 "" H 7400 2000 50  0001 C CNN
+	1    7400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4A14DD
+P 4100 2350
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A14DD" Ref="#PWR?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A14DD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4100 2100 50  0001 C CNN
+F 1 "GNDREF" H 4105 2177 50  0000 C CNN
+F 2 "" H 4100 2350 50  0001 C CNN
+F 3 "" H 4100 2350 50  0001 C CNN
+	1    4100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1602 U?
+U 1 1 5A4A14E7
+P 9550 1450
+AR Path="/58DEDA38/5A43AB61/5A4A14E7" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A14E7" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A14E7" Ref="U?"  Part="1" 
+F 0 "U?" H 9778 1498 60  0000 L CNN
+F 1 "OPA1602" H 9778 1392 60  0000 L CNN
+F 2 "" H 9550 2850 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 10150 3350 60  0001 C CNN
+F 4 "Texas Instruments" H 9750 3050 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 9850 3150 60  0001 C CNN "Description"
+F 6 "SO-8, TSSOP8" H 9950 3250 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9750 3550 60  0001 C CNN "Pricing"
+	1    9550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12VA #PWR?
+U 1 1 5A4A1558
+P 8900 1250
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1558" Ref="#PWR?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1558" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8900 1100 50  0001 C CNN
+F 1 "-12VA" H 8915 1423 50  0000 C CNN
+F 2 "" H 8900 1250 50  0001 C CNN
+F 3 "" H 8900 1250 50  0001 C CNN
+	1    8900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12VA #PWR?
+U 1 1 5A4A155E
+P 9200 1250
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A155E" Ref="#PWR?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A155E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9200 1100 50  0001 C CNN
+F 1 "+12VA" H 9215 1423 50  0000 C CNN
+F 2 "" H 9200 1250 50  0001 C CNN
+F 3 "" H 9200 1250 50  0001 C CNN
+	1    9200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A4A1564
+P 8900 1750
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1564" Ref="C?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1564" Ref="C?"  Part="1" 
+F 0 "C?" H 8991 1704 50  0000 L CNN
+F 1 "0.1uF" H 8991 1795 50  0000 L CNN
+F 2 "" H 8900 1750 50  0001 C CNN
+F 3 "" H 8900 1750 50  0001 C CNN
+	1    8900 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A4A156B
+P 9150 1750
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A156B" Ref="C?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A156B" Ref="C?"  Part="1" 
+F 0 "C?" H 9058 1704 50  0000 R CNN
+F 1 "0.1uF" H 9058 1795 50  0000 R CNN
+F 2 "" H 9150 1750 50  0001 C CNN
+F 3 "" H 9150 1750 50  0001 C CNN
+	1    9150 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4A1572
+P 9050 1950
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A1572" Ref="#PWR?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A1572" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9050 1700 50  0001 C CNN
+F 1 "GNDREF" H 9055 1777 50  0000 C CNN
+F 2 "" H 9050 1950 50  0001 C CNN
+F 3 "" H 9050 1950 50  0001 C CNN
+	1    9050 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2050 1300 2050
+Wire Wire Line
+	1500 2050 1900 2050
+Wire Wire Line
+	1650 2050 1650 1650
+Wire Wire Line
+	1650 1650 2050 1650
+Connection ~ 1650 2050
+Wire Wire Line
+	2250 1650 2600 1650
+Wire Wire Line
+	2450 2150 2600 2150
+Wire Wire Line
+	1900 2250 1800 2250
+Wire Wire Line
+	1800 2250 1800 3650
+Wire Wire Line
+	1000 3200 1300 3200
+Wire Wire Line
+	1500 3200 1900 3200
+Wire Wire Line
+	1650 3200 1650 3200
+Wire Wire Line
+	1650 3200 1650 2800
+Wire Wire Line
+	1650 2800 2000 2800
+Connection ~ 1650 3200
+Wire Wire Line
+	2450 3300 2600 3300
+Wire Wire Line
+	2200 2800 2600 2800
+Wire Wire Line
+	4000 1200 4200 1200
+Wire Wire Line
+	4000 2050 4200 2050
+Wire Wire Line
+	7550 1300 7550 1400
+Wire Wire Line
+	7500 1400 7700 1400
+Wire Wire Line
+	7250 1300 7250 1700
+Wire Wire Line
+	7250 1600 7700 1600
+Connection ~ 7250 1600
+Wire Wire Line
+	7500 1700 7500 1400
+Connection ~ 7550 1400
+Wire Wire Line
+	7250 1900 7250 1950
+Wire Wire Line
+	7250 1950 7500 1950
+Wire Wire Line
+	7500 1950 7500 1900
+Wire Wire Line
+	7400 2000 7400 1950
+Connection ~ 7400 1950
+Wire Wire Line
+	4200 1400 4100 1400
+Wire Wire Line
+	4100 1400 4100 2350
+Wire Wire Line
+	4200 2250 4100 2250
+Connection ~ 4100 2250
+Wire Wire Line
+	1900 3400 1800 3400
+Connection ~ 1800 3400
+Wire Wire Line
+	4400 800  4150 800 
+Wire Wire Line
+	4150 800  4150 1200
+Connection ~ 4150 1200
+Wire Wire Line
+	4600 800  4850 800 
+Wire Wire Line
+	4850 800  4850 1300
+Wire Wire Line
+	4750 1300 5350 1300
+Wire Wire Line
+	4400 1650 4150 1650
+Wire Wire Line
+	4150 1650 4150 2050
+Connection ~ 4150 2050
+Wire Wire Line
+	4600 1650 4850 1650
+Wire Wire Line
+	4850 1650 4850 2150
+Wire Wire Line
+	4750 2150 5350 2150
+Wire Wire Line
+	5350 1300 5350 1650
+Wire Wire Line
+	5350 1650 5800 1650
+Connection ~ 4850 1300
+Wire Wire Line
+	5350 2150 5350 1750
+Wire Wire Line
+	5350 1750 5800 1750
+Connection ~ 4850 2150
+Wire Wire Line
+	2900 2050 2900 15350
+Wire Wire Line
+	3000 1200 3000 14500
+Wire Wire Line
+	9200 1250 9200 1350
+Wire Wire Line
+	9150 1350 9350 1350
+Wire Wire Line
+	8900 1250 8900 1650
+Wire Wire Line
+	8900 1550 9350 1550
+Connection ~ 8900 1550
+Wire Wire Line
+	9150 1650 9150 1350
+Connection ~ 9200 1350
+Wire Wire Line
+	8900 1850 8900 1900
+Wire Wire Line
+	8900 1900 9150 1900
+Wire Wire Line
+	9150 1900 9150 1850
+Wire Wire Line
+	9050 1950 9050 1900
+Connection ~ 9050 1900
+Text HLabel 5800 3550 2    60   Output ~ 0
+L_OUT1
+Text HLabel 5800 3650 2    60   Output ~ 0
+R_OUT1
+Text Label 3000 1850 1    60   ~ 0
+L_Distro_Bus
+Text Label 2900 2700 1    60   ~ 0
+R_Distro_Bus
+$Comp
+L OPA1602 U?
+U 2 1 5A4A608D
+P 2100 2150
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A608D" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A608D" Ref="U?"  Part="2" 
+F 0 "U?" H 2175 2537 60  0000 C CNN
+F 1 "OPA1602" H 2175 2431 60  0000 C CNN
+F 2 "" H 2100 3550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 2700 4050 60  0001 C CNN
+F 4 "Texas Instruments" H 2300 3750 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 2400 3850 60  0001 C CNN "Description"
+F 6 "SO-8, TSSOP8" H 2500 3950 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 2300 4250 60  0001 C CNN "Pricing"
+	2    2100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1602 U?
+U 3 1 5A4A6134
+P 2100 3300
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A6134" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A6134" Ref="U?"  Part="3" 
+F 0 "U?" H 2175 3687 60  0000 C CNN
+F 1 "OPA1602" H 2175 3581 60  0000 C CNN
+F 2 "" H 2100 4700 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 2700 5200 60  0001 C CNN
+F 4 "Texas Instruments" H 2300 4900 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 2400 5000 60  0001 C CNN "Description"
+F 6 "SO-8, TSSOP8" H 2500 5100 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 2300 5400 60  0001 C CNN "Pricing"
+	3    2100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 4 1 5A4A6E1F
+P 4400 3200
+AR Path="/58DEDA38/5A3A9015/5A4A6E1F" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A43AB61/5A4A6E1F" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A6E1F" Ref="U?"  Part="4" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A6E1F" Ref="U?"  Part="4" 
+F 0 "U?" H 4475 3587 60  0000 C CNN
+F 1 "OPA1604" H 4475 3481 60  0000 C CNN
+F 2 "" H 4400 4600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 5100 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 4800 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 4900 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 5000 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 5300 60  0001 C CNN "Pricing"
+	4    4400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 5 1 5A4A6E2A
+P 4400 4050
+AR Path="/58DEDA38/5A3A9015/5A4A6E2A" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A43AB61/5A4A6E2A" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A6E2A" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A6E2A" Ref="U?"  Part="5" 
+F 0 "U?" H 4475 4437 60  0000 C CNN
+F 1 "OPA1604" H 4475 4331 60  0000 C CNN
+F 2 "" H 4400 5450 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 5950 60  0001 C CNN
+F 4 "0.00@0" H 4600 6150 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 4800 5850 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 5750 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 4600 5650 60  0001 C CNN "Manufacturer"
+	5    4400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A6E31
+P 4500 2700
+F 0 "R?" V 4304 2700 50  0000 C CNN
+F 1 "100k" V 4395 2700 50  0000 C CNN
+F 2 "" H 4500 2700 50  0001 C CNN
+F 3 "" H 4500 2700 50  0001 C CNN
+	1    4500 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A6E38
+P 3900 3950
+F 0 "R?" V 3704 3950 50  0000 C CNN
+F 1 "100k" V 3795 3950 50  0000 C CNN
+F 2 "" H 3900 3950 50  0001 C CNN
+F 3 "" H 3900 3950 50  0001 C CNN
+	1    3900 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A6E3F
+P 3900 3100
+F 0 "R?" V 3704 3100 50  0000 C CNN
+F 1 "100k" V 3795 3100 50  0000 C CNN
+F 2 "" H 3900 3100 50  0001 C CNN
+F 3 "" H 3900 3100 50  0001 C CNN
+	1    3900 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A6E46
+P 4500 3550
+F 0 "R?" V 4304 3550 50  0000 C CNN
+F 1 "100k" V 4395 3550 50  0000 C CNN
+F 2 "" H 4500 3550 50  0001 C CNN
+F 3 "" H 4500 3550 50  0001 C CNN
+	1    4500 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4A6E4D
+P 4100 4250
+F 0 "#PWR?" H 4100 4000 50  0001 C CNN
+F 1 "GNDREF" H 4105 4077 50  0000 C CNN
+F 2 "" H 4100 4250 50  0001 C CNN
+F 3 "" H 4100 4250 50  0001 C CNN
+	1    4100 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3100 4200 3100
+Wire Wire Line
+	4000 3950 4200 3950
+Wire Wire Line
+	4200 3300 4100 3300
+Wire Wire Line
+	4100 3300 4100 4250
+Wire Wire Line
+	4200 4150 4100 4150
+Connection ~ 4100 4150
+Wire Wire Line
+	4400 2700 4150 2700
+Wire Wire Line
+	4150 2700 4150 3100
+Connection ~ 4150 3100
+Wire Wire Line
+	4600 2700 4850 2700
+Wire Wire Line
+	4850 2700 4850 3200
+Wire Wire Line
+	4750 3200 5350 3200
+Wire Wire Line
+	4400 3550 4150 3550
+Wire Wire Line
+	4150 3550 4150 3950
+Connection ~ 4150 3950
+Wire Wire Line
+	4600 3550 4850 3550
+Wire Wire Line
+	4850 3550 4850 4050
+Wire Wire Line
+	4750 4050 5350 4050
+Wire Wire Line
+	5350 3200 5350 3550
+Wire Wire Line
+	5350 3550 5800 3550
+Connection ~ 4850 3200
+Wire Wire Line
+	5350 4050 5350 3650
+Wire Wire Line
+	5350 3650 5800 3650
+Connection ~ 4850 4050
+Text HLabel 5800 5450 2    60   Output ~ 0
+L_OUT2
+Text HLabel 5800 5550 2    60   Output ~ 0
+R_OUT2
+$Comp
+L OPA1604 U?
+U 2 1 5A4A70F0
+P 4400 5100
+AR Path="/58DEDA38/5A3A9015/5A4A70F0" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A43AB61/5A4A70F0" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A70F0" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A70F0" Ref="U?"  Part="2" 
+F 0 "U?" H 4475 5487 60  0000 C CNN
+F 1 "OPA1604" H 4475 5381 60  0000 C CNN
+F 2 "" H 4400 6500 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 7000 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 6700 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 6800 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 6900 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 7200 60  0001 C CNN "Pricing"
+	2    4400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 3 1 5A4A70FB
+P 4400 5950
+AR Path="/58DEDA38/5A3A9015/5A4A70FB" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A43AB61/5A4A70FB" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A70FB" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A70FB" Ref="U?"  Part="3" 
+F 0 "U?" H 4475 6337 60  0000 C CNN
+F 1 "OPA1604" H 4475 6231 60  0000 C CNN
+F 2 "" H 4400 7350 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 7850 60  0001 C CNN
+F 4 "0.00@0" H 4600 8050 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 4800 7750 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 7650 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 4600 7550 60  0001 C CNN "Manufacturer"
+	3    4400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A7102
+P 4500 4600
+F 0 "R?" V 4304 4600 50  0000 C CNN
+F 1 "100k" V 4395 4600 50  0000 C CNN
+F 2 "" H 4500 4600 50  0001 C CNN
+F 3 "" H 4500 4600 50  0001 C CNN
+	1    4500 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A7109
+P 3900 5850
+F 0 "R?" V 3704 5850 50  0000 C CNN
+F 1 "100k" V 3795 5850 50  0000 C CNN
+F 2 "" H 3900 5850 50  0001 C CNN
+F 3 "" H 3900 5850 50  0001 C CNN
+	1    3900 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A7110
+P 3900 5000
+F 0 "R?" V 3704 5000 50  0000 C CNN
+F 1 "100k" V 3795 5000 50  0000 C CNN
+F 2 "" H 3900 5000 50  0001 C CNN
+F 3 "" H 3900 5000 50  0001 C CNN
+	1    3900 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A7117
+P 4500 5450
+F 0 "R?" V 4304 5450 50  0000 C CNN
+F 1 "100k" V 4395 5450 50  0000 C CNN
+F 2 "" H 4500 5450 50  0001 C CNN
+F 3 "" H 4500 5450 50  0001 C CNN
+	1    4500 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4A711E
+P 4100 6150
+F 0 "#PWR?" H 4100 5900 50  0001 C CNN
+F 1 "GNDREF" H 4105 5977 50  0000 C CNN
+F 2 "" H 4100 6150 50  0001 C CNN
+F 3 "" H 4100 6150 50  0001 C CNN
+	1    4100 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5000 4200 5000
+Wire Wire Line
+	4000 5850 4200 5850
+Wire Wire Line
+	4200 5200 4100 5200
+Wire Wire Line
+	4100 5200 4100 6150
+Wire Wire Line
+	4200 6050 4100 6050
+Connection ~ 4100 6050
+Wire Wire Line
+	4400 4600 4150 4600
+Wire Wire Line
+	4150 4600 4150 5000
+Connection ~ 4150 5000
+Wire Wire Line
+	4600 4600 4850 4600
+Wire Wire Line
+	4850 4600 4850 5100
+Wire Wire Line
+	4750 5100 5350 5100
+Wire Wire Line
+	4400 5450 4150 5450
+Wire Wire Line
+	4150 5450 4150 5850
+Connection ~ 4150 5850
+Wire Wire Line
+	4600 5450 4850 5450
+Wire Wire Line
+	4850 5450 4850 5950
+Wire Wire Line
+	4750 5950 5350 5950
+Wire Wire Line
+	5350 5100 5350 5450
+Wire Wire Line
+	5350 5450 5800 5450
+Connection ~ 4850 5100
+Wire Wire Line
+	5350 5950 5350 5550
+Wire Wire Line
+	5350 5550 5800 5550
+Connection ~ 4850 5950
+Text HLabel 5800 7350 2    60   Output ~ 0
+L_OUT3
+Text HLabel 5800 7450 2    60   Output ~ 0
+R_OUT3
+$Comp
+L OPA1604 U?
+U 4 1 5A4A76E9
+P 4400 7000
+AR Path="/58DEDA38/5A3A9015/5A4A76E9" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A43AB61/5A4A76E9" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A76E9" Ref="U?"  Part="4" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A76E9" Ref="U?"  Part="4" 
+F 0 "U?" H 4475 7387 60  0000 C CNN
+F 1 "OPA1604" H 4475 7281 60  0000 C CNN
+F 2 "" H 4400 8400 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 8900 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 8600 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 8700 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 8800 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 9100 60  0001 C CNN "Pricing"
+	4    4400 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 5 1 5A4A76F4
+P 4400 7850
+AR Path="/58DEDA38/5A3A9015/5A4A76F4" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A43AB61/5A4A76F4" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A76F4" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A76F4" Ref="U?"  Part="5" 
+F 0 "U?" H 4475 8237 60  0000 C CNN
+F 1 "OPA1604" H 4475 8131 60  0000 C CNN
+F 2 "" H 4400 9250 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 9750 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 9450 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 9550 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 9650 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 9950 60  0001 C CNN "Pricing"
+	5    4400 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A76FB
+P 4500 6500
+F 0 "R?" V 4304 6500 50  0000 C CNN
+F 1 "100k" V 4395 6500 50  0000 C CNN
+F 2 "" H 4500 6500 50  0001 C CNN
+F 3 "" H 4500 6500 50  0001 C CNN
+	1    4500 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A7702
+P 3900 7750
+F 0 "R?" V 3704 7750 50  0000 C CNN
+F 1 "100k" V 3795 7750 50  0000 C CNN
+F 2 "" H 3900 7750 50  0001 C CNN
+F 3 "" H 3900 7750 50  0001 C CNN
+	1    3900 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A7709
+P 3900 6900
+F 0 "R?" V 3704 6900 50  0000 C CNN
+F 1 "100k" V 3795 6900 50  0000 C CNN
+F 2 "" H 3900 6900 50  0001 C CNN
+F 3 "" H 3900 6900 50  0001 C CNN
+	1    3900 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A7710
+P 4500 7350
+F 0 "R?" V 4304 7350 50  0000 C CNN
+F 1 "100k" V 4395 7350 50  0000 C CNN
+F 2 "" H 4500 7350 50  0001 C CNN
+F 3 "" H 4500 7350 50  0001 C CNN
+	1    4500 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4A7717
+P 4100 8050
+F 0 "#PWR?" H 4100 7800 50  0001 C CNN
+F 1 "GNDREF" H 4105 7877 50  0000 C CNN
+F 2 "" H 4100 8050 50  0001 C CNN
+F 3 "" H 4100 8050 50  0001 C CNN
+	1    4100 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 6900 4200 6900
+Wire Wire Line
+	4000 7750 4200 7750
+Wire Wire Line
+	4200 7100 4100 7100
+Wire Wire Line
+	4100 7100 4100 8050
+Wire Wire Line
+	4200 7950 4100 7950
+Connection ~ 4100 7950
+Wire Wire Line
+	4400 6500 4150 6500
+Wire Wire Line
+	4150 6500 4150 6900
+Connection ~ 4150 6900
+Wire Wire Line
+	4600 6500 4850 6500
+Wire Wire Line
+	4850 6500 4850 7000
+Wire Wire Line
+	4750 7000 5350 7000
+Wire Wire Line
+	4400 7350 4150 7350
+Wire Wire Line
+	4150 7350 4150 7750
+Connection ~ 4150 7750
+Wire Wire Line
+	4600 7350 4850 7350
+Wire Wire Line
+	4850 7350 4850 7850
+Wire Wire Line
+	4750 7850 5350 7850
+Wire Wire Line
+	5350 7000 5350 7350
+Wire Wire Line
+	5350 7350 5800 7350
+Connection ~ 4850 7000
+Wire Wire Line
+	5350 7850 5350 7450
+Wire Wire Line
+	5350 7450 5800 7450
+Connection ~ 4850 7850
+Text HLabel 5800 9250 2    60   Output ~ 0
+L_OUT4
+Text HLabel 5800 9350 2    60   Output ~ 0
+R_OUT4
+$Comp
+L OPA1604 U?
+U 2 1 5A4A7934
+P 4400 8900
+AR Path="/58DEDA38/5A3A9015/5A4A7934" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A43AB61/5A4A7934" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A7934" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A7934" Ref="U?"  Part="2" 
+F 0 "U?" H 4475 9287 60  0000 C CNN
+F 1 "OPA1604" H 4475 9181 60  0000 C CNN
+F 2 "" H 4400 10300 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 10800 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 10500 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 10600 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 10700 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 11000 60  0001 C CNN "Pricing"
+	2    4400 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 3 1 5A4A793F
+P 4400 9750
+AR Path="/58DEDA38/5A3A9015/5A4A793F" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A43AB61/5A4A793F" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A793F" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A793F" Ref="U?"  Part="3" 
+F 0 "U?" H 4475 10137 60  0000 C CNN
+F 1 "OPA1604" H 4475 10031 60  0000 C CNN
+F 2 "" H 4400 11150 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 11650 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 11350 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 11450 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 11550 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 11850 60  0001 C CNN "Pricing"
+	3    4400 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A7946
+P 4500 8400
+F 0 "R?" V 4304 8400 50  0000 C CNN
+F 1 "100k" V 4395 8400 50  0000 C CNN
+F 2 "" H 4500 8400 50  0001 C CNN
+F 3 "" H 4500 8400 50  0001 C CNN
+	1    4500 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A794D
+P 3900 9650
+F 0 "R?" V 3704 9650 50  0000 C CNN
+F 1 "100k" V 3795 9650 50  0000 C CNN
+F 2 "" H 3900 9650 50  0001 C CNN
+F 3 "" H 3900 9650 50  0001 C CNN
+	1    3900 9650
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A7954
+P 3900 8800
+F 0 "R?" V 3704 8800 50  0000 C CNN
+F 1 "100k" V 3795 8800 50  0000 C CNN
+F 2 "" H 3900 8800 50  0001 C CNN
+F 3 "" H 3900 8800 50  0001 C CNN
+	1    3900 8800
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A795B
+P 4500 9250
+F 0 "R?" V 4304 9250 50  0000 C CNN
+F 1 "100k" V 4395 9250 50  0000 C CNN
+F 2 "" H 4500 9250 50  0001 C CNN
+F 3 "" H 4500 9250 50  0001 C CNN
+	1    4500 9250
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4A7962
+P 4100 9950
+F 0 "#PWR?" H 4100 9700 50  0001 C CNN
+F 1 "GNDREF" H 4105 9777 50  0000 C CNN
+F 2 "" H 4100 9950 50  0001 C CNN
+F 3 "" H 4100 9950 50  0001 C CNN
+	1    4100 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 8800 4200 8800
+Wire Wire Line
+	4000 9650 4200 9650
+Wire Wire Line
+	4200 9000 4100 9000
+Wire Wire Line
+	4100 9000 4100 9950
+Wire Wire Line
+	4200 9850 4100 9850
+Connection ~ 4100 9850
+Wire Wire Line
+	4400 8400 4150 8400
+Wire Wire Line
+	4150 8400 4150 8800
+Connection ~ 4150 8800
+Wire Wire Line
+	4600 8400 4850 8400
+Wire Wire Line
+	4850 8400 4850 8900
+Wire Wire Line
+	4750 8900 5350 8900
+Wire Wire Line
+	4400 9250 4150 9250
+Wire Wire Line
+	4150 9250 4150 9650
+Connection ~ 4150 9650
+Wire Wire Line
+	4600 9250 4850 9250
+Wire Wire Line
+	4850 9250 4850 9750
+Wire Wire Line
+	4750 9750 5350 9750
+Wire Wire Line
+	5350 8900 5350 9250
+Wire Wire Line
+	5350 9250 5800 9250
+Connection ~ 4850 8900
+Wire Wire Line
+	5350 9750 5350 9350
+Wire Wire Line
+	5350 9350 5800 9350
+Connection ~ 4850 9750
+Text HLabel 5800 11150 2    60   Output ~ 0
+L_OUT5
+Text HLabel 5800 11250 2    60   Output ~ 0
+R_OUT5
+$Comp
+L OPA1604 U?
+U 4 1 5A4A8143
+P 4400 10800
+AR Path="/58DEDA38/5A3A9015/5A4A8143" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A43AB61/5A4A8143" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A8143" Ref="U?"  Part="4" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A8143" Ref="U?"  Part="4" 
+F 0 "U?" H 4475 11187 60  0000 C CNN
+F 1 "OPA1604" H 4475 11081 60  0000 C CNN
+F 2 "" H 4400 12200 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 12700 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 12400 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 12500 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 12600 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 12900 60  0001 C CNN "Pricing"
+	4    4400 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 5 1 5A4A814E
+P 4400 11650
+AR Path="/58DEDA38/5A3A9015/5A4A814E" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A43AB61/5A4A814E" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A814E" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A814E" Ref="U?"  Part="5" 
+F 0 "U?" H 4475 12037 60  0000 C CNN
+F 1 "OPA1604" H 4475 11931 60  0000 C CNN
+F 2 "" H 4400 13050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 13550 60  0001 C CNN
+F 4 "0.00@0" H 4600 13750 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 4800 13450 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 13350 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 4600 13250 60  0001 C CNN "Manufacturer"
+	5    4400 11650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A8155
+P 4500 10300
+F 0 "R?" V 4304 10300 50  0000 C CNN
+F 1 "100k" V 4395 10300 50  0000 C CNN
+F 2 "" H 4500 10300 50  0001 C CNN
+F 3 "" H 4500 10300 50  0001 C CNN
+	1    4500 10300
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A815C
+P 3900 11550
+F 0 "R?" V 3704 11550 50  0000 C CNN
+F 1 "100k" V 3795 11550 50  0000 C CNN
+F 2 "" H 3900 11550 50  0001 C CNN
+F 3 "" H 3900 11550 50  0001 C CNN
+	1    3900 11550
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A8163
+P 3900 10700
+F 0 "R?" V 3704 10700 50  0000 C CNN
+F 1 "100k" V 3795 10700 50  0000 C CNN
+F 2 "" H 3900 10700 50  0001 C CNN
+F 3 "" H 3900 10700 50  0001 C CNN
+	1    3900 10700
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A816A
+P 4500 11150
+F 0 "R?" V 4304 11150 50  0000 C CNN
+F 1 "100k" V 4395 11150 50  0000 C CNN
+F 2 "" H 4500 11150 50  0001 C CNN
+F 3 "" H 4500 11150 50  0001 C CNN
+	1    4500 11150
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4A8171
+P 4100 11850
+F 0 "#PWR?" H 4100 11600 50  0001 C CNN
+F 1 "GNDREF" H 4105 11677 50  0000 C CNN
+F 2 "" H 4100 11850 50  0001 C CNN
+F 3 "" H 4100 11850 50  0001 C CNN
+	1    4100 11850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 10700 4200 10700
+Wire Wire Line
+	4000 11550 4200 11550
+Wire Wire Line
+	4200 10900 4100 10900
+Wire Wire Line
+	4100 10900 4100 11850
+Wire Wire Line
+	4200 11750 4100 11750
+Connection ~ 4100 11750
+Wire Wire Line
+	4400 10300 4150 10300
+Wire Wire Line
+	4150 10300 4150 10700
+Connection ~ 4150 10700
+Wire Wire Line
+	4600 10300 4850 10300
+Wire Wire Line
+	4850 10300 4850 10800
+Wire Wire Line
+	4750 10800 5350 10800
+Wire Wire Line
+	4400 11150 4150 11150
+Wire Wire Line
+	4150 11150 4150 11550
+Connection ~ 4150 11550
+Wire Wire Line
+	4600 11150 4850 11150
+Wire Wire Line
+	4850 11150 4850 11650
+Wire Wire Line
+	4750 11650 5350 11650
+Wire Wire Line
+	5350 10800 5350 11150
+Wire Wire Line
+	5350 11150 5800 11150
+Connection ~ 4850 10800
+Wire Wire Line
+	5350 11650 5350 11250
+Wire Wire Line
+	5350 11250 5800 11250
+Connection ~ 4850 11650
+Text HLabel 5800 13050 2    60   Output ~ 0
+L_OUT6
+Text HLabel 5800 13150 2    60   Output ~ 0
+R_OUT6
+$Comp
+L OPA1604 U?
+U 2 1 5A4A95B7
+P 4400 12700
+AR Path="/58DEDA38/5A3A9015/5A4A95B7" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A43AB61/5A4A95B7" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A95B7" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A95B7" Ref="U?"  Part="2" 
+F 0 "U?" H 4475 13087 60  0000 C CNN
+F 1 "OPA1604" H 4475 12981 60  0000 C CNN
+F 2 "" H 4400 14100 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 14600 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 14300 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 14400 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 14500 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 14800 60  0001 C CNN "Pricing"
+	2    4400 12700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 3 1 5A4A95C2
+P 4400 13550
+AR Path="/58DEDA38/5A3A9015/5A4A95C2" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A43AB61/5A4A95C2" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A95C2" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A95C2" Ref="U?"  Part="3" 
+F 0 "U?" H 4475 13937 60  0000 C CNN
+F 1 "OPA1604" H 4475 13831 60  0000 C CNN
+F 2 "" H 4400 14950 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 15450 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 15150 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 15250 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 15350 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 15650 60  0001 C CNN "Pricing"
+	3    4400 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A95C9
+P 4500 12200
+F 0 "R?" V 4304 12200 50  0000 C CNN
+F 1 "100k" V 4395 12200 50  0000 C CNN
+F 2 "" H 4500 12200 50  0001 C CNN
+F 3 "" H 4500 12200 50  0001 C CNN
+	1    4500 12200
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A95D0
+P 3900 13450
+F 0 "R?" V 3704 13450 50  0000 C CNN
+F 1 "100k" V 3795 13450 50  0000 C CNN
+F 2 "" H 3900 13450 50  0001 C CNN
+F 3 "" H 3900 13450 50  0001 C CNN
+	1    3900 13450
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A95D7
+P 3900 12600
+F 0 "R?" V 3704 12600 50  0000 C CNN
+F 1 "100k" V 3795 12600 50  0000 C CNN
+F 2 "" H 3900 12600 50  0001 C CNN
+F 3 "" H 3900 12600 50  0001 C CNN
+	1    3900 12600
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A95DE
+P 4500 13050
+F 0 "R?" V 4304 13050 50  0000 C CNN
+F 1 "100k" V 4395 13050 50  0000 C CNN
+F 2 "" H 4500 13050 50  0001 C CNN
+F 3 "" H 4500 13050 50  0001 C CNN
+	1    4500 13050
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4A95E5
+P 4100 13750
+F 0 "#PWR?" H 4100 13500 50  0001 C CNN
+F 1 "GNDREF" H 4105 13577 50  0000 C CNN
+F 2 "" H 4100 13750 50  0001 C CNN
+F 3 "" H 4100 13750 50  0001 C CNN
+	1    4100 13750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 12600 4200 12600
+Wire Wire Line
+	4000 13450 4200 13450
+Wire Wire Line
+	4200 12800 4100 12800
+Wire Wire Line
+	4100 12800 4100 13750
+Wire Wire Line
+	4200 13650 4100 13650
+Connection ~ 4100 13650
+Wire Wire Line
+	4400 12200 4150 12200
+Wire Wire Line
+	4150 12200 4150 12600
+Connection ~ 4150 12600
+Wire Wire Line
+	4600 12200 4850 12200
+Wire Wire Line
+	4850 12200 4850 12700
+Wire Wire Line
+	4750 12700 5350 12700
+Wire Wire Line
+	4400 13050 4150 13050
+Wire Wire Line
+	4150 13050 4150 13450
+Connection ~ 4150 13450
+Wire Wire Line
+	4600 13050 4850 13050
+Wire Wire Line
+	4850 13050 4850 13550
+Wire Wire Line
+	4750 13550 5350 13550
+Wire Wire Line
+	5350 12700 5350 13050
+Wire Wire Line
+	5350 13050 5800 13050
+Connection ~ 4850 12700
+Wire Wire Line
+	5350 13550 5350 13150
+Wire Wire Line
+	5350 13150 5800 13150
+Connection ~ 4850 13550
+Text HLabel 5800 14950 2    60   Output ~ 0
+L_OUT7
+Text HLabel 5800 15050 2    60   Output ~ 0
+R_OUT7
+$Comp
+L OPA1604 U?
+U 4 1 5A4A9DA8
+P 4400 14600
+AR Path="/58DEDA38/5A3A9015/5A4A9DA8" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A43AB61/5A4A9DA8" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A9DA8" Ref="U?"  Part="4" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A9DA8" Ref="U?"  Part="4" 
+F 0 "U?" H 4475 14987 60  0000 C CNN
+F 1 "OPA1604" H 4475 14881 60  0000 C CNN
+F 2 "" H 4400 16000 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 16500 60  0001 C CNN
+F 4 "Texas Instruments" H 4600 16200 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 16300 60  0001 C CNN "Description"
+F 6 "SO-14, TSSOP14" H 4800 16400 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4600 16700 60  0001 C CNN "Pricing"
+	4    4400 14600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 5 1 5A4A9DB3
+P 4400 15450
+AR Path="/58DEDA38/5A3A9015/5A4A9DB3" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A43AB61/5A4A9DB3" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4A9DB3" Ref="U?"  Part="5" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4A9DB3" Ref="U?"  Part="5" 
+F 0 "U?" H 4475 15837 60  0000 C CNN
+F 1 "OPA1604" H 4475 15731 60  0000 C CNN
+F 2 "" H 4400 16850 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 5000 17350 60  0001 C CNN
+F 4 "0.00@0" H 4600 17550 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 4800 17250 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 4700 17150 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 4600 17050 60  0001 C CNN "Manufacturer"
+	5    4400 15450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A9DBA
+P 4500 14100
+F 0 "R?" V 4304 14100 50  0000 C CNN
+F 1 "100k" V 4395 14100 50  0000 C CNN
+F 2 "" H 4500 14100 50  0001 C CNN
+F 3 "" H 4500 14100 50  0001 C CNN
+	1    4500 14100
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A9DC1
+P 3900 15350
+F 0 "R?" V 3704 15350 50  0000 C CNN
+F 1 "100k" V 3795 15350 50  0000 C CNN
+F 2 "" H 3900 15350 50  0001 C CNN
+F 3 "" H 3900 15350 50  0001 C CNN
+	1    3900 15350
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A9DC8
+P 3900 14500
+F 0 "R?" V 3704 14500 50  0000 C CNN
+F 1 "100k" V 3795 14500 50  0000 C CNN
+F 2 "" H 3900 14500 50  0001 C CNN
+F 3 "" H 3900 14500 50  0001 C CNN
+	1    3900 14500
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A4A9DCF
+P 4500 14950
+F 0 "R?" V 4304 14950 50  0000 C CNN
+F 1 "100k" V 4395 14950 50  0000 C CNN
+F 2 "" H 4500 14950 50  0001 C CNN
+F 3 "" H 4500 14950 50  0001 C CNN
+	1    4500 14950
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4A9DD6
+P 4100 15650
+F 0 "#PWR?" H 4100 15400 50  0001 C CNN
+F 1 "GNDREF" H 4105 15477 50  0000 C CNN
+F 2 "" H 4100 15650 50  0001 C CNN
+F 3 "" H 4100 15650 50  0001 C CNN
+	1    4100 15650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 14500 4200 14500
+Wire Wire Line
+	4000 15350 4200 15350
+Wire Wire Line
+	2900 15350 3800 15350
+Wire Wire Line
+	4200 14700 4100 14700
+Wire Wire Line
+	4100 14700 4100 15650
+Wire Wire Line
+	4200 15550 4100 15550
+Connection ~ 4100 15550
+Wire Wire Line
+	4400 14100 4150 14100
+Wire Wire Line
+	4150 14100 4150 14500
+Connection ~ 4150 14500
+Wire Wire Line
+	4600 14100 4850 14100
+Wire Wire Line
+	4850 14100 4850 14600
+Wire Wire Line
+	4750 14600 5350 14600
+Wire Wire Line
+	4400 14950 4150 14950
+Wire Wire Line
+	4150 14950 4150 15350
+Connection ~ 4150 15350
+Wire Wire Line
+	4600 14950 4850 14950
+Wire Wire Line
+	4850 14950 4850 15450
+Wire Wire Line
+	4750 15450 5350 15450
+Wire Wire Line
+	5350 14600 5350 14950
+Wire Wire Line
+	5350 14950 5800 14950
+Connection ~ 4850 14600
+Wire Wire Line
+	5350 15450 5350 15050
+Wire Wire Line
+	5350 15050 5800 15050
+Connection ~ 4850 15450
+Text HLabel 5800 1650 2    60   Output ~ 0
+L_OUT0
+Text HLabel 5800 1750 2    60   Output ~ 0
+R_OUT0
+Wire Wire Line
+	3000 14500 3800 14500
+Wire Wire Line
+	3800 1200 3000 1200
+Connection ~ 3000 5000
+Wire Wire Line
+	3800 3100 3000 3100
+Connection ~ 3000 3100
+Connection ~ 3000 6900
+Connection ~ 3000 8800
+Connection ~ 3000 10700
+Connection ~ 3000 12600
+Wire Wire Line
+	3800 5000 3000 5000
+Wire Wire Line
+	3800 6900 3000 6900
+Wire Wire Line
+	3800 8800 3000 8800
+Wire Wire Line
+	3800 10700 3000 10700
+Wire Wire Line
+	3800 12600 3000 12600
+Wire Wire Line
+	3800 2050 2900 2050
+Connection ~ 2900 3950
+Connection ~ 2900 5850
+Connection ~ 2900 7750
+Connection ~ 2900 9650
+Connection ~ 2900 11550
+Connection ~ 2900 13450
+Wire Wire Line
+	3800 3950 2900 3950
+Wire Wire Line
+	3800 5850 2900 5850
+Wire Wire Line
+	3800 7750 2900 7750
+Wire Wire Line
+	3800 9650 2900 9650
+Wire Wire Line
+	3800 11550 2900 11550
+Wire Wire Line
+	3800 13450 2900 13450
+Wire Wire Line
+	2600 2150 2600 1650
+Wire Wire Line
+	2600 2800 2600 3300
+Wire Wire Line
+	2600 1900 3000 1900
+Connection ~ 3000 1900
+Connection ~ 2600 1900
+Wire Wire Line
+	2600 2950 2900 2950
+Connection ~ 2900 2950
+Connection ~ 2600 2950
+$Comp
+L OPA1604 U?
+U 1 1 5A4BB263
+P 7800 2950
+AR Path="/58DEDA38/5A3A9015/5A4BB263" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A43AB61/5A4BB263" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4BB263" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4BB263" Ref="U?"  Part="1" 
+F 0 "U?" H 8028 2998 60  0000 L CNN
+F 1 "OPA1604" H 8028 2892 60  0000 L CNN
+F 2 "" H 7800 4350 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 8400 4850 60  0001 C CNN
+F 4 "0.00@0" H 8000 5050 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 8200 4750 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 8100 4650 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 8000 4550 60  0001 C CNN "Manufacturer"
+	1    7800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12VA #PWR?
+U 1 1 5A4BB26A
+P 7150 2750
+F 0 "#PWR?" H 7150 2600 50  0001 C CNN
+F 1 "-12VA" H 7165 2923 50  0000 C CNN
+F 2 "" H 7150 2750 50  0001 C CNN
+F 3 "" H 7150 2750 50  0001 C CNN
+	1    7150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12VA #PWR?
+U 1 1 5A4BB270
+P 7450 2750
+F 0 "#PWR?" H 7450 2600 50  0001 C CNN
+F 1 "+12VA" H 7465 2923 50  0000 C CNN
+F 2 "" H 7450 2750 50  0001 C CNN
+F 3 "" H 7450 2750 50  0001 C CNN
+	1    7450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A4BB276
+P 7150 3250
+F 0 "C?" H 7241 3204 50  0000 L CNN
+F 1 "0.1uF" H 7241 3295 50  0000 L CNN
+F 2 "" H 7150 3250 50  0001 C CNN
+F 3 "" H 7150 3250 50  0001 C CNN
+	1    7150 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A4BB27D
+P 7400 3250
+F 0 "C?" H 7308 3204 50  0000 R CNN
+F 1 "0.1uF" H 7308 3295 50  0000 R CNN
+F 2 "" H 7400 3250 50  0001 C CNN
+F 3 "" H 7400 3250 50  0001 C CNN
+	1    7400 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4BB284
+P 7300 3450
+F 0 "#PWR?" H 7300 3200 50  0001 C CNN
+F 1 "GNDREF" H 7305 3277 50  0000 C CNN
+F 2 "" H 7300 3450 50  0001 C CNN
+F 3 "" H 7300 3450 50  0001 C CNN
+	1    7300 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2750 7450 2850
+Wire Wire Line
+	7400 2850 7600 2850
+Wire Wire Line
+	7150 2750 7150 3150
+Wire Wire Line
+	7150 3050 7600 3050
+Connection ~ 7150 3050
+Wire Wire Line
+	7400 3150 7400 2850
+Connection ~ 7450 2850
+Wire Wire Line
+	7150 3350 7150 3400
+Wire Wire Line
+	7150 3400 7400 3400
+Wire Wire Line
+	7400 3400 7400 3350
+Wire Wire Line
+	7300 3450 7300 3400
+Connection ~ 7300 3400
+$Comp
+L OPA1604 U?
+U 1 1 5A4BB315
+P 7750 4450
+AR Path="/58DEDA38/5A3A9015/5A4BB315" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A43AB61/5A4BB315" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4BB315" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4BB315" Ref="U?"  Part="1" 
+F 0 "U?" H 7978 4498 60  0000 L CNN
+F 1 "OPA1604" H 7978 4392 60  0000 L CNN
+F 2 "" H 7750 5850 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 8350 6350 60  0001 C CNN
+F 4 "0.00@0" H 7950 6550 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 8150 6250 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 8050 6150 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 7950 6050 60  0001 C CNN "Manufacturer"
+	1    7750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12VA #PWR?
+U 1 1 5A4BB31C
+P 7100 4250
+F 0 "#PWR?" H 7100 4100 50  0001 C CNN
+F 1 "-12VA" H 7115 4423 50  0000 C CNN
+F 2 "" H 7100 4250 50  0001 C CNN
+F 3 "" H 7100 4250 50  0001 C CNN
+	1    7100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12VA #PWR?
+U 1 1 5A4BB322
+P 7400 4250
+F 0 "#PWR?" H 7400 4100 50  0001 C CNN
+F 1 "+12VA" H 7415 4423 50  0000 C CNN
+F 2 "" H 7400 4250 50  0001 C CNN
+F 3 "" H 7400 4250 50  0001 C CNN
+	1    7400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A4BB328
+P 7100 4750
+F 0 "C?" H 7191 4704 50  0000 L CNN
+F 1 "0.1uF" H 7191 4795 50  0000 L CNN
+F 2 "" H 7100 4750 50  0001 C CNN
+F 3 "" H 7100 4750 50  0001 C CNN
+	1    7100 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A4BB32F
+P 7350 4750
+F 0 "C?" H 7258 4704 50  0000 R CNN
+F 1 "0.1uF" H 7258 4795 50  0000 R CNN
+F 2 "" H 7350 4750 50  0001 C CNN
+F 3 "" H 7350 4750 50  0001 C CNN
+	1    7350 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4BB336
+P 7250 4950
+F 0 "#PWR?" H 7250 4700 50  0001 C CNN
+F 1 "GNDREF" H 7255 4777 50  0000 C CNN
+F 2 "" H 7250 4950 50  0001 C CNN
+F 3 "" H 7250 4950 50  0001 C CNN
+	1    7250 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4250 7400 4350
+Wire Wire Line
+	7350 4350 7550 4350
+Wire Wire Line
+	7100 4250 7100 4650
+Wire Wire Line
+	7100 4550 7550 4550
+Connection ~ 7100 4550
+Wire Wire Line
+	7350 4650 7350 4350
+Connection ~ 7400 4350
+Wire Wire Line
+	7100 4850 7100 4900
+Wire Wire Line
+	7100 4900 7350 4900
+Wire Wire Line
+	7350 4900 7350 4850
+Wire Wire Line
+	7250 4950 7250 4900
+Connection ~ 7250 4900
+$Comp
+L OPA1604 U?
+U 1 1 5A4BB5DA
+P 7750 5900
+AR Path="/58DEDA38/5A3A9015/5A4BB5DA" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A43AB61/5A4BB5DA" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A49F2D9/5A4BB5DA" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5A4829FB/5A4DAAC6/5A4BB5DA" Ref="U?"  Part="1" 
+F 0 "U?" H 7978 5948 60  0000 L CNN
+F 1 "OPA1604" H 7978 5842 60  0000 L CNN
+F 2 "" H 7750 7300 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 8350 7800 60  0001 C CNN
+F 4 "0.00@0" H 7950 8000 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 8150 7700 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 8050 7600 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 7950 7500 60  0001 C CNN "Manufacturer"
+	1    7750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12VA #PWR?
+U 1 1 5A4BB5E1
+P 7100 5700
+F 0 "#PWR?" H 7100 5550 50  0001 C CNN
+F 1 "-12VA" H 7115 5873 50  0000 C CNN
+F 2 "" H 7100 5700 50  0001 C CNN
+F 3 "" H 7100 5700 50  0001 C CNN
+	1    7100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12VA #PWR?
+U 1 1 5A4BB5E7
+P 7400 5700
+F 0 "#PWR?" H 7400 5550 50  0001 C CNN
+F 1 "+12VA" H 7415 5873 50  0000 C CNN
+F 2 "" H 7400 5700 50  0001 C CNN
+F 3 "" H 7400 5700 50  0001 C CNN
+	1    7400 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A4BB5ED
+P 7100 6200
+F 0 "C?" H 7191 6154 50  0000 L CNN
+F 1 "0.1uF" H 7191 6245 50  0000 L CNN
+F 2 "" H 7100 6200 50  0001 C CNN
+F 3 "" H 7100 6200 50  0001 C CNN
+	1    7100 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A4BB5F4
+P 7350 6200
+F 0 "C?" H 7258 6154 50  0000 R CNN
+F 1 "0.1uF" H 7258 6245 50  0000 R CNN
+F 2 "" H 7350 6200 50  0001 C CNN
+F 3 "" H 7350 6200 50  0001 C CNN
+	1    7350 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A4BB5FB
+P 7250 6400
+F 0 "#PWR?" H 7250 6150 50  0001 C CNN
+F 1 "GNDREF" H 7255 6227 50  0000 C CNN
+F 2 "" H 7250 6400 50  0001 C CNN
+F 3 "" H 7250 6400 50  0001 C CNN
+	1    7250 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 5700 7400 5800
+Wire Wire Line
+	7350 5800 7550 5800
+Wire Wire Line
+	7100 5700 7100 6100
+Wire Wire Line
+	7100 6000 7550 6000
+Connection ~ 7100 6000
+Wire Wire Line
+	7350 6100 7350 5800
+Connection ~ 7400 5800
+Wire Wire Line
+	7100 6300 7100 6350
+Wire Wire Line
+	7100 6350 7350 6350
+Wire Wire Line
+	7350 6350 7350 6300
+Wire Wire Line
+	7250 6400 7250 6350
+Connection ~ 7250 6350
+$EndSCHEMATC
