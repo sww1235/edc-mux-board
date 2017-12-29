@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 28000 28000
 encoding utf-8
-Sheet 4 32
+Sheet 4 33
 Title ""
 Date ""
 Rev ""
@@ -4393,5 +4393,11 @@ S 15850 2600 1350 2300
 U 5A4829FB
 F0 "Headset LR audio out Mux and Source Selection" 60
 F1 "headset-audio-out-mux-switching.sch" 60
+F2 "L_OUT[0..7]" O R 17200 2800 60 
+F3 "R_OUT[0..7]" O R 17200 2900 60 
+F4 "R_IN[0..7]" I L 15850 2900 60 
+F5 "L_IN[0..7]" I L 15850 2800 60 
+F6 "MIXER_L_IN" I L 15850 3650 60 
+F7 "MIXER_R_IN" I L 15850 3750 60 
 $EndSheet
 $EndSCHEMATC
