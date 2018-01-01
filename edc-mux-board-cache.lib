@@ -193,6 +193,26 @@ X -5VA 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
+# 0582BQ
+#
+DEF 0582BQ D 0 0 Y Y 1 F N
+F0 "D" -1300 -1000 60 H V C CNN
+F1 "0582BQ" 1400 -850 60 H V C CNN
+F2 "" -1400 -1100 60 H I C CNN
+F3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" 200 2000 60 H I C CNN
+F4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" -100 2150 60 H I C CNN "Characteristics"
+F5 "Semtech International AG" -50 2050 60 H I C CNN "Manufacturer"
+F6 "Low Capacitance TVS for Automotive Applications" -50 2250 60 H I C CNN "Description"
+F7 "SC75 / SOT 523" -150 2350 60 H I C CNN "Package ID"
+F8 "0.00@0" -150 2450 60 H I C CNN "Pricing"
+DRAW
+S -50 150 50 -150 0 1 0 N
+X D1 1 -150 100 100 R 50 50 1 1 P
+X D2 2 -150 -100 100 R 50 50 1 1 P
+X GND 3 150 0 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # 74LS32
 #
 DEF 74LS32 U 0 40 Y Y 5 L N
@@ -2265,6 +2285,34 @@ X ~ 6 -200 50 100 R 50 50 1 1 B
 X ~ 7 -200 150 100 R 50 50 1 1 B
 X ~ 8 -200 250 100 R 50 50 1 1 B
 X ~ 9 200 250 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# TPD1E10B06
+#
+DEF TPD1E10B06 D 0 40 Y Y 1 F N
+F0 "D" -100 250 60 H V C CNN
+F1 "TPD1E10B06" 0 -100 60 H V C CNN
+F2 "" -100 -100 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" 150 1600 60 H I C CNN
+F4 "0.00@0" 50 1500 60 H I C CNN "Pricing"
+F5 "0402 (imp)" 200 2000 60 H I C CNN "Package ID"
+F6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" 250 1700 60 H I C CNN "Characteristics"
+F7 "Single-Channel ESD Protection Diode" 100 1900 60 H I C CNN "Description"
+F8 "Texas Instruments" 0 1800 60 H I C CNN "Manufacturer"
+DRAW
+S -100 85 100 15 0 1 0 N
+P 2 0 1 0 -100 50 -40 50 N
+P 2 0 1 0 -15 50 15 50 N
+P 2 0 1 0 45 50 100 50 N
+P 3 0 1 0 -40 50 -40 35 -30 25 N
+P 3 0 1 0 -40 50 -40 65 -50 75 N
+P 3 0 1 0 45 50 45 35 35 25 N
+P 3 0 1 0 45 50 45 65 55 75 N
+P 4 0 1 0 -15 65 -15 35 -40 50 -15 65 N
+P 4 0 1 0 20 65 20 35 45 50 20 65 N
+X ~ 1 -200 50 100 R 50 50 1 1 P
+X ~ 2 200 50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
