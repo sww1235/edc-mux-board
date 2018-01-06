@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
-Sheet 2 28
+Sheet 2 37
 Title ""
 Date ""
 Rev ""
@@ -3960,6 +3960,22 @@ F 5 "Analog Devices" H 20500 5050 60  0001 C CNN "Manufacturer"
 F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 20400 4850 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 20450 4950 60  0001 C CNN "Package ID"
 	5    20450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADG715 U?
+U 1 1 5AEB66E8
+P 20500 2850
+F 0 "U?" H 20628 2903 60  0000 L CNN
+F 1 "ADG715" H 20628 2797 60  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 20750 3800 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 20750 3900 60  0001 C CNN
+F 4 "0.00@0" H 20550 4450 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 20500 4100 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 20600 4200 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 20600 4000 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 20700 4300 60  0001 C CNN "Package ID"
+	1    20500 2850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

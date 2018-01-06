@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 33
+Sheet 23 37
 Title ""
 Date ""
 Rev ""
@@ -67,100 +67,6 @@ Text HLabel 6350 6450 2    60   Output ~ 0
 L_OUT2
 Text HLabel 6350 6550 2    60   Output ~ 0
 R_OUT2
-Text HLabel 2750 1150 0    60   Input ~ 0
-A1
-Text HLabel 2750 1050 0    60   Input ~ 0
-A2
-Text HLabel 4050 1150 0    60   Input ~ 0
-~CE
-Text HLabel 4100 1250 0    60   BiDi ~ 0
-SDA
-Text HLabel 4100 1350 0    60   Input ~ 0
-SCL
-$Comp
-L DS1882 U?
-U 1 1 5A43B4D5
-P 3950 2400
-F 0 "U?" H 3950 3039 60  0000 C CNN
-F 1 "DS1882" H 3950 2933 60  0000 C CNN
-F 2 "" H 3850 2500 60  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf" H 4100 3500 60  0001 C CNN
-F 4 "0.00@0" H 3950 1150 60  0001 C CNN "Pricing"
-F 5 "Dallas Semiconductor / Maxim Integrated" H 3950 1300 60  0001 C CNN "Manufacturer"
-F 6 "Dual Log Audio Digital Potentiometer" H 3900 3600 60  0001 C CNN "Description"
-F 7 "Manufacturer" H 4450 1150 60  0001 C CNN "Source"
-F 8 "TSSOP, SO" H 3950 3700 60  0001 C CNN "Package ID"
-	1    3950 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L OPA1604 U?
-U 2 1 5A43B4E0
-P 2500 2500
-AR Path="/58DEDA38/5A3A9015/5A43B4E0" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5A43AB61/5A43B4E0" Ref="U?"  Part="2" 
-F 0 "U?" H 2575 2887 60  0000 C CNN
-F 1 "OPA1604" H 2575 2781 60  0000 C CNN
-F 2 "" H 2500 3900 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 3100 4400 60  0001 C CNN
-F 4 "0.00@0" H 2700 4600 60  0001 C CNN "Pricing"
-F 5 "SO-14, TSSOP14" H 2900 4300 60  0001 C CNN "Package ID"
-F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 2800 4200 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 2700 4100 60  0001 C CNN "Manufacturer"
-	2    2500 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L OPA1604 U?
-U 3 1 5A43B4EB
-P 5500 3400
-AR Path="/58DEDA38/5A3A9015/5A43B4EB" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5A43AB61/5A43B4EB" Ref="U?"  Part="3" 
-F 0 "U?" H 5575 3787 60  0000 C CNN
-F 1 "OPA1604" H 5575 3681 60  0000 C CNN
-F 2 "" H 5500 4800 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 5300 60  0001 C CNN
-F 4 "0.00@0" H 5700 5500 60  0001 C CNN "Pricing"
-F 5 "SO-14, TSSOP14" H 5900 5200 60  0001 C CNN "Package ID"
-F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 5100 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 5700 5000 60  0001 C CNN "Manufacturer"
-	3    5500 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L OPA1604 U?
-U 4 1 5A43B4F6
-P 2500 3650
-AR Path="/58DEDA38/5A3A9015/5A43B4F6" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/5A43AB61/5A43B4F6" Ref="U?"  Part="4" 
-F 0 "U?" H 2575 4037 60  0000 C CNN
-F 1 "OPA1604" H 2575 3931 60  0000 C CNN
-F 2 "" H 2500 5050 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 3100 5550 60  0001 C CNN
-F 4 "0.00@0" H 2700 5750 60  0001 C CNN "Pricing"
-F 5 "SO-14, TSSOP14" H 2900 5450 60  0001 C CNN "Package ID"
-F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 2800 5350 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 2700 5250 60  0001 C CNN "Manufacturer"
-	4    2500 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L OPA1604 U?
-U 5 1 5A43B501
-P 5500 4250
-AR Path="/58DEDA38/5A3A9015/5A43B501" Ref="U?"  Part="5" 
-AR Path="/58DEDA38/5A43AB61/5A43B501" Ref="U?"  Part="5" 
-F 0 "U?" H 5575 4637 60  0000 C CNN
-F 1 "OPA1604" H 5575 4531 60  0000 C CNN
-F 2 "" H 5500 5650 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 6150 60  0001 C CNN
-F 4 "0.00@0" H 5700 6350 60  0001 C CNN "Pricing"
-F 5 "SO-14, TSSOP14" H 5900 6050 60  0001 C CNN "Package ID"
-F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 5950 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 5700 5850 60  0001 C CNN "Manufacturer"
-	5    5500 4250
-	1    0    0    -1  
-$EndComp
 $Comp
 L R_Small R?
 U 1 1 5A43B508
@@ -221,7 +127,7 @@ L R_Small R?
 U 1 1 5A43B52B
 P 5000 4150
 F 0 "R?" V 4804 4150 50  0000 C CNN
-F 1 "10k" V 4895 4150 50  0000 C CNN
+F 1 "100k" V 4895 4150 50  0000 C CNN
 F 2 "" H 5000 4150 50  0001 C CNN
 F 3 "" H 5000 4150 50  0001 C CNN
 	1    5000 4150
@@ -232,7 +138,7 @@ L R_Small R?
 U 1 1 5A43B532
 P 5000 3300
 F 0 "R?" V 4804 3300 50  0000 C CNN
-F 1 "10k" V 4895 3300 50  0000 C CNN
+F 1 "100k" V 4895 3300 50  0000 C CNN
 F 2 "" H 5000 3300 50  0001 C CNN
 F 3 "" H 5000 3300 50  0001 C CNN
 	1    5000 3300
@@ -255,6 +161,7 @@ U 1 1 5A43B544
 P 7200 1700
 AR Path="/58DEDA38/5A3A9015/5A43B544" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5A43AB61/5A43B544" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5AC2753A/5A43B544" Ref="U?"  Part="1" 
 F 0 "U?" H 7428 1748 60  0000 L CNN
 F 1 "OPA1604" H 7428 1642 60  0000 L CNN
 F 2 "" H 7200 3100 60  0001 C CNN
@@ -278,50 +185,6 @@ F 3 "" H 2200 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR?
-U 1 1 5A43B551
-P 3400 5950
-F 0 "#PWR?" H 3400 5700 50  0001 C CNN
-F 1 "GNDREF" H 3405 5777 50  0000 C CNN
-F 2 "" H 3400 5950 50  0001 C CNN
-F 3 "" H 3400 5950 50  0001 C CNN
-	1    3400 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5A43B557
-P 6050 1500
-F 0 "#PWR?" H 6050 1350 50  0001 C CNN
-F 1 "+5V" H 6065 1673 50  0000 C CNN
-F 2 "" H 6050 1500 50  0001 C CNN
-F 3 "" H 6050 1500 50  0001 C CNN
-	1    6050 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5VA #PWR?
-U 1 1 5A43B55D
-P 5100 1500
-F 0 "#PWR?" H 5100 1350 50  0001 C CNN
-F 1 "+5VA" H 5115 1673 50  0000 C CNN
-F 2 "" H 5100 1500 50  0001 C CNN
-F 3 "" H 5100 1500 50  0001 C CNN
-	1    5100 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L -5VA #PWR?
-U 1 1 5A43B563
-P 3450 1450
-F 0 "#PWR?" H 3450 1550 50  0001 C CNN
-F 1 "-5VA" H 3465 1623 50  0000 C CNN
-F 2 "" H 3450 1450 50  0001 C CNN
-F 3 "" H 3450 1450 50  0001 C CNN
-	1    3450 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L -12VA #PWR?
 U 1 1 5A43B569
 P 6550 1500
@@ -342,94 +205,6 @@ F 2 "" H 6850 1500 50  0001 C CNN
 F 3 "" H 6850 1500 50  0001 C CNN
 	1    6850 1500
 	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43B575
-P 3850 3000
-F 0 "C?" H 3758 2954 50  0000 R CNN
-F 1 "0.1uF" H 3758 3045 50  0000 R CNN
-F 2 "" H 3850 3000 50  0001 C CNN
-F 3 "" H 3850 3000 50  0001 C CNN
-	1    3850 3000
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43B57C
-P 5700 2350
-F 0 "C?" H 5608 2304 50  0000 R CNN
-F 1 "0.1uF" H 5608 2395 50  0000 R CNN
-F 2 "" H 5700 2350 50  0001 C CNN
-F 3 "" H 5700 2350 50  0001 C CNN
-	1    5700 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43B583
-P 3550 3000
-F 0 "C?" H 3458 2954 50  0000 R CNN
-F 1 "0.01uF" H 3458 3045 50  0000 R CNN
-F 2 "" H 3550 3000 50  0001 C CNN
-F 3 "" H 3550 3000 50  0001 C CNN
-	1    3550 3000
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43B58A
-P 6050 2350
-F 0 "C?" H 5958 2304 50  0000 R CNN
-F 1 "0.01uF" H 5958 2395 50  0000 R CNN
-F 2 "" H 6050 2350 50  0001 C CNN
-F 3 "" H 6050 2350 50  0001 C CNN
-	1    6050 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L GNDREF #PWR?
-U 1 1 5A43B5DF
-P 5100 2700
-F 0 "#PWR?" H 5100 2450 50  0001 C CNN
-F 1 "GNDREF" H 5105 2527 50  0000 C CNN
-F 2 "" H 5100 2700 50  0001 C CNN
-F 3 "" H 5100 2700 50  0001 C CNN
-	1    5100 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDREF #PWR?
-U 1 1 5A43B5E7
-P 4400 2900
-F 0 "#PWR?" H 4400 2650 50  0001 C CNN
-F 1 "GNDREF" H 4405 2727 50  0000 C CNN
-F 2 "" H 4400 2900 50  0001 C CNN
-F 3 "" H 4400 2900 50  0001 C CNN
-	1    4400 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43B5F7
-P 5100 2350
-F 0 "C?" H 5008 2304 50  0000 R CNN
-F 1 "0.1uF" H 5008 2395 50  0000 R CNN
-F 2 "" H 5100 2350 50  0001 C CNN
-F 3 "" H 5100 2350 50  0001 C CNN
-	1    5100 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43B5FE
-P 4900 2350
-F 0 "C?" H 4991 2304 50  0000 L CNN
-F 1 "0.01uF" H 4991 2395 50  0000 L CNN
-F 2 "" H 4900 2350 50  0001 C CNN
-F 3 "" H 4900 2350 50  0001 C CNN
-	1    4900 2350
-	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C?
@@ -488,173 +263,6 @@ F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 
 F 6 "SO-8, TSSOP8" H 9250 3450 60  0001 C CNN "Package ID"
 F 7 "0.00@0" H 9050 3750 60  0001 C CNN "Pricing"
 	1    8850 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L OPA1602 U?
-U 2 1 5A43B9B2
-P 5500 6100
-F 0 "U?" H 5575 6487 60  0000 C CNN
-F 1 "OPA1602" H 5575 6381 60  0000 C CNN
-F 2 "" H 5500 7500 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 8000 60  0001 C CNN
-F 4 "Texas Instruments" H 5700 7700 60  0001 C CNN "Manufacturer"
-F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 7800 60  0001 C CNN "Description"
-F 6 "SO-8, TSSOP8" H 5900 7900 60  0001 C CNN "Package ID"
-F 7 "0.00@0" H 5700 8200 60  0001 C CNN "Pricing"
-	2    5500 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L OPA1602 U?
-U 3 1 5A43BA6E
-P 5500 7150
-F 0 "U?" H 5575 7537 60  0000 C CNN
-F 1 "OPA1602" H 5575 7431 60  0000 C CNN
-F 2 "" H 5500 8550 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 9050 60  0001 C CNN
-F 4 "Texas Instruments" H 5700 8750 60  0001 C CNN "Manufacturer"
-F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 8850 60  0001 C CNN "Description"
-F 6 "SO-8, TSSOP8" H 5900 8950 60  0001 C CNN "Package ID"
-F 7 "0.00@0" H 5700 9250 60  0001 C CNN "Pricing"
-	3    5500 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L DS1882 U?
-U 1 1 5A43BB87
-P 3950 5050
-F 0 "U?" H 3950 5689 60  0000 C CNN
-F 1 "DS1882" H 3950 5583 60  0000 C CNN
-F 2 "" H 3850 5150 60  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf" H 4100 6150 60  0001 C CNN
-F 4 "0.00@0" H 3950 3800 60  0001 C CNN "Pricing"
-F 5 "Dallas Semiconductor / Maxim Integrated" H 3950 3950 60  0001 C CNN "Manufacturer"
-F 6 "Dual Log Audio Digital Potentiometer" H 3900 6250 60  0001 C CNN "Description"
-F 7 "Manufacturer" H 4450 3800 60  0001 C CNN "Source"
-F 8 "TSSOP, SO" H 3950 6350 60  0001 C CNN "Package ID"
-	1    3950 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDREF #PWR?
-U 1 1 5A43C80C
-P 4400 5550
-F 0 "#PWR?" H 4400 5300 50  0001 C CNN
-F 1 "GNDREF" H 4405 5377 50  0000 C CNN
-F 2 "" H 4400 5550 50  0001 C CNN
-F 3 "" H 4400 5550 50  0001 C CNN
-	1    4400 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43CAB9
-P 2950 5650
-F 0 "C?" H 2858 5604 50  0000 R CNN
-F 1 "0.01uF" H 2858 5695 50  0000 R CNN
-F 2 "" H 2950 5650 50  0001 C CNN
-F 3 "" H 2950 5650 50  0001 C CNN
-	1    2950 5650
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43CB14
-P 2750 5650
-F 0 "C?" H 2841 5604 50  0000 L CNN
-F 1 "0.1uF" H 2841 5695 50  0000 L CNN
-F 2 "" H 2750 5650 50  0001 C CNN
-F 3 "" H 2750 5650 50  0001 C CNN
-	1    2750 5650
-	-1   0    0    1   
-$EndComp
-$Comp
-L GNDREF #PWR?
-U 1 1 5A43D784
-P 3750 3200
-F 0 "#PWR?" H 3750 2950 50  0001 C CNN
-F 1 "GNDREF" H 3755 3027 50  0000 C CNN
-F 2 "" H 3750 3200 50  0001 C CNN
-F 3 "" H 3750 3200 50  0001 C CNN
-	1    3750 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43FB3A
-P 6200 5000
-F 0 "C?" H 6108 4954 50  0000 R CNN
-F 1 "0.1uF" H 6108 5045 50  0000 R CNN
-F 2 "" H 6200 5000 50  0001 C CNN
-F 3 "" H 6200 5000 50  0001 C CNN
-	1    6200 5000
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43FB41
-P 6550 5000
-F 0 "C?" H 6458 4954 50  0000 R CNN
-F 1 "0.01uF" H 6458 5045 50  0000 R CNN
-F 2 "" H 6550 5000 50  0001 C CNN
-F 3 "" H 6550 5000 50  0001 C CNN
-	1    6550 5000
-	-1   0    0    1   
-$EndComp
-$Comp
-L GNDREF #PWR?
-U 1 1 5A43FB57
-P 6550 5400
-F 0 "#PWR?" H 6550 5150 50  0001 C CNN
-F 1 "GNDREF" H 6555 5227 50  0000 C CNN
-F 2 "" H 6550 5400 50  0001 C CNN
-F 3 "" H 6550 5400 50  0001 C CNN
-	1    6550 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43FB5D
-P 5600 5000
-F 0 "C?" H 5508 4954 50  0000 R CNN
-F 1 "0.1uF" H 5508 5045 50  0000 R CNN
-F 2 "" H 5600 5000 50  0001 C CNN
-F 3 "" H 5600 5000 50  0001 C CNN
-	1    5600 5000
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5A43FB64
-P 5400 5000
-F 0 "C?" H 5491 4954 50  0000 L CNN
-F 1 "0.01uF" H 5491 5045 50  0000 L CNN
-F 2 "" H 5400 5000 50  0001 C CNN
-F 3 "" H 5400 5000 50  0001 C CNN
-	1    5400 5000
-	-1   0    0    1   
-$EndComp
-$Comp
-L +5VA #PWR?
-U 1 1 5A44015B
-P 5600 4600
-F 0 "#PWR?" H 5600 4450 50  0001 C CNN
-F 1 "+5VA" H 5615 4773 50  0000 C CNN
-F 2 "" H 5600 4600 50  0001 C CNN
-F 3 "" H 5600 4600 50  0001 C CNN
-	1    5600 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5A4401A6
-P 6550 4550
-F 0 "#PWR?" H 6550 4400 50  0001 C CNN
-F 1 "+5V" H 6565 4723 50  0000 C CNN
-F 2 "" H 6550 4550 50  0001 C CNN
-F 3 "" H 6550 4550 50  0001 C CNN
-	1    6550 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -731,8 +339,6 @@ Wire Wire Line
 	2300 2600 2200 2600
 Wire Wire Line
 	2200 2600 2200 4000
-Wire Wire Line
-	3000 2750 3500 2750
 Connection ~ 3000 2500
 Wire Wire Line
 	1400 3550 1700 3550
@@ -746,91 +352,13 @@ Wire Wire Line
 	2050 3150 2400 3150
 Connection ~ 2050 3550
 Wire Wire Line
-	2850 3650 4500 3650
-Wire Wire Line
 	2600 3150 3000 3150
-Wire Wire Line
-	3400 2050 3400 5950
-Wire Wire Line
-	3400 2050 3500 2050
-Wire Wire Line
-	3500 2650 3400 2650
-Connection ~ 3400 2650
-Wire Wire Line
-	4900 3300 3250 3300
-Wire Wire Line
-	3250 3300 3250 2550
-Wire Wire Line
-	3250 2550 3500 2550
-Wire Wire Line
-	4500 2650 4500 5300
 Wire Wire Line
 	5100 3300 5300 3300
 Wire Wire Line
-	4500 2650 4400 2650
-Wire Wire Line
-	4400 2900 4400 2750
-Wire Wire Line
 	5100 4150 5300 4150
 Wire Wire Line
-	4900 4150 4600 4150
-Wire Wire Line
-	4600 4150 4600 2550
-Wire Wire Line
-	4600 2550 4400 2550
-Wire Wire Line
-	3500 2450 3400 2450
-Wire Wire Line
-	3500 2250 3300 2250
-Wire Wire Line
-	3300 1150 3300 4900
-Wire Wire Line
-	3300 1150 2750 1150
-Wire Wire Line
-	3500 2150 3350 2150
-Wire Wire Line
-	3350 1050 3350 4800
-Wire Wire Line
-	3350 1050 2750 1050
-Wire Wire Line
-	4400 2050 6050 2050
-Wire Wire Line
-	4400 2150 5100 2150
-Wire Wire Line
-	5100 1500 5100 2250
-Wire Wire Line
-	3450 2350 3500 2350
-Wire Wire Line
-	3450 5500 3450 1450
-Connection ~ 5100 2150
-Connection ~ 4900 2150
-Wire Wire Line
-	5700 2050 5700 2250
-Wire Wire Line
-	6050 1500 6050 2250
-Connection ~ 5700 2050
-Wire Wire Line
-	4900 2450 4900 2600
-Wire Wire Line
-	4900 2600 6050 2600
-Wire Wire Line
-	5100 2450 5100 2700
-Wire Wire Line
-	5700 2600 5700 2450
-Connection ~ 5100 2600
-Wire Wire Line
-	6050 2600 6050 2450
-Connection ~ 5700 2600
-Wire Wire Line
-	3450 2900 3850 2900
-Connection ~ 3450 2350
-Connection ~ 3550 2900
-Wire Wire Line
-	3850 3150 3850 3100
-Wire Wire Line
-	3550 3150 3550 3100
-Wire Wire Line
-	4900 2150 4900 2250
+	3000 4150 4900 4150
 Wire Wire Line
 	6850 1500 6850 1600
 Wire Wire Line
@@ -894,130 +422,11 @@ Wire Wire Line
 Wire Wire Line
 	6450 3850 6900 3850
 Connection ~ 5950 4250
-Connection ~ 6050 2050
 Wire Wire Line
-	4400 2450 4750 2450
-Wire Wire Line
-	4750 1150 4750 5100
-Wire Wire Line
-	4750 1150 4050 1150
-Wire Wire Line
-	4100 1250 4650 1250
-Wire Wire Line
-	4650 1250 4650 5000
-Wire Wire Line
-	4650 2350 4400 2350
-Wire Wire Line
-	4400 2250 4550 2250
-Wire Wire Line
-	4550 1350 4550 4900
-Wire Wire Line
-	4550 1350 4100 1350
-Wire Wire Line
-	3000 3150 3000 3650
+	3000 3150 3000 7050
 Connection ~ 3000 3650
 Wire Wire Line
-	3500 5300 3400 5300
-Connection ~ 3400 5300
-Wire Wire Line
-	3500 4700 3400 4700
-Connection ~ 3400 4700
-Connection ~ 3400 2450
-Wire Wire Line
-	4400 4700 4400 4400
-Wire Wire Line
-	4400 4400 3250 4400
-Wire Wire Line
-	3250 4400 3250 5100
-Wire Wire Line
-	3250 5100 3500 5100
-Wire Wire Line
-	4400 5400 4400 5550
-Wire Wire Line
-	3100 2750 3100 5400
-Wire Wire Line
-	3100 5400 3500 5400
-Connection ~ 3100 2750
-Wire Wire Line
-	4500 5300 4400 5300
-Connection ~ 4500 3650
-Wire Wire Line
-	2750 5750 2750 5800
-Wire Wire Line
-	2750 5800 3400 5800
-Wire Wire Line
-	2950 5800 2950 5750
-Connection ~ 3400 5800
-Connection ~ 2950 5800
-Wire Wire Line
-	2750 5550 2750 5500
-Wire Wire Line
-	2750 5500 3450 5500
-Wire Wire Line
-	2950 5500 2950 5550
-Wire Wire Line
-	3450 5000 3500 5000
-Connection ~ 2950 5500
-Wire Wire Line
-	3350 4800 3500 4800
-Connection ~ 3350 2150
-Wire Wire Line
-	3300 4900 3500 4900
-Connection ~ 3300 2250
-Wire Wire Line
-	3550 3150 3850 3150
-Wire Wire Line
-	3750 3200 3750 3150
-Connection ~ 3750 3150
-Connection ~ 3450 5000
-Connection ~ 3450 2900
-Wire Wire Line
-	3500 5200 3300 5200
-Wire Wire Line
-	3300 5200 3300 5600
-Wire Wire Line
-	3300 5600 3800 5600
-Wire Wire Line
-	3800 5600 3800 6000
-Wire Wire Line
-	3800 6000 4900 6000
-Wire Wire Line
-	4750 5100 4400 5100
-Connection ~ 4750 2450
-Wire Wire Line
-	4650 5000 4400 5000
-Connection ~ 4650 2350
-Wire Wire Line
-	4550 4900 4400 4900
-Connection ~ 4550 2250
-Wire Wire Line
-	4400 4700 6550 4700
-Wire Wire Line
-	4400 4800 5600 4800
-Wire Wire Line
-	5600 4600 5600 4900
-Connection ~ 5600 4800
-Connection ~ 5400 4800
-Wire Wire Line
-	6200 4700 6200 4900
-Wire Wire Line
-	6550 4550 6550 4900
-Connection ~ 6200 4700
-Wire Wire Line
-	5400 5100 5400 5250
-Wire Wire Line
-	5400 5250 6550 5250
-Wire Wire Line
-	5600 5100 5600 5250
-Wire Wire Line
-	6200 5250 6200 5100
-Connection ~ 5600 5250
-Wire Wire Line
-	6550 5100 6550 5400
-Connection ~ 6200 5250
-Wire Wire Line
-	5400 4800 5400 4900
-Connection ~ 6550 4700
+	3200 6000 4900 6000
 Wire Wire Line
 	8500 1450 8500 1550
 Wire Wire Line
@@ -1044,7 +453,7 @@ L R_Small R?
 U 1 1 5A4418F0
 P 5000 6000
 F 0 "R?" V 4804 6000 50  0000 C CNN
-F 1 "10k" V 4895 6000 50  0000 C CNN
+F 1 "100k" V 4895 6000 50  0000 C CNN
 F 2 "" H 5000 6000 50  0001 C CNN
 F 3 "" H 5000 6000 50  0001 C CNN
 	1    5000 6000
@@ -1052,7 +461,6 @@ F 3 "" H 5000 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5100 6000 5300 6000
-Connection ~ 6550 5250
 $Comp
 L R_Small R?
 U 1 1 5A4420A7
@@ -1065,10 +473,10 @@ F 3 "" H 5600 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5500 5600 5200 5600
+	5500 5600 5250 5600
 Wire Wire Line
-	5200 5600 5200 6000
-Connection ~ 5200 6000
+	5250 5600 5250 6000
+Connection ~ 5250 6000
 Wire Wire Line
 	5700 5600 5950 5600
 Wire Wire Line
@@ -1087,9 +495,9 @@ F 3 "" H 5600 6650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5500 6650 5200 6650
+	5500 6650 5250 6650
 Wire Wire Line
-	5200 6650 5200 7050
+	5250 6650 5250 7050
 Wire Wire Line
 	5100 7050 5300 7050
 Wire Wire Line
@@ -1103,19 +511,15 @@ L R_Small R?
 U 1 1 5A442588
 P 5000 7050
 F 0 "R?" V 4804 7050 50  0000 C CNN
-F 1 "10k" V 4895 7050 50  0000 C CNN
+F 1 "100k" V 4895 7050 50  0000 C CNN
 F 2 "" H 5000 7050 50  0001 C CNN
 F 3 "" H 5000 7050 50  0001 C CNN
 	1    5000 7050
 	0    1    1    0   
 $EndComp
-Connection ~ 5200 7050
+Connection ~ 5250 7050
 Wire Wire Line
-	4400 5200 4550 5200
-Wire Wire Line
-	4550 5200 4550 7050
-Wire Wire Line
-	4550 7050 4900 7050
+	3000 7050 4900 7050
 Wire Wire Line
 	6050 6100 6050 6450
 Wire Wire Line
@@ -1126,10 +530,126 @@ Wire Wire Line
 Wire Wire Line
 	6050 6550 6350 6550
 Connection ~ 5950 6650
-Text Notes 2250 900  0    60   ~ 0
-Uses 2 i2c addresses
 Text HLabel 6900 3750 2    60   Output ~ 0
 L_OUT1
 Text HLabel 6900 3850 2    60   Output ~ 0
 R_OUT1
+Wire Wire Line
+	3000 3650 2850 3650
+Wire Wire Line
+	5300 6200 5200 6200
+Wire Wire Line
+	5200 6200 5200 7400
+Wire Wire Line
+	5200 7250 5300 7250
+$Comp
+L GNDREF #PWR?
+U 1 1 5AEDD6D8
+P 5200 7400
+F 0 "#PWR?" H 5200 7150 50  0001 C CNN
+F 1 "GNDREF" H 5205 7227 50  0000 C CNN
+F 2 "" H 5200 7400 50  0001 C CNN
+F 3 "" H 5200 7400 50  0001 C CNN
+	1    5200 7400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5200 7250
+Wire Wire Line
+	3000 2750 3200 2750
+Wire Wire Line
+	3200 2750 3200 6000
+Wire Wire Line
+	4900 3300 3200 3300
+Connection ~ 3200 3300
+Connection ~ 3000 4150
+$Comp
+L OPA1602 U?
+U 2 1 5AEDED7C
+P 2500 2500
+F 0 "U?" H 2575 2887 60  0000 C CNN
+F 1 "OPA1602" H 2575 2781 60  0000 C CNN
+F 2 "" H 2500 3900 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 3100 4400 60  0001 C CNN
+F 4 "Texas Instruments" H 2700 4100 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 2800 4200 60  0001 C CNN "Description"
+F 6 "SO-8, TSSOP8" H 2900 4300 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 2700 4600 60  0001 C CNN "Pricing"
+	2    2500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1602 U?
+U 3 1 5AEDEE3B
+P 2500 3650
+F 0 "U?" H 2575 4037 60  0000 C CNN
+F 1 "OPA1602" H 2575 3931 60  0000 C CNN
+F 2 "" H 2500 5050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 3100 5550 60  0001 C CNN
+F 4 "Texas Instruments" H 2700 5250 60  0001 C CNN "Manufacturer"
+F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 2800 5350 60  0001 C CNN "Description"
+F 6 "SO-8, TSSOP8" H 2900 5450 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 2700 5750 60  0001 C CNN "Pricing"
+	3    2500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 2 1 5AEDEF45
+P 5500 3400
+F 0 "U?" H 5575 3787 60  0000 C CNN
+F 1 "OPA1604" H 5575 3681 60  0000 C CNN
+F 2 "" H 5500 4800 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 5300 60  0001 C CNN
+F 4 "0.00@0" H 5700 5500 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 5900 5200 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 5100 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 5700 5000 60  0001 C CNN "Manufacturer"
+	2    5500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 3 1 5AEDF006
+P 5500 4250
+F 0 "U?" H 5575 4637 60  0000 C CNN
+F 1 "OPA1604" H 5575 4531 60  0000 C CNN
+F 2 "" H 5500 5650 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 6150 60  0001 C CNN
+F 4 "0.00@0" H 5700 6350 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 5900 6050 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 5950 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 5700 5850 60  0001 C CNN "Manufacturer"
+	3    5500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 4 1 5AEDF0C6
+P 5500 6100
+F 0 "U?" H 5575 6487 60  0000 C CNN
+F 1 "OPA1604" H 5575 6381 60  0000 C CNN
+F 2 "" H 5500 7500 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 8000 60  0001 C CNN
+F 4 "0.00@0" H 5700 8200 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 5900 7900 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 7800 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 5700 7700 60  0001 C CNN "Manufacturer"
+	4    5500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA1604 U?
+U 5 1 5AEDF18A
+P 5500 7150
+F 0 "U?" H 5575 7537 60  0000 C CNN
+F 1 "OPA1604" H 5575 7431 60  0000 C CNN
+F 2 "" H 5500 8550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 9050 60  0001 C CNN
+F 4 "0.00@0" H 5700 9250 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 5900 8950 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 8850 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 5700 8750 60  0001 C CNN "Manufacturer"
+	5    5500 7150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

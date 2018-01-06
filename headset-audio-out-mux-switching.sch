@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 20000 30000
 encoding utf-8
-Sheet 22 28
+Sheet 13 37
 Title ""
 Date ""
 Rev ""
@@ -4215,7 +4215,7 @@ Wire Wire Line
 Wire Wire Line
 	14050 4150 14200 4150
 Wire Wire Line
-	13650 4350 14200 4350
+	13650 4350 14700 4350
 Connection ~ 14000 4350
 Wire Wire Line
 	13650 4450 13850 4450
@@ -4243,7 +4243,7 @@ Wire Wire Line
 Wire Wire Line
 	14050 5450 14200 5450
 Wire Wire Line
-	13650 5650 14200 5650
+	13650 5650 14700 5650
 Connection ~ 14000 5650
 Wire Wire Line
 	13650 5750 13850 5750
@@ -4271,7 +4271,7 @@ Wire Wire Line
 Wire Wire Line
 	14050 6750 14200 6750
 Wire Wire Line
-	13650 6950 14200 6950
+	13650 6950 14700 6950
 Connection ~ 14000 6950
 Wire Wire Line
 	13650 7050 13850 7050
@@ -4299,7 +4299,7 @@ Wire Wire Line
 Wire Wire Line
 	14050 8050 14200 8050
 Wire Wire Line
-	13650 8250 14200 8250
+	13650 8250 14700 8250
 Connection ~ 14000 8250
 Wire Wire Line
 	13650 8350 13850 8350
@@ -4327,7 +4327,7 @@ Wire Wire Line
 Wire Wire Line
 	14050 9350 14200 9350
 Wire Wire Line
-	13650 9550 14200 9550
+	13650 9550 14700 9550
 Connection ~ 14000 9550
 Wire Wire Line
 	13650 9650 13850 9650
@@ -4355,7 +4355,7 @@ Wire Wire Line
 Wire Wire Line
 	14050 10650 14200 10650
 Wire Wire Line
-	13650 10850 14200 10850
+	13650 10850 14700 10850
 Connection ~ 14000 10850
 Wire Wire Line
 	13650 10950 13850 10950
@@ -5779,18 +5779,6 @@ Connection ~ 14200 6950
 Connection ~ 14200 8250
 Connection ~ 14200 9550
 Connection ~ 14200 10850
-Wire Wire Line
-	14200 4350 14700 4350
-Wire Wire Line
-	14200 5650 14700 5650
-Wire Wire Line
-	14200 6950 14700 6950
-Wire Wire Line
-	14200 8250 14700 8250
-Wire Wire Line
-	14200 9550 14700 9550
-Wire Wire Line
-	14200 10850 14700 10850
 $Comp
 L GNDREF #PWR?
 U 1 1 5AE4F962

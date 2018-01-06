@@ -47,9 +47,9 @@ LIBS:SW-Semtech
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
-$Descr User 28000 28000
+$Descr User 28000 35000
 encoding utf-8
-Sheet 4 28
+Sheet 4 37
 Title ""
 Date ""
 Rev ""
@@ -144,34 +144,24 @@ F 0 "J19" H 27100 1500 50  0000 C CNN
 F 1 "Headset 0" V 27200 1050 50  0000 C CNN
 F 2 "SW-TEConn:3-794681-8" H 27100 1050 50  0001 C CNN
 F 3 "" H 27100 1050 50  0001 C CNN
+F 4 "0.00@0" H 27100 1050 60  0001 C CNN "Pricing"
 	1    27100 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L DB25_Female J15
 U 1 1 58EE37AA
-P 6650 23050
-F 0 "J15" H 6650 24400 50  0000 C CNN
-F 1 "Outputs to Mixer" H 6650 21675 50  0000 C CNN
-F 2 "SW-AmphenolLTW:SDB-25PFFP-SR8001" H 6650 23050 50  0001 C CNN
-F 3 "" H 6650 23050 50  0001 C CNN
-F 4 "0.00@0" H 6650 23050 60  0001 C CNN "Pricing"
-	1    6650 23050
+P 10550 33300
+F 0 "J15" H 10550 34650 50  0000 C CNN
+F 1 "Outputs to Mixer" H 10550 31925 50  0000 C CNN
+F 2 "SW-AmphenolLTW:SDB-25PFFP-SR8001" H 10550 33300 50  0001 C CNN
+F 3 "" H 10550 33300 50  0001 C CNN
+F 4 "0.00@0" H 10550 33300 60  0001 C CNN "Pricing"
+	1    10550 33300
 	0    -1   1    0   
 $EndComp
-Text Notes 5800 23310 0    60   ~ 0
+Text Notes 9700 33560 0    60   ~ 0
 Using TASCAM DB-25 pinout\n+ = right, - = left
-$Comp
-L GNDA #PWR060
-U 1 1 58EE59AB
-P 8100 23350
-F 0 "#PWR060" H 8100 23100 50  0001 C CNN
-F 1 "GNDA" H 8100 23200 50  0000 C CNN
-F 2 "" H 8100 23350 50  0001 C CNN
-F 3 "" H 8100 23350 50  0001 C CNN
-	1    8100 23350
-	-1   0    0    -1  
-$EndComp
 Text Notes 27900 1350 0    60   ~ 0
 1-Audio Ground\n2-L audio to Headphones\n3-R audio to Headphones\n4-Mic +\n5-Mic -\n6-+5V for PTT, MIC-MUTE, Mic Bias\n7-PTT (On=+5V) (default pull=low)\n8-Mic Mute (On=+5V) (default pull=low)
 Text Notes 1850 -100 0    60   ~ 0
@@ -279,22 +269,6 @@ F 3 "" H 26450 8050 50  0001 C CNN
 	1    26450 8050
 	0    1    1    0   
 $EndComp
-Text Label 5450 2450 0    60   ~ 0
-MIC-IN-7
-Text Label 5450 2550 0    60   ~ 0
-MIC-IN-6
-Text Label 5450 2650 0    60   ~ 0
-MIC-IN-5
-Text Label 5450 2750 0    60   ~ 0
-MIC-IN-4
-Text Label 5450 2850 0    60   ~ 0
-MIC-IN-3
-Text Label 5450 2950 0    60   ~ 0
-MIC-IN-2
-Text Label 5450 3050 0    60   ~ 0
-MIC-IN-1
-Text Label 5450 3150 0    60   ~ 0
-MIC-IN-0
 Text Label 26250 8050 2    60   ~ 0
 MIC-IN-7
 Text Label 26250 7050 2    60   ~ 0
@@ -568,16 +542,6 @@ F 6 "0.00@0" H 20200 19450 60  0001 C CNN "Pricing"
 $EndComp
 Text Notes 19400 14250 0    60   ~ 0
 GPIO 18-21 are PCM/i2s data
-$Sheet
-S 14750 1500 1850 850 
-U 5A43AB61
-F0 "Mic DA 0" 60
-F1 "stereo-1-1-distro-amp.sch" 60
-F2 "L_IN" I R 16600 1600 60 
-F3 "R_IN" I R 16600 1700 60 
-F4 "L_OUT" O L 14750 1600 60 
-F5 "R_OUT" O L 14750 1700 60 
-$EndSheet
 $Comp
 L TCA9548A U?
 U 1 1 5A45AD13
@@ -1509,1131 +1473,6 @@ F 3 "" H 23050 7950 50  0001 C CNN
 	1    23050 7950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5650 22750 5650 22550
-Wire Wire Line
-	5650 22550 8100 22550
-Wire Wire Line
-	6250 22750 6250 22550
-Connection ~ 5650 22550
-Wire Wire Line
-	6850 22750 6850 22550
-Connection ~ 6250 22550
-Wire Wire Line
-	7450 22750 7450 22550
-Connection ~ 6850 22550
-Wire Wire Line
-	5950 22750 5950 22550
-Connection ~ 5950 22550
-Wire Wire Line
-	6550 22750 6550 22550
-Connection ~ 6550 22550
-Wire Wire Line
-	7150 22750 7150 22550
-Connection ~ 7150 22550
-Wire Wire Line
-	7750 22550 7750 22750
-Connection ~ 7450 22550
-Connection ~ 7750 22550
-Wire Wire Line
-	8100 22550 8100 23350
-Wire Wire Line
-	5450 20000 5450 22750
-Wire Wire Line
-	5550 19900 5550 22750
-Wire Wire Line
-	5850 17150 5850 22750
-Wire Wire Line
-	5750 17250 5750 22750
-Wire Wire Line
-	6150 14400 6150 22750
-Wire Wire Line
-	6050 14500 6050 22750
-Wire Wire Line
-	6450 11650 6450 22750
-Wire Wire Line
-	6350 11750 6350 22750
-Wire Wire Line
-	6750 8900 6750 22750
-Wire Wire Line
-	6650 9000 6650 22750
-Wire Wire Line
-	7050 6150 7050 22750
-Wire Wire Line
-	6950 6250 6950 22750
-Wire Wire Line
-	7350 3400 7350 22750
-Wire Wire Line
-	7250 3500 7250 22750
-Wire Wire Line
-	7650 650  7650 22750
-Wire Wire Line
-	7550 750  7550 22750
-Wire Wire Line
-	7850 22750 7850 22550
-Connection ~ 7850 22550
-Wire Wire Line
-	5450 20000 3950 20000
-Wire Wire Line
-	5550 19900 3950 19900
-Wire Wire Line
-	5750 17250 3950 17250
-Wire Wire Line
-	3950 17150 5850 17150
-Wire Wire Line
-	6050 14500 3950 14500
-Wire Wire Line
-	6150 14400 3950 14400
-Wire Wire Line
-	3950 11750 6350 11750
-Wire Wire Line
-	6450 11650 3950 11650
-Wire Wire Line
-	3950 9000 6650 9000
-Wire Wire Line
-	6750 8900 3950 8900
-Wire Wire Line
-	3950 6250 6950 6250
-Wire Wire Line
-	7050 6150 3950 6150
-Wire Wire Line
-	3950 3500 7250 3500
-Wire Wire Line
-	7350 3400 3950 3400
-Wire Wire Line
-	3950 750  7550 750 
-Wire Wire Line
-	7650 650  3950 650 
-Wire Wire Line
-	3950 3150 5450 3150
-Wire Wire Line
-	4000 3150 4000 22400
-Wire Wire Line
-	4000 5900 3950 5900
-Wire Wire Line
-	4000 8650 3950 8650
-Connection ~ 4000 5900
-Wire Wire Line
-	4000 11400 3950 11400
-Connection ~ 4000 8650
-Wire Wire Line
-	4000 14150 3950 14150
-Connection ~ 4000 11400
-Wire Wire Line
-	4000 16900 3950 16900
-Connection ~ 4000 14150
-Wire Wire Line
-	4000 19650 3950 19650
-Connection ~ 4000 16900
-Wire Wire Line
-	4000 22400 3950 22400
-Connection ~ 4000 19650
-Wire Wire Line
-	4050 22300 3950 22300
-Wire Wire Line
-	4050 3050 4050 22300
-Wire Wire Line
-	3950 3050 5450 3050
-Wire Wire Line
-	3950 2950 5450 2950
-Wire Wire Line
-	4100 2950 4100 22200
-Wire Wire Line
-	4100 22200 3950 22200
-Wire Wire Line
-	4150 22100 3950 22100
-Wire Wire Line
-	4150 2850 4150 22100
-Wire Wire Line
-	3950 2850 5450 2850
-Wire Wire Line
-	3950 2750 5450 2750
-Wire Wire Line
-	4200 2750 4200 22000
-Wire Wire Line
-	4200 22000 3950 22000
-Wire Wire Line
-	4250 21900 3950 21900
-Wire Wire Line
-	4250 2650 4250 21900
-Wire Wire Line
-	3950 2650 5450 2650
-Wire Wire Line
-	4300 21800 3950 21800
-Wire Wire Line
-	4300 2550 4300 21800
-Wire Wire Line
-	3950 2550 5450 2550
-Wire Wire Line
-	3950 2450 5450 2450
-Wire Wire Line
-	4350 2450 4350 21700
-Wire Wire Line
-	4350 21700 3950 21700
-Wire Wire Line
-	3950 19550 4050 19550
-Connection ~ 4050 19550
-Wire Wire Line
-	3950 19450 4100 19450
-Connection ~ 4100 19450
-Wire Wire Line
-	3950 19350 4150 19350
-Connection ~ 4150 19350
-Wire Wire Line
-	3950 19250 4200 19250
-Connection ~ 4200 19250
-Wire Wire Line
-	3950 19150 4250 19150
-Connection ~ 4250 19150
-Wire Wire Line
-	3950 19050 4300 19050
-Connection ~ 4300 19050
-Wire Wire Line
-	3950 18950 4350 18950
-Connection ~ 4350 18950
-Wire Wire Line
-	4400 21600 3950 21600
-Wire Wire Line
-	4400 2350 4400 21600
-Wire Wire Line
-	4400 2350 3950 2350
-Wire Wire Line
-	3950 2250 4450 2250
-Wire Wire Line
-	4450 2250 4450 21500
-Wire Wire Line
-	4450 21500 3950 21500
-Wire Wire Line
-	4500 21400 3950 21400
-Wire Wire Line
-	4500 2150 4500 21400
-Wire Wire Line
-	4500 2150 3950 2150
-Wire Wire Line
-	3950 2050 4550 2050
-Wire Wire Line
-	4550 2050 4550 21300
-Wire Wire Line
-	4550 21300 3950 21300
-Wire Wire Line
-	4600 21200 3950 21200
-Wire Wire Line
-	4600 1950 4600 21200
-Wire Wire Line
-	4600 1950 3950 1950
-Wire Wire Line
-	3950 1850 4650 1850
-Wire Wire Line
-	4650 1850 4650 21100
-Wire Wire Line
-	4650 21100 3950 21100
-Wire Wire Line
-	4700 21000 3950 21000
-Wire Wire Line
-	4700 1750 4700 21000
-Wire Wire Line
-	4700 1750 3950 1750
-Wire Wire Line
-	3950 1650 4750 1650
-Wire Wire Line
-	4750 1650 4750 20900
-Wire Wire Line
-	4750 20900 3950 20900
-Wire Wire Line
-	4800 20800 3950 20800
-Wire Wire Line
-	4800 1550 4800 20800
-Wire Wire Line
-	4800 1550 3950 1550
-Wire Wire Line
-	3950 1450 4850 1450
-Wire Wire Line
-	4850 1450 4850 20700
-Wire Wire Line
-	4850 20700 3950 20700
-Wire Wire Line
-	4900 20600 3950 20600
-Wire Wire Line
-	4900 1350 4900 20600
-Wire Wire Line
-	4900 1350 3950 1350
-Wire Wire Line
-	3950 1250 4950 1250
-Wire Wire Line
-	4950 1250 4950 20500
-Wire Wire Line
-	4950 20500 3950 20500
-Wire Wire Line
-	5000 20400 3950 20400
-Wire Wire Line
-	5000 1150 5000 20400
-Wire Wire Line
-	5000 1150 3950 1150
-Wire Wire Line
-	5050 20300 3950 20300
-Wire Wire Line
-	5050 1050 5050 20300
-Wire Wire Line
-	5050 1050 3950 1050
-Wire Wire Line
-	3950 950  5100 950 
-Wire Wire Line
-	5100 950  5100 20200
-Wire Wire Line
-	5100 20200 3950 20200
-Wire Wire Line
-	5150 20100 3950 20100
-Wire Wire Line
-	5150 850  5150 20100
-Wire Wire Line
-	5150 850  3950 850 
-Connection ~ 5150 3600
-Connection ~ 5100 3700
-Connection ~ 5050 3800
-Connection ~ 5000 3900
-Connection ~ 4950 4000
-Connection ~ 4900 4100
-Connection ~ 4850 4200
-Connection ~ 4800 4300
-Connection ~ 4750 4400
-Connection ~ 4700 4500
-Connection ~ 4650 4600
-Connection ~ 4600 4700
-Connection ~ 4550 4800
-Connection ~ 4500 4900
-Connection ~ 4450 5000
-Connection ~ 4400 5100
-Wire Wire Line
-	3950 5200 4350 5200
-Connection ~ 4350 5200
-Wire Wire Line
-	3950 5300 4300 5300
-Connection ~ 4300 5300
-Wire Wire Line
-	3950 5400 4250 5400
-Connection ~ 4250 5400
-Wire Wire Line
-	3950 5500 4200 5500
-Connection ~ 4200 5500
-Wire Wire Line
-	3950 5600 4150 5600
-Connection ~ 4150 5600
-Wire Wire Line
-	3950 5700 4100 5700
-Connection ~ 4100 5700
-Wire Wire Line
-	3950 5800 4050 5800
-Connection ~ 4050 5800
-Wire Wire Line
-	3950 6350 5150 6350
-Connection ~ 5150 6350
-Wire Wire Line
-	3950 6450 5100 6450
-Connection ~ 5100 6450
-Wire Wire Line
-	3950 6550 5050 6550
-Connection ~ 5050 6550
-Wire Wire Line
-	3950 6650 5000 6650
-Connection ~ 5000 6650
-Wire Wire Line
-	3950 6750 4950 6750
-Connection ~ 4950 6750
-Wire Wire Line
-	3950 6850 4900 6850
-Connection ~ 4900 6850
-Wire Wire Line
-	3950 6950 4850 6950
-Connection ~ 4850 6950
-Wire Wire Line
-	3950 7050 4800 7050
-Connection ~ 4800 7050
-Wire Wire Line
-	3950 7150 4750 7150
-Connection ~ 4750 7150
-Wire Wire Line
-	3950 7250 4700 7250
-Connection ~ 4700 7250
-Wire Wire Line
-	3950 7350 4650 7350
-Connection ~ 4650 7350
-Wire Wire Line
-	3950 7450 4600 7450
-Connection ~ 4600 7450
-Wire Wire Line
-	3950 7550 4550 7550
-Connection ~ 4550 7550
-Wire Wire Line
-	3950 7650 4500 7650
-Connection ~ 4500 7650
-Wire Wire Line
-	3950 7750 4450 7750
-Connection ~ 4450 7750
-Wire Wire Line
-	3950 7850 4400 7850
-Connection ~ 4400 7850
-Wire Wire Line
-	3950 7950 4350 7950
-Connection ~ 4350 7950
-Wire Wire Line
-	3950 8050 4300 8050
-Connection ~ 4300 8050
-Wire Wire Line
-	3950 8150 4250 8150
-Connection ~ 4250 8150
-Wire Wire Line
-	3950 8250 4200 8250
-Connection ~ 4200 8250
-Wire Wire Line
-	3950 8350 4150 8350
-Connection ~ 4150 8350
-Wire Wire Line
-	3950 8450 4100 8450
-Connection ~ 4100 8450
-Wire Wire Line
-	3950 8550 4050 8550
-Connection ~ 4050 8550
-Wire Wire Line
-	3950 9100 5150 9100
-Connection ~ 5150 9100
-Wire Wire Line
-	3950 9200 5100 9200
-Connection ~ 5100 9200
-Wire Wire Line
-	3950 9300 5050 9300
-Connection ~ 5050 9300
-Wire Wire Line
-	3950 9400 5000 9400
-Connection ~ 5000 9400
-Wire Wire Line
-	3950 9500 4950 9500
-Connection ~ 4950 9500
-Wire Wire Line
-	3950 9600 4900 9600
-Connection ~ 4900 9600
-Wire Wire Line
-	3950 9700 4850 9700
-Connection ~ 4850 9700
-Wire Wire Line
-	3950 9800 4800 9800
-Connection ~ 4800 9800
-Wire Wire Line
-	3950 9900 4750 9900
-Connection ~ 4750 9900
-Wire Wire Line
-	3950 10000 4700 10000
-Connection ~ 4700 10000
-Wire Wire Line
-	3950 10100 4650 10100
-Connection ~ 4650 10100
-Wire Wire Line
-	3950 10200 4600 10200
-Connection ~ 4600 10200
-Wire Wire Line
-	3950 10300 4550 10300
-Connection ~ 4550 10300
-Wire Wire Line
-	3950 10400 4500 10400
-Connection ~ 4500 10400
-Wire Wire Line
-	3950 10500 4450 10500
-Connection ~ 4450 10500
-Wire Wire Line
-	3950 10600 4400 10600
-Connection ~ 4400 10600
-Wire Wire Line
-	3950 10700 4350 10700
-Connection ~ 4350 10700
-Wire Wire Line
-	3950 10800 4300 10800
-Connection ~ 4300 10800
-Wire Wire Line
-	3950 10900 4250 10900
-Connection ~ 4250 10900
-Wire Wire Line
-	3950 11000 4200 11000
-Connection ~ 4200 11000
-Wire Wire Line
-	3950 11100 4150 11100
-Connection ~ 4150 11100
-Wire Wire Line
-	3950 11200 4100 11200
-Connection ~ 4100 11200
-Wire Wire Line
-	3950 11300 4050 11300
-Connection ~ 4050 11300
-Wire Wire Line
-	3950 11850 5150 11850
-Connection ~ 5150 11850
-Wire Wire Line
-	3950 11950 5100 11950
-Connection ~ 5100 11950
-Wire Wire Line
-	3950 12050 5050 12050
-Connection ~ 5050 12050
-Wire Wire Line
-	3950 12150 5000 12150
-Connection ~ 5000 12150
-Wire Wire Line
-	3950 12250 4950 12250
-Connection ~ 4950 12250
-Wire Wire Line
-	3950 12350 4900 12350
-Connection ~ 4900 12350
-Wire Wire Line
-	3950 12450 4850 12450
-Connection ~ 4850 12450
-Wire Wire Line
-	3950 12550 4800 12550
-Connection ~ 4800 12550
-Wire Wire Line
-	3950 12650 4750 12650
-Connection ~ 4750 12650
-Wire Wire Line
-	3950 12750 4700 12750
-Connection ~ 4700 12750
-Wire Wire Line
-	3950 12850 4650 12850
-Connection ~ 4650 12850
-Wire Wire Line
-	3950 12950 4600 12950
-Connection ~ 4600 12950
-Wire Wire Line
-	3950 13050 4550 13050
-Connection ~ 4550 13050
-Wire Wire Line
-	3950 13150 4500 13150
-Connection ~ 4500 13150
-Wire Wire Line
-	3950 13250 4450 13250
-Connection ~ 4450 13250
-Wire Wire Line
-	3950 13350 4400 13350
-Connection ~ 4400 13350
-Wire Wire Line
-	3950 13450 4350 13450
-Connection ~ 4350 13450
-Wire Wire Line
-	3950 13550 4300 13550
-Connection ~ 4300 13550
-Wire Wire Line
-	3950 13650 4250 13650
-Connection ~ 4250 13650
-Wire Wire Line
-	3950 13750 4200 13750
-Connection ~ 4200 13750
-Wire Wire Line
-	3950 13850 4150 13850
-Connection ~ 4150 13850
-Wire Wire Line
-	3950 13950 4100 13950
-Connection ~ 4100 13950
-Wire Wire Line
-	3950 14050 4050 14050
-Connection ~ 4050 14050
-Wire Wire Line
-	3950 14600 5150 14600
-Connection ~ 5150 14600
-Wire Wire Line
-	3950 14700 5100 14700
-Connection ~ 5100 14700
-Wire Wire Line
-	3950 14800 5050 14800
-Connection ~ 5050 14800
-Wire Wire Line
-	3950 14900 5000 14900
-Connection ~ 5000 14900
-Wire Wire Line
-	3950 15000 4950 15000
-Connection ~ 4950 15000
-Wire Wire Line
-	3950 15100 4900 15100
-Connection ~ 4900 15100
-Wire Wire Line
-	3950 15200 4850 15200
-Connection ~ 4850 15200
-Wire Wire Line
-	3950 15300 4800 15300
-Connection ~ 4800 15300
-Wire Wire Line
-	3950 15400 4750 15400
-Connection ~ 4750 15400
-Wire Wire Line
-	3950 15500 4700 15500
-Connection ~ 4700 15500
-Wire Wire Line
-	3950 15600 4650 15600
-Connection ~ 4650 15600
-Wire Wire Line
-	3950 15700 4600 15700
-Connection ~ 4600 15700
-Wire Wire Line
-	3950 15800 4550 15800
-Connection ~ 4550 15800
-Wire Wire Line
-	3950 15900 4500 15900
-Connection ~ 4500 15900
-Wire Wire Line
-	3950 16000 4450 16000
-Connection ~ 4450 16000
-Wire Wire Line
-	3950 16100 4400 16100
-Connection ~ 4400 16100
-Wire Wire Line
-	3950 16200 4350 16200
-Connection ~ 4350 16200
-Wire Wire Line
-	3950 16300 4300 16300
-Connection ~ 4300 16300
-Wire Wire Line
-	3950 16400 4250 16400
-Connection ~ 4250 16400
-Wire Wire Line
-	3950 16500 4200 16500
-Connection ~ 4200 16500
-Wire Wire Line
-	3950 16600 4150 16600
-Connection ~ 4150 16600
-Wire Wire Line
-	3950 16700 4100 16700
-Connection ~ 4100 16700
-Wire Wire Line
-	3950 16800 4050 16800
-Connection ~ 4050 16800
-Wire Wire Line
-	3950 17350 5150 17350
-Connection ~ 5150 17350
-Wire Wire Line
-	3950 17450 5100 17450
-Connection ~ 5100 17450
-Wire Wire Line
-	3950 17550 5050 17550
-Connection ~ 5050 17550
-Wire Wire Line
-	3950 17650 5000 17650
-Connection ~ 5000 17650
-Wire Wire Line
-	3950 17750 4950 17750
-Connection ~ 4950 17750
-Wire Wire Line
-	3950 17850 4900 17850
-Connection ~ 4900 17850
-Wire Wire Line
-	3950 17950 4850 17950
-Connection ~ 4850 17950
-Wire Wire Line
-	3950 18050 4800 18050
-Connection ~ 4800 18050
-Wire Wire Line
-	3950 18150 4750 18150
-Connection ~ 4750 18150
-Wire Wire Line
-	3950 18250 4700 18250
-Connection ~ 4700 18250
-Wire Wire Line
-	3950 18350 4650 18350
-Connection ~ 4650 18350
-Wire Wire Line
-	3950 18450 4600 18450
-Connection ~ 4600 18450
-Wire Wire Line
-	3950 18550 4550 18550
-Connection ~ 4550 18550
-Wire Wire Line
-	3950 18650 4500 18650
-Connection ~ 4500 18650
-Wire Wire Line
-	3950 18750 4450 18750
-Connection ~ 4450 18750
-Wire Wire Line
-	3950 18850 4400 18850
-Connection ~ 4400 18850
-Wire Wire Line
-	26800 750  26800 8950
-Wire Wire Line
-	26800 7750 26900 7750
-Wire Wire Line
-	26800 750  26900 750 
-Connection ~ 26800 7750
-Wire Wire Line
-	26900 1150 26800 1150
-Connection ~ 26800 1150
-Wire Wire Line
-	26900 2150 26800 2150
-Connection ~ 26800 2150
-Wire Wire Line
-	26900 1750 26800 1750
-Connection ~ 26800 1750
-Wire Wire Line
-	26900 2750 26800 2750
-Connection ~ 26800 2750
-Wire Wire Line
-	26900 3150 26800 3150
-Connection ~ 26800 3150
-Wire Wire Line
-	26900 3750 26800 3750
-Connection ~ 26800 3750
-Wire Wire Line
-	26900 4150 26800 4150
-Connection ~ 26800 4150
-Wire Wire Line
-	26900 4750 26800 4750
-Connection ~ 26800 4750
-Wire Wire Line
-	26900 5150 26800 5150
-Connection ~ 26800 5150
-Wire Wire Line
-	26900 5750 26800 5750
-Connection ~ 26800 5750
-Wire Wire Line
-	26900 6150 26800 6150
-Connection ~ 26800 6150
-Wire Wire Line
-	26900 6750 26800 6750
-Connection ~ 26800 6750
-Wire Wire Line
-	26900 7150 26800 7150
-Connection ~ 26800 7150
-Wire Wire Line
-	26900 8150 26800 8150
-Connection ~ 26800 8150
-Wire Wire Line
-	26900 1250 26750 1250
-Wire Wire Line
-	26750 700  26750 8250
-Wire Wire Line
-	26750 2250 26900 2250
-Wire Wire Line
-	26750 3250 26900 3250
-Connection ~ 26750 2250
-Wire Wire Line
-	26750 4250 26900 4250
-Connection ~ 26750 3250
-Wire Wire Line
-	26750 5250 26900 5250
-Connection ~ 26750 4250
-Wire Wire Line
-	26750 6250 26900 6250
-Connection ~ 26750 5250
-Wire Wire Line
-	26750 7250 26900 7250
-Connection ~ 26750 6250
-Wire Wire Line
-	26750 8250 26900 8250
-Connection ~ 26750 7250
-Wire Wire Line
-	22850 6850 26900 6850
-Wire Wire Line
-	22850 5850 26900 5850
-Wire Wire Line
-	22850 4850 26900 4850
-Wire Wire Line
-	22850 3850 26900 3850
-Wire Wire Line
-	22850 2850 26900 2850
-Wire Wire Line
-	23150 7950 26900 7950
-Wire Wire Line
-	23150 5950 26900 5950
-Wire Wire Line
-	23150 4950 26900 4950
-Wire Wire Line
-	23150 3950 26900 3950
-Wire Wire Line
-	23150 2950 26900 2950
-Wire Wire Line
-	26550 1050 26900 1050
-Wire Wire Line
-	26550 2050 26900 2050
-Wire Wire Line
-	26550 3050 26900 3050
-Wire Wire Line
-	26550 4050 26900 4050
-Wire Wire Line
-	26550 5050 26900 5050
-Wire Wire Line
-	26550 6050 26900 6050
-Wire Wire Line
-	26550 7050 26900 7050
-Wire Wire Line
-	26550 8050 26900 8050
-Connection ~ 4350 2450
-Connection ~ 4300 2550
-Connection ~ 4250 2650
-Connection ~ 4200 2750
-Connection ~ 4150 2850
-Connection ~ 4100 2950
-Connection ~ 4050 3050
-Connection ~ 4000 3150
-Wire Wire Line
-	26250 8050 26350 8050
-Wire Wire Line
-	26250 1050 26350 1050
-Wire Wire Line
-	26250 2050 26350 2050
-Wire Wire Line
-	26250 3050 26350 3050
-Wire Wire Line
-	26250 4050 26350 4050
-Wire Wire Line
-	26250 5050 26350 5050
-Wire Wire Line
-	26250 6050 26350 6050
-Wire Wire Line
-	26250 7050 26350 7050
-Wire Wire Line
-	26250 1450 26900 1450
-Wire Wire Line
-	26250 1350 26900 1350
-Wire Wire Line
-	26250 2450 26900 2450
-Wire Wire Line
-	26250 2350 26900 2350
-Wire Wire Line
-	26250 3450 26900 3450
-Wire Wire Line
-	26250 3350 26900 3350
-Wire Wire Line
-	26250 4450 26900 4450
-Wire Wire Line
-	26250 4350 26900 4350
-Wire Wire Line
-	26250 5450 26900 5450
-Wire Wire Line
-	26250 5350 26900 5350
-Wire Wire Line
-	26250 6450 26900 6450
-Wire Wire Line
-	26250 6350 26900 6350
-Wire Wire Line
-	26250 7450 26900 7450
-Wire Wire Line
-	26250 7350 26900 7350
-Wire Wire Line
-	26250 8450 26900 8450
-Wire Wire Line
-	26250 8350 26900 8350
-Wire Wire Line
-	21800 13500 21550 13500
-Wire Wire Line
-	21550 13600 21800 13600
-Wire Wire Line
-	21550 14000 21800 14000
-Wire Wire Line
-	21550 14100 21800 14100
-Wire Wire Line
-	21550 14350 21800 14350
-Wire Wire Line
-	21550 14450 21800 14450
-Wire Wire Line
-	21550 14550 21800 14550
-Wire Wire Line
-	25600 13250 26400 13250
-Wire Wire Line
-	25600 13350 26400 13350
-Wire Wire Line
-	25850 13050 25850 13900
-Wire Wire Line
-	26400 13450 25800 13450
-Wire Wire Line
-	25800 13450 25800 14250
-Wire Wire Line
-	25800 14200 26400 14200
-Wire Wire Line
-	26400 14000 25750 14000
-Wire Wire Line
-	25750 14000 25750 13250
-Connection ~ 25750 13250
-Wire Wire Line
-	26400 14100 25700 14100
-Wire Wire Line
-	25700 14100 25700 13350
-Connection ~ 25700 13350
-Connection ~ 25800 14200
-Connection ~ 25850 13150
-Wire Wire Line
-	26300 13150 26400 13150
-Wire Wire Line
-	26100 13150 25850 13150
-Wire Wire Line
-	26400 13900 26300 13900
-Wire Wire Line
-	25850 13900 26100 13900
-Wire Wire Line
-	15100 11300 15550 11300
-Wire Wire Line
-	15100 11400 15550 11400
-Wire Wire Line
-	15550 10900 15300 10900
-Wire Wire Line
-	15300 10900 15300 10800
-Connection ~ 15100 11300
-Wire Wire Line
-	15500 10700 15550 10700
-Wire Wire Line
-	15450 10800 15550 10800
-Wire Wire Line
-	15550 11200 15450 11200
-Wire Wire Line
-	15250 11200 14950 11200
-Wire Wire Line
-	14950 11200 14950 11150
-Wire Wire Line
-	15550 11000 15200 11000
-Wire Wire Line
-	15550 11100 15150 11100
-Wire Wire Line
-	19600 850  19950 850 
-Wire Wire Line
-	19600 1000 19950 1000
-Wire Wire Line
-	19950 1850 19600 1850
-Wire Wire Line
-	19600 2000 19950 2000
-Wire Wire Line
-	19600 3000 19950 3000
-Wire Wire Line
-	19600 2850 19950 2850
-Wire Wire Line
-	19600 3850 19950 3850
-Wire Wire Line
-	19600 4000 19950 4000
-Wire Wire Line
-	19600 4850 19950 4850
-Wire Wire Line
-	19600 5000 19950 5000
-Wire Wire Line
-	19600 5850 19950 5850
-Wire Wire Line
-	19600 6000 19950 6000
-Wire Wire Line
-	19600 6850 19950 6850
-Wire Wire Line
-	19600 7000 19950 7000
-Wire Wire Line
-	19600 7850 19950 7850
-Wire Wire Line
-	19600 8000 19950 8000
-Wire Wire Line
-	18150 850  19000 850 
-Wire Wire Line
-	18450 1000 19000 1000
-Wire Wire Line
-	18450 2000 19000 2000
-Wire Wire Line
-	18150 1850 19000 1850
-Wire Wire Line
-	18150 2850 19000 2850
-Wire Wire Line
-	18450 3000 19000 3000
-Wire Wire Line
-	18150 3850 19000 3850
-Wire Wire Line
-	18150 4850 19000 4850
-Wire Wire Line
-	18450 5000 19000 5000
-Wire Wire Line
-	18150 5850 19000 5850
-Wire Wire Line
-	18450 6000 19000 6000
-Wire Wire Line
-	18150 6850 19000 6850
-Wire Wire Line
-	18150 7850 19000 7850
-Wire Wire Line
-	18450 8000 19000 8000
-Wire Wire Line
-	18450 4000 19000 4000
-Wire Wire Line
-	18450 7000 19000 7000
-Wire Wire Line
-	23450 950  23450 1100
-Wire Wire Line
-	23450 1100 23600 1100
-Connection ~ 23450 950 
-Wire Wire Line
-	23300 850  23300 1300
-Wire Wire Line
-	23300 1300 23600 1300
-Connection ~ 23300 850 
-Wire Wire Line
-	23900 1200 24100 1200
-Wire Wire Line
-	24100 1150 24100 1650
-Wire Wire Line
-	23450 1950 23450 2100
-Wire Wire Line
-	23450 2100 23600 2100
-Wire Wire Line
-	23300 1850 23300 2300
-Wire Wire Line
-	23300 2300 23600 2300
-Wire Wire Line
-	23900 2200 24100 2200
-Wire Wire Line
-	24100 2150 24100 2650
-Connection ~ 23450 1950
-Connection ~ 23300 1850
-Wire Wire Line
-	23450 2950 23450 3100
-Wire Wire Line
-	23450 3100 23600 3100
-Wire Wire Line
-	23300 2850 23300 3300
-Wire Wire Line
-	23300 3300 23600 3300
-Wire Wire Line
-	23900 3200 24100 3200
-Wire Wire Line
-	24100 3150 24100 3650
-Wire Wire Line
-	23450 3950 23450 4100
-Wire Wire Line
-	23450 4100 23600 4100
-Wire Wire Line
-	23300 3850 23300 4300
-Wire Wire Line
-	23300 4300 23600 4300
-Wire Wire Line
-	23900 4200 24100 4200
-Wire Wire Line
-	24100 4150 24100 4650
-Connection ~ 23450 2950
-Connection ~ 23300 2850
-Connection ~ 23300 3850
-Connection ~ 23450 3950
-Wire Wire Line
-	23450 4950 23450 5100
-Wire Wire Line
-	23450 5100 23600 5100
-Wire Wire Line
-	23300 4850 23300 5300
-Wire Wire Line
-	23300 5300 23600 5300
-Wire Wire Line
-	23900 5200 24100 5200
-Wire Wire Line
-	24100 5150 24100 5650
-Wire Wire Line
-	23450 5950 23450 6100
-Wire Wire Line
-	23450 6100 23600 6100
-Wire Wire Line
-	23300 5850 23300 6300
-Wire Wire Line
-	23300 6300 23600 6300
-Wire Wire Line
-	23900 6200 24100 6200
-Wire Wire Line
-	24100 6150 24100 6650
-Connection ~ 23450 5950
-Connection ~ 23300 5850
-Connection ~ 23450 4950
-Connection ~ 23300 4850
-Wire Wire Line
-	23450 6950 23450 7100
-Wire Wire Line
-	23450 7100 23600 7100
-Wire Wire Line
-	23300 6850 23300 7300
-Wire Wire Line
-	23300 7300 23600 7300
-Wire Wire Line
-	23900 7200 24100 7200
-Wire Wire Line
-	24100 7150 24100 7650
-Wire Wire Line
-	23450 7950 23450 8100
-Wire Wire Line
-	23450 8100 23600 8100
-Wire Wire Line
-	23300 7850 23300 8300
-Wire Wire Line
-	23300 8300 23600 8300
-Wire Wire Line
-	23900 8200 24100 8200
-Wire Wire Line
-	24100 8150 24100 8650
-Connection ~ 23450 7950
-Connection ~ 23300 7850
-Connection ~ 23450 6950
-Connection ~ 23300 6850
-Connection ~ 24100 1200
-Wire Wire Line
-	24500 1150 26650 1150
-Wire Wire Line
-	26650 1150 26650 1050
-Connection ~ 26650 1050
-Connection ~ 24100 2200
-Wire Wire Line
-	24500 2150 26650 2150
-Wire Wire Line
-	26650 2150 26650 2050
-Connection ~ 26650 2050
-Wire Wire Line
-	24500 3150 26650 3150
-Wire Wire Line
-	26650 3150 26650 3050
-Connection ~ 26650 3050
-Connection ~ 24100 3200
-Connection ~ 24100 4200
-Wire Wire Line
-	24500 4150 26650 4150
-Wire Wire Line
-	26650 4150 26650 4050
-Connection ~ 26650 4050
-Connection ~ 24100 5200
-Wire Wire Line
-	24500 5150 26650 5150
-Wire Wire Line
-	26650 5150 26650 5050
-Connection ~ 26650 5050
-Connection ~ 24100 6200
-Wire Wire Line
-	24500 6150 26650 6150
-Wire Wire Line
-	26650 6150 26650 6050
-Connection ~ 26650 6050
-Connection ~ 24100 7200
-Wire Wire Line
-	24500 7150 26650 7150
-Wire Wire Line
-	26650 7150 26650 7050
-Connection ~ 26650 7050
-Connection ~ 24100 8200
-Wire Wire Line
-	24500 8150 26650 8150
-Wire Wire Line
-	26650 8150 26650 8050
-Connection ~ 26650 8050
-Wire Wire Line
-	24100 8600 24450 8600
-Connection ~ 24100 8600
-Wire Wire Line
-	24750 8700 26550 8700
-Wire Wire Line
-	26550 8700 26550 8350
-Connection ~ 26550 8350
-Wire Wire Line
-	26400 8450 26400 8500
-Wire Wire Line
-	26400 8500 24750 8500
-Connection ~ 26400 8450
-Wire Wire Line
-	24750 7700 26550 7700
-Wire Wire Line
-	26550 7700 26550 7350
-Connection ~ 26550 7350
-Wire Wire Line
-	24750 7500 26400 7500
-Wire Wire Line
-	26400 7500 26400 7450
-Connection ~ 26400 7450
-Wire Wire Line
-	24450 7600 24100 7600
-Connection ~ 24100 7600
-Wire Wire Line
-	21900 7950 22950 7950
 $Comp
 L C_Small C?
 U 1 1 5AAC2C9E
@@ -2645,12 +1484,6 @@ F 3 "" H 22750 7850 50  0001 C CNN
 	1    22750 7850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	21900 7850 22650 7850
-Wire Wire Line
-	22850 7850 26900 7850
-Wire Wire Line
-	23150 6950 26900 6950
 $Comp
 L C_Small C?
 U 1 1 5AAD74B6
@@ -2805,22 +1638,4067 @@ F 3 "" H 22750 850 50  0001 C CNN
 	1    22750 850 
 	0    1    1    0   
 $EndComp
+Text Label 18050 2750 1    60   ~ 0
+L_OUT[0..7]
+Text Label 18350 2750 1    60   ~ 0
+R_OUT[0..7]
+Entry Wire Line
+	18050 950  18150 850 
+Entry Wire Line
+	18050 1950 18150 1850
+Entry Wire Line
+	18050 2950 18150 2850
+Entry Wire Line
+	18050 3950 18150 3850
+Entry Wire Line
+	18050 4950 18150 4850
+Entry Wire Line
+	18050 5950 18150 5850
+Entry Wire Line
+	18050 6950 18150 6850
+Entry Wire Line
+	18050 7950 18150 7850
+Entry Wire Line
+	18350 1100 18450 1000
+Entry Wire Line
+	18350 2100 18450 2000
+Entry Wire Line
+	18350 3100 18450 3000
+Entry Wire Line
+	18350 4100 18450 4000
+Entry Wire Line
+	18350 5100 18450 5000
+Entry Wire Line
+	18350 6100 18450 6000
+Entry Wire Line
+	18350 7100 18450 7000
+Entry Wire Line
+	18350 8100 18450 8000
+Text Label 18650 850  0    60   ~ 0
+L_OUT0
+Text Label 18650 1850 0    60   ~ 0
+L_OUT1
+Text Label 18650 2850 0    60   ~ 0
+L_OUT2
+Text Label 18650 3850 0    60   ~ 0
+L_OUT3
+Text Label 18650 4850 0    60   ~ 0
+L_OUT4
+Text Label 18650 5850 0    60   ~ 0
+L_OUT5
+Text Label 18650 6850 0    60   ~ 0
+L_OUT6
+Text Label 18650 7850 0    60   ~ 0
+L_OUT7
+Text Label 18650 1000 0    60   ~ 0
+R_OUT0
+Text Label 18650 2000 0    60   ~ 0
+R_OUT1
+Text Label 18650 3000 0    60   ~ 0
+R_OUT2
+Text Label 18650 4000 0    60   ~ 0
+R_OUT3
+Text Label 18650 5000 0    60   ~ 0
+R_OUT4
+Text Label 18650 6000 0    60   ~ 0
+R_OUT5
+Text Label 18650 7000 0    60   ~ 0
+R_OUT6
+Text Label 18650 8000 0    60   ~ 0
+R_OUT7
+$Comp
+L GNDREF #PWR061
+U 1 1 59070455
+P 15100 11550
+F 0 "#PWR061" H 15100 11300 50  0001 C CNN
+F 1 "GNDREF" H 15100 11400 50  0000 C CNN
+F 2 "" H 15100 11550 50  0001 C CNN
+F 3 "" H 15100 11550 50  0001 C CNN
+	1    15100 11550
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 6000 650  1850 850 
+U 5AC2753A
+F0 "Device LR Distro Amplifier 0" 60
+F1 "stereo-1-2-distro-amp.sch" 60
+F2 "L_IN" I L 6000 750 60 
+F3 "R_IN" I L 6000 850 60 
+F4 "L_OUT2" O R 7850 1200 60 
+F5 "R_OUT2" O R 7850 1300 60 
+F6 "L_OUT1" O R 7850 750 60 
+F7 "R_OUT1" O R 7850 850 60 
+$EndSheet
+Text Label 16800 1600 0    60   ~ 0
+MIC-IN-0
+Text Label 16800 3100 0    60   ~ 0
+MIC-IN-2
+Text Label 16800 4600 0    60   ~ 0
+MIC-IN-4
+Text Label 16800 6100 0    60   ~ 0
+MIC-IN-6
+Text Label 16800 1700 0    60   ~ 0
+MIC-IN-1
+Text Label 16800 3200 0    60   ~ 0
+MIC-IN-3
+Text Label 16800 4700 0    60   ~ 0
+MIC-IN-5
+Text Label 16800 6200 0    60   ~ 0
+MIC-IN-7
+$Comp
+L TCA9555 U?
+U 1 1 5AD181E4
+P 25800 10050
+F 0 "U?" H 25800 11097 60  0000 C CNN
+F 1 "TCA9555" H 25800 10991 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 26000 11250 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 26100 11350 60  0001 C CNN
+F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 26050 11500 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 25800 11600 60  0001 C CNN "Manufacturer"
+F 6 "Low-Voltage 16-Bit I 2C and SMBus I/O Expander with Interrupt Output and Configuration Registers" H 26000 11700 60  0001 C CNN "Description"
+F 7 "TSSOP24" H 25850 11800 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 25850 11900 60  0001 C CNN "Pricing"
+	1    25800 10050
+	1    0    0    -1  
+$EndComp
+Text Label 25250 9250 2    60   ~ 0
+PTT-0
+Text Label 25250 9350 2    60   ~ 0
+PTT-1
+Text Label 25250 9450 2    60   ~ 0
+PTT-2
+Text Label 25250 9550 2    60   ~ 0
+PTT-3
+Text Label 25250 9650 2    60   ~ 0
+PTT-4
+Text Label 25250 9750 2    60   ~ 0
+PTT-5
+Text Label 25250 9850 2    60   ~ 0
+PTT-6
+Text Label 25250 9950 2    60   ~ 0
+PTT-7
+Text Label 25250 10150 2    60   ~ 0
+MIC-MUTE-0
+Text Label 25250 10250 2    60   ~ 0
+MIC-MUTE-1
+Text Label 25250 10350 2    60   ~ 0
+MIC-MUTE-2
+Text Label 25250 10450 2    60   ~ 0
+MIC-MUTE-3
+Text Label 25250 10550 2    60   ~ 0
+MIC-MUTE-4
+Text Label 25250 10650 2    60   ~ 0
+MIC-MUTE-5
+Text Label 25250 10750 2    60   ~ 0
+MIC-MUTE-6
+Text Label 25250 10850 2    60   ~ 0
+MIC-MUTE-7
+$Comp
+L GNDREF #PWR?
+U 1 1 5AD3C322
+P 26300 10950
+F 0 "#PWR?" H 26300 10700 50  0001 C CNN
+F 1 "GNDREF" H 26305 10777 50  0000 C CNN
+F 2 "" H 26300 10950 50  0001 C CNN
+F 3 "" H 26300 10950 50  0001 C CNN
+	1    26300 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AD4D94A
+P 26750 700
+F 0 "#PWR?" H 26750 550 50  0001 C CNN
+F 1 "+5V" H 26765 873 50  0000 C CNN
+F 2 "" H 26750 700 50  0001 C CNN
+F 3 "" H 26750 700 50  0001 C CNN
+	1    26750 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AD5FE17
+P 26350 9100
+F 0 "#PWR?" H 26350 8950 50  0001 C CNN
+F 1 "+5V" H 26365 9273 50  0000 C CNN
+F 2 "" H 26350 9100 50  0001 C CNN
+F 3 "" H 26350 9100 50  0001 C CNN
+	1    26350 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AD6B300
+P 26300 9450
+F 0 "R?" H 26359 9496 50  0000 L CNN
+F 1 "10k" H 26359 9405 50  0000 L CNN
+F 2 "" H 26300 9450 50  0001 C CNN
+F 3 "" H 26300 9450 50  0001 C CNN
+	1    26300 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AD6DCD7
+P 26500 9250
+F 0 "C?" V 26271 9250 50  0000 C CNN
+F 1 "0.1uF" V 26362 9250 50  0000 C CNN
+F 2 "" H 26500 9250 50  0001 C CNN
+F 3 "" H 26500 9250 50  0001 C CNN
+	1    26500 9250
+	0    1    1    0   
+$EndComp
+NoConn ~ 24500 10050
+$Comp
+L R_Network17 RN1
+U 1 1 591C378D
+P 24300 10050
+F 0 "RN1" V 23400 10050 50  0000 C CNN
+F 1 "4818P-T02-202LF" V 25200 10050 50  0000 C CNN
+F 2 "SW-Bournes:SOM-18" V 25075 10050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/54/800P-777115.pdf" V 23600 10050 50  0001 C CNN
+F 4 "Bournes" H 24300 10050 60  0001 C CNN "Manufacturer"
+F 5 "Resistor Network star topology" H 24200 10800 60  0001 C CNN "Description"
+F 6 "SOM-18" H 24300 10050 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 24250 10700 60  0001 C CNN "Pricing"
+	1    24300 10050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDREF #PWR058
+U 1 1 58F504DD
+P 24100 10850
+F 0 "#PWR058" H 24100 10600 50  0001 C CNN
+F 1 "GNDREF" H 24100 10700 50  0000 C CNN
+F 2 "" H 24100 10850 50  0001 C CNN
+F 3 "" H 24100 10850 50  0001 C CNN
+	1    24100 10850
+	0    1    -1   0   
+$EndComp
+Text Notes 14700 18550 0    60   ~ 0
+PTT logic, can either be controlled via headset\nPTT wire or through IO expander from PI\n\nMic Mute logic, IO expander accepts signal into pi, \nIO expander provides signal from pi. Switching is\ncontrolled via i2c SPST switch
+$Comp
+L ADG715 U?
+U 3 1 5AE599BF
+P 3600 950
+AR Path="/58DEDA38/58E9E2BE/5AE599BF" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5AE599BF" Ref="U?"  Part="3" 
+F 0 "U?" H 3600 1197 60  0000 C CNN
+F 1 "ADG715" H 3600 1091 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 3850 1900 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 3850 2000 60  0001 C CNN
+F 4 "0.00@0" H 3650 2550 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 3600 2200 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 3700 2300 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 3700 2100 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 3800 2400 60  0001 C CNN "Package ID"
+	3    3600 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS12A44514 U?
+U 1 1 5AE70891
+P 1900 1350
+AR Path="/58DEDA38/5AE70891" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/58E9E25B/5AE70891" Ref="U?"  Part="1" 
+F 0 "U?" H 1900 1059 60  0000 C CNN
+F 1 "TS12A44514" H 1900 953 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2400 2650 60  0001 C CNN
+F 3 "" H 1900 1350 60  0001 C CNN
+F 4 "0.00@0" H 1950 2350 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2250 2900 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2200 2450 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 2300 2800 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 2200 2550 60  0001 C CNN "Package ID"
+	1    1900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE70898
+P 3150 950
+F 0 "C?" V 2921 950 50  0000 C CNN
+F 1 "10u" V 3012 950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 3150 950 50  0001 C CNN
+F 3 "" H 3150 950 50  0001 C CNN
+	1    3150 950 
+	0    1    1    0   
+$EndComp
+Text Notes 2350 600  0    60   ~ 0
+cap to block dc bias from devices
+Text Notes -250 1400 0    60   ~ 0
+1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
+$Comp
+L 74LS32 U?
+U 1 1 5AE708B6
+P 3350 1500
+AR Path="/58DEDA38/58E9E2BE/5AE708B6" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E9F4/5AE708B6" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E25B/5AE708B6" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5AE708B6" Ref="U?"  Part="1" 
+F 0 "U?" H 3350 1733 50  0000 C CNN
+F 1 "74LS32" H 3350 1824 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3350 1500 50  0001 C CNN
+F 3 "" H 3350 1500 50  0001 C CNN
+F 4 "0.00@0" H 3350 1500 60  0001 C CNN "Pricing"
+	1    3350 1500
+	-1   0    0    1   
+$EndComp
+Text Notes -250 500  0    60   ~ 0
+Device power provided by\nexternal connection
+$Sheet
+S 14650 1450 1950 850 
+U 5AE8D596
+F0 "Dual Mic Amplifier 0" 60
+F1 "stereo-amp.sch" 60
+F2 "L_IN" I R 16600 1600 60 
+F3 "R_IN" I R 16600 1700 60 
+F4 "L_OUT" O L 14650 1600 60 
+F5 "R_OUT" O L 14650 1700 60 
+F6 "A0" I R 16600 2000 60 
+F7 "A1" I R 16600 2100 60 
+F8 "A2" I R 16600 2200 60 
+F9 "~CE" I L 14650 2000 60 
+F10 "SDA" B L 14650 2100 60 
+F11 "SCL" I L 14650 2200 60 
+$EndSheet
+$Sheet
+S 14650 2950 1950 850 
+U 5AE90C1A
+F0 "Dual Mic Amplifier 1" 60
+F1 "stereo-amp.sch" 60
+F2 "L_IN" I R 16600 3100 60 
+F3 "R_IN" I R 16600 3200 60 
+F4 "L_OUT" O L 14650 3100 60 
+F5 "R_OUT" O L 14650 3200 60 
+F6 "A0" I R 16600 3500 60 
+F7 "A1" I R 16600 3600 60 
+F8 "A2" I R 16600 3700 60 
+F9 "~CE" I L 14650 3500 60 
+F10 "SDA" B L 14650 3600 60 
+F11 "SCL" I L 14650 3700 60 
+$EndSheet
+$Sheet
+S 14650 4450 1950 850 
+U 5AE91779
+F0 "Dual Mic Amplifier 2" 60
+F1 "stereo-amp.sch" 60
+F2 "L_IN" I R 16600 4600 60 
+F3 "R_IN" I R 16600 4700 60 
+F4 "L_OUT" O L 14650 4600 60 
+F5 "R_OUT" O L 14650 4700 60 
+F6 "A0" I R 16600 5000 60 
+F7 "A1" I R 16600 5100 60 
+F8 "A2" I R 16600 5200 60 
+F9 "~CE" I L 14650 5000 60 
+F10 "SDA" B L 14650 5100 60 
+F11 "SCL" I L 14650 5200 60 
+$EndSheet
+$Sheet
+S 14650 5950 1950 850 
+U 5AE927C1
+F0 "Dual Mic Amplifier 3" 60
+F1 "stereo-amp.sch" 60
+F2 "L_IN" I R 16600 6100 60 
+F3 "R_IN" I R 16600 6200 60 
+F4 "L_OUT" O L 14650 6100 60 
+F5 "R_OUT" O L 14650 6200 60 
+F6 "A0" I R 16600 6500 60 
+F7 "A1" I R 16600 6600 60 
+F8 "A2" I R 16600 6700 60 
+F9 "~CE" I L 14650 6500 60 
+F10 "SDA" B L 14650 6600 60 
+F11 "SCL" I L 14650 6700 60 
+$EndSheet
+$Comp
+L ADG715 U?
+U 2 1 5AEB52BC
+P 3050 35100
+F 0 "U?" H 3050 35497 60  0000 C CNN
+F 1 "ADG715" H 3050 35391 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 3300 36050 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 3300 36150 60  0001 C CNN
+F 4 "0.00@0" H 3100 36700 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 3050 36350 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 3150 36450 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 3150 36250 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 3250 36550 60  0001 C CNN "Package ID"
+	2    3050 35100
+	1    0    0    -1  
+$EndComp
+Text Label 7300 4250 0    60   ~ 0
+PTT-0
+Text Label 7300 4150 0    60   ~ 0
+PTT-1
+Text Label 7300 4050 0    60   ~ 0
+PTT-2
+Text Label 7300 3950 0    60   ~ 0
+PTT-3
+Text Label 7300 3850 0    60   ~ 0
+PTT-4
+Text Label 7300 3750 0    60   ~ 0
+PTT-5
+Text Label 7300 3650 0    60   ~ 0
+PTT-6
+Text Label 7300 3550 0    60   ~ 0
+PTT-7
+$Comp
+L ADG708 U?
+U 1 1 5AEF0F20
+P 6600 2600
+F 0 "U?" H 6600 3197 60  0000 C CNN
+F 1 "ADG708" H 6600 3091 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 5400 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 5500 60  0001 C CNN
+F 4 "0.00@0" H 6600 5150 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 5600 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 5700 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 5800 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 5900 60  0001 C CNN "Package ID"
+	1    6600 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AEF0F27
+P 5650 2750
+F 0 "C?" H 5742 2796 50  0000 L CNN
+F 1 "0.1uF" H 5742 2705 50  0000 L CNN
+F 2 "" H 5650 2750 50  0001 C CNN
+F 3 "" H 5650 2750 50  0001 C CNN
+	1    5650 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AEF0F2E
+P 5850 2950
+F 0 "C?" H 5942 2996 50  0000 L CNN
+F 1 "0.1uF" H 5942 2905 50  0000 L CNN
+F 2 "" H 5850 2950 50  0001 C CNN
+F 3 "" H 5850 2950 50  0001 C CNN
+	1    5850 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L -2.5V #-2.5V?
+U 1 1 5AEF0F36
+P 5650 3200
+F 0 "#-2.5V?" H 6400 2900 50  0001 C CNN
+F 1 "-2.5V" H 5450 3150 60  0000 C CNN
+F 2 "" H 5650 3200 60  0001 C CNN
+F 3 "" H 5650 3200 60  0001 C CNN
+F 4 "0.00@0" H 5750 3650 60  0001 C CNN "Pricing"
+	1    5650 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +2V5 #PWR?
+U 1 1 5AEF0F3C
+P 5650 2200
+F 0 "#PWR?" H 5650 2050 50  0001 C CNN
+F 1 "+2V5" H 5592 2237 50  0000 R CNN
+F 2 "" H 5650 2200 50  0001 C CNN
+F 3 "" H 5650 2200 50  0001 C CNN
+	1    5650 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG708 U?
+U 1 1 5AEF0F5E
+P 6600 3900
+F 0 "U?" H 6600 4497 60  0000 C CNN
+F 1 "ADG708" H 6600 4391 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 6700 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 6800 60  0001 C CNN
+F 4 "0.00@0" H 6600 6450 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 6900 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 7000 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 7100 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 7200 60  0001 C CNN "Package ID"
+	1    6600 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AEF0F65
+P 5650 4050
+F 0 "C?" H 5742 4096 50  0000 L CNN
+F 1 "0.1uF" H 5742 4005 50  0000 L CNN
+F 2 "" H 5650 4050 50  0001 C CNN
+F 3 "" H 5650 4050 50  0001 C CNN
+	1    5650 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AEF0F79
+P 4450 3200
+F 0 "#PWR?" H 4450 2950 50  0001 C CNN
+F 1 "GNDREF" H 4450 3050 50  0000 C CNN
+F 2 "" H 4450 3200 50  0001 C CNN
+F 3 "" H 4450 3200 50  0001 C CNN
+	1    4450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AEF0F82
+P 5650 3500
+F 0 "#PWR?" H 5650 3350 60  0001 C CNN
+F 1 "+5V" H 5750 3550 50  0000 C CNN
+F 2 "" H 5650 3500 50  0001 C CNN
+F 3 "" H 5650 3500 50  0001 C CNN
+F 4 "0.00@0" H 5650 3500 60  0001 C CNN "Pricing"
+	1    5650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AEF0F8A
+P 6000 4300
+F 0 "#PWR?" H 6000 4050 50  0001 C CNN
+F 1 "GNDREF" H 6000 4150 50  0000 C CNN
+F 2 "" H 6000 4300 50  0001 C CNN
+F 3 "" H 6000 4300 50  0001 C CNN
+	1    6000 4300
+	1    0    0    -1  
+$EndComp
+Text Label 7300 2250 0    60   ~ 0
+AMP-MIC-IN-0
+Text Label 7300 2350 0    60   ~ 0
+AMP-MIC-IN-1
+Text Label 7300 2450 0    60   ~ 0
+AMP-MIC-IN-2
+Text Label 7300 2550 0    60   ~ 0
+AMP-MIC-IN-3
+Text Label 7300 2650 0    60   ~ 0
+AMP-MIC-IN-4
+Text Label 7300 2750 0    60   ~ 0
+AMP-MIC-IN-5
+Text Label 7300 2850 0    60   ~ 0
+AMP-MIC-IN-6
+Text Label 7300 2950 0    60   ~ 0
+AMP-MIC-IN-7
+$Comp
+L Conn_01x08 J?
+U 1 1 5AEFD384
+P 1000 950
+F 0 "J?" H 1080 942 50  0000 L CNN
+F 1 "Device 0" H 1080 851 50  0000 L CNN
+F 2 "SW-TEConn:3-794681-8" H 1000 950 50  0001 C CNN
+F 3 "" H 1000 950 50  0001 C CNN
+F 4 "0.00@0" H 1000 950 60  0001 C CNN "Pricing"
+	1    1000 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF299A5
+P 2700 1200
+F 0 "D?" H 2700 800 60  0000 C CNN
+F 1 "0582BQ" H 2700 700 60  0000 C CNN
+F 2 "" H 1300 100 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2900 3200 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2600 3350 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 2650 3250 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 2650 3450 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 2550 3550 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 2550 3650 60  0001 C CNN "Pricing"
+	1    2700 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF2D654
+P 1500 1750
+F 0 "#PWR?" H 1500 1500 50  0001 C CNN
+F 1 "GNDREF" H 1500 1600 50  0000 C CNN
+F 2 "" H 1500 1750 50  0001 C CNN
+F 3 "" H 1500 1750 50  0001 C CNN
+	1    1500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD1E10B06 D?
+U 1 1 5AF3F3D8
+P 1850 1150
+F 0 "D?" H 1850 1400 60  0000 C CNN
+F 1 "TPD1E10B06" H 1950 1300 60  0000 C CNN
+F 2 "" H 1750 1050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 2000 2750 60  0001 C CNN
+F 4 "0.00@0" H 1900 2650 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 2050 3150 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 2100 2850 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 1950 3050 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 1850 2950 60  0001 C CNN "Manufacturer"
+	1    1850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF4263F
+P 1300 500
+F 0 "#PWR?" H 1300 350 50  0001 C CNN
+F 1 "+5V" H 1315 673 50  0000 C CNN
+F 2 "" H 1300 500 50  0001 C CNN
+F 3 "" H 1300 500 50  0001 C CNN
+	1    1300 500 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF4AB08
+P 2400 1750
+F 0 "#PWR?" H 2400 1500 50  0001 C CNN
+F 1 "GNDREF" H 2400 1600 50  0000 C CNN
+F 2 "" H 2400 1750 50  0001 C CNN
+F 3 "" H 2400 1750 50  0001 C CNN
+	1    2400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF4C47A
+P 1300 1550
+F 0 "D?" V 1247 1737 60  0000 L CNN
+F 1 "0582BQ" V 1353 1737 60  0000 L CNN
+F 2 "" H -100 450 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 1500 3550 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 1200 3700 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 1250 3600 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 1250 3800 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 1150 3900 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 1150 4000 60  0001 C CNN "Pricing"
+	1    1300 1550
+	0    -1   1    0   
+$EndComp
+$Comp
+L ADG734 U?
+U 1 1 5AF5B273
+P 4350 1050
+F 0 "U?" H 4325 1397 60  0000 C CNN
+F 1 "ADG734" H 4325 1291 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 4450 2000 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 4150 1900 60  0001 C CNN
+F 4 "0.00@0" H 4350 1500 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 4400 1800 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 4300 1600 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 4350 1700 60  0001 C CNN "Package ID"
+	1    4350 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG734 U?
+U 2 1 5AF69856
+P 7600 1900
+F 0 "U?" H 7575 2247 60  0000 C CNN
+F 1 "ADG734" H 7575 2141 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 7700 2850 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 7400 2750 60  0001 C CNN
+F 4 "0.00@0" H 7600 2350 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 7650 2650 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 7550 2450 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 7600 2550 60  0001 C CNN "Package ID"
+	2    7600 1900
+	-1   0    0    -1  
+$EndComp
+Text Notes 1450 3050 0    60   ~ 0
+Address lines for MUXes (2 different voltage levels)\nPTT from IO expander (5v)\ntwo SPDT switches from IO expander (2.5v)
+Text Notes 8100 1950 0    60   ~ 0
+Connect to Stereo Distro amp\nfrom RPi audio out
+Text Notes 7900 1050 0    60   ~ 0
+out 1 goes to Mixer\nout 2 goes to L_In/R_in bus
+Text Notes 4150 1450 0    60   ~ 0
+RPi audio/\nMic audio
+Text Notes 7850 1700 0    60   ~ 0
+L/R RPi\nAudio
+$Sheet
+S 6000 4900 1850 850 
+U 5AF96247
+F0 "Stereo LR Distro Amplifier 1" 60
+F1 "stereo-1-2-distro-amp.sch" 60
+F2 "L_IN" I L 6000 5000 60 
+F3 "R_IN" I L 6000 5100 60 
+F4 "L_OUT2" O R 7850 5450 60 
+F5 "R_OUT2" O R 7850 5550 60 
+F6 "L_OUT1" O R 7850 5000 60 
+F7 "R_OUT1" O R 7850 5100 60 
+$EndSheet
+$Comp
+L ADG715 U?
+U 4 1 5AF96264
+P 3600 5200
+AR Path="/58DEDA38/58E9E2BE/5AF96264" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5AF96264" Ref="U?"  Part="4" 
+F 0 "U?" H 3600 5059 60  0000 C CNN
+F 1 "ADG715" H 3600 4953 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 3850 6150 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 3850 6250 60  0001 C CNN
+F 4 "0.00@0" H 3650 6800 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 3600 6450 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 3700 6550 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 3700 6350 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 3800 6650 60  0001 C CNN "Package ID"
+	4    3600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS12A44514 U?
+U 2 1 5AF96270
+P 1900 5600
+AR Path="/58DEDA38/5AF96270" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E25B/5AF96270" Ref="U?"  Part="1" 
+F 0 "U?" H 1900 5309 60  0000 C CNN
+F 1 "TS12A44514" H 1900 5203 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2400 6900 60  0001 C CNN
+F 3 "" H 1900 5600 60  0001 C CNN
+F 4 "0.00@0" H 1950 6600 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2250 7150 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2200 6700 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 2300 7050 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 2200 6800 60  0001 C CNN "Package ID"
+	2    1900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF96277
+P 3150 5200
+F 0 "C?" V 2921 5200 50  0000 C CNN
+F 1 "10u" V 3012 5200 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 3150 5200 50  0001 C CNN
+F 3 "" H 3150 5200 50  0001 C CNN
+	1    3150 5200
+	0    1    1    0   
+$EndComp
+Text Notes 2350 4850 0    60   ~ 0
+cap to block dc bias from devices
+Text Notes -250 5650 0    60   ~ 0
+1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
+$Comp
+L 74LS32 U?
+U 2 1 5AF96281
+P 3350 5750
+AR Path="/58DEDA38/58E9E2BE/5AF96281" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E9F4/5AF96281" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E25B/5AF96281" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5AF96281" Ref="U?"  Part="2" 
+F 0 "U?" H 3350 5983 50  0000 C CNN
+F 1 "74LS32" H 3350 6074 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3350 5750 50  0001 C CNN
+F 3 "" H 3350 5750 50  0001 C CNN
+F 4 "0.00@0" H 3350 5750 60  0001 C CNN "Pricing"
+	2    3350 5750
+	-1   0    0    1   
+$EndComp
+Text Notes -250 4750 0    60   ~ 0
+Device power provided by\nexternal connection
+Text Label 7300 8500 0    60   ~ 0
+PTT-0
+Text Label 7300 8400 0    60   ~ 0
+PTT-1
+Text Label 7300 8300 0    60   ~ 0
+PTT-2
+Text Label 7300 8200 0    60   ~ 0
+PTT-3
+Text Label 7300 8100 0    60   ~ 0
+PTT-4
+Text Label 7300 8000 0    60   ~ 0
+PTT-5
+Text Label 7300 7900 0    60   ~ 0
+PTT-6
+Text Label 7300 7800 0    60   ~ 0
+PTT-7
+$Comp
+L ADG708 U?
+U 1 1 5AF96296
+P 6600 6850
+F 0 "U?" H 6600 7447 60  0000 C CNN
+F 1 "ADG708" H 6600 7341 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 9650 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 9750 60  0001 C CNN
+F 4 "0.00@0" H 6600 9400 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 9850 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 9950 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 10050 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 10150 60  0001 C CNN "Package ID"
+	1    6600 6850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9629D
+P 5650 7000
+F 0 "C?" H 5742 7046 50  0000 L CNN
+F 1 "0.1uF" H 5742 6955 50  0000 L CNN
+F 2 "" H 5650 7000 50  0001 C CNN
+F 3 "" H 5650 7000 50  0001 C CNN
+	1    5650 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF962A4
+P 5850 7200
+F 0 "C?" H 5942 7246 50  0000 L CNN
+F 1 "0.1uF" H 5942 7155 50  0000 L CNN
+F 2 "" H 5850 7200 50  0001 C CNN
+F 3 "" H 5850 7200 50  0001 C CNN
+	1    5850 7200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L -2.5V #-2.5V?
+U 1 1 5AF962AC
+P 5650 7450
+F 0 "#-2.5V?" H 6400 7150 50  0001 C CNN
+F 1 "-2.5V" H 5450 7400 60  0000 C CNN
+F 2 "" H 5650 7450 60  0001 C CNN
+F 3 "" H 5650 7450 60  0001 C CNN
+F 4 "0.00@0" H 5750 7900 60  0001 C CNN "Pricing"
+	1    5650 7450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +2V5 #PWR?
+U 1 1 5AF962B2
+P 5650 6450
+F 0 "#PWR?" H 5650 6300 50  0001 C CNN
+F 1 "+2V5" H 5592 6487 50  0000 R CNN
+F 2 "" H 5650 6450 50  0001 C CNN
+F 3 "" H 5650 6450 50  0001 C CNN
+	1    5650 6450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG708 U?
+U 1 1 5AF962BD
+P 6600 8150
+F 0 "U?" H 6600 8747 60  0000 C CNN
+F 1 "ADG708" H 6600 8641 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 10950 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 11050 60  0001 C CNN
+F 4 "0.00@0" H 6600 10700 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 11150 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 11250 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 11350 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 11450 60  0001 C CNN "Package ID"
+	1    6600 8150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF962C4
+P 5650 8300
+F 0 "C?" H 5742 8346 50  0000 L CNN
+F 1 "0.1uF" H 5742 8255 50  0000 L CNN
+F 2 "" H 5650 8300 50  0001 C CNN
+F 3 "" H 5650 8300 50  0001 C CNN
+	1    5650 8300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF962CB
+P 4450 7450
+F 0 "#PWR?" H 4450 7200 50  0001 C CNN
+F 1 "GNDREF" H 4450 7300 50  0000 C CNN
+F 2 "" H 4450 7450 50  0001 C CNN
+F 3 "" H 4450 7450 50  0001 C CNN
+	1    4450 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF962D2
+P 5650 7750
+F 0 "#PWR?" H 5650 7600 60  0001 C CNN
+F 1 "+5V" H 5750 7800 50  0000 C CNN
+F 2 "" H 5650 7750 50  0001 C CNN
+F 3 "" H 5650 7750 50  0001 C CNN
+F 4 "0.00@0" H 5650 7750 60  0001 C CNN "Pricing"
+	1    5650 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF962D8
+P 6000 8550
+F 0 "#PWR?" H 6000 8300 50  0001 C CNN
+F 1 "GNDREF" H 6000 8400 50  0000 C CNN
+F 2 "" H 6000 8550 50  0001 C CNN
+F 3 "" H 6000 8550 50  0001 C CNN
+	1    6000 8550
+	1    0    0    -1  
+$EndComp
+Text Label 7300 6500 0    60   ~ 0
+AMP-MIC-IN-0
+Text Label 7300 6600 0    60   ~ 0
+AMP-MIC-IN-1
+Text Label 7300 6700 0    60   ~ 0
+AMP-MIC-IN-2
+Text Label 7300 6800 0    60   ~ 0
+AMP-MIC-IN-3
+Text Label 7300 6900 0    60   ~ 0
+AMP-MIC-IN-4
+Text Label 7300 7000 0    60   ~ 0
+AMP-MIC-IN-5
+Text Label 7300 7100 0    60   ~ 0
+AMP-MIC-IN-6
+Text Label 7300 7200 0    60   ~ 0
+AMP-MIC-IN-7
+$Comp
+L Conn_01x08 J?
+U 1 1 5AF96334
+P 1000 5200
+F 0 "J?" H 1080 5192 50  0000 L CNN
+F 1 "Device 1" H 1080 5101 50  0000 L CNN
+F 2 "SW-TEConn:3-794681-8" H 1000 5200 50  0001 C CNN
+F 3 "" H 1000 5200 50  0001 C CNN
+F 4 "0.00@0" H 1000 5200 60  0001 C CNN "Pricing"
+	1    1000 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF96340
+P 2700 5450
+F 0 "D?" H 2700 5050 60  0000 C CNN
+F 1 "0582BQ" H 2700 4950 60  0000 C CNN
+F 2 "" H 1300 4350 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2900 7450 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2600 7600 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 2650 7500 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 2650 7700 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 2550 7800 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 2550 7900 60  0001 C CNN "Pricing"
+	1    2700 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF96347
+P 1500 6000
+F 0 "#PWR?" H 1500 5750 50  0001 C CNN
+F 1 "GNDREF" H 1500 5850 50  0000 C CNN
+F 2 "" H 1500 6000 50  0001 C CNN
+F 3 "" H 1500 6000 50  0001 C CNN
+	1    1500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD1E10B06 D?
+U 1 1 5AF96358
+P 1850 5400
+F 0 "D?" H 1850 5650 60  0000 C CNN
+F 1 "TPD1E10B06" H 1950 5550 60  0000 C CNN
+F 2 "" H 1750 5300 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 2000 7000 60  0001 C CNN
+F 4 "0.00@0" H 1900 6900 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 2050 7400 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 2100 7100 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 1950 7300 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 1850 7200 60  0001 C CNN "Manufacturer"
+	1    1850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF9635F
+P 1300 4750
+F 0 "#PWR?" H 1300 4600 50  0001 C CNN
+F 1 "+5V" H 1315 4923 50  0000 C CNN
+F 2 "" H 1300 4750 50  0001 C CNN
+F 3 "" H 1300 4750 50  0001 C CNN
+	1    1300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9636A
+P 2400 6000
+F 0 "#PWR?" H 2400 5750 50  0001 C CNN
+F 1 "GNDREF" H 2400 5850 50  0000 C CNN
+F 2 "" H 2400 6000 50  0001 C CNN
+F 3 "" H 2400 6000 50  0001 C CNN
+	1    2400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF96379
+P 1300 5800
+F 0 "D?" V 1247 5987 60  0000 L CNN
+F 1 "0582BQ" V 1353 5987 60  0000 L CNN
+F 2 "" H -100 4700 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 1500 7800 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 1200 7950 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 1250 7850 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 1250 8050 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 1150 8150 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 1150 8250 60  0001 C CNN "Pricing"
+	1    1300 5800
+	0    -1   1    0   
+$EndComp
+$Comp
+L ADG734 U?
+U 3 1 5AF9638B
+P 4350 5300
+F 0 "U?" H 4325 5647 60  0000 C CNN
+F 1 "ADG734" H 4325 5541 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 4450 6250 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 4150 6150 60  0001 C CNN
+F 4 "0.00@0" H 4350 5750 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 4400 6050 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 4300 5850 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 4350 5950 60  0001 C CNN "Package ID"
+	3    4350 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG734 U?
+U 4 1 5AF9639C
+P 7600 6150
+F 0 "U?" H 7575 6497 60  0000 C CNN
+F 1 "ADG734" H 7575 6391 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 7700 7100 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 7400 7000 60  0001 C CNN
+F 4 "0.00@0" H 7600 6600 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 7650 6900 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 7550 6700 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 7600 6800 60  0001 C CNN "Package ID"
+	4    7600 6150
+	-1   0    0    -1  
+$EndComp
+Text Notes 1450 7300 0    60   ~ 0
+Address lines for MUXes (2 different voltage levels)\nPTT from IO expander (5v)\ntwo SPDT switches from IO expander (2.5v)
+Text Notes 8050 6200 0    60   ~ 0
+Connect to Stereo Distro amp\nfrom RPi audio out
+Text Notes 7850 5300 0    60   ~ 0
+out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
+Text Notes 4150 5700 0    60   ~ 0
+RPi audio/\nMic audio
+Text Notes 7800 5950 0    60   ~ 0
+L/R RPi\nAudio
+$Sheet
+S 6000 9150 1850 850 
+U 5AF9721A
+F0 "Stereo LR Distro Amplifier 2" 60
+F1 "stereo-1-2-distro-amp.sch" 60
+F2 "L_IN" I L 6000 9250 60 
+F3 "R_IN" I L 6000 9350 60 
+F4 "L_OUT2" O R 7850 9700 60 
+F5 "R_OUT2" O R 7850 9800 60 
+F6 "L_OUT1" O R 7850 9250 60 
+F7 "R_OUT1" O R 7850 9350 60 
+$EndSheet
+$Comp
+L ADG715 U?
+U 5 1 5AF97237
+P 3600 9450
+AR Path="/58DEDA38/58E9E2BE/5AF97237" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5AF97237" Ref="U?"  Part="5" 
+F 0 "U?" H 3600 9750 60  0000 C CNN
+F 1 "ADG715" H 3600 9650 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 3850 10400 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 3850 10500 60  0001 C CNN
+F 4 "0.00@0" H 3650 11050 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 3600 10700 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 3700 10800 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 3700 10600 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 3800 10900 60  0001 C CNN "Package ID"
+	5    3600 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS12A44514 U?
+U 3 1 5AF97243
+P 1900 9850
+AR Path="/58DEDA38/5AF97243" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/58E9E25B/5AF97243" Ref="U?"  Part="1" 
+F 0 "U?" H 1900 9559 60  0000 C CNN
+F 1 "TS12A44514" H 1900 9453 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2400 11150 60  0001 C CNN
+F 3 "" H 1900 9850 60  0001 C CNN
+F 4 "0.00@0" H 1950 10850 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2250 11400 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2200 10950 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 2300 11300 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 2200 11050 60  0001 C CNN "Package ID"
+	3    1900 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9724A
+P 3150 9450
+F 0 "C?" V 2921 9450 50  0000 C CNN
+F 1 "10u" V 3012 9450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 3150 9450 50  0001 C CNN
+F 3 "" H 3150 9450 50  0001 C CNN
+	1    3150 9450
+	0    1    1    0   
+$EndComp
+Text Notes 2350 9100 0    60   ~ 0
+cap to block dc bias from devices
+Text Notes -250 9900 0    60   ~ 0
+1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
+$Comp
+L 74LS32 U?
+U 3 1 5AF97254
+P 3350 10000
+AR Path="/58DEDA38/58E9E2BE/5AF97254" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E9F4/5AF97254" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E25B/5AF97254" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5AF97254" Ref="U?"  Part="3" 
+F 0 "U?" H 3350 9683 50  0000 C CNN
+F 1 "74LS32" H 3350 9774 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3350 10000 50  0001 C CNN
+F 3 "" H 3350 10000 50  0001 C CNN
+F 4 "0.00@0" H 3350 10000 60  0001 C CNN "Pricing"
+	3    3350 10000
+	-1   0    0    1   
+$EndComp
+Text Notes -250 9000 0    60   ~ 0
+Device power provided by\nexternal connection
+Text Label 7300 12750 0    60   ~ 0
+PTT-0
+Text Label 7300 12650 0    60   ~ 0
+PTT-1
+Text Label 7300 12550 0    60   ~ 0
+PTT-2
+Text Label 7300 12450 0    60   ~ 0
+PTT-3
+Text Label 7300 12350 0    60   ~ 0
+PTT-4
+Text Label 7300 12250 0    60   ~ 0
+PTT-5
+Text Label 7300 12150 0    60   ~ 0
+PTT-6
+Text Label 7300 12050 0    60   ~ 0
+PTT-7
+$Comp
+L ADG708 U?
+U 1 1 5AF97269
+P 6600 11100
+F 0 "U?" H 6600 11697 60  0000 C CNN
+F 1 "ADG708" H 6600 11591 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 13900 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 14000 60  0001 C CNN
+F 4 "0.00@0" H 6600 13650 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 14100 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 14200 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 14300 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 14400 60  0001 C CNN "Package ID"
+	1    6600 11100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF97270
+P 5650 11250
+F 0 "C?" H 5742 11296 50  0000 L CNN
+F 1 "0.1uF" H 5742 11205 50  0000 L CNN
+F 2 "" H 5650 11250 50  0001 C CNN
+F 3 "" H 5650 11250 50  0001 C CNN
+	1    5650 11250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF97277
+P 5850 11450
+F 0 "C?" H 5942 11496 50  0000 L CNN
+F 1 "0.1uF" H 5942 11405 50  0000 L CNN
+F 2 "" H 5850 11450 50  0001 C CNN
+F 3 "" H 5850 11450 50  0001 C CNN
+	1    5850 11450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L -2.5V #-2.5V?
+U 1 1 5AF9727F
+P 5650 11700
+F 0 "#-2.5V?" H 6400 11400 50  0001 C CNN
+F 1 "-2.5V" H 5450 11650 60  0000 C CNN
+F 2 "" H 5650 11700 60  0001 C CNN
+F 3 "" H 5650 11700 60  0001 C CNN
+F 4 "0.00@0" H 5750 12150 60  0001 C CNN "Pricing"
+	1    5650 11700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +2V5 #PWR?
+U 1 1 5AF97285
+P 5650 10700
+F 0 "#PWR?" H 5650 10550 50  0001 C CNN
+F 1 "+2V5" H 5592 10737 50  0000 R CNN
+F 2 "" H 5650 10700 50  0001 C CNN
+F 3 "" H 5650 10700 50  0001 C CNN
+	1    5650 10700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG708 U?
+U 1 1 5AF97290
+P 6600 12400
+F 0 "U?" H 6600 12997 60  0000 C CNN
+F 1 "ADG708" H 6600 12891 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 15200 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 15300 60  0001 C CNN
+F 4 "0.00@0" H 6600 14950 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 15400 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 15500 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 15600 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 15700 60  0001 C CNN "Package ID"
+	1    6600 12400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF97297
+P 5650 12550
+F 0 "C?" H 5742 12596 50  0000 L CNN
+F 1 "0.1uF" H 5742 12505 50  0000 L CNN
+F 2 "" H 5650 12550 50  0001 C CNN
+F 3 "" H 5650 12550 50  0001 C CNN
+	1    5650 12550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9729E
+P 4450 11700
+F 0 "#PWR?" H 4450 11450 50  0001 C CNN
+F 1 "GNDREF" H 4450 11550 50  0000 C CNN
+F 2 "" H 4450 11700 50  0001 C CNN
+F 3 "" H 4450 11700 50  0001 C CNN
+	1    4450 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF972A5
+P 5650 12000
+F 0 "#PWR?" H 5650 11850 60  0001 C CNN
+F 1 "+5V" H 5750 12050 50  0000 C CNN
+F 2 "" H 5650 12000 50  0001 C CNN
+F 3 "" H 5650 12000 50  0001 C CNN
+F 4 "0.00@0" H 5650 12000 60  0001 C CNN "Pricing"
+	1    5650 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF972AB
+P 6000 12800
+F 0 "#PWR?" H 6000 12550 50  0001 C CNN
+F 1 "GNDREF" H 6000 12650 50  0000 C CNN
+F 2 "" H 6000 12800 50  0001 C CNN
+F 3 "" H 6000 12800 50  0001 C CNN
+	1    6000 12800
+	1    0    0    -1  
+$EndComp
+Text Label 7300 10750 0    60   ~ 0
+AMP-MIC-IN-0
+Text Label 7300 10850 0    60   ~ 0
+AMP-MIC-IN-1
+Text Label 7300 10950 0    60   ~ 0
+AMP-MIC-IN-2
+Text Label 7300 11050 0    60   ~ 0
+AMP-MIC-IN-3
+Text Label 7300 11150 0    60   ~ 0
+AMP-MIC-IN-4
+Text Label 7300 11250 0    60   ~ 0
+AMP-MIC-IN-5
+Text Label 7300 11350 0    60   ~ 0
+AMP-MIC-IN-6
+Text Label 7300 11450 0    60   ~ 0
+AMP-MIC-IN-7
+$Comp
+L Conn_01x08 J?
+U 1 1 5AF97307
+P 1000 9450
+F 0 "J?" H 1080 9442 50  0000 L CNN
+F 1 "Device 2" H 1080 9351 50  0000 L CNN
+F 2 "SW-TEConn:3-794681-8" H 1000 9450 50  0001 C CNN
+F 3 "" H 1000 9450 50  0001 C CNN
+F 4 "0.00@0" H 1000 9450 60  0001 C CNN "Pricing"
+	1    1000 9450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF97313
+P 2700 9700
+F 0 "D?" H 2700 9300 60  0000 C CNN
+F 1 "0582BQ" H 2700 9200 60  0000 C CNN
+F 2 "" H 1300 8600 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2900 11700 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2600 11850 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 2650 11750 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 2650 11950 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 2550 12050 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 2550 12150 60  0001 C CNN "Pricing"
+	1    2700 9700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9731A
+P 1500 10250
+F 0 "#PWR?" H 1500 10000 50  0001 C CNN
+F 1 "GNDREF" H 1500 10100 50  0000 C CNN
+F 2 "" H 1500 10250 50  0001 C CNN
+F 3 "" H 1500 10250 50  0001 C CNN
+	1    1500 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD1E10B06 D?
+U 1 1 5AF9732B
+P 1850 9650
+F 0 "D?" H 1850 9900 60  0000 C CNN
+F 1 "TPD1E10B06" H 1950 9800 60  0000 C CNN
+F 2 "" H 1750 9550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 2000 11250 60  0001 C CNN
+F 4 "0.00@0" H 1900 11150 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 2050 11650 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 2100 11350 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 1950 11550 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 1850 11450 60  0001 C CNN "Manufacturer"
+	1    1850 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF97332
+P 1300 9000
+F 0 "#PWR?" H 1300 8850 50  0001 C CNN
+F 1 "+5V" H 1315 9173 50  0000 C CNN
+F 2 "" H 1300 9000 50  0001 C CNN
+F 3 "" H 1300 9000 50  0001 C CNN
+	1    1300 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9733D
+P 2400 10250
+F 0 "#PWR?" H 2400 10000 50  0001 C CNN
+F 1 "GNDREF" H 2400 10100 50  0000 C CNN
+F 2 "" H 2400 10250 50  0001 C CNN
+F 3 "" H 2400 10250 50  0001 C CNN
+	1    2400 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF9734C
+P 1300 10050
+F 0 "D?" V 1247 10237 60  0000 L CNN
+F 1 "0582BQ" V 1353 10237 60  0000 L CNN
+F 2 "" H -100 8950 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 1500 12050 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 1200 12200 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 1250 12100 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 1250 12300 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 1150 12400 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 1150 12500 60  0001 C CNN "Pricing"
+	1    1300 10050
+	0    -1   1    0   
+$EndComp
+$Comp
+L ADG734 U?
+U 1 1 5AF9735E
+P 4350 9550
+F 0 "U?" H 4325 9897 60  0000 C CNN
+F 1 "ADG734" H 4325 9791 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 4450 10500 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 4150 10400 60  0001 C CNN
+F 4 "0.00@0" H 4350 10000 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 4400 10300 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 4300 10100 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 4350 10200 60  0001 C CNN "Package ID"
+	1    4350 9550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG734 U?
+U 2 1 5AF9736F
+P 7600 10400
+F 0 "U?" H 7575 10747 60  0000 C CNN
+F 1 "ADG734" H 7575 10641 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 7700 11350 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 7400 11250 60  0001 C CNN
+F 4 "0.00@0" H 7600 10850 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 7650 11150 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 7550 10950 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 7600 11050 60  0001 C CNN "Package ID"
+	2    7600 10400
+	-1   0    0    -1  
+$EndComp
+Text Notes 1450 11550 0    60   ~ 0
+Address lines for MUXes (2 different voltage levels)\nPTT from IO expander (5v)\ntwo SPDT switches from IO expander (2.5v)
+Text Notes 8100 10450 0    60   ~ 0
+Connect to Stereo Distro amp\nfrom RPi audio out
+Text Notes 7900 9550 0    60   ~ 0
+out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
+Text Notes 4150 9950 0    60   ~ 0
+RPi audio/\nMic audio
+Text Notes 7850 10200 0    60   ~ 0
+L/R RPi\nAudio
+$Sheet
+S 6000 13400 1850 850 
+U 5AF98BA3
+F0 "Stereo LR Distro Amplifier 3" 60
+F1 "stereo-1-2-distro-amp.sch" 60
+F2 "L_IN" I L 6000 13500 60 
+F3 "R_IN" I L 6000 13600 60 
+F4 "L_OUT2" O R 7850 13950 60 
+F5 "R_OUT2" O R 7850 14050 60 
+F6 "L_OUT1" O R 7850 13500 60 
+F7 "R_OUT1" O R 7850 13600 60 
+$EndSheet
+$Comp
+L ADG715 U?
+U 6 1 5AF98BC0
+P 3600 13700
+AR Path="/58DEDA38/58E9E2BE/5AF98BC0" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5AF98BC0" Ref="U?"  Part="6" 
+F 0 "U?" H 3600 13950 60  0000 C CNN
+F 1 "ADG715" H 3600 13850 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 3850 14650 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 3850 14750 60  0001 C CNN
+F 4 "0.00@0" H 3650 15300 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 3600 14950 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 3700 15050 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 3700 14850 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 3800 15150 60  0001 C CNN "Package ID"
+	6    3600 13700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS12A44514 U?
+U 4 1 5AF98BCC
+P 1900 14100
+AR Path="/58DEDA38/5AF98BCC" Ref="U?"  Part="4" 
+AR Path="/58DEDA38/58E9E25B/5AF98BCC" Ref="U?"  Part="1" 
+F 0 "U?" H 1900 13809 60  0000 C CNN
+F 1 "TS12A44514" H 1900 13703 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2400 15400 60  0001 C CNN
+F 3 "" H 1900 14100 60  0001 C CNN
+F 4 "0.00@0" H 1950 15100 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2250 15650 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2200 15200 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 2300 15550 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 2200 15300 60  0001 C CNN "Package ID"
+	4    1900 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF98BD3
+P 3150 13700
+F 0 "C?" V 2921 13700 50  0000 C CNN
+F 1 "10u" V 3012 13700 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 3150 13700 50  0001 C CNN
+F 3 "" H 3150 13700 50  0001 C CNN
+	1    3150 13700
+	0    1    1    0   
+$EndComp
+Text Notes 2350 13350 0    60   ~ 0
+cap to block dc bias from devices
+Text Notes -250 14150 0    60   ~ 0
+1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
+$Comp
+L 74LS32 U?
+U 4 1 5AF98BDD
+P 3350 14250
+AR Path="/58DEDA38/58E9E2BE/5AF98BDD" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E9F4/5AF98BDD" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E25B/5AF98BDD" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5AF98BDD" Ref="U?"  Part="4" 
+F 0 "U?" H 3350 13933 50  0000 C CNN
+F 1 "74LS32" H 3350 14024 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3350 14250 50  0001 C CNN
+F 3 "" H 3350 14250 50  0001 C CNN
+F 4 "0.00@0" H 3350 14250 60  0001 C CNN "Pricing"
+	4    3350 14250
+	-1   0    0    1   
+$EndComp
+Text Notes -250 13250 0    60   ~ 0
+Device power provided by\nexternal connection
+Text Label 7300 17000 0    60   ~ 0
+PTT-0
+Text Label 7300 16900 0    60   ~ 0
+PTT-1
+Text Label 7300 16800 0    60   ~ 0
+PTT-2
+Text Label 7300 16700 0    60   ~ 0
+PTT-3
+Text Label 7300 16600 0    60   ~ 0
+PTT-4
+Text Label 7300 16500 0    60   ~ 0
+PTT-5
+Text Label 7300 16400 0    60   ~ 0
+PTT-6
+Text Label 7300 16300 0    60   ~ 0
+PTT-7
+$Comp
+L ADG708 U?
+U 1 1 5AF98BF2
+P 6600 15350
+F 0 "U?" H 6600 15947 60  0000 C CNN
+F 1 "ADG708" H 6600 15841 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 18150 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 18250 60  0001 C CNN
+F 4 "0.00@0" H 6600 17900 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 18350 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 18450 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 18550 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 18650 60  0001 C CNN "Package ID"
+	1    6600 15350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF98BF9
+P 5650 15500
+F 0 "C?" H 5742 15546 50  0000 L CNN
+F 1 "0.1uF" H 5742 15455 50  0000 L CNN
+F 2 "" H 5650 15500 50  0001 C CNN
+F 3 "" H 5650 15500 50  0001 C CNN
+	1    5650 15500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF98C00
+P 5850 15700
+F 0 "C?" H 5942 15746 50  0000 L CNN
+F 1 "0.1uF" H 5942 15655 50  0000 L CNN
+F 2 "" H 5850 15700 50  0001 C CNN
+F 3 "" H 5850 15700 50  0001 C CNN
+	1    5850 15700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L -2.5V #-2.5V?
+U 1 1 5AF98C08
+P 5650 15950
+F 0 "#-2.5V?" H 6400 15650 50  0001 C CNN
+F 1 "-2.5V" H 5450 15900 60  0000 C CNN
+F 2 "" H 5650 15950 60  0001 C CNN
+F 3 "" H 5650 15950 60  0001 C CNN
+F 4 "0.00@0" H 5750 16400 60  0001 C CNN "Pricing"
+	1    5650 15950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +2V5 #PWR?
+U 1 1 5AF98C0E
+P 5650 14950
+F 0 "#PWR?" H 5650 14800 50  0001 C CNN
+F 1 "+2V5" H 5592 14987 50  0000 R CNN
+F 2 "" H 5650 14950 50  0001 C CNN
+F 3 "" H 5650 14950 50  0001 C CNN
+	1    5650 14950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG708 U?
+U 1 1 5AF98C19
+P 6600 16650
+F 0 "U?" H 6600 17247 60  0000 C CNN
+F 1 "ADG708" H 6600 17141 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 19450 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 19550 60  0001 C CNN
+F 4 "0.00@0" H 6600 19200 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 19650 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 19750 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 19850 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 19950 60  0001 C CNN "Package ID"
+	1    6600 16650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF98C20
+P 5650 16800
+F 0 "C?" H 5742 16846 50  0000 L CNN
+F 1 "0.1uF" H 5742 16755 50  0000 L CNN
+F 2 "" H 5650 16800 50  0001 C CNN
+F 3 "" H 5650 16800 50  0001 C CNN
+	1    5650 16800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF98C27
+P 4450 15950
+F 0 "#PWR?" H 4450 15700 50  0001 C CNN
+F 1 "GNDREF" H 4450 15800 50  0000 C CNN
+F 2 "" H 4450 15950 50  0001 C CNN
+F 3 "" H 4450 15950 50  0001 C CNN
+	1    4450 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF98C2E
+P 5650 16250
+F 0 "#PWR?" H 5650 16100 60  0001 C CNN
+F 1 "+5V" H 5750 16300 50  0000 C CNN
+F 2 "" H 5650 16250 50  0001 C CNN
+F 3 "" H 5650 16250 50  0001 C CNN
+F 4 "0.00@0" H 5650 16250 60  0001 C CNN "Pricing"
+	1    5650 16250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF98C34
+P 6000 17050
+F 0 "#PWR?" H 6000 16800 50  0001 C CNN
+F 1 "GNDREF" H 6000 16900 50  0000 C CNN
+F 2 "" H 6000 17050 50  0001 C CNN
+F 3 "" H 6000 17050 50  0001 C CNN
+	1    6000 17050
+	1    0    0    -1  
+$EndComp
+Text Label 7300 15000 0    60   ~ 0
+AMP-MIC-IN-0
+Text Label 7300 15100 0    60   ~ 0
+AMP-MIC-IN-1
+Text Label 7300 15200 0    60   ~ 0
+AMP-MIC-IN-2
+Text Label 7300 15300 0    60   ~ 0
+AMP-MIC-IN-3
+Text Label 7300 15400 0    60   ~ 0
+AMP-MIC-IN-4
+Text Label 7300 15500 0    60   ~ 0
+AMP-MIC-IN-5
+Text Label 7300 15600 0    60   ~ 0
+AMP-MIC-IN-6
+Text Label 7300 15700 0    60   ~ 0
+AMP-MIC-IN-7
+$Comp
+L Conn_01x08 J?
+U 1 1 5AF98C90
+P 1000 13700
+F 0 "J?" H 1080 13692 50  0000 L CNN
+F 1 "Device 3" H 1080 13601 50  0000 L CNN
+F 2 "SW-TEConn:3-794681-8" H 1000 13700 50  0001 C CNN
+F 3 "" H 1000 13700 50  0001 C CNN
+F 4 "0.00@0" H 1000 13700 60  0001 C CNN "Pricing"
+	1    1000 13700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF98C9C
+P 2700 13950
+F 0 "D?" H 2700 13550 60  0000 C CNN
+F 1 "0582BQ" H 2700 13450 60  0000 C CNN
+F 2 "" H 1300 12850 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2900 15950 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2600 16100 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 2650 16000 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 2650 16200 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 2550 16300 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 2550 16400 60  0001 C CNN "Pricing"
+	1    2700 13950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF98CA3
+P 1500 14500
+F 0 "#PWR?" H 1500 14250 50  0001 C CNN
+F 1 "GNDREF" H 1500 14350 50  0000 C CNN
+F 2 "" H 1500 14500 50  0001 C CNN
+F 3 "" H 1500 14500 50  0001 C CNN
+	1    1500 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD1E10B06 D?
+U 1 1 5AF98CB4
+P 1850 13900
+F 0 "D?" H 1850 14150 60  0000 C CNN
+F 1 "TPD1E10B06" H 1950 14050 60  0000 C CNN
+F 2 "" H 1750 13800 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 2000 15500 60  0001 C CNN
+F 4 "0.00@0" H 1900 15400 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 2050 15900 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 2100 15600 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 1950 15800 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 1850 15700 60  0001 C CNN "Manufacturer"
+	1    1850 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF98CBB
+P 1300 13250
+F 0 "#PWR?" H 1300 13100 50  0001 C CNN
+F 1 "+5V" H 1315 13423 50  0000 C CNN
+F 2 "" H 1300 13250 50  0001 C CNN
+F 3 "" H 1300 13250 50  0001 C CNN
+	1    1300 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF98CC6
+P 2400 14500
+F 0 "#PWR?" H 2400 14250 50  0001 C CNN
+F 1 "GNDREF" H 2400 14350 50  0000 C CNN
+F 2 "" H 2400 14500 50  0001 C CNN
+F 3 "" H 2400 14500 50  0001 C CNN
+	1    2400 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF98CD5
+P 1300 14300
+F 0 "D?" V 1247 14487 60  0000 L CNN
+F 1 "0582BQ" V 1353 14487 60  0000 L CNN
+F 2 "" H -100 13200 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 1500 16300 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 1200 16450 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 1250 16350 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 1250 16550 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 1150 16650 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 1150 16750 60  0001 C CNN "Pricing"
+	1    1300 14300
+	0    -1   1    0   
+$EndComp
+$Comp
+L ADG734 U?
+U 3 1 5AF98CE7
+P 4350 13800
+F 0 "U?" H 4325 14147 60  0000 C CNN
+F 1 "ADG734" H 4325 14041 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 4450 14750 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 4150 14650 60  0001 C CNN
+F 4 "0.00@0" H 4350 14250 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 4400 14550 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 4300 14350 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 4350 14450 60  0001 C CNN "Package ID"
+	3    4350 13800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG734 U?
+U 4 1 5AF98CF8
+P 7600 14650
+F 0 "U?" H 7575 14997 60  0000 C CNN
+F 1 "ADG734" H 7575 14891 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 7700 15600 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 7400 15500 60  0001 C CNN
+F 4 "0.00@0" H 7600 15100 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 7650 15400 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 7550 15200 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 7600 15300 60  0001 C CNN "Package ID"
+	4    7600 14650
+	-1   0    0    -1  
+$EndComp
+Text Notes 1450 15800 0    60   ~ 0
+Address lines for MUXes (2 different voltage levels)\nPTT from IO expander (5v)\ntwo SPDT switches from IO expander (2.5v)
+Text Notes 7300 14900 0    60   ~ 0
+Connect to Stereo Distro amp\nfrom RPi audio out
+Text Notes 7900 13800 0    60   ~ 0
+out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
+Text Notes 4150 14200 0    60   ~ 0
+RPi audio/\nMic audio
+Text Notes 7850 14450 0    60   ~ 0
+L/R RPi\nAudio
+$Sheet
+S 6000 17650 1850 850 
+U 5AF9AD36
+F0 "Stereo LR Distro Amplifier 4" 60
+F1 "stereo-1-2-distro-amp.sch" 60
+F2 "L_IN" I L 6000 17750 60 
+F3 "R_IN" I L 6000 17850 60 
+F4 "L_OUT2" O R 7850 18200 60 
+F5 "R_OUT2" O R 7850 18300 60 
+F6 "L_OUT1" O R 7850 17750 60 
+F7 "R_OUT1" O R 7850 17850 60 
+$EndSheet
+$Comp
+L ADG715 U?
+U 7 1 5AF9AD53
+P 3600 17950
+AR Path="/58DEDA38/58E9E2BE/5AF9AD53" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5AF9AD53" Ref="U?"  Part="7" 
+F 0 "U?" H 3600 17809 60  0000 C CNN
+F 1 "ADG715" H 3600 17703 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 3850 18900 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 3850 19000 60  0001 C CNN
+F 4 "0.00@0" H 3650 19550 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 3600 19200 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 3700 19300 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 3700 19100 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 3800 19400 60  0001 C CNN "Package ID"
+	7    3600 17950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS12A44514 U?
+U 1 1 5AF9AD5F
+P 1900 18350
+AR Path="/58DEDA38/5AF9AD5F" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/58E9E25B/5AF9AD5F" Ref="U?"  Part="1" 
+F 0 "U?" H 1900 18059 60  0000 C CNN
+F 1 "TS12A44514" H 1900 17953 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2400 19650 60  0001 C CNN
+F 3 "" H 1900 18350 60  0001 C CNN
+F 4 "0.00@0" H 1950 19350 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2250 19900 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2200 19450 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 2300 19800 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 2200 19550 60  0001 C CNN "Package ID"
+	1    1900 18350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9AD66
+P 3150 17950
+F 0 "C?" V 2921 17950 50  0000 C CNN
+F 1 "10u" V 3012 17950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 3150 17950 50  0001 C CNN
+F 3 "" H 3150 17950 50  0001 C CNN
+	1    3150 17950
+	0    1    1    0   
+$EndComp
+Text Notes 2350 17600 0    60   ~ 0
+cap to block dc bias from devices
+Text Notes -950 18800 0    60   ~ 0
+1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
+$Comp
+L 74LS32 U?
+U 1 1 5AF9AD70
+P 3350 18500
+AR Path="/58DEDA38/58E9E2BE/5AF9AD70" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E9F4/5AF9AD70" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E25B/5AF9AD70" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5AF9AD70" Ref="U?"  Part="1" 
+F 0 "U?" H 3350 18733 50  0000 C CNN
+F 1 "74LS32" H 3350 18824 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3350 18500 50  0001 C CNN
+F 3 "" H 3350 18500 50  0001 C CNN
+F 4 "0.00@0" H 3350 18500 60  0001 C CNN "Pricing"
+	1    3350 18500
+	-1   0    0    1   
+$EndComp
+Text Notes -950 17900 0    60   ~ 0
+Device power provided by\nexternal connection
+Text Label 7300 21250 0    60   ~ 0
+PTT-0
+Text Label 7300 21150 0    60   ~ 0
+PTT-1
+Text Label 7300 21050 0    60   ~ 0
+PTT-2
+Text Label 7300 20950 0    60   ~ 0
+PTT-3
+Text Label 7300 20850 0    60   ~ 0
+PTT-4
+Text Label 7300 20750 0    60   ~ 0
+PTT-5
+Text Label 7300 20650 0    60   ~ 0
+PTT-6
+Text Label 7300 20550 0    60   ~ 0
+PTT-7
+$Comp
+L ADG708 U?
+U 1 1 5AF9AD85
+P 6600 19600
+F 0 "U?" H 6600 20197 60  0000 C CNN
+F 1 "ADG708" H 6600 20091 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 22400 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 22500 60  0001 C CNN
+F 4 "0.00@0" H 6600 22150 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 22600 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 22700 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 22800 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 22900 60  0001 C CNN "Package ID"
+	1    6600 19600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9AD8C
+P 5650 19750
+F 0 "C?" H 5742 19796 50  0000 L CNN
+F 1 "0.1uF" H 5742 19705 50  0000 L CNN
+F 2 "" H 5650 19750 50  0001 C CNN
+F 3 "" H 5650 19750 50  0001 C CNN
+	1    5650 19750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9AD93
+P 5850 19950
+F 0 "C?" H 5942 19996 50  0000 L CNN
+F 1 "0.1uF" H 5942 19905 50  0000 L CNN
+F 2 "" H 5850 19950 50  0001 C CNN
+F 3 "" H 5850 19950 50  0001 C CNN
+	1    5850 19950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L -2.5V #-2.5V?
+U 1 1 5AF9AD9B
+P 5650 20200
+F 0 "#-2.5V?" H 6400 19900 50  0001 C CNN
+F 1 "-2.5V" H 5450 20150 60  0000 C CNN
+F 2 "" H 5650 20200 60  0001 C CNN
+F 3 "" H 5650 20200 60  0001 C CNN
+F 4 "0.00@0" H 5750 20650 60  0001 C CNN "Pricing"
+	1    5650 20200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +2V5 #PWR?
+U 1 1 5AF9ADA1
+P 5650 19200
+F 0 "#PWR?" H 5650 19050 50  0001 C CNN
+F 1 "+2V5" H 5592 19237 50  0000 R CNN
+F 2 "" H 5650 19200 50  0001 C CNN
+F 3 "" H 5650 19200 50  0001 C CNN
+	1    5650 19200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG708 U?
+U 1 1 5AF9ADAC
+P 6600 20900
+F 0 "U?" H 6600 21497 60  0000 C CNN
+F 1 "ADG708" H 6600 21391 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 23700 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 23800 60  0001 C CNN
+F 4 "0.00@0" H 6600 23450 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 23900 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 24000 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 24100 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 24200 60  0001 C CNN "Package ID"
+	1    6600 20900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9ADB3
+P 5650 21050
+F 0 "C?" H 5742 21096 50  0000 L CNN
+F 1 "0.1uF" H 5742 21005 50  0000 L CNN
+F 2 "" H 5650 21050 50  0001 C CNN
+F 3 "" H 5650 21050 50  0001 C CNN
+	1    5650 21050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9ADBA
+P 4450 20200
+F 0 "#PWR?" H 4450 19950 50  0001 C CNN
+F 1 "GNDREF" H 4450 20050 50  0000 C CNN
+F 2 "" H 4450 20200 50  0001 C CNN
+F 3 "" H 4450 20200 50  0001 C CNN
+	1    4450 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF9ADC1
+P 5650 20500
+F 0 "#PWR?" H 5650 20350 60  0001 C CNN
+F 1 "+5V" H 5750 20550 50  0000 C CNN
+F 2 "" H 5650 20500 50  0001 C CNN
+F 3 "" H 5650 20500 50  0001 C CNN
+F 4 "0.00@0" H 5650 20500 60  0001 C CNN "Pricing"
+	1    5650 20500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9ADC7
+P 6000 21300
+F 0 "#PWR?" H 6000 21050 50  0001 C CNN
+F 1 "GNDREF" H 6000 21150 50  0000 C CNN
+F 2 "" H 6000 21300 50  0001 C CNN
+F 3 "" H 6000 21300 50  0001 C CNN
+	1    6000 21300
+	1    0    0    -1  
+$EndComp
+Text Label 7300 19250 0    60   ~ 0
+AMP-MIC-IN-0
+Text Label 7300 19350 0    60   ~ 0
+AMP-MIC-IN-1
+Text Label 7300 19450 0    60   ~ 0
+AMP-MIC-IN-2
+Text Label 7300 19550 0    60   ~ 0
+AMP-MIC-IN-3
+Text Label 7300 19650 0    60   ~ 0
+AMP-MIC-IN-4
+Text Label 7300 19750 0    60   ~ 0
+AMP-MIC-IN-5
+Text Label 7300 19850 0    60   ~ 0
+AMP-MIC-IN-6
+Text Label 7300 19950 0    60   ~ 0
+AMP-MIC-IN-7
+$Comp
+L Conn_01x08 J?
+U 1 1 5AF9AE23
+P 1000 17950
+F 0 "J?" H 1080 17942 50  0000 L CNN
+F 1 "Device 4" H 1080 17851 50  0000 L CNN
+F 2 "SW-TEConn:3-794681-8" H 1000 17950 50  0001 C CNN
+F 3 "" H 1000 17950 50  0001 C CNN
+F 4 "0.00@0" H 1000 17950 60  0001 C CNN "Pricing"
+	1    1000 17950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF9AE2F
+P 2700 18200
+F 0 "D?" H 2700 17800 60  0000 C CNN
+F 1 "0582BQ" H 2700 17700 60  0000 C CNN
+F 2 "" H 1300 17100 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2900 20200 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2600 20350 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 2650 20250 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 2650 20450 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 2550 20550 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 2550 20650 60  0001 C CNN "Pricing"
+	1    2700 18200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9AE36
+P 1500 18750
+F 0 "#PWR?" H 1500 18500 50  0001 C CNN
+F 1 "GNDREF" H 1500 18600 50  0000 C CNN
+F 2 "" H 1500 18750 50  0001 C CNN
+F 3 "" H 1500 18750 50  0001 C CNN
+	1    1500 18750
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD1E10B06 D?
+U 1 1 5AF9AE47
+P 1850 18150
+F 0 "D?" H 1850 18400 60  0000 C CNN
+F 1 "TPD1E10B06" H 1950 18300 60  0000 C CNN
+F 2 "" H 1750 18050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 2000 19750 60  0001 C CNN
+F 4 "0.00@0" H 1900 19650 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 2050 20150 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 2100 19850 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 1950 20050 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 1850 19950 60  0001 C CNN "Manufacturer"
+	1    1850 18150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF9AE4E
+P 1300 17500
+F 0 "#PWR?" H 1300 17350 50  0001 C CNN
+F 1 "+5V" H 1315 17673 50  0000 C CNN
+F 2 "" H 1300 17500 50  0001 C CNN
+F 3 "" H 1300 17500 50  0001 C CNN
+	1    1300 17500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9AE59
+P 2400 18750
+F 0 "#PWR?" H 2400 18500 50  0001 C CNN
+F 1 "GNDREF" H 2400 18600 50  0000 C CNN
+F 2 "" H 2400 18750 50  0001 C CNN
+F 3 "" H 2400 18750 50  0001 C CNN
+	1    2400 18750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF9AE68
+P 1300 18550
+F 0 "D?" V 1247 18737 60  0000 L CNN
+F 1 "0582BQ" V 1353 18737 60  0000 L CNN
+F 2 "" H -100 17450 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 1500 20550 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 1200 20700 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 1250 20600 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 1250 20800 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 1150 20900 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 1150 21000 60  0001 C CNN "Pricing"
+	1    1300 18550
+	0    -1   1    0   
+$EndComp
+$Comp
+L ADG734 U?
+U 1 1 5AF9AE7A
+P 4350 18050
+F 0 "U?" H 4325 18397 60  0000 C CNN
+F 1 "ADG734" H 4325 18291 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 4450 19000 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 4150 18900 60  0001 C CNN
+F 4 "0.00@0" H 4350 18500 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 4400 18800 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 4300 18600 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 4350 18700 60  0001 C CNN "Package ID"
+	1    4350 18050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG734 U?
+U 2 1 5AF9AE8B
+P 7600 18900
+F 0 "U?" H 7575 19247 60  0000 C CNN
+F 1 "ADG734" H 7575 19141 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 7700 19850 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 7400 19750 60  0001 C CNN
+F 4 "0.00@0" H 7600 19350 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 7650 19650 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 7550 19450 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 7600 19550 60  0001 C CNN "Package ID"
+	2    7600 18900
+	-1   0    0    -1  
+$EndComp
+Text Notes 1450 20050 0    60   ~ 0
+Address lines for MUXes (2 different voltage levels)\nPTT from IO expander (5v)\ntwo SPDT switches from IO expander (2.5v)
+Text Notes 8100 18950 0    60   ~ 0
+Connect to Stereo Distro amp\nfrom RPi audio out
+Text Notes 7900 18050 0    60   ~ 0
+out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
+Text Notes 4150 18450 0    60   ~ 0
+RPi audio/\nMic audio
+Text Notes 7850 18700 0    60   ~ 0
+L/R RPi\nAudio
+$Sheet
+S 6000 21900 1850 850 
+U 5AF9C01D
+F0 "Stereo LR Distro Amplifier 5" 60
+F1 "stereo-1-2-distro-amp.sch" 60
+F2 "L_IN" I L 6000 22000 60 
+F3 "R_IN" I L 6000 22100 60 
+F4 "L_OUT2" O R 7850 22450 60 
+F5 "R_OUT2" O R 7850 22550 60 
+F6 "L_OUT1" O R 7850 22000 60 
+F7 "R_OUT1" O R 7850 22100 60 
+$EndSheet
+$Comp
+L ADG715 U?
+U 8 1 5AF9C03A
+P 3600 22200
+AR Path="/58DEDA38/58E9E2BE/5AF9C03A" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5AF9C03A" Ref="U?"  Part="8" 
+F 0 "U?" H 3600 22450 60  0000 C CNN
+F 1 "ADG715" H 3600 22350 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 3850 23150 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 3850 23250 60  0001 C CNN
+F 4 "0.00@0" H 3650 23800 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 3600 23450 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 3700 23550 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 3700 23350 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 3800 23650 60  0001 C CNN "Package ID"
+	8    3600 22200
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS12A44514 U?
+U 2 1 5AF9C046
+P 1900 22600
+AR Path="/58DEDA38/5AF9C046" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E25B/5AF9C046" Ref="U?"  Part="1" 
+F 0 "U?" H 1900 22309 60  0000 C CNN
+F 1 "TS12A44514" H 1900 22203 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2400 23900 60  0001 C CNN
+F 3 "" H 1900 22600 60  0001 C CNN
+F 4 "0.00@0" H 1950 23600 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2250 24150 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2200 23700 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 2300 24050 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 2200 23800 60  0001 C CNN "Package ID"
+	2    1900 22600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9C04D
+P 3150 22200
+F 0 "C?" V 2921 22200 50  0000 C CNN
+F 1 "10u" V 3012 22200 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 3150 22200 50  0001 C CNN
+F 3 "" H 3150 22200 50  0001 C CNN
+	1    3150 22200
+	0    1    1    0   
+$EndComp
+Text Notes 2350 21850 0    60   ~ 0
+cap to block dc bias from devices
+Text Notes -250 22650 0    60   ~ 0
+1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
+$Comp
+L 74LS32 U?
+U 2 1 5AF9C057
+P 3350 22750
+AR Path="/58DEDA38/58E9E2BE/5AF9C057" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E9F4/5AF9C057" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E25B/5AF9C057" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5AF9C057" Ref="U?"  Part="2" 
+F 0 "U?" H 3350 22433 50  0000 C CNN
+F 1 "74LS32" H 3350 22524 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3350 22750 50  0001 C CNN
+F 3 "" H 3350 22750 50  0001 C CNN
+F 4 "0.00@0" H 3350 22750 60  0001 C CNN "Pricing"
+	2    3350 22750
+	-1   0    0    1   
+$EndComp
+Text Notes -250 21750 0    60   ~ 0
+Device power provided by\nexternal connection
+Text Label 7300 25500 0    60   ~ 0
+PTT-0
+Text Label 7300 25400 0    60   ~ 0
+PTT-1
+Text Label 7300 25300 0    60   ~ 0
+PTT-2
+Text Label 7300 25200 0    60   ~ 0
+PTT-3
+Text Label 7300 25100 0    60   ~ 0
+PTT-4
+Text Label 7300 25000 0    60   ~ 0
+PTT-5
+Text Label 7300 24900 0    60   ~ 0
+PTT-6
+Text Label 7300 24800 0    60   ~ 0
+PTT-7
+$Comp
+L ADG708 U?
+U 1 1 5AF9C06C
+P 6600 23850
+F 0 "U?" H 6600 24447 60  0000 C CNN
+F 1 "ADG708" H 6600 24341 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 26650 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 26750 60  0001 C CNN
+F 4 "0.00@0" H 6600 26400 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 26850 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 26950 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 27050 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 27150 60  0001 C CNN "Package ID"
+	1    6600 23850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9C073
+P 5650 24000
+F 0 "C?" H 5742 24046 50  0000 L CNN
+F 1 "0.1uF" H 5742 23955 50  0000 L CNN
+F 2 "" H 5650 24000 50  0001 C CNN
+F 3 "" H 5650 24000 50  0001 C CNN
+	1    5650 24000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9C07A
+P 5850 24200
+F 0 "C?" H 5942 24246 50  0000 L CNN
+F 1 "0.1uF" H 5942 24155 50  0000 L CNN
+F 2 "" H 5850 24200 50  0001 C CNN
+F 3 "" H 5850 24200 50  0001 C CNN
+	1    5850 24200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L -2.5V #-2.5V?
+U 1 1 5AF9C082
+P 5650 24450
+F 0 "#-2.5V?" H 6400 24150 50  0001 C CNN
+F 1 "-2.5V" H 5450 24400 60  0000 C CNN
+F 2 "" H 5650 24450 60  0001 C CNN
+F 3 "" H 5650 24450 60  0001 C CNN
+F 4 "0.00@0" H 5750 24900 60  0001 C CNN "Pricing"
+	1    5650 24450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +2V5 #PWR?
+U 1 1 5AF9C088
+P 5650 23450
+F 0 "#PWR?" H 5650 23300 50  0001 C CNN
+F 1 "+2V5" H 5592 23487 50  0000 R CNN
+F 2 "" H 5650 23450 50  0001 C CNN
+F 3 "" H 5650 23450 50  0001 C CNN
+	1    5650 23450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG708 U?
+U 1 1 5AF9C093
+P 6600 25150
+F 0 "U?" H 6600 25747 60  0000 C CNN
+F 1 "ADG708" H 6600 25641 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 27950 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 28050 60  0001 C CNN
+F 4 "0.00@0" H 6600 27700 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 28150 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 28250 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 28350 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 28450 60  0001 C CNN "Package ID"
+	1    6600 25150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9C09A
+P 5650 25300
+F 0 "C?" H 5742 25346 50  0000 L CNN
+F 1 "0.1uF" H 5742 25255 50  0000 L CNN
+F 2 "" H 5650 25300 50  0001 C CNN
+F 3 "" H 5650 25300 50  0001 C CNN
+	1    5650 25300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9C0A1
+P 4450 24450
+F 0 "#PWR?" H 4450 24200 50  0001 C CNN
+F 1 "GNDREF" H 4450 24300 50  0000 C CNN
+F 2 "" H 4450 24450 50  0001 C CNN
+F 3 "" H 4450 24450 50  0001 C CNN
+	1    4450 24450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF9C0A8
+P 5650 24750
+F 0 "#PWR?" H 5650 24600 60  0001 C CNN
+F 1 "+5V" H 5750 24800 50  0000 C CNN
+F 2 "" H 5650 24750 50  0001 C CNN
+F 3 "" H 5650 24750 50  0001 C CNN
+F 4 "0.00@0" H 5650 24750 60  0001 C CNN "Pricing"
+	1    5650 24750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9C0AE
+P 6000 25550
+F 0 "#PWR?" H 6000 25300 50  0001 C CNN
+F 1 "GNDREF" H 6000 25400 50  0000 C CNN
+F 2 "" H 6000 25550 50  0001 C CNN
+F 3 "" H 6000 25550 50  0001 C CNN
+	1    6000 25550
+	1    0    0    -1  
+$EndComp
+Text Label 7300 23500 0    60   ~ 0
+AMP-MIC-IN-0
+Text Label 7300 23600 0    60   ~ 0
+AMP-MIC-IN-1
+Text Label 7300 23700 0    60   ~ 0
+AMP-MIC-IN-2
+Text Label 7300 23800 0    60   ~ 0
+AMP-MIC-IN-3
+Text Label 7300 23900 0    60   ~ 0
+AMP-MIC-IN-4
+Text Label 7300 24000 0    60   ~ 0
+AMP-MIC-IN-5
+Text Label 7300 24100 0    60   ~ 0
+AMP-MIC-IN-6
+Text Label 7300 24200 0    60   ~ 0
+AMP-MIC-IN-7
+$Comp
+L Conn_01x08 J?
+U 1 1 5AF9C10A
+P 1000 22200
+F 0 "J?" H 1080 22192 50  0000 L CNN
+F 1 "Device 5" H 1080 22101 50  0000 L CNN
+F 2 "SW-TEConn:3-794681-8" H 1000 22200 50  0001 C CNN
+F 3 "" H 1000 22200 50  0001 C CNN
+F 4 "0.00@0" H 1000 22200 60  0001 C CNN "Pricing"
+	1    1000 22200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF9C116
+P 2700 22450
+F 0 "D?" H 2700 22050 60  0000 C CNN
+F 1 "0582BQ" H 2700 21950 60  0000 C CNN
+F 2 "" H 1300 21350 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2900 24450 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2600 24600 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 2650 24500 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 2650 24700 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 2550 24800 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 2550 24900 60  0001 C CNN "Pricing"
+	1    2700 22450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9C11D
+P 1500 23000
+F 0 "#PWR?" H 1500 22750 50  0001 C CNN
+F 1 "GNDREF" H 1500 22850 50  0000 C CNN
+F 2 "" H 1500 23000 50  0001 C CNN
+F 3 "" H 1500 23000 50  0001 C CNN
+	1    1500 23000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD1E10B06 D?
+U 1 1 5AF9C12E
+P 1850 22400
+F 0 "D?" H 1850 22650 60  0000 C CNN
+F 1 "TPD1E10B06" H 1950 22550 60  0000 C CNN
+F 2 "" H 1750 22300 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 2000 24000 60  0001 C CNN
+F 4 "0.00@0" H 1900 23900 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 2050 24400 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 2100 24100 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 1950 24300 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 1850 24200 60  0001 C CNN "Manufacturer"
+	1    1850 22400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF9C135
+P 1300 21750
+F 0 "#PWR?" H 1300 21600 50  0001 C CNN
+F 1 "+5V" H 1315 21923 50  0000 C CNN
+F 2 "" H 1300 21750 50  0001 C CNN
+F 3 "" H 1300 21750 50  0001 C CNN
+	1    1300 21750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9C140
+P 2400 23000
+F 0 "#PWR?" H 2400 22750 50  0001 C CNN
+F 1 "GNDREF" H 2400 22850 50  0000 C CNN
+F 2 "" H 2400 23000 50  0001 C CNN
+F 3 "" H 2400 23000 50  0001 C CNN
+	1    2400 23000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF9C14F
+P 1300 22800
+F 0 "D?" V 1247 22987 60  0000 L CNN
+F 1 "0582BQ" V 1353 22987 60  0000 L CNN
+F 2 "" H -100 21700 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 1500 24800 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 1200 24950 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 1250 24850 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 1250 25050 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 1150 25150 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 1150 25250 60  0001 C CNN "Pricing"
+	1    1300 22800
+	0    -1   1    0   
+$EndComp
+$Comp
+L ADG734 U?
+U 3 1 5AF9C161
+P 4350 22300
+F 0 "U?" H 4325 22647 60  0000 C CNN
+F 1 "ADG734" H 4325 22541 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 4450 23250 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 4150 23150 60  0001 C CNN
+F 4 "0.00@0" H 4350 22750 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 4400 23050 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 4300 22850 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 4350 22950 60  0001 C CNN "Package ID"
+	3    4350 22300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG734 U?
+U 4 1 5AF9C172
+P 7600 23150
+F 0 "U?" H 7575 23497 60  0000 C CNN
+F 1 "ADG734" H 7575 23391 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 7700 24100 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 7400 24000 60  0001 C CNN
+F 4 "0.00@0" H 7600 23600 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 7650 23900 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 7550 23700 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 7600 23800 60  0001 C CNN "Package ID"
+	4    7600 23150
+	-1   0    0    -1  
+$EndComp
+Text Notes 1450 24300 0    60   ~ 0
+Address lines for MUXes (2 different voltage levels)\nPTT from IO expander (5v)\ntwo SPDT switches from IO expander (2.5v)
+Text Notes 8100 33350 0    60   ~ 0
+Connect to Stereo Distro amp\nfrom RPi audio out
+Text Notes 7900 22300 0    60   ~ 0
+out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
+Text Notes 4150 22700 0    60   ~ 0
+RPi audio/\nMic audio
+Text Notes 7850 22950 0    60   ~ 0
+L/R RPi\nAudio
+$Sheet
+S 6000 26150 1850 850 
+U 5AF9C61A
+F0 "Stereo LR Distro Amplifier 6" 60
+F1 "stereo-1-2-distro-amp.sch" 60
+F2 "L_IN" I L 6000 26250 60 
+F3 "R_IN" I L 6000 26350 60 
+F4 "L_OUT2" O R 7850 26700 60 
+F5 "R_OUT2" O R 7850 26800 60 
+F6 "L_OUT1" O R 7850 26250 60 
+F7 "R_OUT1" O R 7850 26350 60 
+$EndSheet
+$Comp
+L ADG715 U?
+U 9 1 5AF9C637
+P 3600 26450
+AR Path="/58DEDA38/58E9E2BE/5AF9C637" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5AF9C637" Ref="U?"  Part="9" 
+F 0 "U?" H 3600 26750 60  0000 C CNN
+F 1 "ADG715" H 3600 26650 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 3850 27400 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 3850 27500 60  0001 C CNN
+F 4 "0.00@0" H 3650 28050 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 3600 27700 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 3700 27800 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 3700 27600 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 3800 27900 60  0001 C CNN "Package ID"
+	9    3600 26450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS12A44514 U?
+U 3 1 5AF9C643
+P 1900 26850
+AR Path="/58DEDA38/5AF9C643" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/58E9E25B/5AF9C643" Ref="U?"  Part="1" 
+F 0 "U?" H 1900 26559 60  0000 C CNN
+F 1 "TS12A44514" H 1900 26453 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2400 28150 60  0001 C CNN
+F 3 "" H 1900 26850 60  0001 C CNN
+F 4 "0.00@0" H 1950 27850 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2250 28400 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2200 27950 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 2300 28300 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 2200 28050 60  0001 C CNN "Package ID"
+	3    1900 26850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9C64A
+P 3150 26450
+F 0 "C?" V 2921 26450 50  0000 C CNN
+F 1 "10u" V 3012 26450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 3150 26450 50  0001 C CNN
+F 3 "" H 3150 26450 50  0001 C CNN
+	1    3150 26450
+	0    1    1    0   
+$EndComp
+Text Notes 2350 26100 0    60   ~ 0
+cap to block dc bias from devices
+Text Notes -250 26900 0    60   ~ 0
+1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
+$Comp
+L 74LS32 U?
+U 3 1 5AF9C654
+P 3350 27000
+AR Path="/58DEDA38/58E9E2BE/5AF9C654" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E9F4/5AF9C654" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E25B/5AF9C654" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5AF9C654" Ref="U?"  Part="3" 
+F 0 "U?" H 3350 26683 50  0000 C CNN
+F 1 "74LS32" H 3350 26774 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3350 27000 50  0001 C CNN
+F 3 "" H 3350 27000 50  0001 C CNN
+F 4 "0.00@0" H 3350 27000 60  0001 C CNN "Pricing"
+	3    3350 27000
+	-1   0    0    1   
+$EndComp
+Text Notes -250 26000 0    60   ~ 0
+Device power provided by\nexternal connection
+Text Label 7300 29750 0    60   ~ 0
+PTT-0
+Text Label 7300 29650 0    60   ~ 0
+PTT-1
+Text Label 7300 29550 0    60   ~ 0
+PTT-2
+Text Label 7300 29450 0    60   ~ 0
+PTT-3
+Text Label 7300 29350 0    60   ~ 0
+PTT-4
+Text Label 7300 29250 0    60   ~ 0
+PTT-5
+Text Label 7300 29150 0    60   ~ 0
+PTT-6
+Text Label 7300 29050 0    60   ~ 0
+PTT-7
+$Comp
+L ADG708 U?
+U 1 1 5AF9C669
+P 6600 28100
+F 0 "U?" H 6600 28697 60  0000 C CNN
+F 1 "ADG708" H 6600 28591 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 30900 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 31000 60  0001 C CNN
+F 4 "0.00@0" H 6600 30650 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 31100 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 31200 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 31300 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 31400 60  0001 C CNN "Package ID"
+	1    6600 28100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9C670
+P 5650 28250
+F 0 "C?" H 5742 28296 50  0000 L CNN
+F 1 "0.1uF" H 5742 28205 50  0000 L CNN
+F 2 "" H 5650 28250 50  0001 C CNN
+F 3 "" H 5650 28250 50  0001 C CNN
+	1    5650 28250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9C677
+P 5850 28450
+F 0 "C?" H 5942 28496 50  0000 L CNN
+F 1 "0.1uF" H 5942 28405 50  0000 L CNN
+F 2 "" H 5850 28450 50  0001 C CNN
+F 3 "" H 5850 28450 50  0001 C CNN
+	1    5850 28450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L -2.5V #-2.5V?
+U 1 1 5AF9C67F
+P 5650 28700
+F 0 "#-2.5V?" H 6400 28400 50  0001 C CNN
+F 1 "-2.5V" H 5450 28650 60  0000 C CNN
+F 2 "" H 5650 28700 60  0001 C CNN
+F 3 "" H 5650 28700 60  0001 C CNN
+F 4 "0.00@0" H 5750 29150 60  0001 C CNN "Pricing"
+	1    5650 28700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +2V5 #PWR?
+U 1 1 5AF9C685
+P 5650 27700
+F 0 "#PWR?" H 5650 27550 50  0001 C CNN
+F 1 "+2V5" H 5592 27737 50  0000 R CNN
+F 2 "" H 5650 27700 50  0001 C CNN
+F 3 "" H 5650 27700 50  0001 C CNN
+	1    5650 27700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG708 U?
+U 1 1 5AF9C690
+P 6600 29400
+F 0 "U?" H 6600 29997 60  0000 C CNN
+F 1 "ADG708" H 6600 29891 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 32200 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 32300 60  0001 C CNN
+F 4 "0.00@0" H 6600 31950 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 32400 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 32500 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 32600 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 32700 60  0001 C CNN "Package ID"
+	1    6600 29400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9C697
+P 5650 29550
+F 0 "C?" H 5742 29596 50  0000 L CNN
+F 1 "0.1uF" H 5742 29505 50  0000 L CNN
+F 2 "" H 5650 29550 50  0001 C CNN
+F 3 "" H 5650 29550 50  0001 C CNN
+	1    5650 29550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9C69E
+P 4450 28700
+F 0 "#PWR?" H 4450 28450 50  0001 C CNN
+F 1 "GNDREF" H 4450 28550 50  0000 C CNN
+F 2 "" H 4450 28700 50  0001 C CNN
+F 3 "" H 4450 28700 50  0001 C CNN
+	1    4450 28700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF9C6A5
+P 5650 29000
+F 0 "#PWR?" H 5650 28850 60  0001 C CNN
+F 1 "+5V" H 5750 29050 50  0000 C CNN
+F 2 "" H 5650 29000 50  0001 C CNN
+F 3 "" H 5650 29000 50  0001 C CNN
+F 4 "0.00@0" H 5650 29000 60  0001 C CNN "Pricing"
+	1    5650 29000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9C6AB
+P 6000 29800
+F 0 "#PWR?" H 6000 29550 50  0001 C CNN
+F 1 "GNDREF" H 6000 29650 50  0000 C CNN
+F 2 "" H 6000 29800 50  0001 C CNN
+F 3 "" H 6000 29800 50  0001 C CNN
+	1    6000 29800
+	1    0    0    -1  
+$EndComp
+Text Label 7300 27750 0    60   ~ 0
+AMP-MIC-IN-0
+Text Label 7300 27850 0    60   ~ 0
+AMP-MIC-IN-1
+Text Label 7300 27950 0    60   ~ 0
+AMP-MIC-IN-2
+Text Label 7300 28050 0    60   ~ 0
+AMP-MIC-IN-3
+Text Label 7300 28150 0    60   ~ 0
+AMP-MIC-IN-4
+Text Label 7300 28250 0    60   ~ 0
+AMP-MIC-IN-5
+Text Label 7300 28350 0    60   ~ 0
+AMP-MIC-IN-6
+Text Label 7300 28450 0    60   ~ 0
+AMP-MIC-IN-7
+$Comp
+L Conn_01x08 J?
+U 1 1 5AF9C707
+P 1000 26450
+F 0 "J?" H 1080 26442 50  0000 L CNN
+F 1 "Device 6" H 1080 26351 50  0000 L CNN
+F 2 "SW-TEConn:3-794681-8" H 1000 26450 50  0001 C CNN
+F 3 "" H 1000 26450 50  0001 C CNN
+F 4 "0.00@0" H 1000 26450 60  0001 C CNN "Pricing"
+	1    1000 26450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF9C713
+P 2700 26700
+F 0 "D?" H 2700 26300 60  0000 C CNN
+F 1 "0582BQ" H 2700 26200 60  0000 C CNN
+F 2 "" H 1300 25600 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2900 28700 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2600 28850 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 2650 28750 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 2650 28950 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 2550 29050 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 2550 29150 60  0001 C CNN "Pricing"
+	1    2700 26700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9C71A
+P 1500 27250
+F 0 "#PWR?" H 1500 27000 50  0001 C CNN
+F 1 "GNDREF" H 1500 27100 50  0000 C CNN
+F 2 "" H 1500 27250 50  0001 C CNN
+F 3 "" H 1500 27250 50  0001 C CNN
+	1    1500 27250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD1E10B06 D?
+U 1 1 5AF9C72B
+P 1850 26650
+F 0 "D?" H 1850 26900 60  0000 C CNN
+F 1 "TPD1E10B06" H 1950 26800 60  0000 C CNN
+F 2 "" H 1750 26550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 2000 28250 60  0001 C CNN
+F 4 "0.00@0" H 1900 28150 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 2050 28650 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 2100 28350 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 1950 28550 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 1850 28450 60  0001 C CNN "Manufacturer"
+	1    1850 26650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF9C732
+P 1300 26000
+F 0 "#PWR?" H 1300 25850 50  0001 C CNN
+F 1 "+5V" H 1315 26173 50  0000 C CNN
+F 2 "" H 1300 26000 50  0001 C CNN
+F 3 "" H 1300 26000 50  0001 C CNN
+	1    1300 26000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9C73D
+P 2400 27250
+F 0 "#PWR?" H 2400 27000 50  0001 C CNN
+F 1 "GNDREF" H 2400 27100 50  0000 C CNN
+F 2 "" H 2400 27250 50  0001 C CNN
+F 3 "" H 2400 27250 50  0001 C CNN
+	1    2400 27250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF9C74C
+P 1300 27050
+F 0 "D?" V 1247 27237 60  0000 L CNN
+F 1 "0582BQ" V 1353 27237 60  0000 L CNN
+F 2 "" H -100 25950 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 1500 29050 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 1200 29200 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 1250 29100 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 1250 29300 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 1150 29400 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 1150 29500 60  0001 C CNN "Pricing"
+	1    1300 27050
+	0    -1   1    0   
+$EndComp
+$Comp
+L ADG734 U?
+U 1 1 5AF9C75E
+P 4350 26550
+F 0 "U?" H 4325 26897 60  0000 C CNN
+F 1 "ADG734" H 4325 26791 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 4450 27500 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 4150 27400 60  0001 C CNN
+F 4 "0.00@0" H 4350 27000 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 4400 27300 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 4300 27100 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 4350 27200 60  0001 C CNN "Package ID"
+	1    4350 26550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG734 U?
+U 2 1 5AF9C76F
+P 7600 27400
+F 0 "U?" H 7575 27747 60  0000 C CNN
+F 1 "ADG734" H 7575 27641 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 7700 28350 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 7400 28250 60  0001 C CNN
+F 4 "0.00@0" H 7600 27850 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 7650 28150 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 7550 27950 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 7600 28050 60  0001 C CNN "Package ID"
+	2    7600 27400
+	-1   0    0    -1  
+$EndComp
+Text Notes 1450 28550 0    60   ~ 0
+Address lines for MUXes (2 different voltage levels)\nPTT from IO expander (5v)\ntwo SPDT switches from IO expander (2.5v)
+Text Notes 8100 27450 0    60   ~ 0
+Connect to Stereo Distro amp\nfrom RPi audio out
+Text Notes 7900 26550 0    60   ~ 0
+out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
+Text Notes 4150 26950 0    60   ~ 0
+RPi audio/\nMic audio
+Text Notes 7850 27200 0    60   ~ 0
+L/R RPi\nAudio
+$Sheet
+S 6000 30400 1850 850 
+U 5AF9CF80
+F0 "Stereo LR Distro Amplifier 7" 60
+F1 "stereo-1-2-distro-amp.sch" 60
+F2 "L_IN" I L 6000 30500 60 
+F3 "R_IN" I L 6000 30600 60 
+F4 "L_OUT2" O R 7850 30950 60 
+F5 "R_OUT2" O R 7850 31050 60 
+F6 "L_OUT1" O R 7850 30500 60 
+F7 "R_OUT1" O R 7850 30600 60 
+$EndSheet
+$Comp
+L ADG715 U?
+U 10 1 5AF9CF9D
+P 3600 30700
+AR Path="/58DEDA38/58E9E2BE/5AF9CF9D" Ref="U?"  Part="3" 
+AR Path="/58DEDA38/5AF9CF9D" Ref="U?"  Part="10" 
+F 0 "U?" H 3600 30559 60  0000 C CNN
+F 1 "ADG715" H 3600 30453 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 3850 31650 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 3850 31750 60  0001 C CNN
+F 4 "0.00@0" H 3650 32300 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 3600 31950 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 3700 32050 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 3700 31850 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 3800 32150 60  0001 C CNN "Package ID"
+	10   3600 30700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS12A44514 U?
+U 4 1 5AF9CFA9
+P 1900 31100
+AR Path="/58DEDA38/5AF9CFA9" Ref="U?"  Part="4" 
+AR Path="/58DEDA38/58E9E25B/5AF9CFA9" Ref="U?"  Part="1" 
+F 0 "U?" H 1900 30809 60  0000 C CNN
+F 1 "TS12A44514" H 1900 30703 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2400 32400 60  0001 C CNN
+F 3 "" H 1900 31100 60  0001 C CNN
+F 4 "0.00@0" H 1950 32100 60  0001 C CNN "Pricing"
+F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2250 32650 60  0001 C CNN "Characteristics"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2200 32200 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 2300 32550 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 2200 32300 60  0001 C CNN "Package ID"
+	4    1900 31100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9CFB0
+P 3150 30700
+F 0 "C?" V 2921 30700 50  0000 C CNN
+F 1 "10u" V 3012 30700 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 3150 30700 50  0001 C CNN
+F 3 "" H 3150 30700 50  0001 C CNN
+	1    3150 30700
+	0    1    1    0   
+$EndComp
+Text Notes 2350 30350 0    60   ~ 0
+cap to block dc bias from devices
+Text Notes -250 31150 0    60   ~ 0
+1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
+$Comp
+L 74LS32 U?
+U 4 1 5AF9CFBA
+P 3350 31250
+AR Path="/58DEDA38/58E9E2BE/5AF9CFBA" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E9F4/5AF9CFBA" Ref="U?"  Part="2" 
+AR Path="/58DEDA38/58E9E25B/5AF9CFBA" Ref="U?"  Part="1" 
+AR Path="/58DEDA38/5AF9CFBA" Ref="U?"  Part="4" 
+F 0 "U?" H 3350 31483 50  0000 C CNN
+F 1 "74LS32" H 3350 31574 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 3350 31250 50  0001 C CNN
+F 3 "" H 3350 31250 50  0001 C CNN
+F 4 "0.00@0" H 3350 31250 60  0001 C CNN "Pricing"
+	4    3350 31250
+	-1   0    0    1   
+$EndComp
+Text Notes -250 30250 0    60   ~ 0
+Device power provided by\nexternal connection
+Text Label 7300 34000 0    60   ~ 0
+PTT-0
+Text Label 7300 33900 0    60   ~ 0
+PTT-1
+Text Label 7300 33800 0    60   ~ 0
+PTT-2
+Text Label 7300 33700 0    60   ~ 0
+PTT-3
+Text Label 7300 33600 0    60   ~ 0
+PTT-4
+Text Label 7300 33500 0    60   ~ 0
+PTT-5
+Text Label 7300 33400 0    60   ~ 0
+PTT-6
+Text Label 7300 33300 0    60   ~ 0
+PTT-7
+$Comp
+L ADG708 U?
+U 1 1 5AF9CFCF
+P 6600 32350
+F 0 "U?" H 6600 32947 60  0000 C CNN
+F 1 "ADG708" H 6600 32841 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 35150 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 35250 60  0001 C CNN
+F 4 "0.00@0" H 6600 34900 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 35350 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 35450 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 35550 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 35650 60  0001 C CNN "Package ID"
+	1    6600 32350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9CFD6
+P 5650 32500
+F 0 "C?" H 5742 32546 50  0000 L CNN
+F 1 "0.1uF" H 5742 32455 50  0000 L CNN
+F 2 "" H 5650 32500 50  0001 C CNN
+F 3 "" H 5650 32500 50  0001 C CNN
+	1    5650 32500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9CFDD
+P 5850 32700
+F 0 "C?" H 5942 32746 50  0000 L CNN
+F 1 "0.1uF" H 5942 32655 50  0000 L CNN
+F 2 "" H 5850 32700 50  0001 C CNN
+F 3 "" H 5850 32700 50  0001 C CNN
+	1    5850 32700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L -2.5V #-2.5V?
+U 1 1 5AF9CFE5
+P 5650 32950
+F 0 "#-2.5V?" H 6400 32650 50  0001 C CNN
+F 1 "-2.5V" H 5450 32900 60  0000 C CNN
+F 2 "" H 5650 32950 60  0001 C CNN
+F 3 "" H 5650 32950 60  0001 C CNN
+F 4 "0.00@0" H 5750 33400 60  0001 C CNN "Pricing"
+	1    5650 32950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +2V5 #PWR?
+U 1 1 5AF9CFEB
+P 5650 31950
+F 0 "#PWR?" H 5650 31800 50  0001 C CNN
+F 1 "+2V5" H 5592 31987 50  0000 R CNN
+F 2 "" H 5650 31950 50  0001 C CNN
+F 3 "" H 5650 31950 50  0001 C CNN
+	1    5650 31950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG708 U?
+U 1 1 5AF9CFF6
+P 6600 33650
+F 0 "U?" H 6600 34247 60  0000 C CNN
+F 1 "ADG708" H 6600 34141 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5950 36450 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 6050 36550 60  0001 C CNN
+F 4 "0.00@0" H 6600 36200 60  0001 C CNN "Pricing"
+F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 6150 36650 60  0001 C CNN "Characteristics"
+F 6 "Analog Devices" H 6250 36750 60  0001 C CNN "Manufacturer"
+F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H 6350 36850 60  0001 C CNN "Description"
+F 8 "TSSOP16" H 6450 36950 60  0001 C CNN "Package ID"
+	1    6600 33650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AF9CFFD
+P 5650 33800
+F 0 "C?" H 5742 33846 50  0000 L CNN
+F 1 "0.1uF" H 5742 33755 50  0000 L CNN
+F 2 "" H 5650 33800 50  0001 C CNN
+F 3 "" H 5650 33800 50  0001 C CNN
+	1    5650 33800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9D004
+P 4450 32950
+F 0 "#PWR?" H 4450 32700 50  0001 C CNN
+F 1 "GNDREF" H 4450 32800 50  0000 C CNN
+F 2 "" H 4450 32950 50  0001 C CNN
+F 3 "" H 4450 32950 50  0001 C CNN
+	1    4450 32950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF9D00B
+P 5650 33250
+F 0 "#PWR?" H 5650 33100 60  0001 C CNN
+F 1 "+5V" H 5750 33300 50  0000 C CNN
+F 2 "" H 5650 33250 50  0001 C CNN
+F 3 "" H 5650 33250 50  0001 C CNN
+F 4 "0.00@0" H 5650 33250 60  0001 C CNN "Pricing"
+	1    5650 33250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9D011
+P 6000 34050
+F 0 "#PWR?" H 6000 33800 50  0001 C CNN
+F 1 "GNDREF" H 6000 33900 50  0000 C CNN
+F 2 "" H 6000 34050 50  0001 C CNN
+F 3 "" H 6000 34050 50  0001 C CNN
+	1    6000 34050
+	1    0    0    -1  
+$EndComp
+Text Label 7300 32000 0    60   ~ 0
+AMP-MIC-IN-0
+Text Label 7300 32100 0    60   ~ 0
+AMP-MIC-IN-1
+Text Label 7300 32200 0    60   ~ 0
+AMP-MIC-IN-2
+Text Label 7300 32300 0    60   ~ 0
+AMP-MIC-IN-3
+Text Label 7300 32400 0    60   ~ 0
+AMP-MIC-IN-4
+Text Label 7300 32500 0    60   ~ 0
+AMP-MIC-IN-5
+Text Label 7300 32600 0    60   ~ 0
+AMP-MIC-IN-6
+Text Label 7300 32700 0    60   ~ 0
+AMP-MIC-IN-7
+$Comp
+L Conn_01x08 J?
+U 1 1 5AF9D06D
+P 1000 30700
+F 0 "J?" H 1080 30692 50  0000 L CNN
+F 1 "Device 7" H 1080 30601 50  0000 L CNN
+F 2 "SW-TEConn:3-794681-8" H 1000 30700 50  0001 C CNN
+F 3 "" H 1000 30700 50  0001 C CNN
+F 4 "0.00@0" H 1000 30700 60  0001 C CNN "Pricing"
+	1    1000 30700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF9D079
+P 2700 30950
+F 0 "D?" H 2700 30550 60  0000 C CNN
+F 1 "0582BQ" H 2700 30450 60  0000 C CNN
+F 2 "" H 1300 29850 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2900 32950 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2600 33100 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 2650 33000 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 2650 33200 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 2550 33300 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 2550 33400 60  0001 C CNN "Pricing"
+	1    2700 30950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9D080
+P 1500 31500
+F 0 "#PWR?" H 1500 31250 50  0001 C CNN
+F 1 "GNDREF" H 1500 31350 50  0000 C CNN
+F 2 "" H 1500 31500 50  0001 C CNN
+F 3 "" H 1500 31500 50  0001 C CNN
+	1    1500 31500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD1E10B06 D?
+U 1 1 5AF9D091
+P 1850 30900
+F 0 "D?" H 1850 31150 60  0000 C CNN
+F 1 "TPD1E10B06" H 1950 31050 60  0000 C CNN
+F 2 "" H 1750 30800 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 2000 32500 60  0001 C CNN
+F 4 "0.00@0" H 1900 32400 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 2050 32900 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 2100 32600 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 1950 32800 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 1850 32700 60  0001 C CNN "Manufacturer"
+	1    1850 30900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AF9D098
+P 1300 30250
+F 0 "#PWR?" H 1300 30100 50  0001 C CNN
+F 1 "+5V" H 1315 30423 50  0000 C CNN
+F 2 "" H 1300 30250 50  0001 C CNN
+F 3 "" H 1300 30250 50  0001 C CNN
+	1    1300 30250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5AF9D0A3
+P 2400 31500
+F 0 "#PWR?" H 2400 31250 50  0001 C CNN
+F 1 "GNDREF" H 2400 31350 50  0000 C CNN
+F 2 "" H 2400 31500 50  0001 C CNN
+F 3 "" H 2400 31500 50  0001 C CNN
+	1    2400 31500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0582BQ D?
+U 1 1 5AF9D0B2
+P 1300 31300
+F 0 "D?" V 1247 31487 60  0000 L CNN
+F 1 "0582BQ" V 1353 31487 60  0000 L CNN
+F 2 "" H -100 30200 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 1500 33300 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 1200 33450 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 1250 33350 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 1250 33550 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 1150 33650 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 1150 33750 60  0001 C CNN "Pricing"
+	1    1300 31300
+	0    -1   1    0   
+$EndComp
+$Comp
+L ADG734 U?
+U 3 1 5AF9D0C4
+P 4350 30800
+F 0 "U?" H 4325 31147 60  0000 C CNN
+F 1 "ADG734" H 4325 31041 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 4450 31750 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 4150 31650 60  0001 C CNN
+F 4 "0.00@0" H 4350 31250 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 4400 31550 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 4300 31350 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 4350 31450 60  0001 C CNN "Package ID"
+	3    4350 30800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG734 U?
+U 4 1 5AF9D0D5
+P 7600 31650
+F 0 "U?" H 7575 31997 60  0000 C CNN
+F 1 "ADG734" H 7575 31891 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 7700 32600 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 7400 32500 60  0001 C CNN
+F 4 "0.00@0" H 7600 32100 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 7650 32400 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 7550 32200 60  0001 C CNN "Description"
+F 7 "TSSOP20" H 7600 32300 60  0001 C CNN "Package ID"
+	4    7600 31650
+	-1   0    0    -1  
+$EndComp
+Text Notes 1450 32800 0    60   ~ 0
+Address lines for MUXes (2 different voltage levels)\nPTT from IO expander (5v)\ntwo SPDT switches from IO expander (2.5v)
+Text Notes 8100 31700 0    60   ~ 0
+Connect to Stereo Distro amp\nfrom RPi audio out
+Text Notes 7900 30800 0    60   ~ 0
+out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
+Text Notes 4150 31200 0    60   ~ 0
+RPi audio/\nMic audio
+Text Notes 7850 31450 0    60   ~ 0
+L/R RPi\nAudio
+$Comp
+L GNDREF #PWR?
+U 1 1 5B080158
+P 12000 33600
+F 0 "#PWR?" H 12000 33350 50  0001 C CNN
+F 1 "GNDREF" H 12000 33450 50  0000 C CNN
+F 2 "" H 12000 33600 50  0001 C CNN
+F 3 "" H 12000 33600 50  0001 C CNN
+	1    12000 33600
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 12600 1300 950  2500
+U 5A51AE7E
+F0 "sheet5A51AE6A" 60
+F1 "1-8-stereo-buffer-amp.sch" 60
+F2 "L_IN" I L 12600 1500 60 
+F3 "R_IN" I L 12600 1750 60 
+F4 "L_OUT1" O R 13550 1800 60 
+F5 "R_OUT1" O R 13550 1900 60 
+F6 "L_OUT2" O R 13550 2100 60 
+F7 "R_OUT2" O R 13550 2200 60 
+F8 "L_OUT3" O R 13550 2400 60 
+F9 "R_OUT3" O R 13550 2500 60 
+F10 "L_OUT4" O R 13550 2700 60 
+F11 "R_OUT4" O R 13550 2800 60 
+F12 "L_OUT5" O R 13550 3000 60 
+F13 "R_OUT5" O R 13550 3100 60 
+F14 "L_OUT6" O R 13550 3300 60 
+F15 "R_OUT6" O R 13550 3400 60 
+F16 "L_OUT7" O R 13550 3600 60 
+F17 "R_OUT7" O R 13550 3700 60 
+F18 "L_OUT0" O R 13550 1500 60 
+F19 "R_OUT0" O R 13550 1600 60 
+$EndSheet
+Wire Wire Line
+	9550 33000 9550 32800
+Wire Wire Line
+	9550 32800 9850 32800
+Wire Wire Line
+	9850 32800 10150 32800
+Wire Wire Line
+	10150 32800 10450 32800
+Wire Wire Line
+	10450 32800 10750 32800
+Wire Wire Line
+	10750 32800 11050 32800
+Wire Wire Line
+	11050 32800 11350 32800
+Wire Wire Line
+	11350 32800 11650 32800
+Wire Wire Line
+	11650 32800 11750 32800
+Wire Wire Line
+	11750 32800 12000 32800
+Wire Wire Line
+	10150 33000 10150 32800
+Connection ~ 9550 32800
+Wire Wire Line
+	10750 33000 10750 32800
+Connection ~ 10150 32800
+Wire Wire Line
+	11350 33000 11350 32800
+Connection ~ 10750 32800
+Wire Wire Line
+	9850 33000 9850 32800
+Connection ~ 9850 32800
+Wire Wire Line
+	10450 33000 10450 32800
+Connection ~ 10450 32800
+Wire Wire Line
+	11050 33000 11050 32800
+Connection ~ 11050 32800
+Wire Wire Line
+	11650 32800 11650 33000
+Connection ~ 11350 32800
+Connection ~ 11650 32800
+Wire Wire Line
+	12000 32800 12000 33600
+Wire Wire Line
+	9350 30600 9350 33000
+Wire Wire Line
+	9450 30500 9450 33000
+Wire Wire Line
+	9750 26250 9750 33000
+Wire Wire Line
+	9650 26350 9650 33000
+Wire Wire Line
+	10050 22000 10050 33000
+Wire Wire Line
+	9950 22100 9950 33000
+Wire Wire Line
+	10350 17750 10350 33000
+Wire Wire Line
+	10250 17850 10250 33000
+Wire Wire Line
+	10650 13500 10650 33000
+Wire Wire Line
+	10550 13600 10550 33000
+Wire Wire Line
+	10950 9250 10950 33000
+Wire Wire Line
+	10850 9350 10850 33000
+Wire Wire Line
+	11250 5000 11250 33000
+Wire Wire Line
+	11150 5100 11150 33000
+Wire Wire Line
+	11550 750  11550 33000
+Wire Wire Line
+	11450 850  11450 33000
+Wire Wire Line
+	11750 33000 11750 32800
+Connection ~ 11750 32800
+Wire Wire Line
+	9350 30600 7850 30600
+Wire Wire Line
+	9450 30500 7850 30500
+Wire Wire Line
+	9650 26350 7850 26350
+Wire Wire Line
+	7850 26250 9750 26250
+Wire Wire Line
+	9950 22100 7850 22100
+Wire Wire Line
+	10050 22000 7850 22000
+Wire Wire Line
+	7850 17850 10250 17850
+Wire Wire Line
+	10350 17750 7850 17750
+Wire Wire Line
+	7850 13600 10550 13600
+Wire Wire Line
+	10650 13500 7850 13500
+Wire Wire Line
+	7850 9350 10850 9350
+Wire Wire Line
+	10950 9250 7850 9250
+Wire Wire Line
+	7850 5100 11150 5100
+Wire Wire Line
+	11250 5000 7850 5000
+Wire Wire Line
+	7850 850  11450 850 
+Wire Wire Line
+	11550 750  7850 750 
+Wire Wire Line
+	26800 750  26800 1150
+Wire Wire Line
+	26800 1150 26800 1750
+Wire Wire Line
+	26800 1750 26800 2150
+Wire Wire Line
+	26800 2150 26800 2750
+Wire Wire Line
+	26800 2750 26800 3150
+Wire Wire Line
+	26800 3150 26800 3750
+Wire Wire Line
+	26800 3750 26800 4150
+Wire Wire Line
+	26800 4150 26800 4750
+Wire Wire Line
+	26800 4750 26800 5150
+Wire Wire Line
+	26800 5150 26800 5750
+Wire Wire Line
+	26800 5750 26800 6150
+Wire Wire Line
+	26800 6150 26800 6750
+Wire Wire Line
+	26800 6750 26800 7150
+Wire Wire Line
+	26800 7150 26800 7750
+Wire Wire Line
+	26800 7750 26800 8150
+Wire Wire Line
+	26800 8150 26800 8950
+Wire Wire Line
+	26800 7750 26900 7750
+Wire Wire Line
+	26800 750  26900 750 
+Connection ~ 26800 7750
+Wire Wire Line
+	26900 1150 26800 1150
+Connection ~ 26800 1150
+Wire Wire Line
+	26900 2150 26800 2150
+Connection ~ 26800 2150
+Wire Wire Line
+	26900 1750 26800 1750
+Connection ~ 26800 1750
+Wire Wire Line
+	26900 2750 26800 2750
+Connection ~ 26800 2750
+Wire Wire Line
+	26900 3150 26800 3150
+Connection ~ 26800 3150
+Wire Wire Line
+	26900 3750 26800 3750
+Connection ~ 26800 3750
+Wire Wire Line
+	26900 4150 26800 4150
+Connection ~ 26800 4150
+Wire Wire Line
+	26900 4750 26800 4750
+Connection ~ 26800 4750
+Wire Wire Line
+	26900 5150 26800 5150
+Connection ~ 26800 5150
+Wire Wire Line
+	26900 5750 26800 5750
+Connection ~ 26800 5750
+Wire Wire Line
+	26900 6150 26800 6150
+Connection ~ 26800 6150
+Wire Wire Line
+	26900 6750 26800 6750
+Connection ~ 26800 6750
+Wire Wire Line
+	26900 7150 26800 7150
+Connection ~ 26800 7150
+Wire Wire Line
+	26900 8150 26800 8150
+Connection ~ 26800 8150
+Wire Wire Line
+	26900 1250 26750 1250
+Wire Wire Line
+	26750 700  26750 1250
+Wire Wire Line
+	26750 1250 26750 2250
+Wire Wire Line
+	26750 2250 26750 3250
+Wire Wire Line
+	26750 3250 26750 4250
+Wire Wire Line
+	26750 4250 26750 5250
+Wire Wire Line
+	26750 5250 26750 6250
+Wire Wire Line
+	26750 6250 26750 7250
+Wire Wire Line
+	26750 7250 26750 8250
+Wire Wire Line
+	26750 2250 26900 2250
+Wire Wire Line
+	26750 3250 26900 3250
+Connection ~ 26750 2250
+Wire Wire Line
+	26750 4250 26900 4250
+Connection ~ 26750 3250
+Wire Wire Line
+	26750 5250 26900 5250
+Connection ~ 26750 4250
+Wire Wire Line
+	26750 6250 26900 6250
+Connection ~ 26750 5250
+Wire Wire Line
+	26750 7250 26900 7250
+Connection ~ 26750 6250
+Wire Wire Line
+	26750 8250 26900 8250
+Connection ~ 26750 7250
+Wire Wire Line
+	22850 6850 23300 6850
+Wire Wire Line
+	23300 6850 26900 6850
+Wire Wire Line
+	22850 5850 23300 5850
+Wire Wire Line
+	23300 5850 26900 5850
+Wire Wire Line
+	22850 4850 23300 4850
+Wire Wire Line
+	23300 4850 26900 4850
+Wire Wire Line
+	22850 3850 23300 3850
+Wire Wire Line
+	23300 3850 26900 3850
+Wire Wire Line
+	22850 2850 23300 2850
+Wire Wire Line
+	23300 2850 26900 2850
+Wire Wire Line
+	23150 7950 23450 7950
+Wire Wire Line
+	23450 7950 26900 7950
+Wire Wire Line
+	23150 5950 23450 5950
+Wire Wire Line
+	23450 5950 26900 5950
+Wire Wire Line
+	23150 4950 23450 4950
+Wire Wire Line
+	23450 4950 26900 4950
+Wire Wire Line
+	23150 3950 23450 3950
+Wire Wire Line
+	23450 3950 26900 3950
+Wire Wire Line
+	23150 2950 23450 2950
+Wire Wire Line
+	23450 2950 26900 2950
+Wire Wire Line
+	26550 1050 26650 1050
+Wire Wire Line
+	26650 1050 26900 1050
+Wire Wire Line
+	26550 2050 26650 2050
+Wire Wire Line
+	26650 2050 26900 2050
+Wire Wire Line
+	26550 3050 26650 3050
+Wire Wire Line
+	26650 3050 26900 3050
+Wire Wire Line
+	26550 4050 26650 4050
+Wire Wire Line
+	26650 4050 26900 4050
+Wire Wire Line
+	26550 5050 26650 5050
+Wire Wire Line
+	26650 5050 26900 5050
+Wire Wire Line
+	26550 6050 26650 6050
+Wire Wire Line
+	26650 6050 26900 6050
+Wire Wire Line
+	26550 7050 26650 7050
+Wire Wire Line
+	26650 7050 26900 7050
+Wire Wire Line
+	26550 8050 26650 8050
+Wire Wire Line
+	26650 8050 26900 8050
+Wire Wire Line
+	26250 8050 26350 8050
+Wire Wire Line
+	26250 1050 26350 1050
+Wire Wire Line
+	26250 2050 26350 2050
+Wire Wire Line
+	26250 3050 26350 3050
+Wire Wire Line
+	26250 4050 26350 4050
+Wire Wire Line
+	26250 5050 26350 5050
+Wire Wire Line
+	26250 6050 26350 6050
+Wire Wire Line
+	26250 7050 26350 7050
+Wire Wire Line
+	26250 1450 26450 1450
+Wire Wire Line
+	26450 1450 26900 1450
+Wire Wire Line
+	26250 1350 26600 1350
+Wire Wire Line
+	26600 1350 26900 1350
+Wire Wire Line
+	26250 2450 26400 2450
+Wire Wire Line
+	26400 2450 26900 2450
+Wire Wire Line
+	26250 2350 26550 2350
+Wire Wire Line
+	26550 2350 26900 2350
+Wire Wire Line
+	26250 3450 26400 3450
+Wire Wire Line
+	26400 3450 26900 3450
+Wire Wire Line
+	26250 3350 26550 3350
+Wire Wire Line
+	26550 3350 26900 3350
+Wire Wire Line
+	26250 4450 26400 4450
+Wire Wire Line
+	26400 4450 26900 4450
+Wire Wire Line
+	26250 4350 26550 4350
+Wire Wire Line
+	26550 4350 26900 4350
+Wire Wire Line
+	26250 5450 26400 5450
+Wire Wire Line
+	26400 5450 26900 5450
+Wire Wire Line
+	26250 5350 26550 5350
+Wire Wire Line
+	26550 5350 26900 5350
+Wire Wire Line
+	26250 6450 26400 6450
+Wire Wire Line
+	26400 6450 26900 6450
+Wire Wire Line
+	26250 6350 26550 6350
+Wire Wire Line
+	26550 6350 26900 6350
+Wire Wire Line
+	26250 7450 26400 7450
+Wire Wire Line
+	26400 7450 26900 7450
+Wire Wire Line
+	26250 7350 26550 7350
+Wire Wire Line
+	26550 7350 26900 7350
+Wire Wire Line
+	26250 8450 26400 8450
+Wire Wire Line
+	26400 8450 26900 8450
+Wire Wire Line
+	26250 8350 26550 8350
+Wire Wire Line
+	26550 8350 26900 8350
+Wire Wire Line
+	21800 13500 21550 13500
+Wire Wire Line
+	21550 13600 21800 13600
+Wire Wire Line
+	21550 14000 21800 14000
+Wire Wire Line
+	21550 14100 21800 14100
+Wire Wire Line
+	21550 14350 21800 14350
+Wire Wire Line
+	21550 14450 21800 14450
+Wire Wire Line
+	21550 14550 21800 14550
+Wire Wire Line
+	25600 13250 25750 13250
+Wire Wire Line
+	25750 13250 26400 13250
+Wire Wire Line
+	25600 13350 25700 13350
+Wire Wire Line
+	25700 13350 26400 13350
+Wire Wire Line
+	25850 13050 25850 13150
+Wire Wire Line
+	25850 13150 25850 13900
+Wire Wire Line
+	26400 13450 25800 13450
+Wire Wire Line
+	25800 13450 25800 14200
+Wire Wire Line
+	25800 14200 25800 14250
+Wire Wire Line
+	25800 14200 26400 14200
+Wire Wire Line
+	26400 14000 25750 14000
+Wire Wire Line
+	25750 14000 25750 13250
+Connection ~ 25750 13250
+Wire Wire Line
+	26400 14100 25700 14100
+Wire Wire Line
+	25700 14100 25700 13350
+Connection ~ 25700 13350
+Connection ~ 25800 14200
+Connection ~ 25850 13150
+Wire Wire Line
+	26300 13150 26400 13150
+Wire Wire Line
+	26100 13150 25850 13150
+Wire Wire Line
+	26400 13900 26300 13900
+Wire Wire Line
+	25850 13900 26100 13900
+Wire Wire Line
+	15100 11300 15550 11300
+Wire Wire Line
+	15100 11400 15550 11400
+Wire Wire Line
+	15550 10900 15300 10900
+Wire Wire Line
+	15300 10900 15300 10800
+Connection ~ 15100 11300
+Wire Wire Line
+	15500 10700 15550 10700
+Wire Wire Line
+	15450 10800 15550 10800
+Wire Wire Line
+	15550 11200 15450 11200
+Wire Wire Line
+	15250 11200 14950 11200
+Wire Wire Line
+	14950 11200 14950 11150
+Wire Wire Line
+	15550 11000 15200 11000
+Wire Wire Line
+	15550 11100 15150 11100
+Wire Wire Line
+	19600 850  19950 850 
+Wire Wire Line
+	19600 1000 19950 1000
+Wire Wire Line
+	19950 1850 19600 1850
+Wire Wire Line
+	19600 2000 19950 2000
+Wire Wire Line
+	19600 3000 19950 3000
+Wire Wire Line
+	19600 2850 19950 2850
+Wire Wire Line
+	19600 3850 19950 3850
+Wire Wire Line
+	19600 4000 19950 4000
+Wire Wire Line
+	19600 4850 19950 4850
+Wire Wire Line
+	19600 5000 19950 5000
+Wire Wire Line
+	19600 5850 19950 5850
+Wire Wire Line
+	19600 6000 19950 6000
+Wire Wire Line
+	19600 6850 19950 6850
+Wire Wire Line
+	19600 7000 19950 7000
+Wire Wire Line
+	19600 7850 19950 7850
+Wire Wire Line
+	19600 8000 19950 8000
+Wire Wire Line
+	18150 850  19000 850 
+Wire Wire Line
+	18450 1000 19000 1000
+Wire Wire Line
+	18450 2000 19000 2000
+Wire Wire Line
+	18150 1850 19000 1850
+Wire Wire Line
+	18150 2850 19000 2850
+Wire Wire Line
+	18450 3000 19000 3000
+Wire Wire Line
+	18150 3850 19000 3850
+Wire Wire Line
+	18150 4850 19000 4850
+Wire Wire Line
+	18450 5000 19000 5000
+Wire Wire Line
+	18150 5850 19000 5850
+Wire Wire Line
+	18450 6000 19000 6000
+Wire Wire Line
+	18150 6850 19000 6850
+Wire Wire Line
+	18150 7850 19000 7850
+Wire Wire Line
+	18450 8000 19000 8000
+Wire Wire Line
+	18450 4000 19000 4000
+Wire Wire Line
+	18450 7000 19000 7000
+Wire Wire Line
+	23450 950  23450 1100
+Wire Wire Line
+	23450 1100 23600 1100
+Connection ~ 23450 950 
+Wire Wire Line
+	23300 850  23300 1300
+Wire Wire Line
+	23300 1300 23600 1300
+Connection ~ 23300 850 
+Wire Wire Line
+	23900 1200 24100 1200
+Wire Wire Line
+	24100 1150 24100 1200
+Wire Wire Line
+	24100 1200 24100 1600
+Wire Wire Line
+	24100 1600 24100 1650
+Wire Wire Line
+	23450 1950 23450 2100
+Wire Wire Line
+	23450 2100 23600 2100
+Wire Wire Line
+	23300 1850 23300 2300
+Wire Wire Line
+	23300 2300 23600 2300
+Wire Wire Line
+	23900 2200 24100 2200
+Wire Wire Line
+	24100 2150 24100 2200
+Wire Wire Line
+	24100 2200 24100 2600
+Wire Wire Line
+	24100 2600 24100 2650
+Connection ~ 23450 1950
+Connection ~ 23300 1850
+Wire Wire Line
+	23450 2950 23450 3100
+Wire Wire Line
+	23450 3100 23600 3100
+Wire Wire Line
+	23300 2850 23300 3300
+Wire Wire Line
+	23300 3300 23600 3300
+Wire Wire Line
+	23900 3200 24100 3200
+Wire Wire Line
+	24100 3150 24100 3200
+Wire Wire Line
+	24100 3200 24100 3600
+Wire Wire Line
+	24100 3600 24100 3650
+Wire Wire Line
+	23450 3950 23450 4100
+Wire Wire Line
+	23450 4100 23600 4100
+Wire Wire Line
+	23300 3850 23300 4300
+Wire Wire Line
+	23300 4300 23600 4300
+Wire Wire Line
+	23900 4200 24100 4200
+Wire Wire Line
+	24100 4150 24100 4200
+Wire Wire Line
+	24100 4200 24100 4600
+Wire Wire Line
+	24100 4600 24100 4650
+Connection ~ 23450 2950
+Connection ~ 23300 2850
+Connection ~ 23300 3850
+Connection ~ 23450 3950
+Wire Wire Line
+	23450 4950 23450 5100
+Wire Wire Line
+	23450 5100 23600 5100
+Wire Wire Line
+	23300 4850 23300 5300
+Wire Wire Line
+	23300 5300 23600 5300
+Wire Wire Line
+	23900 5200 24100 5200
+Wire Wire Line
+	24100 5150 24100 5200
+Wire Wire Line
+	24100 5200 24100 5600
+Wire Wire Line
+	24100 5600 24100 5650
+Wire Wire Line
+	23450 5950 23450 6100
+Wire Wire Line
+	23450 6100 23600 6100
+Wire Wire Line
+	23300 5850 23300 6300
+Wire Wire Line
+	23300 6300 23600 6300
+Wire Wire Line
+	23900 6200 24100 6200
+Wire Wire Line
+	24100 6150 24100 6200
+Wire Wire Line
+	24100 6200 24100 6600
+Wire Wire Line
+	24100 6600 24100 6650
+Connection ~ 23450 5950
+Connection ~ 23300 5850
+Connection ~ 23450 4950
+Connection ~ 23300 4850
+Wire Wire Line
+	23450 6950 23450 7100
+Wire Wire Line
+	23450 7100 23600 7100
+Wire Wire Line
+	23300 6850 23300 7300
+Wire Wire Line
+	23300 7300 23600 7300
+Wire Wire Line
+	23900 7200 24100 7200
+Wire Wire Line
+	24100 7150 24100 7200
+Wire Wire Line
+	24100 7200 24100 7600
+Wire Wire Line
+	24100 7600 24100 7650
+Wire Wire Line
+	23450 7950 23450 8100
+Wire Wire Line
+	23450 8100 23600 8100
+Wire Wire Line
+	23300 7850 23300 8300
+Wire Wire Line
+	23300 8300 23600 8300
+Wire Wire Line
+	23900 8200 24100 8200
+Wire Wire Line
+	24100 8150 24100 8200
+Wire Wire Line
+	24100 8200 24100 8600
+Wire Wire Line
+	24100 8600 24100 8650
+Connection ~ 23450 7950
+Connection ~ 23300 7850
+Connection ~ 23450 6950
+Connection ~ 23300 6850
+Connection ~ 24100 1200
+Wire Wire Line
+	24500 1150 26650 1150
+Wire Wire Line
+	26650 1150 26650 1050
+Connection ~ 26650 1050
+Connection ~ 24100 2200
+Wire Wire Line
+	24500 2150 26650 2150
+Wire Wire Line
+	26650 2150 26650 2050
+Connection ~ 26650 2050
+Wire Wire Line
+	24500 3150 26650 3150
+Wire Wire Line
+	26650 3150 26650 3050
+Connection ~ 26650 3050
+Connection ~ 24100 3200
+Connection ~ 24100 4200
+Wire Wire Line
+	24500 4150 26650 4150
+Wire Wire Line
+	26650 4150 26650 4050
+Connection ~ 26650 4050
+Connection ~ 24100 5200
+Wire Wire Line
+	24500 5150 26650 5150
+Wire Wire Line
+	26650 5150 26650 5050
+Connection ~ 26650 5050
+Connection ~ 24100 6200
+Wire Wire Line
+	24500 6150 26650 6150
+Wire Wire Line
+	26650 6150 26650 6050
+Connection ~ 26650 6050
+Connection ~ 24100 7200
+Wire Wire Line
+	24500 7150 26650 7150
+Wire Wire Line
+	26650 7150 26650 7050
+Connection ~ 26650 7050
+Connection ~ 24100 8200
+Wire Wire Line
+	24500 8150 26650 8150
+Wire Wire Line
+	26650 8150 26650 8050
+Connection ~ 26650 8050
+Wire Wire Line
+	24100 8600 24450 8600
+Connection ~ 24100 8600
+Wire Wire Line
+	24750 8700 26550 8700
+Wire Wire Line
+	26550 8700 26550 8350
+Connection ~ 26550 8350
+Wire Wire Line
+	26400 8450 26400 8500
+Wire Wire Line
+	26400 8500 24750 8500
+Connection ~ 26400 8450
+Wire Wire Line
+	24750 7700 26550 7700
+Wire Wire Line
+	26550 7700 26550 7350
+Connection ~ 26550 7350
+Wire Wire Line
+	24750 7500 26400 7500
+Wire Wire Line
+	26400 7500 26400 7450
+Connection ~ 26400 7450
+Wire Wire Line
+	24450 7600 24100 7600
+Connection ~ 24100 7600
+Wire Wire Line
+	21900 7950 22950 7950
+Wire Wire Line
+	21900 7850 22650 7850
+Wire Wire Line
+	22850 7850 23300 7850
+Wire Wire Line
+	23300 7850 26900 7850
+Wire Wire Line
+	23150 6950 23450 6950
+Wire Wire Line
+	23450 6950 26900 6950
 Wire Wire Line
 	21900 950  22950 950 
 Wire Wire Line
-	23150 950  26900 950 
+	23150 950  23450 950 
+Wire Wire Line
+	23450 950  26900 950 
 Wire Wire Line
 	21900 850  22650 850 
 Wire Wire Line
-	22850 850  26900 850 
+	22850 850  23300 850 
+Wire Wire Line
+	23300 850  26900 850 
 Wire Wire Line
 	21900 1850 22650 1850
 Wire Wire Line
-	22850 1850 26900 1850
+	22850 1850 23300 1850
+Wire Wire Line
+	23300 1850 26900 1850
 Wire Wire Line
 	21900 1950 22950 1950
 Wire Wire Line
-	23150 1950 26900 1950
+	23150 1950 23450 1950
+Wire Wire Line
+	23450 1950 26900 1950
 Wire Wire Line
 	21900 2850 22650 2850
 Wire Wire Line
@@ -2922,95 +5800,46 @@ Connection ~ 24100 6600
 Wire Bus Line
 	18050 7700 17200 7700
 Wire Bus Line
-	18350 1100 18350 8100
-Text Label 18050 2750 1    60   ~ 0
-L_OUT[0..7]
-Text Label 18350 2750 1    60   ~ 0
-R_OUT[0..7]
-Entry Wire Line
-	18050 950  18150 850 
-Entry Wire Line
-	18050 1950 18150 1850
-Entry Wire Line
-	18050 2950 18150 2850
-Entry Wire Line
-	18050 3950 18150 3850
-Entry Wire Line
-	18050 4950 18150 4850
-Entry Wire Line
-	18050 5950 18150 5850
-Entry Wire Line
-	18050 6950 18150 6850
-Entry Wire Line
-	18050 7950 18150 7850
-Entry Wire Line
-	18350 1100 18450 1000
-Entry Wire Line
-	18350 2100 18450 2000
-Entry Wire Line
-	18350 3100 18450 3000
-Entry Wire Line
-	18350 4100 18450 4000
-Entry Wire Line
-	18350 5100 18450 5000
-Entry Wire Line
-	18350 6100 18450 6000
-Entry Wire Line
-	18350 7100 18450 7000
-Entry Wire Line
-	18350 8100 18450 8000
+	18350 1100 18350 2100
 Wire Bus Line
-	18050 950  18050 7950
-Text Label 18650 850  0    60   ~ 0
-L_OUT0
-Text Label 18650 1850 0    60   ~ 0
-L_OUT1
-Text Label 18650 2850 0    60   ~ 0
-L_OUT2
-Text Label 18650 3850 0    60   ~ 0
-L_OUT3
-Text Label 18650 4850 0    60   ~ 0
-L_OUT4
-Text Label 18650 5850 0    60   ~ 0
-L_OUT5
-Text Label 18650 6850 0    60   ~ 0
-L_OUT6
-Text Label 18650 7850 0    60   ~ 0
-L_OUT7
-Text Label 18650 1000 0    60   ~ 0
-R_OUT0
-Text Label 18650 2000 0    60   ~ 0
-R_OUT1
-Text Label 18650 3000 0    60   ~ 0
-R_OUT2
-Text Label 18650 4000 0    60   ~ 0
-R_OUT3
-Text Label 18650 5000 0    60   ~ 0
-R_OUT4
-Text Label 18650 6000 0    60   ~ 0
-R_OUT5
-Text Label 18650 7000 0    60   ~ 0
-R_OUT6
-Text Label 18650 8000 0    60   ~ 0
-R_OUT7
+	18350 2100 18350 3100
+Wire Bus Line
+	18350 3100 18350 4100
+Wire Bus Line
+	18350 4100 18350 5100
+Wire Bus Line
+	18350 5100 18350 6100
+Wire Bus Line
+	18350 6100 18350 7100
+Wire Bus Line
+	18350 7100 18350 7800
+Wire Bus Line
+	18350 7800 18350 8100
+Wire Bus Line
+	18050 950  18050 1950
+Wire Bus Line
+	18050 1950 18050 2950
+Wire Bus Line
+	18050 2950 18050 3950
+Wire Bus Line
+	18050 3950 18050 4950
+Wire Bus Line
+	18050 4950 18050 5950
+Wire Bus Line
+	18050 5950 18050 6950
+Wire Bus Line
+	18050 6950 18050 7700
+Wire Bus Line
+	18050 7700 18050 7950
 Wire Bus Line
 	18350 7800 17200 7800
 Connection ~ 18050 7700
 Connection ~ 18350 7800
-$Comp
-L GNDREF #PWR061
-U 1 1 59070455
-P 15100 11550
-F 0 "#PWR061" H 15100 11300 50  0001 C CNN
-F 1 "GNDREF" H 15100 11400 50  0000 C CNN
-F 2 "" H 15100 11550 50  0001 C CNN
-F 3 "" H 15100 11550 50  0001 C CNN
-	1    15100 11550
-	1    0    0    -1  
-$EndComp
 Connection ~ 15100 11400
 Wire Wire Line
-	15100 11300 15100 11550
+	15100 11300 15100 11400
+Wire Wire Line
+	15100 11400 15100 11550
 Wire Wire Line
 	15500 10700 15500 8550
 Wire Wire Line
@@ -3019,58 +5848,6 @@ Wire Wire Line
 	15450 10800 15450 8650
 Wire Wire Line
 	15450 8650 15850 8650
-$Sheet
-S 14750 3000 1850 850 
-U 5AC2564C
-F0 "Mic DA 1" 60
-F1 "stereo-1-1-distro-amp.sch" 60
-F2 "L_IN" I R 16600 3100 60 
-F3 "R_IN" I R 16600 3200 60 
-F4 "L_OUT" O L 14750 3100 60 
-F5 "R_OUT" O L 14750 3200 60 
-$EndSheet
-$Sheet
-S 14750 4500 1850 850 
-U 5AC265D5
-F0 "Mic DA 2" 60
-F1 "stereo-1-1-distro-amp.sch" 60
-F2 "L_IN" I R 16600 4600 60 
-F3 "R_IN" I R 16600 4700 60 
-F4 "L_OUT" O L 14750 4600 60 
-F5 "R_OUT" O L 14750 4700 60 
-$EndSheet
-$Sheet
-S 14750 6000 1850 850 
-U 5AC2753A
-F0 "Mic DA 3" 60
-F1 "stereo-1-1-distro-amp.sch" 60
-F2 "L_IN" I R 16600 6100 60 
-F3 "R_IN" I R 16600 6200 60 
-F4 "L_OUT" O L 14750 6100 60 
-F5 "R_OUT" O L 14750 6200 60 
-$EndSheet
-Wire Notes Line
-	14750 2350 14750 3000
-Wire Notes Line
-	14750 3850 14750 4500
-Wire Notes Line
-	14750 5350 14750 6000
-Text Label 16800 1600 0    60   ~ 0
-MIC-IN-0
-Text Label 16800 3100 0    60   ~ 0
-MIC-IN-2
-Text Label 16800 4600 0    60   ~ 0
-MIC-IN-4
-Text Label 16800 6100 0    60   ~ 0
-MIC-IN-6
-Text Label 16800 1700 0    60   ~ 0
-MIC-IN-1
-Text Label 16800 3200 0    60   ~ 0
-MIC-IN-3
-Text Label 16800 4700 0    60   ~ 0
-MIC-IN-5
-Text Label 16800 6200 0    60   ~ 0
-MIC-IN-7
 Wire Wire Line
 	16600 1600 16800 1600
 Wire Wire Line
@@ -3087,80 +5864,12 @@ Wire Wire Line
 	16600 4700 16800 4700
 Wire Wire Line
 	16600 6200 16800 6200
-$Comp
-L TCA9555 U?
-U 1 1 5AD181E4
-P 25800 10050
-F 0 "U?" H 25800 11097 60  0000 C CNN
-F 1 "TCA9555" H 25800 10991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 26000 11250 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 26100 11350 60  0001 C CNN
-F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 26050 11500 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H 25800 11600 60  0001 C CNN "Manufacturer"
-F 6 "Low-Voltage 16-Bit I 2C and SMBus I/O Expander with Interrupt Output and Configuration Registers" H 26000 11700 60  0001 C CNN "Description"
-F 7 "TSSOP24" H 25850 11800 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 25850 11900 60  0001 C CNN "Pricing"
-	1    25800 10050
-	1    0    0    -1  
-$EndComp
-Text Label 25250 9250 2    60   ~ 0
-PTT-0
-Text Label 25250 9350 2    60   ~ 0
-PTT-1
-Text Label 25250 9450 2    60   ~ 0
-PTT-2
-Text Label 25250 9550 2    60   ~ 0
-PTT-3
-Text Label 25250 9650 2    60   ~ 0
-PTT-4
-Text Label 25250 9750 2    60   ~ 0
-PTT-5
-Text Label 25250 9850 2    60   ~ 0
-PTT-6
-Text Label 25250 9950 2    60   ~ 0
-PTT-7
-Text Label 25250 10150 2    60   ~ 0
-MIC-MUTE-0
-Text Label 25250 10250 2    60   ~ 0
-MIC-MUTE-1
-Text Label 25250 10350 2    60   ~ 0
-MIC-MUTE-2
-Text Label 25250 10450 2    60   ~ 0
-MIC-MUTE-3
-Text Label 25250 10550 2    60   ~ 0
-MIC-MUTE-4
-Text Label 25250 10650 2    60   ~ 0
-MIC-MUTE-5
-Text Label 25250 10750 2    60   ~ 0
-MIC-MUTE-6
-Text Label 25250 10850 2    60   ~ 0
-MIC-MUTE-7
-$Comp
-L GNDREF #PWR?
-U 1 1 5AD3C322
-P 26300 10950
-F 0 "#PWR?" H 26300 10700 50  0001 C CNN
-F 1 "GNDREF" H 26305 10777 50  0000 C CNN
-F 2 "" H 26300 10950 50  0001 C CNN
-F 3 "" H 26300 10950 50  0001 C CNN
-	1    26300 10950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	26250 10850 26700 10850
+	26250 10850 26300 10850
+Wire Wire Line
+	26300 10850 26700 10850
 Wire Wire Line
 	26300 10850 26300 10950
-$Comp
-L +5V #PWR?
-U 1 1 5AD4D94A
-P 26750 700
-F 0 "#PWR?" H 26750 550 50  0001 C CNN
-F 1 "+5V" H 26765 873 50  0000 C CNN
-F 2 "" H 26750 700 50  0001 C CNN
-F 3 "" H 26750 700 50  0001 C CNN
-	1    26750 700 
-	1    0    0    -1  
-$EndComp
 Connection ~ 26750 1250
 Wire Wire Line
 	24500 9250 25350 9250
@@ -3194,32 +5903,14 @@ Wire Wire Line
 	24500 10750 25350 10750
 Wire Wire Line
 	24500 10850 25350 10850
-$Comp
-L +5V #PWR?
-U 1 1 5AD5FE17
-P 26350 9100
-F 0 "#PWR?" H 26350 8950 50  0001 C CNN
-F 1 "+5V" H 26365 9273 50  0000 C CNN
-F 2 "" H 26350 9100 50  0001 C CNN
-F 3 "" H 26350 9100 50  0001 C CNN
-	1    26350 9100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	26250 9250 26400 9250
+	26250 9250 26300 9250
+Wire Wire Line
+	26300 9250 26350 9250
+Wire Wire Line
+	26350 9250 26400 9250
 Wire Wire Line
 	26350 9250 26350 9100
-$Comp
-L R_Small R?
-U 1 1 5AD6B300
-P 26300 9450
-F 0 "R?" H 26359 9496 50  0000 L CNN
-F 1 "10k" H 26359 9405 50  0000 L CNN
-F 2 "" H 26300 9450 50  0001 C CNN
-F 3 "" H 26300 9450 50  0001 C CNN
-	1    26300 9450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	26300 9550 26300 9650
 Wire Wire Line
@@ -3227,1190 +5918,1936 @@ Wire Wire Line
 Wire Wire Line
 	26300 9350 26300 9250
 Connection ~ 26300 9250
-$Comp
-L C_Small C?
-U 1 1 5AD6DCD7
-P 26500 9250
-F 0 "C?" V 26271 9250 50  0000 C CNN
-F 1 "0.1uF" V 26362 9250 50  0000 C CNN
-F 2 "" H 26500 9250 50  0001 C CNN
-F 3 "" H 26500 9250 50  0001 C CNN
-	1    26500 9250
-	0    1    1    0   
-$EndComp
 Connection ~ 26350 9250
 Wire Wire Line
 	26700 10850 26700 9250
 Connection ~ 26300 10850
 Wire Wire Line
 	26700 9250 26600 9250
-Connection ~ 6000 4300
-Connection ~ 5900 4200
-Connection ~ 5800 4100
-Connection ~ 5700 4000
-Connection ~ 5600 3900
-Connection ~ 5500 3800
-Connection ~ 5400 3700
-Connection ~ 5300 3600
 Wire Wire Line
-	3950 4900 4500 4900
+	1500 650  1500 1050
 Wire Wire Line
-	3950 4800 4550 4800
+	1500 1050 1500 1700
 Wire Wire Line
-	3950 4700 4600 4700
+	1500 1700 1500 1750
 Wire Wire Line
-	3950 4600 4650 4600
+	1200 650  1500 650 
 Wire Wire Line
-	3950 4500 4700 4500
+	1200 750  2900 750 
 Wire Wire Line
-	3950 4400 4750 4400
+	2900 750  6000 750 
 Wire Wire Line
-	3950 4300 6050 4300
+	1200 850  3000 850 
 Wire Wire Line
-	3950 4200 5950 4200
+	3000 850  6000 850 
 Wire Wire Line
-	3950 4100 5850 4100
+	1200 1350 1250 1350
 Wire Wire Line
-	3950 4000 5750 4000
+	1250 1350 1600 1350
 Wire Wire Line
-	3950 3900 5650 3900
+	2200 1200 2200 1350
 Wire Wire Line
-	3950 3800 5550 3800
+	1600 1200 2200 1200
 Wire Wire Line
-	3950 3700 5450 3700
+	1600 1250 1600 1200
 Wire Wire Line
-	3950 3600 5450 3600
-NoConn ~ 24500 10050
-$Comp
-L R_Network17 RN1
-U 1 1 591C378D
-P 24300 10050
-F 0 "RN1" V 23400 10050 50  0000 C CNN
-F 1 "4818P-T02-202LF" V 25200 10050 50  0000 C CNN
-F 2 "SW-Bournes:SOM-18" V 25075 10050 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/54/800P-777115.pdf" V 23600 10050 50  0001 C CNN
-F 4 "Bournes" H 24300 10050 60  0001 C CNN "Manufacturer"
-F 5 "Resistor Network star topology" H 24200 10800 60  0001 C CNN "Description"
-F 6 "SOM-18" H 24300 10050 60  0001 C CNN "Package ID"
-F 7 "0.00@0" H 24250 10700 60  0001 C CNN "Pricing"
-	1    24300 10050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GNDREF #PWR058
-U 1 1 58F504DD
-P 24100 10850
-F 0 "#PWR058" H 24100 10600 50  0001 C CNN
-F 1 "GNDREF" H 24100 10700 50  0000 C CNN
-F 2 "" H 24100 10850 50  0001 C CNN
-F 3 "" H 24100 10850 50  0001 C CNN
-	1    24100 10850
-	0    1    -1   0   
-$EndComp
-Text Label 6050 4300 0    60   ~ 0
-PTT-0
-Text Label 5950 4200 0    60   ~ 0
-PTT-1
-Text Label 5850 4100 0    60   ~ 0
-PTT-2
-Text Label 5750 4000 0    60   ~ 0
-PTT-3
-Text Label 5650 3900 0    60   ~ 0
-PTT-4
-Text Label 5550 3800 0    60   ~ 0
-PTT-5
-Text Label 5450 3700 0    60   ~ 0
-PTT-6
-Text Label 5450 3600 0    60   ~ 0
-PTT-7
-Text Notes 10650 12300 0    60   ~ 0
-PTT logic, can either be controlled via headset\nPTT wire or through IO expander from PI\n\nMic Mute logic, IO expander accepts signal into pi, \nIO expander provides signal from pi. Switching is\ncontrolled via i2c SPST switch
-$Comp
-L Conn_01x07 J?
-U 1 1 5AE598ED
-P -8900 3350
-F 0 "J?" H -8900 3800 50  0000 C CNN
-F 1 "Device 1" V -8800 3350 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H -8900 3350 50  0001 C CNN
-F 3 "" H -8900 3350 50  0001 C CNN
-F 4 "0.00@0" H -8900 3350 60  0001 C CNN "Pricing"
-	1    -8900 3350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE598F4
-P -7300 3350
-F 0 "C?" H -7290 3420 50  0000 L CNN
-F 1 "10u" H -7290 3270 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -7300 3350 50  0001 C CNN
-F 3 "" H -7300 3350 50  0001 C CNN
-	1    -7300 3350
-	0    1    1    0   
-$EndComp
-Text Notes -7950 3100 0    60   ~ 0
-cap to block dc bias from devices
-Text HLabel -8300 3150 2    60   Output ~ 0
-LEFT-OUT
-Text HLabel -8300 3250 2    60   Output ~ 0
-RIGHT-OUT
-Text HLabel -8500 3950 3    60   Input ~ 0
-AUDIO-GROUND
-Text HLabel -2650 3250 2    60   Input ~ 0
-MIC-IN-0
-Text HLabel -2650 3350 2    60   Input ~ 0
-MIC-IN-1
-Text HLabel -2650 3450 2    60   Input ~ 0
-MIC-IN-2
-Text HLabel -2650 3550 2    60   Input ~ 0
-MIC-IN-3
-Text HLabel -2650 3650 2    60   Input ~ 0
-MIC-IN-4
-Text HLabel -2650 3750 2    60   Input ~ 0
-MIC-IN-5
-Text HLabel -2650 3850 2    60   Input ~ 0
-MIC-IN-6
-Text HLabel -2650 3950 2    60   Input ~ 0
-MIC-IN-7
-Text HLabel -2650 4550 2    60   Input ~ 0
-PTT-0
-Text HLabel -2650 4650 2    60   Input ~ 0
-PTT-1
-Text HLabel -2650 4750 2    60   Input ~ 0
-PTT-2
-Text HLabel -2650 4850 2    60   Input ~ 0
-PTT-3
-Text HLabel -2650 4950 2    60   Input ~ 0
-PTT-4
-Text HLabel -2650 5050 2    60   Input ~ 0
-PTT-5
-Text HLabel -2650 5150 2    60   Input ~ 0
-PTT-6
-Text HLabel -2650 5250 2    60   Input ~ 0
-PTT-7
+	1200 1250 1400 1250
 Wire Wire Line
-	-8500 3050 -8500 3950
+	1400 1250 1600 1250
 Wire Wire Line
-	-8700 3050 -8500 3050
+	1200 950  1600 950 
 Wire Wire Line
-	-8700 3150 -8300 3150
+	1600 950  3050 950 
 Wire Wire Line
-	-8700 3250 -8300 3250
+	1200 1050 1500 1050
 Wire Wire Line
-	-8700 3650 -8400 3650
+	3300 950  3250 950 
+Connection ~ 1500 1050
 Wire Wire Line
-	-7800 3500 -7800 3650
+	2200 1500 3050 1500
 Wire Wire Line
-	-8400 3500 -7800 3500
+	3650 1400 3950 1400
 Wire Wire Line
-	-8400 3500 -8400 3550
+	7000 2250 7300 2250
 Wire Wire Line
-	-8400 3550 -8700 3550
+	7000 2350 7300 2350
 Wire Wire Line
-	-8700 3350 -7400 3350
+	7000 2450 7300 2450
 Wire Wire Line
-	-8700 3450 -8500 3450
+	7000 2550 7300 2550
 Wire Wire Line
-	-7150 3350 -7200 3350
-Connection ~ -8500 3450
+	7000 2650 7300 2650
 Wire Wire Line
-	-6550 3350 -4800 3350
+	7000 2750 7300 2750
 Wire Wire Line
-	-7800 3800 -7450 3800
+	7000 2850 7300 2850
 Wire Wire Line
-	-2950 3250 -2650 3250
+	7000 2950 7300 2950
 Wire Wire Line
-	-2950 3350 -2650 3350
+	7000 3550 7300 3550
 Wire Wire Line
-	-2950 3450 -2650 3450
+	7000 3650 7300 3650
 Wire Wire Line
-	-2950 3550 -2650 3550
+	7000 3750 7300 3750
 Wire Wire Line
-	-2950 3650 -2650 3650
+	7000 3850 7300 3850
 Wire Wire Line
-	-2950 3750 -2650 3750
+	7000 3950 7300 3950
 Wire Wire Line
-	-2950 3850 -2650 3850
+	7000 4050 7300 4050
 Wire Wire Line
-	-2950 3950 -2650 3950
+	7000 4150 7300 4150
 Wire Wire Line
-	-2950 4550 -2650 4550
+	7000 4250 7300 4250
 Wire Wire Line
-	-2950 4650 -2650 4650
+	6200 2650 5900 2650
 Wire Wire Line
-	-2950 4750 -2650 4750
+	5900 2650 5900 2550
 Wire Wire Line
-	-2950 4850 -2650 4850
+	5900 2550 4800 2550
 Wire Wire Line
-	-2950 4950 -2650 4950
+	5650 2200 5650 2500
 Wire Wire Line
-	-2950 5050 -2650 5050
+	5650 2500 5650 2650
 Wire Wire Line
-	-2950 5150 -2650 5150
+	6200 2750 5800 2750
 Wire Wire Line
-	-2950 5250 -2650 5250
-$Comp
-L TS12A44514 U?
-U 2 1 5AE59933
-P -8100 3650
-AR Path="/58DEDA38/58E9E2BE/5AE59933" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5AE59933" Ref="U?"  Part="2" 
-F 0 "U?" H -8250 3850 60  0000 C CNN
-F 1 "TS12A44514" H -7800 3850 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H -7600 4950 60  0001 C CNN
-F 3 "" H -7950 3600 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H -7750 5200 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H -7700 5100 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H -7800 4750 60  0001 C CNN "Description"
-F 7 "TSSOP14" H -7800 4850 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H -8050 4650 60  0001 C CNN "Pricing"
-	2    -8100 3650
-	1    0    0    -1  
-$EndComp
-Text Notes -9000 5550 0    60   ~ 0
-1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
-$Comp
-L 74LS32 U?
-U 2 1 5AE5993C
-P -7150 3800
-AR Path="/58DEDA38/58E9E2BE/5AE5993C" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5AE5993C" Ref="U?"  Part="2" 
-F 0 "U?" H -7150 3483 50  0000 C CNN
-F 1 "74LS32" H -7150 3574 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H -7150 3800 50  0001 C CNN
-F 3 "" H -7150 3800 50  0001 C CNN
-F 4 "0.00@0" H -7150 3800 60  0001 C CNN "Pricing"
-	2    -7150 3800
-	-1   0    0    1   
-$EndComp
-$Comp
-L ADG708 U?
-U 1 1 5AE59948
-P -3350 3600
-F 0 "U?" H -3350 4197 60  0000 C CNN
-F 1 "ADG708" H -3350 4091 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H -4000 6400 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H -3900 6500 60  0001 C CNN
-F 4 "0.00@0" H -3350 6150 60  0001 C CNN "Pricing"
-F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H -3800 6600 60  0001 C CNN "Characteristics"
-F 6 "Analog Devices" H -3700 6700 60  0001 C CNN "Manufacturer"
-F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H -3600 6800 60  0001 C CNN "Description"
-F 8 "TSSOP16" H -3500 6900 60  0001 C CNN "Package ID"
-	1    -3350 3600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE5994F
-P -4300 3750
-F 0 "C?" H -4208 3796 50  0000 L CNN
-F 1 "0.1uF" H -4208 3705 50  0000 L CNN
-F 2 "" H -4300 3750 50  0001 C CNN
-F 3 "" H -4300 3750 50  0001 C CNN
-	1    -4300 3750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE59956
-P -4100 3950
-F 0 "C?" H -4008 3996 50  0000 L CNN
-F 1 "0.1uF" H -4008 3905 50  0000 L CNN
-F 2 "" H -4100 3950 50  0001 C CNN
-F 3 "" H -4100 3950 50  0001 C CNN
-	1    -4100 3950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L -2.5V #-2.5V?
-U 1 1 5AE5995E
-P -4300 4200
-F 0 "#-2.5V?" H -3550 3900 50  0001 C CNN
-F 1 "-2.5V" H -4500 4150 60  0000 C CNN
-F 2 "" H -4300 4200 60  0001 C CNN
-F 3 "" H -4300 4200 60  0001 C CNN
-F 4 "0.00@0" H -4200 4650 60  0001 C CNN "Pricing"
-	1    -4300 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L +2V5 #PWR?
-U 1 1 5AE59964
-P -4300 3200
-F 0 "#PWR?" H -4300 3050 50  0001 C CNN
-F 1 "+2V5" H -4358 3237 50  0000 R CNN
-F 2 "" H -4300 3200 50  0001 C CNN
-F 3 "" H -4300 3200 50  0001 C CNN
-	1    -4300 3200
-	-1   0    0    -1  
-$EndComp
+	5800 2750 5800 2650
+Wire Wire Line
+	5800 2650 5650 2650
+Wire Wire Line
+	4450 2850 5650 2850
+Wire Wire Line
+	5650 2850 5850 2850
+Wire Wire Line
+	5850 2850 6200 2850
+Connection ~ 5850 2850
+Wire Wire Line
+	6200 2950 6000 2950
+Wire Wire Line
+	6000 3050 6000 2950
+Wire Wire Line
+	5650 3050 5850 3050
+Wire Wire Line
+	5850 3050 6000 3050
+Wire Wire Line
+	5650 3050 5650 3200
+Connection ~ 5850 3050
 Wire Notes Line
-	-3350 2700 -3350 3200
+	6600 3000 6600 3500
 Wire Wire Line
-	-3750 3650 -4050 3650
+	3200 2250 6200 2250
 Wire Wire Line
-	-4050 3650 -4050 3550
+	3200 2350 6200 2350
 Wire Wire Line
-	-4050 3550 -4800 3550
+	3200 2450 6200 2450
 Wire Wire Line
-	-4300 3200 -4300 3650
+	6200 2550 6100 2550
 Wire Wire Line
-	-3750 3750 -4150 3750
+	6100 2550 6100 2500
 Wire Wire Line
-	-4150 3750 -4150 3650
+	6100 2500 5650 2500
+Connection ~ 5650 2500
 Wire Wire Line
-	-4150 3650 -4300 3650
+	6200 3950 5900 3950
 Wire Wire Line
-	-4700 3850 -3750 3850
-Connection ~ -4100 3850
+	5900 3950 5900 3850
 Wire Wire Line
-	-3750 3950 -3950 3950
+	5900 3850 3850 3850
 Wire Wire Line
-	-3950 3950 -3950 4050
+	5650 3500 5650 3800
 Wire Wire Line
-	-3950 4050 -4300 4050
+	5650 3800 5650 3950
 Wire Wire Line
-	-4300 4050 -4300 4200
-Connection ~ -4100 4050
+	6200 4050 5800 4050
+Wire Wire Line
+	5800 4050 5800 3950
+Wire Wire Line
+	5800 3950 5650 3950
+Wire Wire Line
+	5650 4150 6000 4150
+Wire Wire Line
+	6000 4150 6200 4150
+Wire Wire Line
+	6000 4250 6200 4250
+Wire Wire Line
+	6200 3550 3200 3550
+Wire Wire Line
+	6200 3650 3200 3650
+Wire Wire Line
+	6200 3750 3200 3750
+Wire Wire Line
+	4450 3200 4450 2850
+Connection ~ 5650 2850
+Wire Wire Line
+	6000 4150 6000 4250
+Wire Wire Line
+	6000 4250 6000 4300
+Connection ~ 6000 4150
+Connection ~ 6000 4250
+Wire Wire Line
+	6200 3850 6000 3850
+Wire Wire Line
+	6000 3850 6000 3800
+Wire Wire Line
+	6000 3800 5650 3800
+Connection ~ 5650 3800
+Wire Wire Line
+	4800 2550 4800 1150
+Wire Wire Line
+	3850 3850 3850 1600
+Wire Wire Line
+	3850 1600 3650 1600
+Wire Wire Line
+	2900 750  2900 1100
+Wire Wire Line
+	2900 1100 2850 1100
+Connection ~ 2900 750 
+Wire Wire Line
+	3000 850  3000 1300
+Wire Wire Line
+	3000 1300 2850 1300
+Connection ~ 3000 850 
+Wire Wire Line
+	1200 1150 1300 1150
+Wire Wire Line
+	1300 1150 1300 500 
+Wire Wire Line
+	1600 950  1600 1100
+Wire Wire Line
+	1600 1100 1650 1100
+Connection ~ 1600 950 
+Wire Wire Line
+	2050 1100 2400 1100
+Wire Wire Line
+	2400 1100 2400 1200
+Wire Wire Line
+	2400 1200 2400 1750
+Wire Wire Line
+	2550 1200 2400 1200
+Connection ~ 2400 1200
+Wire Wire Line
+	1250 1350 1250 1400
+Wire Wire Line
+	1250 1400 1200 1400
+Connection ~ 1250 1350
+Wire Wire Line
+	1400 1250 1400 1400
+Connection ~ 1400 1250
+Wire Wire Line
+	1300 1700 1500 1700
+Connection ~ 1500 1700
+Wire Wire Line
+	3900 950  3900 1050
+Wire Wire Line
+	3900 1050 4050 1050
+Wire Wire Line
+	4800 1150 4700 1150
+Wire Wire Line
+	4700 950  4900 950 
+Wire Wire Line
+	4900 950  4900 1900
+Wire Wire Line
+	4900 1900 7300 1900
+Wire Wire Line
+	3950 1400 3950 2050
+Wire Wire Line
+	3950 2050 3200 2050
+Wire Wire Line
+	4050 1200 4050 2150
+Wire Wire Line
+	4050 2150 3200 2150
+Wire Wire Line
+	7300 2050 4150 2050
+Wire Wire Line
+	4150 2050 4150 1950
+Wire Wire Line
+	4150 1950 3200 1950
+Wire Wire Line
+	1500 4900 1500 5300
+Wire Wire Line
+	1500 5300 1500 5950
+Wire Wire Line
+	1500 5950 1500 6000
+Wire Wire Line
+	1200 4900 1500 4900
+Wire Wire Line
+	1200 5000 2900 5000
+Wire Wire Line
+	2900 5000 6000 5000
+Wire Wire Line
+	1200 5100 3000 5100
+Wire Wire Line
+	3000 5100 6000 5100
+Wire Wire Line
+	1200 5600 1250 5600
+Wire Wire Line
+	1250 5600 1600 5600
+Wire Wire Line
+	2200 5450 2200 5600
+Wire Wire Line
+	1600 5450 2200 5450
+Wire Wire Line
+	1600 5500 1600 5450
+Wire Wire Line
+	1200 5500 1400 5500
+Wire Wire Line
+	1400 5500 1600 5500
+Wire Wire Line
+	1200 5200 1600 5200
+Wire Wire Line
+	1600 5200 3050 5200
+Wire Wire Line
+	1200 5300 1500 5300
+Wire Wire Line
+	3300 5200 3250 5200
+Connection ~ 1500 5300
+Wire Wire Line
+	2200 5750 3050 5750
+Wire Wire Line
+	3650 5650 3950 5650
+Wire Wire Line
+	7000 6500 7300 6500
+Wire Wire Line
+	7000 6600 7300 6600
+Wire Wire Line
+	7000 6700 7300 6700
+Wire Wire Line
+	7000 6800 7300 6800
+Wire Wire Line
+	7000 6900 7300 6900
+Wire Wire Line
+	7000 7000 7300 7000
+Wire Wire Line
+	7000 7100 7300 7100
+Wire Wire Line
+	7000 7200 7300 7200
+Wire Wire Line
+	7000 7800 7300 7800
+Wire Wire Line
+	7000 7900 7300 7900
+Wire Wire Line
+	7000 8000 7300 8000
+Wire Wire Line
+	7000 8100 7300 8100
+Wire Wire Line
+	7000 8200 7300 8200
+Wire Wire Line
+	7000 8300 7300 8300
+Wire Wire Line
+	7000 8400 7300 8400
+Wire Wire Line
+	7000 8500 7300 8500
+Wire Wire Line
+	6200 6900 5900 6900
+Wire Wire Line
+	5900 6900 5900 6800
+Wire Wire Line
+	5900 6800 4800 6800
+Wire Wire Line
+	5650 6450 5650 6750
+Wire Wire Line
+	5650 6750 5650 6900
+Wire Wire Line
+	6200 7000 5800 7000
+Wire Wire Line
+	5800 7000 5800 6900
+Wire Wire Line
+	5800 6900 5650 6900
+Wire Wire Line
+	4450 7100 5650 7100
+Wire Wire Line
+	5650 7100 5850 7100
+Wire Wire Line
+	5850 7100 6200 7100
+Connection ~ 5850 7100
+Wire Wire Line
+	6200 7200 6000 7200
+Wire Wire Line
+	6000 7300 6000 7200
+Wire Wire Line
+	5650 7300 5850 7300
+Wire Wire Line
+	5850 7300 6000 7300
+Wire Wire Line
+	5650 7300 5650 7450
+Connection ~ 5850 7300
 Wire Notes Line
-	-3350 4000 -3350 4500
+	6600 7250 6600 7750
 Wire Wire Line
-	-3750 3250 -4600 3250
+	3200 6500 6200 6500
 Wire Wire Line
-	-3750 3350 -4600 3350
+	3200 6600 6200 6600
 Wire Wire Line
-	-3750 3450 -4600 3450
+	3200 6700 6200 6700
 Wire Wire Line
-	-3750 3550 -3850 3550
+	6200 6800 6100 6800
 Wire Wire Line
-	-3850 3550 -3850 3500
+	6100 6800 6100 6750
 Wire Wire Line
-	-3850 3500 -4300 3500
-Connection ~ -4300 3500
+	6100 6750 5650 6750
+Connection ~ 5650 6750
 Wire Wire Line
-	-4800 3550 -4800 3350
-$Comp
-L ADG708 U?
-U 1 1 5AE59987
-P -3350 4900
-F 0 "U?" H -3350 5497 60  0000 C CNN
-F 1 "ADG708" H -3350 5391 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H -4000 7700 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H -3900 7800 60  0001 C CNN
-F 4 "0.00@0" H -3350 7450 60  0001 C CNN "Pricing"
-F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H -3800 7900 60  0001 C CNN "Characteristics"
-F 6 "Analog Devices" H -3700 8000 60  0001 C CNN "Manufacturer"
-F 7 "CMOS, 1.8 V to 5.5 V/±2.5 V, 3 Ω Low Voltage 8-Channel Multiplexer" H -3600 8100 60  0001 C CNN "Description"
-F 8 "TSSOP16" H -3500 8200 60  0001 C CNN "Package ID"
-	1    -3350 4900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE5998E
-P -4300 5050
-F 0 "C?" H -4208 5096 50  0000 L CNN
-F 1 "0.1uF" H -4208 5005 50  0000 L CNN
-F 2 "" H -4300 5050 50  0001 C CNN
-F 3 "" H -4300 5050 50  0001 C CNN
-	1    -4300 5050
-	-1   0    0    -1  
-$EndComp
+	6200 8200 5900 8200
 Wire Wire Line
-	-3750 4950 -4050 4950
+	5900 8200 5900 8100
 Wire Wire Line
-	-4050 4950 -4050 4850
+	5900 8100 3850 8100
 Wire Wire Line
-	-4050 4850 -6600 4850
+	5650 7750 5650 8050
 Wire Wire Line
-	-4300 4500 -4300 4950
+	5650 8050 5650 8200
 Wire Wire Line
-	-3750 5050 -4150 5050
+	6200 8300 5800 8300
 Wire Wire Line
-	-4150 5050 -4150 4950
+	5800 8300 5800 8200
 Wire Wire Line
-	-4150 4950 -4300 4950
+	5800 8200 5650 8200
 Wire Wire Line
-	-4300 5150 -3750 5150
+	5650 8400 6000 8400
 Wire Wire Line
-	-3950 5250 -3750 5250
+	6000 8400 6200 8400
+Wire Wire Line
+	6000 8500 6200 8500
+Wire Wire Line
+	6200 7800 3200 7800
+Wire Wire Line
+	6200 7900 3200 7900
+Wire Wire Line
+	6200 8000 3200 8000
+Wire Wire Line
+	4450 7450 4450 7100
+Connection ~ 5650 7100
+Wire Wire Line
+	6000 8400 6000 8500
+Wire Wire Line
+	6000 8500 6000 8550
+Connection ~ 6000 8400
+Connection ~ 6000 8500
+Wire Wire Line
+	6200 8100 6000 8100
+Wire Wire Line
+	6000 8100 6000 8050
+Wire Wire Line
+	6000 8050 5650 8050
+Connection ~ 5650 8050
+Wire Wire Line
+	4800 6800 4800 5400
+Wire Wire Line
+	3850 8100 3850 5850
+Wire Wire Line
+	3850 5850 3650 5850
+Wire Wire Line
+	2900 5000 2900 5350
+Wire Wire Line
+	2900 5350 2850 5350
+Connection ~ 2900 5000
+Wire Wire Line
+	3000 5100 3000 5550
+Wire Wire Line
+	3000 5550 2850 5550
+Connection ~ 3000 5100
+Wire Wire Line
+	1200 5400 1300 5400
+Wire Wire Line
+	1300 5400 1300 4750
+Wire Wire Line
+	1600 5200 1600 5350
+Wire Wire Line
+	1600 5350 1650 5350
+Connection ~ 1600 5200
+Wire Wire Line
+	2050 5350 2400 5350
+Wire Wire Line
+	2400 5350 2400 5450
+Wire Wire Line
+	2400 5450 2400 6000
+Wire Wire Line
+	2550 5450 2400 5450
+Connection ~ 2400 5450
+Wire Wire Line
+	1250 5600 1250 5650
+Wire Wire Line
+	1250 5650 1200 5650
+Connection ~ 1250 5600
+Wire Wire Line
+	1400 5500 1400 5650
+Connection ~ 1400 5500
+Wire Wire Line
+	1300 5950 1500 5950
+Connection ~ 1500 5950
+Wire Wire Line
+	3900 5200 3900 5300
+Wire Wire Line
+	3900 5300 4050 5300
+Wire Wire Line
+	4800 5400 4700 5400
+Wire Wire Line
+	4700 5200 4900 5200
+Wire Wire Line
+	4900 5200 4900 6150
+Wire Wire Line
+	4900 6150 7300 6150
+Wire Wire Line
+	3950 5650 3950 6300
+Wire Wire Line
+	3950 6300 3200 6300
+Wire Wire Line
+	4050 5450 4050 6400
+Wire Wire Line
+	4050 6400 3200 6400
+Wire Wire Line
+	7300 6300 4150 6300
+Wire Wire Line
+	4150 6300 4150 6200
+Wire Wire Line
+	4150 6200 3200 6200
+Wire Wire Line
+	1500 9150 1500 9550
+Wire Wire Line
+	1500 9550 1500 10200
+Wire Wire Line
+	1500 10200 1500 10250
+Wire Wire Line
+	1200 9150 1500 9150
+Wire Wire Line
+	1200 9250 2900 9250
+Wire Wire Line
+	2900 9250 6000 9250
+Wire Wire Line
+	1200 9350 3000 9350
+Wire Wire Line
+	3000 9350 6000 9350
+Wire Wire Line
+	1200 9850 1250 9850
+Wire Wire Line
+	1250 9850 1600 9850
+Wire Wire Line
+	2200 9700 2200 9850
+Wire Wire Line
+	1600 9700 2200 9700
+Wire Wire Line
+	1600 9750 1600 9700
+Wire Wire Line
+	1200 9750 1400 9750
+Wire Wire Line
+	1400 9750 1600 9750
+Wire Wire Line
+	1200 9450 1600 9450
+Wire Wire Line
+	1600 9450 3050 9450
+Wire Wire Line
+	1200 9550 1500 9550
+Wire Wire Line
+	3300 9450 3250 9450
+Connection ~ 1500 9550
+Wire Wire Line
+	2200 10000 3050 10000
+Wire Wire Line
+	3650 9900 3950 9900
+Wire Wire Line
+	7000 10750 7300 10750
+Wire Wire Line
+	7000 10850 7300 10850
+Wire Wire Line
+	7000 10950 7300 10950
+Wire Wire Line
+	7000 11050 7300 11050
+Wire Wire Line
+	7000 11150 7300 11150
+Wire Wire Line
+	7000 11250 7300 11250
+Wire Wire Line
+	7000 11350 7300 11350
+Wire Wire Line
+	7000 11450 7300 11450
+Wire Wire Line
+	7000 12050 7300 12050
+Wire Wire Line
+	7000 12150 7300 12150
+Wire Wire Line
+	7000 12250 7300 12250
+Wire Wire Line
+	7000 12350 7300 12350
+Wire Wire Line
+	7000 12450 7300 12450
+Wire Wire Line
+	7000 12550 7300 12550
+Wire Wire Line
+	7000 12650 7300 12650
+Wire Wire Line
+	7000 12750 7300 12750
+Wire Wire Line
+	6200 11150 5900 11150
+Wire Wire Line
+	5900 11150 5900 11050
+Wire Wire Line
+	5900 11050 4800 11050
+Wire Wire Line
+	5650 10700 5650 11000
+Wire Wire Line
+	5650 11000 5650 11150
+Wire Wire Line
+	6200 11250 5800 11250
+Wire Wire Line
+	5800 11250 5800 11150
+Wire Wire Line
+	5800 11150 5650 11150
+Wire Wire Line
+	4450 11350 5650 11350
+Wire Wire Line
+	5650 11350 5850 11350
+Wire Wire Line
+	5850 11350 6200 11350
+Connection ~ 5850 11350
+Wire Wire Line
+	6200 11450 6000 11450
+Wire Wire Line
+	6000 11550 6000 11450
+Wire Wire Line
+	5650 11550 5850 11550
+Wire Wire Line
+	5850 11550 6000 11550
+Wire Wire Line
+	5650 11550 5650 11700
+Connection ~ 5850 11550
 Wire Notes Line
-	-3350 5300 -3350 5800
-Wire Wire Line
-	-3750 4550 -5950 4550
-Wire Wire Line
-	-3750 4650 -5950 4650
-Wire Wire Line
-	-3750 4750 -5950 4750
-$Comp
-L GNDREF #PWR?
-U 1 1 5AE599A3
-P -4700 4200
-F 0 "#PWR?" H -4700 3950 50  0001 C CNN
-F 1 "GNDREF" H -4700 4050 50  0000 C CNN
-F 2 "" H -4700 4200 50  0001 C CNN
-F 3 "" H -4700 4200 50  0001 C CNN
-	1    -4700 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-4700 4200 -4700 3850
-Connection ~ -4300 3850
-$Comp
-L +5V #PWR?
-U 1 1 5AE599AB
-P -4300 4500
-F 0 "#PWR?" H -4300 4350 60  0001 C CNN
-F 1 "+5V" H -4200 4550 50  0000 C CNN
-F 2 "" H -4300 4500 50  0001 C CNN
-F 3 "" H -4300 4500 50  0001 C CNN
-F 4 "0.00@0" H -4300 4500 60  0001 C CNN "Pricing"
-	1    -4300 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-3950 5150 -3950 5300
-Connection ~ -3950 5150
-$Comp
-L GNDREF #PWR?
-U 1 1 5AE599B3
-P -3950 5300
-F 0 "#PWR?" H -3950 5050 50  0001 C CNN
-F 1 "GNDREF" H -3950 5150 50  0000 C CNN
-F 2 "" H -3950 5300 50  0001 C CNN
-F 3 "" H -3950 5300 50  0001 C CNN
-	1    -3950 5300
-	1    0    0    -1  
-$EndComp
-Connection ~ -3950 5250
-$Comp
-L ADG715 U?
-U 3 1 5AE599BF
-P -6850 3350
-AR Path="/58DEDA38/58E9E2BE/5AE599BF" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5AE599BF" Ref="U?"  Part="3" 
-F 0 "U?" H -6850 3597 60  0000 C CNN
-F 1 "ADG715" H -6850 3491 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H -6600 4300 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H -6600 4400 60  0001 C CNN
-F 4 "0.00@0" H -6800 4950 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H -6850 4600 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H -6750 4700 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H -6750 4500 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H -6650 4800 60  0001 C CNN "Package ID"
-	3    -6850 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-3750 4850 -3950 4850
-Wire Wire Line
-	-3950 4850 -3950 4800
-Wire Wire Line
-	-3950 4800 -4300 4800
-Connection ~ -4300 4800
-Wire Wire Line
-	-6600 3900 -6850 3900
-Wire Wire Line
-	-6600 4850 -6600 3900
-$Comp
-L Conn_01x07 J?
-U 1 1 5AE70885
-P -7200 200
-F 0 "J?" H -7200 650 50  0000 C CNN
-F 1 "Device 0" V -7100 200 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H -7200 200 50  0001 C CNN
-F 3 "" H -7200 200 50  0001 C CNN
-	1    -7200 200 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 1 1 5AE70891
-P -6400 500
-AR Path="/58DEDA38/5AE70891" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E25B/5AE70891" Ref="U?"  Part="1" 
-F 0 "U?" H -6700 450 60  0000 C CNN
-F 1 "TS12A44514" H -6700 350 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H -5900 1800 60  0001 C CNN
-F 3 "" H -6400 500 60  0001 C CNN
-F 4 "0.00@0" H -6350 1500 60  0001 C CNN "Pricing"
-F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H -6050 2050 60  0001 C CNN "Characteristics"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H -6100 1600 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H -6000 1950 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H -6100 1700 60  0001 C CNN "Package ID"
-	1    -6400 500 
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE70898
-P -5600 200
-F 0 "C?" H -5590 270 50  0000 L CNN
-F 1 "10u" H -5590 120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -5600 200 50  0001 C CNN
-F 3 "" H -5600 200 50  0001 C CNN
-	1    -5600 200 
-	0    1    1    0   
-$EndComp
-Text Notes -6250 -50  0    60   ~ 0
-cap to block dc bias from devices
-Text HLabel -6600 0    2    60   Output ~ 0
-LEFT-OUT
-Text HLabel -6600 100  2    60   Output ~ 0
-RIGHT-OUT
-Text HLabel -4050 800  2    60   Input ~ 0
-PTT-Pi
-Text HLabel -6800 800  3    60   Input ~ 0
-AUDIO-GROUND
-Wire Wire Line
-	-6800 -100 -6800 800 
-Wire Wire Line
-	-7000 -100 -6800 -100
-Wire Wire Line
-	-7000 0    -6600 0   
-Wire Wire Line
-	-7000 100  -6600 100 
-Wire Wire Line
-	-7000 500  -6700 500 
-Wire Wire Line
-	-6100 350  -6100 500 
-Wire Wire Line
-	-6700 350  -6100 350 
-Wire Wire Line
-	-6700 350  -6700 400 
-Wire Wire Line
-	-6700 400  -7000 400 
-Wire Wire Line
-	-7000 200  -5700 200 
-Wire Wire Line
-	-7000 300  -6800 300 
-Wire Wire Line
-	-5450 200  -5500 200 
-Connection ~ -6800 300 
-Wire Wire Line
-	-6100 650  -6050 650 
-Wire Wire Line
-	-4250 800  -4050 800 
-Text Notes -6500 2100 0    60   ~ 0
-1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
-Wire Wire Line
-	-5650 900  -4850 900 
-$Comp
-L 74LS32 U?
-U 1 1 5AE708B6
-P -4550 900
-AR Path="/58DEDA38/58E9E2BE/5AE708B6" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9E9F4/5AE708B6" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9E25B/5AE708B6" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5AE708B6" Ref="U?"  Part="1" 
-F 0 "U?" H -4550 583 50  0000 C CNN
-F 1 "74LS32" H -4550 674 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H -4550 900 50  0001 C CNN
-F 3 "" H -4550 900 50  0001 C CNN
-F 4 "0.00@0" H -4550 900 60  0001 C CNN "Pricing"
-	1    -4550 900 
-	-1   0    0    1   
-$EndComp
-Text Notes -8700 200  0    60   ~ 0
-Device power provided by\nexternal connection
-$Comp
-L Conn_01x07 J?
-U 1 1 5AE71403
-P -9000 6550
-F 0 "J?" H -9000 7000 50  0000 C CNN
-F 1 "Device 2" V -8900 6550 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H -9000 6550 50  0001 C CNN
-F 3 "" H -9000 6550 50  0001 C CNN
-F 4 "0.00@0" H -9000 6550 60  0001 C CNN "Pricing"
-	1    -9000 6550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 1 1 5AE7140F
-P -8200 6850
-AR Path="/58DEDA38/5AE7140F" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E25B/5AE7140F" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E991/5AE7140F" Ref="U?"  Part="3" 
-F 0 "U?" H -8500 6800 60  0000 C CNN
-F 1 "TS12A44514" H -8500 6700 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H -7700 8150 60  0001 C CNN
-F 3 "" H -8200 6850 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H -7850 8400 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H -7800 8300 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H -7900 7950 60  0001 C CNN "Description"
-F 7 "TSSOP14" H -7900 8050 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H -8150 7850 60  0001 C CNN "Pricing"
-	1    -8200 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE71416
-P -7400 6550
-F 0 "C?" H -7390 6620 50  0000 L CNN
-F 1 "10u" H -7390 6470 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -7400 6550 50  0001 C CNN
-F 3 "" H -7400 6550 50  0001 C CNN
-	1    -7400 6550
-	0    1    1    0   
-$EndComp
-Text Notes -8050 6300 0    60   ~ 0
-cap to block dc bias from devices
-Text HLabel -8400 6350 2    60   Output ~ 0
-LEFT-OUT
-Text HLabel -8400 6450 2    60   Output ~ 0
-RIGHT-OUT
-Text HLabel -8600 7150 3    60   Input ~ 0
-AUDIO-GROUND
-Wire Wire Line
-	-8600 6250 -8600 7150
-Wire Wire Line
-	-8800 6250 -8600 6250
-Wire Wire Line
-	-8800 6350 -8400 6350
-Wire Wire Line
-	-8800 6450 -8400 6450
-Wire Wire Line
-	-8800 6850 -8500 6850
-Wire Wire Line
-	-7900 6700 -7900 6850
-Wire Wire Line
-	-8500 6700 -7900 6700
-Wire Wire Line
-	-8500 6700 -8500 6750
-Wire Wire Line
-	-8500 6750 -8800 6750
-Wire Wire Line
-	-8800 6550 -7500 6550
-Wire Wire Line
-	-8800 6650 -8600 6650
-Wire Wire Line
-	-7250 6550 -7300 6550
-Connection ~ -8600 6650
-Wire Wire Line
-	-7900 7000 -7850 7000
-Wire Wire Line
-	-7850 7150 -7850 7550
-Text Notes -8400 8450 0    60   ~ 0
-1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
-Text Notes -10550 6550 0    60   ~ 0
-Device power provided by\nexternal connection
-$Comp
-L Conn_01x07 J?
-U 1 1 5AE7BB84
-P -8950 9250
-F 0 "J?" H -8950 9700 50  0000 C CNN
-F 1 "Device 3" V -8850 9250 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H -8950 9250 50  0001 C CNN
-F 3 "" H -8950 9250 50  0001 C CNN
-F 4 "0.00@0" H -8950 9250 60  0001 C CNN "Pricing"
-	1    -8950 9250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 1 1 5AE7BB90
-P -8150 9550
-AR Path="/58DEDA38/5AE7BB90" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E25B/5AE7BB90" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E9F4/5AE7BB90" Ref="U?"  Part="4" 
-F 0 "U?" H -8450 9500 60  0000 C CNN
-F 1 "TS12A44514" H -8450 9400 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H -7650 10850 60  0001 C CNN
-F 3 "" H -8150 9550 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H -7800 11100 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H -7750 11000 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H -7850 10650 60  0001 C CNN "Description"
-F 7 "TSSOP14" H -7850 10750 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H -8100 10550 60  0001 C CNN "Pricing"
-	1    -8150 9550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE7BB97
-P -7350 9250
-F 0 "C?" H -7340 9320 50  0000 L CNN
-F 1 "10u" H -7340 9170 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -7350 9250 50  0001 C CNN
-F 3 "" H -7350 9250 50  0001 C CNN
-	1    -7350 9250
-	0    1    1    0   
-$EndComp
-Text Notes -8000 9000 0    60   ~ 0
-cap to block dc bias from devices
-Text HLabel -8350 9050 2    60   Output ~ 0
-LEFT-OUT
-Text HLabel -8350 9150 2    60   Output ~ 0
-RIGHT-OUT
-Text HLabel -6600 9750 2    60   Input ~ 0
-PTT-Pi
-Text HLabel -8550 9850 3    60   Input ~ 0
-AUDIO-GROUND
-Wire Wire Line
-	-8550 8950 -8550 9850
-Wire Wire Line
-	-8750 8950 -8550 8950
-Wire Wire Line
-	-8750 9050 -8350 9050
-Wire Wire Line
-	-8750 9150 -8350 9150
-Wire Wire Line
-	-8750 9550 -8450 9550
-Wire Wire Line
-	-7850 9400 -7850 9550
-Wire Wire Line
-	-8450 9400 -7850 9400
-Wire Wire Line
-	-8450 9400 -8450 9450
-Wire Wire Line
-	-8450 9450 -8750 9450
-Wire Wire Line
-	-8750 9250 -7450 9250
-Wire Wire Line
-	-8750 9350 -8550 9350
-Wire Wire Line
-	-7200 9250 -7250 9250
-Connection ~ -8550 9350
-Wire Wire Line
-	-7850 9700 -7800 9700
-Wire Wire Line
-	-6800 9750 -6600 9750
-Text Notes -8350 11050 0    60   ~ 0
-1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
-$Comp
-L 74LS32 U?
-U 4 1 5AE7BBB4
-P -7100 9850
-AR Path="/58DEDA38/58E9E2BE/5AE7BBB4" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9E9F4/5AE7BBB4" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/5AE7BBB4" Ref="U?"  Part="4" 
-F 0 "U?" H -7100 9533 50  0000 C CNN
-F 1 "74LS32" H -7100 9624 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H -7100 9850 50  0001 C CNN
-F 3 "" H -7100 9850 50  0001 C CNN
-F 4 "0.00@0" H -7100 9850 60  0001 C CNN "Pricing"
-	4    -7100 9850
-	-1   0    0    1   
-$EndComp
-Text Notes -10350 9250 0    60   ~ 0
-Device power provided by\nexternal connection
-$Comp
-L Conn_01x07 J?
-U 1 1 5AE7CCC4
-P -9050 11600
-F 0 "J?" H -9050 12050 50  0000 C CNN
-F 1 "Device 4" V -8950 11600 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H -9050 11600 50  0001 C CNN
-F 3 "" H -9050 11600 50  0001 C CNN
-F 4 "0.00@0" H -9050 11600 60  0001 C CNN "Pricing"
-	1    -9050 11600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 1 1 5AE7CCD0
-P -8250 11900
-AR Path="/58DEDA38/5AE7CCD0" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E25B/5AE7CCD0" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9EC07/5AE7CCD0" Ref="U?"  Part="1" 
-F 0 "U?" H -8550 11850 60  0000 C CNN
-F 1 "TS12A44514" H -8550 11750 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H -7750 13200 60  0001 C CNN
-F 3 "" H -8250 11900 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H -7900 13450 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H -7850 13350 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H -7950 13000 60  0001 C CNN "Description"
-F 7 "TSSOP14" H -7950 13100 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H -8200 12900 60  0001 C CNN "Pricing"
-	1    -8250 11900
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE7CCD7
-P -7450 11600
-F 0 "C?" H -7440 11670 50  0000 L CNN
-F 1 "10u" H -7440 11520 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -7450 11600 50  0001 C CNN
-F 3 "" H -7450 11600 50  0001 C CNN
-	1    -7450 11600
-	0    1    1    0   
-$EndComp
-Text Notes -8100 11350 0    60   ~ 0
-cap to block dc bias from devices
-Text HLabel -8450 11400 2    60   Output ~ 0
-LEFT-OUT
-Text HLabel -8450 11500 2    60   Output ~ 0
-RIGHT-OUT
-Text HLabel -5850 12500 2    60   Input ~ 0
-PTT-Pi
-Text HLabel -8650 12200 3    60   Input ~ 0
-AUDIO-GROUND
-Wire Wire Line
-	-8650 11300 -8650 12200
-Wire Wire Line
-	-8850 11300 -8650 11300
-Wire Wire Line
-	-8850 11400 -8450 11400
-Wire Wire Line
-	-8850 11500 -8450 11500
-Wire Wire Line
-	-8850 11900 -8550 11900
-Wire Wire Line
-	-7950 11750 -7950 11900
-Wire Wire Line
-	-8550 11750 -7950 11750
-Wire Wire Line
-	-8550 11750 -8550 11800
-Wire Wire Line
-	-8550 11800 -8850 11800
-Wire Wire Line
-	-8850 11600 -7550 11600
-Wire Wire Line
-	-8850 11700 -8650 11700
-Wire Wire Line
-	-7300 11600 -7350 11600
-Connection ~ -8650 11700
-Wire Wire Line
-	-7950 12050 -7900 12050
-Wire Wire Line
-	-6600 11750 -6700 11750
-Wire Wire Line
-	-6050 12500 -5850 12500
-Wire Wire Line
-	-7900 12200 -7900 12600
-Text Notes -8450 13400 0    60   ~ 0
-1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
-Wire Wire Line
-	-7450 12600 -6650 12600
-$Comp
-L 74LS32 U?
-U 1 1 5AE7CCF7
-P -6350 12600
-AR Path="/58DEDA38/58E9E2BE/5AE7CCF7" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9E9F4/5AE7CCF7" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9EC07/5AE7CCF7" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5AE7CCF7" Ref="U?"  Part="1" 
-F 0 "U?" H -6350 12283 50  0000 C CNN
-F 1 "74LS32" H -6350 12374 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H -6350 12600 50  0001 C CNN
-F 3 "" H -6350 12600 50  0001 C CNN
-F 4 "0.00@0" H -6350 12600 60  0001 C CNN "Pricing"
-	1    -6350 12600
-	-1   0    0    1   
-$EndComp
-Text Notes -10550 11650 0    60   ~ 0
-Device power provided by\nexternal connection
-$Comp
-L Conn_01x07 J?
-U 1 1 5AE7F3B7
-P -8850 14000
-F 0 "J?" H -8850 14450 50  0000 C CNN
-F 1 "Device 5" V -8750 14000 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H -8850 14000 50  0001 C CNN
-F 3 "" H -8850 14000 50  0001 C CNN
-F 4 "0.00@0" H -8850 14000 60  0001 C CNN "Pricing"
-	1    -8850 14000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE7F3BE
-P -7250 14000
-F 0 "C?" H -7240 14070 50  0000 L CNN
-F 1 "10u" H -7240 13920 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -7250 14000 50  0001 C CNN
-F 3 "" H -7250 14000 50  0001 C CNN
-	1    -7250 14000
-	0    1    1    0   
-$EndComp
-Text Notes -7900 13750 0    60   ~ 0
-cap to block dc bias from devices
-Text HLabel -8250 13800 2    60   Output ~ 0
-LEFT-OUT
-Text HLabel -8250 13900 2    60   Output ~ 0
-RIGHT-OUT
-Text HLabel -5950 14700 2    60   Input ~ 0
-PTT-Pi
-Text HLabel -8450 14600 3    60   Input ~ 0
-AUDIO-GROUND
-Wire Wire Line
-	-8450 13700 -8450 14100
-Wire Wire Line
-	-8450 14100 -8450 14600
-Wire Wire Line
-	-8650 13700 -8450 13700
-Wire Wire Line
-	-8650 13800 -8250 13800
-Wire Wire Line
-	-8650 13900 -8250 13900
-Wire Wire Line
-	-8650 14300 -8350 14300
-Wire Wire Line
-	-7750 14150 -7750 14300
-Wire Wire Line
-	-8350 14150 -7750 14150
-Wire Wire Line
-	-8350 14150 -8350 14200
-Wire Wire Line
-	-8350 14200 -8650 14200
-Wire Wire Line
-	-8650 14000 -7350 14000
-Wire Wire Line
-	-8650 14100 -8450 14100
-Wire Wire Line
-	-7100 14000 -7150 14000
-Connection ~ -8450 14100
-Wire Wire Line
-	-7750 14450 -7700 14450
-Wire Wire Line
-	-6150 14700 -5950 14700
-$Comp
-L TS12A44514 U?
-U 2 1 5AE7F3DF
-P -8050 14300
-AR Path="/58DEDA38/58E9E2BE/5AE7F3DF" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9EDEA/5AE7F3DF" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5AE7F3DF" Ref="U?"  Part="2" 
-F 0 "U?" H -8200 14500 60  0000 C CNN
-F 1 "TS12A44514" H -7750 14500 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H -7550 15600 60  0001 C CNN
-F 3 "" H -7900 14250 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H -7700 15850 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H -7650 15750 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H -7750 15400 60  0001 C CNN "Description"
-F 7 "TSSOP14" H -7750 15500 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H -8000 15300 60  0001 C CNN "Pricing"
-	2    -8050 14300
-	1    0    0    -1  
-$EndComp
-Text Notes -8250 15800 0    60   ~ 0
-1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
-Wire Wire Line
-	-7550 14800 -6750 14800
-$Comp
-L 74LS32 U?
-U 2 1 5AE7F3E9
-P -6450 14800
-AR Path="/58DEDA38/58E9E2BE/5AE7F3E9" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9E9F4/5AE7F3E9" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/58E9EDEA/5AE7F3E9" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5AE7F3E9" Ref="U?"  Part="2" 
-F 0 "U?" H -6450 14483 50  0000 C CNN
-F 1 "74LS32" H -6450 14574 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H -6450 14800 50  0001 C CNN
-F 3 "" H -6450 14800 50  0001 C CNN
-F 4 "0.00@0" H -6450 14800 60  0001 C CNN "Pricing"
-	2    -6450 14800
-	-1   0    0    1   
-$EndComp
-Text Notes -10350 14100 0    60   ~ 0
-Device power provided by\nexternal connection
-$Comp
-L Conn_01x07 J?
-U 1 1 5AE7FE12
-P -8850 16450
-F 0 "J?" H -8850 16900 50  0000 C CNN
-F 1 "Device 6" V -8750 16450 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H -8850 16450 50  0001 C CNN
-F 3 "" H -8850 16450 50  0001 C CNN
-F 4 "0.00@0" H -8850 16450 60  0001 C CNN "Pricing"
-	1    -8850 16450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 1 1 5AE7FE1E
-P -8050 16750
-AR Path="/58DEDA38/5AE7FE1E" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E25B/5AE7FE1E" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E991/5AE7FE1E" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/58E9EE4D/5AE7FE1E" Ref="U?"  Part="3" 
-F 0 "U?" H -8350 16700 60  0000 C CNN
-F 1 "TS12A44514" H -8350 16600 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H -7550 18050 60  0001 C CNN
-F 3 "" H -8050 16750 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H -7700 18300 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H -7650 18200 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H -7750 17850 60  0001 C CNN "Description"
-F 7 "TSSOP14" H -7750 17950 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H -8000 17750 60  0001 C CNN "Pricing"
-	1    -8050 16750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE7FE25
-P -7250 16450
-F 0 "C?" H -7240 16520 50  0000 L CNN
-F 1 "10u" H -7240 16370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -7250 16450 50  0001 C CNN
-F 3 "" H -7250 16450 50  0001 C CNN
-	1    -7250 16450
-	0    1    1    0   
-$EndComp
-Text Notes -7900 16200 0    60   ~ 0
-cap to block dc bias from devices
-Text HLabel -8250 16250 2    60   Output ~ 0
-LEFT-OUT
-Text HLabel -8250 16350 2    60   Output ~ 0
-RIGHT-OUT
-Text HLabel -6000 17200 2    60   Input ~ 0
-PTT-Pi
-Text HLabel -8450 17050 3    60   Input ~ 0
-AUDIO-GROUND
-Wire Wire Line
-	-8450 16150 -8450 17050
-Wire Wire Line
-	-8650 16150 -8450 16150
-Wire Wire Line
-	-8650 16250 -8250 16250
-Wire Wire Line
-	-8650 16350 -8250 16350
-Wire Wire Line
-	-8650 16750 -8350 16750
-Wire Wire Line
-	-7750 16600 -7750 16750
-Wire Wire Line
-	-8350 16600 -7750 16600
-Wire Wire Line
-	-8350 16600 -8350 16650
-Wire Wire Line
-	-8350 16650 -8650 16650
-Wire Wire Line
-	-8650 16450 -7350 16450
-Wire Wire Line
-	-8650 16550 -8450 16550
-Wire Wire Line
-	-7100 16450 -7150 16450
-Connection ~ -8450 16550
-Wire Wire Line
-	-7750 16900 -7700 16900
-Wire Wire Line
-	-6200 17200 -6000 17200
-Text Notes -8250 18300 0    60   ~ 0
-1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
-Wire Wire Line
-	-7600 17300 -6800 17300
-$Comp
-L 74LS32 U?
-U 3 1 5AE7FE43
-P -6500 17300
-AR Path="/58DEDA38/58E9E2BE/5AE7FE43" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9E9F4/5AE7FE43" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9EE4D/5AE7FE43" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5AE7FE43" Ref="U?"  Part="3" 
-F 0 "U?" H -6500 16983 50  0000 C CNN
-F 1 "74LS32" H -6500 17074 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H -6500 17300 50  0001 C CNN
-F 3 "" H -6500 17300 50  0001 C CNN
-F 4 "0.00@0" H -6500 17300 60  0001 C CNN "Pricing"
-	3    -6500 17300
-	-1   0    0    1   
-$EndComp
-Text Notes -10350 16400 0    60   ~ 0
-Device power provided by\nexternal connection
-$Comp
-L Conn_01x07 J?
-U 1 1 5AE80748
-P -8900 19100
-F 0 "J?" H -8900 19550 50  0000 C CNN
-F 1 "Device 7" V -8800 19100 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H -8900 19100 50  0001 C CNN
-F 3 "" H -8900 19100 50  0001 C CNN
-F 4 "0.00@0" H -8900 19100 60  0001 C CNN "Pricing"
-	1    -8900 19100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L TS12A44514 U?
-U 4 1 5AE80754
-P -8100 19400
-AR Path="/58DEDA38/5AE80754" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E25B/5AE80754" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/58E9E9F4/5AE80754" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/58E9F030/5AE80754" Ref="U?"  Part="4" 
-F 0 "U?" H -8400 19350 60  0000 C CNN
-F 1 "TS12A44514" H -8400 19250 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H -7600 20700 60  0001 C CNN
-F 3 "" H -8100 19400 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H -7750 20950 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H -7700 20850 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H -7800 20500 60  0001 C CNN "Description"
-F 7 "TSSOP14" H -7800 20600 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H -8050 20400 60  0001 C CNN "Pricing"
-	4    -8100 19400
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE8075B
-P -7300 19100
-F 0 "C?" H -7290 19170 50  0000 L CNN
-F 1 "10u" H -7290 19020 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -7300 19100 50  0001 C CNN
-F 3 "" H -7300 19100 50  0001 C CNN
-	1    -7300 19100
-	0    1    1    0   
-$EndComp
-Text Notes -7950 18850 0    60   ~ 0
-cap to block dc bias from devices
-Text HLabel -8300 18900 2    60   Output ~ 0
-LEFT-OUT
-Text HLabel -8300 19000 2    60   Output ~ 0
-RIGHT-OUT
-Text HLabel -8500 19700 3    60   Input ~ 0
-AUDIO-GROUND
-Wire Wire Line
-	-8500 18800 -8500 19200
-Wire Wire Line
-	-8500 19200 -8500 19700
-Wire Wire Line
-	-8700 18800 -8500 18800
-Wire Wire Line
-	-8700 18900 -8300 18900
-Wire Wire Line
-	-8700 19000 -8300 19000
-Wire Wire Line
-	-8700 19400 -8400 19400
-Wire Wire Line
-	-7800 19250 -7800 19400
-Wire Wire Line
-	-8400 19250 -7800 19250
-Wire Wire Line
-	-8400 19250 -8400 19300
-Wire Wire Line
-	-8400 19300 -8700 19300
-Wire Wire Line
-	-8700 19100 -7400 19100
-Wire Wire Line
-	-8700 19200 -8500 19200
-Wire Wire Line
-	-7150 19100 -7200 19100
-Connection ~ -8500 19200
-Wire Wire Line
-	-7800 19550 -7750 19550
-Text Notes -8300 20950 0    60   ~ 0
-1-Audio Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6- PTT +\n7- PTT -
-Wire Wire Line
-	-7550 20050 -6750 20050
-$Comp
-L 74LS32 U?
-U 4 1 5AE80778
-P -6450 20050
-AR Path="/58DEDA38/58E9E2BE/5AE80778" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/58E9E9F4/5AE80778" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/58E9F030/5AE80778" Ref="U?"  Part="4" 
-F 0 "U?" H -6450 19733 50  0000 C CNN
-F 1 "74LS32" H -6450 19824 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H -6450 20050 50  0001 C CNN
-F 3 "" H -6450 20050 50  0001 C CNN
-F 4 "0.00@0" H -6450 20050 60  0001 C CNN "Pricing"
-	4    -6450 20050
-	-1   0    0    1   
-$EndComp
-Text Notes -10350 19100 0    60   ~ 0
-Device power provided by\nexternal connection
+	6600 11500 6600 12000
+Wire Wire Line
+	3200 10750 6200 10750
+Wire Wire Line
+	3200 10850 6200 10850
+Wire Wire Line
+	3200 10950 6200 10950
+Wire Wire Line
+	6200 11050 6100 11050
+Wire Wire Line
+	6100 11050 6100 11000
+Wire Wire Line
+	6100 11000 5650 11000
+Connection ~ 5650 11000
+Wire Wire Line
+	6200 12450 5900 12450
+Wire Wire Line
+	5900 12450 5900 12350
+Wire Wire Line
+	5900 12350 3850 12350
+Wire Wire Line
+	5650 12000 5650 12300
+Wire Wire Line
+	5650 12300 5650 12450
+Wire Wire Line
+	6200 12550 5800 12550
+Wire Wire Line
+	5800 12550 5800 12450
+Wire Wire Line
+	5800 12450 5650 12450
+Wire Wire Line
+	5650 12650 6000 12650
+Wire Wire Line
+	6000 12650 6200 12650
+Wire Wire Line
+	6000 12750 6200 12750
+Wire Wire Line
+	6200 12050 3200 12050
+Wire Wire Line
+	6200 12150 3200 12150
+Wire Wire Line
+	6200 12250 3200 12250
+Wire Wire Line
+	4450 11700 4450 11350
+Connection ~ 5650 11350
+Wire Wire Line
+	6000 12650 6000 12750
+Wire Wire Line
+	6000 12750 6000 12800
+Connection ~ 6000 12650
+Connection ~ 6000 12750
+Wire Wire Line
+	6200 12350 6000 12350
+Wire Wire Line
+	6000 12350 6000 12300
+Wire Wire Line
+	6000 12300 5650 12300
+Connection ~ 5650 12300
+Wire Wire Line
+	4800 11050 4800 9650
+Wire Wire Line
+	3850 12350 3850 10100
+Wire Wire Line
+	3850 10100 3650 10100
+Wire Wire Line
+	2900 9250 2900 9600
+Wire Wire Line
+	2900 9600 2850 9600
+Connection ~ 2900 9250
+Wire Wire Line
+	3000 9350 3000 9800
+Wire Wire Line
+	3000 9800 2850 9800
+Connection ~ 3000 9350
+Wire Wire Line
+	1200 9650 1300 9650
+Wire Wire Line
+	1300 9650 1300 9000
+Wire Wire Line
+	1600 9450 1600 9600
+Wire Wire Line
+	1600 9600 1650 9600
+Connection ~ 1600 9450
+Wire Wire Line
+	2050 9600 2400 9600
+Wire Wire Line
+	2400 9600 2400 9700
+Wire Wire Line
+	2400 9700 2400 10250
+Wire Wire Line
+	2550 9700 2400 9700
+Connection ~ 2400 9700
+Wire Wire Line
+	1250 9850 1250 9900
+Wire Wire Line
+	1250 9900 1200 9900
+Connection ~ 1250 9850
+Wire Wire Line
+	1400 9750 1400 9900
+Connection ~ 1400 9750
+Wire Wire Line
+	1300 10200 1500 10200
+Connection ~ 1500 10200
+Wire Wire Line
+	3900 9450 3900 9550
+Wire Wire Line
+	3900 9550 4050 9550
+Wire Wire Line
+	4800 9650 4700 9650
+Wire Wire Line
+	4700 9450 4900 9450
+Wire Wire Line
+	4900 9450 4900 10400
+Wire Wire Line
+	4900 10400 7300 10400
+Wire Wire Line
+	3950 9900 3950 10550
+Wire Wire Line
+	3950 10550 3200 10550
+Wire Wire Line
+	4050 9700 4050 10650
+Wire Wire Line
+	4050 10650 3200 10650
+Wire Wire Line
+	7300 10550 4150 10550
+Wire Wire Line
+	4150 10550 4150 10450
+Wire Wire Line
+	4150 10450 3200 10450
+Wire Wire Line
+	1500 13400 1500 13800
+Wire Wire Line
+	1500 13800 1500 14450
+Wire Wire Line
+	1500 14450 1500 14500
+Wire Wire Line
+	1200 13400 1500 13400
+Wire Wire Line
+	1200 13500 2900 13500
+Wire Wire Line
+	2900 13500 6000 13500
+Wire Wire Line
+	1200 13600 3000 13600
+Wire Wire Line
+	3000 13600 6000 13600
+Wire Wire Line
+	1200 14100 1250 14100
+Wire Wire Line
+	1250 14100 1600 14100
+Wire Wire Line
+	2200 13950 2200 14100
+Wire Wire Line
+	1600 13950 2200 13950
+Wire Wire Line
+	1600 14000 1600 13950
+Wire Wire Line
+	1200 14000 1400 14000
+Wire Wire Line
+	1400 14000 1600 14000
+Wire Wire Line
+	1200 13700 1600 13700
+Wire Wire Line
+	1600 13700 3050 13700
+Wire Wire Line
+	1200 13800 1500 13800
+Wire Wire Line
+	3300 13700 3250 13700
+Connection ~ 1500 13800
+Wire Wire Line
+	2200 14250 3050 14250
+Wire Wire Line
+	3650 14150 3950 14150
+Wire Wire Line
+	7000 15000 7300 15000
+Wire Wire Line
+	7000 15100 7300 15100
+Wire Wire Line
+	7000 15200 7300 15200
+Wire Wire Line
+	7000 15300 7300 15300
+Wire Wire Line
+	7000 15400 7300 15400
+Wire Wire Line
+	7000 15500 7300 15500
+Wire Wire Line
+	7000 15600 7300 15600
+Wire Wire Line
+	7000 15700 7300 15700
+Wire Wire Line
+	7000 16300 7300 16300
+Wire Wire Line
+	7000 16400 7300 16400
+Wire Wire Line
+	7000 16500 7300 16500
+Wire Wire Line
+	7000 16600 7300 16600
+Wire Wire Line
+	7000 16700 7300 16700
+Wire Wire Line
+	7000 16800 7300 16800
+Wire Wire Line
+	7000 16900 7300 16900
+Wire Wire Line
+	7000 17000 7300 17000
+Wire Wire Line
+	6200 15400 5900 15400
+Wire Wire Line
+	5900 15400 5900 15300
+Wire Wire Line
+	5900 15300 4800 15300
+Wire Wire Line
+	5650 14950 5650 15250
+Wire Wire Line
+	5650 15250 5650 15400
+Wire Wire Line
+	6200 15500 5800 15500
+Wire Wire Line
+	5800 15500 5800 15400
+Wire Wire Line
+	5800 15400 5650 15400
+Wire Wire Line
+	4450 15600 5650 15600
+Wire Wire Line
+	5650 15600 5850 15600
+Wire Wire Line
+	5850 15600 6200 15600
+Connection ~ 5850 15600
+Wire Wire Line
+	6200 15700 6000 15700
+Wire Wire Line
+	6000 15800 6000 15700
+Wire Wire Line
+	5650 15800 5850 15800
+Wire Wire Line
+	5850 15800 6000 15800
+Wire Wire Line
+	5650 15800 5650 15950
+Connection ~ 5850 15800
+Wire Notes Line
+	6600 15750 6600 16250
+Wire Wire Line
+	3200 15000 6200 15000
+Wire Wire Line
+	3200 15100 6200 15100
+Wire Wire Line
+	3200 15200 6200 15200
+Wire Wire Line
+	6200 15300 6100 15300
+Wire Wire Line
+	6100 15300 6100 15250
+Wire Wire Line
+	6100 15250 5650 15250
+Connection ~ 5650 15250
+Wire Wire Line
+	6200 16700 5900 16700
+Wire Wire Line
+	5900 16700 5900 16600
+Wire Wire Line
+	5900 16600 3850 16600
+Wire Wire Line
+	5650 16250 5650 16550
+Wire Wire Line
+	5650 16550 5650 16700
+Wire Wire Line
+	6200 16800 5800 16800
+Wire Wire Line
+	5800 16800 5800 16700
+Wire Wire Line
+	5800 16700 5650 16700
+Wire Wire Line
+	5650 16900 6000 16900
+Wire Wire Line
+	6000 16900 6200 16900
+Wire Wire Line
+	6000 17000 6200 17000
+Wire Wire Line
+	6200 16300 3200 16300
+Wire Wire Line
+	6200 16400 3200 16400
+Wire Wire Line
+	6200 16500 3200 16500
+Wire Wire Line
+	4450 15950 4450 15600
+Connection ~ 5650 15600
+Wire Wire Line
+	6000 16900 6000 17000
+Wire Wire Line
+	6000 17000 6000 17050
+Connection ~ 6000 16900
+Connection ~ 6000 17000
+Wire Wire Line
+	6200 16600 6000 16600
+Wire Wire Line
+	6000 16600 6000 16550
+Wire Wire Line
+	6000 16550 5650 16550
+Connection ~ 5650 16550
+Wire Wire Line
+	4800 15300 4800 13900
+Wire Wire Line
+	3850 16600 3850 14350
+Wire Wire Line
+	3850 14350 3650 14350
+Wire Wire Line
+	2900 13500 2900 13850
+Wire Wire Line
+	2900 13850 2850 13850
+Connection ~ 2900 13500
+Wire Wire Line
+	3000 13600 3000 14050
+Wire Wire Line
+	3000 14050 2850 14050
+Connection ~ 3000 13600
+Wire Wire Line
+	1200 13900 1300 13900
+Wire Wire Line
+	1300 13900 1300 13250
+Wire Wire Line
+	1600 13700 1600 13850
+Wire Wire Line
+	1600 13850 1650 13850
+Connection ~ 1600 13700
+Wire Wire Line
+	2050 13850 2400 13850
+Wire Wire Line
+	2400 13850 2400 13950
+Wire Wire Line
+	2400 13950 2400 14500
+Wire Wire Line
+	2550 13950 2400 13950
+Connection ~ 2400 13950
+Wire Wire Line
+	1250 14100 1250 14150
+Wire Wire Line
+	1250 14150 1200 14150
+Connection ~ 1250 14100
+Wire Wire Line
+	1400 14000 1400 14150
+Connection ~ 1400 14000
+Wire Wire Line
+	1300 14450 1500 14450
+Connection ~ 1500 14450
+Wire Wire Line
+	3900 13700 3900 13800
+Wire Wire Line
+	3900 13800 4050 13800
+Wire Wire Line
+	4800 13900 4700 13900
+Wire Wire Line
+	4700 13700 4900 13700
+Wire Wire Line
+	4900 13700 4900 14650
+Wire Wire Line
+	4900 14650 7300 14650
+Wire Wire Line
+	3950 14150 3950 14800
+Wire Wire Line
+	3950 14800 3200 14800
+Wire Wire Line
+	4050 13950 4050 14900
+Wire Wire Line
+	4050 14900 3200 14900
+Wire Wire Line
+	7300 14800 4150 14800
+Wire Wire Line
+	4150 14800 4150 14700
+Wire Wire Line
+	4150 14700 3200 14700
+Wire Wire Line
+	1500 17650 1500 18050
+Wire Wire Line
+	1500 18050 1500 18700
+Wire Wire Line
+	1500 18700 1500 18750
+Wire Wire Line
+	1200 17650 1500 17650
+Wire Wire Line
+	1200 17750 2900 17750
+Wire Wire Line
+	2900 17750 6000 17750
+Wire Wire Line
+	1200 17850 3000 17850
+Wire Wire Line
+	3000 17850 6000 17850
+Wire Wire Line
+	1200 18350 1250 18350
+Wire Wire Line
+	1250 18350 1600 18350
+Wire Wire Line
+	2200 18200 2200 18350
+Wire Wire Line
+	1600 18200 2200 18200
+Wire Wire Line
+	1600 18250 1600 18200
+Wire Wire Line
+	1200 18250 1400 18250
+Wire Wire Line
+	1400 18250 1600 18250
+Wire Wire Line
+	1200 17950 1600 17950
+Wire Wire Line
+	1600 17950 3050 17950
+Wire Wire Line
+	1200 18050 1500 18050
+Wire Wire Line
+	3300 17950 3250 17950
+Connection ~ 1500 18050
+Wire Wire Line
+	2200 18500 3050 18500
+Wire Wire Line
+	3650 18400 3950 18400
+Wire Wire Line
+	7000 19250 7300 19250
+Wire Wire Line
+	7000 19350 7300 19350
+Wire Wire Line
+	7000 19450 7300 19450
+Wire Wire Line
+	7000 19550 7300 19550
+Wire Wire Line
+	7000 19650 7300 19650
+Wire Wire Line
+	7000 19750 7300 19750
+Wire Wire Line
+	7000 19850 7300 19850
+Wire Wire Line
+	7000 19950 7300 19950
+Wire Wire Line
+	7000 20550 7300 20550
+Wire Wire Line
+	7000 20650 7300 20650
+Wire Wire Line
+	7000 20750 7300 20750
+Wire Wire Line
+	7000 20850 7300 20850
+Wire Wire Line
+	7000 20950 7300 20950
+Wire Wire Line
+	7000 21050 7300 21050
+Wire Wire Line
+	7000 21150 7300 21150
+Wire Wire Line
+	7000 21250 7300 21250
+Wire Wire Line
+	6200 19650 5900 19650
+Wire Wire Line
+	5900 19650 5900 19550
+Wire Wire Line
+	5900 19550 4800 19550
+Wire Wire Line
+	5650 19200 5650 19500
+Wire Wire Line
+	5650 19500 5650 19650
+Wire Wire Line
+	6200 19750 5800 19750
+Wire Wire Line
+	5800 19750 5800 19650
+Wire Wire Line
+	5800 19650 5650 19650
+Wire Wire Line
+	4450 19850 5650 19850
+Wire Wire Line
+	5650 19850 5850 19850
+Wire Wire Line
+	5850 19850 6200 19850
+Connection ~ 5850 19850
+Wire Wire Line
+	6200 19950 6000 19950
+Wire Wire Line
+	6000 20050 6000 19950
+Wire Wire Line
+	5650 20050 5850 20050
+Wire Wire Line
+	5850 20050 6000 20050
+Wire Wire Line
+	5650 20050 5650 20200
+Connection ~ 5850 20050
+Wire Notes Line
+	6600 20000 6600 20500
+Wire Wire Line
+	3200 19250 6200 19250
+Wire Wire Line
+	3200 19350 6200 19350
+Wire Wire Line
+	3200 19450 6200 19450
+Wire Wire Line
+	6200 19550 6100 19550
+Wire Wire Line
+	6100 19550 6100 19500
+Wire Wire Line
+	6100 19500 5650 19500
+Connection ~ 5650 19500
+Wire Wire Line
+	6200 20950 5900 20950
+Wire Wire Line
+	5900 20950 5900 20850
+Wire Wire Line
+	5900 20850 3850 20850
+Wire Wire Line
+	5650 20500 5650 20800
+Wire Wire Line
+	5650 20800 5650 20950
+Wire Wire Line
+	6200 21050 5800 21050
+Wire Wire Line
+	5800 21050 5800 20950
+Wire Wire Line
+	5800 20950 5650 20950
+Wire Wire Line
+	5650 21150 6000 21150
+Wire Wire Line
+	6000 21150 6200 21150
+Wire Wire Line
+	6000 21250 6200 21250
+Wire Wire Line
+	6200 20550 3200 20550
+Wire Wire Line
+	6200 20650 3200 20650
+Wire Wire Line
+	6200 20750 3200 20750
+Wire Wire Line
+	4450 20200 4450 19850
+Connection ~ 5650 19850
+Wire Wire Line
+	6000 21150 6000 21250
+Wire Wire Line
+	6000 21250 6000 21300
+Connection ~ 6000 21150
+Connection ~ 6000 21250
+Wire Wire Line
+	6200 20850 6000 20850
+Wire Wire Line
+	6000 20850 6000 20800
+Wire Wire Line
+	6000 20800 5650 20800
+Connection ~ 5650 20800
+Wire Wire Line
+	4800 19550 4800 18150
+Wire Wire Line
+	3850 20850 3850 18600
+Wire Wire Line
+	3850 18600 3650 18600
+Wire Wire Line
+	2900 17750 2900 18100
+Wire Wire Line
+	2900 18100 2850 18100
+Connection ~ 2900 17750
+Wire Wire Line
+	3000 17850 3000 18300
+Wire Wire Line
+	3000 18300 2850 18300
+Connection ~ 3000 17850
+Wire Wire Line
+	1200 18150 1300 18150
+Wire Wire Line
+	1300 18150 1300 17500
+Wire Wire Line
+	1600 17950 1600 18100
+Wire Wire Line
+	1600 18100 1650 18100
+Connection ~ 1600 17950
+Wire Wire Line
+	2050 18100 2400 18100
+Wire Wire Line
+	2400 18100 2400 18200
+Wire Wire Line
+	2400 18200 2400 18750
+Wire Wire Line
+	2550 18200 2400 18200
+Connection ~ 2400 18200
+Wire Wire Line
+	1250 18350 1250 18400
+Wire Wire Line
+	1250 18400 1200 18400
+Connection ~ 1250 18350
+Wire Wire Line
+	1400 18250 1400 18400
+Connection ~ 1400 18250
+Wire Wire Line
+	1300 18700 1500 18700
+Connection ~ 1500 18700
+Wire Wire Line
+	3900 17950 3900 18050
+Wire Wire Line
+	3900 18050 4050 18050
+Wire Wire Line
+	4800 18150 4700 18150
+Wire Wire Line
+	4700 17950 4900 17950
+Wire Wire Line
+	4900 17950 4900 18900
+Wire Wire Line
+	4900 18900 7300 18900
+Wire Wire Line
+	3950 18400 3950 19050
+Wire Wire Line
+	3950 19050 3200 19050
+Wire Wire Line
+	4050 18200 4050 19150
+Wire Wire Line
+	4050 19150 3200 19150
+Wire Wire Line
+	7300 19050 4150 19050
+Wire Wire Line
+	4150 19050 4150 18950
+Wire Wire Line
+	4150 18950 3200 18950
+Wire Wire Line
+	1500 21900 1500 22300
+Wire Wire Line
+	1500 22300 1500 22950
+Wire Wire Line
+	1500 22950 1500 23000
+Wire Wire Line
+	1200 21900 1500 21900
+Wire Wire Line
+	1200 22000 2900 22000
+Wire Wire Line
+	2900 22000 6000 22000
+Wire Wire Line
+	1200 22100 3000 22100
+Wire Wire Line
+	3000 22100 6000 22100
+Wire Wire Line
+	1200 22600 1250 22600
+Wire Wire Line
+	1250 22600 1600 22600
+Wire Wire Line
+	2200 22450 2200 22600
+Wire Wire Line
+	1600 22450 2200 22450
+Wire Wire Line
+	1600 22500 1600 22450
+Wire Wire Line
+	1200 22500 1400 22500
+Wire Wire Line
+	1400 22500 1600 22500
+Wire Wire Line
+	1200 22200 1600 22200
+Wire Wire Line
+	1600 22200 3050 22200
+Wire Wire Line
+	1200 22300 1500 22300
+Wire Wire Line
+	3300 22200 3250 22200
+Connection ~ 1500 22300
+Wire Wire Line
+	2200 22750 3050 22750
+Wire Wire Line
+	3650 22650 3950 22650
+Wire Wire Line
+	7000 23500 7300 23500
+Wire Wire Line
+	7000 23600 7300 23600
+Wire Wire Line
+	7000 23700 7300 23700
+Wire Wire Line
+	7000 23800 7300 23800
+Wire Wire Line
+	7000 23900 7300 23900
+Wire Wire Line
+	7000 24000 7300 24000
+Wire Wire Line
+	7000 24100 7300 24100
+Wire Wire Line
+	7000 24200 7300 24200
+Wire Wire Line
+	7000 24800 7300 24800
+Wire Wire Line
+	7000 24900 7300 24900
+Wire Wire Line
+	7000 25000 7300 25000
+Wire Wire Line
+	7000 25100 7300 25100
+Wire Wire Line
+	7000 25200 7300 25200
+Wire Wire Line
+	7000 25300 7300 25300
+Wire Wire Line
+	7000 25400 7300 25400
+Wire Wire Line
+	7000 25500 7300 25500
+Wire Wire Line
+	6200 23900 5900 23900
+Wire Wire Line
+	5900 23900 5900 23800
+Wire Wire Line
+	5900 23800 4800 23800
+Wire Wire Line
+	5650 23450 5650 23750
+Wire Wire Line
+	5650 23750 5650 23900
+Wire Wire Line
+	6200 24000 5800 24000
+Wire Wire Line
+	5800 24000 5800 23900
+Wire Wire Line
+	5800 23900 5650 23900
+Wire Wire Line
+	4450 24100 5650 24100
+Wire Wire Line
+	5650 24100 5850 24100
+Wire Wire Line
+	5850 24100 6200 24100
+Connection ~ 5850 24100
+Wire Wire Line
+	6200 24200 6000 24200
+Wire Wire Line
+	6000 24300 6000 24200
+Wire Wire Line
+	5650 24300 5850 24300
+Wire Wire Line
+	5850 24300 6000 24300
+Wire Wire Line
+	5650 24300 5650 24450
+Connection ~ 5850 24300
+Wire Notes Line
+	6600 24250 6600 24750
+Wire Wire Line
+	3200 23500 6200 23500
+Wire Wire Line
+	3200 23600 6200 23600
+Wire Wire Line
+	3200 23700 6200 23700
+Wire Wire Line
+	6200 23800 6100 23800
+Wire Wire Line
+	6100 23800 6100 23750
+Wire Wire Line
+	6100 23750 5650 23750
+Connection ~ 5650 23750
+Wire Wire Line
+	6200 25200 5900 25200
+Wire Wire Line
+	5900 25200 5900 25100
+Wire Wire Line
+	5900 25100 3850 25100
+Wire Wire Line
+	5650 24750 5650 25050
+Wire Wire Line
+	5650 25050 5650 25200
+Wire Wire Line
+	6200 25300 5800 25300
+Wire Wire Line
+	5800 25300 5800 25200
+Wire Wire Line
+	5800 25200 5650 25200
+Wire Wire Line
+	5650 25400 6000 25400
+Wire Wire Line
+	6000 25400 6200 25400
+Wire Wire Line
+	6000 25500 6200 25500
+Wire Wire Line
+	6200 24800 3200 24800
+Wire Wire Line
+	6200 24900 3200 24900
+Wire Wire Line
+	6200 25000 3200 25000
+Wire Wire Line
+	4450 24450 4450 24100
+Connection ~ 5650 24100
+Wire Wire Line
+	6000 25400 6000 25500
+Wire Wire Line
+	6000 25500 6000 25550
+Connection ~ 6000 25400
+Connection ~ 6000 25500
+Wire Wire Line
+	6200 25100 6000 25100
+Wire Wire Line
+	6000 25100 6000 25050
+Wire Wire Line
+	6000 25050 5650 25050
+Connection ~ 5650 25050
+Wire Wire Line
+	4800 23800 4800 22400
+Wire Wire Line
+	3850 25100 3850 22850
+Wire Wire Line
+	3850 22850 3650 22850
+Wire Wire Line
+	2900 22000 2900 22350
+Wire Wire Line
+	2900 22350 2850 22350
+Connection ~ 2900 22000
+Wire Wire Line
+	3000 22100 3000 22550
+Wire Wire Line
+	3000 22550 2850 22550
+Connection ~ 3000 22100
+Wire Wire Line
+	1200 22400 1300 22400
+Wire Wire Line
+	1300 22400 1300 21750
+Wire Wire Line
+	1600 22200 1600 22350
+Wire Wire Line
+	1600 22350 1650 22350
+Connection ~ 1600 22200
+Wire Wire Line
+	2050 22350 2400 22350
+Wire Wire Line
+	2400 22350 2400 22450
+Wire Wire Line
+	2400 22450 2400 23000
+Wire Wire Line
+	2550 22450 2400 22450
+Connection ~ 2400 22450
+Wire Wire Line
+	1250 22600 1250 22650
+Wire Wire Line
+	1250 22650 1200 22650
+Connection ~ 1250 22600
+Wire Wire Line
+	1400 22500 1400 22650
+Connection ~ 1400 22500
+Wire Wire Line
+	1300 22950 1500 22950
+Connection ~ 1500 22950
+Wire Wire Line
+	3900 22200 3900 22300
+Wire Wire Line
+	3900 22300 4050 22300
+Wire Wire Line
+	4800 22400 4700 22400
+Wire Wire Line
+	4700 22200 4900 22200
+Wire Wire Line
+	4900 22200 4900 23150
+Wire Wire Line
+	4900 23150 7300 23150
+Wire Wire Line
+	3950 22650 3950 23300
+Wire Wire Line
+	3950 23300 3200 23300
+Wire Wire Line
+	4050 22450 4050 23400
+Wire Wire Line
+	4050 23400 3200 23400
+Wire Wire Line
+	7300 23300 4150 23300
+Wire Wire Line
+	4150 23300 4150 23200
+Wire Wire Line
+	4150 23200 3200 23200
+Wire Wire Line
+	1500 26150 1500 26550
+Wire Wire Line
+	1500 26550 1500 27200
+Wire Wire Line
+	1500 27200 1500 27250
+Wire Wire Line
+	1200 26150 1500 26150
+Wire Wire Line
+	1200 26250 2900 26250
+Wire Wire Line
+	2900 26250 6000 26250
+Wire Wire Line
+	1200 26350 3000 26350
+Wire Wire Line
+	3000 26350 6000 26350
+Wire Wire Line
+	1200 26850 1250 26850
+Wire Wire Line
+	1250 26850 1600 26850
+Wire Wire Line
+	2200 26700 2200 26850
+Wire Wire Line
+	1600 26700 2200 26700
+Wire Wire Line
+	1600 26750 1600 26700
+Wire Wire Line
+	1200 26750 1400 26750
+Wire Wire Line
+	1400 26750 1600 26750
+Wire Wire Line
+	1200 26450 1600 26450
+Wire Wire Line
+	1600 26450 3050 26450
+Wire Wire Line
+	1200 26550 1500 26550
+Wire Wire Line
+	3300 26450 3250 26450
+Connection ~ 1500 26550
+Wire Wire Line
+	2200 27000 3050 27000
+Wire Wire Line
+	3650 26900 3950 26900
+Wire Wire Line
+	7000 27750 7300 27750
+Wire Wire Line
+	7000 27850 7300 27850
+Wire Wire Line
+	7000 27950 7300 27950
+Wire Wire Line
+	7000 28050 7300 28050
+Wire Wire Line
+	7000 28150 7300 28150
+Wire Wire Line
+	7000 28250 7300 28250
+Wire Wire Line
+	7000 28350 7300 28350
+Wire Wire Line
+	7000 28450 7300 28450
+Wire Wire Line
+	7000 29050 7300 29050
+Wire Wire Line
+	7000 29150 7300 29150
+Wire Wire Line
+	7000 29250 7300 29250
+Wire Wire Line
+	7000 29350 7300 29350
+Wire Wire Line
+	7000 29450 7300 29450
+Wire Wire Line
+	7000 29550 7300 29550
+Wire Wire Line
+	7000 29650 7300 29650
+Wire Wire Line
+	7000 29750 7300 29750
+Wire Wire Line
+	6200 28150 5900 28150
+Wire Wire Line
+	5900 28150 5900 28050
+Wire Wire Line
+	5900 28050 4800 28050
+Wire Wire Line
+	5650 27700 5650 28000
+Wire Wire Line
+	5650 28000 5650 28150
+Wire Wire Line
+	6200 28250 5800 28250
+Wire Wire Line
+	5800 28250 5800 28150
+Wire Wire Line
+	5800 28150 5650 28150
+Wire Wire Line
+	4450 28350 5650 28350
+Wire Wire Line
+	5650 28350 5850 28350
+Wire Wire Line
+	5850 28350 6200 28350
+Connection ~ 5850 28350
+Wire Wire Line
+	6200 28450 6000 28450
+Wire Wire Line
+	6000 28550 6000 28450
+Wire Wire Line
+	5650 28550 5850 28550
+Wire Wire Line
+	5850 28550 6000 28550
+Wire Wire Line
+	5650 28550 5650 28700
+Connection ~ 5850 28550
+Wire Notes Line
+	6600 28500 6600 29000
+Wire Wire Line
+	3200 27750 6200 27750
+Wire Wire Line
+	3200 27850 6200 27850
+Wire Wire Line
+	3200 27950 6200 27950
+Wire Wire Line
+	6200 28050 6100 28050
+Wire Wire Line
+	6100 28050 6100 28000
+Wire Wire Line
+	6100 28000 5650 28000
+Connection ~ 5650 28000
+Wire Wire Line
+	6200 29450 5900 29450
+Wire Wire Line
+	5900 29450 5900 29350
+Wire Wire Line
+	5900 29350 3850 29350
+Wire Wire Line
+	5650 29000 5650 29300
+Wire Wire Line
+	5650 29300 5650 29450
+Wire Wire Line
+	6200 29550 5800 29550
+Wire Wire Line
+	5800 29550 5800 29450
+Wire Wire Line
+	5800 29450 5650 29450
+Wire Wire Line
+	5650 29650 6000 29650
+Wire Wire Line
+	6000 29650 6200 29650
+Wire Wire Line
+	6000 29750 6200 29750
+Wire Wire Line
+	6200 29050 3200 29050
+Wire Wire Line
+	6200 29150 3200 29150
+Wire Wire Line
+	6200 29250 3200 29250
+Wire Wire Line
+	4450 28700 4450 28350
+Connection ~ 5650 28350
+Wire Wire Line
+	6000 29650 6000 29750
+Wire Wire Line
+	6000 29750 6000 29800
+Connection ~ 6000 29650
+Connection ~ 6000 29750
+Wire Wire Line
+	6200 29350 6000 29350
+Wire Wire Line
+	6000 29350 6000 29300
+Wire Wire Line
+	6000 29300 5650 29300
+Connection ~ 5650 29300
+Wire Wire Line
+	4800 28050 4800 26650
+Wire Wire Line
+	3850 29350 3850 27100
+Wire Wire Line
+	3850 27100 3650 27100
+Wire Wire Line
+	2900 26250 2900 26600
+Wire Wire Line
+	2900 26600 2850 26600
+Connection ~ 2900 26250
+Wire Wire Line
+	3000 26350 3000 26800
+Wire Wire Line
+	3000 26800 2850 26800
+Connection ~ 3000 26350
+Wire Wire Line
+	1200 26650 1300 26650
+Wire Wire Line
+	1300 26650 1300 26000
+Wire Wire Line
+	1600 26450 1600 26600
+Wire Wire Line
+	1600 26600 1650 26600
+Connection ~ 1600 26450
+Wire Wire Line
+	2050 26600 2400 26600
+Wire Wire Line
+	2400 26600 2400 26700
+Wire Wire Line
+	2400 26700 2400 27250
+Wire Wire Line
+	2550 26700 2400 26700
+Connection ~ 2400 26700
+Wire Wire Line
+	1250 26850 1250 26900
+Wire Wire Line
+	1250 26900 1200 26900
+Connection ~ 1250 26850
+Wire Wire Line
+	1400 26750 1400 26900
+Connection ~ 1400 26750
+Wire Wire Line
+	1300 27200 1500 27200
+Connection ~ 1500 27200
+Wire Wire Line
+	3900 26450 3900 26550
+Wire Wire Line
+	3900 26550 4050 26550
+Wire Wire Line
+	4800 26650 4700 26650
+Wire Wire Line
+	4700 26450 4900 26450
+Wire Wire Line
+	4900 26450 4900 27400
+Wire Wire Line
+	4900 27400 7300 27400
+Wire Wire Line
+	3950 26900 3950 27550
+Wire Wire Line
+	3950 27550 3200 27550
+Wire Wire Line
+	4050 26700 4050 27650
+Wire Wire Line
+	4050 27650 3200 27650
+Wire Wire Line
+	7300 27550 4150 27550
+Wire Wire Line
+	4150 27550 4150 27450
+Wire Wire Line
+	4150 27450 3200 27450
+Wire Wire Line
+	1500 30400 1500 30800
+Wire Wire Line
+	1500 30800 1500 31450
+Wire Wire Line
+	1500 31450 1500 31500
+Wire Wire Line
+	1200 30400 1500 30400
+Wire Wire Line
+	1200 30500 2900 30500
+Wire Wire Line
+	2900 30500 6000 30500
+Wire Wire Line
+	1200 30600 3000 30600
+Wire Wire Line
+	3000 30600 6000 30600
+Wire Wire Line
+	1200 31100 1250 31100
+Wire Wire Line
+	1250 31100 1600 31100
+Wire Wire Line
+	2200 30950 2200 31100
+Wire Wire Line
+	1600 30950 2200 30950
+Wire Wire Line
+	1600 31000 1600 30950
+Wire Wire Line
+	1200 31000 1400 31000
+Wire Wire Line
+	1400 31000 1600 31000
+Wire Wire Line
+	1200 30700 1600 30700
+Wire Wire Line
+	1600 30700 3050 30700
+Wire Wire Line
+	1200 30800 1500 30800
+Wire Wire Line
+	3300 30700 3250 30700
+Connection ~ 1500 30800
+Wire Wire Line
+	2200 31250 3050 31250
+Wire Wire Line
+	3650 31150 3950 31150
+Wire Wire Line
+	7000 32000 7300 32000
+Wire Wire Line
+	7000 32100 7300 32100
+Wire Wire Line
+	7000 32200 7300 32200
+Wire Wire Line
+	7000 32300 7300 32300
+Wire Wire Line
+	7000 32400 7300 32400
+Wire Wire Line
+	7000 32500 7300 32500
+Wire Wire Line
+	7000 32600 7300 32600
+Wire Wire Line
+	7000 32700 7300 32700
+Wire Wire Line
+	7000 33300 7300 33300
+Wire Wire Line
+	7000 33400 7300 33400
+Wire Wire Line
+	7000 33500 7300 33500
+Wire Wire Line
+	7000 33600 7300 33600
+Wire Wire Line
+	7000 33700 7300 33700
+Wire Wire Line
+	7000 33800 7300 33800
+Wire Wire Line
+	7000 33900 7300 33900
+Wire Wire Line
+	7000 34000 7300 34000
+Wire Wire Line
+	6200 32400 5900 32400
+Wire Wire Line
+	5900 32400 5900 32300
+Wire Wire Line
+	5900 32300 4800 32300
+Wire Wire Line
+	5650 31950 5650 32250
+Wire Wire Line
+	5650 32250 5650 32400
+Wire Wire Line
+	6200 32500 5800 32500
+Wire Wire Line
+	5800 32500 5800 32400
+Wire Wire Line
+	5800 32400 5650 32400
+Wire Wire Line
+	4450 32600 5650 32600
+Wire Wire Line
+	5650 32600 5850 32600
+Wire Wire Line
+	5850 32600 6200 32600
+Connection ~ 5850 32600
+Wire Wire Line
+	6200 32700 6000 32700
+Wire Wire Line
+	6000 32800 6000 32700
+Wire Wire Line
+	5650 32800 5850 32800
+Wire Wire Line
+	5850 32800 6000 32800
+Wire Wire Line
+	5650 32800 5650 32950
+Connection ~ 5850 32800
+Wire Notes Line
+	6600 32750 6600 33250
+Wire Wire Line
+	3200 32000 6200 32000
+Wire Wire Line
+	3200 32100 6200 32100
+Wire Wire Line
+	3200 32200 6200 32200
+Wire Wire Line
+	6200 32300 6100 32300
+Wire Wire Line
+	6100 32300 6100 32250
+Wire Wire Line
+	6100 32250 5650 32250
+Connection ~ 5650 32250
+Wire Wire Line
+	6200 33700 5900 33700
+Wire Wire Line
+	5900 33700 5900 33600
+Wire Wire Line
+	5900 33600 3850 33600
+Wire Wire Line
+	5650 33250 5650 33550
+Wire Wire Line
+	5650 33550 5650 33700
+Wire Wire Line
+	6200 33800 5800 33800
+Wire Wire Line
+	5800 33800 5800 33700
+Wire Wire Line
+	5800 33700 5650 33700
+Wire Wire Line
+	5650 33900 6000 33900
+Wire Wire Line
+	6000 33900 6200 33900
+Wire Wire Line
+	6000 34000 6200 34000
+Wire Wire Line
+	6200 33300 3200 33300
+Wire Wire Line
+	6200 33400 3200 33400
+Wire Wire Line
+	6200 33500 3200 33500
+Wire Wire Line
+	4450 32950 4450 32600
+Connection ~ 5650 32600
+Wire Wire Line
+	6000 33900 6000 34000
+Wire Wire Line
+	6000 34000 6000 34050
+Connection ~ 6000 33900
+Connection ~ 6000 34000
+Wire Wire Line
+	6200 33600 6000 33600
+Wire Wire Line
+	6000 33600 6000 33550
+Wire Wire Line
+	6000 33550 5650 33550
+Connection ~ 5650 33550
+Wire Wire Line
+	4800 32300 4800 30900
+Wire Wire Line
+	3850 33600 3850 31350
+Wire Wire Line
+	3850 31350 3650 31350
+Wire Wire Line
+	2900 30500 2900 30850
+Wire Wire Line
+	2900 30850 2850 30850
+Connection ~ 2900 30500
+Wire Wire Line
+	3000 30600 3000 31050
+Wire Wire Line
+	3000 31050 2850 31050
+Connection ~ 3000 30600
+Wire Wire Line
+	1200 30900 1300 30900
+Wire Wire Line
+	1300 30900 1300 30250
+Wire Wire Line
+	1600 30700 1600 30850
+Wire Wire Line
+	1600 30850 1650 30850
+Connection ~ 1600 30700
+Wire Wire Line
+	2050 30850 2400 30850
+Wire Wire Line
+	2400 30850 2400 30950
+Wire Wire Line
+	2400 30950 2400 31500
+Wire Wire Line
+	2550 30950 2400 30950
+Connection ~ 2400 30950
+Wire Wire Line
+	1250 31100 1250 31150
+Wire Wire Line
+	1250 31150 1200 31150
+Connection ~ 1250 31100
+Wire Wire Line
+	1400 31000 1400 31150
+Connection ~ 1400 31000
+Wire Wire Line
+	1300 31450 1500 31450
+Connection ~ 1500 31450
+Wire Wire Line
+	3900 30700 3900 30800
+Wire Wire Line
+	3900 30800 4050 30800
+Wire Wire Line
+	4800 30900 4700 30900
+Wire Wire Line
+	4700 30700 4900 30700
+Wire Wire Line
+	4900 30700 4900 31650
+Wire Wire Line
+	4900 31650 7300 31650
+Wire Wire Line
+	3950 31150 3950 31800
+Wire Wire Line
+	3950 31800 3200 31800
+Wire Wire Line
+	4050 30950 4050 31900
+Wire Wire Line
+	4050 31900 3200 31900
+Wire Wire Line
+	7300 31800 4150 31800
+Wire Wire Line
+	4150 31800 4150 31700
+Wire Wire Line
+	4150 31700 3200 31700
+Wire Notes Line
+	6600 4300 6600 4900
+Wire Notes Line
+	6600 8550 6600 9150
+Wire Notes Line
+	6600 12800 6600 13400
+Wire Notes Line
+	6600 17050 6600 17650
+Wire Notes Line
+	6600 21300 6600 21900
+Wire Notes Line
+	6600 25550 6600 26150
+Wire Notes Line
+	6600 29800 6600 30400
 $EndSCHEMATC
