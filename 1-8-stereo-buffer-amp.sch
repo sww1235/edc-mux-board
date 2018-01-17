@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLedger 11000 17000 portrait
 encoding utf-8
-Sheet 14 37
+Sheet 14 40
 Title "Stereo 1:8 Audio Unity Gain Buffer"
 Date ""
 Rev ""
