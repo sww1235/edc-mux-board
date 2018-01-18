@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 30000 40000
 encoding utf-8
-Sheet 4 40
+Sheet 4 50
 Title ""
 Date ""
 Rev ""
@@ -381,7 +381,7 @@ $EndComp
 Text Notes 25500 12850 0    60   ~ 0
 Flashlight/headlamp connectors\n12V+, GND, SDA, SCL
 Text Notes 19850 13900 0    60   ~ 0
-i2c pins (I2C 1) GPIO 2,3 alt0\nspi pins (SPI 0) GPIO 7,8,9,10,11 alt0
+i2c pins (I2C 0) GPIO 0,1 alt0\ni2c pins (I2C 1) GPIO 2,3 alt0\n
 Text Notes 20300 11600 0    60   ~ 0
 TCA9534 addresses all start with 0100 (32-39),\nTCA9534A variant starts with 0111 (56-63)
 Text Notes 19850 10650 0    60   ~ 0
@@ -390,20 +390,6 @@ Text Label 21550 13500 2    60   ~ 0
 SDA
 Text Label 21550 13600 2    60   ~ 0
 SCL
-Text Label 21300 12450 0    60   ~ 0
-SDA
-Text Label 21300 12550 0    60   ~ 0
-SCL
-Text Label 21550 14450 2    60   ~ 0
-MOSI
-Text Label 21550 14350 2    60   ~ 0
-MISO
-Text Label 21550 14100 2    60   ~ 0
-CE0
-Text Label 21550 14000 2    60   ~ 0
-CE1
-Text Label 21550 14550 2    60   ~ 0
-SCLK
 NoConn ~ 21800 13300
 NoConn ~ 21800 13400
 NoConn ~ 21800 14750
@@ -437,12 +423,6 @@ F 3 "" H 25850 13050 50  0001 C CNN
 	1    25850 13050
 	1    0    0    -1  
 $EndComp
-Text Label 21200 14000 2    60   ~ 0
-CE1
-NoConn ~ 21200 14000
-Text Label 21250 14350 2    60   ~ 0
-MISO
-NoConn ~ 21250 14350
 $Comp
 L Fuse_Small F12
 U 1 1 59D072D5
@@ -526,22 +506,6 @@ Text Notes 25000 150  0    60   ~ 0
 Standard Android headset controls can be accomodated\nwith an external converter that measures the resistances\non the mic line and transforms those into a pulse code on\nthe mic mute line that the raspberry pi is monitoring for.
 Text Notes 22550 13750 0    60   ~ 0
 GPIO Pins 4,5,6,12 are\nused to monitor PiUPS
-$Comp
-L RasPi-CM3-Headers J11
-U 7 1 5A350A6E
-P 20200 14750
-F 0 "J11" H 20427 14808 60  0000 L CNN
-F 1 "RasPi-CM3-Headers" H 20427 14702 60  0000 L CNN
-F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 20250 19850 60  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 20250 19550 60  0001 C CNN
-F 4 "Raspberry Pi Foundation" H 20200 19650 60  0001 C CNN "Manufacturer"
-F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 20200 19750 60  0001 C CNN "Description"
-F 6 "0.00@0" H 20200 19450 60  0001 C CNN "Pricing"
-	7    20200 14750
-	1    0    0    -1  
-$EndComp
-Text Notes 19400 14250 0    60   ~ 0
-GPIO 18-21 are PCM/i2s data
 $Comp
 L TCA9548A U?
 U 1 1 5A45AD13
@@ -2289,8 +2253,6 @@ F 7 "TSSOP20" H 7600 2550 60  0001 C CNN "Package ID"
 $EndComp
 Text Notes 1450 3050 0    60   ~ 0
 Address lines for MUXes (2 different voltage levels)\nPTT from IO expander (5v)\ntwo SPDT switches from IO expander (2.5v)
-Text Notes 8100 1950 0    60   ~ 0
-Connect to Stereo Distro amp\nfrom RPi audio out
 Text Notes 7900 1050 0    60   ~ 0
 out 1 goes to Mixer\nout 2 goes to L_In/R_in bus
 Text Notes 4150 1450 0    60   ~ 0
@@ -4401,8 +4363,6 @@ F 7 "TSSOP20" H 7600 28050 60  0001 C CNN "Package ID"
 $EndComp
 Text Notes 1450 28550 0    60   ~ 0
 Address lines for MUXes (2 different voltage levels)\nPTT from IO expander (5v)\ntwo SPDT switches from IO expander (2.5v)
-Text Notes 8100 27450 0    60   ~ 0
-Connect to Stereo Distro amp\nfrom RPi audio out
 Text Notes 7900 26550 0    60   ~ 0
 out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
 Text Notes 4150 26950 0    60   ~ 0
@@ -5320,9 +5280,9 @@ Text Label 10500 31200 0    60   ~ 0
 MIXER-OUT-L-[0..7]
 Text Label 10500 31300 0    60   ~ 0
 MIXER-OUT-R-[0..7]
-Text Label 10850 12050 0    60   ~ 0
+Text Label 10400 12050 0    60   ~ 0
 HEADSET-AUDIO-SOURCE-L-[0..7]
-Text Label 10850 12150 0    60   ~ 0
+Text Label 10400 12150 0    60   ~ 0
 HEADSET-AUDIO-SOURCE-R-[0..7]
 Text Label 9850 15900 1    60   ~ 0
 HEADSET-AUDIO-SOURCE-L-[0..7]
@@ -5728,16 +5688,6 @@ Wire Wire Line
 	21800 13500 21550 13500
 Wire Wire Line
 	21550 13600 21800 13600
-Wire Wire Line
-	21550 14000 21800 14000
-Wire Wire Line
-	21550 14100 21800 14100
-Wire Wire Line
-	21550 14350 21800 14350
-Wire Wire Line
-	21550 14450 21800 14450
-Wire Wire Line
-	21550 14550 21800 14550
 Wire Wire Line
 	25600 13250 26400 13250
 Wire Wire Line
@@ -8154,11 +8104,7 @@ Wire Wire Line
 	7850 17850 9900 17850
 Wire Bus Line
 	9700 1400 9700 31150
-Wire Bus Line
-	9850 12050 15850 12050
 Connection ~ 9850 12050
-Wire Bus Line
-	15850 12150 9700 12150
 Connection ~ 9700 12150
 Wire Bus Line
 	9850 1300 9850 31050
@@ -9273,4 +9219,228 @@ Wire Wire Line
 	17200 28650 19050 28650
 Wire Wire Line
 	17200 28750 19050 28750
+Text Label 8100 2000 0    60   ~ 0
+RPI-OUT-L0
+Text Label 8100 6250 0    60   ~ 0
+RPI-OUT-L1
+Text Label 8100 10500 0    60   ~ 0
+RPI-OUT-L2
+Text Label 8100 14750 0    60   ~ 0
+RPI-OUT-L3
+Text Label 8100 19000 0    60   ~ 0
+RPI-OUT-L4
+Text Label 8100 23250 0    60   ~ 0
+RPI-OUT-L5
+Text Label 8100 27500 0    60   ~ 0
+RPI-OUT-L6
+Text Label 8100 31750 0    60   ~ 0
+RPI-OUT-L7
+Text Label 8100 1800 0    60   ~ 0
+RPI-OUT-R0
+Text Label 8100 6050 0    60   ~ 0
+RPI-OUT-R1
+Text Label 8100 10300 0    60   ~ 0
+RPI-OUT-R2
+Text Label 8100 14550 0    60   ~ 0
+RPI-OUT-R3
+Text Label 8100 18800 0    60   ~ 0
+RPI-OUT-R4
+Text Label 8100 23050 0    60   ~ 0
+RPI-OUT-R5
+Text Label 8100 27300 0    60   ~ 0
+RPI-OUT-R6
+Text Label 8100 31550 0    60   ~ 0
+RPI-OUT-R7
+Entry Wire Line
+	8750 2000 8850 2100
+Entry Wire Line
+	8750 6250 8850 6350
+Entry Wire Line
+	8750 10500 8850 10600
+Entry Wire Line
+	8750 14750 8850 14850
+Entry Wire Line
+	8750 19000 8850 19100
+Entry Wire Line
+	8750 23250 8850 23350
+Entry Wire Line
+	8750 27500 8850 27600
+Entry Wire Line
+	8750 31750 8850 31850
+Entry Wire Line
+	8900 1800 9000 1900
+Entry Wire Line
+	8900 6050 9000 6150
+Entry Wire Line
+	8900 10300 9000 10400
+Entry Wire Line
+	8900 14550 9000 14650
+Entry Wire Line
+	8900 18800 9000 18900
+Entry Wire Line
+	8900 23050 9000 23150
+Entry Wire Line
+	8900 27300 9000 27400
+Entry Wire Line
+	8900 31550 9000 31650
+Wire Wire Line
+	7950 1800 8900 1800
+Wire Wire Line
+	7950 6050 8900 6050
+Wire Wire Line
+	7950 10300 8900 10300
+Wire Wire Line
+	7950 14550 8900 14550
+Wire Wire Line
+	7950 18800 8900 18800
+Wire Wire Line
+	7950 23050 8900 23050
+Wire Wire Line
+	7950 27300 8900 27300
+Wire Wire Line
+	7950 31550 8900 31550
+Wire Wire Line
+	7950 2000 8750 2000
+Wire Wire Line
+	7950 6250 8750 6250
+Wire Wire Line
+	7950 10500 8750 10500
+Wire Wire Line
+	7950 14750 8750 14750
+Wire Wire Line
+	7950 19000 8750 19000
+Wire Wire Line
+	7950 23250 8750 23250
+Wire Wire Line
+	7950 27500 8750 27500
+Wire Wire Line
+	7950 31750 8750 31750
+Wire Bus Line
+	8850 2100 8850 35200
+Wire Bus Line
+	27500 35200 8850 35200
+Wire Bus Line
+	27500 31450 27500 35200
+Wire Bus Line
+	9000 1900 9000 35050
+Wire Bus Line
+	9000 35050 27200 35050
+Wire Bus Line
+	27200 35050 27200 31650
+Text Label 8850 28850 1    60   ~ 0
+RPI-OUT-L[0..7]
+Text Label 9000 28850 1    60   ~ 0
+RPI-OUT-R[0..7]
+Text Label 15950 35050 0    60   ~ 0
+RPI-OUT-R[0..7]
+Text Label 15950 35200 0    60   ~ 0
+RPI-OUT-L[0..7]
+$Sheet
+S 23250 30900 3600 2300
+U 5A632C9B
+F0 "RPI Audio IO" 60
+F1 "rpi-audio-io.sch" 60
+F2 "RPI-L-OUT[0..7]" O R 26850 31450 60 
+F3 "RPI-R-OUT[0..7]" O R 26850 31650 60 
+F4 "RPI-L-IN[0..7]" I L 23250 31350 60 
+F5 "RPI-R-IN[0..7]" I L 23250 31550 60 
+$EndSheet
+NoConn ~ 21800 14000
+NoConn ~ 21800 14100
+NoConn ~ 21800 14350
+NoConn ~ 21800 14450
+NoConn ~ 21800 14550
+Wire Wire Line
+	21900 1450 22050 1450
+Wire Wire Line
+	22050 1450 22050 8450
+Wire Wire Line
+	22050 2450 21900 2450
+Wire Wire Line
+	22050 3450 21900 3450
+Connection ~ 22050 2450
+Wire Wire Line
+	22050 4450 21900 4450
+Connection ~ 22050 3450
+Wire Wire Line
+	22050 5450 21900 5450
+Connection ~ 22050 4450
+Wire Wire Line
+	22050 6450 21900 6450
+Connection ~ 22050 5450
+Wire Wire Line
+	22050 7450 21900 7450
+Connection ~ 22050 6450
+Wire Wire Line
+	22050 8450 21900 8450
+Connection ~ 22050 7450
+Wire Wire Line
+	21900 1350 22150 1350
+Wire Wire Line
+	22150 1350 22150 8650
+Wire Wire Line
+	21900 8350 22150 8350
+Connection ~ 22150 8350
+Wire Wire Line
+	21900 7350 22150 7350
+Connection ~ 22150 7350
+Wire Wire Line
+	21900 6350 22150 6350
+Connection ~ 22150 6350
+Wire Wire Line
+	21900 5350 22150 5350
+Connection ~ 22150 5350
+Wire Wire Line
+	21900 4350 22150 4350
+Connection ~ 22150 4350
+Wire Wire Line
+	21900 3350 22150 3350
+Connection ~ 22150 3350
+Wire Wire Line
+	21900 2350 22150 2350
+Connection ~ 22150 2350
+$Sheet
+S 12100 11900 1750 1050
+U 5A6BD2C8
+F0 "8x 1:2 Distribution Amp" 60
+F1 "8x1-2distro-amp.sch" 60
+F2 "LIN[0..7]" I L 12100 12050 60 
+F3 "RIN[0..7]" I L 12100 12150 60 
+F4 "LOUT1-[0..7]" O R 13850 12050 60 
+F5 "ROUT1-[0..7]" O R 13850 12150 60 
+F6 "LOUT2-[0..7]" O R 13850 12650 60 
+F7 "ROUT2-[0..7]" O R 13850 12750 60 
+$EndSheet
+Wire Bus Line
+	9850 12050 12100 12050
+Wire Bus Line
+	9700 12150 12100 12150
+Wire Bus Line
+	13850 12050 15850 12050
+Wire Bus Line
+	13850 12150 15850 12150
+Wire Bus Line
+	13850 12650 14200 12650
+Wire Bus Line
+	14200 12650 14200 26000
+Wire Bus Line
+	14200 26000 22700 26000
+Wire Bus Line
+	22700 26000 22700 31350
+Wire Bus Line
+	22700 31350 23250 31350
+Wire Bus Line
+	23250 31550 22500 31550
+Wire Bus Line
+	22500 31550 22500 26200
+Wire Bus Line
+	22500 26200 14050 26200
+Wire Bus Line
+	14050 26200 14050 12750
+Wire Bus Line
+	14050 12750 13850 12750
+Wire Bus Line
+	27200 31650 26850 31650
+Wire Bus Line
+	26850 31450 27500 31450
 $EndSCHEMATC
