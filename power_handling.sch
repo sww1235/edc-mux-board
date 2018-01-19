@@ -2117,8 +2117,8 @@ Text Label 15000 7150 2    60   ~ 0
 VBAT_DETECT_2
 Text Label 15000 7050 2    60   ~ 0
 VBAT_DETECT_1
-Text Notes 14100 7650 0    60   ~ 0
-VBAT_DETECT_#\npulled low when \nmain battery is \nnot connected
+Text Notes 14300 7750 0    60   ~ 0
+VBAT_DETECT_#\npulled low when \nmain battery is \nnot connected\n6,7 have default\nhigh pulls
 Text Label 15300 9050 0    60   ~ 0
 Charger_Vout
 Text Label 13750 8350 0    60   ~ 0
@@ -4023,9 +4023,9 @@ Wire Wire Line
 Wire Wire Line
 	19300 13450 19200 13450
 Wire Wire Line
-	14200 7050 15250 7050
+	15000 7050 15250 7050
 Wire Wire Line
-	14100 7150 15100 7150
+	15000 7150 15100 7150
 Wire Wire Line
 	3950 10150 4350 10150
 Wire Wire Line
@@ -4440,52 +4440,6 @@ F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 20600 4200 60  000
 F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 20600 4000 60  0001 C CNN "Characteristics"
 F 8 "TSSOP 24 pin " H 20700 4300 60  0001 C CNN "Package ID"
 	1    20500 2850
-	1    0    0    -1  
-$EndComp
-Connection ~ 14150 6600
-Wire Wire Line
-	14200 6600 14200 6800
-Wire Wire Line
-	14150 6600 14200 6600
-Wire Wire Line
-	14100 6600 14150 6600
-Wire Wire Line
-	14100 6800 14100 6600
-Wire Wire Line
-	14100 7150 14100 7000
-Wire Wire Line
-	14200 7050 14200 7000
-$Comp
-L +5VD #PWR0140
-U 1 1 59DDEE64
-P 14150 6600
-F 0 "#PWR0140" H 14150 6450 50  0001 C CNN
-F 1 "+5VD" H 14150 6740 50  0000 C CNN
-F 2 "" H 14150 6600 50  0001 C CNN
-F 3 "" H 14150 6600 50  0001 C CNN
-	1    14150 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R38
-U 1 1 59DDCEBF
-P 14100 6900
-F 0 "R38" H 14042 6946 50  0000 R CNN
-F 1 "200k" H 14042 6855 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" H 14100 6900 50  0001 C CNN
-F 3 "" H 14100 6900 50  0001 C CNN
-	1    14100 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R39
-U 1 1 59DDC75B
-P 14200 6900
-F 0 "R39" H 14259 6946 50  0000 L CNN
-F 1 "200k" H 14259 6855 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 14200 6900 50  0001 C CNN
-F 3 "" H 14200 6900 50  0001 C CNN
-	1    14200 6900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
