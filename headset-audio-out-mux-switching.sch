@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 20000 30000
 encoding utf-8
-Sheet 13 50
+Sheet 13 47
 Title ""
 Date ""
 Rev ""

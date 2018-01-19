@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 30000 40000
 encoding utf-8
-Sheet 4 50
+Sheet 4 47
 Title ""
 Date ""
 Rev ""
@@ -285,34 +285,6 @@ Text Label 26250 2050 2    60   ~ 0
 MIC-IN-1
 Text Label 26250 1050 2    60   ~ 0
 MIC-IN-0
-$Comp
-L RasPi-CM3-Headers J11
-U 5 1 59349764
-P 22150 13700
-F 0 "J11" H 22050 13200 60  0000 C CNN
-F 1 "RasPi-CM3-Headers" V 22400 13700 60  0000 C CNN
-F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 22200 18800 60  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 22200 18500 60  0001 C CNN
-F 4 "0.00@0" H 22150 18400 60  0001 C CNN "Pricing"
-F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 22150 18700 60  0001 C CNN "Description"
-F 6 "Raspberry Pi Foundation" H 22150 18600 60  0001 C CNN "Manufacturer"
-	5    22150 13700
-	1    0    0    -1  
-$EndComp
-$Comp
-L RasPi-CM3-Headers J11
-U 6 1 5934A1A4
-P 22150 14750
-F 0 "J11" H 22100 14250 60  0000 C CNN
-F 1 "RasPi-CM3-Headers" V 22400 14750 60  0000 C CNN
-F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618" H 22200 19850 60  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-DATASHEET-V1_0.pdf" H 22200 19550 60  0001 C CNN
-F 4 "0.00@0" H 22150 19450 60  0001 C CNN "Pricing"
-F 5 "Raspberry Pi Compute Module 3 Connector Pinout" H 22150 19750 60  0001 C CNN "Description"
-F 6 "Raspberry Pi Foundation" H 22150 19650 60  0001 C CNN "Manufacturer"
-	6    22150 14750
-	1    0    0    -1  
-$EndComp
 Text Label 26250 1450 2    60   ~ 0
 MIC-MUTE-0
 Text Label 26250 1350 2    60   ~ 0
@@ -386,17 +358,6 @@ Text Notes 20300 11600 0    60   ~ 0
 TCA9534 addresses all start with 0100 (32-39),\nTCA9534A variant starts with 0111 (56-63)
 Text Notes 19850 10650 0    60   ~ 0
 Verify IO voltage levels for\nswitch inputs.
-Text Label 21550 13500 2    60   ~ 0
-SDA
-Text Label 21550 13600 2    60   ~ 0
-SCL
-NoConn ~ 21800 13300
-NoConn ~ 21800 13400
-NoConn ~ 21800 14750
-NoConn ~ 21800 14850
-NoConn ~ 21800 14950
-NoConn ~ 21800 15050
-NoConn ~ 21800 15150
 Text Label 25600 13250 2    60   ~ 0
 SDA
 Text Label 25600 13350 2    60   ~ 0
@@ -504,8 +465,6 @@ Text Notes 22950 15550 0    60   ~ 0
 IO expanders are 0 to 5V logic. VCC at +5V to support this.\n\nSPST switches support rail to rail voltages at switch terminals. \nControl signals are a function of VCC. use +5V in order to \nsupport 0-5V logic on the control inputs.\n\nMic Mute and PTT signals are 0-5V logic.\n\nConsumer level audio: Mic in and headphone out are\nconsumer line level devices with Vpp of 0.894 and Vpk of 0.447\n\nAll I2C pullups need to be to VCC of specific chip, \nuse level shifters if needed. May need I2C switch ic
 Text Notes 25000 150  0    60   ~ 0
 Standard Android headset controls can be accomodated\nwith an external converter that measures the resistances\non the mic line and transforms those into a pulse code on\nthe mic mute line that the raspberry pi is monitoring for.
-Text Notes 22550 13750 0    60   ~ 0
-GPIO Pins 4,5,6,7 are\nused to monitor PiUPS
 $Comp
 L TCA9548A U?
 U 1 1 5A45AD13
@@ -5685,10 +5644,6 @@ Wire Wire Line
 Wire Wire Line
 	26250 8350 26900 8350
 Wire Wire Line
-	21800 13500 21550 13500
-Wire Wire Line
-	21550 13600 21800 13600
-Wire Wire Line
 	25600 13250 26400 13250
 Wire Wire Line
 	25600 13350 26400 13350
@@ -9335,20 +9290,6 @@ Text Label 15950 35050 0    60   ~ 0
 RPI-OUT-R[0..7]
 Text Label 15950 35200 0    60   ~ 0
 RPI-OUT-L[0..7]
-$Sheet
-S 23250 30900 3600 2300
-U 5A632C9B
-F0 "RPI Audio IO" 60
-F1 "rpi-audio-io.sch" 60
-F2 "RPI-L-OUT[0..7]" O R 26850 31450 60 
-F3 "RPI-R-OUT[0..7]" O R 26850 31650 60 
-F4 "RPI-L-IN[0..7]" I L 23250 31350 60 
-F5 "RPI-R-IN[0..7]" I L 23250 31550 60 
-$EndSheet
-NoConn ~ 21800 14100
-NoConn ~ 21800 14350
-NoConn ~ 21800 14450
-NoConn ~ 21800 14550
 Wire Wire Line
 	21900 1450 22050 1450
 Wire Wire Line
@@ -9442,5 +9383,4 @@ Wire Bus Line
 	27200 31650 26850 31650
 Wire Bus Line
 	27500 31450 26850 31450
-NoConn ~ 21800 14650
 $EndSCHEMATC
