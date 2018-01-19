@@ -505,7 +505,7 @@ IO expanders are 0 to 5V logic. VCC at +5V to support this.\n\nSPST switches sup
 Text Notes 25000 150  0    60   ~ 0
 Standard Android headset controls can be accomodated\nwith an external converter that measures the resistances\non the mic line and transforms those into a pulse code on\nthe mic mute line that the raspberry pi is monitoring for.
 Text Notes 22550 13750 0    60   ~ 0
-GPIO Pins 4,5,6,12 are\nused to monitor PiUPS
+GPIO Pins 4,5,6,7 are\nused to monitor PiUPS
 $Comp
 L TCA9548A U?
 U 1 1 5A45AD13
@@ -9318,9 +9318,9 @@ Wire Wire Line
 Wire Bus Line
 	8850 2100 8850 35200
 Wire Bus Line
-	27500 35200 8850 35200
+	8850 35200 27500 35200
 Wire Bus Line
-	27500 31450 27500 35200
+	27500 35200 27500 31450
 Wire Bus Line
 	9000 1900 9000 35050
 Wire Bus Line
@@ -9345,7 +9345,6 @@ F3 "RPI-R-OUT[0..7]" O R 26850 31650 60
 F4 "RPI-L-IN[0..7]" I L 23250 31350 60 
 F5 "RPI-R-IN[0..7]" I L 23250 31550 60 
 $EndSheet
-NoConn ~ 21800 14000
 NoConn ~ 21800 14100
 NoConn ~ 21800 14350
 NoConn ~ 21800 14450
@@ -9442,5 +9441,6 @@ Wire Bus Line
 Wire Bus Line
 	27200 31650 26850 31650
 Wire Bus Line
-	26850 31450 27500 31450
+	27500 31450 26850 31450
+NoConn ~ 21800 14650
 $EndSCHEMATC

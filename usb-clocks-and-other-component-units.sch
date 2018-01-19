@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 14 50
+Sheet 50 50
 Title ""
 Date ""
 Rev ""
@@ -372,7 +372,6 @@ F 3 "" H 3400 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 4400 2550 4850
-NoConn ~ 4200 4250
 $Comp
 L +3.3VA #PWR052
 U 1 1 59E92A2A
@@ -420,4 +419,14 @@ F 3 "" H 4250 6600 50  0001 C CNN
 	1    4250 6600
 	1    0    0    -1  
 $EndComp
+Text GLabel 3350 3900 0    60   Output ~ 0
+24MHz-CLK
+Wire Wire Line
+	4200 4250 3800 4250
+Wire Wire Line
+	3800 4250 3800 3900
+Wire Wire Line
+	3800 3900 3350 3900
+Text Notes 2100 3700 0    60   ~ 0
+24MHz-CLK feeds ADC clock source.
 $EndSCHEMATC
