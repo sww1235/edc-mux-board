@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 3 47
+Sheet 3 39
 Title ""
 Date ""
 Rev ""
