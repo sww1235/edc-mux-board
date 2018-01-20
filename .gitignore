@@ -6,6 +6,7 @@
 *.bck
 *.kicad_pcb-bak
 *~
+bom.ini
 
 _saved*
 _autosave-*
