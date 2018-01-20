@@ -49,7 +49,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 30000 40000
 encoding utf-8
-Sheet 5 39
+Sheet 5 37
 Title ""
 Date ""
 Rev ""
@@ -62,90 +62,90 @@ $EndDescr
 $Comp
 L Conn_01x08 J23
 U 1 1 58EE3208
-P 27100 5050
-F 0 "J23" H 27100 5500 50  0000 C CNN
-F 1 "Headset 4" V 27200 5050 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H 27100 5050 50  0001 C CNN
-F 3 "" H 27100 5050 50  0001 C CNN
-	1    27100 5050
+P 20200 20550
+F 0 "J23" H 20200 21000 50  0000 C CNN
+F 1 "Headset 4" V 20300 20550 50  0000 C CNN
+F 2 "SW-TEConn:3-794681-8" H 20200 20550 50  0001 C CNN
+F 3 "" H 20200 20550 50  0001 C CNN
+	1    20200 20550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x08 J24
 U 1 1 58EE3230
-P 27100 6050
-F 0 "J24" H 27100 6500 50  0000 C CNN
-F 1 "Headset 5" V 27200 6050 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H 27100 6050 50  0001 C CNN
-F 3 "" H 27100 6050 50  0001 C CNN
-	1    27100 6050
+P 20200 21550
+F 0 "J24" H 20200 22000 50  0000 C CNN
+F 1 "Headset 5" V 20300 21550 50  0000 C CNN
+F 2 "SW-TEConn:3-794681-8" H 20200 21550 50  0001 C CNN
+F 3 "" H 20200 21550 50  0001 C CNN
+	1    20200 21550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x08 J25
 U 1 1 58EE3245
-P 27100 7050
-F 0 "J25" H 27100 7500 50  0000 C CNN
-F 1 "Headset 6" V 27200 7050 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H 27100 7050 50  0001 C CNN
-F 3 "" H 27100 7050 50  0001 C CNN
-	1    27100 7050
+P 20200 22550
+F 0 "J25" H 20200 23000 50  0000 C CNN
+F 1 "Headset 6" V 20300 22550 50  0000 C CNN
+F 2 "SW-TEConn:3-794681-8" H 20200 22550 50  0001 C CNN
+F 3 "" H 20200 22550 50  0001 C CNN
+	1    20200 22550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x08 J26
 U 1 1 58EE3264
-P 27100 8050
-F 0 "J26" H 27100 8500 50  0000 C CNN
-F 1 "Headset 7" V 27200 8050 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H 27100 8050 50  0001 C CNN
-F 3 "" H 27100 8050 50  0001 C CNN
-	1    27100 8050
+P 20200 23550
+F 0 "J26" H 20200 24000 50  0000 C CNN
+F 1 "Headset 7" V 20300 23550 50  0000 C CNN
+F 2 "SW-TEConn:3-794681-8" H 20200 23550 50  0001 C CNN
+F 3 "" H 20200 23550 50  0001 C CNN
+	1    20200 23550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x08 J20
 U 1 1 58EE3284
-P 27100 2050
-F 0 "J20" H 27100 2500 50  0000 C CNN
-F 1 "Headset 1" V 27200 2050 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H 27100 2050 50  0001 C CNN
-F 3 "" H 27100 2050 50  0001 C CNN
-	1    27100 2050
+P 20200 17550
+F 0 "J20" H 20200 18000 50  0000 C CNN
+F 1 "Headset 1" V 20300 17550 50  0000 C CNN
+F 2 "SW-TEConn:3-794681-8" H 20200 17550 50  0001 C CNN
+F 3 "" H 20200 17550 50  0001 C CNN
+	1    20200 17550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x08 J21
 U 1 1 58EE33A8
-P 27100 3050
-F 0 "J21" H 27100 3500 50  0000 C CNN
-F 1 "Headset 2" V 27200 3050 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H 27100 3050 50  0001 C CNN
-F 3 "" H 27100 3050 50  0001 C CNN
-	1    27100 3050
+P 20200 18550
+F 0 "J21" H 20200 19000 50  0000 C CNN
+F 1 "Headset 2" V 20300 18550 50  0000 C CNN
+F 2 "SW-TEConn:3-794681-8" H 20200 18550 50  0001 C CNN
+F 3 "" H 20200 18550 50  0001 C CNN
+	1    20200 18550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x08 J22
 U 1 1 58EE33D0
-P 27100 4050
-F 0 "J22" H 27100 4500 50  0000 C CNN
-F 1 "Headset 3" V 27200 4050 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H 27100 4050 50  0001 C CNN
-F 3 "" H 27100 4050 50  0001 C CNN
-	1    27100 4050
+P 20200 19550
+F 0 "J22" H 20200 20000 50  0000 C CNN
+F 1 "Headset 3" V 20300 19550 50  0000 C CNN
+F 2 "SW-TEConn:3-794681-8" H 20200 19550 50  0001 C CNN
+F 3 "" H 20200 19550 50  0001 C CNN
+	1    20200 19550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x08 J19
 U 1 1 58EE341B
-P 27100 1050
-F 0 "J19" H 27100 1500 50  0000 C CNN
-F 1 "Headset 0" V 27200 1050 50  0000 C CNN
-F 2 "SW-TEConn:3-794681-8" H 27100 1050 50  0001 C CNN
-F 3 "" H 27100 1050 50  0001 C CNN
-F 4 "0.00@0" H 27100 1050 60  0001 C CNN "Pricing"
-	1    27100 1050
+P 20200 16550
+F 0 "J19" H 20200 17000 50  0000 C CNN
+F 1 "Headset 0" V 20300 16550 50  0000 C CNN
+F 2 "SW-TEConn:3-794681-8" H 20200 16550 50  0001 C CNN
+F 3 "" H 20200 16550 50  0001 C CNN
+F 4 "0.00@0" H 20200 16550 60  0001 C CNN "Pricing"
+	1    20200 16550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -162,166 +162,153 @@ F 4 "0.00@0" H 10550 33300 60  0001 C CNN "Pricing"
 $EndComp
 Text Notes 9700 33560 0    60   ~ 0
 Using TASCAM DB-25 pinout\n+ = right, - = left
-Text Notes 27900 1350 0    60   ~ 0
+Text Notes 21000 16850 0    60   ~ 0
 1-Audio Ground\n2-L audio to Headphones\n3-R audio to Headphones\n4-Mic +\n5-Mic -\n6-+5V for PTT, MIC-MUTE, Mic Bias\n7-PTT (On=+5V) (default pull=low)\n8-Mic Mute (On=+5V) (default pull=low)
 Text Notes 1850 -100 0    60   ~ 0
 For 2 wire mic connection (separate ground, baofeng)\nConnect +,- mic to +,- mic in cable\nFor 1 wire mic connection (same ground, iphone)\nconnect +,- mic to +,ground in cable.
 Text Notes 5500 -150 0    60   ~ 0
 PTT for each device is an electronic switch closure. \nThis can be controlled via a digital signal from RPi\nor from other ptt inputs
-$Comp
-L GNDA #PWR065
-U 1 1 591EA189
-P 26800 8950
-F 0 "#PWR065" H 26800 8700 50  0001 C CNN
-F 1 "GNDA" H 26800 8800 50  0000 C CNN
-F 2 "" H 26800 8950 50  0001 C CNN
-F 3 "" H 26800 8950 50  0001 C CNN
-	1    26800 8950
-	1    0    0    -1  
-$EndComp
-Text Notes 14750 15250 0    60   ~ 0
+Text Notes 14000 13100 0    60   ~ 0
 1=Left=Tip\n2=Right=Ring\n3=GND=Sleeve\n
 $Comp
 L C_Small C43
 U 1 1 592C60EA
-P 26450 1050
-F 0 "C43" H 26460 1120 50  0000 L CNN
-F 1 "10u" H 26460 970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 26450 1050 50  0001 C CNN
-F 3 "" H 26450 1050 50  0001 C CNN
-	1    26450 1050
+P 19550 16550
+F 0 "C43" H 19560 16620 50  0000 L CNN
+F 1 "10u" H 19560 16470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19550 16550 50  0001 C CNN
+F 3 "" H 19550 16550 50  0001 C CNN
+	1    19550 16550
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C44
 U 1 1 592CDD93
-P 26450 2050
-F 0 "C44" H 26460 2120 50  0000 L CNN
-F 1 "10u" H 26460 1970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 26450 2050 50  0001 C CNN
-F 3 "" H 26450 2050 50  0001 C CNN
-	1    26450 2050
+P 19550 17550
+F 0 "C44" H 19560 17620 50  0000 L CNN
+F 1 "10u" H 19560 17470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19550 17550 50  0001 C CNN
+F 3 "" H 19550 17550 50  0001 C CNN
+	1    19550 17550
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C45
 U 1 1 592D0E4B
-P 26450 3050
-F 0 "C45" H 26460 3120 50  0000 L CNN
-F 1 "10u" H 26460 2970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 26450 3050 50  0001 C CNN
-F 3 "" H 26450 3050 50  0001 C CNN
-	1    26450 3050
+P 19550 18550
+F 0 "C45" H 19560 18620 50  0000 L CNN
+F 1 "10u" H 19560 18470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19550 18550 50  0001 C CNN
+F 3 "" H 19550 18550 50  0001 C CNN
+	1    19550 18550
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C46
 U 1 1 592D3878
-P 26450 4050
-F 0 "C46" H 26460 4120 50  0000 L CNN
-F 1 "10u" H 26460 3970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 26450 4050 50  0001 C CNN
-F 3 "" H 26450 4050 50  0001 C CNN
-	1    26450 4050
+P 19550 19550
+F 0 "C46" H 19560 19620 50  0000 L CNN
+F 1 "10u" H 19560 19470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19550 19550 50  0001 C CNN
+F 3 "" H 19550 19550 50  0001 C CNN
+	1    19550 19550
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C47
 U 1 1 592D6603
-P 26450 5050
-F 0 "C47" H 26460 5120 50  0000 L CNN
-F 1 "10u" H 26460 4970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 26450 5050 50  0001 C CNN
-F 3 "" H 26450 5050 50  0001 C CNN
-	1    26450 5050
+P 19550 20550
+F 0 "C47" H 19560 20620 50  0000 L CNN
+F 1 "10u" H 19560 20470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19550 20550 50  0001 C CNN
+F 3 "" H 19550 20550 50  0001 C CNN
+	1    19550 20550
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C48
 U 1 1 592D89AE
-P 26450 6050
-F 0 "C48" H 26460 6120 50  0000 L CNN
-F 1 "10u" H 26460 5970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 26450 6050 50  0001 C CNN
-F 3 "" H 26450 6050 50  0001 C CNN
-	1    26450 6050
+P 19550 21550
+F 0 "C48" H 19560 21620 50  0000 L CNN
+F 1 "10u" H 19560 21470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19550 21550 50  0001 C CNN
+F 3 "" H 19550 21550 50  0001 C CNN
+	1    19550 21550
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C49
 U 1 1 592DAD66
-P 26450 7050
-F 0 "C49" H 26460 7120 50  0000 L CNN
-F 1 "10u" H 26460 6970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 26450 7050 50  0001 C CNN
-F 3 "" H 26450 7050 50  0001 C CNN
-	1    26450 7050
+P 19550 22550
+F 0 "C49" H 19560 22620 50  0000 L CNN
+F 1 "10u" H 19560 22470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19550 22550 50  0001 C CNN
+F 3 "" H 19550 22550 50  0001 C CNN
+	1    19550 22550
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C50
 U 1 1 592DB9F2
-P 26450 8050
-F 0 "C50" H 26460 8120 50  0000 L CNN
-F 1 "10u" H 26460 7970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 26450 8050 50  0001 C CNN
-F 3 "" H 26450 8050 50  0001 C CNN
-	1    26450 8050
+P 19550 23550
+F 0 "C50" H 19560 23620 50  0000 L CNN
+F 1 "10u" H 19560 23470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19550 23550 50  0001 C CNN
+F 3 "" H 19550 23550 50  0001 C CNN
+	1    19550 23550
 	0    1    1    0   
 $EndComp
-Text Label 26250 8050 2    60   ~ 0
+Text Label 19350 23550 2    60   ~ 0
 MIC-IN-7
-Text Label 26250 7050 2    60   ~ 0
+Text Label 19350 22550 2    60   ~ 0
 MIC-IN-6
-Text Label 26250 6050 2    60   ~ 0
+Text Label 19350 21550 2    60   ~ 0
 MIC-IN-5
-Text Label 26250 5050 2    60   ~ 0
+Text Label 19350 20550 2    60   ~ 0
 MIC-IN-4
-Text Label 26250 4050 2    60   ~ 0
+Text Label 19350 19550 2    60   ~ 0
 MIC-IN-3
-Text Label 26250 3050 2    60   ~ 0
+Text Label 19350 18550 2    60   ~ 0
 MIC-IN-2
-Text Label 26250 2050 2    60   ~ 0
+Text Label 19350 17550 2    60   ~ 0
 MIC-IN-1
-Text Label 26250 1050 2    60   ~ 0
+Text Label 19350 16550 2    60   ~ 0
 MIC-IN-0
-Text Label 26250 1450 2    60   ~ 0
+Text Label 19350 16950 2    60   ~ 0
 MIC-MUTE-0
-Text Label 26250 1350 2    60   ~ 0
+Text Label 19350 16850 2    60   ~ 0
 PTT-0
-Text Label 26250 2450 2    60   ~ 0
+Text Label 19350 17950 2    60   ~ 0
 MIC-MUTE-1
-Text Label 26250 2350 2    60   ~ 0
+Text Label 19350 17850 2    60   ~ 0
 PTT-1
-Text Label 26250 3450 2    60   ~ 0
+Text Label 19350 18950 2    60   ~ 0
 MIC-MUTE-2
-Text Label 26250 3350 2    60   ~ 0
+Text Label 19350 18850 2    60   ~ 0
 PTT-2
-Text Label 26250 4450 2    60   ~ 0
+Text Label 19350 19950 2    60   ~ 0
 MIC-MUTE-3
-Text Label 26250 4350 2    60   ~ 0
+Text Label 19350 19850 2    60   ~ 0
 PTT-3
-Text Label 26250 5450 2    60   ~ 0
+Text Label 19350 20950 2    60   ~ 0
 MIC-MUTE-4
-Text Label 26250 5350 2    60   ~ 0
+Text Label 19350 20850 2    60   ~ 0
 PTT-4
-Text Label 26250 6450 2    60   ~ 0
+Text Label 19350 21950 2    60   ~ 0
 MIC-MUTE-5
-Text Label 26250 6350 2    60   ~ 0
+Text Label 19350 21850 2    60   ~ 0
 PTT-5
-Text Label 26250 7450 2    60   ~ 0
+Text Label 19350 22950 2    60   ~ 0
 MIC-MUTE-6
-Text Label 26250 7350 2    60   ~ 0
+Text Label 19350 22850 2    60   ~ 0
 PTT-6
-Text Label 26250 8450 2    60   ~ 0
+Text Label 19350 23950 2    60   ~ 0
 MIC-MUTE-7
-Text Label 26250 8350 2    60   ~ 0
+Text Label 19350 23850 2    60   ~ 0
 PTT-7
-Text Notes 20300 11600 0    60   ~ 0
-TCA9534 addresses all start with 0100 (32-39),\nTCA9534A variant starts with 0111 (56-63)
-Text Notes 26200 13250 0    60   ~ 0
+Text Notes 22950 25700 0    60   ~ 0
 IO expanders are 0 to 5V logic. VCC at +5V to support this.\n\nSPST switches support rail to rail voltages at switch terminals. \nControl signals are a function of VCC. use +5V in order to \nsupport 0-5V logic on the control inputs.\n\nMic Mute and PTT signals are 0-5V logic.\n\nConsumer level audio: Mic in and headphone out are\nconsumer line level devices with Vpp of 0.894 and Vpk of 0.447\n\nAll I2C pullups need to be to VCC of specific chip, \nuse level shifters if needed. May need I2C switch ic
-Text Notes 25000 150  0    60   ~ 0
+Text Notes 17050 16250 0    60   ~ 0
 Standard Android headset controls can be accomodated\nwith an external converter that measures the resistances\non the mic line and transforms those into a pulse code on\nthe mic mute line that the raspberry pi is monitoring for.
 $Comp
 L TCA9548A U?
@@ -339,422 +326,422 @@ F 7 "TSSOP24" H 12200 700 60  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 19950 1700 1950 850 
+S 13050 17200 1950 850 
 U 5A4A5BB6
 F0 "Stereo Amplifier 1" 60
 F1 "stereo-amp.sch" 60
-F2 "L_IN" I L 19950 1850 60 
-F3 "R_IN" I L 19950 2000 60 
-F4 "L_OUT" O R 21900 1850 60 
-F5 "R_OUT" O R 21900 1950 60 
-F6 "A0" I L 19950 2250 60 
-F7 "A1" I L 19950 2350 60 
-F8 "A2" I L 19950 2450 60 
-F9 "~CE" I R 21900 2250 60 
-F10 "SDA" B R 21900 2350 60 
-F11 "SCL" I R 21900 2450 60 
+F2 "L_IN" I L 13050 17350 60 
+F3 "R_IN" I L 13050 17500 60 
+F4 "L_OUT" O R 15000 17350 60 
+F5 "R_OUT" O R 15000 17450 60 
+F6 "A0" I L 13050 17750 60 
+F7 "A1" I L 13050 17850 60 
+F8 "A2" I L 13050 17950 60 
+F9 "~CE" I R 15000 17750 60 
+F10 "SDA" B R 15000 17850 60 
+F11 "SCL" I R 15000 17950 60 
 $EndSheet
 $Sheet
-S 19950 700  1950 850 
+S 13050 16200 1950 850 
 U 5A3A9015
 F0 "Stereo Amplifier 0" 60
 F1 "stereo-amp.sch" 60
-F2 "L_IN" I L 19950 850 60 
-F3 "R_IN" I L 19950 1000 60 
-F4 "L_OUT" O R 21900 850 60 
-F5 "R_OUT" O R 21900 950 60 
-F6 "A0" I L 19950 1250 60 
-F7 "A1" I L 19950 1350 60 
-F8 "A2" I L 19950 1450 60 
-F9 "~CE" I R 21900 1250 60 
-F10 "SDA" B R 21900 1350 60 
-F11 "SCL" I R 21900 1450 60 
+F2 "L_IN" I L 13050 16350 60 
+F3 "R_IN" I L 13050 16500 60 
+F4 "L_OUT" O R 15000 16350 60 
+F5 "R_OUT" O R 15000 16450 60 
+F6 "A0" I L 13050 16750 60 
+F7 "A1" I L 13050 16850 60 
+F8 "A2" I L 13050 16950 60 
+F9 "~CE" I R 15000 16750 60 
+F10 "SDA" B R 15000 16850 60 
+F11 "SCL" I R 15000 16950 60 
 $EndSheet
 $Sheet
-S 19950 2700 1950 850 
+S 13050 18200 1950 850 
 U 5A4B96FB
 F0 "Stereo Amplifier 2" 60
 F1 "stereo-amp.sch" 60
-F2 "L_IN" I L 19950 2850 60 
-F3 "R_IN" I L 19950 3000 60 
-F4 "L_OUT" O R 21900 2850 60 
-F5 "R_OUT" O R 21900 2950 60 
-F6 "A0" I L 19950 3250 60 
-F7 "A1" I L 19950 3350 60 
-F8 "A2" I L 19950 3450 60 
-F9 "~CE" I R 21900 3250 60 
-F10 "SDA" B R 21900 3350 60 
-F11 "SCL" I R 21900 3450 60 
+F2 "L_IN" I L 13050 18350 60 
+F3 "R_IN" I L 13050 18500 60 
+F4 "L_OUT" O R 15000 18350 60 
+F5 "R_OUT" O R 15000 18450 60 
+F6 "A0" I L 13050 18750 60 
+F7 "A1" I L 13050 18850 60 
+F8 "A2" I L 13050 18950 60 
+F9 "~CE" I R 15000 18750 60 
+F10 "SDA" B R 15000 18850 60 
+F11 "SCL" I R 15000 18950 60 
 $EndSheet
 $Sheet
-S 19950 3700 1950 850 
+S 13050 19200 1950 850 
 U 5A4BCC07
 F0 "Stereo Amplifier 3" 60
 F1 "stereo-amp.sch" 60
-F2 "L_IN" I L 19950 3850 60 
-F3 "R_IN" I L 19950 4000 60 
-F4 "L_OUT" O R 21900 3850 60 
-F5 "R_OUT" O R 21900 3950 60 
-F6 "A0" I L 19950 4250 60 
-F7 "A1" I L 19950 4350 60 
-F8 "A2" I L 19950 4450 60 
-F9 "~CE" I R 21900 4250 60 
-F10 "SDA" B R 21900 4350 60 
-F11 "SCL" I R 21900 4450 60 
+F2 "L_IN" I L 13050 19350 60 
+F3 "R_IN" I L 13050 19500 60 
+F4 "L_OUT" O R 15000 19350 60 
+F5 "R_OUT" O R 15000 19450 60 
+F6 "A0" I L 13050 19750 60 
+F7 "A1" I L 13050 19850 60 
+F8 "A2" I L 13050 19950 60 
+F9 "~CE" I R 15000 19750 60 
+F10 "SDA" B R 15000 19850 60 
+F11 "SCL" I R 15000 19950 60 
 $EndSheet
 $Sheet
-S 19950 4700 1950 850 
+S 13050 20200 1950 850 
 U 5A4DCC1C
 F0 "Stereo Amplifier 4" 60
 F1 "stereo-amp.sch" 60
-F2 "L_IN" I L 19950 4850 60 
-F3 "R_IN" I L 19950 5000 60 
-F4 "L_OUT" O R 21900 4850 60 
-F5 "R_OUT" O R 21900 4950 60 
-F6 "A0" I L 19950 5250 60 
-F7 "A1" I L 19950 5350 60 
-F8 "A2" I L 19950 5450 60 
-F9 "~CE" I R 21900 5250 60 
-F10 "SDA" B R 21900 5350 60 
-F11 "SCL" I R 21900 5450 60 
+F2 "L_IN" I L 13050 20350 60 
+F3 "R_IN" I L 13050 20500 60 
+F4 "L_OUT" O R 15000 20350 60 
+F5 "R_OUT" O R 15000 20450 60 
+F6 "A0" I L 13050 20750 60 
+F7 "A1" I L 13050 20850 60 
+F8 "A2" I L 13050 20950 60 
+F9 "~CE" I R 15000 20750 60 
+F10 "SDA" B R 15000 20850 60 
+F11 "SCL" I R 15000 20950 60 
 $EndSheet
 $Sheet
-S 19950 5700 1950 850 
+S 13050 21200 1950 850 
 U 5A5073A0
 F0 "Stereo Amplifier 5" 60
 F1 "stereo-amp.sch" 60
-F2 "L_IN" I L 19950 5850 60 
-F3 "R_IN" I L 19950 6000 60 
-F4 "L_OUT" O R 21900 5850 60 
-F5 "R_OUT" O R 21900 5950 60 
-F6 "A0" I L 19950 6250 60 
-F7 "A1" I L 19950 6350 60 
-F8 "A2" I L 19950 6450 60 
-F9 "~CE" I R 21900 6250 60 
-F10 "SDA" B R 21900 6350 60 
-F11 "SCL" I R 21900 6450 60 
+F2 "L_IN" I L 13050 21350 60 
+F3 "R_IN" I L 13050 21500 60 
+F4 "L_OUT" O R 15000 21350 60 
+F5 "R_OUT" O R 15000 21450 60 
+F6 "A0" I L 13050 21750 60 
+F7 "A1" I L 13050 21850 60 
+F8 "A2" I L 13050 21950 60 
+F9 "~CE" I R 15000 21750 60 
+F10 "SDA" B R 15000 21850 60 
+F11 "SCL" I R 15000 21950 60 
 $EndSheet
 $Sheet
-S 19950 6700 1950 850 
+S 13050 22200 1950 850 
 U 5A508345
 F0 "Stereo Amplifier 6" 60
 F1 "stereo-amp.sch" 60
-F2 "L_IN" I L 19950 6850 60 
-F3 "R_IN" I L 19950 7000 60 
-F4 "L_OUT" O R 21900 6850 60 
-F5 "R_OUT" O R 21900 6950 60 
-F6 "A0" I L 19950 7250 60 
-F7 "A1" I L 19950 7350 60 
-F8 "A2" I L 19950 7450 60 
-F9 "~CE" I R 21900 7250 60 
-F10 "SDA" B R 21900 7350 60 
-F11 "SCL" I R 21900 7450 60 
+F2 "L_IN" I L 13050 22350 60 
+F3 "R_IN" I L 13050 22500 60 
+F4 "L_OUT" O R 15000 22350 60 
+F5 "R_OUT" O R 15000 22450 60 
+F6 "A0" I L 13050 22750 60 
+F7 "A1" I L 13050 22850 60 
+F8 "A2" I L 13050 22950 60 
+F9 "~CE" I R 15000 22750 60 
+F10 "SDA" B R 15000 22850 60 
+F11 "SCL" I R 15000 22950 60 
 $EndSheet
 $Sheet
-S 19950 7700 1950 850 
+S 13050 23200 1950 850 
 U 5A50CF08
 F0 "Stereo Amplifier 7" 60
 F1 "stereo-amp.sch" 60
-F2 "L_IN" I L 19950 7850 60 
-F3 "R_IN" I L 19950 8000 60 
-F4 "L_OUT" O R 21900 7850 60 
-F5 "R_OUT" O R 21900 7950 60 
-F6 "A0" I L 19950 8250 60 
-F7 "A1" I L 19950 8350 60 
-F8 "A2" I L 19950 8450 60 
-F9 "~CE" I R 21900 8250 60 
-F10 "SDA" B R 21900 8350 60 
-F11 "SCL" I R 21900 8450 60 
+F2 "L_IN" I L 13050 23350 60 
+F3 "R_IN" I L 13050 23500 60 
+F4 "L_OUT" O R 15000 23350 60 
+F5 "R_OUT" O R 15000 23450 60 
+F6 "A0" I L 13050 23750 60 
+F7 "A1" I L 13050 23850 60 
+F8 "A2" I L 13050 23950 60 
+F9 "~CE" I R 15000 23750 60 
+F10 "SDA" B R 15000 23850 60 
+F11 "SCL" I R 15000 23950 60 
 $EndSheet
 $Comp
 L ADG715 U?
 U 3 1 5A514E1E
-P 19300 850
-F 0 "U?" H 19300 1097 60  0000 C CNN
-F 1 "ADG715" H 19300 991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 1800 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 1900 60  0001 C CNN
-F 4 "0.00@0" H 19350 2450 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 2100 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 2200 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 2000 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 2300 60  0001 C CNN "Package ID"
-	3    19300 850 
+P 12400 16350
+F 0 "U?" H 12400 16597 60  0000 C CNN
+F 1 "ADG715" H 12400 16491 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 17300 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 17400 60  0001 C CNN
+F 4 "0.00@0" H 12450 17950 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 17600 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 17700 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 17500 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 17800 60  0001 C CNN "Package ID"
+	3    12400 16350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 4 1 5A516524
-P 19300 1000
-F 0 "U?" H 19300 859 60  0000 C CNN
-F 1 "ADG715" H 19300 753 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 1950 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 2050 60  0001 C CNN
-F 4 "0.00@0" H 19350 2600 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 2250 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 2350 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 2150 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 2450 60  0001 C CNN "Package ID"
-	4    19300 1000
+P 12400 16500
+F 0 "U?" H 12400 16359 60  0000 C CNN
+F 1 "ADG715" H 12400 16253 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 17450 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 17550 60  0001 C CNN
+F 4 "0.00@0" H 12450 18100 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 17750 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 17850 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 17650 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 17950 60  0001 C CNN "Package ID"
+	4    12400 16500
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 5 1 5A529559
-P 19300 1850
-F 0 "U?" H 19300 2097 60  0000 C CNN
-F 1 "ADG715" H 19300 1991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 2800 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 2900 60  0001 C CNN
-F 4 "0.00@0" H 19350 3450 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 3100 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 3200 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 3000 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 3300 60  0001 C CNN "Package ID"
-	5    19300 1850
+P 12400 17350
+F 0 "U?" H 12400 17597 60  0000 C CNN
+F 1 "ADG715" H 12400 17491 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 18300 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 18400 60  0001 C CNN
+F 4 "0.00@0" H 12450 18950 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 18600 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 18700 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 18500 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 18800 60  0001 C CNN "Package ID"
+	5    12400 17350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 6 1 5A52A361
-P 19300 2000
-F 0 "U?" H 19300 1859 60  0000 C CNN
-F 1 "ADG715" H 19300 1753 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 2950 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 3050 60  0001 C CNN
-F 4 "0.00@0" H 19350 3600 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 3250 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 3350 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 3150 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 3450 60  0001 C CNN "Package ID"
-	6    19300 2000
+P 12400 17500
+F 0 "U?" H 12400 17359 60  0000 C CNN
+F 1 "ADG715" H 12400 17253 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 18450 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 18550 60  0001 C CNN
+F 4 "0.00@0" H 12450 19100 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 18750 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 18850 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 18650 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 18950 60  0001 C CNN "Package ID"
+	6    12400 17500
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 7 1 5A52EB82
-P 19300 2850
-F 0 "U?" H 19300 3097 60  0000 C CNN
-F 1 "ADG715" H 19300 2991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 3800 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 3900 60  0001 C CNN
-F 4 "0.00@0" H 19350 4450 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 4100 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 4200 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 4000 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 4300 60  0001 C CNN "Package ID"
-	7    19300 2850
+P 12400 18350
+F 0 "U?" H 12400 18597 60  0000 C CNN
+F 1 "ADG715" H 12400 18491 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 19300 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 19400 60  0001 C CNN
+F 4 "0.00@0" H 12450 19950 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 19600 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 19700 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 19500 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 19800 60  0001 C CNN "Package ID"
+	7    12400 18350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 8 1 5A52F98F
-P 19300 3000
-F 0 "U?" H 19300 2859 60  0000 C CNN
-F 1 "ADG715" H 19300 2753 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 3950 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 4050 60  0001 C CNN
-F 4 "0.00@0" H 19350 4600 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 4250 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 4350 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 4150 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 4450 60  0001 C CNN "Package ID"
-	8    19300 3000
+P 12400 18500
+F 0 "U?" H 12400 18359 60  0000 C CNN
+F 1 "ADG715" H 12400 18253 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 19450 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 19550 60  0001 C CNN
+F 4 "0.00@0" H 12450 20100 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 19750 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 19850 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 19650 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 19950 60  0001 C CNN "Package ID"
+	8    12400 18500
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 9 1 5A53079E
-P 19300 3850
-F 0 "U?" H 19300 4097 60  0000 C CNN
-F 1 "ADG715" H 19300 3991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 4800 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 4900 60  0001 C CNN
-F 4 "0.00@0" H 19350 5450 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 5100 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 5200 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 5000 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 5300 60  0001 C CNN "Package ID"
-	9    19300 3850
+P 12400 19350
+F 0 "U?" H 12400 19597 60  0000 C CNN
+F 1 "ADG715" H 12400 19491 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 20300 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 20400 60  0001 C CNN
+F 4 "0.00@0" H 12450 20950 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 20600 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 20700 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 20500 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 20800 60  0001 C CNN "Package ID"
+	9    12400 19350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 10 1 5A5315C1
-P 19300 4000
-F 0 "U?" H 19300 3859 60  0000 C CNN
-F 1 "ADG715" H 19300 3753 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 4950 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 5050 60  0001 C CNN
-F 4 "0.00@0" H 19350 5600 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 5250 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 5350 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 5150 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 5450 60  0001 C CNN "Package ID"
-	10   19300 4000
+P 12400 19500
+F 0 "U?" H 12400 19359 60  0000 C CNN
+F 1 "ADG715" H 12400 19253 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 20450 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 20550 60  0001 C CNN
+F 4 "0.00@0" H 12450 21100 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 20750 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 20850 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 20650 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 20950 60  0001 C CNN "Package ID"
+	10   12400 19500
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 3 1 5A557E95
-P 19300 4850
-F 0 "U?" H 19300 5097 60  0000 C CNN
-F 1 "ADG715" H 19300 4991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 5800 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 5900 60  0001 C CNN
-F 4 "0.00@0" H 19350 6450 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 6100 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 6200 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 6000 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 6300 60  0001 C CNN "Package ID"
-	3    19300 4850
+P 12400 20350
+F 0 "U?" H 12400 20597 60  0000 C CNN
+F 1 "ADG715" H 12400 20491 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 21300 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 21400 60  0001 C CNN
+F 4 "0.00@0" H 12450 21950 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 21600 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 21700 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 21500 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 21800 60  0001 C CNN "Package ID"
+	3    12400 20350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 4 1 5A557EA0
-P 19300 5000
-F 0 "U?" H 19300 4859 60  0000 C CNN
-F 1 "ADG715" H 19300 4753 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 5950 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 6050 60  0001 C CNN
-F 4 "0.00@0" H 19350 6600 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 6250 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 6350 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 6150 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 6450 60  0001 C CNN "Package ID"
-	4    19300 5000
+P 12400 20500
+F 0 "U?" H 12400 20359 60  0000 C CNN
+F 1 "ADG715" H 12400 20253 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 21450 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 21550 60  0001 C CNN
+F 4 "0.00@0" H 12450 22100 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 21750 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 21850 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 21650 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 21950 60  0001 C CNN "Package ID"
+	4    12400 20500
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 5 1 5A557EAB
-P 19300 5850
-F 0 "U?" H 19300 6097 60  0000 C CNN
-F 1 "ADG715" H 19300 5991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 6800 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 6900 60  0001 C CNN
-F 4 "0.00@0" H 19350 7450 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 7100 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 7200 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 7000 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 7300 60  0001 C CNN "Package ID"
-	5    19300 5850
+P 12400 21350
+F 0 "U?" H 12400 21597 60  0000 C CNN
+F 1 "ADG715" H 12400 21491 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 22300 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 22400 60  0001 C CNN
+F 4 "0.00@0" H 12450 22950 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 22600 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 22700 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 22500 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 22800 60  0001 C CNN "Package ID"
+	5    12400 21350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 6 1 5A557EB6
-P 19300 6000
-F 0 "U?" H 19300 5859 60  0000 C CNN
-F 1 "ADG715" H 19300 5753 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 6950 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 7050 60  0001 C CNN
-F 4 "0.00@0" H 19350 7600 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 7250 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 7350 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 7150 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 7450 60  0001 C CNN "Package ID"
-	6    19300 6000
+P 12400 21500
+F 0 "U?" H 12400 21359 60  0000 C CNN
+F 1 "ADG715" H 12400 21253 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 22450 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 22550 60  0001 C CNN
+F 4 "0.00@0" H 12450 23100 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 22750 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 22850 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 22650 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 22950 60  0001 C CNN "Package ID"
+	6    12400 21500
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 7 1 5A557EC1
-P 19300 6850
-F 0 "U?" H 19300 7097 60  0000 C CNN
-F 1 "ADG715" H 19300 6991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 7800 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 7900 60  0001 C CNN
-F 4 "0.00@0" H 19350 8450 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 8100 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 8200 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 8000 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 8300 60  0001 C CNN "Package ID"
-	7    19300 6850
+P 12400 22350
+F 0 "U?" H 12400 22597 60  0000 C CNN
+F 1 "ADG715" H 12400 22491 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 23300 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 23400 60  0001 C CNN
+F 4 "0.00@0" H 12450 23950 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 23600 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 23700 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 23500 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 23800 60  0001 C CNN "Package ID"
+	7    12400 22350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 8 1 5A557ECC
-P 19300 7000
-F 0 "U?" H 19300 6859 60  0000 C CNN
-F 1 "ADG715" H 19300 6753 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 7950 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 8050 60  0001 C CNN
-F 4 "0.00@0" H 19350 8600 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 8250 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 8350 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 8150 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 8450 60  0001 C CNN "Package ID"
-	8    19300 7000
+P 12400 22500
+F 0 "U?" H 12400 22359 60  0000 C CNN
+F 1 "ADG715" H 12400 22253 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 23450 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 23550 60  0001 C CNN
+F 4 "0.00@0" H 12450 24100 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 23750 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 23850 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 23650 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 23950 60  0001 C CNN "Package ID"
+	8    12400 22500
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 9 1 5A557ED7
-P 19300 7850
-F 0 "U?" H 19300 8097 60  0000 C CNN
-F 1 "ADG715" H 19300 7991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 8800 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 8900 60  0001 C CNN
-F 4 "0.00@0" H 19350 9450 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 9100 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 9200 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 9000 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 9300 60  0001 C CNN "Package ID"
-	9    19300 7850
+P 12400 23350
+F 0 "U?" H 12400 23597 60  0000 C CNN
+F 1 "ADG715" H 12400 23491 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 24300 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 24400 60  0001 C CNN
+F 4 "0.00@0" H 12450 24950 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 24600 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 24700 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 24500 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 24800 60  0001 C CNN "Package ID"
+	9    12400 23350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 10 1 5A557EE2
-P 19300 8000
-F 0 "U?" H 19300 7859 60  0000 C CNN
-F 1 "ADG715" H 19300 7753 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19550 8950 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 19550 9050 60  0001 C CNN
-F 4 "0.00@0" H 19350 9600 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 19300 9250 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 19400 9350 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 19400 9150 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 19500 9450 60  0001 C CNN "Package ID"
-	10   19300 8000
+P 12400 23500
+F 0 "U?" H 12400 23359 60  0000 C CNN
+F 1 "ADG715" H 12400 23253 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 12650 24450 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 12650 24550 60  0001 C CNN
+F 4 "0.00@0" H 12450 25100 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 12400 24750 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 12500 24850 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 12500 24650 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 12600 24950 60  0001 C CNN "Package ID"
+	10   12400 23500
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 2 1 5A56CAEA
-P 22450 9050
-F 0 "U?" H 22450 9447 60  0000 C CNN
-F 1 "ADG715" H 22450 9341 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 22700 10000 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 22700 10100 60  0001 C CNN
-F 4 "0.00@0" H 22500 10650 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 22450 10300 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 22550 10400 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 22550 10200 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 22650 10500 60  0001 C CNN "Package ID"
-	2    22450 9050
+P 15550 24550
+F 0 "U?" H 15550 24947 60  0000 C CNN
+F 1 "ADG715" H 15550 24841 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 15800 25500 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 15800 25600 60  0001 C CNN
+F 4 "0.00@0" H 15600 26150 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 15550 25800 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 15650 25900 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 15650 25700 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 15750 26000 60  0001 C CNN "Package ID"
+	2    15550 24550
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG715 U?
 U 2 1 5A5701A9
-P 22450 9700
-F 0 "U?" H 22450 10097 60  0000 C CNN
-F 1 "ADG715" H 22450 9991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 22700 10650 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 22700 10750 60  0001 C CNN
-F 4 "0.00@0" H 22500 11300 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 22450 10950 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 22550 11050 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 22550 10850 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 22650 11150 60  0001 C CNN "Package ID"
-	2    22450 9700
+P 15550 25200
+F 0 "U?" H 15550 25597 60  0000 C CNN
+F 1 "ADG715" H 15550 25491 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 15800 26150 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 15800 26250 60  0001 C CNN
+F 4 "0.00@0" H 15600 26800 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 15550 26450 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 15650 26550 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 15650 26350 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 15750 26650 60  0001 C CNN "Package ID"
+	2    15550 25200
 	1    0    0    -1  
 $EndComp
-Text Notes 20200 9400 0    60   ~ 0
+Text Notes 22550 23500 0    60   ~ 0
 make sure analog switches\nare connected to appropriate\npower supplies on power\nsupply sheet. Make sure\nannotation is correct.
 $Sheet
 S 15850 11850 1350 2300
@@ -774,718 +761,718 @@ $EndSheet
 $Comp
 L 0582BQ D?
 U 1 1 5A9FA81E
-P 23750 1200
-F 0 "D?" H 23750 959 60  0000 C CNN
-F 1 "0582BQ" H 23750 853 60  0000 C CNN
-F 2 "" H 22350 100 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 23950 3200 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 23650 3350 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 23700 3250 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 23700 3450 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 23600 3550 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 23600 3650 60  0001 C CNN "Pricing"
-	1    23750 1200
+P 16850 16700
+F 0 "D?" H 16850 16459 60  0000 C CNN
+F 1 "0582BQ" H 16850 16353 60  0000 C CNN
+F 2 "" H 15450 15600 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17050 18700 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 16750 18850 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 16800 18750 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 16800 18950 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 16700 19050 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 16700 19150 60  0001 C CNN "Pricing"
+	1    16850 16700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDREF #PWR?
 U 1 1 5AA065F6
-P 24100 1650
-F 0 "#PWR?" H 24100 1400 50  0001 C CNN
-F 1 "GNDREF" H 24105 1477 50  0000 C CNN
-F 2 "" H 24100 1650 50  0001 C CNN
-F 3 "" H 24100 1650 50  0001 C CNN
-	1    24100 1650
+P 17200 17150
+F 0 "#PWR?" H 17200 16900 50  0001 C CNN
+F 1 "GNDREF" H 17205 16977 50  0000 C CNN
+F 2 "" H 17200 17150 50  0001 C CNN
+F 3 "" H 17200 17150 50  0001 C CNN
+	1    17200 17150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA07D3A
-P 23750 2200
-F 0 "D?" H 23750 1959 60  0000 C CNN
-F 1 "0582BQ" H 23750 1853 60  0000 C CNN
-F 2 "" H 22350 1100 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 23950 4200 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 23650 4350 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 23700 4250 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 23700 4450 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 23600 4550 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 23600 4650 60  0001 C CNN "Pricing"
-	1    23750 2200
+P 16850 17700
+F 0 "D?" H 16850 17459 60  0000 C CNN
+F 1 "0582BQ" H 16850 17353 60  0000 C CNN
+F 2 "" H 15450 16600 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17050 19700 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 16750 19850 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 16800 19750 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 16800 19950 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 16700 20050 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 16700 20150 60  0001 C CNN "Pricing"
+	1    16850 17700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDREF #PWR?
 U 1 1 5AA07D47
-P 24100 2650
-F 0 "#PWR?" H 24100 2400 50  0001 C CNN
-F 1 "GNDREF" H 24105 2477 50  0000 C CNN
-F 2 "" H 24100 2650 50  0001 C CNN
-F 3 "" H 24100 2650 50  0001 C CNN
-	1    24100 2650
+P 17200 18150
+F 0 "#PWR?" H 17200 17900 50  0001 C CNN
+F 1 "GNDREF" H 17205 17977 50  0000 C CNN
+F 2 "" H 17200 18150 50  0001 C CNN
+F 3 "" H 17200 18150 50  0001 C CNN
+	1    17200 18150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA0A720
-P 23750 3200
-F 0 "D?" H 23750 2959 60  0000 C CNN
-F 1 "0582BQ" H 23750 2853 60  0000 C CNN
-F 2 "" H 22350 2100 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 23950 5200 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 23650 5350 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 23700 5250 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 23700 5450 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 23600 5550 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 23600 5650 60  0001 C CNN "Pricing"
-	1    23750 3200
+P 16850 18700
+F 0 "D?" H 16850 18459 60  0000 C CNN
+F 1 "0582BQ" H 16850 18353 60  0000 C CNN
+F 2 "" H 15450 17600 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17050 20700 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 16750 20850 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 16800 20750 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 16800 20950 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 16700 21050 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 16700 21150 60  0001 C CNN "Pricing"
+	1    16850 18700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDREF #PWR?
 U 1 1 5AA0A72D
-P 24100 3650
-F 0 "#PWR?" H 24100 3400 50  0001 C CNN
-F 1 "GNDREF" H 24105 3477 50  0000 C CNN
-F 2 "" H 24100 3650 50  0001 C CNN
-F 3 "" H 24100 3650 50  0001 C CNN
-	1    24100 3650
+P 17200 19150
+F 0 "#PWR?" H 17200 18900 50  0001 C CNN
+F 1 "GNDREF" H 17205 18977 50  0000 C CNN
+F 2 "" H 17200 19150 50  0001 C CNN
+F 3 "" H 17200 19150 50  0001 C CNN
+	1    17200 19150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA0ABEE
-P 23750 4200
-F 0 "D?" H 23750 3959 60  0000 C CNN
-F 1 "0582BQ" H 23750 3853 60  0000 C CNN
-F 2 "" H 22350 3100 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 23950 6200 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 23650 6350 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 23700 6250 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 23700 6450 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 23600 6550 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 23600 6650 60  0001 C CNN "Pricing"
-	1    23750 4200
+P 16850 19700
+F 0 "D?" H 16850 19459 60  0000 C CNN
+F 1 "0582BQ" H 16850 19353 60  0000 C CNN
+F 2 "" H 15450 18600 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17050 21700 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 16750 21850 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 16800 21750 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 16800 21950 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 16700 22050 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 16700 22150 60  0001 C CNN "Pricing"
+	1    16850 19700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDREF #PWR?
 U 1 1 5AA0ABFB
-P 24100 4650
-F 0 "#PWR?" H 24100 4400 50  0001 C CNN
-F 1 "GNDREF" H 24105 4477 50  0000 C CNN
-F 2 "" H 24100 4650 50  0001 C CNN
-F 3 "" H 24100 4650 50  0001 C CNN
-	1    24100 4650
+P 17200 20150
+F 0 "#PWR?" H 17200 19900 50  0001 C CNN
+F 1 "GNDREF" H 17205 19977 50  0000 C CNN
+F 2 "" H 17200 20150 50  0001 C CNN
+F 3 "" H 17200 20150 50  0001 C CNN
+	1    17200 20150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA0ED20
-P 23750 5200
-F 0 "D?" H 23750 4959 60  0000 C CNN
-F 1 "0582BQ" H 23750 4853 60  0000 C CNN
-F 2 "" H 22350 4100 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 23950 7200 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 23650 7350 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 23700 7250 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 23700 7450 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 23600 7550 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 23600 7650 60  0001 C CNN "Pricing"
-	1    23750 5200
+P 16850 20700
+F 0 "D?" H 16850 20459 60  0000 C CNN
+F 1 "0582BQ" H 16850 20353 60  0000 C CNN
+F 2 "" H 15450 19600 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17050 22700 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 16750 22850 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 16800 22750 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 16800 22950 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 16700 23050 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 16700 23150 60  0001 C CNN "Pricing"
+	1    16850 20700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDREF #PWR?
 U 1 1 5AA0ED2D
-P 24100 5650
-F 0 "#PWR?" H 24100 5400 50  0001 C CNN
-F 1 "GNDREF" H 24105 5477 50  0000 C CNN
-F 2 "" H 24100 5650 50  0001 C CNN
-F 3 "" H 24100 5650 50  0001 C CNN
-	1    24100 5650
+P 17200 21150
+F 0 "#PWR?" H 17200 20900 50  0001 C CNN
+F 1 "GNDREF" H 17205 20977 50  0000 C CNN
+F 2 "" H 17200 21150 50  0001 C CNN
+F 3 "" H 17200 21150 50  0001 C CNN
+	1    17200 21150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA0F1EC
-P 23750 6200
-F 0 "D?" H 23750 5959 60  0000 C CNN
-F 1 "0582BQ" H 23750 5853 60  0000 C CNN
-F 2 "" H 22350 5100 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 23950 8200 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 23650 8350 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 23700 8250 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 23700 8450 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 23600 8550 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 23600 8650 60  0001 C CNN "Pricing"
-	1    23750 6200
+P 16850 21700
+F 0 "D?" H 16850 21459 60  0000 C CNN
+F 1 "0582BQ" H 16850 21353 60  0000 C CNN
+F 2 "" H 15450 20600 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17050 23700 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 16750 23850 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 16800 23750 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 16800 23950 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 16700 24050 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 16700 24150 60  0001 C CNN "Pricing"
+	1    16850 21700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDREF #PWR?
 U 1 1 5AA0F1F9
-P 24100 6650
-F 0 "#PWR?" H 24100 6400 50  0001 C CNN
-F 1 "GNDREF" H 24105 6477 50  0000 C CNN
-F 2 "" H 24100 6650 50  0001 C CNN
-F 3 "" H 24100 6650 50  0001 C CNN
-	1    24100 6650
+P 17200 22150
+F 0 "#PWR?" H 17200 21900 50  0001 C CNN
+F 1 "GNDREF" H 17205 21977 50  0000 C CNN
+F 2 "" H 17200 22150 50  0001 C CNN
+F 3 "" H 17200 22150 50  0001 C CNN
+	1    17200 22150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA137E5
-P 23750 7200
-F 0 "D?" H 23750 6959 60  0000 C CNN
-F 1 "0582BQ" H 23750 6853 60  0000 C CNN
-F 2 "" H 22350 6100 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 23950 9200 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 23650 9350 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 23700 9250 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 23700 9450 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 23600 9550 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 23600 9650 60  0001 C CNN "Pricing"
-	1    23750 7200
+P 16850 22700
+F 0 "D?" H 16850 22459 60  0000 C CNN
+F 1 "0582BQ" H 16850 22353 60  0000 C CNN
+F 2 "" H 15450 21600 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17050 24700 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 16750 24850 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 16800 24750 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 16800 24950 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 16700 25050 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 16700 25150 60  0001 C CNN "Pricing"
+	1    16850 22700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDREF #PWR?
 U 1 1 5AA137F2
-P 24100 7650
-F 0 "#PWR?" H 24100 7400 50  0001 C CNN
-F 1 "GNDREF" H 24105 7477 50  0000 C CNN
-F 2 "" H 24100 7650 50  0001 C CNN
-F 3 "" H 24100 7650 50  0001 C CNN
-	1    24100 7650
+P 17200 23150
+F 0 "#PWR?" H 17200 22900 50  0001 C CNN
+F 1 "GNDREF" H 17205 22977 50  0000 C CNN
+F 2 "" H 17200 23150 50  0001 C CNN
+F 3 "" H 17200 23150 50  0001 C CNN
+	1    17200 23150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA13CB5
-P 23750 8200
-F 0 "D?" H 23750 7959 60  0000 C CNN
-F 1 "0582BQ" H 23750 7853 60  0000 C CNN
-F 2 "" H 22350 7100 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 23950 10200 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 23650 10350 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 23700 10250 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 23700 10450 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 23600 10550 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 23600 10650 60  0001 C CNN "Pricing"
-	1    23750 8200
+P 16850 23700
+F 0 "D?" H 16850 23459 60  0000 C CNN
+F 1 "0582BQ" H 16850 23353 60  0000 C CNN
+F 2 "" H 15450 22600 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17050 25700 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 16750 25850 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 16800 25750 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 16800 25950 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 16700 26050 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 16700 26150 60  0001 C CNN "Pricing"
+	1    16850 23700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDREF #PWR?
 U 1 1 5AA13CC2
-P 24100 8650
-F 0 "#PWR?" H 24100 8400 50  0001 C CNN
-F 1 "GNDREF" H 24105 8477 50  0000 C CNN
-F 2 "" H 24100 8650 50  0001 C CNN
-F 3 "" H 24100 8650 50  0001 C CNN
-	1    24100 8650
+P 17200 24150
+F 0 "#PWR?" H 17200 23900 50  0001 C CNN
+F 1 "GNDREF" H 17205 23977 50  0000 C CNN
+F 2 "" H 17200 24150 50  0001 C CNN
+F 3 "" H 17200 24150 50  0001 C CNN
+	1    17200 24150
 	1    0    0    -1  
 $EndComp
 $Comp
 L TPD1E10B06 D?
 U 1 1 5AA21362
-P 24300 1200
-F 0 "D?" H 24300 1350 60  0000 C CNN
-F 1 "TPD1E10B06" H 24450 1150 60  0000 C CNN
-F 2 "" H 24200 1100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 24450 2800 60  0001 C CNN
-F 4 "0.00@0" H 24350 2700 60  0001 C CNN "Pricing"
-F 5 "0402 (imp)" H 24500 3200 60  0001 C CNN "Package ID"
-F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 24550 2900 60  0001 C CNN "Characteristics"
-F 7 "Single-Channel ESD Protection Diode" H 24400 3100 60  0001 C CNN "Description"
-F 8 "Texas Instruments" H 24300 3000 60  0001 C CNN "Manufacturer"
-	1    24300 1200
+P 17400 16700
+F 0 "D?" H 17400 16850 60  0000 C CNN
+F 1 "TPD1E10B06" H 17550 16650 60  0000 C CNN
+F 2 "" H 17300 16600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 17550 18300 60  0001 C CNN
+F 4 "0.00@0" H 17450 18200 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 17600 18700 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 17650 18400 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 17500 18600 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 17400 18500 60  0001 C CNN "Manufacturer"
+	1    17400 16700
 	1    0    0    -1  
 $EndComp
 $Comp
 L TPD1E10B06 D?
 U 1 1 5AA492FE
-P 24300 2200
-F 0 "D?" H 24300 2350 60  0000 C CNN
-F 1 "TPD1E10B06" H 24450 2150 60  0000 C CNN
-F 2 "" H 24200 2100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 24450 3800 60  0001 C CNN
-F 4 "0.00@0" H 24350 3700 60  0001 C CNN "Pricing"
-F 5 "0402 (imp)" H 24500 4200 60  0001 C CNN "Package ID"
-F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 24550 3900 60  0001 C CNN "Characteristics"
-F 7 "Single-Channel ESD Protection Diode" H 24400 4100 60  0001 C CNN "Description"
-F 8 "Texas Instruments" H 24300 4000 60  0001 C CNN "Manufacturer"
-	1    24300 2200
+P 17400 17700
+F 0 "D?" H 17400 17850 60  0000 C CNN
+F 1 "TPD1E10B06" H 17550 17650 60  0000 C CNN
+F 2 "" H 17300 17600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 17550 19300 60  0001 C CNN
+F 4 "0.00@0" H 17450 19200 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 17600 19700 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 17650 19400 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 17500 19600 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 17400 19500 60  0001 C CNN "Manufacturer"
+	1    17400 17700
 	1    0    0    -1  
 $EndComp
 $Comp
 L TPD1E10B06 D?
 U 1 1 5AA4D929
-P 24300 3200
-F 0 "D?" H 24300 3350 60  0000 C CNN
-F 1 "TPD1E10B06" H 24450 3150 60  0000 C CNN
-F 2 "" H 24200 3100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 24450 4800 60  0001 C CNN
-F 4 "0.00@0" H 24350 4700 60  0001 C CNN "Pricing"
-F 5 "0402 (imp)" H 24500 5200 60  0001 C CNN "Package ID"
-F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 24550 4900 60  0001 C CNN "Characteristics"
-F 7 "Single-Channel ESD Protection Diode" H 24400 5100 60  0001 C CNN "Description"
-F 8 "Texas Instruments" H 24300 5000 60  0001 C CNN "Manufacturer"
-	1    24300 3200
+P 17400 18700
+F 0 "D?" H 17400 18850 60  0000 C CNN
+F 1 "TPD1E10B06" H 17550 18650 60  0000 C CNN
+F 2 "" H 17300 18600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 17550 20300 60  0001 C CNN
+F 4 "0.00@0" H 17450 20200 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 17600 20700 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 17650 20400 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 17500 20600 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 17400 20500 60  0001 C CNN "Manufacturer"
+	1    17400 18700
 	1    0    0    -1  
 $EndComp
 $Comp
 L TPD1E10B06 D?
 U 1 1 5AA51161
-P 24300 4200
-F 0 "D?" H 24300 4350 60  0000 C CNN
-F 1 "TPD1E10B06" H 24450 4150 60  0000 C CNN
-F 2 "" H 24200 4100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 24450 5800 60  0001 C CNN
-F 4 "0.00@0" H 24350 5700 60  0001 C CNN "Pricing"
-F 5 "0402 (imp)" H 24500 6200 60  0001 C CNN "Package ID"
-F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 24550 5900 60  0001 C CNN "Characteristics"
-F 7 "Single-Channel ESD Protection Diode" H 24400 6100 60  0001 C CNN "Description"
-F 8 "Texas Instruments" H 24300 6000 60  0001 C CNN "Manufacturer"
-	1    24300 4200
+P 17400 19700
+F 0 "D?" H 17400 19850 60  0000 C CNN
+F 1 "TPD1E10B06" H 17550 19650 60  0000 C CNN
+F 2 "" H 17300 19600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 17550 21300 60  0001 C CNN
+F 4 "0.00@0" H 17450 21200 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 17600 21700 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 17650 21400 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 17500 21600 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 17400 21500 60  0001 C CNN "Manufacturer"
+	1    17400 19700
 	1    0    0    -1  
 $EndComp
 $Comp
 L TPD1E10B06 D?
 U 1 1 5AA5499E
-P 24300 5200
-F 0 "D?" H 24300 5350 60  0000 C CNN
-F 1 "TPD1E10B06" H 24450 5150 60  0000 C CNN
-F 2 "" H 24200 5100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 24450 6800 60  0001 C CNN
-F 4 "0.00@0" H 24350 6700 60  0001 C CNN "Pricing"
-F 5 "0402 (imp)" H 24500 7200 60  0001 C CNN "Package ID"
-F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 24550 6900 60  0001 C CNN "Characteristics"
-F 7 "Single-Channel ESD Protection Diode" H 24400 7100 60  0001 C CNN "Description"
-F 8 "Texas Instruments" H 24300 7000 60  0001 C CNN "Manufacturer"
-	1    24300 5200
+P 17400 20700
+F 0 "D?" H 17400 20850 60  0000 C CNN
+F 1 "TPD1E10B06" H 17550 20650 60  0000 C CNN
+F 2 "" H 17300 20600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 17550 22300 60  0001 C CNN
+F 4 "0.00@0" H 17450 22200 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 17600 22700 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 17650 22400 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 17500 22600 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 17400 22500 60  0001 C CNN "Manufacturer"
+	1    17400 20700
 	1    0    0    -1  
 $EndComp
 $Comp
 L TPD1E10B06 D?
 U 1 1 5AA581E7
-P 24300 6200
-F 0 "D?" H 24300 6350 60  0000 C CNN
-F 1 "TPD1E10B06" H 24450 6150 60  0000 C CNN
-F 2 "" H 24200 6100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 24450 7800 60  0001 C CNN
-F 4 "0.00@0" H 24350 7700 60  0001 C CNN "Pricing"
-F 5 "0402 (imp)" H 24500 8200 60  0001 C CNN "Package ID"
-F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 24550 7900 60  0001 C CNN "Characteristics"
-F 7 "Single-Channel ESD Protection Diode" H 24400 8100 60  0001 C CNN "Description"
-F 8 "Texas Instruments" H 24300 8000 60  0001 C CNN "Manufacturer"
-	1    24300 6200
+P 17400 21700
+F 0 "D?" H 17400 21850 60  0000 C CNN
+F 1 "TPD1E10B06" H 17550 21650 60  0000 C CNN
+F 2 "" H 17300 21600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 17550 23300 60  0001 C CNN
+F 4 "0.00@0" H 17450 23200 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 17600 23700 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 17650 23400 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 17500 23600 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 17400 23500 60  0001 C CNN "Manufacturer"
+	1    17400 21700
 	1    0    0    -1  
 $EndComp
 $Comp
 L TPD1E10B06 D?
 U 1 1 5AA5B0E1
-P 24300 7200
-F 0 "D?" H 24300 7350 60  0000 C CNN
-F 1 "TPD1E10B06" H 24450 7150 60  0000 C CNN
-F 2 "" H 24200 7100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 24450 8800 60  0001 C CNN
-F 4 "0.00@0" H 24350 8700 60  0001 C CNN "Pricing"
-F 5 "0402 (imp)" H 24500 9200 60  0001 C CNN "Package ID"
-F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 24550 8900 60  0001 C CNN "Characteristics"
-F 7 "Single-Channel ESD Protection Diode" H 24400 9100 60  0001 C CNN "Description"
-F 8 "Texas Instruments" H 24300 9000 60  0001 C CNN "Manufacturer"
-	1    24300 7200
+P 17400 22700
+F 0 "D?" H 17400 22850 60  0000 C CNN
+F 1 "TPD1E10B06" H 17550 22650 60  0000 C CNN
+F 2 "" H 17300 22600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 17550 24300 60  0001 C CNN
+F 4 "0.00@0" H 17450 24200 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 17600 24700 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 17650 24400 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 17500 24600 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 17400 24500 60  0001 C CNN "Manufacturer"
+	1    17400 22700
 	1    0    0    -1  
 $EndComp
 $Comp
 L TPD1E10B06 D?
 U 1 1 5AA5E945
-P 24300 8200
-F 0 "D?" H 24300 8350 60  0000 C CNN
-F 1 "TPD1E10B06" H 24450 8150 60  0000 C CNN
-F 2 "" H 24200 8100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 24450 9800 60  0001 C CNN
-F 4 "0.00@0" H 24350 9700 60  0001 C CNN "Pricing"
-F 5 "0402 (imp)" H 24500 10200 60  0001 C CNN "Package ID"
-F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 24550 9900 60  0001 C CNN "Characteristics"
-F 7 "Single-Channel ESD Protection Diode" H 24400 10100 60  0001 C CNN "Description"
-F 8 "Texas Instruments" H 24300 10000 60  0001 C CNN "Manufacturer"
-	1    24300 8200
+P 17400 23700
+F 0 "D?" H 17400 23850 60  0000 C CNN
+F 1 "TPD1E10B06" H 17550 23650 60  0000 C CNN
+F 2 "" H 17300 23600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 17550 25300 60  0001 C CNN
+F 4 "0.00@0" H 17450 25200 60  0001 C CNN "Pricing"
+F 5 "0402 (imp)" H 17600 25700 60  0001 C CNN "Package ID"
+F 6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 17650 25400 60  0001 C CNN "Characteristics"
+F 7 "Single-Channel ESD Protection Diode" H 17500 25600 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 17400 25500 60  0001 C CNN "Manufacturer"
+	1    17400 23700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA90A24
-P 24600 1600
-F 0 "D?" H 24600 1400 60  0000 C CNN
-F 1 "0582BQ" H 24600 1800 60  0000 C CNN
-F 2 "" H 23200 500 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 24800 3600 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 24500 3750 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 24550 3650 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 24550 3850 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 24450 3950 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 24450 4050 60  0001 C CNN "Pricing"
-	1    24600 1600
+P 17700 17100
+F 0 "D?" H 17700 16900 60  0000 C CNN
+F 1 "0582BQ" H 17700 17300 60  0000 C CNN
+F 2 "" H 16300 16000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17900 19100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 17600 19250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 17650 19150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 17650 19350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 17550 19450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 17550 19550 60  0001 C CNN "Pricing"
+	1    17700 17100
 	-1   0    0    1   
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA9601E
-P 24600 2600
-F 0 "D?" H 24600 2400 60  0000 C CNN
-F 1 "0582BQ" H 24600 2800 60  0000 C CNN
-F 2 "" H 23200 1500 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 24800 4600 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 24500 4750 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 24550 4650 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 24550 4850 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 24450 4950 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 24450 5050 60  0001 C CNN "Pricing"
-	1    24600 2600
+P 17700 18100
+F 0 "D?" H 17700 17900 60  0000 C CNN
+F 1 "0582BQ" H 17700 18300 60  0000 C CNN
+F 2 "" H 16300 17000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17900 20100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 17600 20250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 17650 20150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 17650 20350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 17550 20450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 17550 20550 60  0001 C CNN "Pricing"
+	1    17700 18100
 	-1   0    0    1   
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA98A8C
-P 24600 3600
-F 0 "D?" H 24600 3400 60  0000 C CNN
-F 1 "0582BQ" H 24600 3800 60  0000 C CNN
-F 2 "" H 23200 2500 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 24800 5600 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 24500 5750 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 24550 5650 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 24550 5850 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 24450 5950 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 24450 6050 60  0001 C CNN "Pricing"
-	1    24600 3600
+P 17700 19100
+F 0 "D?" H 17700 18900 60  0000 C CNN
+F 1 "0582BQ" H 17700 19300 60  0000 C CNN
+F 2 "" H 16300 18000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17900 21100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 17600 21250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 17650 21150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 17650 21350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 17550 21450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 17550 21550 60  0001 C CNN "Pricing"
+	1    17700 19100
 	-1   0    0    1   
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA9B4FF
-P 24600 4600
-F 0 "D?" H 24600 4400 60  0000 C CNN
-F 1 "0582BQ" H 24600 4800 60  0000 C CNN
-F 2 "" H 23200 3500 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 24800 6600 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 24500 6750 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 24550 6650 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 24550 6850 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 24450 6950 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 24450 7050 60  0001 C CNN "Pricing"
-	1    24600 4600
+P 17700 20100
+F 0 "D?" H 17700 19900 60  0000 C CNN
+F 1 "0582BQ" H 17700 20300 60  0000 C CNN
+F 2 "" H 16300 19000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17900 22100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 17600 22250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 17650 22150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 17650 22350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 17550 22450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 17550 22550 60  0001 C CNN "Pricing"
+	1    17700 20100
 	-1   0    0    1   
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AA9F70D
-P 24600 5600
-F 0 "D?" H 24600 5400 60  0000 C CNN
-F 1 "0582BQ" H 24600 5800 60  0000 C CNN
-F 2 "" H 23200 4500 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 24800 7600 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 24500 7750 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 24550 7650 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 24550 7850 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 24450 7950 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 24450 8050 60  0001 C CNN "Pricing"
-	1    24600 5600
+P 17700 21100
+F 0 "D?" H 17700 20900 60  0000 C CNN
+F 1 "0582BQ" H 17700 21300 60  0000 C CNN
+F 2 "" H 16300 20000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17900 23100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 17600 23250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 17650 23150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 17650 23350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 17550 23450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 17550 23550 60  0001 C CNN "Pricing"
+	1    17700 21100
 	-1   0    0    1   
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AAA2B07
-P 24600 6600
-F 0 "D?" H 24600 6400 60  0000 C CNN
-F 1 "0582BQ" H 24600 6800 60  0000 C CNN
-F 2 "" H 23200 5500 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 24800 8600 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 24500 8750 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 24550 8650 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 24550 8850 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 24450 8950 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 24450 9050 60  0001 C CNN "Pricing"
-	1    24600 6600
+P 17700 22100
+F 0 "D?" H 17700 21900 60  0000 C CNN
+F 1 "0582BQ" H 17700 22300 60  0000 C CNN
+F 2 "" H 16300 21000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17900 24100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 17600 24250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 17650 24150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 17650 24350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 17550 24450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 17550 24550 60  0001 C CNN "Pricing"
+	1    17700 22100
 	-1   0    0    1   
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AAA3497
-P 24600 7600
-F 0 "D?" H 24600 7400 60  0000 C CNN
-F 1 "0582BQ" H 24600 7800 60  0000 C CNN
-F 2 "" H 23200 6500 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 24800 9600 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 24500 9750 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 24550 9650 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 24550 9850 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 24450 9950 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 24450 10050 60  0001 C CNN "Pricing"
-	1    24600 7600
+P 17700 23100
+F 0 "D?" H 17700 22900 60  0000 C CNN
+F 1 "0582BQ" H 17700 23300 60  0000 C CNN
+F 2 "" H 16300 22000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17900 25100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 17600 25250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 17650 25150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 17650 25350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 17550 25450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 17550 25550 60  0001 C CNN "Pricing"
+	1    17700 23100
 	-1   0    0    1   
 $EndComp
 $Comp
 L 0582BQ D?
 U 1 1 5AAA68A2
-P 24600 8600
-F 0 "D?" H 24600 8400 60  0000 C CNN
-F 1 "0582BQ" H 24600 8800 60  0000 C CNN
-F 2 "" H 23200 7500 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 24800 10600 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 24500 10750 60  0001 C CNN "Characteristics"
-F 5 "Semtech International AG" H 24550 10650 60  0001 C CNN "Manufacturer"
-F 6 "Low Capacitance TVS for Automotive Applications" H 24550 10850 60  0001 C CNN "Description"
-F 7 "SC75 / SOT 523" H 24450 10950 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 24450 11050 60  0001 C CNN "Pricing"
-	1    24600 8600
+P 17700 24100
+F 0 "D?" H 17700 23900 60  0000 C CNN
+F 1 "0582BQ" H 17700 24300 60  0000 C CNN
+F 2 "" H 16300 23000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 17900 26100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 17600 26250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 17650 26150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 17650 26350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 17550 26450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 17550 26550 60  0001 C CNN "Pricing"
+	1    17700 24100
 	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAAAF76
-P 23050 7950
-F 0 "C?" H 23060 8020 50  0000 L CNN
-F 1 "10u" H 23060 7870 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 23050 7950 50  0001 C CNN
-F 3 "" H 23050 7950 50  0001 C CNN
-	1    23050 7950
+P 16150 23450
+F 0 "C?" H 16160 23520 50  0000 L CNN
+F 1 "10u" H 16160 23370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16150 23450 50  0001 C CNN
+F 3 "" H 16150 23450 50  0001 C CNN
+	1    16150 23450
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAC2C9E
-P 22750 7850
-F 0 "C?" H 22760 7920 50  0000 L CNN
-F 1 "10u" H 22760 7770 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 22750 7850 50  0001 C CNN
-F 3 "" H 22750 7850 50  0001 C CNN
-	1    22750 7850
+P 15850 23350
+F 0 "C?" H 15860 23420 50  0000 L CNN
+F 1 "10u" H 15860 23270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 15850 23350 50  0001 C CNN
+F 3 "" H 15850 23350 50  0001 C CNN
+	1    15850 23350
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAD74B6
-P 23050 6950
-F 0 "C?" H 23060 7020 50  0000 L CNN
-F 1 "10u" H 23060 6870 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 23050 6950 50  0001 C CNN
-F 3 "" H 23050 6950 50  0001 C CNN
-	1    23050 6950
+P 16150 22450
+F 0 "C?" H 16160 22520 50  0000 L CNN
+F 1 "10u" H 16160 22370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16150 22450 50  0001 C CNN
+F 3 "" H 16150 22450 50  0001 C CNN
+	1    16150 22450
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAD74BE
-P 22750 6850
-F 0 "C?" H 22760 6920 50  0000 L CNN
-F 1 "10u" H 22760 6770 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 22750 6850 50  0001 C CNN
-F 3 "" H 22750 6850 50  0001 C CNN
-	1    22750 6850
+P 15850 22350
+F 0 "C?" H 15860 22420 50  0000 L CNN
+F 1 "10u" H 15860 22270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 15850 22350 50  0001 C CNN
+F 3 "" H 15850 22350 50  0001 C CNN
+	1    15850 22350
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AADB3BF
-P 23050 5950
-F 0 "C?" H 23060 6020 50  0000 L CNN
-F 1 "10u" H 23060 5870 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 23050 5950 50  0001 C CNN
-F 3 "" H 23050 5950 50  0001 C CNN
-	1    23050 5950
+P 16150 21450
+F 0 "C?" H 16160 21520 50  0000 L CNN
+F 1 "10u" H 16160 21370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16150 21450 50  0001 C CNN
+F 3 "" H 16150 21450 50  0001 C CNN
+	1    16150 21450
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AADB3C6
-P 22750 5850
-F 0 "C?" H 22760 5920 50  0000 L CNN
-F 1 "10u" H 22760 5770 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 22750 5850 50  0001 C CNN
-F 3 "" H 22750 5850 50  0001 C CNN
-	1    22750 5850
+P 15850 21350
+F 0 "C?" H 15860 21420 50  0000 L CNN
+F 1 "10u" H 15860 21270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 15850 21350 50  0001 C CNN
+F 3 "" H 15850 21350 50  0001 C CNN
+	1    15850 21350
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AADDE96
-P 23050 4950
-F 0 "C?" H 23060 5020 50  0000 L CNN
-F 1 "10u" H 23060 4870 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 23050 4950 50  0001 C CNN
-F 3 "" H 23050 4950 50  0001 C CNN
-	1    23050 4950
+P 16150 20450
+F 0 "C?" H 16160 20520 50  0000 L CNN
+F 1 "10u" H 16160 20370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16150 20450 50  0001 C CNN
+F 3 "" H 16150 20450 50  0001 C CNN
+	1    16150 20450
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AADDE9D
-P 22750 4850
-F 0 "C?" H 22760 4920 50  0000 L CNN
-F 1 "10u" H 22760 4770 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 22750 4850 50  0001 C CNN
-F 3 "" H 22750 4850 50  0001 C CNN
-	1    22750 4850
+P 15850 20350
+F 0 "C?" H 15860 20420 50  0000 L CNN
+F 1 "10u" H 15860 20270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 15850 20350 50  0001 C CNN
+F 3 "" H 15850 20350 50  0001 C CNN
+	1    15850 20350
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAE04DC
-P 23050 3950
-F 0 "C?" H 23060 4020 50  0000 L CNN
-F 1 "10u" H 23060 3870 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 23050 3950 50  0001 C CNN
-F 3 "" H 23050 3950 50  0001 C CNN
-	1    23050 3950
+P 16150 19450
+F 0 "C?" H 16160 19520 50  0000 L CNN
+F 1 "10u" H 16160 19370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16150 19450 50  0001 C CNN
+F 3 "" H 16150 19450 50  0001 C CNN
+	1    16150 19450
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAE04E3
-P 22750 3850
-F 0 "C?" H 22760 3920 50  0000 L CNN
-F 1 "10u" H 22760 3770 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 22750 3850 50  0001 C CNN
-F 3 "" H 22750 3850 50  0001 C CNN
-	1    22750 3850
+P 15850 19350
+F 0 "C?" H 15860 19420 50  0000 L CNN
+F 1 "10u" H 15860 19270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 15850 19350 50  0001 C CNN
+F 3 "" H 15850 19350 50  0001 C CNN
+	1    15850 19350
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAE2FD5
-P 23050 2950
-F 0 "C?" H 23060 3020 50  0000 L CNN
-F 1 "10u" H 23060 2870 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 23050 2950 50  0001 C CNN
-F 3 "" H 23050 2950 50  0001 C CNN
-	1    23050 2950
+P 16150 18450
+F 0 "C?" H 16160 18520 50  0000 L CNN
+F 1 "10u" H 16160 18370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16150 18450 50  0001 C CNN
+F 3 "" H 16150 18450 50  0001 C CNN
+	1    16150 18450
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAE2FDC
-P 22750 2850
-F 0 "C?" H 22760 2920 50  0000 L CNN
-F 1 "10u" H 22760 2770 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 22750 2850 50  0001 C CNN
-F 3 "" H 22750 2850 50  0001 C CNN
-	1    22750 2850
+P 15850 18350
+F 0 "C?" H 15860 18420 50  0000 L CNN
+F 1 "10u" H 15860 18270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 15850 18350 50  0001 C CNN
+F 3 "" H 15850 18350 50  0001 C CNN
+	1    15850 18350
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAE5152
-P 23050 1950
-F 0 "C?" H 23060 2020 50  0000 L CNN
-F 1 "10u" H 23060 1870 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 23050 1950 50  0001 C CNN
-F 3 "" H 23050 1950 50  0001 C CNN
-	1    23050 1950
+P 16150 17450
+F 0 "C?" H 16160 17520 50  0000 L CNN
+F 1 "10u" H 16160 17370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16150 17450 50  0001 C CNN
+F 3 "" H 16150 17450 50  0001 C CNN
+	1    16150 17450
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAE5159
-P 22750 1850
-F 0 "C?" H 22760 1920 50  0000 L CNN
-F 1 "10u" H 22760 1770 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 22750 1850 50  0001 C CNN
-F 3 "" H 22750 1850 50  0001 C CNN
-	1    22750 1850
+P 15850 17350
+F 0 "C?" H 15860 17420 50  0000 L CNN
+F 1 "10u" H 15860 17270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 15850 17350 50  0001 C CNN
+F 3 "" H 15850 17350 50  0001 C CNN
+	1    15850 17350
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAE5633
-P 23050 950
-F 0 "C?" H 23060 1020 50  0000 L CNN
-F 1 "10u" H 23060 870 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 23050 950 50  0001 C CNN
-F 3 "" H 23050 950 50  0001 C CNN
-	1    23050 950 
+P 16150 16450
+F 0 "C?" H 16160 16520 50  0000 L CNN
+F 1 "10u" H 16160 16370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16150 16450 50  0001 C CNN
+F 3 "" H 16150 16450 50  0001 C CNN
+	1    16150 16450
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AAE563A
-P 22750 850
-F 0 "C?" H 22760 920 50  0000 L CNN
-F 1 "10u" H 22760 770 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 22750 850 50  0001 C CNN
-F 3 "" H 22750 850 50  0001 C CNN
-	1    22750 850 
+P 15850 16350
+F 0 "C?" H 15860 16420 50  0000 L CNN
+F 1 "10u" H 15860 16270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 15850 16350 50  0001 C CNN
+F 3 "" H 15850 16350 50  0001 C CNN
+	1    15850 16350
 	0    1    1    0   
 $EndComp
-Text Label 18050 2750 1    60   ~ 0
+Text Label 11150 18250 1    60   ~ 0
 L_OUT[0..7]
-Text Label 18350 2750 1    60   ~ 0
+Text Label 11450 18250 1    60   ~ 0
 R_OUT[0..7]
 Entry Wire Line
-	18050 950  18150 850 
+	11150 16450 11250 16350
 Entry Wire Line
-	18050 1950 18150 1850
+	11150 17450 11250 17350
 Entry Wire Line
-	18050 2950 18150 2850
+	11150 18450 11250 18350
 Entry Wire Line
-	18050 3950 18150 3850
+	11150 19450 11250 19350
 Entry Wire Line
-	18050 4950 18150 4850
+	11150 20450 11250 20350
 Entry Wire Line
-	18050 5950 18150 5850
+	11150 21450 11250 21350
 Entry Wire Line
-	18050 6950 18150 6850
+	11150 22450 11250 22350
 Entry Wire Line
-	18050 7950 18150 7850
+	11150 23450 11250 23350
 Entry Wire Line
-	18350 1100 18450 1000
+	11450 16600 11550 16500
 Entry Wire Line
-	18350 2100 18450 2000
+	11450 17600 11550 17500
 Entry Wire Line
-	18350 3100 18450 3000
+	11450 18600 11550 18500
 Entry Wire Line
-	18350 4100 18450 4000
+	11450 19600 11550 19500
 Entry Wire Line
-	18350 5100 18450 5000
+	11450 20600 11550 20500
 Entry Wire Line
-	18350 6100 18450 6000
+	11450 21600 11550 21500
 Entry Wire Line
-	18350 7100 18450 7000
+	11450 22600 11550 22500
 Entry Wire Line
-	18350 8100 18450 8000
-Text Label 18650 850  0    60   ~ 0
+	11450 23600 11550 23500
+Text Label 11750 16350 0    60   ~ 0
 L_OUT0
-Text Label 18650 1850 0    60   ~ 0
+Text Label 11750 17350 0    60   ~ 0
 L_OUT1
-Text Label 18650 2850 0    60   ~ 0
+Text Label 11750 18350 0    60   ~ 0
 L_OUT2
-Text Label 18650 3850 0    60   ~ 0
+Text Label 11750 19350 0    60   ~ 0
 L_OUT3
-Text Label 18650 4850 0    60   ~ 0
+Text Label 11750 20350 0    60   ~ 0
 L_OUT4
-Text Label 18650 5850 0    60   ~ 0
+Text Label 11750 21350 0    60   ~ 0
 L_OUT5
-Text Label 18650 6850 0    60   ~ 0
+Text Label 11750 22350 0    60   ~ 0
 L_OUT6
-Text Label 18650 7850 0    60   ~ 0
+Text Label 11750 23350 0    60   ~ 0
 L_OUT7
-Text Label 18650 1000 0    60   ~ 0
+Text Label 11750 16500 0    60   ~ 0
 R_OUT0
-Text Label 18650 2000 0    60   ~ 0
+Text Label 11750 17500 0    60   ~ 0
 R_OUT1
-Text Label 18650 3000 0    60   ~ 0
+Text Label 11750 18500 0    60   ~ 0
 R_OUT2
-Text Label 18650 4000 0    60   ~ 0
+Text Label 11750 19500 0    60   ~ 0
 R_OUT3
-Text Label 18650 5000 0    60   ~ 0
+Text Label 11750 20500 0    60   ~ 0
 R_OUT4
-Text Label 18650 6000 0    60   ~ 0
+Text Label 11750 21500 0    60   ~ 0
 R_OUT5
-Text Label 18650 7000 0    60   ~ 0
+Text Label 11750 22500 0    60   ~ 0
 R_OUT6
-Text Label 18650 8000 0    60   ~ 0
+Text Label 11750 23500 0    60   ~ 0
 R_OUT7
 $Sheet
 S 6000 650  1850 850 
@@ -1518,134 +1505,134 @@ MIC-IN-7
 $Comp
 L TCA9555 U?
 U 1 1 5AD181E4
-P 25800 10050
-F 0 "U?" H 25800 11097 60  0000 C CNN
-F 1 "TCA9555" H 25800 10991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 26000 11250 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 26100 11350 60  0001 C CNN
-F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 26050 11500 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H 25800 11600 60  0001 C CNN "Manufacturer"
-F 6 "Low-Voltage 16-Bit I 2C and SMBus I/O Expander with Interrupt Output and Configuration Registers" H 26000 11700 60  0001 C CNN "Description"
-F 7 "TSSOP24" H 25850 11800 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 25850 11900 60  0001 C CNN "Pricing"
-	1    25800 10050
+P 18900 25550
+F 0 "U?" H 18900 26597 60  0000 C CNN
+F 1 "TCA9555" H 18900 26491 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 19100 26750 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 19200 26850 60  0001 C CNN
+F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 19150 27000 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 18900 27100 60  0001 C CNN "Manufacturer"
+F 6 "Low-Voltage 16-Bit I 2C and SMBus I/O Expander with Interrupt Output and Configuration Registers" H 19100 27200 60  0001 C CNN "Description"
+F 7 "TSSOP24" H 18950 27300 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 18950 27400 60  0001 C CNN "Pricing"
+	1    18900 25550
 	1    0    0    -1  
 $EndComp
-Text Label 25250 9250 2    60   ~ 0
+Text Label 18350 24750 2    60   ~ 0
 PTT-0
-Text Label 25250 9350 2    60   ~ 0
+Text Label 18350 24850 2    60   ~ 0
 PTT-1
-Text Label 25250 9450 2    60   ~ 0
+Text Label 18350 24950 2    60   ~ 0
 PTT-2
-Text Label 25250 9550 2    60   ~ 0
+Text Label 18350 25050 2    60   ~ 0
 PTT-3
-Text Label 25250 9650 2    60   ~ 0
+Text Label 18350 25150 2    60   ~ 0
 PTT-4
-Text Label 25250 9750 2    60   ~ 0
+Text Label 18350 25250 2    60   ~ 0
 PTT-5
-Text Label 25250 9850 2    60   ~ 0
+Text Label 18350 25350 2    60   ~ 0
 PTT-6
-Text Label 25250 9950 2    60   ~ 0
+Text Label 18350 25450 2    60   ~ 0
 PTT-7
-Text Label 25250 10150 2    60   ~ 0
+Text Label 18350 25650 2    60   ~ 0
 MIC-MUTE-0
-Text Label 25250 10250 2    60   ~ 0
+Text Label 18350 25750 2    60   ~ 0
 MIC-MUTE-1
-Text Label 25250 10350 2    60   ~ 0
+Text Label 18350 25850 2    60   ~ 0
 MIC-MUTE-2
-Text Label 25250 10450 2    60   ~ 0
+Text Label 18350 25950 2    60   ~ 0
 MIC-MUTE-3
-Text Label 25250 10550 2    60   ~ 0
+Text Label 18350 26050 2    60   ~ 0
 MIC-MUTE-4
-Text Label 25250 10650 2    60   ~ 0
+Text Label 18350 26150 2    60   ~ 0
 MIC-MUTE-5
-Text Label 25250 10750 2    60   ~ 0
+Text Label 18350 26250 2    60   ~ 0
 MIC-MUTE-6
-Text Label 25250 10850 2    60   ~ 0
+Text Label 18350 26350 2    60   ~ 0
 MIC-MUTE-7
 $Comp
 L GNDREF #PWR?
 U 1 1 5AD3C322
-P 26300 10950
-F 0 "#PWR?" H 26300 10700 50  0001 C CNN
-F 1 "GNDREF" H 26305 10777 50  0000 C CNN
-F 2 "" H 26300 10950 50  0001 C CNN
-F 3 "" H 26300 10950 50  0001 C CNN
-	1    26300 10950
+P 19400 26450
+F 0 "#PWR?" H 19400 26200 50  0001 C CNN
+F 1 "GNDREF" H 19405 26277 50  0000 C CNN
+F 2 "" H 19400 26450 50  0001 C CNN
+F 3 "" H 19400 26450 50  0001 C CNN
+	1    19400 26450
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR?
 U 1 1 5AD4D94A
-P 26750 700
-F 0 "#PWR?" H 26750 550 50  0001 C CNN
-F 1 "+5V" H 26765 873 50  0000 C CNN
-F 2 "" H 26750 700 50  0001 C CNN
-F 3 "" H 26750 700 50  0001 C CNN
-	1    26750 700 
+P 19850 16200
+F 0 "#PWR?" H 19850 16050 50  0001 C CNN
+F 1 "+5V" H 19865 16373 50  0000 C CNN
+F 2 "" H 19850 16200 50  0001 C CNN
+F 3 "" H 19850 16200 50  0001 C CNN
+	1    19850 16200
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR?
 U 1 1 5AD5FE17
-P 26350 9100
-F 0 "#PWR?" H 26350 8950 50  0001 C CNN
-F 1 "+5V" H 26365 9273 50  0000 C CNN
-F 2 "" H 26350 9100 50  0001 C CNN
-F 3 "" H 26350 9100 50  0001 C CNN
-	1    26350 9100
+P 19450 24600
+F 0 "#PWR?" H 19450 24450 50  0001 C CNN
+F 1 "+5V" H 19465 24773 50  0000 C CNN
+F 2 "" H 19450 24600 50  0001 C CNN
+F 3 "" H 19450 24600 50  0001 C CNN
+	1    19450 24600
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_Small R?
 U 1 1 5AD6B300
-P 26300 9450
-F 0 "R?" H 26359 9496 50  0000 L CNN
-F 1 "10k" H 26359 9405 50  0000 L CNN
-F 2 "" H 26300 9450 50  0001 C CNN
-F 3 "" H 26300 9450 50  0001 C CNN
-	1    26300 9450
+P 19400 24950
+F 0 "R?" H 19459 24996 50  0000 L CNN
+F 1 "10k" H 19459 24905 50  0000 L CNN
+F 2 "" H 19400 24950 50  0001 C CNN
+F 3 "" H 19400 24950 50  0001 C CNN
+	1    19400 24950
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AD6DCD7
-P 26500 9250
-F 0 "C?" V 26271 9250 50  0000 C CNN
-F 1 "0.1uF" V 26362 9250 50  0000 C CNN
-F 2 "" H 26500 9250 50  0001 C CNN
-F 3 "" H 26500 9250 50  0001 C CNN
-	1    26500 9250
+P 19600 24750
+F 0 "C?" V 19371 24750 50  0000 C CNN
+F 1 "0.1uF" V 19462 24750 50  0000 C CNN
+F 2 "" H 19600 24750 50  0001 C CNN
+F 3 "" H 19600 24750 50  0001 C CNN
+	1    19600 24750
 	0    1    1    0   
 $EndComp
-NoConn ~ 24500 10050
+NoConn ~ 17600 25550
 $Comp
 L R_Network17 RN1
 U 1 1 591C378D
-P 24300 10050
-F 0 "RN1" V 23400 10050 50  0000 C CNN
-F 1 "4818P-T02-202LF" V 25200 10050 50  0000 C CNN
-F 2 "SW-Bournes:SOM-18" V 25075 10050 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/54/800P-777115.pdf" V 23600 10050 50  0001 C CNN
-F 4 "Bournes" H 24300 10050 60  0001 C CNN "Manufacturer"
-F 5 "Resistor Network star topology" H 24200 10800 60  0001 C CNN "Description"
-F 6 "SOM-18" H 24300 10050 60  0001 C CNN "Package ID"
-F 7 "0.00@0" H 24250 10700 60  0001 C CNN "Pricing"
-	1    24300 10050
+P 17400 25550
+F 0 "RN1" V 16500 25550 50  0000 C CNN
+F 1 "4818P-T02-202LF" V 18300 25550 50  0000 C CNN
+F 2 "SW-Bournes:SOM-18" V 18175 25550 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/54/800P-777115.pdf" V 16700 25550 50  0001 C CNN
+F 4 "Bournes" H 17400 25550 60  0001 C CNN "Manufacturer"
+F 5 "Resistor Network star topology" H 17300 26300 60  0001 C CNN "Description"
+F 6 "SOM-18" H 17400 25550 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 17350 26200 60  0001 C CNN "Pricing"
+	1    17400 25550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GNDREF #PWR058
 U 1 1 58F504DD
-P 24100 10850
-F 0 "#PWR058" H 24100 10600 50  0001 C CNN
-F 1 "GNDREF" H 24100 10700 50  0000 C CNN
-F 2 "" H 24100 10850 50  0001 C CNN
-F 3 "" H 24100 10850 50  0001 C CNN
-	1    24100 10850
+P 17200 26350
+F 0 "#PWR058" H 17200 26100 50  0001 C CNN
+F 1 "GNDREF" H 17200 26200 50  0000 C CNN
+F 2 "" H 17200 26350 50  0001 C CNN
+F 3 "" H 17200 26350 50  0001 C CNN
+	1    17200 26350
 	0    1    -1   0   
 $EndComp
-Text Notes 26200 13950 0    60   ~ 0
+Text Notes 22850 26650 0    60   ~ 0
 PTT logic, can either be controlled via headset\nPTT wire or through IO expander from PI\n\nMic Mute logic, IO expander accepts signal into pi, \nIO expander provides signal from pi. Switching is\ncontrolled via i2c SPST switch
 $Comp
 L ADG715 U?
@@ -1783,17 +1770,17 @@ $EndSheet
 $Comp
 L ADG715 U?
 U 2 1 5AEB52BC
-P 3050 35100
-F 0 "U?" H 3050 35497 60  0000 C CNN
-F 1 "ADG715" H 3050 35391 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 3300 36050 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 3300 36150 60  0001 C CNN
-F 4 "0.00@0" H 3100 36700 60  0001 C CNN "Pricing"
-F 5 "Analog Devices" H 3050 36350 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 3150 36450 60  0001 C CNN "Description"
-F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 3150 36250 60  0001 C CNN "Characteristics"
-F 8 "TSSOP 24 pin " H 3250 36550 60  0001 C CNN "Package ID"
-	2    3050 35100
+P 22200 29400
+F 0 "U?" H 22200 29797 60  0000 C CNN
+F 1 "ADG715" H 22200 29691 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 22450 30350 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 22450 30450 60  0001 C CNN
+F 4 "0.00@0" H 22250 31000 60  0001 C CNN "Pricing"
+F 5 "Analog Devices" H 22200 30650 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 22300 30750 60  0001 C CNN "Description"
+F 7 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 22300 30550 60  0001 C CNN "Characteristics"
+F 8 "TSSOP 24 pin " H 22400 30850 60  0001 C CNN "Package ID"
+	2    22200 29400
 	1    0    0    -1  
 $EndComp
 Text Label 7300 4250 0    60   ~ 0
@@ -4993,7 +4980,23 @@ DEV-MIC-IN-XBAR-CTL23
 Wire Wire Line
 	9550 33000 9550 32800
 Wire Wire Line
-	9550 32800 12000 32800
+	9550 32800 9850 32800
+Wire Wire Line
+	9850 32800 10150 32800
+Wire Wire Line
+	10150 32800 10450 32800
+Wire Wire Line
+	10450 32800 10750 32800
+Wire Wire Line
+	10750 32800 11050 32800
+Wire Wire Line
+	11050 32800 11350 32800
+Wire Wire Line
+	11350 32800 11650 32800
+Wire Wire Line
+	11650 32800 11750 32800
+Wire Wire Line
+	11750 32800 12000 32800
 Wire Wire Line
 	10150 33000 10150 32800
 Connection ~ 9550 32800
@@ -5034,552 +5037,728 @@ Wire Wire Line
 Wire Wire Line
 	10050 22000 7850 22000
 Wire Wire Line
-	26800 750  26800 8950
+	19900 16250 19900 16650
 Wire Wire Line
-	26800 7750 26900 7750
+	19900 16650 19900 17250
 Wire Wire Line
-	26800 750  26900 750 
-Connection ~ 26800 7750
+	19900 17250 19900 17650
 Wire Wire Line
-	26900 1150 26800 1150
-Connection ~ 26800 1150
+	19900 17650 19900 18250
 Wire Wire Line
-	26900 2150 26800 2150
-Connection ~ 26800 2150
+	19900 18250 19900 18650
 Wire Wire Line
-	26900 1750 26800 1750
-Connection ~ 26800 1750
+	19900 18650 19900 19250
 Wire Wire Line
-	26900 2750 26800 2750
-Connection ~ 26800 2750
+	19900 19250 19900 19650
 Wire Wire Line
-	26900 3150 26800 3150
-Connection ~ 26800 3150
+	19900 19650 19900 20250
 Wire Wire Line
-	26900 3750 26800 3750
-Connection ~ 26800 3750
+	19900 20250 19900 20650
 Wire Wire Line
-	26900 4150 26800 4150
-Connection ~ 26800 4150
+	19900 20650 19900 21250
 Wire Wire Line
-	26900 4750 26800 4750
-Connection ~ 26800 4750
+	19900 21250 19900 21650
 Wire Wire Line
-	26900 5150 26800 5150
-Connection ~ 26800 5150
+	19900 21650 19900 22250
 Wire Wire Line
-	26900 5750 26800 5750
-Connection ~ 26800 5750
+	19900 22250 19900 22650
 Wire Wire Line
-	26900 6150 26800 6150
-Connection ~ 26800 6150
+	19900 22650 19900 23250
 Wire Wire Line
-	26900 6750 26800 6750
-Connection ~ 26800 6750
+	19900 23250 19900 23650
 Wire Wire Line
-	26900 7150 26800 7150
-Connection ~ 26800 7150
+	19900 23650 19900 24450
 Wire Wire Line
-	26900 8150 26800 8150
-Connection ~ 26800 8150
+	19900 23250 20000 23250
 Wire Wire Line
-	26900 1250 26750 1250
+	19900 16250 20000 16250
+Connection ~ 19900 23250
 Wire Wire Line
-	26750 700  26750 8250
+	20000 16650 19900 16650
+Connection ~ 19900 16650
 Wire Wire Line
-	26750 2250 26900 2250
+	20000 17650 19900 17650
+Connection ~ 19900 17650
 Wire Wire Line
-	26750 3250 26900 3250
-Connection ~ 26750 2250
+	20000 17250 19900 17250
+Connection ~ 19900 17250
 Wire Wire Line
-	26750 4250 26900 4250
-Connection ~ 26750 3250
+	20000 18250 19900 18250
+Connection ~ 19900 18250
 Wire Wire Line
-	26750 5250 26900 5250
-Connection ~ 26750 4250
+	20000 18650 19900 18650
+Connection ~ 19900 18650
 Wire Wire Line
-	26750 6250 26900 6250
-Connection ~ 26750 5250
+	20000 19250 19900 19250
+Connection ~ 19900 19250
 Wire Wire Line
-	26750 7250 26900 7250
-Connection ~ 26750 6250
+	20000 19650 19900 19650
+Connection ~ 19900 19650
 Wire Wire Line
-	26750 8250 26900 8250
-Connection ~ 26750 7250
+	20000 20250 19900 20250
+Connection ~ 19900 20250
 Wire Wire Line
-	22850 6850 26900 6850
+	20000 20650 19900 20650
+Connection ~ 19900 20650
 Wire Wire Line
-	22850 5850 26900 5850
+	20000 21250 19900 21250
+Connection ~ 19900 21250
 Wire Wire Line
-	22850 4850 26900 4850
+	20000 21650 19900 21650
+Connection ~ 19900 21650
 Wire Wire Line
-	22850 3850 26900 3850
+	20000 22250 19900 22250
+Connection ~ 19900 22250
 Wire Wire Line
-	22850 2850 26900 2850
+	20000 22650 19900 22650
+Connection ~ 19900 22650
 Wire Wire Line
-	23150 7950 26900 7950
+	20000 23650 19900 23650
+Connection ~ 19900 23650
 Wire Wire Line
-	23150 5950 26900 5950
+	20000 16750 19850 16750
 Wire Wire Line
-	23150 4950 26900 4950
+	19850 16200 19850 16750
 Wire Wire Line
-	23150 3950 26900 3950
+	19850 16750 19850 17750
 Wire Wire Line
-	23150 2950 26900 2950
+	19850 17750 19850 18750
 Wire Wire Line
-	26550 1050 26900 1050
+	19850 18750 19850 19750
 Wire Wire Line
-	26550 2050 26900 2050
+	19850 19750 19850 20750
 Wire Wire Line
-	26550 3050 26900 3050
+	19850 20750 19850 21750
 Wire Wire Line
-	26550 4050 26900 4050
+	19850 21750 19850 22750
 Wire Wire Line
-	26550 5050 26900 5050
+	19850 22750 19850 23750
 Wire Wire Line
-	26550 6050 26900 6050
+	19850 17750 20000 17750
 Wire Wire Line
-	26550 7050 26900 7050
+	19850 18750 20000 18750
+Connection ~ 19850 17750
 Wire Wire Line
-	26550 8050 26900 8050
+	19850 19750 20000 19750
+Connection ~ 19850 18750
 Wire Wire Line
-	26250 8050 26350 8050
+	19850 20750 20000 20750
+Connection ~ 19850 19750
 Wire Wire Line
-	26250 1050 26350 1050
+	19850 21750 20000 21750
+Connection ~ 19850 20750
 Wire Wire Line
-	26250 2050 26350 2050
+	19850 22750 20000 22750
+Connection ~ 19850 21750
 Wire Wire Line
-	26250 3050 26350 3050
+	19850 23750 20000 23750
+Connection ~ 19850 22750
 Wire Wire Line
-	26250 4050 26350 4050
+	15950 22350 16400 22350
 Wire Wire Line
-	26250 5050 26350 5050
+	16400 22350 20000 22350
 Wire Wire Line
-	26250 6050 26350 6050
+	15950 21350 16400 21350
 Wire Wire Line
-	26250 7050 26350 7050
+	16400 21350 20000 21350
 Wire Wire Line
-	26250 1450 26900 1450
+	15950 20350 16400 20350
 Wire Wire Line
-	26250 1350 26900 1350
+	16400 20350 20000 20350
 Wire Wire Line
-	26250 2450 26900 2450
+	15950 19350 16400 19350
 Wire Wire Line
-	26250 2350 26900 2350
+	16400 19350 20000 19350
 Wire Wire Line
-	26250 3450 26900 3450
+	15950 18350 16400 18350
 Wire Wire Line
-	26250 3350 26900 3350
+	16400 18350 20000 18350
 Wire Wire Line
-	26250 4450 26900 4450
+	16250 23450 16550 23450
 Wire Wire Line
-	26250 4350 26900 4350
+	16550 23450 20000 23450
 Wire Wire Line
-	26250 5450 26900 5450
+	16250 21450 16550 21450
 Wire Wire Line
-	26250 5350 26900 5350
+	16550 21450 20000 21450
 Wire Wire Line
-	26250 6450 26900 6450
+	16250 20450 16550 20450
 Wire Wire Line
-	26250 6350 26900 6350
+	16550 20450 20000 20450
 Wire Wire Line
-	26250 7450 26900 7450
+	16250 19450 16550 19450
 Wire Wire Line
-	26250 7350 26900 7350
+	16550 19450 20000 19450
 Wire Wire Line
-	26250 8450 26900 8450
+	16250 18450 16550 18450
 Wire Wire Line
-	26250 8350 26900 8350
+	16550 18450 20000 18450
 Wire Wire Line
-	15550 15250 15300 15250
+	19650 16550 19750 16550
 Wire Wire Line
-	15500 15050 15550 15050
+	19750 16550 20000 16550
 Wire Wire Line
-	15450 15150 15550 15150
+	19650 17550 19750 17550
 Wire Wire Line
-	19600 850  19950 850 
+	19750 17550 20000 17550
 Wire Wire Line
-	19600 1000 19950 1000
+	19650 18550 19750 18550
 Wire Wire Line
-	19950 1850 19600 1850
+	19750 18550 20000 18550
 Wire Wire Line
-	19600 2000 19950 2000
+	19650 19550 19750 19550
 Wire Wire Line
-	19600 3000 19950 3000
+	19750 19550 20000 19550
 Wire Wire Line
-	19600 2850 19950 2850
+	19650 20550 19750 20550
 Wire Wire Line
-	19600 3850 19950 3850
+	19750 20550 20000 20550
 Wire Wire Line
-	19600 4000 19950 4000
+	19650 21550 19750 21550
 Wire Wire Line
-	19600 4850 19950 4850
+	19750 21550 20000 21550
 Wire Wire Line
-	19600 5000 19950 5000
+	19650 22550 19750 22550
 Wire Wire Line
-	19600 5850 19950 5850
+	19750 22550 20000 22550
 Wire Wire Line
-	19600 6000 19950 6000
+	19650 23550 19750 23550
 Wire Wire Line
-	19600 6850 19950 6850
+	19750 23550 20000 23550
 Wire Wire Line
-	19600 7000 19950 7000
+	19350 23550 19450 23550
 Wire Wire Line
-	19600 7850 19950 7850
+	19350 16550 19450 16550
 Wire Wire Line
-	19600 8000 19950 8000
+	19350 17550 19450 17550
 Wire Wire Line
-	18150 850  19000 850 
+	19350 18550 19450 18550
 Wire Wire Line
-	18450 1000 19000 1000
+	19350 19550 19450 19550
 Wire Wire Line
-	18450 2000 19000 2000
+	19350 20550 19450 20550
 Wire Wire Line
-	18150 1850 19000 1850
+	19350 21550 19450 21550
 Wire Wire Line
-	18150 2850 19000 2850
+	19350 22550 19450 22550
 Wire Wire Line
-	18450 3000 19000 3000
+	19350 16950 19550 16950
 Wire Wire Line
-	18150 3850 19000 3850
+	19550 16950 20000 16950
 Wire Wire Line
-	18150 4850 19000 4850
+	19350 16850 19700 16850
 Wire Wire Line
-	18450 5000 19000 5000
+	19700 16850 20000 16850
 Wire Wire Line
-	18150 5850 19000 5850
+	19350 17950 19500 17950
 Wire Wire Line
-	18450 6000 19000 6000
+	19500 17950 20000 17950
 Wire Wire Line
-	18150 6850 19000 6850
+	19350 17850 19650 17850
 Wire Wire Line
-	18150 7850 19000 7850
+	19650 17850 20000 17850
 Wire Wire Line
-	18450 8000 19000 8000
+	19350 18950 19500 18950
 Wire Wire Line
-	18450 4000 19000 4000
+	19500 18950 20000 18950
 Wire Wire Line
-	18450 7000 19000 7000
+	19350 18850 19650 18850
 Wire Wire Line
-	23450 950  23450 1100
+	19650 18850 20000 18850
 Wire Wire Line
-	23450 1100 23600 1100
-Connection ~ 23450 950 
+	19350 19950 19500 19950
 Wire Wire Line
-	23300 850  23300 1300
+	19500 19950 20000 19950
 Wire Wire Line
-	23300 1300 23600 1300
-Connection ~ 23300 850 
+	19350 19850 19650 19850
 Wire Wire Line
-	23900 1200 24100 1200
+	19650 19850 20000 19850
 Wire Wire Line
-	24100 1150 24100 1650
+	19350 20950 19500 20950
 Wire Wire Line
-	23450 1950 23450 2100
+	19500 20950 20000 20950
 Wire Wire Line
-	23450 2100 23600 2100
+	19350 20850 19650 20850
 Wire Wire Line
-	23300 1850 23300 2300
+	19650 20850 20000 20850
 Wire Wire Line
-	23300 2300 23600 2300
+	19350 21950 19500 21950
 Wire Wire Line
-	23900 2200 24100 2200
+	19500 21950 20000 21950
 Wire Wire Line
-	24100 2150 24100 2650
-Connection ~ 23450 1950
-Connection ~ 23300 1850
+	19350 21850 19650 21850
 Wire Wire Line
-	23450 2950 23450 3100
+	19650 21850 20000 21850
 Wire Wire Line
-	23450 3100 23600 3100
+	19350 22950 19500 22950
 Wire Wire Line
-	23300 2850 23300 3300
+	19500 22950 20000 22950
 Wire Wire Line
-	23300 3300 23600 3300
+	19350 22850 19650 22850
 Wire Wire Line
-	23900 3200 24100 3200
+	19650 22850 20000 22850
 Wire Wire Line
-	24100 3150 24100 3650
+	19350 23950 19500 23950
 Wire Wire Line
-	23450 3950 23450 4100
+	19500 23950 20000 23950
 Wire Wire Line
-	23450 4100 23600 4100
+	19350 23850 19650 23850
 Wire Wire Line
-	23300 3850 23300 4300
+	19650 23850 20000 23850
 Wire Wire Line
-	23300 4300 23600 4300
+	13900 13100 13950 13100
 Wire Wire Line
-	23900 4200 24100 4200
+	13900 12900 15850 12900
 Wire Wire Line
-	24100 4150 24100 4650
-Connection ~ 23450 2950
-Connection ~ 23300 2850
-Connection ~ 23300 3850
-Connection ~ 23450 3950
+	13900 13000 15850 13000
 Wire Wire Line
-	23450 4950 23450 5100
+	12700 16350 13050 16350
 Wire Wire Line
-	23450 5100 23600 5100
+	12700 16500 13050 16500
 Wire Wire Line
-	23300 4850 23300 5300
+	13050 17350 12700 17350
 Wire Wire Line
-	23300 5300 23600 5300
+	12700 17500 13050 17500
 Wire Wire Line
-	23900 5200 24100 5200
+	12700 18500 13050 18500
 Wire Wire Line
-	24100 5150 24100 5650
+	12700 18350 13050 18350
 Wire Wire Line
-	23450 5950 23450 6100
+	12700 19350 13050 19350
 Wire Wire Line
-	23450 6100 23600 6100
+	12700 19500 13050 19500
 Wire Wire Line
-	23300 5850 23300 6300
+	12700 20350 13050 20350
 Wire Wire Line
-	23300 6300 23600 6300
+	12700 20500 13050 20500
 Wire Wire Line
-	23900 6200 24100 6200
+	12700 21350 13050 21350
 Wire Wire Line
-	24100 6150 24100 6650
-Connection ~ 23450 5950
-Connection ~ 23300 5850
-Connection ~ 23450 4950
-Connection ~ 23300 4850
+	12700 21500 13050 21500
 Wire Wire Line
-	23450 6950 23450 7100
+	12700 22350 13050 22350
 Wire Wire Line
-	23450 7100 23600 7100
+	12700 22500 13050 22500
 Wire Wire Line
-	23300 6850 23300 7300
+	12700 23350 13050 23350
 Wire Wire Line
-	23300 7300 23600 7300
+	12700 23500 13050 23500
 Wire Wire Line
-	23900 7200 24100 7200
+	11250 16350 12100 16350
 Wire Wire Line
-	24100 7150 24100 7650
+	11550 16500 12100 16500
 Wire Wire Line
-	23450 7950 23450 8100
+	11550 17500 12100 17500
 Wire Wire Line
-	23450 8100 23600 8100
+	11250 17350 12100 17350
 Wire Wire Line
-	23300 7850 23300 8300
+	11250 18350 12100 18350
 Wire Wire Line
-	23300 8300 23600 8300
+	11550 18500 12100 18500
 Wire Wire Line
-	23900 8200 24100 8200
+	11250 19350 12100 19350
 Wire Wire Line
-	24100 8150 24100 8650
-Connection ~ 23450 7950
-Connection ~ 23300 7850
-Connection ~ 23450 6950
-Connection ~ 23300 6850
-Connection ~ 24100 1200
+	11250 20350 12100 20350
 Wire Wire Line
-	24500 1150 26650 1150
+	11550 20500 12100 20500
 Wire Wire Line
-	26650 1150 26650 1050
-Connection ~ 26650 1050
-Connection ~ 24100 2200
+	11250 21350 12100 21350
 Wire Wire Line
-	24500 2150 26650 2150
+	11550 21500 12100 21500
 Wire Wire Line
-	26650 2150 26650 2050
-Connection ~ 26650 2050
+	11250 22350 12100 22350
 Wire Wire Line
-	24500 3150 26650 3150
+	11250 23350 12100 23350
 Wire Wire Line
-	26650 3150 26650 3050
-Connection ~ 26650 3050
-Connection ~ 24100 3200
-Connection ~ 24100 4200
+	11550 23500 12100 23500
 Wire Wire Line
-	24500 4150 26650 4150
+	11550 19500 12100 19500
 Wire Wire Line
-	26650 4150 26650 4050
-Connection ~ 26650 4050
-Connection ~ 24100 5200
+	11550 22500 12100 22500
 Wire Wire Line
-	24500 5150 26650 5150
+	16550 16450 16550 16600
 Wire Wire Line
-	26650 5150 26650 5050
-Connection ~ 26650 5050
-Connection ~ 24100 6200
+	16550 16600 16700 16600
+Connection ~ 16550 16450
 Wire Wire Line
-	24500 6150 26650 6150
+	16400 16350 16400 16800
 Wire Wire Line
-	26650 6150 26650 6050
-Connection ~ 26650 6050
-Connection ~ 24100 7200
+	16400 16800 16700 16800
+Connection ~ 16400 16350
 Wire Wire Line
-	24500 7150 26650 7150
+	17000 16700 17200 16700
 Wire Wire Line
-	26650 7150 26650 7050
-Connection ~ 26650 7050
-Connection ~ 24100 8200
+	17200 16650 17200 16700
 Wire Wire Line
-	24500 8150 26650 8150
+	17200 16700 17200 17100
 Wire Wire Line
-	26650 8150 26650 8050
-Connection ~ 26650 8050
+	17200 17100 17200 17150
 Wire Wire Line
-	24100 8600 24450 8600
-Connection ~ 24100 8600
+	16550 17450 16550 17600
 Wire Wire Line
-	24750 8700 26550 8700
+	16550 17600 16700 17600
 Wire Wire Line
-	26550 8700 26550 8350
-Connection ~ 26550 8350
+	16400 17350 16400 17800
 Wire Wire Line
-	26400 8450 26400 8500
+	16400 17800 16700 17800
 Wire Wire Line
-	26400 8500 24750 8500
-Connection ~ 26400 8450
+	17000 17700 17200 17700
 Wire Wire Line
-	24750 7700 26550 7700
+	17200 17650 17200 17700
 Wire Wire Line
-	26550 7700 26550 7350
-Connection ~ 26550 7350
+	17200 17700 17200 18100
 Wire Wire Line
-	24750 7500 26400 7500
+	17200 18100 17200 18150
+Connection ~ 16550 17450
+Connection ~ 16400 17350
 Wire Wire Line
-	26400 7500 26400 7450
-Connection ~ 26400 7450
+	16550 18450 16550 18600
 Wire Wire Line
-	24450 7600 24100 7600
-Connection ~ 24100 7600
+	16550 18600 16700 18600
 Wire Wire Line
-	21900 7950 22950 7950
+	16400 18350 16400 18800
 Wire Wire Line
-	21900 7850 22650 7850
+	16400 18800 16700 18800
 Wire Wire Line
-	22850 7850 26900 7850
+	17000 18700 17200 18700
 Wire Wire Line
-	23150 6950 26900 6950
+	17200 18650 17200 18700
 Wire Wire Line
-	21900 950  22950 950 
+	17200 18700 17200 19100
 Wire Wire Line
-	23150 950  26900 950 
+	17200 19100 17200 19150
 Wire Wire Line
-	21900 850  22650 850 
+	16550 19450 16550 19600
 Wire Wire Line
-	22850 850  26900 850 
+	16550 19600 16700 19600
 Wire Wire Line
-	21900 1850 22650 1850
+	16400 19350 16400 19800
 Wire Wire Line
-	22850 1850 26900 1850
+	16400 19800 16700 19800
 Wire Wire Line
-	21900 1950 22950 1950
+	17000 19700 17200 19700
 Wire Wire Line
-	23150 1950 26900 1950
+	17200 19650 17200 19700
 Wire Wire Line
-	21900 2850 22650 2850
+	17200 19700 17200 20100
 Wire Wire Line
-	21900 2950 22950 2950
+	17200 20100 17200 20150
+Connection ~ 16550 18450
+Connection ~ 16400 18350
+Connection ~ 16400 19350
+Connection ~ 16550 19450
 Wire Wire Line
-	21900 3850 22650 3850
+	16550 20450 16550 20600
 Wire Wire Line
-	21900 3950 22950 3950
+	16550 20600 16700 20600
 Wire Wire Line
-	21900 4850 22650 4850
+	16400 20350 16400 20800
 Wire Wire Line
-	21900 4950 22950 4950
+	16400 20800 16700 20800
 Wire Wire Line
-	21900 5850 22650 5850
+	17000 20700 17200 20700
 Wire Wire Line
-	21900 5950 22950 5950
+	17200 20650 17200 20700
 Wire Wire Line
-	21900 6850 22650 6850
+	17200 20700 17200 21100
 Wire Wire Line
-	21900 6950 22950 6950
+	17200 21100 17200 21150
 Wire Wire Line
-	24750 6700 26550 6700
+	16550 21450 16550 21600
 Wire Wire Line
-	26550 6700 26550 6350
-Connection ~ 26550 6350
+	16550 21600 16700 21600
 Wire Wire Line
-	24750 6500 26400 6500
+	16400 21350 16400 21800
 Wire Wire Line
-	26400 6500 26400 6450
-Connection ~ 26400 6450
+	16400 21800 16700 21800
 Wire Wire Line
-	24750 5500 26400 5500
+	17000 21700 17200 21700
 Wire Wire Line
-	26400 5500 26400 5450
-Connection ~ 26400 5450
+	17200 21650 17200 21700
 Wire Wire Line
-	24750 5700 26550 5700
+	17200 21700 17200 22100
 Wire Wire Line
-	26550 5700 26550 5350
-Connection ~ 26550 5350
+	17200 22100 17200 22150
+Connection ~ 16550 21450
+Connection ~ 16400 21350
+Connection ~ 16550 20450
+Connection ~ 16400 20350
 Wire Wire Line
-	24750 4700 26550 4700
+	16550 22450 16550 22600
 Wire Wire Line
-	26550 4700 26550 4350
-Connection ~ 26550 4350
+	16550 22600 16700 22600
 Wire Wire Line
-	24750 4500 26400 4500
+	16400 22350 16400 22800
 Wire Wire Line
-	26400 4500 26400 4450
-Connection ~ 26400 4450
+	16400 22800 16700 22800
 Wire Wire Line
-	24750 3700 26550 3700
+	17000 22700 17200 22700
 Wire Wire Line
-	26550 3700 26550 3350
-Connection ~ 26550 3350
+	17200 22650 17200 22700
 Wire Wire Line
-	24750 3500 26400 3500
+	17200 22700 17200 23100
 Wire Wire Line
-	26400 3500 26400 3450
-Connection ~ 26400 3450
+	17200 23100 17200 23150
 Wire Wire Line
-	24750 2700 26550 2700
+	16550 23450 16550 23600
 Wire Wire Line
-	26550 2700 26550 2350
-Connection ~ 26550 2350
+	16550 23600 16700 23600
 Wire Wire Line
-	24750 2500 26400 2500
+	16400 23350 16400 23800
 Wire Wire Line
-	26400 2500 26400 2450
-Connection ~ 26400 2450
+	16400 23800 16700 23800
 Wire Wire Line
-	24750 1700 26600 1700
+	17000 23700 17200 23700
 Wire Wire Line
-	26600 1700 26600 1350
-Connection ~ 26600 1350
+	17200 23650 17200 23700
 Wire Wire Line
-	24750 1500 26450 1500
+	17200 23700 17200 24100
 Wire Wire Line
-	26450 1500 26450 1450
-Connection ~ 26450 1450
+	17200 24100 17200 24150
+Connection ~ 16550 23450
+Connection ~ 16400 23350
+Connection ~ 16550 22450
+Connection ~ 16400 22350
+Connection ~ 17200 16700
 Wire Wire Line
-	24450 1600 24100 1600
-Connection ~ 24100 1600
+	17600 16650 19750 16650
 Wire Wire Line
-	24450 2600 24100 2600
-Connection ~ 24100 2600
+	19750 16650 19750 16550
+Connection ~ 19750 16550
+Connection ~ 17200 17700
 Wire Wire Line
-	24450 3600 24100 3600
-Connection ~ 24100 3600
+	17600 17650 19750 17650
 Wire Wire Line
-	24450 4600 24100 4600
-Connection ~ 24100 4600
+	19750 17650 19750 17550
+Connection ~ 19750 17550
 Wire Wire Line
-	24450 5600 24100 5600
-Connection ~ 24100 5600
+	17600 18650 19750 18650
 Wire Wire Line
-	24450 6600 24100 6600
-Connection ~ 24100 6600
+	19750 18650 19750 18550
+Connection ~ 19750 18550
+Connection ~ 17200 18700
+Connection ~ 17200 19700
+Wire Wire Line
+	17600 19650 19750 19650
+Wire Wire Line
+	19750 19650 19750 19550
+Connection ~ 19750 19550
+Connection ~ 17200 20700
+Wire Wire Line
+	17600 20650 19750 20650
+Wire Wire Line
+	19750 20650 19750 20550
+Connection ~ 19750 20550
+Connection ~ 17200 21700
+Wire Wire Line
+	17600 21650 19750 21650
+Wire Wire Line
+	19750 21650 19750 21550
+Connection ~ 19750 21550
+Connection ~ 17200 22700
+Wire Wire Line
+	17600 22650 19750 22650
+Wire Wire Line
+	19750 22650 19750 22550
+Connection ~ 19750 22550
+Connection ~ 17200 23700
+Wire Wire Line
+	17600 23650 19750 23650
+Wire Wire Line
+	19750 23650 19750 23550
+Connection ~ 19750 23550
+Wire Wire Line
+	17200 24100 17550 24100
+Connection ~ 17200 24100
+Wire Wire Line
+	17850 24200 19650 24200
+Wire Wire Line
+	19650 24200 19650 23850
+Connection ~ 19650 23850
+Wire Wire Line
+	19500 23950 19500 24000
+Wire Wire Line
+	19500 24000 17850 24000
+Connection ~ 19500 23950
+Wire Wire Line
+	17850 23200 19650 23200
+Wire Wire Line
+	19650 23200 19650 22850
+Connection ~ 19650 22850
+Wire Wire Line
+	17850 23000 19500 23000
+Wire Wire Line
+	19500 23000 19500 22950
+Connection ~ 19500 22950
+Wire Wire Line
+	17550 23100 17200 23100
+Connection ~ 17200 23100
+Wire Wire Line
+	15000 23450 16050 23450
+Wire Wire Line
+	15000 23350 15750 23350
+Wire Wire Line
+	15950 23350 16400 23350
+Wire Wire Line
+	16400 23350 20000 23350
+Wire Wire Line
+	16250 22450 16550 22450
+Wire Wire Line
+	16550 22450 20000 22450
+Wire Wire Line
+	15000 16450 16050 16450
+Wire Wire Line
+	16250 16450 16550 16450
+Wire Wire Line
+	16550 16450 20000 16450
+Wire Wire Line
+	15000 16350 15750 16350
+Wire Wire Line
+	15950 16350 16400 16350
+Wire Wire Line
+	16400 16350 20000 16350
+Wire Wire Line
+	15000 17350 15750 17350
+Wire Wire Line
+	15950 17350 16400 17350
+Wire Wire Line
+	16400 17350 20000 17350
+Wire Wire Line
+	15000 17450 16050 17450
+Wire Wire Line
+	16250 17450 16550 17450
+Wire Wire Line
+	16550 17450 20000 17450
+Wire Wire Line
+	15000 18350 15750 18350
+Wire Wire Line
+	15000 18450 16050 18450
+Wire Wire Line
+	15000 19350 15750 19350
+Wire Wire Line
+	15000 19450 16050 19450
+Wire Wire Line
+	15000 20350 15750 20350
+Wire Wire Line
+	15000 20450 16050 20450
+Wire Wire Line
+	15000 21350 15750 21350
+Wire Wire Line
+	15000 21450 16050 21450
+Wire Wire Line
+	15000 22350 15750 22350
+Wire Wire Line
+	15000 22450 16050 22450
+Wire Wire Line
+	17850 22200 19650 22200
+Wire Wire Line
+	19650 22200 19650 21850
+Connection ~ 19650 21850
+Wire Wire Line
+	17850 22000 19500 22000
+Wire Wire Line
+	19500 22000 19500 21950
+Connection ~ 19500 21950
+Wire Wire Line
+	17850 21000 19500 21000
+Wire Wire Line
+	19500 21000 19500 20950
+Connection ~ 19500 20950
+Wire Wire Line
+	17850 21200 19650 21200
+Wire Wire Line
+	19650 21200 19650 20850
+Connection ~ 19650 20850
+Wire Wire Line
+	17850 20200 19650 20200
+Wire Wire Line
+	19650 20200 19650 19850
+Connection ~ 19650 19850
+Wire Wire Line
+	17850 20000 19500 20000
+Wire Wire Line
+	19500 20000 19500 19950
+Connection ~ 19500 19950
+Wire Wire Line
+	17850 19200 19650 19200
+Wire Wire Line
+	19650 19200 19650 18850
+Connection ~ 19650 18850
+Wire Wire Line
+	17850 19000 19500 19000
+Wire Wire Line
+	19500 19000 19500 18950
+Connection ~ 19500 18950
+Wire Wire Line
+	17850 18200 19650 18200
+Wire Wire Line
+	19650 18200 19650 17850
+Connection ~ 19650 17850
+Wire Wire Line
+	17850 18000 19500 18000
+Wire Wire Line
+	19500 18000 19500 17950
+Connection ~ 19500 17950
+Wire Wire Line
+	17850 17200 19700 17200
+Wire Wire Line
+	19700 17200 19700 16850
+Connection ~ 19700 16850
+Wire Wire Line
+	17850 17000 19550 17000
+Wire Wire Line
+	19550 17000 19550 16950
+Connection ~ 19550 16950
+Wire Wire Line
+	17550 17100 17200 17100
+Connection ~ 17200 17100
+Wire Wire Line
+	17550 18100 17200 18100
+Connection ~ 17200 18100
+Wire Wire Line
+	17550 19100 17200 19100
+Connection ~ 17200 19100
+Wire Wire Line
+	17550 20100 17200 20100
+Connection ~ 17200 20100
+Wire Wire Line
+	17550 21100 17200 21100
+Connection ~ 17200 21100
+Wire Wire Line
+	17550 22100 17200 22100
+Connection ~ 17200 22100
 Wire Bus Line
-	18350 1100 18350 12150
+	11450 15650 11450 16600
 Wire Bus Line
-	18050 950  18050 12050
-Wire Wire Line
-	15500 15050 15500 12900
-Wire Wire Line
-	15500 12900 15850 12900
-Wire Wire Line
-	15450 15150 15450 13000
-Wire Wire Line
-	15450 13000 15850 13000
+	11450 16600 11450 17600
+Wire Bus Line
+	11450 17600 11450 18600
+Wire Bus Line
+	11450 18600 11450 19600
+Wire Bus Line
+	11450 19600 11450 20600
+Wire Bus Line
+	11450 20600 11450 21600
+Wire Bus Line
+	11450 21600 11450 22600
+Wire Bus Line
+	11450 22600 11450 23600
+Wire Bus Line
+	11150 15800 11150 16450
+Wire Bus Line
+	11150 16450 11150 17450
+Wire Bus Line
+	11150 17450 11150 18450
+Wire Bus Line
+	11150 18450 11150 19450
+Wire Bus Line
+	11150 19450 11150 20450
+Wire Bus Line
+	11150 20450 11150 21450
+Wire Bus Line
+	11150 21450 11150 22450
+Wire Bus Line
+	11150 22450 11150 23450
 Wire Wire Line
 	16600 1100 16800 1100
 Wire Wire Line
@@ -5597,69 +5776,85 @@ Wire Wire Line
 Wire Wire Line
 	16600 9300 16800 9300
 Wire Wire Line
-	26250 10850 26700 10850
+	19350 26350 19400 26350
 Wire Wire Line
-	26300 10850 26300 10950
-Connection ~ 26750 1250
+	19400 26350 19800 26350
 Wire Wire Line
-	24500 9250 25350 9250
+	19400 26350 19400 26450
+Connection ~ 19850 16750
 Wire Wire Line
-	24500 9350 25350 9350
+	17600 24750 18450 24750
 Wire Wire Line
-	24500 9450 25350 9450
+	17600 24850 18450 24850
 Wire Wire Line
-	24500 9550 25350 9550
+	17600 24950 18450 24950
 Wire Wire Line
-	24500 9650 25350 9650
+	17600 25050 18450 25050
 Wire Wire Line
-	24500 9750 25350 9750
+	17600 25150 18450 25150
 Wire Wire Line
-	24500 9850 25350 9850
+	17600 25250 18450 25250
 Wire Wire Line
-	24500 9950 25350 9950
+	17600 25350 18450 25350
 Wire Wire Line
-	24500 10150 25350 10150
+	17600 25450 18450 25450
 Wire Wire Line
-	24500 10250 25350 10250
+	17600 25650 18450 25650
 Wire Wire Line
-	24500 10350 25350 10350
+	17600 25750 18450 25750
 Wire Wire Line
-	24500 10450 25350 10450
+	17600 25850 18450 25850
 Wire Wire Line
-	24500 10550 25350 10550
+	17600 25950 18450 25950
 Wire Wire Line
-	24500 10650 25350 10650
+	17600 26050 18450 26050
 Wire Wire Line
-	24500 10750 25350 10750
+	17600 26150 18450 26150
 Wire Wire Line
-	24500 10850 25350 10850
+	17600 26250 18450 26250
 Wire Wire Line
-	26250 9250 26400 9250
+	17600 26350 18450 26350
 Wire Wire Line
-	26350 9250 26350 9100
+	19350 24750 19400 24750
 Wire Wire Line
-	26300 9550 26300 9650
+	19400 24750 19450 24750
 Wire Wire Line
-	26300 9650 26250 9650
+	19450 24750 19500 24750
 Wire Wire Line
-	26300 9350 26300 9250
-Connection ~ 26300 9250
-Connection ~ 26350 9250
+	19450 24750 19450 24600
 Wire Wire Line
-	26700 10850 26700 9250
-Connection ~ 26300 10850
+	19400 25050 19400 25150
 Wire Wire Line
-	26700 9250 26600 9250
+	19400 25150 19350 25150
 Wire Wire Line
-	1500 650  1500 1750
+	19400 24850 19400 24750
+Connection ~ 19400 24750
+Connection ~ 19450 24750
+Wire Wire Line
+	19800 26350 19800 24750
+Connection ~ 19400 26350
+Wire Wire Line
+	19800 24750 19700 24750
+Wire Wire Line
+	1500 650  1500 1050
+Wire Wire Line
+	1500 1050 1500 1700
+Wire Wire Line
+	1500 1700 1500 1750
 Wire Wire Line
 	1200 650  1500 650 
 Wire Wire Line
-	1200 750  6000 750 
+	1200 750  2900 750 
 Wire Wire Line
-	1200 850  6000 850 
+	2900 750  6000 750 
 Wire Wire Line
-	1200 1350 1600 1350
+	1200 850  3000 850 
+Wire Wire Line
+	3000 850  6000 850 
+Wire Wire Line
+	1200 1350 1250 1350
+Wire Wire Line
+	1250 1350 1600 1350
 Wire Wire Line
 	2200 1200 2200 1350
 Wire Wire Line
@@ -5667,9 +5862,13 @@ Wire Wire Line
 Wire Wire Line
 	1600 1250 1600 1200
 Wire Wire Line
-	1200 1250 1600 1250
+	1200 1250 1400 1250
 Wire Wire Line
-	1200 950  3050 950 
+	1400 1250 1600 1250
+Wire Wire Line
+	1200 950  1600 950 
+Wire Wire Line
+	1600 950  3050 950 
 Wire Wire Line
 	1200 1050 1500 1050
 Wire Wire Line
@@ -5718,7 +5917,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 2550 4800 2550
 Wire Wire Line
-	5650 2200 5650 2650
+	5650 2200 5650 2500
+Wire Wire Line
+	5650 2500 5650 2650
 Wire Wire Line
 	6200 2750 5800 2750
 Wire Wire Line
@@ -5726,14 +5927,20 @@ Wire Wire Line
 Wire Wire Line
 	5800 2650 5650 2650
 Wire Wire Line
-	4450 2850 6200 2850
+	4450 2850 5650 2850
+Wire Wire Line
+	5650 2850 5850 2850
+Wire Wire Line
+	5850 2850 6200 2850
 Connection ~ 5850 2850
 Wire Wire Line
 	6200 2950 6000 2950
 Wire Wire Line
-	6000 3050 6000 2950
+	6000 2950 6000 3050
 Wire Wire Line
-	5650 3050 6000 3050
+	6000 3050 5850 3050
+Wire Wire Line
+	5850 3050 5650 3050
 Wire Wire Line
 	5650 3050 5650 3200
 Connection ~ 5850 3050
@@ -5759,7 +5966,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 3850 3850 3850
 Wire Wire Line
-	5650 3500 5650 3950
+	5650 3500 5650 3800
+Wire Wire Line
+	5650 3800 5650 3950
 Wire Wire Line
 	6200 4050 5800 4050
 Wire Wire Line
@@ -5767,7 +5976,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 3950 5650 3950
 Wire Wire Line
-	5650 4150 6200 4150
+	5650 4150 6000 4150
+Wire Wire Line
+	6000 4150 6200 4150
 Wire Wire Line
 	6000 4250 6200 4250
 Wire Wire Line
@@ -5780,7 +5991,9 @@ Wire Wire Line
 	4450 3200 4450 2850
 Connection ~ 5650 2850
 Wire Wire Line
-	6000 4150 6000 4300
+	6000 4150 6000 4250
+Wire Wire Line
+	6000 4250 6000 4300
 Connection ~ 6000 4150
 Connection ~ 6000 4250
 Wire Wire Line
@@ -5818,7 +6031,9 @@ Connection ~ 1600 950
 Wire Wire Line
 	2050 1100 2400 1100
 Wire Wire Line
-	2400 1100 2400 1750
+	2400 1100 2400 1200
+Wire Wire Line
+	2400 1200 2400 1750
 Wire Wire Line
 	2550 1200 2400 1200
 Connection ~ 2400 1200
@@ -5840,15 +6055,25 @@ Wire Wire Line
 Wire Wire Line
 	3950 1950 2550 1950
 Wire Wire Line
-	1500 4900 1500 6000
+	1500 4900 1500 5300
+Wire Wire Line
+	1500 5300 1500 5950
+Wire Wire Line
+	1500 5950 1500 6000
 Wire Wire Line
 	1200 4900 1500 4900
 Wire Wire Line
-	1200 5000 6000 5000
+	1200 5000 2900 5000
 Wire Wire Line
-	1200 5100 6000 5100
+	2900 5000 6000 5000
 Wire Wire Line
-	1200 5600 1600 5600
+	1200 5100 3000 5100
+Wire Wire Line
+	3000 5100 6000 5100
+Wire Wire Line
+	1200 5600 1250 5600
+Wire Wire Line
+	1250 5600 1600 5600
 Wire Wire Line
 	2200 5450 2200 5600
 Wire Wire Line
@@ -5856,9 +6081,13 @@ Wire Wire Line
 Wire Wire Line
 	1600 5500 1600 5450
 Wire Wire Line
-	1200 5500 1600 5500
+	1200 5500 1400 5500
 Wire Wire Line
-	1200 5200 3050 5200
+	1400 5500 1600 5500
+Wire Wire Line
+	1200 5200 1600 5200
+Wire Wire Line
+	1600 5200 3050 5200
 Wire Wire Line
 	1200 5300 1500 5300
 Wire Wire Line
@@ -5907,7 +6136,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 6800 4800 6800
 Wire Wire Line
-	5650 6450 5650 6900
+	5650 6450 5650 6750
+Wire Wire Line
+	5650 6750 5650 6900
 Wire Wire Line
 	6200 7000 5800 7000
 Wire Wire Line
@@ -5915,14 +6146,20 @@ Wire Wire Line
 Wire Wire Line
 	5800 6900 5650 6900
 Wire Wire Line
-	4450 7100 6200 7100
+	4450 7100 5650 7100
+Wire Wire Line
+	5650 7100 5850 7100
+Wire Wire Line
+	5850 7100 6200 7100
 Connection ~ 5850 7100
 Wire Wire Line
 	6200 7200 6000 7200
 Wire Wire Line
-	6000 7300 6000 7200
+	6000 7200 6000 7300
 Wire Wire Line
-	5650 7300 6000 7300
+	6000 7300 5850 7300
+Wire Wire Line
+	5850 7300 5650 7300
 Wire Wire Line
 	5650 7300 5650 7450
 Connection ~ 5850 7300
@@ -5948,7 +6185,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 8100 3850 8100
 Wire Wire Line
-	5650 7750 5650 8200
+	5650 7750 5650 8050
+Wire Wire Line
+	5650 8050 5650 8200
 Wire Wire Line
 	6200 8300 5800 8300
 Wire Wire Line
@@ -5956,7 +6195,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 8200 5650 8200
 Wire Wire Line
-	5650 8400 6200 8400
+	5650 8400 6000 8400
+Wire Wire Line
+	6000 8400 6200 8400
 Wire Wire Line
 	6000 8500 6200 8500
 Wire Wire Line
@@ -5969,7 +6210,9 @@ Wire Wire Line
 	4450 7450 4450 7100
 Connection ~ 5650 7100
 Wire Wire Line
-	6000 8400 6000 8550
+	6000 8400 6000 8500
+Wire Wire Line
+	6000 8500 6000 8550
 Connection ~ 6000 8400
 Connection ~ 6000 8500
 Wire Wire Line
@@ -6007,7 +6250,9 @@ Connection ~ 1600 5200
 Wire Wire Line
 	2050 5350 2400 5350
 Wire Wire Line
-	2400 5350 2400 6000
+	2400 5350 2400 5450
+Wire Wire Line
+	2400 5450 2400 6000
 Wire Wire Line
 	2550 5450 2400 5450
 Connection ~ 2400 5450
@@ -6029,15 +6274,25 @@ Wire Wire Line
 Wire Wire Line
 	3950 6200 2550 6200
 Wire Wire Line
-	1500 9150 1500 10250
+	1500 9150 1500 9550
+Wire Wire Line
+	1500 9550 1500 10200
+Wire Wire Line
+	1500 10200 1500 10250
 Wire Wire Line
 	1200 9150 1500 9150
 Wire Wire Line
-	1200 9250 6000 9250
+	1200 9250 2900 9250
 Wire Wire Line
-	1200 9350 6000 9350
+	2900 9250 6000 9250
 Wire Wire Line
-	1200 9850 1600 9850
+	1200 9350 3000 9350
+Wire Wire Line
+	3000 9350 6000 9350
+Wire Wire Line
+	1200 9850 1250 9850
+Wire Wire Line
+	1250 9850 1600 9850
 Wire Wire Line
 	2200 9700 2200 9850
 Wire Wire Line
@@ -6045,9 +6300,13 @@ Wire Wire Line
 Wire Wire Line
 	1600 9750 1600 9700
 Wire Wire Line
-	1200 9750 1600 9750
+	1200 9750 1400 9750
 Wire Wire Line
-	1200 9450 3050 9450
+	1400 9750 1600 9750
+Wire Wire Line
+	1200 9450 1600 9450
+Wire Wire Line
+	1600 9450 3050 9450
 Wire Wire Line
 	1200 9550 1500 9550
 Wire Wire Line
@@ -6096,7 +6355,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 11050 4800 11050
 Wire Wire Line
-	5650 10700 5650 11150
+	5650 10700 5650 11000
+Wire Wire Line
+	5650 11000 5650 11150
 Wire Wire Line
 	6200 11250 5800 11250
 Wire Wire Line
@@ -6104,14 +6365,20 @@ Wire Wire Line
 Wire Wire Line
 	5800 11150 5650 11150
 Wire Wire Line
-	4450 11350 6200 11350
+	4450 11350 5650 11350
+Wire Wire Line
+	5650 11350 5850 11350
+Wire Wire Line
+	5850 11350 6200 11350
 Connection ~ 5850 11350
 Wire Wire Line
 	6200 11450 6000 11450
 Wire Wire Line
-	6000 11550 6000 11450
+	6000 11450 6000 11550
 Wire Wire Line
-	5650 11550 6000 11550
+	6000 11550 5850 11550
+Wire Wire Line
+	5850 11550 5650 11550
 Wire Wire Line
 	5650 11550 5650 11700
 Connection ~ 5850 11550
@@ -6137,7 +6404,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 12350 3850 12350
 Wire Wire Line
-	5650 12000 5650 12450
+	5650 12000 5650 12300
+Wire Wire Line
+	5650 12300 5650 12450
 Wire Wire Line
 	6200 12550 5800 12550
 Wire Wire Line
@@ -6145,7 +6414,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 12450 5650 12450
 Wire Wire Line
-	5650 12650 6200 12650
+	5650 12650 6000 12650
+Wire Wire Line
+	6000 12650 6200 12650
 Wire Wire Line
 	6000 12750 6200 12750
 Wire Wire Line
@@ -6158,7 +6429,9 @@ Wire Wire Line
 	4450 11700 4450 11350
 Connection ~ 5650 11350
 Wire Wire Line
-	6000 12650 6000 12800
+	6000 12650 6000 12750
+Wire Wire Line
+	6000 12750 6000 12800
 Connection ~ 6000 12650
 Connection ~ 6000 12750
 Wire Wire Line
@@ -6196,7 +6469,9 @@ Connection ~ 1600 9450
 Wire Wire Line
 	2050 9600 2400 9600
 Wire Wire Line
-	2400 9600 2400 10250
+	2400 9600 2400 9700
+Wire Wire Line
+	2400 9700 2400 10250
 Wire Wire Line
 	2550 9700 2400 9700
 Connection ~ 2400 9700
@@ -6218,15 +6493,25 @@ Wire Wire Line
 Wire Wire Line
 	3950 10450 2550 10450
 Wire Wire Line
-	1500 13400 1500 14500
+	1500 13400 1500 13800
+Wire Wire Line
+	1500 13800 1500 14450
+Wire Wire Line
+	1500 14450 1500 14500
 Wire Wire Line
 	1200 13400 1500 13400
 Wire Wire Line
-	1200 13500 6000 13500
+	1200 13500 2900 13500
 Wire Wire Line
-	1200 13600 6000 13600
+	2900 13500 6000 13500
 Wire Wire Line
-	1200 14100 1600 14100
+	1200 13600 3000 13600
+Wire Wire Line
+	3000 13600 6000 13600
+Wire Wire Line
+	1200 14100 1250 14100
+Wire Wire Line
+	1250 14100 1600 14100
 Wire Wire Line
 	2200 13950 2200 14100
 Wire Wire Line
@@ -6234,9 +6519,13 @@ Wire Wire Line
 Wire Wire Line
 	1600 14000 1600 13950
 Wire Wire Line
-	1200 14000 1600 14000
+	1200 14000 1400 14000
 Wire Wire Line
-	1200 13700 3050 13700
+	1400 14000 1600 14000
+Wire Wire Line
+	1200 13700 1600 13700
+Wire Wire Line
+	1600 13700 3050 13700
 Wire Wire Line
 	1200 13800 1500 13800
 Wire Wire Line
@@ -6285,7 +6574,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 15300 4800 15300
 Wire Wire Line
-	5650 14950 5650 15400
+	5650 14950 5650 15250
+Wire Wire Line
+	5650 15250 5650 15400
 Wire Wire Line
 	6200 15500 5800 15500
 Wire Wire Line
@@ -6293,14 +6584,20 @@ Wire Wire Line
 Wire Wire Line
 	5800 15400 5650 15400
 Wire Wire Line
-	4450 15600 6200 15600
+	4450 15600 5650 15600
+Wire Wire Line
+	5650 15600 5850 15600
+Wire Wire Line
+	5850 15600 6200 15600
 Connection ~ 5850 15600
 Wire Wire Line
 	6200 15700 6000 15700
 Wire Wire Line
-	6000 15800 6000 15700
+	6000 15700 6000 15800
 Wire Wire Line
-	5650 15800 6000 15800
+	6000 15800 5850 15800
+Wire Wire Line
+	5850 15800 5650 15800
 Wire Wire Line
 	5650 15800 5650 15950
 Connection ~ 5850 15800
@@ -6326,7 +6623,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 16600 3850 16600
 Wire Wire Line
-	5650 16250 5650 16700
+	5650 16250 5650 16550
+Wire Wire Line
+	5650 16550 5650 16700
 Wire Wire Line
 	6200 16800 5800 16800
 Wire Wire Line
@@ -6334,7 +6633,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 16700 5650 16700
 Wire Wire Line
-	5650 16900 6200 16900
+	5650 16900 6000 16900
+Wire Wire Line
+	6000 16900 6200 16900
 Wire Wire Line
 	6000 17000 6200 17000
 Wire Wire Line
@@ -6347,7 +6648,9 @@ Wire Wire Line
 	4450 15950 4450 15600
 Connection ~ 5650 15600
 Wire Wire Line
-	6000 16900 6000 17050
+	6000 16900 6000 17000
+Wire Wire Line
+	6000 17000 6000 17050
 Connection ~ 6000 16900
 Connection ~ 6000 17000
 Wire Wire Line
@@ -6385,7 +6688,9 @@ Connection ~ 1600 13700
 Wire Wire Line
 	2050 13850 2400 13850
 Wire Wire Line
-	2400 13850 2400 14500
+	2400 13850 2400 13950
+Wire Wire Line
+	2400 13950 2400 14500
 Wire Wire Line
 	2550 13950 2400 13950
 Connection ~ 2400 13950
@@ -6407,15 +6712,25 @@ Wire Wire Line
 Wire Wire Line
 	3950 14700 2550 14700
 Wire Wire Line
-	1500 17650 1500 18750
+	1500 17650 1500 18050
+Wire Wire Line
+	1500 18050 1500 18700
+Wire Wire Line
+	1500 18700 1500 18750
 Wire Wire Line
 	1200 17650 1500 17650
 Wire Wire Line
-	1200 17750 6000 17750
+	1200 17750 2900 17750
 Wire Wire Line
-	1200 17850 6000 17850
+	2900 17750 6000 17750
 Wire Wire Line
-	1200 18350 1600 18350
+	1200 17850 3000 17850
+Wire Wire Line
+	3000 17850 6000 17850
+Wire Wire Line
+	1200 18350 1250 18350
+Wire Wire Line
+	1250 18350 1600 18350
 Wire Wire Line
 	2200 18200 2200 18350
 Wire Wire Line
@@ -6423,9 +6738,13 @@ Wire Wire Line
 Wire Wire Line
 	1600 18250 1600 18200
 Wire Wire Line
-	1200 18250 1600 18250
+	1200 18250 1400 18250
 Wire Wire Line
-	1200 17950 3050 17950
+	1400 18250 1600 18250
+Wire Wire Line
+	1200 17950 1600 17950
+Wire Wire Line
+	1600 17950 3050 17950
 Wire Wire Line
 	1200 18050 1500 18050
 Wire Wire Line
@@ -6474,7 +6793,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 19550 4800 19550
 Wire Wire Line
-	5650 19200 5650 19650
+	5650 19200 5650 19500
+Wire Wire Line
+	5650 19500 5650 19650
 Wire Wire Line
 	6200 19750 5800 19750
 Wire Wire Line
@@ -6482,14 +6803,20 @@ Wire Wire Line
 Wire Wire Line
 	5800 19650 5650 19650
 Wire Wire Line
-	4450 19850 6200 19850
+	4450 19850 5650 19850
+Wire Wire Line
+	5650 19850 5850 19850
+Wire Wire Line
+	5850 19850 6200 19850
 Connection ~ 5850 19850
 Wire Wire Line
 	6200 19950 6000 19950
 Wire Wire Line
-	6000 20050 6000 19950
+	6000 19950 6000 20050
 Wire Wire Line
-	5650 20050 6000 20050
+	6000 20050 5850 20050
+Wire Wire Line
+	5850 20050 5650 20050
 Wire Wire Line
 	5650 20050 5650 20200
 Connection ~ 5850 20050
@@ -6515,7 +6842,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 20850 3850 20850
 Wire Wire Line
-	5650 20500 5650 20950
+	5650 20500 5650 20800
+Wire Wire Line
+	5650 20800 5650 20950
 Wire Wire Line
 	6200 21050 5800 21050
 Wire Wire Line
@@ -6523,7 +6852,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 20950 5650 20950
 Wire Wire Line
-	5650 21150 6200 21150
+	5650 21150 6000 21150
+Wire Wire Line
+	6000 21150 6200 21150
 Wire Wire Line
 	6000 21250 6200 21250
 Wire Wire Line
@@ -6536,7 +6867,9 @@ Wire Wire Line
 	4450 20200 4450 19850
 Connection ~ 5650 19850
 Wire Wire Line
-	6000 21150 6000 21300
+	6000 21150 6000 21250
+Wire Wire Line
+	6000 21250 6000 21300
 Connection ~ 6000 21150
 Connection ~ 6000 21250
 Wire Wire Line
@@ -6574,7 +6907,9 @@ Connection ~ 1600 17950
 Wire Wire Line
 	2050 18100 2400 18100
 Wire Wire Line
-	2400 18100 2400 18750
+	2400 18100 2400 18200
+Wire Wire Line
+	2400 18200 2400 18750
 Wire Wire Line
 	2550 18200 2400 18200
 Connection ~ 2400 18200
@@ -6594,15 +6929,25 @@ Wire Wire Line
 Wire Wire Line
 	3950 18950 2550 18950
 Wire Wire Line
-	1500 21900 1500 23000
+	1500 21900 1500 22300
+Wire Wire Line
+	1500 22300 1500 22950
+Wire Wire Line
+	1500 22950 1500 23000
 Wire Wire Line
 	1200 21900 1500 21900
 Wire Wire Line
-	1200 22000 6000 22000
+	1200 22000 2900 22000
 Wire Wire Line
-	1200 22100 6000 22100
+	2900 22000 6000 22000
 Wire Wire Line
-	1200 22600 1600 22600
+	1200 22100 3000 22100
+Wire Wire Line
+	3000 22100 6000 22100
+Wire Wire Line
+	1200 22600 1250 22600
+Wire Wire Line
+	1250 22600 1600 22600
 Wire Wire Line
 	2200 22450 2200 22600
 Wire Wire Line
@@ -6610,9 +6955,13 @@ Wire Wire Line
 Wire Wire Line
 	1600 22500 1600 22450
 Wire Wire Line
-	1200 22500 1600 22500
+	1200 22500 1400 22500
 Wire Wire Line
-	1200 22200 3050 22200
+	1400 22500 1600 22500
+Wire Wire Line
+	1200 22200 1600 22200
+Wire Wire Line
+	1600 22200 3050 22200
 Wire Wire Line
 	1200 22300 1500 22300
 Wire Wire Line
@@ -6661,7 +7010,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 23800 4800 23800
 Wire Wire Line
-	5650 23450 5650 23900
+	5650 23450 5650 23750
+Wire Wire Line
+	5650 23750 5650 23900
 Wire Wire Line
 	6200 24000 5800 24000
 Wire Wire Line
@@ -6669,14 +7020,20 @@ Wire Wire Line
 Wire Wire Line
 	5800 23900 5650 23900
 Wire Wire Line
-	4450 24100 6200 24100
+	4450 24100 5650 24100
+Wire Wire Line
+	5650 24100 5850 24100
+Wire Wire Line
+	5850 24100 6200 24100
 Connection ~ 5850 24100
 Wire Wire Line
 	6200 24200 6000 24200
 Wire Wire Line
-	6000 24300 6000 24200
+	6000 24200 6000 24300
 Wire Wire Line
-	5650 24300 6000 24300
+	6000 24300 5850 24300
+Wire Wire Line
+	5850 24300 5650 24300
 Wire Wire Line
 	5650 24300 5650 24450
 Connection ~ 5850 24300
@@ -6702,7 +7059,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 25100 3850 25100
 Wire Wire Line
-	5650 24750 5650 25200
+	5650 24750 5650 25050
+Wire Wire Line
+	5650 25050 5650 25200
 Wire Wire Line
 	6200 25300 5800 25300
 Wire Wire Line
@@ -6710,7 +7069,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 25200 5650 25200
 Wire Wire Line
-	5650 25400 6200 25400
+	5650 25400 6000 25400
+Wire Wire Line
+	6000 25400 6200 25400
 Wire Wire Line
 	6000 25500 6200 25500
 Wire Wire Line
@@ -6723,7 +7084,9 @@ Wire Wire Line
 	4450 24450 4450 24100
 Connection ~ 5650 24100
 Wire Wire Line
-	6000 25400 6000 25550
+	6000 25400 6000 25500
+Wire Wire Line
+	6000 25500 6000 25550
 Connection ~ 6000 25400
 Connection ~ 6000 25500
 Wire Wire Line
@@ -6759,7 +7122,9 @@ Connection ~ 1600 22200
 Wire Wire Line
 	2050 22350 2400 22350
 Wire Wire Line
-	2400 22350 2400 23000
+	2400 22350 2400 22450
+Wire Wire Line
+	2400 22450 2400 23000
 Wire Wire Line
 	2550 22450 2400 22450
 Connection ~ 2400 22450
@@ -6779,15 +7144,25 @@ Wire Wire Line
 Wire Wire Line
 	3950 23200 2550 23200
 Wire Wire Line
-	1500 26150 1500 27250
+	1500 26150 1500 26550
+Wire Wire Line
+	1500 26550 1500 27200
+Wire Wire Line
+	1500 27200 1500 27250
 Wire Wire Line
 	1200 26150 1500 26150
 Wire Wire Line
-	1200 26250 6000 26250
+	1200 26250 2900 26250
 Wire Wire Line
-	1200 26350 6000 26350
+	2900 26250 6000 26250
 Wire Wire Line
-	1200 26850 1600 26850
+	1200 26350 3000 26350
+Wire Wire Line
+	3000 26350 6000 26350
+Wire Wire Line
+	1200 26850 1250 26850
+Wire Wire Line
+	1250 26850 1600 26850
 Wire Wire Line
 	2200 26700 2200 26850
 Wire Wire Line
@@ -6795,9 +7170,13 @@ Wire Wire Line
 Wire Wire Line
 	1600 26750 1600 26700
 Wire Wire Line
-	1200 26750 1600 26750
+	1200 26750 1400 26750
 Wire Wire Line
-	1200 26450 3050 26450
+	1400 26750 1600 26750
+Wire Wire Line
+	1200 26450 1600 26450
+Wire Wire Line
+	1600 26450 3050 26450
 Wire Wire Line
 	1200 26550 1500 26550
 Wire Wire Line
@@ -6844,9 +7223,11 @@ Wire Wire Line
 Wire Wire Line
 	5900 28150 5900 28050
 Wire Wire Line
-	4800 28050 5900 28050
+	5900 28050 4800 28050
 Wire Wire Line
-	5650 27700 5650 28150
+	5650 27700 5650 28000
+Wire Wire Line
+	5650 28000 5650 28150
 Wire Wire Line
 	6200 28250 5800 28250
 Wire Wire Line
@@ -6854,14 +7235,20 @@ Wire Wire Line
 Wire Wire Line
 	5800 28150 5650 28150
 Wire Wire Line
-	4450 28350 6200 28350
+	4450 28350 5650 28350
+Wire Wire Line
+	5650 28350 5850 28350
+Wire Wire Line
+	5850 28350 6200 28350
 Connection ~ 5850 28350
 Wire Wire Line
 	6200 28450 6000 28450
 Wire Wire Line
-	6000 28550 6000 28450
+	6000 28450 6000 28550
 Wire Wire Line
-	5650 28550 6000 28550
+	6000 28550 5850 28550
+Wire Wire Line
+	5850 28550 5650 28550
 Wire Wire Line
 	5650 28550 5650 28700
 Connection ~ 5850 28550
@@ -6887,7 +7274,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 29350 3850 29350
 Wire Wire Line
-	5650 29000 5650 29450
+	5650 29000 5650 29300
+Wire Wire Line
+	5650 29300 5650 29450
 Wire Wire Line
 	6200 29550 5800 29550
 Wire Wire Line
@@ -6895,7 +7284,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 29450 5650 29450
 Wire Wire Line
-	5650 29650 6200 29650
+	5650 29650 6000 29650
+Wire Wire Line
+	6000 29650 6200 29650
 Wire Wire Line
 	6000 29750 6200 29750
 Wire Wire Line
@@ -6908,7 +7299,9 @@ Wire Wire Line
 	4450 28700 4450 28350
 Connection ~ 5650 28350
 Wire Wire Line
-	6000 29650 6000 29800
+	6000 29650 6000 29750
+Wire Wire Line
+	6000 29750 6000 29800
 Connection ~ 6000 29650
 Connection ~ 6000 29750
 Wire Wire Line
@@ -6919,7 +7312,7 @@ Wire Wire Line
 	6000 29300 5650 29300
 Connection ~ 5650 29300
 Wire Wire Line
-	4800 26450 4800 28050
+	4800 28050 4800 26450
 Wire Wire Line
 	3850 29350 3850 27100
 Wire Wire Line
@@ -6946,7 +7339,9 @@ Connection ~ 1600 26450
 Wire Wire Line
 	2050 26600 2400 26600
 Wire Wire Line
-	2400 26600 2400 27250
+	2400 26600 2400 26700
+Wire Wire Line
+	2400 26700 2400 27250
 Wire Wire Line
 	2550 26700 2400 26700
 Connection ~ 2400 26700
@@ -6962,21 +7357,31 @@ Wire Wire Line
 	1300 27200 1500 27200
 Connection ~ 1500 27200
 Wire Wire Line
-	3900 26450 4800 26450
+	4800 26450 3900 26450
 Wire Wire Line
 	3950 26900 3950 27450
 Wire Wire Line
 	3950 27450 2550 27450
 Wire Wire Line
-	1500 30400 1500 31500
+	1500 30400 1500 30800
+Wire Wire Line
+	1500 30800 1500 31450
+Wire Wire Line
+	1500 31450 1500 31500
 Wire Wire Line
 	1200 30400 1500 30400
 Wire Wire Line
-	1200 30500 6000 30500
+	1200 30500 2900 30500
 Wire Wire Line
-	1200 30600 6000 30600
+	2900 30500 6000 30500
 Wire Wire Line
-	1200 31100 1600 31100
+	1200 30600 3000 30600
+Wire Wire Line
+	3000 30600 6000 30600
+Wire Wire Line
+	1200 31100 1250 31100
+Wire Wire Line
+	1250 31100 1600 31100
 Wire Wire Line
 	2200 30950 2200 31100
 Wire Wire Line
@@ -6984,9 +7389,13 @@ Wire Wire Line
 Wire Wire Line
 	1600 31000 1600 30950
 Wire Wire Line
-	1200 31000 1600 31000
+	1200 31000 1400 31000
 Wire Wire Line
-	1200 30700 3050 30700
+	1400 31000 1600 31000
+Wire Wire Line
+	1200 30700 1600 30700
+Wire Wire Line
+	1600 30700 3050 30700
 Wire Wire Line
 	1200 30800 1500 30800
 Wire Wire Line
@@ -7035,7 +7444,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 32300 4800 32300
 Wire Wire Line
-	5650 31950 5650 32400
+	5650 31950 5650 32250
+Wire Wire Line
+	5650 32250 5650 32400
 Wire Wire Line
 	6200 32500 5800 32500
 Wire Wire Line
@@ -7043,14 +7454,20 @@ Wire Wire Line
 Wire Wire Line
 	5800 32400 5650 32400
 Wire Wire Line
-	4450 32600 6200 32600
+	4450 32600 5650 32600
+Wire Wire Line
+	5650 32600 5850 32600
+Wire Wire Line
+	5850 32600 6200 32600
 Connection ~ 5850 32600
 Wire Wire Line
 	6200 32700 6000 32700
 Wire Wire Line
-	6000 32800 6000 32700
+	6000 32700 6000 32800
 Wire Wire Line
-	5650 32800 6000 32800
+	6000 32800 5850 32800
+Wire Wire Line
+	5850 32800 5650 32800
 Wire Wire Line
 	5650 32800 5650 32950
 Connection ~ 5850 32800
@@ -7076,7 +7493,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 33600 3850 33600
 Wire Wire Line
-	5650 33250 5650 33700
+	5650 33250 5650 33550
+Wire Wire Line
+	5650 33550 5650 33700
 Wire Wire Line
 	6200 33800 5800 33800
 Wire Wire Line
@@ -7084,7 +7503,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 33700 5650 33700
 Wire Wire Line
-	5650 33900 6200 33900
+	5650 33900 6000 33900
+Wire Wire Line
+	6000 33900 6200 33900
 Wire Wire Line
 	6000 34000 6200 34000
 Wire Wire Line
@@ -7097,7 +7518,9 @@ Wire Wire Line
 	4450 32950 4450 32600
 Connection ~ 5650 32600
 Wire Wire Line
-	6000 33900 6000 34050
+	6000 33900 6000 34000
+Wire Wire Line
+	6000 34000 6000 34050
 Connection ~ 6000 33900
 Connection ~ 6000 34000
 Wire Wire Line
@@ -7135,7 +7558,9 @@ Connection ~ 1600 30700
 Wire Wire Line
 	2050 30850 2400 30850
 Wire Wire Line
-	2400 30850 2400 31500
+	2400 30850 2400 30950
+Wire Wire Line
+	2400 30950 2400 31500
 Wire Wire Line
 	2550 30950 2400 30950
 Connection ~ 2400 30950
@@ -7174,10 +7599,6 @@ Wire Wire Line
 	13550 1100 14650 1100
 Wire Wire Line
 	14650 1200 13550 1200
-Wire Bus Line
-	18050 12050 17200 12050
-Wire Bus Line
-	18350 12150 17200 12150
 Wire Wire Line
 	13550 3800 14650 3800
 Wire Wire Line
@@ -7383,21 +7804,77 @@ Wire Wire Line
 Wire Wire Line
 	11450 33000 11450 31600
 Wire Bus Line
-	9550 31650 11850 31650
+	9550 31650 9850 31650
+Wire Bus Line
+	9850 31650 10150 31650
+Wire Bus Line
+	10150 31650 10450 31650
+Wire Bus Line
+	10450 31650 10750 31650
+Wire Bus Line
+	10750 31650 11050 31650
+Wire Bus Line
+	11050 31650 11350 31650
+Wire Bus Line
+	11350 31650 11650 31650
+Wire Bus Line
+	11650 31650 11850 31650
 Wire Bus Line
 	11850 31650 11850 31200
 Wire Bus Line
-	10150 31200 11850 31200
+	11850 31200 10150 31200
 Wire Bus Line
-	10150 850  10150 31200
+	10150 31200 10150 30600
 Wire Bus Line
-	10000 950  10000 31300
+	10150 30600 10150 26350
+Wire Bus Line
+	10150 26350 10150 22100
+Wire Bus Line
+	10150 22100 10150 17850
+Wire Bus Line
+	10150 17850 10150 13600
+Wire Bus Line
+	10150 13600 10150 9350
+Wire Bus Line
+	10150 9350 10150 5100
+Wire Bus Line
+	10150 5100 10150 850 
+Wire Bus Line
+	10000 950  10000 5200
+Wire Bus Line
+	10000 5200 10000 9450
+Wire Bus Line
+	10000 9450 10000 13700
+Wire Bus Line
+	10000 13700 10000 17950
+Wire Bus Line
+	10000 17950 10000 22200
+Wire Bus Line
+	10000 22200 10000 26450
+Wire Bus Line
+	10000 26450 10000 30700
+Wire Bus Line
+	10000 30700 10000 31300
 Wire Bus Line
 	10000 31300 11700 31300
 Wire Bus Line
-	11700 31500 11700 31300
+	11700 31300 11700 31500
 Wire Bus Line
-	9450 31500 11700 31500
+	11700 31500 11550 31500
+Wire Bus Line
+	11550 31500 11250 31500
+Wire Bus Line
+	11250 31500 10950 31500
+Wire Bus Line
+	10950 31500 10650 31500
+Wire Bus Line
+	10650 31500 10350 31500
+Wire Bus Line
+	10350 31500 10050 31500
+Wire Bus Line
+	10050 31500 9750 31500
+Wire Bus Line
+	9750 31500 9450 31500
 Wire Wire Line
 	7850 750  10050 750 
 Wire Wire Line
@@ -7419,17 +7896,137 @@ Wire Wire Line
 Wire Wire Line
 	7850 17850 9900 17850
 Wire Bus Line
-	9700 1400 9700 31150
+	9700 1400 9700 5650
+Wire Bus Line
+	9700 5650 9700 9900
+Wire Bus Line
+	9700 9900 9700 12150
+Wire Bus Line
+	9700 12150 9700 14150
+Wire Bus Line
+	9700 14150 9700 18400
+Wire Bus Line
+	9700 18400 9700 22650
+Wire Bus Line
+	9700 22650 9700 26900
+Wire Bus Line
+	9700 26900 9700 31150
 Connection ~ 9850 12050
 Connection ~ 9700 12150
 Wire Bus Line
-	9850 1300 9850 31050
+	9850 1300 9850 5550
 Wire Bus Line
-	3100 3650 3100 34350
+	9850 5550 9850 9800
+Wire Bus Line
+	9850 9800 9850 12050
+Wire Bus Line
+	9850 12050 9850 14050
+Wire Bus Line
+	9850 14050 9850 18300
+Wire Bus Line
+	9850 18300 9850 22550
+Wire Bus Line
+	9850 22550 9850 26800
+Wire Bus Line
+	9850 26800 9850 31050
+Wire Bus Line
+	3100 3650 3100 3750
+Wire Bus Line
+	3100 3750 3100 3850
+Wire Bus Line
+	3100 3850 3100 7900
+Wire Bus Line
+	3100 7900 3100 8000
+Wire Bus Line
+	3100 8000 3100 8100
+Wire Bus Line
+	3100 8100 3100 12150
+Wire Bus Line
+	3100 12150 3100 12250
+Wire Bus Line
+	3100 12250 3100 12350
+Wire Bus Line
+	3100 12350 3100 16400
+Wire Bus Line
+	3100 16400 3100 16500
+Wire Bus Line
+	3100 16500 3100 16600
+Wire Bus Line
+	3100 16600 3100 20650
+Wire Bus Line
+	3100 20650 3100 20750
+Wire Bus Line
+	3100 20750 3100 20850
+Wire Bus Line
+	3100 20850 3100 24900
+Wire Bus Line
+	3100 24900 3100 25000
+Wire Bus Line
+	3100 25000 3100 25100
+Wire Bus Line
+	3100 25100 3100 29150
+Wire Bus Line
+	3100 29150 3100 29250
+Wire Bus Line
+	3100 29250 3100 29350
+Wire Bus Line
+	3100 29350 3100 33400
+Wire Bus Line
+	3100 33400 3100 33500
+Wire Bus Line
+	3100 33500 3100 33600
+Wire Bus Line
+	3100 33600 3100 34350
 Text Label 3100 30150 1    60   ~ 0
 DEV-PTT-XBAR-CTL[0..23]
 Wire Bus Line
-	2950 2350 2950 34450
+	2950 2350 2950 2450
+Wire Bus Line
+	2950 2450 2950 2550
+Wire Bus Line
+	2950 2550 2950 6600
+Wire Bus Line
+	2950 6600 2950 6700
+Wire Bus Line
+	2950 6700 2950 6800
+Wire Bus Line
+	2950 6800 2950 10850
+Wire Bus Line
+	2950 10850 2950 10950
+Wire Bus Line
+	2950 10950 2950 11050
+Wire Bus Line
+	2950 11050 2950 15100
+Wire Bus Line
+	2950 15100 2950 15200
+Wire Bus Line
+	2950 15200 2950 15300
+Wire Bus Line
+	2950 15300 2950 19350
+Wire Bus Line
+	2950 19350 2950 19450
+Wire Bus Line
+	2950 19450 2950 19550
+Wire Bus Line
+	2950 19550 2950 23600
+Wire Bus Line
+	2950 23600 2950 23700
+Wire Bus Line
+	2950 23700 2950 23800
+Wire Bus Line
+	2950 23800 2950 27850
+Wire Bus Line
+	2950 27850 2950 27950
+Wire Bus Line
+	2950 27950 2950 28050
+Wire Bus Line
+	2950 28050 2950 32100
+Wire Bus Line
+	2950 32100 2950 32200
+Wire Bus Line
+	2950 32200 2950 32300
+Wire Bus Line
+	2950 32300 2950 34450
 Text Label 2950 30150 1    60   ~ 0
 DEV-MIC-IN-XBAR-CTL[0..23]
 $Comp
@@ -7506,9 +8103,13 @@ F 3 "" H 19950 30450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19850 29400 19850 29600
+	19850 29400 19850 29500
 Wire Wire Line
-	20200 31200 19850 31200
+	19850 29500 19850 29600
+Wire Wire Line
+	20200 31200 20000 31200
+Wire Wire Line
+	20000 31200 19850 31200
 Wire Wire Line
 	20000 31200 20000 31350
 Wire Wire Line
@@ -7521,7 +8122,11 @@ Wire Wire Line
 	20000 29500 19850 29500
 Connection ~ 19850 29500
 Wire Wire Line
-	20200 29500 20200 31200
+	20200 29500 20200 30500
+Wire Wire Line
+	20200 30500 20200 30700
+Wire Wire Line
+	20200 30700 20200 31200
 Connection ~ 20000 31200
 Wire Wire Line
 	19850 30200 20350 30200
@@ -7611,9 +8216,13 @@ F 3 "" H 19900 32900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19800 31850 19800 32050
+	19800 31850 19800 31950
 Wire Wire Line
-	20150 33650 19800 33650
+	19800 31950 19800 32050
+Wire Wire Line
+	20150 33650 19950 33650
+Wire Wire Line
+	19950 33650 19800 33650
 Wire Wire Line
 	19950 33650 19950 33800
 Wire Wire Line
@@ -7626,7 +8235,9 @@ Wire Wire Line
 	19950 31950 19800 31950
 Connection ~ 19800 31950
 Wire Wire Line
-	20150 31950 20150 33650
+	20150 31950 20150 33150
+Wire Wire Line
+	20150 33150 20150 33650
 Connection ~ 19950 33650
 Wire Wire Line
 	19800 32650 20300 32650
@@ -7637,7 +8248,9 @@ Wire Wire Line
 Wire Wire Line
 	19800 32950 19900 32950
 Wire Wire Line
-	19900 32900 19900 33050
+	19900 32900 19900 32950
+Wire Wire Line
+	19900 32950 19900 33050
 Connection ~ 20150 33150
 Wire Wire Line
 	19900 33050 19800 33050
@@ -7694,9 +8307,13 @@ $EndComp
 Text Notes 15400 31450 0    60   ~ 0
 ADDR: 0100001
 Wire Wire Line
-	16050 29450 16050 29650
+	16050 29450 16050 29550
 Wire Wire Line
-	16400 31250 16050 31250
+	16050 29550 16050 29650
+Wire Wire Line
+	16400 31250 16200 31250
+Wire Wire Line
+	16200 31250 16050 31250
 Wire Wire Line
 	16200 31250 16200 31400
 Wire Wire Line
@@ -7709,7 +8326,11 @@ Wire Wire Line
 	16200 29550 16050 29550
 Connection ~ 16050 29550
 Wire Wire Line
-	16400 29550 16400 31250
+	16400 29550 16400 30650
+Wire Wire Line
+	16400 30650 16400 30750
+Wire Wire Line
+	16400 30750 16400 31250
 Connection ~ 16200 31250
 Wire Wire Line
 	16050 30250 16550 30250
@@ -7799,9 +8420,13 @@ $EndComp
 Text Notes 15400 33900 0    60   ~ 0
 ADDR: 0100010
 Wire Wire Line
-	16050 31900 16050 32100
+	16050 31900 16050 32000
 Wire Wire Line
-	16400 33700 16050 33700
+	16050 32000 16050 32100
+Wire Wire Line
+	16400 33700 16200 33700
+Wire Wire Line
+	16200 33700 16050 33700
 Wire Wire Line
 	16200 33700 16200 33850
 Wire Wire Line
@@ -7814,7 +8439,11 @@ Wire Wire Line
 	16200 32000 16050 32000
 Connection ~ 16050 32000
 Wire Wire Line
-	16400 32000 16400 33700
+	16400 32000 16400 33100
+Wire Wire Line
+	16400 33100 16400 33200
+Wire Wire Line
+	16400 33200 16400 33700
 Connection ~ 16200 33700
 Wire Wire Line
 	16050 32700 16550 32700
@@ -7853,9 +8482,55 @@ F 3 "" H 16150 32950 50  0001 C CNN
 $EndComp
 Connection ~ 16400 33200
 Wire Bus Line
-	13900 34350 3100 34350
+	3100 34350 13900 34350
 Wire Bus Line
-	13900 30650 13900 34350
+	13900 34350 13900 33800
+Wire Bus Line
+	13900 33800 13900 33700
+Wire Bus Line
+	13900 33700 13900 33600
+Wire Bus Line
+	13900 33600 13900 33500
+Wire Bus Line
+	13900 33500 13900 33400
+Wire Bus Line
+	13900 33400 13900 33300
+Wire Bus Line
+	13900 33300 13900 33200
+Wire Bus Line
+	13900 33200 13900 33100
+Wire Bus Line
+	13900 33100 13900 32900
+Wire Bus Line
+	13900 32900 13900 32800
+Wire Bus Line
+	13900 32800 13900 32700
+Wire Bus Line
+	13900 32700 13900 32600
+Wire Bus Line
+	13900 32600 13900 32500
+Wire Bus Line
+	13900 32500 13900 32400
+Wire Bus Line
+	13900 32400 13900 32300
+Wire Bus Line
+	13900 32300 13900 32200
+Wire Bus Line
+	13900 32200 13900 31350
+Wire Bus Line
+	13900 31350 13900 31250
+Wire Bus Line
+	13900 31250 13900 31150
+Wire Bus Line
+	13900 31150 13900 31050
+Wire Bus Line
+	13900 31050 13900 30950
+Wire Bus Line
+	13900 30950 13900 30850
+Wire Bus Line
+	13900 30850 13900 30750
+Wire Bus Line
+	13900 30750 13900 30650
 Text Label 14050 30550 0    60   ~ 0
 DEV-PTT-XBAR-CTL0
 Text Label 14050 30650 0    60   ~ 0
@@ -8145,9 +8820,55 @@ Wire Wire Line
 Wire Wire Line
 	17550 33650 18900 33650
 Wire Bus Line
-	17450 34450 2950 34450
+	2950 34450 17450 34450
 Wire Bus Line
-	17450 30600 17450 34450
+	17450 34450 17450 33750
+Wire Bus Line
+	17450 33750 17450 33650
+Wire Bus Line
+	17450 33650 17450 33550
+Wire Bus Line
+	17450 33550 17450 33450
+Wire Bus Line
+	17450 33450 17450 33350
+Wire Bus Line
+	17450 33350 17450 33250
+Wire Bus Line
+	17450 33250 17450 33150
+Wire Bus Line
+	17450 33150 17450 33050
+Wire Bus Line
+	17450 33050 17450 32850
+Wire Bus Line
+	17450 32850 17450 32750
+Wire Bus Line
+	17450 32750 17450 32650
+Wire Bus Line
+	17450 32650 17450 32550
+Wire Bus Line
+	17450 32550 17450 32450
+Wire Bus Line
+	17450 32450 17450 32350
+Wire Bus Line
+	17450 32350 17450 32250
+Wire Bus Line
+	17450 32250 17450 32150
+Wire Bus Line
+	17450 32150 17450 31300
+Wire Bus Line
+	17450 31300 17450 31200
+Wire Bus Line
+	17450 31200 17450 31100
+Wire Bus Line
+	17450 31100 17450 31000
+Wire Bus Line
+	17450 31000 17450 30900
+Wire Bus Line
+	17450 30900 17450 30800
+Wire Bus Line
+	17450 30800 17450 30700
+Wire Bus Line
+	17450 30700 17450 30600
 Text Label 15650 34450 2    60   ~ 0
 DEV-MIC-IN-XBAR-CTL[0..23]
 Text Label 9650 34350 0    60   ~ 0
@@ -8185,9 +8906,37 @@ Entry Wire Line
 Entry Wire Line
 	2450 31800 2550 31700
 Wire Bus Line
-	2450 2050 2450 34750
+	2450 2050 2450 6300
 Wire Bus Line
-	13750 29750 13750 34750
+	2450 6300 2450 10550
+Wire Bus Line
+	2450 10550 2450 14800
+Wire Bus Line
+	2450 14800 2450 19050
+Wire Bus Line
+	2450 19050 2450 23300
+Wire Bus Line
+	2450 23300 2450 27550
+Wire Bus Line
+	2450 27550 2450 31800
+Wire Bus Line
+	2450 31800 2450 34750
+Wire Bus Line
+	13750 29750 13750 29850
+Wire Bus Line
+	13750 29850 13750 29950
+Wire Bus Line
+	13750 29950 13750 30050
+Wire Bus Line
+	13750 30050 13750 30150
+Wire Bus Line
+	13750 30150 13750 30250
+Wire Bus Line
+	13750 30250 13750 30350
+Wire Bus Line
+	13750 30350 13750 30450
+Wire Bus Line
+	13750 30450 13750 34750
 Text Label 2450 30150 1    60   ~ 0
 RPI-PTT-[0..7]
 Text Label 5500 34750 0    60   ~ 0
@@ -8245,54 +8994,80 @@ RPI-PTT-[0..7]
 Text Label 13900 33050 1    60   ~ 0
 DEV-PTT-XBAR-CTL[0..23]
 Wire Wire Line
-	21900 1450 22050 1450
+	15000 16950 15150 16950
 Wire Wire Line
-	22050 1450 22050 8450
+	15150 16950 15150 17950
 Wire Wire Line
-	22050 2450 21900 2450
+	15150 17950 15150 18950
 Wire Wire Line
-	22050 3450 21900 3450
-Connection ~ 22050 2450
+	15150 18950 15150 19950
 Wire Wire Line
-	22050 4450 21900 4450
-Connection ~ 22050 3450
+	15150 19950 15150 20950
 Wire Wire Line
-	22050 5450 21900 5450
-Connection ~ 22050 4450
+	15150 20950 15150 21950
 Wire Wire Line
-	22050 6450 21900 6450
-Connection ~ 22050 5450
+	15150 21950 15150 22950
 Wire Wire Line
-	22050 7450 21900 7450
-Connection ~ 22050 6450
+	15150 22950 15150 23950
 Wire Wire Line
-	22050 8450 21900 8450
-Connection ~ 22050 7450
+	15150 17950 15000 17950
 Wire Wire Line
-	21900 1350 22150 1350
+	15150 18950 15000 18950
+Connection ~ 15150 17950
 Wire Wire Line
-	22150 1350 22150 8650
+	15150 19950 15000 19950
+Connection ~ 15150 18950
 Wire Wire Line
-	21900 8350 22150 8350
-Connection ~ 22150 8350
+	15150 20950 15000 20950
+Connection ~ 15150 19950
 Wire Wire Line
-	21900 7350 22150 7350
-Connection ~ 22150 7350
+	15150 21950 15000 21950
+Connection ~ 15150 20950
 Wire Wire Line
-	21900 6350 22150 6350
-Connection ~ 22150 6350
+	15150 22950 15000 22950
+Connection ~ 15150 21950
 Wire Wire Line
-	21900 5350 22150 5350
-Connection ~ 22150 5350
+	15150 23950 15000 23950
+Connection ~ 15150 22950
 Wire Wire Line
-	21900 4350 22150 4350
-Connection ~ 22150 4350
+	15000 16850 15250 16850
 Wire Wire Line
-	21900 3350 22150 3350
-Connection ~ 22150 3350
+	15250 16850 15250 17850
 Wire Wire Line
-	21900 2350 22150 2350
-Connection ~ 22150 2350
+	15250 17850 15250 18850
+Wire Wire Line
+	15250 18850 15250 19850
+Wire Wire Line
+	15250 19850 15250 20850
+Wire Wire Line
+	15250 20850 15250 21850
+Wire Wire Line
+	15250 21850 15250 22850
+Wire Wire Line
+	15250 22850 15250 23850
+Wire Wire Line
+	15250 23850 15250 24150
+Wire Wire Line
+	15000 23850 15250 23850
+Connection ~ 15250 23850
+Wire Wire Line
+	15000 22850 15250 22850
+Connection ~ 15250 22850
+Wire Wire Line
+	15000 21850 15250 21850
+Connection ~ 15250 21850
+Wire Wire Line
+	15000 20850 15250 20850
+Connection ~ 15250 20850
+Wire Wire Line
+	15000 19850 15250 19850
+Connection ~ 15250 19850
+Wire Wire Line
+	15000 18850 15250 18850
+Connection ~ 15250 18850
+Wire Wire Line
+	15000 17850 15250 17850
+Connection ~ 15250 17850
 Wire Bus Line
 	9850 12050 15850 12050
 Wire Bus Line
@@ -8308,25 +9083,52 @@ Wire Wire Line
 $Comp
 L Conn_01x03 J?
 U 1 1 5A7C3B96
-P 15750 15150
-F 0 "J?" H 15830 15192 50  0000 L CNN
-F 1 "Mixer Audio In" H 15830 15101 50  0000 L CNN
-F 2 "" H 15750 15150 50  0001 C CNN
-F 3 "" H 15750 15150 50  0001 C CNN
-	1    15750 15150
-	1    0    0    -1  
+P 13700 13000
+F 0 "J?" H 13780 13042 50  0000 L CNN
+F 1 "Mixer Audio In" H 13780 12951 50  0000 L CNN
+F 2 "" H 13700 13000 50  0001 C CNN
+F 3 "" H 13700 13000 50  0001 C CNN
+	1    13700 13000
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GNDREF #PWR?
 U 1 1 5A7C6636
-P 15300 15350
-F 0 "#PWR?" H 15300 15100 50  0001 C CNN
-F 1 "GNDREF" H 15300 15200 50  0000 C CNN
-F 2 "" H 15300 15350 50  0001 C CNN
-F 3 "" H 15300 15350 50  0001 C CNN
-	1    15300 15350
+P 13950 13200
+F 0 "#PWR?" H 13950 12950 50  0001 C CNN
+F 1 "GNDREF" H 13950 13050 50  0000 C CNN
+F 2 "" H 13950 13200 50  0001 C CNN
+F 3 "" H 13950 13200 50  0001 C CNN
+	1    13950 13200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15300 15250 15300 15350
+	13950 13100 13950 13200
+Wire Bus Line
+	11150 15800 16800 15800
+Wire Bus Line
+	16800 15800 16800 15800
+Wire Bus Line
+	16800 15800 18150 15800
+Wire Bus Line
+	18150 15800 18150 12050
+Wire Bus Line
+	18150 12050 17200 12050
+Wire Bus Line
+	11450 15650 18000 15650
+Wire Bus Line
+	18000 15650 18000 12150
+Wire Bus Line
+	18000 12150 17200 12150
+$Comp
+L GNDREF #PWR?
+U 1 1 5A89C932
+P 19900 24450
+F 0 "#PWR?" H 19900 24200 50  0001 C CNN
+F 1 "GNDREF" H 19905 24277 50  0000 C CNN
+F 2 "" H 19900 24450 50  0001 C CNN
+F 3 "" H 19900 24450 50  0001 C CNN
+	1    19900 24450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
