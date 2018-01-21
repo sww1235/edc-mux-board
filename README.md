@@ -1,42 +1,36 @@
 # EDC-MUX-Board
 
 This is part of the [EDC harness
-project](https://github.com/sww1235/edc-harness) and provides power routing,
-audio and PTT routing and control routing.
+project](https://github.com/sww1235/edc-harness) and provides, audio and PTT
+routing and control routing.
 
-Contains a Raspberry Pi 3 compute stick running headless which allows for
-scripting support, android app based control, as well as integrating additional
-physical control panels. Will also potentially allow for audio priority ducking
+Will also potentially allow for audio priority ducking
 via the [mixer](https://github.com/sww1235/portable-line-mixer).
 
 ## TODO
 
--   review capacitor sizing for LAN9514 PLL caps, look at RPi schematic Check
--   all mosfets and other larger chips, especially around HDMI connector for
-potentially smaller versions.
--   OTP for USB hubs
+
 
 ## Power Consumption
 
 |Quantity|Description|Part Number|Individual Power Consumption|
 |--------|-----------|-----------|----------------------------|
-|5|IO expanders|TCA9534|33uA @3V3|
-|1|usb/ethernet|LAN9514|288mA @3V3|
-|2|SPDT switches|MAX4533|350uA @12V|
-|4|USB power switch|MIC2026|160uA @5V|
-|1|Compute Module||4W @5V -> 0.8A @5V<br/> 1.5W @3V3 -> 0.3A @5V <br/> 0.45W @1V8 -> 0.09A @5V <br/> total current 1.2A@5V round up to 1.5A <br/> Note: power consumption on 3V3 and 1V8 rails is idealized and should be rounded up|
-|2|OR gate|SN74LS32|1mA @5V|
-|8|SPST switch|TS12A44514|0.2uA @12V|
-|Total|3V3 rail||228.2mA (rounded ->) 500mA -> 137mA@12V|
-|Total|5V rail||1.5A+2.64mA (rounded ->) 1.6A-> 667mA@12V|
+|3|IO expanders|TCA9555|56uA \@5V|
+|6|IO expanders|TCA9555|35uA \@2V5|
+|24|8:1 Mux|ADG708|1uA max \@±2V5 (both rails)|
+|8|8:1 Mux|ADG708|1uA max \@5V|
+|3|SPST switch|ADG715|25uA max \@±2V5 (both rails)|
+|4|4x SPDT switches|ADG734|1uA max \@±2V5 (both rails)|
+|72|4x op amp|OPA1604|2.8mA \@±12VA (both rails)|
+|21|2x op amp|OPA1602|2.6mA \@±12VA (both rails)|
+|12|2x digi pot|DS1882| 1uA \@5VD, 2.5uA \@±5VA|
+|2|OR gate|SN74ACT32|20uA \@5V|
+|2|SPST switch|TS12A44514|0.2uA \@12V|
+|Total|±2V5 rail|| 313uA (rounded ->) 0.5mA|
+|Total|±12VA rail|| 256.2mA (rounded ->) 500mA|
+
+|Total|5V rail||1.5A+2.64mA (rounded ->) 1.6A-> 667mA \@12V|
 |Total|12V rail||0.8047A (rounded ->) 1A (includes 3v3 and 5V conversions)|
-
-
-
-## Notes
-
-Rasp pi power supply can produce max 1A. to allow for easier pcb layout,
-usb/ethernet chip will also pull off of its 3v3 supply.
 
 
 ## References
