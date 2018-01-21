@@ -1,4 +1,4 @@
-update=Sunday, December 17, 2017 'PMt' 09:03:23 PM
+update=Saturday, January 20, 2018 'PMt' 06:33:48 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -74,3 +74,4 @@ LibName42=interface
 LibName43=SW-gElectroMech
 LibName44=SW-Analog
 LibName45=SW-Semtech
+LibName46=SW-Intersil

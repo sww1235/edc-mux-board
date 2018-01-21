@@ -44,12 +44,13 @@ LIBS:interface
 LIBS:SW-gElectroMech
 LIBS:SW-Analog
 LIBS:SW-Semtech
+LIBS:SW-Intersil
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 37
+Sheet 1 38
 Title ""
 Date ""
 Rev ""
@@ -73,4 +74,10 @@ F1 "audio-mux-control.sch" 60
 $EndSheet
 Text Notes 6950 6200 0    60   ~ 0
 All signal directions are indicated from the\nperspective of the MUX box\n\n8x connectors with stereo audio out, mono mic in, PTT in, Mic Mute in, +5V bias out\nEach connector can be used for one or more functions.\nThese connectors are for speakermics, headsets and ptt switches.\nConnector model is Amphenol LTW circular connector 8 pin\n\n8x connectors with stereo audio in, mono mic out, PTT out\nEach connector can be used for one or more functions.\nThese connectors are for smartphones and radios.\nConnector model is Amphenol LTW circular connector 7pin\n\n1x DB25 connector to connect to mixer\n1x TRS connector for output from mixer to MUX\n\n4x USB A charge + data, connected to Pi\n\n2x Circular connectors for bike light/flashlight\nHave 12V power, i2c serial. Add more ports?\nConnector model is Amphenol LTW circular connector 4pin\n\nHelmet connects via two connectors, power+data and audio/ptt\nThis is done via a Y cable that mates to the magnetic connector\n\nOptional Ports\nHDMI\n1 or 2 Displayport converted from DSI interface\nEthernet (connected via USB to Pi)\n12V power out
+$Sheet
+S 950  3100 1900 1450
+U 5A6B6560
+F0 "Arduino Nano Header Connections + Ethernet connection" 60
+F1 "ard-nano-hdr-ethernet.sch" 60
+$EndSheet
 $EndSCHEMATC
