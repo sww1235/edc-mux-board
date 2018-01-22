@@ -1,4 +1,4 @@
-update=Saturday, January 20, 2018 'PMt' 11:52:24 PM
+update=Sunday, January 21, 2018 'AMt' 01:16:40 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -76,3 +76,4 @@ LibName44=SW-Analog
 LibName45=SW-Semtech
 LibName46=SW-Intersil
 LibName47=SW-Arduino
+LibName48=SW-Wiznet
