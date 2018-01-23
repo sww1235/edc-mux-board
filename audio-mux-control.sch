@@ -9301,8 +9301,9 @@ U 1 1 5A993F11
 P 19300 31650
 F 0 "J23" H 19380 31642 50  0000 L CNN
 F 1 "Extra GPIO" H 19380 31551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 19300 31650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 19300 31650 50  0001 C CNN
 F 3 "" H 19300 31650 50  0001 C CNN
+F 4 "0.00@0" H 19300 31650 60  0001 C CNN "Pricing"
 	1    19300 31650
 	-1   0    0    -1  
 $EndComp
