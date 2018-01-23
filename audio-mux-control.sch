@@ -179,7 +179,7 @@ U 1 1 592C60EA
 P 20900 18500
 F 0 "C37" H 20910 18570 50  0000 L CNN
 F 1 "10u" H 20910 18420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20900 18500 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 20900 18500 50  0001 C CNN
 F 3 "" H 20900 18500 50  0001 C CNN
 	1    20900 18500
 	0    1    1    0   
@@ -190,7 +190,7 @@ U 1 1 592CDD93
 P 20900 19500
 F 0 "C41" H 20910 19570 50  0000 L CNN
 F 1 "10u" H 20910 19420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20900 19500 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 20900 19500 50  0001 C CNN
 F 3 "" H 20900 19500 50  0001 C CNN
 	1    20900 19500
 	0    1    1    0   
@@ -201,7 +201,7 @@ U 1 1 592D0E4B
 P 20900 20500
 F 0 "C45" H 20910 20570 50  0000 L CNN
 F 1 "10u" H 20910 20420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20900 20500 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 20900 20500 50  0001 C CNN
 F 3 "" H 20900 20500 50  0001 C CNN
 	1    20900 20500
 	0    1    1    0   
@@ -212,7 +212,7 @@ U 1 1 592D3878
 P 20900 21500
 F 0 "C48" H 20910 21570 50  0000 L CNN
 F 1 "10u" H 20910 21420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20900 21500 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 20900 21500 50  0001 C CNN
 F 3 "" H 20900 21500 50  0001 C CNN
 	1    20900 21500
 	0    1    1    0   
@@ -223,7 +223,7 @@ U 1 1 592D6603
 P 20900 22500
 F 0 "C53" H 20910 22570 50  0000 L CNN
 F 1 "10u" H 20910 22420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20900 22500 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 20900 22500 50  0001 C CNN
 F 3 "" H 20900 22500 50  0001 C CNN
 	1    20900 22500
 	0    1    1    0   
@@ -234,7 +234,7 @@ U 1 1 592D89AE
 P 20900 23500
 F 0 "C57" H 20910 23570 50  0000 L CNN
 F 1 "10u" H 20910 23420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20900 23500 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 20900 23500 50  0001 C CNN
 F 3 "" H 20900 23500 50  0001 C CNN
 	1    20900 23500
 	0    1    1    0   
@@ -245,7 +245,7 @@ U 1 1 592DAD66
 P 20900 24500
 F 0 "C61" H 20910 24570 50  0000 L CNN
 F 1 "10u" H 20910 24420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20900 24500 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 20900 24500 50  0001 C CNN
 F 3 "" H 20900 24500 50  0001 C CNN
 	1    20900 24500
 	0    1    1    0   
@@ -256,7 +256,7 @@ U 1 1 592DB9F2
 P 20900 25500
 F 0 "C64" H 20910 25570 50  0000 L CNN
 F 1 "10u" H 20910 25420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20900 25500 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 20900 25500 50  0001 C CNN
 F 3 "" H 20900 25500 50  0001 C CNN
 	1    20900 25500
 	0    1    1    0   
@@ -319,7 +319,7 @@ U 1 1 5A45AD13
 P 15450 29550
 F 0 "U32" H 15450 30547 60  0000 C CNN
 F 1 "TCA9548A" H 15450 30441 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 15600 31250 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 15600 31250 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 15550 31350 60  0001 C CNN
 F 4 "0.00@0" H 15550 31750 60  0001 C CNN "Pricing"
 F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 15600 31550 60  0001 C CNN "Description"
@@ -454,7 +454,7 @@ U 3 1 5A514E1E
 P 13750 18300
 F 0 "U4" H 13750 18547 60  0000 C CNN
 F 1 "ADG715" H 13750 18441 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 19250 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 19250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 19350 60  0001 C CNN
 F 4 "0.00@0" H 13800 19900 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 19550 60  0001 C CNN "Manufacturer"
@@ -470,7 +470,7 @@ U 4 1 5A516524
 P 13750 18450
 F 0 "U4" H 13750 18309 60  0000 C CNN
 F 1 "ADG715" H 13750 18203 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 19400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 19400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 19500 60  0001 C CNN
 F 4 "0.00@0" H 13800 20050 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 19700 60  0001 C CNN "Manufacturer"
@@ -486,7 +486,7 @@ U 5 1 5A529559
 P 13750 19300
 F 0 "U4" H 13750 19547 60  0000 C CNN
 F 1 "ADG715" H 13750 19441 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 20250 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 20250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 20350 60  0001 C CNN
 F 4 "0.00@0" H 13800 20900 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 20550 60  0001 C CNN "Manufacturer"
@@ -502,7 +502,7 @@ U 6 1 5A52A361
 P 13750 19450
 F 0 "U4" H 13750 19309 60  0000 C CNN
 F 1 "ADG715" H 13750 19203 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 20400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 20400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 20500 60  0001 C CNN
 F 4 "0.00@0" H 13800 21050 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 20700 60  0001 C CNN "Manufacturer"
@@ -518,7 +518,7 @@ U 7 1 5A52EB82
 P 13750 20300
 F 0 "U4" H 13750 20547 60  0000 C CNN
 F 1 "ADG715" H 13750 20441 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 21250 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 21250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 21350 60  0001 C CNN
 F 4 "0.00@0" H 13800 21900 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 21550 60  0001 C CNN "Manufacturer"
@@ -534,7 +534,7 @@ U 8 1 5A52F98F
 P 13750 20450
 F 0 "U2" H 13750 20309 60  0000 C CNN
 F 1 "ADG715" H 13750 20203 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 21400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 21400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 21500 60  0001 C CNN
 F 4 "0.00@0" H 13800 22050 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 21700 60  0001 C CNN "Manufacturer"
@@ -550,7 +550,7 @@ U 9 1 5A53079E
 P 13750 21300
 F 0 "U2" H 13750 21547 60  0000 C CNN
 F 1 "ADG715" H 13750 21441 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 22250 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 22250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 22350 60  0001 C CNN
 F 4 "0.00@0" H 13800 22900 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 22550 60  0001 C CNN "Manufacturer"
@@ -566,7 +566,7 @@ U 10 1 5A5315C1
 P 13750 21450
 F 0 "U2" H 13750 21309 60  0000 C CNN
 F 1 "ADG715" H 13750 21203 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 22400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 22400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 22500 60  0001 C CNN
 F 4 "0.00@0" H 13800 23050 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 22700 60  0001 C CNN "Manufacturer"
@@ -582,7 +582,7 @@ U 3 1 5A557E95
 P 13750 22300
 F 0 "U9" H 13750 22547 60  0000 C CNN
 F 1 "ADG715" H 13750 22441 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 23250 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 23250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 23350 60  0001 C CNN
 F 4 "0.00@0" H 13800 23900 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 23550 60  0001 C CNN "Manufacturer"
@@ -598,7 +598,7 @@ U 4 1 5A557EA0
 P 13750 22450
 F 0 "U9" H 13750 22309 60  0000 C CNN
 F 1 "ADG715" H 13750 22203 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 23400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 23400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 23500 60  0001 C CNN
 F 4 "0.00@0" H 13800 24050 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 23700 60  0001 C CNN "Manufacturer"
@@ -614,7 +614,7 @@ U 5 1 5A557EAB
 P 13750 23300
 F 0 "U9" H 13750 23547 60  0000 C CNN
 F 1 "ADG715" H 13750 23441 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 24250 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 24250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 24350 60  0001 C CNN
 F 4 "0.00@0" H 13800 24900 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 24550 60  0001 C CNN "Manufacturer"
@@ -630,7 +630,7 @@ U 6 1 5A557EB6
 P 13750 23450
 F 0 "U9" H 13750 23309 60  0000 C CNN
 F 1 "ADG715" H 13750 23203 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 24400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 24400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 24500 60  0001 C CNN
 F 4 "0.00@0" H 13800 25050 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 24700 60  0001 C CNN "Manufacturer"
@@ -646,7 +646,7 @@ U 7 1 5A557EC1
 P 13750 24300
 F 0 "U9" H 13750 24547 60  0000 C CNN
 F 1 "ADG715" H 13750 24441 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 25250 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 25250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 25350 60  0001 C CNN
 F 4 "0.00@0" H 13800 25900 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 25550 60  0001 C CNN "Manufacturer"
@@ -662,7 +662,7 @@ U 8 1 5A557ECC
 P 13750 24450
 F 0 "U9" H 13750 24309 60  0000 C CNN
 F 1 "ADG715" H 13750 24203 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 25400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 25400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 25500 60  0001 C CNN
 F 4 "0.00@0" H 13800 26050 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 25700 60  0001 C CNN "Manufacturer"
@@ -678,7 +678,7 @@ U 9 1 5A557ED7
 P 13750 25300
 F 0 "U4" H 13750 25547 60  0000 C CNN
 F 1 "ADG715" H 13750 25441 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 26250 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 26250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 26350 60  0001 C CNN
 F 4 "0.00@0" H 13800 26900 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 26550 60  0001 C CNN "Manufacturer"
@@ -694,7 +694,7 @@ U 10 1 5A557EE2
 P 13750 25450
 F 0 "U4" H 13750 25309 60  0000 C CNN
 F 1 "ADG715" H 13750 25203 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14000 26400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 26400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 26500 60  0001 C CNN
 F 4 "0.00@0" H 13800 27050 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13750 26700 60  0001 C CNN "Manufacturer"
@@ -710,7 +710,7 @@ U 2 1 5A56CAEA
 P 13600 26600
 F 0 "U2" H 13600 26997 60  0000 C CNN
 F 1 "ADG715" H 13600 26891 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 13850 27550 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 13850 27550 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 13850 27650 60  0001 C CNN
 F 4 "0.00@0" H 13650 28200 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13600 27850 60  0001 C CNN "Manufacturer"
@@ -726,7 +726,7 @@ U 2 1 5A5701A9
 P 13600 27250
 F 0 "U4" H 13600 27647 60  0000 C CNN
 F 1 "ADG715" H 13600 27541 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 13850 28200 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 13850 28200 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 13850 28300 60  0001 C CNN
 F 4 "0.00@0" H 13650 28850 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13600 28500 60  0001 C CNN "Manufacturer"
@@ -757,7 +757,7 @@ U 1 1 5A9FA81E
 P 18200 18650
 F 0 "D13" H 18200 18409 60  0000 C CNN
 F 1 "0582BQ" H 18200 18303 60  0000 C CNN
-F 2 "" H 16800 17550 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 16800 17550 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 18400 20650 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18100 20800 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 18150 20700 60  0001 C CNN "Manufacturer"
@@ -784,7 +784,7 @@ U 1 1 5AA07D3A
 P 18200 19650
 F 0 "D16" H 18200 19409 60  0000 C CNN
 F 1 "0582BQ" H 18200 19303 60  0000 C CNN
-F 2 "" H 16800 18550 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 16800 18550 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 18400 21650 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18100 21800 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 18150 21700 60  0001 C CNN "Manufacturer"
@@ -811,7 +811,7 @@ U 1 1 5AA0A720
 P 18200 20650
 F 0 "D22" H 18200 20409 60  0000 C CNN
 F 1 "0582BQ" H 18200 20303 60  0000 C CNN
-F 2 "" H 16800 19550 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 16800 19550 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 18400 22650 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18100 22800 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 18150 22700 60  0001 C CNN "Manufacturer"
@@ -838,7 +838,7 @@ U 1 1 5AA0ABEE
 P 18200 21650
 F 0 "D25" H 18200 21409 60  0000 C CNN
 F 1 "0582BQ" H 18200 21303 60  0000 C CNN
-F 2 "" H 16800 20550 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 16800 20550 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 18400 23650 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18100 23800 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 18150 23700 60  0001 C CNN "Manufacturer"
@@ -865,7 +865,7 @@ U 1 1 5AA0ED20
 P 18200 22650
 F 0 "D28" H 18200 22409 60  0000 C CNN
 F 1 "0582BQ" H 18200 22303 60  0000 C CNN
-F 2 "" H 16800 21550 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 16800 21550 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 18400 24650 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18100 24800 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 18150 24700 60  0001 C CNN "Manufacturer"
@@ -892,7 +892,7 @@ U 1 1 5AA0F1EC
 P 18200 23650
 F 0 "D31" H 18200 23409 60  0000 C CNN
 F 1 "0582BQ" H 18200 23303 60  0000 C CNN
-F 2 "" H 16800 22550 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 16800 22550 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 18400 25650 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18100 25800 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 18150 25700 60  0001 C CNN "Manufacturer"
@@ -919,7 +919,7 @@ U 1 1 5AA137E5
 P 18200 24650
 F 0 "D36" H 18200 24409 60  0000 C CNN
 F 1 "0582BQ" H 18200 24303 60  0000 C CNN
-F 2 "" H 16800 23550 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 16800 23550 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 18400 26650 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18100 26800 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 18150 26700 60  0001 C CNN "Manufacturer"
@@ -946,7 +946,7 @@ U 1 1 5AA13CB5
 P 18200 25650
 F 0 "D40" H 18200 25409 60  0000 C CNN
 F 1 "0582BQ" H 18200 25303 60  0000 C CNN
-F 2 "" H 16800 24550 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 16800 24550 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 18400 27650 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18100 27800 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 18150 27700 60  0001 C CNN "Manufacturer"
@@ -973,7 +973,7 @@ U 1 1 5AA21362
 P 18750 18650
 F 0 "D14" H 18750 18800 60  0000 C CNN
 F 1 "TPD1E10B06" H 18900 18600 60  0000 C CNN
-F 2 "" H 18650 18550 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 18650 18550 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 18900 20250 60  0001 C CNN
 F 4 "0.00@0" H 18800 20150 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 18950 20650 60  0001 C CNN "Package ID"
@@ -989,7 +989,7 @@ U 1 1 5AA492FE
 P 18750 19650
 F 0 "D17" H 18750 19800 60  0000 C CNN
 F 1 "TPD1E10B06" H 18900 19600 60  0000 C CNN
-F 2 "" H 18650 19550 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 18650 19550 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 18900 21250 60  0001 C CNN
 F 4 "0.00@0" H 18800 21150 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 18950 21650 60  0001 C CNN "Package ID"
@@ -1005,7 +1005,7 @@ U 1 1 5AA4D929
 P 18750 20650
 F 0 "D23" H 18750 20800 60  0000 C CNN
 F 1 "TPD1E10B06" H 18900 20600 60  0000 C CNN
-F 2 "" H 18650 20550 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 18650 20550 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 18900 22250 60  0001 C CNN
 F 4 "0.00@0" H 18800 22150 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 18950 22650 60  0001 C CNN "Package ID"
@@ -1021,7 +1021,7 @@ U 1 1 5AA51161
 P 18750 21650
 F 0 "D26" H 18750 21800 60  0000 C CNN
 F 1 "TPD1E10B06" H 18900 21600 60  0000 C CNN
-F 2 "" H 18650 21550 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 18650 21550 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 18900 23250 60  0001 C CNN
 F 4 "0.00@0" H 18800 23150 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 18950 23650 60  0001 C CNN "Package ID"
@@ -1037,7 +1037,7 @@ U 1 1 5AA5499E
 P 18750 22650
 F 0 "D29" H 18750 22800 60  0000 C CNN
 F 1 "TPD1E10B06" H 18900 22600 60  0000 C CNN
-F 2 "" H 18650 22550 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 18650 22550 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 18900 24250 60  0001 C CNN
 F 4 "0.00@0" H 18800 24150 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 18950 24650 60  0001 C CNN "Package ID"
@@ -1053,7 +1053,7 @@ U 1 1 5AA581E7
 P 18750 23650
 F 0 "D32" H 18750 23800 60  0000 C CNN
 F 1 "TPD1E10B06" H 18900 23600 60  0000 C CNN
-F 2 "" H 18650 23550 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 18650 23550 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 18900 25250 60  0001 C CNN
 F 4 "0.00@0" H 18800 25150 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 18950 25650 60  0001 C CNN "Package ID"
@@ -1069,7 +1069,7 @@ U 1 1 5AA5B0E1
 P 18750 24650
 F 0 "D37" H 18750 24800 60  0000 C CNN
 F 1 "TPD1E10B06" H 18900 24600 60  0000 C CNN
-F 2 "" H 18650 24550 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 18650 24550 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 18900 26250 60  0001 C CNN
 F 4 "0.00@0" H 18800 26150 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 18950 26650 60  0001 C CNN "Package ID"
@@ -1085,7 +1085,7 @@ U 1 1 5AA5E945
 P 18750 25650
 F 0 "D41" H 18750 25800 60  0000 C CNN
 F 1 "TPD1E10B06" H 18900 25600 60  0000 C CNN
-F 2 "" H 18650 25550 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 18650 25550 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 18900 27250 60  0001 C CNN
 F 4 "0.00@0" H 18800 27150 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 18950 27650 60  0001 C CNN "Package ID"
@@ -1101,7 +1101,7 @@ U 1 1 5AA90A24
 P 19050 19050
 F 0 "D15" H 19050 18850 60  0000 C CNN
 F 1 "0582BQ" H 19050 19250 60  0000 C CNN
-F 2 "" H 17650 17950 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 17650 17950 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 19250 21050 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18950 21200 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 19000 21100 60  0001 C CNN "Manufacturer"
@@ -1117,7 +1117,7 @@ U 1 1 5AA9601E
 P 19050 20050
 F 0 "D18" H 19050 19850 60  0000 C CNN
 F 1 "0582BQ" H 19050 20250 60  0000 C CNN
-F 2 "" H 17650 18950 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 17650 18950 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 19250 22050 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18950 22200 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 19000 22100 60  0001 C CNN "Manufacturer"
@@ -1133,7 +1133,7 @@ U 1 1 5AA98A8C
 P 19050 21050
 F 0 "D24" H 19050 20850 60  0000 C CNN
 F 1 "0582BQ" H 19050 21250 60  0000 C CNN
-F 2 "" H 17650 19950 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 17650 19950 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 19250 23050 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18950 23200 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 19000 23100 60  0001 C CNN "Manufacturer"
@@ -1149,7 +1149,7 @@ U 1 1 5AA9B4FF
 P 19050 22050
 F 0 "D27" H 19050 21850 60  0000 C CNN
 F 1 "0582BQ" H 19050 22250 60  0000 C CNN
-F 2 "" H 17650 20950 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 17650 20950 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 19250 24050 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18950 24200 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 19000 24100 60  0001 C CNN "Manufacturer"
@@ -1165,7 +1165,7 @@ U 1 1 5AA9F70D
 P 19050 23050
 F 0 "D30" H 19050 22850 60  0000 C CNN
 F 1 "0582BQ" H 19050 23250 60  0000 C CNN
-F 2 "" H 17650 21950 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 17650 21950 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 19250 25050 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18950 25200 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 19000 25100 60  0001 C CNN "Manufacturer"
@@ -1181,7 +1181,7 @@ U 1 1 5AAA2B07
 P 19050 24050
 F 0 "D33" H 19050 23850 60  0000 C CNN
 F 1 "0582BQ" H 19050 24250 60  0000 C CNN
-F 2 "" H 17650 22950 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 17650 22950 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 19250 26050 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18950 26200 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 19000 26100 60  0001 C CNN "Manufacturer"
@@ -1197,7 +1197,7 @@ U 1 1 5AAA3497
 P 19050 25050
 F 0 "D39" H 19050 24850 60  0000 C CNN
 F 1 "0582BQ" H 19050 25250 60  0000 C CNN
-F 2 "" H 17650 23950 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 17650 23950 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 19250 27050 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18950 27200 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 19000 27100 60  0001 C CNN "Manufacturer"
@@ -1213,7 +1213,7 @@ U 1 1 5AAA68A2
 P 19050 26050
 F 0 "D42" H 19050 25850 60  0000 C CNN
 F 1 "0582BQ" H 19050 26250 60  0000 C CNN
-F 2 "" H 17650 24950 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 17650 24950 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 19250 28050 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 18950 28200 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 19000 28100 60  0001 C CNN "Manufacturer"
@@ -1229,7 +1229,7 @@ U 1 1 5AAAAF76
 P 17500 25400
 F 0 "C63" H 17510 25470 50  0000 L CNN
 F 1 "10u" H 17510 25320 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17500 25400 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17500 25400 50  0001 C CNN
 F 3 "" H 17500 25400 50  0001 C CNN
 	1    17500 25400
 	0    1    1    0   
@@ -1240,7 +1240,7 @@ U 1 1 5AAC2C9E
 P 17200 25300
 F 0 "C62" H 17210 25370 50  0000 L CNN
 F 1 "10u" H 17210 25220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17200 25300 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17200 25300 50  0001 C CNN
 F 3 "" H 17200 25300 50  0001 C CNN
 	1    17200 25300
 	0    1    1    0   
@@ -1251,7 +1251,7 @@ U 1 1 5AAD74B6
 P 17500 24400
 F 0 "C60" H 17510 24470 50  0000 L CNN
 F 1 "10u" H 17510 24320 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17500 24400 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17500 24400 50  0001 C CNN
 F 3 "" H 17500 24400 50  0001 C CNN
 	1    17500 24400
 	0    1    1    0   
@@ -1262,7 +1262,7 @@ U 1 1 5AAD74BE
 P 17200 24300
 F 0 "C59" H 17210 24370 50  0000 L CNN
 F 1 "10u" H 17210 24220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17200 24300 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17200 24300 50  0001 C CNN
 F 3 "" H 17200 24300 50  0001 C CNN
 	1    17200 24300
 	0    1    1    0   
@@ -1273,7 +1273,7 @@ U 1 1 5AADB3BF
 P 17500 23400
 F 0 "C56" H 17510 23470 50  0000 L CNN
 F 1 "10u" H 17510 23320 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17500 23400 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17500 23400 50  0001 C CNN
 F 3 "" H 17500 23400 50  0001 C CNN
 	1    17500 23400
 	0    1    1    0   
@@ -1284,7 +1284,7 @@ U 1 1 5AADB3C6
 P 17200 23300
 F 0 "C55" H 17210 23370 50  0000 L CNN
 F 1 "10u" H 17210 23220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17200 23300 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17200 23300 50  0001 C CNN
 F 3 "" H 17200 23300 50  0001 C CNN
 	1    17200 23300
 	0    1    1    0   
@@ -1295,7 +1295,7 @@ U 1 1 5AADDE96
 P 17500 22400
 F 0 "C52" H 17510 22470 50  0000 L CNN
 F 1 "10u" H 17510 22320 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17500 22400 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17500 22400 50  0001 C CNN
 F 3 "" H 17500 22400 50  0001 C CNN
 	1    17500 22400
 	0    1    1    0   
@@ -1306,7 +1306,7 @@ U 1 1 5AADDE9D
 P 17200 22300
 F 0 "C51" H 17210 22370 50  0000 L CNN
 F 1 "10u" H 17210 22220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17200 22300 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17200 22300 50  0001 C CNN
 F 3 "" H 17200 22300 50  0001 C CNN
 	1    17200 22300
 	0    1    1    0   
@@ -1317,7 +1317,7 @@ U 1 1 5AAE04DC
 P 17500 21400
 F 0 "C47" H 17510 21470 50  0000 L CNN
 F 1 "10u" H 17510 21320 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17500 21400 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17500 21400 50  0001 C CNN
 F 3 "" H 17500 21400 50  0001 C CNN
 	1    17500 21400
 	0    1    1    0   
@@ -1328,7 +1328,7 @@ U 1 1 5AAE04E3
 P 17200 21300
 F 0 "C46" H 17210 21370 50  0000 L CNN
 F 1 "10u" H 17210 21220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17200 21300 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17200 21300 50  0001 C CNN
 F 3 "" H 17200 21300 50  0001 C CNN
 	1    17200 21300
 	0    1    1    0   
@@ -1339,7 +1339,7 @@ U 1 1 5AAE2FD5
 P 17500 20400
 F 0 "C44" H 17510 20470 50  0000 L CNN
 F 1 "10u" H 17510 20320 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17500 20400 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17500 20400 50  0001 C CNN
 F 3 "" H 17500 20400 50  0001 C CNN
 	1    17500 20400
 	0    1    1    0   
@@ -1350,7 +1350,7 @@ U 1 1 5AAE2FDC
 P 17200 20300
 F 0 "C43" H 17210 20370 50  0000 L CNN
 F 1 "10u" H 17210 20220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17200 20300 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17200 20300 50  0001 C CNN
 F 3 "" H 17200 20300 50  0001 C CNN
 	1    17200 20300
 	0    1    1    0   
@@ -1361,7 +1361,7 @@ U 1 1 5AAE5152
 P 17500 19400
 F 0 "C40" H 17510 19470 50  0000 L CNN
 F 1 "10u" H 17510 19320 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17500 19400 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17500 19400 50  0001 C CNN
 F 3 "" H 17500 19400 50  0001 C CNN
 	1    17500 19400
 	0    1    1    0   
@@ -1372,7 +1372,7 @@ U 1 1 5AAE5159
 P 17200 19300
 F 0 "C39" H 17210 19370 50  0000 L CNN
 F 1 "10u" H 17210 19220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17200 19300 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17200 19300 50  0001 C CNN
 F 3 "" H 17200 19300 50  0001 C CNN
 	1    17200 19300
 	0    1    1    0   
@@ -1383,7 +1383,7 @@ U 1 1 5AAE5633
 P 17500 18400
 F 0 "C36" H 17510 18470 50  0000 L CNN
 F 1 "10u" H 17510 18320 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17500 18400 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17500 18400 50  0001 C CNN
 F 3 "" H 17500 18400 50  0001 C CNN
 	1    17500 18400
 	0    1    1    0   
@@ -1394,7 +1394,7 @@ U 1 1 5AAE563A
 P 17200 18300
 F 0 "C35" H 17210 18370 50  0000 L CNN
 F 1 "10u" H 17210 18220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 17200 18300 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 17200 18300 50  0001 C CNN
 F 3 "" H 17200 18300 50  0001 C CNN
 	1    17200 18300
 	0    1    1    0   
@@ -1501,7 +1501,7 @@ U 1 1 5AD181E4
 P 20250 27500
 F 0 "U31" H 20250 28547 60  0000 C CNN
 F 1 "TCA9555" H 20250 28441 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 20450 28700 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 20450 28700 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 20550 28800 60  0001 C CNN
 F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 20500 28950 60  0001 C CNN "Characteristics"
 F 5 "Texas Instruments" H 20250 29050 60  0001 C CNN "Manufacturer"
@@ -1582,7 +1582,7 @@ U 1 1 5AD6B300
 P 20750 26900
 F 0 "R14" H 20809 26946 50  0000 L CNN
 F 1 "10k" H 20809 26855 50  0000 L CNN
-F 2 "" H 20750 26900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 20750 26900 50  0001 C CNN
 F 3 "" H 20750 26900 50  0001 C CNN
 	1    20750 26900
 	1    0    0    -1  
@@ -1593,7 +1593,7 @@ U 1 1 5AD6DCD7
 P 20950 26700
 F 0 "C67" V 20721 26700 50  0000 C CNN
 F 1 "0.1uF" V 20812 26700 50  0000 C CNN
-F 2 "" H 20950 26700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 20950 26700 50  0001 C CNN
 F 3 "" H 20950 26700 50  0001 C CNN
 	1    20950 26700
 	0    1    1    0   
@@ -1635,7 +1635,7 @@ AR Path="/58DEDA38/58E9E2BE/5AE599BF" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AE599BF" Ref="U2"  Part="3" 
 F 0 "U2" H 4950 3147 60  0000 C CNN
 F 1 "ADG715" H 4950 3041 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5200 3850 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5200 3850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5200 3950 60  0001 C CNN
 F 4 "0.00@0" H 5000 4500 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 4950 4150 60  0001 C CNN "Manufacturer"
@@ -1653,7 +1653,7 @@ AR Path="/58DEDA38/5AE70891" Ref="U7"  Part="1"
 AR Path="/58DEDA38/58E9E25B/5AE70891" Ref="U?"  Part="1" 
 F 0 "U7" H 3250 3009 60  0000 C CNN
 F 1 "TS12A44514" H 3250 2903 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3750 4600 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 4600 60  0001 C CNN
 F 3 "" H 3250 3300 60  0001 C CNN
 F 4 "0.00@0" H 3300 4300 60  0001 C CNN "Pricing"
 F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 4850 60  0001 C CNN "Characteristics"
@@ -1669,7 +1669,7 @@ U 1 1 5AE70898
 P 4500 2900
 F 0 "C20" V 4271 2900 50  0000 C CNN
 F 1 "10u" V 4362 2900 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 4500 2900 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 4500 2900 50  0001 C CNN
 F 3 "" H 4500 2900 50  0001 C CNN
 	1    4500 2900
 	0    1    1    0   
@@ -1688,7 +1688,7 @@ AR Path="/58DEDA38/58E9E25B/5AE708B6" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5AE708B6" Ref="U17"  Part="1" 
 F 0 "U17" H 4700 3683 50  0000 C CNN
 F 1 "74ACT32" H 4700 3774 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 4700 3450 50  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 3450 50  0001 C CNN
 F 3 "" H 4700 3450 50  0001 C CNN
 F 4 "0.00@0" H 4700 3450 60  0001 C CNN "Pricing"
 	1    4700 3450
@@ -1762,7 +1762,7 @@ U 2 1 5AEB52BC
 P 13600 27900
 F 0 "U9" H 13600 28297 60  0000 C CNN
 F 1 "ADG715" H 13600 28191 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 13850 28850 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 13850 28850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 13850 28950 60  0001 C CNN
 F 4 "0.00@0" H 13650 29500 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 13600 29150 60  0001 C CNN "Manufacturer"
@@ -1794,7 +1794,7 @@ U 1 1 5AEF0F20
 P 7950 4550
 F 0 "U18" H 7950 5147 60  0000 C CNN
 F 1 "ADG708" H 7950 5041 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 7350 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 7350 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 7450 60  0001 C CNN
 F 4 "0.00@0" H 7950 7100 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 7550 60  0001 C CNN "Characteristics"
@@ -1810,7 +1810,7 @@ U 1 1 5AEF0F27
 P 7000 4700
 F 0 "C21" H 7092 4746 50  0000 L CNN
 F 1 "0.1uF" H 7092 4655 50  0000 L CNN
-F 2 "" H 7000 4700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 4700 50  0001 C CNN
 F 3 "" H 7000 4700 50  0001 C CNN
 	1    7000 4700
 	-1   0    0    -1  
@@ -1821,7 +1821,7 @@ U 1 1 5AEF0F2E
 P 7200 4900
 F 0 "C22" H 7292 4946 50  0000 L CNN
 F 1 "0.1uF" H 7292 4855 50  0000 L CNN
-F 2 "" H 7200 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7200 4900 50  0001 C CNN
 F 3 "" H 7200 4900 50  0001 C CNN
 	1    7200 4900
 	-1   0    0    -1  
@@ -1855,7 +1855,7 @@ U 1 1 5AEF0F5E
 P 7950 5850
 F 0 "U19" H 7950 6447 60  0000 C CNN
 F 1 "ADG708" H 7950 6341 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 8650 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 8650 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 8750 60  0001 C CNN
 F 4 "0.00@0" H 7950 8400 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 8850 60  0001 C CNN "Characteristics"
@@ -1871,7 +1871,7 @@ U 1 1 5AEF0F65
 P 7000 6000
 F 0 "C23" H 7092 6046 50  0000 L CNN
 F 1 "0.1uF" H 7092 5955 50  0000 L CNN
-F 2 "" H 7000 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 6000 50  0001 C CNN
 F 3 "" H 7000 6000 50  0001 C CNN
 	1    7000 6000
 	-1   0    0    -1  
@@ -1928,7 +1928,7 @@ U 1 1 5AF299A5
 P 4050 3150
 F 0 "D2" H 4050 2750 60  0000 C CNN
 F 1 "0582BQ" H 4050 2650 60  0000 C CNN
-F 2 "" H 2650 2050 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 2650 2050 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 5150 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 5300 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 4000 5200 60  0001 C CNN "Manufacturer"
@@ -1955,7 +1955,7 @@ U 1 1 5AF3F3D8
 P 3200 3100
 F 0 "D1" H 3200 3350 60  0000 C CNN
 F 1 "TPD1E10B06" H 3300 3250 60  0000 C CNN
-F 2 "" H 3100 3000 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 3000 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 4700 60  0001 C CNN
 F 4 "0.00@0" H 3250 4600 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 3400 5100 60  0001 C CNN "Package ID"
@@ -1993,7 +1993,7 @@ U 1 1 5AF4C47A
 P 2650 3500
 F 0 "D3" V 2597 3687 60  0000 L CNN
 F 1 "0582BQ" V 2703 3687 60  0000 L CNN
-F 2 "" H 1250 2400 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 2400 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 5500 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 5650 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 2600 5550 60  0001 C CNN "Manufacturer"
@@ -2025,7 +2025,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF96264" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF96264" Ref="U2"  Part="4" 
 F 0 "U2" H 4950 7009 60  0000 C CNN
 F 1 "ADG715" H 4950 6903 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5200 8100 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5200 8100 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5200 8200 60  0001 C CNN
 F 4 "0.00@0" H 5000 8750 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 4950 8400 60  0001 C CNN "Manufacturer"
@@ -2043,7 +2043,7 @@ AR Path="/58DEDA38/5AF96270" Ref="U7"  Part="2"
 AR Path="/58DEDA38/58E9E25B/5AF96270" Ref="U?"  Part="1" 
 F 0 "U7" H 3250 7259 60  0000 C CNN
 F 1 "TS12A44514" H 3250 7153 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3750 8850 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 8850 60  0001 C CNN
 F 3 "" H 3250 7550 60  0001 C CNN
 F 4 "0.00@0" H 3300 8550 60  0001 C CNN "Pricing"
 F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 9100 60  0001 C CNN "Characteristics"
@@ -2059,7 +2059,7 @@ U 1 1 5AF96277
 P 4500 7150
 F 0 "C24" V 4271 7150 50  0000 C CNN
 F 1 "10u" V 4362 7150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 4500 7150 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 4500 7150 50  0001 C CNN
 F 3 "" H 4500 7150 50  0001 C CNN
 	1    4500 7150
 	0    1    1    0   
@@ -2078,7 +2078,7 @@ AR Path="/58DEDA38/58E9E25B/5AF96281" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5AF96281" Ref="U17"  Part="2" 
 F 0 "U17" H 4700 7933 50  0000 C CNN
 F 1 "74ACT32" H 4700 8024 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 4700 7700 50  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 7700 50  0001 C CNN
 F 3 "" H 4700 7700 50  0001 C CNN
 F 4 "0.00@0" H 4700 7700 60  0001 C CNN "Pricing"
 	2    4700 7700
@@ -2108,7 +2108,7 @@ U 1 1 5AF96296
 P 7950 8800
 F 0 "U20" H 7950 9397 60  0000 C CNN
 F 1 "ADG708" H 7950 9291 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 11600 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 11600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 11700 60  0001 C CNN
 F 4 "0.00@0" H 7950 11350 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 11800 60  0001 C CNN "Characteristics"
@@ -2124,7 +2124,7 @@ U 1 1 5AF9629D
 P 7000 8950
 F 0 "C25" H 7092 8996 50  0000 L CNN
 F 1 "0.1uF" H 7092 8905 50  0000 L CNN
-F 2 "" H 7000 8950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 8950 50  0001 C CNN
 F 3 "" H 7000 8950 50  0001 C CNN
 	1    7000 8950
 	-1   0    0    -1  
@@ -2135,7 +2135,7 @@ U 1 1 5AF962A4
 P 7200 9150
 F 0 "C26" H 7292 9196 50  0000 L CNN
 F 1 "0.1uF" H 7292 9105 50  0000 L CNN
-F 2 "" H 7200 9150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7200 9150 50  0001 C CNN
 F 3 "" H 7200 9150 50  0001 C CNN
 	1    7200 9150
 	-1   0    0    -1  
@@ -2169,7 +2169,7 @@ U 1 1 5AF962BD
 P 7950 10100
 F 0 "U21" H 7950 10697 60  0000 C CNN
 F 1 "ADG708" H 7950 10591 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 12900 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 12900 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 13000 60  0001 C CNN
 F 4 "0.00@0" H 7950 12650 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 13100 60  0001 C CNN "Characteristics"
@@ -2185,7 +2185,7 @@ U 1 1 5AF962C4
 P 7000 10250
 F 0 "C27" H 7092 10296 50  0000 L CNN
 F 1 "0.1uF" H 7092 10205 50  0000 L CNN
-F 2 "" H 7000 10250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 10250 50  0001 C CNN
 F 3 "" H 7000 10250 50  0001 C CNN
 	1    7000 10250
 	-1   0    0    -1  
@@ -2242,7 +2242,7 @@ U 1 1 5AF96340
 P 4050 7400
 F 0 "D5" H 4050 7000 60  0000 C CNN
 F 1 "0582BQ" H 4050 6900 60  0000 C CNN
-F 2 "" H 2650 6300 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 2650 6300 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 9400 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 9550 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 4000 9450 60  0001 C CNN "Manufacturer"
@@ -2269,7 +2269,7 @@ U 1 1 5AF96358
 P 3200 7350
 F 0 "D4" H 3200 7600 60  0000 C CNN
 F 1 "TPD1E10B06" H 3300 7500 60  0000 C CNN
-F 2 "" H 3100 7250 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 7250 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 8950 60  0001 C CNN
 F 4 "0.00@0" H 3250 8850 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 3400 9350 60  0001 C CNN "Package ID"
@@ -2307,7 +2307,7 @@ U 1 1 5AF96379
 P 2650 7750
 F 0 "D6" V 2597 7937 60  0000 L CNN
 F 1 "0582BQ" V 2703 7937 60  0000 L CNN
-F 2 "" H 1250 6650 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 6650 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 9750 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 9900 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 2600 9800 60  0001 C CNN "Manufacturer"
@@ -2339,7 +2339,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF97237" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF97237" Ref="U2"  Part="5" 
 F 0 "U2" H 4950 11700 60  0000 C CNN
 F 1 "ADG715" H 4950 11600 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5200 12350 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5200 12350 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5200 12450 60  0001 C CNN
 F 4 "0.00@0" H 5000 13000 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 4950 12650 60  0001 C CNN "Manufacturer"
@@ -2357,7 +2357,7 @@ AR Path="/58DEDA38/5AF97243" Ref="U7"  Part="3"
 AR Path="/58DEDA38/58E9E25B/5AF97243" Ref="U?"  Part="1" 
 F 0 "U7" H 3250 11509 60  0000 C CNN
 F 1 "TS12A44514" H 3250 11403 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3750 13100 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 13100 60  0001 C CNN
 F 3 "" H 3250 11800 60  0001 C CNN
 F 4 "0.00@0" H 3300 12800 60  0001 C CNN "Pricing"
 F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 13350 60  0001 C CNN "Characteristics"
@@ -2373,7 +2373,7 @@ U 1 1 5AF9724A
 P 4500 11400
 F 0 "C28" V 4271 11400 50  0000 C CNN
 F 1 "10u" V 4362 11400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 4500 11400 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 4500 11400 50  0001 C CNN
 F 3 "" H 4500 11400 50  0001 C CNN
 	1    4500 11400
 	0    1    1    0   
@@ -2392,7 +2392,7 @@ AR Path="/58DEDA38/58E9E25B/5AF97254" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5AF97254" Ref="U17"  Part="3" 
 F 0 "U17" H 4700 11633 50  0000 C CNN
 F 1 "74ACT32" H 4700 11724 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 4700 11950 50  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 11950 50  0001 C CNN
 F 3 "" H 4700 11950 50  0001 C CNN
 F 4 "0.00@0" H 4700 11950 60  0001 C CNN "Pricing"
 	3    4700 11950
@@ -2422,7 +2422,7 @@ U 1 1 5AF97269
 P 7950 13050
 F 0 "U22" H 7950 13647 60  0000 C CNN
 F 1 "ADG708" H 7950 13541 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 15850 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 15850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 15950 60  0001 C CNN
 F 4 "0.00@0" H 7950 15600 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 16050 60  0001 C CNN "Characteristics"
@@ -2438,7 +2438,7 @@ U 1 1 5AF97270
 P 7000 13200
 F 0 "C29" H 7092 13246 50  0000 L CNN
 F 1 "0.1uF" H 7092 13155 50  0000 L CNN
-F 2 "" H 7000 13200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 13200 50  0001 C CNN
 F 3 "" H 7000 13200 50  0001 C CNN
 	1    7000 13200
 	-1   0    0    -1  
@@ -2449,7 +2449,7 @@ U 1 1 5AF97277
 P 7200 13400
 F 0 "C30" H 7292 13446 50  0000 L CNN
 F 1 "0.1uF" H 7292 13355 50  0000 L CNN
-F 2 "" H 7200 13400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7200 13400 50  0001 C CNN
 F 3 "" H 7200 13400 50  0001 C CNN
 	1    7200 13400
 	-1   0    0    -1  
@@ -2483,7 +2483,7 @@ U 1 1 5AF97290
 P 7950 14350
 F 0 "U23" H 7950 14947 60  0000 C CNN
 F 1 "ADG708" H 7950 14841 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 17150 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 17150 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 17250 60  0001 C CNN
 F 4 "0.00@0" H 7950 16900 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 17350 60  0001 C CNN "Characteristics"
@@ -2499,7 +2499,7 @@ U 1 1 5AF97297
 P 7000 14500
 F 0 "C31" H 7092 14546 50  0000 L CNN
 F 1 "0.1uF" H 7092 14455 50  0000 L CNN
-F 2 "" H 7000 14500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 14500 50  0001 C CNN
 F 3 "" H 7000 14500 50  0001 C CNN
 	1    7000 14500
 	-1   0    0    -1  
@@ -2556,7 +2556,7 @@ U 1 1 5AF97313
 P 4050 11650
 F 0 "D8" H 4050 11250 60  0000 C CNN
 F 1 "0582BQ" H 4050 11150 60  0000 C CNN
-F 2 "" H 2650 10550 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 2650 10550 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 13650 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 13800 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 4000 13700 60  0001 C CNN "Manufacturer"
@@ -2583,7 +2583,7 @@ U 1 1 5AF9732B
 P 3200 11600
 F 0 "D7" H 3200 11850 60  0000 C CNN
 F 1 "TPD1E10B06" H 3300 11750 60  0000 C CNN
-F 2 "" H 3100 11500 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 11500 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 13200 60  0001 C CNN
 F 4 "0.00@0" H 3250 13100 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 3400 13600 60  0001 C CNN "Package ID"
@@ -2621,7 +2621,7 @@ U 1 1 5AF9734C
 P 2650 12000
 F 0 "D9" V 2597 12187 60  0000 L CNN
 F 1 "0582BQ" V 2703 12187 60  0000 L CNN
-F 2 "" H 1250 10900 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 10900 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 14000 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 14150 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 2600 14050 60  0001 C CNN "Manufacturer"
@@ -2653,7 +2653,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF98BC0" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF98BC0" Ref="U2"  Part="6" 
 F 0 "U2" H 4950 15900 60  0000 C CNN
 F 1 "ADG715" H 4950 15800 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5200 16600 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5200 16600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5200 16700 60  0001 C CNN
 F 4 "0.00@0" H 5000 17250 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 4950 16900 60  0001 C CNN "Manufacturer"
@@ -2671,7 +2671,7 @@ AR Path="/58DEDA38/5AF98BCC" Ref="U7"  Part="4"
 AR Path="/58DEDA38/58E9E25B/5AF98BCC" Ref="U?"  Part="1" 
 F 0 "U7" H 3250 15759 60  0000 C CNN
 F 1 "TS12A44514" H 3250 15653 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3750 17350 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 17350 60  0001 C CNN
 F 3 "" H 3250 16050 60  0001 C CNN
 F 4 "0.00@0" H 3300 17050 60  0001 C CNN "Pricing"
 F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 17600 60  0001 C CNN "Characteristics"
@@ -2687,7 +2687,7 @@ U 1 1 5AF98BD3
 P 4500 15650
 F 0 "C32" V 4271 15650 50  0000 C CNN
 F 1 "10u" V 4362 15650 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 4500 15650 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 4500 15650 50  0001 C CNN
 F 3 "" H 4500 15650 50  0001 C CNN
 	1    4500 15650
 	0    1    1    0   
@@ -2706,7 +2706,7 @@ AR Path="/58DEDA38/58E9E25B/5AF98BDD" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5AF98BDD" Ref="U17"  Part="4" 
 F 0 "U17" H 4700 15883 50  0000 C CNN
 F 1 "74ACT32" H 4700 15974 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 4700 16200 50  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 16200 50  0001 C CNN
 F 3 "" H 4700 16200 50  0001 C CNN
 F 4 "0.00@0" H 4700 16200 60  0001 C CNN "Pricing"
 	4    4700 16200
@@ -2736,7 +2736,7 @@ U 1 1 5AF98BF2
 P 7950 17300
 F 0 "U24" H 7950 17897 60  0000 C CNN
 F 1 "ADG708" H 7950 17791 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 20100 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 20100 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 20200 60  0001 C CNN
 F 4 "0.00@0" H 7950 19850 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 20300 60  0001 C CNN "Characteristics"
@@ -2752,7 +2752,7 @@ U 1 1 5AF98BF9
 P 7000 17450
 F 0 "C33" H 7092 17496 50  0000 L CNN
 F 1 "0.1uF" H 7092 17405 50  0000 L CNN
-F 2 "" H 7000 17450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 17450 50  0001 C CNN
 F 3 "" H 7000 17450 50  0001 C CNN
 	1    7000 17450
 	-1   0    0    -1  
@@ -2763,7 +2763,7 @@ U 1 1 5AF98C00
 P 7200 17650
 F 0 "C34" H 7292 17696 50  0000 L CNN
 F 1 "0.1uF" H 7292 17605 50  0000 L CNN
-F 2 "" H 7200 17650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7200 17650 50  0001 C CNN
 F 3 "" H 7200 17650 50  0001 C CNN
 	1    7200 17650
 	-1   0    0    -1  
@@ -2797,7 +2797,7 @@ U 1 1 5AF98C19
 P 7950 18600
 F 0 "U25" H 7950 19197 60  0000 C CNN
 F 1 "ADG708" H 7950 19091 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 21400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 21400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 21500 60  0001 C CNN
 F 4 "0.00@0" H 7950 21150 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 21600 60  0001 C CNN "Characteristics"
@@ -2813,7 +2813,7 @@ U 1 1 5AF98C20
 P 7000 18750
 F 0 "C38" H 7092 18796 50  0000 L CNN
 F 1 "0.1uF" H 7092 18705 50  0000 L CNN
-F 2 "" H 7000 18750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 18750 50  0001 C CNN
 F 3 "" H 7000 18750 50  0001 C CNN
 	1    7000 18750
 	-1   0    0    -1  
@@ -2870,7 +2870,7 @@ U 1 1 5AF98C9C
 P 4050 15900
 F 0 "D11" H 4050 15500 60  0000 C CNN
 F 1 "0582BQ" H 4050 15400 60  0000 C CNN
-F 2 "" H 2650 14800 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 2650 14800 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 17900 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 18050 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 4000 17950 60  0001 C CNN "Manufacturer"
@@ -2897,7 +2897,7 @@ U 1 1 5AF98CB4
 P 3200 15850
 F 0 "D10" H 3200 16100 60  0000 C CNN
 F 1 "TPD1E10B06" H 3300 16000 60  0000 C CNN
-F 2 "" H 3100 15750 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 15750 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 17450 60  0001 C CNN
 F 4 "0.00@0" H 3250 17350 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 3400 17850 60  0001 C CNN "Package ID"
@@ -2935,7 +2935,7 @@ U 1 1 5AF98CD5
 P 2650 16250
 F 0 "D12" V 2597 16437 60  0000 L CNN
 F 1 "0582BQ" V 2703 16437 60  0000 L CNN
-F 2 "" H 1250 15150 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 15150 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 18250 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 18400 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 2600 18300 60  0001 C CNN "Manufacturer"
@@ -2967,7 +2967,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF9AD53" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF9AD53" Ref="U2"  Part="7" 
 F 0 "U2" H 4950 19759 60  0000 C CNN
 F 1 "ADG715" H 4950 19653 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5200 20850 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5200 20850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5200 20950 60  0001 C CNN
 F 4 "0.00@0" H 5000 21500 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 4950 21150 60  0001 C CNN "Manufacturer"
@@ -2985,7 +2985,7 @@ AR Path="/58DEDA38/5AF9AD5F" Ref="U8"  Part="1"
 AR Path="/58DEDA38/58E9E25B/5AF9AD5F" Ref="U?"  Part="1" 
 F 0 "U8" H 3250 20009 60  0000 C CNN
 F 1 "TS12A44514" H 3250 19903 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3750 21600 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 21600 60  0001 C CNN
 F 3 "" H 3250 20300 60  0001 C CNN
 F 4 "0.00@0" H 3300 21300 60  0001 C CNN "Pricing"
 F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 21850 60  0001 C CNN "Characteristics"
@@ -3001,7 +3001,7 @@ U 1 1 5AF9AD66
 P 4500 19900
 F 0 "C42" V 4271 19900 50  0000 C CNN
 F 1 "10u" V 4362 19900 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 4500 19900 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 4500 19900 50  0001 C CNN
 F 3 "" H 4500 19900 50  0001 C CNN
 	1    4500 19900
 	0    1    1    0   
@@ -3020,7 +3020,7 @@ AR Path="/58DEDA38/58E9E25B/5AF9AD70" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5AF9AD70" Ref="U26"  Part="1" 
 F 0 "U26" H 4700 20683 50  0000 C CNN
 F 1 "74ACT32" H 4700 20774 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 4700 20450 50  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 20450 50  0001 C CNN
 F 3 "" H 4700 20450 50  0001 C CNN
 F 4 "0.00@0" H 4700 20450 60  0001 C CNN "Pricing"
 	1    4700 20450
@@ -3050,7 +3050,7 @@ U 1 1 5AF9AD85
 P 7950 21550
 F 0 "U27" H 7950 22147 60  0000 C CNN
 F 1 "ADG708" H 7950 22041 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 24350 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 24350 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 24450 60  0001 C CNN
 F 4 "0.00@0" H 7950 24100 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 24550 60  0001 C CNN "Characteristics"
@@ -3066,7 +3066,7 @@ U 1 1 5AF9AD8C
 P 7000 21700
 F 0 "C49" H 7092 21746 50  0000 L CNN
 F 1 "0.1uF" H 7092 21655 50  0000 L CNN
-F 2 "" H 7000 21700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 21700 50  0001 C CNN
 F 3 "" H 7000 21700 50  0001 C CNN
 	1    7000 21700
 	-1   0    0    -1  
@@ -3077,7 +3077,7 @@ U 1 1 5AF9AD93
 P 7200 21900
 F 0 "C50" H 7292 21946 50  0000 L CNN
 F 1 "0.1uF" H 7292 21855 50  0000 L CNN
-F 2 "" H 7200 21900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7200 21900 50  0001 C CNN
 F 3 "" H 7200 21900 50  0001 C CNN
 	1    7200 21900
 	-1   0    0    -1  
@@ -3111,7 +3111,7 @@ U 1 1 5AF9ADAC
 P 7950 22850
 F 0 "U28" H 7950 23447 60  0000 C CNN
 F 1 "ADG708" H 7950 23341 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 25650 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 25650 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 25750 60  0001 C CNN
 F 4 "0.00@0" H 7950 25400 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 25850 60  0001 C CNN "Characteristics"
@@ -3127,7 +3127,7 @@ U 1 1 5AF9ADB3
 P 7000 23000
 F 0 "C54" H 7092 23046 50  0000 L CNN
 F 1 "0.1uF" H 7092 22955 50  0000 L CNN
-F 2 "" H 7000 23000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 23000 50  0001 C CNN
 F 3 "" H 7000 23000 50  0001 C CNN
 	1    7000 23000
 	-1   0    0    -1  
@@ -3184,7 +3184,7 @@ U 1 1 5AF9AE2F
 P 4050 20150
 F 0 "D20" H 4050 19750 60  0000 C CNN
 F 1 "0582BQ" H 4050 19650 60  0000 C CNN
-F 2 "" H 2650 19050 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 2650 19050 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 22150 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 22300 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 4000 22200 60  0001 C CNN "Manufacturer"
@@ -3211,7 +3211,7 @@ U 1 1 5AF9AE47
 P 3200 20100
 F 0 "D19" H 3200 20350 60  0000 C CNN
 F 1 "TPD1E10B06" H 3300 20250 60  0000 C CNN
-F 2 "" H 3100 20000 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 20000 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 21700 60  0001 C CNN
 F 4 "0.00@0" H 3250 21600 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 3400 22100 60  0001 C CNN "Package ID"
@@ -3249,7 +3249,7 @@ U 1 1 5AF9AE68
 P 2650 20500
 F 0 "D21" V 2597 20687 60  0000 L CNN
 F 1 "0582BQ" V 2703 20687 60  0000 L CNN
-F 2 "" H 1250 19400 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 19400 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 22500 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 22650 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 2600 22550 60  0001 C CNN "Manufacturer"
@@ -3281,7 +3281,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF9C03A" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF9C03A" Ref="U4"  Part="8" 
 F 0 "U4" H 4950 24400 60  0000 C CNN
 F 1 "ADG715" H 4950 24300 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5200 25100 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5200 25100 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5200 25200 60  0001 C CNN
 F 4 "0.00@0" H 5000 25750 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 4950 25400 60  0001 C CNN "Manufacturer"
@@ -3299,7 +3299,7 @@ AR Path="/58DEDA38/5AF9C046" Ref="U8"  Part="2"
 AR Path="/58DEDA38/58E9E25B/5AF9C046" Ref="U?"  Part="1" 
 F 0 "U8" H 3250 24259 60  0000 C CNN
 F 1 "TS12A44514" H 3250 24153 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3750 25850 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 25850 60  0001 C CNN
 F 3 "" H 3250 24550 60  0001 C CNN
 F 4 "0.00@0" H 3300 25550 60  0001 C CNN "Pricing"
 F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 26100 60  0001 C CNN "Characteristics"
@@ -3315,7 +3315,7 @@ U 1 1 5AF9C04D
 P 4500 24150
 F 0 "C58" V 4271 24150 50  0000 C CNN
 F 1 "10u" V 4362 24150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 4500 24150 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 4500 24150 50  0001 C CNN
 F 3 "" H 4500 24150 50  0001 C CNN
 	1    4500 24150
 	0    1    1    0   
@@ -3334,7 +3334,7 @@ AR Path="/58DEDA38/58E9E25B/5AF9C057" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5AF9C057" Ref="U26"  Part="2" 
 F 0 "U26" H 4700 24383 50  0000 C CNN
 F 1 "74ACT32" H 4700 24474 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 4700 24700 50  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 24700 50  0001 C CNN
 F 3 "" H 4700 24700 50  0001 C CNN
 F 4 "0.00@0" H 4700 24700 60  0001 C CNN "Pricing"
 	2    4700 24700
@@ -3364,7 +3364,7 @@ U 1 1 5AF9C06C
 P 7950 25800
 F 0 "U29" H 7950 26397 60  0000 C CNN
 F 1 "ADG708" H 7950 26291 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 28600 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 28600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 28700 60  0001 C CNN
 F 4 "0.00@0" H 7950 28350 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 28800 60  0001 C CNN "Characteristics"
@@ -3380,7 +3380,7 @@ U 1 1 5AF9C073
 P 7000 25950
 F 0 "C65" H 7092 25996 50  0000 L CNN
 F 1 "0.1uF" H 7092 25905 50  0000 L CNN
-F 2 "" H 7000 25950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 25950 50  0001 C CNN
 F 3 "" H 7000 25950 50  0001 C CNN
 	1    7000 25950
 	-1   0    0    -1  
@@ -3391,7 +3391,7 @@ U 1 1 5AF9C07A
 P 7200 26150
 F 0 "C66" H 7292 26196 50  0000 L CNN
 F 1 "0.1uF" H 7292 26105 50  0000 L CNN
-F 2 "" H 7200 26150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7200 26150 50  0001 C CNN
 F 3 "" H 7200 26150 50  0001 C CNN
 	1    7200 26150
 	-1   0    0    -1  
@@ -3425,7 +3425,7 @@ U 1 1 5AF9C093
 P 7950 27100
 F 0 "U30" H 7950 27697 60  0000 C CNN
 F 1 "ADG708" H 7950 27591 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 29900 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 29900 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 30000 60  0001 C CNN
 F 4 "0.00@0" H 7950 29650 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 30100 60  0001 C CNN "Characteristics"
@@ -3441,7 +3441,7 @@ U 1 1 5AF9C09A
 P 7000 27250
 F 0 "C68" H 7092 27296 50  0000 L CNN
 F 1 "0.1uF" H 7092 27205 50  0000 L CNN
-F 2 "" H 7000 27250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 27250 50  0001 C CNN
 F 3 "" H 7000 27250 50  0001 C CNN
 	1    7000 27250
 	-1   0    0    -1  
@@ -3498,7 +3498,7 @@ U 1 1 5AF9C116
 P 4050 24400
 F 0 "D35" H 4050 24000 60  0000 C CNN
 F 1 "0582BQ" H 4050 23900 60  0000 C CNN
-F 2 "" H 2650 23300 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 2650 23300 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 26400 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 26550 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 4000 26450 60  0001 C CNN "Manufacturer"
@@ -3525,7 +3525,7 @@ U 1 1 5AF9C12E
 P 3200 24350
 F 0 "D34" H 3200 24600 60  0000 C CNN
 F 1 "TPD1E10B06" H 3300 24500 60  0000 C CNN
-F 2 "" H 3100 24250 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 24250 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 25950 60  0001 C CNN
 F 4 "0.00@0" H 3250 25850 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 3400 26350 60  0001 C CNN "Package ID"
@@ -3563,7 +3563,7 @@ U 1 1 5AF9C14F
 P 2650 24750
 F 0 "D38" V 2597 24937 60  0000 L CNN
 F 1 "0582BQ" V 2703 24937 60  0000 L CNN
-F 2 "" H 1250 23650 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 23650 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 26750 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 26900 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 2600 26800 60  0001 C CNN "Manufacturer"
@@ -3595,7 +3595,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF9C637" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF9C637" Ref="U9"  Part="9" 
 F 0 "U9" H 4950 28700 60  0000 C CNN
 F 1 "ADG715" H 4950 28600 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5200 29350 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5200 29350 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5200 29450 60  0001 C CNN
 F 4 "0.00@0" H 5000 30000 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 4950 29650 60  0001 C CNN "Manufacturer"
@@ -3613,7 +3613,7 @@ AR Path="/58DEDA38/5AF9C643" Ref="U8"  Part="3"
 AR Path="/58DEDA38/58E9E25B/5AF9C643" Ref="U?"  Part="1" 
 F 0 "U8" H 3250 28509 60  0000 C CNN
 F 1 "TS12A44514" H 3250 28403 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3750 30100 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 30100 60  0001 C CNN
 F 3 "" H 3250 28800 60  0001 C CNN
 F 4 "0.00@0" H 3300 29800 60  0001 C CNN "Pricing"
 F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 30350 60  0001 C CNN "Characteristics"
@@ -3629,7 +3629,7 @@ U 1 1 5AF9C64A
 P 4500 28400
 F 0 "C69" V 4271 28400 50  0000 C CNN
 F 1 "10u" V 4362 28400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 4500 28400 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 4500 28400 50  0001 C CNN
 F 3 "" H 4500 28400 50  0001 C CNN
 	1    4500 28400
 	0    1    1    0   
@@ -3648,7 +3648,7 @@ AR Path="/58DEDA38/58E9E25B/5AF9C654" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5AF9C654" Ref="U26"  Part="3" 
 F 0 "U26" H 4700 28633 50  0000 C CNN
 F 1 "74ACT32" H 4700 28724 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 4700 28950 50  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 28950 50  0001 C CNN
 F 3 "" H 4700 28950 50  0001 C CNN
 F 4 "0.00@0" H 4700 28950 60  0001 C CNN "Pricing"
 	3    4700 28950
@@ -3678,7 +3678,7 @@ U 1 1 5AF9C669
 P 7950 30050
 F 0 "U33" H 7950 30647 60  0000 C CNN
 F 1 "ADG708" H 7950 30541 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 32850 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 32850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 32950 60  0001 C CNN
 F 4 "0.00@0" H 7950 32600 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 33050 60  0001 C CNN "Characteristics"
@@ -3694,7 +3694,7 @@ U 1 1 5AF9C670
 P 7000 30200
 F 0 "C71" H 7092 30246 50  0000 L CNN
 F 1 "0.1uF" H 7092 30155 50  0000 L CNN
-F 2 "" H 7000 30200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 30200 50  0001 C CNN
 F 3 "" H 7000 30200 50  0001 C CNN
 	1    7000 30200
 	-1   0    0    -1  
@@ -3705,7 +3705,7 @@ U 1 1 5AF9C677
 P 7200 30400
 F 0 "C72" H 7292 30446 50  0000 L CNN
 F 1 "0.1uF" H 7292 30355 50  0000 L CNN
-F 2 "" H 7200 30400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7200 30400 50  0001 C CNN
 F 3 "" H 7200 30400 50  0001 C CNN
 	1    7200 30400
 	-1   0    0    -1  
@@ -3739,7 +3739,7 @@ U 1 1 5AF9C690
 P 7950 31350
 F 0 "U34" H 7950 31947 60  0000 C CNN
 F 1 "ADG708" H 7950 31841 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 34150 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 34150 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 34250 60  0001 C CNN
 F 4 "0.00@0" H 7950 33900 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 34350 60  0001 C CNN "Characteristics"
@@ -3755,7 +3755,7 @@ U 1 1 5AF9C697
 P 7000 31500
 F 0 "C74" H 7092 31546 50  0000 L CNN
 F 1 "0.1uF" H 7092 31455 50  0000 L CNN
-F 2 "" H 7000 31500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 31500 50  0001 C CNN
 F 3 "" H 7000 31500 50  0001 C CNN
 	1    7000 31500
 	-1   0    0    -1  
@@ -3812,7 +3812,7 @@ U 1 1 5AF9C713
 P 4050 28650
 F 0 "D44" H 4050 28250 60  0000 C CNN
 F 1 "0582BQ" H 4050 28150 60  0000 C CNN
-F 2 "" H 2650 27550 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 2650 27550 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 30650 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 30800 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 4000 30700 60  0001 C CNN "Manufacturer"
@@ -3839,7 +3839,7 @@ U 1 1 5AF9C72B
 P 3200 28600
 F 0 "D43" H 3200 28850 60  0000 C CNN
 F 1 "TPD1E10B06" H 3300 28750 60  0000 C CNN
-F 2 "" H 3100 28500 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 28500 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 30200 60  0001 C CNN
 F 4 "0.00@0" H 3250 30100 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 3400 30600 60  0001 C CNN "Package ID"
@@ -3877,7 +3877,7 @@ U 1 1 5AF9C74C
 P 2650 29000
 F 0 "D45" V 2597 29187 60  0000 L CNN
 F 1 "0582BQ" V 2703 29187 60  0000 L CNN
-F 2 "" H 1250 27900 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 27900 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 31000 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 31150 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 2600 31050 60  0001 C CNN "Manufacturer"
@@ -3909,7 +3909,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF9CF9D" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF9CF9D" Ref="U9"  Part="10" 
 F 0 "U9" H 4950 32509 60  0000 C CNN
 F 1 "ADG715" H 4950 32403 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5200 33600 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5200 33600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5200 33700 60  0001 C CNN
 F 4 "0.00@0" H 5000 34250 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 4950 33900 60  0001 C CNN "Manufacturer"
@@ -3927,7 +3927,7 @@ AR Path="/58DEDA38/5AF9CFA9" Ref="U8"  Part="4"
 AR Path="/58DEDA38/58E9E25B/5AF9CFA9" Ref="U?"  Part="1" 
 F 0 "U8" H 3250 32759 60  0000 C CNN
 F 1 "TS12A44514" H 3250 32653 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3750 34350 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 34350 60  0001 C CNN
 F 3 "" H 3250 33050 60  0001 C CNN
 F 4 "0.00@0" H 3300 34050 60  0001 C CNN "Pricing"
 F 5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 34600 60  0001 C CNN "Characteristics"
@@ -3943,7 +3943,7 @@ U 1 1 5AF9CFB0
 P 4500 32650
 F 0 "C76" V 4271 32650 50  0000 C CNN
 F 1 "10u" V 4362 32650 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 4500 32650 50  0001 C CNN
+F 2 "SW-WIMA:PCM_5mm_Spacing_7.2x11mm" H 4500 32650 50  0001 C CNN
 F 3 "" H 4500 32650 50  0001 C CNN
 	1    4500 32650
 	0    1    1    0   
@@ -3962,7 +3962,7 @@ AR Path="/58DEDA38/58E9E25B/5AF9CFBA" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5AF9CFBA" Ref="U26"  Part="4" 
 F 0 "U26" H 4700 33433 50  0000 C CNN
 F 1 "74ACT32" H 4700 33524 50  0000 C CNN
-F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 4700 33200 50  0001 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 33200 50  0001 C CNN
 F 3 "" H 4700 33200 50  0001 C CNN
 F 4 "0.00@0" H 4700 33200 60  0001 C CNN "Pricing"
 	4    4700 33200
@@ -3992,7 +3992,7 @@ U 1 1 5AF9CFCF
 P 7950 34300
 F 0 "U37" H 7950 34897 60  0000 C CNN
 F 1 "ADG708" H 7950 34791 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 37100 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 37100 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 37200 60  0001 C CNN
 F 4 "0.00@0" H 7950 36850 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 37300 60  0001 C CNN "Characteristics"
@@ -4008,7 +4008,7 @@ U 1 1 5AF9CFD6
 P 7000 34450
 F 0 "C79" H 7092 34496 50  0000 L CNN
 F 1 "0.1uF" H 7092 34405 50  0000 L CNN
-F 2 "" H 7000 34450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 34450 50  0001 C CNN
 F 3 "" H 7000 34450 50  0001 C CNN
 	1    7000 34450
 	-1   0    0    -1  
@@ -4019,7 +4019,7 @@ U 1 1 5AF9CFDD
 P 7200 34650
 F 0 "C80" H 7292 34696 50  0000 L CNN
 F 1 "0.1uF" H 7292 34605 50  0000 L CNN
-F 2 "" H 7200 34650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7200 34650 50  0001 C CNN
 F 3 "" H 7200 34650 50  0001 C CNN
 	1    7200 34650
 	-1   0    0    -1  
@@ -4053,7 +4053,7 @@ U 1 1 5AF9CFF6
 P 7950 35600
 F 0 "U40" H 7950 36197 60  0000 C CNN
 F 1 "ADG708" H 7950 36091 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7300 38400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7300 38400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7400 38500 60  0001 C CNN
 F 4 "0.00@0" H 7950 38150 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7500 38600 60  0001 C CNN "Characteristics"
@@ -4069,7 +4069,7 @@ U 1 1 5AF9CFFD
 P 7000 35750
 F 0 "C81" H 7092 35796 50  0000 L CNN
 F 1 "0.1uF" H 7092 35705 50  0000 L CNN
-F 2 "" H 7000 35750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7000 35750 50  0001 C CNN
 F 3 "" H 7000 35750 50  0001 C CNN
 	1    7000 35750
 	-1   0    0    -1  
@@ -4126,7 +4126,7 @@ U 1 1 5AF9D079
 P 4050 32900
 F 0 "D47" H 4050 32500 60  0000 C CNN
 F 1 "0582BQ" H 4050 32400 60  0000 C CNN
-F 2 "" H 2650 31800 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 2650 31800 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 34900 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 35050 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 4000 34950 60  0001 C CNN "Manufacturer"
@@ -4153,7 +4153,7 @@ U 1 1 5AF9D091
 P 3200 32850
 F 0 "D46" H 3200 33100 60  0000 C CNN
 F 1 "TPD1E10B06" H 3300 33000 60  0000 C CNN
-F 2 "" H 3100 32750 60  0001 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 32750 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 34450 60  0001 C CNN
 F 4 "0.00@0" H 3250 34350 60  0001 C CNN "Pricing"
 F 5 "0402 (imp)" H 3400 34850 60  0001 C CNN "Package ID"
@@ -4191,7 +4191,7 @@ U 1 1 5AF9D0B2
 P 2650 33250
 F 0 "D48" V 2597 33437 60  0000 L CNN
 F 1 "0582BQ" V 2703 33437 60  0000 L CNN
-F 2 "" H 1250 32150 60  0001 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 32150 60  0001 C CNN
 F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 35250 60  0001 C CNN
 F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 35400 60  0001 C CNN "Characteristics"
 F 5 "Semtech International AG" H 2600 35300 60  0001 C CNN "Manufacturer"
@@ -4976,7 +4976,7 @@ U 1 1 5A85E030
 P 20750 32350
 F 0 "U35" H 20750 33397 60  0000 C CNN
 F 1 "TCA9555" H 20750 33291 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 20950 33550 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 20950 33550 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 21050 33650 60  0001 C CNN
 F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 21000 33800 60  0001 C CNN "Characteristics"
 F 5 "Texas Instruments" H 20750 33900 60  0001 C CNN "Manufacturer"
@@ -5014,7 +5014,7 @@ U 1 1 5A85E043
 P 21350 31850
 F 0 "R34" H 21409 31896 50  0000 L CNN
 F 1 "10kΩ" H 21409 31805 50  0000 L CNN
-F 2 "" H 21350 31850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 21350 31850 50  0001 C CNN
 F 3 "" H 21350 31850 50  0001 C CNN
 	1    21350 31850
 	1    0    0    -1  
@@ -5025,7 +5025,7 @@ U 1 1 5A85E04A
 P 21450 31450
 F 0 "C73" V 21221 31450 50  0000 C CNN
 F 1 "0.1uF" V 21312 31450 50  0000 C CNN
-F 2 "" H 21450 31450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 21450 31450 50  0001 C CNN
 F 3 "" H 21450 31450 50  0001 C CNN
 	1    21450 31450
 	0    1    1    0   
@@ -5049,7 +5049,7 @@ U 1 1 5A87EA48
 P 20700 34800
 F 0 "U38" H 20700 35847 60  0000 C CNN
 F 1 "TCA9555" H 20700 35741 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 20900 36000 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 20900 36000 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 21000 36100 60  0001 C CNN
 F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 20950 36250 60  0001 C CNN "Characteristics"
 F 5 "Texas Instruments" H 20700 36350 60  0001 C CNN "Manufacturer"
@@ -5087,7 +5087,7 @@ U 1 1 5A87EA5B
 P 21300 34300
 F 0 "R36" H 21359 34346 50  0000 L CNN
 F 1 "10kΩ" H 21359 34255 50  0000 L CNN
-F 2 "" H 21300 34300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 21300 34300 50  0001 C CNN
 F 3 "" H 21300 34300 50  0001 C CNN
 	1    21300 34300
 	1    0    0    -1  
@@ -5098,7 +5098,7 @@ U 1 1 5A87EA62
 P 21400 33900
 F 0 "C77" V 21171 33900 50  0000 C CNN
 F 1 "0.1uF" V 21262 33900 50  0000 C CNN
-F 2 "" H 21400 33900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 21400 33900 50  0001 C CNN
 F 3 "" H 21400 33900 50  0001 C CNN
 	1    21400 33900
 	0    1    1    0   
@@ -5122,7 +5122,7 @@ U 1 1 5A889BB8
 P 16950 32400
 F 0 "U36" H 16950 33447 60  0000 C CNN
 F 1 "TCA9555" H 16950 33341 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 17150 33600 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 17150 33600 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 17250 33700 60  0001 C CNN
 F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 17200 33850 60  0001 C CNN "Characteristics"
 F 5 "Texas Instruments" H 16950 33950 60  0001 C CNN "Manufacturer"
@@ -5149,7 +5149,7 @@ U 1 1 5A889BCB
 P 17550 31900
 F 0 "R35" H 17609 31946 50  0000 L CNN
 F 1 "10kΩ" H 17609 31855 50  0000 L CNN
-F 2 "" H 17550 31900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 17550 31900 50  0001 C CNN
 F 3 "" H 17550 31900 50  0001 C CNN
 	1    17550 31900
 	1    0    0    -1  
@@ -5160,7 +5160,7 @@ U 1 1 5A889BD2
 P 17650 31500
 F 0 "C75" V 17421 31500 50  0000 C CNN
 F 1 "0.1uF" V 17512 31500 50  0000 C CNN
-F 2 "" H 17650 31500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 17650 31500 50  0001 C CNN
 F 3 "" H 17650 31500 50  0001 C CNN
 	1    17650 31500
 	0    1    1    0   
@@ -5195,7 +5195,7 @@ U 1 1 5A897F44
 P 16950 34850
 F 0 "U39" H 16950 35897 60  0000 C CNN
 F 1 "TCA9555" H 16950 35791 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 17150 36050 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 17150 36050 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 17250 36150 60  0001 C CNN
 F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 17200 36300 60  0001 C CNN "Characteristics"
 F 5 "Texas Instruments" H 16950 36400 60  0001 C CNN "Manufacturer"
@@ -5222,7 +5222,7 @@ U 1 1 5A897F51
 P 17550 34350
 F 0 "R37" H 17609 34396 50  0000 L CNN
 F 1 "10kΩ" H 17609 34305 50  0000 L CNN
-F 2 "" H 17550 34350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 17550 34350 50  0001 C CNN
 F 3 "" H 17550 34350 50  0001 C CNN
 	1    17550 34350
 	1    0    0    -1  
@@ -5233,7 +5233,7 @@ U 1 1 5A897F58
 P 17650 33950
 F 0 "C78" V 17421 33950 50  0000 C CNN
 F 1 "0.1uF" V 17512 33950 50  0000 C CNN
-F 2 "" H 17650 33950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 17650 33950 50  0001 C CNN
 F 3 "" H 17650 33950 50  0001 C CNN
 	1    17650 33950
 	0    1    1    0   
@@ -5536,7 +5536,7 @@ U 1 1 5A7C3B96
 P 15050 14950
 F 0 "J5" H 15130 14992 50  0000 L CNN
 F 1 "Mixer Audio In" H 15130 14901 50  0000 L CNN
-F 2 "" H 15050 14950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 15050 14950 50  0001 C CNN
 F 3 "" H 15050 14950 50  0001 C CNN
 	1    15050 14950
 	-1   0    0    -1  
@@ -5694,7 +5694,7 @@ U 1 1 5A7DD76D
 P 14450 28850
 F 0 "R18" H 14509 28896 50  0000 L CNN
 F 1 "4k7Ω" H 14509 28805 50  0000 L CNN
-F 2 "" H 14450 28850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 14450 28850 50  0001 C CNN
 F 3 "" H 14450 28850 50  0001 C CNN
 	1    14450 28850
 	1    0    0    -1  
@@ -5705,7 +5705,7 @@ U 1 1 5A7DF32A
 P 14350 28850
 F 0 "R17" H 14292 28896 50  0000 R CNN
 F 1 "4k7Ω" H 14292 28805 50  0000 R CNN
-F 2 "" H 14350 28850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 14350 28850 50  0001 C CNN
 F 3 "" H 14350 28850 50  0001 C CNN
 	1    14350 28850
 	1    0    0    -1  
@@ -5740,7 +5740,7 @@ U 1 1 5A7F598F
 P 14800 29400
 F 0 "R24" H 14742 29446 50  0000 R CNN
 F 1 "10kΩ" H 14742 29355 50  0000 R CNN
-F 2 "" H 14800 29400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 14800 29400 50  0001 C CNN
 F 3 "" H 14800 29400 50  0001 C CNN
 	1    14800 29400
 	1    0    0    -1  
@@ -5762,7 +5762,7 @@ U 1 1 5A811C2D
 P 14900 29050
 F 0 "C70" H 14809 29004 50  0000 R CNN
 F 1 "0.1uF" H 14809 29095 50  0000 R CNN
-F 2 "" H 14900 29050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14900 29050 50  0001 C CNN
 F 3 "" H 14900 29050 50  0001 C CNN
 	1    14900 29050
 	1    0    0    1   
@@ -5781,7 +5781,7 @@ U 1 1 5A84229E
 P 16800 28700
 F 0 "R15" H 16859 28746 50  0000 L CNN
 F 1 "4k7Ω" H 16859 28655 50  0000 L CNN
-F 2 "" H 16800 28700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 16800 28700 50  0001 C CNN
 F 3 "" H 16800 28700 50  0001 C CNN
 	1    16800 28700
 	1    0    0    -1  
@@ -5792,7 +5792,7 @@ U 1 1 5A84589D
 P 17100 28800
 F 0 "R16" H 17159 28846 50  0000 L CNN
 F 1 "4k7Ω" H 17159 28755 50  0000 L CNN
-F 2 "" H 17100 28800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 17100 28800 50  0001 C CNN
 F 3 "" H 17100 28800 50  0001 C CNN
 	1    17100 28800
 	1    0    0    -1  
@@ -5803,7 +5803,7 @@ U 1 1 5A849CA3
 P 17400 28900
 F 0 "R19" H 17459 28946 50  0000 L CNN
 F 1 "4k7Ω" H 17459 28855 50  0000 L CNN
-F 2 "" H 17400 28900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 17400 28900 50  0001 C CNN
 F 3 "" H 17400 28900 50  0001 C CNN
 	1    17400 28900
 	1    0    0    -1  
@@ -5814,7 +5814,7 @@ U 1 1 5A84D5FD
 P 17700 29000
 F 0 "R20" H 17759 29046 50  0000 L CNN
 F 1 "4k7Ω" H 17759 28955 50  0000 L CNN
-F 2 "" H 17700 29000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 17700 29000 50  0001 C CNN
 F 3 "" H 17700 29000 50  0001 C CNN
 	1    17700 29000
 	1    0    0    -1  
@@ -5914,7 +5914,7 @@ U 1 1 5A92FDA9
 P 18000 29100
 F 0 "R21" H 18059 29146 50  0000 L CNN
 F 1 "4k7Ω" H 18059 29055 50  0000 L CNN
-F 2 "" H 18000 29100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 18000 29100 50  0001 C CNN
 F 3 "" H 18000 29100 50  0001 C CNN
 	1    18000 29100
 	1    0    0    -1  
@@ -8958,7 +8958,7 @@ U 1 1 5A93D1A3
 P 18300 29200
 F 0 "R22" H 18359 29246 50  0000 L CNN
 F 1 "4k7Ω" H 18359 29155 50  0000 L CNN
-F 2 "" H 18300 29200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 18300 29200 50  0001 C CNN
 F 3 "" H 18300 29200 50  0001 C CNN
 	1    18300 29200
 	1    0    0    -1  
@@ -8969,7 +8969,7 @@ U 1 1 5A944F7A
 P 18600 29300
 F 0 "R23" H 18659 29346 50  0000 L CNN
 F 1 "4k7Ω" H 18659 29255 50  0000 L CNN
-F 2 "" H 18600 29300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 18600 29300 50  0001 C CNN
 F 3 "" H 18600 29300 50  0001 C CNN
 	1    18600 29300
 	1    0    0    -1  
@@ -8980,7 +8980,7 @@ U 1 1 5A944F81
 P 18900 29400
 F 0 "R25" H 18959 29446 50  0000 L CNN
 F 1 "4k7Ω" H 18959 29355 50  0000 L CNN
-F 2 "" H 18900 29400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 18900 29400 50  0001 C CNN
 F 3 "" H 18900 29400 50  0001 C CNN
 	1    18900 29400
 	1    0    0    -1  
@@ -8991,7 +8991,7 @@ U 1 1 5A945333
 P 19200 29500
 F 0 "R26" H 19259 29546 50  0000 L CNN
 F 1 "4k7Ω" H 19259 29455 50  0000 L CNN
-F 2 "" H 19200 29500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 19200 29500 50  0001 C CNN
 F 3 "" H 19200 29500 50  0001 C CNN
 	1    19200 29500
 	1    0    0    -1  
@@ -9002,7 +9002,7 @@ U 1 1 5A94533A
 P 19500 29600
 F 0 "R27" H 19559 29646 50  0000 L CNN
 F 1 "4k7Ω" H 19559 29555 50  0000 L CNN
-F 2 "" H 19500 29600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 19500 29600 50  0001 C CNN
 F 3 "" H 19500 29600 50  0001 C CNN
 	1    19500 29600
 	1    0    0    -1  
@@ -9013,7 +9013,7 @@ U 1 1 5A9468EF
 P 19800 29700
 F 0 "R28" H 19859 29746 50  0000 L CNN
 F 1 "4k7Ω" H 19859 29655 50  0000 L CNN
-F 2 "" H 19800 29700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 19800 29700 50  0001 C CNN
 F 3 "" H 19800 29700 50  0001 C CNN
 	1    19800 29700
 	1    0    0    -1  
@@ -9024,7 +9024,7 @@ U 1 1 5A9468F6
 P 20100 29800
 F 0 "R29" H 20159 29846 50  0000 L CNN
 F 1 "4k7Ω" H 20159 29755 50  0000 L CNN
-F 2 "" H 20100 29800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 20100 29800 50  0001 C CNN
 F 3 "" H 20100 29800 50  0001 C CNN
 	1    20100 29800
 	1    0    0    -1  
@@ -9035,7 +9035,7 @@ U 1 1 5A946CAC
 P 20400 29900
 F 0 "R30" H 20459 29946 50  0000 L CNN
 F 1 "4k7Ω" H 20459 29855 50  0000 L CNN
-F 2 "" H 20400 29900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 20400 29900 50  0001 C CNN
 F 3 "" H 20400 29900 50  0001 C CNN
 	1    20400 29900
 	1    0    0    -1  
@@ -9046,7 +9046,7 @@ U 1 1 5A946CB3
 P 20700 30000
 F 0 "R31" H 20759 30046 50  0000 L CNN
 F 1 "4k7Ω" H 20759 29955 50  0000 L CNN
-F 2 "" H 20700 30000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 20700 30000 50  0001 C CNN
 F 3 "" H 20700 30000 50  0001 C CNN
 	1    20700 30000
 	1    0    0    -1  
@@ -9057,7 +9057,7 @@ U 1 1 5A947405
 P 21000 30100
 F 0 "R32" H 21059 30146 50  0000 L CNN
 F 1 "4k7Ω" H 21059 30055 50  0000 L CNN
-F 2 "" H 21000 30100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 21000 30100 50  0001 C CNN
 F 3 "" H 21000 30100 50  0001 C CNN
 	1    21000 30100
 	1    0    0    -1  
@@ -9068,7 +9068,7 @@ U 1 1 5A94740C
 P 21300 30200
 F 0 "R33" H 21359 30246 50  0000 L CNN
 F 1 "4k7Ω" H 21359 30155 50  0000 L CNN
-F 2 "" H 21300 30200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 21300 30200 50  0001 C CNN
 F 3 "" H 21300 30200 50  0001 C CNN
 	1    21300 30200
 	1    0    0    -1  
@@ -9160,7 +9160,7 @@ U 1 1 5A96966A
 P 16150 30950
 F 0 "J18" V 16023 30662 50  0000 R CNN
 F 1 "5V-I2C-2" V 16114 30662 50  0000 R CNN
-F 2 "" H 16150 30950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 16150 30950 50  0001 C CNN
 F 3 "" H 16150 30950 50  0001 C CNN
 	1    16150 30950
 	0    -1   1    0   
@@ -9171,7 +9171,7 @@ U 1 1 5A9704A1
 P 17000 30950
 F 0 "J19" V 16873 30662 50  0000 R CNN
 F 1 "5V-I2C-3" V 16964 30662 50  0000 R CNN
-F 2 "" H 17000 30950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 17000 30950 50  0001 C CNN
 F 3 "" H 17000 30950 50  0001 C CNN
 	1    17000 30950
 	0    -1   1    0   
@@ -9182,7 +9182,7 @@ U 1 1 5A971B92
 P 17850 30950
 F 0 "J20" V 17723 30662 50  0000 R CNN
 F 1 "5V-I2C-4" V 17814 30662 50  0000 R CNN
-F 2 "" H 17850 30950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 17850 30950 50  0001 C CNN
 F 3 "" H 17850 30950 50  0001 C CNN
 	1    17850 30950
 	0    -1   1    0   
@@ -9193,7 +9193,7 @@ U 1 1 5A972A48
 P 18700 30950
 F 0 "J21" V 18573 30662 50  0000 R CNN
 F 1 "5V-I2C-5" V 18664 30662 50  0000 R CNN
-F 2 "" H 18700 30950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 18700 30950 50  0001 C CNN
 F 3 "" H 18700 30950 50  0001 C CNN
 	1    18700 30950
 	0    -1   1    0   
@@ -9204,7 +9204,7 @@ U 1 1 5A975BA6
 P 19550 30950
 F 0 "J22" V 19423 30662 50  0000 R CNN
 F 1 "5V-I2C-6" V 19514 30662 50  0000 R CNN
-F 2 "" H 19550 30950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 19550 30950 50  0001 C CNN
 F 3 "" H 19550 30950 50  0001 C CNN
 	1    19550 30950
 	0    -1   1    0   
@@ -9301,7 +9301,7 @@ U 1 1 5A993F11
 P 19300 31650
 F 0 "J23" H 19380 31642 50  0000 L CNN
 F 1 "Extra GPIO" H 19380 31551 50  0000 L CNN
-F 2 "" H 19300 31650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 19300 31650 50  0001 C CNN
 F 3 "" H 19300 31650 50  0001 C CNN
 	1    19300 31650
 	-1   0    0    -1  

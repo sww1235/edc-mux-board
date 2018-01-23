@@ -70,7 +70,7 @@ AR Path="/58DEDA38/5A48866B" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5A4829FB/5A48866B" Ref="U11"  Part="1" 
 F 0 "U11" H 9825 15897 60  0000 C CNN
 F 1 "ADG734" H 9825 15791 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 16500 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 16500 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 16400 60  0001 C CNN
 F 4 "0.00@0" H 9850 16000 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 16300 60  0001 C CNN "Manufacturer"
@@ -87,7 +87,7 @@ AR Path="/58DEDA38/5A488676" Ref="U?"  Part="2"
 AR Path="/58DEDA38/5A4829FB/5A488676" Ref="U11"  Part="2" 
 F 0 "U11" H 9825 15709 60  0000 C CNN
 F 1 "ADG734" H 9825 15603 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 16950 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 16950 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 16850 60  0001 C CNN
 F 4 "0.00@0" H 9850 16450 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 16750 60  0001 C CNN "Manufacturer"
@@ -104,7 +104,7 @@ AR Path="/58DEDA38/5A488681" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5A4829FB/5A488681" Ref="U11"  Part="3" 
 F 0 "U11" H 9825 17247 60  0000 C CNN
 F 1 "ADG734" H 9825 17141 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 17850 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 17850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 17750 60  0001 C CNN
 F 4 "0.00@0" H 9850 17350 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 17650 60  0001 C CNN "Manufacturer"
@@ -121,7 +121,7 @@ AR Path="/58DEDA38/5A48868C" Ref="U?"  Part="4"
 AR Path="/58DEDA38/5A4829FB/5A48868C" Ref="U11"  Part="4" 
 F 0 "U11" H 9825 17059 60  0000 C CNN
 F 1 "ADG734" H 9825 16953 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 18300 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 18300 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 18200 60  0001 C CNN
 F 4 "0.00@0" H 9850 17800 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 18100 60  0001 C CNN "Manufacturer"
@@ -138,7 +138,7 @@ AR Path="/58DEDA38/5A488697" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5A4829FB/5A488697" Ref="U13"  Part="1" 
 F 0 "U13" H 9825 18597 60  0000 C CNN
 F 1 "ADG734" H 9825 18491 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 19200 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 19200 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 19100 60  0001 C CNN
 F 4 "0.00@0" H 9850 18700 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 19000 60  0001 C CNN "Manufacturer"
@@ -155,7 +155,7 @@ AR Path="/58DEDA38/5A4886A2" Ref="U?"  Part="2"
 AR Path="/58DEDA38/5A4829FB/5A4886A2" Ref="U13"  Part="2" 
 F 0 "U13" H 9825 18409 60  0000 C CNN
 F 1 "ADG734" H 9825 18303 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 19650 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 19650 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 19550 60  0001 C CNN
 F 4 "0.00@0" H 9850 19150 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 19450 60  0001 C CNN "Manufacturer"
@@ -172,7 +172,7 @@ AR Path="/58DEDA38/5A4886AD" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5A4829FB/5A4886AD" Ref="U13"  Part="3" 
 F 0 "U13" H 9825 19947 60  0000 C CNN
 F 1 "ADG734" H 9825 19841 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 20550 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 20550 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 20450 60  0001 C CNN
 F 4 "0.00@0" H 9850 20050 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 20350 60  0001 C CNN "Manufacturer"
@@ -189,7 +189,7 @@ AR Path="/58DEDA38/5A4886B8" Ref="U?"  Part="4"
 AR Path="/58DEDA38/5A4829FB/5A4886B8" Ref="U13"  Part="4" 
 F 0 "U13" H 9825 19759 60  0000 C CNN
 F 1 "ADG734" H 9825 19653 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 21000 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 21000 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 20900 60  0001 C CNN
 F 4 "0.00@0" H 9850 20500 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 20800 60  0001 C CNN "Manufacturer"
@@ -206,7 +206,7 @@ AR Path="/58DEDA38/5A4886C3" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5A4829FB/5A4886C3" Ref="U14"  Part="1" 
 F 0 "U14" H 9825 21297 60  0000 C CNN
 F 1 "ADG734" H 9825 21191 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 21900 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 21900 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 21800 60  0001 C CNN
 F 4 "0.00@0" H 9850 21400 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 21700 60  0001 C CNN "Manufacturer"
@@ -223,7 +223,7 @@ AR Path="/58DEDA38/5A4886CE" Ref="U?"  Part="2"
 AR Path="/58DEDA38/5A4829FB/5A4886CE" Ref="U14"  Part="2" 
 F 0 "U14" H 9825 21109 60  0000 C CNN
 F 1 "ADG734" H 9825 21003 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 22350 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 22350 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 22250 60  0001 C CNN
 F 4 "0.00@0" H 9850 21850 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 22150 60  0001 C CNN "Manufacturer"
@@ -240,7 +240,7 @@ AR Path="/58DEDA38/5A4886D9" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5A4829FB/5A4886D9" Ref="U14"  Part="3" 
 F 0 "U14" H 9825 22647 60  0000 C CNN
 F 1 "ADG734" H 9825 22541 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 23250 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 23250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 23150 60  0001 C CNN
 F 4 "0.00@0" H 9850 22750 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 23050 60  0001 C CNN "Manufacturer"
@@ -257,7 +257,7 @@ AR Path="/58DEDA38/5A4886E4" Ref="U?"  Part="4"
 AR Path="/58DEDA38/5A4829FB/5A4886E4" Ref="U14"  Part="4" 
 F 0 "U14" H 9825 22459 60  0000 C CNN
 F 1 "ADG734" H 9825 22353 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 23700 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 23700 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 23600 60  0001 C CNN
 F 4 "0.00@0" H 9850 23200 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 23500 60  0001 C CNN "Manufacturer"
@@ -274,7 +274,7 @@ AR Path="/58DEDA38/5A4886EF" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5A4829FB/5A4886EF" Ref="U16"  Part="1" 
 F 0 "U16" H 9825 23997 60  0000 C CNN
 F 1 "ADG734" H 9825 23891 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 24600 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 24600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 24500 60  0001 C CNN
 F 4 "0.00@0" H 9850 24100 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 24400 60  0001 C CNN "Manufacturer"
@@ -291,7 +291,7 @@ AR Path="/58DEDA38/5A4886FA" Ref="U?"  Part="2"
 AR Path="/58DEDA38/5A4829FB/5A4886FA" Ref="U16"  Part="2" 
 F 0 "U16" H 9825 23809 60  0000 C CNN
 F 1 "ADG734" H 9825 23703 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 25050 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 25050 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 24950 60  0001 C CNN
 F 4 "0.00@0" H 9850 24550 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 24850 60  0001 C CNN "Manufacturer"
@@ -308,7 +308,7 @@ AR Path="/58DEDA38/5A488705" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5A4829FB/5A488705" Ref="U16"  Part="3" 
 F 0 "U16" H 9825 25347 60  0000 C CNN
 F 1 "ADG734" H 9825 25241 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 25950 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 25950 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 25850 60  0001 C CNN
 F 4 "0.00@0" H 9850 25450 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 25750 60  0001 C CNN "Manufacturer"
@@ -325,7 +325,7 @@ AR Path="/58DEDA38/5A488710" Ref="U?"  Part="4"
 AR Path="/58DEDA38/5A4829FB/5A488710" Ref="U16"  Part="4" 
 F 0 "U16" H 9825 25159 60  0000 C CNN
 F 1 "ADG734" H 9825 25053 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 9950 26400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 26400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 26300 60  0001 C CNN
 F 4 "0.00@0" H 9850 25900 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 26200 60  0001 C CNN "Manufacturer"
@@ -340,7 +340,7 @@ U 1 1 5A48875E
 P 7800 1500
 F 0 "U57" H 7800 2097 60  0000 C CNN
 F 1 "ADG708" H 7800 1991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7150 4300 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 4300 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 4400 60  0001 C CNN
 F 4 "0.00@0" H 7800 4050 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7350 4500 60  0001 C CNN "Characteristics"
@@ -356,7 +356,7 @@ U 1 1 5A488765
 P 8750 1650
 F 0 "C146" H 8842 1696 50  0000 L CNN
 F 1 "0.1uF" H 8842 1605 50  0000 L CNN
-F 2 "" H 8750 1650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 1650 50  0001 C CNN
 F 3 "" H 8750 1650 50  0001 C CNN
 	1    8750 1650
 	1    0    0    -1  
@@ -367,7 +367,7 @@ U 1 1 5A48876C
 P 8550 1850
 F 0 "C148" H 8642 1896 50  0000 L CNN
 F 1 "0.1uF" H 8642 1805 50  0000 L CNN
-F 2 "" H 8550 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 1850 50  0001 C CNN
 F 3 "" H 8550 1850 50  0001 C CNN
 	1    8550 1850
 	1    0    0    -1  
@@ -401,7 +401,7 @@ U 1 1 5A48E6EE
 P 13050 21900
 F 0 "U75" H 13050 22947 60  0000 C CNN
 F 1 "TCA9555" H 13050 22841 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 13250 23100 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 13250 23100 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 13350 23200 60  0001 C CNN
 F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 13300 23350 60  0001 C CNN "Characteristics"
 F 5 "Texas Instruments" H 13050 23450 60  0001 C CNN "Manufacturer"
@@ -511,7 +511,7 @@ U 1 1 5A493E86
 P 7800 2800
 F 0 "U59" H 7800 3397 60  0000 C CNN
 F 1 "ADG708" H 7800 3291 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7150 5600 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 5600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 5700 60  0001 C CNN
 F 4 "0.00@0" H 7800 5350 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7350 5800 60  0001 C CNN "Characteristics"
@@ -527,7 +527,7 @@ U 1 1 5A493E8D
 P 8750 2950
 F 0 "C150" H 8842 2996 50  0000 L CNN
 F 1 "0.1uF" H 8842 2905 50  0000 L CNN
-F 2 "" H 8750 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 2950 50  0001 C CNN
 F 3 "" H 8750 2950 50  0001 C CNN
 	1    8750 2950
 	1    0    0    -1  
@@ -538,7 +538,7 @@ U 1 1 5A493E94
 P 8550 3150
 F 0 "C152" H 8642 3196 50  0000 L CNN
 F 1 "0.1uF" H 8642 3105 50  0000 L CNN
-F 2 "" H 8550 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 3150 50  0001 C CNN
 F 3 "" H 8550 3150 50  0001 C CNN
 	1    8550 3150
 	1    0    0    -1  
@@ -572,7 +572,7 @@ U 1 1 5A4942C9
 P 7800 4100
 F 0 "U61" H 7800 4697 60  0000 C CNN
 F 1 "ADG708" H 7800 4591 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7150 6900 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 6900 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 7000 60  0001 C CNN
 F 4 "0.00@0" H 7800 6650 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7350 7100 60  0001 C CNN "Characteristics"
@@ -588,7 +588,7 @@ U 1 1 5A4942D0
 P 8750 4250
 F 0 "C154" H 8842 4296 50  0000 L CNN
 F 1 "0.1uF" H 8842 4205 50  0000 L CNN
-F 2 "" H 8750 4250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 4250 50  0001 C CNN
 F 3 "" H 8750 4250 50  0001 C CNN
 	1    8750 4250
 	1    0    0    -1  
@@ -599,7 +599,7 @@ U 1 1 5A4942D7
 P 8550 4450
 F 0 "C156" H 8642 4496 50  0000 L CNN
 F 1 "0.1uF" H 8642 4405 50  0000 L CNN
-F 2 "" H 8550 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 4450 50  0001 C CNN
 F 3 "" H 8550 4450 50  0001 C CNN
 	1    8550 4450
 	1    0    0    -1  
@@ -633,7 +633,7 @@ U 1 1 5A494577
 P 7800 5400
 F 0 "U63" H 7800 5997 60  0000 C CNN
 F 1 "ADG708" H 7800 5891 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7150 8200 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 8200 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 8300 60  0001 C CNN
 F 4 "0.00@0" H 7800 7950 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7350 8400 60  0001 C CNN "Characteristics"
@@ -649,7 +649,7 @@ U 1 1 5A49457E
 P 8750 5550
 F 0 "C158" H 8842 5596 50  0000 L CNN
 F 1 "0.1uF" H 8842 5505 50  0000 L CNN
-F 2 "" H 8750 5550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 5550 50  0001 C CNN
 F 3 "" H 8750 5550 50  0001 C CNN
 	1    8750 5550
 	1    0    0    -1  
@@ -660,7 +660,7 @@ U 1 1 5A494585
 P 8550 5750
 F 0 "C160" H 8642 5796 50  0000 L CNN
 F 1 "0.1uF" H 8642 5705 50  0000 L CNN
-F 2 "" H 8550 5750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 5750 50  0001 C CNN
 F 3 "" H 8550 5750 50  0001 C CNN
 	1    8550 5750
 	1    0    0    -1  
@@ -694,7 +694,7 @@ U 1 1 5A494689
 P 7800 6700
 F 0 "U65" H 7800 7297 60  0000 C CNN
 F 1 "ADG708" H 7800 7191 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7150 9500 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 9500 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 9600 60  0001 C CNN
 F 4 "0.00@0" H 7800 9250 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7350 9700 60  0001 C CNN "Characteristics"
@@ -710,7 +710,7 @@ U 1 1 5A494690
 P 8750 6850
 F 0 "C162" H 8842 6896 50  0000 L CNN
 F 1 "0.1uF" H 8842 6805 50  0000 L CNN
-F 2 "" H 8750 6850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 6850 50  0001 C CNN
 F 3 "" H 8750 6850 50  0001 C CNN
 	1    8750 6850
 	1    0    0    -1  
@@ -721,7 +721,7 @@ U 1 1 5A494697
 P 8550 7050
 F 0 "C164" H 8642 7096 50  0000 L CNN
 F 1 "0.1uF" H 8642 7005 50  0000 L CNN
-F 2 "" H 8550 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 7050 50  0001 C CNN
 F 3 "" H 8550 7050 50  0001 C CNN
 	1    8550 7050
 	1    0    0    -1  
@@ -755,7 +755,7 @@ U 1 1 5A494878
 P 7800 8000
 F 0 "U67" H 7800 8597 60  0000 C CNN
 F 1 "ADG708" H 7800 8491 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7150 10800 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 10800 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 10900 60  0001 C CNN
 F 4 "0.00@0" H 7800 10550 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7350 11000 60  0001 C CNN "Characteristics"
@@ -771,7 +771,7 @@ U 1 1 5A49487F
 P 8750 8150
 F 0 "C166" H 8842 8196 50  0000 L CNN
 F 1 "0.1uF" H 8842 8105 50  0000 L CNN
-F 2 "" H 8750 8150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 8150 50  0001 C CNN
 F 3 "" H 8750 8150 50  0001 C CNN
 	1    8750 8150
 	1    0    0    -1  
@@ -782,7 +782,7 @@ U 1 1 5A494886
 P 8550 8350
 F 0 "C168" H 8642 8396 50  0000 L CNN
 F 1 "0.1uF" H 8642 8305 50  0000 L CNN
-F 2 "" H 8550 8350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 8350 50  0001 C CNN
 F 3 "" H 8550 8350 50  0001 C CNN
 	1    8550 8350
 	1    0    0    -1  
@@ -816,7 +816,7 @@ U 1 1 5A494913
 P 7800 9300
 F 0 "U69" H 7800 9897 60  0000 C CNN
 F 1 "ADG708" H 7800 9791 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7150 12100 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 12100 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 12200 60  0001 C CNN
 F 4 "0.00@0" H 7800 11850 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7350 12300 60  0001 C CNN "Characteristics"
@@ -832,7 +832,7 @@ U 1 1 5A49491A
 P 8750 9450
 F 0 "C170" H 8842 9496 50  0000 L CNN
 F 1 "0.1uF" H 8842 9405 50  0000 L CNN
-F 2 "" H 8750 9450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 9450 50  0001 C CNN
 F 3 "" H 8750 9450 50  0001 C CNN
 	1    8750 9450
 	1    0    0    -1  
@@ -843,7 +843,7 @@ U 1 1 5A494921
 P 8550 9650
 F 0 "C172" H 8642 9696 50  0000 L CNN
 F 1 "0.1uF" H 8642 9605 50  0000 L CNN
-F 2 "" H 8550 9650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 9650 50  0001 C CNN
 F 3 "" H 8550 9650 50  0001 C CNN
 	1    8550 9650
 	1    0    0    -1  
@@ -877,7 +877,7 @@ U 1 1 5A4949D5
 P 7800 10600
 F 0 "U71" H 7800 11197 60  0000 C CNN
 F 1 "ADG708" H 7800 11091 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7150 13400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 13400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 13500 60  0001 C CNN
 F 4 "0.00@0" H 7800 13150 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 7350 13600 60  0001 C CNN "Characteristics"
@@ -893,7 +893,7 @@ U 1 1 5A4949DC
 P 8750 10750
 F 0 "C174" H 8842 10796 50  0000 L CNN
 F 1 "0.1uF" H 8842 10705 50  0000 L CNN
-F 2 "" H 8750 10750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 10750 50  0001 C CNN
 F 3 "" H 8750 10750 50  0001 C CNN
 	1    8750 10750
 	1    0    0    -1  
@@ -904,7 +904,7 @@ U 1 1 5A4949E3
 P 8550 10950
 F 0 "C176" H 8642 10996 50  0000 L CNN
 F 1 "0.1uF" H 8642 10905 50  0000 L CNN
-F 2 "" H 8550 10950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 10950 50  0001 C CNN
 F 3 "" H 8550 10950 50  0001 C CNN
 	1    8550 10950
 	1    0    0    -1  
@@ -1178,7 +1178,7 @@ U 1 1 5A560746
 P 13250 1500
 F 0 "U58" H 13250 2097 60  0000 C CNN
 F 1 "ADG708" H 13250 1991 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 12600 4300 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 4300 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 4400 60  0001 C CNN
 F 4 "0.00@0" H 13250 4050 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 12800 4500 60  0001 C CNN "Characteristics"
@@ -1194,7 +1194,7 @@ U 1 1 5A56074D
 P 14200 1650
 F 0 "C147" H 14292 1696 50  0000 L CNN
 F 1 "0.1uF" H 14292 1605 50  0000 L CNN
-F 2 "" H 14200 1650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 1650 50  0001 C CNN
 F 3 "" H 14200 1650 50  0001 C CNN
 	1    14200 1650
 	1    0    0    -1  
@@ -1205,7 +1205,7 @@ U 1 1 5A560754
 P 14000 1850
 F 0 "C149" H 14092 1896 50  0000 L CNN
 F 1 "0.1uF" H 14092 1805 50  0000 L CNN
-F 2 "" H 14000 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 1850 50  0001 C CNN
 F 3 "" H 14000 1850 50  0001 C CNN
 	1    14000 1850
 	1    0    0    -1  
@@ -1239,7 +1239,7 @@ U 1 1 5A56076D
 P 13250 2800
 F 0 "U60" H 13250 3397 60  0000 C CNN
 F 1 "ADG708" H 13250 3291 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 12600 5600 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 5600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 5700 60  0001 C CNN
 F 4 "0.00@0" H 13250 5350 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 12800 5800 60  0001 C CNN "Characteristics"
@@ -1255,7 +1255,7 @@ U 1 1 5A560774
 P 14200 2950
 F 0 "C151" H 14292 2996 50  0000 L CNN
 F 1 "0.1uF" H 14292 2905 50  0000 L CNN
-F 2 "" H 14200 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 2950 50  0001 C CNN
 F 3 "" H 14200 2950 50  0001 C CNN
 	1    14200 2950
 	1    0    0    -1  
@@ -1266,7 +1266,7 @@ U 1 1 5A56077B
 P 14000 3150
 F 0 "C153" H 14092 3196 50  0000 L CNN
 F 1 "0.1uF" H 14092 3105 50  0000 L CNN
-F 2 "" H 14000 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 3150 50  0001 C CNN
 F 3 "" H 14000 3150 50  0001 C CNN
 	1    14000 3150
 	1    0    0    -1  
@@ -1300,7 +1300,7 @@ U 1 1 5A560794
 P 13250 4100
 F 0 "U62" H 13250 4697 60  0000 C CNN
 F 1 "ADG708" H 13250 4591 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 12600 6900 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 6900 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 7000 60  0001 C CNN
 F 4 "0.00@0" H 13250 6650 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 12800 7100 60  0001 C CNN "Characteristics"
@@ -1316,7 +1316,7 @@ U 1 1 5A56079B
 P 14200 4250
 F 0 "C155" H 14292 4296 50  0000 L CNN
 F 1 "0.1uF" H 14292 4205 50  0000 L CNN
-F 2 "" H 14200 4250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 4250 50  0001 C CNN
 F 3 "" H 14200 4250 50  0001 C CNN
 	1    14200 4250
 	1    0    0    -1  
@@ -1327,7 +1327,7 @@ U 1 1 5A5607A2
 P 14000 4450
 F 0 "C157" H 14092 4496 50  0000 L CNN
 F 1 "0.1uF" H 14092 4405 50  0000 L CNN
-F 2 "" H 14000 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 4450 50  0001 C CNN
 F 3 "" H 14000 4450 50  0001 C CNN
 	1    14000 4450
 	1    0    0    -1  
@@ -1361,7 +1361,7 @@ U 1 1 5A5607BB
 P 13250 5400
 F 0 "U64" H 13250 5997 60  0000 C CNN
 F 1 "ADG708" H 13250 5891 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 12600 8200 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 8200 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 8300 60  0001 C CNN
 F 4 "0.00@0" H 13250 7950 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 12800 8400 60  0001 C CNN "Characteristics"
@@ -1377,7 +1377,7 @@ U 1 1 5A5607C2
 P 14200 5550
 F 0 "C159" H 14292 5596 50  0000 L CNN
 F 1 "0.1uF" H 14292 5505 50  0000 L CNN
-F 2 "" H 14200 5550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 5550 50  0001 C CNN
 F 3 "" H 14200 5550 50  0001 C CNN
 	1    14200 5550
 	1    0    0    -1  
@@ -1388,7 +1388,7 @@ U 1 1 5A5607C9
 P 14000 5750
 F 0 "C161" H 14092 5796 50  0000 L CNN
 F 1 "0.1uF" H 14092 5705 50  0000 L CNN
-F 2 "" H 14000 5750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 5750 50  0001 C CNN
 F 3 "" H 14000 5750 50  0001 C CNN
 	1    14000 5750
 	1    0    0    -1  
@@ -1422,7 +1422,7 @@ U 1 1 5A5607E2
 P 13250 6700
 F 0 "U66" H 13250 7297 60  0000 C CNN
 F 1 "ADG708" H 13250 7191 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 12600 9500 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 9500 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 9600 60  0001 C CNN
 F 4 "0.00@0" H 13250 9250 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 12800 9700 60  0001 C CNN "Characteristics"
@@ -1438,7 +1438,7 @@ U 1 1 5A5607E9
 P 14200 6850
 F 0 "C163" H 14292 6896 50  0000 L CNN
 F 1 "0.1uF" H 14292 6805 50  0000 L CNN
-F 2 "" H 14200 6850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 6850 50  0001 C CNN
 F 3 "" H 14200 6850 50  0001 C CNN
 	1    14200 6850
 	1    0    0    -1  
@@ -1449,7 +1449,7 @@ U 1 1 5A5607F0
 P 14000 7050
 F 0 "C165" H 14092 7096 50  0000 L CNN
 F 1 "0.1uF" H 14092 7005 50  0000 L CNN
-F 2 "" H 14000 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 7050 50  0001 C CNN
 F 3 "" H 14000 7050 50  0001 C CNN
 	1    14000 7050
 	1    0    0    -1  
@@ -1483,7 +1483,7 @@ U 1 1 5A560809
 P 13250 8000
 F 0 "U68" H 13250 8597 60  0000 C CNN
 F 1 "ADG708" H 13250 8491 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 12600 10800 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 10800 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 10900 60  0001 C CNN
 F 4 "0.00@0" H 13250 10550 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 12800 11000 60  0001 C CNN "Characteristics"
@@ -1499,7 +1499,7 @@ U 1 1 5A560810
 P 14200 8150
 F 0 "C167" H 14292 8196 50  0000 L CNN
 F 1 "0.1uF" H 14292 8105 50  0000 L CNN
-F 2 "" H 14200 8150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 8150 50  0001 C CNN
 F 3 "" H 14200 8150 50  0001 C CNN
 	1    14200 8150
 	1    0    0    -1  
@@ -1510,7 +1510,7 @@ U 1 1 5A560817
 P 14000 8350
 F 0 "C169" H 14092 8396 50  0000 L CNN
 F 1 "0.1uF" H 14092 8305 50  0000 L CNN
-F 2 "" H 14000 8350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 8350 50  0001 C CNN
 F 3 "" H 14000 8350 50  0001 C CNN
 	1    14000 8350
 	1    0    0    -1  
@@ -1544,7 +1544,7 @@ U 1 1 5A560830
 P 13250 9300
 F 0 "U70" H 13250 9897 60  0000 C CNN
 F 1 "ADG708" H 13250 9791 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 12600 12100 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 12100 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 12200 60  0001 C CNN
 F 4 "0.00@0" H 13250 11850 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 12800 12300 60  0001 C CNN "Characteristics"
@@ -1560,7 +1560,7 @@ U 1 1 5A560837
 P 14200 9450
 F 0 "C171" H 14292 9496 50  0000 L CNN
 F 1 "0.1uF" H 14292 9405 50  0000 L CNN
-F 2 "" H 14200 9450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 9450 50  0001 C CNN
 F 3 "" H 14200 9450 50  0001 C CNN
 	1    14200 9450
 	1    0    0    -1  
@@ -1571,7 +1571,7 @@ U 1 1 5A56083E
 P 14000 9650
 F 0 "C173" H 14092 9696 50  0000 L CNN
 F 1 "0.1uF" H 14092 9605 50  0000 L CNN
-F 2 "" H 14000 9650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 9650 50  0001 C CNN
 F 3 "" H 14000 9650 50  0001 C CNN
 	1    14000 9650
 	1    0    0    -1  
@@ -1605,7 +1605,7 @@ U 1 1 5A560857
 P 13250 10600
 F 0 "U72" H 13250 11197 60  0000 C CNN
 F 1 "ADG708" H 13250 11091 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 12600 13400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 13400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 13500 60  0001 C CNN
 F 4 "0.00@0" H 13250 13150 60  0001 C CNN "Pricing"
 F 5 "1.8 V to 5.5 V single supply, ±2.5 V dual supply, 3 Ω on resistance, 0.75 Ω on resistance flatness, 100 pA leakage currents, 14 ns switching times" H 12800 13600 60  0001 C CNN "Characteristics"
@@ -1621,7 +1621,7 @@ U 1 1 5A56085E
 P 14200 10750
 F 0 "C175" H 14292 10796 50  0000 L CNN
 F 1 "0.1uF" H 14292 10705 50  0000 L CNN
-F 2 "" H 14200 10750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 10750 50  0001 C CNN
 F 3 "" H 14200 10750 50  0001 C CNN
 	1    14200 10750
 	1    0    0    -1  
@@ -1632,7 +1632,7 @@ U 1 1 5A560865
 P 14000 10950
 F 0 "C177" H 14092 10996 50  0000 L CNN
 F 1 "0.1uF" H 14092 10905 50  0000 L CNN
-F 2 "" H 14000 10950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 10950 50  0001 C CNN
 F 3 "" H 14000 10950 50  0001 C CNN
 	1    14000 10950
 	1    0    0    -1  
@@ -3170,7 +3170,7 @@ U 1 1 5A8BF8DF
 P 13650 21400
 F 0 "R104" H 13709 21446 50  0000 L CNN
 F 1 "10kΩ" H 13709 21355 50  0000 L CNN
-F 2 "" H 13650 21400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 13650 21400 50  0001 C CNN
 F 3 "" H 13650 21400 50  0001 C CNN
 	1    13650 21400
 	1    0    0    -1  
@@ -3381,7 +3381,7 @@ U 1 1 5A95AF5D
 P 13750 21000
 F 0 "C180" V 13521 21000 50  0000 C CNN
 F 1 "0.1uF" V 13612 21000 50  0000 C CNN
-F 2 "" H 13750 21000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 13750 21000 50  0001 C CNN
 F 3 "" H 13750 21000 50  0001 C CNN
 	1    13750 21000
 	0    1    1    0   
@@ -3392,7 +3392,7 @@ U 1 1 5A95FB89
 P 16400 17650
 F 0 "U73" H 16400 18697 60  0000 C CNN
 F 1 "TCA9555" H 16400 18591 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 16600 18850 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 16600 18850 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 16700 18950 60  0001 C CNN
 F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 16650 19100 60  0001 C CNN "Characteristics"
 F 5 "Texas Instruments" H 16400 19200 60  0001 C CNN "Manufacturer"
@@ -3430,7 +3430,7 @@ U 1 1 5A95FB9F
 P 17000 17150
 F 0 "R102" H 17059 17196 50  0000 L CNN
 F 1 "10kΩ" H 17059 17105 50  0000 L CNN
-F 2 "" H 17000 17150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 17000 17150 50  0001 C CNN
 F 3 "" H 17000 17150 50  0001 C CNN
 	1    17000 17150
 	1    0    0    -1  
@@ -3441,7 +3441,7 @@ U 1 1 5A95FBA9
 P 17100 16750
 F 0 "C178" V 16871 16750 50  0000 C CNN
 F 1 "0.1uF" V 16962 16750 50  0000 C CNN
-F 2 "" H 17100 16750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 17100 16750 50  0001 C CNN
 F 3 "" H 17100 16750 50  0001 C CNN
 	1    17100 16750
 	0    1    1    0   
@@ -3452,7 +3452,7 @@ U 1 1 5A95FE27
 P 16400 20100
 F 0 "U74" H 16400 21147 60  0000 C CNN
 F 1 "TCA9555" H 16400 21041 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 16600 21300 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 16600 21300 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 16700 21400 60  0001 C CNN
 F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 16650 21550 60  0001 C CNN "Characteristics"
 F 5 "Texas Instruments" H 16400 21650 60  0001 C CNN "Manufacturer"
@@ -3490,7 +3490,7 @@ U 1 1 5A95FE3D
 P 17000 19600
 F 0 "R103" H 17059 19646 50  0000 L CNN
 F 1 "10kΩ" H 17059 19555 50  0000 L CNN
-F 2 "" H 17000 19600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 17000 19600 50  0001 C CNN
 F 3 "" H 17000 19600 50  0001 C CNN
 	1    17000 19600
 	1    0    0    -1  
@@ -3501,7 +3501,7 @@ U 1 1 5A95FE47
 P 17100 19200
 F 0 "C179" V 16871 19200 50  0000 C CNN
 F 1 "0.1uF" V 16962 19200 50  0000 C CNN
-F 2 "" H 17100 19200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 17100 19200 50  0001 C CNN
 F 3 "" H 17100 19200 50  0001 C CNN
 	1    17100 19200
 	0    1    1    0   
@@ -3512,7 +3512,7 @@ U 1 1 5A9600C2
 P 16400 22550
 F 0 "U76" H 16400 23597 60  0000 C CNN
 F 1 "TCA9555" H 16400 23491 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 16600 23750 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 16600 23750 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 16700 23850 60  0001 C CNN
 F 4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" H 16650 24000 60  0001 C CNN "Characteristics"
 F 5 "Texas Instruments" H 16400 24100 60  0001 C CNN "Manufacturer"
@@ -3550,7 +3550,7 @@ U 1 1 5A9600D8
 P 17000 22050
 F 0 "R105" H 17059 22096 50  0000 L CNN
 F 1 "10kΩ" H 17059 22005 50  0000 L CNN
-F 2 "" H 17000 22050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 17000 22050 50  0001 C CNN
 F 3 "" H 17000 22050 50  0001 C CNN
 	1    17000 22050
 	1    0    0    -1  
@@ -3561,7 +3561,7 @@ U 1 1 5A9600E2
 P 17100 21650
 F 0 "C181" V 16871 21650 50  0000 C CNN
 F 1 "0.1uF" V 16962 21650 50  0000 C CNN
-F 2 "" H 17100 21650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 17100 21650 50  0001 C CNN
 F 3 "" H 17100 21650 50  0001 C CNN
 	1    17100 21650
 	0    1    1    0   
