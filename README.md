@@ -7,6 +7,21 @@ routing and control routing.
 Will also potentially allow for audio priority ducking
 via the [mixer](https://github.com/sww1235/portable-line-mixer).
 
+All audio IO is done at consumer line level. (IO direction is referenced to MUX)
+
+Connected headphones will accept this as there is also an integrated amplifier.
+(Headset output)
+
+Connected phones and radios inputting audio into the mux will also work fine as
+they output line level. (Device input)
+
+Electret microphones need a bias circuit and a preamp to boost their signal up
+to line level. (headset input) as well as a capacitor to block the DC bias output
+
+Connected phones and radios will need a pad circuit to reduce the line level
+output to a microphone input as well as block dc output from phone/radio.
+(Device Output)
+
 ## TODO
 
 
