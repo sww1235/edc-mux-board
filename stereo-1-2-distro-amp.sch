@@ -62,14 +62,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1400 2400 0    60   Input ~ 0
-L_IN
-Text HLabel 1400 3550 0    60   Input ~ 0
-R_IN
-Text HLabel 6350 6450 2    60   Output ~ 0
-L_OUT2
-Text HLabel 6350 6550 2    60   Output ~ 0
-R_OUT2
 $Comp
 L R_Small R431
 U 1 1 5A43B508
@@ -82,10 +74,15 @@ AR Path="/58DEDA38/5AF9AD36/5A43B508" Ref="R511"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A43B508" Ref="R523"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A43B508" Ref="R535"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A43B508" Ref="R547"  Part="1" 
-F 0 "R475" V 1604 2400 50  0000 C CNN
-F 1 "100k" V 1695 2400 50  0000 C CNN
+F 0 "R547" V 1604 2400 50  0000 C CNN
+F 1 "100kΩ" V 1695 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 1800 2400 50  0001 C CNN
-F 3 "" H 1800 2400 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 1800 2400 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 1604 2500 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 1604 2500 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 1604 2500 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 1604 2500 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 1604 2500 50  0001 C CNN "Package ID"
 	1    1800 2400
 	0    1    1    0   
 $EndComp
@@ -101,10 +98,15 @@ AR Path="/58DEDA38/5AF9AD36/5A43B50F" Ref="R515"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A43B50F" Ref="R527"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A43B50F" Ref="R539"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A43B50F" Ref="R551"  Part="1" 
-F 0 "R479" V 1604 3550 50  0000 C CNN
-F 1 "100k" V 1695 3550 50  0000 C CNN
+F 0 "R551" V 1604 3550 50  0000 C CNN
+F 1 "100kΩ" V 1695 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 1800 3550 50  0001 C CNN
-F 3 "" H 1800 3550 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 1800 3550 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 1604 3650 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 1604 3650 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 1604 3650 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 1604 3650 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 1604 3650 50  0001 C CNN "Package ID"
 	1    1800 3550
 	0    1    1    0   
 $EndComp
@@ -120,10 +122,15 @@ AR Path="/58DEDA38/5AF9AD36/5A43B516" Ref="R510"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A43B516" Ref="R522"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A43B516" Ref="R534"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A43B516" Ref="R546"  Part="1" 
-F 0 "R474" V 2354 2000 50  0000 C CNN
-F 1 "100k" V 2445 2000 50  0000 C CNN
+F 0 "R546" V 2354 2000 50  0000 C CNN
+F 1 "100kΩ" V 2445 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 2550 2000 50  0001 C CNN
-F 3 "" H 2550 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 2550 2000 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 2354 2100 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 2354 2100 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 2354 2100 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 2354 2100 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 2354 2100 50  0001 C CNN "Package ID"
 	1    2550 2000
 	0    1    1    0   
 $EndComp
@@ -139,10 +146,15 @@ AR Path="/58DEDA38/5AF9AD36/5A43B51D" Ref="R513"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A43B51D" Ref="R525"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A43B51D" Ref="R537"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A43B51D" Ref="R549"  Part="1" 
-F 0 "R477" V 2304 3150 50  0000 C CNN
-F 1 "100k" V 2395 3150 50  0000 C CNN
+F 0 "R549" V 2304 3150 50  0000 C CNN
+F 1 "100kΩ" V 2395 3150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 2500 3150 50  0001 C CNN
-F 3 "" H 2500 3150 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 2500 3150 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 2304 3250 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 2304 3250 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 2304 3250 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 2304 3250 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 2304 3250 50  0001 C CNN "Package ID"
 	1    2500 3150
 	0    1    1    0   
 $EndComp
@@ -158,10 +170,15 @@ AR Path="/58DEDA38/5AF9AD36/5A43B524" Ref="R512"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A43B524" Ref="R524"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A43B524" Ref="R536"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A43B524" Ref="R548"  Part="1" 
-F 0 "R476" V 5404 2900 50  0000 C CNN
-F 1 "100k" V 5495 2900 50  0000 C CNN
+F 0 "R548" V 5404 2900 50  0000 C CNN
+F 1 "100kΩ" V 5495 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 5600 2900 50  0001 C CNN
-F 3 "" H 5600 2900 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 5600 2900 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 5404 3000 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 5404 3000 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 5404 3000 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 5404 3000 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 5404 3000 50  0001 C CNN "Package ID"
 	1    5600 2900
 	0    1    1    0   
 $EndComp
@@ -177,10 +194,15 @@ AR Path="/58DEDA38/5AF9AD36/5A43B52B" Ref="R517"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A43B52B" Ref="R529"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A43B52B" Ref="R541"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A43B52B" Ref="R553"  Part="1" 
-F 0 "R481" V 4804 4150 50  0000 C CNN
-F 1 "100k" V 4895 4150 50  0000 C CNN
+F 0 "R553" V 4804 4150 50  0000 C CNN
+F 1 "100kΩ" V 4895 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 5000 4150 50  0001 C CNN
-F 3 "" H 5000 4150 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 5000 4150 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 4804 4250 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 4804 4250 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 4804 4250 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 4804 4250 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 4804 4250 50  0001 C CNN "Package ID"
 	1    5000 4150
 	0    1    1    0   
 $EndComp
@@ -196,10 +218,15 @@ AR Path="/58DEDA38/5AF9AD36/5A43B532" Ref="R514"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A43B532" Ref="R526"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A43B532" Ref="R538"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A43B532" Ref="R550"  Part="1" 
-F 0 "R478" V 4804 3300 50  0000 C CNN
-F 1 "100k" V 4895 3300 50  0000 C CNN
+F 0 "R550" V 4804 3300 50  0000 C CNN
+F 1 "100kΩ" V 4895 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 5000 3300 50  0001 C CNN
-F 3 "" H 5000 3300 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 5000 3300 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 4804 3400 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 4804 3400 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 4804 3400 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 4804 3400 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 4804 3400 50  0001 C CNN "Package ID"
 	1    5000 3300
 	0    1    1    0   
 $EndComp
@@ -215,10 +242,15 @@ AR Path="/58DEDA38/5AF9AD36/5A43B539" Ref="R516"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A43B539" Ref="R528"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A43B539" Ref="R540"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A43B539" Ref="R552"  Part="1" 
-F 0 "R480" V 5404 3750 50  0000 C CNN
-F 1 "100k" V 5495 3750 50  0000 C CNN
+F 0 "R552" V 5404 3750 50  0000 C CNN
+F 1 "100kΩ" V 5495 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 5600 3750 50  0001 C CNN
-F 3 "" H 5600 3750 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 5600 3750 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 5404 3850 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 5404 3850 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 5404 3850 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 5404 3850 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 5404 3850 50  0001 C CNN "Package ID"
 	1    5600 3750
 	0    1    1    0   
 $EndComp
@@ -244,14 +276,15 @@ AR Path="/58DEDA38/5A6BD2C8/5A6BE2A0/5A43B544" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5A6BD2C8/5A6BE579/5A43B544" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE80A/5A43B544" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE90F/5A43B544" Ref="U?"  Part="1" 
-F 0 "U133" H 7428 1748 60  0000 L CNN
+F 0 "U145" H 7428 1748 60  0000 L CNN
 F 1 "OPA1604" H 7428 1642 60  0000 L CNN
-F 2 "Package_SOIC:SOIC-14_3.9x8.7mm_P1.27mm" H 7200 3100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 7800 3600 60  0001 C CNN
-F 4 "0.00@0" H 7400 3800 60  0001 C CNN "Pricing"
-F 5 "SO-14, TSSOP14" H 7600 3500 60  0001 C CNN "Package ID"
-F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 7500 3400 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 7400 3300 60  0001 C CNN "Manufacturer"
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 7200 3100 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1604.pdf" H 7800 3600 60  0001 C CNN
+F 4 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 7500 3400 60  0001 C CNN "Description"
+F 5 "OPA1604AIPWR" H 7428 1848 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Texas Instruments" H 7400 3300 60  0001 C CNN "Manufacturer"
+F 7 "SO-14, TSSOP14" H 7600 3500 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 7400 3800 60  0001 C CNN "Pricing"
 	1    7200 1700
 	1    0    0    -1  
 $EndComp
@@ -324,10 +357,13 @@ AR Path="/58DEDA38/5AF9AD36/5A43B60C" Ref="C322"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A43B60C" Ref="C326"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A43B60C" Ref="C330"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A43B60C" Ref="C334"  Part="1" 
-F 0 "C310" H 6641 1954 50  0000 L CNN
+F 0 "C334" H 6641 1954 50  0000 L CNN
 F 1 "0.1uF" H 6641 2045 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 6550 2000 50  0001 C CNN
-F 3 "" H 6550 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 6550 2000 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC X7R" H 6641 2054 50  0001 C CNN "Characteristics"
+F 5 "CGA4J2X7R1H104K125AE" H 6641 2054 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TDK" H 6641 2054 50  0001 C CNN "Manufacturer"
 	1    6550 2000
 	-1   0    0    1   
 $EndComp
@@ -343,10 +379,13 @@ AR Path="/58DEDA38/5AF9AD36/5A43B613" Ref="C323"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A43B613" Ref="C327"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A43B613" Ref="C331"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A43B613" Ref="C335"  Part="1" 
-F 0 "C311" H 6708 1954 50  0000 R CNN
+F 0 "C335" H 6708 1954 50  0000 R CNN
 F 1 "0.1uF" H 6708 2045 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 6800 2000 50  0001 C CNN
-F 3 "" H 6800 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 6800 2000 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC X7R" H 6708 2054 50  0001 C CNN "Characteristics"
+F 5 "CGA4J2X7R1H104K125AE" H 6708 2054 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TDK" H 6708 2054 50  0001 C CNN "Manufacturer"
 	1    6800 2000
 	-1   0    0    1   
 $EndComp
@@ -408,14 +447,15 @@ AR Path="/58DEDA38/5A6BD2C8/5A6BE2A0/5A43B8ED" Ref="U?"  Part="1"
 AR Path="/58DEDA38/5A6BD2C8/5A6BE579/5A43B8ED" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE80A/5A43B8ED" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE90F/5A43B8ED" Ref="U?"  Part="1" 
-F 0 "U132" H 9078 1698 60  0000 L CNN
+F 0 "U144" H 9078 1698 60  0000 L CNN
 F 1 "OPA1602" H 9078 1592 60  0000 L CNN
 F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 8850 3050 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 9450 3550 60  0001 C CNN
-F 4 "Texas Instruments" H 9050 3250 60  0001 C CNN "Manufacturer"
-F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 9150 3350 60  0001 C CNN "Description"
-F 6 "SO-8, TSSOP8" H 9250 3450 60  0001 C CNN "Package ID"
-F 7 "0.00@0" H 9050 3750 60  0001 C CNN "Pricing"
+F 4 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 9150 3350 60  0001 C CNN "Description"
+F 5 "OPA1602AIDGKR" H 9078 1798 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Texas Instruments" H 9050 3250 60  0001 C CNN "Manufacturer"
+F 7 "SO-8, TSSOP8" H 9250 3450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 9050 3750 60  0001 C CNN "Pricing"
 	1    8850 1650
 	1    0    0    -1  
 $EndComp
@@ -469,10 +509,13 @@ AR Path="/58DEDA38/5AF9AD36/5A44063F" Ref="C320"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A44063F" Ref="C324"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A44063F" Ref="C328"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A44063F" Ref="C332"  Part="1" 
-F 0 "C308" H 8291 1904 50  0000 L CNN
+F 0 "C332" H 8291 1904 50  0000 L CNN
 F 1 "0.1uF" H 8291 1995 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8200 1950 50  0001 C CNN
-F 3 "" H 8200 1950 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8200 1950 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC X7R" H 8291 2004 50  0001 C CNN "Characteristics"
+F 5 "CGA4J2X7R1H104K125AE" H 8291 2004 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TDK" H 8291 2004 50  0001 C CNN "Manufacturer"
 	1    8200 1950
 	-1   0    0    1   
 $EndComp
@@ -488,10 +531,13 @@ AR Path="/58DEDA38/5AF9AD36/5A440646" Ref="C321"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A440646" Ref="C325"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A440646" Ref="C329"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A440646" Ref="C333"  Part="1" 
-F 0 "C309" H 8358 1904 50  0000 R CNN
+F 0 "C333" H 8358 1904 50  0000 R CNN
 F 1 "0.1uF" H 8358 1995 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8450 1950 50  0001 C CNN
-F 3 "" H 8450 1950 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8450 1950 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC X7R" H 8358 2004 50  0001 C CNN "Characteristics"
+F 5 "CGA4J2X7R1H104K125AE" H 8358 2004 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TDK" H 8358 2004 50  0001 C CNN "Manufacturer"
 	1    8450 1950
 	-1   0    0    1   
 $EndComp
@@ -514,134 +560,6 @@ F 3 "" H 8350 2150 50  0001 C CNN
 	1    8350 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 2400 1700 2400
-Wire Wire Line
-	1900 2400 2300 2400
-Wire Wire Line
-	2050 2400 2050 2000
-Wire Wire Line
-	2050 2000 2450 2000
-Connection ~ 2050 2400
-Wire Wire Line
-	2650 2000 3000 2000
-Wire Wire Line
-	3000 2000 3000 2750
-Wire Wire Line
-	3000 2500 2850 2500
-Wire Wire Line
-	2300 2600 2200 2600
-Wire Wire Line
-	2200 2600 2200 4000
-Connection ~ 3000 2500
-Wire Wire Line
-	1400 3550 1700 3550
-Wire Wire Line
-	1900 3550 2300 3550
-Wire Wire Line
-	2050 3550 2050 3550
-Wire Wire Line
-	2050 3550 2050 3150
-Wire Wire Line
-	2050 3150 2400 3150
-Connection ~ 2050 3550
-Wire Wire Line
-	2600 3150 3000 3150
-Wire Wire Line
-	5100 3300 5300 3300
-Wire Wire Line
-	5100 4150 5300 4150
-Wire Wire Line
-	3000 4150 4900 4150
-Wire Wire Line
-	6850 1500 6850 1600
-Wire Wire Line
-	6800 1600 7000 1600
-Wire Wire Line
-	6550 1500 6550 1900
-Wire Wire Line
-	6550 1800 7000 1800
-Connection ~ 6550 1800
-Wire Wire Line
-	6800 1900 6800 1600
-Connection ~ 6850 1600
-Wire Wire Line
-	6550 2100 6550 2150
-Wire Wire Line
-	6550 2150 6800 2150
-Wire Wire Line
-	6800 2150 6800 2100
-Wire Wire Line
-	6700 2200 6700 2150
-Connection ~ 6700 2150
-Wire Wire Line
-	5300 3500 5200 3500
-Wire Wire Line
-	5200 3500 5200 4450
-Wire Wire Line
-	5300 4350 5200 4350
-Connection ~ 5200 4350
-Wire Wire Line
-	2300 3750 2200 3750
-Connection ~ 2200 3750
-Wire Wire Line
-	5500 2900 5250 2900
-Wire Wire Line
-	5250 2900 5250 3300
-Connection ~ 5250 3300
-Wire Wire Line
-	5700 2900 5950 2900
-Wire Wire Line
-	5950 2900 5950 3400
-Wire Wire Line
-	5850 3400 6450 3400
-Wire Wire Line
-	5500 3750 5250 3750
-Wire Wire Line
-	5250 3750 5250 4150
-Connection ~ 5250 4150
-Wire Wire Line
-	5700 3750 5950 3750
-Wire Wire Line
-	5950 3750 5950 4250
-Wire Wire Line
-	5850 4250 6450 4250
-Wire Wire Line
-	6450 3400 6450 3750
-Wire Wire Line
-	6450 3750 6900 3750
-Connection ~ 5950 3400
-Wire Wire Line
-	6450 4250 6450 3850
-Wire Wire Line
-	6450 3850 6900 3850
-Connection ~ 5950 4250
-Wire Wire Line
-	3000 3150 3000 7050
-Connection ~ 3000 3650
-Wire Wire Line
-	3200 6000 4900 6000
-Wire Wire Line
-	8500 1450 8500 1550
-Wire Wire Line
-	8450 1550 8650 1550
-Wire Wire Line
-	8200 1450 8200 1850
-Wire Wire Line
-	8200 1750 8650 1750
-Connection ~ 8200 1750
-Wire Wire Line
-	8450 1850 8450 1550
-Connection ~ 8500 1550
-Wire Wire Line
-	8200 2050 8200 2100
-Wire Wire Line
-	8200 2100 8450 2100
-Wire Wire Line
-	8450 2100 8450 2050
-Wire Wire Line
-	8350 2150 8350 2100
-Connection ~ 8350 2100
 $Comp
 L R_Small R439
 U 1 1 5A4418F0
@@ -654,15 +572,18 @@ AR Path="/58DEDA38/5AF9AD36/5A4418F0" Ref="R519"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A4418F0" Ref="R531"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A4418F0" Ref="R543"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A4418F0" Ref="R555"  Part="1" 
-F 0 "R483" V 4804 6000 50  0000 C CNN
-F 1 "100k" V 4895 6000 50  0000 C CNN
+F 0 "R555" V 4804 6000 50  0000 C CNN
+F 1 "100kΩ" V 4895 6000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 5000 6000 50  0001 C CNN
-F 3 "" H 5000 6000 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 5000 6000 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 4804 6100 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 4804 6100 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 4804 6100 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 4804 6100 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 4804 6100 50  0001 C CNN "Package ID"
 	1    5000 6000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5100 6000 5300 6000
 $Comp
 L R_Small R438
 U 1 1 5A4420A7
@@ -675,24 +596,18 @@ AR Path="/58DEDA38/5AF9AD36/5A4420A7" Ref="R518"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A4420A7" Ref="R530"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A4420A7" Ref="R542"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A4420A7" Ref="R554"  Part="1" 
-F 0 "R482" V 5404 5600 50  0000 C CNN
-F 1 "100k" V 5495 5600 50  0000 C CNN
+F 0 "R554" V 5404 5600 50  0000 C CNN
+F 1 "100kΩ" V 5495 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 5600 5600 50  0001 C CNN
-F 3 "" H 5600 5600 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 5600 5600 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 5404 5700 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 5404 5700 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 5404 5700 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 5404 5700 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 5404 5700 50  0001 C CNN "Package ID"
 	1    5600 5600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5500 5600 5250 5600
-Wire Wire Line
-	5250 5600 5250 6000
-Connection ~ 5250 6000
-Wire Wire Line
-	5700 5600 5950 5600
-Wire Wire Line
-	5950 5600 5950 6100
-Wire Wire Line
-	5850 6100 6050 6100
 $Comp
 L R_Small R440
 U 1 1 5A4422CF
@@ -705,25 +620,18 @@ AR Path="/58DEDA38/5AF9AD36/5A4422CF" Ref="R520"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A4422CF" Ref="R532"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A4422CF" Ref="R544"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A4422CF" Ref="R556"  Part="1" 
-F 0 "R484" V 5404 6650 50  0000 C CNN
-F 1 "100k" V 5495 6650 50  0000 C CNN
+F 0 "R556" V 5404 6650 50  0000 C CNN
+F 1 "100kΩ" V 5495 6650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 5600 6650 50  0001 C CNN
-F 3 "" H 5600 6650 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 5600 6650 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 5404 6750 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 5404 6750 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 5404 6750 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 5404 6750 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 5404 6750 50  0001 C CNN "Package ID"
 	1    5600 6650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5500 6650 5250 6650
-Wire Wire Line
-	5250 6650 5250 7050
-Wire Wire Line
-	5100 7050 5300 7050
-Wire Wire Line
-	5700 6650 6050 6650
-Wire Wire Line
-	5950 6650 5950 7150
-Wire Wire Line
-	5950 7150 5850 7150
 $Comp
 L R_Small R441
 U 1 1 5A442588
@@ -736,38 +644,18 @@ AR Path="/58DEDA38/5AF9AD36/5A442588" Ref="R521"  Part="1"
 AR Path="/58DEDA38/5AF9C01D/5A442588" Ref="R533"  Part="1" 
 AR Path="/58DEDA38/5AF9C61A/5A442588" Ref="R545"  Part="1" 
 AR Path="/58DEDA38/5AF9CF80/5A442588" Ref="R557"  Part="1" 
-F 0 "R485" V 4804 7050 50  0000 C CNN
-F 1 "100k" V 4895 7050 50  0000 C CNN
+F 0 "R557" V 4804 7050 50  0000 C CNN
+F 1 "100kΩ" V 4895 7050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 5000 7050 50  0001 C CNN
-F 3 "" H 5000 7050 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 5000 7050 50  0001 C CNN
+F 4 "0.5% -55ºC +125ºC 100mW" H 4804 7150 50  0001 C CNN "Characteristics"
+F 5 "Thin Film Resistor" H 4804 7150 50  0001 C CNN "Description"
+F 6 "MCT06030D1003DP500" H 4804 7150 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Vishay" H 4804 7150 50  0001 C CNN "Manufacturer"
+F 8 "1608 metric" H 4804 7150 50  0001 C CNN "Package ID"
 	1    5000 7050
 	0    1    1    0   
 $EndComp
-Connection ~ 5250 7050
-Wire Wire Line
-	3000 7050 4900 7050
-Wire Wire Line
-	6050 6100 6050 6450
-Wire Wire Line
-	6050 6450 6350 6450
-Connection ~ 5950 6100
-Wire Wire Line
-	6050 6650 6050 6550
-Wire Wire Line
-	6050 6550 6350 6550
-Connection ~ 5950 6650
-Text HLabel 6900 3750 2    60   Output ~ 0
-L_OUT1
-Text HLabel 6900 3850 2    60   Output ~ 0
-R_OUT1
-Wire Wire Line
-	3000 3650 2850 3650
-Wire Wire Line
-	5300 6200 5200 6200
-Wire Wire Line
-	5200 6200 5200 7400
-Wire Wire Line
-	5200 7250 5300 7250
 $Comp
 L GNDREF #PWR0482
 U 1 1 5AEDD6D8
@@ -787,15 +675,6 @@ F 3 "" H 5200 7400 50  0001 C CNN
 	1    5200 7400
 	1    0    0    -1  
 $EndComp
-Connection ~ 5200 7250
-Wire Wire Line
-	3000 2750 3200 2750
-Wire Wire Line
-	3200 2750 3200 6000
-Wire Wire Line
-	4900 3300 3200 3300
-Connection ~ 3200 3300
-Connection ~ 3000 4150
 $Comp
 L OPA1602 U122
 U 2 1 5AEDED7C
@@ -816,14 +695,15 @@ AR Path="/58DEDA38/5A6BD2C8/5A6BE2A0/5AEDED7C" Ref="U?"  Part="2"
 AR Path="/58DEDA38/5A6BD2C8/5A6BE579/5AEDED7C" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE80A/5AEDED7C" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE90F/5AEDED7C" Ref="U?"  Part="2" 
-F 0 "U132" H 2575 2887 60  0000 C CNN
+F 0 "U144" H 2575 2887 60  0000 C CNN
 F 1 "OPA1602" H 2575 2781 60  0000 C CNN
 F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 2500 3900 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 3100 4400 60  0001 C CNN
-F 4 "Texas Instruments" H 2700 4100 60  0001 C CNN "Manufacturer"
-F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 2800 4200 60  0001 C CNN "Description"
-F 6 "SO-8, TSSOP8" H 2900 4300 60  0001 C CNN "Package ID"
-F 7 "0.00@0" H 2700 4600 60  0001 C CNN "Pricing"
+F 4 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 2800 4200 60  0001 C CNN "Description"
+F 5 "OPA1602AIDGKR" H 2575 2987 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Texas Instruments" H 2700 4100 60  0001 C CNN "Manufacturer"
+F 7 "SO-8, TSSOP8" H 2900 4300 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 2700 4600 60  0001 C CNN "Pricing"
 	2    2500 2500
 	1    0    0    -1  
 $EndComp
@@ -847,14 +727,15 @@ AR Path="/58DEDA38/5A6BD2C8/5A6BE2A0/5AEDEE3B" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5A6BD2C8/5A6BE579/5AEDEE3B" Ref="U?"  Part="3" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE80A/5AEDEE3B" Ref="U?"  Part="3" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE90F/5AEDEE3B" Ref="U?"  Part="3" 
-F 0 "U132" H 2575 4037 60  0000 C CNN
+F 0 "U144" H 2575 4037 60  0000 C CNN
 F 1 "OPA1602" H 2575 3931 60  0000 C CNN
 F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 2500 5050 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 3100 5550 60  0001 C CNN
-F 4 "Texas Instruments" H 2700 5250 60  0001 C CNN "Manufacturer"
-F 5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 2800 5350 60  0001 C CNN "Description"
-F 6 "SO-8, TSSOP8" H 2900 5450 60  0001 C CNN "Package ID"
-F 7 "0.00@0" H 2700 5750 60  0001 C CNN "Pricing"
+F 4 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 2800 5350 60  0001 C CNN "Description"
+F 5 "OPA1602AIDGKR" H 2575 4137 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Texas Instruments" H 2700 5250 60  0001 C CNN "Manufacturer"
+F 7 "SO-8, TSSOP8" H 2900 5450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 2700 5750 60  0001 C CNN "Pricing"
 	3    2500 3650
 	1    0    0    -1  
 $EndComp
@@ -878,14 +759,15 @@ AR Path="/58DEDA38/5A6BD2C8/5A6BE2A0/5AEDEF45" Ref="U?"  Part="2"
 AR Path="/58DEDA38/5A6BD2C8/5A6BE579/5AEDEF45" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE80A/5AEDEF45" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE90F/5AEDEF45" Ref="U?"  Part="2" 
-F 0 "U133" H 5575 3787 60  0000 C CNN
+F 0 "U145" H 5575 3787 60  0000 C CNN
 F 1 "OPA1604" H 5575 3681 60  0000 C CNN
-F 2 "Package_SOIC:SOIC-14_3.9x8.7mm_P1.27mm" H 5500 4800 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 5300 60  0001 C CNN
-F 4 "0.00@0" H 5700 5500 60  0001 C CNN "Pricing"
-F 5 "SO-14, TSSOP14" H 5900 5200 60  0001 C CNN "Package ID"
-F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 5100 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 5700 5000 60  0001 C CNN "Manufacturer"
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5500 4800 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1604.pdf" H 6100 5300 60  0001 C CNN
+F 4 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 5100 60  0001 C CNN "Description"
+F 5 "OPA1604AIPWR" H 5575 3887 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Texas Instruments" H 5700 5000 60  0001 C CNN "Manufacturer"
+F 7 "SO-14, TSSOP14" H 5900 5200 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 5700 5500 60  0001 C CNN "Pricing"
 	2    5500 3400
 	1    0    0    -1  
 $EndComp
@@ -909,14 +791,15 @@ AR Path="/58DEDA38/5A6BD2C8/5A6BE2A0/5AEDF006" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5A6BD2C8/5A6BE579/5AEDF006" Ref="U?"  Part="3" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE80A/5AEDF006" Ref="U?"  Part="3" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE90F/5AEDF006" Ref="U?"  Part="3" 
-F 0 "U133" H 5575 4637 60  0000 C CNN
+F 0 "U145" H 5575 4637 60  0000 C CNN
 F 1 "OPA1604" H 5575 4531 60  0000 C CNN
-F 2 "Package_SOIC:SOIC-14_3.9x8.7mm_P1.27mm" H 5500 5650 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 6150 60  0001 C CNN
-F 4 "0.00@0" H 5700 6350 60  0001 C CNN "Pricing"
-F 5 "SO-14, TSSOP14" H 5900 6050 60  0001 C CNN "Package ID"
-F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 5950 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 5700 5850 60  0001 C CNN "Manufacturer"
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5500 5650 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1604.pdf" H 6100 6150 60  0001 C CNN
+F 4 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 5950 60  0001 C CNN "Description"
+F 5 "OPA1604AIPWR" H 5575 4737 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Texas Instruments" H 5700 5850 60  0001 C CNN "Manufacturer"
+F 7 "SO-14, TSSOP14" H 5900 6050 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 5700 6350 60  0001 C CNN "Pricing"
 	3    5500 4250
 	1    0    0    -1  
 $EndComp
@@ -940,14 +823,15 @@ AR Path="/58DEDA38/5A6BD2C8/5A6BE2A0/5AEDF0C6" Ref="U?"  Part="4"
 AR Path="/58DEDA38/5A6BD2C8/5A6BE579/5AEDF0C6" Ref="U?"  Part="4" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE80A/5AEDF0C6" Ref="U?"  Part="4" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE90F/5AEDF0C6" Ref="U?"  Part="4" 
-F 0 "U133" H 5575 6487 60  0000 C CNN
+F 0 "U145" H 5575 6487 60  0000 C CNN
 F 1 "OPA1604" H 5575 6381 60  0000 C CNN
-F 2 "Package_SOIC:SOIC-14_3.9x8.7mm_P1.27mm" H 5500 7500 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 8000 60  0001 C CNN
-F 4 "0.00@0" H 5700 8200 60  0001 C CNN "Pricing"
-F 5 "SO-14, TSSOP14" H 5900 7900 60  0001 C CNN "Package ID"
-F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 7800 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 5700 7700 60  0001 C CNN "Manufacturer"
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5500 7500 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1604.pdf" H 6100 8000 60  0001 C CNN
+F 4 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 7800 60  0001 C CNN "Description"
+F 5 "OPA1604AIPWR" H 5575 6587 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Texas Instruments" H 5700 7700 60  0001 C CNN "Manufacturer"
+F 7 "SO-14, TSSOP14" H 5900 7900 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 5700 8200 60  0001 C CNN "Pricing"
 	4    5500 6100
 	1    0    0    -1  
 $EndComp
@@ -971,15 +855,211 @@ AR Path="/58DEDA38/5A6BD2C8/5A6BE2A0/5AEDF18A" Ref="U?"  Part="5"
 AR Path="/58DEDA38/5A6BD2C8/5A6BE579/5AEDF18A" Ref="U?"  Part="5" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE80A/5AEDF18A" Ref="U?"  Part="5" 
 AR Path="/58DEDA38/5A6BD2C8/5A6BE90F/5AEDF18A" Ref="U?"  Part="5" 
-F 0 "U133" H 5575 7537 60  0000 C CNN
+F 0 "U145" H 5575 7537 60  0000 C CNN
 F 1 "OPA1604" H 5575 7431 60  0000 C CNN
-F 2 "Package_SOIC:SOIC-14_3.9x8.7mm_P1.27mm" H 5500 8550 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6100 9050 60  0001 C CNN
-F 4 "0.00@0" H 5700 9250 60  0001 C CNN "Pricing"
-F 5 "SO-14, TSSOP14" H 5900 8950 60  0001 C CNN "Package ID"
-F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 8850 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 5700 8750 60  0001 C CNN "Manufacturer"
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5500 8550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1604.pdf" H 6100 9050 60  0001 C CNN
+F 4 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 5800 8850 60  0001 C CNN "Description"
+F 5 "OPA1604AIPWR" H 5575 7637 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Texas Instruments" H 5700 8750 60  0001 C CNN "Manufacturer"
+F 7 "SO-14, TSSOP14" H 5900 8950 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 5700 9250 60  0001 C CNN "Pricing"
 	5    5500 7150
 	1    0    0    -1  
 $EndComp
+Text HLabel 1400 2400 0    60   Input ~ 0
+L_IN
+Text HLabel 1400 3550 0    60   Input ~ 0
+R_IN
+Text HLabel 6350 6450 2    60   Output ~ 0
+L_OUT2
+Text HLabel 6350 6550 2    60   Output ~ 0
+R_OUT2
+Text HLabel 6900 3750 2    60   Output ~ 0
+L_OUT1
+Text HLabel 6900 3850 2    60   Output ~ 0
+R_OUT1
+Wire Wire Line
+	1400 2400 1700 2400
+Wire Wire Line
+	1900 2400 2300 2400
+Wire Wire Line
+	2050 2400 2050 2000
+Wire Wire Line
+	2050 2000 2450 2000
+Wire Wire Line
+	2650 2000 3000 2000
+Wire Wire Line
+	3000 2000 3000 2750
+Wire Wire Line
+	3000 2500 2850 2500
+Wire Wire Line
+	2300 2600 2200 2600
+Wire Wire Line
+	2200 2600 2200 4000
+Wire Wire Line
+	1400 3550 1700 3550
+Wire Wire Line
+	1900 3550 2300 3550
+Wire Wire Line
+	2050 3550 2050 3550
+Wire Wire Line
+	2050 3550 2050 3150
+Wire Wire Line
+	2050 3150 2400 3150
+Wire Wire Line
+	2600 3150 3000 3150
+Wire Wire Line
+	5100 3300 5300 3300
+Wire Wire Line
+	5100 4150 5300 4150
+Wire Wire Line
+	3000 4150 4900 4150
+Wire Wire Line
+	6850 1500 6850 1600
+Wire Wire Line
+	6800 1600 7000 1600
+Wire Wire Line
+	6550 1500 6550 1900
+Wire Wire Line
+	6550 1800 7000 1800
+Wire Wire Line
+	6800 1900 6800 1600
+Wire Wire Line
+	6550 2100 6550 2150
+Wire Wire Line
+	6550 2150 6800 2150
+Wire Wire Line
+	6800 2150 6800 2100
+Wire Wire Line
+	6700 2200 6700 2150
+Wire Wire Line
+	5300 3500 5200 3500
+Wire Wire Line
+	5200 3500 5200 4450
+Wire Wire Line
+	5300 4350 5200 4350
+Wire Wire Line
+	2300 3750 2200 3750
+Wire Wire Line
+	5500 2900 5250 2900
+Wire Wire Line
+	5250 2900 5250 3300
+Wire Wire Line
+	5700 2900 5950 2900
+Wire Wire Line
+	5950 2900 5950 3400
+Wire Wire Line
+	5850 3400 6450 3400
+Wire Wire Line
+	5500 3750 5250 3750
+Wire Wire Line
+	5250 3750 5250 4150
+Wire Wire Line
+	5700 3750 5950 3750
+Wire Wire Line
+	5950 3750 5950 4250
+Wire Wire Line
+	5850 4250 6450 4250
+Wire Wire Line
+	6450 3400 6450 3750
+Wire Wire Line
+	6450 3750 6900 3750
+Wire Wire Line
+	6450 4250 6450 3850
+Wire Wire Line
+	6450 3850 6900 3850
+Wire Wire Line
+	3000 3150 3000 7050
+Wire Wire Line
+	3200 6000 4900 6000
+Wire Wire Line
+	8500 1450 8500 1550
+Wire Wire Line
+	8450 1550 8650 1550
+Wire Wire Line
+	8200 1450 8200 1850
+Wire Wire Line
+	8200 1750 8650 1750
+Wire Wire Line
+	8450 1850 8450 1550
+Wire Wire Line
+	8200 2050 8200 2100
+Wire Wire Line
+	8200 2100 8450 2100
+Wire Wire Line
+	8450 2100 8450 2050
+Wire Wire Line
+	8350 2150 8350 2100
+Wire Wire Line
+	5100 6000 5300 6000
+Wire Wire Line
+	5500 5600 5250 5600
+Wire Wire Line
+	5250 5600 5250 6000
+Wire Wire Line
+	5700 5600 5950 5600
+Wire Wire Line
+	5950 5600 5950 6100
+Wire Wire Line
+	5850 6100 6050 6100
+Wire Wire Line
+	5500 6650 5250 6650
+Wire Wire Line
+	5250 6650 5250 7050
+Wire Wire Line
+	5100 7050 5300 7050
+Wire Wire Line
+	5700 6650 6050 6650
+Wire Wire Line
+	5950 6650 5950 7150
+Wire Wire Line
+	5950 7150 5850 7150
+Wire Wire Line
+	3000 7050 4900 7050
+Wire Wire Line
+	6050 6100 6050 6450
+Wire Wire Line
+	6050 6450 6350 6450
+Wire Wire Line
+	6050 6650 6050 6550
+Wire Wire Line
+	6050 6550 6350 6550
+Wire Wire Line
+	3000 3650 2850 3650
+Wire Wire Line
+	5300 6200 5200 6200
+Wire Wire Line
+	5200 6200 5200 7400
+Wire Wire Line
+	5200 7250 5300 7250
+Wire Wire Line
+	3000 2750 3200 2750
+Wire Wire Line
+	3200 2750 3200 6000
+Wire Wire Line
+	4900 3300 3200 3300
+Connection ~ 2050 2400
+Connection ~ 3000 2500
+Connection ~ 2050 3550
+Connection ~ 6550 1800
+Connection ~ 6850 1600
+Connection ~ 6700 2150
+Connection ~ 5200 4350
+Connection ~ 2200 3750
+Connection ~ 5250 3300
+Connection ~ 5250 4150
+Connection ~ 5950 3400
+Connection ~ 5950 4250
+Connection ~ 3000 3650
+Connection ~ 8200 1750
+Connection ~ 8500 1550
+Connection ~ 8350 2100
+Connection ~ 5250 6000
+Connection ~ 5250 7050
+Connection ~ 5950 6100
+Connection ~ 5950 6650
+Connection ~ 5200 7250
+Connection ~ 3200 3300
+Connection ~ 3000 4150
 $EndSCHEMATC

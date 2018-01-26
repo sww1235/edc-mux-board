@@ -70,9 +70,10 @@ F 0 "XA1" H 4800 3897 60  0000 C CNN
 F 1 "Nano_Headers" H 4800 3791 60  0000 C CNN
 F 2 "SW-Arduino:Nano-Header" H 4550 3500 60  0001 C CNN
 F 3 "https://www.arduino.cc/en/uploads/Main/Arduino_Nano-Rev3.2-SCH.pdf" H 4700 4650 60  0001 C CNN
-F 4 "0.00@0" H 4650 4500 60  0001 C CNN "Pricing"
-F 5 "Arduino" H 4500 4250 60  0001 C CNN "Manufacturer"
-F 6 "Arduino Nano Headers" H 4600 4350 60  0001 C CNN "Description"
+F 4 "Arduino Nano Headers" H 4600 4350 60  0001 C CNN "Description"
+F 5 "ARD-NANO30NP" H 4800 3997 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Arduino" H 4500 4250 60  0001 C CNN "Manufacturer"
+F 7 "0.00@0" H 4650 4500 60  0001 C CNN "Pricing"
 	1    4800 2950
 	1    0    0    -1  
 $EndComp
@@ -87,10 +88,6 @@ F 3 "" H 5900 2250 50  0001 C CNN
 	1    5900 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 2550 5900 2550
-Wire Wire Line
-	5900 2550 5900 2250
 $Comp
 L GNDREF #PWR0688
 U 1 1 5A6DE62A
@@ -102,6 +99,89 @@ F 3 "" H 4750 4100 50  0001 C CNN
 	1    4750 4100
 	1    0    0    -1  
 $EndComp
+$Comp
+L SPST S1
+U 1 1 5A9E5DCE
+P 6200 2450
+F 0 "S1" H 6200 2677 60  0000 C CNN
+F 1 "Nano Reset" H 6200 2571 60  0000 C CNN
+F 2 "SW-Eswitch:TL1105" H 6250 2550 60  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/140/TL1105-346150.pdf" H 6250 2550 60  0001 C CNN
+F 4 "SPST 50mA 4.3mm Height" H 6200 2777 50  0001 C CNN "Characteristics"
+F 5 "TL1105F160Q" H 6200 2777 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Eswitch" H 6200 2450 60  0001 C CNN "Manufacturer"
+F 7 "TL1105" H 6200 2450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 6200 2450 60  0001 C CNN "Pricing"
+	1    6200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR0687
+U 1 1 5A9E6079
+P 5800 3550
+F 0 "#PWR0687" H 5800 3400 50  0001 C CNN
+F 1 "+3V3" H 5815 3723 50  0000 C CNN
+F 2 "" H 5800 3550 50  0001 C CNN
+F 3 "" H 5800 3550 50  0001 C CNN
+	1    5800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST S2
+U 1 1 5A9E66B9
+P 3750 3500
+F 0 "S2" H 3750 3727 60  0000 C CNN
+F 1 "I2C Reset" H 3750 3621 60  0000 C CNN
+F 2 "SW-Eswitch:TL1105" H 3800 3600 60  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/140/TL1105-346150.pdf" H 3800 3600 60  0001 C CNN
+F 4 "SPST 50mA 4.3mm Height" H 3750 3827 50  0001 C CNN "Characteristics"
+F 5 "TL1105F160Q" H 3750 3827 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Eswitch" H 3750 3500 60  0001 C CNN "Manufacturer"
+F 7 "TL1105" H 3750 3500 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3750 3500 60  0001 C CNN "Pricing"
+	1    3750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST S3
+U 1 1 5A9E70A4
+P 3750 3600
+F 0 "S3" H 3750 3400 60  0000 C CNN
+F 1 "SPST Reset" H 3750 3500 60  0000 C CNN
+F 2 "SW-Eswitch:TL1105" H 3800 3700 60  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/140/TL1105-346150.pdf" H 3800 3700 60  0001 C CNN
+F 4 "SPST 50mA 4.3mm Height" H 3750 3500 50  0001 C CNN "Characteristics"
+F 5 "TL1105F160Q" H 3750 3500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Eswitch" H 3750 3600 60  0001 C CNN "Manufacturer"
+F 7 "TL1105" H 3750 3600 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3750 3600 60  0001 C CNN "Pricing"
+	1    3750 3600
+	1    0    0    -1  
+$EndComp
+Text Notes 3950 1850 0    60   ~ 0
+Pins D4, D10, D11, D12, D13 are \nused by gravitech.us ethernet card\nEthernet and USB connections are \nprovided by short cables to \nexternal connectors
+Text HLabel 6500 2950 2    60   BiDi ~ 0
+5V-SDA
+Text HLabel 6500 2850 2    60   Output ~ 0
+5V-SCL
+Text HLabel 3500 2650 0    60   Output ~ 0
+D2_SPST
+Text HLabel 3500 2750 0    60   Output ~ 0
+D3_I2C
+Text HLabel 3500 2950 0    60   Input ~ 0
+D5_INT
+Text Label 3700 2950 0    60   ~ 0
+IO_EXP_INT
+Text Label 3700 2650 0    60   ~ 0
+SPST_RST
+Text Label 3700 2750 0    60   ~ 0
+I2C_RST
+Text Label 5750 2450 0    60   ~ 0
+Nano_RST
+Wire Wire Line
+	5450 2550 5900 2550
+Wire Wire Line
+	5900 2550 5900 2250
 Wire Wire Line
 	5650 3950 5650 2350
 Wire Wire Line
@@ -114,39 +194,10 @@ Wire Wire Line
 	3900 3950 6300 3950
 Wire Wire Line
 	4750 3950 4750 4100
-Connection ~ 4750 3950
-Text Notes 3950 1850 0    60   ~ 0
-Pins D4, D10, D11, D12, D13 are \nused by gravitech.us ethernet card\nEthernet and USB connections are \nprovided by short cables to \nexternal connectors
-$Comp
-L SPST S1
-U 1 1 5A9E5DCE
-P 6200 2450
-F 0 "S1" H 6200 2677 60  0000 C CNN
-F 1 "Nano Reset" H 6200 2571 60  0000 C CNN
-F 2 "SW-Eswitch:TL1105" H 6250 2550 60  0001 C CNN
-F 3 "" H 6250 2550 60  0001 C CNN
-F 4 "Eswitch" H 6200 2450 60  0001 C CNN "Manufacturer"
-F 5 "TL1105" H 6200 2450 60  0001 C CNN "Package ID"
-F 6 "0.00@0" H 6200 2450 60  0001 C CNN "Pricing"
-	1    6200 2450
-	1    0    0    -1  
-$EndComp
-Text HLabel 6500 2950 2    60   BiDi ~ 0
-5V-SDA
-Text HLabel 6500 2850 2    60   Output ~ 0
-5V-SCL
 Wire Wire Line
 	5450 2850 6500 2850
 Wire Wire Line
 	5450 2950 6500 2950
-Text HLabel 3500 2650 0    60   Output ~ 0
-D2_SPST
-Text HLabel 3500 2750 0    60   Output ~ 0
-D3_I2C
-Text HLabel 3500 2950 0    60   Input ~ 0
-D5_INT
-Text Label 3700 2950 0    60   ~ 0
-IO_EXP_INT
 Wire Wire Line
 	3500 2950 4150 2950
 Wire Wire Line
@@ -163,26 +214,30 @@ Wire Wire Line
 	4050 2150 4050 2450
 Wire Wire Line
 	4050 2450 4150 2450
-Connection ~ 5600 2450
 Wire Wire Line
 	6300 3950 6300 2450
+Wire Wire Line
+	5450 3550 5800 3550
+Wire Wire Line
+	3850 3500 3900 3500
+Wire Wire Line
+	3650 3500 3650 2750
+Wire Wire Line
+	3850 3600 3900 3600
+Wire Wire Line
+	3650 3600 3550 3600
+Wire Wire Line
+	3550 3600 3550 2650
+Connection ~ 4750 3950
+Connection ~ 5600 2450
 Connection ~ 5650 3950
+Connection ~ 3900 3500
+Connection ~ 3650 2750
+Connection ~ 3900 3600
+Connection ~ 3550 2650
 NoConn ~ 5450 2650
 NoConn ~ 5450 2750
 NoConn ~ 5450 3050
-$Comp
-L +3V3 #PWR0687
-U 1 1 5A9E6079
-P 5800 3550
-F 0 "#PWR0687" H 5800 3400 50  0001 C CNN
-F 1 "+3V3" H 5815 3723 50  0000 C CNN
-F 2 "" H 5800 3550 50  0001 C CNN
-F 3 "" H 5800 3550 50  0001 C CNN
-	1    5800 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 3550 5800 3550
 NoConn ~ 5450 3150
 NoConn ~ 5450 3250
 NoConn ~ 5450 3350
@@ -196,55 +251,7 @@ NoConn ~ 4150 3050
 NoConn ~ 4150 3150
 NoConn ~ 4150 3250
 NoConn ~ 4150 3350
-$Comp
-L SPST S2
-U 1 1 5A9E66B9
-P 3750 3500
-F 0 "S2" H 3750 3727 60  0000 C CNN
-F 1 "I2C Reset" H 3750 3621 60  0000 C CNN
-F 2 "SW-Eswitch:TL1105" H 3800 3600 60  0001 C CNN
-F 3 "" H 3800 3600 60  0001 C CNN
-F 4 "Eswitch" H 3750 3500 60  0001 C CNN "Manufacturer"
-F 5 "TL1105" H 3750 3500 60  0001 C CNN "Package ID"
-F 6 "0.00@0" H 3750 3500 60  0001 C CNN "Pricing"
-	1    3750 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 3500 3900 3500
-Connection ~ 3900 3500
-Wire Wire Line
-	3650 3500 3650 2750
-Connection ~ 3650 2750
-$Comp
-L SPST S3
-U 1 1 5A9E70A4
-P 3750 3600
-F 0 "S3" H 3750 3400 60  0000 C CNN
-F 1 "SPST Reset" H 3750 3500 60  0000 C CNN
-F 2 "SW-Eswitch:TL1105" H 3800 3700 60  0001 C CNN
-F 3 "" H 3800 3700 60  0001 C CNN
-F 4 "Eswitch" H 3750 3600 60  0001 C CNN "Manufacturer"
-F 5 "TL1105" H 3750 3600 60  0001 C CNN "Package ID"
-F 6 "0.00@0" H 3750 3600 60  0001 C CNN "Pricing"
-	1    3750 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 3600 3900 3600
-Connection ~ 3900 3600
-Wire Wire Line
-	3650 3600 3550 3600
-Wire Wire Line
-	3550 3600 3550 2650
-Connection ~ 3550 2650
-Text Label 3700 2650 0    60   ~ 0
-SPST_RST
-Text Label 3700 2750 0    60   ~ 0
-I2C_RST
 NoConn ~ 4150 2250
 NoConn ~ 4150 2350
 NoConn ~ 5450 2250
-Text Label 5750 2450 0    60   ~ 0
-Nano_RST
 $EndSCHEMATC

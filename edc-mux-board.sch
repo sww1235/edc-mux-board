@@ -79,8 +79,6 @@ F4 "I2C-reset" I R 5450 1700 60
 F5 "PTT/MM-~INT" O R 5450 1600 60 
 F6 "SPST_~RST" I R 5450 1800 60 
 $EndSheet
-Text Notes 6950 6200 0    60   ~ 0
-All signal directions are indicated from the\nperspective of the MUX box\n\n8x connectors with stereo audio out, mono mic in, \nPTT in, Mic Mute in, +5V bias out\nEach connector can be used for one or more functions.\nThese connectors are for speakermics, headsets and ptt switches.\nConnector model is Amphenol LTW circular connector 8 pin\n\n8x connectors with stereo audio in, mono mic out, PTT out\nEach connector can be used for one or more functions.\nThese connectors are for smartphones and radios.\nConnector model is Amphenol LTW circular connector 8pin\n\n1x DB25 connector to connect to mixer\n1x TRS connector for output from mixer to MUX\n\n
 $Sheet
 S 950  3100 1900 1450
 U 5A6B6560
@@ -92,6 +90,8 @@ F4 "D2_SPST" O R 2850 3800 60
 F5 "D3_I2C" O R 2850 3900 60 
 F6 "D5_INT" I R 2850 4000 60 
 $EndSheet
+Text Notes 6950 6200 0    60   ~ 0
+All signal directions are indicated from the\nperspective of the MUX box\n\n8x connectors with stereo audio out, mono mic in, \nPTT in, Mic Mute in, +5V bias out\nEach connector can be used for one or more functions.\nThese connectors are for speakermics, headsets and ptt switches.\nConnector model is Amphenol LTW circular connector 8 pin\n\n8x connectors with stereo audio in, mono mic out, PTT out\nEach connector can be used for one or more functions.\nThese connectors are for smartphones and radios.\nConnector model is Amphenol LTW circular connector 8pin\n\n1x DB25 connector to connect to mixer\n1x TRS connector for output from mixer to MUX\n\n
 Wire Wire Line
 	5450 2050 5550 2050
 Wire Wire Line
