@@ -74,7 +74,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 16500 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 16400 60  0001 C CNN
 F 4 "0.00@0" H 9850 16000 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 16300 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 16100 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 16100 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 16200 60  0001 C CNN "Package ID"
 	1    9850 15550
 	1    0    0    -1  
@@ -91,7 +91,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 16950 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 16850 60  0001 C CNN
 F 4 "0.00@0" H 9850 16450 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 16750 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 16550 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 16550 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 16650 60  0001 C CNN "Package ID"
 	2    9850 16000
 	1    0    0    -1  
@@ -108,7 +108,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 17850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 17750 60  0001 C CNN
 F 4 "0.00@0" H 9850 17350 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 17650 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 17450 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 17450 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 17550 60  0001 C CNN "Package ID"
 	3    9850 16900
 	1    0    0    -1  
@@ -125,7 +125,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 18300 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 18200 60  0001 C CNN
 F 4 "0.00@0" H 9850 17800 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 18100 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 17900 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 17900 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 18000 60  0001 C CNN "Package ID"
 	4    9850 17350
 	1    0    0    -1  
@@ -142,7 +142,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 19200 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 19100 60  0001 C CNN
 F 4 "0.00@0" H 9850 18700 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 19000 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 18800 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 18800 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 18900 60  0001 C CNN "Package ID"
 	1    9850 18250
 	1    0    0    -1  
@@ -159,7 +159,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 19650 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 19550 60  0001 C CNN
 F 4 "0.00@0" H 9850 19150 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 19450 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 19250 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 19250 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 19350 60  0001 C CNN "Package ID"
 	2    9850 18700
 	1    0    0    -1  
@@ -176,7 +176,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 20550 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 20450 60  0001 C CNN
 F 4 "0.00@0" H 9850 20050 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 20350 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 20150 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 20150 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 20250 60  0001 C CNN "Package ID"
 	3    9850 19600
 	1    0    0    -1  
@@ -193,7 +193,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 21000 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 20900 60  0001 C CNN
 F 4 "0.00@0" H 9850 20500 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 20800 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 20600 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 20600 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 20700 60  0001 C CNN "Package ID"
 	4    9850 20050
 	1    0    0    -1  
@@ -210,7 +210,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 21900 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 21800 60  0001 C CNN
 F 4 "0.00@0" H 9850 21400 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 21700 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 21500 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 21500 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 21600 60  0001 C CNN "Package ID"
 	1    9850 20950
 	1    0    0    -1  
@@ -227,7 +227,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 22350 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 22250 60  0001 C CNN
 F 4 "0.00@0" H 9850 21850 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 22150 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 21950 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 21950 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 22050 60  0001 C CNN "Package ID"
 	2    9850 21400
 	1    0    0    -1  
@@ -244,7 +244,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 23250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 23150 60  0001 C CNN
 F 4 "0.00@0" H 9850 22750 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 23050 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 22850 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 22850 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 22950 60  0001 C CNN "Package ID"
 	3    9850 22300
 	1    0    0    -1  
@@ -261,7 +261,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 23700 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 23600 60  0001 C CNN
 F 4 "0.00@0" H 9850 23200 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 23500 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 23300 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 23300 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 23400 60  0001 C CNN "Package ID"
 	4    9850 22750
 	1    0    0    -1  
@@ -278,7 +278,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 24600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 24500 60  0001 C CNN
 F 4 "0.00@0" H 9850 24100 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 24400 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 24200 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 24200 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 24300 60  0001 C CNN "Package ID"
 	1    9850 23650
 	1    0    0    -1  
@@ -295,7 +295,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 25050 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 24950 60  0001 C CNN
 F 4 "0.00@0" H 9850 24550 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 24850 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 24650 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 24650 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 24750 60  0001 C CNN "Package ID"
 	2    9850 24100
 	1    0    0    -1  
@@ -312,7 +312,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 25950 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 25850 60  0001 C CNN
 F 4 "0.00@0" H 9850 25450 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 25750 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 25550 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 25550 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 25650 60  0001 C CNN "Package ID"
 	3    9850 25000
 	1    0    0    -1  
@@ -329,7 +329,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 26400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 26300 60  0001 C CNN
 F 4 "0.00@0" H 9850 25900 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 9900 26200 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 26000 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 26000 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 9850 26100 60  0001 C CNN "Package ID"
 	4    9850 25450
 	1    0    0    -1  

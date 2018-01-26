@@ -358,7 +358,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 1750 4350 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 1450 4250 60  0001 C CNN
 F 4 "0.00@0" H 1650 3850 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 1700 4150 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1600 3950 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1600 3950 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 1650 4050 60  0001 C CNN "Package ID"
 	5    1650 3400
 	1    0    0    -1  
@@ -373,7 +373,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 1750 4850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 1450 4750 60  0001 C CNN
 F 4 "0.00@0" H 1650 4350 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 1700 4650 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1600 4450 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1600 4450 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 1650 4550 60  0001 C CNN "Package ID"
 	5    1650 3900
 	1    0    0    -1  
@@ -388,7 +388,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 1750 5350 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 1450 5250 60  0001 C CNN
 F 4 "0.00@0" H 1650 4850 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 1700 5150 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1600 4950 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1600 4950 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 1650 5050 60  0001 C CNN "Package ID"
 	5    1650 4400
 	1    0    0    -1  
@@ -403,7 +403,7 @@ F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 1750 5850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 1450 5750 60  0001 C CNN
 F 4 "0.00@0" H 1650 5350 60  0001 C CNN "Pricing"
 F 5 "Analog Devices" H 1700 5650 60  0001 C CNN "Manufacturer"
-F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1600 5450 60  0001 C CNN "Description"
+F 6 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1600 5450 60  0001 C CNN "Description"
 F 7 "TSSOP20" H 1650 5550 60  0001 C CNN "Package ID"
 	5    1650 4900
 	1    0    0    -1  
@@ -923,14 +923,15 @@ L C_Small C3
 U 1 1 5A69ADE2
 P 9750 1950
 F 0 "C3" H 9842 1996 50  0000 L CNN
-F 1 "15uF X5R 1.669mΩ ESR" H 9842 1905 50  0000 L CNN
+F 1 "15uF" H 9842 1905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 9750 1950 50  0001 C CNN
 F 3 "" H 9750 1950 50  0001 C CNN
 F 4 "TDK" H 9750 1950 60  0001 C CNN "Manufacturer"
 F 5 "Ceramic Capacitor" H 9750 1950 60  0001 C CNN "Description"
 F 6 "0805" H 9750 1950 60  0001 C CNN "Package ID"
-F 7 "C2012X5R1V156M125AC" H 9750 1950 60  0001 C CNN "Notes"
+F 7 "X5R 1.669mΩ ESR" H 9750 1950 60  0001 C CNN "Notes"
 F 8 "0.00@0" H 9750 1950 60  0001 C CNN "Pricing"
+F 9 "C2012X5R1V156M125AC" H 9750 1950 60  0001 C CNN "Manufacturer Part Number"
 	1    9750 1950
 	1    0    0    -1  
 $EndComp
