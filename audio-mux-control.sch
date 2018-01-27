@@ -772,10 +772,10 @@ F 9 "0.00@0" H 13800 21900 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG715 U2
+L ADG715 U4
 U 8 1 5A52F98F
 P 13750 20450
-F 0 "U2" H 13750 20309 60  0000 C CNN
+F 0 "U4" H 13750 20309 60  0000 C CNN
 F 1 "ADG715" H 13750 20203 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 21400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 21500 60  0001 C CNN
@@ -789,10 +789,10 @@ F 9 "0.00@0" H 13800 22050 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG715 U2
+L ADG715 U4
 U 9 1 5A53079E
 P 13750 21300
-F 0 "U2" H 13750 21547 60  0000 C CNN
+F 0 "U4" H 13750 21547 60  0000 C CNN
 F 1 "ADG715" H 13750 21441 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 22250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 22350 60  0001 C CNN
@@ -806,10 +806,10 @@ F 9 "0.00@0" H 13800 22900 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG715 U2
+L ADG715 U4
 U 10 1 5A5315C1
 P 13750 21450
-F 0 "U2" H 13750 21309 60  0000 C CNN
+F 0 "U4" H 13750 21309 60  0000 C CNN
 F 1 "ADG715" H 13750 21203 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 22400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 22500 60  0001 C CNN
@@ -925,10 +925,10 @@ F 9 "0.00@0" H 13800 26050 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG715 U4
+L ADG715 U9
 U 9 1 5A557ED7
 P 13750 25300
-F 0 "U4" H 13750 25547 60  0000 C CNN
+F 0 "U9" H 13750 25547 60  0000 C CNN
 F 1 "ADG715" H 13750 25441 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 26250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 26350 60  0001 C CNN
@@ -942,10 +942,10 @@ F 9 "0.00@0" H 13800 26900 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG715 U4
+L ADG715 U9
 U 10 1 5A557EE2
 P 13750 25450
-F 0 "U4" H 13750 25309 60  0000 C CNN
+F 0 "U9" H 13750 25309 60  0000 C CNN
 F 1 "ADG715" H 13750 25203 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 26400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 26500 60  0001 C CNN
@@ -3367,8 +3367,8 @@ L ADG715 U?
 U 8 1 5AF9C03A
 P 4950 24150
 AR Path="/58DEDA38/58E9E2BE/5AF9C03A" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5AF9C03A" Ref="U4"  Part="8" 
-F 0 "U4" H 4950 24400 60  0000 C CNN
+AR Path="/58DEDA38/5AF9C03A" Ref="U2"  Part="8" 
+F 0 "U2" H 4950 24400 60  0000 C CNN
 F 1 "ADG715" H 4950 24300 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5200 25100 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5200 25200 60  0001 C CNN
@@ -3669,8 +3669,8 @@ L ADG715 U?
 U 9 1 5AF9C637
 P 4950 28400
 AR Path="/58DEDA38/58E9E2BE/5AF9C637" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5AF9C637" Ref="U9"  Part="9" 
-F 0 "U9" H 4950 28700 60  0000 C CNN
+AR Path="/58DEDA38/5AF9C637" Ref="U2"  Part="9" 
+F 0 "U2" H 4950 28700 60  0000 C CNN
 F 1 "ADG715" H 4950 28600 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5200 29350 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5200 29450 60  0001 C CNN
@@ -3971,8 +3971,8 @@ L ADG715 U?
 U 10 1 5AF9CF9D
 P 4950 32650
 AR Path="/58DEDA38/58E9E2BE/5AF9CF9D" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5AF9CF9D" Ref="U9"  Part="10" 
-F 0 "U9" H 4950 32509 60  0000 C CNN
+AR Path="/58DEDA38/5AF9CF9D" Ref="U2"  Part="10" 
+F 0 "U2" H 4950 32509 60  0000 C CNN
 F 1 "ADG715" H 4950 32403 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5200 33600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5200 33700 60  0001 C CNN
