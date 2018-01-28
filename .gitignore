@@ -6,6 +6,7 @@
 *.bck
 *.kicad_pcb-bak
 *~
+*.numbers
 bom.ini
 
 _saved*
