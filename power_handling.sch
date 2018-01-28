@@ -141,26 +141,6 @@ F 3 "" H 8400 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM1084 U6
-U 1 1 5910AB4D
-P 8000 2500
-AR Path="/5910AB4D" Ref="U6"  Part="1" 
-AR Path="/58DED9F1/5910AB4D" Ref="U6"  Part="1" 
-F 0 "U6" H 8000 2300 60  0000 C CNN
-F 1 "LM1084" H 8000 2200 60  0000 C CNN
-F 2 "SW-Texas:SOT-220-3-Horizontal-thermal-pad-NDE0003B" H 7900 2400 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm1084.pdf" H 8300 3400 60  0001 C CNN
-F 4 "5A, 3.3V, 5V, Adj Vout" H 8200 3200 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H 8200 3500 60  0001 C CNN "Manufacturer"
-F 6 "LM1084 5A Low Dropout Positive Regulators" H 8300 3600 60  0001 C CNN "Description"
-F 7 "DDPAK/TO-263, TO-220" H 8400 3700 60  0001 C CNN "Package ID"
-F 8 "Adjust to 12V" H 8000 2400 50  0001 C CNN "Notes"
-F 9 "0.00@0" H 8300 3100 60  0001 C CNN "Pricing"
-F 10 "LM1084IT-ADJ/NOPB" H 8000 2400 50  0001 C CNN "Manufacturer Part Number"
-	1    8000 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L +12V #PWR06
 U 1 1 5910B770
 P 8650 2350
@@ -578,21 +558,6 @@ F 7 "Vishay" H 14859 2146 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
-U 1 1 5A651FB9
-P 13050 1500
-F 0 "R1" H 13108 1546 50  0000 L CNN
-F 1 "10kΩ" H 13108 1455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 13050 1500 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 13050 1500 50  0001 C CNN
-F 4 "0.5% -55ºC +155ºC 100mW" H 13108 1646 50  0001 C CNN "Characteristics"
-F 5 "MCT06030D1002DP500" H 13108 1646 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Vishay" H 13108 1646 50  0001 C CNN "Manufacturer"
-F 7 "1608 metric" H 13108 1646 50  0001 C CNN "Package ID"
-	1    13050 1500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L GNDREF #PWR09
 U 1 1 5A652C64
 P 13400 2500
@@ -785,21 +750,6 @@ F 5 "Thin Film Resistor" H 14709 4746 50  0001 C CNN "Description"
 F 6 "TNPW060368K0BEEA" H 14709 4746 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Vishay" H 14709 4746 50  0001 C CNN "Manufacturer"
 	1    14650 4600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L R_Small R9
-U 1 1 5A65A7C4
-P 12950 4100
-F 0 "R9" H 13008 4146 50  0000 L CNN
-F 1 "10kΩ" H 13008 4055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 12950 4100 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 12950 4100 50  0001 C CNN
-F 4 "0.5% -55ºC +155ºC 100mW" H 13008 4246 50  0001 C CNN "Characteristics"
-F 5 "MCT06030D1002DP500" H 13008 4246 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Vishay" H 13008 4246 50  0001 C CNN "Manufacturer"
-F 7 "1608 metric" H 13008 4246 50  0001 C CNN "Package ID"
-	1    12950 4100
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1125,40 +1075,8 @@ F 9 "C1206X106J3RACAUTO" H 8550 2500 60  0001 C CNN "Manufacturer Part Number"
 	1    8550 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L C_Small C13
-U 1 1 5A65AF5B
-P 7100 3650
-F 0 "C13" H 7009 3696 50  0000 R CNN
-F 1 "10uF" H 7009 3605 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 7100 3650 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 7100 3650 50  0001 C CNN
-F 4 "Ceramic Capacitor" H 7100 3650 60  0001 C CNN "Description"
-F 5 "CGA5L3X5R1H106K160AB" H 7100 3650 60  0001 C CNN "Manufacturer Part Number"
-F 6 "TDK" H 7100 3650 60  0001 C CNN "Manufacturer"
-F 7 "3216 metric" H 7100 3650 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 7100 3650 60  0001 C CNN "Pricing"
-	1    7100 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C14
-U 1 1 5A65B12C
-P 8300 3650
-F 0 "C14" H 8392 3696 50  0000 L CNN
-F 1 "10uF" H 8392 3605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 8300 3650 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8300 3650 50  0001 C CNN
-F 4 "Ceramic Capacitor" H 8300 3650 60  0001 C CNN "Description"
-F 5 "CGA5L3X5R1H106K160AB" H 8300 3650 60  0001 C CNN "Manufacturer Part Number"
-F 6 "TDK" H 8300 3650 60  0001 C CNN "Manufacturer"
-F 7 "3216 metric" H 8300 3650 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 8300 3650 60  0001 C CNN "Pricing"
-	1    8300 3650
-	1    0    0    -1  
-$EndComp
 Text Notes 7600 2200 0    60   ~ 0
-Main +12V supply\n5A max supply\n
+Main +12V supply\n3A max supply\n
 Text Notes 4650 4450 1    60   ~ 0
 Power for 7400 series OR gates
 Text Label 7350 1700 2    60   ~ 0
@@ -1187,485 +1105,9 @@ Text Notes 10900 4100 0    60   ~ 0
 88uF total capacitance
 Text Notes 10550 1400 0    60   ~ 0
 Provides -12V supply for op amps
-Wire Notes Line
-	15500 650  15500 6000
-Wire Notes Line
-	6300 650  15500 650 
-Wire Notes Line
-	6300 6000 6300 650 
-Wire Notes Line
-	15500 6000 6300 6000
-Wire Wire Line
-	7150 2750 7150 1900
-Wire Wire Line
-	11400 3600 11400 3650
-Wire Wire Line
-	11300 3600 11300 3650
-Wire Wire Line
-	11200 3600 11200 3650
-Wire Wire Line
-	11500 3600 11500 3650
-Wire Wire Line
-	9750 2050 9750 3650
-Wire Wire Line
-	9750 1850 10100 1850
-Wire Wire Line
-	10350 3150 10350 3400
-Wire Wire Line
-	10350 2850 10350 2950
-Wire Wire Line
-	11700 3650 10050 3650
-Wire Wire Line
-	10050 3650 10050 2450
-Wire Wire Line
-	10050 2250 10350 2250
-Wire Wire Line
-	10100 1600 10100 2050
-Wire Wire Line
-	10100 2050 10350 2050
-Wire Wire Line
-	9050 2400 9050 2350
-Wire Wire Line
-	11400 3400 11400 3300
-Wire Wire Line
-	11300 3400 11300 3300
-Wire Wire Line
-	11200 3400 11200 3300
-Wire Wire Line
-	11100 3400 11100 3300
-Wire Wire Line
-	11000 3400 11000 3300
-Wire Wire Line
-	10900 3400 10900 3300
-Wire Wire Line
-	9750 3400 11500 3400
-Wire Wire Line
-	11500 3400 11500 3300
-Wire Wire Line
-	12300 3000 12250 3000
-Wire Wire Line
-	12300 2900 12250 2900
-Wire Wire Line
-	12300 2800 12250 2800
-Wire Wire Line
-	12300 2700 12250 2700
-Wire Wire Line
-	12300 2600 12250 2600
-Wire Wire Line
-	12300 2500 12250 2500
-Wire Wire Line
-	12300 2400 12250 2400
-Wire Wire Line
-	12300 2300 12250 2300
-Wire Wire Line
-	12300 2200 12250 2200
-Wire Wire Line
-	12300 2100 12250 2100
-Wire Wire Line
-	12300 2000 12250 2000
-Wire Wire Line
-	12300 1900 12250 1900
-Wire Wire Line
-	12250 1800 12300 1800
-Wire Wire Line
-	11750 1550 11750 1500
-Wire Wire Line
-	11700 3300 11700 3650
-Wire Wire Line
-	11600 3350 11600 3300
-Wire Wire Line
-	12300 3350 11600 3350
-Wire Wire Line
-	12300 1500 12300 3500
-Wire Wire Line
-	11650 1500 12300 1500
-Wire Wire Line
-	11650 1550 11650 1500
-Wire Wire Line
-	10950 1550 10950 1500
-Wire Wire Line
-	11050 1500 11050 1550
-Wire Wire Line
-	11150 1500 11150 1550
-Wire Wire Line
-	11250 1500 11250 1550
-Wire Wire Line
-	11350 1500 11350 1550
-Wire Wire Line
-	11450 1500 11450 1550
-Wire Wire Line
-	11550 1500 11550 1550
-Wire Wire Line
-	10850 1500 11550 1500
-Wire Wire Line
-	10850 1550 10850 1500
-Wire Wire Line
-	1000 4800 1350 4800
-Wire Wire Line
-	1000 4300 1350 4300
-Wire Wire Line
-	1000 3800 1350 3800
-Wire Wire Line
-	1000 3300 1350 3300
-Wire Wire Line
-	1000 2800 1350 2800
-Wire Wire Line
-	1000 2300 1350 2300
-Wire Wire Line
-	1000 1450 1000 4800
-Wire Wire Line
-	1350 1800 1000 1800
-Wire Wire Line
-	1350 2450 1150 2450
-Wire Wire Line
-	1150 2950 1350 2950
-Wire Wire Line
-	1150 3450 1350 3450
-Wire Wire Line
-	1150 3950 1350 3950
-Wire Wire Line
-	1150 4450 1350 4450
-Wire Wire Line
-	1150 4950 1350 4950
-Wire Wire Line
-	1150 1950 1150 5400
-Wire Wire Line
-	1350 1950 1150 1950
-Wire Wire Line
-	1300 2100 1350 2100
-Wire Wire Line
-	1300 2600 1350 2600
-Wire Wire Line
-	1300 3100 1350 3100
-Wire Wire Line
-	1300 3600 1350 3600
-Wire Wire Line
-	1300 4100 1350 4100
-Wire Wire Line
-	1300 4600 1350 4600
-Wire Wire Line
-	1300 5100 1350 5100
-Wire Wire Line
-	1300 2100 1300 5250
-Wire Wire Line
-	13150 4000 13150 3900
-Wire Wire Line
-	14200 4300 14650 4300
-Wire Wire Line
-	14200 4700 14700 4700
-Wire Wire Line
-	14950 4000 14950 4200
-Wire Wire Line
-	14950 4800 14950 5150
-Wire Wire Line
-	14200 4900 14950 4900
-Wire Wire Line
-	14200 4100 14950 4100
-Wire Wire Line
-	14800 5100 14800 4500
-Wire Wire Line
-	14950 4400 14950 4600
-Wire Wire Line
-	14200 4500 14950 4500
-Wire Wire Line
-	13300 5100 13300 4900
-Wire Wire Line
-	12850 5000 12850 5100
-Wire Wire Line
-	12700 5100 14800 5100
-Wire Wire Line
-	12700 5000 12700 5100
-Wire Wire Line
-	12850 4800 13300 4800
-Wire Wire Line
-	13300 4200 12950 4200
-Wire Wire Line
-	13300 4000 13300 4100
-Wire Wire Line
-	12700 4000 13300 4000
-Wire Wire Line
-	12700 4000 12700 4800
-Wire Wire Line
-	13300 4500 13050 4500
-Wire Wire Line
-	13050 4300 13300 4300
-Wire Wire Line
-	13250 1400 13250 1300
-Wire Wire Line
-	14300 1700 14800 1700
-Wire Wire Line
-	14300 2100 14850 2100
-Wire Wire Line
-	15100 1400 15100 1600
-Wire Wire Line
-	15100 2200 15100 2550
-Wire Wire Line
-	14300 2300 15100 2300
-Wire Wire Line
-	14950 2500 14950 1900
-Wire Wire Line
-	15100 1800 15100 2000
-Wire Wire Line
-	14300 1900 15100 1900
-Wire Wire Line
-	13400 2500 13400 2300
-Wire Wire Line
-	12950 2400 12950 2500
-Wire Wire Line
-	12800 2500 14950 2500
-Wire Wire Line
-	12800 2400 12800 2500
-Wire Wire Line
-	12950 2200 13400 2200
-Wire Wire Line
-	13400 1600 13050 1600
-Wire Wire Line
-	13400 1400 13400 1500
-Wire Wire Line
-	12800 1400 13400 1400
-Wire Wire Line
-	12800 1400 12800 2200
-Wire Wire Line
-	13400 1900 13150 1900
-Wire Wire Line
-	13150 1700 13400 1700
-Wire Wire Line
-	7500 1700 7500 2000
-Wire Wire Line
-	3800 2400 3800 2850
-Wire Wire Line
-	3950 2650 3950 3250
-Wire Wire Line
-	4800 1950 4800 3250
-Wire Notes Line
-	850  5650 850  1200
-Wire Notes Line
-	6200 5650 850  5650
-Wire Notes Line
-	6200 1200 6200 5650
-Wire Notes Line
-	850  1200 6200 1200
-Wire Wire Line
-	5900 2500 5850 2500
-Wire Wire Line
-	5900 3250 5850 3250
-Wire Wire Line
-	5900 2500 5900 3750
-Wire Wire Line
-	4800 2500 4850 2500
-Wire Wire Line
-	4800 3250 4850 3250
-Wire Wire Line
-	7500 2200 7500 2400
-Wire Wire Line
-	7150 1700 7500 1700
-Wire Wire Line
-	7150 2750 8900 2750
-Wire Wire Line
-	8550 2750 8550 2600
-Wire Wire Line
-	8650 2400 8650 2350
-Wire Wire Line
-	7350 2400 7600 2400
-Wire Wire Line
-	8400 2400 9050 2400
-Wire Wire Line
-	8450 2400 8450 2700
-Wire Wire Line
-	8400 2500 8450 2500
-Wire Wire Line
-	7300 3750 7300 3950
-Wire Wire Line
-	8300 3900 7300 3900
-Wire Wire Line
-	8300 3750 8300 3900
-Wire Wire Line
-	8400 3550 8400 3500
-Wire Wire Line
-	7250 3550 7250 3400
-Wire Wire Line
-	7100 3550 7350 3550
-Wire Wire Line
-	7100 3750 7350 3750
-Wire Wire Line
-	8150 3550 8400 3550
-Wire Wire Line
-	8200 3650 8200 3550
-Wire Wire Line
-	8150 3650 8200 3650
-Wire Wire Line
-	3650 2500 3800 2500
-Wire Wire Line
-	3800 2850 3650 2850
-Wire Wire Line
-	3650 2650 3950 2650
-Wire Wire Line
-	3650 3000 3950 3000
-Wire Wire Line
-	14300 1500 15100 1500
-Wire Wire Line
-	12700 4700 13300 4700
-Wire Wire Line
-	13300 4600 12700 4600
-Wire Wire Line
-	13400 2000 12800 2000
-Wire Wire Line
-	13400 2100 12800 2100
-Wire Wire Line
-	6650 2900 6650 3050
-Connection ~ 11400 3650
-Connection ~ 11300 3650
-Connection ~ 11200 3650
-Connection ~ 11500 3650
-Connection ~ 12300 3350
-Connection ~ 9750 3400
-Connection ~ 10350 3400
-Connection ~ 10100 1850
-Connection ~ 10900 3400
-Connection ~ 10100 2250
-Connection ~ 8650 2400
-Connection ~ 11400 3400
-Connection ~ 11300 3400
-Connection ~ 11200 3400
-Connection ~ 11100 3400
-Connection ~ 11000 3400
-Connection ~ 12300 3000
-Connection ~ 12300 2900
-Connection ~ 12300 2800
-Connection ~ 12300 2700
-Connection ~ 12300 2600
-Connection ~ 12300 2500
-Connection ~ 12300 2400
-Connection ~ 12300 2300
-Connection ~ 12300 2200
-Connection ~ 12300 2100
-Connection ~ 12300 2000
-Connection ~ 12300 1900
-Connection ~ 12300 1800
-Connection ~ 11750 1500
-Connection ~ 11700 3350
-Connection ~ 10950 1500
-Connection ~ 11050 1500
-Connection ~ 11150 1500
-Connection ~ 11250 1500
-Connection ~ 11350 1500
-Connection ~ 11450 1500
-Connection ~ 1000 4300
-Connection ~ 1000 3800
-Connection ~ 1000 3300
-Connection ~ 1000 2800
-Connection ~ 1000 2300
-Connection ~ 1000 1800
-Connection ~ 1150 2450
-Connection ~ 1150 2950
-Connection ~ 1150 3450
-Connection ~ 1150 3950
-Connection ~ 1150 4450
-Connection ~ 1150 4950
-Connection ~ 1300 2600
-Connection ~ 1300 3100
-Connection ~ 1300 3600
-Connection ~ 1300 4100
-Connection ~ 1300 4600
-Connection ~ 1300 5100
-Connection ~ 13150 4000
-Connection ~ 14600 4300
-Connection ~ 14650 4700
-Connection ~ 14950 4900
-Connection ~ 14950 4100
-Connection ~ 14650 4100
-Connection ~ 14700 4900
-Connection ~ 14800 4500
-Connection ~ 13300 5100
-Connection ~ 14950 4500
-Connection ~ 14650 4500
-Connection ~ 14600 4500
-Connection ~ 12850 5100
-Connection ~ 12950 4000
-Connection ~ 13250 1400
-Connection ~ 14750 1700
-Connection ~ 14800 2100
-Connection ~ 15100 2300
-Connection ~ 15100 1500
-Connection ~ 14800 1500
-Connection ~ 14850 2300
-Connection ~ 14950 1900
-Connection ~ 13400 2500
-Connection ~ 15100 1900
-Connection ~ 14800 1900
-Connection ~ 14750 1900
-Connection ~ 12950 2500
-Connection ~ 13050 1400
-Connection ~ 4800 2500
-Connection ~ 5900 3250
-Connection ~ 7550 2750
-Connection ~ 8550 2400
-Connection ~ 7500 2400
-Connection ~ 8450 2400
-Connection ~ 7300 3900
-Connection ~ 7300 3750
-Connection ~ 8300 3550
-Connection ~ 7250 3550
-Connection ~ 8200 3550
-Connection ~ 3800 2500
-Connection ~ 3950 3000
-Connection ~ 12700 4700
-Connection ~ 12700 4600
-Connection ~ 12800 2000
-Connection ~ 12800 2100
 NoConn ~ 7150 1800
 NoConn ~ 10350 2500
 NoConn ~ 10350 2600
-Wire Wire Line
-	7350 2600 7350 2750
-Connection ~ 7350 2750
-Wire Wire Line
-	7550 2750 7550 2800
-$Comp
-L R_Small R704
-U 1 1 5A6B35E1
-P 8350 2700
-F 0 "R704" H 8409 2746 50  0000 L CNN
-F 1 "100Ω" H 8409 2655 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 8350 2700 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/427/tnpue3-221973.pdf" H 8350 2700 50  0001 C CNN
-F 4 "0.1% -55ºC +125ºC 250mW" H 8409 2846 50  0001 C CNN "Characteristics"
-F 5 "Vishay" H 8350 2700 60  0001 C CNN "Manufacturer"
-F 6 "Thin Film Resistor" H 8350 2700 60  0001 C CNN "Description"
-F 7 "3216 metric" H 8350 2700 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 8350 2700 60  0001 C CNN "Pricing"
-F 9 "TNPU1206100RBZEN00" H 8409 2846 50  0001 C CNN "Manufacturer Part Number"
-	1    8350 2700
-	0    1    -1   0   
-$EndComp
-Connection ~ 8450 2500
-Wire Wire Line
-	7600 2700 8250 2700
-Wire Wire Line
-	7600 2600 7600 2700
-$Comp
-L R_Small R703
-U 1 1 5A6B3CE9
-P 7450 2650
-F 0 "R703" H 7509 2696 50  0000 L CNN
-F 1 "866Ω" H 7509 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 7450 2650 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/427/tnpw_e3-64594.pdf" H 7450 2650 50  0001 C CNN
-F 4 "0.1% -55ºC +155ºC 250mW" H 7509 2796 50  0001 C CNN "Characteristics"
-F 5 "Vishay" H 7450 2650 60  0001 C CNN "Manufacturer"
-F 6 "Thin Film Resistor" H 7450 2650 60  0001 C CNN "Description"
-F 7 "3216 metric" H 7450 2650 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 7450 2650 60  0001 C CNN "Pricing"
-F 9 "TNPW1206866RBEEA" H 7509 2796 50  0001 C CNN "Manufacturer Part Number"
-	1    7450 2650
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	7550 2650 7600 2650
-Connection ~ 7600 2650
-Connection ~ 7350 2650
-Text Notes 7750 2950 0    60   ~ 0
-1.25Volts*(1+(866Ω/100Ω)) 
 $Comp
 L R_Small R702
 U 1 1 5A6B58AC
@@ -1684,21 +1126,524 @@ F 10 "RT0603DRE071R3L" H 8959 2696 50  0001 C CNN "Manufacturer Part Number"
 	1    8900 2550
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	8900 2750 8900 2650
-Connection ~ 8550 2750
-Wire Wire Line
-	8900 2450 8900 2400
-Connection ~ 8900 2400
 $Comp
-L PWR_FLAG #FLG03
-U 1 1 5A6B7336
-P 7600 2600
-F 0 "#FLG03" H 7600 2675 50  0001 C CNN
-F 1 "PWR_FLAG" H 7600 2750 50  0000 C CNN
-F 2 "" H 7600 2600 50  0001 C CNN
-F 3 "" H 7600 2600 50  0001 C CNN
-	1    7600 2600
+L LM1085 U6
+U 1 1 5A789D46
+P 8000 2500
+F 0 "U6" H 8000 2847 60  0000 C CNN
+F 1 "LM1085-12V" H 8000 2741 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin4" H 7900 2400 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1085.pdf" H 8300 3400 60  0001 C CNN
+F 4 "3A, 3.3V, 5V, 12V, Adj Vout" H 8200 3200 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 8200 3500 60  0001 C CNN "Manufacturer"
+F 6 "LM1085 3A Low Dropout Positive Regulators" H 8300 3600 60  0001 C CNN "Description"
+F 7 "DDPAK/TO-263, TO-220" H 8400 3700 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 8300 3100 60  0001 C CNN "Pricing"
+F 9 "LM1085IS-12/NOPB" H 8000 2947 50  0001 C CNN "Manufacturer Part Number"
+	1    8000 2500
 	1    0    0    -1  
 $EndComp
+$Comp
+L C_Small C13
+U 1 1 5A78A494
+P 7100 3650
+F 0 "C13" H 7191 3696 50  0000 L CNN
+F 1 "10uF" H 7191 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 7100 3650 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 7100 3650 50  0001 C CNN
+F 4 "Ceramic Capacitor" H 7100 3650 60  0001 C CNN "Description"
+F 5 "CGA5L3X5R1H106K160AB" H 7100 3650 60  0001 C CNN "Manufacturer Part Number"
+F 6 "TDK" H 7100 3650 60  0001 C CNN "Manufacturer"
+F 7 "3216 metric" H 7100 3650 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 7100 3650 60  0001 C CNN "Pricing"
+	1    7100 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C14
+U 1 1 5A78A84B
+P 8300 3650
+F 0 "C14" H 8392 3696 50  0000 L CNN
+F 1 "10uF" H 8392 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 8300 3650 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8300 3650 50  0001 C CNN
+F 4 "25volts 10uF 5% X7R" H 8300 3650 60  0001 C CNN "Characteristics"
+F 5 "TDK" H 8300 3650 60  0001 C CNN "Manufacturer"
+F 6 "Ceramic Capacitor" H 8300 3650 60  0001 C CNN "Description"
+F 7 "3216 metric" H 8300 3650 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 8300 3650 60  0001 C CNN "Pricing"
+F 9 "C1206X106J3RACAUTO" H 8300 3650 60  0001 C CNN "Manufacturer Part Number"
+	1    8300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R703
+U 1 1 5A78ABC2
+P 8500 3700
+F 0 "R703" H 8559 3746 50  0000 L CNN
+F 1 "1.3Ω" H 8559 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 8500 3700 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 8500 3700 50  0001 C CNN
+F 4 "0.5% -55ºC +155ºC 100mW" H 8559 3846 50  0001 C CNN "Characteristics"
+F 5 "Yageo" H 8500 3700 60  0001 C CNN "Manufacturer"
+F 6 "Thin Film Resistor" H 8500 3700 60  0001 C CNN "Description"
+F 7 "1608 metric" H 8500 3700 60  0001 C CNN "Package ID"
+F 8 "Used for ESR compensation for Capacitor" V 8400 3850 60  0000 C CNN "Notes"
+F 9 "0.00@0" H 8500 3700 60  0001 C CNN "Pricing"
+F 10 "RT0603DRE071R3L" H 8559 3846 50  0001 C CNN "Manufacturer Part Number"
+	1    8500 3700
+	1    0    0    1   
+$EndComp
+Connection ~ 8400 3550
+Wire Wire Line
+	8500 3550 8500 3600
+Connection ~ 8900 2400
+Wire Wire Line
+	8900 2450 8900 2400
+Connection ~ 8550 2750
+Wire Wire Line
+	8900 2750 8900 2650
+Wire Wire Line
+	7600 2600 7350 2600
+Connection ~ 8450 2500
+Wire Wire Line
+	7550 2750 7550 2800
+Connection ~ 7350 2750
+Wire Wire Line
+	7350 2600 7350 2750
+Connection ~ 12800 2100
+Connection ~ 12800 2000
+Connection ~ 12700 4600
+Connection ~ 12700 4700
+Connection ~ 3950 3000
+Connection ~ 3800 2500
+Connection ~ 8200 3550
+Connection ~ 7250 3550
+Connection ~ 8300 3550
+Connection ~ 7300 3750
+Connection ~ 7300 3900
+Connection ~ 8450 2400
+Connection ~ 7500 2400
+Connection ~ 8550 2400
+Connection ~ 7550 2750
+Connection ~ 5900 3250
+Connection ~ 4800 2500
+Connection ~ 13050 1400
+Connection ~ 12950 2500
+Connection ~ 14750 1900
+Connection ~ 14800 1900
+Connection ~ 15100 1900
+Connection ~ 13400 2500
+Connection ~ 14950 1900
+Connection ~ 14850 2300
+Connection ~ 14800 1500
+Connection ~ 15100 1500
+Connection ~ 15100 2300
+Connection ~ 14800 2100
+Connection ~ 14750 1700
+Connection ~ 13250 1400
+Connection ~ 12950 4000
+Connection ~ 12850 5100
+Connection ~ 14600 4500
+Connection ~ 14650 4500
+Connection ~ 14950 4500
+Connection ~ 13300 5100
+Connection ~ 14800 4500
+Connection ~ 14700 4900
+Connection ~ 14650 4100
+Connection ~ 14950 4100
+Connection ~ 14950 4900
+Connection ~ 14650 4700
+Connection ~ 14600 4300
+Connection ~ 13150 4000
+Connection ~ 1300 5100
+Connection ~ 1300 4600
+Connection ~ 1300 4100
+Connection ~ 1300 3600
+Connection ~ 1300 3100
+Connection ~ 1300 2600
+Connection ~ 1150 4950
+Connection ~ 1150 4450
+Connection ~ 1150 3950
+Connection ~ 1150 3450
+Connection ~ 1150 2950
+Connection ~ 1150 2450
+Connection ~ 1000 1800
+Connection ~ 1000 2300
+Connection ~ 1000 2800
+Connection ~ 1000 3300
+Connection ~ 1000 3800
+Connection ~ 1000 4300
+Connection ~ 11450 1500
+Connection ~ 11350 1500
+Connection ~ 11250 1500
+Connection ~ 11150 1500
+Connection ~ 11050 1500
+Connection ~ 10950 1500
+Connection ~ 11700 3350
+Connection ~ 11750 1500
+Connection ~ 12300 1800
+Connection ~ 12300 1900
+Connection ~ 12300 2000
+Connection ~ 12300 2100
+Connection ~ 12300 2200
+Connection ~ 12300 2300
+Connection ~ 12300 2400
+Connection ~ 12300 2500
+Connection ~ 12300 2600
+Connection ~ 12300 2700
+Connection ~ 12300 2800
+Connection ~ 12300 2900
+Connection ~ 12300 3000
+Connection ~ 11000 3400
+Connection ~ 11100 3400
+Connection ~ 11200 3400
+Connection ~ 11300 3400
+Connection ~ 11400 3400
+Connection ~ 8650 2400
+Connection ~ 10100 2250
+Connection ~ 10900 3400
+Connection ~ 10100 1850
+Connection ~ 10350 3400
+Connection ~ 9750 3400
+Connection ~ 12300 3350
+Connection ~ 11500 3650
+Connection ~ 11200 3650
+Connection ~ 11300 3650
+Connection ~ 11400 3650
+Wire Wire Line
+	6650 2900 6650 3050
+Wire Wire Line
+	13400 2100 12800 2100
+Wire Wire Line
+	13400 2000 12800 2000
+Wire Wire Line
+	13300 4600 12700 4600
+Wire Wire Line
+	12700 4700 13300 4700
+Wire Wire Line
+	14300 1500 15100 1500
+Wire Wire Line
+	3650 3000 3950 3000
+Wire Wire Line
+	3650 2650 3950 2650
+Wire Wire Line
+	3800 2850 3650 2850
+Wire Wire Line
+	3650 2500 3800 2500
+Wire Wire Line
+	8150 3650 8200 3650
+Wire Wire Line
+	8200 3650 8200 3550
+Wire Wire Line
+	8150 3550 8500 3550
+Wire Wire Line
+	7100 3750 7350 3750
+Wire Wire Line
+	7100 3550 7350 3550
+Wire Wire Line
+	7250 3550 7250 3400
+Wire Wire Line
+	8400 3550 8400 3500
+Wire Wire Line
+	8300 3750 8300 3900
+Wire Wire Line
+	7300 3900 8500 3900
+Wire Wire Line
+	7300 3750 7300 3950
+Wire Wire Line
+	8450 2500 8400 2500
+Wire Wire Line
+	8450 2400 8450 2500
+Wire Wire Line
+	8400 2400 9050 2400
+Wire Wire Line
+	7350 2400 7600 2400
+Wire Wire Line
+	8650 2400 8650 2350
+Wire Wire Line
+	8550 2750 8550 2600
+Wire Wire Line
+	7150 2750 8900 2750
+Wire Wire Line
+	7150 1700 7500 1700
+Wire Wire Line
+	7500 2200 7500 2400
+Wire Wire Line
+	4800 3250 4850 3250
+Wire Wire Line
+	4800 2500 4850 2500
+Wire Wire Line
+	5900 2500 5900 3750
+Wire Wire Line
+	5900 3250 5850 3250
+Wire Wire Line
+	5900 2500 5850 2500
+Wire Notes Line
+	850  1200 6200 1200
+Wire Notes Line
+	6200 1200 6200 5650
+Wire Notes Line
+	6200 5650 850  5650
+Wire Notes Line
+	850  5650 850  1200
+Wire Wire Line
+	4800 1950 4800 3250
+Wire Wire Line
+	3950 2650 3950 3250
+Wire Wire Line
+	3800 2400 3800 2850
+Wire Wire Line
+	7500 1700 7500 2000
+Wire Wire Line
+	13150 1700 13400 1700
+Wire Wire Line
+	13400 1900 13150 1900
+Wire Wire Line
+	12800 1400 12800 2200
+Wire Wire Line
+	12800 1400 13400 1400
+Wire Wire Line
+	13400 1400 13400 1500
+Wire Wire Line
+	13400 1600 13050 1600
+Wire Wire Line
+	12950 2200 13400 2200
+Wire Wire Line
+	12800 2400 12800 2500
+Wire Wire Line
+	12800 2500 14950 2500
+Wire Wire Line
+	12950 2400 12950 2500
+Wire Wire Line
+	13400 2500 13400 2300
+Wire Wire Line
+	14300 1900 15100 1900
+Wire Wire Line
+	15100 1800 15100 2000
+Wire Wire Line
+	14950 2500 14950 1900
+Wire Wire Line
+	14300 2300 15100 2300
+Wire Wire Line
+	15100 2200 15100 2550
+Wire Wire Line
+	15100 1400 15100 1600
+Wire Wire Line
+	14300 2100 14850 2100
+Wire Wire Line
+	14300 1700 14800 1700
+Wire Wire Line
+	13250 1400 13250 1300
+Wire Wire Line
+	13050 4300 13300 4300
+Wire Wire Line
+	13300 4500 13050 4500
+Wire Wire Line
+	12700 4000 12700 4800
+Wire Wire Line
+	12700 4000 13300 4000
+Wire Wire Line
+	13300 4000 13300 4100
+Wire Wire Line
+	13300 4200 12950 4200
+Wire Wire Line
+	12850 4800 13300 4800
+Wire Wire Line
+	12700 5000 12700 5100
+Wire Wire Line
+	12700 5100 14800 5100
+Wire Wire Line
+	12850 5000 12850 5100
+Wire Wire Line
+	13300 5100 13300 4900
+Wire Wire Line
+	14200 4500 14950 4500
+Wire Wire Line
+	14950 4400 14950 4600
+Wire Wire Line
+	14800 5100 14800 4500
+Wire Wire Line
+	14200 4100 14950 4100
+Wire Wire Line
+	14200 4900 14950 4900
+Wire Wire Line
+	14950 4800 14950 5150
+Wire Wire Line
+	14950 4000 14950 4200
+Wire Wire Line
+	14200 4700 14700 4700
+Wire Wire Line
+	14200 4300 14650 4300
+Wire Wire Line
+	13150 4000 13150 3900
+Wire Wire Line
+	1300 2100 1300 5250
+Wire Wire Line
+	1300 5100 1350 5100
+Wire Wire Line
+	1300 4600 1350 4600
+Wire Wire Line
+	1300 4100 1350 4100
+Wire Wire Line
+	1300 3600 1350 3600
+Wire Wire Line
+	1300 3100 1350 3100
+Wire Wire Line
+	1300 2600 1350 2600
+Wire Wire Line
+	1300 2100 1350 2100
+Wire Wire Line
+	1350 1950 1150 1950
+Wire Wire Line
+	1150 1950 1150 5400
+Wire Wire Line
+	1150 4950 1350 4950
+Wire Wire Line
+	1150 4450 1350 4450
+Wire Wire Line
+	1150 3950 1350 3950
+Wire Wire Line
+	1150 3450 1350 3450
+Wire Wire Line
+	1150 2950 1350 2950
+Wire Wire Line
+	1350 2450 1150 2450
+Wire Wire Line
+	1350 1800 1000 1800
+Wire Wire Line
+	1000 1450 1000 4800
+Wire Wire Line
+	1000 2300 1350 2300
+Wire Wire Line
+	1000 2800 1350 2800
+Wire Wire Line
+	1000 3300 1350 3300
+Wire Wire Line
+	1000 3800 1350 3800
+Wire Wire Line
+	1000 4300 1350 4300
+Wire Wire Line
+	1000 4800 1350 4800
+Wire Wire Line
+	10850 1550 10850 1500
+Wire Wire Line
+	10850 1500 11550 1500
+Wire Wire Line
+	11550 1500 11550 1550
+Wire Wire Line
+	11450 1500 11450 1550
+Wire Wire Line
+	11350 1500 11350 1550
+Wire Wire Line
+	11250 1500 11250 1550
+Wire Wire Line
+	11150 1500 11150 1550
+Wire Wire Line
+	11050 1500 11050 1550
+Wire Wire Line
+	10950 1550 10950 1500
+Wire Wire Line
+	11650 1550 11650 1500
+Wire Wire Line
+	11650 1500 12300 1500
+Wire Wire Line
+	12300 1500 12300 3500
+Wire Wire Line
+	12300 3350 11600 3350
+Wire Wire Line
+	11600 3350 11600 3300
+Wire Wire Line
+	11700 3300 11700 3650
+Wire Wire Line
+	11750 1550 11750 1500
+Wire Wire Line
+	12250 1800 12300 1800
+Wire Wire Line
+	12300 1900 12250 1900
+Wire Wire Line
+	12300 2000 12250 2000
+Wire Wire Line
+	12300 2100 12250 2100
+Wire Wire Line
+	12300 2200 12250 2200
+Wire Wire Line
+	12300 2300 12250 2300
+Wire Wire Line
+	12300 2400 12250 2400
+Wire Wire Line
+	12300 2500 12250 2500
+Wire Wire Line
+	12300 2600 12250 2600
+Wire Wire Line
+	12300 2700 12250 2700
+Wire Wire Line
+	12300 2800 12250 2800
+Wire Wire Line
+	12300 2900 12250 2900
+Wire Wire Line
+	12300 3000 12250 3000
+Wire Wire Line
+	11500 3400 11500 3300
+Wire Wire Line
+	9750 3400 11500 3400
+Wire Wire Line
+	10900 3400 10900 3300
+Wire Wire Line
+	11000 3400 11000 3300
+Wire Wire Line
+	11100 3400 11100 3300
+Wire Wire Line
+	11200 3400 11200 3300
+Wire Wire Line
+	11300 3400 11300 3300
+Wire Wire Line
+	11400 3400 11400 3300
+Wire Wire Line
+	9050 2400 9050 2350
+Wire Wire Line
+	10100 2050 10350 2050
+Wire Wire Line
+	10100 1600 10100 2050
+Wire Wire Line
+	10050 2250 10350 2250
+Wire Wire Line
+	10050 3650 10050 2450
+Wire Wire Line
+	11700 3650 10050 3650
+Wire Wire Line
+	10350 2850 10350 2950
+Wire Wire Line
+	10350 3150 10350 3400
+Wire Wire Line
+	9750 1850 10100 1850
+Wire Wire Line
+	9750 2050 9750 3650
+Wire Wire Line
+	11500 3600 11500 3650
+Wire Wire Line
+	11200 3600 11200 3650
+Wire Wire Line
+	11300 3600 11300 3650
+Wire Wire Line
+	11400 3600 11400 3650
+Wire Wire Line
+	7150 2750 7150 1900
+Wire Notes Line
+	15500 6000 6300 6000
+Wire Notes Line
+	6300 6000 6300 650 
+Wire Notes Line
+	6300 650  15500 650 
+Wire Notes Line
+	15500 650  15500 6000
+Wire Wire Line
+	8500 3900 8500 3800
+Connection ~ 8300 3900
+Wire Wire Line
+	13050 1600 13050 2500
+Connection ~ 13050 2500
+Wire Wire Line
+	12950 4200 12950 5100
+Connection ~ 12950 5100
 $EndSCHEMATC

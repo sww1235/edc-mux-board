@@ -41,11 +41,11 @@ output to a microphone input as well as block dc output from phone/radio.
 |12|2x digi pot|DS1882| 1uA \@5VD, 2.5uA \@±5VA|
 |2|OR gate|SN74ACT32|20uA \@5V|
 |2|SPST switch|TS12A44514|0.2uA \@12V|
-|Total|±2V5 rail|| 313uA (rounded ->) 0.5mA|
-|Total|±12VA rail|| 256.2mA (rounded ->) 500mA|
-
-|Total|5V rail||1.5A+2.64mA (rounded ->) 1.6A-> 667mA \@12V|
-|Total|12V rail||0.8047A (rounded ->) 1A (includes 3v3 and 5V conversions)|
+|Total|±2V5 rail||313uA (rounded ->) 0.5mA|
+|Total|±12VA rail||256.2mA (rounded ->) 500mA|
+|Total|±5VA rail||30uA|
+|Total|+5V rail||2\*2V5\* 0.5mA = 2.5mW \@5V = 0.5mA (assume at least 10mA) + </br>2\*5VA\* 30uA = 0.3mW \@5V = 60uA (assume at least 10mA) + </br>228uA -> 0.5mA </br> Sum = 0.5mA + 0.5mA + 60uA = 1.06mA (assume 30mA) = 6mA \@12V|
+|Total|12V+12VA rail||518.4mA (rounded ->) 1A (includes 2v5 and 5V conversions)|
 
 
 ## References
