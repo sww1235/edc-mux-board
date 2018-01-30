@@ -20,7 +20,15 @@ to line level. (headset input) as well as a capacitor to block the DC bias outpu
 
 Connected phones and radios will need a pad circuit to reduce the line level
 output to a microphone input as well as block dc output from phone/radio.
-(Device Output)
+(Device Output) Resistor divider with ~40dB attenuation. Attenuation in dB = 20*
+log10((R1 + R2)/R2). Also need resistance between bottom two sleeve contacts.
+
+o-----^v^v^v--|---o
+      R1      >
+Line          < mic
+          R2  >
+              >
+o-------------|---o
 
 ## TODO
 
