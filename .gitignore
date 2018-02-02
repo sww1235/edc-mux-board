@@ -12,6 +12,7 @@ bom.ini
 _saved*
 _autosave-*
 *.tmp
+rescue-backup
 
 # Netlist files (exported from Eeschema)
 *.net
