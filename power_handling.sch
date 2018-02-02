@@ -1,52 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:SW-Texas
-LIBS:power
-LIBS:SW-con
-LIBS:SW-power
-LIBS:SW-Linear
-LIBS:SW-gTransistors
-LIBS:SW-Winbond
-LIBS:SW-Microchip
-LIBS:SW-Passives
-LIBS:SW-dallas-semi-maxim
-LIBS:SW-RaspberryPi-Headers
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:SW-HALO
-LIBS:SW-Fairchild-On-Semi
-LIBS:SW-Diodes-Inc
-LIBS:interface
-LIBS:SW-gElectroMech
-LIBS:SW-Analog
-LIBS:SW-Semtech
-LIBS:SW-Intersil
-LIBS:SW-Arduino
-LIBS:SW-Wiznet
+EESchema Schematic File Version 4
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
@@ -63,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +12V #PWR08
+L power:+12V #PWR08
 U 1 1 58EA15D1
 P 3800 2400
 F 0 "#PWR08" H 3800 2250 50  0001 C CNN
@@ -74,7 +26,7 @@ F 3 "" H 3800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR011
+L power:GNDREF #PWR011
 U 1 1 58EA1603
 P 3950 3250
 F 0 "#PWR011" H 3950 3000 50  0001 C CNN
@@ -85,7 +37,7 @@ F 3 "" H 3950 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TS12A44514 U7
+L SW-Texas:TS12A44514 U7
 U 5 1 592494F2
 P 3500 2550
 F 0 "U7" H 3828 2847 60  0000 C CNN
@@ -102,7 +54,7 @@ F 9 "0.00@0" H 3550 3550 60  0001 C CNN "Pricing"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TS12A44514 U8
+L SW-Texas:TS12A44514 U8
 U 5 1 59249556
 P 3500 2900
 F 0 "U8" H 3828 2659 60  0000 C CNN
@@ -119,7 +71,7 @@ F 9 "0.00@0" H 3550 3900 60  0001 C CNN "Pricing"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR023
+L power:GNDREF #PWR023
 U 1 1 58F81199
 P 14950 26900
 F 0 "#PWR023" H 14950 26650 50  0001 C CNN
@@ -130,7 +82,7 @@ F 3 "" H 14950 26900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR013
+L power:+5V #PWR013
 U 1 1 590BB439
 P 8400 3500
 F 0 "#PWR013" H 8400 3350 50  0001 C CNN
@@ -141,7 +93,7 @@ F 3 "" H 8400 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR06
+L power:+12V #PWR06
 U 1 1 5910B770
 P 8650 2350
 F 0 "#PWR06" H 8650 2200 50  0001 C CNN
@@ -152,7 +104,7 @@ F 3 "" H 8650 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR012
+L power:+12V #PWR012
 U 1 1 5910D62E
 P 7250 3400
 F 0 "#PWR012" H 7250 3250 50  0001 C CNN
@@ -163,7 +115,7 @@ F 3 "" H 7250 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM1085 U12
+L SW-Texas:LM1085 U12
 U 1 1 5910D639
 P 7750 3650
 AR Path="/5910D639" Ref="U12"  Part="1" 
@@ -182,7 +134,7 @@ F 9 "0.00@0" H 8050 4250 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR018
+L power:GNDREF #PWR018
 U 1 1 5910D659
 P 7300 3950
 F 0 "#PWR018" H 7300 3700 50  0001 C CNN
@@ -193,7 +145,7 @@ F 3 "" H 7300 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR010
+L power:GNDREF #PWR010
 U 1 1 59125272
 P 7550 2800
 F 0 "#PWR010" H 7550 2550 50  0001 C CNN
@@ -204,7 +156,7 @@ F 3 "" H 7550 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Barrel_Jack J1
+L Connector_Specialized:Barrel_Jack J1
 U 1 1 59CF03DD
 P 6850 1800
 F 0 "J1" H 6665 1777 50  0000 R CNN
@@ -215,7 +167,7 @@ F 3 "" H 6900 1760 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fuse_Small F1
+L Device:Fuse_Small F1
 U 1 1 59D03CA2
 P 7500 2100
 F 0 "F1" V 7454 2052 50  0000 R CNN
@@ -232,7 +184,7 @@ F 9 "0.00@0" H 7500 2100 60  0001 C CNN "Pricing"
 	0    1    1    0   
 $EndComp
 $Comp
-L 74LS32 U26
+L Logic_74xx:74LS32 U26
 U 5 1 59D2717B
 P 5350 3250
 F 0 "U26" H 5580 3296 50  0000 L CNN
@@ -247,7 +199,7 @@ F 7 "TSSOP14" H 5580 3396 50  0001 C CNN "Package ID"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74LS32 U17
+L Logic_74xx:74LS32 U17
 U 5 1 59D27241
 P 5350 2500
 F 0 "U17" H 5580 2546 50  0000 L CNN
@@ -262,7 +214,7 @@ F 7 "TSSOP14" H 5580 2646 50  0001 C CNN "Package ID"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GNDREF #PWR016
+L power:GNDREF #PWR016
 U 1 1 59D2B10D
 P 5900 3750
 F 0 "#PWR016" H 5900 3500 50  0001 C CNN
@@ -273,7 +225,7 @@ F 3 "" H 5900 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG01
+L power:PWR_FLAG #FLG01
 U 1 1 59DC0655
 P 7600 2400
 F 0 "#FLG01" H 7600 2475 50  0001 C CNN
@@ -284,7 +236,7 @@ F 3 "" H 7600 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR05
+L power:+5V #PWR05
 U 1 1 59D3CA4B
 P 4800 1950
 F 0 "#PWR05" H 4800 1800 50  0001 C CNN
@@ -295,7 +247,7 @@ F 3 "" H 4800 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG715 U2
+L SW-Analog:ADG715 U2
 U 1 1 5A5751BA
 P 1650 1950
 F 0 "U2" H 1872 2003 60  0000 L CNN
@@ -312,7 +264,7 @@ F 9 "0.00@0" H 1700 3550 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG715 U4
+L SW-Analog:ADG715 U4
 U 1 1 5A57533C
 P 1650 2450
 F 0 "U4" H 1872 2503 60  0000 L CNN
@@ -329,7 +281,7 @@ F 9 "0.00@0" H 1700 4050 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG734 U11
+L SW-Analog:ADG734 U11
 U 5 1 5A58FEE8
 P 1650 3400
 F 0 "U11" H 1897 3403 60  0000 L CNN
@@ -345,7 +297,7 @@ F 8 "0.00@0" H 1650 3850 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG734 U13
+L SW-Analog:ADG734 U13
 U 5 1 5A590061
 P 1650 3900
 F 0 "U13" H 1897 3903 60  0000 L CNN
@@ -361,7 +313,7 @@ F 8 "0.00@0" H 1650 4350 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG734 U14
+L SW-Analog:ADG734 U14
 U 5 1 5A5901AE
 P 1650 4400
 F 0 "U14" H 1897 4403 60  0000 L CNN
@@ -377,7 +329,7 @@ F 8 "0.00@0" H 1650 4850 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG734 U16
+L SW-Analog:ADG734 U16
 U 5 1 5A5902FD
 P 1650 4900
 F 0 "U16" H 1897 4903 60  0000 L CNN
@@ -393,7 +345,7 @@ F 8 "0.00@0" H 1650 5350 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADG715 U9
+L SW-Analog:ADG715 U9
 U 1 1 5AEB66E8
 P 1650 2950
 F 0 "U9" H 1872 3003 60  0000 L CNN
@@ -410,7 +362,7 @@ F 9 "0.00@0" H 1700 4550 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM27762 U1
+L SW-Texas:LM27762 U1
 U 1 1 5A648DBD
 P 13850 1900
 F 0 "U1" H 13850 2547 60  0000 C CNN
@@ -427,7 +379,7 @@ F 9 "0.00@0" H 13850 3250 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1
+L Device:C_Small C1
 U 1 1 5A648F04
 P 15100 1700
 F 0 "C1" H 15192 1746 50  0000 L CNN
@@ -441,7 +393,7 @@ F 6 "0.00@0" H 15100 1700 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L Device:C_Small C4
 U 1 1 5A64924E
 P 15100 2100
 F 0 "C4" H 15192 2146 50  0000 L CNN
@@ -455,7 +407,7 @@ F 6 "0.00@0" H 15100 2100 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C6
+L Device:C_Small C6
 U 1 1 5A649385
 P 12950 2300
 F 0 "C6" H 13042 2346 50  0000 L CNN
@@ -469,7 +421,7 @@ F 6 "TDK" H 13042 2446 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L Device:C_Small C2
 U 1 1 5A6493E0
 P 13150 1800
 F 0 "C2" H 13242 1846 50  0000 L CNN
@@ -484,7 +436,7 @@ F 7 "TDK" H 13242 1946 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C5
+L Device:C_Small C5
 U 1 1 5A64954C
 P 12800 2300
 F 0 "C5" H 12709 2346 50  0000 R CNN
@@ -498,7 +450,7 @@ F 6 "TDK" H 12709 2446 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R3
+L Device:R_Small R3
 U 1 1 5A6495E7
 P 14750 1800
 F 0 "R3" H 14809 1846 50  0000 L CNN
@@ -513,7 +465,7 @@ F 7 "Vishay" H 14809 1946 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R2
+L Device:R_Small R2
 U 1 1 5A649654
 P 14800 1600
 F 0 "R2" H 14859 1646 50  0000 L CNN
@@ -528,7 +480,7 @@ F 7 "Vishay" H 14859 1746 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R6
+L Device:R_Small R6
 U 1 1 5A649719
 P 14850 2200
 F 0 "R6" H 14909 2246 50  0000 L CNN
@@ -543,7 +495,7 @@ F 7 "Vishay" H 14909 2346 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R4
+L Device:R_Small R4
 U 1 1 5A649720
 P 14800 2000
 F 0 "R4" H 14859 2046 50  0000 L CNN
@@ -558,7 +510,7 @@ F 7 "Vishay" H 14859 2146 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR09
+L power:GNDREF #PWR09
 U 1 1 5A652C64
 P 13400 2500
 F 0 "#PWR09" H 13400 2250 50  0001 C CNN
@@ -569,7 +521,7 @@ F 3 "" H 13400 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L -2.5V #-2.5V01
+L SW-power:-2.5V #-2.5V01
 U 1 1 5A653CDD
 P 15100 2550
 F 0 "#-2.5V01" H 15850 2250 60  0001 C CNN
@@ -581,7 +533,7 @@ F 4 "0.00@0" H 15200 3000 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +2V5 #PWR02
+L power:+2V5 #PWR02
 U 1 1 5A653D96
 P 15100 1400
 F 0 "#PWR02" H 15100 1250 50  0001 C CNN
@@ -592,7 +544,7 @@ F 3 "" H 15100 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR01
+L power:+5V #PWR01
 U 1 1 5A659399
 P 13250 1300
 F 0 "#PWR01" H 13250 1150 50  0001 C CNN
@@ -603,7 +555,7 @@ F 3 "" H 13250 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM27762 U15
+L SW-Texas:LM27762 U15
 U 1 1 5A65A77E
 P 13750 4500
 F 0 "U15" H 13750 5147 60  0000 C CNN
@@ -620,7 +572,7 @@ F 9 "0.00@0" H 13750 5850 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C15
+L Device:C_Small C15
 U 1 1 5A65A785
 P 14950 4300
 F 0 "C15" H 15042 4346 50  0000 L CNN
@@ -634,7 +586,7 @@ F 6 "0.00@0" H 14950 4300 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C17
+L Device:C_Small C17
 U 1 1 5A65A78C
 P 14950 4700
 F 0 "C17" H 15042 4746 50  0000 L CNN
@@ -648,7 +600,7 @@ F 6 "0.00@0" H 14950 4700 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C19
+L Device:C_Small C19
 U 1 1 5A65A793
 P 12850 4900
 F 0 "C19" H 12942 4946 50  0000 L CNN
@@ -662,7 +614,7 @@ F 6 "TDK" H 12942 5046 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C16
+L Device:C_Small C16
 U 1 1 5A65A79A
 P 13050 4400
 F 0 "C16" H 13142 4446 50  0000 L CNN
@@ -677,7 +629,7 @@ F 7 "TDK" H 13142 4546 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C18
+L Device:C_Small C18
 U 1 1 5A65A7A1
 P 12700 4900
 F 0 "C18" H 12609 4946 50  0000 R CNN
@@ -691,7 +643,7 @@ F 6 "TDK" H 12609 5046 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R11
+L Device:R_Small R11
 U 1 1 5A65A7A8
 P 14600 4400
 F 0 "R11" H 14659 4446 50  0000 L CNN
@@ -706,7 +658,7 @@ F 7 "Vishay" H 14659 4546 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R10
+L Device:R_Small R10
 U 1 1 5A65A7AF
 P 14650 4200
 F 0 "R10" H 14708 4246 50  0000 L CNN
@@ -722,7 +674,7 @@ F 8 "1608 metric" H 14708 4346 50  0001 C CNN "Package ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R13
+L Device:R_Small R13
 U 1 1 5A65A7B6
 P 14700 4800
 F 0 "R13" H 14758 4846 50  0000 L CNN
@@ -738,7 +690,7 @@ F 8 "1608 metric" H 14758 4946 50  0001 C CNN "Package ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R12
+L Device:R_Small R12
 U 1 1 5A65A7BD
 P 14650 4600
 F 0 "R12" H 14709 4646 50  0000 L CNN
@@ -753,7 +705,7 @@ F 7 "Vishay" H 14709 4746 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR020
+L power:GNDREF #PWR020
 U 1 1 5A65A7D3
 P 13300 5100
 F 0 "#PWR020" H 13300 4850 50  0001 C CNN
@@ -764,7 +716,7 @@ F 3 "" H 13300 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR017
+L power:+5V #PWR017
 U 1 1 5A65A800
 P 13150 3900
 F 0 "#PWR017" H 13150 3750 50  0001 C CNN
@@ -775,7 +727,7 @@ F 3 "" H 13150 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5VA #PWR019
+L power:+5VA #PWR019
 U 1 1 5A65B7D7
 P 14950 4000
 F 0 "#PWR019" H 14950 3850 50  0001 C CNN
@@ -786,10 +738,10 @@ F 3 "" H 14950 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L -5VA #PWR21
+L SW-power:-5VA #PWR021
 U 1 1 5A65B956
 P 14950 5150
-F 0 "#PWR21" H 14950 5250 50  0001 C CNN
+F 0 "#PWR021" H 14950 5250 50  0001 C CNN
 F 1 "-5VA" H 14965 5323 50  0000 C CNN
 F 2 "" H 14950 5150 50  0001 C CNN
 F 3 "" H 14950 5150 50  0001 C CNN
@@ -797,7 +749,7 @@ F 3 "" H 14950 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L -2.5V #-2.5V02
+L SW-power:-2.5V #-2.5V02
 U 1 1 5A66A890
 P 1300 5250
 F 0 "#-2.5V02" H 2050 4950 60  0001 C CNN
@@ -809,7 +761,7 @@ F 4 "0.00@0" H 1400 5700 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +2V5 #PWR03
+L power:+2V5 #PWR03
 U 1 1 5A66AD96
 P 1000 1450
 F 0 "#PWR03" H 1000 1300 50  0001 C CNN
@@ -820,7 +772,7 @@ F 3 "" H 1000 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR022
+L power:GNDREF #PWR022
 U 1 1 5A66AF8B
 P 1150 5400
 F 0 "#PWR022" H 1150 5150 50  0001 C CNN
@@ -831,7 +783,7 @@ F 3 "" H 1150 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LMZ34002 U3
+L SW-Texas:LMZ34002 U3
 U 1 1 5A67B8DE
 P 11300 2400
 F 0 "U3" H 10650 3100 60  0000 R CNN
@@ -848,7 +800,7 @@ F 9 "0.00@0" H 11300 3700 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L -12VA #PWR014
+L SW-power:-12VA #PWR014
 U 1 1 5A67E7FA
 P 12300 3500
 F 0 "#PWR014" H 12300 3350 50  0001 C CNN
@@ -859,7 +811,7 @@ F 3 "" H 12300 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +12VA #PWR04
+L power:+12VA #PWR04
 U 1 1 5A67E956
 P 10100 1600
 F 0 "#PWR04" H 10100 1450 50  0001 C CNN
@@ -870,7 +822,7 @@ F 3 "" H 10100 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12VA #PWR07
+L power:+12VA #PWR07
 U 1 1 5A696ECF
 P 9050 2350
 F 0 "#PWR07" H 9050 2200 50  0001 C CNN
@@ -881,7 +833,7 @@ F 3 "" H 9050 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R5
+L Device:R_Small R5
 U 1 1 5A699847
 P 10100 2150
 F 0 "R5" H 10159 2196 50  0000 L CNN
@@ -898,7 +850,7 @@ F 9 "0.00@0" H 10100 2150 60  0001 C CNN "Pricing"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R7
+L Device:R_Small R7
 U 1 1 5A699C3B
 P 10050 2350
 F 0 "R7" H 10109 2396 50  0000 L CNN
@@ -915,7 +867,7 @@ F 9 "0.00@0" H 10050 2350 60  0001 C CNN "Pricing"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R8
+L Device:R_Small R8
 U 1 1 5A69A8E7
 P 10350 3050
 F 0 "R8" H 10409 3096 50  0000 L CNN
@@ -932,7 +884,7 @@ F 9 "0.00@0" H 10350 3050 60  0001 C CNN "Pricing"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L Device:C_Small C3
 U 1 1 5A69ADE2
 P 9750 1950
 F 0 "C3" H 9842 1996 50  0000 L CNN
@@ -950,7 +902,7 @@ F 10 "0.00@0" H 9750 1950 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR015
+L power:GNDREF #PWR015
 U 1 1 5A69B87C
 P 9750 3650
 F 0 "#PWR015" H 9750 3400 50  0001 C CNN
@@ -961,7 +913,7 @@ F 3 "" H 9750 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C12
+L Device:C_Small C12
 U 1 1 5A69C725
 P 11500 3500
 F 0 "C12" H 11500 3550 50  0000 L CNN
@@ -976,7 +928,7 @@ F 7 "0.00@0" H 11500 3500 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C11
+L Device:C_Small C11
 U 1 1 5A69CB8F
 P 11400 3500
 F 0 "C11" H 11400 3550 50  0000 L CNN
@@ -991,7 +943,7 @@ F 7 "0.00@0" H 11400 3500 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C10
+L Device:C_Small C10
 U 1 1 5A69CC03
 P 11300 3500
 F 0 "C10" H 11200 3550 50  0000 L CNN
@@ -1006,7 +958,7 @@ F 7 "0.00@0" H 11300 3500 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C9
+L Device:C_Small C9
 U 1 1 5A69CC79
 P 11200 3500
 F 0 "C9" H 11050 3550 50  0000 L CNN
@@ -1021,7 +973,7 @@ F 7 "0.00@0" H 11200 3500 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 5A9FBA67
 P 6650 2900
 F 0 "#FLG02" H 6650 2975 50  0001 C CNN
@@ -1032,7 +984,7 @@ F 3 "" H 6650 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR0128
+L power:GNDREF #PWR0128
 U 1 1 5A9FBAD6
 P 6650 3050
 F 0 "#PWR0128" H 6650 2800 50  0001 C CNN
@@ -1043,7 +995,7 @@ F 3 "" H 6650 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L Device:C_Small C7
 U 1 1 5A65A409
 P 7350 2500
 F 0 "C7" H 7441 2546 50  0000 L CNN
@@ -1059,7 +1011,7 @@ F 8 "0.00@0" H 7350 2500 60  0001 C CNN "Pricing"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C8
+L Device:C_Small C8
 U 1 1 5A65ABF0
 P 8550 2500
 F 0 "C8" H 8642 2546 50  0000 L CNN
@@ -1109,7 +1061,7 @@ NoConn ~ 7150 1800
 NoConn ~ 10350 2500
 NoConn ~ 10350 2600
 $Comp
-L R_Small R702
+L Device:R_Small R702
 U 1 1 5A6B58AC
 P 8900 2550
 F 0 "R702" H 8959 2596 50  0000 L CNN
@@ -1127,7 +1079,7 @@ F 10 "RT0603DRE071R3L" H 8959 2696 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L LM1085 U6
+L SW-Texas:LM1085 U6
 U 1 1 5A789D46
 P 8000 2500
 F 0 "U6" H 8000 2847 60  0000 C CNN
@@ -1144,7 +1096,7 @@ F 9 "LM1085IS-12/NOPB" H 8000 2947 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C13
+L Device:C_Small C13
 U 1 1 5A78A494
 P 7100 3650
 F 0 "C13" H 7191 3696 50  0000 L CNN
@@ -1160,7 +1112,7 @@ F 8 "0.00@0" H 7100 3650 60  0001 C CNN "Pricing"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C14
+L Device:C_Small C14
 U 1 1 5A78A84B
 P 8300 3650
 F 0 "C14" H 8392 3696 50  0000 L CNN
@@ -1177,7 +1129,7 @@ F 9 "C1206X106J3RACAUTO" H 8300 3650 60  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R703
+L Device:R_Small R703
 U 1 1 5A78ABC2
 P 8500 3700
 F 0 "R703" H 8559 3746 50  0000 L CNN
@@ -1205,7 +1157,6 @@ Wire Wire Line
 	8900 2750 8900 2650
 Wire Wire Line
 	7600 2600 7350 2600
-Connection ~ 8450 2500
 Wire Wire Line
 	7550 2750 7550 2800
 Connection ~ 7350 2750
@@ -1228,7 +1179,6 @@ Connection ~ 8550 2400
 Connection ~ 7550 2750
 Connection ~ 5900 3250
 Connection ~ 4800 2500
-Connection ~ 13050 1400
 Connection ~ 12950 2500
 Connection ~ 14750 1900
 Connection ~ 14800 1900
@@ -1242,7 +1192,6 @@ Connection ~ 15100 2300
 Connection ~ 14800 2100
 Connection ~ 14750 1700
 Connection ~ 13250 1400
-Connection ~ 12950 4000
 Connection ~ 12850 5100
 Connection ~ 14600 4500
 Connection ~ 14650 4500
@@ -1322,7 +1271,7 @@ Wire Wire Line
 Wire Wire Line
 	12700 4700 13300 4700
 Wire Wire Line
-	14300 1500 15100 1500
+	14300 1500 14800 1500
 Wire Wire Line
 	3650 3000 3950 3000
 Wire Wire Line
@@ -1336,11 +1285,11 @@ Wire Wire Line
 Wire Wire Line
 	8200 3650 8200 3550
 Wire Wire Line
-	8150 3550 8500 3550
+	8150 3550 8200 3550
 Wire Wire Line
-	7100 3750 7350 3750
+	7100 3750 7300 3750
 Wire Wire Line
-	7100 3550 7350 3550
+	7100 3550 7250 3550
 Wire Wire Line
 	7250 3550 7250 3400
 Wire Wire Line
@@ -1348,23 +1297,23 @@ Wire Wire Line
 Wire Wire Line
 	8300 3750 8300 3900
 Wire Wire Line
-	7300 3900 8500 3900
+	7300 3900 8300 3900
 Wire Wire Line
-	7300 3750 7300 3950
+	7300 3750 7300 3900
 Wire Wire Line
 	8450 2500 8400 2500
 Wire Wire Line
 	8450 2400 8450 2500
 Wire Wire Line
-	8400 2400 9050 2400
+	8400 2400 8450 2400
 Wire Wire Line
-	7350 2400 7600 2400
+	7350 2400 7500 2400
 Wire Wire Line
 	8650 2400 8650 2350
 Wire Wire Line
 	8550 2750 8550 2600
 Wire Wire Line
-	7150 2750 8900 2750
+	7150 2750 7350 2750
 Wire Wire Line
 	7150 1700 7500 1700
 Wire Wire Line
@@ -1374,7 +1323,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2500 4850 2500
 Wire Wire Line
-	5900 2500 5900 3750
+	5900 2500 5900 3250
 Wire Wire Line
 	5900 3250 5850 3250
 Wire Wire Line
@@ -1388,11 +1337,11 @@ Wire Notes Line
 Wire Notes Line
 	850  5650 850  1200
 Wire Wire Line
-	4800 1950 4800 3250
+	4800 1950 4800 2500
 Wire Wire Line
-	3950 2650 3950 3250
+	3950 2650 3950 3000
 Wire Wire Line
-	3800 2400 3800 2850
+	3800 2400 3800 2500
 Wire Wire Line
 	7500 1700 7500 2000
 Wire Wire Line
@@ -1400,9 +1349,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 1900 13150 1900
 Wire Wire Line
-	12800 1400 12800 2200
-Wire Wire Line
-	12800 1400 13400 1400
+	12800 1400 12800 2000
 Wire Wire Line
 	13400 1400 13400 1500
 Wire Wire Line
@@ -1412,27 +1359,27 @@ Wire Wire Line
 Wire Wire Line
 	12800 2400 12800 2500
 Wire Wire Line
-	12800 2500 14950 2500
+	12800 2500 12950 2500
 Wire Wire Line
 	12950 2400 12950 2500
 Wire Wire Line
 	13400 2500 13400 2300
 Wire Wire Line
-	14300 1900 15100 1900
+	14300 1900 14750 1900
 Wire Wire Line
-	15100 1800 15100 2000
+	15100 1800 15100 1900
 Wire Wire Line
 	14950 2500 14950 1900
 Wire Wire Line
-	14300 2300 15100 2300
+	14300 2300 14850 2300
 Wire Wire Line
-	15100 2200 15100 2550
+	15100 2200 15100 2300
 Wire Wire Line
-	15100 1400 15100 1600
+	15100 1400 15100 1500
 Wire Wire Line
-	14300 2100 14850 2100
+	14300 2100 14800 2100
 Wire Wire Line
-	14300 1700 14800 1700
+	14300 1700 14750 1700
 Wire Wire Line
 	13250 1400 13250 1300
 Wire Wire Line
@@ -1440,9 +1387,7 @@ Wire Wire Line
 Wire Wire Line
 	13300 4500 13050 4500
 Wire Wire Line
-	12700 4000 12700 4800
-Wire Wire Line
-	12700 4000 13300 4000
+	12700 4000 12700 4600
 Wire Wire Line
 	13300 4000 13300 4100
 Wire Wire Line
@@ -1452,33 +1397,33 @@ Wire Wire Line
 Wire Wire Line
 	12700 5000 12700 5100
 Wire Wire Line
-	12700 5100 14800 5100
+	12700 5100 12850 5100
 Wire Wire Line
 	12850 5000 12850 5100
 Wire Wire Line
 	13300 5100 13300 4900
 Wire Wire Line
-	14200 4500 14950 4500
+	14200 4500 14600 4500
 Wire Wire Line
-	14950 4400 14950 4600
+	14950 4400 14950 4500
 Wire Wire Line
 	14800 5100 14800 4500
 Wire Wire Line
-	14200 4100 14950 4100
+	14200 4100 14650 4100
 Wire Wire Line
-	14200 4900 14950 4900
+	14200 4900 14700 4900
 Wire Wire Line
-	14950 4800 14950 5150
+	14950 4800 14950 4900
 Wire Wire Line
-	14950 4000 14950 4200
+	14950 4000 14950 4100
 Wire Wire Line
-	14200 4700 14700 4700
+	14200 4700 14650 4700
 Wire Wire Line
-	14200 4300 14650 4300
+	14200 4300 14600 4300
 Wire Wire Line
 	13150 4000 13150 3900
 Wire Wire Line
-	1300 2100 1300 5250
+	1300 2100 1300 2600
 Wire Wire Line
 	1300 5100 1350 5100
 Wire Wire Line
@@ -1496,7 +1441,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 1950 1150 1950
 Wire Wire Line
-	1150 1950 1150 5400
+	1150 1950 1150 2450
 Wire Wire Line
 	1150 4950 1350 4950
 Wire Wire Line
@@ -1512,7 +1457,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 1800 1000 1800
 Wire Wire Line
-	1000 1450 1000 4800
+	1000 1450 1000 1800
 Wire Wire Line
 	1000 2300 1350 2300
 Wire Wire Line
@@ -1528,7 +1473,7 @@ Wire Wire Line
 Wire Wire Line
 	10850 1550 10850 1500
 Wire Wire Line
-	10850 1500 11550 1500
+	10850 1500 10950 1500
 Wire Wire Line
 	11550 1500 11550 1550
 Wire Wire Line
@@ -1546,15 +1491,15 @@ Wire Wire Line
 Wire Wire Line
 	11650 1550 11650 1500
 Wire Wire Line
-	11650 1500 12300 1500
+	11650 1500 11750 1500
 Wire Wire Line
-	12300 1500 12300 3500
+	12300 1500 12300 1800
 Wire Wire Line
-	12300 3350 11600 3350
+	12300 3350 11700 3350
 Wire Wire Line
 	11600 3350 11600 3300
 Wire Wire Line
-	11700 3300 11700 3650
+	11700 3300 11700 3350
 Wire Wire Line
 	11750 1550 11750 1500
 Wire Wire Line
@@ -1586,7 +1531,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 3400 11500 3300
 Wire Wire Line
-	9750 3400 11500 3400
+	9750 3400 10350 3400
 Wire Wire Line
 	10900 3400 10900 3300
 Wire Wire Line
@@ -1604,13 +1549,13 @@ Wire Wire Line
 Wire Wire Line
 	10100 2050 10350 2050
 Wire Wire Line
-	10100 1600 10100 2050
+	10100 1600 10100 1850
 Wire Wire Line
-	10050 2250 10350 2250
+	10050 2250 10100 2250
 Wire Wire Line
 	10050 3650 10050 2450
 Wire Wire Line
-	11700 3650 10050 3650
+	11700 3650 11500 3650
 Wire Wire Line
 	10350 2850 10350 2950
 Wire Wire Line
@@ -1618,7 +1563,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 1850 10100 1850
 Wire Wire Line
-	9750 2050 9750 3650
+	9750 2050 9750 3400
 Wire Wire Line
 	11500 3600 11500 3650
 Wire Wire Line
@@ -1646,4 +1591,220 @@ Connection ~ 13050 2500
 Wire Wire Line
 	12950 4200 12950 5100
 Connection ~ 12950 5100
+Wire Wire Line
+	8400 3550 8500 3550
+Wire Wire Line
+	8900 2400 9050 2400
+Wire Wire Line
+	8550 2750 8900 2750
+Wire Wire Line
+	7350 2750 7550 2750
+Wire Wire Line
+	12800 2100 12800 2200
+Wire Wire Line
+	12800 2000 12800 2100
+Wire Wire Line
+	12700 4600 12700 4700
+Wire Wire Line
+	12700 4700 12700 4800
+Wire Wire Line
+	3950 3000 3950 3250
+Wire Wire Line
+	3800 2500 3800 2850
+Wire Wire Line
+	8200 3550 8300 3550
+Wire Wire Line
+	7250 3550 7350 3550
+Wire Wire Line
+	8300 3550 8400 3550
+Wire Wire Line
+	7300 3750 7350 3750
+Wire Wire Line
+	7300 3900 7300 3950
+Wire Wire Line
+	8450 2400 8550 2400
+Wire Wire Line
+	7500 2400 7600 2400
+Wire Wire Line
+	8550 2400 8650 2400
+Wire Wire Line
+	7550 2750 8550 2750
+Wire Wire Line
+	5900 3250 5900 3750
+Wire Wire Line
+	4800 2500 4800 3250
+Wire Wire Line
+	12950 2500 13050 2500
+Wire Wire Line
+	14750 1900 14800 1900
+Wire Wire Line
+	14800 1900 14950 1900
+Wire Wire Line
+	15100 1900 15100 2000
+Wire Wire Line
+	13400 2500 14950 2500
+Wire Wire Line
+	14950 1900 15100 1900
+Wire Wire Line
+	14850 2300 15100 2300
+Wire Wire Line
+	14800 1500 15100 1500
+Wire Wire Line
+	15100 1500 15100 1600
+Wire Wire Line
+	15100 2300 15100 2550
+Wire Wire Line
+	14800 2100 14850 2100
+Wire Wire Line
+	14750 1700 14800 1700
+Wire Wire Line
+	13250 1400 13400 1400
+Wire Wire Line
+	12850 5100 12950 5100
+Wire Wire Line
+	14600 4500 14650 4500
+Wire Wire Line
+	14650 4500 14800 4500
+Wire Wire Line
+	14950 4500 14950 4600
+Wire Wire Line
+	13300 5100 14800 5100
+Wire Wire Line
+	14800 4500 14950 4500
+Wire Wire Line
+	14700 4900 14950 4900
+Wire Wire Line
+	14650 4100 14950 4100
+Wire Wire Line
+	14950 4100 14950 4200
+Wire Wire Line
+	14950 4900 14950 5150
+Wire Wire Line
+	14650 4700 14700 4700
+Wire Wire Line
+	14600 4300 14650 4300
+Wire Wire Line
+	13150 4000 13300 4000
+Wire Wire Line
+	1300 5100 1300 5250
+Wire Wire Line
+	1300 4600 1300 5100
+Wire Wire Line
+	1300 4100 1300 4600
+Wire Wire Line
+	1300 3600 1300 4100
+Wire Wire Line
+	1300 3100 1300 3600
+Wire Wire Line
+	1300 2600 1300 3100
+Wire Wire Line
+	1150 4950 1150 5400
+Wire Wire Line
+	1150 4450 1150 4950
+Wire Wire Line
+	1150 3950 1150 4450
+Wire Wire Line
+	1150 3450 1150 3950
+Wire Wire Line
+	1150 2950 1150 3450
+Wire Wire Line
+	1150 2450 1150 2950
+Wire Wire Line
+	1000 1800 1000 2300
+Wire Wire Line
+	1000 2300 1000 2800
+Wire Wire Line
+	1000 2800 1000 3300
+Wire Wire Line
+	1000 3300 1000 3800
+Wire Wire Line
+	1000 3800 1000 4300
+Wire Wire Line
+	1000 4300 1000 4800
+Wire Wire Line
+	11450 1500 11550 1500
+Wire Wire Line
+	11350 1500 11450 1500
+Wire Wire Line
+	11250 1500 11350 1500
+Wire Wire Line
+	11150 1500 11250 1500
+Wire Wire Line
+	11050 1500 11150 1500
+Wire Wire Line
+	10950 1500 11050 1500
+Wire Wire Line
+	11700 3350 11600 3350
+Wire Wire Line
+	11700 3350 11700 3650
+Wire Wire Line
+	11750 1500 12300 1500
+Wire Wire Line
+	12300 1800 12300 1900
+Wire Wire Line
+	12300 1900 12300 2000
+Wire Wire Line
+	12300 2000 12300 2100
+Wire Wire Line
+	12300 2100 12300 2200
+Wire Wire Line
+	12300 2200 12300 2300
+Wire Wire Line
+	12300 2300 12300 2400
+Wire Wire Line
+	12300 2400 12300 2500
+Wire Wire Line
+	12300 2500 12300 2600
+Wire Wire Line
+	12300 2600 12300 2700
+Wire Wire Line
+	12300 2700 12300 2800
+Wire Wire Line
+	12300 2800 12300 2900
+Wire Wire Line
+	12300 2900 12300 3000
+Wire Wire Line
+	12300 3000 12300 3350
+Wire Wire Line
+	11000 3400 11100 3400
+Wire Wire Line
+	11100 3400 11200 3400
+Wire Wire Line
+	11200 3400 11300 3400
+Wire Wire Line
+	11300 3400 11400 3400
+Wire Wire Line
+	11400 3400 11500 3400
+Wire Wire Line
+	8650 2400 8900 2400
+Wire Wire Line
+	10100 2250 10350 2250
+Wire Wire Line
+	10900 3400 11000 3400
+Wire Wire Line
+	10100 1850 10100 2050
+Wire Wire Line
+	10350 3400 10900 3400
+Wire Wire Line
+	9750 3400 9750 3650
+Wire Wire Line
+	12300 3350 12300 3500
+Wire Wire Line
+	11500 3650 11400 3650
+Wire Wire Line
+	11200 3650 10050 3650
+Wire Wire Line
+	11300 3650 11200 3650
+Wire Wire Line
+	11400 3650 11300 3650
+Wire Wire Line
+	8300 3900 8500 3900
+Wire Wire Line
+	13050 2500 13400 2500
+Wire Wire Line
+	12950 5100 13300 5100
+Wire Wire Line
+	12800 1400 13250 1400
+Wire Wire Line
+	12700 4000 13150 4000
 $EndSCHEMATC

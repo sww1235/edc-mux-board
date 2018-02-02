@@ -1,52 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:SW-Texas
-LIBS:power
-LIBS:SW-con
-LIBS:SW-power
-LIBS:SW-Linear
-LIBS:SW-gTransistors
-LIBS:SW-Winbond
-LIBS:SW-Microchip
-LIBS:SW-Passives
-LIBS:SW-dallas-semi-maxim
-LIBS:SW-RaspberryPi-Headers
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:SW-HALO
-LIBS:SW-Fairchild-On-Semi
-LIBS:SW-Diodes-Inc
-LIBS:interface
-LIBS:SW-gElectroMech
-LIBS:SW-Analog
-LIBS:SW-Semtech
-LIBS:SW-Intersil
-LIBS:SW-Arduino
-LIBS:SW-Wiznet
+EESchema Schematic File Version 4
 LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
@@ -63,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Nano_Headers XA1
+L SW-Arduino:Nano_Headers XA1
 U 1 1 5A6DE539
 P 4800 2950
 F 0 "XA1" H 4800 3897 60  0000 C CNN
@@ -78,7 +30,7 @@ F 7 "0.00@0" H 4650 4500 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0686
+L power:+5V #PWR0686
 U 1 1 5A6DE5AF
 P 5900 2250
 F 0 "#PWR0686" H 5900 2100 50  0001 C CNN
@@ -89,7 +41,7 @@ F 3 "" H 5900 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR0688
+L power:GNDREF #PWR0688
 U 1 1 5A6DE62A
 P 4750 4100
 F 0 "#PWR0688" H 4750 3850 50  0001 C CNN
@@ -100,7 +52,7 @@ F 3 "" H 4750 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPST S1
+L Switch:SW_Push S1
 U 1 1 5A9E5DCE
 P 6200 2450
 F 0 "S1" H 6200 2677 60  0000 C CNN
@@ -116,7 +68,7 @@ F 8 "0.00@0" H 6200 2450 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0687
+L power:+3.3V #PWR0687
 U 1 1 5A9E6079
 P 5800 3550
 F 0 "#PWR0687" H 5800 3400 50  0001 C CNN
@@ -127,35 +79,35 @@ F 3 "" H 5800 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPST S2
+L Switch:SW_Push S2
 U 1 1 5A9E66B9
-P 3750 3500
-F 0 "S2" H 3750 3727 60  0000 C CNN
-F 1 "I2C Reset" H 3750 3621 60  0000 C CNN
-F 2 "SW-Eswitch:TL1105" H 3800 3600 60  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/140/TL1105-346150.pdf" H 3800 3600 60  0001 C CNN
-F 4 "SPST 50mA 4.3mm Height" H 3750 3827 50  0001 C CNN "Characteristics"
-F 5 "TL1105F160Q" H 3750 3827 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Eswitch" H 3750 3500 60  0001 C CNN "Manufacturer"
-F 7 "TL1105" H 3750 3500 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 3750 3500 60  0001 C CNN "Pricing"
-	1    3750 3500
+P 3650 3500
+F 0 "S2" H 3650 3727 60  0000 C CNN
+F 1 "I2C Reset" H 3650 3621 60  0000 C CNN
+F 2 "SW-Eswitch:TL1105" H 3700 3600 60  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/140/TL1105-346150.pdf" H 3700 3600 60  0001 C CNN
+F 4 "SPST 50mA 4.3mm Height" H 3650 3827 50  0001 C CNN "Characteristics"
+F 5 "TL1105F160Q" H 3650 3827 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Eswitch" H 3650 3500 60  0001 C CNN "Manufacturer"
+F 7 "TL1105" H 3650 3500 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3650 3500 60  0001 C CNN "Pricing"
+	1    3650 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPST S3
+L Switch:SW_Push S3
 U 1 1 5A9E70A4
-P 3750 3600
-F 0 "S3" H 3750 3400 60  0000 C CNN
-F 1 "SPST Reset" H 3750 3500 60  0000 C CNN
-F 2 "SW-Eswitch:TL1105" H 3800 3700 60  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/140/TL1105-346150.pdf" H 3800 3700 60  0001 C CNN
-F 4 "SPST 50mA 4.3mm Height" H 3750 3500 50  0001 C CNN "Characteristics"
-F 5 "TL1105F160Q" H 3750 3500 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Eswitch" H 3750 3600 60  0001 C CNN "Manufacturer"
-F 7 "TL1105" H 3750 3600 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 3750 3600 60  0001 C CNN "Pricing"
-	1    3750 3600
+P 3650 3600
+F 0 "S3" H 3650 3400 60  0000 C CNN
+F 1 "SPST Reset" H 3650 3500 60  0000 C CNN
+F 2 "SW-Eswitch:TL1105" H 3700 3700 60  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/140/TL1105-346150.pdf" H 3700 3700 60  0001 C CNN
+F 4 "SPST 50mA 4.3mm Height" H 3650 3500 50  0001 C CNN "Characteristics"
+F 5 "TL1105F160Q" H 3650 3500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Eswitch" H 3650 3600 60  0001 C CNN "Manufacturer"
+F 7 "TL1105" H 3650 3600 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3650 3600 60  0001 C CNN "Pricing"
+	1    3650 3600
 	1    0    0    -1  
 $EndComp
 Text Notes 3950 1850 0    60   ~ 0
@@ -164,11 +116,11 @@ Text HLabel 6500 2950 2    60   BiDi ~ 0
 5V-SDA
 Text HLabel 6500 2850 2    60   Output ~ 0
 5V-SCL
-Text HLabel 3500 2650 0    60   Output ~ 0
+Text HLabel 3050 2650 0    60   Output ~ 0
 D2_SPST
-Text HLabel 3500 2750 0    60   Output ~ 0
+Text HLabel 3050 2750 0    60   Output ~ 0
 D3_I2C
-Text HLabel 3500 2950 0    60   Input ~ 0
+Text HLabel 3050 2950 0    60   Input ~ 0
 D5_INT
 Text Label 3700 2950 0    60   ~ 0
 IO_EXP_INT
@@ -189,9 +141,9 @@ Wire Wire Line
 Wire Wire Line
 	4150 2550 3900 2550
 Wire Wire Line
-	3900 2550 3900 3950
+	3900 2550 3900 3500
 Wire Wire Line
-	3900 3950 6300 3950
+	3900 3950 4750 3950
 Wire Wire Line
 	4750 3950 4750 4100
 Wire Wire Line
@@ -199,13 +151,13 @@ Wire Wire Line
 Wire Wire Line
 	5450 2950 6500 2950
 Wire Wire Line
-	3500 2950 4150 2950
+	3050 2950 4150 2950
 Wire Wire Line
-	3500 2750 4150 2750
+	3050 2750 3400 2750
 Wire Wire Line
-	3500 2650 4150 2650
+	3050 2650 3300 2650
 Wire Wire Line
-	5450 2450 6100 2450
+	5450 2450 5600 2450
 Wire Wire Line
 	5600 2450 5600 2150
 Wire Wire Line
@@ -215,26 +167,20 @@ Wire Wire Line
 Wire Wire Line
 	4050 2450 4150 2450
 Wire Wire Line
-	6300 3950 6300 2450
-Wire Wire Line
 	5450 3550 5800 3550
 Wire Wire Line
 	3850 3500 3900 3500
 Wire Wire Line
-	3650 3500 3650 2750
-Wire Wire Line
 	3850 3600 3900 3600
 Wire Wire Line
-	3650 3600 3550 3600
-Wire Wire Line
-	3550 3600 3550 2650
+	3300 3600 3300 2650
 Connection ~ 4750 3950
 Connection ~ 5600 2450
 Connection ~ 5650 3950
 Connection ~ 3900 3500
-Connection ~ 3650 2750
+Connection ~ 3400 2750
 Connection ~ 3900 3600
-Connection ~ 3550 2650
+Connection ~ 3300 2650
 NoConn ~ 5450 2650
 NoConn ~ 5450 2750
 NoConn ~ 5450 3050
@@ -254,4 +200,26 @@ NoConn ~ 4150 3350
 NoConn ~ 4150 2250
 NoConn ~ 4150 2350
 NoConn ~ 5450 2250
+Wire Wire Line
+	4750 3950 5650 3950
+Wire Wire Line
+	5600 2450 6000 2450
+Wire Wire Line
+	5650 3950 6400 3950
+Wire Wire Line
+	3900 3500 3900 3600
+Wire Wire Line
+	3400 2750 4150 2750
+Wire Wire Line
+	3900 3600 3900 3950
+Wire Wire Line
+	3300 2650 4150 2650
+Wire Wire Line
+	3300 3600 3450 3600
+Wire Wire Line
+	3400 3500 3450 3500
+Wire Wire Line
+	3400 2750 3400 3500
+Wire Wire Line
+	6400 2450 6400 3950
 $EndSCHEMATC

@@ -32,7 +32,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -10886,18 +10886,18 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder (layer F.Cu) (tedit 59FE48B8) (tstamp 5A6FC2EE)
-    (at 424.768228 83.5033)
+    (at 422.3004 72.5424 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /58DEDA38/5AE8D596/5A42B017)
     (attr smd)
-    (fp_text reference C276 (at 0 -1.85) (layer F.SilkS)
+    (fp_text reference C276 (at 0 -1.85 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 1.85) (layer F.Fab)
+    (fp_text value 0.1uF (at 0 1.85 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 180) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
     (fp_line (start 1.86 1) (end -1.86 1) (layer F.CrtYd) (width 0.05))
@@ -10910,9 +10910,9 @@
     (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
-    (pad 2 smd rect (at 1.0425 0) (size 1.145 1.5) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.0425 0 180) (size 1.145 1.5) (layers F.Cu F.Paste F.Mask)
       (net 10 -12VA))
-    (pad 1 smd rect (at -1.0425 0) (size 1.145 1.5) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.0425 0 180) (size 1.145 1.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GNDREF))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -10922,7 +10922,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder (layer F.Cu) (tedit 59FE48B8) (tstamp 5A6FC2FF)
-    (at 430.638228 74.5033)
+    (at 408.94 72.39)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /58DEDA38/5AE8D596/5A42B067)
@@ -10958,7 +10958,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder (layer F.Cu) (tedit 59FE48B8) (tstamp 5A6FC310)
-    (at 435.654419 68.9033)
+    (at 426.466 64.008)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /58DEDA38/5AE8D596/5A42A442)
@@ -10994,7 +10994,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder (layer F.Cu) (tedit 59FE48B8) (tstamp 5A6FC321)
-    (at 420.228228 83.5033)
+    (at 426.5168 61.1632)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /58DEDA38/5AE8D596/5A42A43B)
@@ -11030,7 +11030,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder (layer F.Cu) (tedit 59FE48B8) (tstamp 5A6FC332)
-    (at 435.178228 74.5033)
+    (at 421.9448 61.8236)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /58DEDA38/5AE8D596/5A427A11)
@@ -11066,7 +11066,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder (layer F.Cu) (tedit 59FE48B8) (tstamp 5A6FC343)
-    (at 415.214419 81.5533)
+    (at 421.894 58.6232)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /58DEDA38/5AE8D596/5A427ACC)
@@ -11102,7 +11102,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder (layer F.Cu) (tedit 59FE48B8) (tstamp 5A6FC354)
-    (at 422.914419 77.9033)
+    (at 408.7368 64.4144)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /58DEDA38/5AE8D596/5A427A49)
@@ -11138,7 +11138,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder (layer F.Cu) (tedit 59FE48B8) (tstamp 5A6FC365)
-    (at 430.638228 68.9033)
+    (at 408.7368 66.6496)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /58DEDA38/5AE8D596/5A4278FF)
@@ -47135,7 +47135,7 @@
   )
 
   (module Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm (layer F.Cu) (tedit 5A02F25C) (tstamp 5A700E2E)
-    (at 424.266801 70.6033)
+    (at 415.0868 64.5668)
     (descr "16-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (path /58DEDA38/5AE8D596/5A3BEC56)
@@ -51632,7 +51632,7 @@
   )
 
   (module Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm (layer F.Cu) (tedit 5A02F25C) (tstamp 5A6F6BAB)
-    (at 416.316801 72.4283)
+    (at 415.0868 72.2376)
     (descr "14-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (path /58DEDA38/5AE8D596/5A3BED86)
