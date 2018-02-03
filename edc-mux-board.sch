@@ -74,4 +74,88 @@ Wire Wire Line
 	5950 1600 5950 4000
 Wire Wire Line
 	5950 4000 2850 4000
+$Comp
+L Mechanical:Mounting_Hole_PAD MK1
+U 1 1 5AA4394C
+P 7300 1200
+F 0 "MK1" H 7400 1251 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 7400 1160 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 7300 1200 50  0001 C CNN
+F 3 "" H 7300 1200 50  0001 C CNN
+	1    7300 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK2
+U 1 1 5AA4398E
+P 8200 1200
+F 0 "MK2" H 8300 1251 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 8300 1160 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 8200 1200 50  0001 C CNN
+F 3 "" H 8200 1200 50  0001 C CNN
+	1    8200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK4
+U 1 1 5AA439B1
+P 8200 1600
+F 0 "MK4" H 8100 1558 50  0000 R CNN
+F 1 "Mounting_Hole_PAD" H 8100 1649 50  0000 R CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 8200 1600 50  0001 C CNN
+F 3 "" H 8200 1600 50  0001 C CNN
+	1    8200 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK3
+U 1 1 5AA439D6
+P 7300 1600
+F 0 "MK3" H 7200 1558 50  0000 R CNN
+F 1 "Mounting_Hole_PAD" H 7200 1649 50  0000 R CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 7300 1600 50  0001 C CNN
+F 3 "" H 7300 1600 50  0001 C CNN
+	1    7300 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 1500 7300 1400
+Wire Wire Line
+	8200 1500 8200 1400
+Wire Wire Line
+	8200 1400 7300 1400
+Connection ~ 8200 1400
+Wire Wire Line
+	8200 1400 8200 1300
+Connection ~ 7300 1400
+Wire Wire Line
+	7300 1400 7300 1300
+$Comp
+L power:GNDREF #PWR0691
+U 1 1 5AA444CD
+P 7000 1600
+F 0 "#PWR0691" H 7000 1350 50  0001 C CNN
+F 1 "GNDREF" H 7005 1427 50  0000 C CNN
+F 2 "" H 7000 1600 50  0001 C CNN
+F 3 "" H 7000 1600 50  0001 C CNN
+	1    7000 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1400 7000 1400
+Wire Wire Line
+	7000 1400 7000 1600
+$Comp
+L Mechanical:Mounting_Hole_PAD MK5
+U 1 1 5AADA511
+P 8600 1400
+F 0 "MK5" V 8554 1550 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" V 8645 1550 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 8600 1400 50  0001 C CNN
+F 3 "" H 8600 1400 50  0001 C CNN
+	1    8600 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 1400 8200 1400
 $EndSCHEMATC

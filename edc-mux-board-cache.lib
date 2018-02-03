@@ -357,6 +357,23 @@ X ~ 13 -300 -100 150 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
+# Mechanical:Mounting_Hole_PAD
+#
+DEF Mechanical:Mounting_Hole_PAD MK 0 40 N N 1 F N
+F0 "MK" 0 250 50 H V C CNN
+F1 "Mechanical:Mounting_Hole_PAD" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Mounting?Hole*
+ Hole*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # SW-Analog:ADG708
 #
 DEF SW-Analog:ADG708 U 0 40 Y Y 1 F N
