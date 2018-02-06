@@ -224,7 +224,7 @@ $EndSheet
 $Sheet
 S 7350 6850 1850 850 
 U 5AF96247
-F0 "Stereo LR Distro Amplifier 1" 60
+F0 "Device LR Distro Amplifier 1" 60
 F1 "stereo-1-2-distro-amp.sch" 60
 F2 "L_IN" I L 7350 6950 60 
 F3 "R_IN" I L 7350 7050 60 
@@ -236,7 +236,7 @@ $EndSheet
 $Sheet
 S 7350 11100 1850 850 
 U 5AF9721A
-F0 "Stereo LR Distro Amplifier 2" 60
+F0 "Device LR Distro Amplifier 2" 60
 F1 "stereo-1-2-distro-amp.sch" 60
 F2 "L_IN" I L 7350 11200 60 
 F3 "R_IN" I L 7350 11300 60 
@@ -248,7 +248,7 @@ $EndSheet
 $Sheet
 S 7350 15350 1850 850 
 U 5AF98BA3
-F0 "Stereo LR Distro Amplifier 3" 60
+F0 "Device LR Distro Amplifier 3" 60
 F1 "stereo-1-2-distro-amp.sch" 60
 F2 "L_IN" I L 7350 15450 60 
 F3 "R_IN" I L 7350 15550 60 
@@ -260,7 +260,7 @@ $EndSheet
 $Sheet
 S 7350 19600 1850 850 
 U 5AF9AD36
-F0 "Stereo LR Distro Amplifier 4" 60
+F0 "Device LR Distro Amplifier 4" 60
 F1 "stereo-1-2-distro-amp.sch" 60
 F2 "L_IN" I L 7350 19700 60 
 F3 "R_IN" I L 7350 19800 60 
@@ -272,7 +272,7 @@ $EndSheet
 $Sheet
 S 7350 23850 1850 850 
 U 5AF9C01D
-F0 "Stereo LR Distro Amplifier 5" 60
+F0 "Device LR Distro Amplifier 5" 60
 F1 "stereo-1-2-distro-amp.sch" 60
 F2 "L_IN" I L 7350 23950 60 
 F3 "R_IN" I L 7350 24050 60 
@@ -284,7 +284,7 @@ $EndSheet
 $Sheet
 S 7350 28100 1850 850 
 U 5AF9C61A
-F0 "Stereo LR Distro Amplifier 6" 60
+F0 "Device LR Distro Amplifier 6" 60
 F1 "stereo-1-2-distro-amp.sch" 60
 F2 "L_IN" I L 7350 28200 60 
 F3 "R_IN" I L 7350 28300 60 
@@ -296,7 +296,7 @@ $EndSheet
 $Sheet
 S 7350 32350 1850 850 
 U 5AF9CF80
-F0 "Stereo LR Distro Amplifier 7" 60
+F0 "Device LR Distro Amplifier 7" 60
 F1 "stereo-1-2-distro-amp.sch" 60
 F2 "L_IN" I L 7350 32450 60 
 F3 "R_IN" I L 7350 32550 60 
