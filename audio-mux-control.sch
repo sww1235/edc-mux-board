@@ -1808,21 +1808,21 @@ F 9 "0.00@0" H 5000 4500 60  0001 C CNN "Pricing"
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U7
-U 1 1 5AE70891
+U 2 1 5AE70891
 P 3250 3300
-AR Path="/58DEDA38/5AE70891" Ref="U7"  Part="1" 
+AR Path="/58DEDA38/5AE70891" Ref="U7"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AE70891" Ref="U?"  Part="1" 
 F 0 "U7" H 3250 3009 60  0000 C CNN
 F 1 "TS12A44514" H 3250 2903 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 4600 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 3300 60  0001 C CNN
 F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 4850 60  0001 C CNN "Characteristics"
-F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 4400 60  0001 C CNN "Description"
-F 6 "TS12A44514PWR" H 3250 3109 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3650 4750 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3550 4500 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3300 4300 60  0001 C CNN "Pricing"
-	1    3250 3300
+F 5 "Texas Instruments" H 3650 4750 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 4400 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 4500 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 4300 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 3109 50  0001 C CNN "Manufacturer Part Number"
+	2    3250 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2127,21 +2127,21 @@ F 9 "0.00@0" H 5000 8750 60  0001 C CNN "Pricing"
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U7
-U 2 1 5AF96270
+U 1 1 5AF96270
 P 3250 7550
-AR Path="/58DEDA38/5AF96270" Ref="U7"  Part="2" 
+AR Path="/58DEDA38/5AF96270" Ref="U7"  Part="1" 
 AR Path="/58DEDA38/58E9E25B/5AF96270" Ref="U?"  Part="1" 
 F 0 "U7" H 3250 7259 60  0000 C CNN
 F 1 "TS12A44514" H 3250 7153 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 8850 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 7550 60  0001 C CNN
 F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 9100 60  0001 C CNN "Characteristics"
-F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 8650 60  0001 C CNN "Description"
-F 6 "TS12A44514PWR" H 3250 7359 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3650 9000 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3550 8750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3300 8550 60  0001 C CNN "Pricing"
-	2    3250 7550
+F 5 "Texas Instruments" H 3650 9000 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 8650 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 8750 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 8550 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 7359 50  0001 C CNN "Manufacturer Part Number"
+	1    3250 7550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2429,21 +2429,21 @@ F 9 "0.00@0" H 5000 13000 60  0001 C CNN "Pricing"
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U7
-U 3 1 5AF97243
+U 4 1 5AF97243
 P 3250 11800
-AR Path="/58DEDA38/5AF97243" Ref="U7"  Part="3" 
+AR Path="/58DEDA38/5AF97243" Ref="U7"  Part="4" 
 AR Path="/58DEDA38/58E9E25B/5AF97243" Ref="U?"  Part="1" 
 F 0 "U7" H 3250 11509 60  0000 C CNN
 F 1 "TS12A44514" H 3250 11403 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 13100 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 11800 60  0001 C CNN
 F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 13350 60  0001 C CNN "Characteristics"
-F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 12900 60  0001 C CNN "Description"
-F 6 "TS12A44514PWR" H 3250 11609 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3650 13250 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3550 13000 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3300 12800 60  0001 C CNN "Pricing"
-	3    3250 11800
+F 5 "Texas Instruments" H 3650 13250 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 12900 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 13000 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 12800 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 11609 50  0001 C CNN "Manufacturer Part Number"
+	4    3250 11800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2731,21 +2731,21 @@ F 9 "0.00@0" H 5000 17250 60  0001 C CNN "Pricing"
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U7
-U 4 1 5AF98BCC
+U 3 1 5AF98BCC
 P 3250 16050
-AR Path="/58DEDA38/5AF98BCC" Ref="U7"  Part="4" 
+AR Path="/58DEDA38/5AF98BCC" Ref="U7"  Part="3" 
 AR Path="/58DEDA38/58E9E25B/5AF98BCC" Ref="U?"  Part="1" 
 F 0 "U7" H 3250 15759 60  0000 C CNN
 F 1 "TS12A44514" H 3250 15653 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 17350 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 16050 60  0001 C CNN
 F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 17600 60  0001 C CNN "Characteristics"
-F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 17150 60  0001 C CNN "Description"
-F 6 "TS12A44514PWR" H 3250 15859 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3650 17500 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3550 17250 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3300 17050 60  0001 C CNN "Pricing"
-	4    3250 16050
+F 5 "Texas Instruments" H 3650 17500 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 17150 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 17250 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 17050 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 15859 50  0001 C CNN "Manufacturer Part Number"
+	3    3250 16050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3033,21 +3033,21 @@ F 9 "0.00@0" H 5000 21500 60  0001 C CNN "Pricing"
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U8
-U 1 1 5AF9AD5F
+U 2 1 5AF9AD5F
 P 3250 20300
-AR Path="/58DEDA38/5AF9AD5F" Ref="U8"  Part="1" 
+AR Path="/58DEDA38/5AF9AD5F" Ref="U8"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF9AD5F" Ref="U?"  Part="1" 
 F 0 "U8" H 3250 20009 60  0000 C CNN
 F 1 "TS12A44514" H 3250 19903 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 21600 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 20300 60  0001 C CNN
 F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 21850 60  0001 C CNN "Characteristics"
-F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 21400 60  0001 C CNN "Description"
-F 6 "TS12A44514PWR" H 3250 20109 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3650 21750 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3550 21500 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3300 21300 60  0001 C CNN "Pricing"
-	1    3250 20300
+F 5 "Texas Instruments" H 3650 21750 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 21400 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 21500 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 21300 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 20109 50  0001 C CNN "Manufacturer Part Number"
+	2    3250 20300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3335,21 +3335,21 @@ F 9 "0.00@0" H 5000 25750 60  0001 C CNN "Pricing"
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U8
-U 2 1 5AF9C046
+U 1 1 5AF9C046
 P 3250 24550
-AR Path="/58DEDA38/5AF9C046" Ref="U8"  Part="2" 
+AR Path="/58DEDA38/5AF9C046" Ref="U8"  Part="1" 
 AR Path="/58DEDA38/58E9E25B/5AF9C046" Ref="U?"  Part="1" 
 F 0 "U8" H 3250 24259 60  0000 C CNN
 F 1 "TS12A44514" H 3250 24153 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 25850 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 24550 60  0001 C CNN
 F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 26100 60  0001 C CNN "Characteristics"
-F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 25650 60  0001 C CNN "Description"
-F 6 "TS12A44514PWR" H 3250 24359 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3650 26000 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3550 25750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3300 25550 60  0001 C CNN "Pricing"
-	2    3250 24550
+F 5 "Texas Instruments" H 3650 26000 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 25650 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 25750 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 25550 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 24359 50  0001 C CNN "Manufacturer Part Number"
+	1    3250 24550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3637,21 +3637,21 @@ F 9 "0.00@0" H 5000 30000 60  0001 C CNN "Pricing"
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U8
-U 3 1 5AF9C643
+U 4 1 5AF9C643
 P 3250 28800
-AR Path="/58DEDA38/5AF9C643" Ref="U8"  Part="3" 
+AR Path="/58DEDA38/5AF9C643" Ref="U8"  Part="4" 
 AR Path="/58DEDA38/58E9E25B/5AF9C643" Ref="U?"  Part="1" 
 F 0 "U8" H 3250 28509 60  0000 C CNN
 F 1 "TS12A44514" H 3250 28403 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 30100 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 28800 60  0001 C CNN
 F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 30350 60  0001 C CNN "Characteristics"
-F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 29900 60  0001 C CNN "Description"
-F 6 "TS12A44514PWR" H 3250 28609 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3650 30250 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3550 30000 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3300 29800 60  0001 C CNN "Pricing"
-	3    3250 28800
+F 5 "Texas Instruments" H 3650 30250 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 29900 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 30000 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 29800 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 28609 50  0001 C CNN "Manufacturer Part Number"
+	4    3250 28800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3939,21 +3939,21 @@ F 9 "0.00@0" H 5000 34250 60  0001 C CNN "Pricing"
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U8
-U 4 1 5AF9CFA9
+U 3 1 5AF9CFA9
 P 3250 33050
-AR Path="/58DEDA38/5AF9CFA9" Ref="U8"  Part="4" 
+AR Path="/58DEDA38/5AF9CFA9" Ref="U8"  Part="3" 
 AR Path="/58DEDA38/58E9E25B/5AF9CFA9" Ref="U?"  Part="1" 
 F 0 "U8" H 3250 32759 60  0000 C CNN
 F 1 "TS12A44514" H 3250 32653 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 34350 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 33050 60  0001 C CNN
 F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 34600 60  0001 C CNN "Characteristics"
-F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 34150 60  0001 C CNN "Description"
-F 6 "TS12A44514PWR" H 3250 32859 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3650 34500 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3550 34250 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3300 34050 60  0001 C CNN "Pricing"
-	4    3250 33050
+F 5 "Texas Instruments" H 3650 34500 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 34150 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 34250 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 34050 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 32859 50  0001 C CNN "Manufacturer Part Number"
+	3    3250 33050
 	1    0    0    -1  
 $EndComp
 $Comp

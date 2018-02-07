@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+12V #PWR08
-U 1 1 58EA15D1
-P 3800 2400
-F 0 "#PWR08" H 3800 2250 50  0001 C CNN
-F 1 "+12V" H 3742 2437 50  0000 R CNN
-F 2 "" H 3800 2400 50  0001 C CNN
-F 3 "" H 3800 2400 50  0001 C CNN
-	1    3800 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDREF #PWR011
 U 1 1 58EA1603
 P 4000 3250
@@ -2076,4 +2065,15 @@ Wire Wire Line
 Connection ~ 5900 3550
 Wire Wire Line
 	5900 3550 5900 3750
+$Comp
+L power:+5V #PWR?
+U 1 1 5AB8FBE7
+P 3800 2400
+F 0 "#PWR?" H 3800 2250 50  0001 C CNN
+F 1 "+5V" H 3815 2573 50  0000 C CNN
+F 2 "" H 3800 2400 50  0001 C CNN
+F 3 "" H 3800 2400 50  0001 C CNN
+	1    3800 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
