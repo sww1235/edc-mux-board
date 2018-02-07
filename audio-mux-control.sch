@@ -1842,22 +1842,22 @@ F 7 "Kemet" H 4271 3000 50  0001 C CNN "Manufacturer"
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
-U 1 1 5AE708B6
+U 2 1 5AE708B6
 P 4700 3450
 AR Path="/58DEDA38/58E9E2BE/5AE708B6" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AE708B6" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AE708B6" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5AE708B6" Ref="U17"  Part="1" 
+AR Path="/58DEDA38/5AE708B6" Ref="U17"  Part="2" 
 F 0 "U17" H 4700 3683 50  0000 C CNN
 F 1 "74ACT32" H 4700 3774 50  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 3450 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 3450 50  0001 C CNN
-F 4 "4x 2:1 OR Gate" H 4700 3783 50  0001 C CNN "Description"
-F 5 "MC74ACT32DTR2G" H 4700 3783 50  0001 C CNN "Manufacturer Part Number"
-F 6 "ON Semiconductor" H 4700 3783 50  0001 C CNN "Manufacturer"
-F 7 "TSSOP14" H 4700 3783 50  0001 C CNN "Package ID"
-F 8 "0.00@0" H 4700 3450 60  0001 C CNN "Pricing"
-	1    4700 3450
+F 4 "ON Semiconductor" H 4700 3783 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 4700 3783 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 4700 3783 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4700 3450 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 4700 3783 50  0001 C CNN "Manufacturer Part Number"
+	2    4700 3450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2161,22 +2161,22 @@ F 7 "Kemet" H 4271 7250 50  0001 C CNN "Manufacturer"
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
-U 2 1 5AF96281
+U 3 1 5AF96281
 P 4700 7700
 AR Path="/58DEDA38/58E9E2BE/5AF96281" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF96281" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF96281" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5AF96281" Ref="U17"  Part="2" 
+AR Path="/58DEDA38/5AF96281" Ref="U17"  Part="3" 
 F 0 "U17" H 4700 7933 50  0000 C CNN
 F 1 "74ACT32" H 4700 8024 50  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 7700 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 7700 50  0001 C CNN
-F 4 "4x 2:1 OR Gate" H 4700 8033 50  0001 C CNN "Description"
-F 5 "MC74ACT32DTR2G" H 4700 8033 50  0001 C CNN "Manufacturer Part Number"
-F 6 "ON Semiconductor" H 4700 8033 50  0001 C CNN "Manufacturer"
-F 7 "TSSOP14" H 4700 8033 50  0001 C CNN "Package ID"
-F 8 "0.00@0" H 4700 7700 60  0001 C CNN "Pricing"
-	2    4700 7700
+F 4 "ON Semiconductor" H 4700 8033 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 4700 8033 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 4700 8033 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4700 7700 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 4700 8033 50  0001 C CNN "Manufacturer Part Number"
+	3    4700 7700
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2463,22 +2463,22 @@ F 7 "Kemet" H 4271 11500 50  0001 C CNN "Manufacturer"
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
-U 3 1 5AF97254
+U 4 1 5AF97254
 P 4700 11950
 AR Path="/58DEDA38/58E9E2BE/5AF97254" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF97254" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF97254" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5AF97254" Ref="U17"  Part="3" 
+AR Path="/58DEDA38/5AF97254" Ref="U17"  Part="4" 
 F 0 "U17" H 4700 11633 50  0000 C CNN
 F 1 "74ACT32" H 4700 11724 50  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 11950 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 11950 50  0001 C CNN
-F 4 "4x 2:1 OR Gate" H 4700 11733 50  0001 C CNN "Description"
-F 5 "MC74ACT32DTR2G" H 4700 11733 50  0001 C CNN "Manufacturer Part Number"
-F 6 "ON Semiconductor" H 4700 11733 50  0001 C CNN "Manufacturer"
-F 7 "TSSOP14" H 4700 11733 50  0001 C CNN "Package ID"
-F 8 "0.00@0" H 4700 11950 60  0001 C CNN "Pricing"
-	3    4700 11950
+F 4 "ON Semiconductor" H 4700 11733 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 4700 11733 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 4700 11733 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4700 11950 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 4700 11733 50  0001 C CNN "Manufacturer Part Number"
+	4    4700 11950
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2765,22 +2765,22 @@ F 7 "Kemet" H 4271 15750 50  0001 C CNN "Manufacturer"
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
-U 4 1 5AF98BDD
+U 1 1 5AF98BDD
 P 4700 16200
 AR Path="/58DEDA38/58E9E2BE/5AF98BDD" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF98BDD" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF98BDD" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5AF98BDD" Ref="U17"  Part="4" 
+AR Path="/58DEDA38/5AF98BDD" Ref="U17"  Part="1" 
 F 0 "U17" H 4700 15883 50  0000 C CNN
 F 1 "74ACT32" H 4700 15974 50  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 16200 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 16200 50  0001 C CNN
-F 4 "4x 2:1 OR Gate" H 4700 15983 50  0001 C CNN "Description"
-F 5 "MC74ACT32DTR2G" H 4700 15983 50  0001 C CNN "Manufacturer Part Number"
-F 6 "ON Semiconductor" H 4700 15983 50  0001 C CNN "Manufacturer"
-F 7 "TSSOP14" H 4700 15983 50  0001 C CNN "Package ID"
-F 8 "0.00@0" H 4700 16200 60  0001 C CNN "Pricing"
-	4    4700 16200
+F 4 "ON Semiconductor" H 4700 15983 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 4700 15983 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 4700 15983 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4700 16200 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 4700 15983 50  0001 C CNN "Manufacturer Part Number"
+	1    4700 16200
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3067,22 +3067,22 @@ F 7 "Kemet" H 4271 20000 50  0001 C CNN "Manufacturer"
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
-U 1 1 5AF9AD70
+U 2 1 5AF9AD70
 P 4700 20450
 AR Path="/58DEDA38/58E9E2BE/5AF9AD70" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF9AD70" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF9AD70" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5AF9AD70" Ref="U26"  Part="1" 
+AR Path="/58DEDA38/5AF9AD70" Ref="U26"  Part="2" 
 F 0 "U26" H 4700 20683 50  0000 C CNN
 F 1 "74ACT32" H 4700 20774 50  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 20450 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 20450 50  0001 C CNN
-F 4 "4x 2:1 OR Gate" H 4700 20783 50  0001 C CNN "Description"
-F 5 "MC74ACT32DTR2G" H 4700 20783 50  0001 C CNN "Manufacturer Part Number"
-F 6 "ON Semiconductor" H 4700 20783 50  0001 C CNN "Manufacturer"
-F 7 "TSSOP14" H 4700 20783 50  0001 C CNN "Package ID"
-F 8 "0.00@0" H 4700 20450 60  0001 C CNN "Pricing"
-	1    4700 20450
+F 4 "ON Semiconductor" H 4700 20783 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 4700 20783 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 4700 20783 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4700 20450 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 4700 20783 50  0001 C CNN "Manufacturer Part Number"
+	2    4700 20450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3369,22 +3369,22 @@ F 7 "Kemet" H 4271 24250 50  0001 C CNN "Manufacturer"
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
-U 2 1 5AF9C057
+U 3 1 5AF9C057
 P 4700 24700
 AR Path="/58DEDA38/58E9E2BE/5AF9C057" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF9C057" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF9C057" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5AF9C057" Ref="U26"  Part="2" 
+AR Path="/58DEDA38/5AF9C057" Ref="U26"  Part="3" 
 F 0 "U26" H 4700 24383 50  0000 C CNN
 F 1 "74ACT32" H 4700 24474 50  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 24700 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 24700 50  0001 C CNN
-F 4 "4x 2:1 OR Gate" H 4700 24483 50  0001 C CNN "Description"
-F 5 "MC74ACT32DTR2G" H 4700 24483 50  0001 C CNN "Manufacturer Part Number"
-F 6 "ON Semiconductor" H 4700 24483 50  0001 C CNN "Manufacturer"
-F 7 "TSSOP14" H 4700 24483 50  0001 C CNN "Package ID"
-F 8 "0.00@0" H 4700 24700 60  0001 C CNN "Pricing"
-	2    4700 24700
+F 4 "ON Semiconductor" H 4700 24483 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 4700 24483 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 4700 24483 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4700 24700 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 4700 24483 50  0001 C CNN "Manufacturer Part Number"
+	3    4700 24700
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3671,22 +3671,22 @@ F 7 "Kemet" H 4271 28500 50  0001 C CNN "Manufacturer"
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
-U 3 1 5AF9C654
+U 4 1 5AF9C654
 P 4700 28950
 AR Path="/58DEDA38/58E9E2BE/5AF9C654" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF9C654" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF9C654" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5AF9C654" Ref="U26"  Part="3" 
+AR Path="/58DEDA38/5AF9C654" Ref="U26"  Part="4" 
 F 0 "U26" H 4700 28633 50  0000 C CNN
 F 1 "74ACT32" H 4700 28724 50  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 28950 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 28950 50  0001 C CNN
-F 4 "4x 2:1 OR Gate" H 4700 28733 50  0001 C CNN "Description"
-F 5 "MC74ACT32DTR2G" H 4700 28733 50  0001 C CNN "Manufacturer Part Number"
-F 6 "ON Semiconductor" H 4700 28733 50  0001 C CNN "Manufacturer"
-F 7 "TSSOP14" H 4700 28733 50  0001 C CNN "Package ID"
-F 8 "0.00@0" H 4700 28950 60  0001 C CNN "Pricing"
-	3    4700 28950
+F 4 "ON Semiconductor" H 4700 28733 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 4700 28733 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 4700 28733 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4700 28950 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 4700 28733 50  0001 C CNN "Manufacturer Part Number"
+	4    4700 28950
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3973,22 +3973,22 @@ F 7 "Kemet" H 4271 32750 50  0001 C CNN "Manufacturer"
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
-U 4 1 5AF9CFBA
+U 1 1 5AF9CFBA
 P 4700 33200
 AR Path="/58DEDA38/58E9E2BE/5AF9CFBA" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF9CFBA" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF9CFBA" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5AF9CFBA" Ref="U26"  Part="4" 
+AR Path="/58DEDA38/5AF9CFBA" Ref="U26"  Part="1" 
 F 0 "U26" H 4700 33433 50  0000 C CNN
 F 1 "74ACT32" H 4700 33524 50  0000 C CNN
 F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 33200 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 33200 50  0001 C CNN
-F 4 "4x 2:1 OR Gate" H 4700 33533 50  0001 C CNN "Description"
-F 5 "MC74ACT32DTR2G" H 4700 33533 50  0001 C CNN "Manufacturer Part Number"
-F 6 "ON Semiconductor" H 4700 33533 50  0001 C CNN "Manufacturer"
-F 7 "TSSOP14" H 4700 33533 50  0001 C CNN "Package ID"
-F 8 "0.00@0" H 4700 33200 60  0001 C CNN "Pricing"
-	4    4700 33200
+F 4 "ON Semiconductor" H 4700 33533 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 4700 33533 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 4700 33533 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 4700 33200 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 4700 33533 50  0001 C CNN "Manufacturer Part Number"
+	1    4700 33200
 	-1   0    0    1   
 $EndComp
 $Comp
