@@ -7158,11 +7158,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 11800 2600 11800
 Wire Wire Line
-	3550 11650 3550 11800
-Wire Wire Line
-	2950 11650 3550 11650
-Wire Wire Line
-	2950 11700 2950 11650
+	2950 11700 2950 11800
 Wire Wire Line
 	2550 11700 2750 11700
 Wire Wire Line
@@ -7848,11 +7844,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 28800 2600 28800
 Wire Wire Line
-	3550 28650 3550 28800
-Wire Wire Line
-	2950 28650 3550 28650
-Wire Wire Line
-	2950 28700 2950 28650
+	2950 28700 2950 28800
 Wire Wire Line
 	2550 28700 2750 28700
 Wire Wire Line
@@ -9556,7 +9548,6 @@ Connection ~ 4250 11200
 Connection ~ 4350 11300
 Connection ~ 2950 11400
 Connection ~ 3750 11650
-Connection ~ 2600 11800
 Connection ~ 2750 11700
 Connection ~ 2850 12150
 Connection ~ 2850 15750
@@ -9616,7 +9607,6 @@ Connection ~ 4250 28200
 Connection ~ 4350 28300
 Connection ~ 2950 28400
 Connection ~ 3750 28650
-Connection ~ 2600 28800
 Connection ~ 2750 28700
 Connection ~ 2850 29150
 Connection ~ 2850 32750
@@ -10014,8 +10004,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 11650 3750 12200
 Wire Wire Line
-	2600 11800 2950 11800
-Wire Wire Line
 	2750 11700 2950 11700
 Wire Wire Line
 	2850 12150 2850 12200
@@ -10133,8 +10121,6 @@ Wire Wire Line
 	2950 28400 4400 28400
 Wire Wire Line
 	3750 28650 3750 29200
-Wire Wire Line
-	2600 28800 2950 28800
 Wire Wire Line
 	2750 28700 2950 28700
 Wire Wire Line
@@ -10401,6 +10387,32 @@ Wire Wire Line
 	19900 31150 19900 31250
 Wire Wire Line
 	19750 30700 19900 30700
+Wire Wire Line
+	2600 11800 2900 11800
+Wire Wire Line
+	2900 11800 2900 12050
+Wire Wire Line
+	2900 12050 3650 12050
+Wire Wire Line
+	3650 12050 3650 11800
+Wire Wire Line
+	3650 11800 3550 11800
+Connection ~ 2600 11800
+Text Notes 3000 12450 0    50   ~ 0
+Swapped pins\nto make layout\neasier
+Text Notes 3000 29550 0    50   ~ 0
+Swapped pins\nto make layout\neasier
+Wire Wire Line
+	2600 28800 2900 28800
+Wire Wire Line
+	2900 28800 2900 29050
+Wire Wire Line
+	2900 29050 3650 29050
+Wire Wire Line
+	3650 29050 3650 28800
+Wire Wire Line
+	3650 28800 3550 28800
+Connection ~ 2600 28800
 Wire Bus Line
 	11050 3350 11050 14100
 Wire Bus Line
