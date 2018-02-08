@@ -2455,69 +2455,69 @@ Text Label 11750 4250 1    60   ~ 0
 DEV6_R_[0..7]
 Text Label 11900 4250 1    60   ~ 0
 DEV7_R_[0..7]
-Text Label 6850 1150 0    60   ~ 0
-DEV0_L_0
-Text Label 6850 2450 0    60   ~ 0
-DEV0_L_1
-Text Label 6850 3750 0    60   ~ 0
-DEV0_L_2
-Text Label 6850 5050 0    60   ~ 0
-DEV0_L_3
-Text Label 6850 6350 0    60   ~ 0
-DEV0_L_4
-Text Label 6850 7650 0    60   ~ 0
-DEV0_L_5
-Text Label 6850 8950 0    60   ~ 0
-DEV0_L_6
-Text Label 6850 10250 0    60   ~ 0
-DEV0_L_7
-Text Label 6850 1250 0    60   ~ 0
-DEV1_L_0
-Text Label 6850 2550 0    60   ~ 0
-DEV1_L_1
-Text Label 6850 3850 0    60   ~ 0
-DEV1_L_2
-Text Label 6850 5150 0    60   ~ 0
-DEV1_L_3
-Text Label 6850 6450 0    60   ~ 0
-DEV1_L_4
-Text Label 6850 7750 0    60   ~ 0
-DEV1_L_5
-Text Label 6850 9050 0    60   ~ 0
-DEV1_L_6
-Text Label 6850 10350 0    60   ~ 0
-DEV1_L_7
-Text Label 6850 1350 0    60   ~ 0
-DEV2_L_0
-Text Label 6850 2650 0    60   ~ 0
-DEV2_L_1
-Text Label 6850 3950 0    60   ~ 0
-DEV2_L_2
-Text Label 6850 5250 0    60   ~ 0
-DEV2_L_3
-Text Label 6850 6550 0    60   ~ 0
-DEV2_L_4
-Text Label 6850 7850 0    60   ~ 0
-DEV2_L_5
-Text Label 6850 9150 0    60   ~ 0
-DEV2_L_6
-Text Label 6850 10450 0    60   ~ 0
-DEV2_L_7
 Text Label 6850 1450 0    60   ~ 0
-DEV3_L_0
+DEV0_L_0
 Text Label 6850 2750 0    60   ~ 0
-DEV3_L_1
+DEV0_L_1
 Text Label 6850 4050 0    60   ~ 0
-DEV3_L_2
+DEV0_L_2
 Text Label 6850 5350 0    60   ~ 0
-DEV3_L_3
+DEV0_L_3
 Text Label 6850 6650 0    60   ~ 0
-DEV3_L_4
+DEV0_L_4
 Text Label 6850 7950 0    60   ~ 0
-DEV3_L_5
+DEV0_L_5
 Text Label 6850 9250 0    60   ~ 0
-DEV3_L_6
+DEV0_L_6
 Text Label 6850 10550 0    60   ~ 0
+DEV0_L_7
+Text Label 6850 1350 0    60   ~ 0
+DEV1_L_0
+Text Label 6850 2650 0    60   ~ 0
+DEV1_L_1
+Text Label 6850 3950 0    60   ~ 0
+DEV1_L_2
+Text Label 6850 5250 0    60   ~ 0
+DEV1_L_3
+Text Label 6850 6550 0    60   ~ 0
+DEV1_L_4
+Text Label 6850 7850 0    60   ~ 0
+DEV1_L_5
+Text Label 6850 9150 0    60   ~ 0
+DEV1_L_6
+Text Label 6850 10450 0    60   ~ 0
+DEV1_L_7
+Text Label 6850 1250 0    60   ~ 0
+DEV2_L_0
+Text Label 6850 2550 0    60   ~ 0
+DEV2_L_1
+Text Label 6850 3850 0    60   ~ 0
+DEV2_L_2
+Text Label 6850 5150 0    60   ~ 0
+DEV2_L_3
+Text Label 6850 6450 0    60   ~ 0
+DEV2_L_4
+Text Label 6850 7750 0    60   ~ 0
+DEV2_L_5
+Text Label 6850 9050 0    60   ~ 0
+DEV2_L_6
+Text Label 6850 10350 0    60   ~ 0
+DEV2_L_7
+Text Label 6850 1150 0    60   ~ 0
+DEV3_L_0
+Text Label 6850 2450 0    60   ~ 0
+DEV3_L_1
+Text Label 6850 3750 0    60   ~ 0
+DEV3_L_2
+Text Label 6850 5050 0    60   ~ 0
+DEV3_L_3
+Text Label 6850 6350 0    60   ~ 0
+DEV3_L_4
+Text Label 6850 7650 0    60   ~ 0
+DEV3_L_5
+Text Label 6850 8950 0    60   ~ 0
+DEV3_L_6
+Text Label 6850 10250 0    60   ~ 0
 DEV3_L_7
 Text Label 6850 1550 0    60   ~ 0
 DEV4_L_0
@@ -2721,69 +2721,69 @@ Text Label 14450 13950 0    60   ~ 0
 DEV_XBAR_CTL[24..47]
 Text Label 14650 15700 1    60   ~ 0
 DEV_XBAR_CTL[0..47]
-Text Label 12350 1150 0    60   ~ 0
-DEV0_R_0
-Text Label 12350 2450 0    60   ~ 0
-DEV0_R_1
-Text Label 12350 3750 0    60   ~ 0
-DEV0_R_2
-Text Label 12350 5050 0    60   ~ 0
-DEV0_R_3
-Text Label 12350 6350 0    60   ~ 0
-DEV0_R_4
-Text Label 12350 7650 0    60   ~ 0
-DEV0_R_5
-Text Label 12350 8950 0    60   ~ 0
-DEV0_R_6
-Text Label 12350 10250 0    60   ~ 0
-DEV0_R_7
-Text Label 12350 1250 0    60   ~ 0
-DEV1_R_0
-Text Label 12350 2550 0    60   ~ 0
-DEV1_R_1
-Text Label 12350 3850 0    60   ~ 0
-DEV1_R_2
-Text Label 12350 5150 0    60   ~ 0
-DEV1_R_3
-Text Label 12350 6450 0    60   ~ 0
-DEV1_R_4
-Text Label 12350 7750 0    60   ~ 0
-DEV1_R_5
-Text Label 12350 9050 0    60   ~ 0
-DEV1_R_6
-Text Label 12350 10350 0    60   ~ 0
-DEV1_R_7
-Text Label 12350 1350 0    60   ~ 0
-DEV2_R_0
-Text Label 12350 2650 0    60   ~ 0
-DEV2_R_1
-Text Label 12350 3950 0    60   ~ 0
-DEV2_R_2
-Text Label 12350 5250 0    60   ~ 0
-DEV2_R_3
-Text Label 12350 6550 0    60   ~ 0
-DEV2_R_4
-Text Label 12350 7850 0    60   ~ 0
-DEV2_R_5
-Text Label 12350 9150 0    60   ~ 0
-DEV2_R_6
-Text Label 12350 10450 0    60   ~ 0
-DEV2_R_7
 Text Label 12350 1450 0    60   ~ 0
-DEV3_R_0
+DEV0_R_0
 Text Label 12350 2750 0    60   ~ 0
-DEV3_R_1
+DEV0_R_1
 Text Label 12350 4050 0    60   ~ 0
-DEV3_R_2
+DEV0_R_2
 Text Label 12350 5350 0    60   ~ 0
-DEV3_R_3
+DEV0_R_3
 Text Label 12350 6650 0    60   ~ 0
-DEV3_R_4
+DEV0_R_4
 Text Label 12350 7950 0    60   ~ 0
-DEV3_R_5
+DEV0_R_5
 Text Label 12350 9250 0    60   ~ 0
-DEV3_R_6
+DEV0_R_6
 Text Label 12350 10550 0    60   ~ 0
+DEV0_R_7
+Text Label 12350 1350 0    60   ~ 0
+DEV1_R_0
+Text Label 12350 2650 0    60   ~ 0
+DEV1_R_1
+Text Label 12350 3950 0    60   ~ 0
+DEV1_R_2
+Text Label 12350 5250 0    60   ~ 0
+DEV1_R_3
+Text Label 12350 6550 0    60   ~ 0
+DEV1_R_4
+Text Label 12350 7850 0    60   ~ 0
+DEV1_R_5
+Text Label 12350 9150 0    60   ~ 0
+DEV1_R_6
+Text Label 12350 10450 0    60   ~ 0
+DEV1_R_7
+Text Label 12350 1250 0    60   ~ 0
+DEV2_R_0
+Text Label 12350 2550 0    60   ~ 0
+DEV2_R_1
+Text Label 12350 3850 0    60   ~ 0
+DEV2_R_2
+Text Label 12350 5150 0    60   ~ 0
+DEV2_R_3
+Text Label 12350 6450 0    60   ~ 0
+DEV2_R_4
+Text Label 12350 7750 0    60   ~ 0
+DEV2_R_5
+Text Label 12350 9050 0    60   ~ 0
+DEV2_R_6
+Text Label 12350 10350 0    60   ~ 0
+DEV2_R_7
+Text Label 12350 1150 0    60   ~ 0
+DEV3_R_0
+Text Label 12350 2450 0    60   ~ 0
+DEV3_R_1
+Text Label 12350 3750 0    60   ~ 0
+DEV3_R_2
+Text Label 12350 5050 0    60   ~ 0
+DEV3_R_3
+Text Label 12350 6350 0    60   ~ 0
+DEV3_R_4
+Text Label 12350 7650 0    60   ~ 0
+DEV3_R_5
+Text Label 12350 8950 0    60   ~ 0
+DEV3_R_6
+Text Label 12350 10250 0    60   ~ 0
 DEV3_R_7
 Text Label 12350 1550 0    60   ~ 0
 DEV4_R_0
@@ -6056,6 +6056,8 @@ Wire Wire Line
 	14200 9550 14700 9550
 Wire Wire Line
 	14200 10850 14700 10850
+Text Notes 6700 950  0    50   ~ 0
+Pins swapped to\nmake mux easier\nto route
 Wire Bus Line
 	5400 1250 5400 3300
 Wire Bus Line
@@ -6155,9 +6157,9 @@ Wire Bus Line
 Wire Bus Line
 	11700 21200 11700 25800
 Wire Bus Line
-	10300 1250 10300 13950
-Wire Bus Line
 	15950 1200 15950 13950
+Wire Bus Line
+	10300 1250 10300 13950
 Wire Bus Line
 	14650 13950 14650 23450
 $EndSCHEMATC
