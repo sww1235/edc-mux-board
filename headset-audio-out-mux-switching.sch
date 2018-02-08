@@ -2801,21 +2801,21 @@ Text Label 12350 9350 0    60   ~ 0
 DEV4_R_6
 Text Label 12350 10650 0    60   ~ 0
 DEV4_R_7
-Text Label 12350 1650 0    60   ~ 0
+Text Label 12350 1850 0    60   ~ 0
 DEV5_R_0
-Text Label 12350 2950 0    60   ~ 0
+Text Label 12350 3150 0    60   ~ 0
 DEV5_R_1
-Text Label 12350 4250 0    60   ~ 0
+Text Label 12350 4450 0    60   ~ 0
 DEV5_R_2
-Text Label 12350 5550 0    60   ~ 0
+Text Label 12350 5750 0    60   ~ 0
 DEV5_R_3
-Text Label 12350 6850 0    60   ~ 0
+Text Label 12350 7050 0    60   ~ 0
 DEV5_R_4
-Text Label 12350 8150 0    60   ~ 0
+Text Label 12350 8350 0    60   ~ 0
 DEV5_R_5
-Text Label 12350 9450 0    60   ~ 0
+Text Label 12350 9650 0    60   ~ 0
 DEV5_R_6
-Text Label 12350 10750 0    60   ~ 0
+Text Label 12350 10950 0    60   ~ 0
 DEV5_R_7
 Text Label 12350 1750 0    60   ~ 0
 DEV6_R_0
@@ -2833,21 +2833,21 @@ Text Label 12350 9550 0    60   ~ 0
 DEV6_R_6
 Text Label 12350 10850 0    60   ~ 0
 DEV6_R_7
-Text Label 12350 1850 0    60   ~ 0
+Text Label 12350 1650 0    60   ~ 0
 DEV7_R_0
-Text Label 12350 3150 0    60   ~ 0
+Text Label 12350 2950 0    60   ~ 0
 DEV7_R_1
-Text Label 12350 4450 0    60   ~ 0
+Text Label 12350 4250 0    60   ~ 0
 DEV7_R_2
-Text Label 12350 5750 0    60   ~ 0
+Text Label 12350 5550 0    60   ~ 0
 DEV7_R_3
-Text Label 12350 7050 0    60   ~ 0
+Text Label 12350 6850 0    60   ~ 0
 DEV7_R_4
-Text Label 12350 8350 0    60   ~ 0
+Text Label 12350 8150 0    60   ~ 0
 DEV7_R_5
-Text Label 12350 9650 0    60   ~ 0
+Text Label 12350 9450 0    60   ~ 0
 DEV7_R_6
-Text Label 12350 10950 0    60   ~ 0
+Text Label 12350 10750 0    60   ~ 0
 DEV7_R_7
 Text HLabel 2700 24250 0    60   Input ~ 0
 MIXER_L_IN
