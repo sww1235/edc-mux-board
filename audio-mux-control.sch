@@ -5791,37 +5791,37 @@ Text Label 8650 30400 0    60   ~ 0
 AMP-MIC-IN-7-6
 Text Label 8650 34650 0    60   ~ 0
 AMP-MIC-IN-7-7
-Text Label 10700 34550 1    60   ~ 0
+Text Label 10700 34500 1    60   ~ 0
 MIXER-OUT-R-0
-Text Label 11000 34550 1    60   ~ 0
+Text Label 11000 34500 1    60   ~ 0
 MIXER-OUT-R-1
-Text Label 11300 34550 1    60   ~ 0
+Text Label 11300 34500 1    60   ~ 0
 MIXER-OUT-R-2
-Text Label 11600 34550 1    60   ~ 0
+Text Label 11600 34500 1    60   ~ 0
 MIXER-OUT-R-3
-Text Label 11900 34550 1    60   ~ 0
+Text Label 11900 34500 1    60   ~ 0
 MIXER-OUT-R-4
-Text Label 12200 34550 1    60   ~ 0
+Text Label 12200 34500 1    60   ~ 0
 MIXER-OUT-R-5
-Text Label 12500 34550 1    60   ~ 0
+Text Label 12500 34500 1    60   ~ 0
 MIXER-OUT-R-6
-Text Label 12800 34550 1    60   ~ 0
+Text Label 12800 34500 1    60   ~ 0
 MIXER-OUT-R-7
-Text Label 10800 34550 1    60   ~ 0
+Text Label 10800 34500 1    60   ~ 0
 MIXER-OUT-L-0
-Text Label 11100 34550 1    60   ~ 0
+Text Label 11100 34500 1    60   ~ 0
 MIXER-OUT-L-1
-Text Label 11400 34550 1    60   ~ 0
+Text Label 11400 34500 1    60   ~ 0
 MIXER-OUT-L-2
-Text Label 11700 34550 1    60   ~ 0
+Text Label 11700 34500 1    60   ~ 0
 MIXER-OUT-L-3
-Text Label 12000 34550 1    60   ~ 0
+Text Label 12000 34500 1    60   ~ 0
 MIXER-OUT-L-4
-Text Label 12300 34550 1    60   ~ 0
+Text Label 12300 34500 1    60   ~ 0
 MIXER-OUT-L-5
-Text Label 12600 34550 1    60   ~ 0
+Text Label 12600 34500 1    60   ~ 0
 MIXER-OUT-L-6
-Text Label 12900 34550 1    60   ~ 0
+Text Label 12900 34500 1    60   ~ 0
 MIXER-OUT-L-7
 Text Label 9500 2700 0    60   ~ 0
 MIXER-OUT-L-0
@@ -6260,7 +6260,7 @@ Wire Wire Line
 Wire Wire Line
 	13000 34750 13000 34950
 Wire Wire Line
-	13350 34750 13350 35550
+	13350 34750 13350 35150
 Wire Wire Line
 	13100 34950 13100 34750
 Wire Wire Line
@@ -8368,37 +8368,37 @@ Wire Wire Line
 Wire Wire Line
 	9200 33000 10950 33000
 Wire Wire Line
-	10800 34950 10800 33700
+	10800 34950 10800 34550
 Wire Wire Line
-	11100 34950 11100 33700
+	11100 34950 11100 34550
 Wire Wire Line
-	11400 34950 11400 33700
+	11400 34950 11400 34550
 Wire Wire Line
-	11700 34950 11700 33700
+	11700 34950 11700 34900
 Wire Wire Line
-	12000 34950 12000 33700
+	12000 34950 12000 34000
 Wire Wire Line
-	12300 34950 12300 33700
+	12300 34950 12300 34300
 Wire Wire Line
-	12600 34950 12600 33700
+	12600 34950 12600 34600
 Wire Wire Line
-	12900 34950 12900 33700
+	12900 34950 12900 34900
 Wire Wire Line
-	10700 34950 10700 33550
+	10700 34950 10700 34550
 Wire Wire Line
-	11000 34950 11000 33550
+	11000 34950 11000 34550
 Wire Wire Line
-	11300 34950 11300 33550
+	11300 34950 11300 34550
 Wire Wire Line
-	11600 34950 11600 33550
+	11600 34950 11600 34700
 Wire Wire Line
-	11900 34950 11900 33550
+	11900 34950 11900 33800
 Wire Wire Line
-	12200 33550 12200 34950
+	12200 33550 12200 34100
 Wire Wire Line
-	12500 34950 12500 33550
+	12500 34950 12500 34400
 Wire Wire Line
-	12800 34950 12800 33550
+	12800 34950 12800 34700
 Wire Bus Line
 	13200 33600 13200 33150
 Wire Bus Line
@@ -10413,38 +10413,328 @@ Wire Wire Line
 Wire Wire Line
 	3650 28800 3550 28800
 Connection ~ 2600 28800
+Text Notes 15600 33650 0    50   ~ 0
+Swapped pins\nto make layout\neasier
+$Comp
+L SW-Semtech:0582BQ D49
+U 1 1 5A7E7CC5
+P 10500 33750
+F 0 "D49" H 10700 33900 60  0000 C CNN
+F 1 "0582BQ" H 10750 33650 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 9100 32650 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 10700 35750 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 10400 35900 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 10450 36000 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 10447 34037 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 10450 35800 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 10350 36100 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 10350 36200 60  0001 C CNN "Pricing"
+	1    10500 33750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 33650 10700 33650
+Connection ~ 10700 33650
+Wire Wire Line
+	10700 33650 10700 33550
+Wire Wire Line
+	10650 33850 10800 33850
+Connection ~ 10800 33850
+Wire Wire Line
+	10800 33850 10800 33700
+$Comp
+L SW-Semtech:0582BQ D51
+U 1 1 5CF1EE80
+P 10500 34100
+F 0 "D51" H 10700 34250 60  0000 C CNN
+F 1 "0582BQ" H 10750 34000 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 9100 33000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 10700 36100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 10400 36250 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 10450 36350 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 10447 34387 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 10450 36150 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 10350 36450 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 10350 36550 60  0001 C CNN "Pricing"
+	1    10500 34100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 34000 11000 34000
+Connection ~ 11000 34000
+Wire Wire Line
+	11000 34000 11000 33550
+Wire Wire Line
+	10650 34200 11100 34200
+Connection ~ 11100 34200
+Wire Wire Line
+	11100 34200 11100 33700
+$Comp
+L SW-Semtech:0582BQ D53
+U 1 1 5D64AF69
+P 10500 34450
+F 0 "D53" H 10700 34550 60  0000 C CNN
+F 1 "0582BQ" H 10750 34350 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 9100 33350 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 10700 36450 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 10400 36600 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 10450 36700 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 10447 34737 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 10450 36500 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 10350 36800 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 10350 36900 60  0001 C CNN "Pricing"
+	1    10500 34450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 34350 11300 34350
+Connection ~ 11300 34350
+Wire Wire Line
+	11300 34350 11300 33550
+Wire Wire Line
+	10650 34550 10700 34550
+Connection ~ 11400 34550
+Wire Wire Line
+	11400 34550 11400 33700
+Wire Wire Line
+	10700 34550 10700 33650
+Wire Wire Line
+	10700 34550 10800 34550
+Wire Wire Line
+	10800 34550 10800 33850
+Wire Wire Line
+	10800 34550 11000 34550
+Wire Wire Line
+	11000 34550 11000 34000
+Wire Wire Line
+	11000 34550 11100 34550
+Wire Wire Line
+	11100 34550 11100 34200
+Wire Wire Line
+	11100 34550 11300 34550
+Wire Wire Line
+	11300 34550 11300 34350
+Wire Wire Line
+	11300 34550 11400 34550
+$Comp
+L SW-Semtech:0582BQ D55
+U 1 1 6102EC70
+P 10500 34800
+F 0 "D55" H 10700 34900 60  0000 C CNN
+F 1 "0582BQ" H 10750 34700 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 9100 33700 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 10700 36800 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 10400 36950 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 10450 37050 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 10447 35087 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 10450 36850 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 10350 37150 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 10350 37250 60  0001 C CNN "Pricing"
+	1    10500 34800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 34700 11600 34700
+Connection ~ 11600 34700
+Wire Wire Line
+	11600 34700 11600 33550
+Wire Wire Line
+	10650 34900 11700 34900
+Connection ~ 11700 34900
+Wire Wire Line
+	11700 34900 11700 33700
+Wire Wire Line
+	10350 33750 10250 33750
+Wire Wire Line
+	10250 33750 10250 34100
+Wire Wire Line
+	10350 34800 10250 34800
+Connection ~ 10250 34800
+Wire Wire Line
+	10250 34450 10350 34450
+Connection ~ 10250 34450
+Wire Wire Line
+	10250 34450 10250 34800
+Wire Wire Line
+	10350 34100 10250 34100
+Connection ~ 10250 34100
+Wire Wire Line
+	10250 34100 10250 34450
+$Comp
+L power:GNDREF #PWR0692
+U 1 1 629DC938
+P 10250 35550
+F 0 "#PWR0692" H 10250 35300 50  0001 C CNN
+F 1 "GNDREF" H 10250 35400 50  0000 C CNN
+F 2 "" H 10250 35550 50  0001 C CNN
+F 3 "" H 10250 35550 50  0001 C CNN
+	1    10250 35550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 34800 10250 35550
+$Comp
+L SW-Semtech:0582BQ D50
+U 1 1 62D8F35A
+P 13200 33900
+F 0 "D50" H 13200 34247 60  0000 C CNN
+F 1 "0582BQ" H 13200 34141 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 11800 32800 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 13400 35900 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 13100 36050 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 13150 36150 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 13147 34187 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 13150 35950 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 13050 36250 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 13050 36350 60  0001 C CNN "Pricing"
+	1    13200 33900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-Semtech:0582BQ D52
+U 1 1 62D8F366
+P 13350 34200
+F 0 "D52" H 13500 34300 60  0000 C CNN
+F 1 "0582BQ" H 13600 34100 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 11950 33100 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 13550 36200 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 13250 36350 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 13300 36450 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 13297 34487 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 13300 36250 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 13200 36550 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 13200 36650 60  0001 C CNN "Pricing"
+	1    13350 34200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-Semtech:0582BQ D54
+U 1 1 62D8F372
+P 13500 34500
+F 0 "D54" H 13750 34600 60  0000 C CNN
+F 1 "0582BQ" H 13750 34400 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 12100 33400 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 13700 36500 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 13400 36650 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 13450 36750 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 13447 34787 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 13450 36550 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 13350 36850 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 13350 36950 60  0001 C CNN "Pricing"
+	1    13500 34500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-Semtech:0582BQ D56
+U 1 1 62D8F37E
+P 13650 34800
+F 0 "D56" H 13650 34559 60  0000 C CNN
+F 1 "0582BQ" H 13650 34453 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 12250 33700 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 13850 36800 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 13550 36950 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 13600 37050 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 13597 35087 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 13600 36850 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 13500 37150 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 13500 37250 60  0001 C CNN "Pricing"
+	1    13650 34800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 33800 13050 33800
+Connection ~ 11900 33800
+Wire Wire Line
+	11900 33800 11900 33550
+Wire Wire Line
+	13050 34000 12000 34000
+Connection ~ 12000 34000
+Wire Wire Line
+	12000 34000 12000 33700
+Wire Wire Line
+	12200 34100 13200 34100
+Connection ~ 12200 34100
+Wire Wire Line
+	12200 34100 12200 34950
+Wire Wire Line
+	13200 34300 12300 34300
+Connection ~ 12300 34300
+Wire Wire Line
+	12300 34300 12300 33700
+Wire Wire Line
+	13350 34400 12500 34400
+Connection ~ 12500 34400
+Wire Wire Line
+	12500 34400 12500 33550
+Wire Wire Line
+	13350 34600 12600 34600
+Connection ~ 12600 34600
+Wire Wire Line
+	12600 34600 12600 33700
+Wire Wire Line
+	13500 34900 12900 34900
+Connection ~ 12900 34900
+Wire Wire Line
+	12900 34900 12900 33700
+Wire Wire Line
+	13500 34700 12800 34700
+Connection ~ 12800 34700
+Wire Wire Line
+	12800 34700 12800 33550
+Wire Wire Line
+	13350 33900 13900 33900
+Wire Wire Line
+	13900 33900 13900 34200
+Wire Wire Line
+	13900 34800 13800 34800
+Wire Wire Line
+	13500 34200 13900 34200
+Connection ~ 13900 34200
+Wire Wire Line
+	13900 34200 13900 34500
+Wire Wire Line
+	13650 34500 13900 34500
+Connection ~ 13900 34500
+Wire Wire Line
+	13900 34500 13900 34800
+Wire Wire Line
+	13350 35150 13900 35150
+Wire Wire Line
+	13900 35150 13900 34800
 Wire Bus Line
 	11050 3350 11050 14100
 Wire Bus Line
 	11200 3250 11200 14000
 Wire Bus Line
-	11050 14100 11050 33100
-Wire Bus Line
 	11200 14000 11200 33000
 Wire Bus Line
-	12800 17600 12800 25550
-Wire Bus Line
-	12500 17750 12500 25400
-Wire Bus Line
-	10900 33600 13200 33600
-Wire Bus Line
-	11500 2800 11500 33150
-Wire Bus Line
-	11350 2900 11350 33250
-Wire Bus Line
-	10800 33450 13050 33450
-Wire Bus Line
-	3800 4000 3800 36700
+	11050 14100 11050 33100
 Wire Bus Line
 	15100 31700 15100 36700
 Wire Bus Line
-	4450 5600 4450 36300
+	3800 4000 3800 36700
+Wire Bus Line
+	10800 33450 13050 33450
+Wire Bus Line
+	11350 2900 11350 33250
+Wire Bus Line
+	11500 2800 11500 33150
+Wire Bus Line
+	10900 33600 13200 33600
+Wire Bus Line
+	12500 17750 12500 25400
+Wire Bus Line
+	12800 17600 12800 25550
 Wire Bus Line
 	4300 4300 4300 36400
+Wire Bus Line
+	4450 5600 4450 36300
 Wire Bus Line
 	15250 32600 15250 36300
 Wire Bus Line
 	18800 32550 18800 36400
-Text Notes 15600 33650 0    50   ~ 0
-Swapped pins\nto make layout\neasier
+Connection ~ 13350 35150
+Wire Wire Line
+	13350 35150 13350 35550
+Connection ~ 13900 34800
 $EndSCHEMATC
