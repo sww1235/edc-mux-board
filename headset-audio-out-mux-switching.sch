@@ -250,110 +250,110 @@ F 8 "0.00@0" H 9850 16000 60  0001 C CNN "Pricing"
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 2 1 5A488676
+U 1 1 5A488676
 P 9850 16000
 AR Path="/58DEDA38/5A488676" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5A4829FB/5A488676" Ref="U11"  Part="2" 
-F 0 "U11" H 9825 15709 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A488676" Ref="U14"  Part="1" 
+F 0 "U14" H 9825 15709 60  0000 C CNN
 F 1 "ADG734" H 9825 15603 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 16950 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 16850 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 16550 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 15809 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 16750 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 16650 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 16450 60  0001 C CNN "Pricing"
-	2    9850 16000
+F 4 "Analog Devices" H 9900 16750 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 16550 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 16650 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 16450 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 15809 50  0001 C CNN "Manufacturer Part Number"
+	1    9850 16000
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 3 1 5A488681
+U 2 1 5A488681
 P 9850 16900
 AR Path="/58DEDA38/5A488681" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5A4829FB/5A488681" Ref="U11"  Part="3" 
+AR Path="/58DEDA38/5A4829FB/5A488681" Ref="U11"  Part="2" 
 F 0 "U11" H 9825 17247 60  0000 C CNN
 F 1 "ADG734" H 9825 17141 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 17850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 17750 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 17450 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 17347 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 17650 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 17550 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 17350 60  0001 C CNN "Pricing"
-	3    9850 16900
+F 4 "Analog Devices" H 9900 17650 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 17450 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 17550 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 17350 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 17347 50  0001 C CNN "Manufacturer Part Number"
+	2    9850 16900
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 4 1 5A48868C
+U 2 1 5A48868C
 P 9850 17350
 AR Path="/58DEDA38/5A48868C" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/5A4829FB/5A48868C" Ref="U11"  Part="4" 
-F 0 "U11" H 9825 17059 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A48868C" Ref="U14"  Part="2" 
+F 0 "U14" H 9825 17059 60  0000 C CNN
 F 1 "ADG734" H 9825 16953 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 18300 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 18200 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 17900 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 17159 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 18100 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 18000 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 17800 60  0001 C CNN "Pricing"
-	4    9850 17350
+F 4 "Analog Devices" H 9900 18100 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 17900 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 18000 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 17800 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 17159 50  0001 C CNN "Manufacturer Part Number"
+	2    9850 17350
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 1 1 5A488697
+U 3 1 5A488697
 P 9850 18250
 AR Path="/58DEDA38/5A488697" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5A4829FB/5A488697" Ref="U13"  Part="1" 
-F 0 "U13" H 9825 18597 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A488697" Ref="U11"  Part="3" 
+F 0 "U11" H 9825 18597 60  0000 C CNN
 F 1 "ADG734" H 9825 18491 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 19200 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 19100 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 18800 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 18697 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 19000 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 18900 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 18700 60  0001 C CNN "Pricing"
-	1    9850 18250
+F 4 "Analog Devices" H 9900 19000 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 18800 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 18900 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 18700 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 18697 50  0001 C CNN "Manufacturer Part Number"
+	3    9850 18250
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 2 1 5A4886A2
+U 3 1 5A4886A2
 P 9850 18700
 AR Path="/58DEDA38/5A4886A2" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5A4829FB/5A4886A2" Ref="U13"  Part="2" 
-F 0 "U13" H 9825 18409 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886A2" Ref="U14"  Part="3" 
+F 0 "U14" H 9825 18409 60  0000 C CNN
 F 1 "ADG734" H 9825 18303 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 19650 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 19550 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 19250 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 18509 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 19450 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 19350 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 19150 60  0001 C CNN "Pricing"
-	2    9850 18700
+F 4 "Analog Devices" H 9900 19450 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 19250 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 19350 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 19150 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 18509 50  0001 C CNN "Manufacturer Part Number"
+	3    9850 18700
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 3 1 5A4886AD
+U 4 1 5A4886AD
 P 9850 19600
 AR Path="/58DEDA38/5A4886AD" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5A4829FB/5A4886AD" Ref="U13"  Part="3" 
-F 0 "U13" H 9825 19947 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886AD" Ref="U11"  Part="4" 
+F 0 "U11" H 9825 19947 60  0000 C CNN
 F 1 "ADG734" H 9825 19841 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 20550 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 20450 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 20150 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 20047 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 20350 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 20250 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 20050 60  0001 C CNN "Pricing"
-	3    9850 19600
+F 4 "Analog Devices" H 9900 20350 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 20150 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 20250 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 20050 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 20047 50  0001 C CNN "Manufacturer Part Number"
+	4    9850 19600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -361,16 +361,16 @@ L SW-Analog:ADG734 U?
 U 4 1 5A4886B8
 P 9850 20050
 AR Path="/58DEDA38/5A4886B8" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/5A4829FB/5A4886B8" Ref="U13"  Part="4" 
-F 0 "U13" H 9825 19759 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886B8" Ref="U14"  Part="4" 
+F 0 "U14" H 9825 19759 60  0000 C CNN
 F 1 "ADG734" H 9825 19653 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 21000 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 20900 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 20600 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 19859 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 20800 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 20700 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 20500 60  0001 C CNN "Pricing"
+F 4 "Analog Devices" H 9900 20800 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 20600 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 20700 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 20500 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 19859 50  0001 C CNN "Manufacturer Part Number"
 	4    9850 20050
 	1    0    0    -1  
 $EndComp
@@ -379,125 +379,125 @@ L SW-Analog:ADG734 U?
 U 1 1 5A4886C3
 P 9850 20950
 AR Path="/58DEDA38/5A4886C3" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5A4829FB/5A4886C3" Ref="U14"  Part="1" 
-F 0 "U14" H 9825 21297 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886C3" Ref="U13"  Part="1" 
+F 0 "U13" H 9825 21297 60  0000 C CNN
 F 1 "ADG734" H 9825 21191 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 21900 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 21800 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 21500 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 21397 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 21700 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 21600 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 21400 60  0001 C CNN "Pricing"
+F 4 "Analog Devices" H 9900 21700 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 21500 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 21600 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 21400 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 21397 50  0001 C CNN "Manufacturer Part Number"
 	1    9850 20950
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 2 1 5A4886CE
+U 1 1 5A4886CE
 P 9850 21400
 AR Path="/58DEDA38/5A4886CE" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5A4829FB/5A4886CE" Ref="U14"  Part="2" 
-F 0 "U14" H 9825 21109 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886CE" Ref="U16"  Part="1" 
+F 0 "U16" H 9825 21109 60  0000 C CNN
 F 1 "ADG734" H 9825 21003 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 22350 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 22250 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 21950 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 21209 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 22150 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 22050 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 21850 60  0001 C CNN "Pricing"
-	2    9850 21400
+F 4 "Analog Devices" H 9900 22150 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 21950 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 22050 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 21850 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 21209 50  0001 C CNN "Manufacturer Part Number"
+	1    9850 21400
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 3 1 5A4886D9
+U 2 1 5A4886D9
 P 9850 22300
 AR Path="/58DEDA38/5A4886D9" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5A4829FB/5A4886D9" Ref="U14"  Part="3" 
-F 0 "U14" H 9825 22647 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886D9" Ref="U13"  Part="2" 
+F 0 "U13" H 9825 22647 60  0000 C CNN
 F 1 "ADG734" H 9825 22541 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 23250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 23150 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 22850 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 22747 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 23050 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 22950 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 22750 60  0001 C CNN "Pricing"
-	3    9850 22300
+F 4 "Analog Devices" H 9900 23050 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 22850 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 22950 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 22750 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 22747 50  0001 C CNN "Manufacturer Part Number"
+	2    9850 22300
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 4 1 5A4886E4
+U 2 1 5A4886E4
 P 9850 22750
 AR Path="/58DEDA38/5A4886E4" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/5A4829FB/5A4886E4" Ref="U14"  Part="4" 
-F 0 "U14" H 9825 22459 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886E4" Ref="U16"  Part="2" 
+F 0 "U16" H 9825 22459 60  0000 C CNN
 F 1 "ADG734" H 9825 22353 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 23700 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 23600 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 23300 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 22559 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 23500 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 23400 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 23200 60  0001 C CNN "Pricing"
-	4    9850 22750
+F 4 "Analog Devices" H 9900 23500 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 23300 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 23400 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 23200 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 22559 50  0001 C CNN "Manufacturer Part Number"
+	2    9850 22750
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 1 1 5A4886EF
+U 3 1 5A4886EF
 P 9850 23650
 AR Path="/58DEDA38/5A4886EF" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5A4829FB/5A4886EF" Ref="U16"  Part="1" 
-F 0 "U16" H 9825 23997 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886EF" Ref="U13"  Part="3" 
+F 0 "U13" H 9825 23997 60  0000 C CNN
 F 1 "ADG734" H 9825 23891 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 24600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 24500 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 24200 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 24097 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 24400 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 24300 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 24100 60  0001 C CNN "Pricing"
-	1    9850 23650
+F 4 "Analog Devices" H 9900 24400 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 24200 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 24300 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 24100 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 24097 50  0001 C CNN "Manufacturer Part Number"
+	3    9850 23650
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 2 1 5A4886FA
+U 3 1 5A4886FA
 P 9850 24100
 AR Path="/58DEDA38/5A4886FA" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5A4829FB/5A4886FA" Ref="U16"  Part="2" 
+AR Path="/58DEDA38/5A4829FB/5A4886FA" Ref="U16"  Part="3" 
 F 0 "U16" H 9825 23809 60  0000 C CNN
 F 1 "ADG734" H 9825 23703 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 25050 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 24950 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 24650 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 23909 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 24850 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 24750 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 24550 60  0001 C CNN "Pricing"
-	2    9850 24100
+F 4 "Analog Devices" H 9900 24850 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 24650 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 24750 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 24550 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 23909 50  0001 C CNN "Manufacturer Part Number"
+	3    9850 24100
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG734 U?
-U 3 1 5A488705
+U 4 1 5A488705
 P 9850 25000
 AR Path="/58DEDA38/5A488705" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5A4829FB/5A488705" Ref="U16"  Part="3" 
-F 0 "U16" H 9825 25347 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A488705" Ref="U13"  Part="4" 
+F 0 "U13" H 9825 25347 60  0000 C CNN
 F 1 "ADG734" H 9825 25241 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 25950 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 25850 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 25550 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 9825 25447 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 9900 25750 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 9850 25650 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 9850 25450 60  0001 C CNN "Pricing"
-	3    9850 25000
+F 4 "Analog Devices" H 9900 25750 60  0001 C CNN "Manufacturer"
+F 5 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 9800 25550 60  0001 C CNN "Description"
+F 6 "TSSOP20" H 9850 25650 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 9850 25450 60  0001 C CNN "Pricing"
+F 8 "ADG734BRUZ" H 9825 25447 50  0001 C CNN "Manufacturer Part Number"
+	4    9850 25000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6170,4 +6170,6 @@ Text Notes 15100 23650 0    50   ~ 0
 Inputs Rearranged\nfor pcb layout
 Text Notes 15150 16500 0    50   ~ 0
 Inputs Rearranged\nfor pcb layout
+Text Notes 10200 15350 0    50   ~ 0
+Units Rearranged\nfor pcb layout
 $EndSCHEMATC
