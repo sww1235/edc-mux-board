@@ -2887,35 +2887,35 @@ Text Label 10250 25600 0    60   ~ 0
 SPDT_CTL15
 Text Label 11350 23800 1    60   ~ 0
 SPDT_CTL[0..15]
-Text Label 12450 21100 2    60   ~ 0
-SPDT_CTL0
-Text Label 12450 21200 2    60   ~ 0
-SPDT_CTL1
 Text Label 12450 21300 2    60   ~ 0
-SPDT_CTL2
-Text Label 12450 21400 2    60   ~ 0
-SPDT_CTL3
-Text Label 12450 21500 2    60   ~ 0
-SPDT_CTL4
-Text Label 12450 21600 2    60   ~ 0
-SPDT_CTL5
-Text Label 12450 21700 2    60   ~ 0
-SPDT_CTL6
-Text Label 12450 21800 2    60   ~ 0
-SPDT_CTL7
-Text Label 12450 22000 2    60   ~ 0
-SPDT_CTL8
-Text Label 12450 22100 2    60   ~ 0
-SPDT_CTL9
+SPDT_CTL0
 Text Label 12450 22200 2    60   ~ 0
-SPDT_CTL10
+SPDT_CTL1
+Text Label 12450 21200 2    60   ~ 0
+SPDT_CTL2
+Text Label 12450 22100 2    60   ~ 0
+SPDT_CTL3
+Text Label 12450 21100 2    60   ~ 0
+SPDT_CTL4
+Text Label 12450 22000 2    60   ~ 0
+SPDT_CTL5
+Text Label 12450 21400 2    60   ~ 0
+SPDT_CTL6
 Text Label 12450 22300 2    60   ~ 0
-SPDT_CTL11
-Text Label 12450 22400 2    60   ~ 0
-SPDT_CTL12
-Text Label 12450 22500 2    60   ~ 0
-SPDT_CTL13
+SPDT_CTL7
+Text Label 12450 21700 2    60   ~ 0
+SPDT_CTL8
 Text Label 12450 22600 2    60   ~ 0
+SPDT_CTL9
+Text Label 12450 21600 2    60   ~ 0
+SPDT_CTL10
+Text Label 12450 22500 2    60   ~ 0
+SPDT_CTL11
+Text Label 12450 21500 2    60   ~ 0
+SPDT_CTL12
+Text Label 12450 22400 2    60   ~ 0
+SPDT_CTL13
+Text Label 12450 21800 2    60   ~ 0
 SPDT_CTL14
 Text Label 12450 22700 2    60   ~ 0
 SPDT_CTL15
