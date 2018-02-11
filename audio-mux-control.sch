@@ -656,241 +656,241 @@ F 9 "0.00@0" H 13800 19900 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG715 U4
-U 4 1 5A516524
+L SW-Analog:ADG715 U9
+U 3 1 5A516524
 P 13750 18450
-F 0 "U4" H 13750 18309 60  0000 C CNN
+F 0 "U9" H 13750 18309 60  0000 C CNN
 F 1 "ADG715" H 13750 18203 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 19400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 19500 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 19600 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 19800 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 18409 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 19700 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 19900 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 20050 60  0001 C CNN "Pricing"
-	4    13750 18450
+F 5 "Analog Devices" H 13750 19700 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 19800 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 19900 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 20050 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 18409 50  0001 C CNN "Manufacturer Part Number"
+	3    13750 18450
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG715 U4
-U 5 1 5A529559
+U 4 1 5A529559
 P 13750 19300
 F 0 "U4" H 13750 19547 60  0000 C CNN
 F 1 "ADG715" H 13750 19441 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 20250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 20350 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 20450 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 20650 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 19647 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 20550 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 20750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 20900 60  0001 C CNN "Pricing"
-	5    13750 19300
+F 5 "Analog Devices" H 13750 20550 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 20650 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 20750 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 20900 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 19647 50  0001 C CNN "Manufacturer Part Number"
+	4    13750 19300
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG715 U4
-U 6 1 5A52A361
+L SW-Analog:ADG715 U9
+U 4 1 5A52A361
 P 13750 19450
-F 0 "U4" H 13750 19309 60  0000 C CNN
+F 0 "U9" H 13750 19309 60  0000 C CNN
 F 1 "ADG715" H 13750 19203 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 20400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 20500 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 20600 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 20800 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 19409 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 20700 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 20900 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 21050 60  0001 C CNN "Pricing"
-	6    13750 19450
+F 5 "Analog Devices" H 13750 20700 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 20800 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 20900 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 21050 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 19409 50  0001 C CNN "Manufacturer Part Number"
+	4    13750 19450
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG715 U4
-U 7 1 5A52EB82
+U 5 1 5A52EB82
 P 13750 20300
 F 0 "U4" H 13750 20547 60  0000 C CNN
 F 1 "ADG715" H 13750 20441 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 21250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 21350 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 21450 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 21650 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 20647 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 21550 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 21750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 21900 60  0001 C CNN "Pricing"
-	7    13750 20300
+F 5 "Analog Devices" H 13750 21550 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 21650 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 21750 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 21900 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 20647 50  0001 C CNN "Manufacturer Part Number"
+	5    13750 20300
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG715 U4
-U 8 1 5A52F98F
+L SW-Analog:ADG715 U9
+U 5 1 5A52F98F
 P 13750 20450
-F 0 "U4" H 13750 20309 60  0000 C CNN
+F 0 "U9" H 13750 20309 60  0000 C CNN
 F 1 "ADG715" H 13750 20203 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 21400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 21500 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 21600 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 21800 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 20409 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 21700 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 21900 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 22050 60  0001 C CNN "Pricing"
-	8    13750 20450
+F 5 "Analog Devices" H 13750 21700 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 21800 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 21900 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 22050 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 20409 50  0001 C CNN "Manufacturer Part Number"
+	5    13750 20450
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG715 U4
-U 9 1 5A53079E
+U 6 1 5A53079E
 P 13750 21300
 F 0 "U4" H 13750 21547 60  0000 C CNN
 F 1 "ADG715" H 13750 21441 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 22250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 22350 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 22450 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 22650 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 21647 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 22550 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 22750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 22900 60  0001 C CNN "Pricing"
-	9    13750 21300
+F 5 "Analog Devices" H 13750 22550 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 22650 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 22750 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 22900 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 21647 50  0001 C CNN "Manufacturer Part Number"
+	6    13750 21300
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG715 U4
-U 10 1 5A5315C1
+L SW-Analog:ADG715 U9
+U 6 1 5A5315C1
 P 13750 21450
-F 0 "U4" H 13750 21309 60  0000 C CNN
+F 0 "U9" H 13750 21309 60  0000 C CNN
 F 1 "ADG715" H 13750 21203 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 22400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 22500 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 22600 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 22800 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 21409 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 22700 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 22900 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 23050 60  0001 C CNN "Pricing"
-	10   13750 21450
+F 5 "Analog Devices" H 13750 22700 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 22800 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 22900 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 23050 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 21409 50  0001 C CNN "Manufacturer Part Number"
+	6    13750 21450
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG715 U9
-U 3 1 5A557E95
+L SW-Analog:ADG715 U4
+U 7 1 5A557E95
 P 13750 22300
-F 0 "U9" H 13750 22547 60  0000 C CNN
+F 0 "U4" H 13750 22547 60  0000 C CNN
 F 1 "ADG715" H 13750 22441 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 23250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 23350 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 23450 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 23650 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 22647 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 23550 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 23750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 23900 60  0001 C CNN "Pricing"
-	3    13750 22300
+F 5 "Analog Devices" H 13750 23550 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 23650 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 23750 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 23900 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 22647 50  0001 C CNN "Manufacturer Part Number"
+	7    13750 22300
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG715 U9
-U 4 1 5A557EA0
+U 7 1 5A557EA0
 P 13750 22450
 F 0 "U9" H 13750 22309 60  0000 C CNN
 F 1 "ADG715" H 13750 22203 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 23400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 23500 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 23600 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 23800 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 22409 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 23700 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 23900 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 24050 60  0001 C CNN "Pricing"
-	4    13750 22450
+F 5 "Analog Devices" H 13750 23700 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 23800 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 23900 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 24050 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 22409 50  0001 C CNN "Manufacturer Part Number"
+	7    13750 22450
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG715 U9
-U 5 1 5A557EAB
+L SW-Analog:ADG715 U4
+U 8 1 5A557EAB
 P 13750 23300
-F 0 "U9" H 13750 23547 60  0000 C CNN
+F 0 "U4" H 13750 23547 60  0000 C CNN
 F 1 "ADG715" H 13750 23441 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 24250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 24350 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 24450 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 24650 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 23647 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 24550 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 24750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 24900 60  0001 C CNN "Pricing"
-	5    13750 23300
+F 5 "Analog Devices" H 13750 24550 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 24650 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 24750 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 24900 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 23647 50  0001 C CNN "Manufacturer Part Number"
+	8    13750 23300
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG715 U9
-U 6 1 5A557EB6
+U 8 1 5A557EB6
 P 13750 23450
 F 0 "U9" H 13750 23309 60  0000 C CNN
 F 1 "ADG715" H 13750 23203 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 24400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 24500 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 24600 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 24800 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 23409 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 24700 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 24900 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 25050 60  0001 C CNN "Pricing"
-	6    13750 23450
+F 5 "Analog Devices" H 13750 24700 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 24800 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 24900 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 25050 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 23409 50  0001 C CNN "Manufacturer Part Number"
+	8    13750 23450
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG715 U9
-U 7 1 5A557EC1
+L SW-Analog:ADG715 U4
+U 9 1 5A557EC1
 P 13750 24300
-F 0 "U9" H 13750 24547 60  0000 C CNN
+F 0 "U4" H 13750 24547 60  0000 C CNN
 F 1 "ADG715" H 13750 24441 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 25250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 25350 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 25450 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 25650 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 24647 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 25550 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 25750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 25900 60  0001 C CNN "Pricing"
-	7    13750 24300
+F 5 "Analog Devices" H 13750 25550 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 25650 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 25750 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 25900 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 24647 50  0001 C CNN "Manufacturer Part Number"
+	9    13750 24300
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Analog:ADG715 U9
-U 8 1 5A557ECC
+U 9 1 5A557ECC
 P 13750 24450
 F 0 "U9" H 13750 24309 60  0000 C CNN
 F 1 "ADG715" H 13750 24203 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 25400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 25500 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 25600 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 25800 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 24409 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 25700 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 25900 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 26050 60  0001 C CNN "Pricing"
-	8    13750 24450
+F 5 "Analog Devices" H 13750 25700 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 25800 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 25900 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 26050 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 24409 50  0001 C CNN "Manufacturer Part Number"
+	9    13750 24450
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG715 U9
-U 9 1 5A557ED7
+L SW-Analog:ADG715 U4
+U 10 1 5A557ED7
 P 13750 25300
-F 0 "U9" H 13750 25547 60  0000 C CNN
+F 0 "U4" H 13750 25547 60  0000 C CNN
 F 1 "ADG715" H 13750 25441 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 14000 26250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 14000 26350 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 13850 26450 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 26650 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 13750 25647 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 13750 26550 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 13950 26750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13800 26900 60  0001 C CNN "Pricing"
-	9    13750 25300
+F 5 "Analog Devices" H 13750 26550 60  0001 C CNN "Manufacturer"
+F 6 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 13850 26650 60  0001 C CNN "Description"
+F 7 "TSSOP 24 pin" H 13950 26750 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13800 26900 60  0001 C CNN "Pricing"
+F 9 "ADG715BRUZ" H 13750 25647 50  0001 C CNN "Manufacturer Part Number"
+	10   13750 25300
 	1    0    0    -1  
 $EndComp
 $Comp
