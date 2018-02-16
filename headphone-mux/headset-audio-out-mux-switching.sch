@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 20000 30000
 encoding utf-8
-Sheet 12 38
+Sheet 12 13
 Title ""
 Date ""
 Rev ""
@@ -6058,6 +6057,16 @@ Wire Wire Line
 	14200 10850 14700 10850
 Text Notes 6700 950  0    50   ~ 0
 Pins swapped to\nmake mux easier\nto route
+Text Notes 15100 18900 0    50   ~ 0
+Inputs Rearranged\nfor pcb layout
+Text Notes 15050 21350 0    50   ~ 0
+Inputs Rearranged\nfor pcb layout
+Text Notes 15100 23650 0    50   ~ 0
+Inputs Rearranged\nfor pcb layout
+Text Notes 15150 16500 0    50   ~ 0
+Inputs Rearranged\nfor pcb layout
+Text Notes 10200 15350 0    50   ~ 0
+Units Rearranged\nfor pcb layout
 Wire Bus Line
 	5400 1250 5400 3300
 Wire Bus Line
@@ -6162,14 +6171,4 @@ Wire Bus Line
 	10300 1250 10300 13950
 Wire Bus Line
 	14650 13950 14650 23450
-Text Notes 15100 18900 0    50   ~ 0
-Inputs Rearranged\nfor pcb layout
-Text Notes 15050 21350 0    50   ~ 0
-Inputs Rearranged\nfor pcb layout
-Text Notes 15100 23650 0    50   ~ 0
-Inputs Rearranged\nfor pcb layout
-Text Notes 15150 16500 0    50   ~ 0
-Inputs Rearranged\nfor pcb layout
-Text Notes 10200 15350 0    50   ~ 0
-Units Rearranged\nfor pcb layout
 $EndSCHEMATC
