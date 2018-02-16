@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:headphone-mux-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 20000 30000
 encoding utf-8
-Sheet 12 13
+Sheet 2 11
 Title ""
 Date ""
 Rev ""
@@ -234,8 +235,9 @@ L SW-Analog:ADG734 U?
 U 1 1 5A48866B
 P 9850 15550
 AR Path="/58DEDA38/5A48866B" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5A4829FB/5A48866B" Ref="U11"  Part="1" 
-F 0 "U11" H 9825 15897 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A48866B" Ref="U?"  Part="1" 
+AR Path="/5C0259A4/5A48866B" Ref="U3"  Part="1" 
+F 0 "U3" H 9825 15897 60  0000 C CNN
 F 1 "ADG734" H 9825 15791 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 16500 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 16400 60  0001 C CNN
@@ -252,8 +254,9 @@ L SW-Analog:ADG734 U?
 U 1 1 5A488676
 P 9850 16000
 AR Path="/58DEDA38/5A488676" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5A4829FB/5A488676" Ref="U14"  Part="1" 
-F 0 "U14" H 9825 15709 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A488676" Ref="U?"  Part="1" 
+AR Path="/5C0259A4/5A488676" Ref="U4"  Part="1" 
+F 0 "U4" H 9825 15709 60  0000 C CNN
 F 1 "ADG734" H 9825 15603 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 16950 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 16850 60  0001 C CNN
@@ -270,8 +273,9 @@ L SW-Analog:ADG734 U?
 U 2 1 5A488681
 P 9850 16900
 AR Path="/58DEDA38/5A488681" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5A4829FB/5A488681" Ref="U11"  Part="2" 
-F 0 "U11" H 9825 17247 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A488681" Ref="U?"  Part="2" 
+AR Path="/5C0259A4/5A488681" Ref="U3"  Part="2" 
+F 0 "U3" H 9825 17247 60  0000 C CNN
 F 1 "ADG734" H 9825 17141 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 17850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 17750 60  0001 C CNN
@@ -288,8 +292,9 @@ L SW-Analog:ADG734 U?
 U 2 1 5A48868C
 P 9850 17350
 AR Path="/58DEDA38/5A48868C" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/5A4829FB/5A48868C" Ref="U14"  Part="2" 
-F 0 "U14" H 9825 17059 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A48868C" Ref="U?"  Part="2" 
+AR Path="/5C0259A4/5A48868C" Ref="U4"  Part="2" 
+F 0 "U4" H 9825 17059 60  0000 C CNN
 F 1 "ADG734" H 9825 16953 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 18300 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 18200 60  0001 C CNN
@@ -306,8 +311,9 @@ L SW-Analog:ADG734 U?
 U 3 1 5A488697
 P 9850 18250
 AR Path="/58DEDA38/5A488697" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5A4829FB/5A488697" Ref="U11"  Part="3" 
-F 0 "U11" H 9825 18597 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A488697" Ref="U?"  Part="3" 
+AR Path="/5C0259A4/5A488697" Ref="U3"  Part="3" 
+F 0 "U3" H 9825 18597 60  0000 C CNN
 F 1 "ADG734" H 9825 18491 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 19200 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 19100 60  0001 C CNN
@@ -324,8 +330,9 @@ L SW-Analog:ADG734 U?
 U 3 1 5A4886A2
 P 9850 18700
 AR Path="/58DEDA38/5A4886A2" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5A4829FB/5A4886A2" Ref="U14"  Part="3" 
-F 0 "U14" H 9825 18409 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886A2" Ref="U?"  Part="3" 
+AR Path="/5C0259A4/5A4886A2" Ref="U4"  Part="3" 
+F 0 "U4" H 9825 18409 60  0000 C CNN
 F 1 "ADG734" H 9825 18303 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 19650 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 19550 60  0001 C CNN
@@ -342,8 +349,9 @@ L SW-Analog:ADG734 U?
 U 4 1 5A4886AD
 P 9850 19600
 AR Path="/58DEDA38/5A4886AD" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5A4829FB/5A4886AD" Ref="U11"  Part="4" 
-F 0 "U11" H 9825 19947 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886AD" Ref="U?"  Part="4" 
+AR Path="/5C0259A4/5A4886AD" Ref="U3"  Part="4" 
+F 0 "U3" H 9825 19947 60  0000 C CNN
 F 1 "ADG734" H 9825 19841 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 20550 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 20450 60  0001 C CNN
@@ -360,8 +368,9 @@ L SW-Analog:ADG734 U?
 U 4 1 5A4886B8
 P 9850 20050
 AR Path="/58DEDA38/5A4886B8" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/5A4829FB/5A4886B8" Ref="U14"  Part="4" 
-F 0 "U14" H 9825 19759 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886B8" Ref="U?"  Part="4" 
+AR Path="/5C0259A4/5A4886B8" Ref="U4"  Part="4" 
+F 0 "U4" H 9825 19759 60  0000 C CNN
 F 1 "ADG734" H 9825 19653 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 21000 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 20900 60  0001 C CNN
@@ -378,8 +387,9 @@ L SW-Analog:ADG734 U?
 U 1 1 5A4886C3
 P 9850 20950
 AR Path="/58DEDA38/5A4886C3" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5A4829FB/5A4886C3" Ref="U13"  Part="1" 
-F 0 "U13" H 9825 21297 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886C3" Ref="U?"  Part="1" 
+AR Path="/5C0259A4/5A4886C3" Ref="U5"  Part="1" 
+F 0 "U5" H 9825 21297 60  0000 C CNN
 F 1 "ADG734" H 9825 21191 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 21900 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 21800 60  0001 C CNN
@@ -396,8 +406,9 @@ L SW-Analog:ADG734 U?
 U 1 1 5A4886CE
 P 9850 21400
 AR Path="/58DEDA38/5A4886CE" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5A4829FB/5A4886CE" Ref="U16"  Part="1" 
-F 0 "U16" H 9825 21109 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886CE" Ref="U?"  Part="1" 
+AR Path="/5C0259A4/5A4886CE" Ref="U6"  Part="1" 
+F 0 "U6" H 9825 21109 60  0000 C CNN
 F 1 "ADG734" H 9825 21003 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 22350 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 22250 60  0001 C CNN
@@ -414,8 +425,9 @@ L SW-Analog:ADG734 U?
 U 2 1 5A4886D9
 P 9850 22300
 AR Path="/58DEDA38/5A4886D9" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5A4829FB/5A4886D9" Ref="U13"  Part="2" 
-F 0 "U13" H 9825 22647 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886D9" Ref="U?"  Part="2" 
+AR Path="/5C0259A4/5A4886D9" Ref="U5"  Part="2" 
+F 0 "U5" H 9825 22647 60  0000 C CNN
 F 1 "ADG734" H 9825 22541 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 23250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 23150 60  0001 C CNN
@@ -432,8 +444,9 @@ L SW-Analog:ADG734 U?
 U 2 1 5A4886E4
 P 9850 22750
 AR Path="/58DEDA38/5A4886E4" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/5A4829FB/5A4886E4" Ref="U16"  Part="2" 
-F 0 "U16" H 9825 22459 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886E4" Ref="U?"  Part="2" 
+AR Path="/5C0259A4/5A4886E4" Ref="U6"  Part="2" 
+F 0 "U6" H 9825 22459 60  0000 C CNN
 F 1 "ADG734" H 9825 22353 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 23700 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 23600 60  0001 C CNN
@@ -450,8 +463,9 @@ L SW-Analog:ADG734 U?
 U 3 1 5A4886EF
 P 9850 23650
 AR Path="/58DEDA38/5A4886EF" Ref="U?"  Part="1" 
-AR Path="/58DEDA38/5A4829FB/5A4886EF" Ref="U13"  Part="3" 
-F 0 "U13" H 9825 23997 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886EF" Ref="U?"  Part="3" 
+AR Path="/5C0259A4/5A4886EF" Ref="U5"  Part="3" 
+F 0 "U5" H 9825 23997 60  0000 C CNN
 F 1 "ADG734" H 9825 23891 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 24600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 24500 60  0001 C CNN
@@ -468,8 +482,9 @@ L SW-Analog:ADG734 U?
 U 3 1 5A4886FA
 P 9850 24100
 AR Path="/58DEDA38/5A4886FA" Ref="U?"  Part="2" 
-AR Path="/58DEDA38/5A4829FB/5A4886FA" Ref="U16"  Part="3" 
-F 0 "U16" H 9825 23809 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A4886FA" Ref="U?"  Part="3" 
+AR Path="/5C0259A4/5A4886FA" Ref="U6"  Part="3" 
+F 0 "U6" H 9825 23809 60  0000 C CNN
 F 1 "ADG734" H 9825 23703 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 25050 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 24950 60  0001 C CNN
@@ -486,8 +501,9 @@ L SW-Analog:ADG734 U?
 U 4 1 5A488705
 P 9850 25000
 AR Path="/58DEDA38/5A488705" Ref="U?"  Part="3" 
-AR Path="/58DEDA38/5A4829FB/5A488705" Ref="U13"  Part="4" 
-F 0 "U13" H 9825 25347 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A488705" Ref="U?"  Part="4" 
+AR Path="/5C0259A4/5A488705" Ref="U5"  Part="4" 
+F 0 "U5" H 9825 25347 60  0000 C CNN
 F 1 "ADG734" H 9825 25241 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 25950 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 25850 60  0001 C CNN
@@ -504,8 +520,9 @@ L SW-Analog:ADG734 U?
 U 4 1 5A488710
 P 9850 25450
 AR Path="/58DEDA38/5A488710" Ref="U?"  Part="4" 
-AR Path="/58DEDA38/5A4829FB/5A488710" Ref="U16"  Part="4" 
-F 0 "U16" H 9825 25159 60  0000 C CNN
+AR Path="/58DEDA38/5A4829FB/5A488710" Ref="U?"  Part="4" 
+AR Path="/5C0259A4/5A488710" Ref="U6"  Part="4" 
+F 0 "U6" H 9825 25159 60  0000 C CNN
 F 1 "ADG734" H 9825 25053 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 9950 26400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 9650 26300 60  0001 C CNN
@@ -518,10 +535,10 @@ F 8 "0.00@0" H 9850 25900 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U57
+L SW-Analog:ADG708 U7
 U 1 1 5A48875E
 P 7800 1500
-F 0 "U57" H 7800 2097 60  0000 C CNN
+F 0 "U7" H 7800 2097 60  0000 C CNN
 F 1 "ADG708" H 7800 1991 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 4300 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 4400 60  0001 C CNN
@@ -535,10 +552,10 @@ F 9 "0.00@0" H 7800 4050 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C146
+L Device:C_Small C21
 U 1 1 5A488765
 P 8750 1650
-F 0 "C146" H 8842 1696 50  0000 L CNN
+F 0 "C21" H 8842 1696 50  0000 L CNN
 F 1 "0.1uF" H 8842 1605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 1650 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8750 1650 50  0001 C CNN
@@ -549,10 +566,10 @@ F 6 "TDK" H 8842 1796 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C148
+L Device:C_Small C13
 U 1 1 5A48876C
 P 8550 1850
-F 0 "C148" H 8642 1896 50  0000 L CNN
+F 0 "C13" H 8642 1896 50  0000 L CNN
 F 1 "0.1uF" H 8642 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 1850 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8550 1850 50  0001 C CNN
@@ -563,10 +580,10 @@ F 6 "TDK" H 8642 1996 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V011
+L SW-power:-2.5V #-2.5V03
 U 1 1 5A488777
 P 8750 2100
-F 0 "#-2.5V011" H 9500 1800 60  0001 C CNN
+F 0 "#-2.5V03" H 9500 1800 60  0001 C CNN
 F 1 "-2.5V" H 8828 2080 60  0000 L CNN
 F 2 "" H 8750 2100 60  0001 C CNN
 F 3 "" H 8750 2100 60  0001 C CNN
@@ -575,10 +592,10 @@ F 4 "0.00@0" H 8850 2550 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0216
+L power:+2V5 #PWR013
 U 1 1 5A48877D
 P 8750 1100
-F 0 "#PWR0216" H 8750 950 50  0001 C CNN
+F 0 "#PWR013" H 8750 950 50  0001 C CNN
 F 1 "+2V5" H 8765 1273 50  0000 C CNN
 F 2 "" H 8750 1100 50  0001 C CNN
 F 3 "" H 8750 1100 50  0001 C CNN
@@ -586,10 +603,10 @@ F 3 "" H 8750 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Texas:TCA9555 U75
+L SW-Texas:TCA9555 U15
 U 1 1 5A48E6EE
 P 13050 21900
-F 0 "U75" H 13050 22947 60  0000 C CNN
+F 0 "U15" H 13050 22947 60  0000 C CNN
 F 1 "TCA9555" H 13050 22841 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 13250 23100 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 13350 23200 60  0001 C CNN
@@ -603,10 +620,10 @@ F 9 "0.00@0" H 13100 23750 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0252
+L power:+2V5 #PWR029
 U 1 1 5A48E705
 P 13500 20900
-F 0 "#PWR0252" H 13500 20750 50  0001 C CNN
+F 0 "#PWR029" H 13500 20750 50  0001 C CNN
 F 1 "+2V5" H 13515 21073 50  0000 C CNN
 F 2 "" H 13500 20900 50  0001 C CNN
 F 3 "" H 13500 20900 50  0001 C CNN
@@ -614,10 +631,10 @@ F 3 "" H 13500 20900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0256
+L power:GNDREF #PWR030
 U 1 1 5A48E70C
 P 13650 22850
-F 0 "#PWR0256" H 13650 22600 50  0001 C CNN
+F 0 "#PWR030" H 13650 22600 50  0001 C CNN
 F 1 "GNDREF" H 13655 22677 50  0000 C CNN
 F 2 "" H 13650 22850 50  0001 C CNN
 F 3 "" H 13650 22850 50  0001 C CNN
@@ -625,10 +642,10 @@ F 3 "" H 13650 22850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U59
+L SW-Analog:ADG708 U8
 U 1 1 5A493E86
 P 7800 2800
-F 0 "U59" H 7800 3397 60  0000 C CNN
+F 0 "U8" H 7800 3397 60  0000 C CNN
 F 1 "ADG708" H 7800 3291 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 5600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 5700 60  0001 C CNN
@@ -642,10 +659,10 @@ F 9 "0.00@0" H 7800 5350 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C150
+L Device:C_Small C22
 U 1 1 5A493E8D
 P 8750 2950
-F 0 "C150" H 8842 2996 50  0000 L CNN
+F 0 "C22" H 8842 2996 50  0000 L CNN
 F 1 "0.1uF" H 8842 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 2950 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8750 2950 50  0001 C CNN
@@ -656,10 +673,10 @@ F 6 "TDK" H 8842 3096 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C152
+L Device:C_Small C14
 U 1 1 5A493E94
 P 8550 3150
-F 0 "C152" H 8642 3196 50  0000 L CNN
+F 0 "C14" H 8642 3196 50  0000 L CNN
 F 1 "0.1uF" H 8642 3105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 3150 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8550 3150 50  0001 C CNN
@@ -670,10 +687,10 @@ F 6 "TDK" H 8642 3296 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V013
+L SW-power:-2.5V #-2.5V04
 U 1 1 5A493E9F
 P 8750 3400
-F 0 "#-2.5V013" H 9500 3100 60  0001 C CNN
+F 0 "#-2.5V04" H 9500 3100 60  0001 C CNN
 F 1 "-2.5V" H 8828 3380 60  0000 L CNN
 F 2 "" H 8750 3400 60  0001 C CNN
 F 3 "" H 8750 3400 60  0001 C CNN
@@ -682,10 +699,10 @@ F 4 "0.00@0" H 8850 3850 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0219
+L power:+2V5 #PWR014
 U 1 1 5A493EA5
 P 8750 2400
-F 0 "#PWR0219" H 8750 2250 50  0001 C CNN
+F 0 "#PWR014" H 8750 2250 50  0001 C CNN
 F 1 "+2V5" H 8692 2437 50  0000 R CNN
 F 2 "" H 8750 2400 50  0001 C CNN
 F 3 "" H 8750 2400 50  0001 C CNN
@@ -693,10 +710,10 @@ F 3 "" H 8750 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U61
+L SW-Analog:ADG708 U9
 U 1 1 5A4942C9
 P 7800 4100
-F 0 "U61" H 7800 4697 60  0000 C CNN
+F 0 "U9" H 7800 4697 60  0000 C CNN
 F 1 "ADG708" H 7800 4591 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 6900 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 7000 60  0001 C CNN
@@ -710,10 +727,10 @@ F 9 "0.00@0" H 7800 6650 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C154
+L Device:C_Small C23
 U 1 1 5A4942D0
 P 8750 4250
-F 0 "C154" H 8842 4296 50  0000 L CNN
+F 0 "C23" H 8842 4296 50  0000 L CNN
 F 1 "0.1uF" H 8842 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 4250 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8750 4250 50  0001 C CNN
@@ -724,10 +741,10 @@ F 6 "TDK" H 8842 4396 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C156
+L Device:C_Small C15
 U 1 1 5A4942D7
 P 8550 4450
-F 0 "C156" H 8642 4496 50  0000 L CNN
+F 0 "C15" H 8642 4496 50  0000 L CNN
 F 1 "0.1uF" H 8642 4405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 4450 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8550 4450 50  0001 C CNN
@@ -738,10 +755,10 @@ F 6 "TDK" H 8642 4596 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V015
+L SW-power:-2.5V #-2.5V05
 U 1 1 5A4942E2
 P 8750 4700
-F 0 "#-2.5V015" H 9500 4400 60  0001 C CNN
+F 0 "#-2.5V05" H 9500 4400 60  0001 C CNN
 F 1 "-2.5V" H 8828 4680 60  0000 L CNN
 F 2 "" H 8750 4700 60  0001 C CNN
 F 3 "" H 8750 4700 60  0001 C CNN
@@ -750,10 +767,10 @@ F 4 "0.00@0" H 8850 5150 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0223
+L power:+2V5 #PWR015
 U 1 1 5A4942E8
 P 8750 3700
-F 0 "#PWR0223" H 8750 3550 50  0001 C CNN
+F 0 "#PWR015" H 8750 3550 50  0001 C CNN
 F 1 "+2V5" H 8692 3737 50  0000 R CNN
 F 2 "" H 8750 3700 50  0001 C CNN
 F 3 "" H 8750 3700 50  0001 C CNN
@@ -761,10 +778,10 @@ F 3 "" H 8750 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U63
+L SW-Analog:ADG708 U10
 U 1 1 5A494577
 P 7800 5400
-F 0 "U63" H 7800 5997 60  0000 C CNN
+F 0 "U10" H 7800 5997 60  0000 C CNN
 F 1 "ADG708" H 7800 5891 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 8200 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 8300 60  0001 C CNN
@@ -778,10 +795,10 @@ F 9 "0.00@0" H 7800 7950 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C158
+L Device:C_Small C24
 U 1 1 5A49457E
 P 8750 5550
-F 0 "C158" H 8842 5596 50  0000 L CNN
+F 0 "C24" H 8842 5596 50  0000 L CNN
 F 1 "0.1uF" H 8842 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 5550 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8750 5550 50  0001 C CNN
@@ -792,10 +809,10 @@ F 6 "TDK" H 8842 5696 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C160
+L Device:C_Small C16
 U 1 1 5A494585
 P 8550 5750
-F 0 "C160" H 8642 5796 50  0000 L CNN
+F 0 "C16" H 8642 5796 50  0000 L CNN
 F 1 "0.1uF" H 8642 5705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 5750 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8550 5750 50  0001 C CNN
@@ -806,10 +823,10 @@ F 6 "TDK" H 8642 5896 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V017
+L SW-power:-2.5V #-2.5V06
 U 1 1 5A494590
 P 8750 6000
-F 0 "#-2.5V017" H 9500 5700 60  0001 C CNN
+F 0 "#-2.5V06" H 9500 5700 60  0001 C CNN
 F 1 "-2.5V" H 8828 5980 60  0000 L CNN
 F 2 "" H 8750 6000 60  0001 C CNN
 F 3 "" H 8750 6000 60  0001 C CNN
@@ -818,10 +835,10 @@ F 4 "0.00@0" H 8850 6450 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0227
+L power:+2V5 #PWR016
 U 1 1 5A494596
 P 8750 5000
-F 0 "#PWR0227" H 8750 4850 50  0001 C CNN
+F 0 "#PWR016" H 8750 4850 50  0001 C CNN
 F 1 "+2V5" H 8692 5037 50  0000 R CNN
 F 2 "" H 8750 5000 50  0001 C CNN
 F 3 "" H 8750 5000 50  0001 C CNN
@@ -829,10 +846,10 @@ F 3 "" H 8750 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U65
+L SW-Analog:ADG708 U11
 U 1 1 5A494689
 P 7800 6700
-F 0 "U65" H 7800 7297 60  0000 C CNN
+F 0 "U11" H 7800 7297 60  0000 C CNN
 F 1 "ADG708" H 7800 7191 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 9500 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 9600 60  0001 C CNN
@@ -846,10 +863,10 @@ F 9 "0.00@0" H 7800 9250 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C162
+L Device:C_Small C25
 U 1 1 5A494690
 P 8750 6850
-F 0 "C162" H 8842 6896 50  0000 L CNN
+F 0 "C25" H 8842 6896 50  0000 L CNN
 F 1 "0.1uF" H 8842 6805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 6850 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8750 6850 50  0001 C CNN
@@ -860,10 +877,10 @@ F 6 "TDK" H 8842 6996 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C164
+L Device:C_Small C17
 U 1 1 5A494697
 P 8550 7050
-F 0 "C164" H 8642 7096 50  0000 L CNN
+F 0 "C17" H 8642 7096 50  0000 L CNN
 F 1 "0.1uF" H 8642 7005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 7050 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8550 7050 50  0001 C CNN
@@ -874,10 +891,10 @@ F 6 "TDK" H 8642 7196 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V019
+L SW-power:-2.5V #-2.5V07
 U 1 1 5A4946A2
 P 8750 7300
-F 0 "#-2.5V019" H 9500 7000 60  0001 C CNN
+F 0 "#-2.5V07" H 9500 7000 60  0001 C CNN
 F 1 "-2.5V" H 8828 7280 60  0000 L CNN
 F 2 "" H 8750 7300 60  0001 C CNN
 F 3 "" H 8750 7300 60  0001 C CNN
@@ -886,10 +903,10 @@ F 4 "0.00@0" H 8850 7750 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0231
+L power:+2V5 #PWR017
 U 1 1 5A4946A8
 P 8750 6300
-F 0 "#PWR0231" H 8750 6150 50  0001 C CNN
+F 0 "#PWR017" H 8750 6150 50  0001 C CNN
 F 1 "+2V5" H 8692 6337 50  0000 R CNN
 F 2 "" H 8750 6300 50  0001 C CNN
 F 3 "" H 8750 6300 50  0001 C CNN
@@ -897,10 +914,10 @@ F 3 "" H 8750 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U67
+L SW-Analog:ADG708 U12
 U 1 1 5A494878
 P 7800 8000
-F 0 "U67" H 7800 8597 60  0000 C CNN
+F 0 "U12" H 7800 8597 60  0000 C CNN
 F 1 "ADG708" H 7800 8491 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 10800 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 10900 60  0001 C CNN
@@ -914,10 +931,10 @@ F 9 "0.00@0" H 7800 10550 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C166
+L Device:C_Small C26
 U 1 1 5A49487F
 P 8750 8150
-F 0 "C166" H 8842 8196 50  0000 L CNN
+F 0 "C26" H 8842 8196 50  0000 L CNN
 F 1 "0.1uF" H 8842 8105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 8150 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8750 8150 50  0001 C CNN
@@ -928,10 +945,10 @@ F 6 "TDK" H 8842 8296 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C168
+L Device:C_Small C18
 U 1 1 5A494886
 P 8550 8350
-F 0 "C168" H 8642 8396 50  0000 L CNN
+F 0 "C18" H 8642 8396 50  0000 L CNN
 F 1 "0.1uF" H 8642 8305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 8350 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8550 8350 50  0001 C CNN
@@ -942,10 +959,10 @@ F 6 "TDK" H 8642 8496 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V021
+L SW-power:-2.5V #-2.5V08
 U 1 1 5A494891
 P 8750 8600
-F 0 "#-2.5V021" H 9500 8300 60  0001 C CNN
+F 0 "#-2.5V08" H 9500 8300 60  0001 C CNN
 F 1 "-2.5V" H 8828 8580 60  0000 L CNN
 F 2 "" H 8750 8600 60  0001 C CNN
 F 3 "" H 8750 8600 60  0001 C CNN
@@ -954,10 +971,10 @@ F 4 "0.00@0" H 8850 9050 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0235
+L power:+2V5 #PWR018
 U 1 1 5A494897
 P 8750 7600
-F 0 "#PWR0235" H 8750 7450 50  0001 C CNN
+F 0 "#PWR018" H 8750 7450 50  0001 C CNN
 F 1 "+2V5" H 8692 7637 50  0000 R CNN
 F 2 "" H 8750 7600 50  0001 C CNN
 F 3 "" H 8750 7600 50  0001 C CNN
@@ -965,10 +982,10 @@ F 3 "" H 8750 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U69
+L SW-Analog:ADG708 U13
 U 1 1 5A494913
 P 7800 9300
-F 0 "U69" H 7800 9897 60  0000 C CNN
+F 0 "U13" H 7800 9897 60  0000 C CNN
 F 1 "ADG708" H 7800 9791 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 12100 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 12200 60  0001 C CNN
@@ -982,10 +999,10 @@ F 9 "0.00@0" H 7800 11850 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C170
+L Device:C_Small C27
 U 1 1 5A49491A
 P 8750 9450
-F 0 "C170" H 8842 9496 50  0000 L CNN
+F 0 "C27" H 8842 9496 50  0000 L CNN
 F 1 "0.1uF" H 8842 9405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 9450 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8750 9450 50  0001 C CNN
@@ -996,10 +1013,10 @@ F 6 "TDK" H 8842 9596 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C172
+L Device:C_Small C19
 U 1 1 5A494921
 P 8550 9650
-F 0 "C172" H 8642 9696 50  0000 L CNN
+F 0 "C19" H 8642 9696 50  0000 L CNN
 F 1 "0.1uF" H 8642 9605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 9650 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8550 9650 50  0001 C CNN
@@ -1010,10 +1027,10 @@ F 6 "TDK" H 8642 9796 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V023
+L SW-power:-2.5V #-2.5V09
 U 1 1 5A49492C
 P 8750 9900
-F 0 "#-2.5V023" H 9500 9600 60  0001 C CNN
+F 0 "#-2.5V09" H 9500 9600 60  0001 C CNN
 F 1 "-2.5V" H 8828 9880 60  0000 L CNN
 F 2 "" H 8750 9900 60  0001 C CNN
 F 3 "" H 8750 9900 60  0001 C CNN
@@ -1022,10 +1039,10 @@ F 4 "0.00@0" H 8850 10350 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0239
+L power:+2V5 #PWR019
 U 1 1 5A494932
 P 8750 8900
-F 0 "#PWR0239" H 8750 8750 50  0001 C CNN
+F 0 "#PWR019" H 8750 8750 50  0001 C CNN
 F 1 "+2V5" H 8692 8937 50  0000 R CNN
 F 2 "" H 8750 8900 50  0001 C CNN
 F 3 "" H 8750 8900 50  0001 C CNN
@@ -1033,10 +1050,10 @@ F 3 "" H 8750 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U71
+L SW-Analog:ADG708 U14
 U 1 1 5A4949D5
 P 7800 10600
-F 0 "U71" H 7800 11197 60  0000 C CNN
+F 0 "U14" H 7800 11197 60  0000 C CNN
 F 1 "ADG708" H 7800 11091 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 7150 13400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 7250 13500 60  0001 C CNN
@@ -1050,10 +1067,10 @@ F 9 "0.00@0" H 7800 13150 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C174
+L Device:C_Small C28
 U 1 1 5A4949DC
 P 8750 10750
-F 0 "C174" H 8842 10796 50  0000 L CNN
+F 0 "C28" H 8842 10796 50  0000 L CNN
 F 1 "0.1uF" H 8842 10705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8750 10750 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8750 10750 50  0001 C CNN
@@ -1064,10 +1081,10 @@ F 6 "TDK" H 8842 10896 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C176
+L Device:C_Small C20
 U 1 1 5A4949E3
 P 8550 10950
-F 0 "C176" H 8642 10996 50  0000 L CNN
+F 0 "C20" H 8642 10996 50  0000 L CNN
 F 1 "0.1uF" H 8642 10905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 8550 10950 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 8550 10950 50  0001 C CNN
@@ -1078,10 +1095,10 @@ F 6 "TDK" H 8642 11096 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V025
+L SW-power:-2.5V #-2.5V010
 U 1 1 5A4949EE
 P 8750 11200
-F 0 "#-2.5V025" H 9500 10900 60  0001 C CNN
+F 0 "#-2.5V010" H 9500 10900 60  0001 C CNN
 F 1 "-2.5V" H 8750 11019 60  0000 C CNN
 F 2 "" H 8750 11200 60  0001 C CNN
 F 3 "" H 8750 11200 60  0001 C CNN
@@ -1090,10 +1107,10 @@ F 4 "0.00@0" H 8850 11650 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0243
+L power:+2V5 #PWR020
 U 1 1 5A4949F4
 P 8750 10200
-F 0 "#PWR0243" H 8750 10050 50  0001 C CNN
+F 0 "#PWR020" H 8750 10050 50  0001 C CNN
 F 1 "+2V5" H 8692 10237 50  0000 R CNN
 F 2 "" H 8750 10200 50  0001 C CNN
 F 3 "" H 8750 10200 50  0001 C CNN
@@ -1101,10 +1118,10 @@ F 3 "" H 8750 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U58
+L SW-Analog:ADG708 U16
 U 1 1 5A560746
 P 13250 1500
-F 0 "U58" H 13250 2097 60  0000 C CNN
+F 0 "U16" H 13250 2097 60  0000 C CNN
 F 1 "ADG708" H 13250 1991 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 4300 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 4400 60  0001 C CNN
@@ -1118,10 +1135,10 @@ F 9 "0.00@0" H 13250 4050 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C147
+L Device:C_Small C38
 U 1 1 5A56074D
 P 14200 1650
-F 0 "C147" H 14292 1696 50  0000 L CNN
+F 0 "C38" H 14292 1696 50  0000 L CNN
 F 1 "0.1uF" H 14292 1605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 1650 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14200 1650 50  0001 C CNN
@@ -1132,10 +1149,10 @@ F 6 "TDK" H 14292 1796 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C149
+L Device:C_Small C30
 U 1 1 5A560754
 P 14000 1850
-F 0 "C149" H 14092 1896 50  0000 L CNN
+F 0 "C30" H 14092 1896 50  0000 L CNN
 F 1 "0.1uF" H 14092 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 1850 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14000 1850 50  0001 C CNN
@@ -1146,10 +1163,10 @@ F 6 "TDK" H 14092 1996 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V012
+L SW-power:-2.5V #-2.5V011
 U 1 1 5A56075C
 P 14200 2100
-F 0 "#-2.5V012" H 14950 1800 60  0001 C CNN
+F 0 "#-2.5V011" H 14950 1800 60  0001 C CNN
 F 1 "-2.5V" H 14278 2080 60  0000 L CNN
 F 2 "" H 14200 2100 60  0001 C CNN
 F 3 "" H 14200 2100 60  0001 C CNN
@@ -1158,10 +1175,10 @@ F 4 "0.00@0" H 14300 2550 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0217
+L power:+2V5 #PWR031
 U 1 1 5A560762
 P 14200 1100
-F 0 "#PWR0217" H 14200 950 50  0001 C CNN
+F 0 "#PWR031" H 14200 950 50  0001 C CNN
 F 1 "+2V5" H 14215 1273 50  0000 C CNN
 F 2 "" H 14200 1100 50  0001 C CNN
 F 3 "" H 14200 1100 50  0001 C CNN
@@ -1169,10 +1186,10 @@ F 3 "" H 14200 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U60
+L SW-Analog:ADG708 U17
 U 1 1 5A56076D
 P 13250 2800
-F 0 "U60" H 13250 3397 60  0000 C CNN
+F 0 "U17" H 13250 3397 60  0000 C CNN
 F 1 "ADG708" H 13250 3291 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 5600 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 5700 60  0001 C CNN
@@ -1186,10 +1203,10 @@ F 9 "0.00@0" H 13250 5350 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C151
+L Device:C_Small C39
 U 1 1 5A560774
 P 14200 2950
-F 0 "C151" H 14292 2996 50  0000 L CNN
+F 0 "C39" H 14292 2996 50  0000 L CNN
 F 1 "0.1uF" H 14292 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 2950 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14200 2950 50  0001 C CNN
@@ -1200,10 +1217,10 @@ F 6 "TDK" H 14292 3096 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C153
+L Device:C_Small C31
 U 1 1 5A56077B
 P 14000 3150
-F 0 "C153" H 14092 3196 50  0000 L CNN
+F 0 "C31" H 14092 3196 50  0000 L CNN
 F 1 "0.1uF" H 14092 3105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 3150 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14000 3150 50  0001 C CNN
@@ -1214,10 +1231,10 @@ F 6 "TDK" H 14092 3296 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V014
+L SW-power:-2.5V #-2.5V012
 U 1 1 5A560783
 P 14200 3400
-F 0 "#-2.5V014" H 14950 3100 60  0001 C CNN
+F 0 "#-2.5V012" H 14950 3100 60  0001 C CNN
 F 1 "-2.5V" H 14278 3380 60  0000 L CNN
 F 2 "" H 14200 3400 60  0001 C CNN
 F 3 "" H 14200 3400 60  0001 C CNN
@@ -1226,10 +1243,10 @@ F 4 "0.00@0" H 14300 3850 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0220
+L power:+2V5 #PWR032
 U 1 1 5A560789
 P 14200 2400
-F 0 "#PWR0220" H 14200 2250 50  0001 C CNN
+F 0 "#PWR032" H 14200 2250 50  0001 C CNN
 F 1 "+2V5" H 14142 2437 50  0000 R CNN
 F 2 "" H 14200 2400 50  0001 C CNN
 F 3 "" H 14200 2400 50  0001 C CNN
@@ -1237,10 +1254,10 @@ F 3 "" H 14200 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U62
+L SW-Analog:ADG708 U18
 U 1 1 5A560794
 P 13250 4100
-F 0 "U62" H 13250 4697 60  0000 C CNN
+F 0 "U18" H 13250 4697 60  0000 C CNN
 F 1 "ADG708" H 13250 4591 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 6900 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 7000 60  0001 C CNN
@@ -1254,10 +1271,10 @@ F 9 "0.00@0" H 13250 6650 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C155
+L Device:C_Small C40
 U 1 1 5A56079B
 P 14200 4250
-F 0 "C155" H 14292 4296 50  0000 L CNN
+F 0 "C40" H 14292 4296 50  0000 L CNN
 F 1 "0.1uF" H 14292 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 4250 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14200 4250 50  0001 C CNN
@@ -1268,10 +1285,10 @@ F 6 "TDK" H 14292 4396 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C157
+L Device:C_Small C32
 U 1 1 5A5607A2
 P 14000 4450
-F 0 "C157" H 14092 4496 50  0000 L CNN
+F 0 "C32" H 14092 4496 50  0000 L CNN
 F 1 "0.1uF" H 14092 4405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 4450 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14000 4450 50  0001 C CNN
@@ -1282,10 +1299,10 @@ F 6 "TDK" H 14092 4596 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V016
+L SW-power:-2.5V #-2.5V013
 U 1 1 5A5607AA
 P 14200 4700
-F 0 "#-2.5V016" H 14950 4400 60  0001 C CNN
+F 0 "#-2.5V013" H 14950 4400 60  0001 C CNN
 F 1 "-2.5V" H 14278 4680 60  0000 L CNN
 F 2 "" H 14200 4700 60  0001 C CNN
 F 3 "" H 14200 4700 60  0001 C CNN
@@ -1294,10 +1311,10 @@ F 4 "0.00@0" H 14300 5150 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0224
+L power:+2V5 #PWR033
 U 1 1 5A5607B0
 P 14200 3700
-F 0 "#PWR0224" H 14200 3550 50  0001 C CNN
+F 0 "#PWR033" H 14200 3550 50  0001 C CNN
 F 1 "+2V5" H 14142 3737 50  0000 R CNN
 F 2 "" H 14200 3700 50  0001 C CNN
 F 3 "" H 14200 3700 50  0001 C CNN
@@ -1305,10 +1322,10 @@ F 3 "" H 14200 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U64
+L SW-Analog:ADG708 U19
 U 1 1 5A5607BB
 P 13250 5400
-F 0 "U64" H 13250 5997 60  0000 C CNN
+F 0 "U19" H 13250 5997 60  0000 C CNN
 F 1 "ADG708" H 13250 5891 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 8200 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 8300 60  0001 C CNN
@@ -1322,10 +1339,10 @@ F 9 "0.00@0" H 13250 7950 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C159
+L Device:C_Small C41
 U 1 1 5A5607C2
 P 14200 5550
-F 0 "C159" H 14292 5596 50  0000 L CNN
+F 0 "C41" H 14292 5596 50  0000 L CNN
 F 1 "0.1uF" H 14292 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 5550 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14200 5550 50  0001 C CNN
@@ -1336,10 +1353,10 @@ F 6 "TDK" H 14292 5696 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C161
+L Device:C_Small C33
 U 1 1 5A5607C9
 P 14000 5750
-F 0 "C161" H 14092 5796 50  0000 L CNN
+F 0 "C33" H 14092 5796 50  0000 L CNN
 F 1 "0.1uF" H 14092 5705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 5750 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14000 5750 50  0001 C CNN
@@ -1350,10 +1367,10 @@ F 6 "TDK" H 14092 5896 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V018
+L SW-power:-2.5V #-2.5V014
 U 1 1 5A5607D1
 P 14200 6000
-F 0 "#-2.5V018" H 14950 5700 60  0001 C CNN
+F 0 "#-2.5V014" H 14950 5700 60  0001 C CNN
 F 1 "-2.5V" H 14278 5980 60  0000 L CNN
 F 2 "" H 14200 6000 60  0001 C CNN
 F 3 "" H 14200 6000 60  0001 C CNN
@@ -1362,10 +1379,10 @@ F 4 "0.00@0" H 14300 6450 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0228
+L power:+2V5 #PWR034
 U 1 1 5A5607D7
 P 14200 5000
-F 0 "#PWR0228" H 14200 4850 50  0001 C CNN
+F 0 "#PWR034" H 14200 4850 50  0001 C CNN
 F 1 "+2V5" H 14142 5037 50  0000 R CNN
 F 2 "" H 14200 5000 50  0001 C CNN
 F 3 "" H 14200 5000 50  0001 C CNN
@@ -1373,10 +1390,10 @@ F 3 "" H 14200 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U66
+L SW-Analog:ADG708 U20
 U 1 1 5A5607E2
 P 13250 6700
-F 0 "U66" H 13250 7297 60  0000 C CNN
+F 0 "U20" H 13250 7297 60  0000 C CNN
 F 1 "ADG708" H 13250 7191 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 9500 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 9600 60  0001 C CNN
@@ -1390,10 +1407,10 @@ F 9 "0.00@0" H 13250 9250 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C163
+L Device:C_Small C42
 U 1 1 5A5607E9
 P 14200 6850
-F 0 "C163" H 14292 6896 50  0000 L CNN
+F 0 "C42" H 14292 6896 50  0000 L CNN
 F 1 "0.1uF" H 14292 6805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 6850 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14200 6850 50  0001 C CNN
@@ -1404,10 +1421,10 @@ F 6 "TDK" H 14292 6996 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C165
+L Device:C_Small C34
 U 1 1 5A5607F0
 P 14000 7050
-F 0 "C165" H 14092 7096 50  0000 L CNN
+F 0 "C34" H 14092 7096 50  0000 L CNN
 F 1 "0.1uF" H 14092 7005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 7050 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14000 7050 50  0001 C CNN
@@ -1418,10 +1435,10 @@ F 6 "TDK" H 14092 7196 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V020
+L SW-power:-2.5V #-2.5V015
 U 1 1 5A5607F8
 P 14200 7300
-F 0 "#-2.5V020" H 14950 7000 60  0001 C CNN
+F 0 "#-2.5V015" H 14950 7000 60  0001 C CNN
 F 1 "-2.5V" H 14278 7280 60  0000 L CNN
 F 2 "" H 14200 7300 60  0001 C CNN
 F 3 "" H 14200 7300 60  0001 C CNN
@@ -1430,10 +1447,10 @@ F 4 "0.00@0" H 14300 7750 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0232
+L power:+2V5 #PWR035
 U 1 1 5A5607FE
 P 14200 6300
-F 0 "#PWR0232" H 14200 6150 50  0001 C CNN
+F 0 "#PWR035" H 14200 6150 50  0001 C CNN
 F 1 "+2V5" H 14142 6337 50  0000 R CNN
 F 2 "" H 14200 6300 50  0001 C CNN
 F 3 "" H 14200 6300 50  0001 C CNN
@@ -1441,10 +1458,10 @@ F 3 "" H 14200 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U68
+L SW-Analog:ADG708 U21
 U 1 1 5A560809
 P 13250 8000
-F 0 "U68" H 13250 8597 60  0000 C CNN
+F 0 "U21" H 13250 8597 60  0000 C CNN
 F 1 "ADG708" H 13250 8491 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 10800 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 10900 60  0001 C CNN
@@ -1458,10 +1475,10 @@ F 9 "0.00@0" H 13250 10550 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C167
+L Device:C_Small C43
 U 1 1 5A560810
 P 14200 8150
-F 0 "C167" H 14292 8196 50  0000 L CNN
+F 0 "C43" H 14292 8196 50  0000 L CNN
 F 1 "0.1uF" H 14292 8105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 8150 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14200 8150 50  0001 C CNN
@@ -1472,10 +1489,10 @@ F 6 "TDK" H 14292 8296 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C169
+L Device:C_Small C35
 U 1 1 5A560817
 P 14000 8350
-F 0 "C169" H 14092 8396 50  0000 L CNN
+F 0 "C35" H 14092 8396 50  0000 L CNN
 F 1 "0.1uF" H 14092 8305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 8350 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14000 8350 50  0001 C CNN
@@ -1486,10 +1503,10 @@ F 6 "TDK" H 14092 8496 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V022
+L SW-power:-2.5V #-2.5V016
 U 1 1 5A56081F
 P 14200 8600
-F 0 "#-2.5V022" H 14950 8300 60  0001 C CNN
+F 0 "#-2.5V016" H 14950 8300 60  0001 C CNN
 F 1 "-2.5V" H 14278 8580 60  0000 L CNN
 F 2 "" H 14200 8600 60  0001 C CNN
 F 3 "" H 14200 8600 60  0001 C CNN
@@ -1498,10 +1515,10 @@ F 4 "0.00@0" H 14300 9050 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0236
+L power:+2V5 #PWR036
 U 1 1 5A560825
 P 14200 7600
-F 0 "#PWR0236" H 14200 7450 50  0001 C CNN
+F 0 "#PWR036" H 14200 7450 50  0001 C CNN
 F 1 "+2V5" H 14142 7637 50  0000 R CNN
 F 2 "" H 14200 7600 50  0001 C CNN
 F 3 "" H 14200 7600 50  0001 C CNN
@@ -1509,10 +1526,10 @@ F 3 "" H 14200 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U70
+L SW-Analog:ADG708 U22
 U 1 1 5A560830
 P 13250 9300
-F 0 "U70" H 13250 9897 60  0000 C CNN
+F 0 "U22" H 13250 9897 60  0000 C CNN
 F 1 "ADG708" H 13250 9791 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 12100 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 12200 60  0001 C CNN
@@ -1526,10 +1543,10 @@ F 9 "0.00@0" H 13250 11850 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C171
+L Device:C_Small C44
 U 1 1 5A560837
 P 14200 9450
-F 0 "C171" H 14292 9496 50  0000 L CNN
+F 0 "C44" H 14292 9496 50  0000 L CNN
 F 1 "0.1uF" H 14292 9405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 9450 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14200 9450 50  0001 C CNN
@@ -1540,10 +1557,10 @@ F 6 "TDK" H 14292 9596 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C173
+L Device:C_Small C36
 U 1 1 5A56083E
 P 14000 9650
-F 0 "C173" H 14092 9696 50  0000 L CNN
+F 0 "C36" H 14092 9696 50  0000 L CNN
 F 1 "0.1uF" H 14092 9605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 9650 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14000 9650 50  0001 C CNN
@@ -1554,10 +1571,10 @@ F 6 "TDK" H 14092 9796 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V024
+L SW-power:-2.5V #-2.5V017
 U 1 1 5A560846
 P 14200 9900
-F 0 "#-2.5V024" H 14950 9600 60  0001 C CNN
+F 0 "#-2.5V017" H 14950 9600 60  0001 C CNN
 F 1 "-2.5V" H 14278 9880 60  0000 L CNN
 F 2 "" H 14200 9900 60  0001 C CNN
 F 3 "" H 14200 9900 60  0001 C CNN
@@ -1566,10 +1583,10 @@ F 4 "0.00@0" H 14300 10350 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0240
+L power:+2V5 #PWR037
 U 1 1 5A56084C
 P 14200 8900
-F 0 "#PWR0240" H 14200 8750 50  0001 C CNN
+F 0 "#PWR037" H 14200 8750 50  0001 C CNN
 F 1 "+2V5" H 14142 8937 50  0000 R CNN
 F 2 "" H 14200 8900 50  0001 C CNN
 F 3 "" H 14200 8900 50  0001 C CNN
@@ -1577,10 +1594,10 @@ F 3 "" H 14200 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Analog:ADG708 U72
+L SW-Analog:ADG708 U23
 U 1 1 5A560857
 P 13250 10600
-F 0 "U72" H 13250 11197 60  0000 C CNN
+F 0 "U23" H 13250 11197 60  0000 C CNN
 F 1 "ADG708" H 13250 11091 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 12600 13400 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf" H 12700 13500 60  0001 C CNN
@@ -1594,10 +1611,10 @@ F 9 "0.00@0" H 13250 13150 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C175
+L Device:C_Small C45
 U 1 1 5A56085E
 P 14200 10750
-F 0 "C175" H 14292 10796 50  0000 L CNN
+F 0 "C45" H 14292 10796 50  0000 L CNN
 F 1 "0.1uF" H 14292 10705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14200 10750 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14200 10750 50  0001 C CNN
@@ -1608,10 +1625,10 @@ F 6 "TDK" H 14292 10896 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C177
+L Device:C_Small C37
 U 1 1 5A560865
 P 14000 10950
-F 0 "C177" H 14092 10996 50  0000 L CNN
+F 0 "C37" H 14092 10996 50  0000 L CNN
 F 1 "0.1uF" H 14092 10905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 14000 10950 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 14000 10950 50  0001 C CNN
@@ -1622,10 +1639,10 @@ F 6 "TDK" H 14092 11096 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-power:-2.5V #-2.5V026
+L SW-power:-2.5V #-2.5V018
 U 1 1 5A56086D
 P 14200 11200
-F 0 "#-2.5V026" H 14950 10900 60  0001 C CNN
+F 0 "#-2.5V018" H 14950 10900 60  0001 C CNN
 F 1 "-2.5V" H 14200 11019 60  0000 C CNN
 F 2 "" H 14200 11200 60  0001 C CNN
 F 3 "" H 14200 11200 60  0001 C CNN
@@ -1634,10 +1651,10 @@ F 4 "0.00@0" H 14300 11650 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0244
+L power:+2V5 #PWR038
 U 1 1 5A560873
 P 14200 10200
-F 0 "#PWR0244" H 14200 10050 50  0001 C CNN
+F 0 "#PWR038" H 14200 10050 50  0001 C CNN
 F 1 "+2V5" H 14142 10237 50  0000 R CNN
 F 2 "" H 14200 10200 50  0001 C CNN
 F 3 "" H 14200 10200 50  0001 C CNN
@@ -1645,10 +1662,10 @@ F 3 "" H 14200 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R104
+L Device:R_Small R1
 U 1 1 5A8BF8DF
 P 13650 21400
-F 0 "R104" H 13709 21446 50  0000 L CNN
+F 0 "R1" H 13709 21446 50  0000 L CNN
 F 1 "10kΩ" H 13709 21355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 13650 21400 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 13650 21400 50  0001 C CNN
@@ -1660,10 +1677,10 @@ F 7 "1608 metric" H 13709 21546 50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C180
+L Device:C_Small C29
 U 1 1 5A95AF5D
 P 13750 21000
-F 0 "C180" V 13521 21000 50  0000 C CNN
+F 0 "C29" V 13521 21000 50  0000 C CNN
 F 1 "0.1uF" V 13612 21000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 13750 21000 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 13750 21000 50  0001 C CNN
@@ -1674,10 +1691,10 @@ F 6 "TDK" H 13521 21100 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L SW-Texas:TCA9555 U73
+L SW-Texas:TCA9555 U24
 U 1 1 5A95FB89
 P 16400 17650
-F 0 "U73" H 16400 18697 60  0000 C CNN
+F 0 "U24" H 16400 18697 60  0000 C CNN
 F 1 "TCA9555" H 16400 18591 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 16600 18850 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 16700 18950 60  0001 C CNN
@@ -1691,10 +1708,10 @@ F 9 "0.00@0" H 16450 19500 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0247
+L power:+2V5 #PWR047
 U 1 1 5A95FB90
 P 16850 16650
-F 0 "#PWR0247" H 16850 16500 50  0001 C CNN
+F 0 "#PWR047" H 16850 16500 50  0001 C CNN
 F 1 "+2V5" H 16865 16823 50  0000 C CNN
 F 2 "" H 16850 16650 50  0001 C CNN
 F 3 "" H 16850 16650 50  0001 C CNN
@@ -1702,10 +1719,10 @@ F 3 "" H 16850 16650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0249
+L power:GNDREF #PWR052
 U 1 1 5A95FB96
 P 17000 18600
-F 0 "#PWR0249" H 17000 18350 50  0001 C CNN
+F 0 "#PWR052" H 17000 18350 50  0001 C CNN
 F 1 "GNDREF" H 17005 18427 50  0000 C CNN
 F 2 "" H 17000 18600 50  0001 C CNN
 F 3 "" H 17000 18600 50  0001 C CNN
@@ -1713,10 +1730,10 @@ F 3 "" H 17000 18600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R102
+L Device:R_Small R2
 U 1 1 5A95FB9F
 P 17000 17150
-F 0 "R102" H 17059 17196 50  0000 L CNN
+F 0 "R2" H 17059 17196 50  0000 L CNN
 F 1 "10kΩ" H 17059 17105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 17000 17150 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 17000 17150 50  0001 C CNN
@@ -1728,10 +1745,10 @@ F 7 "1608 metric" H 17059 17296 50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C178
+L Device:C_Small C46
 U 1 1 5A95FBA9
 P 17100 16750
-F 0 "C178" V 16871 16750 50  0000 C CNN
+F 0 "C46" V 16871 16750 50  0000 C CNN
 F 1 "0.1uF" V 16962 16750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 17100 16750 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 17100 16750 50  0001 C CNN
@@ -1742,10 +1759,10 @@ F 6 "TDK" H 16871 16850 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L SW-Texas:TCA9555 U74
+L SW-Texas:TCA9555 U25
 U 1 1 5A95FE27
 P 16400 20100
-F 0 "U74" H 16400 21147 60  0000 C CNN
+F 0 "U25" H 16400 21147 60  0000 C CNN
 F 1 "TCA9555" H 16400 21041 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 16600 21300 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 16700 21400 60  0001 C CNN
@@ -1759,10 +1776,10 @@ F 9 "0.00@0" H 16450 21950 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0250
+L power:+2V5 #PWR048
 U 1 1 5A95FE2E
 P 16850 19100
-F 0 "#PWR0250" H 16850 18950 50  0001 C CNN
+F 0 "#PWR048" H 16850 18950 50  0001 C CNN
 F 1 "+2V5" H 16865 19273 50  0000 C CNN
 F 2 "" H 16850 19100 50  0001 C CNN
 F 3 "" H 16850 19100 50  0001 C CNN
@@ -1770,10 +1787,10 @@ F 3 "" H 16850 19100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0253
+L power:GNDREF #PWR053
 U 1 1 5A95FE34
 P 17000 21050
-F 0 "#PWR0253" H 17000 20800 50  0001 C CNN
+F 0 "#PWR053" H 17000 20800 50  0001 C CNN
 F 1 "GNDREF" H 17005 20877 50  0000 C CNN
 F 2 "" H 17000 21050 50  0001 C CNN
 F 3 "" H 17000 21050 50  0001 C CNN
@@ -1781,10 +1798,10 @@ F 3 "" H 17000 21050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R103
+L Device:R_Small R3
 U 1 1 5A95FE3D
 P 17000 19600
-F 0 "R103" H 17059 19646 50  0000 L CNN
+F 0 "R3" H 17059 19646 50  0000 L CNN
 F 1 "10kΩ" H 17059 19555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 17000 19600 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 17000 19600 50  0001 C CNN
@@ -1796,10 +1813,10 @@ F 7 "1608 metric" H 17059 19746 50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C179
+L Device:C_Small C47
 U 1 1 5A95FE47
 P 17100 19200
-F 0 "C179" V 16871 19200 50  0000 C CNN
+F 0 "C47" V 16871 19200 50  0000 C CNN
 F 1 "0.1uF" V 16962 19200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 17100 19200 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 17100 19200 50  0001 C CNN
@@ -1810,10 +1827,10 @@ F 6 "TDK" H 16871 19300 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L SW-Texas:TCA9555 U76
+L SW-Texas:TCA9555 U26
 U 1 1 5A9600C2
 P 16400 22550
-F 0 "U76" H 16400 23597 60  0000 C CNN
+F 0 "U26" H 16400 23597 60  0000 C CNN
 F 1 "TCA9555" H 16400 23491 60  0000 C CNN
 F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 16600 23750 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 16700 23850 60  0001 C CNN
@@ -1827,10 +1844,10 @@ F 9 "0.00@0" H 16450 24400 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0254
+L power:+2V5 #PWR049
 U 1 1 5A9600C9
 P 16850 21550
-F 0 "#PWR0254" H 16850 21400 50  0001 C CNN
+F 0 "#PWR049" H 16850 21400 50  0001 C CNN
 F 1 "+2V5" H 16865 21723 50  0000 C CNN
 F 2 "" H 16850 21550 50  0001 C CNN
 F 3 "" H 16850 21550 50  0001 C CNN
@@ -1838,10 +1855,10 @@ F 3 "" H 16850 21550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0257
+L power:GNDREF #PWR054
 U 1 1 5A9600CF
 P 17000 23500
-F 0 "#PWR0257" H 17000 23250 50  0001 C CNN
+F 0 "#PWR054" H 17000 23250 50  0001 C CNN
 F 1 "GNDREF" H 17005 23327 50  0000 C CNN
 F 2 "" H 17000 23500 50  0001 C CNN
 F 3 "" H 17000 23500 50  0001 C CNN
@@ -1849,10 +1866,10 @@ F 3 "" H 17000 23500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R105
+L Device:R_Small R4
 U 1 1 5A9600D8
 P 17000 22050
-F 0 "R105" H 17059 22096 50  0000 L CNN
+F 0 "R4" H 17059 22096 50  0000 L CNN
 F 1 "10kΩ" H 17059 22005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 17000 22050 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf" H 17000 22050 50  0001 C CNN
@@ -1864,10 +1881,10 @@ F 7 "1608 metric" H 17059 22196 50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C181
+L Device:C_Small C48
 U 1 1 5A9600E2
 P 17100 21650
-F 0 "C181" V 16871 21650 50  0000 C CNN
+F 0 "C48" V 16871 21650 50  0000 C CNN
 F 1 "0.1uF" V 16962 21650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 17100 21650 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/400/lcc_automotive_general_en-843974.pdf" H 17100 21650 50  0001 C CNN
@@ -1878,10 +1895,10 @@ F 6 "TDK" H 16871 21750 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+2V5 #PWR0255
+L power:+2V5 #PWR051
 U 1 1 5A9D8E5D
 P 16950 22600
-F 0 "#PWR0255" H 16950 22450 50  0001 C CNN
+F 0 "#PWR051" H 16950 22450 50  0001 C CNN
 F 1 "+2V5" H 16800 22650 50  0000 C CNN
 F 2 "" H 16950 22600 50  0001 C CNN
 F 3 "" H 16950 22600 50  0001 C CNN
@@ -1889,10 +1906,10 @@ F 3 "" H 16950 22600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0251
+L power:+2V5 #PWR055
 U 1 1 5A9E1D85
 P 17350 20250
-F 0 "#PWR0251" H 17350 20100 50  0001 C CNN
+F 0 "#PWR055" H 17350 20100 50  0001 C CNN
 F 1 "+2V5" H 17365 20423 50  0000 C CNN
 F 2 "" H 17350 20250 50  0001 C CNN
 F 3 "" H 17350 20250 50  0001 C CNN
@@ -1900,10 +1917,10 @@ F 3 "" H 17350 20250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR0248
+L power:+2V5 #PWR050
 U 1 1 5A9E7B8A
 P 16950 17700
-F 0 "#PWR0248" H 16950 17550 50  0001 C CNN
+F 0 "#PWR050" H 16950 17550 50  0001 C CNN
 F 1 "+2V5" H 16800 17750 50  0000 C CNN
 F 2 "" H 16950 17700 50  0001 C CNN
 F 3 "" H 16950 17700 50  0001 C CNN
@@ -1911,10 +1928,10 @@ F 3 "" H 16950 17700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0218
+L power:GNDREF #PWR021
 U 1 1 5AE3DC31
 P 9250 2100
-F 0 "#PWR0218" H 9250 1850 50  0001 C CNN
+F 0 "#PWR021" H 9250 1850 50  0001 C CNN
 F 1 "GNDREF" H 9255 1927 50  0000 C CNN
 F 2 "" H 9250 2100 50  0001 C CNN
 F 3 "" H 9250 2100 50  0001 C CNN
@@ -1922,10 +1939,10 @@ F 3 "" H 9250 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0221
+L power:GNDREF #PWR022
 U 1 1 5AE3E0A7
 P 9250 3400
-F 0 "#PWR0221" H 9250 3150 50  0001 C CNN
+F 0 "#PWR022" H 9250 3150 50  0001 C CNN
 F 1 "GNDREF" H 9255 3227 50  0000 C CNN
 F 2 "" H 9250 3400 50  0001 C CNN
 F 3 "" H 9250 3400 50  0001 C CNN
@@ -1933,10 +1950,10 @@ F 3 "" H 9250 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0225
+L power:GNDREF #PWR023
 U 1 1 5AE3F479
 P 9250 4700
-F 0 "#PWR0225" H 9250 4450 50  0001 C CNN
+F 0 "#PWR023" H 9250 4450 50  0001 C CNN
 F 1 "GNDREF" H 9255 4527 50  0000 C CNN
 F 2 "" H 9250 4700 50  0001 C CNN
 F 3 "" H 9250 4700 50  0001 C CNN
@@ -1944,10 +1961,10 @@ F 3 "" H 9250 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0229
+L power:GNDREF #PWR024
 U 1 1 5AE40619
 P 9250 6000
-F 0 "#PWR0229" H 9250 5750 50  0001 C CNN
+F 0 "#PWR024" H 9250 5750 50  0001 C CNN
 F 1 "GNDREF" H 9255 5827 50  0000 C CNN
 F 2 "" H 9250 6000 50  0001 C CNN
 F 3 "" H 9250 6000 50  0001 C CNN
@@ -1955,10 +1972,10 @@ F 3 "" H 9250 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0233
+L power:GNDREF #PWR025
 U 1 1 5AE417B9
 P 9250 7300
-F 0 "#PWR0233" H 9250 7050 50  0001 C CNN
+F 0 "#PWR025" H 9250 7050 50  0001 C CNN
 F 1 "GNDREF" H 9255 7127 50  0000 C CNN
 F 2 "" H 9250 7300 50  0001 C CNN
 F 3 "" H 9250 7300 50  0001 C CNN
@@ -1966,10 +1983,10 @@ F 3 "" H 9250 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0237
+L power:GNDREF #PWR026
 U 1 1 5AE42B8B
 P 9250 8600
-F 0 "#PWR0237" H 9250 8350 50  0001 C CNN
+F 0 "#PWR026" H 9250 8350 50  0001 C CNN
 F 1 "GNDREF" H 9255 8427 50  0000 C CNN
 F 2 "" H 9250 8600 50  0001 C CNN
 F 3 "" H 9250 8600 50  0001 C CNN
@@ -1977,10 +1994,10 @@ F 3 "" H 9250 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0241
+L power:GNDREF #PWR027
 U 1 1 5AE42FFF
 P 9250 9900
-F 0 "#PWR0241" H 9250 9650 50  0001 C CNN
+F 0 "#PWR027" H 9250 9650 50  0001 C CNN
 F 1 "GNDREF" H 9255 9727 50  0000 C CNN
 F 2 "" H 9250 9900 50  0001 C CNN
 F 3 "" H 9250 9900 50  0001 C CNN
@@ -1988,10 +2005,10 @@ F 3 "" H 9250 9900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0245
+L power:GNDREF #PWR028
 U 1 1 5AE44835
 P 9250 11200
-F 0 "#PWR0245" H 9250 10950 50  0001 C CNN
+F 0 "#PWR028" H 9250 10950 50  0001 C CNN
 F 1 "GNDREF" H 9255 11027 50  0000 C CNN
 F 2 "" H 9250 11200 50  0001 C CNN
 F 3 "" H 9250 11200 50  0001 C CNN
@@ -1999,10 +2016,10 @@ F 3 "" H 9250 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0222
+L power:GNDREF #PWR040
 U 1 1 5AE4F962
 P 14700 3400
-F 0 "#PWR0222" H 14700 3150 50  0001 C CNN
+F 0 "#PWR040" H 14700 3150 50  0001 C CNN
 F 1 "GNDREF" H 14705 3227 50  0000 C CNN
 F 2 "" H 14700 3400 50  0001 C CNN
 F 3 "" H 14700 3400 50  0001 C CNN
@@ -2010,10 +2027,10 @@ F 3 "" H 14700 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0226
+L power:GNDREF #PWR041
 U 1 1 5AE515F3
 P 14700 4700
-F 0 "#PWR0226" H 14700 4450 50  0001 C CNN
+F 0 "#PWR041" H 14700 4450 50  0001 C CNN
 F 1 "GNDREF" H 14705 4527 50  0000 C CNN
 F 2 "" H 14700 4700 50  0001 C CNN
 F 3 "" H 14700 4700 50  0001 C CNN
@@ -2021,10 +2038,10 @@ F 3 "" H 14700 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0230
+L power:GNDREF #PWR042
 U 1 1 5AE5182C
 P 14700 6000
-F 0 "#PWR0230" H 14700 5750 50  0001 C CNN
+F 0 "#PWR042" H 14700 5750 50  0001 C CNN
 F 1 "GNDREF" H 14705 5827 50  0000 C CNN
 F 2 "" H 14700 6000 50  0001 C CNN
 F 3 "" H 14700 6000 50  0001 C CNN
@@ -2032,10 +2049,10 @@ F 3 "" H 14700 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0234
+L power:GNDREF #PWR043
 U 1 1 5AE51A65
 P 14700 7300
-F 0 "#PWR0234" H 14700 7050 50  0001 C CNN
+F 0 "#PWR043" H 14700 7050 50  0001 C CNN
 F 1 "GNDREF" H 14705 7127 50  0000 C CNN
 F 2 "" H 14700 7300 50  0001 C CNN
 F 3 "" H 14700 7300 50  0001 C CNN
@@ -2043,10 +2060,10 @@ F 3 "" H 14700 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0238
+L power:GNDREF #PWR044
 U 1 1 5AE51C9E
 P 14700 8600
-F 0 "#PWR0238" H 14700 8350 50  0001 C CNN
+F 0 "#PWR044" H 14700 8350 50  0001 C CNN
 F 1 "GNDREF" H 14705 8427 50  0000 C CNN
 F 2 "" H 14700 8600 50  0001 C CNN
 F 3 "" H 14700 8600 50  0001 C CNN
@@ -2054,10 +2071,10 @@ F 3 "" H 14700 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0242
+L power:GNDREF #PWR045
 U 1 1 5AE53067
 P 14700 9900
-F 0 "#PWR0242" H 14700 9650 50  0001 C CNN
+F 0 "#PWR045" H 14700 9650 50  0001 C CNN
 F 1 "GNDREF" H 14705 9727 50  0000 C CNN
 F 2 "" H 14700 9900 50  0001 C CNN
 F 3 "" H 14700 9900 50  0001 C CNN
@@ -2065,10 +2082,10 @@ F 3 "" H 14700 9900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0246
+L power:GNDREF #PWR046
 U 1 1 5AE532A0
 P 14700 11200
-F 0 "#PWR0246" H 14700 10950 50  0001 C CNN
+F 0 "#PWR046" H 14700 10950 50  0001 C CNN
 F 1 "GNDREF" H 14705 11027 50  0000 C CNN
 F 2 "" H 14700 11200 50  0001 C CNN
 F 3 "" H 14700 11200 50  0001 C CNN
@@ -2076,10 +2093,10 @@ F 3 "" H 14700 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0690
+L power:GNDREF #PWR039
 U 1 1 5A9F92DA
 P 14700 2100
-F 0 "#PWR0690" H 14700 1850 50  0001 C CNN
+F 0 "#PWR039" H 14700 1850 50  0001 C CNN
 F 1 "GNDREF" H 14705 1927 50  0000 C CNN
 F 2 "" H 14700 2100 50  0001 C CNN
 F 3 "" H 14700 2100 50  0001 C CNN
