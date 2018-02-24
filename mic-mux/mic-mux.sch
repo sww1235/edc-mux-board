@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 38
+Sheet 1 37
 Title ""
 Date ""
 Rev ""
@@ -25,55 +24,9 @@ S 3300 850  2150 1550
 U 58DEDA38
 F0 "Audio Mux and Control" 60
 F1 "audio-mux-control.sch" 60
-F2 "5V-SDA" B R 5450 1950 60 
-F3 "5V-SCL" I R 5450 2050 60 
-F4 "I2C-reset" I R 5450 1700 60 
-F5 "PTT/MM-~INT" O R 5450 1600 60 
-F6 "SPST_~RST" I R 5450 1800 60 
-$EndSheet
-$Sheet
-S 950  3100 1900 1450
-U 5A6B6560
-F0 "Arduino Nano Header Connections + Ethernet connection" 60
-F1 "ard-nano-hdr-ethernet.sch" 60
-F2 "5V-SDA" B R 2850 3650 60 
-F3 "5V-SCL" O R 2850 3550 60 
-F4 "D2_SPST" O R 2850 3800 60 
-F5 "D3_I2C" O R 2850 3900 60 
-F6 "D5_INT" I R 2850 4000 60 
 $EndSheet
 Text Notes 6950 6200 0    60   ~ 0
 All signal directions are indicated from the\nperspective of the MUX box\n\n8x connectors with stereo audio out, mono mic in, \nPTT in, Mic Mute in, +5V bias out\nEach connector can be used for one or more functions.\nThese connectors are for speakermics, headsets and ptt switches.\nConnector model is Amphenol LTW circular connector 8 pin\n\n8x connectors with stereo audio in, mono mic out, PTT out\nEach connector can be used for one or more functions.\nThese connectors are for smartphones and radios.\nConnector model is Amphenol LTW circular connector 8pin\n\n1x DB25 connector to connect to mixer\n1x TRS connector for output from mixer to MUX\n\n
-Wire Wire Line
-	5450 2050 5550 2050
-Wire Wire Line
-	5550 2050 5550 3550
-Wire Wire Line
-	5550 3550 2850 3550
-Wire Wire Line
-	5450 1950 5650 1950
-Wire Wire Line
-	5650 1950 5650 3650
-Wire Wire Line
-	5650 3650 2850 3650
-Wire Wire Line
-	5450 1800 5750 1800
-Wire Wire Line
-	5750 1800 5750 3800
-Wire Wire Line
-	5750 3800 2850 3800
-Wire Wire Line
-	5450 1700 5850 1700
-Wire Wire Line
-	5850 1700 5850 3900
-Wire Wire Line
-	5850 3900 2850 3900
-Wire Wire Line
-	5450 1600 5950 1600
-Wire Wire Line
-	5950 1600 5950 4000
-Wire Wire Line
-	5950 4000 2850 4000
 $Comp
 L Mechanical:Mounting_Hole_PAD MK1
 U 1 1 5AA4394C
@@ -145,17 +98,4 @@ Wire Wire Line
 	7300 1400 7000 1400
 Wire Wire Line
 	7000 1400 7000 1600
-$Comp
-L Mechanical:Mounting_Hole_PAD MK5
-U 1 1 5AADA511
-P 8600 1400
-F 0 "MK5" V 8554 1550 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" V 8645 1550 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 8600 1400 50  0001 C CNN
-F 3 "" H 8600 1400 50  0001 C CNN
-	1    8600 1400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8500 1400 8200 1400
 $EndSCHEMATC

@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 28 38
+Sheet 28 37
 Title "Stereo 1:2 Distribution Amplifier"
 Date ""
 Rev ""

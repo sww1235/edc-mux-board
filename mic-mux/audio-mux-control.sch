@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 25000 40000
 encoding utf-8
-Sheet 3 38
+Sheet 3 37
 Title "Audio and Control Mux"
 Date ""
 Rev ""

@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 20000 30000
 encoding utf-8
-Sheet 12 38
+Sheet 12 37
 Title ""
 Date ""
 Rev ""
