@@ -232,7 +232,7 @@ $EndComp
 Text Notes 6200 5650 0    60   ~ 12
 Power connections for Headphone MUX
 Text Notes 7150 8000 0    60   ~ 0
-+12V is regulated +12V@5A DC supply. \n\n+12VA is positive supply for op amps used as audio amplifiers\n-12VA is negative supply for op amps used as audio amplifiers\n+2.5V is positive supply for audio switch chips and io \nexpanders at that logic level\n-2.5V is positive supply for audio switch chips and io \nexpanders at that logic level\n\n\n
++12VA is positive supply for op amps used as audio amplifiers\n-12VA is negative supply for op amps used as audio amplifiers\n+2.5V is positive supply for audio switch chips and io \nexpanders at that logic level\n-2.5V is positive supply for audio switch chips and io \nexpanders at that logic level\n\n\n
 Text Notes 7750 7000 0    60   ~ 0
 Audio signal switch chips will use \n+2.5VA as positive rail\n-2.5VA as negative rail\n\nOp amps use \n+12VA as analog positive rail\n-12VA as analog negative rail\n\nfor each chip voltage level, i2c lines are pulled to \nthe individual vdd of the chip.\n\n
 Text Notes 5500 5900 0    60   ~ 0
