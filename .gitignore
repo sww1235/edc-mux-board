@@ -23,3 +23,6 @@ rescue-backup
 # Exported BOM files
 *.xml
 *.csv
+
+# Other Exported files
+*.pdf
