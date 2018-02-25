@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:edc-mux-board-cache
+LIBS:motherboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 2 38
+Sheet 2 20
 Title "Power Regulation"
 Date ""
 Rev ""
@@ -17,46 +17,46 @@ $EndDescr
 $Comp
 L power:GNDREF #PWR011
 U 1 1 58EA1603
-P 4000 3250
-F 0 "#PWR011" H 4000 3000 50  0001 C CNN
-F 1 "GNDREF" H 4000 3100 50  0000 C CNN
-F 2 "" H 4000 3250 50  0001 C CNN
-F 3 "" H 4000 3250 50  0001 C CNN
-	1    4000 3250
+P 2350 3050
+F 0 "#PWR011" H 2350 2800 50  0001 C CNN
+F 1 "GNDREF" H 2350 2900 50  0000 C CNN
+F 2 "" H 2350 3050 50  0001 C CNN
+F 3 "" H 2350 3050 50  0001 C CNN
+	1    2350 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U7
 U 5 1 592494F2
-P 3500 2550
-F 0 "U7" H 3828 2847 60  0000 C CNN
-F 1 "TS12A44514" H 3828 2741 60  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4000 3850 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3650 2500 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3850 4100 60  0001 C CNN "Characteristics"
-F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3800 3650 60  0001 C CNN "Description"
-F 6 "TS12A44514PWR" H 3828 2947 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3900 4000 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3800 3750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3550 3550 60  0001 C CNN "Pricing"
-	5    3500 2550
+P 1850 2350
+F 0 "U7" H 2150 2700 60  0000 C CNN
+F 1 "TS12A44514" H 2150 2550 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 2350 3650 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 2000 2300 60  0001 C CNN
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2200 3900 60  0001 C CNN "Characteristics"
+F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2150 3450 60  0001 C CNN "Description"
+F 6 "TS12A44514PWR" H 2178 2747 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Texas Instruments" H 2250 3800 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 2150 3550 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 1900 3350 60  0001 C CNN "Pricing"
+	5    1850 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U8
 U 5 1 59249556
-P 3500 2900
-F 0 "U8" H 3828 2659 60  0000 C CNN
-F 1 "TS12A44514" H 3828 2553 60  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4000 4200 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3650 2850 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3850 4450 60  0001 C CNN "Characteristics"
-F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3800 4000 60  0001 C CNN "Description"
-F 6 "TS12A44514PWR" H 3828 2759 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3900 4350 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP14" H 3800 4100 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3550 3900 60  0001 C CNN "Pricing"
-	5    3500 2900
+P 1850 2700
+F 0 "U8" H 2150 2450 60  0000 C CNN
+F 1 "TS12A44514" H 2150 2300 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 2350 4000 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 2000 2650 60  0001 C CNN
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 2200 4250 60  0001 C CNN "Characteristics"
+F 5 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 2150 3800 60  0001 C CNN "Description"
+F 6 "TS12A44514PWR" H 2178 2559 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Texas Instruments" H 2250 4150 60  0001 C CNN "Manufacturer"
+F 8 "TSSOP14" H 2150 3900 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 1900 3700 60  0001 C CNN "Pricing"
+	5    1850 2700
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -145,17 +145,6 @@ F 3 "" H 7550 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Barrel_Jack J1
-U 1 1 59CF03DD
-P 6850 1800
-F 0 "J1" H 6665 1777 50  0000 R CNN
-F 1 "Power In" H 6665 1868 50  0000 R CNN
-F 2 "SW-Molex:43255-0121" H 6900 1760 50  0001 C CNN
-F 3 "" H 6900 1760 50  0001 C CNN
-	1    6850 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Fuse_Small F1
 U 1 1 59D03CA2
 P 7500 2100
@@ -175,42 +164,42 @@ $EndComp
 $Comp
 L Logic_74xx:74LS32 U26
 U 5 1 59D2717B
-P 5350 3250
-F 0 "U26" V 5717 3250 50  0000 C CNN
-F 1 "74ACT32" V 5626 3250 50  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5350 3250 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 5350 3250 50  0001 C CNN
-F 4 "4x 2:1 OR Gate" H 5580 3396 50  0001 C CNN "Description"
-F 5 "MC74ACT32DTR2G" H 5580 3396 50  0001 C CNN "Manufacturer Part Number"
-F 6 "ON Semiconductor" H 5580 3396 50  0001 C CNN "Manufacturer"
-F 7 "TSSOP14" H 5580 3396 50  0001 C CNN "Package ID"
-	5    5350 3250
+P 3700 3050
+F 0 "U26" V 4067 3050 50  0000 C CNN
+F 1 "74ACT32" V 3976 3050 50  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3700 3050 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 3700 3050 50  0001 C CNN
+F 4 "4x 2:1 OR Gate" H 3930 3196 50  0001 C CNN "Description"
+F 5 "MC74ACT32DTR2G" H 3930 3196 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ON Semiconductor" H 3930 3196 50  0001 C CNN "Manufacturer"
+F 7 "TSSOP14" H 3930 3196 50  0001 C CNN "Package ID"
+	5    3700 3050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U17
 U 5 1 59D27241
-P 5350 2250
-F 0 "U17" V 5717 2250 50  0000 C CNN
-F 1 "74ACT32" V 5626 2250 50  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5350 2250 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 5350 2250 50  0001 C CNN
-F 4 "4x 2:1 OR Gate" H 5580 2396 50  0001 C CNN "Description"
-F 5 "MC74ACT32DTR2G" H 5580 2396 50  0001 C CNN "Manufacturer Part Number"
-F 6 "ON Semiconductor" H 5580 2396 50  0001 C CNN "Manufacturer"
-F 7 "TSSOP14" H 5580 2396 50  0001 C CNN "Package ID"
-	5    5350 2250
+P 3700 2050
+F 0 "U17" V 4067 2050 50  0000 C CNN
+F 1 "74ACT32" V 3976 2050 50  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3700 2050 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 3700 2050 50  0001 C CNN
+F 4 "4x 2:1 OR Gate" H 3930 2196 50  0001 C CNN "Description"
+F 5 "MC74ACT32DTR2G" H 3930 2196 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ON Semiconductor" H 3930 2196 50  0001 C CNN "Manufacturer"
+F 7 "TSSOP14" H 3930 2196 50  0001 C CNN "Package ID"
+	5    3700 2050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDREF #PWR016
 U 1 1 59D2B10D
-P 5900 3750
-F 0 "#PWR016" H 5900 3500 50  0001 C CNN
-F 1 "GNDREF" H 5900 3600 50  0000 C CNN
-F 2 "" H 5900 3750 50  0001 C CNN
-F 3 "" H 5900 3750 50  0001 C CNN
-	1    5900 3750
+P 4250 3550
+F 0 "#PWR016" H 4250 3300 50  0001 C CNN
+F 1 "GNDREF" H 4250 3400 50  0000 C CNN
+F 2 "" H 4250 3550 50  0001 C CNN
+F 3 "" H 4250 3550 50  0001 C CNN
+	1    4250 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -227,127 +216,12 @@ $EndComp
 $Comp
 L power:+5V #PWR05
 U 1 1 59D3CA4B
-P 4800 1950
-F 0 "#PWR05" H 4800 1800 50  0001 C CNN
-F 1 "+5V" H 4815 2123 50  0000 C CNN
-F 2 "" H 4800 1950 50  0001 C CNN
-F 3 "" H 4800 1950 50  0001 C CNN
-	1    4800 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW-Analog:ADG715 U2
-U 1 1 5A5751BA
-P 1950 1950
-F 0 "U2" H 2172 2003 60  0000 L CNN
-F 1 "ADG715" H 2172 1897 60  0000 L CNN
-F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 2200 2900 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 2200 3000 60  0001 C CNN
-F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 2050 3100 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 2050 3300 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 2172 2103 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 1950 3200 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 2150 3400 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 2000 3550 60  0001 C CNN "Pricing"
-	1    1950 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW-Analog:ADG715 U4
-U 1 1 5A57533C
-P 1950 2450
-F 0 "U4" H 2172 2503 60  0000 L CNN
-F 1 "ADG715" H 2172 2397 60  0000 L CNN
-F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 2200 3400 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 2200 3500 60  0001 C CNN
-F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 2050 3600 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 2050 3800 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 2172 2603 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 1950 3700 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 2150 3900 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 2000 4050 60  0001 C CNN "Pricing"
-	1    1950 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW-Analog:ADG734 U11
-U 5 1 5A58FEE8
-P 1950 3400
-F 0 "U11" H 2197 3403 60  0000 L CNN
-F 1 "ADG734" H 2197 3297 60  0000 L CNN
-F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 2050 4350 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 1750 4250 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1900 3950 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 2197 3503 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 2000 4150 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 1950 4050 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 1950 3850 60  0001 C CNN "Pricing"
-	5    1950 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW-Analog:ADG734 U13
-U 5 1 5A590061
-P 1950 3900
-F 0 "U13" H 2197 3903 60  0000 L CNN
-F 1 "ADG734" H 2197 3797 60  0000 L CNN
-F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 2050 4850 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 1750 4750 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1900 4450 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 2197 4003 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 2000 4650 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 1950 4550 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 1950 4350 60  0001 C CNN "Pricing"
-	5    1950 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW-Analog:ADG734 U14
-U 5 1 5A5901AE
-P 1950 4400
-F 0 "U14" H 2197 4403 60  0000 L CNN
-F 1 "ADG734" H 2197 4297 60  0000 L CNN
-F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 2050 5350 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 1750 5250 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1900 4950 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 2197 4503 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 2000 5150 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 1950 5050 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 1950 4850 60  0001 C CNN "Pricing"
-	5    1950 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW-Analog:ADG734 U16
-U 5 1 5A5902FD
-P 1950 4900
-F 0 "U16" H 2197 4903 60  0000 L CNN
-F 1 "ADG734" H 2197 4797 60  0000 L CNN
-F 2 "Package_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm" H 2050 5850 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H 1750 5750 60  0001 C CNN
-F 4 "CMOS, 2.5 Low Voltage, Quad SPDT Switch" H 1900 5450 60  0001 C CNN "Description"
-F 5 "ADG734BRUZ" H 2197 5003 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Analog Devices" H 2000 5650 60  0001 C CNN "Manufacturer"
-F 7 "TSSOP20" H 1950 5550 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 1950 5350 60  0001 C CNN "Pricing"
-	5    1950 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW-Analog:ADG715 U9
-U 1 1 5AEB66E8
-P 1950 2950
-F 0 "U9" H 2172 3003 60  0000 L CNN
-F 1 "ADG715" H 2172 2897 60  0000 L CNN
-F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 2200 3900 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 2200 4000 60  0001 C CNN
-F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 2050 4100 60  0001 C CNN "Characteristics"
-F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 2050 4300 60  0001 C CNN "Description"
-F 6 "ADG715BRUZ" H 2172 3103 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Analog Devices" H 1950 4200 60  0001 C CNN "Manufacturer"
-F 8 "TSSOP 24 pin" H 2150 4400 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 2000 4550 60  0001 C CNN "Pricing"
-	1    1950 2950
+P 3150 1750
+F 0 "#PWR05" H 3150 1600 50  0001 C CNN
+F 1 "+5V" H 3165 1923 50  0000 C CNN
+F 2 "" H 3150 1750 50  0001 C CNN
+F 3 "" H 3150 1750 50  0001 C CNN
+	1    3150 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -552,11 +426,11 @@ F 1 "LM27762" H 13750 5041 60  0000 C CNN
 F 2 "Package_SON:WSON-12-1EP_3x2mm_P0.5mm" H 13550 5150 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm27762.pdf" H 13750 5350 60  0001 C CNN
 F 4 "Vin 2.7V to 5.5V, Vout ±1.5 to 5V, ±250mA Iout, 2MHz switching frequency," H 13850 5450 60  0001 C CNN "Characteristics"
-F 5 "LM27762 Low-Noise Positive and Negative Output Integrated Charge Pump Plus LDO" H 13650 5650 60  0001 C CNN "Description"
-F 6 "LM27762DSSR" H 13750 5247 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 13750 5550 60  0001 C CNN "Manufacturer"
-F 8 "WSON" H 13750 5750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 13750 5850 60  0001 C CNN "Pricing"
+F 5 "Texas Instruments" H 13750 5550 60  0001 C CNN "Manufacturer"
+F 6 "LM27762 Low-Noise Positive and Negative Output Integrated Charge Pump Plus LDO" H 13650 5650 60  0001 C CNN "Description"
+F 7 "WSON" H 13750 5750 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 13750 5850 60  0001 C CNN "Pricing"
+F 9 "LM27762DSSR" H 13750 5247 50  0001 C CNN "Manufacturer Part Number"
 	1    13750 4500
 	1    0    0    -1  
 $EndComp
@@ -731,44 +605,10 @@ L SW-power:-5VA #PWR021
 U 1 1 5A65B956
 P 14950 5150
 F 0 "#PWR021" H 14950 5250 50  0001 C CNN
-F 1 "-5VA" H 14965 5323 50  0000 C CNN
+F 1 "-5VA" H 14950 4950 50  0000 C CNN
 F 2 "" H 14950 5150 50  0001 C CNN
 F 3 "" H 14950 5150 50  0001 C CNN
 	1    14950 5150
-	-1   0    0    1   
-$EndComp
-$Comp
-L SW-power:-2.5V #-2.5V02
-U 1 1 5A66A890
-P 1400 5250
-F 0 "#-2.5V02" H 2150 4950 60  0001 C CNN
-F 1 "-2.5V" H 1400 5100 50  0000 C CNN
-F 2 "" H 1400 5250 60  0001 C CNN
-F 3 "" H 1400 5250 60  0001 C CNN
-F 4 "0.00@0" H 1500 5700 60  0001 C CNN "Pricing"
-	1    1400 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+2V5 #PWR03
-U 1 1 5A66AD96
-P 1000 1450
-F 0 "#PWR03" H 1000 1300 50  0001 C CNN
-F 1 "+2V5" H 1015 1623 50  0000 C CNN
-F 2 "" H 1000 1450 50  0001 C CNN
-F 3 "" H 1000 1450 50  0001 C CNN
-	1    1000 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR022
-U 1 1 5A66AF8B
-P 1200 5400
-F 0 "#PWR022" H 1200 5150 50  0001 C CNN
-F 1 "GNDREF" H 1205 5227 50  0000 C CNN
-F 2 "" H 1200 5400 50  0001 C CNN
-F 3 "" H 1200 5400 50  0001 C CNN
-	1    1200 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -793,11 +633,11 @@ L SW-power:-12VA #PWR014
 U 1 1 5A67E7FA
 P 12300 3500
 F 0 "#PWR014" H 12300 3350 50  0001 C CNN
-F 1 "-12VA" H 12315 3673 50  0000 C CNN
+F 1 "-12VA" H 12300 3300 50  0000 C CNN
 F 2 "" H 12300 3500 50  0001 C CNN
 F 3 "" H 12300 3500 50  0001 C CNN
 	1    12300 3500
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12VA #PWR04
@@ -1018,7 +858,7 @@ F 9 "C1206X106J3RACAUTO" H 8550 2500 60  0001 C CNN "Manufacturer Part Number"
 $EndComp
 Text Notes 7600 2200 0    60   ~ 0
 Main +12V supply\n3A max supply\n
-Text Notes 4650 4450 1    60   ~ 0
+Text Notes 3000 4250 1    60   ~ 0
 Power for 7400 series OR gates
 Text Label 7350 1700 2    60   ~ 0
 VIN+
@@ -1040,13 +880,10 @@ Text Notes 13200 5950 0    60   ~ 0
 Vout = 1.2V * (R1+R2)/R2\n5.08 ~~= 1.2V * (220k + 68k)/68k \nusing E24 values\n\ncaps need low ESR\nuse X7R or X5R\nceramic SMD caps\n
 Text Notes 13400 3800 0    60   ~ 0
 Provides ±5VA supply for\ndigital potentiometers\nIout = 250mA max \nAssume Iin = 500mA max
-Text Notes 1350 1700 0    60   ~ 0
-Power for ADG715 and ADG734\nanalog switches
 Text Notes 10900 4100 0    60   ~ 0
 88uF total capacitance
 Text Notes 10550 1400 0    60   ~ 0
 Provides -12V supply for op amps
-NoConn ~ 7150 1800
 NoConn ~ 10350 2500
 NoConn ~ 10350 2600
 $Comp
@@ -1155,8 +992,8 @@ Connection ~ 12800 2100
 Connection ~ 12800 2000
 Connection ~ 12700 4600
 Connection ~ 12700 4700
-Connection ~ 4000 3000
-Connection ~ 3800 2500
+Connection ~ 2350 2800
+Connection ~ 2150 2300
 Connection ~ 8200 3550
 Connection ~ 7250 3550
 Connection ~ 8300 3550
@@ -1166,8 +1003,8 @@ Connection ~ 8450 2400
 Connection ~ 7500 2400
 Connection ~ 8550 2400
 Connection ~ 7550 2750
-Connection ~ 5900 3250
-Connection ~ 4800 2250
+Connection ~ 4250 3050
+Connection ~ 3150 2050
 Connection ~ 12950 2500
 Connection ~ 14750 1900
 Connection ~ 14800 1900
@@ -1194,24 +1031,6 @@ Connection ~ 14950 4900
 Connection ~ 14650 4700
 Connection ~ 14600 4300
 Connection ~ 13150 4000
-Connection ~ 1400 5100
-Connection ~ 1400 4600
-Connection ~ 1400 4100
-Connection ~ 1400 3600
-Connection ~ 1400 3100
-Connection ~ 1400 2600
-Connection ~ 1200 4950
-Connection ~ 1200 4450
-Connection ~ 1200 3950
-Connection ~ 1200 3450
-Connection ~ 1200 2950
-Connection ~ 1200 2450
-Connection ~ 1000 1800
-Connection ~ 1000 2300
-Connection ~ 1000 2800
-Connection ~ 1000 3300
-Connection ~ 1000 3800
-Connection ~ 1000 4300
 Connection ~ 11450 1500
 Connection ~ 11350 1500
 Connection ~ 11250 1500
@@ -1262,13 +1081,13 @@ Wire Wire Line
 Wire Wire Line
 	14300 1500 14800 1500
 Wire Wire Line
-	3650 3000 4000 3000
+	2000 2800 2350 2800
 Wire Wire Line
-	3650 2650 4000 2650
+	2000 2450 2350 2450
 Wire Wire Line
-	3800 2850 3650 2850
+	2150 2650 2000 2650
 Wire Wire Line
-	3650 2500 3800 2500
+	2000 2300 2150 2300
 Wire Wire Line
 	8150 3650 8200 3650
 Wire Wire Line
@@ -1304,19 +1123,17 @@ Wire Wire Line
 Wire Wire Line
 	7150 2750 7350 2750
 Wire Wire Line
-	7150 1700 7500 1700
-Wire Wire Line
 	7500 2200 7500 2400
 Wire Wire Line
-	4800 3250 4850 3250
+	3150 3050 3200 3050
 Wire Wire Line
-	4800 2250 4850 2250
+	3150 2050 3200 2050
 Wire Wire Line
-	5900 2250 5900 2550
+	4250 2050 4250 2350
 Wire Wire Line
-	5900 3250 5850 3250
+	4250 3050 4200 3050
 Wire Wire Line
-	5900 2250 5850 2250
+	4250 2050 4200 2050
 Wire Notes Line
 	850  1200 6200 1200
 Wire Notes Line
@@ -1326,11 +1143,11 @@ Wire Notes Line
 Wire Notes Line
 	850  5650 850  1200
 Wire Wire Line
-	4800 1950 4800 2250
+	3150 1750 3150 2050
 Wire Wire Line
-	4000 2650 4000 2850
+	2350 2450 2350 2650
 Wire Wire Line
-	3800 2400 3800 2500
+	2150 2000 2150 2300
 Wire Wire Line
 	7500 1700 7500 2000
 Wire Wire Line
@@ -1411,52 +1228,6 @@ Wire Wire Line
 	14200 4300 14600 4300
 Wire Wire Line
 	13150 4000 13150 3900
-Wire Wire Line
-	1400 2100 1400 2600
-Wire Wire Line
-	1400 5100 1650 5100
-Wire Wire Line
-	1400 4600 1650 4600
-Wire Wire Line
-	1400 4100 1650 4100
-Wire Wire Line
-	1400 3600 1650 3600
-Wire Wire Line
-	1400 3100 1650 3100
-Wire Wire Line
-	1400 2600 1650 2600
-Wire Wire Line
-	1400 2100 1650 2100
-Wire Wire Line
-	1650 1950 1200 1950
-Wire Wire Line
-	1200 4950 1650 4950
-Wire Wire Line
-	1200 4450 1650 4450
-Wire Wire Line
-	1200 3950 1650 3950
-Wire Wire Line
-	1200 3450 1650 3450
-Wire Wire Line
-	1200 2950 1650 2950
-Wire Wire Line
-	1650 2450 1200 2450
-Wire Wire Line
-	1650 1800 1000 1800
-Wire Wire Line
-	1000 1450 1000 1800
-Wire Wire Line
-	1000 2300 1650 2300
-Wire Wire Line
-	1000 2800 1650 2800
-Wire Wire Line
-	1000 3300 1650 3300
-Wire Wire Line
-	1000 3800 1650 3800
-Wire Wire Line
-	1000 4300 1650 4300
-Wire Wire Line
-	1000 4800 1650 4800
 Wire Wire Line
 	10850 1550 10850 1500
 Wire Wire Line
@@ -1559,8 +1330,6 @@ Wire Wire Line
 	11300 3600 11300 3650
 Wire Wire Line
 	11400 3600 11400 3650
-Wire Wire Line
-	7150 2750 7150 1900
 Wire Notes Line
 	15500 6000 6300 6000
 Wire Notes Line
@@ -1595,9 +1364,9 @@ Wire Wire Line
 Wire Wire Line
 	12700 4700 12700 4800
 Wire Wire Line
-	4000 3000 4000 3250
+	2350 2800 2350 3050
 Wire Wire Line
-	3800 2500 3800 2850
+	2150 2300 2150 2650
 Wire Wire Line
 	8200 3550 8300 3550
 Wire Wire Line
@@ -1617,9 +1386,9 @@ Wire Wire Line
 Wire Wire Line
 	7550 2750 8550 2750
 Wire Wire Line
-	5900 3250 5900 3550
+	4250 3050 4250 3350
 Wire Wire Line
-	4800 2250 4800 2550
+	3150 2050 3150 2350
 Wire Wire Line
 	12950 2500 13050 2500
 Wire Wire Line
@@ -1672,42 +1441,6 @@ Wire Wire Line
 	14600 4300 14650 4300
 Wire Wire Line
 	13150 4000 13300 4000
-Wire Wire Line
-	1400 5100 1400 5250
-Wire Wire Line
-	1400 4600 1400 5100
-Wire Wire Line
-	1400 4100 1400 4600
-Wire Wire Line
-	1400 3600 1400 4100
-Wire Wire Line
-	1400 3100 1400 3600
-Wire Wire Line
-	1400 2600 1400 3100
-Wire Wire Line
-	1200 4950 1200 5100
-Wire Wire Line
-	1200 4450 1200 4600
-Wire Wire Line
-	1200 3950 1200 4100
-Wire Wire Line
-	1200 3450 1200 3600
-Wire Wire Line
-	1200 2950 1200 3100
-Wire Wire Line
-	1200 2450 1200 2600
-Wire Wire Line
-	1000 1800 1000 1950
-Wire Wire Line
-	1000 2300 1000 2450
-Wire Wire Line
-	1000 2800 1000 2950
-Wire Wire Line
-	1000 3300 1000 3450
-Wire Wire Line
-	1000 3800 1000 3950
-Wire Wire Line
-	1000 4300 1000 4450
 Wire Wire Line
 	11450 1500 11550 1500
 Wire Wire Line
@@ -1795,285 +1528,319 @@ Wire Wire Line
 Wire Wire Line
 	12700 4000 13150 4000
 $Comp
-L Device:C_Small C376
-U 1 1 5A751228
-P 1100 1950
-F 0 "C376" V 871 1950 50  0000 C CNN
-F 1 "0.1uF" V 962 1950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1100 1950 50  0001 C CNN
-F 3 "~" H 1100 1950 50  0001 C CNN
-	1    1100 1950
-	0    1    1    0   
-$EndComp
-Connection ~ 1000 1950
-Connection ~ 1200 1950
-Wire Wire Line
-	1000 1950 1000 2300
-Wire Wire Line
-	1200 1950 1200 2100
-$Comp
-L Device:C_Small C378
-U 1 1 5A854A7F
-P 1100 2450
-F 0 "C378" V 871 2450 50  0000 C CNN
-F 1 "0.1uF" V 962 2450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1100 2450 50  0001 C CNN
-F 3 "~" H 1100 2450 50  0001 C CNN
-	1    1100 2450
-	0    1    1    0   
-$EndComp
-Connection ~ 1000 2450
-Wire Wire Line
-	1000 2450 1000 2800
-$Comp
-L Device:C_Small C383
-U 1 1 5A854C9F
-P 1100 2950
-F 0 "C383" V 871 2950 50  0000 C CNN
-F 1 "0.1uF" V 962 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1100 2950 50  0001 C CNN
-F 3 "~" H 1100 2950 50  0001 C CNN
-	1    1100 2950
-	0    1    1    0   
-$EndComp
-Connection ~ 1000 2950
-Wire Wire Line
-	1000 2950 1000 3300
-$Comp
-L Device:C_Small C385
-U 1 1 5A85503C
-P 1100 3450
-F 0 "C385" V 871 3450 50  0000 C CNN
-F 1 "0.1uF" V 962 3450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1100 3450 50  0001 C CNN
-F 3 "~" H 1100 3450 50  0001 C CNN
-	1    1100 3450
-	0    1    1    0   
-$EndComp
-Connection ~ 1000 3450
-Wire Wire Line
-	1000 3450 1000 3800
-$Comp
-L Device:C_Small C388
-U 1 1 5A85523A
-P 1100 3950
-F 0 "C388" V 871 3950 50  0000 C CNN
-F 1 "0.1uF" V 962 3950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1100 3950 50  0001 C CNN
-F 3 "~" H 1100 3950 50  0001 C CNN
-	1    1100 3950
-	0    1    1    0   
-$EndComp
-Connection ~ 1000 3950
-Wire Wire Line
-	1000 3950 1000 4300
-$Comp
-L Device:C_Small C390
-U 1 1 5A855479
-P 1100 4450
-F 0 "C390" V 871 4450 50  0000 C CNN
-F 1 "0.1uF" V 962 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1100 4450 50  0001 C CNN
-F 3 "~" H 1100 4450 50  0001 C CNN
-	1    1100 4450
-	0    1    1    0   
-$EndComp
-Connection ~ 1000 4450
-Wire Wire Line
-	1000 4450 1000 4800
-$Comp
-L Device:C_Small C392
-U 1 1 5A8557A1
-P 1100 4950
-F 0 "C392" V 871 4950 50  0000 C CNN
-F 1 "0.1uF" V 962 4950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1100 4950 50  0001 C CNN
-F 3 "~" H 1100 4950 50  0001 C CNN
-	1    1100 4950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1000 4950 1000 4800
-Connection ~ 1000 4800
-$Comp
-L Device:C_Small C377
-U 1 1 5A87FD2C
-P 1300 2100
-F 0 "C377" V 1071 2100 50  0000 C CNN
-F 1 "0.1uF" V 1162 2100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1300 2100 50  0001 C CNN
-F 3 "~" H 1300 2100 50  0001 C CNN
-	1    1300 2100
-	0    1    1    0   
-$EndComp
-Connection ~ 1400 2100
-Connection ~ 1200 2100
-Wire Wire Line
-	1200 2100 1200 2450
-$Comp
-L Device:C_Small C381
-U 1 1 5A8FEBBB
-P 1300 2600
-F 0 "C381" V 1071 2600 50  0000 C CNN
-F 1 "0.1uF" V 1162 2600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1300 2600 50  0001 C CNN
-F 3 "~" H 1300 2600 50  0001 C CNN
-	1    1300 2600
-	0    1    1    0   
-$EndComp
-Connection ~ 1200 2600
-Wire Wire Line
-	1200 2600 1200 2950
-$Comp
-L Device:C_Small C384
-U 1 1 5A8FEE21
-P 1300 3100
-F 0 "C384" V 1071 3100 50  0000 C CNN
-F 1 "0.1uF" V 1162 3100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1300 3100 50  0001 C CNN
-F 3 "~" H 1300 3100 50  0001 C CNN
-	1    1300 3100
-	0    1    1    0   
-$EndComp
-Connection ~ 1200 3100
-Wire Wire Line
-	1200 3100 1200 3450
-$Comp
-L Device:C_Small C387
-U 1 1 5A8FF093
-P 1300 3600
-F 0 "C387" V 1071 3600 50  0000 C CNN
-F 1 "0.1uF" V 1162 3600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1300 3600 50  0001 C CNN
-F 3 "~" H 1300 3600 50  0001 C CNN
-	1    1300 3600
-	0    1    1    0   
-$EndComp
-Connection ~ 1200 3600
-Wire Wire Line
-	1200 3600 1200 3950
-$Comp
-L Device:C_Small C389
-U 1 1 5A8FF30E
-P 1300 4100
-F 0 "C389" V 1071 4100 50  0000 C CNN
-F 1 "0.1uF" V 1162 4100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1300 4100 50  0001 C CNN
-F 3 "~" H 1300 4100 50  0001 C CNN
-	1    1300 4100
-	0    1    1    0   
-$EndComp
-Connection ~ 1200 4100
-Wire Wire Line
-	1200 4100 1200 4450
-$Comp
-L Device:C_Small C391
-U 1 1 5A8FF610
-P 1300 4600
-F 0 "C391" V 1071 4600 50  0000 C CNN
-F 1 "0.1uF" V 1162 4600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1300 4600 50  0001 C CNN
-F 3 "~" H 1300 4600 50  0001 C CNN
-	1    1300 4600
-	0    1    1    0   
-$EndComp
-Connection ~ 1200 4600
-Wire Wire Line
-	1200 4600 1200 4950
-$Comp
-L Device:C_Small C393
-U 1 1 5A8FF95D
-P 1300 5100
-F 0 "C393" V 1071 5100 50  0000 C CNN
-F 1 "0.1uF" V 1162 5100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1300 5100 50  0001 C CNN
-F 3 "~" H 1300 5100 50  0001 C CNN
-	1    1300 5100
-	0    1    1    0   
-$EndComp
-Connection ~ 1200 5100
-Wire Wire Line
-	1200 5100 1200 5400
-$Comp
 L Device:C_Small C379
 U 1 1 5A900035
-P 3900 2500
-F 0 "C379" V 4129 2500 50  0000 C CNN
-F 1 "0.1uF" V 4038 2500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 3900 2500 50  0001 C CNN
-F 3 "~" H 3900 2500 50  0001 C CNN
-	1    3900 2500
+P 2250 2300
+F 0 "C379" V 2500 2300 50  0000 C CNN
+F 1 "0.1uF" V 2400 2300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 2250 2300 50  0001 C CNN
+F 3 "~" H 2250 2300 50  0001 C CNN
+	1    2250 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C_Small C382
 U 1 1 5A96F8D8
-P 3900 2850
-F 0 "C382" V 4129 2850 50  0000 C CNN
-F 1 "0.1uF" V 4038 2850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 3900 2850 50  0001 C CNN
-F 3 "~" H 3900 2850 50  0001 C CNN
-	1    3900 2850
+P 2250 2650
+F 0 "C382" V 2500 2650 50  0000 C CNN
+F 1 "0.1uF" V 2400 2650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 2250 2650 50  0001 C CNN
+F 3 "~" H 2250 2650 50  0001 C CNN
+	1    2250 2650
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3800 2850
-Connection ~ 4000 2850
+Connection ~ 2150 2650
+Connection ~ 2350 2650
 Wire Wire Line
-	4000 2850 4000 3000
+	2350 2650 2350 2800
 Wire Wire Line
-	4000 2650 4000 2500
-Connection ~ 4000 2650
+	2350 2450 2350 2300
+Connection ~ 2350 2450
 $Comp
 L Device:C_Small C386
 U 1 1 5A98697D
-P 5350 3550
-F 0 "C386" V 5213 3550 50  0000 C CNN
-F 1 "0.1uF" V 5122 3550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 5350 3550 50  0001 C CNN
-F 3 "~" H 5350 3550 50  0001 C CNN
-	1    5350 3550
+P 3700 3350
+F 0 "C386" V 3563 3350 50  0000 C CNN
+F 1 "0.1uF" V 3472 3350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 3700 3350 50  0001 C CNN
+F 3 "~" H 3700 3350 50  0001 C CNN
+	1    3700 3350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C_Small C380
 U 1 1 5A9CA6D4
-P 5350 2550
-F 0 "C380" V 5213 2550 50  0000 C CNN
-F 1 "0.1uF" V 5122 2550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 5350 2550 50  0001 C CNN
-F 3 "~" H 5350 2550 50  0001 C CNN
-	1    5350 2550
+P 3700 2350
+F 0 "C380" V 3563 2350 50  0000 C CNN
+F 1 "0.1uF" V 3472 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 3700 2350 50  0001 C CNN
+F 3 "~" H 3700 2350 50  0001 C CNN
+	1    3700 2350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5250 2550 4800 2550
-Connection ~ 4800 2550
+	3600 2350 3150 2350
+Connection ~ 3150 2350
 Wire Wire Line
-	4800 2550 4800 3250
+	3150 2350 3150 3050
 Wire Wire Line
-	5450 2550 5900 2550
-Connection ~ 5900 2550
+	3800 2350 4250 2350
+Connection ~ 4250 2350
 Wire Wire Line
-	5900 2550 5900 3250
+	4250 2350 4250 3050
 Wire Wire Line
-	4800 3550 4800 3250
-Connection ~ 4800 3250
+	3150 3350 3150 3050
+Connection ~ 3150 3050
 Wire Wire Line
-	4800 3550 5250 3550
+	3150 3350 3600 3350
 Wire Wire Line
-	5450 3550 5900 3550
-Connection ~ 5900 3550
+	3800 3350 4250 3350
+Connection ~ 4250 3350
 Wire Wire Line
-	5900 3550 5900 3750
+	4250 3350 4250 3550
 $Comp
 L power:+5V #PWR08
 U 1 1 5AB8FBE7
-P 3800 2400
-F 0 "#PWR08" H 3800 2250 50  0001 C CNN
-F 1 "+5V" H 3815 2573 50  0000 C CNN
-F 2 "" H 3800 2400 50  0001 C CNN
-F 3 "" H 3800 2400 50  0001 C CNN
-	1    3800 2400
+P 2150 2000
+F 0 "#PWR08" H 2150 1850 50  0001 C CNN
+F 1 "+5V" H 2165 2173 50  0000 C CNN
+F 2 "" H 2150 2000 50  0001 C CNN
+F 3 "" H 2150 2000 50  0001 C CNN
+	1    2150 2000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J5
+U 1 1 8160EE4C
+P 1750 7250
+F 0 "J5" H 1800 7600 50  0000 C CNN
+F 1 "Power Out (Male-top)" H 1800 7500 50  0000 C CNN
+F 2 "SW-Hirose:DF11-8DP-2DSA" H 1750 7250 50  0001 C CNN
+F 3 "~" H 1750 7250 50  0001 C CNN
+	1    1750 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J23
+U 1 1 8160EED6
+P 3900 7250
+F 0 "J23" H 3950 7600 50  0000 C CNN
+F 1 "GND (Male-top)" H 3950 7500 50  0000 C CNN
+F 2 "SW-Hirose:DF11-8DP-2DSA" H 3900 7250 50  0001 C CNN
+F 3 "~" H 3900 7250 50  0001 C CNN
+	1    3900 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR022
+U 1 1 8161EF52
+P 1250 7000
+F 0 "#PWR022" H 1250 6850 50  0001 C CNN
+F 1 "+5V" H 1300 7200 50  0000 C CNN
+F 2 "" H 1250 7000 50  0001 C CNN
+F 3 "" H 1250 7000 50  0001 C CNN
+	1    1250 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12VA #PWR027
+U 1 1 8163F564
+P 2300 7000
+F 0 "#PWR027" H 2300 6850 50  0001 C CNN
+F 1 "+12VA" H 2350 7200 50  0000 C CNN
+F 2 "" H 2300 7000 50  0001 C CNN
+F 3 "" H 2300 7000 50  0001 C CNN
+	1    2300 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-power:-12VA #PWR033
+U 1 1 816409B9
+P 2300 7650
+F 0 "#PWR033" H 2300 7500 50  0001 C CNN
+F 1 "-12VA" H 2300 7450 50  0000 C CNN
+F 2 "" H 2300 7650 50  0001 C CNN
+F 3 "" H 2300 7650 50  0001 C CNN
+	1    2300 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR03
+U 1 1 8168DB4B
+P 950 7000
+F 0 "#PWR03" H 950 6850 50  0001 C CNN
+F 1 "+5VA" H 1000 7200 50  0000 C CNN
+F 2 "" H 950 7000 50  0001 C CNN
+F 3 "" H 950 7000 50  0001 C CNN
+	1    950  7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-power:-5VA #PWR029
+U 1 1 8168E114
+P 950 7650
+F 0 "#PWR029" H 950 7750 50  0001 C CNN
+F 1 "-5VA" H 950 7450 50  0000 C CNN
+F 2 "" H 950 7650 50  0001 C CNN
+F 3 "" H 950 7650 50  0001 C CNN
+	1    950  7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR031
+U 1 1 8168E5E8
+P 1250 7650
+F 0 "#PWR031" H 1250 7400 50  0001 C CNN
+F 1 "GNDREF" H 1300 7450 50  0000 C CNN
+F 2 "" H 1250 7650 50  0001 C CNN
+F 3 "" H 1250 7650 50  0001 C CNN
+	1    1250 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-power:-2.5V #-2.5V02
+U 1 1 8168EA8C
+P 2600 7650
+F 0 "#-2.5V02" H 3350 7350 60  0001 C CNN
+F 1 "-2.5V" H 2600 7450 50  0000 C CNN
+F 2 "" H 2600 7650 60  0001 C CNN
+F 3 "" H 2600 7650 60  0001 C CNN
+F 4 "0.00@0" H 2700 8100 60  0001 C CNN "Pricing"
+	1    2600 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V5 #PWR028
+U 1 1 8168EFF4
+P 2600 7000
+F 0 "#PWR028" H 2600 6850 50  0001 C CNN
+F 1 "+2V5" H 2650 7200 50  0000 C CNN
+F 2 "" H 2600 7000 50  0001 C CNN
+F 3 "" H 2600 7000 50  0001 C CNN
+	1    2600 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 7150 1250 7150
+Wire Wire Line
+	1250 7150 1250 7000
+Wire Wire Line
+	1250 7650 1250 7250
+Wire Wire Line
+	1250 7250 1550 7250
+Wire Wire Line
+	1550 7350 950  7350
+Wire Wire Line
+	950  7350 950  7000
+Wire Wire Line
+	1550 7450 950  7450
+Wire Wire Line
+	950  7450 950  7650
+Wire Wire Line
+	2050 7150 2300 7150
+Wire Wire Line
+	2300 7150 2300 7000
+Wire Wire Line
+	2300 7650 2300 7450
+Wire Wire Line
+	2300 7450 2050 7450
+Wire Wire Line
+	2050 7250 2600 7250
+Wire Wire Line
+	2600 7250 2600 7000
+Wire Wire Line
+	2600 7650 2600 7350
+Wire Wire Line
+	2600 7350 2050 7350
+$Comp
+L power:GNDREF #PWR037
+U 1 1 81836DF2
+P 3950 7650
+F 0 "#PWR037" H 3950 7400 50  0001 C CNN
+F 1 "GNDREF" H 4000 7450 50  0000 C CNN
+F 2 "" H 3950 7650 50  0001 C CNN
+F 3 "" H 3950 7650 50  0001 C CNN
+	1    3950 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 7150 3600 7150
+Wire Wire Line
+	3600 7150 3600 7250
+Wire Wire Line
+	3600 7650 3950 7650
+Wire Wire Line
+	3950 7650 4300 7650
+Wire Wire Line
+	4300 7650 4300 7450
+Wire Wire Line
+	4300 7150 4200 7150
+Connection ~ 3950 7650
+Wire Wire Line
+	4200 7250 4300 7250
+Connection ~ 4300 7250
+Wire Wire Line
+	4300 7250 4300 7150
+Wire Wire Line
+	4200 7350 4300 7350
+Connection ~ 4300 7350
+Wire Wire Line
+	4300 7350 4300 7250
+Wire Wire Line
+	4200 7450 4300 7450
+Connection ~ 4300 7450
+Wire Wire Line
+	4300 7450 4300 7350
+Wire Wire Line
+	3700 7450 3600 7450
+Connection ~ 3600 7450
+Wire Wire Line
+	3600 7450 3600 7650
+Wire Wire Line
+	3700 7250 3600 7250
+Connection ~ 3600 7250
+Wire Wire Line
+	3600 7250 3600 7350
+Wire Wire Line
+	3700 7350 3600 7350
+Connection ~ 3600 7350
+Wire Wire Line
+	3600 7350 3600 7450
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J1
+U 1 1 81B0A488
+P 6800 1700
+F 0 "J1" H 6850 1950 50  0000 C CNN
+F 1 "Power In (Male-top)" H 6850 1850 50  0000 C CNN
+F 2 "SW-Hirose:DF11-4DP-2DSA" H 6800 1700 50  0001 C CNN
+F 3 "~" H 6800 1700 50  0001 C CNN
+	1    6800 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1800 7100 1800
+Wire Wire Line
+	7150 1800 7150 2750
+Wire Wire Line
+	7100 1700 7500 1700
+$Comp
+L power:GNDREF #PWR039
+U 1 1 81B4B077
+P 6550 2050
+F 0 "#PWR039" H 6550 1800 50  0001 C CNN
+F 1 "GNDREF" H 6550 1900 50  0000 C CNN
+F 2 "" H 6550 2050 50  0001 C CNN
+F 3 "" H 6550 2050 50  0001 C CNN
+	1    6550 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2050 6550 1800
+Wire Wire Line
+	6550 1700 6600 1700
+Wire Wire Line
+	6600 1800 6550 1800
+Connection ~ 6550 1800
+Wire Wire Line
+	6550 1800 6550 1700
 $EndSCHEMATC

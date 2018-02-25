@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:edc-mux-board-cache
+LIBS:motherboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 38
+Sheet 1 20
 Title ""
 Date ""
 Rev ""
@@ -145,17 +145,4 @@ Wire Wire Line
 	7300 1400 7000 1400
 Wire Wire Line
 	7000 1400 7000 1600
-$Comp
-L Mechanical:Mounting_Hole_PAD MK5
-U 1 1 5AADA511
-P 8600 1400
-F 0 "MK5" V 8554 1550 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" V 8645 1550 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 8600 1400 50  0001 C CNN
-F 3 "" H 8600 1400 50  0001 C CNN
-	1    8600 1400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8500 1400 8200 1400
 $EndSCHEMATC

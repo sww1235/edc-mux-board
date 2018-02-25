@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:edc-mux-board-cache
+LIBS:motherboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 38 38
+Sheet 38 20
 Title "Arduino Header Connections"
 Date ""
 Rev ""

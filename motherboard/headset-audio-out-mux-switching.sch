@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:edc-mux-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 20000 30000
