@@ -255,7 +255,7 @@ F 3 "~" H 9100 4050 50  0001 C CNN
 	1    9100 4050
 	1    0    0    1   
 $EndComp
-Text Notes 7700 5650 0    50   ~ 0
+Text Notes 7700 5650 0    70   ~ 14
 Passthrough Ports for headphone mux
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J1
