@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:mic-mux-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 19000 18000
@@ -177,7 +178,7 @@ AR Path="/58DEDA38/58E9E2BE/5AE599BF" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AE599BF" Ref="U2"  Part="3" 
 F 0 "U2" H 5300 1959 60  0000 C CNN
 F 1 "ADG715" H 5300 1853 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5550 3050 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5550 3050 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5550 3150 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 5400 3250 60  0001 C CNN "Characteristics"
 F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 5400 3450 60  0001 C CNN "Description"
@@ -275,7 +276,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF96264" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF96264" Ref="U2"  Part="4" 
 F 0 "U2" H 5300 3359 60  0000 C CNN
 F 1 "ADG715" H 5300 3253 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5550 4450 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5550 4450 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5550 4550 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 5400 4650 60  0001 C CNN "Characteristics"
 F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 5400 4850 60  0001 C CNN "Description"
@@ -373,7 +374,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF97237" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF97237" Ref="U2"  Part="5" 
 F 0 "U2" H 5300 4759 60  0000 C CNN
 F 1 "ADG715" H 5300 4653 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5550 5850 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5550 5850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5550 5950 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 5400 6050 60  0001 C CNN "Characteristics"
 F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 5400 6250 60  0001 C CNN "Description"
@@ -471,7 +472,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF98BC0" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF98BC0" Ref="U2"  Part="6" 
 F 0 "U2" H 5300 6159 60  0000 C CNN
 F 1 "ADG715" H 5300 6053 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5550 7250 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5550 7250 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5550 7350 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 5400 7450 60  0001 C CNN "Characteristics"
 F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 5400 7650 60  0001 C CNN "Description"
@@ -552,7 +553,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF9AD53" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF9AD53" Ref="U2"  Part="7" 
 F 0 "U2" H 5300 7559 60  0000 C CNN
 F 1 "ADG715" H 5300 7453 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5550 8650 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5550 8650 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5550 8750 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 5400 8850 60  0001 C CNN "Characteristics"
 F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 5400 9050 60  0001 C CNN "Description"
@@ -650,7 +651,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF9C03A" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF9C03A" Ref="U2"  Part="8" 
 F 0 "U2" H 5300 8959 60  0000 C CNN
 F 1 "ADG715" H 5300 8853 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5550 10050 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5550 10050 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5550 10150 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 5400 10250 60  0001 C CNN "Characteristics"
 F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 5400 10450 60  0001 C CNN "Description"
@@ -748,7 +749,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF9C637" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF9C637" Ref="U2"  Part="9" 
 F 0 "U2" H 5300 10359 60  0000 C CNN
 F 1 "ADG715" H 5300 10253 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5550 11450 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5550 11450 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5550 11550 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 5400 11650 60  0001 C CNN "Characteristics"
 F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 5400 11850 60  0001 C CNN "Description"
@@ -846,7 +847,7 @@ AR Path="/58DEDA38/58E9E2BE/5AF9CF9D" Ref="U?"  Part="3"
 AR Path="/58DEDA38/5AF9CF9D" Ref="U2"  Part="10" 
 F 0 "U2" H 5300 11759 60  0000 C CNN
 F 1 "ADG715" H 5300 11653 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5550 12850 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-24_4.4x7.8mm_P0.65mm" H 5550 12850 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf" H 5550 12950 60  0001 C CNN
 F 4 "i2c, 2.7 -5V single supply, +-2.5V dual supply, 2.5Ω On Resistance, 0.6Ω  On Resistance Flatness, 100 pA Leakage Currents" H 5400 13050 60  0001 C CNN "Characteristics"
 F 5 "CMOS, Low Voltage Serially Controlled, 8x SPST Switch" H 5400 13250 60  0001 C CNN "Description"
@@ -2626,37 +2627,37 @@ Wire Bus Line
 Text Label 4400 13600 1    50   ~ 0
 MIC-OUT[0..7]
 Wire Wire Line
-	7000 2600 7350 2600
+	7000 2600 7200 2600
 Wire Wire Line
-	7000 4000 7350 4000
+	7000 4000 7200 4000
 Wire Wire Line
-	7000 5400 7350 5400
+	7000 5400 7200 5400
 Wire Wire Line
-	7000 6800 7350 6800
+	7000 6800 7200 6800
 Wire Wire Line
-	7000 8200 7350 8200
+	7000 8200 7200 8200
 Wire Wire Line
-	7000 9600 7350 9600
+	7000 9600 7200 9600
 Wire Wire Line
-	7000 11000 7350 11000
+	7000 11000 7200 11000
 Wire Wire Line
-	7000 12400 7350 12400
+	7000 12400 7200 12400
 Wire Wire Line
-	5800 2400 7550 2400
+	5800 2400 7000 2400
 Wire Wire Line
-	5800 3800 7550 3800
+	5800 3800 7000 3800
 Wire Wire Line
-	5800 5200 7550 5200
+	5800 5200 7000 5200
 Wire Wire Line
-	5800 6600 7550 6600
+	5800 6600 7000 6600
 Wire Wire Line
-	5800 8000 7550 8000
+	5800 8000 7000 8000
 Wire Wire Line
-	5800 9400 7550 9400
+	5800 9400 7000 9400
 Wire Wire Line
-	5800 10800 7550 10800
+	5800 10800 7000 10800
 Wire Wire Line
-	5800 12200 7550 12200
+	5800 12200 7000 12200
 Text HLabel 9650 12450 0    50   Input ~ 0
 2v5-SCL-0
 Text HLabel 9650 12550 0    50   BiDi ~ 0
@@ -2733,16 +2734,88 @@ Wire Wire Line
 	17350 7500 18050 7500
 Wire Wire Line
 	17350 10200 18050 10200
-Wire Bus Line
-	4400 2200 4400 14100
+Text HLabel 16750 12300 0    50   Input ~ 0
+MIC-IN[0..7]
+Text Label 17350 12300 0    50   ~ 0
+MIC-IN-[0..7]
+Connection ~ 7000 2400
+Wire Wire Line
+	7000 2400 7200 2400
+Connection ~ 7200 2400
+Wire Wire Line
+	7200 2400 7550 2400
+Connection ~ 7200 2600
+Wire Wire Line
+	7200 2600 7350 2600
+Connection ~ 7000 3800
+Wire Wire Line
+	7000 3800 7200 3800
+Connection ~ 7200 3800
+Wire Wire Line
+	7200 3800 7550 3800
+Connection ~ 7200 4000
+Wire Wire Line
+	7200 4000 7350 4000
+Connection ~ 7000 5200
+Wire Wire Line
+	7000 5200 7200 5200
+Connection ~ 7200 5200
+Wire Wire Line
+	7200 5200 7550 5200
+Connection ~ 7200 5400
+Wire Wire Line
+	7200 5400 7350 5400
+Connection ~ 7000 6600
+Wire Wire Line
+	7000 6600 7200 6600
+Connection ~ 7200 6600
+Wire Wire Line
+	7200 6600 7550 6600
+Connection ~ 7200 6800
+Wire Wire Line
+	7200 6800 7350 6800
+Connection ~ 7000 8000
+Wire Wire Line
+	7000 8000 7200 8000
+Connection ~ 7200 8000
+Wire Wire Line
+	7200 8000 7550 8000
+Connection ~ 7200 8200
+Wire Wire Line
+	7200 8200 7350 8200
+Connection ~ 7000 9400
+Wire Wire Line
+	7000 9400 7200 9400
+Connection ~ 7200 9400
+Wire Wire Line
+	7200 9400 7550 9400
+Connection ~ 7200 9600
+Wire Wire Line
+	7200 9600 7350 9600
+Connection ~ 7000 10800
+Wire Wire Line
+	7000 10800 7200 10800
+Connection ~ 7200 10800
+Wire Wire Line
+	7200 10800 7550 10800
+Connection ~ 7200 11000
+Wire Wire Line
+	7200 11000 7350 11000
+Connection ~ 7000 12200
+Wire Wire Line
+	7000 12200 7200 12200
+Connection ~ 7200 12200
+Wire Wire Line
+	7200 12200 7550 12200
+Connection ~ 7200 12400
+Wire Wire Line
+	7200 12400 7350 12400
 Wire Bus Line
 	18150 2100 18150 12300
 Wire Bus Line
 	4300 1900 4300 15600
 Wire Bus Line
 	4300 15600 13300 15600
-Text HLabel 16750 12300 0    50   Input ~ 0
-MIC-IN[0..7]
-Text Label 17350 12300 0    50   ~ 0
-MIC-IN[0..7]
+Wire Bus Line
+	4400 2200 4400 14100
 $EndSCHEMATC
