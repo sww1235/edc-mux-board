@@ -139,7 +139,7 @@ S 7350 2600 1850 850
 U 5AC2753A
 F0 "Device LR Distro Amplifier 0" 60
 F1 "stereo-1-2-distro-amp.sch" 60
-F2 "L_IN" I L 7350 2700 60 
+F2 "L_IN" I L 7350 3000 60 
 F3 "R_IN" I L 7350 2800 60 
 F4 "L_OUT2" O R 9200 3150 60 
 F5 "R_OUT2" O R 9200 3250 60 
@@ -151,7 +151,7 @@ S 7350 5350 1850 850
 U 5AF96247
 F0 "Device LR Distro Amplifier 1" 60
 F1 "stereo-1-2-distro-amp.sch" 60
-F2 "L_IN" I L 7350 5450 60 
+F2 "L_IN" I L 7350 5750 60 
 F3 "R_IN" I L 7350 5550 60 
 F4 "L_OUT2" O R 9200 5900 60 
 F5 "R_OUT2" O R 9200 6000 60 
@@ -163,7 +163,7 @@ S 7350 8100 1850 850
 U 5AF9721A
 F0 "Device LR Distro Amplifier 2" 60
 F1 "stereo-1-2-distro-amp.sch" 60
-F2 "L_IN" I L 7350 8200 60 
+F2 "L_IN" I L 7350 8500 60 
 F3 "R_IN" I L 7350 8300 60 
 F4 "L_OUT2" O R 9200 8650 60 
 F5 "R_OUT2" O R 9200 8750 60 
@@ -175,7 +175,7 @@ S 7350 10850 1850 850
 U 5AF98BA3
 F0 "Device LR Distro Amplifier 3" 60
 F1 "stereo-1-2-distro-amp.sch" 60
-F2 "L_IN" I L 7350 10950 60 
+F2 "L_IN" I L 7350 11250 60 
 F3 "R_IN" I L 7350 11050 60 
 F4 "L_OUT2" O R 9200 11400 60 
 F5 "R_OUT2" O R 9200 11500 60 
@@ -187,7 +187,7 @@ S 7350 13600 1850 850
 U 5AF9AD36
 F0 "Device LR Distro Amplifier 4" 60
 F1 "stereo-1-2-distro-amp.sch" 60
-F2 "L_IN" I L 7350 13700 60 
+F2 "L_IN" I L 7350 14000 60 
 F3 "R_IN" I L 7350 13800 60 
 F4 "L_OUT2" O R 9200 14150 60 
 F5 "R_OUT2" O R 9200 14250 60 
@@ -199,7 +199,7 @@ S 7350 16350 1850 850
 U 5AF9C01D
 F0 "Device LR Distro Amplifier 5" 60
 F1 "stereo-1-2-distro-amp.sch" 60
-F2 "L_IN" I L 7350 16450 60 
+F2 "L_IN" I L 7350 16750 60 
 F3 "R_IN" I L 7350 16550 60 
 F4 "L_OUT2" O R 9200 16900 60 
 F5 "R_OUT2" O R 9200 17000 60 
@@ -211,7 +211,7 @@ S 7350 19100 1850 850
 U 5AF9C61A
 F0 "Device LR Distro Amplifier 6" 60
 F1 "stereo-1-2-distro-amp.sch" 60
-F2 "L_IN" I L 7350 19200 60 
+F2 "L_IN" I L 7350 19500 60 
 F3 "R_IN" I L 7350 19300 60 
 F4 "L_OUT2" O R 9200 19650 60 
 F5 "R_OUT2" O R 9200 19750 60 
@@ -223,7 +223,7 @@ S 7350 21850 1850 850
 U 5AF9CF80
 F0 "Device LR Distro Amplifier 7" 60
 F1 "stereo-1-2-distro-amp.sch" 60
-F2 "L_IN" I L 7350 21950 60 
+F2 "L_IN" I L 7350 22250 60 
 F3 "R_IN" I L 7350 22050 60 
 F4 "L_OUT2" O R 9200 22400 60 
 F5 "R_OUT2" O R 9200 22500 60 
@@ -1313,55 +1313,55 @@ $EndComp
 $Comp
 L SW-Texas:TS12A44514 U3
 U 2 1 5AE70891
-P 3250 3300
+P 3250 3500
 AR Path="/58DEDA38/5AE70891" Ref="U3"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AE70891" Ref="U?"  Part="1" 
-F 0 "U3" H 3250 3009 60  0000 C CNN
-F 1 "TS12A44514" H 3250 2903 60  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 4600 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 3300 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 4850 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H 3650 4750 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 4400 60  0001 C CNN "Description"
-F 7 "TSSOP14" H 3550 4500 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 3300 4300 60  0001 C CNN "Pricing"
-F 9 "TS12A44514PWR" H 3250 3109 50  0001 C CNN "Manufacturer Part Number"
-	2    3250 3300
+F 0 "U3" H 3250 3200 60  0000 C CNN
+F 1 "TS12A44514" H 3250 3050 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 4800 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 3500 60  0001 C CNN
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 5050 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 3650 4950 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 4600 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 4700 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 4500 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 3309 50  0001 C CNN "Manufacturer Part Number"
+	2    3250 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C24
 U 1 1 5AE70898
-P 4500 2900
-F 0 "C24" V 4271 2900 50  0000 C CNN
-F 1 "1uF" V 4362 2900 50  0000 C CNN
-F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 4500 2900 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 4500 2900 50  0001 C CNN
-F 4 "10% -55ºC + 125ºC" H 4271 3000 50  0001 C CNN "Characteristics"
-F 5 "Film Capacitor" H 4271 3000 50  0001 C CNN "Description"
-F 6 "LDEDD4100KA0N00" H 4271 3000 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Kemet" H 4271 3000 50  0001 C CNN "Manufacturer"
-	1    4500 2900
+P 5350 3200
+F 0 "C24" V 5100 3200 50  0000 C CNN
+F 1 "1uF" V 5200 3200 50  0000 C CNN
+F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 5350 3200 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 5350 3200 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC" H 5121 3300 50  0001 C CNN "Characteristics"
+F 5 "Film Capacitor" H 5121 3300 50  0001 C CNN "Description"
+F 6 "LDEDD4100KA0N00" H 5121 3300 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Kemet" H 5121 3300 50  0001 C CNN "Manufacturer"
+	1    5350 3200
 	0    1    1    0   
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
 U 2 1 5AE708B6
-P 4700 3450
+P 5100 3650
 AR Path="/58DEDA38/58E9E2BE/5AE708B6" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AE708B6" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AE708B6" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5AE708B6" Ref="U2"  Part="2" 
-F 0 "U2" H 4700 3683 50  0000 C CNN
-F 1 "74ACT32" H 4700 3774 50  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 3450 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 3450 50  0001 C CNN
-F 4 "ON Semiconductor" H 4700 3783 50  0001 C CNN "Manufacturer"
-F 5 "4x 2:1 OR Gate" H 4700 3783 50  0001 C CNN "Description"
-F 6 "TSSOP14" H 4700 3783 50  0001 C CNN "Package ID"
-F 7 "0.00@0" H 4700 3450 60  0001 C CNN "Pricing"
-F 8 "MC74ACT32DTR2G" H 4700 3783 50  0001 C CNN "Manufacturer Part Number"
-	2    4700 3450
+F 0 "U2" H 5100 4000 50  0000 C CNN
+F 1 "74ACT32" H 5100 3900 50  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5100 3650 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 5100 3650 50  0001 C CNN
+F 4 "ON Semiconductor" H 5100 3983 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 5100 3983 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 5100 3983 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 5100 3650 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 5100 3983 50  0001 C CNN "Manufacturer Part Number"
+	2    5100 3650
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1422,8 +1422,8 @@ $Comp
 L Connector_Generic:Conn_01x08 J8
 U 1 1 5AEFD384
 P 2350 2900
-F 0 "J8" H 2430 2892 50  0000 L CNN
-F 1 "Device 0" H 2430 2801 50  0000 L CNN
+F 0 "J8" H 2450 2900 50  0000 L CNN
+F 1 "Device 0" H 2450 2800 50  0000 L CNN
 F 2 "SW-Hirose:DF11-8DP-2DSA" H 2350 2900 50  0001 C CNN
 F 3 "" H 2350 2900 50  0001 C CNN
 F 4 "0.00@0" H 2350 2900 60  0001 C CNN "Pricing"
@@ -1433,46 +1433,46 @@ $EndComp
 $Comp
 L SW-Semtech:0582BQ D2
 U 1 1 5AF299A5
-P 4050 3150
-F 0 "D2" H 4050 2750 60  0000 C CNN
-F 1 "0582BQ" H 4050 2650 60  0000 C CNN
-F 2 "SW-Semtech:SC-75_3L" H 2650 2050 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 5150 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 5300 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 4000 5400 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 4050 2850 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 4000 5200 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 3900 5500 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3900 5600 60  0001 C CNN "Pricing"
-	1    4050 3150
-	-1   0    0    -1  
+P 4650 2500
+F 0 "D2" H 4650 2900 60  0000 C CNN
+F 1 "0582BQ" H 4650 2750 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 3250 1400 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4850 4500 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 4550 4650 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 4600 4750 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 4650 2200 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 4600 4550 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 4500 4850 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4500 4950 60  0001 C CNN "Pricing"
+	1    4650 2500
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR034
 U 1 1 5AF2D654
-P 2850 3700
-F 0 "#PWR034" H 2850 3450 50  0001 C CNN
-F 1 "GNDREF" H 2850 3550 50  0000 C CNN
-F 2 "" H 2850 3700 50  0001 C CNN
-F 3 "" H 2850 3700 50  0001 C CNN
-	1    2850 3700
+P 2850 4050
+F 0 "#PWR034" H 2850 3800 50  0001 C CNN
+F 1 "GNDREF" H 2850 3900 50  0000 C CNN
+F 2 "" H 2850 4050 50  0001 C CNN
+F 3 "" H 2850 4050 50  0001 C CNN
+	1    2850 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TPD1E10B06 D1
 U 1 1 5AF3F3D8
-P 3200 3100
-F 0 "D1" H 3200 3350 60  0000 C CNN
-F 1 "TPD1E10B06" H 3300 3250 60  0000 C CNN
-F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 3000 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 4700 60  0001 C CNN
-F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 3450 4800 60  0001 C CNN "Characteristics"
-F 5 "Single-Channel ESD Protection Diode" H 3300 5000 60  0001 C CNN "Description"
-F 6 "TPD1E10B06DPYR" H 3200 3450 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3200 4900 60  0001 C CNN "Manufacturer"
-F 8 "0402 (imp)" H 3400 5100 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3250 4600 60  0001 C CNN "Pricing"
-	1    3200 3100
+P 4150 3350
+F 0 "D1" H 4150 3700 60  0000 C CNN
+F 1 "TPD1E10B06" H 4150 3550 60  0000 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 4050 3250 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 4300 4950 60  0001 C CNN
+F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 4400 5050 60  0001 C CNN "Characteristics"
+F 5 "Single-Channel ESD Protection Diode" H 4250 5250 60  0001 C CNN "Description"
+F 6 "TPD1E10B06DPYR" H 4150 3700 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Texas Instruments" H 4150 5150 60  0001 C CNN "Manufacturer"
+F 8 "0402 (imp)" H 4350 5350 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4200 4850 60  0001 C CNN "Pricing"
+	1    4150 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1489,83 +1489,83 @@ $EndComp
 $Comp
 L power:GNDREF #PWR035
 U 1 1 5AF4AB08
-P 3750 3700
-F 0 "#PWR035" H 3750 3450 50  0001 C CNN
-F 1 "GNDREF" H 3750 3550 50  0000 C CNN
-F 2 "" H 3750 3700 50  0001 C CNN
-F 3 "" H 3750 3700 50  0001 C CNN
-	1    3750 3700
+P 4850 3350
+F 0 "#PWR035" H 4850 3100 50  0001 C CNN
+F 1 "GNDREF" H 4850 3200 50  0000 C CNN
+F 2 "" H 4850 3350 50  0001 C CNN
+F 3 "" H 4850 3350 50  0001 C CNN
+	1    4850 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Semtech:0582BQ D3
 U 1 1 5AF4C47A
-P 2650 3500
-F 0 "D3" V 2597 3687 60  0000 L CNN
-F 1 "0582BQ" V 2703 3687 60  0000 L CNN
-F 2 "SW-Semtech:SC-75_3L" H 1250 2400 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 5500 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 5650 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 2600 5750 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 2597 3787 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 2600 5550 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 2500 5850 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 2500 5950 60  0001 C CNN "Pricing"
-	1    2650 3500
+P 2650 3750
+F 0 "D3" V 2597 3937 60  0000 L CNN
+F 1 "0582BQ" V 2703 3937 60  0000 L CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 2650 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 5750 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 5900 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 2600 6000 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 2597 4037 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 2600 5800 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 2500 6100 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 2500 6200 60  0001 C CNN "Pricing"
+	1    2650 3750
 	0    -1   1    0   
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U3
 U 1 1 5AF96270
-P 3250 6050
+P 3250 6250
 AR Path="/58DEDA38/5AF96270" Ref="U3"  Part="1" 
 AR Path="/58DEDA38/58E9E25B/5AF96270" Ref="U?"  Part="1" 
-F 0 "U3" H 3250 5759 60  0000 C CNN
-F 1 "TS12A44514" H 3250 5653 60  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 7350 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 6050 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 7600 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H 3650 7500 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 7150 60  0001 C CNN "Description"
-F 7 "TSSOP14" H 3550 7250 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 3300 7050 60  0001 C CNN "Pricing"
-F 9 "TS12A44514PWR" H 3250 5859 50  0001 C CNN "Manufacturer Part Number"
-	1    3250 6050
+F 0 "U3" H 3250 5950 60  0000 C CNN
+F 1 "TS12A44514" H 3250 5800 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 7550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 6250 60  0001 C CNN
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 7800 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 3650 7700 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 7350 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 7450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 7250 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 6059 50  0001 C CNN "Manufacturer Part Number"
+	1    3250 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C32
 U 1 1 5AF96277
-P 4500 5650
-F 0 "C32" V 4271 5650 50  0000 C CNN
-F 1 "1uF" V 4362 5650 50  0000 C CNN
-F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 4500 5650 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 4500 5650 50  0001 C CNN
-F 4 "10% -55ºC + 125ºC" H 4271 5750 50  0001 C CNN "Characteristics"
-F 5 "Film Capacitor" H 4271 5750 50  0001 C CNN "Description"
-F 6 "LDEDD4100KA0N00" H 4271 5750 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Kemet" H 4271 5750 50  0001 C CNN "Manufacturer"
-	1    4500 5650
+P 5350 5950
+F 0 "C32" V 5121 5950 50  0000 C CNN
+F 1 "1uF" V 5212 5950 50  0000 C CNN
+F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 5350 5950 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 5350 5950 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC" H 5121 6050 50  0001 C CNN "Characteristics"
+F 5 "Film Capacitor" H 5121 6050 50  0001 C CNN "Description"
+F 6 "LDEDD4100KA0N00" H 5121 6050 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Kemet" H 5121 6050 50  0001 C CNN "Manufacturer"
+	1    5350 5950
 	0    1    1    0   
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
 U 3 1 5AF96281
-P 4700 6200
+P 5100 6400
 AR Path="/58DEDA38/58E9E2BE/5AF96281" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF96281" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF96281" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5AF96281" Ref="U2"  Part="3" 
-F 0 "U2" H 4700 6433 50  0000 C CNN
-F 1 "74ACT32" H 4700 6524 50  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 6200 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 6200 50  0001 C CNN
-F 4 "ON Semiconductor" H 4700 6533 50  0001 C CNN "Manufacturer"
-F 5 "4x 2:1 OR Gate" H 4700 6533 50  0001 C CNN "Description"
-F 6 "TSSOP14" H 4700 6533 50  0001 C CNN "Package ID"
-F 7 "0.00@0" H 4700 6200 60  0001 C CNN "Pricing"
-F 8 "MC74ACT32DTR2G" H 4700 6533 50  0001 C CNN "Manufacturer Part Number"
-	3    4700 6200
+F 0 "U2" H 5100 6633 50  0000 C CNN
+F 1 "74ACT32" H 5100 6724 50  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5100 6400 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 5100 6400 50  0001 C CNN
+F 4 "ON Semiconductor" H 5100 6733 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 5100 6733 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 5100 6733 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 5100 6400 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 5100 6733 50  0001 C CNN "Manufacturer Part Number"
+	3    5100 6400
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1637,46 +1637,46 @@ $EndComp
 $Comp
 L SW-Semtech:0582BQ D11
 U 1 1 5AF96340
-P 4050 5900
-F 0 "D11" H 4050 5500 60  0000 C CNN
-F 1 "0582BQ" H 4050 5400 60  0000 C CNN
-F 2 "SW-Semtech:SC-75_3L" H 2650 4800 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 7900 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 8050 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 4000 8150 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 4050 5600 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 4000 7950 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 3900 8250 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3900 8350 60  0001 C CNN "Pricing"
-	1    4050 5900
-	-1   0    0    -1  
+P 4650 5250
+F 0 "D11" H 4650 5650 60  0000 C CNN
+F 1 "0582BQ" H 4650 5500 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 3250 4150 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4850 7250 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 4550 7400 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 4600 7500 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 4650 4950 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 4600 7300 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 4500 7600 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4500 7700 60  0001 C CNN "Pricing"
+	1    4650 5250
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR043
 U 1 1 5AF96347
-P 2850 6450
-F 0 "#PWR043" H 2850 6200 50  0001 C CNN
-F 1 "GNDREF" H 2850 6300 50  0000 C CNN
-F 2 "" H 2850 6450 50  0001 C CNN
-F 3 "" H 2850 6450 50  0001 C CNN
-	1    2850 6450
+P 2850 6800
+F 0 "#PWR043" H 2850 6550 50  0001 C CNN
+F 1 "GNDREF" H 2850 6650 50  0000 C CNN
+F 2 "" H 2850 6800 50  0001 C CNN
+F 3 "" H 2850 6800 50  0001 C CNN
+	1    2850 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TPD1E10B06 D9
 U 1 1 5AF96358
-P 3200 5850
-F 0 "D9" H 3200 6100 60  0000 C CNN
-F 1 "TPD1E10B06" H 3300 6000 60  0000 C CNN
-F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 5750 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 7450 60  0001 C CNN
-F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 3450 7550 60  0001 C CNN "Characteristics"
-F 5 "Single-Channel ESD Protection Diode" H 3300 7750 60  0001 C CNN "Description"
-F 6 "TPD1E10B06DPYR" H 3200 6200 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3200 7650 60  0001 C CNN "Manufacturer"
-F 8 "0402 (imp)" H 3400 7850 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3250 7350 60  0001 C CNN "Pricing"
-	1    3200 5850
+P 4150 6100
+F 0 "D9" H 4150 6350 60  0000 C CNN
+F 1 "TPD1E10B06" H 4250 6250 60  0000 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 4050 6000 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 4300 7700 60  0001 C CNN
+F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 4400 7800 60  0001 C CNN "Characteristics"
+F 5 "Single-Channel ESD Protection Diode" H 4250 8000 60  0001 C CNN "Description"
+F 6 "TPD1E10B06DPYR" H 4150 6450 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Texas Instruments" H 4150 7900 60  0001 C CNN "Manufacturer"
+F 8 "0402 (imp)" H 4350 8100 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4200 7600 60  0001 C CNN "Pricing"
+	1    4150 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1693,83 +1693,83 @@ $EndComp
 $Comp
 L power:GNDREF #PWR044
 U 1 1 5AF9636A
-P 3750 6450
-F 0 "#PWR044" H 3750 6200 50  0001 C CNN
-F 1 "GNDREF" H 3750 6300 50  0000 C CNN
-F 2 "" H 3750 6450 50  0001 C CNN
-F 3 "" H 3750 6450 50  0001 C CNN
-	1    3750 6450
+P 4850 6100
+F 0 "#PWR044" H 4850 5850 50  0001 C CNN
+F 1 "GNDREF" H 4850 5950 50  0000 C CNN
+F 2 "" H 4850 6100 50  0001 C CNN
+F 3 "" H 4850 6100 50  0001 C CNN
+	1    4850 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Semtech:0582BQ D12
 U 1 1 5AF96379
-P 2650 6250
-F 0 "D12" V 2597 6437 60  0000 L CNN
-F 1 "0582BQ" V 2703 6437 60  0000 L CNN
-F 2 "SW-Semtech:SC-75_3L" H 1250 5150 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 8250 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 8400 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 2600 8500 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 2597 6537 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 2600 8300 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 2500 8600 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 2500 8700 60  0001 C CNN "Pricing"
-	1    2650 6250
+P 2650 6500
+F 0 "D12" V 2597 6687 60  0000 L CNN
+F 1 "0582BQ" V 2703 6687 60  0000 L CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 5400 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 8500 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 8650 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 2600 8750 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 2597 6787 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 2600 8550 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 2500 8850 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 2500 8950 60  0001 C CNN "Pricing"
+	1    2650 6500
 	0    -1   1    0   
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U3
 U 4 1 5AF97243
-P 3250 8800
+P 3250 9000
 AR Path="/58DEDA38/5AF97243" Ref="U3"  Part="4" 
 AR Path="/58DEDA38/58E9E25B/5AF97243" Ref="U?"  Part="1" 
-F 0 "U3" H 3250 8509 60  0000 C CNN
-F 1 "TS12A44514" H 3250 8403 60  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 10100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 8800 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 10350 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H 3650 10250 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 9900 60  0001 C CNN "Description"
-F 7 "TSSOP14" H 3550 10000 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 3300 9800 60  0001 C CNN "Pricing"
-F 9 "TS12A44514PWR" H 3250 8609 50  0001 C CNN "Manufacturer Part Number"
-	4    3250 8800
+F 0 "U3" H 3250 9250 60  0000 C CNN
+F 1 "TS12A44514" H 3250 9150 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 10300 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 9000 60  0001 C CNN
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 10550 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 3650 10450 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 10100 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 10200 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 10000 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 8809 50  0001 C CNN "Manufacturer Part Number"
+	4    3250 9000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C43
 U 1 1 5AF9724A
-P 4500 8400
-F 0 "C43" V 4271 8400 50  0000 C CNN
-F 1 "1uF" V 4362 8400 50  0000 C CNN
-F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 4500 8400 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 4500 8400 50  0001 C CNN
-F 4 "10% -55ºC + 125ºC" H 4271 8500 50  0001 C CNN "Characteristics"
-F 5 "Film Capacitor" H 4271 8500 50  0001 C CNN "Description"
-F 6 "LDEDD4100KA0N00" H 4271 8500 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Kemet" H 4271 8500 50  0001 C CNN "Manufacturer"
-	1    4500 8400
+P 5350 8700
+F 0 "C43" V 5121 8700 50  0000 C CNN
+F 1 "1uF" V 5212 8700 50  0000 C CNN
+F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 5350 8700 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 5350 8700 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC" H 5121 8800 50  0001 C CNN "Characteristics"
+F 5 "Film Capacitor" H 5121 8800 50  0001 C CNN "Description"
+F 6 "LDEDD4100KA0N00" H 5121 8800 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Kemet" H 5121 8800 50  0001 C CNN "Manufacturer"
+	1    5350 8700
 	0    1    1    0   
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
 U 4 1 5AF97254
-P 4700 8950
+P 5100 9150
 AR Path="/58DEDA38/58E9E2BE/5AF97254" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF97254" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF97254" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5AF97254" Ref="U2"  Part="4" 
-F 0 "U2" H 4700 8633 50  0000 C CNN
-F 1 "74ACT32" H 4700 8724 50  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 8950 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 8950 50  0001 C CNN
-F 4 "ON Semiconductor" H 4700 8733 50  0001 C CNN "Manufacturer"
-F 5 "4x 2:1 OR Gate" H 4700 8733 50  0001 C CNN "Description"
-F 6 "TSSOP14" H 4700 8733 50  0001 C CNN "Package ID"
-F 7 "0.00@0" H 4700 8950 60  0001 C CNN "Pricing"
-F 8 "MC74ACT32DTR2G" H 4700 8733 50  0001 C CNN "Manufacturer Part Number"
-	4    4700 8950
+F 0 "U2" H 5100 9500 50  0000 C CNN
+F 1 "74ACT32" H 5100 9400 50  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5100 9150 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 5100 9150 50  0001 C CNN
+F 4 "ON Semiconductor" H 5100 8933 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 5100 8933 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 5100 8933 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 5100 9150 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 5100 8933 50  0001 C CNN "Manufacturer Part Number"
+	4    5100 9150
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1841,46 +1841,46 @@ $EndComp
 $Comp
 L SW-Semtech:0582BQ D22
 U 1 1 5AF97313
-P 4050 8650
-F 0 "D22" H 4050 8250 60  0000 C CNN
-F 1 "0582BQ" H 4050 8150 60  0000 C CNN
-F 2 "SW-Semtech:SC-75_3L" H 2650 7550 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 10650 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 10800 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 4000 10900 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 4050 8350 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 4000 10700 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 3900 11000 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3900 11100 60  0001 C CNN "Pricing"
-	1    4050 8650
-	-1   0    0    -1  
+P 4650 8000
+F 0 "D22" H 4650 8400 60  0000 C CNN
+F 1 "0582BQ" H 4650 8250 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 3250 6900 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4850 10000 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 4550 10150 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 4600 10250 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 4650 7700 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 4600 10050 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 4500 10350 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4500 10450 60  0001 C CNN "Pricing"
+	1    4650 8000
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR051
 U 1 1 5AF9731A
-P 2850 9200
-F 0 "#PWR051" H 2850 8950 50  0001 C CNN
-F 1 "GNDREF" H 2850 9050 50  0000 C CNN
-F 2 "" H 2850 9200 50  0001 C CNN
-F 3 "" H 2850 9200 50  0001 C CNN
-	1    2850 9200
+P 2850 9550
+F 0 "#PWR051" H 2850 9300 50  0001 C CNN
+F 1 "GNDREF" H 2850 9400 50  0000 C CNN
+F 2 "" H 2850 9550 50  0001 C CNN
+F 3 "" H 2850 9550 50  0001 C CNN
+	1    2850 9550
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TPD1E10B06 D21
 U 1 1 5AF9732B
-P 3200 8600
-F 0 "D21" H 3200 8850 60  0000 C CNN
-F 1 "TPD1E10B06" H 3300 8750 60  0000 C CNN
-F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 8500 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 10200 60  0001 C CNN
-F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 3450 10300 60  0001 C CNN "Characteristics"
-F 5 "Single-Channel ESD Protection Diode" H 3300 10500 60  0001 C CNN "Description"
-F 6 "TPD1E10B06DPYR" H 3200 8950 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3200 10400 60  0001 C CNN "Manufacturer"
-F 8 "0402 (imp)" H 3400 10600 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3250 10100 60  0001 C CNN "Pricing"
-	1    3200 8600
+P 4150 8850
+F 0 "D21" H 4150 9200 60  0000 C CNN
+F 1 "TPD1E10B06" H 4150 9050 60  0000 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 4050 8750 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 4300 10450 60  0001 C CNN
+F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 4400 10550 60  0001 C CNN "Characteristics"
+F 5 "Single-Channel ESD Protection Diode" H 4250 10750 60  0001 C CNN "Description"
+F 6 "TPD1E10B06DPYR" H 4150 9200 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Texas Instruments" H 4150 10650 60  0001 C CNN "Manufacturer"
+F 8 "0402 (imp)" H 4350 10850 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4200 10350 60  0001 C CNN "Pricing"
+	1    4150 8850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1897,83 +1897,83 @@ $EndComp
 $Comp
 L power:GNDREF #PWR052
 U 1 1 5AF9733D
-P 3750 9200
-F 0 "#PWR052" H 3750 8950 50  0001 C CNN
-F 1 "GNDREF" H 3750 9050 50  0000 C CNN
-F 2 "" H 3750 9200 50  0001 C CNN
-F 3 "" H 3750 9200 50  0001 C CNN
-	1    3750 9200
+P 4850 8850
+F 0 "#PWR052" H 4850 8600 50  0001 C CNN
+F 1 "GNDREF" H 4850 8700 50  0000 C CNN
+F 2 "" H 4850 8850 50  0001 C CNN
+F 3 "" H 4850 8850 50  0001 C CNN
+	1    4850 8850
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Semtech:0582BQ D24
 U 1 1 5AF9734C
-P 2650 9000
-F 0 "D24" V 2597 9187 60  0000 L CNN
-F 1 "0582BQ" V 2703 9187 60  0000 L CNN
-F 2 "SW-Semtech:SC-75_3L" H 1250 7900 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 11000 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 11150 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 2600 11250 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 2597 9287 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 2600 11050 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 2500 11350 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 2500 11450 60  0001 C CNN "Pricing"
-	1    2650 9000
+P 2650 9250
+F 0 "D24" V 2597 9437 60  0000 L CNN
+F 1 "0582BQ" V 2703 9437 60  0000 L CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 8150 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 11250 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 11400 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 2600 11500 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 2597 9537 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 2600 11300 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 2500 11600 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 2500 11700 60  0001 C CNN "Pricing"
+	1    2650 9250
 	0    -1   1    0   
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U3
 U 3 1 5AF98BCC
-P 3250 11550
+P 3250 11750
 AR Path="/58DEDA38/5AF98BCC" Ref="U3"  Part="3" 
 AR Path="/58DEDA38/58E9E25B/5AF98BCC" Ref="U?"  Part="1" 
-F 0 "U3" H 3250 11259 60  0000 C CNN
-F 1 "TS12A44514" H 3250 11153 60  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 12850 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 11550 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 13100 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H 3650 13000 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 12650 60  0001 C CNN "Description"
-F 7 "TSSOP14" H 3550 12750 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 3300 12550 60  0001 C CNN "Pricing"
-F 9 "TS12A44514PWR" H 3250 11359 50  0001 C CNN "Manufacturer Part Number"
-	3    3250 11550
+F 0 "U3" H 3250 11450 60  0000 C CNN
+F 1 "TS12A44514" H 3250 11300 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 13050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 11750 60  0001 C CNN
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 13300 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 3650 13200 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 12850 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 12950 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 12750 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 11559 50  0001 C CNN "Manufacturer Part Number"
+	3    3250 11750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C52
 U 1 1 5AF98BD3
-P 4500 11150
-F 0 "C52" V 4271 11150 50  0000 C CNN
-F 1 "1uF" V 4362 11150 50  0000 C CNN
-F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 4500 11150 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 4500 11150 50  0001 C CNN
-F 4 "10% -55ºC + 125ºC" H 4271 11250 50  0001 C CNN "Characteristics"
-F 5 "Film Capacitor" H 4271 11250 50  0001 C CNN "Description"
-F 6 "LDEDD4100KA0N00" H 4271 11250 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Kemet" H 4271 11250 50  0001 C CNN "Manufacturer"
-	1    4500 11150
+P 5350 11450
+F 0 "C52" V 5150 11450 50  0000 C CNN
+F 1 "1uF" V 5250 11450 50  0000 C CNN
+F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 5350 11450 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 5350 11450 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC" H 5121 11550 50  0001 C CNN "Characteristics"
+F 5 "Film Capacitor" H 5121 11550 50  0001 C CNN "Description"
+F 6 "LDEDD4100KA0N00" H 5121 11550 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Kemet" H 5121 11550 50  0001 C CNN "Manufacturer"
+	1    5350 11450
 	0    1    1    0   
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
 U 1 1 5AF98BDD
-P 4700 11700
+P 5100 11900
 AR Path="/58DEDA38/58E9E2BE/5AF98BDD" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF98BDD" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF98BDD" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5AF98BDD" Ref="U2"  Part="1" 
-F 0 "U2" H 4700 11383 50  0000 C CNN
-F 1 "74ACT32" H 4700 11474 50  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 11700 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 11700 50  0001 C CNN
-F 4 "ON Semiconductor" H 4700 11483 50  0001 C CNN "Manufacturer"
-F 5 "4x 2:1 OR Gate" H 4700 11483 50  0001 C CNN "Description"
-F 6 "TSSOP14" H 4700 11483 50  0001 C CNN "Package ID"
-F 7 "0.00@0" H 4700 11700 60  0001 C CNN "Pricing"
-F 8 "MC74ACT32DTR2G" H 4700 11483 50  0001 C CNN "Manufacturer Part Number"
-	1    4700 11700
+F 0 "U2" H 5100 12250 50  0000 C CNN
+F 1 "74ACT32" H 5100 12150 50  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5100 11900 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 5100 11900 50  0001 C CNN
+F 4 "ON Semiconductor" H 5100 11683 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 5100 11683 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 5100 11683 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 5100 11900 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 5100 11683 50  0001 C CNN "Manufacturer Part Number"
+	1    5100 11900
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2045,46 +2045,46 @@ $EndComp
 $Comp
 L SW-Semtech:0582BQ D32
 U 1 1 5AF98C9C
-P 4050 11400
-F 0 "D32" H 4050 11000 60  0000 C CNN
-F 1 "0582BQ" H 4050 10900 60  0000 C CNN
-F 2 "SW-Semtech:SC-75_3L" H 2650 10300 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 13400 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 13550 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 4000 13650 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 4050 11100 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 4000 13450 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 3900 13750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3900 13850 60  0001 C CNN "Pricing"
-	1    4050 11400
-	-1   0    0    -1  
+P 4650 10750
+F 0 "D32" H 4650 11150 60  0000 C CNN
+F 1 "0582BQ" H 4650 11000 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 3250 9650 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4850 12750 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 4550 12900 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 4600 13000 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 4650 10450 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 4600 12800 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 4500 13100 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4500 13200 60  0001 C CNN "Pricing"
+	1    4650 10750
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR060
 U 1 1 5AF98CA3
-P 2850 11950
-F 0 "#PWR060" H 2850 11700 50  0001 C CNN
-F 1 "GNDREF" H 2850 11800 50  0000 C CNN
-F 2 "" H 2850 11950 50  0001 C CNN
-F 3 "" H 2850 11950 50  0001 C CNN
-	1    2850 11950
+P 2850 12300
+F 0 "#PWR060" H 2850 12050 50  0001 C CNN
+F 1 "GNDREF" H 2850 12150 50  0000 C CNN
+F 2 "" H 2850 12300 50  0001 C CNN
+F 3 "" H 2850 12300 50  0001 C CNN
+	1    2850 12300
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TPD1E10B06 D31
 U 1 1 5AF98CB4
-P 3200 11350
-F 0 "D31" H 3200 11600 60  0000 C CNN
-F 1 "TPD1E10B06" H 3300 11500 60  0000 C CNN
-F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 11250 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 12950 60  0001 C CNN
-F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 3450 13050 60  0001 C CNN "Characteristics"
-F 5 "Single-Channel ESD Protection Diode" H 3300 13250 60  0001 C CNN "Description"
-F 6 "TPD1E10B06DPYR" H 3200 11700 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3200 13150 60  0001 C CNN "Manufacturer"
-F 8 "0402 (imp)" H 3400 13350 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3250 12850 60  0001 C CNN "Pricing"
-	1    3200 11350
+P 4150 11600
+F 0 "D31" H 4150 11850 60  0000 C CNN
+F 1 "TPD1E10B06" H 4250 11750 60  0000 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 4050 11500 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 4300 13200 60  0001 C CNN
+F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 4400 13300 60  0001 C CNN "Characteristics"
+F 5 "Single-Channel ESD Protection Diode" H 4250 13500 60  0001 C CNN "Description"
+F 6 "TPD1E10B06DPYR" H 4150 11950 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Texas Instruments" H 4150 13400 60  0001 C CNN "Manufacturer"
+F 8 "0402 (imp)" H 4350 13600 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4200 13100 60  0001 C CNN "Pricing"
+	1    4150 11600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2101,83 +2101,83 @@ $EndComp
 $Comp
 L power:GNDREF #PWR061
 U 1 1 5AF98CC6
-P 3750 11950
-F 0 "#PWR061" H 3750 11700 50  0001 C CNN
-F 1 "GNDREF" H 3750 11800 50  0000 C CNN
-F 2 "" H 3750 11950 50  0001 C CNN
-F 3 "" H 3750 11950 50  0001 C CNN
-	1    3750 11950
+P 4850 11600
+F 0 "#PWR061" H 4850 11350 50  0001 C CNN
+F 1 "GNDREF" H 4850 11450 50  0000 C CNN
+F 2 "" H 4850 11600 50  0001 C CNN
+F 3 "" H 4850 11600 50  0001 C CNN
+	1    4850 11600
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Semtech:0582BQ D35
 U 1 1 5AF98CD5
-P 2650 11750
-F 0 "D35" V 2597 11937 60  0000 L CNN
-F 1 "0582BQ" V 2703 11937 60  0000 L CNN
-F 2 "SW-Semtech:SC-75_3L" H 1250 10650 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 13750 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 13900 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 2600 14000 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 2597 12037 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 2600 13800 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 2500 14100 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 2500 14200 60  0001 C CNN "Pricing"
-	1    2650 11750
+P 2650 12000
+F 0 "D35" V 2597 12187 60  0000 L CNN
+F 1 "0582BQ" V 2703 12187 60  0000 L CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 10900 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 14000 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 14150 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 2600 14250 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 2597 12287 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 2600 14050 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 2500 14350 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 2500 14450 60  0001 C CNN "Pricing"
+	1    2650 12000
 	0    -1   1    0   
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U6
 U 2 1 5AF9AD5F
-P 3250 14300
+P 3250 14500
 AR Path="/58DEDA38/5AF9AD5F" Ref="U6"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF9AD5F" Ref="U?"  Part="1" 
-F 0 "U6" H 3250 14009 60  0000 C CNN
-F 1 "TS12A44514" H 3250 13903 60  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 15600 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 14300 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 15850 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H 3650 15750 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 15400 60  0001 C CNN "Description"
-F 7 "TSSOP14" H 3550 15500 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 3300 15300 60  0001 C CNN "Pricing"
-F 9 "TS12A44514PWR" H 3250 14109 50  0001 C CNN "Manufacturer Part Number"
-	2    3250 14300
+F 0 "U6" H 3250 14200 60  0000 C CNN
+F 1 "TS12A44514" H 3250 14050 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 15800 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 14500 60  0001 C CNN
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 16050 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 3650 15950 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 15600 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 15700 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 15500 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 14309 50  0001 C CNN "Manufacturer Part Number"
+	2    3250 14500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C56
 U 1 1 5AF9AD66
-P 4500 13900
-F 0 "C56" V 4271 13900 50  0000 C CNN
-F 1 "1uF" V 4362 13900 50  0000 C CNN
-F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 4500 13900 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 4500 13900 50  0001 C CNN
-F 4 "10% -55ºC + 125ºC" H 4271 14000 50  0001 C CNN "Characteristics"
-F 5 "Film Capacitor" H 4271 14000 50  0001 C CNN "Description"
-F 6 "LDEDD4100KA0N00" H 4271 14000 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Kemet" H 4271 14000 50  0001 C CNN "Manufacturer"
-	1    4500 13900
+P 5350 14200
+F 0 "C56" V 5100 14200 50  0000 C CNN
+F 1 "1uF" V 5200 14200 50  0000 C CNN
+F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 5350 14200 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 5350 14200 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC" H 5121 14300 50  0001 C CNN "Characteristics"
+F 5 "Film Capacitor" H 5121 14300 50  0001 C CNN "Description"
+F 6 "LDEDD4100KA0N00" H 5121 14300 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Kemet" H 5121 14300 50  0001 C CNN "Manufacturer"
+	1    5350 14200
 	0    1    1    0   
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
 U 2 1 5AF9AD70
-P 4700 14450
+P 5100 14650
 AR Path="/58DEDA38/58E9E2BE/5AF9AD70" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF9AD70" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF9AD70" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5AF9AD70" Ref="U7"  Part="2" 
-F 0 "U7" H 4700 14683 50  0000 C CNN
-F 1 "74ACT32" H 4700 14774 50  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 14450 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 14450 50  0001 C CNN
-F 4 "ON Semiconductor" H 4700 14783 50  0001 C CNN "Manufacturer"
-F 5 "4x 2:1 OR Gate" H 4700 14783 50  0001 C CNN "Description"
-F 6 "TSSOP14" H 4700 14783 50  0001 C CNN "Package ID"
-F 7 "0.00@0" H 4700 14450 60  0001 C CNN "Pricing"
-F 8 "MC74ACT32DTR2G" H 4700 14783 50  0001 C CNN "Manufacturer Part Number"
-	2    4700 14450
+F 0 "U7" H 5100 14883 50  0000 C CNN
+F 1 "74ACT32" H 5100 14974 50  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5100 14650 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 5100 14650 50  0001 C CNN
+F 4 "ON Semiconductor" H 5100 14983 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 5100 14983 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 5100 14983 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 5100 14650 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 5100 14983 50  0001 C CNN "Manufacturer Part Number"
+	2    5100 14650
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2249,46 +2249,46 @@ $EndComp
 $Comp
 L SW-Semtech:0582BQ D38
 U 1 1 5AF9AE2F
-P 4050 14150
-F 0 "D38" H 4050 13750 60  0000 C CNN
-F 1 "0582BQ" H 4050 13650 60  0000 C CNN
-F 2 "SW-Semtech:SC-75_3L" H 2650 13050 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 16150 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 16300 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 4000 16400 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 4050 13850 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 4000 16200 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 3900 16500 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3900 16600 60  0001 C CNN "Pricing"
-	1    4050 14150
-	-1   0    0    -1  
+P 4650 13500
+F 0 "D38" H 4650 13900 60  0000 C CNN
+F 1 "0582BQ" H 4650 13750 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 3250 12400 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4850 15500 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 4550 15650 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 4600 15750 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 4650 13200 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 4600 15550 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 4500 15850 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4500 15950 60  0001 C CNN "Pricing"
+	1    4650 13500
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR068
 U 1 1 5AF9AE36
-P 2850 14700
-F 0 "#PWR068" H 2850 14450 50  0001 C CNN
-F 1 "GNDREF" H 2850 14550 50  0000 C CNN
-F 2 "" H 2850 14700 50  0001 C CNN
-F 3 "" H 2850 14700 50  0001 C CNN
-	1    2850 14700
+P 2850 15050
+F 0 "#PWR068" H 2850 14800 50  0001 C CNN
+F 1 "GNDREF" H 2850 14900 50  0000 C CNN
+F 2 "" H 2850 15050 50  0001 C CNN
+F 3 "" H 2850 15050 50  0001 C CNN
+	1    2850 15050
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TPD1E10B06 D37
 U 1 1 5AF9AE47
-P 3200 14100
-F 0 "D37" H 3200 14350 60  0000 C CNN
-F 1 "TPD1E10B06" H 3300 14250 60  0000 C CNN
-F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 14000 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 15700 60  0001 C CNN
-F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 3450 15800 60  0001 C CNN "Characteristics"
-F 5 "Single-Channel ESD Protection Diode" H 3300 16000 60  0001 C CNN "Description"
-F 6 "TPD1E10B06DPYR" H 3200 14450 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3200 15900 60  0001 C CNN "Manufacturer"
-F 8 "0402 (imp)" H 3400 16100 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3250 15600 60  0001 C CNN "Pricing"
-	1    3200 14100
+P 4150 14350
+F 0 "D37" H 4150 14700 60  0000 C CNN
+F 1 "TPD1E10B06" H 4150 14550 60  0000 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 4050 14250 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 4300 15950 60  0001 C CNN
+F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 4400 16050 60  0001 C CNN "Characteristics"
+F 5 "Single-Channel ESD Protection Diode" H 4250 16250 60  0001 C CNN "Description"
+F 6 "TPD1E10B06DPYR" H 4150 14700 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Texas Instruments" H 4150 16150 60  0001 C CNN "Manufacturer"
+F 8 "0402 (imp)" H 4350 16350 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4200 15850 60  0001 C CNN "Pricing"
+	1    4150 14350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2305,83 +2305,83 @@ $EndComp
 $Comp
 L power:GNDREF #PWR069
 U 1 1 5AF9AE59
-P 3750 14700
-F 0 "#PWR069" H 3750 14450 50  0001 C CNN
-F 1 "GNDREF" H 3750 14550 50  0000 C CNN
-F 2 "" H 3750 14700 50  0001 C CNN
-F 3 "" H 3750 14700 50  0001 C CNN
-	1    3750 14700
+P 4850 14350
+F 0 "#PWR069" H 4850 14100 50  0001 C CNN
+F 1 "GNDREF" H 4850 14200 50  0000 C CNN
+F 2 "" H 4850 14350 50  0001 C CNN
+F 3 "" H 4850 14350 50  0001 C CNN
+	1    4850 14350
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Semtech:0582BQ D39
 U 1 1 5AF9AE68
-P 2650 14500
-F 0 "D39" V 2597 14687 60  0000 L CNN
-F 1 "0582BQ" V 2703 14687 60  0000 L CNN
-F 2 "SW-Semtech:SC-75_3L" H 1250 13400 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 16500 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 16650 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 2600 16750 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 2597 14787 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 2600 16550 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 2500 16850 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 2500 16950 60  0001 C CNN "Pricing"
-	1    2650 14500
+P 2650 14750
+F 0 "D39" V 2597 14937 60  0000 L CNN
+F 1 "0582BQ" V 2703 14937 60  0000 L CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 13650 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 16750 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 16900 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 2600 17000 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 2597 15037 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 2600 16800 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 2500 17100 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 2500 17200 60  0001 C CNN "Pricing"
+	1    2650 14750
 	0    -1   1    0   
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U6
 U 1 1 5AF9C046
-P 3250 17050
+P 3250 17250
 AR Path="/58DEDA38/5AF9C046" Ref="U6"  Part="1" 
 AR Path="/58DEDA38/58E9E25B/5AF9C046" Ref="U?"  Part="1" 
-F 0 "U6" H 3250 16759 60  0000 C CNN
-F 1 "TS12A44514" H 3250 16653 60  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 18350 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 17050 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 18600 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H 3650 18500 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 18150 60  0001 C CNN "Description"
-F 7 "TSSOP14" H 3550 18250 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 3300 18050 60  0001 C CNN "Pricing"
-F 9 "TS12A44514PWR" H 3250 16859 50  0001 C CNN "Manufacturer Part Number"
-	1    3250 17050
+F 0 "U6" H 3250 16950 60  0000 C CNN
+F 1 "TS12A44514" H 3250 16800 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 18550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 17250 60  0001 C CNN
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 18800 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 3650 18700 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 18350 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 18450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 18250 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 17059 50  0001 C CNN "Manufacturer Part Number"
+	1    3250 17250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C59
 U 1 1 5AF9C04D
-P 4500 16650
-F 0 "C59" V 4271 16650 50  0000 C CNN
-F 1 "1uF" V 4362 16650 50  0000 C CNN
-F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 4500 16650 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 4500 16650 50  0001 C CNN
-F 4 "10% -55ºC + 125ºC" H 4271 16750 50  0001 C CNN "Characteristics"
-F 5 "Film Capacitor" H 4271 16750 50  0001 C CNN "Description"
-F 6 "LDEDD4100KA0N00" H 4271 16750 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Kemet" H 4271 16750 50  0001 C CNN "Manufacturer"
-	1    4500 16650
+P 5350 16950
+F 0 "C59" V 5121 16950 50  0000 C CNN
+F 1 "1uF" V 5212 16950 50  0000 C CNN
+F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 5350 16950 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 5350 16950 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC" H 5121 17050 50  0001 C CNN "Characteristics"
+F 5 "Film Capacitor" H 5121 17050 50  0001 C CNN "Description"
+F 6 "LDEDD4100KA0N00" H 5121 17050 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Kemet" H 5121 17050 50  0001 C CNN "Manufacturer"
+	1    5350 16950
 	0    1    1    0   
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
 U 3 1 5AF9C057
-P 4700 17200
+P 5100 17400
 AR Path="/58DEDA38/58E9E2BE/5AF9C057" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF9C057" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF9C057" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5AF9C057" Ref="U7"  Part="3" 
-F 0 "U7" H 4700 16883 50  0000 C CNN
-F 1 "74ACT32" H 4700 16974 50  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 17200 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 17200 50  0001 C CNN
-F 4 "ON Semiconductor" H 4700 16983 50  0001 C CNN "Manufacturer"
-F 5 "4x 2:1 OR Gate" H 4700 16983 50  0001 C CNN "Description"
-F 6 "TSSOP14" H 4700 16983 50  0001 C CNN "Package ID"
-F 7 "0.00@0" H 4700 17200 60  0001 C CNN "Pricing"
-F 8 "MC74ACT32DTR2G" H 4700 16983 50  0001 C CNN "Manufacturer Part Number"
-	3    4700 17200
+F 0 "U7" H 5100 17750 50  0000 C CNN
+F 1 "74ACT32" H 5100 17650 50  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5100 17400 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 5100 17400 50  0001 C CNN
+F 4 "ON Semiconductor" H 5100 17183 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 5100 17183 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 5100 17183 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 5100 17400 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 5100 17183 50  0001 C CNN "Manufacturer Part Number"
+	3    5100 17400
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2453,46 +2453,46 @@ $EndComp
 $Comp
 L SW-Semtech:0582BQ D41
 U 1 1 5AF9C116
-P 4050 16900
-F 0 "D41" H 4050 16500 60  0000 C CNN
-F 1 "0582BQ" H 4050 16400 60  0000 C CNN
-F 2 "SW-Semtech:SC-75_3L" H 2650 15800 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 18900 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 19050 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 4000 19150 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 4050 16600 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 4000 18950 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 3900 19250 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3900 19350 60  0001 C CNN "Pricing"
-	1    4050 16900
-	-1   0    0    -1  
+P 4650 16250
+F 0 "D41" H 4650 16650 60  0000 C CNN
+F 1 "0582BQ" H 4650 16500 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 3250 15150 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4850 18250 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 4550 18400 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 4600 18500 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 4650 15950 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 4600 18300 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 4500 18600 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4500 18700 60  0001 C CNN "Pricing"
+	1    4650 16250
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR079
 U 1 1 5AF9C11D
-P 2850 17450
-F 0 "#PWR079" H 2850 17200 50  0001 C CNN
-F 1 "GNDREF" H 2850 17300 50  0000 C CNN
-F 2 "" H 2850 17450 50  0001 C CNN
-F 3 "" H 2850 17450 50  0001 C CNN
-	1    2850 17450
+P 2850 17800
+F 0 "#PWR079" H 2850 17550 50  0001 C CNN
+F 1 "GNDREF" H 2850 17650 50  0000 C CNN
+F 2 "" H 2850 17800 50  0001 C CNN
+F 3 "" H 2850 17800 50  0001 C CNN
+	1    2850 17800
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TPD1E10B06 D40
 U 1 1 5AF9C12E
-P 3200 16850
-F 0 "D40" H 3200 17100 60  0000 C CNN
-F 1 "TPD1E10B06" H 3300 17000 60  0000 C CNN
-F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 16750 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 18450 60  0001 C CNN
-F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 3450 18550 60  0001 C CNN "Characteristics"
-F 5 "Single-Channel ESD Protection Diode" H 3300 18750 60  0001 C CNN "Description"
-F 6 "TPD1E10B06DPYR" H 3200 17200 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3200 18650 60  0001 C CNN "Manufacturer"
-F 8 "0402 (imp)" H 3400 18850 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3250 18350 60  0001 C CNN "Pricing"
-	1    3200 16850
+P 4150 17100
+F 0 "D40" H 4150 17350 60  0000 C CNN
+F 1 "TPD1E10B06" H 4250 17250 60  0000 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 4050 17000 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 4300 18700 60  0001 C CNN
+F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 4400 18800 60  0001 C CNN "Characteristics"
+F 5 "Single-Channel ESD Protection Diode" H 4250 19000 60  0001 C CNN "Description"
+F 6 "TPD1E10B06DPYR" H 4150 17450 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Texas Instruments" H 4150 18900 60  0001 C CNN "Manufacturer"
+F 8 "0402 (imp)" H 4350 19100 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4200 18600 60  0001 C CNN "Pricing"
+	1    4150 17100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2509,83 +2509,83 @@ $EndComp
 $Comp
 L power:GNDREF #PWR080
 U 1 1 5AF9C140
-P 3750 17450
-F 0 "#PWR080" H 3750 17200 50  0001 C CNN
-F 1 "GNDREF" H 3750 17300 50  0000 C CNN
-F 2 "" H 3750 17450 50  0001 C CNN
-F 3 "" H 3750 17450 50  0001 C CNN
-	1    3750 17450
+P 4850 17100
+F 0 "#PWR080" H 4850 16850 50  0001 C CNN
+F 1 "GNDREF" H 4850 16950 50  0000 C CNN
+F 2 "" H 4850 17100 50  0001 C CNN
+F 3 "" H 4850 17100 50  0001 C CNN
+	1    4850 17100
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Semtech:0582BQ D42
 U 1 1 5AF9C14F
-P 2650 17250
-F 0 "D42" V 2597 17437 60  0000 L CNN
-F 1 "0582BQ" V 2703 17437 60  0000 L CNN
-F 2 "SW-Semtech:SC-75_3L" H 1250 16150 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 19250 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 19400 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 2600 19500 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 2597 17537 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 2600 19300 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 2500 19600 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 2500 19700 60  0001 C CNN "Pricing"
-	1    2650 17250
+P 2650 17500
+F 0 "D42" V 2597 17687 60  0000 L CNN
+F 1 "0582BQ" V 2703 17687 60  0000 L CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 16400 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 19500 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 19650 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 2600 19750 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 2597 17787 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 2600 19550 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 2500 19850 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 2500 19950 60  0001 C CNN "Pricing"
+	1    2650 17500
 	0    -1   1    0   
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U6
 U 4 1 5AF9C643
-P 3250 19800
+P 3250 20000
 AR Path="/58DEDA38/5AF9C643" Ref="U6"  Part="4" 
 AR Path="/58DEDA38/58E9E25B/5AF9C643" Ref="U?"  Part="1" 
-F 0 "U6" H 3250 19509 60  0000 C CNN
-F 1 "TS12A44514" H 3250 19403 60  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 21100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 19800 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 21350 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H 3650 21250 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 20900 60  0001 C CNN "Description"
-F 7 "TSSOP14" H 3550 21000 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 3300 20800 60  0001 C CNN "Pricing"
-F 9 "TS12A44514PWR" H 3250 19609 50  0001 C CNN "Manufacturer Part Number"
-	4    3250 19800
+F 0 "U6" H 3250 20250 60  0000 C CNN
+F 1 "TS12A44514" H 3250 20150 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 21300 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 20000 60  0001 C CNN
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 21550 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 3650 21450 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 21100 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 21200 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 21000 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 19809 50  0001 C CNN "Manufacturer Part Number"
+	4    3250 20000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C62
 U 1 1 5AF9C64A
-P 4500 19400
-F 0 "C62" V 4271 19400 50  0000 C CNN
-F 1 "1uF" V 4362 19400 50  0000 C CNN
-F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 4500 19400 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 4500 19400 50  0001 C CNN
-F 4 "10% -55ºC + 125ºC" H 4271 19500 50  0001 C CNN "Characteristics"
-F 5 "Film Capacitor" H 4271 19500 50  0001 C CNN "Description"
-F 6 "LDEDD4100KA0N00" H 4271 19500 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Kemet" H 4271 19500 50  0001 C CNN "Manufacturer"
-	1    4500 19400
+P 5350 19700
+F 0 "C62" V 5121 19700 50  0000 C CNN
+F 1 "1uF" V 5212 19700 50  0000 C CNN
+F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 5350 19700 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 5350 19700 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC" H 5121 19800 50  0001 C CNN "Characteristics"
+F 5 "Film Capacitor" H 5121 19800 50  0001 C CNN "Description"
+F 6 "LDEDD4100KA0N00" H 5121 19800 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Kemet" H 5121 19800 50  0001 C CNN "Manufacturer"
+	1    5350 19700
 	0    1    1    0   
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
 U 4 1 5AF9C654
-P 4700 19950
+P 5100 20150
 AR Path="/58DEDA38/58E9E2BE/5AF9C654" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF9C654" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF9C654" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5AF9C654" Ref="U7"  Part="4" 
-F 0 "U7" H 4700 19633 50  0000 C CNN
-F 1 "74ACT32" H 4700 19724 50  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 19950 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 19950 50  0001 C CNN
-F 4 "ON Semiconductor" H 4700 19733 50  0001 C CNN "Manufacturer"
-F 5 "4x 2:1 OR Gate" H 4700 19733 50  0001 C CNN "Description"
-F 6 "TSSOP14" H 4700 19733 50  0001 C CNN "Package ID"
-F 7 "0.00@0" H 4700 19950 60  0001 C CNN "Pricing"
-F 8 "MC74ACT32DTR2G" H 4700 19733 50  0001 C CNN "Manufacturer Part Number"
-	4    4700 19950
+F 0 "U7" H 5100 19833 50  0000 C CNN
+F 1 "74ACT32" H 5100 19924 50  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5100 20150 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 5100 20150 50  0001 C CNN
+F 4 "ON Semiconductor" H 5100 19933 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 5100 19933 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 5100 19933 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 5100 20150 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 5100 19933 50  0001 C CNN "Manufacturer Part Number"
+	4    5100 20150
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2657,46 +2657,46 @@ $EndComp
 $Comp
 L SW-Semtech:0582BQ D44
 U 1 1 5AF9C713
-P 4050 19650
-F 0 "D44" H 4050 19250 60  0000 C CNN
-F 1 "0582BQ" H 4050 19150 60  0000 C CNN
-F 2 "SW-Semtech:SC-75_3L" H 2650 18550 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 21650 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 21800 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 4000 21900 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 4050 19350 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 4000 21700 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 3900 22000 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3900 22100 60  0001 C CNN "Pricing"
-	1    4050 19650
-	-1   0    0    -1  
+P 4650 19000
+F 0 "D44" H 4650 19400 60  0000 C CNN
+F 1 "0582BQ" H 4650 19250 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 3250 17900 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4850 21000 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 4550 21150 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 4600 21250 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 4650 18700 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 4600 21050 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 4500 21350 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4500 21450 60  0001 C CNN "Pricing"
+	1    4650 19000
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR087
 U 1 1 5AF9C71A
-P 2850 20200
-F 0 "#PWR087" H 2850 19950 50  0001 C CNN
-F 1 "GNDREF" H 2850 20050 50  0000 C CNN
-F 2 "" H 2850 20200 50  0001 C CNN
-F 3 "" H 2850 20200 50  0001 C CNN
-	1    2850 20200
+P 2850 20550
+F 0 "#PWR087" H 2850 20300 50  0001 C CNN
+F 1 "GNDREF" H 2850 20400 50  0000 C CNN
+F 2 "" H 2850 20550 50  0001 C CNN
+F 3 "" H 2850 20550 50  0001 C CNN
+	1    2850 20550
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TPD1E10B06 D43
 U 1 1 5AF9C72B
-P 3200 19600
-F 0 "D43" H 3200 19850 60  0000 C CNN
-F 1 "TPD1E10B06" H 3300 19750 60  0000 C CNN
-F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 19500 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 21200 60  0001 C CNN
-F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 3450 21300 60  0001 C CNN "Characteristics"
-F 5 "Single-Channel ESD Protection Diode" H 3300 21500 60  0001 C CNN "Description"
-F 6 "TPD1E10B06DPYR" H 3200 19950 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3200 21400 60  0001 C CNN "Manufacturer"
-F 8 "0402 (imp)" H 3400 21600 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3250 21100 60  0001 C CNN "Pricing"
-	1    3200 19600
+P 4150 19850
+F 0 "D43" H 4150 20100 60  0000 C CNN
+F 1 "TPD1E10B06" H 4250 20000 60  0000 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 4050 19750 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 4300 21450 60  0001 C CNN
+F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 4400 21550 60  0001 C CNN "Characteristics"
+F 5 "Single-Channel ESD Protection Diode" H 4250 21750 60  0001 C CNN "Description"
+F 6 "TPD1E10B06DPYR" H 4150 20200 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Texas Instruments" H 4150 21650 60  0001 C CNN "Manufacturer"
+F 8 "0402 (imp)" H 4350 21850 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4200 21350 60  0001 C CNN "Pricing"
+	1    4150 19850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2713,83 +2713,83 @@ $EndComp
 $Comp
 L power:GNDREF #PWR088
 U 1 1 5AF9C73D
-P 3750 20200
-F 0 "#PWR088" H 3750 19950 50  0001 C CNN
-F 1 "GNDREF" H 3750 20050 50  0000 C CNN
-F 2 "" H 3750 20200 50  0001 C CNN
-F 3 "" H 3750 20200 50  0001 C CNN
-	1    3750 20200
+P 4850 19850
+F 0 "#PWR088" H 4850 19600 50  0001 C CNN
+F 1 "GNDREF" H 4850 19700 50  0000 C CNN
+F 2 "" H 4850 19850 50  0001 C CNN
+F 3 "" H 4850 19850 50  0001 C CNN
+	1    4850 19850
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Semtech:0582BQ D45
 U 1 1 5AF9C74C
-P 2650 20000
-F 0 "D45" V 2597 20187 60  0000 L CNN
-F 1 "0582BQ" V 2703 20187 60  0000 L CNN
-F 2 "SW-Semtech:SC-75_3L" H 1250 18900 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 22000 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 22150 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 2600 22250 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 2597 20287 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 2600 22050 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 2500 22350 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 2500 22450 60  0001 C CNN "Pricing"
-	1    2650 20000
+P 2650 20250
+F 0 "D45" V 2550 20450 60  0000 L CNN
+F 1 "0582BQ" V 2700 20450 60  0000 L CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 19150 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 22250 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 22400 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 2600 22500 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 2597 20537 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 2600 22300 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 2500 22600 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 2500 22700 60  0001 C CNN "Pricing"
+	1    2650 20250
 	0    -1   1    0   
 $EndComp
 $Comp
 L SW-Texas:TS12A44514 U6
 U 3 1 5AF9CFA9
-P 3250 22550
+P 3250 22750
 AR Path="/58DEDA38/5AF9CFA9" Ref="U6"  Part="3" 
 AR Path="/58DEDA38/58E9E25B/5AF9CFA9" Ref="U?"  Part="1" 
-F 0 "U6" H 3250 22259 60  0000 C CNN
-F 1 "TS12A44514" H 3250 22153 60  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 23850 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 22550 60  0001 C CNN
-F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 24100 60  0001 C CNN "Characteristics"
-F 5 "Texas Instruments" H 3650 24000 60  0001 C CNN "Manufacturer"
-F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 23650 60  0001 C CNN "Description"
-F 7 "TSSOP14" H 3550 23750 60  0001 C CNN "Package ID"
-F 8 "0.00@0" H 3300 23550 60  0001 C CNN "Pricing"
-F 9 "TS12A44514PWR" H 3250 22359 50  0001 C CNN "Manufacturer Part Number"
-	3    3250 22550
+F 0 "U6" H 3250 22450 60  0000 C CNN
+F 1 "TS12A44514" H 3250 22300 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 3750 24050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts12a44514.pdf" H 3250 22750 60  0001 C CNN
+F 4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" H 3600 24300 60  0001 C CNN "Characteristics"
+F 5 "Texas Instruments" H 3650 24200 60  0001 C CNN "Manufacturer"
+F 6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" H 3550 23850 60  0001 C CNN "Description"
+F 7 "TSSOP14" H 3550 23950 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 3300 23750 60  0001 C CNN "Pricing"
+F 9 "TS12A44514PWR" H 3250 22559 50  0001 C CNN "Manufacturer Part Number"
+	3    3250 22750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C65
 U 1 1 5AF9CFB0
-P 4500 22150
-F 0 "C65" V 4271 22150 50  0000 C CNN
-F 1 "1uF" V 4362 22150 50  0000 C CNN
-F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 4500 22150 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 4500 22150 50  0001 C CNN
-F 4 "10% -55ºC + 125ºC" H 4271 22250 50  0001 C CNN "Characteristics"
-F 5 "Film Capacitor" H 4271 22250 50  0001 C CNN "Description"
-F 6 "LDEDD4100KA0N00" H 4271 22250 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Kemet" H 4271 22250 50  0001 C CNN "Manufacturer"
-	1    4500 22150
+P 5350 22450
+F 0 "C65" V 5121 22450 50  0000 C CNN
+F 1 "1uF" V 5212 22450 50  0000 C CNN
+F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric" H 5350 22450 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 5350 22450 50  0001 C CNN
+F 4 "10% -55ºC + 125ºC" H 5121 22550 50  0001 C CNN "Characteristics"
+F 5 "Film Capacitor" H 5121 22550 50  0001 C CNN "Description"
+F 6 "LDEDD4100KA0N00" H 5121 22550 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Kemet" H 5121 22550 50  0001 C CNN "Manufacturer"
+	1    5350 22450
 	0    1    1    0   
 $EndComp
 $Comp
 L Logic_74xx:74LS32 U?
 U 1 1 5AF9CFBA
-P 4700 22700
+P 5100 22900
 AR Path="/58DEDA38/58E9E2BE/5AF9CFBA" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E9F4/5AF9CFBA" Ref="U?"  Part="2" 
 AR Path="/58DEDA38/58E9E25B/5AF9CFBA" Ref="U?"  Part="1" 
 AR Path="/58DEDA38/5AF9CFBA" Ref="U7"  Part="1" 
-F 0 "U7" H 4700 22933 50  0000 C CNN
-F 1 "74ACT32" H 4700 23024 50  0000 C CNN
-F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 4700 22700 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 4700 22700 50  0001 C CNN
-F 4 "ON Semiconductor" H 4700 23033 50  0001 C CNN "Manufacturer"
-F 5 "4x 2:1 OR Gate" H 4700 23033 50  0001 C CNN "Description"
-F 6 "TSSOP14" H 4700 23033 50  0001 C CNN "Package ID"
-F 7 "0.00@0" H 4700 22700 60  0001 C CNN "Pricing"
-F 8 "MC74ACT32DTR2G" H 4700 23033 50  0001 C CNN "Manufacturer Part Number"
-	1    4700 22700
+F 0 "U7" H 5100 23133 50  0000 C CNN
+F 1 "74ACT32" H 5100 23224 50  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5100 22900 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/308/MC74AC32-D-104973.pdf" H 5100 22900 50  0001 C CNN
+F 4 "ON Semiconductor" H 5100 23233 50  0001 C CNN "Manufacturer"
+F 5 "4x 2:1 OR Gate" H 5100 23233 50  0001 C CNN "Description"
+F 6 "TSSOP14" H 5100 23233 50  0001 C CNN "Package ID"
+F 7 "0.00@0" H 5100 22900 60  0001 C CNN "Pricing"
+F 8 "MC74ACT32DTR2G" H 5100 23233 50  0001 C CNN "Manufacturer Part Number"
+	1    5100 22900
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2847,60 +2847,48 @@ F 3 "" H 7350 24000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J29
-U 1 1 5AF9D06D
-P 2350 22150
-F 0 "J29" H 2430 22142 50  0000 L CNN
-F 1 "Device 7" H 2430 22051 50  0000 L CNN
-F 2 "SW-Hirose:DF11-8DP-2DSA" H 2350 22150 50  0001 C CNN
-F 3 "" H 2350 22150 50  0001 C CNN
-F 4 "0.00@0" H 2350 22150 60  0001 C CNN "Pricing"
-	1    2350 22150
-	-1   0    0    -1  
-$EndComp
-$Comp
 L SW-Semtech:0582BQ D47
 U 1 1 5AF9D079
-P 4050 22400
-F 0 "D47" H 4050 22000 60  0000 C CNN
-F 1 "0582BQ" H 4050 21900 60  0000 C CNN
-F 2 "SW-Semtech:SC-75_3L" H 2650 21300 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4250 24400 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 3950 24550 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 4000 24650 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 4050 22100 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 4000 24450 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 3900 24750 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3900 24850 60  0001 C CNN "Pricing"
-	1    4050 22400
-	-1   0    0    -1  
+P 4650 21750
+F 0 "D47" H 4650 22150 60  0000 C CNN
+F 1 "0582BQ" H 4650 22000 60  0000 C CNN
+F 2 "SW-Semtech:SC-75_3L" H 3250 20650 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 4850 23750 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 4550 23900 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 4600 24000 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 4650 21450 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 4600 23800 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 4500 24100 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4500 24200 60  0001 C CNN "Pricing"
+	1    4650 21750
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR095
 U 1 1 5AF9D080
-P 2850 22950
-F 0 "#PWR095" H 2850 22700 50  0001 C CNN
-F 1 "GNDREF" H 2850 22800 50  0000 C CNN
-F 2 "" H 2850 22950 50  0001 C CNN
-F 3 "" H 2850 22950 50  0001 C CNN
-	1    2850 22950
+P 2850 23300
+F 0 "#PWR095" H 2850 23050 50  0001 C CNN
+F 1 "GNDREF" H 2850 23150 50  0000 C CNN
+F 2 "" H 2850 23300 50  0001 C CNN
+F 3 "" H 2850 23300 50  0001 C CNN
+	1    2850 23300
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TPD1E10B06 D46
 U 1 1 5AF9D091
-P 3200 22350
-F 0 "D46" H 3200 22600 60  0000 C CNN
-F 1 "TPD1E10B06" H 3300 22500 60  0000 C CNN
-F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 3100 22250 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 3350 23950 60  0001 C CNN
-F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 3450 24050 60  0001 C CNN "Characteristics"
-F 5 "Single-Channel ESD Protection Diode" H 3300 24250 60  0001 C CNN "Description"
-F 6 "TPD1E10B06DPYR" H 3200 22700 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Texas Instruments" H 3200 24150 60  0001 C CNN "Manufacturer"
-F 8 "0402 (imp)" H 3400 24350 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 3250 23850 60  0001 C CNN "Pricing"
-	1    3200 22350
+P 4150 22600
+F 0 "D46" H 4150 22850 60  0000 C CNN
+F 1 "TPD1E10B06" H 4250 22750 60  0000 C CNN
+F 2 "SW-Texas:DPY_(R-PX1SON-N2)" H 4050 22500 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" H 4300 24200 60  0001 C CNN
+F 4 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" H 4400 24300 60  0001 C CNN "Characteristics"
+F 5 "Single-Channel ESD Protection Diode" H 4250 24500 60  0001 C CNN "Description"
+F 6 "TPD1E10B06DPYR" H 4150 22950 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Texas Instruments" H 4150 24400 60  0001 C CNN "Manufacturer"
+F 8 "0402 (imp)" H 4350 24600 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 4200 24100 60  0001 C CNN "Pricing"
+	1    4150 22600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2917,29 +2905,29 @@ $EndComp
 $Comp
 L power:GNDREF #PWR096
 U 1 1 5AF9D0A3
-P 3750 22950
-F 0 "#PWR096" H 3750 22700 50  0001 C CNN
-F 1 "GNDREF" H 3750 22800 50  0000 C CNN
-F 2 "" H 3750 22950 50  0001 C CNN
-F 3 "" H 3750 22950 50  0001 C CNN
-	1    3750 22950
+P 4850 22600
+F 0 "#PWR096" H 4850 22350 50  0001 C CNN
+F 1 "GNDREF" H 4850 22450 50  0000 C CNN
+F 2 "" H 4850 22600 50  0001 C CNN
+F 3 "" H 4850 22600 50  0001 C CNN
+	1    4850 22600
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Semtech:0582BQ D48
 U 1 1 5AF9D0B2
-P 2650 22750
-F 0 "D48" V 2597 22937 60  0000 L CNN
-F 1 "0582BQ" V 2703 22937 60  0000 L CNN
-F 2 "SW-Semtech:SC-75_3L" H 1250 21650 60  0001 C CNN
-F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 24750 60  0001 C CNN
-F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 24900 60  0001 C CNN "Characteristics"
-F 5 "Low Capacitance TVS for Automotive Applications" H 2600 25000 60  0001 C CNN "Description"
-F 6 "RCLAMP0582BQTCT" H 2597 23037 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Semtech International AG" H 2600 24800 60  0001 C CNN "Manufacturer"
-F 8 "SC75 / SOT 523" H 2500 25100 60  0001 C CNN "Package ID"
-F 9 "0.00@0" H 2500 25200 60  0001 C CNN "Pricing"
-	1    2650 22750
+P 2650 23000
+F 0 "D48" V 2597 23187 60  0000 L CNN
+F 1 "0582BQ" V 2703 23187 60  0000 L CNN
+F 2 "SW-Semtech:SC-75_3L" H 1250 21900 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 2850 25000 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 2550 25150 60  0001 C CNN "Characteristics"
+F 5 "Low Capacitance TVS for Automotive Applications" H 2600 25250 60  0001 C CNN "Description"
+F 6 "RCLAMP0582BQTCT" H 2597 23287 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Semtech International AG" H 2600 25050 60  0001 C CNN "Manufacturer"
+F 8 "SC75 / SOT 523" H 2500 25350 60  0001 C CNN "Package ID"
+F 9 "0.00@0" H 2500 25450 60  0001 C CNN "Pricing"
+	1    2650 23000
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -3723,10 +3711,10 @@ Text Label 19700 15500 2    60   ~ 0
 MIC-MUTE-7
 Text Notes 19550 23300 0    60   ~ 0
 PTT logic, can either be controlled via headset\nPTT wire or through IO expander from PI\n\nMic Mute logic, IO expander accepts signal into nano, \nIO expander provides signal from nano. Switching is\ncontrolled via i2c SPST switch
-Text Notes 3700 2550 0    60   ~ 0
+Text Notes 4950 2950 0    60   ~ 0
 cap to block dc bias from devices
-Text Notes 1100 3350 0    60   ~ 0
-1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
+Text Notes 950  3350 0    60   ~ 0
+1-Ground\n2-Mic -\n3-R audio to MUX\n4-+5V for active cables\n5-L audio to MUX\n6-PTT +\n7- Mic +\n8- PTT -
 Text Notes 1100 2450 0    60   ~ 0
 Device power provided by\nexternal connection
 Text Label 8650 4700 0    60   ~ 0
@@ -3747,12 +3735,8 @@ Text Label 8650 4000 0    60   ~ 0
 PTT-7
 Text Notes 9250 3000 0    60   ~ 0
 out 1 goes to Mixer\nout 2 goes to L_In/R_in bus
-Text Notes 3700 5300 0    60   ~ 0
+Text Notes 4950 5700 0    60   ~ 0
 cap to block dc bias from devices
-Text Notes 1100 6100 0    60   ~ 0
-1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
-Text Notes 1100 5200 0    60   ~ 0
-Device power provided by\nexternal connection
 Text Label 8650 7450 0    60   ~ 0
 PTT-0
 Text Label 8650 7350 0    60   ~ 0
@@ -3771,12 +3755,8 @@ Text Label 8650 6750 0    60   ~ 0
 PTT-7
 Text Notes 9200 5750 0    60   ~ 0
 out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
-Text Notes 3700 8050 0    60   ~ 0
+Text Notes 4950 8450 0    60   ~ 0
 cap to block dc bias from devices
-Text Notes 1100 8850 0    60   ~ 0
-1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
-Text Notes 1100 7950 0    60   ~ 0
-Device power provided by\nexternal connection
 Text Label 8650 10200 0    60   ~ 0
 PTT-0
 Text Label 8650 10100 0    60   ~ 0
@@ -3795,12 +3775,8 @@ Text Label 8650 9500 0    60   ~ 0
 PTT-7
 Text Notes 9250 8500 0    60   ~ 0
 out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
-Text Notes 3700 10800 0    60   ~ 0
+Text Notes 4950 11200 0    60   ~ 0
 cap to block dc bias from devices
-Text Notes 1100 11600 0    60   ~ 0
-1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
-Text Notes 1100 10700 0    60   ~ 0
-Device power provided by\nexternal connection
 Text Label 8650 12950 0    60   ~ 0
 PTT-0
 Text Label 8650 12850 0    60   ~ 0
@@ -3819,12 +3795,8 @@ Text Label 8650 12250 0    60   ~ 0
 PTT-7
 Text Notes 9250 11250 0    60   ~ 0
 out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
-Text Notes 3700 13550 0    60   ~ 0
+Text Notes 4950 13950 0    60   ~ 0
 cap to block dc bias from devices
-Text Notes 1100 14350 0    60   ~ 0
-1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
-Text Notes 1100 13350 0    60   ~ 0
-Device power provided by\nexternal connection
 Text Label 8650 15700 0    60   ~ 0
 PTT-0
 Text Label 8650 15600 0    60   ~ 0
@@ -3843,12 +3815,8 @@ Text Label 8650 15000 0    60   ~ 0
 PTT-7
 Text Notes 9250 14000 0    60   ~ 0
 out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
-Text Notes 3700 16300 0    60   ~ 0
+Text Notes 4950 16700 0    60   ~ 0
 cap to block dc bias from devices
-Text Notes 1100 17100 0    60   ~ 0
-1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
-Text Notes 1100 16200 0    60   ~ 0
-Device power provided by\nexternal connection
 Text Label 8650 18450 0    60   ~ 0
 PTT-0
 Text Label 8650 18350 0    60   ~ 0
@@ -3867,12 +3835,8 @@ Text Label 8650 17750 0    60   ~ 0
 PTT-7
 Text Notes 9250 16750 0    60   ~ 0
 out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
-Text Notes 3700 19050 0    60   ~ 0
+Text Notes 4950 19450 0    60   ~ 0
 cap to block dc bias from devices
-Text Notes 1100 19850 0    60   ~ 0
-1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
-Text Notes 1100 18950 0    60   ~ 0
-Device power provided by\nexternal connection
 Text Label 8650 21200 0    60   ~ 0
 PTT-0
 Text Label 8650 21100 0    60   ~ 0
@@ -3891,12 +3855,8 @@ Text Label 8650 20500 0    60   ~ 0
 PTT-7
 Text Notes 9250 19500 0    60   ~ 0
 out 1 goes to L_In/R_in bus\nout 2 goes to Mixer
-Text Notes 3700 21800 0    60   ~ 0
+Text Notes 4950 22200 0    60   ~ 0
 cap to block dc bias from devices
-Text Notes 1100 22600 0    60   ~ 0
-1-Ground\n2-L audio to MUX\n3-R audio to MUX\n4-Mic +\n5-Mic -\n6-+5V for active cables\n7- PTT +\n8- PTT -
-Text Notes 1100 21700 0    60   ~ 0
-Device power provided by\nexternal connection
 Text Label 8650 23950 0    60   ~ 0
 PTT-0
 Text Label 8650 23850 0    60   ~ 0
@@ -4704,29 +4664,17 @@ Wire Wire Line
 Wire Wire Line
 	21150 13900 21050 13900
 Wire Wire Line
-	2850 2600 2850 3000
+	2850 2600 2850 2700
 Wire Wire Line
 	2550 2600 2850 2600
 Wire Wire Line
-	2550 2700 4250 2700
+	3550 3350 3550 3500
 Wire Wire Line
-	2550 2800 4350 2800
+	2950 3350 3550 3350
 Wire Wire Line
-	2550 3300 2600 3300
+	2950 3400 2950 3350
 Wire Wire Line
-	3550 3150 3550 3300
-Wire Wire Line
-	2950 3150 3550 3150
-Wire Wire Line
-	2950 3200 2950 3150
-Wire Wire Line
-	2550 3200 2750 3200
-Wire Wire Line
-	2550 2900 2950 2900
-Wire Wire Line
-	2550 3000 2850 3000
-Wire Wire Line
-	3550 3450 4400 3450
+	3550 3650 4800 3650
 Wire Wire Line
 	8350 4000 8650 4000
 Wire Wire Line
@@ -4778,59 +4726,25 @@ Wire Wire Line
 Wire Wire Line
 	7350 4250 7000 4250
 Wire Wire Line
-	4250 2700 4250 3050
+	4300 3000 4300 2400
 Wire Wire Line
-	4250 3050 4200 3050
+	4300 2400 4500 2400
 Wire Wire Line
-	4350 2800 4350 3250
+	2600 3500 2600 3600
 Wire Wire Line
-	4350 3250 4200 3250
+	2600 3600 2550 3600
 Wire Wire Line
-	2550 3100 2650 3100
+	2750 3400 2750 3600
 Wire Wire Line
-	2650 3100 2650 2450
-Wire Wire Line
-	2950 2900 2950 3050
-Wire Wire Line
-	2950 3050 3000 3050
-Wire Wire Line
-	3400 3050 3750 3050
-Wire Wire Line
-	3750 3050 3750 3150
-Wire Wire Line
-	3900 3150 3750 3150
-Wire Wire Line
-	2600 3300 2600 3350
-Wire Wire Line
-	2600 3350 2550 3350
-Wire Wire Line
-	2750 3200 2750 3350
-Wire Wire Line
-	2650 3650 2850 3650
-Wire Wire Line
-	2850 5350 2850 5750
+	2650 3900 2850 3900
 Wire Wire Line
 	2550 5350 2850 5350
 Wire Wire Line
-	2550 5450 4250 5450
-Wire Wire Line
 	2550 5550 4350 5550
 Wire Wire Line
-	2550 6050 2600 6050
+	3550 6100 3550 6250
 Wire Wire Line
-	3550 5900 3550 6050
-Wire Wire Line
-	2950 5900 3550 5900
-Wire Wire Line
-	2950 5950 2950 5900
-Wire Wire Line
-	2550 5950 2750 5950
-Wire Wire Line
-	2550 5650 2950 5650
-Wire Wire Line
-	2550 5750 2850 5750
-Wire Wire Line
-	3550 6200 4400 6200
+	3550 6400 4800 6400
 Wire Wire Line
 	8350 6750 8650 6750
 Wire Wire Line
@@ -4880,61 +4794,37 @@ Wire Wire Line
 Wire Wire Line
 	7350 7000 7000 7000
 Wire Wire Line
-	5200 6300 5000 6300
+	5500 6500 5400 6500
 Wire Wire Line
-	4250 5450 4250 5800
+	4250 5750 4250 5150
 Wire Wire Line
-	4250 5800 4200 5800
+	4250 5150 4500 5150
 Wire Wire Line
-	4350 5550 4350 6000
+	4350 5550 4350 5350
 Wire Wire Line
-	4350 6000 4200 6000
+	4350 5350 4500 5350
 Wire Wire Line
-	2550 5850 2650 5850
+	3850 5950 3850 6050
 Wire Wire Line
-	2650 5850 2650 5200
+	3850 6050 3950 6050
 Wire Wire Line
-	2950 5650 2950 5800
+	2600 6250 2600 6350
 Wire Wire Line
-	2950 5800 3000 5800
+	2600 6350 2550 6350
 Wire Wire Line
-	3400 5800 3750 5800
+	2650 6650 2850 6650
 Wire Wire Line
-	3750 5800 3750 5900
+	5500 6500 5500 6650
 Wire Wire Line
-	3900 5900 3750 5900
-Wire Wire Line
-	2600 6050 2600 6100
-Wire Wire Line
-	2600 6100 2550 6100
-Wire Wire Line
-	2750 5950 2750 6100
-Wire Wire Line
-	2650 6400 2850 6400
-Wire Wire Line
-	5200 6300 5200 6650
-Wire Wire Line
-	5200 6650 3900 6650
-Wire Wire Line
-	2850 8100 2850 8500
+	5500 6650 3900 6650
 Wire Wire Line
 	2550 8100 2850 8100
-Wire Wire Line
-	2550 8200 4250 8200
 Wire Wire Line
 	2550 8300 4350 8300
 Wire Wire Line
 	2550 8800 2600 8800
 Wire Wire Line
-	2950 8700 2950 8800
-Wire Wire Line
-	2550 8700 2750 8700
-Wire Wire Line
-	2550 8400 2950 8400
-Wire Wire Line
-	2550 8500 2850 8500
-Wire Wire Line
-	3550 8950 4400 8950
+	3550 9150 4800 9150
 Wire Wire Line
 	8350 9500 8650 9500
 Wire Wire Line
@@ -4984,65 +4874,41 @@ Wire Wire Line
 Wire Wire Line
 	7350 9750 7000 9750
 Wire Wire Line
-	5200 9050 5000 9050
+	5450 9250 5400 9250
 Wire Wire Line
-	4250 8200 4250 8550
+	4250 7900 4500 7900
 Wire Wire Line
-	4250 8550 4200 8550
+	4350 8300 4350 8100
 Wire Wire Line
-	4350 8300 4350 8750
+	4350 8100 4500 8100
 Wire Wire Line
-	4350 8750 4200 8750
+	2650 8400 2650 7950
 Wire Wire Line
-	2550 8600 2650 8600
+	3850 8700 3850 8800
 Wire Wire Line
-	2650 8600 2650 7950
+	3850 8800 3950 8800
 Wire Wire Line
-	2950 8400 2950 8550
+	2600 8800 2600 9100
 Wire Wire Line
-	2950 8550 3000 8550
+	2600 9100 2550 9100
 Wire Wire Line
-	3400 8550 3750 8550
+	2750 9000 2750 9100
 Wire Wire Line
-	3750 8550 3750 8650
+	2650 9400 2850 9400
 Wire Wire Line
-	3900 8650 3750 8650
+	5450 9250 5450 9400
 Wire Wire Line
-	2600 8800 2600 8850
-Wire Wire Line
-	2600 8850 2550 8850
-Wire Wire Line
-	2750 8700 2750 8850
-Wire Wire Line
-	2650 9150 2850 9150
-Wire Wire Line
-	5200 9050 5200 9400
-Wire Wire Line
-	5200 9400 3900 9400
-Wire Wire Line
-	2850 10850 2850 11250
+	5450 9400 3900 9400
 Wire Wire Line
 	2550 10850 2850 10850
-Wire Wire Line
-	2550 10950 4250 10950
 Wire Wire Line
 	2550 11050 4350 11050
 Wire Wire Line
 	2550 11550 2600 11550
 Wire Wire Line
-	3550 11400 3550 11550
+	3550 11600 3550 11750
 Wire Wire Line
-	2950 11400 3550 11400
-Wire Wire Line
-	2950 11450 2950 11400
-Wire Wire Line
-	2550 11450 2750 11450
-Wire Wire Line
-	2550 11150 2950 11150
-Wire Wire Line
-	2550 11250 2850 11250
-Wire Wire Line
-	3550 11700 4400 11700
+	3550 11900 4800 11900
 Wire Wire Line
 	8350 12250 8650 12250
 Wire Wire Line
@@ -5092,65 +4958,41 @@ Wire Wire Line
 Wire Wire Line
 	7350 12500 7000 12500
 Wire Wire Line
-	5200 11800 5000 11800
+	5450 12000 5400 12000
 Wire Wire Line
-	4250 10950 4250 11300
+	4250 11250 4250 10650
 Wire Wire Line
-	4250 11300 4200 11300
+	4250 10650 4500 10650
 Wire Wire Line
-	4350 11050 4350 11500
+	4350 11050 4350 10850
 Wire Wire Line
-	4350 11500 4200 11500
+	4350 10850 4500 10850
 Wire Wire Line
-	2550 11350 2650 11350
+	3850 11450 3850 11550
 Wire Wire Line
-	2650 11350 2650 10700
+	3850 11550 3950 11550
 Wire Wire Line
-	2950 11150 2950 11300
+	2600 11550 2600 11750
 Wire Wire Line
-	2950 11300 3000 11300
+	2600 11850 2550 11850
 Wire Wire Line
-	3400 11300 3750 11300
+	2750 11600 2750 11850
 Wire Wire Line
-	3750 11300 3750 11400
+	2650 12150 2850 12150
 Wire Wire Line
-	3900 11400 3750 11400
+	5450 12000 5450 12150
 Wire Wire Line
-	2600 11550 2600 11600
-Wire Wire Line
-	2600 11600 2550 11600
-Wire Wire Line
-	2750 11450 2750 11600
-Wire Wire Line
-	2650 11900 2850 11900
-Wire Wire Line
-	5200 11800 5200 12150
-Wire Wire Line
-	5200 12150 3900 12150
-Wire Wire Line
-	2850 13600 2850 14000
+	5450 12150 3900 12150
 Wire Wire Line
 	2550 13600 2850 13600
-Wire Wire Line
-	2550 13700 4250 13700
 Wire Wire Line
 	2550 13800 4350 13800
 Wire Wire Line
 	2550 14300 2600 14300
 Wire Wire Line
-	3550 14150 3550 14300
+	3550 14350 3550 14500
 Wire Wire Line
-	2950 14150 3550 14150
-Wire Wire Line
-	2950 14200 2950 14150
-Wire Wire Line
-	2550 14200 2750 14200
-Wire Wire Line
-	2550 13900 2950 13900
-Wire Wire Line
-	2550 14000 2850 14000
-Wire Wire Line
-	3550 14450 4400 14450
+	3550 14650 4800 14650
 Wire Wire Line
 	8350 15000 8650 15000
 Wire Wire Line
@@ -5200,65 +5042,41 @@ Wire Wire Line
 Wire Wire Line
 	7350 15250 7000 15250
 Wire Wire Line
-	5200 14550 5000 14550
+	5450 14750 5400 14750
 Wire Wire Line
-	4250 13700 4250 14050
+	4250 14000 4250 13400
 Wire Wire Line
-	4250 14050 4200 14050
+	4250 13400 4500 13400
 Wire Wire Line
-	4350 13800 4350 14250
+	4350 13800 4350 13600
 Wire Wire Line
-	4350 14250 4200 14250
+	4350 13600 4500 13600
 Wire Wire Line
-	2550 14100 2650 14100
+	3850 14200 3850 14300
 Wire Wire Line
-	2650 14100 2650 13450
+	3850 14300 3950 14300
 Wire Wire Line
-	2950 13900 2950 14050
+	2600 14300 2600 14500
 Wire Wire Line
-	2950 14050 3000 14050
+	2600 14600 2550 14600
 Wire Wire Line
-	3400 14050 3750 14050
+	2750 14350 2750 14600
 Wire Wire Line
-	3750 14050 3750 14150
+	2650 14900 2850 14900
 Wire Wire Line
-	3900 14150 3750 14150
+	5450 14750 5450 14900
 Wire Wire Line
-	2600 14300 2600 14350
-Wire Wire Line
-	2600 14350 2550 14350
-Wire Wire Line
-	2750 14200 2750 14350
-Wire Wire Line
-	2650 14650 2850 14650
-Wire Wire Line
-	5200 14550 5200 14900
-Wire Wire Line
-	5200 14900 3900 14900
-Wire Wire Line
-	2850 16350 2850 16750
+	5450 14900 3900 14900
 Wire Wire Line
 	2550 16350 2850 16350
-Wire Wire Line
-	2550 16450 4250 16450
 Wire Wire Line
 	2550 16550 4350 16550
 Wire Wire Line
 	2550 17050 2600 17050
 Wire Wire Line
-	3550 16900 3550 17050
+	3550 17100 3550 17250
 Wire Wire Line
-	2950 16900 3550 16900
-Wire Wire Line
-	2950 16950 2950 16900
-Wire Wire Line
-	2550 16950 2750 16950
-Wire Wire Line
-	2550 16650 2950 16650
-Wire Wire Line
-	2550 16750 2850 16750
-Wire Wire Line
-	3550 17200 4400 17200
+	3550 17400 4800 17400
 Wire Wire Line
 	8350 17750 8650 17750
 Wire Wire Line
@@ -5308,61 +5126,39 @@ Wire Wire Line
 Wire Wire Line
 	7350 18000 7000 18000
 Wire Wire Line
-	5200 17300 5000 17300
+	5450 17500 5400 17500
 Wire Wire Line
-	4250 16450 4250 16800
+	4250 16750 4250 16150
 Wire Wire Line
-	4250 16800 4200 16800
+	4250 16150 4500 16150
 Wire Wire Line
-	4350 16550 4350 17000
+	4350 16550 4350 16350
 Wire Wire Line
-	4350 17000 4200 17000
+	4350 16350 4500 16350
 Wire Wire Line
-	2550 16850 2650 16850
+	3850 16950 3850 17050
 Wire Wire Line
-	2650 16850 2650 16200
+	3850 17050 3950 17050
 Wire Wire Line
-	2950 16650 2950 16800
+	2600 17050 2600 17250
 Wire Wire Line
-	2950 16800 3000 16800
+	2600 17350 2550 17350
 Wire Wire Line
-	3400 16800 3750 16800
+	2750 17100 2750 17350
 Wire Wire Line
-	3750 16800 3750 16900
+	2650 17650 2850 17650
 Wire Wire Line
-	3900 16900 3750 16900
+	5450 17500 5450 17650
 Wire Wire Line
-	2600 17050 2600 17100
-Wire Wire Line
-	2600 17100 2550 17100
-Wire Wire Line
-	2750 16950 2750 17100
-Wire Wire Line
-	2650 17400 2850 17400
-Wire Wire Line
-	5200 17300 5200 17650
-Wire Wire Line
-	5200 17650 3900 17650
-Wire Wire Line
-	2850 19100 2850 19500
+	5450 17650 3900 17650
 Wire Wire Line
 	2550 19100 2850 19100
-Wire Wire Line
-	2550 19200 4250 19200
 Wire Wire Line
 	2550 19300 4350 19300
 Wire Wire Line
 	2550 19800 2600 19800
 Wire Wire Line
-	2950 19700 2950 19800
-Wire Wire Line
-	2550 19700 2750 19700
-Wire Wire Line
-	2550 19400 2950 19400
-Wire Wire Line
-	2550 19500 2850 19500
-Wire Wire Line
-	3550 19950 4400 19950
+	3550 20150 4800 20150
 Wire Wire Line
 	8350 20500 8650 20500
 Wire Wire Line
@@ -5412,65 +5208,41 @@ Wire Wire Line
 Wire Wire Line
 	7350 20750 7000 20750
 Wire Wire Line
-	5200 20050 5000 20050
+	5450 20250 5400 20250
 Wire Wire Line
-	4250 19200 4250 19550
+	4250 19500 4250 18900
 Wire Wire Line
-	4250 19550 4200 19550
+	4250 18900 4500 18900
 Wire Wire Line
-	4350 19300 4350 19750
+	4350 19300 4350 19100
 Wire Wire Line
-	4350 19750 4200 19750
+	4350 19100 4500 19100
 Wire Wire Line
-	2550 19600 2650 19600
+	2650 19400 2650 18950
 Wire Wire Line
-	2650 19600 2650 18950
+	3850 19700 3850 19800
 Wire Wire Line
-	2950 19400 2950 19550
+	3850 19800 3950 19800
 Wire Wire Line
-	2950 19550 3000 19550
+	2600 19800 2600 20100
 Wire Wire Line
-	3400 19550 3750 19550
+	2600 20100 2550 20100
 Wire Wire Line
-	3750 19550 3750 19650
+	2750 20000 2750 20100
 Wire Wire Line
-	3900 19650 3750 19650
+	2650 20400 2850 20400
 Wire Wire Line
-	2600 19800 2600 19850
+	5450 20250 5450 20400
 Wire Wire Line
-	2600 19850 2550 19850
-Wire Wire Line
-	2750 19700 2750 19850
-Wire Wire Line
-	2650 20150 2850 20150
-Wire Wire Line
-	5200 20050 5200 20400
-Wire Wire Line
-	5200 20400 3900 20400
-Wire Wire Line
-	2850 21850 2850 22250
+	5450 20400 3900 20400
 Wire Wire Line
 	2550 21850 2850 21850
 Wire Wire Line
-	2550 21950 4250 21950
-Wire Wire Line
 	2550 22050 4350 22050
 Wire Wire Line
-	2550 22550 2600 22550
+	3550 22600 3550 22750
 Wire Wire Line
-	3550 22400 3550 22550
-Wire Wire Line
-	2950 22400 3550 22400
-Wire Wire Line
-	2950 22450 2950 22400
-Wire Wire Line
-	2550 22450 2750 22450
-Wire Wire Line
-	2550 22150 2950 22150
-Wire Wire Line
-	2550 22250 2850 22250
-Wire Wire Line
-	3550 22700 4400 22700
+	3550 22900 4800 22900
 Wire Wire Line
 	8350 23250 8650 23250
 Wire Wire Line
@@ -5520,35 +5292,25 @@ Wire Wire Line
 Wire Wire Line
 	7350 23500 7000 23500
 Wire Wire Line
-	4250 21950 4250 22300
+	4250 22250 4250 21650
 Wire Wire Line
-	4250 22300 4200 22300
+	4250 21650 4500 21650
 Wire Wire Line
-	4350 22050 4350 22500
+	4350 22050 4350 21850
 Wire Wire Line
-	4350 22500 4200 22500
+	4350 21850 4500 21850
 Wire Wire Line
-	2550 22350 2650 22350
+	3850 22450 3850 22550
 Wire Wire Line
-	2650 22350 2650 21700
+	3850 22550 3950 22550
 Wire Wire Line
-	2950 22150 2950 22300
+	2600 22750 2600 22850
 Wire Wire Line
-	2950 22300 3000 22300
+	2600 22850 2550 22850
 Wire Wire Line
-	3400 22300 3750 22300
+	2750 22600 2750 22850
 Wire Wire Line
-	3750 22300 3750 22400
-Wire Wire Line
-	3900 22400 3750 22400
-Wire Wire Line
-	2600 22550 2600 22600
-Wire Wire Line
-	2600 22600 2550 22600
-Wire Wire Line
-	2750 22450 2750 22600
-Wire Wire Line
-	2650 22900 2850 22900
+	2650 23150 2850 23150
 Wire Notes Line
 	7950 4750 7950 5350
 Wire Notes Line
@@ -6335,92 +6097,47 @@ Connection ~ 20200 4500
 Connection ~ 20750 13900
 Connection ~ 20800 13900
 Connection ~ 20750 15500
-Connection ~ 2850 3000
 Connection ~ 7350 4600
 Connection ~ 7350 4700
 Connection ~ 7000 4250
-Connection ~ 4250 2700
-Connection ~ 4350 2800
-Connection ~ 2950 2900
-Connection ~ 3750 3150
-Connection ~ 2600 3300
-Connection ~ 2750 3200
-Connection ~ 2850 3650
-Connection ~ 2850 5750
+Connection ~ 2850 3900
 Connection ~ 7350 7350
 Connection ~ 7350 7450
 Connection ~ 7000 7000
-Connection ~ 4250 5450
 Connection ~ 4350 5550
-Connection ~ 2950 5650
-Connection ~ 3750 5900
-Connection ~ 2600 6050
-Connection ~ 2750 5950
-Connection ~ 2850 6400
-Connection ~ 2850 8500
+Connection ~ 2850 6650
 Connection ~ 7350 10100
 Connection ~ 7350 10200
 Connection ~ 7000 9750
-Connection ~ 4250 8200
 Connection ~ 4350 8300
-Connection ~ 2950 8400
-Connection ~ 3750 8650
-Connection ~ 2750 8700
-Connection ~ 2850 9150
-Connection ~ 2850 11250
+Connection ~ 2850 9400
 Connection ~ 7350 12850
 Connection ~ 7350 12950
 Connection ~ 7000 12500
-Connection ~ 4250 10950
 Connection ~ 4350 11050
-Connection ~ 2950 11150
-Connection ~ 3750 11400
-Connection ~ 2600 11550
-Connection ~ 2750 11450
-Connection ~ 2850 11900
-Connection ~ 2850 14000
+Connection ~ 2750 11600
+Connection ~ 2850 12150
 Connection ~ 7350 15600
 Connection ~ 7350 15700
 Connection ~ 7000 15250
-Connection ~ 4250 13700
 Connection ~ 4350 13800
-Connection ~ 2950 13900
-Connection ~ 3750 14150
-Connection ~ 2600 14300
-Connection ~ 2750 14200
-Connection ~ 2850 14650
-Connection ~ 2850 16750
+Connection ~ 2750 14350
+Connection ~ 2850 14900
 Connection ~ 7350 18350
 Connection ~ 7350 18450
 Connection ~ 7000 18000
-Connection ~ 4250 16450
 Connection ~ 4350 16550
-Connection ~ 2950 16650
-Connection ~ 3750 16900
-Connection ~ 2600 17050
-Connection ~ 2750 16950
-Connection ~ 2850 17400
-Connection ~ 2850 19500
+Connection ~ 2850 17650
 Connection ~ 7350 21100
 Connection ~ 7350 21200
 Connection ~ 7000 20750
-Connection ~ 4250 19200
 Connection ~ 4350 19300
-Connection ~ 2950 19400
-Connection ~ 3750 19650
-Connection ~ 2750 19700
-Connection ~ 2850 20150
-Connection ~ 2850 22250
+Connection ~ 2850 20400
 Connection ~ 7350 23850
 Connection ~ 7350 23950
 Connection ~ 7000 23500
-Connection ~ 4250 21950
 Connection ~ 4350 22050
-Connection ~ 2950 22150
-Connection ~ 3750 22400
-Connection ~ 2600 22550
-Connection ~ 2750 22450
-Connection ~ 2850 22900
+Connection ~ 2850 23150
 Connection ~ 17400 20650
 Connection ~ 17550 22350
 Connection ~ 17750 21750
@@ -6676,29 +6393,17 @@ Wire Wire Line
 Wire Wire Line
 	20750 15500 20700 15500
 Wire Wire Line
-	2850 3000 2850 3650
-Wire Wire Line
 	7350 4600 7550 4600
 Wire Wire Line
 	7350 4700 7350 4750
 Wire Wire Line
 	7000 4250 7000 4400
 Wire Wire Line
-	4250 2700 7350 2700
+	2600 3500 2950 3500
 Wire Wire Line
-	4350 2800 7350 2800
+	2750 3400 2950 3400
 Wire Wire Line
-	2950 2900 4400 2900
-Wire Wire Line
-	3750 3150 3750 3700
-Wire Wire Line
-	2600 3300 2950 3300
-Wire Wire Line
-	2750 3200 2950 3200
-Wire Wire Line
-	2850 3650 2850 3700
-Wire Wire Line
-	2850 5750 2850 6400
+	2850 3900 2850 4050
 Wire Wire Line
 	7350 7350 7550 7350
 Wire Wire Line
@@ -6706,21 +6411,15 @@ Wire Wire Line
 Wire Wire Line
 	7000 7000 7000 7150
 Wire Wire Line
-	4250 5450 7350 5450
+	4250 5750 7350 5750
 Wire Wire Line
 	4350 5550 7350 5550
 Wire Wire Line
-	2950 5650 4400 5650
+	3850 5950 5250 5950
 Wire Wire Line
-	3750 5900 3750 6450
+	2600 6250 2950 6250
 Wire Wire Line
-	2600 6050 2950 6050
-Wire Wire Line
-	2750 5950 2950 5950
-Wire Wire Line
-	2850 6400 2850 6450
-Wire Wire Line
-	2850 8500 2850 9150
+	2850 6650 2850 6800
 Wire Wire Line
 	7350 10100 7550 10100
 Wire Wire Line
@@ -6728,19 +6427,13 @@ Wire Wire Line
 Wire Wire Line
 	7000 9750 7000 9900
 Wire Wire Line
-	4250 8200 7350 8200
-Wire Wire Line
 	4350 8300 7350 8300
 Wire Wire Line
-	2950 8400 4400 8400
+	3850 8700 5250 8700
 Wire Wire Line
-	3750 8650 3750 9200
+	2750 9000 2950 9000
 Wire Wire Line
-	2750 8700 2950 8700
-Wire Wire Line
-	2850 9150 2850 9200
-Wire Wire Line
-	2850 11250 2850 11900
+	2850 9400 2850 9550
 Wire Wire Line
 	7350 12850 7550 12850
 Wire Wire Line
@@ -6748,21 +6441,13 @@ Wire Wire Line
 Wire Wire Line
 	7000 12500 7000 12650
 Wire Wire Line
-	4250 10950 7350 10950
+	4250 11250 7350 11250
 Wire Wire Line
 	4350 11050 7350 11050
 Wire Wire Line
-	2950 11150 4400 11150
+	3850 11450 5250 11450
 Wire Wire Line
-	3750 11400 3750 11950
-Wire Wire Line
-	2600 11550 2950 11550
-Wire Wire Line
-	2750 11450 2950 11450
-Wire Wire Line
-	2850 11900 2850 11950
-Wire Wire Line
-	2850 14000 2850 14650
+	2850 12150 2850 12300
 Wire Wire Line
 	7350 15600 7550 15600
 Wire Wire Line
@@ -6770,21 +6455,13 @@ Wire Wire Line
 Wire Wire Line
 	7000 15250 7000 15400
 Wire Wire Line
-	4250 13700 7350 13700
+	4250 14000 7350 14000
 Wire Wire Line
 	4350 13800 7350 13800
 Wire Wire Line
-	2950 13900 4400 13900
+	3850 14200 5250 14200
 Wire Wire Line
-	3750 14150 3750 14700
-Wire Wire Line
-	2600 14300 2950 14300
-Wire Wire Line
-	2750 14200 2950 14200
-Wire Wire Line
-	2850 14650 2850 14700
-Wire Wire Line
-	2850 16750 2850 17400
+	2850 14900 2850 15050
 Wire Wire Line
 	7350 18350 7550 18350
 Wire Wire Line
@@ -6792,21 +6469,13 @@ Wire Wire Line
 Wire Wire Line
 	7000 18000 7000 18150
 Wire Wire Line
-	4250 16450 7350 16450
+	4250 16750 7350 16750
 Wire Wire Line
 	4350 16550 7350 16550
 Wire Wire Line
-	2950 16650 4400 16650
+	3850 16950 5250 16950
 Wire Wire Line
-	3750 16900 3750 17450
-Wire Wire Line
-	2600 17050 2950 17050
-Wire Wire Line
-	2750 16950 2950 16950
-Wire Wire Line
-	2850 17400 2850 17450
-Wire Wire Line
-	2850 19500 2850 20150
+	2850 17650 2850 17800
 Wire Wire Line
 	7350 21100 7550 21100
 Wire Wire Line
@@ -6814,19 +6483,15 @@ Wire Wire Line
 Wire Wire Line
 	7000 20750 7000 20900
 Wire Wire Line
-	4250 19200 7350 19200
+	4250 19500 7350 19500
 Wire Wire Line
 	4350 19300 7350 19300
 Wire Wire Line
-	2950 19400 4400 19400
+	3850 19700 5250 19700
 Wire Wire Line
-	3750 19650 3750 20200
+	2750 20000 2950 20000
 Wire Wire Line
-	2750 19700 2950 19700
-Wire Wire Line
-	2850 20150 2850 20200
-Wire Wire Line
-	2850 22250 2850 22900
+	2850 20400 2850 20550
 Wire Wire Line
 	7350 23850 7550 23850
 Wire Wire Line
@@ -6834,19 +6499,15 @@ Wire Wire Line
 Wire Wire Line
 	7000 23500 7000 23650
 Wire Wire Line
-	4250 21950 7350 21950
+	4250 22250 7350 22250
 Wire Wire Line
 	4350 22050 7350 22050
 Wire Wire Line
-	2950 22150 4400 22150
+	3850 22450 5250 22450
 Wire Wire Line
-	3750 22400 3750 22950
+	2600 22750 2950 22750
 Wire Wire Line
-	2600 22550 2950 22550
-Wire Wire Line
-	2750 22450 2950 22450
-Wire Wire Line
-	2850 22900 2850 22950
+	2850 23150 2850 23300
 Wire Wire Line
 	17400 20650 17400 20750
 Wire Wire Line
@@ -7007,31 +6668,11 @@ Wire Wire Line
 	18400 19500 19250 19500
 Wire Wire Line
 	17550 19500 18400 19500
-Wire Wire Line
-	2600 8800 2900 8800
-Wire Wire Line
-	2900 8800 2900 9050
-Wire Wire Line
-	2900 9050 3650 9050
-Wire Wire Line
-	3650 9050 3650 8800
-Wire Wire Line
-	3650 8800 3550 8800
 Connection ~ 2600 8800
 Text Notes 3000 9450 0    50   ~ 0
 Swapped pins\nto make layout\neasier
 Text Notes 3000 20550 0    50   ~ 0
 Swapped pins\nto make layout\neasier
-Wire Wire Line
-	2600 19800 2900 19800
-Wire Wire Line
-	2900 19800 2900 20050
-Wire Wire Line
-	2900 20050 3650 20050
-Wire Wire Line
-	3650 20050 3650 19800
-Wire Wire Line
-	3650 19800 3550 19800
 Connection ~ 2600 19800
 Text Notes 15600 22800 0    50   ~ 0
 Swapped pins\nto make layout\neasier
@@ -7383,56 +7024,56 @@ Wire Notes Line
 	7950 22700 7950 23200
 Connection ~ 7000 23650
 Wire Wire Line
-	5000 22600 5950 22600
+	5400 22800 5950 22800
 Wire Wire Line
-	5950 22600 5950 23550
+	5950 22800 5950 23550
 Connection ~ 7000 4400
 Wire Wire Line
-	5000 3350 5950 3350
+	5400 3550 5950 3550
 Wire Wire Line
-	5950 3350 5950 4300
+	5950 3550 5950 4300
 Connection ~ 7000 7150
 Wire Wire Line
-	5950 7050 5950 6100
+	5950 7050 5950 6300
 Wire Wire Line
-	5950 6100 5000 6100
+	5950 6300 5400 6300
 Connection ~ 7000 9900
 Wire Wire Line
-	5000 3550 5200 3550
+	5400 3750 5500 3750
 Wire Wire Line
-	5200 3550 5200 3900
+	5500 3750 5500 3900
 Wire Wire Line
-	3900 3900 5200 3900
+	3900 3900 5500 3900
 Wire Wire Line
-	5000 8850 5950 8850
+	5400 9050 5950 9050
 Wire Wire Line
-	5950 8850 5950 9800
+	5950 9050 5950 9800
 Connection ~ 7000 12650
 Wire Wire Line
-	5000 11600 5950 11600
+	5400 11800 5950 11800
 Wire Wire Line
-	5950 11600 5950 12550
+	5950 11800 5950 12550
 Connection ~ 7000 15400
 Wire Wire Line
-	5000 14350 5950 14350
+	5400 14550 5950 14550
 Wire Wire Line
-	5950 14350 5950 15300
+	5950 14550 5950 15300
 Connection ~ 7000 18150
 Wire Wire Line
-	5000 17100 5950 17100
+	5400 17300 5950 17300
 Wire Wire Line
-	5950 17100 5950 18050
+	5950 17300 5950 18050
 Connection ~ 7000 20900
 Wire Wire Line
-	5000 19850 5950 19850
+	5400 20050 5950 20050
 Wire Wire Line
-	5950 19850 5950 20800
+	5950 20050 5950 20800
 Wire Wire Line
-	5000 22800 5200 22800
+	5400 23000 5450 23000
 Wire Wire Line
-	5200 22800 5200 23150
+	5450 23000 5450 23150
 Wire Wire Line
-	3900 23150 5200 23150
+	3900 23150 5450 23150
 Wire Bus Line
 	11050 2300 11600 2300
 Text Label 13800 1100 0    50   ~ 0
@@ -7666,51 +7307,49 @@ Wire Bus Line
 Wire Bus Line
 	12400 3400 17050 3400
 Wire Wire Line
-	4600 2900 6100 2900
-Text Label 5650 2900 0    50   ~ 0
+	5450 3200 6100 3200
+Text Label 5550 3200 0    50   ~ 0
 MIC-OUT0
-Text Label 5650 5650 0    50   ~ 0
+Text Label 5650 5950 0    50   ~ 0
 MIC-OUT1
-Text Label 5650 8400 0    50   ~ 0
+Text Label 5650 8700 0    50   ~ 0
 MIC-OUT2
-Text Label 5650 11150 0    50   ~ 0
+Text Label 5650 11450 0    50   ~ 0
 MIC-OUT3
-Text Label 5650 13900 0    50   ~ 0
+Text Label 5650 14200 0    50   ~ 0
 MIC-OUT4
-Text Label 5650 16650 0    50   ~ 0
+Text Label 5650 16950 0    50   ~ 0
 MIC-OUT5
-Text Label 5650 19400 0    50   ~ 0
+Text Label 5650 19700 0    50   ~ 0
 MIC-OUT6
-Text Label 5650 22150 0    50   ~ 0
+Text Label 5650 22450 0    50   ~ 0
 MIC-OUT7
 Entry Wire Line
-	6100 2900 6200 3000
+	6100 3200 6200 3300
 Entry Wire Line
-	6100 5650 6200 5750
+	6100 5950 6200 6050
 Entry Wire Line
-	6100 8400 6200 8500
+	6100 8700 6200 8800
 Entry Wire Line
-	6100 11150 6200 11250
+	6100 11450 6200 11550
 Entry Wire Line
-	6100 13900 6200 14000
+	6100 14200 6200 14300
 Entry Wire Line
-	6100 16650 6200 16750
+	6100 16950 6200 17050
 Entry Wire Line
-	6100 19400 6200 19500
+	6100 19700 6200 19800
 Entry Wire Line
-	6100 22150 6200 22250
+	6100 22450 6200 22350
 Wire Wire Line
-	4600 22150 6100 22150
+	5450 22450 6100 22450
 Wire Wire Line
-	4600 19400 6100 19400
+	5450 19700 6100 19700
 Wire Wire Line
-	4600 16650 6100 16650
+	5450 16950 6100 16950
 Wire Wire Line
-	4600 11150 6100 11150
+	5450 11450 6100 11450
 Wire Wire Line
-	4600 8400 6100 8400
-Wire Wire Line
-	4600 5650 6100 5650
+	5450 5950 6100 5950
 Text Label 6200 5150 1    50   ~ 0
 MIC-OUT[0..7]
 Text Label 7100 1300 2    50   ~ 0
@@ -7746,10 +7385,7 @@ Entry Wire Line
 Entry Wire Line
 	8400 1600 8500 1700
 Wire Bus Line
-	6200 1800 6600 1800
-Wire Bus Line
 	6600 1800 8500 1800
-Connection ~ 6600 1800
 Wire Wire Line
 	6700 1300 7300 1300
 Wire Wire Line
@@ -7945,7 +7581,339 @@ Connection ~ 13800 14200
 Wire Wire Line
 	13800 14200 13250 14200
 Wire Wire Line
-	4600 13900 6100 13900
+	5450 14200 6100 14200
+Wire Wire Line
+	2550 2700 2850 2700
+Connection ~ 2850 2700
+Wire Wire Line
+	2850 2700 2850 3900
+Wire Wire Line
+	2550 2800 4350 2800
+Wire Wire Line
+	4350 2600 4350 2800
+Connection ~ 4350 2800
+Wire Wire Line
+	4350 2800 7350 2800
+Wire Wire Line
+	4500 2600 4350 2600
+Wire Wire Line
+	2550 2900 2650 2900
+Wire Wire Line
+	2650 2900 2650 2450
+Wire Wire Line
+	2750 3400 2750 3100
+Wire Wire Line
+	2750 3100 2550 3100
+Connection ~ 2750 3400
+Wire Wire Line
+	4300 3000 7350 3000
+Wire Wire Line
+	2550 3000 4300 3000
+Connection ~ 4300 3000
+Wire Wire Line
+	2600 3500 2600 3300
+Wire Wire Line
+	2600 3300 2550 3300
+Connection ~ 2600 3500
+Wire Wire Line
+	2550 3200 3850 3200
+Wire Wire Line
+	3950 3300 3850 3300
+Wire Wire Line
+	3850 3300 3850 3200
+Connection ~ 3850 3200
+Wire Wire Line
+	3850 3200 5250 3200
+Wire Wire Line
+	4800 2500 4850 2500
+Wire Wire Line
+	4850 2500 4850 3300
+Wire Wire Line
+	4850 3300 4350 3300
+Wire Wire Line
+	4850 3350 4850 3300
+Connection ~ 4850 3300
+Wire Wire Line
+	2550 6050 2600 6050
+Wire Wire Line
+	2600 6050 2600 6250
+Connection ~ 2600 6250
+Connection ~ 2750 6100
+Wire Wire Line
+	2750 6100 2750 6350
+Wire Wire Line
+	2750 6100 3550 6100
+Wire Wire Line
+	2550 5850 2750 5850
+Wire Wire Line
+	2850 5350 2850 5450
+Wire Wire Line
+	2750 5850 2750 6100
+Wire Wire Line
+	2550 5450 2850 5450
+Connection ~ 2850 5450
+Wire Wire Line
+	2850 5450 2850 6650
+Wire Wire Line
+	2550 5650 2650 5650
+Wire Wire Line
+	2650 5650 2650 5200
+Wire Wire Line
+	2550 5950 3850 5950
+Connection ~ 4250 5750
+$Comp
+L Connector_Generic:Conn_01x08 J29
+U 1 1 5AF9D06D
+P 2350 22150
+F 0 "J29" H 2430 22142 50  0000 L CNN
+F 1 "Device 7" H 2430 22051 50  0000 L CNN
+F 2 "SW-Hirose:DF11-8DP-2DSA" H 2350 22150 50  0001 C CNN
+F 3 "" H 2350 22150 50  0001 C CNN
+F 4 "0.00@0" H 2350 22150 60  0001 C CNN "Pricing"
+	1    2350 22150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 22550 2600 22550
+Wire Wire Line
+	2600 22550 2600 22750
+Connection ~ 2600 22750
+Wire Bus Line
+	6200 1800 6600 1800
+Connection ~ 6600 1800
+Connection ~ 3850 5950
+Wire Wire Line
+	2550 8200 2850 8200
+Wire Wire Line
+	2850 8100 2850 8200
+Connection ~ 2850 8200
+Wire Wire Line
+	2850 8200 2850 9400
+Wire Wire Line
+	2550 8400 2650 8400
+Wire Wire Line
+	2750 9000 2750 8600
+Wire Wire Line
+	2750 8600 2550 8600
+Connection ~ 2750 9000
+Wire Wire Line
+	2600 8800 3600 8800
+Wire Wire Line
+	3550 9000 3600 9000
+Wire Wire Line
+	3600 9000 3600 8800
+Wire Wire Line
+	2550 8700 3850 8700
+Connection ~ 3850 8700
+Wire Wire Line
+	5450 8700 6100 8700
+Wire Wire Line
+	4250 8500 2550 8500
+Wire Wire Line
+	2550 10950 2850 10950
+Wire Wire Line
+	2850 10850 2850 10950
+Connection ~ 2850 10950
+Wire Wire Line
+	2850 10950 2850 12150
+Wire Wire Line
+	2550 11350 2750 11350
+Wire Wire Line
+	2750 11350 2750 11600
+Wire Wire Line
+	2600 11750 2950 11750
+Connection ~ 2600 11750
+Wire Wire Line
+	2600 11750 2600 11850
+Wire Wire Line
+	2750 11600 3550 11600
+Wire Wire Line
+	2550 11450 3850 11450
+Wire Wire Line
+	2550 11150 2650 11150
+Wire Wire Line
+	2650 11150 2650 10700
+Connection ~ 3850 11450
+Connection ~ 4250 11250
+Wire Wire Line
+	2550 13700 2850 13700
+Wire Wire Line
+	2850 13600 2850 13700
+Connection ~ 2850 13700
+Wire Wire Line
+	2850 13700 2850 14900
+Wire Wire Line
+	2550 14100 2750 14100
+Wire Wire Line
+	2750 14100 2750 14350
+Wire Wire Line
+	2950 14500 2600 14500
+Connection ~ 2600 14500
+Wire Wire Line
+	2600 14500 2600 14600
+Wire Wire Line
+	2750 14350 3550 14350
+Wire Wire Line
+	2550 14200 3850 14200
+Connection ~ 3850 14200
+Wire Wire Line
+	2550 13900 2650 13900
+Wire Wire Line
+	2650 13900 2650 13450
+Connection ~ 4250 14000
+Wire Wire Line
+	2950 17250 2600 17250
+Connection ~ 2600 17250
+Wire Wire Line
+	2600 17250 2600 17350
+Wire Wire Line
+	2550 16850 2750 16850
+Wire Wire Line
+	2750 16850 2750 17100
+Connection ~ 2750 17100
+Wire Wire Line
+	2550 16450 2850 16450
+Wire Wire Line
+	2850 16350 2850 16450
+Connection ~ 2850 16450
+Wire Wire Line
+	2850 16450 2850 17650
+Wire Wire Line
+	2550 16650 2650 16650
+Wire Wire Line
+	2650 16650 2650 16200
+Wire Wire Line
+	2750 17100 3550 17100
+Wire Wire Line
+	2550 16950 3850 16950
+Connection ~ 3850 16950
+Connection ~ 4250 16750
+Wire Wire Line
+	2550 19200 2850 19200
+Wire Wire Line
+	2850 19100 2850 19200
+Connection ~ 2850 19200
+Wire Wire Line
+	2850 19200 2850 20400
+Wire Wire Line
+	2550 19400 2650 19400
+Wire Wire Line
+	2600 19800 3600 19800
+Wire Wire Line
+	3600 19800 3600 20000
+Wire Wire Line
+	3600 20000 3550 20000
+Wire Wire Line
+	2550 19600 2750 19600
+Wire Wire Line
+	2750 19600 2750 20000
+Connection ~ 2750 20000
+Connection ~ 3850 19700
+Connection ~ 4250 19500
+Wire Wire Line
+	2550 19700 3850 19700
+Wire Wire Line
+	2550 21950 2850 21950
+Wire Wire Line
+	2850 21850 2850 21950
+Connection ~ 2850 21950
+Wire Wire Line
+	2850 21950 2850 23150
+Wire Wire Line
+	2650 22150 2550 22150
+Wire Wire Line
+	2650 21700 2650 22150
+Wire Wire Line
+	2550 22350 2750 22350
+Wire Wire Line
+	2750 22350 2750 22600
+Connection ~ 2750 22600
+Wire Wire Line
+	2750 22600 3550 22600
+Connection ~ 3850 22450
+Connection ~ 4250 22250
+Wire Wire Line
+	2550 22450 3850 22450
+Wire Wire Line
+	2550 5750 4250 5750
+Wire Wire Line
+	4250 8500 7350 8500
+Connection ~ 4250 8500
+Wire Wire Line
+	4250 7900 4250 8500
+Wire Wire Line
+	2550 11250 4250 11250
+Wire Wire Line
+	2550 14000 4250 14000
+Wire Wire Line
+	2550 16750 4250 16750
+Wire Wire Line
+	2550 19500 4250 19500
+Wire Wire Line
+	2550 22250 4250 22250
+Wire Wire Line
+	4800 5250 4850 5250
+Wire Wire Line
+	4850 5250 4850 6050
+Wire Wire Line
+	4850 6050 4350 6050
+Wire Wire Line
+	4850 6100 4850 6050
+Connection ~ 4850 6050
+Wire Wire Line
+	4800 8000 4850 8000
+Wire Wire Line
+	4850 8000 4850 8800
+Wire Wire Line
+	4850 8800 4350 8800
+Wire Wire Line
+	4850 8850 4850 8800
+Connection ~ 4850 8800
+Wire Wire Line
+	4800 10750 4850 10750
+Wire Wire Line
+	4850 10750 4850 11550
+Wire Wire Line
+	4850 11550 4350 11550
+Wire Wire Line
+	4850 11600 4850 11550
+Connection ~ 4850 11550
+Wire Wire Line
+	4800 13500 4850 13500
+Wire Wire Line
+	4850 13500 4850 14300
+Wire Wire Line
+	4350 14300 4850 14300
+Wire Wire Line
+	4850 14350 4850 14300
+Connection ~ 4850 14300
+Wire Wire Line
+	4800 16250 4850 16250
+Wire Wire Line
+	4850 16250 4850 17050
+Wire Wire Line
+	4850 17050 4350 17050
+Wire Wire Line
+	4850 17100 4850 17050
+Connection ~ 4850 17050
+Wire Wire Line
+	4800 19000 4850 19000
+Wire Wire Line
+	4850 19000 4850 19800
+Wire Wire Line
+	4850 19800 4350 19800
+Wire Wire Line
+	4850 19850 4850 19800
+Connection ~ 4850 19800
+Wire Wire Line
+	4800 21750 4850 21750
+Wire Wire Line
+	4850 21750 4850 22550
+Wire Wire Line
+	4850 22550 4350 22550
+Wire Wire Line
+	4850 22550 4850 22600
+Connection ~ 4850 22550
 Wire Bus Line
 	19100 1400 19100 2100
 Wire Bus Line
@@ -7955,7 +7923,7 @@ Wire Bus Line
 Wire Bus Line
 	6600 1400 6600 1800
 Wire Bus Line
-	6200 1800 6200 22250
+	6200 1800 6200 22350
 Wire Bus Line
 	11500 2800 11500 22450
 Wire Bus Line
