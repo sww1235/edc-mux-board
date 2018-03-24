@@ -145,4 +145,91 @@ Wire Wire Line
 	7300 1400 7000 1400
 Wire Wire Line
 	7000 1400 7000 1600
+Wire Notes Line
+	6900 1950 8700 1950
+Wire Notes Line
+	8700 800  6900 800 
+Text Notes 7400 950  0    50   ~ 0
+Board Mounting Holes
+$Comp
+L Mechanical:Mounting_Hole_PAD MK5
+U 1 1 5AB64D36
+P 7300 2300
+F 0 "MK5" H 7400 2400 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 7400 2300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7300 2300 50  0001 C CNN
+F 3 "" H 7300 2300 50  0001 C CNN
+F 4 "0.00@0" H 7300 2300 50  0001 C CNN "Pricing"
+	1    7300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK6
+U 1 1 5AB64E31
+P 8100 2300
+F 0 "MK6" H 8200 2400 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 8200 2300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 8100 2300 50  0001 C CNN
+F 3 "" H 8100 2300 50  0001 C CNN
+F 4 "0.00@0" H 8100 2300 50  0001 C CNN "Pricing"
+	1    8100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK7
+U 1 1 5AB64E5E
+P 7300 2700
+F 0 "MK7" H 7200 2650 50  0000 R CNN
+F 1 "Mounting_Hole_PAD" H 7200 2750 50  0000 R CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7300 2700 50  0001 C CNN
+F 3 "" H 7300 2700 50  0001 C CNN
+F 4 "0.00@0" H 7300 2700 50  0001 C CNN "Pricing"
+	1    7300 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK8
+U 1 1 5AB64E91
+P 8100 2700
+F 0 "MK8" H 8000 2650 50  0000 R CNN
+F 1 "Mounting_Hole_PAD" H 8000 2750 50  0000 R CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 8100 2700 50  0001 C CNN
+F 3 "" H 8100 2700 50  0001 C CNN
+F 4 "0.00@0" H 8100 2700 50  0001 C CNN "Pricing"
+	1    8100 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDREF #PWR0269
+U 1 1 5AB6567B
+P 7000 2800
+F 0 "#PWR0269" H 7000 2550 50  0001 C CNN
+F 1 "GNDREF" H 7005 2627 50  0000 C CNN
+F 2 "" H 7000 2800 50  0001 C CNN
+F 3 "" H 7000 2800 50  0001 C CNN
+	1    7000 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2800 7000 2500
+Wire Wire Line
+	7000 2500 7300 2500
+Wire Wire Line
+	8100 2500 8100 2400
+Wire Wire Line
+	8100 2600 8100 2500
+Connection ~ 8100 2500
+Wire Wire Line
+	7300 2600 7300 2500
+Connection ~ 7300 2500
+Wire Wire Line
+	7300 2500 8100 2500
+Wire Wire Line
+	7300 2500 7300 2400
+Wire Notes Line
+	6900 3050 8700 3050
+Wire Notes Line
+	8700 800  8700 3050
+Wire Notes Line
+	6900 800  6900 3050
 $EndSCHEMATC

@@ -20,12 +20,12 @@ U 1 1 5A6DE539
 P 4800 2950
 F 0 "XA1" H 4800 3897 60  0000 C CNN
 F 1 "Nano_Headers" H 4800 3791 60  0000 C CNN
-F 2 "SW-Arduino:Nano-Header" H 4550 3500 60  0001 C CNN
+F 2 "SW-Arduino:Nano-Header-Ethernet-4NANO" H 4550 3500 60  0001 C CNN
 F 3 "https://www.arduino.cc/en/uploads/Main/Arduino_Nano-Rev3.2-SCH.pdf" H 4700 4650 60  0001 C CNN
-F 4 "Arduino Nano Headers" H 4600 4350 60  0001 C CNN "Description"
-F 5 "ARD-NANO30NP" H 4800 3997 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Arduino" H 4500 4250 60  0001 C CNN "Manufacturer"
-F 7 "0.00@0" H 4650 4500 60  0001 C CNN "Pricing"
+F 4 "Arduino" H 4500 4250 60  0001 C CNN "Manufacturer"
+F 5 "Arduino Nano Headers" H 4600 4350 60  0001 C CNN "Description"
+F 6 "0.00@0" H 4650 4500 60  0001 C CNN "Pricing"
+F 7 "ARD-NANO30NP" H 4800 3997 50  0001 C CNN "Manufacturer Part Number"
 	1    4800 2950
 	1    0    0    -1  
 $EndComp
