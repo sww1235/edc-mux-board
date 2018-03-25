@@ -30,6 +30,26 @@ Line          < mic
               >
 o-------------|---o
 
+## Extra parts
+
+-   EN3P8MCX switchcraft 8pin male panel mount connectors (use MPX 3d model)
+-   EN3C8FCX switchcraft 8pin female cable connection
+-   CARAEN3C8F07990 switchcraft 8pin female right angle pre-terminated cable
+-   EN3CAPC  cord plug connector cover
+-   EN3CAPX   panel mount connector cover
+-   D24295-WA panel mount connector for ethernet
+-   DCP-RJ6SB-F switchcraft panelmount feedthrough ethernet connector bayonet connector
+-   DCC-RJ6SP-310 switchcraft RJ45 cat6 shielded bayonet connector cable mount
+-   772-E25-103RYY1 norcomp db25 IP67 connector male
+-   772-E25-203RYY1 norcomp db25 IP67 connector female (for panelmount)
+-   967-025-010R011 norcomp db25 IP67 backshell for cable
+-   SFP6725 norcomp adhesive seal db25 size
+-   967-025-CAP norcomp ip67 sealing cap
+-   160-067-004R034 norcomp db25 hardware kit
+-   767KS1(X) 0.084 \[2.1\] id/od sealed locking power plug switchcraft
+-   L722AS 0.08 \[2.0\] id/od sealed locking power jack switchcraft
+-   JCAP  power jack cover
+
 ## TODO
 
 
