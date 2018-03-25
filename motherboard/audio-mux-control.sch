@@ -3681,21 +3681,21 @@ Text Label 19700 14000 2    60   ~ 0
 PTT-6
 Text Label 19700 13900 2    60   ~ 0
 PTT-7
-Text Label 19700 14800 2    60   ~ 0
-MIC-MUTE-0
-Text Label 19700 14900 2    60   ~ 0
-MIC-MUTE-1
-Text Label 19700 15000 2    60   ~ 0
-MIC-MUTE-2
-Text Label 19700 15100 2    60   ~ 0
-MIC-MUTE-3
 Text Label 19700 15500 2    60   ~ 0
-MIC-MUTE-4
+MIC-MUTE-0
 Text Label 19700 15400 2    60   ~ 0
-MIC-MUTE-5
+MIC-MUTE-1
 Text Label 19700 15300 2    60   ~ 0
-MIC-MUTE-6
+MIC-MUTE-2
 Text Label 19700 15200 2    60   ~ 0
+MIC-MUTE-3
+Text Label 19700 15100 2    60   ~ 0
+MIC-MUTE-4
+Text Label 19700 15000 2    60   ~ 0
+MIC-MUTE-5
+Text Label 19700 14900 2    60   ~ 0
+MIC-MUTE-6
+Text Label 19700 14800 2    60   ~ 0
 MIC-MUTE-7
 Text Notes 19550 23300 0    60   ~ 0
 PTT logic, can either be controlled via headset\nPTT wire or through IO expander from PI\n\nMic Mute logic, IO expander accepts signal into nano, \nIO expander provides signal from nano. Switching is\ncontrolled via i2c SPST switch
