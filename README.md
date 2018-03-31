@@ -37,9 +37,6 @@ o-------------|---o
 -   CARAEN3C8F07990 switchcraft 8pin female right angle pre-terminated cable
 -   EN3CAPC  cord plug connector cover
 -   EN3CAPX   panel mount connector cover
--   D24295-WA panel mount connector for ethernet
--   DCP-RJ6SB-F switchcraft panelmount feedthrough ethernet connector bayonet connector
--   DCC-RJ6SP-310 switchcraft RJ45 cat6 shielded bayonet connector cable mount
 -   772-E25-103RYY1 norcomp db25 IP67 connector male
 -   772-E25-203RYY1 norcomp db25 IP67 connector female (for panelmount)
 -   967-025-010R011 norcomp db25 IP67 backshell for cable
@@ -49,6 +46,10 @@ o-------------|---o
 -   767KS1(X) 0.084 \[2.1\] id/od sealed locking power plug switchcraft
 -   L722AS 0.08 \[2.0\] id/od sealed locking power jack switchcraft
 -   JCAP  power jack cover
+-   35FM3AULS - Sealed locking 3.5mm panel mount jack switchcraft
+-   35HDLBAU(S) 3.5mm sealed locking plug switchcraft (S=0.175 diameter cable, no S=0.29 diameter cable)
+-   NE8FDX-P6-W IP rated ethercon connector Cat6A shielded neutrik
+-   NE8MX6 Cat6A ethercon cable connector neutrik
 
 ## TODO
 
