@@ -1326,9 +1326,10 @@ F 1 "1uF" V 5200 3200 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 5350 3200 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/212/KEM_F3078_LDE-1103670.pdf" H 5350 3200 50  0001 C CNN
 F 4 "10% -55ºC + 125ºC" H 5121 3300 50  0001 C CNN "Characteristics"
-F 5 "Film Capacitor" H 5121 3300 50  0001 C CNN "Description"
-F 6 "LDEDD4100KA0N00" H 5121 3300 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Kemet" H 5121 3300 50  0001 C CNN "Manufacturer"
+F 5 "Kemet" H 5121 3300 50  0001 C CNN "Manufacturer"
+F 6 "Film Capacitor" H 5121 3300 50  0001 C CNN "Description"
+F 7 "0.00@0" H 5350 3200 50  0001 C CNN "Pricing"
+F 8 "LDEDD4100KA0N00" H 5121 3300 50  0001 C CNN "Manufacturer Part Number"
 	1    5350 3200
 	0    1    1    0   
 $EndComp
