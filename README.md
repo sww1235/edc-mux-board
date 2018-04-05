@@ -53,28 +53,36 @@ o-------------|---o
 
 ## TODO
 
+-   CODE
+-   Case
+    -   Change lid screws to M2.5
+    -   Move Oring inside screw line (use same as on portable line mixer)
+    -   weight reduction on chassis and lid. Shrink wall thickness to 0.125", leave ribs on base for stiffness
+    -   leave sealing flange and ribs on lid
+    -   leave connector sides full thickness
+
 
 
 ## Power Consumption
 
-|Quantity|Description|Part Number|Individual Power Consumption|
-|--------|-----------|-----------|----------------------------|
-|3|IO expanders|TCA9555|56uA \@5V|
-|6|IO expanders|TCA9555|35uA \@2V5|
-|24|8:1 Mux|ADG708|1uA max \@±2V5 (both rails)|
-|8|8:1 Mux|ADG708|1uA max \@5V|
-|3|SPST switch|ADG715|25uA max \@±2V5 (both rails)|
-|4|4x SPDT switches|ADG734|1uA max \@±2V5 (both rails)|
-|72|4x op amp|OPA1604|2.8mA \@±12VA (both rails)|
-|21|2x op amp|OPA1602|2.6mA \@±12VA (both rails)|
-|12|2x digi pot|DS1882| 1uA \@5VD, 2.5uA \@±5VA|
-|2|OR gate|SN74ACT32|20uA \@5V|
-|2|SPST switch|TS12A44514|0.2uA \@12V|
-|Total|±2V5 rail||313uA (rounded ->) 0.5mA|
-|Total|±12VA rail||256.2mA (rounded ->) 500mA|
-|Total|±5VA rail||30uA|
-|Total|+5V rail||2\*2V5\* 0.5mA = 2.5mW \@5V = 0.5mA (assume at least 10mA) + </br>2\*5VA\* 30uA = 0.3mW \@5V = 60uA (assume at least 10mA) + </br>228uA -> 0.5mA </br> Sum = 0.5mA + 0.5mA + 60uA = 1.06mA (assume 30mA) = 6mA \@12V|
-|Total|12V+12VA rail||518.4mA (rounded ->) 1A (includes 2v5 and 5V conversions)|
+| Quantity | Description | Part Number | Individual Power Consumption |
+|:--------|:-----------|:-----------|:----------------------------|
+| 3 | IO expanders | TCA9555 | 56uA \@5V |
+| 6 | IO expanders | TCA9555 | 35uA \@2V5 |
+| 24 | 8:1 Mux | ADG708 | 1uA max \@±2V5 (both rails) |
+| 8 | 8:1 Mux | ADG708 | 1uA max \@5V |
+| 3 | SPST switch | ADG715 | 25uA max \@±2V5 (both rails) |
+| 4 | 4x SPDT switches | ADG734 | 1uA max \@±2V5 (both rails) |
+| 72 | 4x op amp | OPA1604 | 2.8mA \@±12VA (both rails) |
+| 21 | 2x op amp | OPA1602 | 2.6mA \@±12VA (both rails) |
+| 12 | 2x digi pot | DS1882 | 1uA \@5VD, 2.5uA \@±5VA |
+| 2 | OR gate | SN74ACT32 | 20uA \@5V |
+| 2 | SPST switch | TS12A44514 | 0.2uA \@12V |
+| Total | ±2V5 rail || 313uA (rounded ->) 0.5mA |
+| Total | ±12VA rail || 256.2mA (rounded ->) 500mA |
+| Total | ±5VA rail | | 30uA |
+| Total | +5V rail | | 2\*2V5\* 0.5mA = 2.5mW \@5V = 0.5mA (assume at least 10mA) + </br>2\*5VA\* 30uA = 0.3mW \@5V = 60uA (assume at least 10mA) + </br>228uA -> 0.5mA </br> Sum = 0.5mA + 0.5mA + 60uA = 1.06mA (assume 30mA) = 6mA \@12V |
+| Total | 12V+12VA rail | | 518.4mA (rounded ->) 1A (includes 2v5 and 5V conversions) |
 
 
 ## References
