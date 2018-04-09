@@ -6,10 +6,13 @@
 *.bck
 *.kicad_pcb-bak
 *~
+*.numbers
+bom.ini
 
 _saved*
 _autosave-*
 *.tmp
+rescue-backup
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -20,3 +23,6 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Other Exported files
+*.pdf

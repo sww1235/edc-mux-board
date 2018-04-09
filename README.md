@@ -1,34 +1,88 @@
 # EDC-MUX-Board
 
 This is part of the [EDC harness
-project](https://github.com/sww1235/edc-harness) and provides power routing,
-audio and PTT routing and control routing.
+project](https://github.com/sww1235/edc-harness) and provides, audio and PTT
+routing and control routing.
 
-Contains a Raspberry Pi 3 compute stick running headless which allows for
-scripting support, android app based control, as well as integrating additional
-physical control panels. Will also potentially allow for audio priority ducking
+Will also potentially allow for audio priority ducking
 via the [mixer](https://github.com/sww1235/portable-line-mixer).
+
+All audio IO is done at consumer line level. (IO direction is referenced to MUX)
+
+Connected headphones will accept this as there is also an integrated amplifier.
+(Headset output)
+
+Connected phones and radios inputting audio into the mux will also work fine as
+they output line level. (Device input)
+
+Electret microphones need a bias circuit and a preamp to boost their signal up
+to line level. (headset input) as well as a capacitor to block the DC bias output
+
+Connected phones and radios will need a pad circuit to reduce the line level
+output to a microphone input as well as block dc output from phone/radio.
+(Device Output) Resistor divider with ~40dB attenuation. Attenuation in dB = 20*
+log10((R1 + R2)/R2). Also need resistance between bottom two sleeve contacts.
+
+o-----^v^v^v--|---o
+      R1      >
+Line          < mic
+          R2  >
+              >
+o-------------|---o
+
+## Extra parts
+
+-   EN3P8MCX switchcraft 8pin male panel mount connectors (use MPX 3d model)
+-   EN3C8FCX switchcraft 8pin female cable connection
+-   CARAEN3C8F07990 switchcraft 8pin female right angle pre-terminated cable
+-   EN3CAPC  cord plug connector cover
+-   EN3CAPX   panel mount connector cover
+-   772-E25-103RYY1 norcomp db25 IP67 connector male
+-   772-E25-203RYY1 norcomp db25 IP67 connector female (for panelmount)
+-   967-025-010R011 norcomp db25 IP67 backshell for cable
+-   SFP6725 norcomp adhesive seal db25 size
+-   967-025-CAP norcomp ip67 sealing cap
+-   160-067-004R034 norcomp db25 hardware kit
+-   767KS1(X) 0.084 \[2.1\] id/od sealed locking power plug switchcraft
+-   L722AS 0.08 \[2.0\] id/od sealed locking power jack switchcraft (these sizes are compatible with high amperage version
+-   JCAP  power jack cover
+-   35FM3AULS - Sealed locking 3.5mm panel mount jack switchcraft
+-   35HDLBAU(S) 3.5mm sealed locking plug switchcraft (S=0.175 diameter cable, no S=0.29 diameter cable)
+-   NE8FDX-P6-W IP rated ethercon connector Cat6A shielded neutrik
+-   NE8MX6 Cat6A ethercon cable connector neutrik
 
 ## TODO
 
--   review capacitor sizing for LAN9514 PLL caps, look at RPi schematic Check
--   all mosfets and other larger chips, especially around HDMI connector for
-potentially smaller versions.
--   OTP for USB hubs
+-   CODE
+-   Case
+    -   Change lid screws to M2.5
+    -   Move Oring inside screw line (use same as on portable line mixer)
+    -   weight reduction on chassis and lid. Shrink wall thickness to 0.125", leave ribs on base for stiffness
+    -   leave sealing flange and ribs on lid
+    -   leave connector sides full thickness
+
+
 
 ## Power Consumption
 
-|Quantity|Description|Part Number|Individual Power Consumption|
-|--------|-----------|-----------|----------------------------|
-|5|IO expanders|TCA9534|33uA @3V3|
-|1|usb/ethernet|LAN9514|288mA @3V3|
-|2|SPDT switches|MAX4533|350uA @12V|
-|1|USB power switch|MIC2026|160uA @5V|
-|1|Compute Module||4W @5V -> 0.8A @5V<br/> 1.5W @3V3 -> 0.3A @5V <br/> 0.45W @1V8 -> 0.09A @5V <br/> Note: power consumption on 3V3 and 1V8 rails is idealized and should be rounded up|
-|2|OR gate|SN74LS32|1mA @5V|
-|8|SPST switch|TS12A44514|0.2uA @12V|
-|2|USB hub|TUSB4041i|80mA @3V3 <br/> 225mA @1V1|
-|8|USB C controllers|TPS65982|6mA @3V3|
+| Quantity | Description | Part Number | Individual Power Consumption |
+|:--------|:-----------|:-----------|:----------------------------|
+| 3 | IO expanders | TCA9555 | 56uA \@5V |
+| 6 | IO expanders | TCA9555 | 35uA \@2V5 |
+| 24 | 8:1 Mux | ADG708 | 1uA max \@±2V5 (both rails) |
+| 8 | 8:1 Mux | ADG708 | 1uA max \@5V |
+| 3 | SPST switch | ADG715 | 25uA max \@±2V5 (both rails) |
+| 4 | 4x SPDT switches | ADG734 | 1uA max \@±2V5 (both rails) |
+| 72 | 4x op amp | OPA1604 | 2.8mA \@±12VA (both rails) |
+| 21 | 2x op amp | OPA1602 | 2.6mA \@±12VA (both rails) |
+| 12 | 2x digi pot | DS1882 | 1uA \@5VD, 2.5uA \@±5VA |
+| 2 | OR gate | SN74ACT32 | 20uA \@5V |
+| 2 | SPST switch | TS12A44514 | 0.2uA \@12V |
+| Total | ±2V5 rail || 313uA (rounded ->) 0.5mA |
+| Total | ±12VA rail || 256.2mA (rounded ->) 500mA |
+| Total | ±5VA rail | | 30uA |
+| Total | +5V rail | | 2\*2V5\* 0.5mA = 2.5mW \@5V = 0.5mA (assume at least 10mA) + </br>2\*5VA\* 30uA = 0.3mW \@5V = 60uA (assume at least 10mA) + </br>228uA -> 0.5mA </br> Sum = 0.5mA + 0.5mA + 60uA = 1.06mA (assume 30mA) = 6mA \@12V |
+| Total | 12V+12VA rail | | 518.4mA (rounded ->) 1A (includes 2v5 and 5V conversions) |
 
 
 ## References
