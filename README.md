@@ -4,10 +4,60 @@ This is part of the [EDC harness
 project](https://github.com/sww1235/edc-harness) and provides, audio and PTT
 routing and control routing.
 
-Will also potentially allow for audio priority ducking
-via the [mixer](https://github.com/sww1235/portable-line-mixer).
+This branch uses an FPGA to do digital audio mixing and muxing as well as signal
+routing.
 
-All audio IO is done at consumer line level. (IO direction is referenced to MUX)
+Due to using a FPGA, the functionality of the
+[mixer](https://github.com/sww1235/portable-line-mixer) is also incorperated.
+
+The initial plan is to use VHDL as our language of choice and then choose a FPGA
+based on the actual requirements of the project.
+
+## Overview of FPGA logic
+
+All digital audio is using the I2S interface with PCM audio. Need a serial to
+parallel converter to take serial data and turn it into parallel data that can
+be fed into the parallel multipliers etc.
+
+probably use existing off the shelf i2s to parallel vhdl blocks from
+<https://opencore.com> with some modifications. Use 18 bit internal
+busses.
+
+Use 16 bit audio with 18 bit adders/multipliers.
+
+Digital volume control is done via 18x18 bit multipliers outputing to a double
+width bus. IE
+`S32 out_PCM = ((S18 ch1_PCM * S18 ch1_gain) + (S18 ch2_PCM * S18 ch2_gain) ... )`
+where all S18 are only holding 16 bit signed values but shifted so MSB is at B17 rather than B15.
+
+## Notes
+
+Audio in PCM format is sampled at the sampling rate (normally 44.1kHz(CD) or
+48kHz(DVD)) using 16-24 bits of resolution. Meaning each sample is represented
+by a 16 to 24 bit number.
+
+Therefor reading i2s data is clock in 16 bits of data into the left register,
+then clock in 16 bits of data into the right register and repeat.
+
+I2S by spec represents data in 2s complement format. In any bit width
+conversion, truncation or zero fill is applied. Quoting from the I2S spec:
+
+>When the system word length is greater than the transmitter word
+>length, the word is truncated (least significant data bits are set to ‘0’)
+>for data transmission. If the receiver is sent more bits than its word
+>length, the bits after the LSB are ignored. On the other hand, if the
+>receiver is sent fewer bits than its word length, the missing bits are
+>set to zero internally. And so, the MSB has a fixed position, whereas
+>the position of the LSB depends on the word length. The transmitter
+>always sends the MSB of the next word one clock period after the
+>WS changes.
+
+## Interface specs
+
+use something similar to the TLV320DAC3203 from TI for the headset connections.
+(Integrated stereo headphone amplifier along with ADC for mic).
+
+All analog audio IO is done at consumer line level. (IO direction is referenced to MUX)
 
 Connected headphones will accept this as there is also an integrated amplifier.
 (Headset output)
@@ -65,24 +115,24 @@ o-------------|---o
 
 ## Power Consumption
 
-| Quantity | Description | Part Number | Individual Power Consumption |
-|:--------|:-----------|:-----------|:----------------------------|
-| 3 | IO expanders | TCA9555 | 56uA \@5V |
-| 6 | IO expanders | TCA9555 | 35uA \@2V5 |
-| 24 | 8:1 Mux | ADG708 | 1uA max \@±2V5 (both rails) |
-| 8 | 8:1 Mux | ADG708 | 1uA max \@5V |
-| 3 | SPST switch | ADG715 | 25uA max \@±2V5 (both rails) |
-| 4 | 4x SPDT switches | ADG734 | 1uA max \@±2V5 (both rails) |
-| 72 | 4x op amp | OPA1604 | 2.8mA \@±12VA (both rails) |
-| 21 | 2x op amp | OPA1602 | 2.6mA \@±12VA (both rails) |
-| 12 | 2x digi pot | DS1882 | 1uA \@5VD, 2.5uA \@±5VA |
-| 2 | OR gate | SN74ACT32 | 20uA \@5V |
-| 2 | SPST switch | TS12A44514 | 0.2uA \@12V |
-| Total | ±2V5 rail || 313uA (rounded ->) 0.5mA |
-| Total | ±12VA rail || 256.2mA (rounded ->) 500mA |
-| Total | ±5VA rail | | 30uA |
-| Total | +5V rail | | 2\*2V5\* 0.5mA = 2.5mW \@5V = 0.5mA (assume at least 10mA) + </br>2\*5VA\* 30uA = 0.3mW \@5V = 60uA (assume at least 10mA) + </br>228uA -> 0.5mA </br> Sum = 0.5mA + 0.5mA + 60uA = 1.06mA (assume 30mA) = 6mA \@12V |
-| Total | 12V+12VA rail | | 518.4mA (rounded ->) 1A (includes 2v5 and 5V conversions) |
+| Quantity | Description      | Part Number | Individual Power Consumption                                                                                                                                                                                         |
+|:---------|:-----------------|:------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 3        | IO expanders     | TCA9555     | 56uA \@5V                                                                                                                                                                                                            |
+| 6        | IO expanders     | TCA9555     | 35uA \@2V5                                                                                                                                                                                                           |
+| 24       | 8:1 Mux          | ADG708      | 1uA max \@±2V5 (both rails)                                                                                                                                                                                          |
+| 8        | 8:1 Mux          | ADG708      | 1uA max \@5V                                                                                                                                                                                                         |
+| 3        | SPST switch      | ADG715      | 25uA max \@±2V5 (both rails)                                                                                                                                                                                         |
+| 4        | 4x SPDT switches | ADG734      | 1uA max \@±2V5 (both rails)                                                                                                                                                                                          |
+| 72       | 4x op amp        | OPA1604     | 2.8mA \@±12VA (both rails)                                                                                                                                                                                           |
+| 21       | 2x op amp        | OPA1602     | 2.6mA \@±12VA (both rails)                                                                                                                                                                                           |
+| 12       | 2x digi pot      | DS1882      | 1uA \@5VD, 2.5uA \@±5VA                                                                                                                                                                                              |
+| 2        | OR gate          | SN74ACT32   | 20uA \@5V                                                                                                                                                                                                            |
+| 2        | SPST switch      | TS12A44514  | 0.2uA \@12V                                                                                                                                                                                                          |
+| Total    | ±2V5 rail        |             | 313uA (rounded ->) 0.5mA                                                                                                                                                                                             |
+| Total    | ±12VA rail       |             | 256.2mA (rounded ->) 500mA                                                                                                                                                                                           |
+| Total    | ±5VA rail        |             | 30uA                                                                                                                                                                                                                 |
+| Total    | +5V rail         |             | 2\*2V5\* 0.5mA = 2.5mW \@5V = 0.5mA (assume at least 10mA) + </br>2\*5VA\* 30uA = 0.3mW \@5V = 60uA (assume at least 10mA) + </br>228uA -> 0.5mA </br> Sum = 0.5mA + 0.5mA + 60uA = 1.06mA (assume 30mA) = 6mA \@12V |
+| Total    | 12V+12VA rail    |             | 518.4mA (rounded ->) 1A (includes 2v5 and 5V conversions)                                                                                                                                                            |
 
 
 ## References
