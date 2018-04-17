@@ -3,35 +3,35 @@
 
 entity fullmixer is   -- 24x24 mixer matrix: 8 R IO, 8 L IO 8 mic IO
   port (i     : in array(23 downto 0) of bit_vector(15 downto 0);
-        o     : out array(23 downto 0) of bit_vector(15 downto 0)
-        ctl0  : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl1  : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl2  : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl3  : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl4  : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl5  : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl6  : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl7  : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl8  : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl9  : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl10 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl11 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl12 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl13 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl14 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl15 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl16 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl17 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl18 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl19 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl20 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl21 : in array(23 downto 0) of bit_vector(15 downto 0)
-        ctl22 : in array(23 downto 0) of bit_vector(15 downto 0)
+        o     : out array(23 downto 0) of bit_vector(15 downto 0);
+        ctl0  : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl1  : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl2  : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl3  : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl4  : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl5  : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl6  : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl7  : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl8  : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl9  : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl10 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl11 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl12 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl13 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl14 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl15 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl16 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl17 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl18 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl19 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl20 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl21 : in array(23 downto 0) of bit_vector(15 downto 0);
+        ctl22 : in array(23 downto 0) of bit_vector(15 downto 0);
         ctl23 : in array(23 downto 0) of bit_vector(15 downto 0));
 
 
 
-end fullmixer
+end fullmixer;
 
 architecture arch of fullmixer is
   signal vo : array(23 downto 0) of bit_vector(23 downto 0);
@@ -260,4 +260,4 @@ begin
 
 
 
-end arch
+end arch;
