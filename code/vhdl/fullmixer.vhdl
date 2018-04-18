@@ -33,7 +33,7 @@ entity fullmixer is   -- 24x24 mixer matrix: 8 R IO, 8 L IO 8 mic IO
 
 end fullmixer;
 
-architecture arch of fullmixer is
+architecture Algorithmic of fullmixer is
   signal vo : array(23 downto 0) of bit_vector(23 downto 0);
 
 begin
@@ -260,4 +260,4 @@ begin
 
 
 
-end arch;
+end Algorithmic;
