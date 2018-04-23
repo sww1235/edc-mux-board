@@ -1,19 +1,9 @@
 
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
-
-
-package fullmixer_pkg is
-  type port_t is array (23 downto 0) of SIGNED(15 downto 0); -- port type for IO ports
-  type ctl_port_array_t is array (23 downto 0) of port_t;
-  type buffer_t is array (23 downto 0) of SIGNED(31 downto 0);
-end package;
 
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-use work.fullmixer_pkg.all;
+use work.edc_mux_pkg.all;
 
 entity fullmixer is   -- 24x24 mixer matrix: 8 R IO, 8 L IO 8 mic IO
   port (i     : in  port_t;
