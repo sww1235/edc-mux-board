@@ -10,7 +10,7 @@ routing.
 Due to using a FPGA, the functionality of the
 [mixer](https://github.com/sww1235/portable-line-mixer) is also incorperated.
 
-The initial plan is to use VHDL as our language of choice and then choose a FPGA
+The initial plan is to use VHDL as the language of choice and then choose a FPGA
 based on the actual requirements of the project.
 
 ## Overview of FPGA logic
@@ -22,6 +22,8 @@ be fed into the parallel multipliers etc.
 probably use existing off the shelf i2s to parallel vhdl blocks from
 <https://opencore.com> with some modifications. Use 18 bit internal
 busses.
+
+Current plan is to use i2s to parallel converter from [here](https://opencores.org/project/i2s_to_parallel) and modify it for i2s output
 
 Use 16 bit audio with 18 bit adders/multipliers.
 
