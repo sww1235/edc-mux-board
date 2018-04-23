@@ -10,7 +10,7 @@ entity mux8_1 is
 end mux8_1;
 
 
-architecture arch of mux8_1 is
+architecture Algorithmic of mux8_1 is
 
 begin
   process(i,ctl)
@@ -33,4 +33,4 @@ begin
       o <= i(7);
     end if;
   end process;
-end arch;
+end Algorithmic;
