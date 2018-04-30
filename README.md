@@ -56,8 +56,26 @@ conversion, truncation or zero fill is applied. Quoting from the I2S spec:
 
 ## Interface specs
 
-use something similar to the TLV320DAC3203 from TI for the headset connections.
-(Integrated stereo headphone amplifier along with ADC for mic).
+Connector pinout:
+(directions relative to mux (input = connecting to input on codec))
+
+| Pin | Signal      |
+|-----|-------------|
+| 1   | GND         |
+| 2   | L Audio IN  |
+| 3   | R Audio IN  |
+| 4   | L Audio OUT |
+| 5   | R Audio OUT |
+| 6   | CTL1 in     |
+| 7   | CTL2 in     |
+| 8   | CTL1 out    |
+| 9   | CTL2 out    |
+| 10  | PTT +       |
+| 11  | PTT -       |
+| 12  | +12V or +5V |
+
+use  tlv320aic32 from TI for the headset connections. (Integrated stereo
+headphone amplifier along with ADC for mic).
 
 All analog audio IO is done at consumer line level. (IO direction is referenced to MUX)
 
