@@ -13,6 +13,13 @@ Due to using a FPGA, the functionality of the
 The initial plan is to use VHDL as the language of choice and then choose a FPGA
 based on the actual requirements of the project.
 
+All code, schematics and pcb layouts in this repo are released under MIT, unless
+they are licensed under another license, in which case they are under that
+license. If you are the maintainer of code that I have used in this project and
+consider my license to be counter to your license, create an issue and we can
+discuss it. This is a personal project with no hope or intention of ever
+commercializing it.
+
 ## Overview of FPGA logic
 
 All digital audio is using the I2S interface with PCM audio. Need a serial to
@@ -153,6 +160,12 @@ o-------------|---o
 | Total    | ±5VA rail        |             | 30uA                                                                                                                                                                                                                 |
 | Total    | +5V rail         |             | 2\*2V5\* 0.5mA = 2.5mW \@5V = 0.5mA (assume at least 10mA) + </br>2\*5VA\* 30uA = 0.3mW \@5V = 60uA (assume at least 10mA) + </br>228uA -> 0.5mA </br> Sum = 0.5mA + 0.5mA + 60uA = 1.06mA (assume 30mA) = 6mA \@12V |
 | Total    | 12V+12VA rail    |             | 518.4mA (rounded ->) 1A (includes 2v5 and 5V conversions)                                                                                                                                                            |
+
+## Acknowledgements
+
+I2S to parallel VHDL from [opencores](https://opencores.org/project/i2s_to_parallel) released under GPL
+
+I2C slave VHDL from [github](https://github.com/oetr/FPGA-I2C-Slave) and [forked here](https://github.com/sww1235/FPGA-I2C-Slave) released under MIT.
 
 
 ## References
