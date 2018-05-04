@@ -1,0 +1,3 @@
+[submodule "code/vhdl/FPGA-I2C-Slave"]
+	path = code/vhdl/FPGA-I2C-Slave
+	url = git@github.com:sww1235/FPGA-I2C-Slave.git
