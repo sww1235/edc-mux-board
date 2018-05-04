@@ -6,7 +6,7 @@ OUT_DIR = out
 
 # GHDL config
 GHDL_CMD = ghdl
-GHDL_FLAGS = --workdir=$(OUT_DIR)
+GHDL_FLAGS = --workdir=$(OUT_DIR) --std=08
 
 .PHONY: clean
 
