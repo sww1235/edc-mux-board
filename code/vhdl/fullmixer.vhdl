@@ -20,7 +20,7 @@ use ieee.numeric_std.all;
 use work.edc_mux_pkg.all;
 
 architecture Algorithmic of fullmixer is
-  signal vo : buffer_t := 0;
+  signal vo : buffer_t;
 
 begin
   process(i, ctl)
