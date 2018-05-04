@@ -165,7 +165,9 @@ o-------------|---o
 
 I2S to parallel VHDL from [opencores](https://opencores.org/project/i2s_to_parallel) released under GPL
 
-I2C slave VHDL from [github](https://github.com/oetr/FPGA-I2C-Slave) and [forked here](https://github.com/sww1235/FPGA-I2C-Slave) released under MIT.
+I2C slave VHDL in submodule from
+[here](https://github.com/sww1235/FPGA-I2C-Slave) which was [forked from
+here](https://github.com/oetr/FPGA-I2C-Slave) released under MIT.
 
 
 ## References
