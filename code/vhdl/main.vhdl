@@ -9,6 +9,8 @@ use work.edc_mux_pkg.all;
 -- CODEC
 -- Control comes from an arduino nano clone connected via i2c.
 
+-- These are the direct pin connections on the FPGA. See the PCF file for pin assignments
+-- This is 9*16 + 3 = 147 IO pins
 entity edc_mux is
   port (i2s_in : in std_logic_vector(15 downto 0);  -- 16 serial i2s audio inputs (carry two channels)
         i2s_out : out std_logic_vector(15 downto 0); -- 16 serial i2s audio outputs (carry two channels)
