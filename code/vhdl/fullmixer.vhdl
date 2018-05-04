@@ -17,7 +17,7 @@ end fullmixer;
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-use work.fullmixer_pkg.all;
+use work.edc_mux_pkg.all;
 
 architecture Algorithmic of fullmixer is
   signal vo : buffer_t := 0;
