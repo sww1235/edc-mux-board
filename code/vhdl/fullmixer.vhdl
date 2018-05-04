@@ -28,7 +28,7 @@ begin
       for J in 0 to 31 loop
         for K in 0 to 31 loop
 
-          vo(J) <= vo(J) + ((i(J) * ctl(J)(K));
+          vo(J) <= vo(J) + ((i(J) * ctl(J)(K)));
 
         end loop;
 
