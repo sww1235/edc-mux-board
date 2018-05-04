@@ -26,6 +26,7 @@ entity edc_mux is
         sda      : inout std_logic
   );
 
+end edc_mux;
 
 -- audio mux has to cycle through all outputs at least 10 times the sample rate
 -- of 48kHz. All DACs and ADCs will be using the same bit, LR and MCLKs.
