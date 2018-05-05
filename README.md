@@ -16,8 +16,8 @@ based on the actual requirements of the project.
 All code, schematics and pcb layouts in this repo are released under MIT, unless
 they are licensed under another license, in which case they are under that
 license. If you are the maintainer of code that I have used in this project and
-consider my license to be counter to your license, create an issue and we can
-discuss it. This is a personal project with no hope or intention of ever
+consider my license to be incompatible with your license, create an issue and we
+can discuss it. This is a personal project with no hope or intention of ever
 commercializing it.
 
 ## Overview of FPGA logic
@@ -30,7 +30,9 @@ probably use existing off the shelf i2s to parallel vhdl blocks from
 <https://opencore.com> with some modifications. Use 18 bit internal
 busses.
 
-Current plan is to use i2s to parallel converter from [here](https://opencores.org/project/i2s_to_parallel) and modify it for i2s output
+Current plan is to use i2s to parallel converter from
+[here](https://opencores.org/project/i2s_to_parallel) and modify it for i2s
+output.
 
 Use 16 bit audio with 18 bit adders/multipliers.
 
@@ -67,7 +69,7 @@ Connector pinout:
 (directions relative to mux (input = connecting to input on codec))
 
 | Pin | Signal      |
-|-----|-------------|
+|:----|:------------|
 | 1   | GND         |
 | 2   | L Audio IN  |
 | 3   | R Audio IN  |
@@ -106,6 +108,21 @@ Line          < mic
           R2  >
               >
 o-------------|---o
+
+## I2C commands
+
+potentially generate interrupt on any physical input change to trigger a read
+from i2c master. Will need to set data in `data_to_master` register then set
+read_req high. (depends on how fast arduino can respond to interrupt)
+
+| Primary Bit Pattern (Command) | Secondary Bit Pattern (selection/data) | tertiary bit pattern (data) | Description |
+|-------------------------------|----------------------------------------|-----------------------------|-------------|
+| `000X.XXXX` | `000Y.YYYY` | `VVVV.VVVV` | Matrix mixer controls. </br> Primary selects output with bits 0-3 selecting device 0 through 15 and bit 4 selects channel 0 or channel 1 of i2s audio stream. </br> Secondary selects which input volume is being controlled with bits 0-3 selecting device 0 through 15 and bit 4 selects channel 0 or channel 1 of i2s audio stream. </br> Tertiary is a 16 bit representation of the linear volume control of the input in the output. </br>So to zero the volume of input 4 channel 1 in output 8 channel 2, you would send 3 i2c messages: `0001.1000` => `0000.0100` => `0000.0000` |
+| `10XX.XXXX` | `00YY.YYYY` | | Select inputs that control outputs. </br> Primary selects destination output pin where: </br>bit pattern `1000.0000` is ctl0_out for connector 0, </br>bit pattern `1000.1111` is ctl0_out for connector 15, </br>bit pattern `1001.0000` is ctl1_out for connector 0, </br>bit pattern `1001.1111` is ctl1_out for connector 15, </br>bit pattern `1010.0000` is ptt_out for connector 0, </br>bit pattern `1010.1111` is ptt_out for connector 15. </br></br> Secondary pattern is similar with: </br>`0000.YYYY` being connector Y ctl0_in, </br>`0001.YYYY` being connector Y ctl1_in, </br>`0010.YYYY` being output register from microcontroller  |
+| `1100.0XXX` | `YYYY.YYYY` | | Primary selects which output register the data is applying to. Bits 2 and 1 select ctl0_out (`00`), ctl1_out (`01`) and ptt_out (`10`) while bit 0 selects high or low grouping of 8 outputs. So `1100.0100` would put the data from secondary into the register controlling outputs to PTT switches on connectors 0-7 |
+
+
+
 
 ## Extra parts
 
