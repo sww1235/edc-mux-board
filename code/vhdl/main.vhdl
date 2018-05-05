@@ -14,10 +14,10 @@ use work.edc_mux_pkg.all;
 entity edc_mux is
   port (i2s_in    : in std_logic_vector(15 downto 0);  -- 16 serial i2s audio inputs (carry two channels)
         i2s_out   : out std_logic_vector(15 downto 0); -- 16 serial i2s audio outputs (carry two channels)
+        ctl0_in   : in std_logic_vector(15 downto 0); -- 16 CTL inputs
+        ctl0_out  : out std_logic_vector(15 downto 0); -- 16 CTL outputs
         ctl1_in   : in std_logic_vector(15 downto 0); -- 16 CTL inputs
         ctl1_out  : out std_logic_vector(15 downto 0); -- 16 CTL outputs
-        ctl2_in   : in std_logic_vector(15 downto 0); -- 16 CTL inputs
-        ctl2_out  : out std_logic_vector(15 downto 0); -- 16 CTL outputs
         ptt_out   : out std_logic_vector(15 downto 0); -- 16 PTT outputs. Connected directly to SPST switches
         mclk_in   : in std_logic;                     -- clock source for FPGA logic and clock dividers (48MHz)
         bclk_out  : out std_logic_vector(15 downto 0);
