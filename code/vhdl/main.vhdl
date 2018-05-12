@@ -19,7 +19,8 @@ entity edc_mux is
         ctl1_in   : in std_logic_vector(15 downto 0); -- 16 CTL inputs
         ctl1_out  : out std_logic_vector(15 downto 0); -- 16 CTL outputs
         ptt_out   : out std_logic_vector(15 downto 0); -- 16 PTT outputs. Connected directly to SPST switches
-        mclk_in   : in std_logic;                     -- clock source for FPGA logic and clock dividers (48MHz)
+        -- mclk_in is using LVDS signalling connecting to master clock routing in FPGA
+        mclk_in   : in std_logic;                     -- clock source for FPGA logic and clock dividers (50MHz)
         bclk_out  : out std_logic_vector(15 downto 0);
         wclk_out  : out std_logic_vector(15 downto 0);
         scl       : inout std_logic;
@@ -31,28 +32,51 @@ end edc_mux;
 
 architecture arch of edc_mux is
   constant i2c_address : std_logic_vector(6 downto 0) := "0000100" -- TODO: make sure address does not conflict
+  -- clock signals
   signal i2c_clk : std_logic;
   signal i2c_clk_cntr : integer := 0;
+  signal i2s_bclk : std_logic;
+  signal i2s_bclk_cntr : integer := 0;
+  signal i2s_wclk : std_logic;
+  signal i2s_wclk_cntr : integer := 0;
+
   -- i2c interface temp variables
   signal data_valid : std_logic; -- data from master contains valid data
   signal data_from_master : std_logic_vector(7 downto 0); -- contains data from master
   signal read_req : std_logic; -- data to master is ready
   signal data_to_master : std_logic_vector(7 downto 0); -- data to master
+
   -- control variables (from i2c data)
   signal instruction : std_logic_vector(7 downto 0); -- instruction from i2c
 
 
   begin
 
+    -- I2C clock
     process(mclk_in)
       begin
         if rising_edge(mclk_in) then
-          if i2c_clk_cntr = 479 then -- 48MHz/100kHz = 480 -1 for zero index
+          if i2c_clk_cntr = 499 then -- 50MHz/100kHz = 500 -1 for zero index
             i2c_clk <= '1';
             i2c_clk_cntr <= 0;
           else
             i2c_clk <= '0';
-            i2c_clk_cntr <= cntr + 1;
+            i2c_clk_cntr <= i2c_clk_cntr + 1;
+          end if;
+        end if;
+    end process;
+
+    -- I2S Bit Clock
+    -- sample frequency of 48kHz with bit depth of 16bits = 32x sample frequency = 1,536kHz
+    process(mclk_in)
+      begin
+        if rising_edge(mclk_in) then
+          if i2s_bclk_cntr = 499 then -- 50MHz/1536kHz = 32.552083333 -1 for zero index
+            i2s_bclk <= '1';
+            i2s_bclk_cntr <= 0;
+          else
+            i2s_bclk <= '0';
+            i2s_bclk_cntr <= i2s_bclk_cntr + 1;
           end if;
         end if;
     end process;
