@@ -63,6 +63,14 @@ conversion, truncation or zero fill is applied. Quoting from the I2S spec:
 >always sends the MSB of the next word one clock period after the
 >WS changes.
 
+
+## Arduino Code
+
+Normallizing audio volume algorithm:
+
+-   calculate the sum of all elements
+-   divide each element by the sum
+
 ## Interface specs
 
 Connector pinout:
