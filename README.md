@@ -125,6 +125,8 @@ potentially generate interrupt on any physical input change to trigger a read
 from i2c master. Will need to set data in `data_to_master` register then set
 read_req high. (depends on how fast arduino can respond to interrupt)
 
+always have master send three bytes. Some instructions will ignore third byte. 
+
 | Primary Bit Pattern (Command) | Secondary Bit Pattern (selection/data) | tertiary bit pattern (data) | Description |
 |-------------------------------|----------------------------------------|-----------------------------|-------------|
 | `000X.XXXX` | `000Y.YYYY` | `VVVV.VVVV` | Matrix mixer controls. </br> Primary selects output with bits 0-3 selecting device 0 through 15 and bit 4 selects channel 0 or channel 1 of i2s audio stream. </br> Secondary selects which input volume is being controlled with bits 0-3 selecting device 0 through 15 and bit 4 selects channel 0 or channel 1 of i2s audio stream. </br> Tertiary is a 16 bit representation of the linear volume control of the input in the output. </br>So to zero the volume of input 4 channel 1 in output 8 channel 2, you would send 3 i2c messages: `0001.1000` => `0000.0100` => `0000.0000` |
