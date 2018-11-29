@@ -47,7 +47,7 @@ architecture arch of edc_mux is
   signal data_to_master : std_logic_vector(7 downto 0); -- data to master
 
   -- control variables (from i2c data)
-  signal instruction : std_logic_vector(7 downto 0); -- instruction from i2c
+  --signal instruction : std_logic_vector(7 downto 0); -- instruction from i2c
 
 
   begin
