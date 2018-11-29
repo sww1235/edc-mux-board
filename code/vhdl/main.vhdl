@@ -93,15 +93,34 @@ architecture arch of edc_mux is
                 data_to_master => data_to_master
       );
 
-    process(data_valid)
+    instruction_processing: process(data_valid)
+      variable inst_valid : boolean := false;
       begin
-        if rising_edge(data_valid) then
-          instruction <= data_from_master;
-          case instruction is
-            when "" =>
-          end case;
+        if rising_edge(data_valid) then -- first instruction byte
+          instruction1 <= data_from_master;
+          inst_valid <= true;
         else
+          instruction1 <= "00000000"
+          inst_valid <= false;
         end if;
+
+        if rising_edge(data_valid) and inst_valid then -- first instruction byte
+          instruction2 <= data_from_master;
+        else
+          instruction2 <= "00000000"
+        end if;
+
+        if rising_edge(data_valid) and inst_valid then -- first instruction byte
+          instruction3 <= data_from_master;
+        else
+          instruction3 <= "00000000"
+        end if;
+
+        instruction <= data_from_master(15 downto 13); -- select first two bits of first in
+        case instruction is
+          when "00" => -- matrix mixer controls
+
+        end case;
       end process;
 
 
