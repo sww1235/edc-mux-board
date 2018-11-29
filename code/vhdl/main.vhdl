@@ -53,7 +53,7 @@ architecture arch of edc_mux is
   begin
 
     -- I2C clock
-    process(mclk_in)
+    i2c_clk: process(mclk_in)
       begin
         if rising_edge(mclk_in) then
           if i2c_clk_cntr = 499 then -- 50MHz/100kHz = 500 -1 for zero index
@@ -68,7 +68,7 @@ architecture arch of edc_mux is
 
     -- I2S Bit Clock
     -- sample frequency of 48kHz with bit depth of 16bits = 32x sample frequency = 1,536kHz
-    process(mclk_in)
+    i2s_bit_clk: process(mclk_in)
       begin
         if rising_edge(mclk_in) then
           if i2s_bclk_cntr = 499 then -- 50MHz/1536kHz = 32.552083333 -1 for zero index
