@@ -6,10 +6,13 @@
 --
 -- Create Date:   17:26:41 12/19/2008
 -- Design Name:   i2s_to_parallel
+-- Website: https://opencores.org/projects/i2s_to_parallel
+-- Website: https://github.com/freecores/i2s_to_parallel/blob/master/i2s_to_parallel.vhd
+-- License: GPL
 --
--- Description:   
--- 
--- This module provides a bridge between an I2S serial device (audio ADC, S/PDIF 
+-- Description:
+--
+-- This module provides a bridge between an I2S serial device (audio ADC, S/PDIF
 -- Decoded data) and a parallel device (microcontroller, IP block).
 --
 -- It's coded as a generic VHDL entity, so developer can choose the proper signal
@@ -23,7 +26,7 @@
 -- Output provides:
 -- -DATA_L / DATA_R parallel outputs
 -- -STROBE and STROBE_LR output ready signals.
--- 
+--
 -- As soon as data is read from the serial I2S line, it's written on the proper
 -- parallel output and a rising edge of the STROBE signal indicates that new
 -- data is ready.
@@ -33,7 +36,7 @@
 --------------------------------------------------------------------------------
 -- I2S Waveform summary
 --
--- BIT_CK     __    __   __    __    __            __    __    __    __   
+-- BIT_CK     __    __   __    __    __            __    __    __    __
 --           | 1|__| 2|_| 3|__| 4|__| 5|__... ... |32|__| 1|__| 2|__| 3| ...
 --
 -- LR_CK                                  ... ...      _________________
@@ -52,7 +55,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity i2s_to_parallel is 
+entity i2s_to_parallel is
 -- width: How many bits (from MSB) are gathered from the serial I2S input
 generic(width : integer := 16);
 port(
@@ -76,7 +79,7 @@ architecture Behavioral of i2s_to_parallel  is
 	signal counter : integer range 0 to width;
 	signal shift_reg : std_logic_vector(width-1 downto 0);
 	signal output_strobed : std_logic;
-	
+
 begin
 	process(RESET, BIT_CK, LR_CK, DIN)
 	begin
@@ -107,7 +110,7 @@ begin
 				-- Push data into the shift register
 				shift_reg <= shift_reg(width-2 downto 0) & DIN;
 				-- Decrement counter
-				counter <= counter - 1;		
+				counter <= counter - 1;
 			elsif(counter = 0) then
 				--TODO Optimization
 				-- Data could be written one clock behind
@@ -118,7 +121,7 @@ begin
 						--Output Right Channel
 						DATA_R <= shift_reg;
 					else
-						--Output Left Channel					
+						--Output Left Channel
 						DATA_L <= shift_reg;
 					end if;
 					STROBE_LR <= current_lr;
@@ -127,9 +130,9 @@ begin
 					STROBE <= '1';
 				end if; --(output_strobed = '0')
 			end if;	-- (counter = 0)
-		
+
 		end if; -- reset / rising_edge
-		
+
 	end process;
 
 end Behavioral;
