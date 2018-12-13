@@ -9,6 +9,8 @@ use work.edc_mux_pkg.all;
 -- CODEC
 -- Control comes from an arduino nano clone connected via i2c.
 
+-- external master clock is distributed to FPGA and CODECs which are set as masters
+
 -- These are the direct pin connections on the FPGA. See the PCF file for pin assignments
 -- This is 9*16 + 4 = 148 IO pins
 entity edc_mux is
@@ -19,7 +21,7 @@ entity edc_mux is
         ctl1_in   : in std_logic_vector(15 downto 0); -- 16 CTL inputs
         ctl1_out  : out std_logic_vector(15 downto 0); -- 16 CTL outputs
         ptt_out   : out std_logic_vector(15 downto 0); -- 16 PTT outputs. Connected directly to SPST switches
-        -- mclk_in is using LVDS signalling connecting to master clock routing in FPGA
+        -- mclk_in is using LVDS signalling connecting to master clock routing in FPGA (48MHz)
         mclk_in   : in std_logic;                     -- clock source for FPGA logic and clock dividers (50MHz)
         bclk_out  : out std_logic_vector(15 downto 0);
         wclk_out  : out std_logic_vector(15 downto 0);
@@ -30,15 +32,13 @@ entity edc_mux is
 
 end edc_mux;
 
+
+
 architecture arch of edc_mux is
   constant i2c_address : std_logic_vector(6 downto 0) := "0000100" -- TODO: make sure address does not conflict
   -- clock signals
   signal i2c_clk : std_logic;
   signal i2c_clk_cntr : integer := 0;
-  signal i2s_bclk : std_logic;
-  signal i2s_bclk_cntr : integer := 0;
-  signal i2s_wclk : std_logic;
-  signal i2s_wclk_cntr : integer := 0;
 
   -- i2c interface temp variables
   signal data_valid : std_logic; -- data from master contains valid data
@@ -49,34 +49,32 @@ architecture arch of edc_mux is
   -- control variables (from i2c data)
   --signal instruction : std_logic_vector(7 downto 0); -- instruction from i2c
 
+  component SB_GB
+port (
+USER_SIGNAL_TO_GLOBAL_BUFFER:input std_logic;
+GLOBAL_BUFFER_OUTPUT:output std_logic);
+end component;
+
 
   begin
 
+    mclk_buffer: SB_GB
+      port map (
+        USER_SIGNAL_TO_GLOBAL_BUFFER=>mclk_in,
+        GLOBAL_BUFFER_OUTPUT=>mclk_buff);
+
+
+--- instructions
     -- I2C clock
-    i2c_clk: process(mclk_in)
+    i2c_clk: process(mclk_buff)
       begin
-        if rising_edge(mclk_in) then
-          if i2c_clk_cntr = 499 then -- 50MHz/100kHz = 500 -1 for zero index
+        if rising_edge(mclk_buff) then
+          if i2c_clk_cntr = 479 then -- 48MHz/100kHz = 480 -1 for zero index
             i2c_clk <= '1';
             i2c_clk_cntr <= 0;
           else
             i2c_clk <= '0';
             i2c_clk_cntr <= i2c_clk_cntr + 1;
-          end if;
-        end if;
-    end process;
-
-    -- I2S Bit Clock
-    -- sample frequency of 48kHz with bit depth of 16bits = 32x sample frequency = 1,536kHz
-    i2s_bit_clk: process(mclk_in)
-      begin
-        if rising_edge(mclk_in) then
-          if i2s_bclk_cntr = 499 then -- 50MHz/1536kHz = 32.552083333 -1 for zero index
-            i2s_bclk <= '1';
-            i2s_bclk_cntr <= 0;
-          else
-            i2s_bclk <= '0';
-            i2s_bclk_cntr <= i2s_bclk_cntr + 1;
           end if;
         end if;
     end process;
@@ -133,6 +131,8 @@ architecture arch of edc_mux is
 
       end process;
 
+
+--- audio stuff
     audio_mixer : entity work.fullmixer
       port map ();
 
