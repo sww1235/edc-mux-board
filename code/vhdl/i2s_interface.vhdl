@@ -18,26 +18,23 @@
 -- and output digital data uses the same WCLK and BCLKs. WCLK and BCLK can
 -- easily be generated using clock dividers
 
--- It's coded as a generic VHDL entity, so developer can choose the proper signal
--- width (8/16/24 bit)
---
 -- Input takes:
 -- -I2S Bit Clock
 -- -I2S LR Clock (Left/Right channel indication)
 -- -I2S Data
 -- -Parallel Audio Data (Separate DATA_L and DATA_R registers)
---
+
 -- Output provides:
 -- -DATA_L / DATA_R parallel outputs
 -- -I2S Data
 -- -STROBE and STROBE_LR output ready signals.
---
+
 -- As soon as data is read from the serial I2S line, it's written on the proper
 -- parallel output and a rising edge of the STROBE signal indicates that new
 -- data is ready.
 -- STROBE_LR signal tells if the strobe signal was relative to the
 -- Left or Right channel.
---
+
 --------------------------------------------------------------------------------
 -- I2S Waveform summary
 --
@@ -59,22 +56,21 @@
 --------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
+use work.edc_mux_pkg.all;
 
 entity i2s_interface is
--- width: How many bits (from MSB) are gathered from the serial I2S input
-generic(width : integer := 16);
 port(
 	--  Clock Inputs
 	LR_CK : in std_logic;    --Left/Right indicator clock
 	BIT_CK : in std_logic;   --Bit clock
   -- Audio inputs
 	DIN : in std_logic;      --I2S Serial Input
-  DATA_L_IN : in std_logic_vector(width-1 downto 0);
-  DATA_R_IN : in std_logic_vector(width-1 downto 0);
+  DATA_L_IN : in audio_buffer_t;
+  DATA_R_IN : in audio_buffer_t;
 	-- Parallel Output ports
   DOUT : out std_logic; --I2S Serial Output
-	DATA_L_OUT : out std_logic_vector(width-1 downto 0);
-	DATA_R_OUT : out std_logic_vector(width-1 downto 0);
+	DATA_L_OUT : out audio_buffer_t;
+	DATA_R_OUT : out audio_buffer_t;
   -- Control ports
 	RESET : in std_logic;    --Asynchronous Reset (Active Low)
 	-- Output status ports
@@ -85,12 +81,68 @@ end i2s_interface;
 
 architecture Behavioral of i2s_interface  is
 	signal current_lr : std_logic;
-	signal counter : integer range 0 to width;
-	signal shift_reg : std_logic_vector(width-1 downto 0);
+	signal in_counter : integer range 0 to width;
+	signal in_shift_reg : audio_buffer_t;
 	signal output_strobed : std_logic;
 
+	constant width : integer := 16;
+
 begin
-	process(RESET, BIT_CK, LR_CK, DIN)
+	serial2parallel: process(RESET, BIT_CK, LR_CK, DIN)
+	begin
+		if(RESET = '0') then
+			DATA_L_OUT <= (others => '0');
+			DATA_R_OUT <= (others => '0');
+			in_shift_reg <= (others => '0');
+			current_lr <= '0';
+			STROBE_LR <= '0';
+			STROBE <= '0';
+			in_counter <= width;
+			output_strobed <= '0';
+		elsif rising_edge(BIT_CK) then
+			-- Note: LRCK changes on the falling edge of BCK
+			-- We notice of the first LRCK transition only on the
+			-- next rising edge of BCK
+			-- In this way we discard the first data bit as we start pushing
+			-- data into the shift register only on the next BCK rising edge
+			-- This is right for I2S standard (data starts on the 2nd clock)
+			if(LR_CK /= current_lr) then
+				current_lr <= LR_CK;
+				in_counter <= width;
+				--clear the shift register
+				in_shift_reg <= (others => '0');
+				STROBE <= '0';
+				output_strobed <= '0';
+			elsif(in_counter > 0) then
+				-- Push data into the shift register
+				in_shift_reg <= in_shift_reg(width-2 downto 0) & DIN;
+				-- Decrement counter
+				in_counter <= in_counter - 1;
+			elsif(in_counter = 0) then
+				--TODO Optimization
+				-- Data could be written one clock behind
+				-- when counter = 1 (step down counter)
+				-- We're wasting a cycle here
+				if(output_strobed = '0') then
+					if(current_lr = '1') then
+						--Output Right Channel
+						DATA_R_OUT <= in_shift_reg;
+					else
+						--Output Left Channel
+						DATA_L_OUT <= in_shift_reg;
+					end if;
+					STROBE_LR <= current_lr;
+					output_strobed <= '1';
+				else
+					STROBE <= '1';
+				end if; --(output_strobed = '0')
+			end if;	-- (counter = 0)
+
+		end if; -- reset / rising_edge
+
+	end process;
+-- TODO: implement parallel2serial process
+	parallel2serial: process(RESET, BIT_CK, LR_CK, DATA_L_IN, DATA_R_IN)
 	begin
 		if(RESET = '0') then
 			DATA_L <= (others => '0');
