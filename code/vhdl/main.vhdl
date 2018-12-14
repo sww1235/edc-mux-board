@@ -35,7 +35,7 @@ end edc_mux;
 
 
 architecture arch of edc_mux is
-  constant i2c_address : std_logic_vector(6 downto 0) := "0000100" -- TODO: make sure address does not conflict
+  constant i2c_address : std_logic_vector(6 downto 0) := "0000100"; -- TODO: make sure address does not conflict
   -- clock signals
   signal i2c_clk : std_logic;
   signal i2c_clk_cntr : integer := 0;
@@ -93,28 +93,28 @@ end component;
 
     instruction_processing: process(data_valid)
       variable inst_valid : boolean := false;
-      variable instruction1 : std_logic_vector(7 downto 0) := "00000000"
-      variable instruction2 : std_logic_vector(7 downto 0) := "00000000"
-      variable instruction3 : std_logic_vector(7 downto 0) := "00000000"
+      variable instruction1 : std_logic_vector(7 downto 0) := "00000000";
+      variable instruction2 : std_logic_vector(7 downto 0) := "00000000";
+      variable instruction3 : std_logic_vector(7 downto 0) := "00000000";
       begin
         if rising_edge(data_valid) then -- first instruction byte
           instruction1 <= data_from_master;
           inst_valid <= true;
         else
-          instruction1 <= "00000000"
-          inst_valid <= false;
+          instruction1 <= "00000000";
+          inst_valid := false;
         end if;
 
         if rising_edge(data_valid) and inst_valid then -- second instruction byte
           instruction2 <= data_from_master;
         else
-          instruction2 <= "00000000"
+          instruction2 := "00000000";
         end if;
 
         if rising_edge(data_valid) and inst_valid then -- third instruction byte
           instruction3 <= data_from_master;
         else
-          instruction3 <= "00000000"
+          instruction3 := "00000000";
         end if;
 
         if inst_valid then -- we have gotten 3 instruction bytes
