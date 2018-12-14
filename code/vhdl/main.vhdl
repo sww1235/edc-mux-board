@@ -46,14 +46,37 @@ architecture arch of edc_mux is
   signal read_req : std_logic; -- data to master is ready
   signal data_to_master : std_logic_vector(7 downto 0); -- data to master
 
+
   -- control variables (from i2c data)
   --signal instruction : std_logic_vector(7 downto 0); -- instruction from i2c
 
+  -- Audio mapping registers
+  signal audio_reg_in : audio_port_t;
+  signal audio_reg_out : audio_port_t;
+
   component SB_GB
-port (
-USER_SIGNAL_TO_GLOBAL_BUFFER:input std_logic;
-GLOBAL_BUFFER_OUTPUT:output std_logic);
-end component;
+    port (
+    USER_SIGNAL_TO_GLOBAL_BUFFER:input std_logic;
+    GLOBAL_BUFFER_OUTPUT:output std_logic);
+    end component;
+
+    component i2s_interface
+      generic (width : integer := 16);
+      port (
+        LR_CK      : in  std_logic;
+        BIT_CK     : in  std_logic;
+        DIN        : in  std_logic;
+        DATA_L_IN  : in  std_logic_vector(width-1 downto 0);
+        DATA_R_IN  : in  std_logic_vector(width-1 downto 0);
+        DOUT       : out std_logic;
+        DATA_L_OUT : out std_logic_vector(width-1 downto 0);
+        DATA_R_OUT : out std_logic_vector(width-1 downto 0);
+        RESET      : in  std_logic;
+        STROBE     : out std_logic;
+        STROBE_LR  : out std_logic
+      );
+    end component i2s_interface;
+
 
 
   begin
@@ -61,7 +84,8 @@ end component;
     mclk_buffer: SB_GB
       port map (
         USER_SIGNAL_TO_GLOBAL_BUFFER=>mclk_in,
-        GLOBAL_BUFFER_OUTPUT=>mclk_buff);
+        GLOBAL_BUFFER_OUTPUT=>mclk_buff
+        );
 
 
 --- instructions
@@ -133,10 +157,29 @@ end component;
 
 
 --- audio stuff
+
     audio_mixer : entity work.fullmixer
       port map ();
 
-
+--- I2S stuff
+    -- Generate 16 audio code interfaces
+    gen_codecs: for I in 0 to 15 generate
+      CODEC : i2s_interface
+        port map (
+          LR_CK      => LR_CK,
+          BIT_CK     => BIT_CK,
+          DIN        => DIN,
+          DATA_L_IN  => DATA_L_IN,
+          DATA_R_IN  => DATA_R_IN,
+          DOUT       => DOUT,
+          DATA_L_OUT => DATA_L_OUT,
+          DATA_R_OUT => DATA_R_OUT,
+          RESET      => RESET,
+          STROBE     => STROBE,
+          STROBE_LR  => STROBE_LR
+          );
+        )
+    end generate;
 
 
 
