@@ -27,12 +27,12 @@
 -- Output provides:
 -- -DATA_L / DATA_R parallel outputs
 -- -I2S Data
--- -STROBE and STROBE_LR output ready signals.
+-- -DATA_RDY_OUT and STROBE_LR output ready signals.
 
 -- As soon as data is read from the serial I2S line, it's written on the proper
--- parallel output and a rising edge of the STROBE signal indicates that new
+-- parallel output and a rising edge of the DATA_RDY_OUT signal indicates that new
 -- data is ready.
--- STROBE_LR signal tells if the strobe signal was relative to the
+-- STROBE_LR signal tells if the DATA_RDY_OUT signal was relative to the
 -- Left or Right channel.
 
 --------------------------------------------------------------------------------
@@ -49,8 +49,8 @@
 --
 -- Each time enough ('width' bits of) data is collected from the serial input
 -- it is outputed on the corresponding DATA_R/L port and the proper
--- STROBE signals are emitted
--- A rising edge of the STROBE signal tells that parallel data is ready
+-- DATA_RDY_OUT signals are emitted
+-- A rising edge of the DATA_RDY_OUT signal tells that parallel data is ready
 -- STROBE_LR signal tells which of the DATA_L / DATA_R has been generated
 -- DATA_L/R remain valid for the whole cycle (until next data is processed)
 --------------------------------------------------------------------------------
@@ -74,8 +74,10 @@ port(
   -- Control ports
 	RESET : in std_logic;    --Asynchronous Reset (Active Low)
 	-- Output status ports
-	STROBE : out std_logic;  --Rising edge means data is ready
+	DATA_RDY_OUT : out std_logic;  --Rising edge means data is ready
 	STROBE_LR : out std_logic
+	-- Input status ports
+
 );
 end i2s_interface;
 
@@ -96,7 +98,7 @@ begin
 			in_shift_reg <= (others => '0');
 			current_lr <= '0';
 			STROBE_LR <= '0';
-			STROBE <= '0';
+			DATA_RDY_OUT <= '0';
 			in_counter <= width;
 			output_strobed <= '0';
 		elsif rising_edge(BIT_CK) then
@@ -111,7 +113,7 @@ begin
 				in_counter <= width;
 				--clear the shift register
 				in_shift_reg <= (others => '0');
-				STROBE <= '0';
+				DATA_RDY_OUT <= '0';
 				output_strobed <= '0';
 			elsif(in_counter > 0) then
 				-- Push data into the shift register
@@ -134,7 +136,7 @@ begin
 					STROBE_LR <= current_lr;
 					output_strobed <= '1';
 				else
-					STROBE <= '1';
+					DATA_RDY_OUT <= '1';
 				end if; --(output_strobed = '0')
 			end if;	-- (counter = 0)
 
@@ -142,15 +144,22 @@ begin
 
 	end process;
 -- TODO: implement parallel2serial process
+
+-- logic flow
+-- parallel audio data is ready on DATA_RDY_IN
+-- check if left or right
+-- clock data out on serial line
+
+-- reset: set everything internal to 0
 	parallel2serial: process(RESET, BIT_CK, LR_CK, DATA_L_IN, DATA_R_IN)
 	begin
 		if(RESET = '0') then
-			DATA_L <= (others => '0');
-			DATA_R <= (others => '0');
+			DATA_L_IN <= (others => '0');
+			DATA_R_IN <= (others => '0');
 			shift_reg <= (others => '0');
 			current_lr <= '0';
 			STROBE_LR <= '0';
-			STROBE <= '0';
+			DATA_RDY_IN <= '0';
 			counter <= width;
 			output_strobed <= '0';
 		elsif rising_edge(BIT_CK) then
@@ -165,7 +174,7 @@ begin
 				counter <= width;
 				--clear the shift register
 				shift_reg <= (others => '0');
-				STROBE <= '0';
+				DATA_RDY_OUT <= '0';
 				output_strobed <= '0';
 			elsif(counter > 0) then
 				-- Push data into the shift register
@@ -188,7 +197,7 @@ begin
 					STROBE_LR <= current_lr;
 					output_strobed <= '1';
 				else
-					STROBE <= '1';
+					DATA_RDY_OUT <= '1';
 				end if; --(output_strobed = '0')
 			end if;	-- (counter = 0)
 
