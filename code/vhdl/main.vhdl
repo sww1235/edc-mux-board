@@ -51,8 +51,10 @@ architecture arch of edc_mux is
   --signal instruction : std_logic_vector(7 downto 0); -- instruction from i2c
 
   -- Audio mapping registers
-  signal audio_reg_in : audio_port_t;
-  signal audio_reg_out : audio_port_t;
+  -- left is even numbers (starting from 0), right is odd numbers
+  signal audio_reg_in : audio_port_t; -- inputs from i2s interface -> to mixer
+  signal audio_reg_out : audio_port_t; -- outputs from i2s interface <- from mixer
+  signal audio_ctl_reg : ctl_port_array_t; -- volume control signals from i2c instructions -> mixer
 
   component SB_GB
     port (
@@ -158,8 +160,17 @@ architecture arch of edc_mux is
 
 --- audio stuff
 
-    audio_mixer : entity work.fullmixer
-      port map ();
+-- Audio process
+
+--
+
+    audio_mixer : fullmixer
+      port map (
+        i   => audio_reg_in,
+        o   => audio_reg_out,
+        ctl => audio_ctl_reg
+      );
+
 
 --- I2S stuff
     -- Generate 16 audio code interfaces
@@ -168,12 +179,12 @@ architecture arch of edc_mux is
         port map (
           LR_CK      => LR_CK,
           BIT_CK     => BIT_CK,
-          DIN        => DIN,
-          DATA_L_IN  => DATA_L_IN,
-          DATA_R_IN  => DATA_R_IN,
-          DOUT       => DOUT,
-          DATA_L_OUT => DATA_L_OUT,
-          DATA_R_OUT => DATA_R_OUT,
+          DIN        => i2s_in(I),
+          DATA_L_IN  => audio_reg_out(I*2), --TODO: need to fix incrementing here
+          DATA_R_IN  => audio_reg_out((I+1)*2),
+          DOUT       => i2s_out(I),
+          DATA_L_OUT => audio_reg_in(I), --TODO: need to fix incrementing here
+          DATA_R_OUT => audio_reg_in(I+1),
           RESET      => RESET,
           STROBE     => STROBE,
           STROBE_LR  => STROBE_LR
