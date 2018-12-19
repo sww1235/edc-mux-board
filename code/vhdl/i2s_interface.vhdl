@@ -81,6 +81,9 @@ port(
 );
 end i2s_interface;
 
+-- at the start of a left / right transition, clock out parallel in at the same
+-- time din is clocked in.
+
 architecture Behavioral of i2s_interface  is
 	signal current_lr : std_logic;
 	signal in_counter : integer range 0 to width;
