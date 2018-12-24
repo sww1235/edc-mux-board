@@ -144,7 +144,7 @@ architecture arch of edc_mux is
         end if;
 
         if inst_valid then -- we have gotten 3 instruction bytes
-        instruction <= data_from_master(15 downto 13); -- select first two bits of first in
+        instruction <= instruction1(15 downto 13); -- select first two bits of first in
         case instruction is
           when "00" => -- matrix mixer controls
             out_sel <= instruction1(3 downto 0);
@@ -153,309 +153,309 @@ architecture arch of edc_mux is
             in_LR_sel <= instruction2(4);
 
             case out_sel is
-              when "0000"
+              when "0000" =>
                 case in_sel is
-                  when "0000"
-                  when "0001"
-                  when "0010"
-                  when "0011"
-                  when "0100"
-                  when "0101"
-                  when "0110"
-                  when "0111"
-                  when "1000"
-                  when "1001"
-                  when "1010"
-                  when "1011"
-                  when "1100"
-                  when "1101"
-                  when "1110"
-                  when "1111"
+                  when "0000" =>
+                  when "0001" =>
+                  when "0010" =>
+                  when "0011" =>
+                  when "0100" =>
+                  when "0101" =>
+                  when "0110" =>
+                  when "0111" =>
+                  when "1000" =>
+                  when "1001" =>
+                  when "1010" =>
+                  when "1011" =>
+                  when "1100" =>
+                  when "1101" =>
+                  when "1110" =>
+                  when "1111" =>
                 end case;
-              when "0001"
+              when "0001" =>
                 case in_sel is
-                  when "0000"
-                  when "0001"
-                  when "0010"
-                  when "0011"
-                  when "0100"
-                  when "0101"
-                  when "0110"
-                  when "0111"
-                  when "1000"
-                  when "1001"
-                  when "1010"
-                  when "1011"
-                  when "1100"
-                  when "1101"
-                  when "1110"
-                  when "1111"
+                  when "0000" =>
+                  when "0001" =>
+                  when "0010" =>
+                  when "0011" =>
+                  when "0100" =>
+                  when "0101" =>
+                  when "0110" =>
+                  when "0111" =>
+                  when "1000" =>
+                  when "1001" =>
+                  when "1010" =>
+                  when "1011" =>
+                  when "1100" =>
+                  when "1101" =>
+                  when "1110" =>
+                  when "1111" =>
                 end case;
-              when "0010"
+              when "0010" =>
                 case in_sel is
-                  when "0000"
-                  when "0001"
-                  when "0010"
-                  when "0011"
-                  when "0100"
-                  when "0101"
-                  when "0110"
-                  when "0111"
-                  when "1000"
-                  when "1001"
-                  when "1010"
-                  when "1011"
-                  when "1100"
-                  when "1101"
-                  when "1110"
-                  when "1111"
+                  when "0000" =>
+                  when "0001" =>
+                  when "0010" =>
+                  when "0011" =>
+                  when "0100" =>
+                  when "0101" =>
+                  when "0110" =>
+                  when "0111" =>
+                  when "1000" =>
+                  when "1001" =>
+                  when "1010" =>
+                  when "1011" =>
+                  when "1100" =>
+                  when "1101" =>
+                  when "1110" =>
+                  when "1111" =>
                 end case;
-              when "0011"
+              when "0011" =>
                 case in_sel is
-                  when "0000"
-                  when "0001"
-                  when "0010"
-                  when "0011"
-                  when "0100"
-                  when "0101"
-                  when "0110"
-                  when "0111"
-                  when "1000"
-                  when "1001"
-                  when "1010"
-                  when "1011"
-                  when "1100"
-                  when "1101"
-                  when "1110"
-                  when "1111"
+                  when "0000" =>
+                  when "0001" =>
+                  when "0010" =>
+                  when "0011" =>
+                  when "0100" =>
+                  when "0101" =>
+                  when "0110" =>
+                  when "0111" =>
+                  when "1000" =>
+                  when "1001" =>
+                  when "1010" =>
+                  when "1011" =>
+                  when "1100" =>
+                  when "1101" =>
+                  when "1110" =>
+                  when "1111" =>
                 end case;
-              when "0100"
+              when "0100" =>
                 case in_sel is
-                  when "0000"
-                  when "0001"
-                  when "0010"
-                  when "0011"
-                  when "0100"
-                  when "0101"
-                  when "0110"
-                  when "0111"
-                  when "1000"
-                  when "1001"
-                  when "1010"
-                  when "1011"
-                  when "1100"
-                  when "1101"
-                  when "1110"
-                  when "1111"
+                  when "0000" =>
+                  when "0001" =>
+                  when "0010" =>
+                  when "0011" =>
+                  when "0100" =>
+                  when "0101" =>
+                  when "0110" =>
+                  when "0111" =>
+                  when "1000" =>
+                  when "1001" =>
+                  when "1010" =>
+                  when "1011" =>
+                  when "1100" =>
+                  when "1101" =>
+                  when "1110" =>
+                  when "1111" =>
                 end case;
-              when "0101"
+              when "0101" =>
                 case in_sel is
-                  when "0000"
-                  when "0001"
-                  when "0010"
-                  when "0011"
-                  when "0100"
-                  when "0101"
-                  when "0110"
-                  when "0111"
-                  when "1000"
-                  when "1001"
-                  when "1010"
-                  when "1011"
-                  when "1100"
-                  when "1101"
-                  when "1110"
-                  when "1111"
+                  when "0000" =>
+                  when "0001" =>
+                  when "0010" =>
+                  when "0011" =>
+                  when "0100" =>
+                  when "0101" =>
+                  when "0110" =>
+                  when "0111" =>
+                  when "1000" =>
+                  when "1001" =>
+                  when "1010" =>
+                  when "1011" =>
+                  when "1100" =>
+                  when "1101" =>
+                  when "1110" =>
+                  when "1111" =>
                 end case;
-              when "0110"
+              when "0110" =>
                 case in_sel is
-                  when "0000"
-                  when "0001"
-                  when "0010"
-                  when "0011"
-                  when "0100"
-                  when "0101"
-                  when "0110"
-                  when "0111"
-                  when "1000"
-                  when "1001"
-                  when "1010"
-                  when "1011"
-                  when "1100"
-                  when "1101"
-                  when "1110"
-                  when "1111"
+                  when "0000" =>
+                  when "0001" =>
+                  when "0010" =>
+                  when "0011" =>
+                  when "0100" =>
+                  when "0101" =>
+                  when "0110" =>
+                  when "0111" =>
+                  when "1000" =>
+                  when "1001" =>
+                  when "1010" =>
+                  when "1011" =>
+                  when "1100" =>
+                  when "1101" =>
+                  when "1110" =>
+                  when "1111" =>
                 end case;
-              when "0111"
+              when "0111" =>
                 case in_sel is
-                  when "0000"
-                  when "0001"
-                  when "0010"
-                  when "0011"
-                  when "0100"
-                  when "0101"
-                  when "0110"
-                  when "0111"
-                  when "1000"
-                  when "1001"
-                  when "1010"
-                  when "1011"
-                  when "1100"
-                  when "1101"
-                  when "1110"
-                  when "1111"
+                  when "0000" =>
+                  when "0001" =>
+                  when "0010" =>
+                  when "0011" =>
+                  when "0100" =>
+                  when "0101" =>
+                  when "0110" =>
+                  when "0111" =>
+                  when "1000" =>
+                  when "1001" =>
+                  when "1010" =>
+                  when "1011" =>
+                  when "1100" =>
+                  when "1101" =>
+                  when "1110" =>
+                  when "1111" =>
                 end case;
-              when "1000"
+              when "1000" =>
                 case in_sel is
-                  when "0000"
-                  when "0001"
-                  when "0010"
-                  when "0011"
-                  when "0100"
-                  when "0101"
-                  when "0110"
-                  when "0111"
-                  when "1000"
-                  when "1001"
-                  when "1010"
-                  when "1011"
-                  when "1100"
-                  when "1101"
-                  when "1110"
-                  when "1111"
+                  when "0000" =>
+                  when "0001" =>
+                  when "0010" =>
+                  when "0011" =>
+                  when "0100" =>
+                  when "0101" =>
+                  when "0110" =>
+                  when "0111" =>
+                  when "1000" =>
+                  when "1001" =>
+                  when "1010" =>
+                  when "1011" =>
+                  when "1100" =>
+                  when "1101" =>
+                  when "1110" =>
+                  when "1111" =>
                 end case;
-              when "1001"
+              when "1001" =>
                 case in_sel is
-                  when "0000"
-                  when "0001"
-                  when "0010"
-                  when "0011"
-                  when "0100"
-                  when "0101"
-                  when "0110"
-                  when "0111"
-                  when "1000"
-                  when "1001"
-                  when "1010"
-                  when "1011"
-                  when "1100"
-                  when "1101"
-                  when "1110"
-                  when "1111"
+                  when "0000" =>
+                  when "0001" =>
+                  when "0010" =>
+                  when "0011" =>
+                  when "0100" =>
+                  when "0101" =>
+                  when "0110" =>
+                  when "0111" =>
+                  when "1000" =>
+                  when "1001" =>
+                  when "1010" =>
+                  when "1011" =>
+                  when "1100" =>
+                  when "1101" =>
+                  when "1110" =>
+                  when "1111" =>
                 end case;
-              when "1010"
+              when "1010" =>
                 case in_sel is
-                  when "0000"
-                  when "0001"
-                  when "0010"
-                  when "0011"
-                  when "0100"
-                  when "0101"
-                  when "0110"
-                  when "0111"
-                  when "1000"
-                  when "1001"
-                  when "1010"
-                  when "1011"
-                  when "1100"
-                  when "1101"
-                  when "1110"
-                  when "1111"
+                  when "0000" =>
+                  when "0001" =>
+                  when "0010" =>
+                  when "0011" =>
+                  when "0100" =>
+                  when "0101" =>
+                  when "0110" =>
+                  when "0111" =>
+                  when "1000" =>
+                  when "1001" =>
+                  when "1010" =>
+                  when "1011" =>
+                  when "1100" =>
+                  when "1101" =>
+                  when "1110" =>
+                  when "1111" =>
                 end case;
-              when "1011"
+              when "1011" =>
               case in_sel is
-                when "0000"
-                when "0001"
-                when "0010"
-                when "0011"
-                when "0100"
-                when "0101"
-                when "0110"
-                when "0111"
-                when "1000"
-                when "1001"
-                when "1010"
-                when "1011"
-                when "1100"
-                when "1101"
-                when "1110"
-                when "1111"
+                when "0000" =>
+                when "0001" =>
+                when "0010" =>
+                when "0011" =>
+                when "0100" =>
+                when "0101" =>
+                when "0110" =>
+                when "0111" =>
+                when "1000" =>
+                when "1001" =>
+                when "1010" =>
+                when "1011" =>
+                when "1100" =>
+                when "1101" =>
+                when "1110" =>
+                when "1111" =>
               end case;
-              when "1100"
+              when "1100" =>
               case in_sel is
-                when "0000"
-                when "0001"
-                when "0010"
-                when "0011"
-                when "0100"
-                when "0101"
-                when "0110"
-                when "0111"
-                when "1000"
-                when "1001"
-                when "1010"
-                when "1011"
-                when "1100"
-                when "1101"
-                when "1110"
-                when "1111"
+                when "0000" =>
+                when "0001" =>
+                when "0010" =>
+                when "0011" =>
+                when "0100" =>
+                when "0101" =>
+                when "0110" =>
+                when "0111" =>
+                when "1000" =>
+                when "1001" =>
+                when "1010" =>
+                when "1011" =>
+                when "1100" =>
+                when "1101" =>
+                when "1110" =>
+                when "1111" =>
               end case;
-              when "1101"
+              when "1101" =>
               case in_sel is
-                when "0000"
-                when "0001"
-                when "0010"
-                when "0011"
-                when "0100"
-                when "0101"
-                when "0110"
-                when "0111"
-                when "1000"
-                when "1001"
-                when "1010"
-                when "1011"
-                when "1100"
-                when "1101"
-                when "1110"
-                when "1111"
+                when "0000" =>
+                when "0001" =>
+                when "0010" =>
+                when "0011" =>
+                when "0100" =>
+                when "0101" =>
+                when "0110" =>
+                when "0111" =>
+                when "1000" =>
+                when "1001" =>
+                when "1010" =>
+                when "1011" =>
+                when "1100" =>
+                when "1101" =>
+                when "1110" =>
+                when "1111" =>
               end case;
-              when "1110"
+              when "1110" =>
               case in_sel is
-                when "0000"
-                when "0001"
-                when "0010"
-                when "0011"
-                when "0100"
-                when "0101"
-                when "0110"
-                when "0111"
-                when "1000"
-                when "1001"
-                when "1010"
-                when "1011"
-                when "1100"
-                when "1101"
-                when "1110"
-                when "1111"
+                when "0000" =>
+                when "0001" =>
+                when "0010" =>
+                when "0011" =>
+                when "0100" =>
+                when "0101" =>
+                when "0110" =>
+                when "0111" =>
+                when "1000" =>
+                when "1001" =>
+                when "1010" =>
+                when "1011" =>
+                when "1100" =>
+                when "1101" =>
+                when "1110" =>
+                when "1111" =>
               end case;
-              when "1111"
+              when "1111" =>
               case in_sel is
-                when "0000"
-                when "0001"
-                when "0010"
-                when "0011"
-                when "0100"
-                when "0101"
-                when "0110"
-                when "0111"
-                when "1000"
-                when "1001"
-                when "1010"
-                when "1011"
-                when "1100"
-                when "1101"
-                when "1110"
-                when "1111"
+                when "0000" =>
+                when "0001" =>
+                when "0010" =>
+                when "0011" =>
+                when "0100" =>
+                when "0101" =>
+                when "0110" =>
+                when "0111" =>
+                when "1000" =>
+                when "1001" =>
+                when "1010" =>
+                when "1011" =>
+                when "1100" =>
+                when "1101" =>
+                when "1110" =>
+                when "1111" =>
               end case;
             end case;
 
