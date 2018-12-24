@@ -51,10 +51,14 @@ architecture arch of edc_mux is
   --signal instruction : std_logic_vector(7 downto 0); -- instruction from i2c
 
   -- Audio mapping registers
-  -- left is even numbers (starting from 0), right is odd numbers
+  -- Channels are represented with i2s channel 0 (left) using even numbers
+  -- (starting from 0) and i2s channel 1 (right) using odd numbers, so device 0
+  -- channel 0 is `00000` while device 1 channel 1 is `00011`. The inputs and
+  -- outputs are treated as 32 mono channels each and left and right are only
+  -- important in the control software.
   signal audio_reg_in : audio_port_t; -- inputs from i2s interface -> to mixer
   signal audio_reg_out : audio_port_t; -- outputs from i2s interface <- from mixer
-  signal audio_ctl_reg : ctl_port_array_t; -- volume control signals from i2c instructions -> mixer
+  signal audio_ctl_reg : ctl_port_array_t; -- volume control signals from i2c instructions -> mixer (unsigned)
 
   component SB_GB
     port (
@@ -147,317 +151,328 @@ architecture arch of edc_mux is
         instruction <= instruction1(15 downto 13); -- select first two bits of first in
         case instruction is
           when "00" => -- matrix mixer controls
-            out_sel <= instruction1(3 downto 0);
-            out_LR_sel <= instruction1(4);
-            in_sel <= instruction2(3 downto 0);
-            in_LR_sel <= instruction2(4);
+          -- Channels are represented with i2s channel 0 (left) using even numbers
+          -- (starting from 0) and i2s channel 1 (right) using odd numbers, so device 0
+          -- channel 0 is `00000` while device 1 channel 1 is `00011`. The inputs and
+          -- outputs are treated as 32 mono channels each and left and right are only
+          -- important in the control software.
 
-            case out_sel is
-              when "0000" =>
-                case in_sel is
-                  when "0000" =>
-                  when "0001" =>
-                  when "0010" =>
-                  when "0011" =>
-                  when "0100" =>
-                  when "0101" =>
-                  when "0110" =>
-                  when "0111" =>
-                  when "1000" =>
-                  when "1001" =>
-                  when "1010" =>
-                  when "1011" =>
-                  when "1100" =>
-                  when "1101" =>
-                  when "1110" =>
-                  when "1111" =>
-                end case;
-              when "0001" =>
-                case in_sel is
-                  when "0000" =>
-                  when "0001" =>
-                  when "0010" =>
-                  when "0011" =>
-                  when "0100" =>
-                  when "0101" =>
-                  when "0110" =>
-                  when "0111" =>
-                  when "1000" =>
-                  when "1001" =>
-                  when "1010" =>
-                  when "1011" =>
-                  when "1100" =>
-                  when "1101" =>
-                  when "1110" =>
-                  when "1111" =>
-                end case;
-              when "0010" =>
-                case in_sel is
-                  when "0000" =>
-                  when "0001" =>
-                  when "0010" =>
-                  when "0011" =>
-                  when "0100" =>
-                  when "0101" =>
-                  when "0110" =>
-                  when "0111" =>
-                  when "1000" =>
-                  when "1001" =>
-                  when "1010" =>
-                  when "1011" =>
-                  when "1100" =>
-                  when "1101" =>
-                  when "1110" =>
-                  when "1111" =>
-                end case;
-              when "0011" =>
-                case in_sel is
-                  when "0000" =>
-                  when "0001" =>
-                  when "0010" =>
-                  when "0011" =>
-                  when "0100" =>
-                  when "0101" =>
-                  when "0110" =>
-                  when "0111" =>
-                  when "1000" =>
-                  when "1001" =>
-                  when "1010" =>
-                  when "1011" =>
-                  when "1100" =>
-                  when "1101" =>
-                  when "1110" =>
-                  when "1111" =>
-                end case;
-              when "0100" =>
-                case in_sel is
-                  when "0000" =>
-                  when "0001" =>
-                  when "0010" =>
-                  when "0011" =>
-                  when "0100" =>
-                  when "0101" =>
-                  when "0110" =>
-                  when "0111" =>
-                  when "1000" =>
-                  when "1001" =>
-                  when "1010" =>
-                  when "1011" =>
-                  when "1100" =>
-                  when "1101" =>
-                  when "1110" =>
-                  when "1111" =>
-                end case;
-              when "0101" =>
-                case in_sel is
-                  when "0000" =>
-                  when "0001" =>
-                  when "0010" =>
-                  when "0011" =>
-                  when "0100" =>
-                  when "0101" =>
-                  when "0110" =>
-                  when "0111" =>
-                  when "1000" =>
-                  when "1001" =>
-                  when "1010" =>
-                  when "1011" =>
-                  when "1100" =>
-                  when "1101" =>
-                  when "1110" =>
-                  when "1111" =>
-                end case;
-              when "0110" =>
-                case in_sel is
-                  when "0000" =>
-                  when "0001" =>
-                  when "0010" =>
-                  when "0011" =>
-                  when "0100" =>
-                  when "0101" =>
-                  when "0110" =>
-                  when "0111" =>
-                  when "1000" =>
-                  when "1001" =>
-                  when "1010" =>
-                  when "1011" =>
-                  when "1100" =>
-                  when "1101" =>
-                  when "1110" =>
-                  when "1111" =>
-                end case;
-              when "0111" =>
-                case in_sel is
-                  when "0000" =>
-                  when "0001" =>
-                  when "0010" =>
-                  when "0011" =>
-                  when "0100" =>
-                  when "0101" =>
-                  when "0110" =>
-                  when "0111" =>
-                  when "1000" =>
-                  when "1001" =>
-                  when "1010" =>
-                  when "1011" =>
-                  when "1100" =>
-                  when "1101" =>
-                  when "1110" =>
-                  when "1111" =>
-                end case;
-              when "1000" =>
-                case in_sel is
-                  when "0000" =>
-                  when "0001" =>
-                  when "0010" =>
-                  when "0011" =>
-                  when "0100" =>
-                  when "0101" =>
-                  when "0110" =>
-                  when "0111" =>
-                  when "1000" =>
-                  when "1001" =>
-                  when "1010" =>
-                  when "1011" =>
-                  when "1100" =>
-                  when "1101" =>
-                  when "1110" =>
-                  when "1111" =>
-                end case;
-              when "1001" =>
-                case in_sel is
-                  when "0000" =>
-                  when "0001" =>
-                  when "0010" =>
-                  when "0011" =>
-                  when "0100" =>
-                  when "0101" =>
-                  when "0110" =>
-                  when "0111" =>
-                  when "1000" =>
-                  when "1001" =>
-                  when "1010" =>
-                  when "1011" =>
-                  when "1100" =>
-                  when "1101" =>
-                  when "1110" =>
-                  when "1111" =>
-                end case;
-              when "1010" =>
-                case in_sel is
-                  when "0000" =>
-                  when "0001" =>
-                  when "0010" =>
-                  when "0011" =>
-                  when "0100" =>
-                  when "0101" =>
-                  when "0110" =>
-                  when "0111" =>
-                  when "1000" =>
-                  when "1001" =>
-                  when "1010" =>
-                  when "1011" =>
-                  when "1100" =>
-                  when "1101" =>
-                  when "1110" =>
-                  when "1111" =>
-                end case;
-              when "1011" =>
-              case in_sel is
-                when "0000" =>
-                when "0001" =>
-                when "0010" =>
-                when "0011" =>
-                when "0100" =>
-                when "0101" =>
-                when "0110" =>
-                when "0111" =>
-                when "1000" =>
-                when "1001" =>
-                when "1010" =>
-                when "1011" =>
-                when "1100" =>
-                when "1101" =>
-                when "1110" =>
-                when "1111" =>
-              end case;
-              when "1100" =>
-              case in_sel is
-                when "0000" =>
-                when "0001" =>
-                when "0010" =>
-                when "0011" =>
-                when "0100" =>
-                when "0101" =>
-                when "0110" =>
-                when "0111" =>
-                when "1000" =>
-                when "1001" =>
-                when "1010" =>
-                when "1011" =>
-                when "1100" =>
-                when "1101" =>
-                when "1110" =>
-                when "1111" =>
-              end case;
-              when "1101" =>
-              case in_sel is
-                when "0000" =>
-                when "0001" =>
-                when "0010" =>
-                when "0011" =>
-                when "0100" =>
-                when "0101" =>
-                when "0110" =>
-                when "0111" =>
-                when "1000" =>
-                when "1001" =>
-                when "1010" =>
-                when "1011" =>
-                when "1100" =>
-                when "1101" =>
-                when "1110" =>
-                when "1111" =>
-              end case;
-              when "1110" =>
-              case in_sel is
-                when "0000" =>
-                when "0001" =>
-                when "0010" =>
-                when "0011" =>
-                when "0100" =>
-                when "0101" =>
-                when "0110" =>
-                when "0111" =>
-                when "1000" =>
-                when "1001" =>
-                when "1010" =>
-                when "1011" =>
-                when "1100" =>
-                when "1101" =>
-                when "1110" =>
-                when "1111" =>
-              end case;
-              when "1111" =>
-              case in_sel is
-                when "0000" =>
-                when "0001" =>
-                when "0010" =>
-                when "0011" =>
-                when "0100" =>
-                when "0101" =>
-                when "0110" =>
-                when "0111" =>
-                when "1000" =>
-                when "1001" =>
-                when "1010" =>
-                when "1011" =>
-                when "1100" =>
-                when "1101" =>
-                when "1110" =>
-                when "1111" =>
-              end case;
-            end case;
+          out_sel <= to_integer(unsigned(instruction1(4 downto 0))); -- which output channel
+          in_sel <= to_integer(unsigned(instruction2(4 downto 0))); -- which input channel on that output channel
+          audio_ctl_reg(out_sel)(in_sel) <= unsigned(instruction3); -- volume level of input channel in output channel
+
+            --
+            -- out_LR_sel <= instruction1(4);
+            --
+            -- in_LR_sel <= instruction2(4);
+            --
+            -- case out_sel is
+            --   when "0000" => -- device 0 output selected
+            --     case in_sel is
+            --       when "0000" => -- volume for device 0 input selected
+            --
+            --       when "0001" => -- volume for device 1 input selected
+            --       when "0010" => -- volume for device 2 input selected
+            --       when "0011" => -- volume for device 3 input selected
+            --       when "0100" => -- volume for device 4 input selected
+            --       when "0101" => -- volume for device 5 input selected
+            --       when "0110" => -- volume for device 6 input selected
+            --       when "0111" => -- volume for device 7 input selected
+            --       when "1000" => -- volume for device 8 input selected
+            --       when "1001" => -- volume for device 9 input selected
+            --       when "1010" => -- volume for device 10 input selected
+            --       when "1011" => -- volume for device 11 input selected
+            --       when "1100" => -- volume for device 12 input selected
+            --       when "1101" => -- volume for device 13 input selected
+            --       when "1110" => -- volume for device 14 input selected
+            --       when "1111" => -- volume for device 15 input selected
+            --     end case;
+            --   when "0001" => -- device 1 output selected
+            --     case in_sel is
+            --       when "0000" =>
+            --       when "0001" =>
+            --       when "0010" =>
+            --       when "0011" =>
+            --       when "0100" =>
+            --       when "0101" =>
+            --       when "0110" =>
+            --       when "0111" =>
+            --       when "1000" =>
+            --       when "1001" =>
+            --       when "1010" =>
+            --       when "1011" =>
+            --       when "1100" =>
+            --       when "1101" =>
+            --       when "1110" =>
+            --       when "1111" =>
+            --     end case;
+            --   when "0010" => -- device 2 output selected
+            --     case in_sel is
+            --       when "0000" =>
+            --       when "0001" =>
+            --       when "0010" =>
+            --       when "0011" =>
+            --       when "0100" =>
+            --       when "0101" =>
+            --       when "0110" =>
+            --       when "0111" =>
+            --       when "1000" =>
+            --       when "1001" =>
+            --       when "1010" =>
+            --       when "1011" =>
+            --       when "1100" =>
+            --       when "1101" =>
+            --       when "1110" =>
+            --       when "1111" =>
+            --     end case;
+            --   when "0011" => -- device 3 output selected
+            --     case in_sel is
+            --       when "0000" =>
+            --       when "0001" =>
+            --       when "0010" =>
+            --       when "0011" =>
+            --       when "0100" =>
+            --       when "0101" =>
+            --       when "0110" =>
+            --       when "0111" =>
+            --       when "1000" =>
+            --       when "1001" =>
+            --       when "1010" =>
+            --       when "1011" =>
+            --       when "1100" =>
+            --       when "1101" =>
+            --       when "1110" =>
+            --       when "1111" =>
+            --     end case;
+            --   when "0100" => -- device 4 output selected
+            --     case in_sel is
+            --       when "0000" =>
+            --       when "0001" =>
+            --       when "0010" =>
+            --       when "0011" =>
+            --       when "0100" =>
+            --       when "0101" =>
+            --       when "0110" =>
+            --       when "0111" =>
+            --       when "1000" =>
+            --       when "1001" =>
+            --       when "1010" =>
+            --       when "1011" =>
+            --       when "1100" =>
+            --       when "1101" =>
+            --       when "1110" =>
+            --       when "1111" =>
+            --     end case;
+            --   when "0101" => -- device 5 output selected
+            --     case in_sel is
+            --       when "0000" =>
+            --       when "0001" =>
+            --       when "0010" =>
+            --       when "0011" =>
+            --       when "0100" =>
+            --       when "0101" =>
+            --       when "0110" =>
+            --       when "0111" =>
+            --       when "1000" =>
+            --       when "1001" =>
+            --       when "1010" =>
+            --       when "1011" =>
+            --       when "1100" =>
+            --       when "1101" =>
+            --       when "1110" =>
+            --       when "1111" =>
+            --     end case;
+            --   when "0110" => -- device 6 output selected
+            --     case in_sel is
+            --       when "0000" =>
+            --       when "0001" =>
+            --       when "0010" =>
+            --       when "0011" =>
+            --       when "0100" =>
+            --       when "0101" =>
+            --       when "0110" =>
+            --       when "0111" =>
+            --       when "1000" =>
+            --       when "1001" =>
+            --       when "1010" =>
+            --       when "1011" =>
+            --       when "1100" =>
+            --       when "1101" =>
+            --       when "1110" =>
+            --       when "1111" =>
+            --     end case;
+            --   when "0111" => -- device 7 output selected
+            --     case in_sel is
+            --       when "0000" =>
+            --       when "0001" =>
+            --       when "0010" =>
+            --       when "0011" =>
+            --       when "0100" =>
+            --       when "0101" =>
+            --       when "0110" =>
+            --       when "0111" =>
+            --       when "1000" =>
+            --       when "1001" =>
+            --       when "1010" =>
+            --       when "1011" =>
+            --       when "1100" =>
+            --       when "1101" =>
+            --       when "1110" =>
+            --       when "1111" =>
+            --     end case;
+            --   when "1000" => -- device 8 output selected
+            --     case in_sel is
+            --       when "0000" =>
+            --       when "0001" =>
+            --       when "0010" =>
+            --       when "0011" =>
+            --       when "0100" =>
+            --       when "0101" =>
+            --       when "0110" =>
+            --       when "0111" =>
+            --       when "1000" =>
+            --       when "1001" =>
+            --       when "1010" =>
+            --       when "1011" =>
+            --       when "1100" =>
+            --       when "1101" =>
+            --       when "1110" =>
+            --       when "1111" =>
+            --     end case;
+            --   when "1001" => -- device 9 output selected
+            --     case in_sel is
+            --       when "0000" =>
+            --       when "0001" =>
+            --       when "0010" =>
+            --       when "0011" =>
+            --       when "0100" =>
+            --       when "0101" =>
+            --       when "0110" =>
+            --       when "0111" =>
+            --       when "1000" =>
+            --       when "1001" =>
+            --       when "1010" =>
+            --       when "1011" =>
+            --       when "1100" =>
+            --       when "1101" =>
+            --       when "1110" =>
+            --       when "1111" =>
+            --     end case;
+            --   when "1010" => -- device 10 output selected
+            --     case in_sel is
+            --       when "0000" =>
+            --       when "0001" =>
+            --       when "0010" =>
+            --       when "0011" =>
+            --       when "0100" =>
+            --       when "0101" =>
+            --       when "0110" =>
+            --       when "0111" =>
+            --       when "1000" =>
+            --       when "1001" =>
+            --       when "1010" =>
+            --       when "1011" =>
+            --       when "1100" =>
+            --       when "1101" =>
+            --       when "1110" =>
+            --       when "1111" =>
+            --     end case;
+            --   when "1011" => -- device 11 output selected
+            --   case in_sel is
+            --     when "0000" =>
+            --     when "0001" =>
+            --     when "0010" =>
+            --     when "0011" =>
+            --     when "0100" =>
+            --     when "0101" =>
+            --     when "0110" =>
+            --     when "0111" =>
+            --     when "1000" =>
+            --     when "1001" =>
+            --     when "1010" =>
+            --     when "1011" =>
+            --     when "1100" =>
+            --     when "1101" =>
+            --     when "1110" =>
+            --     when "1111" =>
+            --   end case;
+            --   when "1100" =>  -- device 12 output selected
+            --   case in_sel is
+            --     when "0000" =>
+            --     when "0001" =>
+            --     when "0010" =>
+            --     when "0011" =>
+            --     when "0100" =>
+            --     when "0101" =>
+            --     when "0110" =>
+            --     when "0111" =>
+            --     when "1000" =>
+            --     when "1001" =>
+            --     when "1010" =>
+            --     when "1011" =>
+            --     when "1100" =>
+            --     when "1101" =>
+            --     when "1110" =>
+            --     when "1111" =>
+            --   end case;
+            --   when "1101" =>  -- device 13 output selected
+            --   case in_sel is
+            --     when "0000" =>
+            --     when "0001" =>
+            --     when "0010" =>
+            --     when "0011" =>
+            --     when "0100" =>
+            --     when "0101" =>
+            --     when "0110" =>
+            --     when "0111" =>
+            --     when "1000" =>
+            --     when "1001" =>
+            --     when "1010" =>
+            --     when "1011" =>
+            --     when "1100" =>
+            --     when "1101" =>
+            --     when "1110" =>
+            --     when "1111" =>
+            --   end case;
+            --   when "1110" =>  -- device 14 output selected
+            --   case in_sel is
+            --     when "0000" =>
+            --     when "0001" =>
+            --     when "0010" =>
+            --     when "0011" =>
+            --     when "0100" =>
+            --     when "0101" =>
+            --     when "0110" =>
+            --     when "0111" =>
+            --     when "1000" =>
+            --     when "1001" =>
+            --     when "1010" =>
+            --     when "1011" =>
+            --     when "1100" =>
+            --     when "1101" =>
+            --     when "1110" =>
+            --     when "1111" =>
+            --   end case;
+            --   when "1111" =>  -- device 15 output selected
+            --   case in_sel is
+            --     when "0000" =>
+            --     when "0001" =>
+            --     when "0010" =>
+            --     when "0011" =>
+            --     when "0100" =>
+            --     when "0101" =>
+            --     when "0110" =>
+            --     when "0111" =>
+            --     when "1000" =>
+            --     when "1001" =>
+            --     when "1010" =>
+            --     when "1011" =>
+            --     when "1100" =>
+            --     when "1101" =>
+            --     when "1110" =>
+            --     when "1111" =>
+            --   end case;
+            -- end case;
 
           when "01" =>
           when "10" => -- Select inputs that control outputs.
