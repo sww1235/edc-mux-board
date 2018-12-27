@@ -1,3 +1,4 @@
+-- args: --workdir=out --std=08 --ieee=standard
 ---------------------------------------------------------------------------------
 -- Engineer:      Stephen Walker-Weinshenker
 

@@ -1,4 +1,4 @@
-
+-- args: --workdir=out --std=08 --ieee=standard
 
 library ieee;
 use ieee.std_logic_1164.all;

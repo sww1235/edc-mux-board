@@ -1,3 +1,4 @@
+-- args: --workdir=out --std=08 --ieee=standard
 ---------------------------------------------------------------------------------
 -- Engineer:      Fabio Gravina <fabio.gravina@gmail.com>
 --                                                       http://www.fgravina.net
