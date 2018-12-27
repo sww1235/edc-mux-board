@@ -158,8 +158,6 @@ begin
 	parallel2serial: process(RESET, BIT_CK, LR_CK, DATA_L_IN, DATA_R_IN)
 	begin
 		if(RESET = '0') then
-			DATA_L_IN <= (others => '0');
-			DATA_R_IN <= (others => '0');
 			shift_reg <= (others => '0');
 			current_lr <= '0';
 			STROBE_LR <= '0';
