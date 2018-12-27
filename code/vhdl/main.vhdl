@@ -161,7 +161,8 @@ architecture arch of edc_mux is
 
           out_sel <= to_integer(unsigned(instruction1(4 downto 0))); -- which output channel
           in_sel <= to_integer(unsigned(instruction2(4 downto 0))); -- which input channel on that output channel
-          audio_ctl_reg(out_sel)(in_sel) <= unsigned(instruction3); -- volume level of input channel in output channel
+          -- volume level is signed so only 127 volume steps. Leave MSB 0 always.
+          audio_ctl_reg(out_sel)(in_sel) <= signed(instruction3); -- volume level of input channel in output channel
 
             --
             -- out_LR_sel <= instruction1(4);

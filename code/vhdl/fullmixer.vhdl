@@ -34,7 +34,7 @@ begin
         -- then add it to the current buffer output
           for K in 0 to 31 loop
 
-            vo(J) <= vo(J) + ((i(J) * ctl(J)(K)));
+            vo(J) <= vo(J) + ((i(J) * ctl(J)(K))); -- signed so only 127 volume steps
 
           end loop;
           -- truncate buffer and insert into output register
