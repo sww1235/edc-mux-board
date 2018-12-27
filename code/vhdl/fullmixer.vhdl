@@ -8,7 +8,7 @@ use work.edc_mux_pkg.all;
 entity fullmixer is   -- 32x32 mixer matrix: 8 R IO, 8 L IO 16 mic IO
   port (i     : in  audio_port_t; -- 32 size array of 16 bit signed values
         o     : out audio_port_t; -- 32 size array of 16 bit signed values
-        ctl   : in  ctl_port_array_t -- 32 size array of (32 size array of 8 bit signed values)
+        ctl   : in  ctl_port_array_t; -- 32 size array of (32 size array of 8 bit signed values)
         clk   : in std_logic);
 
 
