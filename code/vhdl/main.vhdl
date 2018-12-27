@@ -515,7 +515,6 @@ architecture arch of edc_mux is
           STROBE     => STROBE,
           STROBE_LR  => STROBE_LR
           );
-        )
     end generate;
 
 
