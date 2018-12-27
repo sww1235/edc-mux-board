@@ -48,7 +48,7 @@
 -- DATA      x< 00 ><D24><D22><D21><D20>  ... ...     < 00 ><D24><D23>  ...
 --
 --
--- Each time enough ('width' bits of) data is collected from the serial input
+-- Each time enough ('16' bits of) data is collected from the serial input
 -- it is outputed on the corresponding DATA_R/L port and the proper
 -- DATA_RDY_OUT signals are emitted
 -- A rising edge of the DATA_RDY_OUT signal tells that parallel data is ready
@@ -87,11 +87,11 @@ end i2s_interface;
 
 architecture Behavioral of i2s_interface  is
 	signal current_lr : std_logic;
-	signal in_counter : integer range 0 to width;
+	signal in_counter : integer range 0 to 16;
 	signal in_shift_reg : audio_buffer_t;
 	signal output_strobed : std_logic;
 
-	constant width : integer := 16;
+
 
 begin
 	serial2parallel: process(RESET, BIT_CK, LR_CK, DIN)
@@ -103,7 +103,7 @@ begin
 			current_lr <= '0';
 			STROBE_LR <= '0';
 			DATA_RDY_OUT <= '0';
-			in_counter <= width;
+			in_counter <= 16;
 			output_strobed <= '0';
 		elsif rising_edge(BIT_CK) then
 			-- Note: LRCK changes on the falling edge of BCK
@@ -114,14 +114,14 @@ begin
 			-- This is right for I2S standard (data starts on the 2nd clock)
 			if(LR_CK /= current_lr) then
 				current_lr <= LR_CK;
-				in_counter <= width;
+				in_counter <= 16;
 				--clear the shift register
 				in_shift_reg <= (others => '0');
 				DATA_RDY_OUT <= '0';
 				output_strobed <= '0';
 			elsif(in_counter > 0) then
 				-- Push data into the shift register
-				in_shift_reg <= in_shift_reg(width-2 downto 0) & DIN;
+				in_shift_reg <= in_shift_reg(16-2 downto 0) & DIN;
 				-- Decrement counter
 				in_counter <= in_counter - 1;
 			elsif(in_counter = 0) then
@@ -164,7 +164,7 @@ begin
 			current_lr <= '0';
 			STROBE_LR <= '0';
 			DATA_RDY_IN <= '0';
-			counter <= width;
+			counter <= 16;
 			output_strobed <= '0';
 		elsif rising_edge(BIT_CK) then
 			-- Note: LRCK changes on the falling edge of BCK
@@ -175,14 +175,14 @@ begin
 			-- This is right for I2S standard (data starts on the 2nd clock)
 			if(LR_CK /= current_lr) then
 				current_lr <= LR_CK;
-				counter <= width;
+				counter <= 16;
 				--clear the shift register
 				shift_reg <= (others => '0');
 				DATA_RDY_OUT <= '0';
 				output_strobed <= '0';
 			elsif(counter > 0) then
 				-- Push data into the shift register
-				shift_reg <= shift_reg(width-2 downto 0) & DIN;
+				shift_reg <= shift_reg(16-2 downto 0) & DIN;
 				-- Decrement counter
 				counter <= counter - 1;
 			elsif(counter = 0) then
