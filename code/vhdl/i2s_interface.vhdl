@@ -121,7 +121,7 @@ begin
 				output_strobed <= '0';
 			elsif(in_counter > 0) then
 				-- Push data into the shift register
-				in_shift_reg <= in_shift_reg(16-2 downto 0) & DIN;
+				in_shift_reg <= in_shift_reg(14 downto 0) & DIN;
 				-- Decrement counter
 				in_counter <= in_counter - 1;
 			elsif(in_counter = 0) then
@@ -182,7 +182,7 @@ begin
 				output_strobed <= '0';
 			elsif(counter > 0) then
 				-- Push data into the shift register
-				shift_reg <= shift_reg(16-2 downto 0) & DIN;
+				shift_reg <= shift_reg(14 downto 0) & DIN;
 				-- Decrement counter
 				counter <= counter - 1;
 			elsif(counter = 0) then
