@@ -66,12 +66,12 @@ port(
 	BIT_CK : in std_logic;   --Bit clock
   -- Audio inputs
 	DIN : in std_logic;      --I2S Serial Input
-  DATA_L_IN : in audio_buffer_t;
-  DATA_R_IN : in audio_buffer_t;
+  DATA_L_IN : in std_logic_vector(15 downto 0);
+  DATA_R_IN : in std_logic_vector(15 downto 0);
 	-- Parallel Output ports
   DOUT : out std_logic; --I2S Serial Output
-	DATA_L_OUT : out audio_buffer_t;
-	DATA_R_OUT : out audio_buffer_t;
+	DATA_L_OUT : out std_logic_vector(15 downto 0);
+	DATA_R_OUT : out std_logic_vector(15 downto 0);
   -- Control ports
 	RESET : in std_logic;    --Asynchronous Reset (Active Low)
 	-- Output status ports
@@ -88,7 +88,7 @@ end i2s_interface;
 architecture Behavioral of i2s_interface  is
 	signal current_lr : std_logic;
 	signal in_counter : integer range 0 to 16;
-	signal in_shift_reg : audio_buffer_t;
+	signal in_shift_reg : std_logic_vector(15 downto 0);
 	signal output_strobed : std_logic;
 
 
