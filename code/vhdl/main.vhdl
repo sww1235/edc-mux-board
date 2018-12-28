@@ -48,6 +48,8 @@ architecture arch of edc_mux is
   signal read_req : std_logic; -- data to master is ready
   signal data_to_master : std_logic_vector(7 downto 0); -- data to master
 
+  signal mclk_buff : std_logic;
+
 
   -- control variables (from i2c data)
   --signal instruction : std_logic_vector(7 downto 0); -- instruction from i2c
@@ -64,21 +66,20 @@ architecture arch of edc_mux is
 
   component SB_GB
     port (
-    USER_SIGNAL_TO_GLOBAL_BUFFER:input std_logic;
-    GLOBAL_BUFFER_OUTPUT:output std_logic);
+    USER_SIGNAL_TO_GLOBAL_BUFFER:in std_logic;
+    GLOBAL_BUFFER_OUTPUT:out std_logic);
     end component;
 
     component i2s_interface
-      generic (width : integer := 16);
       port (
         LR_CK      : in  std_logic;
         BIT_CK     : in  std_logic;
         DIN        : in  std_logic;
-        DATA_L_IN  : in  std_logic_vector(width-1 downto 0);
-        DATA_R_IN  : in  std_logic_vector(width-1 downto 0);
+        DATA_L_IN  : in  std_logic_vector(15 downto 0);
+        DATA_R_IN  : in  std_logic_vector(15 downto 0);
         DOUT       : out std_logic;
-        DATA_L_OUT : out std_logic_vector(width-1 downto 0);
-        DATA_R_OUT : out std_logic_vector(width-1 downto 0);
+        DATA_L_OUT : out std_logic_vector(15 downto 0);
+        DATA_R_OUT : out std_logic_vector(15 downto 0);
         RESET      : in  std_logic;
         STROBE     : out std_logic;
         STROBE_LR  : out std_logic
@@ -98,7 +99,7 @@ architecture arch of edc_mux is
 
 --- instructions
     -- I2C clock
-    i2c_clk: process(mclk_buff)
+    i2c_clock: process(mclk_buff)
       begin
         if rising_edge(mclk_buff) then
           if i2c_clk_cntr = 479 then -- 48MHz/100kHz = 480 -1 for zero index
@@ -111,46 +112,50 @@ architecture arch of edc_mux is
         end if;
     end process;
 
-    i2c_slave : entity work.I2C_slave
-      generic map (i2c_address => SLAVE_ADDR)
-      port map (scl => scl,
-                sda => sda,
-                i2c_clk => clk,
-                g_rst => rst, -- TODO: verify that global reset is right signal
-                data_valid => data_valid,
-                data_from_master => data_from_master,
-                read_req => read_req,
-                data_to_master => data_to_master
+    I2C_slave_i : entity work.I2C_slave
+      generic map (SLAVE_ADDR => i2c_address)
+      port map (
+        scl              => scl,
+        sda              => sda,
+        clk              => i2c_clk,
+        rst              => g_rst, -- TODO: verify that global reset is right signal
+        read_req         => read_req,
+        data_to_master   => data_to_master,
+        data_valid       => data_valid,
+        data_from_master => data_from_master
       );
 
     instruction_processing: process(data_valid)
       variable inst_valid : boolean := false;
+      variable instruction : std_logic_vector(1 downto 0);
       variable instruction1 : std_logic_vector(7 downto 0) := "00000000";
       variable instruction2 : std_logic_vector(7 downto 0) := "00000000";
       variable instruction3 : std_logic_vector(7 downto 0) := "00000000";
+      variable out_sel : integer;
+      variable in_sel : integer;
       begin
         if rising_edge(data_valid) then -- first instruction byte
-          instruction1 <= data_from_master;
-          inst_valid <= true;
+          instruction1 := data_from_master;
+          inst_valid := true;
         else
-          instruction1 <= "00000000";
+          instruction1 := "00000000";
           inst_valid := false;
         end if;
 
         if rising_edge(data_valid) and inst_valid then -- second instruction byte
-          instruction2 <= data_from_master;
+          instruction2 := data_from_master;
         else
           instruction2 := "00000000";
         end if;
 
         if rising_edge(data_valid) and inst_valid then -- third instruction byte
-          instruction3 <= data_from_master;
+          instruction3 := data_from_master;
         else
           instruction3 := "00000000";
         end if;
 
         if inst_valid then -- we have gotten 3 instruction bytes
-        instruction <= instruction1(15 downto 13); -- select first two bits of first in
+        instruction := instruction1(7 downto 6); -- select first two bits of first in
         case instruction is
           when "00" => -- matrix mixer controls
           -- Channels are represented with i2s channel 0 (left) using even numbers
@@ -159,8 +164,8 @@ architecture arch of edc_mux is
           -- outputs are treated as 32 mono channels each and left and right are only
           -- important in the control software.
 
-          out_sel <= to_integer(unsigned(instruction1(4 downto 0))); -- which output channel
-          in_sel <= to_integer(unsigned(instruction2(4 downto 0))); -- which input channel on that output channel
+          out_sel := to_integer(unsigned(instruction1(4 downto 0))); -- which output channel
+          in_sel := to_integer(unsigned(instruction2(4 downto 0))); -- which input channel on that output channel
           -- volume level is signed so only 127 volume steps. Leave MSB 0 always.
           audio_ctl_reg(out_sel)(in_sel) <= signed(instruction3); -- volume level of input channel in output channel
 
@@ -180,7 +185,7 @@ architecture arch of edc_mux is
 
 --
 
-    audio_mixer : fullmixer
+    audio_mixer : entity work.fullmixer
       port map (
         i   => audio_reg_in,
         o   => audio_reg_out,
