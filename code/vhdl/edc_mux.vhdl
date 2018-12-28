@@ -12,6 +12,7 @@ use work.edc_mux_pkg.all;
 -- Control comes from an arduino nano clone connected via i2c.
 
 -- external master clock is distributed to FPGA and CODECs which are set as masters
+-- wclk and bclk are inputs from each codec
 
 -- These are the direct pin connections on the FPGA. See the PCF file for pin assignments
 -- This is 9*16 + 4 = 148 IO pins
@@ -25,8 +26,8 @@ entity edc_mux is
         ptt_out   : out std_logic_vector(15 downto 0); -- 16 PTT outputs. Connected directly to SPST switches
         -- mclk_in is using LVDS signalling connecting to master clock routing in FPGA (48MHz)
         mclk_in   : in std_logic;                     -- clock source for FPGA logic and clock dividers (50MHz)
-        bclk_out  : out std_logic_vector(15 downto 0);
-        wclk_out  : out std_logic_vector(15 downto 0);
+        bclk_in   : in std_logic_vector(15 downto 0);
+        wclk_in   : in std_logic_vector(15 downto 0);
         scl       : inout std_logic;
         sda       : inout std_logic;
         g_rst     : in std_logic -- global reset
@@ -49,6 +50,8 @@ architecture arch of edc_mux is
   signal data_to_master : std_logic_vector(7 downto 0); -- data to master
 
   signal mclk_buff : std_logic;
+
+  signal 
 
 
   -- control variables (from i2c data)
@@ -169,9 +172,10 @@ architecture arch of edc_mux is
           -- volume level is signed so only 127 volume steps. Leave MSB 0 always.
           audio_ctl_reg(out_sel)(in_sel) <= signed(instruction3); -- volume level of input channel in output channel
 
-          when "01" =>
+          when "01" => null;
           when "10" => -- Select inputs that control outputs.
           when "11" =>
+          when others => null;
         end case;
         end if;
 
@@ -189,7 +193,8 @@ architecture arch of edc_mux is
       port map (
         i   => audio_reg_in,
         o   => audio_reg_out,
-        ctl => audio_ctl_reg
+        ctl => audio_ctl_reg,
+        clk => mclk_buff
       );
 
 
@@ -197,19 +202,19 @@ architecture arch of edc_mux is
     -- Generate 16 audio code interfaces
     gen_codecs: for I in 0 to 15 generate
       CODEC : i2s_interface
-        port map (
-          LR_CK      => LR_CK,
-          BIT_CK     => BIT_CK,
-          DIN        => i2s_in(I),
-          DATA_L_IN  => audio_reg_out(I*2), --TODO: need to fix incrementing here
-          DATA_R_IN  => audio_reg_out((I+1)*2),
-          DOUT       => i2s_out(I),
-          DATA_L_OUT => audio_reg_in(I), --TODO: need to fix incrementing here
-          DATA_R_OUT => audio_reg_in(I+1),
-          RESET      => RESET,
-          STROBE     => STROBE,
-          STROBE_LR  => STROBE_LR
-          );
+      port map (
+        LR_CK        => wclk_in(I),
+        BIT_CK       => bclk_in(I),
+        DIN          => i2s_in(I),
+        DATA_L_IN    => audio_reg_out(I),
+        DATA_R_IN    => audio_reg_out(I+1),
+        DOUT         => i2s_out(I),
+        DATA_L_OUT   => audio_reg_in(I),
+        DATA_R_OUT   => audio_reg_in(I+1),
+        RESET        => g_rst,
+        DATA_RDY_OUT => DATA_RDY_OUT,
+        STROBE_LR    => STROBE_LR
+      );
     end generate;
 
 
