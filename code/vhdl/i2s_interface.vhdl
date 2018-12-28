@@ -57,6 +57,7 @@
 --------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 use work.edc_mux_pkg.all;
 
 entity i2s_interface is
@@ -86,10 +87,11 @@ end i2s_interface;
 -- time din is clocked in.
 
 architecture Behavioral of i2s_interface  is
-	signal current_lr : std_logic;
+	signal in_current_lr : std_logic;
 	signal in_counter : integer range 0 to 16;
 	signal in_shift_reg : std_logic_vector(15 downto 0);
 	signal output_strobed : std_logic;
+	signal out_shift_reg : std_logic_vector(15 downto 0);
 
 
 
@@ -100,7 +102,7 @@ begin
 			DATA_L_OUT <= (others => '0');
 			DATA_R_OUT <= (others => '0');
 			in_shift_reg <= (others => '0');
-			current_lr <= '0';
+			in_current_lr <= '0';
 			STROBE_LR <= '0';
 			DATA_RDY_OUT <= '0';
 			in_counter <= 16;
@@ -112,8 +114,8 @@ begin
 			-- In this way we discard the first data bit as we start pushing
 			-- data into the shift register only on the next BCK rising edge
 			-- This is right for I2S standard (data starts on the 2nd clock)
-			if(LR_CK /= current_lr) then
-				current_lr <= LR_CK;
+			if(LR_CK /= in_current_lr) then
+				in_current_lr <= LR_CK;
 				in_counter <= 16;
 				--clear the shift register
 				in_shift_reg <= (others => '0');
@@ -130,14 +132,14 @@ begin
 				-- when counter = 1 (step down counter)
 				-- We're wasting a cycle here
 				if(output_strobed = '0') then
-					if(current_lr = '1') then
+					if(in_current_lr = '1') then
 						--Output Right Channel
 						DATA_R_OUT <= in_shift_reg;
 					else
 						--Output Left Channel
 						DATA_L_OUT <= in_shift_reg;
 					end if;
-					STROBE_LR <= current_lr;
+					STROBE_LR <= in_current_lr;
 					output_strobed <= '1';
 				else
 					DATA_RDY_OUT <= '1';
@@ -158,52 +160,26 @@ begin
 	parallel2serial: process(RESET, BIT_CK, LR_CK, DATA_L_IN, DATA_R_IN)
 	begin
 		if(RESET = '0') then
-			shift_reg <= (others => '0');
-			current_lr <= '0';
-			STROBE_LR <= '0';
-			DATA_RDY_IN <= '0';
-			counter <= 16;
-			output_strobed <= '0';
+			out_shift_reg <= (others => '0');
 		elsif rising_edge(BIT_CK) then
-			-- Note: LRCK changes on the falling edge of BCK
-			-- We notice of the first LRCK transition only on the
-			-- next rising edge of BCK
-			-- In this way we discard the first data bit as we start pushing
-			-- data into the shift register only on the next BCK rising edge
-			-- This is right for I2S standard (data starts on the 2nd clock)
-			if(LR_CK /= current_lr) then
-				current_lr <= LR_CK;
-				counter <= 16;
-				--clear the shift register
-				shift_reg <= (others => '0');
-				DATA_RDY_OUT <= '0';
-				output_strobed <= '0';
-			elsif(counter > 0) then
-				-- Push data into the shift register
-				shift_reg <= shift_reg(14 downto 0) & DIN;
-				-- Decrement counter
-				counter <= counter - 1;
-			elsif(counter = 0) then
-				--TODO Optimization
-				-- Data could be written one clock behind
-				-- when counter = 1 (step down counter)
-				-- We're wasting a cycle here
-				if(output_strobed = '0') then
-					if(current_lr = '1') then
-						--Output Right Channel
-						DATA_R <= shift_reg;
-					else
-						--Output Left Channel
-						DATA_L <= shift_reg;
-					end if;
-					STROBE_LR <= current_lr;
-					output_strobed <= '1';
+			-- at each LR_CK level transition (once every 16 bits)
+			-- load either L or R data into shift register
+			if rising_edge(LR_CK) or falling_edge(LR_CK) then
+				if (LR_CK = '1') then
+					out_shift_reg <= DATA_R_IN;
 				else
-					DATA_RDY_OUT <= '1';
-				end if; --(output_strobed = '0')
-			end if;	-- (counter = 0)
+					out_shift_reg <= DATA_R_IN;
+				end if; -- LR_CK
+			else
+				DOUT <= out_shift_reg(15);
+				out_shift_reg <= out_shift_reg(14 downto 0) & '0';
+			end if; -- rising_edge or falling_edge
 
-		end if; -- reset / rising_edge
+
+
+
+
+		end if; -- reset / rising_edge BIT_CK
 
 	end process;
 
