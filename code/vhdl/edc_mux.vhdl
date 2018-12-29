@@ -30,6 +30,7 @@ entity edc_mux is
         wclk_in   : in std_logic_vector(15 downto 0);
         scl       : inout std_logic;
         sda       : inout std_logic;
+        ctl_int   : out std_logic; -- interrupt to tell microcontroller that micro_reg_output has changed
         g_rst     : in std_logic -- global reset
   );
 
@@ -51,8 +52,12 @@ architecture arch of edc_mux is
 
   signal mclk_buff : std_logic;
 
-  signal 
+  signal micro_reg_input_0 : std_logic_vector(7 downto 0); -- data sent from microcontroller
+  signal micro_reg_input_1 : std_logic_vector(7 downto 0);
+  signal micro_reg_output: std_logic_vector(7 downto 0); -- data to be read by microcontroller
 
+  signal micro_reg_output_delayed : std_logic_vector(7 downto 0); -- delayed data by 1 clock cycle for comparison
+  signal micro_reg_output_comp : std_logic_vector(7 downto 0); -- xor comparision of micro_reg_output and micro_reg_output_delayed
 
   -- control variables (from i2c data)
   --signal instruction : std_logic_vector(7 downto 0); -- instruction from i2c
@@ -115,7 +120,7 @@ architecture arch of edc_mux is
         end if;
     end process;
 
-    I2C_slave_i : entity work.I2C_slave
+    I2C_slave : entity work.I2C_slave
       generic map (SLAVE_ADDR => i2c_address)
       port map (
         scl              => scl,
@@ -182,6 +187,15 @@ architecture arch of edc_mux is
 
       end process;
 
+    output_interrupt_generation : process(mclk_buff, micro_reg_output)
+      begin
+        if rising_edge(mclk_buff) then
+          micro_reg_output_delayed <= micro_reg_output;
+        end if;
+      end process;
+      -- comparing micro_reg_output differences between 1 clock cycle
+    micro_reg_output_comp <= micro_reg_output xor micro_reg_output_delayed;
+    ctl_int <= or micro_reg_output_comp;
 
 --- audio stuff
 
