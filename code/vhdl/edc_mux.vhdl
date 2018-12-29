@@ -180,7 +180,16 @@ architecture arch of edc_mux is
           when "01" => null;
           when "10" => -- Select inputs that control outputs.
           -- use or gates and and gates for each input, so multiple inputs can control one output
-          when "11" =>
+          when "11" => -- take data from microcontroller and write it into control registers
+            if instruction1(5 downto 1) = "00000" then
+              if instruction1(0) = "0" then
+                micro_reg_input_0 <= instruction2;
+              elsif instruction1(0) = "1" then
+                micro_reg_input_1 <= instruction2;
+              else null;
+            end if; -- instruction1(0)
+
+          end if; -- instruction1(5 downto 1)
           when others => null;
         end case;
         end if;
