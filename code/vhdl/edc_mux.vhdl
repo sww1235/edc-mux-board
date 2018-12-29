@@ -179,6 +179,7 @@ architecture arch of edc_mux is
 
           when "01" => null;
           when "10" => -- Select inputs that control outputs.
+          -- use or gates and and gates for each input, so multiple inputs can control one output
           when "11" =>
           when others => null;
         end case;
