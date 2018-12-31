@@ -6,9 +6,9 @@
 
 8 outputs to microcontroller -> needs interrupt
 
-8 inputs from microcontroller
+16 inputs from microcontroller in 2x 8 bit registers
 
-total of 40 inputs
+total of 48 inputs
 
 total of 56 outputs
 

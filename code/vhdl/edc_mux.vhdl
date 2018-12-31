@@ -59,9 +59,16 @@ architecture arch of edc_mux is
   signal micro_reg_output_delayed : std_logic_vector(7 downto 0); -- delayed data by 1 clock cycle for comparison
   signal micro_reg_output_comp : std_logic_vector(7 downto 0); -- xor comparision of micro_reg_output and micro_reg_output_delayed
 
-  -- control variables (from i2c data)
-  --signal instruction : std_logic_vector(7 downto 0); -- instruction from i2c
 
+  -- Each input_ctl_ctl_t represents all 40 input bits. Bits 0-15 are ctl0_in from
+  -- device 0 to 15, Bits 16-31 are ctl1_in from device 0 to 15, and bits 32-39
+  -- are micro_reg_input_0 and bits 40-47 are micro_reg_input_1.
+  --
+  -- Outputs are represented by each input_ctl_ctl_t in input_ctl_ctl. Bits 0-15
+  -- are ctl0_out for device 0 to 15, Bits 16-31 are ctl1_out for device 0 to 15,
+  -- and bits 32-47 are ptt_out for device 0 to 15, bits 48-55 are
+  -- micro_reg_output.
+  signal input_ctl_ctl : input_ctl_ctl_array_t; -- array of input control registers for each output
   -- Audio mapping registers
   -- Channels are represented with i2s channel 0 (left) using even numbers
   -- (starting from 0) and i2s channel 1 (right) using odd numbers, so device 0
@@ -139,8 +146,10 @@ architecture arch of edc_mux is
       variable instruction1 : std_logic_vector(7 downto 0) := "00000000";
       variable instruction2 : std_logic_vector(7 downto 0) := "00000000";
       variable instruction3 : std_logic_vector(7 downto 0) := "00000000";
-      variable out_sel : integer;
-      variable in_sel : integer;
+      variable aud_out_sel : integer range 0 to 15;
+      variable aud_in_sel : integer range 0 to 15;
+      variable ctl_out_sel : integer range 0 to 55;
+      variable ctl_in_sel : integer range 0 to 47;
       begin
         if rising_edge(data_valid) then -- first instruction byte
           instruction1 := data_from_master;
@@ -166,25 +175,53 @@ architecture arch of edc_mux is
         instruction := instruction1(7 downto 6); -- select first two bits of first in
         case instruction is
           when "00" => -- matrix mixer controls
-          -- Channels are represented with i2s channel 0 (left) using even numbers
-          -- (starting from 0) and i2s channel 1 (right) using odd numbers, so device 0
-          -- channel 0 is `00000` while device 1 channel 1 is `00011`. The inputs and
-          -- outputs are treated as 32 mono channels each and left and right are only
-          -- important in the control software.
+            -- Channels are represented with i2s channel 0 (left) using even numbers
+            -- (starting from 0) and i2s channel 1 (right) using odd numbers, so device 0
+            -- channel 0 is `00000` while device 1 channel 1 is `00011`. The inputs and
+            -- outputs are treated as 32 mono channels each and left and right are only
+            -- important in the control software.
 
-          out_sel := to_integer(unsigned(instruction1(4 downto 0))); -- which output channel
-          in_sel := to_integer(unsigned(instruction2(4 downto 0))); -- which input channel on that output channel
-          -- volume level is signed so only 127 volume steps. Leave MSB 0 always.
-          audio_ctl_reg(out_sel)(in_sel) <= signed(instruction3); -- volume level of input channel in output channel
+            aud_out_sel := to_integer(unsigned(instruction1(4 downto 0))); -- which output channel
+            aud_in_sel := to_integer(unsigned(instruction2(4 downto 0))); -- which input channel on that output channel
+            -- volume level is signed so only 127 volume steps. Leave MSB 0 always.
+            audio_ctl_reg(aud_out_sel)(aud_in_sel) <= signed(instruction3); -- volume level of input channel in output channel
 
           when "01" => null;
           when "10" => -- Select inputs that control outputs.
           -- use or gates and and gates for each input, so multiple inputs can control one output
+          case instruction1(5 downto 4) is -- select output
+            when "00" => -- ctl0_out (0 to 15)
+              ctl_out_sel := to_integer(unsigned(instruction1(3 downto 0)));
+            when "01" => -- ctl1_out (16 to 31)
+              ctl_out_sel := 16 + to_integer(unsigned(instruction1(3 downto 0)));
+            when "10" => -- ptt_out (32 to 47)
+              ctl_out_sel := 32 + to_integer(unsigned(instruction1(3 downto 0)));
+            when "11" => -- micro_reg_output
+              ctl_out_sel := 48 + to_integer(unsigned(instruction1(2 downto 0))); -- maximum 48 + 8 = 56
+            when others => null;
+          end case;
+
+          case instruction2(5 downto 4) is -- select input
+            when "00" => -- ctl0_in (0 to 15)
+              ctl_in_sel := to_integer(unsigned(instruction2(3 downto 0)));
+            when "01" => -- ctl1_in (16 to 31)
+              ctl_in_sel := 16 + to_integer(unsigned(instruction2(3 downto 0)));
+            when "10" => null;
+            when "11" => -- micro_reg_output
+              if instruction2(3) = '0' then -- micro_reg_input_0 (32 to 39)
+                ctl_in_sel := 32 + to_integer(unsigned(instruction2(2 downto 0)));
+              elsif instruction2(3) = '1' then -- micro_reg_input_1 (40 to 47)
+                ctl_in_sel := 40 + to_integer(unsigned(instruction2(2 downto 0)));
+              end if;
+            when others => null;
+          end case;
+
+          input_ctl_ctl(ctl_out_sel)(ctl_in_sel) <= instruction3(0);
           when "11" => -- take data from microcontroller and write it into control registers
             if instruction1(5 downto 1) = "00000" then
-              if instruction1(0) = "0" then
+              if instruction1(0) = '0' then
                 micro_reg_input_0 <= instruction2;
-              elsif instruction1(0) = "1" then
+              elsif instruction1(0) = '1' then
                 micro_reg_input_1 <= instruction2;
               else null;
             end if; -- instruction1(0)
