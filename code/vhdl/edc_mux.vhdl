@@ -294,7 +294,7 @@ architecture arch of edc_mux is
       );
     end generate;
 
-
+-- TODO: only assign audio inputs outpus to mixer when data is ready.
 
 
 end architecture arch;
