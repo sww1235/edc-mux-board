@@ -244,6 +244,21 @@ architecture arch of edc_mux is
     micro_reg_output_comp <= micro_reg_output xor micro_reg_output_delayed;
     ctl_int <= or micro_reg_output_comp;
 
+    -- control logic wiring
+    ctl_logic : for I in 0 to 15 generate
+      -- 0 to 15
+      ctl0_out(I) <= or (input_ctl_ctl(I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
+      -- 16 to 31
+      ctl1_out(I) <= or (input_ctl_ctl(16 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
+      -- 32 to 47
+      ptt_out(I) <= or (input_ctl_ctl(32 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
+    end generate;
+
+    ctl_logic2 : for I in 0 to 8 Generate
+      -- 48 to 55
+      micro_reg_output(I) <= or (input_ctl_ctl(48 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
+    end generate;
+
 --- audio stuff
 
 -- Audio process
