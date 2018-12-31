@@ -58,7 +58,7 @@ architecture arch of edc_mux is
 
   signal micro_reg_output_delayed : std_logic_vector(7 downto 0); -- delayed data by 1 clock cycle for comparison
   signal micro_reg_output_comp : std_logic_vector(7 downto 0); -- xor comparision of micro_reg_output and micro_reg_output_delayed
-
+  signal master_data_change : std_logic; -- output register has changed
 
   -- Each input_ctl_ctl_t represents all 40 input bits. Bits 0-15 are ctl0_in from
   -- device 0 to 15, Bits 16-31 are ctl1_in from device 0 to 15, and bits 32-39
@@ -242,7 +242,8 @@ architecture arch of edc_mux is
       end process;
       -- comparing micro_reg_output differences between 1 clock cycle
     micro_reg_output_comp <= micro_reg_output xor micro_reg_output_delayed;
-    ctl_int <= or micro_reg_output_comp;
+    master_data_change <= or micro_reg_output_comp;
+    ctl_int <= master_data_change and read_req;
 
     -- control logic wiring
     ctl_logic : for I in 0 to 15 generate
