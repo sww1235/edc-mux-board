@@ -8,7 +8,7 @@ OUT_DIR = out
 GHDL_CMD = ghdl
 GHDL_FLAGS = --workdir=$(OUT_DIR) --std=08 --ieee=standard
 
-dep_objects = 8-1-mux.o debounce.o edc-mux-pkg.o fullmixer.o I2C_slave.o i2s_interface.o
+dep_objects = debounce.o edc-mux-pkg.o fullmixer.o I2C_slave.o i2s_interface.o
 objects = $(dep_objects) edc_mux.o
 
 .PHONY: clean
@@ -20,9 +20,6 @@ objects = $(dep_objects) edc_mux.o
 
 edc_mux.o: $(dep_objects)
 	$(GHDL_CMD) -a $(GHDL_FLAGS) edc_mux.vhdl
-
-8-1-mux.o : 8-1-mux.vhdl
-	$(GHDL_CMD) -a $(GHDL_FLAGS) 8-1-mux.vhdl
 
 debounce.o : debounce.vhdl
 	$(GHDL_CMD) -a $(GHDL_FLAGS) debounce.vhdl
