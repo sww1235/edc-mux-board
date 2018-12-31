@@ -133,11 +133,79 @@ always have master send three bytes. Some instructions will ignore third byte.
 
 All outputs receive all inputs. First want to select which output, then select the volume register associated with that output and the selected input. Then finally set the actual volume level.
 
-| Primary Bit Pattern (Command) | Secondary Bit Pattern (selection/data) | tertiary bit pattern (data) | Description |
-|-------------------------------|----------------------------------------|-----------------------------|-------------|
-| `000X.XXXX` | `000Y.YYYY` | `0VVV.VVVV` | Matrix mixer controls. </br>Channels are represented with i2s channel 0 (left) using even numbers (starting from 0) and i2s channel 1 (right) using odd numbers, so device 0 channel 0 is `00000` while device 1 channel 1 is `00011`. The inputs and outputs are treated as 32 mono channels each and left and right are only important in the control software. </br> Primary selects output with bits 0-4.</br> Secondary selects which input volume is being controlled with bits 0-4. </br> Tertiary is a 8 bit representation of the linear volume control of the input in the output. Due to limitations within the binary multiplier, this must have a MSB of `0` so to represent a value from 0 to 127 </br>So to zero the volume of input 4 channel 1 in output 8 channel 2, you would send 3 i2c messages: `0001.1000` => `0000.0100` => `0000.0000` |
-| `10XX.XXXX` | `00YY.YYYY` | | Select inputs that control outputs. </br> Primary selects destination output pin where: </br>`1000.XXXX` = ctl_0 out on connector `XXXX`</br>`1001.XXXX` = ctl_1 out on connector `XXXX`</br>`1010.XXXX` = ptt out on connector `XXXX`</br>`1011.0XXX` = microcontroller out bit `XXX` </br></br> Secondary pattern selects input pin where: </br>`0000.YYYY` = ctl0_in on connector `YYYY` </br>`0001.YYYY` = ctl1_in on connector `YYYY` </br>`0010.YYYY` doing nothing </br> `0011.WYYY` selects microcontroller input bit `YYY` in input register `W` |
-| `1100.000X` | `YYYY.YYYY` | | writes secondary data into micro_reg_input_X register. X selects which of two registers to put data into. |
+<table>
+
+<tr>
+
+<th>Primary Bit Pattern (Command)</th>
+<th>Secondary Bit Pattern (selection/data)</th>
+<th>Tertiary bit pattern (data)</th>
+<th>Description</th>
+
+</tr>
+
+<tr>
+
+<td> <code>000X.XXXX</code> </td>
+
+<td> <code>000Y.YYYY</code> </td>
+
+<td> <code>0VVV.VVVV</code> </td>
+
+<td> Matrix mixer controls. </br>Channels are represented with i2s channel 0
+(left) using even numbers (starting from 0) and i2s channel 1 (right) using odd
+numbers, so device 0 channel 0 is <code>00000</code> while device 1 channel 1 is
+<code>00011</code>. The inputs and outputs are treated as 32 mono channels each
+and left and right are only important in the control software. </br> Primary
+selects output with bits 0-4.</br> Secondary selects which input volume is being
+controlled with bits 0-4. </br> Tertiary is a 8 bit representation of the linear
+volume control of the input in the output. Due to limitations within the binary
+multiplier, this must have a MSB of <code>0</code> so to represent a value from
+0 to 127 </br>So to zero the volume of input 4 channel 1 in output 8 channel 2,
+you would send 3 i2c messages: <code>0001.1000</code> => <code>0000.0100</code>
+=> <code>0000.0000</code></td>
+
+</tr>
+
+<tr>
+
+<td> <code>10XX.XXXX</code> </td>
+
+<td> <code>00YY.YYYY</code> </td>
+
+<td> <code>0000.000V</code> </td>
+
+<td>  Select inputs that control outputs. </br> Primary selects destination
+output pin where: </br><code>1000.XXXX</code> = ctl_0 out on connector
+<code>XXXX</code></br><code>1001.XXXX</code> = ctl_1 out on connector
+<code>XXXX</code></br><code>1010.XXXX</code> = ptt out on connector
+<code>XXXX</code></br><code>1011.0XXX</code> = microcontroller out bit
+<code>XXX</code> </br></br> Secondary pattern selects input pin where:
+</br><code>0000.YYYY</code> = ctl0_in on connector <code>YYYY</code>
+</br><code>0001.YYYY</code> = ctl1_in on connector <code>YYYY</code>
+</br><code>0010.YYYY</code> doing nothing </br> <code>0011.WYYY</code> selects
+microcontroller input bit <code>YYY</code> in input register <code>W</code>
+</br> LSB of Tertiary sets or clears if output is controlled by input. A
+<code>1</code> connects the input and a <code>0</code> disconnects the
+input.</td>
+
+</tr>
+
+<tr>
+
+<td> <code>1100.000X</code> </td>
+
+<td> <code>YYYY.YYYY</code> </td>
+
+<td> </td>
+
+<td> writes secondary data into micro_reg_input_X register. X selects which of
+two registers to put data into.</td>
+
+</tr>
+
+</table>
+
 
 
 ## Extra parts
