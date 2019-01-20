@@ -54,7 +54,7 @@ architecture arch of edc_mux is
 
   signal micro_reg_input_0 : std_logic_vector(7 downto 0); -- data sent from microcontroller
   signal micro_reg_input_1 : std_logic_vector(7 downto 0);
-  signal micro_reg_output: std_logic_vector(7 downto 0); -- data to be read by microcontroller
+  signal micro_reg_output : std_logic_vector(7 downto 0); -- data to be read by microcontroller
 
   signal micro_reg_output_delayed : std_logic_vector(7 downto 0); -- delayed data by 1 clock cycle for comparison
   signal micro_reg_output_comp : std_logic_vector(7 downto 0); -- xor comparision of micro_reg_output and micro_reg_output_delayed
