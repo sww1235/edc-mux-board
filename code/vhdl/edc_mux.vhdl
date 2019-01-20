@@ -78,30 +78,30 @@ architecture arch of edc_mux is
   signal audio_reg_in : audio_port_t; -- inputs from i2s interface -> to mixer
   signal audio_reg_out : audio_port_t; -- outputs from i2s interface <- from mixer
   signal audio_ctl_reg : ctl_port_array_t; -- volume control signals from i2c instructions -> mixer (unsigned)
+  signal audio_ready_strobe : std_logic_vector(15 downto 0); -- new data is ready from i2s input
+  signal lr_audio_ready_strobe : std_logic_vector(15 downto 0); -- whether that data is the left or right channel
 
   component SB_GB
     port (
-    USER_SIGNAL_TO_GLOBAL_BUFFER:in std_logic;
-    GLOBAL_BUFFER_OUTPUT:out std_logic);
+    USER_SIGNAL_TO_GLOBAL_BUFFER : in std_logic;
+    GLOBAL_BUFFER_OUTPUT : out std_logic);
     end component;
 
     component i2s_interface
       port (
-        LR_CK      : in  std_logic;
-        BIT_CK     : in  std_logic;
-        DIN        : in  std_logic;
-        DATA_L_IN  : in  std_logic_vector(15 downto 0);
-        DATA_R_IN  : in  std_logic_vector(15 downto 0);
-        DOUT       : out std_logic;
-        DATA_L_OUT : out std_logic_vector(15 downto 0);
-        DATA_R_OUT : out std_logic_vector(15 downto 0);
-        RESET      : in  std_logic;
-        STROBE     : out std_logic;
-        STROBE_LR  : out std_logic
+        LR_CK         : in  std_logic;
+        BIT_CK        : in  std_logic;
+        DIN           : in  std_logic;
+        DATA_L_IN     : in  audio_buffer_t;
+        DATA_R_IN     : in  audio_buffer_t;
+        DOUT          : out std_logic;
+        DATA_L_OUT    : out audio_buffer_t;
+        DATA_R_OUT    : out audio_buffer_t;
+        RESET         : in  std_logic;
+        DATA_RDY_OUT  : out std_logic;
+        STROBE_LR     : out std_logic
       );
     end component i2s_interface;
-
-
 
   begin
 
@@ -263,8 +263,6 @@ architecture arch of edc_mux is
 --- audio stuff
 
 -- Audio process
-
---
 
     audio_mixer : entity work.fullmixer
       port map (
