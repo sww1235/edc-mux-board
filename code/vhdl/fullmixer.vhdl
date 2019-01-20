@@ -9,7 +9,9 @@ entity fullmixer is   -- 32x32 mixer matrix: 8 R IO, 8 L IO 16 mic IO
   port (i     : in  audio_port_t; -- 32 size array of 16 bit signed values
         o     : out audio_port_t; -- 32 size array of 16 bit signed values
         ctl   : in  ctl_port_array_t; -- 32 size array of (32 size array of 8 bit signed values)
-        clk   : in std_logic  -- main clock
+        clk   : in std_logic;  -- main clock
+        in_audio_ready : in std_logic_vector(15 downto 0); -- audio channel is ready.
+        in_lr_audio_strobe : in std_logic_vector(15 downto 0) -- left vs right audio channel
         );
 
 

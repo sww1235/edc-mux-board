@@ -271,7 +271,9 @@ architecture arch of edc_mux is
         i   => audio_reg_in,
         o   => audio_reg_out,
         ctl => audio_ctl_reg,
-        clk => mclk_buff
+        clk => mclk_buff,
+        in_audio_ready => audio_ready_strobe,
+        in_lr_audio_strobe => lr_audio_ready_strobe
       );
 
 
