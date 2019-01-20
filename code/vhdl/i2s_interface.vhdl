@@ -67,12 +67,12 @@ port(
 	BIT_CK : in std_logic;   --Bit clock
   -- Audio inputs
 	DIN : in std_logic;      --I2S Serial Input
-  DATA_L_IN : in std_logic_vector(15 downto 0);
-  DATA_R_IN : in std_logic_vector(15 downto 0);
+  DATA_L_IN : in audio_buffer_t;--std_logic_vector(15 downto 0);
+  DATA_R_IN : in audio_buffer_t;--std_logic_vector(15 downto 0);
 	-- Parallel Output ports
   DOUT : out std_logic; --I2S Serial Output
-	DATA_L_OUT : out std_logic_vector(15 downto 0);
-	DATA_R_OUT : out std_logic_vector(15 downto 0);
+	DATA_L_OUT : out audio_buffer_t;--std_logic_vector(15 downto 0);
+	DATA_R_OUT : out audio_buffer_t;--std_logic_vector(15 downto 0);
   -- Control ports
 	RESET : in std_logic;    --Asynchronous Reset (Active Low)
 	-- Output status ports
@@ -134,10 +134,10 @@ begin
 				if(output_strobed = '0') then
 					if(in_current_lr = '1') then
 						--Output Right Channel
-						DATA_R_OUT <= in_shift_reg;
+						DATA_R_OUT <= signed(in_shift_reg);
 					else
 						--Output Left Channel
-						DATA_L_OUT <= in_shift_reg;
+						DATA_L_OUT <= signed(in_shift_reg);
 					end if;
 					STROBE_LR <= in_current_lr;
 					output_strobed <= '1';
@@ -166,19 +166,14 @@ begin
 			-- load either L or R data into shift register
 			if rising_edge(LR_CK) or falling_edge(LR_CK) then
 				if (LR_CK = '1') then
-					out_shift_reg <= DATA_R_IN;
+					out_shift_reg <= std_logic_vector(DATA_R_IN);
 				else
-					out_shift_reg <= DATA_R_IN;
+					out_shift_reg <= std_logic_vector(DATA_R_IN);
 				end if; -- LR_CK
 			else
 				DOUT <= out_shift_reg(15);
 				out_shift_reg <= out_shift_reg(14 downto 0) & '0';
 			end if; -- rising_edge or falling_edge
-
-
-
-
-
 		end if; -- reset / rising_edge BIT_CK
 
 	end process;
