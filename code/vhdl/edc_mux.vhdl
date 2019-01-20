@@ -283,18 +283,16 @@ architecture arch of edc_mux is
         LR_CK        => wclk_in(I),
         BIT_CK       => bclk_in(I),
         DIN          => i2s_in(I),
-        DATA_L_IN    => audio_reg_out(I),
-        DATA_R_IN    => audio_reg_out(I+1),
+        DATA_L_IN    => audio_reg_out(I*2),
+        DATA_R_IN    => audio_reg_out((I*2)+1),
         DOUT         => i2s_out(I),
-        DATA_L_OUT   => audio_reg_in(I),
-        DATA_R_OUT   => audio_reg_in(I+1),
+        DATA_L_OUT   => audio_reg_in(I*2),
+        DATA_R_OUT   => audio_reg_in((I*2)+1),
         RESET        => g_rst,
-        DATA_RDY_OUT => DATA_RDY_OUT,
-        STROBE_LR    => STROBE_LR
+        DATA_RDY_OUT => audio_ready_strobe(I),
+        STROBE_LR    => lr_audio_ready_strobe(I)
       );
     end generate;
-
--- TODO: only assign audio inputs outpus to mixer when data is ready.
 
 
 end architecture arch;
