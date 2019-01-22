@@ -43,3 +43,4 @@ code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synlog/report/edcMuxBoard_compiler_err
 code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synlog/layer0.tlg.rptmap
 code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synlog/edcMuxBoard_compiler.srr.rptmap
 *.srr
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/run_options.txt
