@@ -169,7 +169,7 @@ begin
 				if (LR_CK = '1') then
 					out_shift_reg <= std_logic_vector(DATA_R_IN);
 				else
-					out_shift_reg <= std_logic_vector(DATA_R_IN);
+					out_shift_reg <= std_logic_vector(DATA_L_IN);
 				end if; -- LR_CK
 			else
 				DOUT <= out_shift_reg(15);
