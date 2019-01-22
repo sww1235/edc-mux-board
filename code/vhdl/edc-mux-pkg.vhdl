@@ -3,7 +3,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
--- ctl_port types are unsigned since volume should never be negative, only 0 - 255
+-- ctl_port types are signed due to not being able to multiply unsigned by signed.
 
 package edc_mux_pkg is
   subtype audio_buffer_t is SIGNED(15 downto 0); -- audio buffer type for i2s interface
