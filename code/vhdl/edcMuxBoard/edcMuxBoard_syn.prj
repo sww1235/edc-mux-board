@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
 #--  Project file C:\Users\toxic\Documents\GitHub\edc-mux-board\code\vhdl\edcMuxBoard\edcMuxBoard_syn.prj
-#--  Written on Mon Jan 21 22:50:16 2019
+#--  Written on Tue Jan 22 09:38:21 2019
 
 
 #project files
@@ -39,7 +39,7 @@ set_option -top_module "edc_mux"
 set_option -distributed_compile 0
 
 # mapper_without_write_options
-set_option -frequency auto
+set_option -frequency 48
 set_option -srs_instrumentation 1
 
 # mapper_options
