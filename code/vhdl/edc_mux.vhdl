@@ -80,6 +80,18 @@ architecture arch of edc_mux is
   signal audio_ctl_reg : ctl_port_array_t; -- volume control signals from i2c instructions -> mixer (unsigned)
   signal audio_ready_strobe : std_logic_vector(15 downto 0); -- new data is ready from i2s input
   signal lr_audio_ready_strobe : std_logic_vector(15 downto 0); -- whether that data is the left or right channel
+  
+  -- instruction processing signals
+  -- cant define them locally in process
+  signal inst_valid : std_logic := '0';
+  signal instruction : std_logic_vector(1 downto 0);
+  signal instruction1 : std_logic_vector(7 downto 0) := "00000000";
+  signal instruction2 : std_logic_vector(7 downto 0) := "00000000";
+  signal instruction3 : std_logic_vector(7 downto 0) := "00000000";
+  signal aud_out_sel : integer range 0 to 15;
+  signal aud_in_sel : integer range 0 to 15;
+  signal ctl_out_sel : integer range 0 to 55;
+  signal ctl_in_sel : integer range 0 to 47;
 
   component SB_GB
     port (
@@ -141,15 +153,6 @@ architecture arch of edc_mux is
       );
 
     instruction_processing: process(data_valid)
-      signal inst_valid : std_logic := '0';
-      signal instruction : std_logic_vector(1 downto 0);
-      signal instruction1 : std_logic_vector(7 downto 0) := "00000000";
-      signal instruction2 : std_logic_vector(7 downto 0) := "00000000";
-      signal instruction3 : std_logic_vector(7 downto 0) := "00000000";
-      signal aud_out_sel : integer range 0 to 15;
-      signal aud_in_sel : integer range 0 to 15;
-      signal ctl_out_sel : integer range 0 to 55;
-      signal ctl_in_sel : integer range 0 to 47;
       begin
         if data_valid = '1' then -- first instruction byte
           instruction1 <= data_from_master;
