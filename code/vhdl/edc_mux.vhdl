@@ -248,7 +248,8 @@ architecture arch of edc_mux is
       -- comparing micro_reg_output differences between 1 clock cycle
     micro_reg_output_comp <= micro_reg_output xor micro_reg_output_delayed;
     master_data_change <= '1' when (or micro_reg_output_comp) else '0';
-    ctl_int <= '1' when ((master_data_change = '1') and (read_req = '1'))else '0';
+    ctl_int <= master_data_change;
+	data_to_master <= micro_reg_output when ((master_data_change = '1') and (read_req = '1'))else (others => '0');
 
     -- control logic wiring
     ctl_logic : for I in 0 to 15 generate
