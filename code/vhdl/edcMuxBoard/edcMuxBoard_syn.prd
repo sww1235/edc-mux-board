@@ -1,0 +1,13 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09L+ice40
+#--  Project file C:\Users\toxic\Documents\GitHub\edc-mux-board\code\vhdl\edcMuxBoard\edcMuxBoard_syn.prd
+#--  Written on Mon Jan 21 22:50:16 2019
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear
