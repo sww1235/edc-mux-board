@@ -161,6 +161,7 @@ begin
 	begin
 		if(RESET = '0') then
 			out_shift_reg <= (others => '0');
+			DOUT <= '0'; -- reset dout as well
 		elsif rising_edge(BIT_CK) then
 			-- at each LR_CK level transition (once every 16 bits)
 			-- load either L or R data into shift register
