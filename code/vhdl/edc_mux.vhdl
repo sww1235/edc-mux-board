@@ -141,7 +141,7 @@ architecture arch of edc_mux is
       );
 
     instruction_processing: process(data_valid)
-      variable inst_valid : boolean := false;
+      variable inst_valid : std_logic := '0';
       variable instruction : std_logic_vector(1 downto 0);
       variable instruction1 : std_logic_vector(7 downto 0) := "00000000";
       variable instruction2 : std_logic_vector(7 downto 0) := "00000000";
@@ -153,25 +153,25 @@ architecture arch of edc_mux is
       begin
         if rising_edge(data_valid) then -- first instruction byte
           instruction1 := data_from_master;
-          inst_valid := true;
+          inst_valid := '1';
         else
           instruction1 := "00000000";
-          inst_valid := false;
+          inst_valid := '0';
         end if;
 
-        if rising_edge(data_valid) and inst_valid then -- second instruction byte
+        if rising_edge(data_valid) and inst_valid = '1' then -- second instruction byte
           instruction2 := data_from_master;
         else
           instruction2 := "00000000";
         end if;
 
-        if rising_edge(data_valid) and inst_valid then -- third instruction byte
+        if rising_edge(data_valid) and inst_valid = '1' then -- third instruction byte
           instruction3 := data_from_master;
         else
           instruction3 := "00000000";
         end if;
 
-        if inst_valid then -- we have gotten 3 instruction bytes
+        if inst_valid  = '1' then -- we have gotten 3 instruction bytes
         instruction := instruction1(7 downto 6); -- select first two bits of first in
         case instruction is
           when "00" => -- matrix mixer controls
