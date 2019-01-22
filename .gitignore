@@ -26,3 +26,20 @@ rescue-backup
 
 # Other Exported files
 *.pdf
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/sbt/Log/iceCube0.log
+code/vhdl/edcMuxBoard/stdout.log
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/.recordref
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/edcMuxBoard.htm
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/syntmp/closed.png
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/syntmp/cmdrec_compiler.log
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/syntmp/open.png
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synwork/layer0.tlg
+*.fdeporig
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/syntmp/statusReport.html
+*.htm
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synlog/report/edcMuxBoard_compiler_warnings.txt
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synlog/report/edcMuxBoard_compiler_notes.txt
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synlog/report/edcMuxBoard_compiler_errors.txt
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synlog/layer0.tlg.rptmap
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synlog/edcMuxBoard_compiler.srr.rptmap
+*.srr
