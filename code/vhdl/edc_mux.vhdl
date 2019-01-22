@@ -255,7 +255,7 @@ architecture arch of edc_mux is
       ptt_out(I) <= or (input_ctl_ctl(32 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
     end generate;
 
-    ctl_logic2 : for I in 0 to 8 Generate
+    ctl_logic2 : for I in 0 to 7 Generate
       -- 48 to 55
       micro_reg_output(I) <= or (input_ctl_ctl(48 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
     end generate;
