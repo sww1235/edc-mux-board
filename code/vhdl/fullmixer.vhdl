@@ -29,7 +29,7 @@ architecture Algorithmic of fullmixer is
   signal iBuff : audio_port_t;
 
 begin
-  process(clk) -- want process to be sensitive to clock signal
+  process(clk, in_audio_ready) -- want process to be sensitive to clock signal
     begin
       if (rising_edge(clk) and (or in_audio_ready = '1') )then -- any audio signal is ready
         -- assign audio inputs
