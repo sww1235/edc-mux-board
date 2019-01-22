@@ -141,38 +141,38 @@ architecture arch of edc_mux is
       );
 
     instruction_processing: process(data_valid)
-      variable inst_valid : std_logic := '0';
-      variable instruction : std_logic_vector(1 downto 0);
-      variable instruction1 : std_logic_vector(7 downto 0) := "00000000";
-      variable instruction2 : std_logic_vector(7 downto 0) := "00000000";
-      variable instruction3 : std_logic_vector(7 downto 0) := "00000000";
-      variable aud_out_sel : integer range 0 to 15;
-      variable aud_in_sel : integer range 0 to 15;
-      variable ctl_out_sel : integer range 0 to 55;
-      variable ctl_in_sel : integer range 0 to 47;
+      signal inst_valid : std_logic := '0';
+      signal instruction : std_logic_vector(1 downto 0);
+      signal instruction1 : std_logic_vector(7 downto 0) := "00000000";
+      signal instruction2 : std_logic_vector(7 downto 0) := "00000000";
+      signal instruction3 : std_logic_vector(7 downto 0) := "00000000";
+      signal aud_out_sel : integer range 0 to 15;
+      signal aud_in_sel : integer range 0 to 15;
+      signal ctl_out_sel : integer range 0 to 55;
+      signal ctl_in_sel : integer range 0 to 47;
       begin
-        if rising_edge(data_valid) then -- first instruction byte
-          instruction1 := data_from_master;
-          inst_valid := '1';
+        if data_valid = '1' then -- first instruction byte
+          instruction1 <= data_from_master;
+          inst_valid <= '1';
         else
-          instruction1 := "00000000";
-          inst_valid := '0';
+          instruction1 <= "00000000";
+          inst_valid <= '0';
         end if;
 
-        if rising_edge(data_valid) and inst_valid = '1' then -- second instruction byte
-          instruction2 := data_from_master;
+        if data_valid = '1' and inst_valid = '1' then -- second instruction byte
+          instruction2 <= data_from_master;
         else
-          instruction2 := "00000000";
+          instruction2 <= "00000000";
         end if;
 
-        if rising_edge(data_valid) and inst_valid = '1' then -- third instruction byte
-          instruction3 := data_from_master;
+        if data_valid = '1' and inst_valid = '1' then -- third instruction byte
+          instruction3 <= data_from_master;
         else
-          instruction3 := "00000000";
+          instruction3 <= "00000000";
         end if;
 
         if inst_valid  = '1' then -- we have gotten 3 instruction bytes
-			instruction := instruction1(7 downto 6); -- select first two bits of first in
+			instruction <= instruction1(7 downto 6); -- select first two bits of first in
 			case instruction is
 			  when "00" => -- matrix mixer controls
 				-- Channels are represented with i2s channel 0 (left) using even numbers
@@ -181,8 +181,8 @@ architecture arch of edc_mux is
 				-- outputs are treated as 32 mono channels each and left and right are only
 				-- important in the control software.
 
-				aud_out_sel := to_integer(unsigned(instruction1(4 downto 0))); -- which output channel
-				aud_in_sel := to_integer(unsigned(instruction2(4 downto 0))); -- which input channel on that output channel
+				aud_out_sel <= to_integer(unsigned(instruction1(4 downto 0))); -- which output channel
+				aud_in_sel <= to_integer(unsigned(instruction2(4 downto 0))); -- which input channel on that output channel
 				-- volume level is signed so only 127 volume steps. Leave MSB 0 always.
 				audio_ctl_reg(aud_out_sel)(aud_in_sel) <= signed(instruction3); -- volume level of input channel in output channel
 
@@ -191,27 +191,27 @@ architecture arch of edc_mux is
 			  -- use or gates and and gates for each input, so multiple inputs can control one output
 			  case instruction1(5 downto 4) is -- select output
 				when "00" => -- ctl0_out (0 to 15)
-				  ctl_out_sel := to_integer(unsigned(instruction1(3 downto 0)));
+				  ctl_out_sel <= to_integer(unsigned(instruction1(3 downto 0)));
 				when "01" => -- ctl1_out (16 to 31)
-				  ctl_out_sel := 16 + to_integer(unsigned(instruction1(3 downto 0)));
+				  ctl_out_sel <= 16 + to_integer(unsigned(instruction1(3 downto 0)));
 				when "10" => -- ptt_out (32 to 47)
-				  ctl_out_sel := 32 + to_integer(unsigned(instruction1(3 downto 0)));
+				  ctl_out_sel <= 32 + to_integer(unsigned(instruction1(3 downto 0)));
 				when "11" => -- micro_reg_output
-				  ctl_out_sel := 48 + to_integer(unsigned(instruction1(2 downto 0))); -- maximum 48 + 8 = 56
+				  ctl_out_sel <= 48 + to_integer(unsigned(instruction1(2 downto 0))); -- maximum 48 + 8 = 56
 				when others => null;
 			  end case;
 
 			  case instruction2(5 downto 4) is -- select input
 				when "00" => -- ctl0_in (0 to 15)
-				  ctl_in_sel := to_integer(unsigned(instruction2(3 downto 0)));
+				  ctl_in_sel <= to_integer(unsigned(instruction2(3 downto 0)));
 				when "01" => -- ctl1_in (16 to 31)
-				  ctl_in_sel := 16 + to_integer(unsigned(instruction2(3 downto 0)));
+				  ctl_in_sel <= 16 + to_integer(unsigned(instruction2(3 downto 0)));
 				when "10" => null;
 				when "11" => -- micro_reg_output
 				  if instruction2(3) = '0' then -- micro_reg_input_0 (32 to 39)
-					ctl_in_sel := 32 + to_integer(unsigned(instruction2(2 downto 0)));
+					ctl_in_sel <= 32 + to_integer(unsigned(instruction2(2 downto 0)));
 				  elsif instruction2(3) = '1' then -- micro_reg_input_1 (40 to 47)
-					ctl_in_sel := 40 + to_integer(unsigned(instruction2(2 downto 0)));
+					ctl_in_sel <= 40 + to_integer(unsigned(instruction2(2 downto 0)));
 				  end if;
 				when others => null;
 			  end case;
