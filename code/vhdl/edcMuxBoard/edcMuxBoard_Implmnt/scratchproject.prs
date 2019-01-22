@@ -38,7 +38,7 @@ set_option -top_module "edc_mux"
 set_option -distributed_compile 0
 
 # mapper_without_write_options
-set_option -frequency auto
+set_option -frequency 48
 set_option -srs_instrumentation 1
 
 # mapper_options
