@@ -253,6 +253,8 @@ architecture arch of edc_mux is
     -- control logic wiring
     ctl_logic : for I in 0 to 15 generate
       -- 0 to 15
+	  -- any of the resulting signals of the and can drive the output
+	  -- anding together the 40 bit on/off signal for the output and a 40 bit concatenated register of all the inputs 
       ctl0_out(I) <= or (input_ctl_ctl(I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
       -- 16 to 31
       ctl1_out(I) <= or (input_ctl_ctl(16 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
@@ -262,6 +264,8 @@ architecture arch of edc_mux is
 
     ctl_logic2 : for I in 0 to 7 Generate
       -- 48 to 55
+	  -- any of the resulting signals of the and can drive the output
+	  -- anding together the 40 bit on/off signal for the output and a 40 bit concatenated register of all the inputs 
       micro_reg_output(I) <= or (input_ctl_ctl(48 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
     end generate;
 
