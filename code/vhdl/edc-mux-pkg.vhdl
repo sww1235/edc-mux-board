@@ -13,5 +13,5 @@ package edc_mux_pkg is
   type mix_buffer_t is array (31 downto 0) of SIGNED(31 downto 0); -- mixer summing buffers
   type i2s_port_t is array (15 downto 0) of std_logic; -- i2s data lines
   subtype input_ctl_ctl_t is std_logic_vector(47 downto 0); -- control lines for all inputs into 1 output
-  type input_ctl_ctl_array_t is array (55 downto 0) of input_ctl_ctl_t;
+  type input_ctl_ctl_array_t is array (55 downto 0) of input_ctl_ctl_t; -- array of input ctl lines for outputs
 end package;
