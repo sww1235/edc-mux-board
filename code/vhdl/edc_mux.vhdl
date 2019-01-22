@@ -64,11 +64,13 @@ architecture arch of edc_mux is
   -- device 0 to 15, Bits 16-31 are ctl1_in from device 0 to 15, and bits 32-39
   -- are micro_reg_input_0 and bits 40-47 are micro_reg_input_1.
   --
-  -- Outputs are represented by each input_ctl_ctl_t in input_ctl_ctl. Bits 0-15
-  -- are ctl0_out for device 0 to 15, Bits 16-31 are ctl1_out for device 0 to 15,
-  -- and bits 32-47 are ptt_out for device 0 to 15, bits 48-55 are
-  -- micro_reg_output.
+  -- Outputs are represented by each input_ctl_ctl_t in input_ctl_ctl. 
+  -- array index 0-15 are ctl0_out for device 0 to 15
+  -- array index 16-31 are ctl1_out for device 0 to 15
+  -- array index 32-47 are ptt_out for device 0 to 15
+  -- array index 48-55 are micro_reg_output.
   signal input_ctl_ctl : input_ctl_ctl_array_t; -- array of input control registers for each output
+  
   -- Audio mapping registers
   -- Channels are represented with i2s channel 0 (left) using even numbers
   -- (starting from 0) and i2s channel 1 (right) using odd numbers, so device 0
