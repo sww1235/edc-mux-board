@@ -87,9 +87,9 @@ architecture arch of edc_mux is
 	-- cant define them locally in process
 	signal inst_valid		: std_logic := '0';
 	signal instruction	: std_logic_vector(1 downto 0);
-	signal instruction1	: std_logic_vector(7 downto 0) := "00000000";
-	signal instruction2	: std_logic_vector(7 downto 0) := "00000000";
-	signal instruction3	: std_logic_vector(7 downto 0) := "00000000";
+	signal instruction1	: std_logic_vector(7 downto 0);
+	signal instruction2	: std_logic_vector(7 downto 0);
+	signal instruction3	: std_logic_vector(7 downto 0);
 	signal aud_out_sel	: integer range 0 to 15;
 	signal aud_in_sel		: integer range 0 to 15;
 	signal ctl_out_sel	: integer range 0 to 55;
@@ -154,27 +154,35 @@ architecture arch of edc_mux is
 				data_from_master	=> data_from_master
 			);
 
-		instruction_processing: process(mclk_buff, data_valid, data_from_master)
+		instruction_processing: process(mclk_buff, data_valid, data_from_master, g_rst)
 			begin
 				if rising_edge(mclk_buff) then
-					if data_valid = '1' then -- first instruction byte
-						instruction1 <= data_from_master;
-						inst_valid <= '1';
-					else
-						instruction1 <= "00000000";
+					if g_rst = '1' then -- reset all signals to default values
 						inst_valid <= '0';
+						instruction		<= "00";
+						instruction1	<= "00000000";
+						instruction2	<= "00000000";
+						instruction3	<= "00000000";
+					end if;
+					
+					if data_valid = '1' then -- first instruction byte
+						instruction1	<= data_from_master;
+						inst_valid		<= '1';
+					else
+						instruction1	<= "00000000";
+						inst_valid		<= '0';
 					end if;
 
 					if data_valid = '1' and inst_valid = '1' then -- second instruction byte
-						instruction2 <= data_from_master;
+						instruction2	<= data_from_master;
 					else
-						instruction2 <= "00000000";
+						instruction2	<= "00000000";
 					end if;
 
 					if data_valid = '1' and inst_valid = '1' then -- third instruction byte
-						instruction3 <= data_from_master;
+						instruction3	<= data_from_master;
 					else
-						instruction3 <= "00000000";
+						instruction3	<= "00000000";
 					end if;
 
 					if inst_valid  = '1' then -- we have gotten 3 instruction bytes
