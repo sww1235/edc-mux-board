@@ -8,9 +8,7 @@ add_file -vhdl -lib work "C:/Users/toxic/Documents/GitHub/edc-mux-board/code/vhd
 add_file -vhdl -lib work "C:/Users/toxic/Documents/GitHub/edc-mux-board/code/vhdl/fullmixer.vhdl"
 add_file -vhdl -lib work "C:/Users/toxic/Documents/GitHub/edc-mux-board/code/vhdl/i2s_interface.vhdl"
 add_file -vhdl -lib work "C:/Users/toxic/Documents/GitHub/edc-mux-board/code/vhdl/FPGA-I2C-Slave/I2C_slave.vhd"
-add_file -vhdl -lib work "C:/Users/toxic/Documents/GitHub/edc-mux-board/code/vhdl/FPGA-I2C-Slave/I2C_slave_TB.vhd"
 add_file -vhdl -lib work "C:/Users/toxic/Documents/GitHub/edc-mux-board/code/vhdl/FPGA-I2C-Slave/debounce.vhd"
-add_file -vhdl -lib work "C:/Users/toxic/Documents/GitHub/edc-mux-board/code/vhdl/FPGA-I2C-Slave/txt_util.vhd"
 
 
 

@@ -4,7 +4,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2017.08.27940 - Bui
 ProjectName=edcMuxBoard
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=../edc-mux-pkg.vhdl=work,../edc_mux.vhdl=work,../fullmixer.vhdl=work,../i2s_interface.vhdl=work,../FPGA-I2C-Slave/I2C_slave.vhd,../FPGA-I2C-Slave/I2C_slave_TB.vhd,../FPGA-I2C-Slave/debounce.vhd,../FPGA-I2C-Slave/txt_util.vhd
+ProjectVFiles=../edc-mux-pkg.vhdl=work,../edc_mux.vhdl=work,../fullmixer.vhdl=work,../i2s_interface.vhdl=work,../FPGA-I2C-Slave/I2C_slave.vhd=work,../FPGA-I2C-Slave/debounce.vhd=work
 ProjectCFiles=
 CurImplementation=edcMuxBoard_Implmnt
 Implementations=edcMuxBoard_Implmnt

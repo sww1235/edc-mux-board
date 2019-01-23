@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
 #--  Project file C:\Users\toxic\Documents\GitHub\edc-mux-board\code\vhdl\edcMuxBoard\edcMuxBoard_syn.prj
-#--  Written on Tue Jan 22 09:38:21 2019
+#--  Written on Tue Jan 22 19:41:42 2019
 
 
 #project files
@@ -10,9 +10,7 @@ add_file -vhdl -lib work "../edc_mux.vhdl"
 add_file -vhdl -lib work "../fullmixer.vhdl"
 add_file -vhdl -lib work "../i2s_interface.vhdl"
 add_file -vhdl -lib work "../FPGA-I2C-Slave/I2C_slave.vhd"
-add_file -vhdl -lib work "../FPGA-I2C-Slave/I2C_slave_TB.vhd"
 add_file -vhdl -lib work "../FPGA-I2C-Slave/debounce.vhd"
-add_file -vhdl -lib work "../FPGA-I2C-Slave/txt_util.vhd"
 
 
 
