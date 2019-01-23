@@ -49,3 +49,4 @@ code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synwork/_mh_info
 *.fdep
 *.srs
 *.i
+*.tcl
