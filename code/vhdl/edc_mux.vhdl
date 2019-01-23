@@ -154,7 +154,7 @@ architecture arch of edc_mux is
         data_from_master => data_from_master
       );
 
-    instruction_processing: process(data_valid)
+    instruction_processing: process(data_valid, data_from_master)
       begin
         if data_valid = '1' then -- first instruction byte
           instruction1 <= data_from_master;
