@@ -48,3 +48,4 @@ code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/run_options.txt
 code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synwork/_mh_info
 *.fdep
 *.srs
+*.i
