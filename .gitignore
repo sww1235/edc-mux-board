@@ -50,3 +50,4 @@ code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/synwork/_mh_info
 *.srs
 *.i
 *.tcl
+code/vhdl/edcMuxBoard/edcMuxBoard_Implmnt/sbt/outputs/gui/edcMuxBoard__timingviewer.cfg
