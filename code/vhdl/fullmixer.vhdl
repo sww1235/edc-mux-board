@@ -25,6 +25,27 @@ architecture Algorithmic of fullmixer is
 	signal vo : mix_buffer_t; -- 32 size array of 32 bit signed values
 	signal iBuff : audio_port_t;
 
+	-- TODO: switch mixer to a 32x1 mixer, and insantiate 32 of them in the main
+	-- body, to eliminate generate loops in the subcomponent
+
+	-- TODO: New better process:
+
+	-- do all multiply operations in for loop in unclocked process,  truncate down
+	-- to 16 bits with saturation detection if a signal has saturated, then bypass
+	-- the rest of the multiply opperations (maybe) and the addition operations
+	-- and directly saturate the output. there is no negative volume control so we
+	-- won't get any reduction of volume from the other signals. Once an input
+	-- channel has saturated, its game over for the rest.
+
+	-- also check for negative saturation as well.
+
+	-- final truncation and saturation check is at output assignment
+
+	-- bit width expansion:
+	-- each addition operation of n+n has output width of n+1 worst case
+	-- each addition operation of n+m has output width of max(n,m)+1 worst case
+	-- each multiply operation of n*m has output width of n+m worst case
+
 	begin
 		process(clk, in_audio_ready) -- want process to be sensitive to clock signal
 			begin
