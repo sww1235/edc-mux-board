@@ -25,9 +25,6 @@ architecture Algorithmic of fullmixer is
 	signal vo : mix_buffer_t; -- 32 size array of 32 bit signed values
 	signal iBuff : audio_port_t;
 
-	-- TODO: switch mixer to a 32x1 mixer, and insantiate 32 of them in the main
-	-- body, to eliminate generate loops in the subcomponent
-
 	-- TODO: New better process:
 
 	-- do all multiply operations in for loop in unclocked process,  truncate down
@@ -47,21 +44,21 @@ architecture Algorithmic of fullmixer is
 	-- each multiply operation of n*m has output width of n+m worst case
 
 	begin
-		process(clk, in_audio_ready) -- want process to be sensitive to clock signal
-			begin
-				if (rising_edge(clk) and (or in_audio_ready = '1') )then -- any audio signal is ready
-					-- assign audio inputs
-					for each_out in 0 to 15 loop
-						if (in_audio_ready(each_out) = '1') and (in_lr_audio_strobe(each_out) = '0') then -- channel 0 (left)
-							iBuff(each_out*2) <= i(each_out*2);
-						end if;
 
-						if (in_audio_ready(each_out) = '1') and (in_lr_audio_strobe(each_out) = '1') then -- channel 1 (right)
-							iBuff((each_out*2)+1) <= i((each_out*2)+1);
+		process(clk)
+			begin
+				if rising_edge(clk) then
+					for each_out in 0 to 15 loop
+						if in_audio_ready(each_out) = '1' then
+							if in_lr_audio_strobe(each_out) = '0' then
+								iBuff(each_out*2) <= i(each_out*2);
+							else
+								iBuff((each_out*2)+1) <= i((each_out*2)+1);
+							end if;
 						end if;
 					end loop;
 				end if;
-		end process;
+			end process;
 
 	-- this doesn't need to be clocked. Should be directly implemented in logic
 	out_loop: for J in 0 to 31 generate
