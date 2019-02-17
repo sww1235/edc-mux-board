@@ -68,7 +68,7 @@ architecture Algorithmic of fullmixer is
 		-- loop through each input and multiply it by the control signal
 		-- then add it to the current buffer output
 		in_loop: for K in 0 to 31 generate
-			vo(J) <= vo(J) + ((iBuff(J) * ctl(J)(K))); -- signed so only 127 volume steps
+			vo(J) <= vo(J) + ((iBuff(K) * ctl(J)(K))); -- signed so only 127 volume steps
 		end generate;
 		-- truncate buffer and insert into output register
 		o(J) <= vo(J)(23 downto 8);
