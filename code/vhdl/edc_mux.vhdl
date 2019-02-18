@@ -49,8 +49,10 @@ architecture arch of edc_mux is
 	signal data_from_master					: std_logic_vector(7 downto 0); -- contains data from master
 	signal read_req									: std_logic; -- data to master is ready
 	signal data_to_master						: std_logic_vector(7 downto 0); -- data to master
+	signal sda_wen									: std_logic; -- slave writing to sda
 
 	signal mclk_buff								: std_logic;
+	signal sda_buff									: std_logic;
 
 	signal micro_reg_input_0				: std_logic_vector(7 downto 0); -- data sent from microcontroller
 	signal micro_reg_input_1				: std_logic_vector(7 downto 0);
@@ -125,6 +127,20 @@ architecture arch of edc_mux is
 				GLOBAL_BUFFER_OUTPUT					=>mclk_buff
 				);
 
+		sda_io : SB_IO
+			generic map (
+				NEG_TRIGGER					=> '0', -- value of 0 for rising edge trigger
+				PIN_TYPE						=> "101001", -- tristate output & input 1010 & 01
+				PULLUP							=> '0', -- 0 since our FPGA doesn't support this
+				IO_STANDARD					=> "SB_LVCMOS"
+				)
+			port map (
+				PACKAGE_PIN					=> sda,
+				OUTPUT_ENABLE				=> sda_wen,
+				D_OUT_0							=> sda_buff,
+				D_IN_0							=> sda_buff
+				);
+
 
 	--- instructions
 		-- I2C clock
@@ -145,9 +161,10 @@ architecture arch of edc_mux is
 			generic map (SLAVE_ADDR => i2c_address)
 			port map (
 				scl								=> scl,
-				sda								=> sda,
+				sda								=> sda_buff,
 				clk								=> i2c_clk,
 				rst								=> g_rst, -- TODO: verify that global reset is right signal
+				sda_wen						=> sda_wen,
 				read_req					=> read_req,
 				data_to_master		=> data_to_master,
 				data_valid				=> data_valid,
