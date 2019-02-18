@@ -64,7 +64,7 @@ architecture arch of edc_mux is
 	-- device 0 to 15, Bits 16-31 are ctl1_in from device 0 to 15, and bits 32-39
 	-- are micro_reg_input_0 and bits 40-47 are micro_reg_input_1.
 	--
-	-- Outputs are represented by each input_ctl_ctl_t in input_ctl_ctl. 
+	-- Outputs are represented by each input_ctl_ctl_t in input_ctl_ctl.
 	-- array index 0-15 are ctl0_out for device 0 to 15
 	-- array index 16-31 are ctl1_out for device 0 to 15
 	-- array index 32-47 are ptt_out for device 0 to 15
@@ -164,7 +164,7 @@ architecture arch of edc_mux is
 						instruction2	<= "00000000";
 						instruction3	<= "00000000";
 					end if;
-					
+
 					if data_valid = '1' then -- first instruction byte
 						instruction1	<= data_from_master;
 						inst_valid		<= '1';
@@ -264,7 +264,7 @@ architecture arch of edc_mux is
 		ctl_logic : for I in 0 to 15 generate
 			-- 0 to 15
 			-- any of the resulting signals of the and can drive the output
-			-- anding together the 40 bit on/off signal for the output and a 40 bit concatenated register of all the inputs 
+			-- anding together the 40 bit on/off signal for the output and a 40 bit concatenated register of all the inputs
 			ctl0_out(I) <= or (input_ctl_ctl(I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
 			-- 16 to 31
 			ctl1_out(I) <= or (input_ctl_ctl(16 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
