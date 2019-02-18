@@ -70,11 +70,11 @@ architecture Algorithmic of fullmixer is
 				variable sum_buffer				: sum_buffer_t; -- final sum output
 			begin
 				outloop: for each_out in 0 to 31 loop
-					mult_buffer 		:= (others => (others => 0)); -- set all values to 0
-					sat_mult_buffer	:= (others => (others => 0)); -- set all values to 0
-					sum_buffer16 		:= (others => (others => 0)); -- set all values to 0
-					sum_buffer8 		:= (others => (others => 0)); -- set all values to 0
-					sum_buffer4 		:= (others => (others => 0)); -- set all values to 0
+					mult_buffer 		:= (others => 0); -- set all values to 0
+					sat_mult_buffer	:= (others => 0); -- set all values to 0
+					sum_buffer16 		:= (others => 0); -- set all values to 0
+					sum_buffer8 		:= (others => 0); -- set all values to 0
+					sum_buffer4 		:= (others => 0); -- set all values to 0
 					inloop: for each_in in 0 to 31 loop -- multiply all inputs by volume signal
 						-- volume adjustment 16 bits * 9 bits = 25 byte wide
 						mult_buffer(each_in) := iBuff(each_in) * ctl(each_out)(each_in);  -- 9 bit signed numbers restricted to 0 - 255
@@ -83,12 +83,12 @@ architecture Algorithmic of fullmixer is
 							if mult_buffer(each_in) > 65535 then
 								sat_mult_buffer(each_in) := 65535;
 								-- no need to go through rest of multiplies, output is already saturated
-								o(each_out) <= sat_mult_buffer;
+								o(each_out) <= sat_mult_buffer(each_in);
 								next outloop;
-							elsif mult_buffer(each_in)< -65535 then
+							elsif mult_buffer(each_in) < -65535 then
 								sat_mult_buffer(each_in) := -65535;
 								-- no need to go through rest of multiplies, output is already saturated
-								o(each_out) <= sat_mult_buffer;
+								o(each_out) <= sat_mult_buffer(each_in);
 								next outloop;
 							else
 								sat_mult_buffer(each_in) := mult_buffer(each_in);
