@@ -4,6 +4,8 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use work.edc_mux_pkg.all;
+library sb_ice40_components_syn;
+use sb_ice40_components_syn.components.all;
 
 -- changing to generic mux
 -- each IO port has 2x2 audio IO as well as 2x2 ctl IO and a PTT dry contact.
