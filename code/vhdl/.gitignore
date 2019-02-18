@@ -1,2 +1,5 @@
 out/
 edcMuxBoard/sims/
+edcMuxBoard/edcMuxBoard_Implmnt/
+edcMuxBoard/*.prd
+edcMuxBoard/*.prj
