@@ -33,7 +33,7 @@ entity edc_mux is
 				scl				: inout std_logic;
 				sda				: inout std_logic;
 				ctl_int		: out std_logic; -- interrupt to tell microcontroller that micro_reg_output has changed
-				g_rst			: in std_logic -- global reset
+				g_rst			: in std_logic -- global reset (active high)
 	);
 
 end edc_mux;

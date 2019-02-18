@@ -95,7 +95,7 @@ architecture Behavioral of i2s_interface is
 begin
 	serial2parallel : process(RESET, BIT_CK, LR_CK, DIN)
 	begin
-		if(RESET = '0') then
+		if(RESET = '1') then
 			DATA_L_OUT			<= 0;
 			DATA_R_OUT			<= 0;
 			in_shift_reg		<= (others => '0');
@@ -154,7 +154,7 @@ begin
 -- reset: set everything internal to 0
 	parallel2serial : process(RESET, BIT_CK, LR_CK, DATA_L_IN, DATA_R_IN)
 	begin
-		if(RESET = '0') then
+		if(RESET = '1') then
 			out_shift_reg	<= (others => '0');
 			DOUT					<= '0'; -- reset dout as well
 		elsif rising_edge(BIT_CK) then
