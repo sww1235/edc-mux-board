@@ -96,8 +96,8 @@ begin
 	serial2parallel : process(RESET, BIT_CK, LR_CK, DIN)
 	begin
 		if(RESET = '0') then
-			DATA_L_OUT			<= (others => '0');
-			DATA_R_OUT			<= (others => '0');
+			DATA_L_OUT			<= 0;
+			DATA_R_OUT			<= 0;
 			in_shift_reg		<= (others => '0');
 			in_current_lr		<= '0';
 			STROBE_LR				<= '0';
@@ -131,10 +131,10 @@ begin
 				if(output_strobed = '0') then
 					if(in_current_lr = '1') then
 						--Output Right Channel
-						DATA_R_OUT <= signed(in_shift_reg);
+						DATA_R_OUT <= to_integer(signed(in_shift_reg));
 					else
 						--Output Left Channel
-						DATA_L_OUT <= signed(in_shift_reg);
+						DATA_L_OUT <= to_integer(signed(in_shift_reg));
 					end if;
 					STROBE_LR <= in_current_lr;
 					output_strobed <= '1';
@@ -162,9 +162,9 @@ begin
 			-- load either L or R data into shift register
 			if rising_edge(LR_CK) or falling_edge(LR_CK) then
 				if (LR_CK = '1') then
-					out_shift_reg <= std_logic_vector(DATA_R_IN);
+					out_shift_reg <= std_logic_vector(to_signed(DATA_R_IN, 16));
 				else
-					out_shift_reg <= std_logic_vector(DATA_L_IN);
+					out_shift_reg <= std_logic_vector(to_signed(DATA_L_IN, 16));
 				end if; -- LR_CK
 			else
 				DOUT <= out_shift_reg(15);
