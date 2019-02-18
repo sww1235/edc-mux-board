@@ -138,9 +138,15 @@ architecture arch of edc_mux is
 				)
 			port map (
 				PACKAGE_PIN					=> sda,
+				LATCH_INPUT_VALUE		=> open,
 				OUTPUT_ENABLE				=> sda_wen,
+				OUTPUT_CLK					=> open,
+				INPUT_CLK						=> open,
+				clock_enable				=> open,
 				D_OUT_0							=> sda_buff,
-				D_IN_0							=> sda_buff
+				D_OUT_1							=> open,
+				D_IN_0							=> sda_buff,
+				D_IN_1							=> open
 				);
 
 
