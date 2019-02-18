@@ -79,14 +79,14 @@ architecture Algorithmic of fullmixer is
 						-- volume adjustment 16 bits * 9 bits = 25 byte wide
 						mult_buffer(each_in) := iBuff(each_in) * ctl(each_out)(each_in);  -- 9 bit integers restricted to 0 - 255
 							-- check for value over 16 bits wide. Max number in 16 bit 2s complement
-							-- is 2^16 -1 = 65,535, min number we care about is -MAX
-							if mult_buffer(each_in) > 65,535 then
-								sat_mult_buffer(each_in) := 65,535;
+							-- is 2^16 -1 = 65535, min number we care about is -MAX
+							if mult_buffer(each_in) > 65535 then
+								sat_mult_buffer(each_in) := 65535;
 								-- no need to go through rest of multiplies, output is already saturated
 								o(each_out) <= sat_mult_buffer;
 								next outloop;
-							elsif mult_buffer(each_in)< -65,535 then
-								sat_mult_buffer(each_in) := -65,535;
+							elsif mult_buffer(each_in)< -65535 then
+								sat_mult_buffer(each_in) := -65535;
 								-- no need to go through rest of multiplies, output is already saturated
 								o(each_out) <= sat_mult_buffer;
 								next outloop;
@@ -98,13 +98,13 @@ architecture Algorithmic of fullmixer is
 					-- adder tree
 					lvl1_loop: for k in 0 to 15 loop
 						sum_buffer16(k) := sat_mult_buffer(2*k) + sat_mult_buffer((2*k) + 1);
-						if sum_buffer16(k) > 65,535 then
-							sum_buffer16(k) := 65,535;
+						if sum_buffer16(k) > 65535 then
+							sum_buffer16(k) := 65535;
 							-- no need to go through rest of multiplies, output is already saturated
 							o(each_out) <= sum_buffer16(k);
 							next outloop;
-						elsif sum_buffer16(k) < -65,535 then
-							sum_buffer16(k) := -65,535;
+						elsif sum_buffer16(k) < -65535 then
+							sum_buffer16(k) := -65535;
 							-- no need to go through rest of multiplies, output is already saturated
 							o(each_out) <= sum_buffer16(k);
 							next outloop;
@@ -113,13 +113,13 @@ architecture Algorithmic of fullmixer is
 
 					lvl2_loop: for k in 0 to 7 loop
 						sum_buffer8(k) := sum_buffer16(2*k) + sum_buffer16((2*k) + 1);
-						if sum_buffer8(k) > 65,535 then
-							sum_buffer8(k) := 65,535;
+						if sum_buffer8(k) > 65535 then
+							sum_buffer8(k) := 65535;
 							-- no need to go through rest of multiplies, output is already saturated
 							o(each_out) <= sum_buffer8(k);
 							next outloop;
-						elsif sum_buffer8(k) < -65,535 then
-							sum_buffer8(k) := -65,535;
+						elsif sum_buffer8(k) < -65535 then
+							sum_buffer8(k) := -65535;
 							-- no need to go through rest of multiplies, output is already saturated
 							o(each_out) <= sum_buffer8(k);
 							next outloop;
@@ -128,13 +128,13 @@ architecture Algorithmic of fullmixer is
 
 					lvl3_loop: for k in 0 to 3 loop
 						sum_buffer4(k) := sum_buffer8(2*k) + sum_buffer8((2*k) + 1);
-						if sum_buffer4(k) > 65,535 then
-							sum_buffer4(k) := 65,535;
+						if sum_buffer4(k) > 65535 then
+							sum_buffer4(k) := 65535;
 							-- no need to go through rest of multiplies, output is already saturated
 							o(each_out) <= sum_buffer4(k);
 							next outloop;
-						elsif sum_buffer4(k) < -65,535 then
-							sum_buffer4(k) := -65,535;
+						elsif sum_buffer4(k) < -65535 then
+							sum_buffer4(k) := -65535;
 							-- no need to go through rest of multiplies, output is already saturated
 							o(each_out) <= sum_buffer4(k);
 							next outloop;
@@ -143,13 +143,13 @@ architecture Algorithmic of fullmixer is
 
 					lvl4_loop: for k in 0 to 1 loop
 						sum_buffer2(k) := sum_buffer4(2*k) + sum_buffer4((2*k) + 1);
-						if sum_buffer2(k) > 65,535 then
-							sum_buffer2(k) := 65,535;
+						if sum_buffer2(k) > 65535 then
+							sum_buffer2(k) := 65535;
 							-- no need to go through rest of multiplies, output is already saturated
 							o(each_out) <= sum_buffer2(k);
 							next outloop;
-						elsif sum_buffer2(k) < -65,535 then
-							sum_buffer2(k) := -65,535;
+						elsif sum_buffer2(k) < -65535 then
+							sum_buffer2(k) := -65535;
 							-- no need to go through rest of multiplies, output is already saturated
 							o(each_out) <= sum_buffer2(k);
 							next outloop;
@@ -157,13 +157,13 @@ architecture Algorithmic of fullmixer is
 					end loop lvl4_loop;
 
 					sum_buffer := sum_buffer2(0) + sum_buffer2(1);
-					if sum_buffer > 65,535 then
-						sum_buffer := 65,535;
+					if sum_buffer > 65535 then
+						sum_buffer := 65535;
 						-- no need to go through rest of multiplies, output is already saturated
 						o(each_out) <= sum_buffer;
 						next outloop;
-					elsif sum_buffer < -65,535 then
-						sum_buffer := -65,535;
+					elsif sum_buffer < -65535 then
+						sum_buffer := -65535;
 						-- no need to go through rest of multiplies, output is already saturated
 						o(each_out) <= sum_buffer;
 						next outloop;
