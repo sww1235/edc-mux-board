@@ -60,7 +60,7 @@ architecture Algorithmic of fullmixer is
 				end if;
 			end process inBuff;
 
-			mixer: process
+			mixer: process(all)
 				variable mult_buffer 			: mult_buffer_t; -- 32 size array of 25 bit signed values
 				variable sat_mult_buffer	: audio_port_t; -- 32 size array of 16 bit signed values
 				variable sum_buffer16			: sum_buffer16_t; -- 16 size array of 17 bit numbers
