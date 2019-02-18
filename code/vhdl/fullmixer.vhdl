@@ -77,7 +77,7 @@ architecture Algorithmic of fullmixer is
 					sum_buffer4 		:= (others => (others => 0)); -- set all values to 0
 					inloop: for each_in in 0 to 31 loop -- multiply all inputs by volume signal
 						-- volume adjustment 16 bits * 9 bits = 25 byte wide
-						mult_buffer(each_in) := iBuff(each_in) * ctl(each_out)(each_in);  -- 9 bit integers restricted to 0 - 255
+						mult_buffer(each_in) := iBuff(each_in) * ctl(each_out)(each_in);  -- 9 bit signed numbers restricted to 0 - 255
 							-- check for value over 16 bits wide. Max number in 16 bit 2s complement
 							-- is 2^16 -1 = 65535, min number we care about is -MAX
 							if mult_buffer(each_in) > 65535 then
