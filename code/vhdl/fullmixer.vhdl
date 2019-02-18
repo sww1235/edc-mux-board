@@ -22,7 +22,6 @@ use work.edc_mux_pkg.all;
 
 architecture Algorithmic of fullmixer is
 	-- buffer for output allowing for truncation
-	signal vo : mix_buffer_t; -- 32 size array of 32 bit signed values
 	signal iBuff : audio_port_t;
 
 	-- TODO: New better process:
@@ -40,6 +39,7 @@ architecture Algorithmic of fullmixer is
 
 	-- bit width expansion:
 	-- each addition operation of n+n has output width of n+1 worst case
+	-- therefor summing m, n bit numbers gives n+m output width worst case
 	-- each addition operation of n+m has output width of max(n,m)+1 worst case
 	-- each multiply operation of n*m has output width of n+m worst case
 
@@ -58,18 +58,119 @@ architecture Algorithmic of fullmixer is
 						end if;
 					end loop;
 				end if;
-			end process;
-
-	-- this doesn't need to be clocked. Should be directly implemented in logic
-	out_loop: for J in 0 to 31 generate
-		-- loop through each input and multiply it by the control signal
-		-- then add it to the current buffer output
-		in_loop: for K in 0 to 31 generate
-			vo(J) <= vo(J) + ((iBuff(K) * ctl(J)(K))); -- signed so only 127 volume steps
-		end generate;
-		-- truncate buffer and insert into output register
-		o(J) <= vo(J)(23 downto 8);
-	end generate;
 			end process inBuff;
+
+			mixer: process
+				variable mult_buffer 			: mult_buffer_t; -- 32 size array of 25 bit signed values
+				variable sat_mult_buffer	: audio_port_t; -- 32 size array of 16 bit signed values
+				variable sum_buffer16			: sum_buffer16_t; -- 16 size array of 17 bit numbers
+				variable sum_buffer8			: sum_buffer8_t; -- 8 size array of 17 bit numbers
+				variable sum_buffer4 			: sum_buffer4_t; -- 4 size array of 17 bit numbers
+				variable sum_buffer2			: sum_buffer2_t; -- 2 size array of 17 bit numbers
+				variable sum_buffer				: sum_buffer_t; -- final sum output
+			begin
+				outloop: for each_out in 0 to 31 loop
+					mult_buffer 		:= (others => (others => 0)); -- set all values to 0
+					sat_mult_buffer	:= (others => (others => 0)); -- set all values to 0
+					sum_buffer16 		:= (others => (others => 0)); -- set all values to 0
+					sum_buffer8 		:= (others => (others => 0)); -- set all values to 0
+					sum_buffer4 		:= (others => (others => 0)); -- set all values to 0
+					inloop: for each_in in 0 to 31 loop -- multiply all inputs by volume signal
+						-- volume adjustment 16 bits * 9 bits = 25 byte wide
+						mult_buffer(each_in) := iBuff(each_in) * ctl(each_out)(each_in);  -- 9 bit integers restricted to 0 - 255
+							-- check for value over 16 bits wide. Max number in 16 bit 2s complement
+							-- is 2^16 -1 = 65,535, min number we care about is -MAX
+							if mult_buffer(each_in) > 65,535 then
+								sat_mult_buffer(each_in) := 65,535;
+								-- no need to go through rest of multiplies, output is already saturated
+								o(each_out) <= sat_mult_buffer;
+								next outloop;
+							elsif mult_buffer(each_in)< -65,535 then
+								sat_mult_buffer(each_in) := -65,535;
+								-- no need to go through rest of multiplies, output is already saturated
+								o(each_out) <= sat_mult_buffer;
+								next outloop;
+							else
+								sat_mult_buffer(each_in) := mult_buffer(each_in);
+							end if;
+					end loop inloop;
+
+					-- adder tree
+					lvl1_loop: for k in 0 to 15 loop
+						sum_buffer16(k) := sat_mult_buffer(2*k) + sat_mult_buffer((2*k) + 1);
+						if sum_buffer16(k) > 65,535 then
+							sum_buffer16(k) := 65,535;
+							-- no need to go through rest of multiplies, output is already saturated
+							o(each_out) <= sum_buffer16(k);
+							next outloop;
+						elsif sum_buffer16(k) < -65,535 then
+							sum_buffer16(k) := -65,535;
+							-- no need to go through rest of multiplies, output is already saturated
+							o(each_out) <= sum_buffer16(k);
+							next outloop;
+						end if;
+					end loop lvl1_loop;
+
+					lvl2_loop: for k in 0 to 7 loop
+						sum_buffer8(k) := sum_buffer16(2*k) + sum_buffer16((2*k) + 1);
+						if sum_buffer8(k) > 65,535 then
+							sum_buffer8(k) := 65,535;
+							-- no need to go through rest of multiplies, output is already saturated
+							o(each_out) <= sum_buffer8(k);
+							next outloop;
+						elsif sum_buffer8(k) < -65,535 then
+							sum_buffer8(k) := -65,535;
+							-- no need to go through rest of multiplies, output is already saturated
+							o(each_out) <= sum_buffer8(k);
+							next outloop;
+						end if;
+					end loop lvl2_loop;
+
+					lvl3_loop: for k in 0 to 3 loop
+						sum_buffer4(k) := sum_buffer8(2*k) + sum_buffer8((2*k) + 1);
+						if sum_buffer4(k) > 65,535 then
+							sum_buffer4(k) := 65,535;
+							-- no need to go through rest of multiplies, output is already saturated
+							o(each_out) <= sum_buffer4(k);
+							next outloop;
+						elsif sum_buffer4(k) < -65,535 then
+							sum_buffer4(k) := -65,535;
+							-- no need to go through rest of multiplies, output is already saturated
+							o(each_out) <= sum_buffer4(k);
+							next outloop;
+						end if;
+					end loop lvl3_loop;
+
+					lvl4_loop: for k in 0 to 1 loop
+						sum_buffer2(k) := sum_buffer4(2*k) + sum_buffer4((2*k) + 1);
+						if sum_buffer2(k) > 65,535 then
+							sum_buffer2(k) := 65,535;
+							-- no need to go through rest of multiplies, output is already saturated
+							o(each_out) <= sum_buffer2(k);
+							next outloop;
+						elsif sum_buffer2(k) < -65,535 then
+							sum_buffer2(k) := -65,535;
+							-- no need to go through rest of multiplies, output is already saturated
+							o(each_out) <= sum_buffer2(k);
+							next outloop;
+						end if;
+					end loop lvl4_loop;
+
+					sum_buffer := sum_buffer2(0) + sum_buffer2(1);
+					if sum_buffer > 65,535 then
+						sum_buffer := 65,535;
+						-- no need to go through rest of multiplies, output is already saturated
+						o(each_out) <= sum_buffer;
+						next outloop;
+					elsif sum_buffer < -65,535 then
+						sum_buffer := -65,535;
+						-- no need to go through rest of multiplies, output is already saturated
+						o(each_out) <= sum_buffer;
+						next outloop;
+					end if;
+					o(each_out) <= sum_buffer;
+				end loop outloop;
+
+			end process mixer;
 
 end Algorithmic;
