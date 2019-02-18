@@ -45,7 +45,7 @@ architecture Algorithmic of fullmixer is
 
 	begin
 
-		process(clk)
+		inBuff: process(clk)
 			begin
 				if rising_edge(clk) then
 					for each_out in 0 to 15 loop
@@ -70,5 +70,6 @@ architecture Algorithmic of fullmixer is
 		-- truncate buffer and insert into output register
 		o(J) <= vo(J)(23 downto 8);
 	end generate;
+			end process inBuff;
 
 end Algorithmic;
