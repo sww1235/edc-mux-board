@@ -171,7 +171,7 @@ architecture arch of edc_mux is
 			port map (
 				scl								=> scl,
 				sda_in						=> sda_in_buff,
-				sda_out						=> sda_out_buff
+				sda_out						=> sda_out_buff,
 				clk								=> i2c_clk,
 				rst								=> g_rst, -- TODO: verify that global reset is right signal
 				sda_wen						=> sda_wen,
