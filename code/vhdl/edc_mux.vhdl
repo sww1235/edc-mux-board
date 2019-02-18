@@ -54,7 +54,8 @@ architecture arch of edc_mux is
 	signal sda_wen									: std_logic; -- slave writing to sda
 
 	signal mclk_buff								: std_logic;
-	signal sda_buff									: std_logic;
+	signal sda_in_buff							: std_logic;
+	signal sda_out_buff							: std_logic;
 
 	signal micro_reg_input_0				: std_logic_vector(7 downto 0); -- data sent from microcontroller
 	signal micro_reg_input_1				: std_logic_vector(7 downto 0);
@@ -143,9 +144,9 @@ architecture arch of edc_mux is
 				OUTPUT_CLK					=> open,
 				INPUT_CLK						=> open,
 				clock_enable				=> open,
-				D_OUT_0							=> sda_buff,
+				D_OUT_0							=> sda_out_buff,
 				D_OUT_1							=> open,
-				D_IN_0							=> sda_buff,
+				D_IN_0							=> sda_in_buff,
 				D_IN_1							=> open
 				);
 
@@ -169,7 +170,8 @@ architecture arch of edc_mux is
 			generic map (SLAVE_ADDR => i2c_address)
 			port map (
 				scl								=> scl,
-				sda								=> sda_buff,
+				sda_in						=> sda_in_buff,
+				sda_out						=> sda_out_buff
 				clk								=> i2c_clk,
 				rst								=> g_rst, -- TODO: verify that global reset is right signal
 				sda_wen						=> sda_wen,
