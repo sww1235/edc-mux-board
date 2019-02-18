@@ -30,12 +30,5 @@ rescue-backup
 code/vhdl/edcMuxBoard/stdout.log
 
 
-# *.fdeporig
-# *.htm
-# *.srr
-# *.xdm
-# *.fdep
-# *.srs
-# *.i
 # *.tcl
-# *.log
+
