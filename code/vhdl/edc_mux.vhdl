@@ -52,11 +52,11 @@ architecture arch of edc_mux is
 	signal data_from_master					: std_logic_vector(7 downto 0); -- contains data from master
 	signal read_req									: std_logic; -- data to master is ready
 	signal data_to_master						: std_logic_vector(7 downto 0); -- data to master
-	signal sda_wen									: std_logic; -- slave writing to sda
+	--signal sda_wen									: std_logic; -- slave writing to sda
 
 	signal mclk_buff								: std_logic;
-	signal sda_in_buff							: std_logic;
-	signal sda_out_buff							: std_logic;
+	--signal sda_in_buff							: std_logic;
+	--signal sda_out_buff							: std_logic;
 
 	signal micro_reg_input_0				: std_logic_vector(7 downto 0); -- data sent from microcontroller
 	signal micro_reg_input_1				: std_logic_vector(7 downto 0);
@@ -122,6 +122,25 @@ architecture arch of edc_mux is
 			STROBE_LR			: out std_logic
 		);
 	end component i2s_interface;
+	
+	component I2C_slave
+		generic(SLAVE_ADDR : std_logic_vector(6 downto 0));
+		port (scl								: in		std_logic;
+					sda								: inout	std_logic;
+					clk								: in		std_logic;
+					rst								: in		std_logic;
+					-- User interface
+					read_req					: out		std_logic;
+					data_to_master		: in		std_logic_vector(7 downto 0);
+					data_valid				: out		std_logic;
+					data_from_master	: out		std_logic_vector(7 downto 0)
+		);
+	end component I2C_slave;
+	
+	attribute syn_black_box : boolean;
+	attribute syn_black_box of I2C_slave : component is true;
+	attribute black_box_pad_pin : string;
+	attribute black_box_pad_pin of I2C_slave : component is "sda";
 
 	begin
 
@@ -169,15 +188,13 @@ architecture arch of edc_mux is
 				end if;
 		end process;
 
-		I2C_slave : entity work.I2C_slave
+		I2C : I2C_slave
 			generic map (SLAVE_ADDR => i2c_address)
 			port map (
 				scl								=> scl,
-				sda_in						=> sda_in_buff,
-				sda_out						=> sda_out_buff,
+				sda								=> sda,
 				clk								=> i2c_clk,
 				rst								=> g_rst, -- TODO: verify that global reset is right signal
-				sda_wen						=> sda_wen,
 				read_req					=> read_req,
 				data_to_master		=> data_to_master,
 				data_valid				=> data_valid,
