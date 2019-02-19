@@ -1,10 +1,2 @@
 out/
-edcMuxBoard/sims/
-edcMuxBoard/edcMuxBoard_Implmnt/
-*.prd
-*.prj
-*.log
-*.i
-*.fdc
-*.project
-edcMuxBoard/synlog.tcl
+edcMuxBoard/

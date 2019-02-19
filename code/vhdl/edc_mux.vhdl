@@ -7,6 +7,9 @@ use work.edc_mux_pkg.all;
 library sb_ice40_components_syn;
 use sb_ice40_components_syn.components.all;
 
+
+
+
 -- changing to generic mux
 -- each IO port has 2x2 audio IO as well as 2x2 ctl IO and a PTT dry contact.
 -- ctl IO is routed directly through to the FPGA while audio is routed through a
@@ -51,11 +54,11 @@ architecture arch of edc_mux is
 	signal data_from_master					: std_logic_vector(7 downto 0); -- contains data from master
 	signal read_req									: std_logic; -- data to master is ready
 	signal data_to_master						: std_logic_vector(7 downto 0); -- data to master
-	signal sda_wen									: std_logic; -- slave writing to sda
+	--signal sda_wen									: std_logic; -- slave writing to sda
 
 	signal mclk_buff								: std_logic;
-	signal sda_in_buff							: std_logic;
-	signal sda_out_buff							: std_logic;
+	--signal sda_in_buff							: std_logic;
+	--signal sda_out_buff							: std_logic;
 
 	signal micro_reg_input_0				: std_logic_vector(7 downto 0); -- data sent from microcontroller
 	signal micro_reg_input_1				: std_logic_vector(7 downto 0);
@@ -122,6 +125,25 @@ architecture arch of edc_mux is
 		);
 	end component i2s_interface;
 
+	component I2C_slave
+		generic(SLAVE_ADDR : std_logic_vector(6 downto 0));
+		port (scl								: in		std_logic;
+					sda								: inout	std_logic;
+					clk								: in		std_logic;
+					rst								: in		std_logic;
+					-- User interface
+					read_req					: out		std_logic;
+					data_to_master		: in		std_logic_vector(7 downto 0);
+					data_valid				: out		std_logic;
+					data_from_master	: out		std_logic_vector(7 downto 0)
+		);
+	end component I2C_slave;
+
+	attribute syn_black_box : boolean;
+	attribute syn_black_box of I2C_slave : component is true;
+	attribute black_box_pad_pin : string;
+	attribute black_box_pad_pin of I2C_slave : component is "sda";
+
 	begin
 
 		mclk_buffer: SB_GB
@@ -130,25 +152,27 @@ architecture arch of edc_mux is
 				GLOBAL_BUFFER_OUTPUT					=>mclk_buff
 				);
 
-		sda_io : SB_IO
-			generic map (
-				NEG_TRIGGER					=> '0', -- value of 0 for rising edge trigger
-				PIN_TYPE						=> "101001", -- tristate output & input 1010 & 01
-				PULLUP							=> '0', -- 0 since our FPGA doesn't support this
-				IO_STANDARD					=> "SB_LVCMOS"
-				)
-			port map (
-				PACKAGE_PIN					=> sda,
-				LATCH_INPUT_VALUE		=> open,
-				OUTPUT_ENABLE				=> sda_wen,
-				OUTPUT_CLK					=> open,
-				INPUT_CLK						=> open,
-				clock_enable				=> open,
-				D_OUT_0							=> sda_out_buff,
-				D_OUT_1							=> open,
-				D_IN_0							=> sda_in_buff,
-				D_IN_1							=> open
-				);
+		-- sda_io : SB_IO
+			-- generic map (
+				-- NEG_TRIGGER					=> '0', -- value of 0 for rising edge trigger
+				-- PIN_TYPE						=> "101001", -- tristate output & input 1010 & 01
+				-- PULLUP							=> '0', -- 0 since our FPGA doesn't support this
+				-- IO_STANDARD					=> "SB_LVCMOS"
+				-- )
+			-- port map (
+				-- PACKAGE_PIN					=> sda,
+				-- LATCH_INPUT_VALUE		=> open,
+				-- OUTPUT_ENABLE				=> sda_wen,
+				-- OUTPUT_CLK					=> open,
+				-- INPUT_CLK						=> open,
+				-- clock_enable				=> open,
+				-- D_OUT_0							=> sda_out_buff,
+				-- D_OUT_1							=> open,
+				-- D_IN_0							=> sda_in_buff,
+				-- D_IN_1							=> open
+				-- );
+
+
 
 
 	--- instructions
@@ -166,15 +190,13 @@ architecture arch of edc_mux is
 				end if;
 		end process;
 
-		I2C_slave : entity work.I2C_slave
+		I2C : I2C_slave
 			generic map (SLAVE_ADDR => i2c_address)
 			port map (
 				scl								=> scl,
-				sda_in						=> sda_in_buff,
-				sda_out						=> sda_out_buff,
+				sda								=> sda,
 				clk								=> i2c_clk,
 				rst								=> g_rst, -- TODO: verify that global reset is right signal
-				sda_wen						=> sda_wen,
 				read_req					=> read_req,
 				data_to_master		=> data_to_master,
 				data_valid				=> data_valid,
