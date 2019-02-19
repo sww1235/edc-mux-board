@@ -8,3 +8,4 @@ edcMuxBoard/edcMuxBoard_Implmnt/
 *.fdc
 *.project
 edcMuxBoard/synlog.tcl
+edcMuxBoard/hdr_log
