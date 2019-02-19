@@ -4,8 +4,9 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use work.edc_mux_pkg.all;
-library sb_ice40_components_syn;
-use sb_ice40_components_syn.components.all;
+use WORK.vcomponent_vital.all
+
+
 
 -- changing to generic mux
 -- each IO port has 2x2 audio IO as well as 2x2 ctl IO and a PTT dry contact.
@@ -130,25 +131,27 @@ architecture arch of edc_mux is
 				GLOBAL_BUFFER_OUTPUT					=>mclk_buff
 				);
 
-		sda_io : SB_IO
-			generic map (
-				NEG_TRIGGER					=> '0', -- value of 0 for rising edge trigger
-				PIN_TYPE						=> "101001", -- tristate output & input 1010 & 01
-				PULLUP							=> '0', -- 0 since our FPGA doesn't support this
-				IO_STANDARD					=> "SB_LVCMOS"
-				)
-			port map (
-				PACKAGE_PIN					=> sda,
-				LATCH_INPUT_VALUE		=> open,
-				OUTPUT_ENABLE				=> sda_wen,
-				OUTPUT_CLK					=> open,
-				INPUT_CLK						=> open,
-				clock_enable				=> open,
-				D_OUT_0							=> sda_out_buff,
-				D_OUT_1							=> open,
-				D_IN_0							=> sda_in_buff,
-				D_IN_1							=> open
-				);
+		-- sda_io : SB_IO
+			-- generic map (
+				-- NEG_TRIGGER					=> '0', -- value of 0 for rising edge trigger
+				-- PIN_TYPE						=> "101001", -- tristate output & input 1010 & 01
+				-- PULLUP							=> '0', -- 0 since our FPGA doesn't support this
+				-- IO_STANDARD					=> "SB_LVCMOS"
+				-- )
+			-- port map (
+				-- PACKAGE_PIN					=> sda,
+				-- LATCH_INPUT_VALUE		=> open,
+				-- OUTPUT_ENABLE				=> sda_wen,
+				-- OUTPUT_CLK					=> open,
+				-- INPUT_CLK						=> open,
+				-- clock_enable				=> open,
+				-- D_OUT_0							=> sda_out_buff,
+				-- D_OUT_1							=> open,
+				-- D_IN_0							=> sda_in_buff,
+				-- D_IN_1							=> open
+				-- );
+				
+				
 
 
 	--- instructions
