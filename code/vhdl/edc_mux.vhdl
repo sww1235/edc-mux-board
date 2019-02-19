@@ -4,7 +4,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use work.edc_mux_pkg.all;
-use WORK.vcomponent_vital.all
+
 
 
 
