@@ -4,11 +4,6 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use work.edc_mux_pkg.all;
-library sb_ice40_components_syn;
-use sb_ice40_components_syn.components.all;
-
-
-
 
 -- changing to generic mux
 -- each IO port has 2x2 audio IO as well as 2x2 ctl IO and a PTT dry contact.
@@ -54,11 +49,7 @@ architecture arch of edc_mux is
 	signal data_from_master					: std_logic_vector(7 downto 0); -- contains data from master
 	signal read_req									: std_logic; -- data to master is ready
 	signal data_to_master						: std_logic_vector(7 downto 0); -- data to master
-	--signal sda_wen									: std_logic; -- slave writing to sda
 
-	signal mclk_buff								: std_logic;
-	--signal sda_in_buff							: std_logic;
-	--signal sda_out_buff							: std_logic;
 
 	signal micro_reg_input_0				: std_logic_vector(7 downto 0); -- data sent from microcontroller
 	signal micro_reg_input_1				: std_logic_vector(7 downto 0);
@@ -103,12 +94,6 @@ architecture arch of edc_mux is
 	signal ctl_out_sel	: integer range 0 to 55;
 	signal ctl_in_sel		: integer range 0 to 47;
 
-	component SB_GB
-		port (
-		USER_SIGNAL_TO_GLOBAL_BUFFER	: in std_logic;
-		GLOBAL_BUFFER_OUTPUT 					: out std_logic);
-	end component;
-
 	component i2s_interface
 		port (
 			LR_CK					: in  std_logic;
@@ -139,47 +124,13 @@ architecture arch of edc_mux is
 		);
 	end component I2C_slave;
 
-	attribute syn_black_box : boolean;
-	attribute syn_black_box of I2C_slave : component is true;
-	attribute black_box_pad_pin : string;
-	attribute black_box_pad_pin of I2C_slave : component is "sda";
-
 	begin
-
-		mclk_buffer: SB_GB
-			port map (
-				USER_SIGNAL_TO_GLOBAL_BUFFER	=>mclk_in,
-				GLOBAL_BUFFER_OUTPUT					=>mclk_buff
-				);
-
-		-- sda_io : SB_IO
-			-- generic map (
-				-- NEG_TRIGGER					=> '0', -- value of 0 for rising edge trigger
-				-- PIN_TYPE						=> "101001", -- tristate output & input 1010 & 01
-				-- PULLUP							=> '0', -- 0 since our FPGA doesn't support this
-				-- IO_STANDARD					=> "SB_LVCMOS"
-				-- )
-			-- port map (
-				-- PACKAGE_PIN					=> sda,
-				-- LATCH_INPUT_VALUE		=> open,
-				-- OUTPUT_ENABLE				=> sda_wen,
-				-- OUTPUT_CLK					=> open,
-				-- INPUT_CLK						=> open,
-				-- clock_enable				=> open,
-				-- D_OUT_0							=> sda_out_buff,
-				-- D_OUT_1							=> open,
-				-- D_IN_0							=> sda_in_buff,
-				-- D_IN_1							=> open
-				-- );
-
-
-
 
 	--- instructions
 		-- I2C clock
-		i2c_clock: process(mclk_buff)
+		i2c_clock: process(mclk_in)
 			begin
-				if rising_edge(mclk_buff) then
+				if rising_edge(mclk_in) then
 					if i2c_clk_cntr = 479 then -- 48MHz/100kHz = 480 -1 for zero index
 						i2c_clk <= '1';
 						i2c_clk_cntr <= 0;
@@ -203,9 +154,9 @@ architecture arch of edc_mux is
 				data_from_master	=> data_from_master
 			);
 
-		instruction_processing: process(mclk_buff, data_valid, data_from_master, g_rst)
+		instruction_processing: process(mclk_in, data_valid, data_from_master, g_rst)
 			begin
-				if rising_edge(mclk_buff) then
+				if rising_edge(mclk_in) then
 					if g_rst = '1' then -- reset all signals to default values
 						inst_valid <= '0';
 						instruction		<= "00";
@@ -296,9 +247,9 @@ architecture arch of edc_mux is
 				end if;
 			end process;
 
-		output_interrupt_generation : process(mclk_buff, micro_reg_output)
+		output_interrupt_generation : process(mclk_in, micro_reg_output)
 			begin
-				if rising_edge(mclk_buff) then
+				if rising_edge(mclk_in) then
 					micro_reg_output_delayed <= micro_reg_output;
 				end if;
 		end process;
@@ -338,7 +289,7 @@ architecture arch of edc_mux is
 				i										=> audio_reg_in,
 				o										=> audio_reg_out,
 				ctl									=> audio_ctl_reg,
-				clk									=> mclk_buff,
+				clk									=> mclk_in,
 				in_audio_ready			=> audio_ready_strobe,
 				in_lr_audio_strobe	=> lr_audio_ready_strobe
 			);
