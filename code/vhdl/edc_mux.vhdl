@@ -123,6 +123,16 @@ architecture arch of edc_mux is
 					data_from_master	: out		std_logic_vector(7 downto 0)
 		);
 	end component I2C_slave;
+	
+	function unary_or (slv : in std_logic_vector) return std_logic is
+		variable res_v : std_logic := '0';
+	begin
+		for i in slv'range loop
+			res_v := res_v or slv(i);
+		end loop;
+		return res_v;
+	
+	end function;
 
 	begin
 
@@ -255,7 +265,7 @@ architecture arch of edc_mux is
 		end process;
 		-- comparing micro_reg_output differences between 1 clock cycle
 		micro_reg_output_comp <= micro_reg_output xor micro_reg_output_delayed;
-		master_data_change <= '1' when (or micro_reg_output_comp) else '0';
+		master_data_change <= '1' when unary_or(micro_reg_output_comp) else '0';
 		ctl_int <= master_data_change;
 		-- assigning data to master
 		data_to_master <= micro_reg_output when ((master_data_change = '1') and (read_req = '1'))else (others => '0');
@@ -265,11 +275,11 @@ architecture arch of edc_mux is
 			-- 0 to 15
 			-- any of the resulting signals of the and can drive the output
 			-- anding together the 40 bit on/off signal for the output and a 40 bit concatenated register of all the inputs
-			ctl0_out(I) <= or (input_ctl_ctl(I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
+			ctl0_out(I) <= unary_or(input_ctl_ctl(I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
 			-- 16 to 31
-			ctl1_out(I) <= or (input_ctl_ctl(16 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
+			ctl1_out(I) <= unary_or (input_ctl_ctl(16 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
 			-- 32 to 47
-			ptt_out(I) <= or (input_ctl_ctl(32 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
+			ptt_out(I) <= unary_or (input_ctl_ctl(32 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
 		end generate;
 
 		ctl_logic2 : for I in 0 to 7 Generate
@@ -277,7 +287,7 @@ architecture arch of edc_mux is
 			-- any of the resulting signals of the and can drive the output
 			-- anding together the 40 bit on/off signal for the output and a 40 bit concatenated register of all the inputs
 			-- array of bits
-			micro_reg_output(I) <= or (input_ctl_ctl(48 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
+			micro_reg_output(I) <= unary_or (input_ctl_ctl(48 + I) and (ctl0_in & ctl1_in & micro_reg_input_0 & micro_reg_input_1));
 		end generate;
 
 --- audio stuff
