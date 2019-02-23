@@ -28,7 +28,7 @@ entity edc_mux is
 				mclk_in		: in std_logic;                     -- clock source for FPGA logic and clock dividers (50MHz)
 				bclk_in		: in std_logic_vector(15 downto 0);
 				wclk_in		: in std_logic_vector(15 downto 0);
-				scl				: inout std_logic;
+				scl				: in std_logic;
 				sda				: inout std_logic;
 				ctl_int		: out std_logic; -- interrupt to tell microcontroller that micro_reg_output has changed
 				g_rst			: in std_logic -- global reset (active high)
