@@ -96,8 +96,9 @@ architecture arch of edc_mux is
 
 	component i2s_interface
 		port (
-			LR_CK					: in  std_logic;
-			BIT_CK				: in  std_logic;
+			MCLK					: in std_logic;
+			LR_CLK				: in  std_logic;
+			BIT_CLK				: in  std_logic;
 			DIN						: in  std_logic;
 			DATA_L_IN			: in  audio_buffer_t;
 			DATA_R_IN			: in  audio_buffer_t;
@@ -123,7 +124,7 @@ architecture arch of edc_mux is
 					data_from_master	: out		std_logic_vector(7 downto 0)
 		);
 	end component I2C_slave;
-	
+
 	function unary_or (slv : in std_logic_vector) return std_logic is
 		variable res_v : std_logic := '0';
 	begin
@@ -131,7 +132,7 @@ architecture arch of edc_mux is
 			res_v := res_v or slv(i);
 		end loop;
 		return res_v;
-	
+
 	end function;
 
 	begin
@@ -310,8 +311,9 @@ architecture arch of edc_mux is
 		gen_codecs: for I in 0 to 15 generate
 			CODEC : i2s_interface
 				port map (
-					LR_CK					=> wclk_in(I),
-					BIT_CK				=> bclk_in(I),
+					MCLK					=> mclk_in,
+					LR_CLK				=> wclk_in(I),
+					BIT_CLK				=> bclk_in(I),
 					DIN						=> i2s_in(I),
 					DATA_L_IN			=> audio_reg_out(I*2),
 					DATA_R_IN			=> audio_reg_out((I*2)+1),
