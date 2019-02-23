@@ -4,7 +4,8 @@
 
 -- Design Name:   i2s_to_parallel
 
--- Based on i2s_to_parallel.vhd as found in this repository.
+-- Based on i2s_to_parallel.vhd as found in this repository as well as in the
+-- i2s_transmit.v file.
 
 -- Description:
 
@@ -39,13 +40,13 @@
 --------------------------------------------------------------------------------
 -- I2S Waveform summary
 --
--- BIT_CK     __    __   __    __    __            __    __    __    __
---           | 1|__| 2|_| 3|__| 4|__| 5|__... ... |32|__| 1|__| 2|__| 3| ...
+-- SCK     __    __   __    __    __            __    __    __    __
+--        | 1|__| 2|_| 3|__| 4|__| 5|__... ... |32|__| 1|__| 2|__| 3| ...
 --
--- LR_CK                                  ... ...      _________________
---           ____________R_Channel_Data______________|   L Channel Data ...
+-- WS                                ... ...      _________________
+--         ____________R_Channel_Data______________|   L Channel Data ...
 --
--- DATA      x< 00 ><D24><D22><D21><D20>  ... ...     < 00 ><D24><D23>  ...
+-- DATA    x< 00 ><D24><D22><D21><D20>  ... ...     < 00 ><D24><D23>  ...
 --
 --
 -- Each time enough ('16' bits of) data is collected from the serial input
