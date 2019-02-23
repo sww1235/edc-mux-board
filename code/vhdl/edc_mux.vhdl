@@ -96,18 +96,18 @@ architecture arch of edc_mux is
 
 	component i2s_interface
 		port (
-			MCLK					: in std_logic;
-			LR_CLK				: in  std_logic;
-			BIT_CLK				: in  std_logic;
-			DIN						: in  std_logic;
-			DATA_L_IN			: in  audio_buffer_t;
-			DATA_R_IN			: in  audio_buffer_t;
-			DOUT					: out std_logic;
-			DATA_L_OUT		: out audio_buffer_t;
-			DATA_R_OUT		: out audio_buffer_t;
-			RESET					: in  std_logic;
-			DATA_RDY_OUT	: out std_logic;
-			STROBE_LR			: out std_logic
+		  MCLK         : in  std_logic;
+		  WS           : in  std_logic;
+		  SCK          : in  std_logic;
+		  DIN          : in  std_logic;
+		  DATA_L_IN    : in  audio_buffer_t;
+		  DATA_R_IN    : in  audio_buffer_t;
+		  DOUT         : out std_logic;
+		  DATA_L_OUT   : out audio_buffer_t;
+		  DATA_R_OUT   : out audio_buffer_t;
+		  RESET        : in  std_logic;
+		  DATA_RDY_OUT : out std_logic;
+		  STROBE_LR    : out std_logic
 		);
 	end component i2s_interface;
 
@@ -312,8 +312,8 @@ architecture arch of edc_mux is
 			CODEC : i2s_interface
 				port map (
 					MCLK					=> mclk_in,
-					LR_CLK				=> wclk_in(I),
-					BIT_CLK				=> bclk_in(I),
+					WS						=> wclk_in(I),
+					SCK						=> bclk_in(I),
 					DIN						=> i2s_in(I),
 					DATA_L_IN			=> audio_reg_out(I*2),
 					DATA_R_IN			=> audio_reg_out((I*2)+1),
@@ -326,6 +326,7 @@ architecture arch of edc_mux is
 				);
 		end generate;
 
+	
 
 end architecture arch;
 
