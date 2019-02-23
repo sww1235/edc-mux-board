@@ -144,7 +144,6 @@ begin
 			end if;	-- (counter = 0)
 		end if; -- reset / rising_edge
 	end process;
--- TODO: implement parallel2serial process
 
 -- logic flow
 -- parallel audio data is ready on DATA_RDY_IN
@@ -158,14 +157,12 @@ begin
 			out_shift_reg	<= (others => '0');
 			DOUT					<= '0'; -- reset dout as well
 		elsif rising_edge(BIT_CK) then
-			-- at each LR_CK level transition (once every 16 bits)
-			-- load either L or R data into shift register
-			if rising_edge(LR_CK) or falling_edge(LR_CK) then
-				if (LR_CK = '1') then
+			-- rising edge = going from 0 to 1 (right selected)
+			if rising_edge(LR_CK) then
 					out_shift_reg <= std_logic_vector(to_signed(DATA_R_IN, 16));
-				else
-					out_shift_reg <= std_logic_vector(to_signed(DATA_L_IN, 16));
-				end if; -- LR_CK
+
+			elsif falling_edge(LR_CK) then
+				out_shift_reg <= std_logic_vector(to_signed(DATA_L_IN, 16));
 			else
 				DOUT <= out_shift_reg(15);
 				out_shift_reg <= out_shift_reg(14 downto 0) & '0';
