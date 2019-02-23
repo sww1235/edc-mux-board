@@ -170,7 +170,7 @@ begin
 
 
 
-	serial2parallel : process(RESET, BIT_CLK, LR_CLK, DIN)
+	serial2parallel : process(RESET, MCLK)
 	begin
 		if(RESET = '1') then
 			DATA_L_OUT			<= 0;
