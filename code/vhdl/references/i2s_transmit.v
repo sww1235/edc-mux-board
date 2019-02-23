@@ -21,7 +21,7 @@ module i2s_transmit #
   reg [1:0] sck_sync;
   always @(posedge S_AXIS_ACLK)
     sck_sync <= {sck_sync,sck};
-  wire sck_rise = sck_sync == 2'b01;
+  wire sck_rise = sck_sync == 2'b01; // always outputs either 1 or 0
   wire sck_fall = sck_sync == 2'b10;
 
   reg wsd = 0;
