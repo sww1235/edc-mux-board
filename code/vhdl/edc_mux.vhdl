@@ -89,8 +89,8 @@ architecture arch of edc_mux is
 	signal instruction1	: std_logic_vector(7 downto 0);
 	signal instruction2	: std_logic_vector(7 downto 0);
 	signal instruction3	: std_logic_vector(7 downto 0);
-	signal aud_out_sel	: integer range 0 to 15;
-	signal aud_in_sel		: integer range 0 to 15;
+	signal aud_out_sel	: integer range 0 to 31;
+	signal aud_in_sel		: integer range 0 to 31;
 	signal ctl_out_sel	: integer range 0 to 55;
 	signal ctl_in_sel		: integer range 0 to 47;
 
