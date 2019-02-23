@@ -24,25 +24,11 @@ architecture Algorithmic of fullmixer is
 	-- buffer for output allowing for truncation
 	signal iBuff : audio_port_t;
 
-	-- TODO: New better process:
-
-	-- do all multiply operations in for loop in unclocked process,  truncate down
-	-- to 16 bits with saturation detection if a signal has saturated, then bypass
-	-- the rest of the multiply opperations (maybe) and the addition operations
-	-- and directly saturate the output. there is no negative volume control so we
-	-- won't get any reduction of volume from the other signals. Once an input
-	-- channel has saturated, its game over for the rest.
-
-	-- also check for negative saturation as well.
-
-	-- final truncation and saturation check is at output assignment
-
 	-- bit width expansion:
 	-- each addition operation of n+n has output width of n+1 worst case
 	-- therefor summing m, n bit numbers gives n+m output width worst case
 	-- each addition operation of n+m has output width of max(n,m)+1 worst case
 	-- each multiply operation of n*m has output width of n+m worst case
-
 	begin
 
 		inBuff: process(clk)
@@ -79,7 +65,7 @@ architecture Algorithmic of fullmixer is
 						-- volume adjustment 16 bits * 9 bits = 25 byte wide
 						mult_buffer(each_in) := iBuff(each_in) * ctl(each_out)(each_in);  -- 9 bit signed numbers restricted to 0 - 255
 							-- check for value over 16 bits wide. Max number in 16 bit 2s complement
-							-- is 2^16 -1 = 65535, min number we care about is -MAX
+							-- is 2^15 -1 = 32767, min number we care about is -MAX
 							if mult_buffer(each_in) > 32767 then
 								sat_mult_buffer(each_in) := 32767;
 								-- no need to go through rest of multiplies, output is already saturated
