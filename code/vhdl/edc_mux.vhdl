@@ -206,8 +206,8 @@ architecture arch of edc_mux is
 								-- outputs are treated as 32 mono channels each and left and right are only
 								-- important in the control software.
 
-								aud_out_sel <= to_integer(unsigned('0' & instruction1(4 downto 0))); -- which output channel
-								aud_in_sel <= to_integer(unsigned('0' &  instruction2(4 downto 0))); -- which input channel on that output channel
+								aud_out_sel <= to_integer(unsigned(instruction1(4 downto 0))); -- which output channel
+								aud_in_sel <= to_integer(unsigned(instruction2(4 downto 0))); -- which input channel on that output channel
 								-- volume level is integer restricted to 0 - 255. Need to append 0 MSB in order to get right bit width integer
 								audio_ctl_reg(aud_out_sel)(aud_in_sel) <= to_integer(signed('0' & instruction3)); -- volume level of input channel in output channel
 
