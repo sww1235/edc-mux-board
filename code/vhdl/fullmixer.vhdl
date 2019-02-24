@@ -47,12 +47,12 @@ architecture Algorithmic of fullmixer is
 			end process inBuff;
 
 			mixer: process(all)
-				variable mult_buffer 				: mult_buffer_t		:= 0; -- 32 size array of 25 bit signed values
-				variable sat_mult_buffer		: audio_port_t		:= 0; -- 32 size array of 16 bit signed values
-				variable sum_buffer16				: sum_buffer16_t	:= 0; -- 16 size array of 17 bit numbers
-				variable sum_buffer8				: sum_buffer8_t		:= 0; -- 8 size array of 17 bit numbers
-				variable sum_buffer4 				: sum_buffer4_t		:= 0; -- 4 size array of 17 bit numbers
-				variable sum_buffer2				: sum_buffer2_t		:= 0; -- 2 size array of 17 bit numbers
+				variable mult_buffer 				: mult_buffer_t		:= (others => 0); -- 32 size array of 25 bit signed values
+				variable sat_mult_buffer		: audio_port_t		:= (others => 0); -- 32 size array of 16 bit signed values
+				variable sum_buffer16				: sum_buffer16_t	:= (others => 0); -- 16 size array of 17 bit numbers
+				variable sum_buffer8				: sum_buffer8_t		:= (others => 0); -- 8 size array of 17 bit numbers
+				variable sum_buffer4 				: sum_buffer4_t		:= (others => 0); -- 4 size array of 17 bit numbers
+				variable sum_buffer2				: sum_buffer2_t		:= (others => 0); -- 2 size array of 17 bit numbers
 				variable sum_buffer					: sum_buffer_t		:= 0; -- final sum output
 			begin
 				outloop: for each_out in 0 to 31 loop
