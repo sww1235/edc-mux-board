@@ -80,7 +80,6 @@ port(
 	-- Output status ports
 	DATA_RDY_OUT	: out std_logic; --Rising edge means data is ready
 	STROBE_LR			: out std_logic
-	-- Input status ports
 );
 end i2s_interface;
 
@@ -88,10 +87,9 @@ end i2s_interface;
 -- time din is clocked in.
 
 architecture Behavioral of i2s_interface is
-	signal in_current_lr	: std_logic;
 	signal in_counter			: integer range 0 to 16;
 	signal in_shift_reg		: std_logic_vector(15 downto 0);
-	signal output_strobed	: std_logic;
+
 	signal out_shift_reg	: std_logic_vector(15 downto 0);
 
 	signal WSD						: std_logic; -- word select delayed
@@ -170,19 +168,19 @@ begin
 
 
 
+
+
 	serial2parallel : process(RESET, MCLK)
 	begin
 		if(RESET = '1') then
 			DATA_L_OUT			<= 0;
 			DATA_R_OUT			<= 0;
 			in_shift_reg		<= (others => '0');
-			in_current_lr		<= '0';
 			STROBE_LR				<= '0';
 			DATA_RDY_OUT		<= '0';
 			in_counter			<= 16;
-			output_strobed	<= '0';
 		elsif rising_edge(MCLK) then
-			if SCK_FALL = '1' then
+			sckfall: if SCK_FALL = '1' then
 
 					-- Note: LRCK changes on the falling edge of BCK
 					-- We notice of the first LRCK transition only on the
@@ -190,40 +188,42 @@ begin
 					-- In this way we discard the first data bit as we start pushing
 					-- data into the shift register only on the next BCK rising edge
 					-- This is right for I2S standard (data starts on the 2nd clock)
-					if(WS /= in_current_lr) then
-						in_current_lr		<= WS;
+					if(WSP = '1') then
 						in_counter			<= 16;
 						--clear the shift register
-						in_shift_reg		<= (others => '0');
-						DATA_RDY_OUT		<= '0';
-						output_strobed	<= '0';
 					elsif(in_counter > 0) then
-						-- Push data into the shift register
-						in_shift_reg	<= in_shift_reg(14 downto 0) & DIN;
 						-- Decrement counter
 						in_counter 		<= in_counter - 1;
-					elsif(in_counter = 0) then
-						--TODO Optimization
-						-- Data could be written one clock behind
-						-- when counter = 1 (step down counter)
-						-- We're wasting a cycle here
-						if(output_strobed = '0') then
-							if(in_current_lr = '1') then
-								--Output Right Channel
-								DATA_R_OUT <= to_integer(signed(in_shift_reg));
-							else
-								--Output Left Channel
-								DATA_L_OUT <= to_integer(signed(in_shift_reg));
-							end if;
-							STROBE_LR <= in_current_lr;
-							output_strobed <= '1';
-						else
-							DATA_RDY_OUT <= '1';
-						end if; --(output_strobed = '0')
-					end if;	-- (counter = 0)
-			end if;-- reset / rising_edge
-		end if;
+					end if;
+			end if sckfall;
+
+			sckrise: if SCK_RISE = '1' then
+				if WSP = '1' then
+					in_shift_reg		<= (others => '0');
+					DATA_RDY_OUT <= '0';
+				end if;
+
+				if in_counter > 0 then
+					-- Push data into the shift register
+					in_shift_reg	<= in_shift_reg(14 downto 0) & DIN;
+				end if;
+
+				if WSD and WSP then
+					DATA_L_OUT <= to_integer(signed(in_shift_reg));
+					DATA_RDY_OUT <= '1';
+					STROBE_LR <= WSD;
+				end if;
+
+				if (not WSD) and WSP then
+					DATA_R_OUT <= to_integer(signed(in_shift_reg));
+					DATA_RDY_OUT <= '1';
+					STROBE_LR <= WSD;
+				end if;
+			end if sckrise;
+		end if;-- reset / rising_edge
 	end process;
+
+
 
 
 end Behavioral;
