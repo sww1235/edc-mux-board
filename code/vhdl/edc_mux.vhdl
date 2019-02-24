@@ -126,13 +126,12 @@ architecture arch of edc_mux is
 	end component I2C_slave;
 
 	function unary_or (slv : in std_logic_vector) return std_logic is
-		variable res_v : std_logic := '0';
-	begin
+			variable res_v : std_logic := '0';
+		begin
 		for i in slv'range loop
 			res_v := res_v or slv(i);
 		end loop;
 		return res_v;
-
 	end function;
 
 	begin
