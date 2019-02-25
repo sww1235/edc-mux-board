@@ -38,7 +38,7 @@ end edc_mux;
 
 
 
-architecture arch of edc_mux is
+architecture FPGA of edc_mux is
 	constant i2c_address	: std_logic_vector(6 downto 0) := "0000100"; -- TODO: make sure address does not conflict
 	-- clock signals
 	signal i2c_clk				: std_logic;
@@ -327,7 +327,7 @@ architecture arch of edc_mux is
 
 
 
-end architecture arch;
+end architecture FPGA;
 
 -- audio mux has to cycle through all outputs at least 10 times the sample rate
 -- of 48kHz. All DACs and ADCs will be using the same bit, LR and MCLKs.
