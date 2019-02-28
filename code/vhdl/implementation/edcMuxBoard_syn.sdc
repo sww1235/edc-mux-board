@@ -60,7 +60,7 @@ create_clock -name {bclk15} -period 20833.000 -waveform { 0.000 10416.500 } [get
 # Create Generated Clock
 #**************************************************************
 
-create_generated_clock -name outCounter -source [get_ports {mclk_in}] -divide_by 1920000 [get_nets {outCounter}]
+# create_generated_clock -name outCounter -source [get_ports {mclk_in}] -divide_by 1920000 [get_nets {outCounter}]
 
 #**************************************************************
 # Set Clock Latency
