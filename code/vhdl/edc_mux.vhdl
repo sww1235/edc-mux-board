@@ -137,26 +137,13 @@ architecture FPGA of edc_mux is
 	begin
 
 	--- instructions
-		-- I2C clock
-		i2c_clock: process(mclk_in)
-			begin
-				if rising_edge(mclk_in) then
-					if i2c_clk_cntr = 479 then -- 48MHz/100kHz = 480 -1 for zero index
-						i2c_clk <= '1';
-						i2c_clk_cntr <= 0;
-					else
-						i2c_clk <= '0';
-						i2c_clk_cntr <= i2c_clk_cntr + 1;
-					end if;
-				end if;
-		end process;
 
 		I2C : I2C_slave
 			generic map (SLAVE_ADDR => i2c_address)
 			port map (
 				scl								=> scl,
 				sda								=> sda,
-				clk								=> i2c_clk,
+				clk								=> mclk_in,
 				rst								=> g_rst, -- TODO: verify that global reset is right signal
 				read_req					=> read_req,
 				data_to_master		=> data_to_master,
