@@ -18,9 +18,11 @@ end fullmixer;
 
 architecture FPGA of fullmixer is
 	signal iBuff : audio_port_t;
+	-- 32 outputs + 8 extra do nothing steps to make the timing work
+	signal outSel : integer range 0 to 39;
+	signal outCounter : integer range 0 to 24; -- spend 25 clock cycles per output
 
-	signal counter : integer range 0 to 31; -- 32 states
-
+	-- internal mapping signals for mixer
 	signal channelout : audio_buffer_t;
 	signal channelctl : ctl_port_t;
 
@@ -59,14 +61,28 @@ end component mixerChannel;
 				end if;
 			end process inBuff;
 
-			mixerCounter : process(clk, rst)
-			begin
-				if rst = '1' then
-					counter <= 0;
-				elsif rising_edge(clk) then
-					counter <= counter +1;
+		-- 48MHz/48kHz = 1000 mclk cycles per audio clock.
+		-- need to cycle through 32 channels during that time. To make the math
+		-- easier, assume we have 40 channels, which means we can spend
+		-- 25 = 1000/40 mclk cycles with the mixer connected to each output.
+
+		mux_clock: process(clk, rst)
+		begin
+			if rst = '1' then
+				outSel = 0;
+				outCounter = 0; -- how long input is attached.
+			elsif rising_edge(clk) then
+				if outCounter = 24 and outSel < 40 then -- switch to next input
+					outSel <= outSel + 1;
+					outCounter = 0;
+				elsif outCounter = 24 and outSel >= 40 then -- reset both counters
+					outSel <= 0;
+					outCounter = 0;
+				else
+					outCounter <= outCounter + 1; --increment cycle counter
 				end if;
-			end process;
+			end if;
+		end process;
 
 			mixerStateSelect : process(all)
 			begin
