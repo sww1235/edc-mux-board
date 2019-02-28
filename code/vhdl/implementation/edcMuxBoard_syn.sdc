@@ -38,7 +38,6 @@ set_time_format -unit ns -decimal_places 3
 # Create Clock
 #**************************************************************
 
-create_clock -name {i2c} -period 10000.000 -waveform { 0.000 5000.000 } [get_nets {i2c_clk}]
 create_clock -name {mclk_in} -period 20.830 -waveform { 0.000 10.415 } [get_ports {mclk_in}]
 create_clock -name {bclk0} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[0]}]
 create_clock -name {bclk1} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[1]}]
@@ -61,7 +60,7 @@ create_clock -name {bclk15} -period 20833.000 -waveform { 0.000 10416.500 } [get
 # Create Generated Clock
 #**************************************************************
 
-create_generated_clock -name outCounter -source [get_ports {mclk_in}] -divide_by 1920000 [get_nets {i2c_clk}]
+create_generated_clock -name outCounter -source [get_ports {mclk_in}] -divide_by 1920000 [get_nets {outCounter}]
 
 #**************************************************************
 # Set Clock Latency
