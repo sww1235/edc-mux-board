@@ -69,15 +69,15 @@ end component mixerChannel;
 		mux_clock: process(clk, rst)
 		begin
 			if rst = '1' then
-				outSel = 0;
-				outCounter = 0; -- how long input is attached.
+				outSel <= 0;
+				outCounter <= 0; -- how long input is attached.
 			elsif rising_edge(clk) then
 				if outCounter = 24 and outSel < 40 then -- switch to next input
 					outSel <= outSel + 1;
-					outCounter = 0;
+					outCounter <= 0;
 				elsif outCounter = 24 and outSel >= 40 then -- reset both counters
 					outSel <= 0;
-					outCounter = 0;
+					outCounter <= 0;
 				else
 					outCounter <= outCounter + 1; --increment cycle counter
 				end if;
