@@ -39,22 +39,22 @@ set_time_format -unit ns -decimal_places 3
 #**************************************************************
 
 create_clock -name {mclk_in} -period 20.830 -waveform { 0.000 10.415 } [get_ports {mclk_in}]
-create_clock -name {bclk0} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[0]}]
-create_clock -name {bclk1} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[1]}]
-create_clock -name {bclk2} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[2]}]
-create_clock -name {bclk3} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[3]}]
-create_clock -name {bclk4} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[4]}]
-create_clock -name {bclk5} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[5]}]
-create_clock -name {bclk6} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[6]}]
-create_clock -name {bclk7} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[7]}]
-create_clock -name {bclk8} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[8]}]
-create_clock -name {bclk9} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[9]}]
-create_clock -name {bclk10} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[10]}]
-create_clock -name {bclk11} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[11]}]
-create_clock -name {bclk12} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[12]}]
-create_clock -name {bclk13} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[13]}]
-create_clock -name {bclk14} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[14]}]
-create_clock -name {bclk15} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[15]}]
+#create_clock -name {bclk0} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[0]}]
+#create_clock -name {bclk1} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[1]}]
+#create_clock -name {bclk2} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[2]}]
+#create_clock -name {bclk3} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[3]}]
+#create_clock -name {bclk4} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[4]}]
+#create_clock -name {bclk5} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[5]}]
+#create_clock -name {bclk6} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[6]}]
+#create_clock -name {bclk7} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[7]}]
+#create_clock -name {bclk8} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[8]}]
+#create_clock -name {bclk9} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[9]}]
+#create_clock -name {bclk10} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[10]}]
+#create_clock -name {bclk11} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[11]}]
+#create_clock -name {bclk12} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[12]}]
+#create_clock -name {bclk13} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[13]}]
+#create_clock -name {bclk14} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[14]}]
+#create_clock -name {bclk15} -period 20833.000 -waveform { 0.000 10416.500 } [get_ports {bclk_in[15]}]
 
 #**************************************************************
 # Create Generated Clock
@@ -72,7 +72,7 @@ create_clock -name {bclk15} -period 20833.000 -waveform { 0.000 10416.500 } [get
 # Set Clock Uncertainty
 #**************************************************************
 
-
+derive_clock_uncertainty;
 
 #**************************************************************
 # Set Input Delay
