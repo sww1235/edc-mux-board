@@ -23,8 +23,10 @@ architecture FPGA of fullmixer is
 	signal outCounter : integer range 0 to 24; -- spend 25 clock cycles per output
 
 	-- internal mapping signals for mixer
-	signal channelout : audio_buffer_t;
-	signal channelctl : ctl_port_t;
+	signal channelout1 : audio_buffer_t;
+	signal channelctl1 : ctl_port_t;
+	signal channelout2 : audio_buffer_t;
+	signal channelctl2 : ctl_port_t;
 
 	component mixerChannel
 port (
@@ -62,8 +64,8 @@ end component mixerChannel;
 			end process inBuff;
 
 		-- 48MHz/48kHz = 1000 mclk cycles per audio clock.
-		-- need to cycle through 32 channels during that time. To make the math
-		-- easier, assume we have 40 channels, which means we can spend
+		-- need to cycle through 2x16 channels during that time. To make the math
+		-- easier, assume we have 20 channels, which means we can spend
 		-- 25 = 1000/40 mclk cycles with the mixer connected to each output.
 
 		mux_clock: process(clk, rst)
@@ -87,18 +89,27 @@ end component mixerChannel;
 			mixerStateSelect : process(all)
 			begin
 				if outSel < 32 then -- 0 to 31
-					o(outSel) <= channelout;
-					channelctl <= ctl(outSel);
+					o(outSel) <= channelout1;
+					channelctl1 <= ctl(outSel);
 				else
 					null; -- 32 to 39
 				end if;
 			end process;
 
-			channel : mixerChannel
+			channel1 : mixerChannel
 				port map (
 					i   => iBuff,
-					o   => channelout,
-					ctl => channelctl,
+					o   => channelout1,
+					ctl => channelctl1,
+					clk => clk,
+					rst => rst
+				);
+
+			channel2 : mixerChannel
+				port map (
+					i   => iBuff,
+					o   => channelout2,
+					ctl => channelctl2,
 					clk => clk,
 					rst => rst
 				);
