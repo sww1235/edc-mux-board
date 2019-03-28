@@ -68,6 +68,8 @@ end component mixerChannel;
 		-- easier, assume we have 20 channels, which means we can spend
 		-- 25 = 1000/40 mclk cycles with the mixer connected to each output.
 
+		-- every 
+
 		mux_clock: process(clk, rst)
 		begin
 			if rst = '1' then
@@ -91,6 +93,8 @@ end component mixerChannel;
 				if outSel < 32 then -- 0 to 31
 					o(outSel) <= channelout1;
 					channelctl1 <= ctl(outSel);
+					o(outSel+1) <= channelout2;
+					channelctl2 <= ctl(outSel+1);
 				else
 					null; -- 32 to 39
 				end if;
