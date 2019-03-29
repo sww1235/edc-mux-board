@@ -144,32 +144,13 @@ begin
 
 
 				-- adder tree
-				lvl1_loop: for k in 0 to 15 loop
-					sum_buffer16(k) := sat_mult_buffer(2*k) + sat_mult_buffer((2*k) + 1);
-					if sum_buffer16(k) > 32767 then
-						sum_buffer16(k) := 32767;
-					elsif sum_buffer16(k) < -32767 then
-						sum_buffer16(k) := -32767;
-					end if;
-				end loop lvl1_loop;
-
-				lvl2_loop: for k in 0 to 7 loop
-					sum_buffer8(k) := sum_buffer16(2*k) + sum_buffer16((2*k) + 1);
-					if sum_buffer8(k) > 32767 then
-						sum_buffer8(k) := 32767;
-					elsif sum_buffer8(k) < -32767 then
-						sum_buffer8(k) := -32767;
-					end if;
-				end loop lvl2_loop;
-
-				lvl3_loop: for k in 0 to 3 loop
-					sum_buffer4(k) := sum_buffer8(2*k) + sum_buffer8((2*k) + 1);
-					if sum_buffer4(k) > 32767 then
-						sum_buffer4(k) := 32767;
-					elsif sum_buffer4(k) < -32767 then
-						sum_buffer4(k) := -32767;
-					end if;
-				end loop lvl3_loop;
+				sum_buffer := sum_buffer2(0) + sum_buffer2(1);
+				if sum_buffer > 32767 then
+					sum_buffer := 32767;
+				elsif sum_buffer < -32767 then
+					sum_buffer := -32767;
+				end if;
+				o <= sum_buffer;
 
 				lvl4_loop: for k in 0 to 1 loop
 					sum_buffer2(k) := sum_buffer4(2*k) + sum_buffer4((2*k) + 1);
@@ -180,13 +161,32 @@ begin
 					end if;
 				end loop lvl4_loop;
 
-				sum_buffer := sum_buffer2(0) + sum_buffer2(1);
-				if sum_buffer > 32767 then
-					sum_buffer := 32767;
-				elsif sum_buffer < -32767 then
-					sum_buffer := -32767;
-				end if;
-				o <= sum_buffer;
+				lvl3_loop: for k in 0 to 3 loop
+					sum_buffer4(k) := sum_buffer8(2*k) + sum_buffer8((2*k) + 1);
+					if sum_buffer4(k) > 32767 then
+						sum_buffer4(k) := 32767;
+					elsif sum_buffer4(k) < -32767 then
+						sum_buffer4(k) := -32767;
+					end if;
+				end loop lvl3_loop;
+
+				lvl2_loop: for k in 0 to 7 loop
+					sum_buffer8(k) := sum_buffer16(2*k) + sum_buffer16((2*k) + 1);
+					if sum_buffer8(k) > 32767 then
+						sum_buffer8(k) := 32767;
+					elsif sum_buffer8(k) < -32767 then
+						sum_buffer8(k) := -32767;
+					end if;
+				end loop lvl2_loop;
+
+				lvl1_loop: for k in 0 to 15 loop
+					sum_buffer16(k) := sat_mult_buffer(2*k) + sat_mult_buffer((2*k) + 1);
+					if sum_buffer16(k) > 32767 then
+						sum_buffer16(k) := 32767;
+					elsif sum_buffer16(k) < -32767 then
+						sum_buffer16(k) := -32767;
+					end if;
+				end loop lvl1_loop;
 
 				-- moved to bottom of logic to force pipelining synthesis
 				inloop: for each_in in 0 to 31 loop -- multiply all inputs by volume signal
