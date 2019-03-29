@@ -141,19 +141,7 @@ begin
 			sum_buffer2				:= (others => 0);
 			sum_buffer				:= 0;
 		elsif rising_edge(clk) then
-				inloop: for each_in in 0 to 31 loop -- multiply all inputs by volume signal
-					-- volume adjustment 16 bits * 9 bits = 25 byte wide
-					mult_buffer(each_in) := i(each_in) * ctl(each_in);  -- 9 bit signed numbers restricted to 0 - 255
-						-- check for value over 16 bits wide. Max number in 16 bit 2s complement
-						-- is 2^15 -1 = 32767, min number we care about is -MAX
-						if mult_buffer(each_in) > 32767 then
-							sat_mult_buffer(each_in) := 32767;
-						elsif mult_buffer(each_in) < -32767 then
-							sat_mult_buffer(each_in) := -32767;
-						else
-							sat_mult_buffer(each_in) := mult_buffer(each_in);
-						end if;
-				end loop inloop;
+
 
 				-- adder tree
 				lvl1_loop: for k in 0 to 15 loop
@@ -199,6 +187,21 @@ begin
 					sum_buffer := -32767;
 				end if;
 				o <= sum_buffer;
+
+				-- moved to bottom of logic to force pipelining synthesis
+				inloop: for each_in in 0 to 31 loop -- multiply all inputs by volume signal
+					-- volume adjustment 16 bits * 9 bits = 25 byte wide
+					mult_buffer(each_in) := i(each_in) * ctl(each_in);  -- 9 bit signed numbers restricted to 0 - 255
+						-- check for value over 16 bits wide. Max number in 16 bit 2s complement
+						-- is 2^15 -1 = 32767, min number we care about is -MAX
+						if mult_buffer(each_in) > 32767 then
+							sat_mult_buffer(each_in) := 32767;
+						elsif mult_buffer(each_in) < -32767 then
+							sat_mult_buffer(each_in) := -32767;
+						else
+							sat_mult_buffer(each_in) := mult_buffer(each_in);
+						end if;
+				end loop inloop;
 		end if;
 	end process mixer;
 
