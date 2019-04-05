@@ -91,7 +91,7 @@ Connector pinout:
 | 11  | PTT -       |
 | 12  | +12V or +5V |
 
-use  tlv320aic32 from TI for the headset connections. (Integrated stereo
+use  tlv320aic3206 from TI for the headset connections. (Integrated stereo
 headphone amplifier along with ADC for mic).
 
 All analog audio IO is done at consumer line level. (IO direction is referenced to MUX)
