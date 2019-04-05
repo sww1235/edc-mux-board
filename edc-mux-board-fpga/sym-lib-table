@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SW-Intel)(type Legacy)(uri ${KISWGITHUB}/SW-Intel.lib)(options "")(descr ""))
+  (lib (name SW-Texas)(type Legacy)(uri ${KISWGITHUB}/SW-Texas.lib)(options "")(descr ""))
+)
