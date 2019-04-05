@@ -24,4 +24,15 @@ F 3 "https://www.ti.com/lit/ds/symlink/tlv320aic3206.pdf" H 6900 3550 50  0001 C
 	1    5750 3000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J?
+U 1 1 5CC70BF5
+P 2000 2950
+F 0 "J?" H 1900 3700 50  0000 C CNN
+F 1 "Conn_01x12" H 1900 3600 50  0000 C CNN
+F 2 "" H 2000 2950 50  0001 C CNN
+F 3 "~" H 2000 2950 50  0001 C CNN
+	1    2000 2950
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
