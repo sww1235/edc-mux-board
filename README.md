@@ -46,7 +46,7 @@ where all S18 are only holding 16 bit signed values but shifted so MSB is at B17
 Use ATSAMD21J18A microprocessor (ARM Cortex M0+), with separate ethernet mac+phy
 chip (probably Wiznet W5500).
 
-use  TLV320AIC3206 from TI for the headset connections. (Integrated stereo
+Use  TLV320AIC3206 from TI for the headset connections. (Integrated stereo
 headphone amplifier along with ADC for mic).
 
 Use Master clock with clock buffers to provide MCLK for CODECs, and FPGA.
@@ -57,13 +57,19 @@ Best plan is to run all IO at 3.3V LVCMOS standard including clocks.
 
 2x 1:8 LVCMOS fan out clock buffer for 16 CODECs: CDCLVC1108 from TI.
 
+CDCI6214 clock generator with 4 independant outputs.
 
-Use TS12A4514 NO SPST switches for PTT signalling on Interface boards
+Use SiTIME MEMS Oscillator SiT1604AI-72-33E-50.000000, connect to RefP input on
+clock generator
+
+
+Use TS12A4514 NO SPST switches for PTT signalling on Interface boards.
+Alternatively, if large numbers of switches are needed use something similar to
 
 
 ## Device Interface Notes
 
-almost all devices are going to have to have an interface board to connect
+Almost all devices are going to have to have an interface board to connect
 between the 12 pin connector, and whatever IO is on the actual device.
 
 The original hope was to only have passive components there, but this is looking
@@ -84,7 +90,7 @@ microprocessor and FPGA, as well as determine the appropriate audio levels for
 the Codec. There will also be a P82B96 chip for I2C level conversion for "long"
 distance signalling.
 
-There will also be application specicifc hardware such as ptt signalling or
+There will also be application specific hardware such as ptt signalling or
 volume control interpretation for headsets.
 
 ### Radio Interface Board Example
@@ -98,6 +104,9 @@ Has separate power connection
 Provides media control of smartphone, audio passthrough and bias voltage blocking.
 
 Media control may be provided via emulating a headset or through some form of USB control.
+
+Note: Android devices use different pinout and resistors to apple devices. Much
+more feasible to support Android than Apple.
 
 ## Interface specs
 
