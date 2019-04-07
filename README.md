@@ -59,7 +59,7 @@ Best plan is to run all IO at 3.3V LVCMOS standard including clocks.
 
 CDCI6214 clock generator with 4 independant outputs.
 
-Use SiTIME MEMS Oscillator SiT1602BI-71-33E-50.000000, connect to RefP input on
+Use SiTIME MEMS Oscillator SiT1602BI-71-33E-48.000000, connect to RefP input on
 clock generator
 
 
