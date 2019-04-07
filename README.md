@@ -41,35 +41,63 @@ width bus. IE
 `S32 out_PCM = ((S18 ch1_PCM * S18 ch1_gain) + (S18 ch2_PCM * S18 ch2_gain) ... )`
 where all S18 are only holding 16 bit signed values but shifted so MSB is at B17 rather than B15.
 
-## Notes
+## Design Notes
 
-Audio in PCM format is sampled at the sampling rate (normally 44.1kHz(CD) or
-48kHz(DVD)) using 16-24 bits of resolution. Meaning each sample is represented
-by a 16 to 24 bit number.
+Use ATSAMD21J18A microprocessor (ARM Cortex M0+), with separate ethernet mac+phy
+chip (probably Wiznet W5500).
 
-Therefor reading i2s data is clock in 16 bits of data into the left register,
-then clock in 16 bits of data into the right register and repeat.
+use  TLV320AIC3206 from TI for the headset connections. (Integrated stereo
+headphone amplifier along with ADC for mic).
 
-I2S by spec represents data in 2s complement format. In any bit width
-conversion, truncation or zero fill is applied. Quoting from the I2S spec:
+Use Master clock with clock buffers to provide MCLK for CODECs, and FPGA.
+Additionally, use to clock microprocessor. Might have to use multi output clock
+generator to run both wiznet chip and others off one generator.
 
->When the system word length is greater than the transmitter word
->length, the word is truncated (least significant data bits are set to ‘0’)
->for data transmission. If the receiver is sent more bits than its word
->length, the bits after the LSB are ignored. On the other hand, if the
->receiver is sent fewer bits than its word length, the missing bits are
->set to zero internally. And so, the MSB has a fixed position, whereas
->the position of the LSB depends on the word length. The transmitter
->always sends the MSB of the next word one clock period after the
->WS changes.
+Best plan is to run all IO at 3.3V LVCMOS standard including clocks.
+
+2x 1:8 LVCMOS fan out clock buffer for 16 CODECs: CDCLVC1108 from TI.
 
 
-## Arduino Code
+Use TS12A4514 NO SPST switches for PTT signalling on Interface boards
 
-Normallizing audio volume algorithm:
 
--   calculate the sum of all elements
--   divide each element by the sum
+## Device Interface Notes
+
+almost all devices are going to have to have an interface board to connect
+between the 12 pin connector, and whatever IO is on the actual device.
+
+The original hope was to only have passive components there, but this is looking
+to be less practical now, especially since ptt signalling takes up 2 pins, and
+is only needed on a very small percentage of devices. Additionally some radios
+etc, need multiple ptt switch contacts.
+
+New plan is to have semi-custom **As Small As Possible** interface boards for
+devices. These might also simplify providing power to and from the devices
+through the power distribution box.
+
+Standardize the interface between mux board and interface. See Interface Specs
+Below for details.
+
+In general, each interface board has an I2C IO expander and an ID resistor in
+order to determine type, and set up the appropriate control logic in the
+microprocessor and FPGA, as well as determine the appropriate audio levels for
+the Codec. There will also be a P82B96 chip for I2C level conversion for "long"
+distance signalling.
+
+There will also be application specicifc hardware such as ptt signalling or
+volume control interpretation for headsets.
+
+### Radio Interface Board Example
+
+ptt switch for each channel, audio passthrough and bias voltage blocking
+
+Has separate power connection
+
+### Smartphone interface
+
+Provides media control of smartphone, audio passthrough and bias voltage blocking.
+
+Media control may be provided via emulating a headset or through some form of USB control.
 
 ## Interface specs
 
@@ -83,41 +111,16 @@ Connector pinout:
 | 3   | R Audio IN  |
 | 4   | L Audio OUT |
 | 5   | R Audio OUT |
-| 6   | CTL1 in     |
-| 7   | CTL2 in     |
-| 8   | CTL1 out    |
-| 9   | CTL2 out    |
-| 10  | PTT +       |
-| 11  | PTT -       |
-| 12  | +12V or +5V |
-
-use  tlv320aic3206 from TI for the headset connections. (Integrated stereo
-headphone amplifier along with ADC for mic).
+| 6   | Audio GND   |
+| 7   | SDA_HV      |
+| 8   | SCL_HV      |
+| 9   |             |
+| 10  |             |
+| 11  | ID_PIN      |
+| 12  | +12V        |
 
 All analog audio IO is done at consumer line level. (IO direction is referenced to MUX)
 
-Connected headphones will accept this as there is also an integrated amplifier.
-(Headset output)
-
-Connected phones and radios inputting audio into the mux will also work fine as
-they output line level. (Device input)
-
-Electret microphones need a bias circuit and a preamp to boost their signal up
-to line level. (headset input) as well as a capacitor to block the DC bias output
-
-Connected phones and radios will need a pad circuit to reduce the line level
-output to a microphone input as well as block dc output from phone/radio.
-(Device Output) Resistor divider with ~40dB attenuation. Attenuation in dB = 20*
-log10((R1 + R2)/R2). Also need resistance between bottom two sleeve contacts.
-
-```
-o-----^v^v^v--|---o
-      R1      >
-Line          < mic
-          R2  >
-              >
-o-------------|---o
-```
 
 ## I2C commands
 
@@ -206,7 +209,27 @@ two registers to put data into.</td>
 
 </table>
 
+## General Notes
 
+Audio in PCM format is sampled at the sampling rate (normally 44.1kHz(CD) or
+48kHz(DVD)) using 16-24 bits of resolution. Meaning each sample is represented
+by a 16 to 24 bit number.
+
+Therefor reading i2s data is clock in 16 bits of data into the left register,
+then clock in 16 bits of data into the right register and repeat.
+
+I2S by spec represents data in 2s complement format. In any bit width
+conversion, truncation or zero fill is applied. Quoting from the I2S spec:
+
+>When the system word length is greater than the transmitter word
+>length, the word is truncated (least significant data bits are set to ‘0’)
+>for data transmission. If the receiver is sent more bits than its word
+>length, the bits after the LSB are ignored. On the other hand, if the
+>receiver is sent fewer bits than its word length, the missing bits are
+>set to zero internally. And so, the MSB has a fixed position, whereas
+>the position of the LSB depends on the word length. The transmitter
+>always sends the MSB of the next word one clock period after the
+>WS changes.
 
 ## Extra parts
 
