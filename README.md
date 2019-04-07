@@ -64,7 +64,8 @@ clock generator
 
 
 Use TS12A4514 NO SPST switches for PTT signalling on Interface boards.
-Alternatively, if large numbers of switches are needed use something similar to
+Alternatively, if large numbers of switches are needed use a direct i2c
+controlled XPST switch rather than using multiple chips.
 
 
 ## Device Interface Notes
