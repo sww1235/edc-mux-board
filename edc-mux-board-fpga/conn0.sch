@@ -15,25 +15,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW-Texas:TLV320AIC3206 U?
+L SW-Texas:TLV320AIC3206 U5
 U 1 1 5CC6E155
 P 5750 3000
-F 0 "U?" H 5750 4350 50  0000 C CNN
+F 0 "U5" H 5750 4350 50  0000 C CNN
 F 1 "TLV320AIC3206" H 5750 4250 50  0000 C CNN
 F 2 "Package_DFN_QFN:UQFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm_ThermalVias" H 5800 4400 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tlv320aic3206.pdf" H 6900 3550 50  0001 C CNN
 	1    5750 3000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J4
 U 1 1 5CC70BF5
 P 2000 2950
-F 0 "J?" H 1900 3700 50  0000 C CNN
+F 0 "J4" H 1900 3700 50  0000 C CNN
 F 1 "Conn_01x12" H 1900 3600 50  0000 C CNN
-F 2 "" H 2000 2950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 2000 2950 50  0001 C CNN
 F 3 "~" H 2000 2950 50  0001 C CNN
 	1    2000 2950
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
