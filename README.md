@@ -57,7 +57,7 @@ Best plan is to run all IO at 3.3V LVCMOS standard including clocks.
 
 2x 1:8 LVCMOS fan out clock buffer for 16 CODECs: CDCLVC1108 from TI.
 
-CDCI6214 clock generator with 4 independant outputs.
+CDCE706 clock generator with 6 independant outputs.
 
 Use SiTIME MEMS Oscillator SiT1602BI-71-33E-48.000000, connect to RefP input on
 clock generator
