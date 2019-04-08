@@ -116,4 +116,32 @@ U 5CC6D66B
 F0 "Interface - Connector 16" 50
 F1 "conn16.sch" 50
 $EndSheet
+$Comp
+L SW-Texas:CDCLVC1108 U?
+U 1 1 5CB315C0
+P 5500 5000
+AR Path="/5CB315C0" Ref="U?"  Part="1" 
+AR Path="/5CC3E5DC/5CB315C0" Ref="U?"  Part="1" 
+AR Path="/5CC6CC1A/5CB315C0" Ref="U3"  Part="1" 
+F 0 "U3" H 5500 5800 50  0000 C CNN
+F 1 "CDCLVC1108" H 5500 5700 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5700 5800 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 5450 6100 50  0001 C CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-Texas:CDCLVC1108 U?
+U 1 1 5CB315C6
+P 5350 6450
+AR Path="/5CB315C6" Ref="U?"  Part="1" 
+AR Path="/5CC3E5DC/5CB315C6" Ref="U?"  Part="1" 
+AR Path="/5CC6CC1A/5CB315C6" Ref="U4"  Part="1" 
+F 0 "U4" H 5350 7250 50  0000 C CNN
+F 1 "CDCLVC1108" H 5350 7150 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5550 7250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 5300 7550 50  0001 C CNN
+	1    5350 6450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
