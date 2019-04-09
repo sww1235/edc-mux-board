@@ -132,22 +132,56 @@ Connector pinout:
 | 11  | ID_PIN      |
 | 12  | +12V        |
 
-All analog audio IO is done at consumer line level. (IO direction is referenced to MUX)
+All analog audio IO is done at consumer line level. (IO direction is referenced
+to MUX)
+
+Consumer line level uses dBV as its reference. To convert between dBV and
+voltage use following formulae:
+
+```math
+dBV => 20 * log(Vx/Vref)
+
+0 dBV=Vref=1V
+
+Vx is input voltage (RMS)
+```
+
+TLV320AIC3206 will accept signals with max value of 0.5VRMS. Probably need a pad
+circuit like below to reduce voltage levels for line inputs. This pad circuit
+will be implemented on an external interface board if needed. For general
+consumer line level inputs, provide a adjustable resistor to tune VRMS so as to
+not overdo attenuation if not needed.
+
+(Device Output) Resistor divider with ~40dB attenuation. Attenuation in dB = 20*
+log10((R1 + R2)/R2).
+
+```
+Input: o-----^v^v^v--o---o Output
+               R1    |
+                     >
+                 R2  <
+                     >
+                     >
+                     |
+                 GND V
+```
 
 
 ## I2C commands
 
-potentially generate interrupt on any physical input change to trigger a read
+Potentially generate interrupt on any physical input change to trigger a read
 from i2c master. Will need to set data in `data_to_master` register then set
 read_req high. (depends on how fast arduino can respond to interrupt)
 
-always have master send three bytes. Some instructions will ignore third byte.
+Always have master send three bytes. Some instructions will ignore third byte.
 
 ### Command Explanations
 
 #### Matrix Mixer:
 
-All outputs receive all inputs. First want to select which output, then select the volume register associated with that output and the selected input. Then finally set the actual volume level.
+All outputs receive all inputs. First want to select which output, then select
+the volume register associated with that output and the selected input. Then
+finally set the actual volume level.
 
 <table>
 
@@ -258,7 +292,8 @@ conversion, truncation or zero fill is applied. Quoting from the I2S spec:
 -   967-025-CAP norcomp ip67 sealing cap
 -   160-067-004R034 norcomp db25 hardware kit
 -   767KS1(X) 0.084 \[2.1\] id/od sealed locking power plug switchcraft
--   L722AS 0.08 \[2.0\] id/od sealed locking power jack switchcraft (these sizes are compatible with high amperage version
+-   L722AS 0.08 \[2.0\] id/od sealed locking power jack switchcraft (these
+    sizes are compatible with high amperage version
 -   JCAP  power jack cover
 -   35FM3AULS - Sealed locking 3.5mm panel mount jack switchcraft
 -   35HDLBAU(S) 3.5mm sealed locking plug switchcraft (S=0.175 diameter cable, no S=0.29 diameter cable)
@@ -271,7 +306,8 @@ conversion, truncation or zero fill is applied. Quoting from the I2S spec:
 -   Case
     -   Change lid screws to M2.5
     -   Move Oring inside screw line (use same as on portable line mixer)
-    -   weight reduction on chassis and lid. Shrink wall thickness to 0.125", leave ribs on base for stiffness
+    -   weight reduction on chassis and lid. Shrink wall thickness to 0.125",
+        leave ribs on base for stiffness
     -   leave sealing flange and ribs on lid
     -   leave connector sides full thickness
 
@@ -282,7 +318,8 @@ conversion, truncation or zero fill is applied. Quoting from the I2S spec:
 
 ## Acknowledgements
 
-I2S to parallel VHDL from [opencores](https://opencores.org/project/i2s_to_parallel) released under GPL
+I2S to parallel VHDL from
+[opencores](https://opencores.org/project/i2s_to_parallel) released under GPL
 
 I2C slave VHDL in submodule from
 [here](https://github.com/sww1235/FPGA-I2C-Slave) which was [forked from
