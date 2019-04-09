@@ -88,6 +88,14 @@ through the power distribution box.
 Standardize the interface between mux board and interface. See Interface Specs
 Below for details.
 
+Two different overall types of device: Headset and Device.
+
+The Headset type includes headphones or earbuds that will be connected to the HP
+terminals on the TLV320AIC3206. The device type has line outputs. All line
+inputs need to be level adjusted with an adjustable pad as seen below. Mics
+should be biased as necessary on the interface board and not expect biasing from
+the TLV320AIC3206.
+
 In general, each interface board has an I2C IO expander and an ID resistor in
 order to determine type, and set up the appropriate control logic in the
 microprocessor and FPGA, as well as determine the appropriate audio levels for
