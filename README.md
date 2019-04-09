@@ -119,12 +119,12 @@ Connector pinout:
 
 | Pin | Signal      |
 |:----|:------------|
-| 1   | GND         |
+| 1   | Audio GND   |
 | 2   | L Audio IN  |
 | 3   | R Audio IN  |
 | 4   | L Audio OUT |
 | 5   | R Audio OUT |
-| 6   | Audio GND   |
+| 6   | GND         |
 | 7   | SDA_HV      |
 | 8   | SCL_HV      |
 | 9   |             |
