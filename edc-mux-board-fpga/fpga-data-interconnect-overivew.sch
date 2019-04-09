@@ -144,4 +144,34 @@ F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 5300 7550 50  0001 C CN
 	1    5350 6450
 	1    0    0    -1  
 $EndComp
+$Comp
+L SW-Texas:TCA9548A U?
+U 1 1 5CDE50BB
+P 5400 8600
+F 0 "U?" H 5200 9450 60  0000 C CNN
+F 1 "TCA9548A" H 5350 7750 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5550 10300 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 5500 10400 60  0001 C CNN
+F 4 "Texas Instruments" H 5450 10500 60  0001 C CNN "Manufacturer"
+F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 5550 10600 60  0001 C CNN "Description"
+F 6 "TSSOP24" H 5650 10700 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 5500 10800 60  0001 C CNN "Pricing"
+	1    5400 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-Texas:TCA9548A U?
+U 1 1 5CDE5FBD
+P 6950 8800
+F 0 "U?" H 6750 9650 60  0000 C CNN
+F 1 "TCA9548A" H 6900 7950 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 7100 10500 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 7050 10600 60  0001 C CNN
+F 4 "Texas Instruments" H 7000 10700 60  0001 C CNN "Manufacturer"
+F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 7100 10800 60  0001 C CNN "Description"
+F 6 "TSSOP24" H 7200 10900 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 7050 11000 60  0001 C CNN "Pricing"
+	1    6950 8800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
