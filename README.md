@@ -49,6 +49,9 @@ chip (probably Wiznet W5500).
 Use  TLV320AIC3206 from TI for the headset connections. (Integrated stereo
 headphone amplifier along with ADC for mic).
 
+Use MAX4910 4PDT beyond the rail switch to switch between headphone and line out
+on the CODEC. Use
+
 Use Master clock with clock buffers to provide MCLK for CODECs, and FPGA.
 Additionally, use to clock microprocessor. Might have to use multi output clock
 generator to run both wiznet chip and others off one generator.
