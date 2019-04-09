@@ -4,4 +4,6 @@
   (lib (name SW-SiTime)(type Legacy)(uri ${KISWGITHUB}/SW-SiTime.lib)(options "")(descr ""))
   (lib (name SW-Wiznet)(type Legacy)(uri ${KISWGITHUB}/SW-Wiznet.lib)(options "")(descr ""))
   (lib (name SW-Microchip)(type Legacy)(uri ${KISWGITHUB}/SW-Microchip.lib)(options "")(descr ""))
+  (lib (name SW-dallas-semi-maxim)(type Legacy)(uri ${KISWGITHUB}/SW-dallas-semi-maxim.lib)(options "")(descr ""))
+  (lib (name SW-power)(type Legacy)(uri ${KISWGITHUB}/SW-power.lib)(options "")(descr ""))
 )
