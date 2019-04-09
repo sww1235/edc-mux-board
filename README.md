@@ -62,6 +62,9 @@ Best plan is to run all IO at 3.3V LVCMOS standard including clocks.
 
 CDCE706 clock generator with 6 independant outputs.
 
+P82B96 bidirectional i2c bus buffer and voltage converter, used for interfacing
+to device interface boards.
+
 Use SiTIME MEMS Oscillator SiT1602BI-71-33E-48.000000, connect to RefP input on
 clock generator
 
