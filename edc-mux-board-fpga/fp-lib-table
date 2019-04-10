@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name SW-Texas)(type KiCad)(uri ${KISWGITHUB}/SW-Texas.pretty)(options "")(descr ""))
   (lib (name SW-Intel)(type KiCad)(uri ${KISWGITHUB}/SW-Intel.pretty)(options "")(descr ""))
+  (lib (name SW-WIMA)(type KiCad)(uri ${KISWGITHUB}/SW-WIMA.pretty)(options "")(descr ""))
 )
