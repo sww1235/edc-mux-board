@@ -15,68 +15,68 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW-Texas:TLV320AIC3206 U?
-U 1 1 5CF63D1A
+L SW-Texas:TLV320AIC3206 U8
+U 1 1 5CE6F2E7
 P 6150 3950
-F 0 "U?" H 6600 2900 50  0000 C CNN
+F 0 "U8" H 6600 2900 50  0000 C CNN
 F 1 "TLV320AIC3206" H 5650 5000 50  0000 C CNN
 F 2 "Package_DFN_QFN:UQFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm_ThermalVias" H 6200 5350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tlv320aic3206.pdf" H 7300 4500 50  0001 C CNN
 F 4 "TLV320AIC3206" H 6150 3950 50  0001 C CNN "Manufacturers Part Number"
 	1    6150 3950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x12 J?
-U 1 1 5CF63D20
+L Connector_Generic:Conn_01x12 J2
+U 1 1 5CE6F2F9
 P 700 3400
-F 0 "J?" H 600 4150 50  0000 C CNN
+F 0 "J2" H 600 4150 50  0000 C CNN
 F 1 "Device 0" H 600 4050 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 700 3400 50  0001 C CNN
 F 3 "~" H 700 3400 50  0001 C CNN
 	1    700  3400
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63D26
+L Device:C_Small C4
+U 1 1 5CE6F309
 P 6150 2700
-F 0 "C?" V 5900 2700 50  0000 C CNN
+F 0 "C4" V 5900 2700 50  0000 C CNN
 F 1 "2.2uF X7R" V 6000 2700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6150 2700 50  0001 C CNN
 F 3 "~" H 6150 2700 50  0001 C CNN
 	1    6150 2700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6050 2800 6050 2700
 Wire Wire Line
 	6250 2800 6250 2700
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63D2E
+L Device:C_Small C23
+U 1 1 5CE6F311
 P 7000 4800
-F 0 "C?" V 6750 4800 50  0000 C CNN
+F 0 "C23" V 6750 4800 50  0000 C CNN
 F 1 "2.2uF X7R" V 6850 4800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7000 4800 50  0001 C CNN
 F 3 "~" H 7000 4800 50  0001 C CNN
 	1    7000 4800
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6900 4650 7000 4650
 Wire Wire Line
 	7000 4650 7000 4700
 $Comp
-L power:GND #PWR?
-U 1 1 5CF63D36
+L power:GND #PWR023
+U 1 1 5CE6F323
 P 6700 5300
-F 0 "#PWR?" H 6700 5050 50  0001 C CNN
+F 0 "#PWR023" H 6700 5050 50  0001 C CNN
 F 1 "GND" H 6700 5150 50  0000 C CNN
 F 2 "" H 6700 5300 50  0001 C CNN
 F 3 "" H 6700 5300 50  0001 C CNN
 	1    6700 5300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5900 5100 5900 5200
@@ -115,15 +115,15 @@ Connection ~ 6400 5200
 Wire Wire Line
 	6400 5200 6700 5200
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63D51
+L Device:C_Small C22
+U 1 1 5CE6F329
 P 5350 4800
-F 0 "C?" H 5450 4750 50  0000 L CNN
+F 0 "C22" H 5450 4750 50  0000 L CNN
 F 1 "1uF" H 5450 4800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5350 4800 50  0001 C CNN
 F 3 "~" H 5350 4800 50  0001 C CNN
 	1    5350 4800
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5400 4650 5350 4650
@@ -137,41 +137,41 @@ Connection ~ 5900 5200
 Text Label 9800 4050 0    50   ~ 0
 AUD_GND
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63D5D
+L Device:C_Small C8
+U 1 1 5CE6F340
 P 3200 3100
-F 0 "C?" V 3350 3100 50  0000 C CNN
+F 0 "C8" V 3350 3100 50  0000 C CNN
 F 1 "1uF" V 3450 3100 50  0000 C CNN
 F 2 "SW-WIMA:2220_film_cap" H 3200 3100 50  0001 C CNN
 F 3 "~" H 3200 3100 50  0001 C CNN
 F 4 "Wima" H 3200 3100 50  0001 C CNN "Manufacturer"
 F 5 "SMDTC04100QB00KP00" H 3200 3100 50  0001 C CNN "Manufacturers Part Number"
 	1    3200 3100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text Notes 3200 2800 0    50   ~ 0
 Due to high input resistance (see datasheet)\nthese caps can be much smaller than normal\nStill use film caps for decoupling
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63D64
+L Device:C_Small C14
+U 1 1 5CE6F348
 P 4900 3600
-F 0 "C?" H 5000 3550 50  0000 L CNN
+F 0 "C14" H 5000 3550 50  0000 L CNN
 F 1 "100nF" H 5000 3600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4900 3600 50  0001 C CNN
 F 3 "~" H 4900 3600 50  0001 C CNN
 	1    4900 3600
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63D6A
+L Device:C_Small C15
+U 1 1 5CE6F363
 P 5100 3600
-F 0 "C?" H 5000 3550 50  0000 R CNN
+F 0 "C15" H 5000 3550 50  0000 R CNN
 F 1 "100nF" H 5000 3600 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 3600 50  0001 C CNN
 F 3 "~" H 5100 3600 50  0001 C CNN
 	1    5100 3600
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5400 3350 5350 3350
@@ -196,15 +196,15 @@ Wire Wire Line
 	5350 3550 5350 3500
 Connection ~ 5350 3500
 $Comp
-L power:GND #PWR?
-U 1 1 5CF63D7C
+L power:GND #PWR018
+U 1 1 5CE6F368
 P 4500 3800
-F 0 "#PWR?" H 4500 3550 50  0001 C CNN
+F 0 "#PWR018" H 4500 3550 50  0001 C CNN
 F 1 "GND" H 4500 3650 50  0000 C CNN
 F 2 "" H 4500 3800 50  0001 C CNN
 F 3 "" H 4500 3800 50  0001 C CNN
 	1    4500 3800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4900 3700 4900 3750
@@ -223,16 +223,16 @@ Wire Wire Line
 Wire Wire Line
 	9600 3850 9800 3850
 $Comp
-L SW-dallas-semi-maxim:MAX4910 U?
-U 1 1 5CF63D8C
+L SW-dallas-semi-maxim:MAX4910 U7
+U 1 1 5CE6F375
 P 9250 3900
-F 0 "U?" H 9450 3350 50  0000 C CNN
+F 0 "U7" H 9450 3350 50  0000 C CNN
 F 1 "MAX4910" H 8900 3900 50  0000 C CNN
 F 2 "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm" H 10900 5050 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4910-MAX4912.pdf" H 9300 3700 50  0001 C CNN
 F 4 "MAX4910" H 9250 3900 50  0001 C CNN "Manufacturers Part Number"
 	1    9250 3900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2900 3000 1550 3000
@@ -273,23 +273,23 @@ Wire Wire Line
 Wire Wire Line
 	8700 4000 8700 4800
 $Comp
-L power:GND #PWR?
-U 1 1 5CF63DA6
+L power:GND #PWR022
+U 1 1 5CE6F387
 P 8700 4950
-F 0 "#PWR?" H 8700 4700 50  0001 C CNN
+F 0 "#PWR022" H 8700 4700 50  0001 C CNN
 F 1 "GND" H 8700 4800 50  0000 C CNN
 F 2 "" H 8700 4950 50  0001 C CNN
 F 3 "" H 8700 4950 50  0001 C CNN
 	1    8700 4950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9600 4050 9800 4050
 $Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5CF63DB0
+L Device:Ferrite_Bead_Small FB6
+U 1 1 5CE6F39A
 P 7500 4700
-F 0 "FB?" H 7575 4750 50  0000 L CNN
+F 0 "FB6" H 7575 4750 50  0000 L CNN
 F 1 "220Ω/2A" H 7575 4650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7430 4700 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz1608_en.pdf" H 7500 4700 50  0001 C CNN
@@ -297,7 +297,7 @@ F 4 "TDK" H 7500 4700 50  0001 C CNN "Manufacturer"
 F 5 "0603" H 7500 4700 50  0001 C CNN "Package ID"
 F 6 "MPZ1608S221A" H 7500 4700 50  0001 C CNN "Manufacturers Part Number"
 	1    7500 4700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7500 4550 7500 4600
@@ -316,30 +316,30 @@ DOUT
 Wire Wire Line
 	4700 3150 5400 3150
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63DBF
+L Device:C_Small C11
+U 1 1 5CE6F3AC
 P 4500 3300
-F 0 "C?" H 4600 3250 50  0000 L CNN
+F 0 "C11" H 4600 3250 50  0000 L CNN
 F 1 "33pF" H 4600 3300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4500 3300 50  0001 C CNN
 F 3 "~" H 4500 3300 50  0001 C CNN
 	1    4500 3300
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3100 3000 4500 3000
 Wire Wire Line
 	3300 3100 4700 3100
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63DC7
+L Device:C_Small C12
+U 1 1 5CE6F3B7
 P 4700 3300
-F 0 "C?" H 4600 3250 50  0000 R CNN
+F 0 "C12" H 4600 3250 50  0000 R CNN
 F 1 "33pF" H 4600 3300 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4700 3300 50  0001 C CNN
 F 3 "~" H 4700 3300 50  0001 C CNN
 	1    4700 3300
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4500 3200 4500 3000
@@ -384,27 +384,27 @@ Power up sequence:\n1: Vsys\n2: IOVdd\n3: DVdd\n4: DVdd_CP\n5: AVdd\n6: DRVdd_HP
 Wire Wire Line
 	6900 3550 7450 3550
 $Comp
-L SW-power:+1V8A #+1V8A?
-U 1 1 5CF63DE5
+L SW-power:+1V8A #+1V8A02
+U 1 1 5CE6F3C8
 P 7700 2650
-F 0 "#+1V8A?" H 8450 2350 60  0001 C CNN
+F 0 "#+1V8A02" H 8450 2350 60  0001 C CNN
 F 1 "+1V8A" H 7700 2850 50  0000 C CNN
 F 2 "" H 7700 2650 60  0001 C CNN
 F 3 "" H 7700 2650 60  0001 C CNN
 F 4 "0.00@0" H 7800 3100 60  0001 C CNN "Pricing"
 	1    7700 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V8 #PWR?
-U 1 1 5CF63DEB
+L power:+1V8 #PWR014
+U 1 1 5CE6F3D1
 P 7450 2650
-F 0 "#PWR?" H 7450 2500 50  0001 C CNN
+F 0 "#PWR014" H 7450 2500 50  0001 C CNN
 F 1 "+1V8" H 7450 2790 50  0000 C CNN
 F 2 "" H 7450 2650 50  0001 C CNN
 F 3 "" H 7450 2650 50  0001 C CNN
 	1    7450 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 3050 7450 3050
@@ -425,47 +425,47 @@ Connection ~ 7700 3350
 Wire Wire Line
 	7700 3350 7700 3450
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5CF63DFB
+L power:+3V3 #PWR013
+U 1 1 5CE6F3E5
 P 7200 2650
-F 0 "#PWR?" H 7200 2500 50  0001 C CNN
+F 0 "#PWR013" H 7200 2500 50  0001 C CNN
 F 1 "+3V3" H 7200 2790 50  0000 C CNN
 F 2 "" H 7200 2650 50  0001 C CNN
 F 3 "" H 7200 2650 50  0001 C CNN
 	1    7200 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 3150 7200 3150
 Wire Wire Line
 	7200 3150 7200 2900
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63E03
+L Device:C_Small C17
+U 1 1 5CE6F3F4
 P 7700 3750
-F 0 "C?" H 7800 3650 50  0000 R CNN
+F 0 "C17" H 7800 3650 50  0000 R CNN
 F 1 "1uF" H 7850 3850 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7700 3750 50  0001 C CNN
 F 3 "~" H 7700 3750 50  0001 C CNN
 	1    7700 3750
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5CF63E09
+L power:GND #PWR019
+U 1 1 5CE6F403
 P 7600 3950
-F 0 "#PWR?" H 7600 3700 50  0001 C CNN
+F 0 "#PWR019" H 7600 3700 50  0001 C CNN
 F 1 "GND" H 7600 3800 50  0000 C CNN
 F 2 "" H 7600 3950 50  0001 C CNN
 F 3 "" H 7600 3950 50  0001 C CNN
 	1    7600 3950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63E0F
+L Device:C_Small C18
+U 1 1 5CE6F40F
 P 7850 3750
-F 0 "C?" H 7750 3700 50  0000 R CNN
+F 0 "C18" H 7750 3700 50  0000 R CNN
 F 1 "10uF" H 7750 3750 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 7850 3750 50  0001 C CNN
 F 3 "~" H 7850 3750 50  0001 C CNN
@@ -473,18 +473,18 @@ F 4 "Kemet" H 8000 2900 50  0001 C CNN "Manufacturer"
 F 5 "0603in/1608mm" H 8000 2900 50  0001 C CNN "Package ID"
 F 6 "C1206C106J3RACAUTO" H 8000 2900 50  0001 C CNN "Manufacturers Part Number"
 	1    7850 3750
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63E15
+L Device:C_Small C16
+U 1 1 5CE6F425
 P 7450 3750
-F 0 "C?" H 7600 3650 50  0000 R CNN
+F 0 "C16" H 7600 3650 50  0000 R CNN
 F 1 "100nF" V 7550 3950 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7450 3750 50  0001 C CNN
 F 3 "~" H 7450 3750 50  0001 C CNN
 	1    7450 3750
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7450 3550 7450 3650
@@ -523,21 +523,21 @@ Connection ~ 7600 3900
 Wire Wire Line
 	7600 3900 7700 3900
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63E30
+L Device:C_Small C5
+U 1 1 5CE6F42F
 P 8000 2700
-F 0 "C?" H 8150 2600 50  0000 R CNN
+F 0 "C5" H 8150 2600 50  0000 R CNN
 F 1 "100nF" V 8100 2900 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8000 2700 50  0001 C CNN
 F 3 "~" H 8000 2700 50  0001 C CNN
 	1    8000 2700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63E36
+L Device:C_Small C6
+U 1 1 5CE6F439
 P 8000 2900
-F 0 "C?" H 7900 3000 50  0000 C CNN
+F 0 "C6" H 7900 3000 50  0000 C CNN
 F 1 "10uF" V 7900 2850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8000 2900 50  0001 C CNN
 F 3 "~" H 8000 2900 50  0001 C CNN
@@ -545,7 +545,7 @@ F 4 "Kemet" H 8000 2900 50  0001 C CNN "Manufacturer"
 F 5 "0603in/1608mm" H 8000 2900 50  0001 C CNN "Package ID"
 F 6 "C1206C106J3RACAUTO" H 8000 2900 50  0001 C CNN "Manufacturers Part Number"
 	1    8000 2900
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7200 2900 7900 2900
@@ -558,15 +558,15 @@ Connection ~ 7200 2700
 Wire Wire Line
 	7200 2700 7200 2650
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63E42
+L Device:C_Small C9
+U 1 1 5CE6F451
 P 8000 3100
-F 0 "C?" H 8150 3000 50  0000 R CNN
+F 0 "C9" H 8150 3000 50  0000 R CNN
 F 1 "100nF" V 8100 3300 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8000 3100 50  0001 C CNN
 F 3 "~" H 8000 3100 50  0001 C CNN
 	1    8000 3100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7450 3100 7850 3100
@@ -574,15 +574,15 @@ Connection ~ 7450 3100
 Wire Wire Line
 	7450 3100 7450 3050
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63E4B
+L Device:C_Small C13
+U 1 1 5CE6F456
 P 8000 3300
-F 0 "C?" H 8150 3200 50  0000 R CNN
+F 0 "C13" H 8150 3200 50  0000 R CNN
 F 1 "100nF" V 8100 3500 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8000 3300 50  0001 C CNN
 F 3 "~" H 8000 3300 50  0001 C CNN
 	1    8000 3300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7850 3100 7850 3300
@@ -673,26 +673,26 @@ NoConn ~ 8900 4250
 NoConn ~ 8900 4350
 NoConn ~ 9600 4300
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63E8E
+L Device:C_Small C10
+U 1 1 5CE6F46F
 P 8950 3150
-F 0 "C?" H 9100 3050 50  0000 R CNN
+F 0 "C10" H 9100 3050 50  0000 R CNN
 F 1 "100nF" V 9050 3350 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 3150 50  0001 C CNN
 F 3 "~" H 8950 3150 50  0001 C CNN
 	1    8950 3150
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5CF63E94
+L power:+3V3 #PWR015
+U 1 1 5CE6F47E
 P 9250 2900
-F 0 "#PWR?" H 9250 2750 50  0001 C CNN
+F 0 "#PWR015" H 9250 2750 50  0001 C CNN
 F 1 "+3V3" H 9250 3040 50  0000 C CNN
 F 2 "" H 9250 2900 50  0001 C CNN
 F 3 "" H 9250 2900 50  0001 C CNN
 	1    9250 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9050 3150 9250 3150
@@ -716,26 +716,26 @@ Connection ~ 9200 4800
 Wire Wire Line
 	9200 4800 9300 4800
 $Comp
-L Interface_Expansion:P82B96 U?
-U 1 1 5CF63EA6
+L Interface_Expansion:P82B96 U9
+U 1 1 5CE6F489
 P 3550 4850
-F 0 "U?" H 3050 5350 50  0000 L CNN
+F 0 "U9" H 3050 5350 50  0000 L CNN
 F 1 "P82B96" H 3750 5350 50  0000 L CNN
 F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 3550 4850 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/P82B96.pdf" H 3550 4850 50  0001 C CNN
 	1    3550 4850
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
-U 1 1 5CF63EAC
+L power:+12V #PWR017
+U 1 1 5CE6F490
 P 2500 3800
-F 0 "#PWR?" H 2500 3650 50  0001 C CNN
+F 0 "#PWR017" H 2500 3650 50  0001 C CNN
 F 1 "+12V" H 2500 3940 50  0000 C CNN
 F 2 "" H 2500 3800 50  0001 C CNN
 F 3 "" H 2500 3800 50  0001 C CNN
 	1    2500 3800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 9900 3900 0    50   ~ 0
 HP_~LINE~_SEL
@@ -753,17 +753,17 @@ SDA
 Text Notes 4400 4100 2    50   ~ 0
 HP_~LINE~_SEL controls whether\nL_OUT and R_OUT are connected\nto line out or HP out terminals on\nCODEC
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63EBA
+L Device:C_Small C7
+U 1 1 5CE6F4A7
 P 3000 3000
-F 0 "C?" V 2750 3000 50  0000 C CNN
+F 0 "C7" V 2750 3000 50  0000 C CNN
 F 1 "1uF" V 2850 3000 50  0000 C CNN
 F 2 "SW-WIMA:2220_film_cap" H 3000 3000 50  0001 C CNN
 F 3 "~" H 3000 3000 50  0001 C CNN
 F 4 "SMDTC04100QB00KP00" H 3000 3000 50  0001 C CNN "Manufacturers Part Number"
 F 5 "Wima" H 3000 3000 50  0001 C CNN "Manufacturer"
 	1    3000 3000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text Notes 5150 5550 2    50   ~ 0
 I2C Address Summary:\nCODEC: 0011000 \nMore than 1 P82B96 cannot be on the same circuit
@@ -780,15 +780,15 @@ Wire Wire Line
 Wire Wire Line
 	2800 5150 2950 5150
 $Comp
-L power:GND #PWR?
-U 1 1 5CF63EC9
+L power:GND #PWR016
+U 1 1 5CE6F4BB
 P 2250 3500
-F 0 "#PWR?" H 2250 3250 50  0001 C CNN
+F 0 "#PWR016" H 2250 3250 50  0001 C CNN
 F 1 "GND" H 2250 3350 50  0000 C CNN
 F 2 "" H 2250 3500 50  0001 C CNN
 F 3 "" H 2250 3500 50  0001 C CNN
 	1    2250 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	900  3400 2250 3400
@@ -813,26 +813,26 @@ Connection ~ 2850 4650
 Wire Wire Line
 	2850 4650 2850 4750
 $Comp
-L Device:R_Small_US R?
-U 1 1 5CF63EDB
+L Device:R_Small_US R14
+U 1 1 5CE6F4C1
 P 2650 4450
-F 0 "R?" H 2750 4500 50  0000 L CNN
+F 0 "R14" H 2750 4500 50  0000 L CNN
 F 1 "750Ω" H 2750 4450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2650 4450 50  0001 C CNN
 F 3 "~" H 2650 4450 50  0001 C CNN
 	1    2650 4450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
-U 1 1 5CF63EE1
+L Device:R_Small_US R15
+U 1 1 5CE6F4D0
 P 2500 4850
-F 0 "R?" H 2600 4900 50  0000 L CNN
+F 0 "R15" H 2600 4900 50  0000 L CNN
 F 1 "750Ω" H 2600 4850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2500 4850 50  0001 C CNN
 F 3 "~" H 2500 4850 50  0001 C CNN
 	1    2500 4850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2500 4950 2500 5050
@@ -851,15 +851,15 @@ Connection ~ 2650 4650
 Wire Wire Line
 	2650 4650 2850 4650
 $Comp
-L power:+12V #PWR?
-U 1 1 5CF63EF4
+L power:+12V #PWR020
+U 1 1 5CE6F4E1
 P 4200 4300
-F 0 "#PWR?" H 4200 4150 50  0001 C CNN
+F 0 "#PWR020" H 4200 4150 50  0001 C CNN
 F 1 "+12V" H 4200 4440 50  0000 C CNN
 F 2 "" H 4200 4300 50  0001 C CNN
 F 3 "" H 4200 4300 50  0001 C CNN
 	1    4200 4300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4200 4300 4200 4550
@@ -876,15 +876,15 @@ Wire Wire Line
 Wire Wire Line
 	4150 4950 4350 4950
 $Comp
-L Device:C_Small C?
-U 1 1 5CF63F03
+L Device:C_Small C21
+U 1 1 5CE6F4F3
 P 4650 4550
-F 0 "C?" V 4500 4550 50  0000 C CNN
+F 0 "C21" V 4500 4550 50  0000 C CNN
 F 1 "100nF" V 4400 4550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 4550 50  0001 C CNN
 F 3 "~" H 4650 4550 50  0001 C CNN
 	1    4650 4550
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4150 4550 4200 4550
@@ -906,15 +906,15 @@ ID_PIN
 Wire Wire Line
 	900  3900 1850 3900
 $Comp
-L Device:Polyfuse_Small F?
-U 1 1 5CBE0C87
+L Device:Polyfuse_Small F1
+U 1 1 5CE6F20C
 P 2200 4000
-F 0 "F?" V 1950 4000 50  0000 C CNN
+F 0 "F1" V 1950 4000 50  0000 C CNN
 F 1 "1A" V 2050 4000 50  0000 C CNN
 F 2 "Fuse:Fuse_0603_1608Metric" H 2250 3800 50  0001 L CNN
 F 3 "~" H 2200 4000 50  0001 C CNN
 	1    2200 4000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2300 4000 2500 4000
@@ -923,10 +923,10 @@ NoConn ~ 900  3800
 Wire Wire Line
 	1350 3000 1250 3000
 $Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5CC311C0
+L Device:Ferrite_Bead_Small FB3
+U 1 1 5CE6F237
 P 1850 3100
-F 0 "FB?" V 1600 3100 50  0000 C CNN
+F 0 "FB3" V 1600 3100 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 1700 3100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" V 1780 3100 50  0001 C CNN
 F 3 "~" H 1850 3100 50  0001 C CNN
@@ -934,15 +934,15 @@ F 4 "Murata" H 1850 3100 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1850 3100 50  0001 C CNN "Package ID"
 F 6 "BLM21AG601BH1" H 1850 3100 50  0001 C CNN "Manufacturers Part Number"
 	1    1850 3100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1950 3100 3100 3100
 $Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5CC47877
+L Device:Ferrite_Bead_Small FB4
+U 1 1 5CE6F240
 P 2250 3200
-F 0 "FB?" V 2000 3200 50  0000 C CNN
+F 0 "FB4" V 2000 3200 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 2100 3200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" V 2180 3200 50  0001 C CNN
 F 3 "~" H 2250 3200 50  0001 C CNN
@@ -950,15 +950,15 @@ F 4 "Murata" H 2250 3200 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 2250 3200 50  0001 C CNN "Package ID"
 F 6 "BLM21AG601BH1" H 2250 3200 50  0001 C CNN "Manufacturers Part Number"
 	1    2250 3200
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2350 3200 2800 3200
 $Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5CC47CC8
+L Device:Ferrite_Bead_Small FB5
+U 1 1 5CE6F24D
 P 2650 3300
-F 0 "FB?" V 2400 3300 50  0000 C CNN
+F 0 "FB5" V 2400 3300 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 2500 3300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" V 2580 3300 50  0001 C CNN
 F 3 "~" H 2650 3300 50  0001 C CNN
@@ -966,17 +966,17 @@ F 4 "Murata" H 2650 3300 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 2650 3300 50  0001 C CNN "Package ID"
 F 6 "BLM21AG601BH1" H 2650 3300 50  0001 C CNN "Manufacturers Part Number"
 	1    2650 3300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2750 3300 2800 3300
 Wire Wire Line
 	900  3100 1400 3100
 $Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5CC306BC
+L Device:Ferrite_Bead_Small FB2
+U 1 1 5CE6F21D
 P 1450 3000
-F 0 "FB?" V 1200 3000 50  0000 C CNN
+F 0 "FB2" V 1200 3000 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 1300 3000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" V 1380 3000 50  0001 C CNN
 F 3 "~" H 1450 3000 50  0001 C CNN
@@ -984,7 +984,7 @@ F 4 "Murata" H 1450 3000 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1450 3000 50  0001 C CNN "Package ID"
 F 6 "BLM21AG601BH1" H 1450 3000 50  0001 C CNN "Manufacturers Part Number"
 	1    1450 3000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text Label 1100 2800 1    50   ~ 0
 AUD_GND
@@ -995,10 +995,10 @@ Wire Wire Line
 Text Notes 1350 2650 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
-L Device:D_TVS D?
-U 1 1 5CCC4F5F
+L Device:D_TVS D2
+U 1 1 5CE6F261
 P 1250 4250
-F 0 "D?" V 1100 4200 50  0000 R CNN
+F 0 "D2" V 1100 4200 50  0000 R CNN
 F 1 "30pF 30kV" V 1400 4650 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 1250 4250 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1250 4250 50  0001 C CNN
@@ -1008,13 +1008,13 @@ F 6 "Transient Voltage Suppresion Diode" H 1250 4250 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 1250 4250 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 1250 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    1250 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D?
-U 1 1 5CCD47CE
+L Device:D_TVS D3
+U 1 1 5CE6F26C
 P 1400 4250
-F 0 "D?" V 1250 4150 50  0000 L CNN
+F 0 "D3" V 1250 4150 50  0000 L CNN
 F 1 "30pF 30kV" V 1400 4350 50  0001 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 1400 4250 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1400 4250 50  0001 C CNN
@@ -1024,13 +1024,13 @@ F 6 "Transient Voltage Suppresion Diode" H 1400 4250 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 1400 4250 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 1400 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    1400 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D?
-U 1 1 5CCD4AD9
+L Device:D_TVS D4
+U 1 1 5CE6F282
 P 1550 4250
-F 0 "D?" V 1400 4150 50  0000 L CNN
+F 0 "D4" V 1400 4150 50  0000 L CNN
 F 1 "30pF 30kV" V 1550 4350 50  0001 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 1550 4250 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1550 4250 50  0001 C CNN
@@ -1040,13 +1040,13 @@ F 6 "Transient Voltage Suppresion Diode" H 1550 4250 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 1550 4250 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 1550 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    1550 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D?
-U 1 1 5CCD5004
+L Device:D_TVS D5
+U 1 1 5CE6F284
 P 1700 4250
-F 0 "D?" V 1550 4150 50  0000 L CNN
+F 0 "D5" V 1550 4150 50  0000 L CNN
 F 1 "30pF 30kV" V 1700 4350 50  0001 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 1700 4250 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1700 4250 50  0001 C CNN
@@ -1056,13 +1056,13 @@ F 6 "Transient Voltage Suppresion Diode" H 1700 4250 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 1700 4250 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 1700 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    1700 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D?
-U 1 1 5CCE0C5E
+L Device:D_TVS D6
+U 1 1 5CE6F296
 P 1850 4250
-F 0 "D?" V 1700 4150 50  0000 L CNN
+F 0 "D6" V 1700 4150 50  0000 L CNN
 F 1 "30pF 30kV" V 1850 4350 50  0001 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 1850 4250 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1850 4250 50  0001 C CNN
@@ -1072,7 +1072,7 @@ F 6 "Transient Voltage Suppresion Diode" H 1850 4250 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 1850 4250 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 1850 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    1850 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2400 4650 2650 4650
@@ -1108,21 +1108,21 @@ Connection ~ 1850 3900
 Wire Wire Line
 	1850 3900 1950 3900
 $Comp
-L power:GND #PWR?
-U 1 1 5CDA48B3
+L power:GND #PWR021
+U 1 1 5CE6F2A6
 P 1250 4650
-F 0 "#PWR?" H 1250 4400 50  0001 C CNN
+F 0 "#PWR021" H 1250 4400 50  0001 C CNN
 F 1 "GND" H 1250 4500 50  0000 C CNN
 F 2 "" H 1250 4650 50  0001 C CNN
 F 3 "" H 1250 4650 50  0001 C CNN
 	1    1250 4650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_TVS D?
+L Device:D_TVS D7
 U 1 1 5CDA4C87
 P 2000 4250
-F 0 "D?" V 1950 4350 50  0000 L CNN
+F 0 "D7" V 1950 4350 50  0000 L CNN
 F 1 "12V_Vrso" V 2000 4350 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 2000 4250 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 2000 4250 50  0001 C CNN
@@ -1130,7 +1130,7 @@ F 4 "Littelfuse" H 2000 4250 50  0001 C CNN "Manufacturer"
 F 5 "Transient Voltage Suppresion Diode" H 2000 4250 50  0001 C CNN "Description"
 F 6 "SMAJ12CA" H 2000 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    2000 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2000 4100 2000 4000
@@ -1167,29 +1167,29 @@ Connection ~ 1850 4550
 Wire Wire Line
 	1850 4550 1700 4550
 $Comp
-L Device:C_Small C?
-U 1 1 5CE3A1AD
+L Device:C_Small C19
+U 1 1 5CE6F2C0
 P 7100 4150
-F 0 "C?" V 7250 4150 50  0000 C CNN
+F 0 "C19" V 7250 4150 50  0000 C CNN
 F 1 "1uF" V 7350 4150 50  0000 C CNN
 F 2 "SW-WIMA:2220_film_cap" H 7100 4150 50  0001 C CNN
 F 3 "~" H 7100 4150 50  0001 C CNN
 F 4 "Wima" H 7100 4150 50  0001 C CNN "Manufacturer"
 F 5 "SMDTC04100QB00KP00" H 7100 4150 50  0001 C CNN "Manufacturers Part Number"
 	1    7100 4150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5CE581BF
+L Device:C_Small C20
+U 1 1 5CE6F2D4
 P 7350 4250
-F 0 "C?" V 7500 4250 50  0000 C CNN
+F 0 "C20" V 7500 4250 50  0000 C CNN
 F 1 "1uF" V 7600 4250 50  0000 C CNN
 F 2 "SW-WIMA:2220_film_cap" H 7350 4250 50  0001 C CNN
 F 3 "~" H 7350 4250 50  0001 C CNN
 F 4 "Wima" H 7350 4250 50  0001 C CNN "Manufacturer"
 F 5 "SMDTC04100QB00KP00" H 7350 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    7350 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
