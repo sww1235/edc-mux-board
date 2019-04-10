@@ -32,7 +32,7 @@ U 1 1 5CF63D20
 P 700 3400
 F 0 "J?" H 600 4150 50  0000 C CNN
 F 1 "Device 15" H 600 4050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 700 3400 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 700 3400 50  0001 C CNN
 F 3 "~" H 700 3400 50  0001 C CNN
 	1    700  3400
 	-1   0    0    -1
