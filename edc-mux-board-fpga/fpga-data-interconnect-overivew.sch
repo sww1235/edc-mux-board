@@ -292,8 +292,8 @@ U 1 1 5CB315C0
 P 4600 4900
 AR Path="/5CB315C0" Ref="U?"  Part="1" 
 AR Path="/5CC3E5DC/5CB315C0" Ref="U?"  Part="1" 
-AR Path="/5CC6CC1A/5CB315C0" Ref="U3"  Part="1" 
-F 0 "U3" H 4600 5700 50  0000 C CNN
+AR Path="/5CC6CC1A/5CB315C0" Ref="U?"  Part="1" 
+F 0 "U?" H 4600 5700 50  0000 C CNN
 F 1 "CDCLVC1108" H 4600 5600 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4800 5700 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 4550 6000 50  0001 C CNN
@@ -306,8 +306,8 @@ U 1 1 5CB315C6
 P 4450 6350
 AR Path="/5CB315C6" Ref="U?"  Part="1" 
 AR Path="/5CC3E5DC/5CB315C6" Ref="U?"  Part="1" 
-AR Path="/5CC6CC1A/5CB315C6" Ref="U4"  Part="1" 
-F 0 "U4" H 4450 7150 50  0000 C CNN
+AR Path="/5CC6CC1A/5CB315C6" Ref="U?"  Part="1" 
+F 0 "U?" H 4450 7150 50  0000 C CNN
 F 1 "CDCLVC1108" H 4450 7050 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4650 7150 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 4400 7450 50  0001 C CNN
