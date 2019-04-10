@@ -45,6 +45,7 @@ F 0 "C4" V 5900 2700 50  0000 C CNN
 F 1 "2.2uF X7R" V 6000 2700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6150 2700 50  0001 C CNN
 F 3 "~" H 6150 2700 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    6150 2700
 	0    1    1    0   
 $EndComp
@@ -60,6 +61,7 @@ F 0 "C23" V 6750 4800 50  0000 C CNN
 F 1 "2.2uF X7R" V 6850 4800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7000 4800 50  0001 C CNN
 F 3 "~" H 7000 4800 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    7000 4800
 	-1   0    0    1   
 $EndComp
@@ -122,6 +124,9 @@ F 0 "C22" H 5450 4750 50  0000 L CNN
 F 1 "1uF" H 5450 4800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5350 4800 50  0001 C CNN
 F 3 "~" H 5350 4800 50  0001 C CNN
+F 4 "TDK" H 5350 4800 50  0001 C CNN "Manufacturer"
+F 5 "CGA3E1X7R1E105K080AC" H 5350 4800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    5350 4800
 	-1   0    0    1   
 $EndComp
@@ -142,15 +147,16 @@ U 1 1 5CE6F340
 P 3200 3100
 F 0 "C8" V 3350 3100 50  0000 C CNN
 F 1 "1uF" V 3450 3100 50  0000 C CNN
-F 2 "SW-WIMA:2220_film_cap" H 3200 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 3100 50  0001 C CNN
 F 3 "~" H 3200 3100 50  0001 C CNN
-F 4 "Wima" H 3200 3100 50  0001 C CNN "Manufacturer"
-F 5 "SMDTC04100QB00KP00" H 3200 3100 50  0001 C CNN "Manufacturers Part Number"
+F 4 "Kemet" H 3200 3100 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 3200 3100 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 0   0   50  0001 C CNN "Package ID"
 	1    3200 3100
 	0    1    1    0   
 $EndComp
 Text Notes 3200 2800 0    50   ~ 0
-Due to high input resistance (see datasheet)\nthese caps can be much smaller than normal\nStill use film caps for decoupling
+Due to high input resistance (see datasheet)\nthese caps can be much smaller than normal
 $Comp
 L Device:C_Small C14
 U 1 1 5CE6F348
@@ -159,6 +165,7 @@ F 0 "C14" H 5000 3550 50  0000 L CNN
 F 1 "100nF" H 5000 3600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4900 3600 50  0001 C CNN
 F 3 "~" H 4900 3600 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    4900 3600
 	-1   0    0    1   
 $EndComp
@@ -170,6 +177,7 @@ F 0 "C15" H 5000 3550 50  0000 R CNN
 F 1 "100nF" H 5000 3600 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 3600 50  0001 C CNN
 F 3 "~" H 5100 3600 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    5100 3600
 	-1   0    0    1   
 $EndComp
@@ -294,7 +302,7 @@ F 1 "220Ω/2A" H 7575 4650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7430 4700 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz1608_en.pdf" H 7500 4700 50  0001 C CNN
 F 4 "TDK" H 7500 4700 50  0001 C CNN "Manufacturer"
-F 5 "0603" H 7500 4700 50  0001 C CNN "Package ID"
+F 5 "0603in/1608mm" H 7500 4700 50  0001 C CNN "Package ID"
 F 6 "MPZ1608S221A" H 7500 4700 50  0001 C CNN "Manufacturers Part Number"
 	1    7500 4700
 	1    0    0    -1  
@@ -323,6 +331,7 @@ F 0 "C11" H 4600 3250 50  0000 L CNN
 F 1 "33pF" H 4600 3300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4500 3300 50  0001 C CNN
 F 3 "~" H 4500 3300 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    4500 3300
 	-1   0    0    1   
 $EndComp
@@ -338,6 +347,7 @@ F 0 "C12" H 4600 3250 50  0000 R CNN
 F 1 "33pF" H 4600 3300 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4700 3300 50  0001 C CNN
 F 3 "~" H 4700 3300 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    4700 3300
 	-1   0    0    1   
 $EndComp
@@ -447,6 +457,9 @@ F 0 "C17" H 7800 3650 50  0000 R CNN
 F 1 "1uF" H 7850 3850 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7700 3750 50  0001 C CNN
 F 3 "~" H 7700 3750 50  0001 C CNN
+F 4 "TDK" H 7700 3750 50  0001 C CNN "Manufacturer"
+F 5 "CGA3E1X7R1E105K080AC" H 7700 3750 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    7700 3750
 	-1   0    0    1   
 $EndComp
@@ -470,7 +483,7 @@ F 1 "10uF" H 7750 3750 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 7850 3750 50  0001 C CNN
 F 3 "~" H 7850 3750 50  0001 C CNN
 F 4 "Kemet" H 8000 2900 50  0001 C CNN "Manufacturer"
-F 5 "0603in/1608mm" H 8000 2900 50  0001 C CNN "Package ID"
+F 5 "1206in/3216mm" H 8000 2900 50  0001 C CNN "Package ID"
 F 6 "C1206C106J3RACAUTO" H 8000 2900 50  0001 C CNN "Manufacturers Part Number"
 	1    7850 3750
 	-1   0    0    1   
@@ -483,6 +496,7 @@ F 0 "C16" H 7600 3650 50  0000 R CNN
 F 1 "100nF" V 7550 3950 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7450 3750 50  0001 C CNN
 F 3 "~" H 7450 3750 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    7450 3750
 	-1   0    0    1   
 $EndComp
@@ -530,6 +544,7 @@ F 0 "C5" H 8150 2600 50  0000 R CNN
 F 1 "100nF" V 8100 2900 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8000 2700 50  0001 C CNN
 F 3 "~" H 8000 2700 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    8000 2700
 	0    1    1    0   
 $EndComp
@@ -542,7 +557,7 @@ F 1 "10uF" V 7900 2850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8000 2900 50  0001 C CNN
 F 3 "~" H 8000 2900 50  0001 C CNN
 F 4 "Kemet" H 8000 2900 50  0001 C CNN "Manufacturer"
-F 5 "0603in/1608mm" H 8000 2900 50  0001 C CNN "Package ID"
+F 5 "1206in/3216mm" H 8000 2900 50  0001 C CNN "Package ID"
 F 6 "C1206C106J3RACAUTO" H 8000 2900 50  0001 C CNN "Manufacturers Part Number"
 	1    8000 2900
 	0    -1   -1   0   
@@ -565,6 +580,7 @@ F 0 "C9" H 8150 3000 50  0000 R CNN
 F 1 "100nF" V 8100 3300 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8000 3100 50  0001 C CNN
 F 3 "~" H 8000 3100 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    8000 3100
 	0    1    1    0   
 $EndComp
@@ -581,6 +597,7 @@ F 0 "C13" H 8150 3200 50  0000 R CNN
 F 1 "100nF" V 8100 3500 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8000 3300 50  0001 C CNN
 F 3 "~" H 8000 3300 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    8000 3300
 	0    1    1    0   
 $EndComp
@@ -667,8 +684,6 @@ Wire Wire Line
 	7200 4150 8300 4150
 Wire Wire Line
 	7450 4250 8500 4250
-Text Notes 7400 4450 0    50   ~ 0
-use film caps for decoupling
 NoConn ~ 8900 4250
 NoConn ~ 8900 4350
 NoConn ~ 9600 4300
@@ -680,6 +695,7 @@ F 0 "C10" H 9100 3050 50  0000 R CNN
 F 1 "100nF" V 9050 3350 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 3150 50  0001 C CNN
 F 3 "~" H 8950 3150 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    8950 3150
 	0    -1   -1   0   
 $EndComp
@@ -758,10 +774,11 @@ U 1 1 5CE6F4A7
 P 3000 3000
 F 0 "C7" V 2750 3000 50  0000 C CNN
 F 1 "1uF" V 2850 3000 50  0000 C CNN
-F 2 "SW-WIMA:2220_film_cap" H 3000 3000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 3000 50  0001 C CNN
 F 3 "~" H 3000 3000 50  0001 C CNN
-F 4 "SMDTC04100QB00KP00" H 3000 3000 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Wima" H 3000 3000 50  0001 C CNN "Manufacturer"
+F 4 "C0805X105J3RACAUTO" H 3000 3000 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3000 3000 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 0   0   50  0001 C CNN "Package ID"
 	1    3000 3000
 	0    1    1    0   
 $EndComp
@@ -883,6 +900,7 @@ F 0 "C21" V 4500 4550 50  0000 C CNN
 F 1 "100nF" V 4400 4550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 4550 50  0001 C CNN
 F 3 "~" H 4650 4550 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    4650 4550
 	0    -1   -1   0   
 $EndComp
@@ -913,6 +931,7 @@ F 0 "F1" V 1950 4000 50  0000 C CNN
 F 1 "1A" V 2050 4000 50  0000 C CNN
 F 2 "Fuse:Fuse_0603_1608Metric" H 2250 3800 50  0001 L CNN
 F 3 "~" H 2200 4000 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    2200 4000
 	0    1    1    0   
 $EndComp
@@ -1129,6 +1148,7 @@ F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littel
 F 4 "Littelfuse" H 2000 4250 50  0001 C CNN "Manufacturer"
 F 5 "Transient Voltage Suppresion Diode" H 2000 4250 50  0001 C CNN "Description"
 F 6 "SMAJ12CA" H 2000 4250 50  0001 C CNN "Manufacturers Part Number"
+F 7 "SMA Diode" H 0   0   50  0001 C CNN "Package ID"
 	1    2000 4250
 	0    1    1    0   
 $EndComp
@@ -1172,10 +1192,11 @@ U 1 1 5CE6F2C0
 P 7100 4150
 F 0 "C19" V 7250 4150 50  0000 C CNN
 F 1 "1uF" V 7350 4150 50  0000 C CNN
-F 2 "SW-WIMA:2220_film_cap" H 7100 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7100 4150 50  0001 C CNN
 F 3 "~" H 7100 4150 50  0001 C CNN
-F 4 "Wima" H 7100 4150 50  0001 C CNN "Manufacturer"
-F 5 "SMDTC04100QB00KP00" H 7100 4150 50  0001 C CNN "Manufacturers Part Number"
+F 4 "Kemet" H 7100 4150 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 7100 4150 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 0   0   50  0001 C CNN "Package ID"
 	1    7100 4150
 	0    1    1    0   
 $EndComp
@@ -1185,10 +1206,11 @@ U 1 1 5CE6F2D4
 P 7350 4250
 F 0 "C20" V 7500 4250 50  0000 C CNN
 F 1 "1uF" V 7600 4250 50  0000 C CNN
-F 2 "SW-WIMA:2220_film_cap" H 7350 4250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7350 4250 50  0001 C CNN
 F 3 "~" H 7350 4250 50  0001 C CNN
-F 4 "Wima" H 7350 4250 50  0001 C CNN "Manufacturer"
-F 5 "SMDTC04100QB00KP00" H 7350 4250 50  0001 C CNN "Manufacturers Part Number"
+F 4 "Kemet" H 7350 4250 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 7350 4250 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 0   0   50  0001 C CNN "Package ID"
 	1    7350 4250
 	0    1    1    0   
 $EndComp

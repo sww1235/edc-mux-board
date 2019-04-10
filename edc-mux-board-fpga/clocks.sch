@@ -126,6 +126,7 @@ F 0 "C1" V 2350 2250 50  0000 C CNN
 F 1 "100nF" V 2450 2250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2600 2250 50  0001 C CNN
 F 3 "~" H 2600 2250 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    2600 2250
 	0    1    1    0   
 $EndComp
@@ -452,6 +453,7 @@ F 0 "C3" H 5500 2200 50  0000 R CNN
 F 1 "100nF" H 5500 2250 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5600 2250 50  0001 C CNN
 F 3 "~" H 5600 2250 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    5600 2250
 	-1   0    0    1   
 $EndComp
@@ -463,6 +465,7 @@ F 0 "C2" H 5550 2200 50  0000 R CNN
 F 1 "100nF" H 5650 2300 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5400 2250 50  0001 C CNN
 F 3 "~" H 5400 2250 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    5400 2250
 	-1   0    0    1   
 $EndComp

@@ -24,7 +24,7 @@ F 2 "Package_DFN_QFN:UQFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm_ThermalVias" H 6200 53
 F 3 "https://www.ti.com/lit/ds/symlink/tlv320aic3206.pdf" H 7300 4500 50  0001 C CNN
 F 4 "TLV320AIC3206" H 6150 3950 50  0001 C CNN "Manufacturers Part Number"
 	1    6150 3950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x12 J11
@@ -35,7 +35,7 @@ F 1 "Device 9" H 600 4050 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 700 3400 50  0001 C CNN
 F 3 "~" H 700 3400 50  0001 C CNN
 	1    700  3400
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C184
@@ -45,8 +45,9 @@ F 0 "C184" V 5900 2700 50  0000 C CNN
 F 1 "2.2uF X7R" V 6000 2700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6150 2700 50  0001 C CNN
 F 3 "~" H 6150 2700 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    6150 2700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6050 2800 6050 2700
@@ -60,8 +61,9 @@ F 0 "C203" V 6750 4800 50  0000 C CNN
 F 1 "2.2uF X7R" V 6850 4800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7000 4800 50  0001 C CNN
 F 3 "~" H 7000 4800 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    7000 4800
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6900 4650 7000 4650
@@ -76,7 +78,7 @@ F 1 "GND" H 6700 5150 50  0000 C CNN
 F 2 "" H 6700 5300 50  0001 C CNN
 F 3 "" H 6700 5300 50  0001 C CNN
 	1    6700 5300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5900 5100 5900 5200
@@ -122,8 +124,11 @@ F 0 "C202" H 5450 4750 50  0000 L CNN
 F 1 "1uF" H 5450 4800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5350 4800 50  0001 C CNN
 F 3 "~" H 5350 4800 50  0001 C CNN
+F 4 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "CGA3E1X7R1E105K080AC" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    5350 4800
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5400 4650 5350 4650
@@ -142,12 +147,13 @@ U 1 1 5CE6F33D
 P 3200 3100
 F 0 "C188" V 3350 3100 50  0000 C CNN
 F 1 "1uF" V 3450 3100 50  0000 C CNN
-F 2 "SW-WIMA:2220_film_cap" H 3200 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 3100 50  0001 C CNN
 F 3 "~" H 3200 3100 50  0001 C CNN
-F 4 "Wima" H 3200 3100 50  0001 C CNN "Manufacturer"
-F 5 "SMDTC04100QB00KP00" H 3200 3100 50  0001 C CNN "Manufacturers Part Number"
+F 4 "Kemet" H 3200 3100 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 3200 3100 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 0   0   50  0001 C CNN "Package ID"
 	1    3200 3100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text Notes 3200 2800 0    50   ~ 0
 Due to high input resistance (see datasheet)\nthese caps can be much smaller than normal\nStill use film caps for decoupling
@@ -159,8 +165,9 @@ F 0 "C194" H 5000 3550 50  0000 L CNN
 F 1 "100nF" H 5000 3600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4900 3600 50  0001 C CNN
 F 3 "~" H 4900 3600 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    4900 3600
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C195
@@ -170,8 +177,9 @@ F 0 "C195" H 5000 3550 50  0000 R CNN
 F 1 "100nF" H 5000 3600 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 3600 50  0001 C CNN
 F 3 "~" H 5100 3600 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    5100 3600
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5400 3350 5350 3350
@@ -204,7 +212,7 @@ F 1 "GND" H 4500 3650 50  0000 C CNN
 F 2 "" H 4500 3800 50  0001 C CNN
 F 3 "" H 4500 3800 50  0001 C CNN
 	1    4500 3800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4900 3700 4900 3750
@@ -232,7 +240,7 @@ F 2 "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm" H 10900 5050 50  00
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4910-MAX4912.pdf" H 9300 3700 50  0001 C CNN
 F 4 "MAX4910" H 9250 3900 50  0001 C CNN "Manufacturers Part Number"
 	1    9250 3900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2900 3000 1550 3000
@@ -281,7 +289,7 @@ F 1 "GND" H 8700 4800 50  0000 C CNN
 F 2 "" H 8700 4950 50  0001 C CNN
 F 3 "" H 8700 4950 50  0001 C CNN
 	1    8700 4950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9600 4050 9800 4050
@@ -294,10 +302,10 @@ F 1 "220Ω/2A" H 7575 4650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7430 4700 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz1608_en.pdf" H 7500 4700 50  0001 C CNN
 F 4 "TDK" H 7500 4700 50  0001 C CNN "Manufacturer"
-F 5 "0603" H 7500 4700 50  0001 C CNN "Package ID"
+F 5 "0603in/1608mm" H 7500 4700 50  0001 C CNN "Package ID"
 F 6 "MPZ1608S221A" H 7500 4700 50  0001 C CNN "Manufacturers Part Number"
 	1    7500 4700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7500 4550 7500 4600
@@ -323,8 +331,9 @@ F 0 "C191" H 4600 3250 50  0000 L CNN
 F 1 "33pF" H 4600 3300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4500 3300 50  0001 C CNN
 F 3 "~" H 4500 3300 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    4500 3300
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3100 3000 4500 3000
@@ -338,8 +347,9 @@ F 0 "C192" H 4600 3250 50  0000 R CNN
 F 1 "33pF" H 4600 3300 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4700 3300 50  0001 C CNN
 F 3 "~" H 4700 3300 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    4700 3300
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4500 3200 4500 3000
@@ -393,7 +403,7 @@ F 2 "" H 7700 2650 60  0001 C CNN
 F 3 "" H 7700 2650 60  0001 C CNN
 F 4 "0.00@0" H 7800 3100 60  0001 C CNN "Pricing"
 	1    7700 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+1V8 #PWR0113
@@ -404,7 +414,7 @@ F 1 "+1V8" H 7450 2790 50  0000 C CNN
 F 2 "" H 7450 2650 50  0001 C CNN
 F 3 "" H 7450 2650 50  0001 C CNN
 	1    7450 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 3050 7450 3050
@@ -433,7 +443,7 @@ F 1 "+3V3" H 7200 2790 50  0000 C CNN
 F 2 "" H 7200 2650 50  0001 C CNN
 F 3 "" H 7200 2650 50  0001 C CNN
 	1    7200 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 3150 7200 3150
@@ -447,8 +457,11 @@ F 0 "C197" H 7800 3650 50  0000 R CNN
 F 1 "1uF" H 7850 3850 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7700 3750 50  0001 C CNN
 F 3 "~" H 7700 3750 50  0001 C CNN
+F 4 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "CGA3E1X7R1E105K080AC" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    7700 3750
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0118
@@ -459,7 +472,7 @@ F 1 "GND" H 7600 3800 50  0000 C CNN
 F 2 "" H 7600 3950 50  0001 C CNN
 F 3 "" H 7600 3950 50  0001 C CNN
 	1    7600 3950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C198
@@ -470,10 +483,10 @@ F 1 "10uF" H 7750 3750 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 7850 3750 50  0001 C CNN
 F 3 "~" H 7850 3750 50  0001 C CNN
 F 4 "Kemet" H 8000 2900 50  0001 C CNN "Manufacturer"
-F 5 "0603in/1608mm" H 8000 2900 50  0001 C CNN "Package ID"
+F 5 "1206in/3216mm" H 8000 2900 50  0001 C CNN "Package ID"
 F 6 "C1206C106J3RACAUTO" H 8000 2900 50  0001 C CNN "Manufacturers Part Number"
 	1    7850 3750
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C196
@@ -483,8 +496,9 @@ F 0 "C196" H 7600 3650 50  0000 R CNN
 F 1 "100nF" V 7550 3950 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7450 3750 50  0001 C CNN
 F 3 "~" H 7450 3750 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    7450 3750
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7450 3550 7450 3650
@@ -530,8 +544,9 @@ F 0 "C185" H 8150 2600 50  0000 R CNN
 F 1 "100nF" V 8100 2900 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8000 2700 50  0001 C CNN
 F 3 "~" H 8000 2700 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    8000 2700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C186
@@ -542,10 +557,10 @@ F 1 "10uF" V 7900 2850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8000 2900 50  0001 C CNN
 F 3 "~" H 8000 2900 50  0001 C CNN
 F 4 "Kemet" H 8000 2900 50  0001 C CNN "Manufacturer"
-F 5 "0603in/1608mm" H 8000 2900 50  0001 C CNN "Package ID"
+F 5 "1206in/3216mm" H 8000 2900 50  0001 C CNN "Package ID"
 F 6 "C1206C106J3RACAUTO" H 8000 2900 50  0001 C CNN "Manufacturers Part Number"
 	1    8000 2900
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7200 2900 7900 2900
@@ -565,8 +580,9 @@ F 0 "C189" H 8150 3000 50  0000 R CNN
 F 1 "100nF" V 8100 3300 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8000 3100 50  0001 C CNN
 F 3 "~" H 8000 3100 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    8000 3100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7450 3100 7850 3100
@@ -581,8 +597,9 @@ F 0 "C193" H 8150 3200 50  0000 R CNN
 F 1 "100nF" V 8100 3500 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8000 3300 50  0001 C CNN
 F 3 "~" H 8000 3300 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    8000 3300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7850 3100 7850 3300
@@ -680,8 +697,9 @@ F 0 "C190" H 9100 3050 50  0000 R CNN
 F 1 "100nF" V 9050 3350 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 3150 50  0001 C CNN
 F 3 "~" H 8950 3150 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    8950 3150
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR0114
@@ -692,7 +710,7 @@ F 1 "+3V3" H 9250 3040 50  0000 C CNN
 F 2 "" H 9250 2900 50  0001 C CNN
 F 3 "" H 9250 2900 50  0001 C CNN
 	1    9250 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9050 3150 9250 3150
@@ -724,7 +742,7 @@ F 1 "P82B96" H 3750 5350 50  0000 L CNN
 F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 3550 4850 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/P82B96.pdf" H 3550 4850 50  0001 C CNN
 	1    3550 4850
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR0116
@@ -735,7 +753,7 @@ F 1 "+12V" H 2500 3940 50  0000 C CNN
 F 2 "" H 2500 3800 50  0001 C CNN
 F 3 "" H 2500 3800 50  0001 C CNN
 	1    2500 3800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 9900 3900 0    50   ~ 0
 HP_~LINE~_SEL
@@ -758,12 +776,13 @@ U 1 1 5CE6F4A1
 P 3000 3000
 F 0 "C187" V 2750 3000 50  0000 C CNN
 F 1 "1uF" V 2850 3000 50  0000 C CNN
-F 2 "SW-WIMA:2220_film_cap" H 3000 3000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 3000 50  0001 C CNN
 F 3 "~" H 3000 3000 50  0001 C CNN
-F 4 "SMDTC04100QB00KP00" H 3000 3000 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Wima" H 3000 3000 50  0001 C CNN "Manufacturer"
+F 4 "C0805X105J3RACAUTO" H 3000 3000 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3000 3000 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 0   0   50  0001 C CNN "Package ID"
 	1    3000 3000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text Notes 5150 5550 2    50   ~ 0
 I2C Address Summary:\nCODEC: 0011000 \nMore than 1 P82B96 cannot be on the same circuit
@@ -788,7 +807,7 @@ F 1 "GND" H 2250 3350 50  0000 C CNN
 F 2 "" H 2250 3500 50  0001 C CNN
 F 3 "" H 2250 3500 50  0001 C CNN
 	1    2250 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	900  3400 2250 3400
@@ -821,7 +840,7 @@ F 1 "750Ω" H 2750 4450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2650 4450 50  0001 C CNN
 F 3 "~" H 2650 4450 50  0001 C CNN
 	1    2650 4450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R33
@@ -832,7 +851,7 @@ F 1 "750Ω" H 2600 4850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2500 4850 50  0001 C CNN
 F 3 "~" H 2500 4850 50  0001 C CNN
 	1    2500 4850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2500 4950 2500 5050
@@ -859,7 +878,7 @@ F 1 "+12V" H 4200 4440 50  0000 C CNN
 F 2 "" H 4200 4300 50  0001 C CNN
 F 3 "" H 4200 4300 50  0001 C CNN
 	1    4200 4300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4200 4300 4200 4550
@@ -883,8 +902,9 @@ F 0 "C201" V 4500 4550 50  0000 C CNN
 F 1 "100nF" V 4400 4550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 4550 50  0001 C CNN
 F 3 "~" H 4650 4550 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    4650 4550
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4150 4550 4200 4550
@@ -913,8 +933,9 @@ F 0 "F10" V 1950 4000 50  0000 C CNN
 F 1 "1A" V 2050 4000 50  0000 C CNN
 F 2 "Fuse:Fuse_0603_1608Metric" H 2250 3800 50  0001 L CNN
 F 3 "~" H 2200 4000 50  0001 C CNN
+F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 	1    2200 4000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2300 4000 2500 4000
@@ -934,7 +955,7 @@ F 4 "Murata" H 1850 3100 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1850 3100 50  0001 C CNN "Package ID"
 F 6 "BLM21AG601BH1" H 1850 3100 50  0001 C CNN "Manufacturers Part Number"
 	1    1850 3100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1950 3100 3100 3100
@@ -950,7 +971,7 @@ F 4 "Murata" H 2250 3200 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 2250 3200 50  0001 C CNN "Package ID"
 F 6 "BLM21AG601BH1" H 2250 3200 50  0001 C CNN "Manufacturers Part Number"
 	1    2250 3200
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2350 3200 2800 3200
@@ -966,7 +987,7 @@ F 4 "Murata" H 2650 3300 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 2650 3300 50  0001 C CNN "Package ID"
 F 6 "BLM21AG601BH1" H 2650 3300 50  0001 C CNN "Manufacturers Part Number"
 	1    2650 3300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2750 3300 2800 3300
@@ -984,7 +1005,7 @@ F 4 "Murata" H 1450 3000 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1450 3000 50  0001 C CNN "Package ID"
 F 6 "BLM21AG601BH1" H 1450 3000 50  0001 C CNN "Manufacturers Part Number"
 	1    1450 3000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text Label 1100 2800 1    50   ~ 0
 AUD_GND
@@ -1008,7 +1029,7 @@ F 6 "Transient Voltage Suppresion Diode" H 1250 4250 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 1250 4250 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 1250 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    1250 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D57
@@ -1024,7 +1045,7 @@ F 6 "Transient Voltage Suppresion Diode" H 1400 4250 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 1400 4250 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 1400 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    1400 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D58
@@ -1040,7 +1061,7 @@ F 6 "Transient Voltage Suppresion Diode" H 1550 4250 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 1550 4250 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 1550 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    1550 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D59
@@ -1056,7 +1077,7 @@ F 6 "Transient Voltage Suppresion Diode" H 1700 4250 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 1700 4250 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 1700 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    1700 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D60
@@ -1072,7 +1093,7 @@ F 6 "Transient Voltage Suppresion Diode" H 1850 4250 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 1850 4250 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 1850 4250 50  0001 C CNN "Manufacturers Part Number"
 	1    1850 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2400 4650 2650 4650
@@ -1116,7 +1137,7 @@ F 1 "GND" H 1250 4500 50  0000 C CNN
 F 2 "" H 1250 4650 50  0001 C CNN
 F 3 "" H 1250 4650 50  0001 C CNN
 	1    1250 4650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_TVS D61
@@ -1129,8 +1150,9 @@ F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littel
 F 4 "Littelfuse" H 2000 4250 50  0001 C CNN "Manufacturer"
 F 5 "Transient Voltage Suppresion Diode" H 2000 4250 50  0001 C CNN "Description"
 F 6 "SMAJ12CA" H 2000 4250 50  0001 C CNN "Manufacturers Part Number"
+F 7 "SMA Diode" H 0   0   50  0001 C CNN "Package ID"
 	1    2000 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2000 4100 2000 4000
@@ -1172,12 +1194,13 @@ U 1 1 5CE6F2CB
 P 7100 4150
 F 0 "C199" V 7250 4150 50  0000 C CNN
 F 1 "1uF" V 7350 4150 50  0000 C CNN
-F 2 "SW-WIMA:2220_film_cap" H 7100 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7100 4150 50  0001 C CNN
 F 3 "~" H 7100 4150 50  0001 C CNN
-F 4 "Wima" H 7100 4150 50  0001 C CNN "Manufacturer"
-F 5 "SMDTC04100QB00KP00" H 7100 4150 50  0001 C CNN "Manufacturers Part Number"
+F 4 "Kemet" H 7100 4150 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 7100 4150 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 0   0   50  0001 C CNN "Package ID"
 	1    7100 4150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C200
@@ -1185,11 +1208,12 @@ U 1 1 5CE6F2D8
 P 7350 4250
 F 0 "C200" V 7500 4250 50  0000 C CNN
 F 1 "1uF" V 7600 4250 50  0000 C CNN
-F 2 "SW-WIMA:2220_film_cap" H 7350 4250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7350 4250 50  0001 C CNN
 F 3 "~" H 7350 4250 50  0001 C CNN
-F 4 "Wima" H 7350 4250 50  0001 C CNN "Manufacturer"
-F 5 "SMDTC04100QB00KP00" H 7350 4250 50  0001 C CNN "Manufacturers Part Number"
+F 4 "Kemet" H 7350 4250 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 7350 4250 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 0   0   50  0001 C CNN "Package ID"
 	1    7350 4250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
