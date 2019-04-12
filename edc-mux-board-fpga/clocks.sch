@@ -81,17 +81,6 @@ Wire Wire Line
 Connection ~ 5100 2400
 Wire Wire Line
 	5100 2400 5100 2250
-$Comp
-L power:+3V3 #PWR05
-U 1 1 5CB4D740
-P 5100 1500
-F 0 "#PWR05" H 5100 1350 50  0001 C CNN
-F 1 "+3V3" H 5150 1700 50  0000 C CNN
-F 2 "" H 5100 1500 50  0001 C CNN
-F 3 "" H 5100 1500 50  0001 C CNN
-	1    5100 1500
-	1    0    0    -1  
-$EndComp
 Text Notes 5300 4300 0    50   ~ 0
 Do I need a separate Reset connection\nto the MCU so it can reset the clock chips\nindependantly?
 $Comp
@@ -178,7 +167,7 @@ Wire Wire Line
 Connection ~ 2350 2250
 Wire Wire Line
 	2350 2250 2350 2600
-Text Notes 6600 3100 0    50   ~ 0
+Text Notes 6850 3100 0    50   ~ 0
 Y0 = 48MHz for FPGA\nY1 = 48MHz for CODECs\nY2 = 48MHz for CODECs\nY3 = for Microprocessor\nY4 = 25MHz for W5500 Ethernet
 $Comp
 L SW-Texas:CDCE706 U2
@@ -192,8 +181,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/cdce706.pdf" H 5600 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5100 2250
-Wire Wire Line
-	5100 1500 5100 1600
 Wire Wire Line
 	4300 2750 4400 2750
 Wire Wire Line
@@ -278,17 +265,6 @@ F 3 "" H 3450 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3450 2550 3450 2650
-$Comp
-L Device:D_Small D1
-U 1 1 5CBBBA9E
-P 5100 1700
-F 0 "D1" V 5150 1600 50  0000 R CNN
-F 1 "25V" V 5100 1600 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" V 5100 1700 50  0001 C CNN
-F 3 "~" V 5100 1700 50  0001 C CNN
-	1    5100 1700
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5100 2050 5100 2100
 Text Notes 4200 4150 2    50   ~ 0
@@ -342,15 +318,15 @@ Connection ~ 3700 3500
 Wire Wire Line
 	3700 3500 4000 3500
 Text GLabel 6300 2750 2    50   Output ~ 0
-CLK0
+CLK0_FPGA
 Text GLabel 6300 2850 2    50   Output ~ 0
-CLK1
+CLK1_CODEC
 Text GLabel 6300 2950 2    50   Output ~ 0
-CLK2
+CLK2_CODEC
 Text GLabel 6300 3050 2    50   Output ~ 0
-CLK3
+CLK3_MCU
 Text GLabel 6300 3150 2    50   Output ~ 0
-CLK4
+CLK4_ETH
 Text GLabel 6300 3250 2    50   Output ~ 0
 CLK5
 $Comp
@@ -481,8 +457,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 2100 5600 2150
 Connection ~ 5400 2100
-Wire Wire Line
-	5100 1800 5100 1850
 $Comp
 L power:GND #PWR07
 U 1 1 5CBE6F18
@@ -518,8 +492,8 @@ U 1 1 5CE98691
 P 5100 1950
 AR Path="/5CC6CC1A/5CC6D47B/5CE98691" Ref="FB?"  Part="1" 
 AR Path="/5CC3E5DC/5CE98691" Ref="FB1"  Part="1" 
-F 0 "FB1" H 5200 2000 50  0000 L CNN
-F 1 "600Ω @ 100MHz" H 5200 1950 50  0000 L CNN
+F 0 "FB1" H 5000 2000 50  0000 R CNN
+F 1 "600Ω @ 100MHz" H 5000 1950 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" V 5030 1950 50  0001 C CNN
 F 3 "~" H 5100 1950 50  0001 C CNN
 F 4 "Murata" H 5100 1950 50  0001 C CNN "Manufacturer"
@@ -528,4 +502,171 @@ F 6 "BLM21AG601BH1" H 5100 1950 50  0001 C CNN "Manufacturers Part Number"
 	1    5100 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L SW-Linear:LTC4412 U?
+U 1 1 5CC5E70E
+P 6550 1050
+AR Path="/5CAA362B/5CC5E70E" Ref="U?"  Part="1" 
+AR Path="/5CC3E5DC/5CC5E70E" Ref="U?"  Part="1" 
+F 0 "U?" H 6750 850 50  0000 C CNN
+F 1 "LTC4412" H 6500 1250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6550 1350 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf" H 7100 1850 50  0001 C CNN
+F 4 "Linear Technologies" H 6550 1050 50  0001 C CNN "Manufacturer"
+F 5 "LTC4412HS6#TRMPBF" H 6550 1050 50  0001 C CNN "Manufacturers Part Number"
+	1    6550 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CC5E714
+P 5100 1050
+AR Path="/5CAA362B/5CC5E714" Ref="#PWR?"  Part="1" 
+AR Path="/5CC3E5DC/5CC5E714" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5100 900 50  0001 C CNN
+F 1 "+3.3V" H 5100 1190 50  0000 C CNN
+F 2 "" H 5100 1050 50  0001 C CNN
+F 3 "" H 5100 1050 50  0001 C CNN
+	1    5100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-Texas:CSD22206W Q?
+U 1 1 5CC5E71A
+P 5200 1350
+AR Path="/5CAA362B/5CC5E71A" Ref="Q?"  Part="1" 
+AR Path="/5CC3E5DC/5CC5E71A" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5400 1400 50  0000 L CNN
+F 1 "CSD22206W" H 5400 1300 50  0000 L CNN
+F 2 "SW-Texas:DSBGA9" H 5400 1400 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/csd22206w.pdf" H 5200 1350 50  0001 C CNN
+	1    5200 1350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1050 5100 1150
+Wire Wire Line
+	5100 1550 5100 1600
+Wire Wire Line
+	5400 1350 5550 1350
+Wire Wire Line
+	5550 1350 5550 950 
+Wire Wire Line
+	5550 950  6100 950 
+Text Label 6500 1600 0    50   ~ 0
++3V3USB
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CC5E726
+P 6950 750
+AR Path="/5CAA362B/5CC5E726" Ref="#PWR?"  Part="1" 
+AR Path="/5CC3E5DC/5CC5E726" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6950 600 50  0001 C CNN
+F 1 "+3.3V" H 6950 890 50  0000 C CNN
+F 2 "" H 6950 750 50  0001 C CNN
+F 3 "" H 6950 750 50  0001 C CNN
+	1    6950 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 750  6950 950 
+Wire Wire Line
+	5100 1600 5600 1600
+Wire Wire Line
+	5700 1600 5700 1250
+Wire Wire Line
+	5700 1050 6100 1050
+Connection ~ 5100 1600
+$Comp
+L SW-Texas:CSD22206W Q?
+U 1 1 5CC5E732
+P 6000 1500
+AR Path="/5CAA362B/5CC5E732" Ref="Q?"  Part="1" 
+AR Path="/5CC3E5DC/5CC5E732" Ref="Q?"  Part="1" 
+F 0 "Q?" V 6300 1500 50  0000 C CNN
+F 1 "CSD22206W" V 6400 1500 50  0000 C CNN
+F 2 "SW-Texas:DSBGA9" H 6200 1550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/csd22206w.pdf" H 6000 1500 50  0001 C CNN
+	1    6000 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 1600 5800 1600
+Connection ~ 5700 1600
+Wire Wire Line
+	6200 1600 6500 1600
+Wire Wire Line
+	6100 1150 6000 1150
+Wire Wire Line
+	6000 1150 6000 1250
+$Comp
+L Device:R_Small_US R?
+U 1 1 5CC5E73D
+P 5850 1250
+AR Path="/5CAA362B/5CC5E73D" Ref="R?"  Part="1" 
+AR Path="/5CC3E5DC/5CC5E73D" Ref="R?"  Part="1" 
+F 0 "R?" H 5880 1270 50  0000 L CNN
+F 1 "470kΩ" H 5880 1210 50  0000 L CNN
+F 2 "" H 5850 1250 50  0001 C CNN
+F 3 "~" H 5850 1250 50  0001 C CNN
+	1    5850 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 1250 5700 1250
+Connection ~ 5700 1250
+Wire Wire Line
+	5700 1250 5700 1050
+Wire Wire Line
+	5950 1250 6000 1250
+Connection ~ 6000 1250
+Wire Wire Line
+	6000 1250 6000 1300
+$Comp
+L power:GND #PWR?
+U 1 1 5CC5E749
+P 7150 2000
+AR Path="/5CAA362B/5CC5E749" Ref="#PWR?"  Part="1" 
+AR Path="/5CC3E5DC/5CC5E749" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7150 1750 50  0001 C CNN
+F 1 "GND" H 7150 1850 50  0000 C CNN
+F 2 "" H 7150 2000 50  0001 C CNN
+F 3 "" H 7150 2000 50  0001 C CNN
+	1    7150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1050 7150 1050
+Wire Wire Line
+	7150 1050 7150 1150
+Wire Wire Line
+	6950 1150 7150 1150
+Connection ~ 7150 1150
+Wire Wire Line
+	7150 1150 7150 1850
+$Comp
+L Device:C_Small C?
+U 1 1 5CC5E754
+P 5600 1700
+AR Path="/5CAA362B/5CC5E754" Ref="C?"  Part="1" 
+AR Path="/5CC3E5DC/5CC5E754" Ref="C?"  Part="1" 
+F 0 "C?" H 5700 1750 50  0000 L CNN
+F 1 "10uF" H 5700 1700 50  0000 L CNN
+F 2 "" H 5600 1700 50  0001 C CNN
+F 3 "~" H 5600 1700 50  0001 C CNN
+	1    5600 1700
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5600 1600
+Wire Wire Line
+	5600 1600 5700 1600
+Wire Wire Line
+	5100 1600 5100 1850
+Wire Wire Line
+	5600 1800 5600 1850
+Wire Wire Line
+	5600 1850 7150 1850
+Connection ~ 7150 1850
+Wire Wire Line
+	7150 1850 7150 2000
 $EndSCHEMATC
