@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 23
+Sheet 3 25
 Title ""
 Date ""
 Rev ""
@@ -16,17 +16,6 @@ Comment4 ""
 $EndDescr
 Text Notes 5600 2650 0    50   ~ 0
 All Clocks are LVCMOS 3.3V
-$Comp
-L SW-Intel:10CL040YF484I7G U1
-U 4 1 5CB15687
-P 9400 2650
-F 0 "U1" H 9850 2750 50  0000 L CNN
-F 1 "10CL040YF484I7G" H 9850 2650 50  0000 L CNN
-F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 12100 3550 50  0001 C CNN
-F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 12100 3550 50  0001 C CNN
-	4    9400 2650
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small_US R2
 U 1 1 5CB400FD
