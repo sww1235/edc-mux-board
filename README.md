@@ -138,7 +138,7 @@ Connector pinout:
 | 6   | GND         |
 | 7   | SDA_HV      |
 | 8   | SCL_HV      |
-| 9   |             |
+| 9   | I2C_INT     |
 | 10  |             |
 | 11  | ID_PIN      |
 | 12  | +12V        |
