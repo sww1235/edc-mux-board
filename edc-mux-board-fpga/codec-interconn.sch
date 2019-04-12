@@ -1279,16 +1279,6 @@ Wire Bus Line
 Wire Bus Line
 	6750 15400 6050 15400
 Connection ~ 6750 13550
-$Sheet
-S 4900 800  1150 300 
-U 5CD304E3
-F0 "FPGA Interconnects" 50
-F1 "fpga-interconnects.sch" 50
-F2 "DIN[0..15]" I L 4900 1000 50 
-F3 "DOUT[0..15]" O L 4900 900 50 
-F4 "BCLK[0..15]" I R 6050 1000 50 
-F5 "WCLK[0..15]" I R 6050 900 50 
-$EndSheet
 Wire Bus Line
 	4900 900  4550 900 
 Wire Bus Line
@@ -1301,18 +1291,16 @@ Wire Bus Line
 	4650 1250 4650 1000
 Wire Bus Line
 	4650 1000 4900 1000
+Text HLabel 4900 900  2    50   Output ~ 0
+DOUT[0..15]
+Text HLabel 4900 1000 2    50   Input ~ 0
+DIN[0..15]
+Text HLabel 6050 1000 0    50   Output ~ 0
+BCLK[0..15]
+Text HLabel 6050 900  0    50   Output ~ 0
+WCLK[0..15]
 Wire Bus Line
-	6050 900  6400 900 
-Wire Bus Line
-	6400 900  6400 1350
-Wire Bus Line
-	6400 1350 6150 1350
-Wire Bus Line
-	5950 1300 6300 1300
-Wire Bus Line
-	6300 1300 6300 1000
-Wire Bus Line
-	6300 1000 6050 1000
+	6050 900  6550 900 
 Wire Bus Line
 	5050 1250 5050 13000
 Wire Bus Line
@@ -1324,13 +1312,11 @@ Wire Bus Line
 Wire Bus Line
 	4250 2200 4250 13550
 Wire Bus Line
-	5950 1300 5950 13000
+	6150 1800 6150 13150
 Wire Bus Line
-	6150 1350 6150 13150
+	6350 1000 6350 13300
 Wire Bus Line
-	6350 2000 6350 13300
-Wire Bus Line
-	6550 2100 6550 13450
+	6550 900  6550 13450
 Wire Bus Line
 	6750 2200 6750 13550
 Wire Bus Line
@@ -1349,4 +1335,8 @@ Wire Bus Line
 	1300 2000 1300 14150
 Wire Bus Line
 	1600 2600 1600 13700
+Wire Bus Line
+	5950 1700 5950 13000
+Wire Bus Line
+	6050 1000 6350 1000
 $EndSCHEMATC

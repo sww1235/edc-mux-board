@@ -29,8 +29,8 @@ $EndSheet
 $Sheet
 S 7300 1400 1950 1050
 U 5CC6CC1A
-F0 "FPGA Data Interconnect Overview" 50
-F1 "fpga-data-interconnect-overivew.sch" 50
+F0 "CODEC interconnection sheet" 50
+F1 "codec-interconn.sch" 50
 $EndSheet
 $Sheet
 S 1550 3350 2050 1250
@@ -102,4 +102,14 @@ Wire Wire Line
 	6500 4400 7300 4400
 Wire Wire Line
 	6500 4500 7300 4500
+$Sheet
+S 4350 5800 1150 300 
+U 5CB2F6E3
+F0 "sheet5CB2F6DD" 50
+F1 "fpga-interconnects.sch" 50
+F2 "DIN[0..15]" I L 4350 6000 50 
+F3 "DOUT[0..15]" O L 4350 5900 50 
+F4 "BCLK[0..15]" I R 5500 6000 50 
+F5 "WCLK[0..15]" I R 5500 5900 50 
+$EndSheet
 $EndSCHEMATC
