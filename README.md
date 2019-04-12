@@ -211,7 +211,7 @@ finally set the actual volume level.
 
 <td> <code>000Y.YYYY</code> </td>
 
-<td> <code>0VVV.VVVV</code> </td>
+<td> <code>VVVV.VVVV</code> </td>
 
 <td> Matrix mixer controls. </br>Channels are represented with i2s channel 0
 (left) using even numbers (starting from 0) and i2s channel 1 (right) using odd
@@ -220,9 +220,8 @@ numbers, so device 0 channel 0 is <code>00000</code> while device 1 channel 1 is
 and left and right are only important in the control software. </br> Primary
 selects output with bits 0-4.</br> Secondary selects which input volume is being
 controlled with bits 0-4. </br> Tertiary is a 8 bit representation of the linear
-volume control of the input in the output. Due to limitations within the binary
-multiplier, this must have a MSB of <code>0</code> so to represent a value from
-0 to 127 </br>So to zero the volume of input 4 channel 1 in output 8 channel 2,
+volume control of the input in the output. Value from 0 to 255.
+</br>So to zero the volume of input 4 channel 1 in output 8 channel 2,
 you would send 3 i2c messages: <code>0001.1000</code> => <code>0000.0100</code>
 => <code>0000.0000</code></td>
 
@@ -230,25 +229,25 @@ you would send 3 i2c messages: <code>0001.1000</code> => <code>0000.0100</code>
 
 <tr>
 
+<td> <code>01XX.XXXX</code> </td>
+
+<td>  </td>
+
+<td> </td>
+
+<td>Reserved</td>
+
+</tr>
+
+<tr>
+
 <td> <code>10XX.XXXX</code> </td>
 
-<td> <code>00YY.YYYY</code> </td>
+<td>  </td>
 
-<td> <code>0000.000V</code> </td>
+<td> </td>
 
-<td>  Select inputs that control outputs. </br> Primary selects destination
-output pin where: </br><code>1000.XXXX</code> = ctl_0 out on connector
-<code>XXXX</code></br><code>1001.XXXX</code> = ctl_1 out on connector
-<code>XXXX</code></br><code>1010.XXXX</code> = ptt out on connector
-<code>XXXX</code></br><code>1011.0XXX</code> = microcontroller out bit
-<code>XXX</code> </br></br> Secondary pattern selects input pin where:
-</br><code>0000.YYYY</code> = ctl0_in on connector <code>YYYY</code>
-</br><code>0001.YYYY</code> = ctl1_in on connector <code>YYYY</code>
-</br><code>0010.YYYY</code> doing nothing </br> <code>0011.WYYY</code> selects
-microcontroller input bit <code>YYY</code> in input register <code>W</code>
-</br> LSB of Tertiary sets or clears if output is controlled by input. A
-<code>1</code> connects the input and a <code>0</code> disconnects the
-input.</td>
+<td>Reserved</td>
 
 </tr>
 
@@ -256,12 +255,11 @@ input.</td>
 
 <td> <code>1100.000X</code> </td>
 
-<td> <code>YYYY.YYYY</code> </td>
+<td> </td>
 
 <td> </td>
 
-<td> writes secondary data into micro_reg_input_X register. X selects which of
-two registers to put data into.</td>
+<td>Reserved</td>
 
 </tr>
 
@@ -291,25 +289,12 @@ conversion, truncation or zero fill is applied. Quoting from the I2S spec:
 
 ## Extra parts
 
--   EN3P8MCX switchcraft 8pin male panel mount connectors (use MPX 3d model)
--   EN3C8FCX switchcraft 8pin female cable connection
--   CARAEN3C8F07990 switchcraft 8pin female right angle pre-terminated cable
--   EN3CAPC  cord plug connector cover
--   EN3CAPX   panel mount connector cover
--   772-E25-103RYY1 norcomp db25 IP67 connector male
--   772-E25-203RYY1 norcomp db25 IP67 connector female (for panelmount)
--   967-025-010R011 norcomp db25 IP67 backshell for cable
--   SFP6725 norcomp adhesive seal db25 size
--   967-025-CAP norcomp ip67 sealing cap
--   160-067-004R034 norcomp db25 hardware kit
 -   767KS1(X) 0.084 \[2.1\] id/od sealed locking power plug switchcraft
 -   L722AS 0.08 \[2.0\] id/od sealed locking power jack switchcraft (these
     sizes are compatible with high amperage version
 -   JCAP  power jack cover
 -   35FM3AULS - Sealed locking 3.5mm panel mount jack switchcraft
 -   35HDLBAU(S) 3.5mm sealed locking plug switchcraft (S=0.175 diameter cable, no S=0.29 diameter cable)
--   NE8FDX-P6-W IP rated ethercon connector Cat6A shielded neutrik
--   NE8MX6 Cat6A ethercon cable connector neutrik
 
 ## TODO
 
