@@ -290,36 +290,36 @@ $Comp
 L SW-Texas:CDCLVC1108 U?
 U 1 1 5CB315C0
 P 4600 4900
-AR Path="/5CB315C0" Ref="U?"  Part="1" 
-AR Path="/5CC3E5DC/5CB315C0" Ref="U?"  Part="1" 
-AR Path="/5CC6CC1A/5CB315C0" Ref="U3"  Part="1" 
+AR Path="/5CB315C0" Ref="U?"  Part="1"
+AR Path="/5CC3E5DC/5CB315C0" Ref="U?"  Part="1"
+AR Path="/5CC6CC1A/5CB315C0" Ref="U3"  Part="1"
 F 0 "U3" H 4600 5700 50  0000 C CNN
 F 1 "CDCLVC1108" H 4600 5600 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4800 5700 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 4550 6000 50  0001 C CNN
 	1    4600 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SW-Texas:CDCLVC1108 U?
 U 1 1 5CB315C6
 P 4450 6350
-AR Path="/5CB315C6" Ref="U?"  Part="1" 
-AR Path="/5CC3E5DC/5CB315C6" Ref="U?"  Part="1" 
-AR Path="/5CC6CC1A/5CB315C6" Ref="U4"  Part="1" 
+AR Path="/5CB315C6" Ref="U?"  Part="1"
+AR Path="/5CC3E5DC/5CB315C6" Ref="U?"  Part="1"
+AR Path="/5CC6CC1A/5CB315C6" Ref="U4"  Part="1"
 F 0 "U4" H 4450 7150 50  0000 C CNN
 F 1 "CDCLVC1108" H 4450 7050 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4650 7150 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 4400 7450 50  0001 C CNN
 	1    4450 6350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SW-Texas:TCA9548A U?
 U 1 1 5CDE50BB
 P 4500 8500
-AR Path="/5CC6CC1A/5CC6D47B/5CDE50BB" Ref="U?"  Part="1" 
-AR Path="/5CC6CC1A/5CDE50BB" Ref="U5"  Part="1" 
+AR Path="/5CC6CC1A/5CC6D47B/5CDE50BB" Ref="U?"  Part="1"
+AR Path="/5CC6CC1A/5CDE50BB" Ref="U5"  Part="1"
 F 0 "U5" H 4300 9350 60  0000 C CNN
 F 1 "TCA9548A" H 4450 7650 60  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 4650 10200 60  0001 C CNN
@@ -329,14 +329,14 @@ F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 4650 10500 60  0001 C CNN "D
 F 6 "TSSOP24" H 4750 10600 60  0001 C CNN "Package ID"
 F 7 "0.00@0" H 4600 10700 60  0001 C CNN "Pricing"
 	1    4500 8500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SW-Texas:TCA9548A U?
 U 1 1 5CDE5FBD
 P 4700 10900
-AR Path="/5CC6CC1A/5CC6D47B/5CDE5FBD" Ref="U?"  Part="1" 
-AR Path="/5CC6CC1A/5CDE5FBD" Ref="U6"  Part="1" 
+AR Path="/5CC6CC1A/5CC6D47B/5CDE5FBD" Ref="U?"  Part="1"
+AR Path="/5CC6CC1A/5CDE5FBD" Ref="U6"  Part="1"
 F 0 "U6" H 4500 11750 60  0000 C CNN
 F 1 "TCA9548A" H 4650 10050 60  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 4850 12600 60  0001 C CNN
@@ -346,6 +346,6 @@ F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 4850 12900 60  0001 C CNN "D
 F 6 "TSSOP24" H 4950 13000 60  0001 C CNN "Package ID"
 F 7 "0.00@0" H 4800 13100 60  0001 C CNN "Pricing"
 	1    4700 10900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $EndSCHEMATC
