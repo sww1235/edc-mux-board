@@ -2,9 +2,9 @@ EESchema Schematic File Version 4
 LIBS:edc-mux-board-fpga-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 23 22
+Sheet 22 23
 Title ""
 Date ""
 Rev ""
