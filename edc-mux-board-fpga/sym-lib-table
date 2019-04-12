@@ -6,4 +6,5 @@
   (lib (name SW-Microchip)(type Legacy)(uri ${KISWGITHUB}/SW-Microchip.lib)(options "")(descr ""))
   (lib (name SW-dallas-semi-maxim)(type Legacy)(uri ${KISWGITHUB}/SW-dallas-semi-maxim.lib)(options "")(descr ""))
   (lib (name SW-power)(type Legacy)(uri ${KISWGITHUB}/SW-power.lib)(options "")(descr ""))
+  (lib (name SW-Linear)(type Legacy)(uri ${KISWGITHUB}/SW-Linear.lib)(options "")(descr ""))
 )
