@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW-Microchip:SAMD21JXXAM U56
+L SW-Microchip:SAMD21JXXAM U?
 U 1 1 5CB265DB
 P 4300 4400
-F 0 "U56" H 4750 6100 50  0000 C CNN
+F 0 "U?" H 4750 6100 50  0000 C CNN
 F 1 "SAMD21JXXAM" H 3800 6100 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm_ThermalVias" H 3100 6950 50  0001 C CNN
 F 3 "ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf" H 3100 6950 50  0001 C CNN
