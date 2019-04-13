@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLedger 11000 17000 portrait
 encoding utf-8
-Sheet 4 25
+Sheet 4 28
 Title ""
 Date ""
 Rev ""
@@ -25,11 +25,8 @@ F4 "MCLK" I L 2100 1900 50
 F5 "BCLK" O R 3650 1900 50 
 F6 "WCLK" O R 3650 2000 50 
 F7 "~RESET" I R 3650 2100 50 
-F8 "GPI" I R 3650 2200 50 
-F9 "SCL" I L 2100 1600 50 
-F10 "SDA" B L 2100 1700 50 
-F11 "INT1_OUT" O R 3650 2400 50 
-F12 "ID_PIN" O L 2100 2500 50 
+F8 "SCL" I L 2100 1600 50 
+F9 "SDA" B L 2100 1700 50 
 $EndSheet
 $Sheet
 S 2100 3000 1550 1250
@@ -46,7 +43,6 @@ F8 "GPI" I R 3650 3700 50
 F9 "SCL" I L 2100 3100 50 
 F10 "SDA" B L 2100 3200 50 
 F11 "INT1_OUT" O R 3650 3900 50 
-F12 "ID_PIN" O L 2100 4000 50 
 $EndSheet
 $Sheet
 S 2100 4500 1550 1250
@@ -350,10 +346,6 @@ Text Label 2000 10900 2    50   ~ 0
 MCLK6
 Text Label 2000 12400 2    50   ~ 0
 MCLK7
-Text Label 2000 2500 2    50   ~ 0
-ID_PIN0
-Text Label 2000 4000 2    50   ~ 0
-ID_PIN1
 Text Label 2000 5500 2    50   ~ 0
 ID_PIN2
 Text Label 2000 7000 2    50   ~ 0
@@ -415,8 +407,6 @@ ID_PIN14
 Text Label 9050 13000 0    50   ~ 0
 ID_PIN15
 Entry Wire Line
-	1600 4100 1700 4000
-Entry Wire Line
 	1600 5600 1700 5500
 Entry Wire Line
 	1600 7100 1700 7000
@@ -429,10 +419,6 @@ Entry Wire Line
 Entry Wire Line
 	1600 13100 1700 13000
 Wire Wire Line
-	1700 2500 2100 2500
-Wire Wire Line
-	1700 4000 2100 4000
-Wire Wire Line
 	1700 5500 2100 5500
 Wire Wire Line
 	1700 7000 2100 7000
@@ -444,8 +430,6 @@ Wire Wire Line
 	1700 11500 2100 11500
 Wire Wire Line
 	1700 13000 2100 13000
-Entry Wire Line
-	1600 2600 1700 2500
 Text Label 1600 13650 1    50   ~ 0
 ID_PIN[0..7]
 Entry Wire Line
@@ -870,7 +854,6 @@ Text Label 7200 11000 2    50   ~ 0
 WCLK14
 Text Label 7200 12500 2    50   ~ 0
 WCLK15
-NoConn ~ 3650 2400
 NoConn ~ 3650 3900
 NoConn ~ 3650 5400
 NoConn ~ 3650 6900
@@ -918,7 +901,6 @@ Text Label 7200 11100 2    50   ~ 0
 ~RESET~14
 Text Label 7200 12600 2    50   ~ 0
 ~RESET~15
-NoConn ~ 3650 2200
 NoConn ~ 3650 3700
 NoConn ~ 3650 5200
 NoConn ~ 3650 6700
@@ -1302,6 +1284,8 @@ WCLK[0..15]
 Wire Bus Line
 	6050 900  6550 900 
 Wire Bus Line
+	6050 1000 6350 1000
+Wire Bus Line
 	5050 1250 5050 13000
 Wire Bus Line
 	4850 1400 4850 13150
@@ -1334,9 +1318,5 @@ Wire Bus Line
 Wire Bus Line
 	1300 2000 1300 14150
 Wire Bus Line
-	1600 2600 1600 13700
-Wire Bus Line
 	5950 1700 5950 13000
-Wire Bus Line
-	6050 1000 6350 1000
 $EndSCHEMATC

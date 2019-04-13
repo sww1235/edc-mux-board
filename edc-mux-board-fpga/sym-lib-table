@@ -7,4 +7,5 @@
   (lib (name SW-dallas-semi-maxim)(type Legacy)(uri ${KISWGITHUB}/SW-dallas-semi-maxim.lib)(options "")(descr ""))
   (lib (name SW-power)(type Legacy)(uri ${KISWGITHUB}/SW-power.lib)(options "")(descr ""))
   (lib (name SW-Linear)(type Legacy)(uri ${KISWGITHUB}/SW-Linear.lib)(options "")(descr ""))
+  (lib (name SW-Cypress)(type Legacy)(uri ${KISWGITHUB}/SW-Cypress.lib)(options "")(descr ""))
 )

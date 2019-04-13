@@ -2,9 +2,9 @@ EESchema Schematic File Version 4
 LIBS:edc-mux-board-fpga-cache
 EELAYER 29 0
 EELAYER END
-$Descr USLetter 11000 8500
+$Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 25
+Sheet 1 28
 Title ""
 Date ""
 Rev ""
@@ -47,8 +47,8 @@ $EndSheet
 $Sheet
 S 7300 3000 1600 3500
 U 5CB02488
-F0 "Board to Board Connectors" 50
-F1 "b2b-conn.sch" 50
+F0 "Top Side Connector Daughtercard Interconnects" 50
+F1 "top-conn-mezz.sch" 50
 F2 "ETH_TX+" I L 7300 3600 50 
 F3 "ETH_TX-D" I L 7300 3700 50 
 F4 "ETH_RX+" O L 7300 3800 50 
@@ -105,11 +105,31 @@ Wire Wire Line
 $Sheet
 S 4350 5800 1150 300 
 U 5CB2F6E3
-F0 "sheet5CB2F6DD" 50
+F0 "FPGA Interconnects" 50
 F1 "fpga-interconnects.sch" 50
 F2 "DIN[0..15]" I L 4350 6000 50 
 F3 "DOUT[0..15]" O L 4350 5900 50 
 F4 "BCLK[0..15]" I R 5500 6000 50 
 F5 "WCLK[0..15]" I R 5500 5900 50 
 $EndSheet
+$Sheet
+S 10800 4750 1700 1650
+U 5CBF6239
+F0 "Bottom Side Connector Daughtercard Interconnects" 50
+F1 "bottom-con-mezz.sch" 50
+$EndSheet
+$Sheet
+S 7800 7800 2600 1750
+U 5CBF625C
+F0 "Left Side Connector Daughtercard Interconnects" 50
+F1 "left-conn-mezz.sch" 50
+$EndSheet
+$Sheet
+S 2500 7700 3550 1850
+U 5CBF628A
+F0 "Right Side Connector Daughtercard Interconnects" 50
+F1 "right-conn-mezz.sch" 50
+$EndSheet
+Text Notes 13150 3000 0    50   ~ 0
+Top Connector Daughterboard: (5)\n- Ethernet\n- LEDs (Act, Link, Pwr)\n- LED Enable (Momentary)\n\nLeft Connector Daughterboard: (6)\n- Conn 0\n- Conn 1\n- Conn 2\n- Conn 3\n- Conn 4\n- Conn 5\n\nRight Connector Daughterboard: (6)\n- Conn 10\n- Conn 11\n- Conn 12\n- Conn 13\n- Conn 14\n- Conn 15\n\nBottom Connector Daughterboard: (6)\n- Conn 6\n- Conn 7\n- Conn 8\n- Conn 9\n- Power In (+12V)\n- Power Switch (Toggle)
 $EndSCHEMATC
