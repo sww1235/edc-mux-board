@@ -2,10 +2,10 @@ EESchema Schematic File Version 4
 LIBS:edc-mux-board-fpga-cache
 EELAYER 29 0
 EELAYER END
-$Descr B 17000 11000
+$Descr USLedger 17000 11000
 encoding utf-8
 Sheet 27 28
-Title ""
+Title "Left Side Daughterboard Connector Interconnects"
 Date ""
 Rev ""
 Comp ""
@@ -17,3115 +17,3257 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x12 J?
 U 1 1 5CC29AC6
-P 1250 1800
+P 750 1800
 AR Path="/5CC6CC1A/5CC6D47B/5CC29AC6" Ref="J?"  Part="1" 
 AR Path="/5CB02488/5CC29AC6" Ref="J?"  Part="1" 
 AR Path="/5CBF625C/5CC29AC6" Ref="J?"  Part="1" 
-F 0 "J?" H 1150 2550 50  0000 C CNN
-F 1 "Device 0" H 1150 2450 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 1250 1800 50  0001 C CNN
-F 3 "~" H 1250 1800 50  0001 C CNN
-	1    1250 1800
+F 0 "J?" H 650 2550 50  0000 C CNN
+F 1 "Device 0" H 650 2450 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 750 1800 50  0001 C CNN
+F 3 "~" H 750 1800 50  0001 C CNN
+	1    750  1800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5CC29ACF
-P 3750 1500
+P 3250 1500
 AR Path="/5CC6CC1A/5CC6D47B/5CC29ACF" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5CC29ACF" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5CC29ACF" Ref="C?"  Part="1" 
-F 0 "C?" V 3900 1500 50  0000 C CNN
-F 1 "1uF" V 4000 1500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3750 1500 50  0001 C CNN
-F 3 "~" H 3750 1500 50  0001 C CNN
-F 4 "Kemet" H 3750 1500 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 3750 1500 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 550 -1600 50  0001 C CNN "Package ID"
-	1    3750 1500
+F 0 "C?" V 3400 1500 50  0000 C CNN
+F 1 "1uF" V 3500 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3250 1500 50  0001 C CNN
+F 3 "~" H 3250 1500 50  0001 C CNN
+F 4 "Kemet" H 3250 1500 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 3250 1500 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 50  -1600 50  0001 C CNN "Package ID"
+	1    3250 1500
 	0    1    1    0   
 $EndComp
-Text Notes 3750 1200 0    50   ~ 0
+Text Notes 3250 1200 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	3450 1400 2100 1400
+	2950 1400 1600 1400
 Wire Wire Line
-	3650 1400 3950 1400
+	3150 1400 3450 1400
 Wire Wire Line
-	3850 1500 3950 1500
-Text Label 3950 1600 0    50   ~ 0
+	3350 1500 3450 1500
+Text Label 3450 1600 0    50   ~ 0
 M_L_OUT0
 Wire Wire Line
-	1450 1600 2100 1600
-Text Label 3950 1700 0    50   ~ 0
+	950  1600 1600 1600
+Text Label 3450 1700 0    50   ~ 0
 M_R_OUT0
 Wire Wire Line
-	1450 1700 2250 1700
+	950  1700 1750 1700
 $Comp
 L Device:C_Small C?
 U 1 1 5CC29AEF
-P 3550 1400
+P 3050 1400
 AR Path="/5CC6CC1A/5CC6D47B/5CC29AEF" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5CC29AEF" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5CC29AEF" Ref="C?"  Part="1" 
-F 0 "C?" V 3300 1400 50  0000 C CNN
-F 1 "1uF" V 3400 1400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3550 1400 50  0001 C CNN
-F 3 "~" H 3550 1400 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 3550 1400 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 3550 1400 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 550 -1600 50  0001 C CNN "Package ID"
-	1    3550 1400
+F 0 "C?" V 2800 1400 50  0000 C CNN
+F 1 "1uF" V 2900 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3050 1400 50  0001 C CNN
+F 3 "~" H 3050 1400 50  0001 C CNN
+F 4 "C0805X105J3RACAUTO" H 3050 1400 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3050 1400 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 50  -1600 50  0001 C CNN "Package ID"
+	1    3050 1400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 1800 1600 1800
+	950  1800 1100 1800
 Wire Wire Line
-	1450 2400 2550 2400
+	950  2400 2050 2400
 Wire Wire Line
-	3050 2400 3050 2300
-Text Label 2500 1900 0    50   ~ 0
+	2550 2400 2550 2300
+Text Label 2000 1900 0    50   ~ 0
 M_SDA_HV0
-Text Label 2500 2000 0    50   ~ 0
+Text Label 2000 2000 0    50   ~ 0
 M_SCL_HV0
 Wire Wire Line
-	1450 1900 2500 1900
+	950  1900 2000 1900
 Wire Wire Line
-	1450 2000 2500 2000
+	950  2000 2000 2000
 Wire Wire Line
-	1450 2300 2400 2300
+	950  2300 1900 2300
 Wire Wire Line
-	1900 1400 1800 1400
+	1400 1400 1300 1400
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5CC29B2E
-P 2400 1500
+P 1900 1500
 AR Path="/5CC6CC1A/5CC6D47B/5CC29B2E" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5CC29B2E" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5CC29B2E" Ref="FB?"  Part="1" 
-F 0 "FB?" V 2150 1500 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 2250 1500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2330 1500 50  0001 C CNN
-F 3 "~" H 2400 1500 50  0001 C CNN
-F 4 "Murata" H 2400 1500 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2400 1500 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2400 1500 50  0001 C CNN "Manufacturers Part Number"
-	1    2400 1500
+F 0 "FB?" V 1650 1500 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 1750 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1830 1500 50  0001 C CNN
+F 3 "~" H 1900 1500 50  0001 C CNN
+F 4 "Murata" H 1900 1500 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 1900 1500 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 1900 1500 50  0001 C CNN "Manufacturers Part Number"
+	1    1900 1500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2500 1500 3650 1500
+	2000 1500 3150 1500
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5CC29B38
-P 2800 1600
+P 2300 1600
 AR Path="/5CC6CC1A/5CC6D47B/5CC29B38" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5CC29B38" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5CC29B38" Ref="FB?"  Part="1" 
-F 0 "FB?" V 2550 1600 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 2650 1600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2730 1600 50  0001 C CNN
-F 3 "~" H 2800 1600 50  0001 C CNN
-F 4 "Murata" H 2800 1600 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2800 1600 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2800 1600 50  0001 C CNN "Manufacturers Part Number"
-	1    2800 1600
+F 0 "FB?" V 2050 1600 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2150 1600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2230 1600 50  0001 C CNN
+F 3 "~" H 2300 1600 50  0001 C CNN
+F 4 "Murata" H 2300 1600 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2300 1600 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 2300 1600 50  0001 C CNN "Manufacturers Part Number"
+	1    2300 1600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2900 1600 3950 1600
+	2400 1600 3450 1600
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5CC29B42
-P 3200 1700
+P 2700 1700
 AR Path="/5CC6CC1A/5CC6D47B/5CC29B42" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5CC29B42" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5CC29B42" Ref="FB?"  Part="1" 
-F 0 "FB?" V 2950 1700 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 3050 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 3130 1700 50  0001 C CNN
-F 3 "~" H 3200 1700 50  0001 C CNN
-F 4 "Murata" H 3200 1700 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 3200 1700 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 3200 1700 50  0001 C CNN "Manufacturers Part Number"
-	1    3200 1700
+F 0 "FB?" V 2450 1700 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2550 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2630 1700 50  0001 C CNN
+F 3 "~" H 2700 1700 50  0001 C CNN
+F 4 "Murata" H 2700 1700 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2700 1700 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 2700 1700 50  0001 C CNN "Manufacturers Part Number"
+	1    2700 1700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3300 1700 3950 1700
+	2800 1700 3450 1700
 Wire Wire Line
-	1450 1500 1950 1500
+	950  1500 1450 1500
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5CC29B4D
-P 2000 1400
+P 1500 1400
 AR Path="/5CC6CC1A/5CC6D47B/5CC29B4D" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5CC29B4D" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5CC29B4D" Ref="FB?"  Part="1" 
-F 0 "FB?" V 1750 1400 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 1850 1400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 1930 1400 50  0001 C CNN
-F 3 "~" H 2000 1400 50  0001 C CNN
-F 4 "Murata" H 2000 1400 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2000 1400 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2000 1400 50  0001 C CNN "Manufacturers Part Number"
-	1    2000 1400
+F 0 "FB?" V 1250 1400 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 1350 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1430 1400 50  0001 C CNN
+F 3 "~" H 1500 1400 50  0001 C CNN
+F 4 "Murata" H 1500 1400 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 1500 1400 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 1500 1400 50  0001 C CNN "Manufacturers Part Number"
+	1    1500 1400
 	0    1    1    0   
 $EndComp
-Text Label 1650 1200 1    50   ~ 0
+Text Label 1150 1200 1    50   ~ 0
 M_AUD_GND0
 Wire Wire Line
-	1650 1300 1650 1200
+	1150 1300 1150 1200
 Wire Wire Line
-	1450 1300 1650 1300
-Text Notes 1900 1050 0    50   ~ 0
+	950  1300 1150 1300
+Text Notes 1400 1050 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
 L Device:D_TVS D?
 U 1 1 5CC29B5C
-P 1800 2650
+P 1300 2650
 AR Path="/5CC6CC1A/5CC6D47B/5CC29B5C" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5CC29B5C" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5CC29B5C" Ref="D?"  Part="1" 
-F 0 "D?" V 1650 2600 50  0000 R CNN
-F 1 "30pF 30kV" V 1950 3050 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 1800 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1800 2650 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 1800 2650 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 1800 2650 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 1800 2650 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 1800 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 1800 2650 50  0001 C CNN "Manufacturers Part Number"
-	1    1800 2650
+F 0 "D?" V 1150 2600 50  0000 R CNN
+F 1 "30pF 30kV" V 1450 3050 50  0000 R CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1300 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1300 2650 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1300 2650 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1300 2650 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1300 2650 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1300 2650 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1300 2650 50  0001 C CNN "Manufacturers Part Number"
+	1    1300 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5CC29B67
-P 1950 2650
+P 1450 2650
 AR Path="/5CC6CC1A/5CC6D47B/5CC29B67" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5CC29B67" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5CC29B67" Ref="D?"  Part="1" 
-F 0 "D?" V 1800 2550 50  0000 L CNN
-F 1 "30pF 30kV" V 1950 2750 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 1950 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1950 2650 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 1950 2650 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 1950 2650 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 1950 2650 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 1950 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 1950 2650 50  0001 C CNN "Manufacturers Part Number"
-	1    1950 2650
+F 0 "D?" V 1300 2550 50  0000 L CNN
+F 1 "30pF 30kV" V 1450 2750 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1450 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1450 2650 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1450 2650 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1450 2650 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1450 2650 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1450 2650 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1450 2650 50  0001 C CNN "Manufacturers Part Number"
+	1    1450 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5CC29B72
-P 2100 2650
+P 1600 2650
 AR Path="/5CC6CC1A/5CC6D47B/5CC29B72" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5CC29B72" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5CC29B72" Ref="D?"  Part="1" 
-F 0 "D?" V 1950 2550 50  0000 L CNN
-F 1 "30pF 30kV" V 2100 2750 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 2100 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 2100 2650 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 2100 2650 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 2100 2650 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 2100 2650 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 2100 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 2100 2650 50  0001 C CNN "Manufacturers Part Number"
-	1    2100 2650
+F 0 "D?" V 1450 2550 50  0000 L CNN
+F 1 "30pF 30kV" V 1600 2750 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1600 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1600 2650 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1600 2650 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1600 2650 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1600 2650 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1600 2650 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1600 2650 50  0001 C CNN "Manufacturers Part Number"
+	1    1600 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5CC29B7D
-P 2250 2650
+P 1750 2650
 AR Path="/5CC6CC1A/5CC6D47B/5CC29B7D" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5CC29B7D" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5CC29B7D" Ref="D?"  Part="1" 
-F 0 "D?" V 2100 2550 50  0000 L CNN
-F 1 "30pF 30kV" V 2250 2750 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 2250 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 2250 2650 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 2250 2650 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 2250 2650 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 2250 2650 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 2250 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 2250 2650 50  0001 C CNN "Manufacturers Part Number"
-	1    2250 2650
+F 0 "D?" V 1600 2550 50  0000 L CNN
+F 1 "30pF 30kV" V 1750 2750 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1750 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1750 2650 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1750 2650 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1750 2650 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1750 2650 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1750 2650 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1750 2650 50  0001 C CNN "Manufacturers Part Number"
+	1    1750 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5CC29B88
-P 2400 2650
+P 1900 2650
 AR Path="/5CC6CC1A/5CC6D47B/5CC29B88" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5CC29B88" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5CC29B88" Ref="D?"  Part="1" 
-F 0 "D?" V 2250 2550 50  0000 L CNN
-F 1 "30pF 30kV" V 2400 2750 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 2400 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 2400 2650 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 2400 2650 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 2400 2650 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 2400 2650 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 2400 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 2400 2650 50  0001 C CNN "Manufacturers Part Number"
-	1    2400 2650
+F 0 "D?" V 1750 2550 50  0000 L CNN
+F 1 "30pF 30kV" V 1900 2750 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1900 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1900 2650 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1900 2650 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1900 2650 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1900 2650 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1900 2650 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1900 2650 50  0001 C CNN "Manufacturers Part Number"
+	1    1900 2650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1800 1400 1800 2500
-Connection ~ 1800 1400
+	1300 1400 1300 2500
+Connection ~ 1300 1400
 Wire Wire Line
-	1800 1400 1450 1400
+	1300 1400 950  1400
 Wire Wire Line
-	1950 1500 1950 2500
-Connection ~ 1950 1500
+	1450 1500 1450 2500
+Connection ~ 1450 1500
 Wire Wire Line
-	1950 1500 2300 1500
+	1450 1500 1800 1500
 Wire Wire Line
-	2100 1600 2100 2500
-Connection ~ 2100 1600
+	1600 1600 1600 2500
+Connection ~ 1600 1600
 Wire Wire Line
-	2100 1600 2700 1600
+	1600 1600 2200 1600
 Wire Wire Line
-	2250 1700 2250 2500
-Connection ~ 2250 1700
+	1750 1700 1750 2500
+Connection ~ 1750 1700
 Wire Wire Line
-	2250 1700 3100 1700
+	1750 1700 2600 1700
 Wire Wire Line
-	2400 2300 2400 2500
-Connection ~ 2400 2300
+	1900 2300 1900 2500
+Connection ~ 1900 2300
 Wire Wire Line
-	2400 2300 2500 2300
+	1900 2300 2000 2300
 $Comp
 L Device:D_TVS D?
 U 1 1 5CC29BA9
-P 2550 2650
+P 2050 2650
 AR Path="/5CC6CC1A/5CC6D47B/5CC29BA9" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5CC29BA9" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5CC29BA9" Ref="D?"  Part="1" 
-F 0 "D?" V 2500 2750 50  0000 L CNN
-F 1 "12V_Vrso" V 2550 2750 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 2550 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 2550 2650 50  0001 C CNN
-F 4 "Littelfuse" H 2550 2650 50  0001 C CNN "Manufacturer"
-F 5 "Transient Voltage Suppresion Diode" H 2550 2650 50  0001 C CNN "Description"
-F 6 "SMAJ12CA" H 2550 2650 50  0001 C CNN "Manufacturers Part Number"
-F 7 "SMA Diode" H 550 -1600 50  0001 C CNN "Package ID"
-	1    2550 2650
+F 0 "D?" V 2000 2750 50  0000 L CNN
+F 1 "12V_Vrso" V 2050 2750 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 2050 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 2050 2650 50  0001 C CNN
+F 4 "Littelfuse" H 2050 2650 50  0001 C CNN "Manufacturer"
+F 5 "Transient Voltage Suppresion Diode" H 2050 2650 50  0001 C CNN "Description"
+F 6 "SMAJ12CA" H 2050 2650 50  0001 C CNN "Manufacturers Part Number"
+F 7 "SMA Diode" H 50  -1600 50  0001 C CNN "Package ID"
+	1    2050 2650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2550 2500 2550 2400
-Connection ~ 2550 2400
+	2050 2500 2050 2400
+Connection ~ 2050 2400
 Wire Wire Line
-	1800 2800 1800 2850
+	1300 2800 1300 2850
 Wire Wire Line
-	2550 2800 2550 2950
+	2050 2800 2050 2950
 Wire Wire Line
-	2550 2950 2400 2950
-Connection ~ 1800 2950
+	2050 2950 1900 2950
+Connection ~ 1300 2950
 Wire Wire Line
-	1950 2800 1950 2950
-Connection ~ 1950 2950
+	1450 2800 1450 2950
+Connection ~ 1450 2950
 Wire Wire Line
-	1950 2950 1800 2950
+	1450 2950 1300 2950
 Wire Wire Line
-	2100 2800 2100 2950
-Connection ~ 2100 2950
+	1600 2800 1600 2950
+Connection ~ 1600 2950
 Wire Wire Line
-	2100 2950 1950 2950
+	1600 2950 1450 2950
 Wire Wire Line
-	2250 2800 2250 2950
-Connection ~ 2250 2950
+	1750 2800 1750 2950
+Connection ~ 1750 2950
 Wire Wire Line
-	2250 2950 2100 2950
+	1750 2950 1600 2950
 Wire Wire Line
-	2400 2800 2400 2950
-Connection ~ 2400 2950
+	1900 2800 1900 2950
+Connection ~ 1900 2950
 Wire Wire Line
-	2400 2950 2250 2950
+	1900 2950 1750 2950
 Wire Wire Line
-	1450 2100 2500 2100
+	950  2100 2000 2100
 Wire Wire Line
-	1600 1800 1600 2200
+	1100 1800 1100 2200
 Wire Wire Line
-	1600 2200 1450 2200
+	1100 2200 950  2200
 Wire Wire Line
-	1600 2200 1600 2850
+	1100 2200 1100 2850
 Wire Wire Line
-	1600 2850 1800 2850
-Connection ~ 1600 2200
-Connection ~ 1800 2850
+	1100 2850 1300 2850
+Connection ~ 1100 2200
+Connection ~ 1300 2850
 Wire Wire Line
-	1800 2850 1800 2950
-Text Label 3950 1400 0    50   ~ 0
+	1300 2850 1300 2950
+Text Label 3450 1400 0    50   ~ 0
 M_L_IN0
-Text Label 3950 1500 0    50   ~ 0
+Text Label 3450 1500 0    50   ~ 0
 M_R_IN0
-Text Label 2500 2100 0    50   ~ 0
+Text Label 2000 2100 0    50   ~ 0
 M_INT_0
-Text Label 2500 2300 0    50   ~ 0
+Text Label 2000 2300 0    50   ~ 0
 M_ID_PIN0
 $Comp
 L Device:Polyfuse_Small F?
 U 1 1 5CC29B23
-P 3050 2200
+P 2550 2200
 AR Path="/5CC6CC1A/5CC6D47B/5CC29B23" Ref="F?"  Part="1" 
 AR Path="/5CB02488/5CC29B23" Ref="F?"  Part="1" 
 AR Path="/5CBF625C/5CC29B23" Ref="F?"  Part="1" 
-F 0 "F?" H 3150 2250 50  0000 L CNN
-F 1 "1A" H 3150 2200 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 3100 2000 50  0001 L CNN
-F 3 "~" H 3050 2200 50  0001 C CNN
-F 4 "0603in/1608mm" H 850 -1800 50  0001 C CNN "Package ID"
-	1    3050 2200
+F 0 "F?" H 2650 2250 50  0000 L CNN
+F 1 "1A" H 2650 2200 50  0000 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 2600 2000 50  0001 L CNN
+F 3 "~" H 2550 2200 50  0001 C CNN
+F 4 "0603in/1608mm" H 350 -1800 50  0001 C CNN "Package ID"
+	1    2550 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 2400 3050 2400
+	2050 2400 2550 2400
 Wire Wire Line
-	3050 2100 3050 2000
-Text Label 2000 3150 0    50   ~ 0
+	2550 2100 2550 2000
+Text Label 1500 3150 0    50   ~ 0
 M_GND
 Wire Wire Line
-	1800 3150 2000 3150
+	1300 3150 1500 3150
 Wire Wire Line
-	1800 2950 1800 3150
-Text Label 3200 2000 0    50   ~ 0
+	1300 2950 1300 3150
+Text Label 2700 2000 0    50   ~ 0
 M_+12V
 Wire Wire Line
-	3050 2000 3200 2000
+	2550 2000 2700 2000
 $Comp
 L Connector_Generic:Conn_02x40_Odd_Even J?
 U 1 1 5D11C575
-P 10850 5000
-F 0 "J?" H 10900 7000 50  0000 C CNN
-F 1 "Left Mezzanine Board Connector (Daughterboard)" H 10900 2900 50  0000 C CNN
-F 2 "" H 10850 5000 50  0001 C CNN
-F 3 "~" H 10850 5000 50  0001 C CNN
-	1    10850 5000
+P 10350 4950
+F 0 "J?" H 10400 6950 50  0000 C CNN
+F 1 "Left Mezzanine Board Connector (Daughterboard)" H 10400 2850 50  0000 C CNN
+F 2 "" H 10350 4950 50  0001 C CNN
+F 3 "~" H 10350 4950 50  0001 C CNN
+	1    10350 4950
 	1    0    0    -1  
 $EndComp
-Text Label 10750 7500 0    50   ~ 0
+Text Label 10250 7450 0    50   ~ 0
 M_GND
-Wire Wire Line
-	10350 3100 10650 3100
-Wire Wire Line
-	10350 7500 11450 7500
-Text Label 11250 3100 0    50   ~ 0
+Text Label 10750 3050 0    50   ~ 0
 M_L_OUT0
-Text Label 11250 3200 0    50   ~ 0
+Text Label 10750 3150 0    50   ~ 0
 M_R_OUT0
-Text Label 10550 3300 2    50   ~ 0
+Text Label 10050 3150 2    50   ~ 0
 M_L_IN0
-Text Label 10550 3200 2    50   ~ 0
+Text Label 10050 3050 2    50   ~ 0
 M_R_IN0
 Wire Wire Line
-	11150 3300 11450 3300
+	10050 3050 10150 3050
 Wire Wire Line
-	10550 3200 10650 3200
+	10050 3150 10150 3150
 Wire Wire Line
-	10550 3300 10650 3300
+	10650 3050 10750 3050
 Wire Wire Line
-	11150 3100 11250 3100
-Wire Wire Line
-	11150 3200 11250 3200
+	10650 3150 10750 3150
 $Comp
 L Connector_Generic:Conn_01x12 J?
 U 1 1 5D2B6156
-P 1250 4550
+P 750 4550
 AR Path="/5CC6CC1A/5CC6D47B/5D2B6156" Ref="J?"  Part="1" 
 AR Path="/5CB02488/5D2B6156" Ref="J?"  Part="1" 
 AR Path="/5CBF625C/5D2B6156" Ref="J?"  Part="1" 
-F 0 "J?" H 1150 5300 50  0000 C CNN
-F 1 "Device 1" H 1150 5200 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 1250 4550 50  0001 C CNN
-F 3 "~" H 1250 4550 50  0001 C CNN
-	1    1250 4550
+F 0 "J?" H 650 5300 50  0000 C CNN
+F 1 "Device 1" H 650 5200 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 750 4550 50  0001 C CNN
+F 3 "~" H 750 4550 50  0001 C CNN
+	1    750  4550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5D2B615F
-P 3750 4250
+P 3250 4250
 AR Path="/5CC6CC1A/5CC6D47B/5D2B615F" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2B615F" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2B615F" Ref="C?"  Part="1" 
-F 0 "C?" V 3900 4250 50  0000 C CNN
-F 1 "1uF" V 4000 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3750 4250 50  0001 C CNN
-F 3 "~" H 3750 4250 50  0001 C CNN
-F 4 "Kemet" H 3750 4250 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 3750 4250 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 550 1150 50  0001 C CNN "Package ID"
-	1    3750 4250
+F 0 "C?" V 3400 4250 50  0000 C CNN
+F 1 "1uF" V 3500 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3250 4250 50  0001 C CNN
+F 3 "~" H 3250 4250 50  0001 C CNN
+F 4 "Kemet" H 3250 4250 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 3250 4250 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 50  1150 50  0001 C CNN "Package ID"
+	1    3250 4250
 	0    1    1    0   
 $EndComp
-Text Notes 3750 3950 0    50   ~ 0
+Text Notes 3250 3950 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	3450 4150 2100 4150
+	2950 4150 1600 4150
 Wire Wire Line
-	3650 4150 3950 4150
+	3150 4150 3450 4150
 Wire Wire Line
-	3850 4250 3950 4250
-Text Label 3950 4350 0    50   ~ 0
+	3350 4250 3450 4250
+Text Label 3450 4350 0    50   ~ 0
 M_L_OUT1
 Wire Wire Line
-	1450 4350 2100 4350
-Text Label 3950 4450 0    50   ~ 0
+	950  4350 1600 4350
+Text Label 3450 4450 0    50   ~ 0
 M_R_OUT1
 Wire Wire Line
-	1450 4450 2250 4450
+	950  4450 1750 4450
 $Comp
 L Device:C_Small C?
 U 1 1 5D2B6170
-P 3550 4150
+P 3050 4150
 AR Path="/5CC6CC1A/5CC6D47B/5D2B6170" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2B6170" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2B6170" Ref="C?"  Part="1" 
-F 0 "C?" V 3300 4150 50  0000 C CNN
-F 1 "1uF" V 3400 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3550 4150 50  0001 C CNN
-F 3 "~" H 3550 4150 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 3550 4150 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 3550 4150 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 550 1150 50  0001 C CNN "Package ID"
-	1    3550 4150
+F 0 "C?" V 2800 4150 50  0000 C CNN
+F 1 "1uF" V 2900 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3050 4150 50  0001 C CNN
+F 3 "~" H 3050 4150 50  0001 C CNN
+F 4 "C0805X105J3RACAUTO" H 3050 4150 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3050 4150 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 50  1150 50  0001 C CNN "Package ID"
+	1    3050 4150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 4550 1600 4550
+	950  4550 1100 4550
 Wire Wire Line
-	1450 5150 2550 5150
+	950  5150 2050 5150
 Wire Wire Line
-	3050 5150 3050 5050
-Text Label 2500 4650 0    50   ~ 0
+	2550 5150 2550 5050
+Text Label 2000 4650 0    50   ~ 0
 M_SDA_HV1
-Text Label 2500 4750 0    50   ~ 0
+Text Label 2000 4750 0    50   ~ 0
 M_SCL_HV1
 Wire Wire Line
-	1450 4650 2500 4650
+	950  4650 2000 4650
 Wire Wire Line
-	1450 4750 2500 4750
+	950  4750 2000 4750
 Wire Wire Line
-	1450 5050 2400 5050
+	950  5050 1900 5050
 Wire Wire Line
-	1900 4150 1800 4150
+	1400 4150 1300 4150
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2B6182
-P 2400 4250
+P 1900 4250
 AR Path="/5CC6CC1A/5CC6D47B/5D2B6182" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2B6182" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2B6182" Ref="FB?"  Part="1" 
-F 0 "FB?" V 2150 4250 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 2250 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2330 4250 50  0001 C CNN
-F 3 "~" H 2400 4250 50  0001 C CNN
-F 4 "Murata" H 2400 4250 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2400 4250 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2400 4250 50  0001 C CNN "Manufacturers Part Number"
-	1    2400 4250
+F 0 "FB?" V 1650 4250 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 1750 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1830 4250 50  0001 C CNN
+F 3 "~" H 1900 4250 50  0001 C CNN
+F 4 "Murata" H 1900 4250 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 1900 4250 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 1900 4250 50  0001 C CNN "Manufacturers Part Number"
+	1    1900 4250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2500 4250 3650 4250
+	2000 4250 3150 4250
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2B618C
-P 2800 4350
+P 2300 4350
 AR Path="/5CC6CC1A/5CC6D47B/5D2B618C" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2B618C" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2B618C" Ref="FB?"  Part="1" 
-F 0 "FB?" V 2550 4350 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 2650 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2730 4350 50  0001 C CNN
-F 3 "~" H 2800 4350 50  0001 C CNN
-F 4 "Murata" H 2800 4350 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2800 4350 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2800 4350 50  0001 C CNN "Manufacturers Part Number"
-	1    2800 4350
+F 0 "FB?" V 2050 4350 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2150 4350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2230 4350 50  0001 C CNN
+F 3 "~" H 2300 4350 50  0001 C CNN
+F 4 "Murata" H 2300 4350 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2300 4350 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 2300 4350 50  0001 C CNN "Manufacturers Part Number"
+	1    2300 4350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2900 4350 3950 4350
+	2400 4350 3450 4350
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2B6196
-P 3200 4450
+P 2700 4450
 AR Path="/5CC6CC1A/5CC6D47B/5D2B6196" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2B6196" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2B6196" Ref="FB?"  Part="1" 
-F 0 "FB?" V 2950 4450 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 3050 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 3130 4450 50  0001 C CNN
-F 3 "~" H 3200 4450 50  0001 C CNN
-F 4 "Murata" H 3200 4450 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 3200 4450 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 3200 4450 50  0001 C CNN "Manufacturers Part Number"
-	1    3200 4450
+F 0 "FB?" V 2450 4450 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2550 4450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2630 4450 50  0001 C CNN
+F 3 "~" H 2700 4450 50  0001 C CNN
+F 4 "Murata" H 2700 4450 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2700 4450 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 2700 4450 50  0001 C CNN "Manufacturers Part Number"
+	1    2700 4450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3300 4450 3950 4450
+	2800 4450 3450 4450
 Wire Wire Line
-	1450 4250 1950 4250
+	950  4250 1450 4250
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2B61A1
-P 2000 4150
+P 1500 4150
 AR Path="/5CC6CC1A/5CC6D47B/5D2B61A1" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2B61A1" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2B61A1" Ref="FB?"  Part="1" 
-F 0 "FB?" V 1750 4150 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 1850 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 1930 4150 50  0001 C CNN
-F 3 "~" H 2000 4150 50  0001 C CNN
-F 4 "Murata" H 2000 4150 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2000 4150 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2000 4150 50  0001 C CNN "Manufacturers Part Number"
-	1    2000 4150
+F 0 "FB?" V 1250 4150 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 1350 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1430 4150 50  0001 C CNN
+F 3 "~" H 1500 4150 50  0001 C CNN
+F 4 "Murata" H 1500 4150 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 1500 4150 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 1500 4150 50  0001 C CNN "Manufacturers Part Number"
+	1    1500 4150
 	0    1    1    0   
 $EndComp
-Text Label 1650 3950 1    50   ~ 0
+Text Label 1150 3950 1    50   ~ 0
 M_AUD_GND1
 Wire Wire Line
-	1650 4050 1650 3950
+	1150 4050 1150 3950
 Wire Wire Line
-	1450 4050 1650 4050
-Text Notes 1900 3800 0    50   ~ 0
+	950  4050 1150 4050
+Text Notes 1400 3800 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2B61B0
-P 1800 5400
+P 1300 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2B61B0" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2B61B0" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2B61B0" Ref="D?"  Part="1" 
-F 0 "D?" V 1650 5350 50  0000 R CNN
-F 1 "30pF 30kV" V 1950 5800 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 1800 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1800 5400 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 1800 5400 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 1800 5400 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 1800 5400 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 1800 5400 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 1800 5400 50  0001 C CNN "Manufacturers Part Number"
-	1    1800 5400
+F 0 "D?" V 1150 5350 50  0000 R CNN
+F 1 "30pF 30kV" V 1450 5800 50  0000 R CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1300 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1300 5400 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1300 5400 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1300 5400 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1300 5400 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1300 5400 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1300 5400 50  0001 C CNN "Manufacturers Part Number"
+	1    1300 5400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2B61BB
-P 1950 5400
+P 1450 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2B61BB" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2B61BB" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2B61BB" Ref="D?"  Part="1" 
-F 0 "D?" V 1800 5300 50  0000 L CNN
-F 1 "30pF 30kV" V 1950 5500 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 1950 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1950 5400 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 1950 5400 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 1950 5400 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 1950 5400 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 1950 5400 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 1950 5400 50  0001 C CNN "Manufacturers Part Number"
-	1    1950 5400
+F 0 "D?" V 1300 5300 50  0000 L CNN
+F 1 "30pF 30kV" V 1450 5500 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1450 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1450 5400 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1450 5400 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1450 5400 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1450 5400 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1450 5400 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1450 5400 50  0001 C CNN "Manufacturers Part Number"
+	1    1450 5400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2B61C6
-P 2100 5400
+P 1600 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2B61C6" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2B61C6" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2B61C6" Ref="D?"  Part="1" 
-F 0 "D?" V 1950 5300 50  0000 L CNN
-F 1 "30pF 30kV" V 2100 5500 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 2100 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 2100 5400 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 2100 5400 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 2100 5400 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 2100 5400 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 2100 5400 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 2100 5400 50  0001 C CNN "Manufacturers Part Number"
-	1    2100 5400
+F 0 "D?" V 1450 5300 50  0000 L CNN
+F 1 "30pF 30kV" V 1600 5500 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1600 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1600 5400 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1600 5400 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1600 5400 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1600 5400 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1600 5400 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1600 5400 50  0001 C CNN "Manufacturers Part Number"
+	1    1600 5400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2B61D1
-P 2250 5400
+P 1750 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2B61D1" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2B61D1" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2B61D1" Ref="D?"  Part="1" 
-F 0 "D?" V 2100 5300 50  0000 L CNN
-F 1 "30pF 30kV" V 2250 5500 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 2250 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 2250 5400 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 2250 5400 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 2250 5400 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 2250 5400 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 2250 5400 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 2250 5400 50  0001 C CNN "Manufacturers Part Number"
-	1    2250 5400
+F 0 "D?" V 1600 5300 50  0000 L CNN
+F 1 "30pF 30kV" V 1750 5500 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1750 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1750 5400 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1750 5400 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1750 5400 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1750 5400 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1750 5400 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1750 5400 50  0001 C CNN "Manufacturers Part Number"
+	1    1750 5400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2B61DC
-P 2400 5400
+P 1900 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2B61DC" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2B61DC" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2B61DC" Ref="D?"  Part="1" 
-F 0 "D?" V 2250 5300 50  0000 L CNN
-F 1 "30pF 30kV" V 2400 5500 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 2400 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 2400 5400 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 2400 5400 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 2400 5400 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 2400 5400 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 2400 5400 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 2400 5400 50  0001 C CNN "Manufacturers Part Number"
-	1    2400 5400
+F 0 "D?" V 1750 5300 50  0000 L CNN
+F 1 "30pF 30kV" V 1900 5500 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1900 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1900 5400 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1900 5400 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1900 5400 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1900 5400 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1900 5400 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1900 5400 50  0001 C CNN "Manufacturers Part Number"
+	1    1900 5400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1800 4150 1800 5250
-Connection ~ 1800 4150
+	1300 4150 1300 5250
+Connection ~ 1300 4150
 Wire Wire Line
-	1800 4150 1450 4150
+	1300 4150 950  4150
 Wire Wire Line
-	1950 4250 1950 5250
-Connection ~ 1950 4250
+	1450 4250 1450 5250
+Connection ~ 1450 4250
 Wire Wire Line
-	1950 4250 2300 4250
+	1450 4250 1800 4250
 Wire Wire Line
-	2100 4350 2100 5250
-Connection ~ 2100 4350
+	1600 4350 1600 5250
+Connection ~ 1600 4350
 Wire Wire Line
-	2100 4350 2700 4350
+	1600 4350 2200 4350
 Wire Wire Line
-	2250 4450 2250 5250
-Connection ~ 2250 4450
+	1750 4450 1750 5250
+Connection ~ 1750 4450
 Wire Wire Line
-	2250 4450 3100 4450
+	1750 4450 2600 4450
 Wire Wire Line
-	2400 5050 2400 5250
-Connection ~ 2400 5050
+	1900 5050 1900 5250
+Connection ~ 1900 5050
 Wire Wire Line
-	2400 5050 2500 5050
+	1900 5050 2000 5050
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2B61F5
-P 2550 5400
+P 2050 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2B61F5" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2B61F5" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2B61F5" Ref="D?"  Part="1" 
-F 0 "D?" V 2500 5500 50  0000 L CNN
-F 1 "12V_Vrso" V 2550 5500 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 2550 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 2550 5400 50  0001 C CNN
-F 4 "Littelfuse" H 2550 5400 50  0001 C CNN "Manufacturer"
-F 5 "Transient Voltage Suppresion Diode" H 2550 5400 50  0001 C CNN "Description"
-F 6 "SMAJ12CA" H 2550 5400 50  0001 C CNN "Manufacturers Part Number"
-F 7 "SMA Diode" H 550 1150 50  0001 C CNN "Package ID"
-	1    2550 5400
+F 0 "D?" V 2000 5500 50  0000 L CNN
+F 1 "12V_Vrso" V 2050 5500 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 2050 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 2050 5400 50  0001 C CNN
+F 4 "Littelfuse" H 2050 5400 50  0001 C CNN "Manufacturer"
+F 5 "Transient Voltage Suppresion Diode" H 2050 5400 50  0001 C CNN "Description"
+F 6 "SMAJ12CA" H 2050 5400 50  0001 C CNN "Manufacturers Part Number"
+F 7 "SMA Diode" H 50  1150 50  0001 C CNN "Package ID"
+	1    2050 5400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2550 5250 2550 5150
-Connection ~ 2550 5150
+	2050 5250 2050 5150
+Connection ~ 2050 5150
 Wire Wire Line
-	1800 5550 1800 5600
+	1300 5550 1300 5600
 Wire Wire Line
-	2550 5550 2550 5700
+	2050 5550 2050 5700
 Wire Wire Line
-	2550 5700 2400 5700
-Connection ~ 1800 5700
+	2050 5700 1900 5700
+Connection ~ 1300 5700
 Wire Wire Line
-	1950 5550 1950 5700
-Connection ~ 1950 5700
+	1450 5550 1450 5700
+Connection ~ 1450 5700
 Wire Wire Line
-	1950 5700 1800 5700
+	1450 5700 1300 5700
 Wire Wire Line
-	2100 5550 2100 5700
-Connection ~ 2100 5700
+	1600 5550 1600 5700
+Connection ~ 1600 5700
 Wire Wire Line
-	2100 5700 1950 5700
+	1600 5700 1450 5700
 Wire Wire Line
-	2250 5550 2250 5700
-Connection ~ 2250 5700
+	1750 5550 1750 5700
+Connection ~ 1750 5700
 Wire Wire Line
-	2250 5700 2100 5700
+	1750 5700 1600 5700
 Wire Wire Line
-	2400 5550 2400 5700
-Connection ~ 2400 5700
+	1900 5550 1900 5700
+Connection ~ 1900 5700
 Wire Wire Line
-	2400 5700 2250 5700
+	1900 5700 1750 5700
 Wire Wire Line
-	1450 4850 2500 4850
+	950  4850 2000 4850
 Wire Wire Line
-	1600 4550 1600 4950
+	1100 4550 1100 4950
 Wire Wire Line
-	1600 4950 1450 4950
+	1100 4950 950  4950
 Wire Wire Line
-	1600 4950 1600 5600
+	1100 4950 1100 5600
 Wire Wire Line
-	1600 5600 1800 5600
-Connection ~ 1600 4950
-Connection ~ 1800 5600
+	1100 5600 1300 5600
+Connection ~ 1100 4950
+Connection ~ 1300 5600
 Wire Wire Line
-	1800 5600 1800 5700
-Text Label 3950 4150 0    50   ~ 0
+	1300 5600 1300 5700
+Text Label 3450 4150 0    50   ~ 0
 M_L_IN1
-Text Label 3950 4250 0    50   ~ 0
+Text Label 3450 4250 0    50   ~ 0
 M_R_IN1
-Text Label 2500 4850 0    50   ~ 0
+Text Label 2000 4850 0    50   ~ 0
 M_INT_1
-Text Label 2500 5050 0    50   ~ 0
+Text Label 2000 5050 0    50   ~ 0
 M_ID_PIN1
 $Comp
 L Device:Polyfuse_Small F?
 U 1 1 5D2B621A
-P 3050 4950
+P 2550 4950
 AR Path="/5CC6CC1A/5CC6D47B/5D2B621A" Ref="F?"  Part="1" 
 AR Path="/5CB02488/5D2B621A" Ref="F?"  Part="1" 
 AR Path="/5CBF625C/5D2B621A" Ref="F?"  Part="1" 
-F 0 "F?" H 3150 5000 50  0000 L CNN
-F 1 "1A" H 3150 4950 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 3100 4750 50  0001 L CNN
-F 3 "~" H 3050 4950 50  0001 C CNN
-F 4 "0603in/1608mm" H 850 950 50  0001 C CNN "Package ID"
-	1    3050 4950
+F 0 "F?" H 2650 5000 50  0000 L CNN
+F 1 "1A" H 2650 4950 50  0000 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 2600 4750 50  0001 L CNN
+F 3 "~" H 2550 4950 50  0001 C CNN
+F 4 "0603in/1608mm" H 350 950 50  0001 C CNN "Package ID"
+	1    2550 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 5150 3050 5150
+	2050 5150 2550 5150
 Wire Wire Line
-	3050 4850 3050 4750
-Text Label 2000 5900 0    50   ~ 0
+	2550 4850 2550 4750
+Text Label 1500 5900 0    50   ~ 0
 M_GND
 Wire Wire Line
-	1800 5900 2000 5900
+	1300 5900 1500 5900
 Wire Wire Line
-	1800 5700 1800 5900
-Text Label 3200 4750 0    50   ~ 0
+	1300 5700 1300 5900
+Text Label 2700 4750 0    50   ~ 0
 M_+12V
 Wire Wire Line
-	3050 4750 3200 4750
+	2550 4750 2700 4750
 $Comp
 L Connector_Generic:Conn_01x12 J?
 U 1 1 5D2CED2B
-P 1250 7200
+P 750 7200
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED2B" Ref="J?"  Part="1" 
 AR Path="/5CB02488/5D2CED2B" Ref="J?"  Part="1" 
 AR Path="/5CBF625C/5D2CED2B" Ref="J?"  Part="1" 
-F 0 "J?" H 1150 7950 50  0000 C CNN
-F 1 "Device 2" H 1150 7850 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 1250 7200 50  0001 C CNN
-F 3 "~" H 1250 7200 50  0001 C CNN
-	1    1250 7200
+F 0 "J?" H 650 7950 50  0000 C CNN
+F 1 "Device 2" H 650 7850 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 750 7200 50  0001 C CNN
+F 3 "~" H 750 7200 50  0001 C CNN
+	1    750  7200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5D2CED34
-P 3750 6900
+P 3250 6900
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED34" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2CED34" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2CED34" Ref="C?"  Part="1" 
-F 0 "C?" V 3900 6900 50  0000 C CNN
-F 1 "1uF" V 4000 6900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3750 6900 50  0001 C CNN
-F 3 "~" H 3750 6900 50  0001 C CNN
-F 4 "Kemet" H 3750 6900 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 3750 6900 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 550 3800 50  0001 C CNN "Package ID"
-	1    3750 6900
+F 0 "C?" V 3400 6900 50  0000 C CNN
+F 1 "1uF" V 3500 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3250 6900 50  0001 C CNN
+F 3 "~" H 3250 6900 50  0001 C CNN
+F 4 "Kemet" H 3250 6900 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 3250 6900 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 50  3800 50  0001 C CNN "Package ID"
+	1    3250 6900
 	0    1    1    0   
 $EndComp
-Text Notes 3750 6600 0    50   ~ 0
+Text Notes 3250 6600 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	3450 6800 2100 6800
+	2950 6800 1600 6800
 Wire Wire Line
-	3650 6800 3950 6800
+	3150 6800 3450 6800
 Wire Wire Line
-	3850 6900 3950 6900
-Text Label 3950 7000 0    50   ~ 0
+	3350 6900 3450 6900
+Text Label 3450 7000 0    50   ~ 0
 M_L_OUT2
 Wire Wire Line
-	1450 7000 2100 7000
-Text Label 3950 7100 0    50   ~ 0
+	950  7000 1600 7000
+Text Label 3450 7100 0    50   ~ 0
 M_R_OUT2
 Wire Wire Line
-	1450 7100 2250 7100
+	950  7100 1750 7100
 $Comp
 L Device:C_Small C?
 U 1 1 5D2CED45
-P 3550 6800
+P 3050 6800
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED45" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2CED45" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2CED45" Ref="C?"  Part="1" 
-F 0 "C?" V 3300 6800 50  0000 C CNN
-F 1 "1uF" V 3400 6800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3550 6800 50  0001 C CNN
-F 3 "~" H 3550 6800 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 3550 6800 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 3550 6800 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 550 3800 50  0001 C CNN "Package ID"
-	1    3550 6800
+F 0 "C?" V 2800 6800 50  0000 C CNN
+F 1 "1uF" V 2900 6800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3050 6800 50  0001 C CNN
+F 3 "~" H 3050 6800 50  0001 C CNN
+F 4 "C0805X105J3RACAUTO" H 3050 6800 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3050 6800 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 50  3800 50  0001 C CNN "Package ID"
+	1    3050 6800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 7200 1600 7200
+	950  7200 1100 7200
 Wire Wire Line
-	1450 7800 2550 7800
+	950  7800 2050 7800
 Wire Wire Line
-	3050 7800 3050 7700
-Text Label 2500 7300 0    50   ~ 0
+	2550 7800 2550 7700
+Text Label 2000 7300 0    50   ~ 0
 M_SDA_HV2
-Text Label 2500 7400 0    50   ~ 0
+Text Label 2000 7400 0    50   ~ 0
 M_SCL_HV2
 Wire Wire Line
-	1450 7300 2500 7300
+	950  7300 2000 7300
 Wire Wire Line
-	1450 7400 2500 7400
+	950  7400 2000 7400
 Wire Wire Line
-	1450 7700 2400 7700
+	950  7700 1900 7700
 Wire Wire Line
-	1900 6800 1800 6800
+	1400 6800 1300 6800
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2CED57
-P 2400 6900
+P 1900 6900
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED57" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2CED57" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2CED57" Ref="FB?"  Part="1" 
-F 0 "FB?" V 2150 6900 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 2250 6900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2330 6900 50  0001 C CNN
-F 3 "~" H 2400 6900 50  0001 C CNN
-F 4 "Murata" H 2400 6900 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2400 6900 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2400 6900 50  0001 C CNN "Manufacturers Part Number"
-	1    2400 6900
+F 0 "FB?" V 1650 6900 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 1750 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1830 6900 50  0001 C CNN
+F 3 "~" H 1900 6900 50  0001 C CNN
+F 4 "Murata" H 1900 6900 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 1900 6900 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 1900 6900 50  0001 C CNN "Manufacturers Part Number"
+	1    1900 6900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2500 6900 3650 6900
+	2000 6900 3150 6900
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2CED61
-P 2800 7000
+P 2300 7000
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED61" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2CED61" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2CED61" Ref="FB?"  Part="1" 
-F 0 "FB?" V 2550 7000 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 2650 7000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2730 7000 50  0001 C CNN
-F 3 "~" H 2800 7000 50  0001 C CNN
-F 4 "Murata" H 2800 7000 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2800 7000 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2800 7000 50  0001 C CNN "Manufacturers Part Number"
-	1    2800 7000
+F 0 "FB?" V 2050 7000 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2150 7000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2230 7000 50  0001 C CNN
+F 3 "~" H 2300 7000 50  0001 C CNN
+F 4 "Murata" H 2300 7000 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2300 7000 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 2300 7000 50  0001 C CNN "Manufacturers Part Number"
+	1    2300 7000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2900 7000 3950 7000
+	2400 7000 3450 7000
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2CED6B
-P 3200 7100
+P 2700 7100
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED6B" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2CED6B" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2CED6B" Ref="FB?"  Part="1" 
-F 0 "FB?" V 2950 7100 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 3050 7100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 3130 7100 50  0001 C CNN
-F 3 "~" H 3200 7100 50  0001 C CNN
-F 4 "Murata" H 3200 7100 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 3200 7100 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 3200 7100 50  0001 C CNN "Manufacturers Part Number"
-	1    3200 7100
+F 0 "FB?" V 2450 7100 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2550 7100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2630 7100 50  0001 C CNN
+F 3 "~" H 2700 7100 50  0001 C CNN
+F 4 "Murata" H 2700 7100 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2700 7100 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 2700 7100 50  0001 C CNN "Manufacturers Part Number"
+	1    2700 7100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3300 7100 3950 7100
+	2800 7100 3450 7100
 Wire Wire Line
-	1450 6900 1950 6900
+	950  6900 1450 6900
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2CED76
-P 2000 6800
+P 1500 6800
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED76" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2CED76" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2CED76" Ref="FB?"  Part="1" 
-F 0 "FB?" V 1750 6800 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 1850 6800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 1930 6800 50  0001 C CNN
-F 3 "~" H 2000 6800 50  0001 C CNN
-F 4 "Murata" H 2000 6800 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2000 6800 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2000 6800 50  0001 C CNN "Manufacturers Part Number"
-	1    2000 6800
+F 0 "FB?" V 1250 6800 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 1350 6800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1430 6800 50  0001 C CNN
+F 3 "~" H 1500 6800 50  0001 C CNN
+F 4 "Murata" H 1500 6800 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 1500 6800 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 1500 6800 50  0001 C CNN "Manufacturers Part Number"
+	1    1500 6800
 	0    1    1    0   
 $EndComp
-Text Label 1650 6600 1    50   ~ 0
+Text Label 1150 6600 1    50   ~ 0
 M_AUD_GND2
 Wire Wire Line
-	1650 6700 1650 6600
+	1150 6700 1150 6600
 Wire Wire Line
-	1450 6700 1650 6700
-Text Notes 1900 6450 0    50   ~ 0
+	950  6700 1150 6700
+Text Notes 1400 6450 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2CED85
-P 1800 8050
+P 1300 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED85" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2CED85" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2CED85" Ref="D?"  Part="1" 
-F 0 "D?" V 1650 8000 50  0000 R CNN
-F 1 "30pF 30kV" V 1950 8450 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 1800 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1800 8050 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 1800 8050 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 1800 8050 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 1800 8050 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 1800 8050 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 1800 8050 50  0001 C CNN "Manufacturers Part Number"
-	1    1800 8050
+F 0 "D?" V 1150 8000 50  0000 R CNN
+F 1 "30pF 30kV" V 1450 8450 50  0000 R CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1300 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1300 8050 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1300 8050 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1300 8050 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1300 8050 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1300 8050 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1300 8050 50  0001 C CNN "Manufacturers Part Number"
+	1    1300 8050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2CED90
-P 1950 8050
+P 1450 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED90" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2CED90" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2CED90" Ref="D?"  Part="1" 
-F 0 "D?" V 1800 7950 50  0000 L CNN
-F 1 "30pF 30kV" V 1950 8150 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 1950 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1950 8050 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 1950 8050 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 1950 8050 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 1950 8050 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 1950 8050 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 1950 8050 50  0001 C CNN "Manufacturers Part Number"
-	1    1950 8050
+F 0 "D?" V 1300 7950 50  0000 L CNN
+F 1 "30pF 30kV" V 1450 8150 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1450 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1450 8050 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1450 8050 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1450 8050 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1450 8050 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1450 8050 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1450 8050 50  0001 C CNN "Manufacturers Part Number"
+	1    1450 8050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2CED9B
-P 2100 8050
+P 1600 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED9B" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2CED9B" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2CED9B" Ref="D?"  Part="1" 
-F 0 "D?" V 1950 7950 50  0000 L CNN
-F 1 "30pF 30kV" V 2100 8150 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 2100 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 2100 8050 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 2100 8050 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 2100 8050 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 2100 8050 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 2100 8050 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 2100 8050 50  0001 C CNN "Manufacturers Part Number"
-	1    2100 8050
+F 0 "D?" V 1450 7950 50  0000 L CNN
+F 1 "30pF 30kV" V 1600 8150 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1600 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1600 8050 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1600 8050 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1600 8050 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1600 8050 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1600 8050 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1600 8050 50  0001 C CNN "Manufacturers Part Number"
+	1    1600 8050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2CEDA6
-P 2250 8050
+P 1750 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D2CEDA6" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2CEDA6" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2CEDA6" Ref="D?"  Part="1" 
-F 0 "D?" V 2100 7950 50  0000 L CNN
-F 1 "30pF 30kV" V 2250 8150 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 2250 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 2250 8050 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 2250 8050 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 2250 8050 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 2250 8050 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 2250 8050 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 2250 8050 50  0001 C CNN "Manufacturers Part Number"
-	1    2250 8050
+F 0 "D?" V 1600 7950 50  0000 L CNN
+F 1 "30pF 30kV" V 1750 8150 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1750 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1750 8050 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1750 8050 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1750 8050 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1750 8050 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1750 8050 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1750 8050 50  0001 C CNN "Manufacturers Part Number"
+	1    1750 8050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2CEDB1
-P 2400 8050
+P 1900 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D2CEDB1" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2CEDB1" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2CEDB1" Ref="D?"  Part="1" 
-F 0 "D?" V 2250 7950 50  0000 L CNN
-F 1 "30pF 30kV" V 2400 8150 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 2400 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 2400 8050 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 2400 8050 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 2400 8050 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 2400 8050 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 2400 8050 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 2400 8050 50  0001 C CNN "Manufacturers Part Number"
-	1    2400 8050
+F 0 "D?" V 1750 7950 50  0000 L CNN
+F 1 "30pF 30kV" V 1900 8150 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1900 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1900 8050 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1900 8050 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1900 8050 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1900 8050 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1900 8050 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1900 8050 50  0001 C CNN "Manufacturers Part Number"
+	1    1900 8050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1800 6800 1800 7900
-Connection ~ 1800 6800
+	1300 6800 1300 7900
+Connection ~ 1300 6800
 Wire Wire Line
-	1800 6800 1450 6800
+	1300 6800 950  6800
 Wire Wire Line
-	1950 6900 1950 7900
-Connection ~ 1950 6900
+	1450 6900 1450 7900
+Connection ~ 1450 6900
 Wire Wire Line
-	1950 6900 2300 6900
+	1450 6900 1800 6900
 Wire Wire Line
-	2100 7000 2100 7900
-Connection ~ 2100 7000
+	1600 7000 1600 7900
+Connection ~ 1600 7000
 Wire Wire Line
-	2100 7000 2700 7000
+	1600 7000 2200 7000
 Wire Wire Line
-	2250 7100 2250 7900
-Connection ~ 2250 7100
+	1750 7100 1750 7900
+Connection ~ 1750 7100
 Wire Wire Line
-	2250 7100 3100 7100
+	1750 7100 2600 7100
 Wire Wire Line
-	2400 7700 2400 7900
-Connection ~ 2400 7700
+	1900 7700 1900 7900
+Connection ~ 1900 7700
 Wire Wire Line
-	2400 7700 2500 7700
+	1900 7700 2000 7700
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2CEDCA
-P 2550 8050
+P 2050 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D2CEDCA" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2CEDCA" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2CEDCA" Ref="D?"  Part="1" 
-F 0 "D?" V 2500 8150 50  0000 L CNN
-F 1 "12V_Vrso" V 2550 8150 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 2550 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 2550 8050 50  0001 C CNN
-F 4 "Littelfuse" H 2550 8050 50  0001 C CNN "Manufacturer"
-F 5 "Transient Voltage Suppresion Diode" H 2550 8050 50  0001 C CNN "Description"
-F 6 "SMAJ12CA" H 2550 8050 50  0001 C CNN "Manufacturers Part Number"
-F 7 "SMA Diode" H 550 3800 50  0001 C CNN "Package ID"
-	1    2550 8050
+F 0 "D?" V 2000 8150 50  0000 L CNN
+F 1 "12V_Vrso" V 2050 8150 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 2050 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 2050 8050 50  0001 C CNN
+F 4 "Littelfuse" H 2050 8050 50  0001 C CNN "Manufacturer"
+F 5 "Transient Voltage Suppresion Diode" H 2050 8050 50  0001 C CNN "Description"
+F 6 "SMAJ12CA" H 2050 8050 50  0001 C CNN "Manufacturers Part Number"
+F 7 "SMA Diode" H 50  3800 50  0001 C CNN "Package ID"
+	1    2050 8050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2550 7900 2550 7800
-Connection ~ 2550 7800
+	2050 7900 2050 7800
+Connection ~ 2050 7800
 Wire Wire Line
-	1800 8200 1800 8250
+	1300 8200 1300 8250
 Wire Wire Line
-	2550 8200 2550 8350
+	2050 8200 2050 8350
 Wire Wire Line
-	2550 8350 2400 8350
-Connection ~ 1800 8350
+	2050 8350 1900 8350
+Connection ~ 1300 8350
 Wire Wire Line
-	1950 8200 1950 8350
-Connection ~ 1950 8350
+	1450 8200 1450 8350
+Connection ~ 1450 8350
 Wire Wire Line
-	1950 8350 1800 8350
+	1450 8350 1300 8350
 Wire Wire Line
-	2100 8200 2100 8350
-Connection ~ 2100 8350
+	1600 8200 1600 8350
+Connection ~ 1600 8350
 Wire Wire Line
-	2100 8350 1950 8350
+	1600 8350 1450 8350
 Wire Wire Line
-	2250 8200 2250 8350
-Connection ~ 2250 8350
+	1750 8200 1750 8350
+Connection ~ 1750 8350
 Wire Wire Line
-	2250 8350 2100 8350
+	1750 8350 1600 8350
 Wire Wire Line
-	2400 8200 2400 8350
-Connection ~ 2400 8350
+	1900 8200 1900 8350
+Connection ~ 1900 8350
 Wire Wire Line
-	2400 8350 2250 8350
+	1900 8350 1750 8350
 Wire Wire Line
-	1450 7500 2500 7500
+	950  7500 2000 7500
 Wire Wire Line
-	1600 7200 1600 7600
+	1100 7200 1100 7600
 Wire Wire Line
-	1600 7600 1450 7600
+	1100 7600 950  7600
 Wire Wire Line
-	1600 7600 1600 8250
+	1100 7600 1100 8250
 Wire Wire Line
-	1600 8250 1800 8250
-Connection ~ 1600 7600
-Connection ~ 1800 8250
+	1100 8250 1300 8250
+Connection ~ 1100 7600
+Connection ~ 1300 8250
 Wire Wire Line
-	1800 8250 1800 8350
-Text Label 3950 6800 0    50   ~ 0
+	1300 8250 1300 8350
+Text Label 3450 6800 0    50   ~ 0
 M_L_IN2
-Text Label 3950 6900 0    50   ~ 0
+Text Label 3450 6900 0    50   ~ 0
 M_R_IN2
-Text Label 2500 7500 0    50   ~ 0
+Text Label 2000 7500 0    50   ~ 0
 M_INT_2
-Text Label 2500 7700 0    50   ~ 0
+Text Label 2000 7700 0    50   ~ 0
 M_ID_PIN2
 $Comp
 L Device:Polyfuse_Small F?
 U 1 1 5D2CEDEF
-P 3050 7600
+P 2550 7600
 AR Path="/5CC6CC1A/5CC6D47B/5D2CEDEF" Ref="F?"  Part="1" 
 AR Path="/5CB02488/5D2CEDEF" Ref="F?"  Part="1" 
 AR Path="/5CBF625C/5D2CEDEF" Ref="F?"  Part="1" 
-F 0 "F?" H 3150 7650 50  0000 L CNN
-F 1 "1A" H 3150 7600 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 3100 7400 50  0001 L CNN
-F 3 "~" H 3050 7600 50  0001 C CNN
-F 4 "0603in/1608mm" H 850 3600 50  0001 C CNN "Package ID"
-	1    3050 7600
+F 0 "F?" H 2650 7650 50  0000 L CNN
+F 1 "1A" H 2650 7600 50  0000 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 2600 7400 50  0001 L CNN
+F 3 "~" H 2550 7600 50  0001 C CNN
+F 4 "0603in/1608mm" H 350 3600 50  0001 C CNN "Package ID"
+	1    2550 7600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 7800 3050 7800
+	2050 7800 2550 7800
 Wire Wire Line
-	3050 7500 3050 7400
-Text Label 2000 8550 0    50   ~ 0
+	2550 7500 2550 7400
+Text Label 1500 8550 0    50   ~ 0
 M_GND
 Wire Wire Line
-	1800 8550 2000 8550
+	1300 8550 1500 8550
 Wire Wire Line
-	1800 8350 1800 8550
-Text Label 3200 7400 0    50   ~ 0
+	1300 8350 1300 8550
+Text Label 2700 7400 0    50   ~ 0
 M_+12V
 Wire Wire Line
-	3050 7400 3200 7400
+	2550 7400 2700 7400
 $Comp
 L Connector_Generic:Conn_01x12 J?
 U 1 1 5D2E227D
-P 5950 1800
+P 5450 1800
 AR Path="/5CC6CC1A/5CC6D47B/5D2E227D" Ref="J?"  Part="1" 
 AR Path="/5CB02488/5D2E227D" Ref="J?"  Part="1" 
 AR Path="/5CBF625C/5D2E227D" Ref="J?"  Part="1" 
-F 0 "J?" H 5850 2550 50  0000 C CNN
-F 1 "Device 3" H 5850 2450 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 5950 1800 50  0001 C CNN
-F 3 "~" H 5950 1800 50  0001 C CNN
-	1    5950 1800
+F 0 "J?" H 5350 2550 50  0000 C CNN
+F 1 "Device 3" H 5350 2450 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 5450 1800 50  0001 C CNN
+F 3 "~" H 5450 1800 50  0001 C CNN
+	1    5450 1800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5D2E2286
-P 8450 1500
+P 7950 1500
 AR Path="/5CC6CC1A/5CC6D47B/5D2E2286" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2E2286" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2E2286" Ref="C?"  Part="1" 
-F 0 "C?" V 8600 1500 50  0000 C CNN
-F 1 "1uF" V 8700 1500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8450 1500 50  0001 C CNN
-F 3 "~" H 8450 1500 50  0001 C CNN
-F 4 "Kemet" H 8450 1500 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 8450 1500 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 5250 -1600 50  0001 C CNN "Package ID"
-	1    8450 1500
+F 0 "C?" V 8100 1500 50  0000 C CNN
+F 1 "1uF" V 8200 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7950 1500 50  0001 C CNN
+F 3 "~" H 7950 1500 50  0001 C CNN
+F 4 "Kemet" H 7950 1500 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 7950 1500 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 4750 -1600 50  0001 C CNN "Package ID"
+	1    7950 1500
 	0    1    1    0   
 $EndComp
-Text Notes 8450 1200 0    50   ~ 0
+Text Notes 7950 1200 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	8150 1400 6800 1400
+	7650 1400 6300 1400
 Wire Wire Line
-	8350 1400 8650 1400
+	7850 1400 8150 1400
 Wire Wire Line
-	8550 1500 8650 1500
-Text Label 8650 1600 0    50   ~ 0
+	8050 1500 8150 1500
+Text Label 8150 1600 0    50   ~ 0
 M_L_OUT3
 Wire Wire Line
-	6150 1600 6800 1600
-Text Label 8650 1700 0    50   ~ 0
+	5650 1600 6300 1600
+Text Label 8150 1700 0    50   ~ 0
 M_R_OUT3
 Wire Wire Line
-	6150 1700 6950 1700
+	5650 1700 6450 1700
 $Comp
 L Device:C_Small C?
 U 1 1 5D2E2297
-P 8250 1400
+P 7750 1400
 AR Path="/5CC6CC1A/5CC6D47B/5D2E2297" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2E2297" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2E2297" Ref="C?"  Part="1" 
-F 0 "C?" V 8000 1400 50  0000 C CNN
-F 1 "1uF" V 8100 1400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8250 1400 50  0001 C CNN
-F 3 "~" H 8250 1400 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 8250 1400 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 8250 1400 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 5250 -1600 50  0001 C CNN "Package ID"
-	1    8250 1400
+F 0 "C?" V 7500 1400 50  0000 C CNN
+F 1 "1uF" V 7600 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7750 1400 50  0001 C CNN
+F 3 "~" H 7750 1400 50  0001 C CNN
+F 4 "C0805X105J3RACAUTO" H 7750 1400 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 7750 1400 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 4750 -1600 50  0001 C CNN "Package ID"
+	1    7750 1400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6150 1800 6300 1800
+	5650 1800 5800 1800
 Wire Wire Line
-	6150 2400 7250 2400
+	5650 2400 6750 2400
 Wire Wire Line
-	7750 2400 7750 2300
-Text Label 7200 1900 0    50   ~ 0
+	7250 2400 7250 2300
+Text Label 6700 1900 0    50   ~ 0
 M_SDA_HV3
-Text Label 7200 2000 0    50   ~ 0
+Text Label 6700 2000 0    50   ~ 0
 M_SCL_HV3
 Wire Wire Line
-	6150 1900 7200 1900
+	5650 1900 6700 1900
 Wire Wire Line
-	6150 2000 7200 2000
+	5650 2000 6700 2000
 Wire Wire Line
-	6150 2300 7100 2300
+	5650 2300 6600 2300
 Wire Wire Line
-	6600 1400 6500 1400
+	6100 1400 6000 1400
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2E22A9
-P 7100 1500
+P 6600 1500
 AR Path="/5CC6CC1A/5CC6D47B/5D2E22A9" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2E22A9" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2E22A9" Ref="FB?"  Part="1" 
-F 0 "FB?" V 6850 1500 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6950 1500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7030 1500 50  0001 C CNN
-F 3 "~" H 7100 1500 50  0001 C CNN
-F 4 "Murata" H 7100 1500 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7100 1500 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7100 1500 50  0001 C CNN "Manufacturers Part Number"
-	1    7100 1500
+F 0 "FB?" V 6350 1500 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6450 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6530 1500 50  0001 C CNN
+F 3 "~" H 6600 1500 50  0001 C CNN
+F 4 "Murata" H 6600 1500 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 6600 1500 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 6600 1500 50  0001 C CNN "Manufacturers Part Number"
+	1    6600 1500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7200 1500 8350 1500
+	6700 1500 7850 1500
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2E22B3
-P 7500 1600
+P 7000 1600
 AR Path="/5CC6CC1A/5CC6D47B/5D2E22B3" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2E22B3" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2E22B3" Ref="FB?"  Part="1" 
-F 0 "FB?" V 7250 1600 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 7350 1600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7430 1600 50  0001 C CNN
-F 3 "~" H 7500 1600 50  0001 C CNN
-F 4 "Murata" H 7500 1600 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7500 1600 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7500 1600 50  0001 C CNN "Manufacturers Part Number"
-	1    7500 1600
+F 0 "FB?" V 6750 1600 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6850 1600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6930 1600 50  0001 C CNN
+F 3 "~" H 7000 1600 50  0001 C CNN
+F 4 "Murata" H 7000 1600 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7000 1600 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 7000 1600 50  0001 C CNN "Manufacturers Part Number"
+	1    7000 1600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7600 1600 8650 1600
+	7100 1600 8150 1600
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2E22BD
-P 7900 1700
+P 7400 1700
 AR Path="/5CC6CC1A/5CC6D47B/5D2E22BD" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2E22BD" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2E22BD" Ref="FB?"  Part="1" 
-F 0 "FB?" V 7650 1700 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 7750 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7830 1700 50  0001 C CNN
-F 3 "~" H 7900 1700 50  0001 C CNN
-F 4 "Murata" H 7900 1700 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7900 1700 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7900 1700 50  0001 C CNN "Manufacturers Part Number"
-	1    7900 1700
+F 0 "FB?" V 7150 1700 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 7250 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 7330 1700 50  0001 C CNN
+F 3 "~" H 7400 1700 50  0001 C CNN
+F 4 "Murata" H 7400 1700 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7400 1700 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 7400 1700 50  0001 C CNN "Manufacturers Part Number"
+	1    7400 1700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8000 1700 8650 1700
+	7500 1700 8150 1700
 Wire Wire Line
-	6150 1500 6650 1500
+	5650 1500 6150 1500
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2E22C8
-P 6700 1400
+P 6200 1400
 AR Path="/5CC6CC1A/5CC6D47B/5D2E22C8" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2E22C8" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2E22C8" Ref="FB?"  Part="1" 
-F 0 "FB?" V 6450 1400 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6550 1400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6630 1400 50  0001 C CNN
-F 3 "~" H 6700 1400 50  0001 C CNN
-F 4 "Murata" H 6700 1400 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 6700 1400 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 6700 1400 50  0001 C CNN "Manufacturers Part Number"
-	1    6700 1400
+F 0 "FB?" V 5950 1400 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6050 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6130 1400 50  0001 C CNN
+F 3 "~" H 6200 1400 50  0001 C CNN
+F 4 "Murata" H 6200 1400 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 6200 1400 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 6200 1400 50  0001 C CNN "Manufacturers Part Number"
+	1    6200 1400
 	0    1    1    0   
 $EndComp
-Text Label 6350 1200 1    50   ~ 0
+Text Label 5850 1200 1    50   ~ 0
 M_AUD_GND3
 Wire Wire Line
-	6350 1300 6350 1200
+	5850 1300 5850 1200
 Wire Wire Line
-	6150 1300 6350 1300
-Text Notes 6600 1050 0    50   ~ 0
+	5650 1300 5850 1300
+Text Notes 6100 1050 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2E22D7
-P 6500 2650
+P 6000 2650
 AR Path="/5CC6CC1A/5CC6D47B/5D2E22D7" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2E22D7" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2E22D7" Ref="D?"  Part="1" 
-F 0 "D?" V 6350 2600 50  0000 R CNN
-F 1 "30pF 30kV" V 6650 3050 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6500 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6500 2650 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6500 2650 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6500 2650 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6500 2650 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6500 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6500 2650 50  0001 C CNN "Manufacturers Part Number"
-	1    6500 2650
+F 0 "D?" V 5850 2600 50  0000 R CNN
+F 1 "30pF 30kV" V 6150 3050 50  0000 R CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6000 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6000 2650 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6000 2650 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6000 2650 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6000 2650 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6000 2650 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6000 2650 50  0001 C CNN "Manufacturers Part Number"
+	1    6000 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2E22E2
-P 6650 2650
+P 6150 2650
 AR Path="/5CC6CC1A/5CC6D47B/5D2E22E2" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2E22E2" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2E22E2" Ref="D?"  Part="1" 
-F 0 "D?" V 6500 2550 50  0000 L CNN
-F 1 "30pF 30kV" V 6650 2750 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6650 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6650 2650 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6650 2650 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6650 2650 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6650 2650 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6650 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6650 2650 50  0001 C CNN "Manufacturers Part Number"
-	1    6650 2650
+F 0 "D?" V 6000 2550 50  0000 L CNN
+F 1 "30pF 30kV" V 6150 2750 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6150 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6150 2650 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6150 2650 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6150 2650 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6150 2650 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6150 2650 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6150 2650 50  0001 C CNN "Manufacturers Part Number"
+	1    6150 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2E22ED
-P 6800 2650
+P 6300 2650
 AR Path="/5CC6CC1A/5CC6D47B/5D2E22ED" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2E22ED" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2E22ED" Ref="D?"  Part="1" 
-F 0 "D?" V 6650 2550 50  0000 L CNN
-F 1 "30pF 30kV" V 6800 2750 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6800 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6800 2650 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6800 2650 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6800 2650 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6800 2650 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6800 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6800 2650 50  0001 C CNN "Manufacturers Part Number"
-	1    6800 2650
+F 0 "D?" V 6150 2550 50  0000 L CNN
+F 1 "30pF 30kV" V 6300 2750 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6300 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6300 2650 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6300 2650 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6300 2650 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6300 2650 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6300 2650 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6300 2650 50  0001 C CNN "Manufacturers Part Number"
+	1    6300 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2E22F8
-P 6950 2650
+P 6450 2650
 AR Path="/5CC6CC1A/5CC6D47B/5D2E22F8" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2E22F8" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2E22F8" Ref="D?"  Part="1" 
-F 0 "D?" V 6800 2550 50  0000 L CNN
-F 1 "30pF 30kV" V 6950 2750 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6950 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6950 2650 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6950 2650 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6950 2650 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6950 2650 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6950 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6950 2650 50  0001 C CNN "Manufacturers Part Number"
-	1    6950 2650
+F 0 "D?" V 6300 2550 50  0000 L CNN
+F 1 "30pF 30kV" V 6450 2750 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6450 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6450 2650 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6450 2650 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6450 2650 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6450 2650 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6450 2650 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6450 2650 50  0001 C CNN "Manufacturers Part Number"
+	1    6450 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2E2303
-P 7100 2650
+P 6600 2650
 AR Path="/5CC6CC1A/5CC6D47B/5D2E2303" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2E2303" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2E2303" Ref="D?"  Part="1" 
-F 0 "D?" V 6950 2550 50  0000 L CNN
-F 1 "30pF 30kV" V 7100 2750 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 7100 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 7100 2650 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 7100 2650 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 7100 2650 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 7100 2650 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 7100 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 7100 2650 50  0001 C CNN "Manufacturers Part Number"
-	1    7100 2650
+F 0 "D?" V 6450 2550 50  0000 L CNN
+F 1 "30pF 30kV" V 6600 2750 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6600 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6600 2650 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6600 2650 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6600 2650 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6600 2650 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6600 2650 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6600 2650 50  0001 C CNN "Manufacturers Part Number"
+	1    6600 2650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6500 1400 6500 2500
-Connection ~ 6500 1400
+	6000 1400 6000 2500
+Connection ~ 6000 1400
 Wire Wire Line
-	6500 1400 6150 1400
+	6000 1400 5650 1400
 Wire Wire Line
-	6650 1500 6650 2500
-Connection ~ 6650 1500
+	6150 1500 6150 2500
+Connection ~ 6150 1500
 Wire Wire Line
-	6650 1500 7000 1500
+	6150 1500 6500 1500
 Wire Wire Line
-	6800 1600 6800 2500
-Connection ~ 6800 1600
+	6300 1600 6300 2500
+Connection ~ 6300 1600
 Wire Wire Line
-	6800 1600 7400 1600
+	6300 1600 6900 1600
 Wire Wire Line
-	6950 1700 6950 2500
-Connection ~ 6950 1700
+	6450 1700 6450 2500
+Connection ~ 6450 1700
 Wire Wire Line
-	6950 1700 7800 1700
+	6450 1700 7300 1700
 Wire Wire Line
-	7100 2300 7100 2500
-Connection ~ 7100 2300
+	6600 2300 6600 2500
+Connection ~ 6600 2300
 Wire Wire Line
-	7100 2300 7200 2300
+	6600 2300 6700 2300
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2E231C
-P 7250 2650
+P 6750 2650
 AR Path="/5CC6CC1A/5CC6D47B/5D2E231C" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2E231C" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2E231C" Ref="D?"  Part="1" 
-F 0 "D?" V 7200 2750 50  0000 L CNN
-F 1 "12V_Vrso" V 7250 2750 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 7250 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 7250 2650 50  0001 C CNN
-F 4 "Littelfuse" H 7250 2650 50  0001 C CNN "Manufacturer"
-F 5 "Transient Voltage Suppresion Diode" H 7250 2650 50  0001 C CNN "Description"
-F 6 "SMAJ12CA" H 7250 2650 50  0001 C CNN "Manufacturers Part Number"
-F 7 "SMA Diode" H 5250 -1600 50  0001 C CNN "Package ID"
-	1    7250 2650
+F 0 "D?" V 6700 2750 50  0000 L CNN
+F 1 "12V_Vrso" V 6750 2750 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 6750 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 6750 2650 50  0001 C CNN
+F 4 "Littelfuse" H 6750 2650 50  0001 C CNN "Manufacturer"
+F 5 "Transient Voltage Suppresion Diode" H 6750 2650 50  0001 C CNN "Description"
+F 6 "SMAJ12CA" H 6750 2650 50  0001 C CNN "Manufacturers Part Number"
+F 7 "SMA Diode" H 4750 -1600 50  0001 C CNN "Package ID"
+	1    6750 2650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7250 2500 7250 2400
-Connection ~ 7250 2400
+	6750 2500 6750 2400
+Connection ~ 6750 2400
 Wire Wire Line
-	6500 2800 6500 2850
+	6000 2800 6000 2850
 Wire Wire Line
-	7250 2800 7250 2950
+	6750 2800 6750 2950
 Wire Wire Line
-	7250 2950 7100 2950
-Connection ~ 6500 2950
+	6750 2950 6600 2950
+Connection ~ 6000 2950
 Wire Wire Line
-	6650 2800 6650 2950
-Connection ~ 6650 2950
+	6150 2800 6150 2950
+Connection ~ 6150 2950
 Wire Wire Line
-	6650 2950 6500 2950
+	6150 2950 6000 2950
 Wire Wire Line
-	6800 2800 6800 2950
-Connection ~ 6800 2950
+	6300 2800 6300 2950
+Connection ~ 6300 2950
 Wire Wire Line
-	6800 2950 6650 2950
+	6300 2950 6150 2950
 Wire Wire Line
-	6950 2800 6950 2950
-Connection ~ 6950 2950
+	6450 2800 6450 2950
+Connection ~ 6450 2950
 Wire Wire Line
-	6950 2950 6800 2950
+	6450 2950 6300 2950
 Wire Wire Line
-	7100 2800 7100 2950
-Connection ~ 7100 2950
+	6600 2800 6600 2950
+Connection ~ 6600 2950
 Wire Wire Line
-	7100 2950 6950 2950
+	6600 2950 6450 2950
 Wire Wire Line
-	6150 2100 7200 2100
+	5650 2100 6700 2100
 Wire Wire Line
-	6300 1800 6300 2200
+	5800 1800 5800 2200
 Wire Wire Line
-	6300 2200 6150 2200
+	5800 2200 5650 2200
 Wire Wire Line
-	6300 2200 6300 2850
+	5800 2200 5800 2850
 Wire Wire Line
-	6300 2850 6500 2850
-Connection ~ 6300 2200
-Connection ~ 6500 2850
+	5800 2850 6000 2850
+Connection ~ 5800 2200
+Connection ~ 6000 2850
 Wire Wire Line
-	6500 2850 6500 2950
-Text Label 8650 1400 0    50   ~ 0
+	6000 2850 6000 2950
+Text Label 8150 1400 0    50   ~ 0
 M_L_IN3
-Text Label 8650 1500 0    50   ~ 0
+Text Label 8150 1500 0    50   ~ 0
 M_R_IN3
-Text Label 7200 2100 0    50   ~ 0
+Text Label 6700 2100 0    50   ~ 0
 M_INT_3
-Text Label 7200 2300 0    50   ~ 0
+Text Label 6700 2300 0    50   ~ 0
 M_ID_PIN3
 $Comp
 L Device:Polyfuse_Small F?
 U 1 1 5D2E2341
-P 7750 2200
+P 7250 2200
 AR Path="/5CC6CC1A/5CC6D47B/5D2E2341" Ref="F?"  Part="1" 
 AR Path="/5CB02488/5D2E2341" Ref="F?"  Part="1" 
 AR Path="/5CBF625C/5D2E2341" Ref="F?"  Part="1" 
-F 0 "F?" H 7850 2250 50  0000 L CNN
-F 1 "1A" H 7850 2200 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 7800 2000 50  0001 L CNN
-F 3 "~" H 7750 2200 50  0001 C CNN
-F 4 "0603in/1608mm" H 5550 -1800 50  0001 C CNN "Package ID"
-	1    7750 2200
+F 0 "F?" H 7350 2250 50  0000 L CNN
+F 1 "1A" H 7350 2200 50  0000 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 7300 2000 50  0001 L CNN
+F 3 "~" H 7250 2200 50  0001 C CNN
+F 4 "0603in/1608mm" H 5050 -1800 50  0001 C CNN "Package ID"
+	1    7250 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 2400 7750 2400
+	6750 2400 7250 2400
 Wire Wire Line
-	7750 2100 7750 2000
-Text Label 6700 3150 0    50   ~ 0
+	7250 2100 7250 2000
+Text Label 6200 3150 0    50   ~ 0
 M_GND
 Wire Wire Line
-	6500 3150 6700 3150
+	6000 3150 6200 3150
 Wire Wire Line
-	6500 2950 6500 3150
-Text Label 7900 2000 0    50   ~ 0
+	6000 2950 6000 3150
+Text Label 7400 2000 0    50   ~ 0
 M_+12V
 Wire Wire Line
-	7750 2000 7900 2000
+	7250 2000 7400 2000
 $Comp
 L Connector_Generic:Conn_01x12 J?
 U 1 1 5D2FA186
-P 5950 4550
+P 5450 4550
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA186" Ref="J?"  Part="1" 
 AR Path="/5CB02488/5D2FA186" Ref="J?"  Part="1" 
 AR Path="/5CBF625C/5D2FA186" Ref="J?"  Part="1" 
-F 0 "J?" H 5850 5300 50  0000 C CNN
-F 1 "Device 4" H 5850 5200 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 5950 4550 50  0001 C CNN
-F 3 "~" H 5950 4550 50  0001 C CNN
-	1    5950 4550
+F 0 "J?" H 5350 5300 50  0000 C CNN
+F 1 "Device 4" H 5350 5200 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 5450 4550 50  0001 C CNN
+F 3 "~" H 5450 4550 50  0001 C CNN
+	1    5450 4550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5D2FA18F
-P 8450 4250
+P 7950 4250
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA18F" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2FA18F" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2FA18F" Ref="C?"  Part="1" 
-F 0 "C?" V 8600 4250 50  0000 C CNN
-F 1 "1uF" V 8700 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8450 4250 50  0001 C CNN
-F 3 "~" H 8450 4250 50  0001 C CNN
-F 4 "Kemet" H 8450 4250 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 8450 4250 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 5250 1150 50  0001 C CNN "Package ID"
-	1    8450 4250
+F 0 "C?" V 8100 4250 50  0000 C CNN
+F 1 "1uF" V 8200 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7950 4250 50  0001 C CNN
+F 3 "~" H 7950 4250 50  0001 C CNN
+F 4 "Kemet" H 7950 4250 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 7950 4250 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 4750 1150 50  0001 C CNN "Package ID"
+	1    7950 4250
 	0    1    1    0   
 $EndComp
-Text Notes 8450 3950 0    50   ~ 0
+Text Notes 7950 3950 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	8150 4150 6800 4150
+	7650 4150 6300 4150
 Wire Wire Line
-	8350 4150 8650 4150
+	7850 4150 8150 4150
 Wire Wire Line
-	8550 4250 8650 4250
-Text Label 8650 4350 0    50   ~ 0
+	8050 4250 8150 4250
+Text Label 8150 4350 0    50   ~ 0
 M_L_OUT4
 Wire Wire Line
-	6150 4350 6800 4350
-Text Label 8650 4450 0    50   ~ 0
+	5650 4350 6300 4350
+Text Label 8150 4450 0    50   ~ 0
 M_R_OUT4
 Wire Wire Line
-	6150 4450 6950 4450
+	5650 4450 6450 4450
 $Comp
 L Device:C_Small C?
 U 1 1 5D2FA1A0
-P 8250 4150
+P 7750 4150
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA1A0" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2FA1A0" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2FA1A0" Ref="C?"  Part="1" 
-F 0 "C?" V 8000 4150 50  0000 C CNN
-F 1 "1uF" V 8100 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8250 4150 50  0001 C CNN
-F 3 "~" H 8250 4150 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 8250 4150 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 8250 4150 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 5250 1150 50  0001 C CNN "Package ID"
-	1    8250 4150
+F 0 "C?" V 7500 4150 50  0000 C CNN
+F 1 "1uF" V 7600 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7750 4150 50  0001 C CNN
+F 3 "~" H 7750 4150 50  0001 C CNN
+F 4 "C0805X105J3RACAUTO" H 7750 4150 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 7750 4150 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 4750 1150 50  0001 C CNN "Package ID"
+	1    7750 4150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6150 4550 6300 4550
+	5650 4550 5800 4550
 Wire Wire Line
-	6150 5150 7250 5150
+	5650 5150 6750 5150
 Wire Wire Line
-	7750 5150 7750 5050
-Text Label 7200 4650 0    50   ~ 0
+	7250 5150 7250 5050
+Text Label 6700 4650 0    50   ~ 0
 M_SDA_HV4
-Text Label 7200 4750 0    50   ~ 0
+Text Label 6700 4750 0    50   ~ 0
 M_SCL_HV4
 Wire Wire Line
-	6150 4650 7200 4650
+	5650 4650 6700 4650
 Wire Wire Line
-	6150 4750 7200 4750
+	5650 4750 6700 4750
 Wire Wire Line
-	6150 5050 7100 5050
+	5650 5050 6600 5050
 Wire Wire Line
-	6600 4150 6500 4150
+	6100 4150 6000 4150
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2FA1B2
-P 7100 4250
+P 6600 4250
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA1B2" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2FA1B2" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2FA1B2" Ref="FB?"  Part="1" 
-F 0 "FB?" V 6850 4250 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6950 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7030 4250 50  0001 C CNN
-F 3 "~" H 7100 4250 50  0001 C CNN
-F 4 "Murata" H 7100 4250 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7100 4250 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7100 4250 50  0001 C CNN "Manufacturers Part Number"
-	1    7100 4250
+F 0 "FB?" V 6350 4250 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6450 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6530 4250 50  0001 C CNN
+F 3 "~" H 6600 4250 50  0001 C CNN
+F 4 "Murata" H 6600 4250 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 6600 4250 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 6600 4250 50  0001 C CNN "Manufacturers Part Number"
+	1    6600 4250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7200 4250 8350 4250
+	6700 4250 7850 4250
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2FA1BC
-P 7500 4350
+P 7000 4350
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA1BC" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2FA1BC" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2FA1BC" Ref="FB?"  Part="1" 
-F 0 "FB?" V 7250 4350 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 7350 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7430 4350 50  0001 C CNN
-F 3 "~" H 7500 4350 50  0001 C CNN
-F 4 "Murata" H 7500 4350 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7500 4350 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7500 4350 50  0001 C CNN "Manufacturers Part Number"
-	1    7500 4350
+F 0 "FB?" V 6750 4350 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6850 4350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6930 4350 50  0001 C CNN
+F 3 "~" H 7000 4350 50  0001 C CNN
+F 4 "Murata" H 7000 4350 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7000 4350 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 7000 4350 50  0001 C CNN "Manufacturers Part Number"
+	1    7000 4350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7600 4350 8650 4350
+	7100 4350 8150 4350
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2FA1C6
-P 7900 4450
+P 7400 4450
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA1C6" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2FA1C6" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2FA1C6" Ref="FB?"  Part="1" 
-F 0 "FB?" V 7650 4450 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 7750 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7830 4450 50  0001 C CNN
-F 3 "~" H 7900 4450 50  0001 C CNN
-F 4 "Murata" H 7900 4450 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7900 4450 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7900 4450 50  0001 C CNN "Manufacturers Part Number"
-	1    7900 4450
+F 0 "FB?" V 7150 4450 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 7250 4450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 7330 4450 50  0001 C CNN
+F 3 "~" H 7400 4450 50  0001 C CNN
+F 4 "Murata" H 7400 4450 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7400 4450 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 7400 4450 50  0001 C CNN "Manufacturers Part Number"
+	1    7400 4450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8000 4450 8650 4450
+	7500 4450 8150 4450
 Wire Wire Line
-	6150 4250 6650 4250
+	5650 4250 6150 4250
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2FA1D1
-P 6700 4150
+P 6200 4150
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA1D1" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D2FA1D1" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D2FA1D1" Ref="FB?"  Part="1" 
-F 0 "FB?" V 6450 4150 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6550 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6630 4150 50  0001 C CNN
-F 3 "~" H 6700 4150 50  0001 C CNN
-F 4 "Murata" H 6700 4150 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 6700 4150 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 6700 4150 50  0001 C CNN "Manufacturers Part Number"
-	1    6700 4150
+F 0 "FB?" V 5950 4150 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6050 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6130 4150 50  0001 C CNN
+F 3 "~" H 6200 4150 50  0001 C CNN
+F 4 "Murata" H 6200 4150 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 6200 4150 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 6200 4150 50  0001 C CNN "Manufacturers Part Number"
+	1    6200 4150
 	0    1    1    0   
 $EndComp
-Text Label 6350 3950 1    50   ~ 0
+Text Label 5850 3950 1    50   ~ 0
 M_AUD_GND4
 Wire Wire Line
-	6350 4050 6350 3950
+	5850 4050 5850 3950
 Wire Wire Line
-	6150 4050 6350 4050
-Text Notes 6600 3800 0    50   ~ 0
+	5650 4050 5850 4050
+Text Notes 6100 3800 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2FA1E0
-P 6500 5400
+P 6000 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA1E0" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2FA1E0" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2FA1E0" Ref="D?"  Part="1" 
-F 0 "D?" V 6350 5350 50  0000 R CNN
-F 1 "30pF 30kV" V 6650 5800 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6500 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6500 5400 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6500 5400 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6500 5400 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6500 5400 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6500 5400 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6500 5400 50  0001 C CNN "Manufacturers Part Number"
-	1    6500 5400
+F 0 "D?" V 5850 5350 50  0000 R CNN
+F 1 "30pF 30kV" V 6150 5800 50  0000 R CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6000 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6000 5400 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6000 5400 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6000 5400 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6000 5400 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6000 5400 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6000 5400 50  0001 C CNN "Manufacturers Part Number"
+	1    6000 5400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2FA1EB
-P 6650 5400
+P 6150 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA1EB" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2FA1EB" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2FA1EB" Ref="D?"  Part="1" 
-F 0 "D?" V 6500 5300 50  0000 L CNN
-F 1 "30pF 30kV" V 6650 5500 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6650 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6650 5400 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6650 5400 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6650 5400 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6650 5400 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6650 5400 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6650 5400 50  0001 C CNN "Manufacturers Part Number"
-	1    6650 5400
+F 0 "D?" V 6000 5300 50  0000 L CNN
+F 1 "30pF 30kV" V 6150 5500 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6150 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6150 5400 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6150 5400 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6150 5400 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6150 5400 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6150 5400 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6150 5400 50  0001 C CNN "Manufacturers Part Number"
+	1    6150 5400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2FA1F6
-P 6800 5400
+P 6300 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA1F6" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2FA1F6" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2FA1F6" Ref="D?"  Part="1" 
-F 0 "D?" V 6650 5300 50  0000 L CNN
-F 1 "30pF 30kV" V 6800 5500 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6800 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6800 5400 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6800 5400 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6800 5400 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6800 5400 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6800 5400 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6800 5400 50  0001 C CNN "Manufacturers Part Number"
-	1    6800 5400
+F 0 "D?" V 6150 5300 50  0000 L CNN
+F 1 "30pF 30kV" V 6300 5500 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6300 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6300 5400 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6300 5400 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6300 5400 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6300 5400 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6300 5400 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6300 5400 50  0001 C CNN "Manufacturers Part Number"
+	1    6300 5400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2FA201
-P 6950 5400
+P 6450 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA201" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2FA201" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2FA201" Ref="D?"  Part="1" 
-F 0 "D?" V 6800 5300 50  0000 L CNN
-F 1 "30pF 30kV" V 6950 5500 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6950 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6950 5400 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6950 5400 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6950 5400 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6950 5400 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6950 5400 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6950 5400 50  0001 C CNN "Manufacturers Part Number"
-	1    6950 5400
+F 0 "D?" V 6300 5300 50  0000 L CNN
+F 1 "30pF 30kV" V 6450 5500 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6450 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6450 5400 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6450 5400 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6450 5400 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6450 5400 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6450 5400 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6450 5400 50  0001 C CNN "Manufacturers Part Number"
+	1    6450 5400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2FA20C
-P 7100 5400
+P 6600 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA20C" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2FA20C" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2FA20C" Ref="D?"  Part="1" 
-F 0 "D?" V 6950 5300 50  0000 L CNN
-F 1 "30pF 30kV" V 7100 5500 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 7100 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 7100 5400 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 7100 5400 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 7100 5400 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 7100 5400 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 7100 5400 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 7100 5400 50  0001 C CNN "Manufacturers Part Number"
-	1    7100 5400
+F 0 "D?" V 6450 5300 50  0000 L CNN
+F 1 "30pF 30kV" V 6600 5500 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6600 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6600 5400 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6600 5400 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6600 5400 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6600 5400 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6600 5400 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6600 5400 50  0001 C CNN "Manufacturers Part Number"
+	1    6600 5400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6500 4150 6500 5250
-Connection ~ 6500 4150
+	6000 4150 6000 5250
+Connection ~ 6000 4150
 Wire Wire Line
-	6500 4150 6150 4150
+	6000 4150 5650 4150
 Wire Wire Line
-	6650 4250 6650 5250
-Connection ~ 6650 4250
+	6150 4250 6150 5250
+Connection ~ 6150 4250
 Wire Wire Line
-	6650 4250 7000 4250
+	6150 4250 6500 4250
 Wire Wire Line
-	6800 4350 6800 5250
-Connection ~ 6800 4350
+	6300 4350 6300 5250
+Connection ~ 6300 4350
 Wire Wire Line
-	6800 4350 7400 4350
+	6300 4350 6900 4350
 Wire Wire Line
-	6950 4450 6950 5250
-Connection ~ 6950 4450
+	6450 4450 6450 5250
+Connection ~ 6450 4450
 Wire Wire Line
-	6950 4450 7800 4450
+	6450 4450 7300 4450
 Wire Wire Line
-	7100 5050 7100 5250
-Connection ~ 7100 5050
+	6600 5050 6600 5250
+Connection ~ 6600 5050
 Wire Wire Line
-	7100 5050 7200 5050
+	6600 5050 6700 5050
 $Comp
 L Device:D_TVS D?
 U 1 1 5D2FA225
-P 7250 5400
+P 6750 5400
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA225" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D2FA225" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D2FA225" Ref="D?"  Part="1" 
-F 0 "D?" V 7200 5500 50  0000 L CNN
-F 1 "12V_Vrso" V 7250 5500 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 7250 5400 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 7250 5400 50  0001 C CNN
-F 4 "Littelfuse" H 7250 5400 50  0001 C CNN "Manufacturer"
-F 5 "Transient Voltage Suppresion Diode" H 7250 5400 50  0001 C CNN "Description"
-F 6 "SMAJ12CA" H 7250 5400 50  0001 C CNN "Manufacturers Part Number"
-F 7 "SMA Diode" H 5250 1150 50  0001 C CNN "Package ID"
-	1    7250 5400
+F 0 "D?" V 6700 5500 50  0000 L CNN
+F 1 "12V_Vrso" V 6750 5500 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 6750 5400 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 6750 5400 50  0001 C CNN
+F 4 "Littelfuse" H 6750 5400 50  0001 C CNN "Manufacturer"
+F 5 "Transient Voltage Suppresion Diode" H 6750 5400 50  0001 C CNN "Description"
+F 6 "SMAJ12CA" H 6750 5400 50  0001 C CNN "Manufacturers Part Number"
+F 7 "SMA Diode" H 4750 1150 50  0001 C CNN "Package ID"
+	1    6750 5400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7250 5250 7250 5150
-Connection ~ 7250 5150
+	6750 5250 6750 5150
+Connection ~ 6750 5150
 Wire Wire Line
-	6500 5550 6500 5600
+	6000 5550 6000 5600
 Wire Wire Line
-	7250 5550 7250 5700
+	6750 5550 6750 5700
 Wire Wire Line
-	7250 5700 7100 5700
-Connection ~ 6500 5700
+	6750 5700 6600 5700
+Connection ~ 6000 5700
 Wire Wire Line
-	6650 5550 6650 5700
-Connection ~ 6650 5700
+	6150 5550 6150 5700
+Connection ~ 6150 5700
 Wire Wire Line
-	6650 5700 6500 5700
+	6150 5700 6000 5700
 Wire Wire Line
-	6800 5550 6800 5700
-Connection ~ 6800 5700
+	6300 5550 6300 5700
+Connection ~ 6300 5700
 Wire Wire Line
-	6800 5700 6650 5700
+	6300 5700 6150 5700
 Wire Wire Line
-	6950 5550 6950 5700
-Connection ~ 6950 5700
+	6450 5550 6450 5700
+Connection ~ 6450 5700
 Wire Wire Line
-	6950 5700 6800 5700
+	6450 5700 6300 5700
 Wire Wire Line
-	7100 5550 7100 5700
-Connection ~ 7100 5700
+	6600 5550 6600 5700
+Connection ~ 6600 5700
 Wire Wire Line
-	7100 5700 6950 5700
+	6600 5700 6450 5700
 Wire Wire Line
-	6150 4850 7200 4850
+	5650 4850 6700 4850
 Wire Wire Line
-	6300 4550 6300 4950
+	5800 4550 5800 4950
 Wire Wire Line
-	6300 4950 6150 4950
+	5800 4950 5650 4950
 Wire Wire Line
-	6300 4950 6300 5600
+	5800 4950 5800 5600
 Wire Wire Line
-	6300 5600 6500 5600
-Connection ~ 6300 4950
-Connection ~ 6500 5600
+	5800 5600 6000 5600
+Connection ~ 5800 4950
+Connection ~ 6000 5600
 Wire Wire Line
-	6500 5600 6500 5700
-Text Label 8650 4150 0    50   ~ 0
+	6000 5600 6000 5700
+Text Label 8150 4150 0    50   ~ 0
 M_L_IN4
-Text Label 8650 4250 0    50   ~ 0
+Text Label 8150 4250 0    50   ~ 0
 M_R_IN4
-Text Label 7200 4850 0    50   ~ 0
+Text Label 6700 4850 0    50   ~ 0
 M_INT_4
-Text Label 7200 5050 0    50   ~ 0
+Text Label 6700 5050 0    50   ~ 0
 M_ID_PIN4
 $Comp
 L Device:Polyfuse_Small F?
 U 1 1 5D2FA24A
-P 7750 4950
+P 7250 4950
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA24A" Ref="F?"  Part="1" 
 AR Path="/5CB02488/5D2FA24A" Ref="F?"  Part="1" 
 AR Path="/5CBF625C/5D2FA24A" Ref="F?"  Part="1" 
-F 0 "F?" H 7850 5000 50  0000 L CNN
-F 1 "1A" H 7850 4950 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 7800 4750 50  0001 L CNN
-F 3 "~" H 7750 4950 50  0001 C CNN
-F 4 "0603in/1608mm" H 5550 950 50  0001 C CNN "Package ID"
-	1    7750 4950
+F 0 "F?" H 7350 5000 50  0000 L CNN
+F 1 "1A" H 7350 4950 50  0000 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 7300 4750 50  0001 L CNN
+F 3 "~" H 7250 4950 50  0001 C CNN
+F 4 "0603in/1608mm" H 5050 950 50  0001 C CNN "Package ID"
+	1    7250 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 5150 7750 5150
+	6750 5150 7250 5150
 Wire Wire Line
-	7750 4850 7750 4750
-Text Label 6700 5900 0    50   ~ 0
+	7250 4850 7250 4750
+Text Label 6200 5900 0    50   ~ 0
 M_GND
 Wire Wire Line
-	6500 5900 6700 5900
+	6000 5900 6200 5900
 Wire Wire Line
-	6500 5700 6500 5900
-Text Label 7900 4750 0    50   ~ 0
+	6000 5700 6000 5900
+Text Label 7400 4750 0    50   ~ 0
 M_+12V
 Wire Wire Line
-	7750 4750 7900 4750
+	7250 4750 7400 4750
 $Comp
 L Connector_Generic:Conn_01x12 J?
 U 1 1 5D310EBD
-P 5950 7200
+P 5450 7200
 AR Path="/5CC6CC1A/5CC6D47B/5D310EBD" Ref="J?"  Part="1" 
 AR Path="/5CB02488/5D310EBD" Ref="J?"  Part="1" 
 AR Path="/5CBF625C/5D310EBD" Ref="J?"  Part="1" 
-F 0 "J?" H 5850 7950 50  0000 C CNN
-F 1 "Device 5" H 5850 7850 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 5950 7200 50  0001 C CNN
-F 3 "~" H 5950 7200 50  0001 C CNN
-	1    5950 7200
+F 0 "J?" H 5350 7950 50  0000 C CNN
+F 1 "Device 5" H 5350 7850 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 5450 7200 50  0001 C CNN
+F 3 "~" H 5450 7200 50  0001 C CNN
+	1    5450 7200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5D310EC6
-P 8450 6900
+P 7950 6900
 AR Path="/5CC6CC1A/5CC6D47B/5D310EC6" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D310EC6" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D310EC6" Ref="C?"  Part="1" 
-F 0 "C?" V 8600 6900 50  0000 C CNN
-F 1 "1uF" V 8700 6900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8450 6900 50  0001 C CNN
-F 3 "~" H 8450 6900 50  0001 C CNN
-F 4 "Kemet" H 8450 6900 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 8450 6900 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 5250 3800 50  0001 C CNN "Package ID"
-	1    8450 6900
+F 0 "C?" V 8100 6900 50  0000 C CNN
+F 1 "1uF" V 8200 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7950 6900 50  0001 C CNN
+F 3 "~" H 7950 6900 50  0001 C CNN
+F 4 "Kemet" H 7950 6900 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RACAUTO" H 7950 6900 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 4750 3800 50  0001 C CNN "Package ID"
+	1    7950 6900
 	0    1    1    0   
 $EndComp
-Text Notes 8450 6600 0    50   ~ 0
+Text Notes 7950 6600 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	8150 6800 6800 6800
+	7650 6800 6300 6800
 Wire Wire Line
-	8350 6800 8650 6800
+	7850 6800 8150 6800
 Wire Wire Line
-	8550 6900 8650 6900
-Text Label 8650 7000 0    50   ~ 0
+	8050 6900 8150 6900
+Text Label 8150 7000 0    50   ~ 0
 M_L_OUT5
 Wire Wire Line
-	6150 7000 6800 7000
-Text Label 8650 7100 0    50   ~ 0
+	5650 7000 6300 7000
+Text Label 8150 7100 0    50   ~ 0
 M_R_OUT5
 Wire Wire Line
-	6150 7100 6950 7100
+	5650 7100 6450 7100
 $Comp
 L Device:C_Small C?
 U 1 1 5D310ED7
-P 8250 6800
+P 7750 6800
 AR Path="/5CC6CC1A/5CC6D47B/5D310ED7" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D310ED7" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D310ED7" Ref="C?"  Part="1" 
-F 0 "C?" V 8000 6800 50  0000 C CNN
-F 1 "1uF" V 8100 6800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8250 6800 50  0001 C CNN
-F 3 "~" H 8250 6800 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 8250 6800 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 8250 6800 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 5250 3800 50  0001 C CNN "Package ID"
-	1    8250 6800
+F 0 "C?" V 7500 6800 50  0000 C CNN
+F 1 "1uF" V 7600 6800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7750 6800 50  0001 C CNN
+F 3 "~" H 7750 6800 50  0001 C CNN
+F 4 "C0805X105J3RACAUTO" H 7750 6800 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 7750 6800 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 4750 3800 50  0001 C CNN "Package ID"
+	1    7750 6800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6150 7200 6300 7200
+	5650 7200 5800 7200
 Wire Wire Line
-	6150 7800 7250 7800
+	5650 7800 6750 7800
 Wire Wire Line
-	7750 7800 7750 7700
-Text Label 7200 7300 0    50   ~ 0
+	7250 7800 7250 7700
+Text Label 6700 7300 0    50   ~ 0
 M_SDA_HV5
-Text Label 7200 7400 0    50   ~ 0
+Text Label 6700 7400 0    50   ~ 0
 M_SCL_HV5
 Wire Wire Line
-	6150 7300 7200 7300
+	5650 7300 6700 7300
 Wire Wire Line
-	6150 7400 7200 7400
+	5650 7400 6700 7400
 Wire Wire Line
-	6150 7700 7100 7700
+	5650 7700 6600 7700
 Wire Wire Line
-	6600 6800 6500 6800
+	6100 6800 6000 6800
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D310EE9
-P 7100 6900
+P 6600 6900
 AR Path="/5CC6CC1A/5CC6D47B/5D310EE9" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D310EE9" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D310EE9" Ref="FB?"  Part="1" 
-F 0 "FB?" V 6850 6900 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6950 6900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7030 6900 50  0001 C CNN
-F 3 "~" H 7100 6900 50  0001 C CNN
-F 4 "Murata" H 7100 6900 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7100 6900 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7100 6900 50  0001 C CNN "Manufacturers Part Number"
-	1    7100 6900
+F 0 "FB?" V 6350 6900 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6450 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6530 6900 50  0001 C CNN
+F 3 "~" H 6600 6900 50  0001 C CNN
+F 4 "Murata" H 6600 6900 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 6600 6900 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 6600 6900 50  0001 C CNN "Manufacturers Part Number"
+	1    6600 6900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7200 6900 8350 6900
+	6700 6900 7850 6900
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D310EF3
-P 7500 7000
+P 7000 7000
 AR Path="/5CC6CC1A/5CC6D47B/5D310EF3" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D310EF3" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D310EF3" Ref="FB?"  Part="1" 
-F 0 "FB?" V 7250 7000 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 7350 7000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7430 7000 50  0001 C CNN
-F 3 "~" H 7500 7000 50  0001 C CNN
-F 4 "Murata" H 7500 7000 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7500 7000 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7500 7000 50  0001 C CNN "Manufacturers Part Number"
-	1    7500 7000
+F 0 "FB?" V 6750 7000 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6850 7000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6930 7000 50  0001 C CNN
+F 3 "~" H 7000 7000 50  0001 C CNN
+F 4 "Murata" H 7000 7000 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7000 7000 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 7000 7000 50  0001 C CNN "Manufacturers Part Number"
+	1    7000 7000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7600 7000 8650 7000
+	7100 7000 8150 7000
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D310EFD
-P 7900 7100
+P 7400 7100
 AR Path="/5CC6CC1A/5CC6D47B/5D310EFD" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D310EFD" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D310EFD" Ref="FB?"  Part="1" 
-F 0 "FB?" V 7650 7100 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 7750 7100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7830 7100 50  0001 C CNN
-F 3 "~" H 7900 7100 50  0001 C CNN
-F 4 "Murata" H 7900 7100 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7900 7100 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7900 7100 50  0001 C CNN "Manufacturers Part Number"
-	1    7900 7100
+F 0 "FB?" V 7150 7100 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 7250 7100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 7330 7100 50  0001 C CNN
+F 3 "~" H 7400 7100 50  0001 C CNN
+F 4 "Murata" H 7400 7100 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7400 7100 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 7400 7100 50  0001 C CNN "Manufacturers Part Number"
+	1    7400 7100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8000 7100 8650 7100
+	7500 7100 8150 7100
 Wire Wire Line
-	6150 6900 6650 6900
+	5650 6900 6150 6900
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D310F08
-P 6700 6800
+P 6200 6800
 AR Path="/5CC6CC1A/5CC6D47B/5D310F08" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/5D310F08" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/5D310F08" Ref="FB?"  Part="1" 
-F 0 "FB?" V 6450 6800 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6550 6800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6630 6800 50  0001 C CNN
-F 3 "~" H 6700 6800 50  0001 C CNN
-F 4 "Murata" H 6700 6800 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 6700 6800 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 6700 6800 50  0001 C CNN "Manufacturers Part Number"
-	1    6700 6800
+F 0 "FB?" V 5950 6800 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6050 6800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6130 6800 50  0001 C CNN
+F 3 "~" H 6200 6800 50  0001 C CNN
+F 4 "Murata" H 6200 6800 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 6200 6800 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 6200 6800 50  0001 C CNN "Manufacturers Part Number"
+	1    6200 6800
 	0    1    1    0   
 $EndComp
-Text Label 6350 6600 1    50   ~ 0
+Text Label 5850 6600 1    50   ~ 0
 M_AUD_GND5
 Wire Wire Line
-	6350 6700 6350 6600
+	5850 6700 5850 6600
 Wire Wire Line
-	6150 6700 6350 6700
-Text Notes 6600 6450 0    50   ~ 0
+	5650 6700 5850 6700
+Text Notes 6100 6450 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
 L Device:D_TVS D?
 U 1 1 5D310F17
-P 6500 8050
+P 6000 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D310F17" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D310F17" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D310F17" Ref="D?"  Part="1" 
-F 0 "D?" V 6350 8000 50  0000 R CNN
-F 1 "30pF 30kV" V 6650 8450 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6500 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6500 8050 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6500 8050 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6500 8050 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6500 8050 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6500 8050 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6500 8050 50  0001 C CNN "Manufacturers Part Number"
-	1    6500 8050
+F 0 "D?" V 5850 8000 50  0000 R CNN
+F 1 "30pF 30kV" V 6150 8450 50  0000 R CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6000 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6000 8050 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6000 8050 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6000 8050 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6000 8050 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6000 8050 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6000 8050 50  0001 C CNN "Manufacturers Part Number"
+	1    6000 8050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D310F22
-P 6650 8050
+P 6150 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D310F22" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D310F22" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D310F22" Ref="D?"  Part="1" 
-F 0 "D?" V 6500 7950 50  0000 L CNN
-F 1 "30pF 30kV" V 6650 8150 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6650 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6650 8050 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6650 8050 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6650 8050 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6650 8050 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6650 8050 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6650 8050 50  0001 C CNN "Manufacturers Part Number"
-	1    6650 8050
+F 0 "D?" V 6000 7950 50  0000 L CNN
+F 1 "30pF 30kV" V 6150 8150 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6150 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6150 8050 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6150 8050 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6150 8050 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6150 8050 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6150 8050 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6150 8050 50  0001 C CNN "Manufacturers Part Number"
+	1    6150 8050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D310F2D
-P 6800 8050
+P 6300 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D310F2D" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D310F2D" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D310F2D" Ref="D?"  Part="1" 
-F 0 "D?" V 6650 7950 50  0000 L CNN
-F 1 "30pF 30kV" V 6800 8150 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6800 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6800 8050 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6800 8050 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6800 8050 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6800 8050 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6800 8050 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6800 8050 50  0001 C CNN "Manufacturers Part Number"
-	1    6800 8050
+F 0 "D?" V 6150 7950 50  0000 L CNN
+F 1 "30pF 30kV" V 6300 8150 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6300 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6300 8050 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6300 8050 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6300 8050 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6300 8050 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6300 8050 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6300 8050 50  0001 C CNN "Manufacturers Part Number"
+	1    6300 8050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D310F38
-P 6950 8050
+P 6450 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D310F38" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D310F38" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D310F38" Ref="D?"  Part="1" 
-F 0 "D?" V 6800 7950 50  0000 L CNN
-F 1 "30pF 30kV" V 6950 8150 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6950 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6950 8050 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 6950 8050 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 6950 8050 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 6950 8050 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 6950 8050 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6950 8050 50  0001 C CNN "Manufacturers Part Number"
-	1    6950 8050
+F 0 "D?" V 6300 7950 50  0000 L CNN
+F 1 "30pF 30kV" V 6450 8150 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6450 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6450 8050 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6450 8050 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6450 8050 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6450 8050 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6450 8050 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6450 8050 50  0001 C CNN "Manufacturers Part Number"
+	1    6450 8050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5D310F43
-P 7100 8050
+P 6600 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D310F43" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D310F43" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D310F43" Ref="D?"  Part="1" 
-F 0 "D?" V 6950 7950 50  0000 L CNN
-F 1 "30pF 30kV" V 7100 8150 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 7100 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 7100 8050 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 7100 8050 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 7100 8050 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 7100 8050 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 7100 8050 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 7100 8050 50  0001 C CNN "Manufacturers Part Number"
-	1    7100 8050
+F 0 "D?" V 6450 7950 50  0000 L CNN
+F 1 "30pF 30kV" V 6600 8150 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 6600 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6600 8050 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 6600 8050 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 6600 8050 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 6600 8050 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 6600 8050 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 6600 8050 50  0001 C CNN "Manufacturers Part Number"
+	1    6600 8050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6500 6800 6500 7900
-Connection ~ 6500 6800
+	6000 6800 6000 7900
+Connection ~ 6000 6800
 Wire Wire Line
-	6500 6800 6150 6800
+	6000 6800 5650 6800
 Wire Wire Line
-	6650 6900 6650 7900
-Connection ~ 6650 6900
+	6150 6900 6150 7900
+Connection ~ 6150 6900
 Wire Wire Line
-	6650 6900 7000 6900
+	6150 6900 6500 6900
 Wire Wire Line
-	6800 7000 6800 7900
-Connection ~ 6800 7000
+	6300 7000 6300 7900
+Connection ~ 6300 7000
 Wire Wire Line
-	6800 7000 7400 7000
+	6300 7000 6900 7000
 Wire Wire Line
-	6950 7100 6950 7900
-Connection ~ 6950 7100
+	6450 7100 6450 7900
+Connection ~ 6450 7100
 Wire Wire Line
-	6950 7100 7800 7100
+	6450 7100 7300 7100
 Wire Wire Line
-	7100 7700 7100 7900
-Connection ~ 7100 7700
+	6600 7700 6600 7900
+Connection ~ 6600 7700
 Wire Wire Line
-	7100 7700 7200 7700
+	6600 7700 6700 7700
 $Comp
 L Device:D_TVS D?
 U 1 1 5D310F5C
-P 7250 8050
+P 6750 8050
 AR Path="/5CC6CC1A/5CC6D47B/5D310F5C" Ref="D?"  Part="1" 
 AR Path="/5CB02488/5D310F5C" Ref="D?"  Part="1" 
 AR Path="/5CBF625C/5D310F5C" Ref="D?"  Part="1" 
-F 0 "D?" V 7200 8150 50  0000 L CNN
-F 1 "12V_Vrso" V 7250 8150 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 7250 8050 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 7250 8050 50  0001 C CNN
-F 4 "Littelfuse" H 7250 8050 50  0001 C CNN "Manufacturer"
-F 5 "Transient Voltage Suppresion Diode" H 7250 8050 50  0001 C CNN "Description"
-F 6 "SMAJ12CA" H 7250 8050 50  0001 C CNN "Manufacturers Part Number"
-F 7 "SMA Diode" H 5250 3800 50  0001 C CNN "Package ID"
-	1    7250 8050
+F 0 "D?" V 6700 8150 50  0000 L CNN
+F 1 "12V_Vrso" V 6750 8150 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 6750 8050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 6750 8050 50  0001 C CNN
+F 4 "Littelfuse" H 6750 8050 50  0001 C CNN "Manufacturer"
+F 5 "Transient Voltage Suppresion Diode" H 6750 8050 50  0001 C CNN "Description"
+F 6 "SMAJ12CA" H 6750 8050 50  0001 C CNN "Manufacturers Part Number"
+F 7 "SMA Diode" H 4750 3800 50  0001 C CNN "Package ID"
+	1    6750 8050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7250 7900 7250 7800
-Connection ~ 7250 7800
+	6750 7900 6750 7800
+Connection ~ 6750 7800
 Wire Wire Line
-	6500 8200 6500 8250
+	6000 8200 6000 8250
 Wire Wire Line
-	7250 8200 7250 8350
+	6750 8200 6750 8350
 Wire Wire Line
-	7250 8350 7100 8350
-Connection ~ 6500 8350
+	6750 8350 6600 8350
+Connection ~ 6000 8350
 Wire Wire Line
-	6650 8200 6650 8350
-Connection ~ 6650 8350
+	6150 8200 6150 8350
+Connection ~ 6150 8350
 Wire Wire Line
-	6650 8350 6500 8350
+	6150 8350 6000 8350
 Wire Wire Line
-	6800 8200 6800 8350
-Connection ~ 6800 8350
+	6300 8200 6300 8350
+Connection ~ 6300 8350
 Wire Wire Line
-	6800 8350 6650 8350
+	6300 8350 6150 8350
 Wire Wire Line
-	6950 8200 6950 8350
-Connection ~ 6950 8350
+	6450 8200 6450 8350
+Connection ~ 6450 8350
 Wire Wire Line
-	6950 8350 6800 8350
+	6450 8350 6300 8350
 Wire Wire Line
-	7100 8200 7100 8350
-Connection ~ 7100 8350
+	6600 8200 6600 8350
+Connection ~ 6600 8350
 Wire Wire Line
-	7100 8350 6950 8350
+	6600 8350 6450 8350
 Wire Wire Line
-	6150 7500 7200 7500
+	5650 7500 6700 7500
 Wire Wire Line
-	6300 7200 6300 7600
+	5800 7200 5800 7600
 Wire Wire Line
-	6300 7600 6150 7600
+	5800 7600 5650 7600
 Wire Wire Line
-	6300 7600 6300 8250
+	5800 7600 5800 8250
 Wire Wire Line
-	6300 8250 6500 8250
-Connection ~ 6300 7600
-Connection ~ 6500 8250
+	5800 8250 6000 8250
+Connection ~ 5800 7600
+Connection ~ 6000 8250
 Wire Wire Line
-	6500 8250 6500 8350
-Text Label 8650 6800 0    50   ~ 0
+	6000 8250 6000 8350
+Text Label 8150 6800 0    50   ~ 0
 M_L_IN5
-Text Label 8650 6900 0    50   ~ 0
+Text Label 8150 6900 0    50   ~ 0
 M_R_IN5
-Text Label 7200 7500 0    50   ~ 0
+Text Label 6700 7500 0    50   ~ 0
 M_INT_5
-Text Label 7200 7700 0    50   ~ 0
+Text Label 6700 7700 0    50   ~ 0
 M_ID_PIN5
 $Comp
 L Device:Polyfuse_Small F?
 U 1 1 5D310F81
-P 7750 7600
+P 7250 7600
 AR Path="/5CC6CC1A/5CC6D47B/5D310F81" Ref="F?"  Part="1" 
 AR Path="/5CB02488/5D310F81" Ref="F?"  Part="1" 
 AR Path="/5CBF625C/5D310F81" Ref="F?"  Part="1" 
-F 0 "F?" H 7850 7650 50  0000 L CNN
-F 1 "1A" H 7850 7600 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 7800 7400 50  0001 L CNN
-F 3 "~" H 7750 7600 50  0001 C CNN
-F 4 "0603in/1608mm" H 5550 3600 50  0001 C CNN "Package ID"
-	1    7750 7600
+F 0 "F?" H 7350 7650 50  0000 L CNN
+F 1 "1A" H 7350 7600 50  0000 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 7300 7400 50  0001 L CNN
+F 3 "~" H 7250 7600 50  0001 C CNN
+F 4 "0603in/1608mm" H 5050 3600 50  0001 C CNN "Package ID"
+	1    7250 7600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 7800 7750 7800
+	6750 7800 7250 7800
 Wire Wire Line
-	7750 7500 7750 7400
-Text Label 6700 8550 0    50   ~ 0
+	7250 7500 7250 7400
+Text Label 6200 8550 0    50   ~ 0
 M_GND
 Wire Wire Line
-	6500 8550 6700 8550
+	6000 8550 6200 8550
 Wire Wire Line
-	6500 8350 6500 8550
-Text Label 7900 7400 0    50   ~ 0
+	6000 8350 6000 8550
+Text Label 7400 7400 0    50   ~ 0
 M_+12V
 Wire Wire Line
-	7750 7400 7900 7400
-Text Label 10550 3500 2    50   ~ 0
+	7250 7400 7400 7400
+Text Label 10750 3450 0    50   ~ 0
 M_SDA_HV0
-Text Label 10550 3600 2    50   ~ 0
+Text Label 10750 3350 0    50   ~ 0
 M_SCL_HV0
-Text Label 11250 3400 0    50   ~ 0
+Text Label 10050 3350 2    50   ~ 0
 M_INT_0
-Text Label 11250 3500 0    50   ~ 0
+Text Label 10050 3450 2    50   ~ 0
 M_ID_PIN0
-Text Label 10550 3400 2    50   ~ 0
+Text Label 10050 3250 2    50   ~ 0
 M_AUD_GND0
-Text Label 10550 7000 2    50   ~ 0
+Text Label 10750 6650 0    50   ~ 0
 M_L_OUT5
-Text Label 10550 6900 2    50   ~ 0
+Text Label 10750 6550 0    50   ~ 0
 M_R_OUT5
-Text Label 11250 6800 0    50   ~ 0
+Text Label 10050 6650 2    50   ~ 0
 M_L_IN5
-Text Label 11250 6900 0    50   ~ 0
+Text Label 10050 6550 2    50   ~ 0
 M_R_IN5
-Wire Wire Line
-	11450 3300 11450 3600
-Wire Wire Line
-	11150 7000 11450 7000
-Connection ~ 11450 7000
-Wire Wire Line
-	11450 7000 11450 7500
-Text Label 11250 6600 0    50   ~ 0
+Text Label 10750 6950 0    50   ~ 0
 M_SDA_HV5
-Text Label 11250 6500 0    50   ~ 0
+Text Label 10750 6850 0    50   ~ 0
 M_SCL_HV5
-Text Label 10550 6700 2    50   ~ 0
+Text Label 10050 6850 2    50   ~ 0
 M_INT_5
-Text Label 10550 6600 2    50   ~ 0
+Text Label 10050 6950 2    50   ~ 0
 M_ID_PIN5
-Text Label 11250 6700 0    50   ~ 0
+Text Label 10050 6750 2    50   ~ 0
 M_AUD_GND5
-Wire Wire Line
-	10650 6800 10350 6800
-Connection ~ 10350 6800
-Wire Wire Line
-	10350 6800 10350 7500
-Wire Wire Line
-	11150 3600 11450 3600
-Connection ~ 11450 3600
-Wire Wire Line
-	11450 3600 11450 4100
-Text Label 11250 6200 0    50   ~ 0
+Text Label 10750 6050 0    50   ~ 0
 M_L_OUT4
-Text Label 11250 6300 0    50   ~ 0
+Text Label 10750 5950 0    50   ~ 0
 M_R_OUT4
-Text Label 10550 6400 2    50   ~ 0
+Text Label 10050 6050 2    50   ~ 0
 M_L_IN4
-Text Label 10550 6500 2    50   ~ 0
+Text Label 10050 5950 2    50   ~ 0
 M_R_IN4
-Wire Wire Line
-	11150 6400 11450 6400
-Connection ~ 11450 6400
-Wire Wire Line
-	11450 6400 11450 7000
-Text Label 10550 6200 2    50   ~ 0
+Text Label 10750 6350 0    50   ~ 0
 M_SDA_HV4
-Text Label 10550 6100 2    50   ~ 0
+Text Label 10750 6250 0    50   ~ 0
 M_SCL_HV4
-Text Label 11250 6100 0    50   ~ 0
+Text Label 10050 6250 2    50   ~ 0
 M_INT_4
-Text Label 11250 6000 0    50   ~ 0
+Text Label 10050 6350 2    50   ~ 0
 M_ID_PIN4
-Text Label 10550 6300 2    50   ~ 0
+Text Label 10050 6150 2    50   ~ 0
 M_AUD_GND4
-Text Label 10550 5900 2    50   ~ 0
+Text Label 10750 5450 0    50   ~ 0
 M_L_OUT3
-Text Label 10550 5800 2    50   ~ 0
+Text Label 10750 5350 0    50   ~ 0
 M_R_OUT3
-Text Label 11250 5800 0    50   ~ 0
+Text Label 10050 5450 2    50   ~ 0
 M_L_IN3
-Text Label 11250 5900 0    50   ~ 0
+Text Label 10050 5350 2    50   ~ 0
 M_R_IN3
-Text Label 11250 5500 0    50   ~ 0
+Text Label 10750 5750 0    50   ~ 0
 M_SDA_HV3
-Text Label 11250 5600 0    50   ~ 0
+Text Label 10750 5650 0    50   ~ 0
 M_SCL_HV3
-Text Label 10550 5700 2    50   ~ 0
-M_INT_3
-Text Label 10550 5600 2    50   ~ 0
-M_ID_PIN3
-Text Label 11250 5700 0    50   ~ 0
-M_AUD_GND3
-Wire Wire Line
-	10650 6000 10350 6000
-Connection ~ 10350 6000
-Wire Wire Line
-	10350 6000 10350 6800
-Wire Wire Line
-	10350 3100 10350 3700
-Wire Wire Line
-	10650 5500 10350 5500
-Connection ~ 10350 5500
-Wire Wire Line
-	10350 5500 10350 6000
-Text Label 10550 3800 2    50   ~ 0
+Text Label 10750 3750 0    50   ~ 0
 M_L_OUT1
-Text Label 10550 3900 2    50   ~ 0
+Text Label 10750 3650 0    50   ~ 0
 M_R_OUT1
-Text Label 11250 3700 0    50   ~ 0
+Text Label 10050 3750 2    50   ~ 0
 M_L_IN1
-Text Label 11250 3800 0    50   ~ 0
+Text Label 10050 3650 2    50   ~ 0
 M_R_IN1
-Text Label 10550 4100 2    50   ~ 0
+Text Label 10750 4050 0    50   ~ 0
 M_SDA_HV1
-Text Label 10550 4200 2    50   ~ 0
+Text Label 10750 3950 0    50   ~ 0
 M_SCL_HV1
-Text Label 11250 3900 0    50   ~ 0
+Text Label 10050 3950 2    50   ~ 0
 M_INT_1
-Text Label 11250 4000 0    50   ~ 0
+Text Label 10050 4050 2    50   ~ 0
 M_ID_PIN1
-Text Label 10550 4000 2    50   ~ 0
+Text Label 10050 3850 2    50   ~ 0
 M_AUD_GND1
-Wire Wire Line
-	10650 3700 10350 3700
-Connection ~ 10350 3700
-Wire Wire Line
-	10350 3700 10350 4300
-Wire Wire Line
-	11150 4100 11450 4100
-Connection ~ 11450 4100
-Wire Wire Line
-	11450 4100 11450 4800
-Text Label 11250 4600 0    50   ~ 0
+Text Label 10750 4350 0    50   ~ 0
 M_L_OUT2
-Text Label 11250 4700 0    50   ~ 0
+Text Label 10750 4250 0    50   ~ 0
 M_R_OUT2
-Text Label 11250 4400 0    50   ~ 0
+Text Label 10050 4350 2    50   ~ 0
 M_L_IN2
-Text Label 11250 4500 0    50   ~ 0
+Text Label 10050 4250 2    50   ~ 0
 M_R_IN2
-Text Label 10550 4500 2    50   ~ 0
+Text Label 10750 4650 0    50   ~ 0
 M_SDA_HV2
-Text Label 10550 4400 2    50   ~ 0
+Text Label 10750 4550 0    50   ~ 0
 M_SCL_HV2
-Text Label 11250 4200 0    50   ~ 0
+Text Label 10050 4550 2    50   ~ 0
 M_INT_2
-Text Label 11250 4300 0    50   ~ 0
+Text Label 10050 4650 2    50   ~ 0
 M_ID_PIN2
-Text Label 10550 4600 2    50   ~ 0
+Text Label 10050 4450 2    50   ~ 0
 M_AUD_GND2
-Wire Wire Line
-	10650 4300 10350 4300
-Connection ~ 10350 4300
-Wire Wire Line
-	10350 4300 10350 4700
-Text Label 10150 5000 2    50   ~ 0
+Text Label 10000 4850 2    50   ~ 0
 M_+12V
 Wire Wire Line
-	10150 5000 10550 5000
+	10000 4850 10050 4850
 Wire Wire Line
-	10550 5000 10550 5100
+	10050 4850 10050 4950
 Wire Wire Line
-	10550 5200 10650 5200
+	10050 5050 10150 5050
 Wire Wire Line
-	10650 5100 10550 5100
-Connection ~ 10550 5100
+	10150 4950 10050 4950
+Connection ~ 10050 4950
 Wire Wire Line
-	10550 5100 10550 5200
+	10050 4950 10050 5050
 Wire Wire Line
-	10650 5000 10550 5000
-Connection ~ 10550 5000
+	10150 4850 10050 4850
+Connection ~ 10050 4850
 Wire Wire Line
-	10650 5300 10550 5300
+	10150 5150 10050 5150
 Wire Wire Line
-	10550 5300 10550 5200
-Connection ~ 10550 5200
-Text Label 11650 5000 0    50   ~ 0
+	10050 5150 10050 5050
+Connection ~ 10050 5050
+Text Label 10800 4850 0    50   ~ 0
 M_+12V
 Wire Wire Line
-	11650 5000 11250 5000
+	10800 4850 10750 4850
 Wire Wire Line
-	11250 5000 11250 5100
+	10750 4850 10750 4950
 Wire Wire Line
-	11250 5200 11150 5200
+	10750 5050 10650 5050
 Wire Wire Line
-	11150 5100 11250 5100
-Connection ~ 11250 5100
+	10650 4950 10750 4950
+Connection ~ 10750 4950
 Wire Wire Line
-	11250 5100 11250 5200
+	10750 4950 10750 5050
 Wire Wire Line
-	11150 5000 11250 5000
-Connection ~ 11250 5000
+	10650 4850 10750 4850
+Connection ~ 10750 4850
 Wire Wire Line
-	11150 5300 11250 5300
+	10650 5150 10750 5150
 Wire Wire Line
-	11250 5300 11250 5200
-Connection ~ 11250 5200
+	10750 5150 10750 5050
+Connection ~ 10750 5050
 Wire Wire Line
-	11150 5400 11450 5400
-Connection ~ 11450 5400
+	10050 3250 10150 3250
 Wire Wire Line
-	11450 5400 11450 6400
+	10750 3450 10650 3450
 Wire Wire Line
-	10650 5400 10350 5400
-Connection ~ 10350 5400
+	10750 3350 10650 3350
 Wire Wire Line
-	10350 5400 10350 5500
+	10750 3750 10650 3750
 Wire Wire Line
-	10650 4900 10350 4900
-Connection ~ 10350 4900
+	10750 3650 10650 3650
 Wire Wire Line
-	10350 4900 10350 5400
+	10050 3850 10150 3850
 Wire Wire Line
-	10650 4700 10350 4700
-Connection ~ 10350 4700
+	10750 4050 10650 4050
 Wire Wire Line
-	10350 4700 10350 4800
+	10750 3950 10650 3950
 Wire Wire Line
-	10650 4800 10350 4800
-Connection ~ 10350 4800
+	10150 3350 10050 3350
 Wire Wire Line
-	10350 4800 10350 4900
+	10150 3450 10050 3450
 Wire Wire Line
-	11150 4800 11450 4800
-Connection ~ 11450 4800
+	10150 3750 10050 3750
 Wire Wire Line
-	11450 4800 11450 4900
+	10150 3650 10050 3650
 Wire Wire Line
-	11150 4900 11450 4900
-Connection ~ 11450 4900
+	10150 3950 10050 3950
 Wire Wire Line
-	11450 4900 11450 5400
+	10150 4050 10050 4050
 Wire Wire Line
-	10550 3400 10650 3400
+	10750 4550 10650 4550
 Wire Wire Line
-	10550 3500 10650 3500
+	10750 4650 10650 4650
 Wire Wire Line
-	10550 3600 10650 3600
+	10050 4450 10150 4450
 Wire Wire Line
-	10550 3800 10650 3800
+	10150 4550 10050 4550
 Wire Wire Line
-	10550 3900 10650 3900
+	10150 4650 10050 4650
 Wire Wire Line
-	10550 4000 10650 4000
+	10150 4350 10050 4350
 Wire Wire Line
-	10550 4100 10650 4100
+	10150 4250 10050 4250
 Wire Wire Line
-	10550 4200 10650 4200
+	10650 4350 10750 4350
 Wire Wire Line
-	11150 3400 11250 3400
+	10650 4250 10750 4250
 Wire Wire Line
-	11150 3500 11250 3500
+	10750 5350 10650 5350
 Wire Wire Line
-	11150 3700 11250 3700
+	10750 5450 10650 5450
 Wire Wire Line
-	11150 3800 11250 3800
+	10650 5750 10750 5750
 Wire Wire Line
-	11150 3900 11250 3900
+	10650 5650 10750 5650
 Wire Wire Line
-	11150 4000 11250 4000
+	10150 5550 10050 5550
 Wire Wire Line
-	10550 4400 10650 4400
+	10150 5450 10050 5450
 Wire Wire Line
-	10550 4500 10650 4500
+	10150 5350 10050 5350
 Wire Wire Line
-	10550 4600 10650 4600
+	10150 6350 10050 6350
 Wire Wire Line
-	11150 4200 11250 4200
+	10150 6250 10050 6250
 Wire Wire Line
-	11150 4300 11250 4300
+	10650 6050 10750 6050
 Wire Wire Line
-	11150 4400 11250 4400
+	10650 5950 10750 5950
 Wire Wire Line
-	11150 4500 11250 4500
+	10750 6250 10650 6250
 Wire Wire Line
-	11150 4600 11250 4600
+	10750 6350 10650 6350
 Wire Wire Line
-	11150 4700 11250 4700
+	10050 6150 10150 6150
 Wire Wire Line
-	10550 5600 10650 5600
+	10050 6050 10150 6050
 Wire Wire Line
-	10550 5700 10650 5700
+	10050 5950 10150 5950
 Wire Wire Line
-	10550 5800 10650 5800
+	10050 6950 10150 6950
 Wire Wire Line
-	10550 5900 10650 5900
+	10050 6850 10150 6850
 Wire Wire Line
-	11150 5500 11250 5500
+	10750 6550 10650 6550
 Wire Wire Line
-	11150 5600 11250 5600
+	10750 6650 10650 6650
 Wire Wire Line
-	11150 5700 11250 5700
+	10650 6850 10750 6850
 Wire Wire Line
-	11150 5800 11250 5800
+	10650 6950 10750 6950
 Wire Wire Line
-	11150 5900 11250 5900
+	10150 6750 10050 6750
 Wire Wire Line
-	11150 6000 11250 6000
+	10150 6650 10050 6650
 Wire Wire Line
-	11150 6100 11250 6100
-Wire Wire Line
-	11150 6200 11250 6200
-Wire Wire Line
-	11150 6300 11250 6300
-Wire Wire Line
-	10550 6100 10650 6100
-Wire Wire Line
-	10550 6200 10650 6200
-Wire Wire Line
-	10550 6300 10650 6300
-Wire Wire Line
-	10550 6400 10650 6400
-Wire Wire Line
-	10550 6500 10650 6500
-Wire Wire Line
-	10550 6600 10650 6600
-Wire Wire Line
-	10550 6700 10650 6700
-Wire Wire Line
-	10550 6900 10650 6900
-Wire Wire Line
-	10550 7000 10650 7000
-Wire Wire Line
-	11150 6500 11250 6500
-Wire Wire Line
-	11150 6600 11250 6600
-Wire Wire Line
-	11150 6700 11250 6700
-Wire Wire Line
-	11150 6800 11250 6800
-Wire Wire Line
-	11150 6900 11250 6900
+	10150 6550 10050 6550
 $Comp
 L Connector_Generic:Conn_02x40_Odd_Even J?
 U 1 1 5DCBDFA6
-P 14400 4950
-F 0 "J?" H 14450 6950 50  0000 C CNN
-F 1 "Left Mezzanine Board Connector (Motherboard)" H 14450 2850 50  0000 C CNN
-F 2 "" H 14400 4950 50  0001 C CNN
-F 3 "~" H 14400 4950 50  0001 C CNN
-	1    14400 4950
+P 13900 4950
+F 0 "J?" H 13950 6950 50  0000 C CNN
+F 1 "Left Mezzanine Board Connector (Motherboard)" H 13950 2850 50  0000 C CNN
+F 2 "" H 13900 4950 50  0001 C CNN
+F 3 "~" H 13900 4950 50  0001 C CNN
+	1    13900 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13900 3050 14200 3050
-Text Label 14800 3050 0    50   ~ 0
+Text Label 14300 3150 0    50   ~ 0
 L_OUT0
-Text Label 14800 3150 0    50   ~ 0
+Text Label 14300 3050 0    50   ~ 0
 R_OUT0
-Text Label 14100 3250 2    50   ~ 0
+Text Label 13600 3150 2    50   ~ 0
 L_IN0
-Text Label 14100 3150 2    50   ~ 0
+Text Label 13600 3050 2    50   ~ 0
 R_IN0
 Wire Wire Line
-	14700 3250 15000 3250
-Wire Wire Line
-	14700 3050 14800 3050
-Wire Wire Line
-	14700 3150 14800 3150
-Text Label 14100 3450 2    50   ~ 0
+	14200 3250 14700 3250
+Text Label 14300 3450 0    50   ~ 0
 SDA_HV0
-Text Label 14100 3550 2    50   ~ 0
+Text Label 14300 3350 0    50   ~ 0
 SCL_HV0
-Text Label 14800 3350 0    50   ~ 0
+Text Label 13600 3350 2    50   ~ 0
 INT_0
-Text Label 14800 3450 0    50   ~ 0
+Text Label 13600 3450 2    50   ~ 0
 ID_PIN0
-Text Label 14100 3350 2    50   ~ 0
+Text Label 13600 3250 2    50   ~ 0
 AUD_GND0
-Text Label 14100 6950 2    50   ~ 0
+Text Label 14300 6650 0    50   ~ 0
 L_OUT5
-Text Label 14100 6850 2    50   ~ 0
+Text Label 14300 6550 0    50   ~ 0
 R_OUT5
-Text Label 14800 6750 0    50   ~ 0
+Text Label 13600 6650 2    50   ~ 0
 L_IN5
-Text Label 14800 6850 0    50   ~ 0
+Text Label 13600 6550 2    50   ~ 0
 R_IN5
 Wire Wire Line
-	15000 3250 15000 3550
-Wire Wire Line
-	14700 6950 15000 6950
-Connection ~ 15000 6950
-Wire Wire Line
-	15000 6950 15000 7450
-Text Label 14800 6550 0    50   ~ 0
+	14700 3250 14700 3550
+Text Label 14300 6950 0    50   ~ 0
 SDA_HV5
-Text Label 14800 6450 0    50   ~ 0
+Text Label 14300 6850 0    50   ~ 0
 SCL_HV5
-Text Label 14100 6650 2    50   ~ 0
+Text Label 13600 6850 2    50   ~ 0
 INT_5
-Text Label 14100 6550 2    50   ~ 0
+Text Label 13600 6950 2    50   ~ 0
 ID_PIN5
-Text Label 14800 6650 0    50   ~ 0
+Text Label 13600 6750 2    50   ~ 0
 AUD_GND5
 Wire Wire Line
-	14200 6750 13900 6750
-Connection ~ 13900 6750
+	14200 3550 14700 3550
+Connection ~ 14700 3550
 Wire Wire Line
-	13900 6750 13900 7450
-Wire Wire Line
-	14700 3550 15000 3550
-Connection ~ 15000 3550
-Wire Wire Line
-	15000 3550 15000 4050
-Text Label 14800 6150 0    50   ~ 0
+	14700 3550 14700 3850
+Text Label 14300 6050 0    50   ~ 0
 L_OUT4
-Text Label 14800 6250 0    50   ~ 0
+Text Label 14300 5950 0    50   ~ 0
 R_OUT4
-Text Label 14100 6350 2    50   ~ 0
+Text Label 13600 6050 2    50   ~ 0
 L_IN4
-Text Label 14100 6450 2    50   ~ 0
+Text Label 13600 5950 2    50   ~ 0
 R_IN4
-Wire Wire Line
-	14700 6350 15000 6350
-Connection ~ 15000 6350
-Wire Wire Line
-	15000 6350 15000 6950
-Text Label 14100 6150 2    50   ~ 0
+Text Label 14300 6350 0    50   ~ 0
 SDA_HV4
-Text Label 14100 6050 2    50   ~ 0
+Text Label 14300 6250 0    50   ~ 0
 SCL_HV4
-Text Label 14800 6050 0    50   ~ 0
+Text Label 13600 6250 2    50   ~ 0
 INT_4
-Text Label 14800 5950 0    50   ~ 0
+Text Label 13600 6350 2    50   ~ 0
 ID_PIN4
-Text Label 14100 6250 2    50   ~ 0
+Text Label 13600 6150 2    50   ~ 0
 AUD_GND4
-Text Label 14100 5850 2    50   ~ 0
+Text Label 14300 5450 0    50   ~ 0
 L_OUT3
-Text Label 14100 5750 2    50   ~ 0
+Text Label 14300 5350 0    50   ~ 0
 R_OUT3
-Text Label 14800 5750 0    50   ~ 0
+Text Label 13600 5450 2    50   ~ 0
 L_IN3
-Text Label 14800 5850 0    50   ~ 0
+Text Label 13600 5350 2    50   ~ 0
 R_IN3
-Text Label 14800 5450 0    50   ~ 0
+Text Label 14300 5750 0    50   ~ 0
 SDA_HV3
-Text Label 14800 5550 0    50   ~ 0
+Text Label 14300 5650 0    50   ~ 0
 SCL_HV3
-Text Label 14100 5650 2    50   ~ 0
+Text Label 13600 5650 2    50   ~ 0
 INT_3
-Text Label 14100 5550 2    50   ~ 0
+Text Label 13600 5750 2    50   ~ 0
 ID_PIN3
-Text Label 14800 5650 0    50   ~ 0
+Text Label 13600 5550 2    50   ~ 0
 AUD_GND3
 Wire Wire Line
-	14200 5950 13900 5950
-Connection ~ 13900 5950
-Wire Wire Line
-	13900 5950 13900 6750
-Wire Wire Line
-	13900 3050 13900 3650
-Wire Wire Line
-	14200 5450 13900 5450
-Connection ~ 13900 5450
-Wire Wire Line
-	13900 5450 13900 5950
-Text Label 14100 3850 2    50   ~ 0
+	13700 5250 13200 5250
+Text Label 14300 3750 0    50   ~ 0
 L_OUT1
-Text Label 14100 3750 2    50   ~ 0
+Text Label 14300 3650 0    50   ~ 0
 R_OUT1
-Text Label 14800 3650 0    50   ~ 0
+Text Label 13600 3750 2    50   ~ 0
 L_IN1
-Text Label 14800 3750 0    50   ~ 0
+Text Label 13600 3650 2    50   ~ 0
 R_IN1
-Text Label 14100 4050 2    50   ~ 0
+Text Label 14300 4050 0    50   ~ 0
 SDA_HV1
-Text Label 14100 4150 2    50   ~ 0
+Text Label 14300 3950 0    50   ~ 0
 SCL_HV1
-Text Label 14800 3850 0    50   ~ 0
+Text Label 13600 3950 2    50   ~ 0
 INT_1
-Text Label 14800 3950 0    50   ~ 0
+Text Label 13600 4050 2    50   ~ 0
 ID_PIN1
-Text Label 14100 3950 2    50   ~ 0
+Text Label 13600 3850 2    50   ~ 0
 AUD_GND1
-Wire Wire Line
-	14200 3650 13900 3650
-Connection ~ 13900 3650
-Wire Wire Line
-	13900 3650 13900 4250
-Wire Wire Line
-	14700 4050 15000 4050
-Connection ~ 15000 4050
-Wire Wire Line
-	15000 4050 15000 4750
-Text Label 14800 4550 0    50   ~ 0
+Text Label 14300 4350 0    50   ~ 0
 L_OUT2
-Text Label 14800 4650 0    50   ~ 0
+Text Label 14300 4250 0    50   ~ 0
 R_OUT2
-Text Label 14800 4350 0    50   ~ 0
+Text Label 13600 4350 2    50   ~ 0
 L_IN2
-Text Label 14800 4450 0    50   ~ 0
+Text Label 13600 4250 2    50   ~ 0
 R_IN2
-Text Label 14100 4450 2    50   ~ 0
+Text Label 14300 4650 0    50   ~ 0
 SDA_HV2
-Text Label 14100 4350 2    50   ~ 0
+Text Label 14300 4550 0    50   ~ 0
 SCL_HV2
-Text Label 14800 4150 0    50   ~ 0
+Text Label 13600 4550 2    50   ~ 0
 INT_2
-Text Label 14800 4250 0    50   ~ 0
+Text Label 13600 4650 2    50   ~ 0
 ID_PIN2
-Text Label 14100 4550 2    50   ~ 0
+Text Label 13600 4450 2    50   ~ 0
 AUD_GND2
 Wire Wire Line
-	14200 4250 13900 4250
-Connection ~ 13900 4250
+	13600 4850 13600 4950
 Wire Wire Line
-	13900 4250 13900 4650
+	13600 5050 13700 5050
 Wire Wire Line
-	14100 4950 14100 5050
+	13700 4950 13600 4950
+Connection ~ 13600 4950
 Wire Wire Line
-	14100 5150 14200 5150
+	13600 4950 13600 5050
 Wire Wire Line
-	14200 5050 14100 5050
-Connection ~ 14100 5050
+	13700 4850 13600 4850
+Connection ~ 13600 4850
 Wire Wire Line
-	14100 5050 14100 5150
+	13700 5150 13600 5150
 Wire Wire Line
-	14200 4950 14100 4950
-Connection ~ 14100 4950
+	13600 5150 13600 5050
+Connection ~ 13600 5050
 Wire Wire Line
-	14200 5250 14100 5250
+	14300 4850 14300 4950
 Wire Wire Line
-	14100 5250 14100 5150
-Connection ~ 14100 5150
+	14300 5050 14200 5050
 Wire Wire Line
-	14800 4950 14800 5050
+	14200 4950 14300 4950
+Connection ~ 14300 4950
 Wire Wire Line
-	14800 5150 14700 5150
+	14300 4950 14300 5050
 Wire Wire Line
-	14700 5050 14800 5050
-Connection ~ 14800 5050
+	14200 4850 14300 4850
 Wire Wire Line
-	14800 5050 14800 5150
+	14200 5150 14300 5150
 Wire Wire Line
-	14700 4950 14800 4950
-Connection ~ 14800 4950
+	14300 5150 14300 5050
+Connection ~ 14300 5050
 Wire Wire Line
-	14700 5250 14800 5250
+	13700 4750 13200 4750
+Connection ~ 13200 4750
 Wire Wire Line
-	14800 5250 14800 5150
-Connection ~ 14800 5150
-Wire Wire Line
-	14700 5350 15000 5350
-Connection ~ 15000 5350
-Wire Wire Line
-	15000 5350 15000 6350
-Wire Wire Line
-	14200 5350 13900 5350
-Connection ~ 13900 5350
-Wire Wire Line
-	13900 5350 13900 5450
-Wire Wire Line
-	14200 4850 13900 4850
-Connection ~ 13900 4850
-Wire Wire Line
-	13900 4850 13900 5350
-Wire Wire Line
-	14200 4650 13900 4650
-Connection ~ 13900 4650
-Wire Wire Line
-	13900 4650 13900 4750
-Wire Wire Line
-	14200 4750 13900 4750
-Connection ~ 13900 4750
-Wire Wire Line
-	13900 4750 13900 4850
-Wire Wire Line
-	14700 4750 15000 4750
-Connection ~ 15000 4750
-Wire Wire Line
-	15000 4750 15000 4850
-Wire Wire Line
-	14700 4850 15000 4850
-Connection ~ 15000 4850
-Wire Wire Line
-	15000 4850 15000 5350
-Wire Wire Line
-	14100 3350 14200 3350
-Wire Wire Line
-	14100 3450 14200 3450
-Wire Wire Line
-	14100 3550 14200 3550
-Wire Wire Line
-	14100 3950 14200 3950
-Wire Wire Line
-	14100 4050 14200 4050
-Wire Wire Line
-	14100 4150 14200 4150
-Wire Wire Line
-	14700 3350 14800 3350
-Wire Wire Line
-	14700 3450 14800 3450
-Wire Wire Line
-	14700 3650 14800 3650
-Wire Wire Line
-	14700 3750 14800 3750
-Wire Wire Line
-	14700 3850 14800 3850
-Wire Wire Line
-	14700 3950 14800 3950
-Wire Wire Line
-	14100 4350 14200 4350
-Wire Wire Line
-	14100 4450 14200 4450
-Wire Wire Line
-	14100 4550 14200 4550
-Wire Wire Line
-	14700 4150 14800 4150
-Wire Wire Line
-	14700 4250 14800 4250
-Wire Wire Line
-	14700 4350 14800 4350
-Wire Wire Line
-	14700 4450 14800 4450
-Wire Wire Line
-	14700 4550 14800 4550
-Wire Wire Line
-	14700 4650 14800 4650
-Wire Wire Line
-	14100 5550 14200 5550
-Wire Wire Line
-	14700 5450 14800 5450
-Wire Wire Line
-	14700 5550 14800 5550
-Wire Wire Line
-	14700 5650 14800 5650
-Wire Wire Line
-	14700 5750 14800 5750
-Wire Wire Line
-	14700 5850 14800 5850
-Wire Wire Line
-	14700 5950 14800 5950
-Wire Wire Line
-	14700 6050 14800 6050
-Wire Wire Line
-	14700 6150 14800 6150
-Wire Wire Line
-	14700 6250 14800 6250
-Wire Wire Line
-	14100 6050 14200 6050
-Wire Wire Line
-	14100 6150 14200 6150
-Wire Wire Line
-	14100 6250 14200 6250
-Wire Wire Line
-	14100 6350 14200 6350
-Wire Wire Line
-	14100 6450 14200 6450
-Wire Wire Line
-	14100 6550 14200 6550
-Wire Wire Line
-	14700 6450 14800 6450
-Wire Wire Line
-	14700 6550 14800 6550
-Wire Wire Line
-	14700 6650 14800 6650
-Wire Wire Line
-	14700 6750 14800 6750
-Wire Wire Line
-	14700 6850 14800 6850
+	14200 4750 14700 4750
+Connection ~ 14700 4750
 $Comp
 L power:GND #PWR?
 U 1 1 5DCFEE2D
-P 13900 7450
+P 13200 7450
 AR Path="/5CC6CC1A/5CC6D4D3/5DCFEE2D" Ref="#PWR?"  Part="1" 
 AR Path="/5CBF625C/5DCFEE2D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 13900 7200 50  0001 C CNN
-F 1 "GND" H 13900 7300 50  0000 C CNN
-F 2 "" H 13900 7450 50  0001 C CNN
-F 3 "" H 13900 7450 50  0001 C CNN
-	1    13900 7450
+F 0 "#PWR?" H 13200 7200 50  0001 C CNN
+F 1 "GND" H 13200 7300 50  0000 C CNN
+F 2 "" H 13200 7450 50  0001 C CNN
+F 3 "" H 13200 7450 50  0001 C CNN
+	1    13200 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DCFF262
-P 15000 7450
+P 14700 7450
 AR Path="/5CC6CC1A/5CC6D4D3/5DCFF262" Ref="#PWR?"  Part="1" 
 AR Path="/5CBF625C/5DCFF262" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15000 7200 50  0001 C CNN
-F 1 "GND" H 15000 7300 50  0000 C CNN
-F 2 "" H 15000 7450 50  0001 C CNN
-F 3 "" H 15000 7450 50  0001 C CNN
-	1    15000 7450
+F 0 "#PWR?" H 14700 7200 50  0001 C CNN
+F 1 "GND" H 14700 7300 50  0000 C CNN
+F 2 "" H 14700 7450 50  0001 C CNN
+F 3 "" H 14700 7450 50  0001 C CNN
+	1    14700 7450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR?
-U 1 1 5DDCDD9A
-P 13600 4850
-F 0 "#PWR?" H 13600 4700 50  0001 C CNN
-F 1 "+12V" H 13600 4990 50  0000 C CNN
-F 2 "" H 13600 4850 50  0001 C CNN
-F 3 "" H 13600 4850 50  0001 C CNN
-	1    13600 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13600 4850 13600 4950
-Wire Wire Line
-	13600 4950 14100 4950
-$Comp
-L power:+12V #PWR?
 U 1 1 5DE0E42C
-P 15300 4850
-F 0 "#PWR?" H 15300 4700 50  0001 C CNN
-F 1 "+12V" H 15300 4990 50  0000 C CNN
-F 2 "" H 15300 4850 50  0001 C CNN
-F 3 "" H 15300 4850 50  0001 C CNN
-	1    15300 4850
+P 14900 4800
+F 0 "#PWR?" H 14900 4650 50  0001 C CNN
+F 1 "+12V" H 14800 4800 50  0000 C CNN
+F 2 "" H 14900 4800 50  0001 C CNN
+F 3 "" H 14900 4800 50  0001 C CNN
+	1    14900 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15300 4850 15300 4950
-Wire Wire Line
-	14800 4950 15300 4950
-Text HLabel 16000 4300 2    50   Input ~ 0
+Text HLabel 13800 8300 2    50   Output ~ 0
 R_IN[0..5]
-Text HLabel 16000 4450 2    50   Input ~ 0
+Text HLabel 13800 8200 2    50   Output ~ 0
 L_IN[0..5]
-Text HLabel 16000 4600 2    50   UnSpc ~ 0
+Text HLabel 13800 8100 2    50   UnSpc ~ 0
 AUD_GND[0..5]
-Text HLabel 16000 4800 2    50   BiDi ~ 0
+Text HLabel 15700 8050 2    50   BiDi ~ 0
 SDA_HV[0..5]
-Text HLabel 16000 4950 2    50   Input ~ 0
+Text HLabel 15700 7900 2    50   Input ~ 0
 SCL_HV[0..5]
-Text HLabel 16050 5100 2    50   Output ~ 0
+Text HLabel 15750 7750 2    50   Output ~ 0
 L_OUT[0..5]
-Text HLabel 16050 5250 2    50   Output ~ 0
+Text HLabel 15750 7600 2    50   Output ~ 0
 R_OUT[0..5]
-Text HLabel 16050 5400 2    50   UnSpc ~ 0
+Text HLabel 13800 7900 2    50   UnSpc ~ 0
 ID_PIN[0..5]
-Text HLabel 16050 5550 2    50   Output ~ 0
+Text HLabel 13800 8000 2    50   Output ~ 0
 INT_[0..5]
 Wire Wire Line
-	13450 5650 14200 5650
-Wire Wire Line
-	13450 6650 14200 6650
+	12700 3850 13700 3850
 Entry Wire Line
-	13350 6750 13450 6650
+	12450 3250 12550 3150
 Entry Wire Line
-	13350 5750 13450 5650
+	12600 3950 12700 3850
+Entry Wire Line
+	12300 3150 12400 3050
 Wire Bus Line
-	13350 7350 15200 7350
-Wire Wire Line
-	13300 6850 14200 6850
-Wire Wire Line
-	13750 6950 14200 6950
-Wire Wire Line
-	14100 5750 14200 5750
-Wire Wire Line
-	13750 5850 14200 5850
-Wire Wire Line
-	13750 3850 14200 3850
-Wire Wire Line
-	13750 3250 14200 3250
+	12300 8300 13800 8300
 Entry Wire Line
-	13650 3350 13750 3250
-Entry Wire Line
-	13650 3950 13750 3850
+	12300 3750 12400 3650
 Wire Wire Line
-	12750 3150 14200 3150
+	13700 3050 12400 3050
+Wire Wire Line
+	13700 3150 12550 3150
+Wire Wire Line
+	13200 3550 13200 4150
+Wire Wire Line
+	13200 3550 13700 3550
+Wire Wire Line
+	12400 3650 13700 3650
+Wire Wire Line
+	12550 3750 13700 3750
+Wire Wire Line
+	12700 3250 13700 3250
+Wire Wire Line
+	14200 3850 14700 3850
+Connection ~ 14700 3850
+Wire Wire Line
+	14700 3850 14700 4150
+Wire Wire Line
+	13200 4150 13700 4150
+Connection ~ 13200 4150
+Wire Wire Line
+	13200 4150 13200 4750
+Wire Wire Line
+	14200 4150 14700 4150
+Connection ~ 14700 4150
+Wire Wire Line
+	14700 4150 14700 4450
+Wire Wire Line
+	14200 4450 14700 4450
+Connection ~ 14700 4450
+Wire Wire Line
+	14700 4450 14700 4750
+Wire Wire Line
+	14200 5250 14700 5250
+Wire Wire Line
+	13200 4750 13200 5250
+Wire Wire Line
+	14700 4750 14700 5250
+Wire Wire Line
+	14200 6150 14700 6150
+Wire Wire Line
+	14200 5550 14700 5550
+Wire Wire Line
+	14200 5850 14700 5850
+Wire Wire Line
+	14200 6450 14700 6450
+Connection ~ 13200 5250
+Wire Wire Line
+	13200 5250 13200 5850
+Wire Wire Line
+	13700 5850 13200 5850
+Connection ~ 13200 5850
+Wire Wire Line
+	13200 5850 13200 6450
+Wire Wire Line
+	13200 6450 13700 6450
+Connection ~ 13200 6450
+Wire Wire Line
+	13200 6450 13200 7450
+Connection ~ 14700 5250
+Connection ~ 14700 5550
+Connection ~ 14700 5850
+Connection ~ 14700 6150
+Connection ~ 14700 6450
+Wire Wire Line
+	14700 6150 14700 6450
+Wire Wire Line
+	14700 5250 14700 5550
+Wire Wire Line
+	14700 5550 14700 5850
+Wire Wire Line
+	14700 5850 14700 6150
+Wire Wire Line
+	14700 6450 14700 6750
+Wire Wire Line
+	14200 6750 14700 6750
+Connection ~ 14700 6750
+Wire Wire Line
+	14700 6750 14700 7450
 Entry Wire Line
-	12650 3250 12750 3150
+	12450 3850 12550 3750
 Wire Bus Line
-	12650 3250 12650 8350
-Wire Bus Line
-	12650 8350 14300 8350
-Wire Wire Line
-	12750 3750 14200 3750
-Wire Bus Line
-	13350 5750 13350 7350
+	12600 8100 13800 8100
 Entry Wire Line
-	12650 3850 12750 3750
+	12600 3350 12700 3250
+Entry Wire Line
+	12750 3450 12850 3350
+Wire Bus Line
+	12750 8000 13800 8000
+Wire Wire Line
+	12850 3350 13700 3350
+Entry Wire Line
+	12900 3550 13000 3450
+Wire Bus Line
+	12900 7900 13800 7900
+Wire Wire Line
+	13000 3450 13700 3450
+Entry Wire Line
+	12300 4350 12400 4250
+Entry Wire Line
+	12300 5450 12400 5350
+Entry Wire Line
+	12300 6050 12400 5950
+Entry Wire Line
+	12300 6650 12400 6550
+Entry Wire Line
+	12450 4450 12550 4350
+Entry Wire Line
+	12450 5550 12550 5450
+Entry Wire Line
+	12450 6150 12550 6050
+Entry Wire Line
+	12450 6750 12550 6650
+Entry Wire Line
+	12600 6850 12700 6750
+Entry Wire Line
+	12600 6250 12700 6150
+Entry Wire Line
+	12600 5650 12700 5550
+Entry Wire Line
+	12600 4550 12700 4450
+Wire Wire Line
+	12400 4250 13700 4250
+Wire Wire Line
+	12550 4350 13700 4350
+Wire Wire Line
+	12700 4450 13700 4450
+Entry Wire Line
+	12750 4650 12850 4550
+Entry Wire Line
+	12750 5750 12850 5650
+Entry Wire Line
+	12750 6350 12850 6250
+Entry Wire Line
+	12750 6950 12850 6850
+Entry Wire Line
+	12900 7050 13000 6950
+Entry Wire Line
+	12900 6450 13000 6350
+Entry Wire Line
+	12900 5850 13000 5750
+Entry Wire Line
+	12900 4750 13000 4650
+Entry Wire Line
+	12900 4150 13000 4050
+Wire Wire Line
+	13000 4050 13700 4050
+Entry Wire Line
+	12750 4050 12850 3950
+Wire Wire Line
+	12850 3950 13700 3950
+Wire Wire Line
+	13000 4650 13700 4650
+Wire Wire Line
+	12850 4550 13700 4550
+Wire Wire Line
+	12400 5350 13700 5350
+Wire Wire Line
+	12550 5450 13700 5450
+Wire Wire Line
+	12700 5550 13700 5550
+Wire Wire Line
+	12850 5650 13700 5650
+Wire Wire Line
+	13000 5750 13700 5750
+Wire Wire Line
+	13700 5950 12400 5950
+Wire Wire Line
+	12550 6050 13700 6050
+Wire Wire Line
+	12700 6150 13700 6150
+Wire Wire Line
+	12850 6250 13700 6250
+Wire Wire Line
+	13000 6350 13700 6350
+Wire Wire Line
+	12400 6550 13700 6550
+Wire Wire Line
+	12550 6650 13700 6650
+Wire Wire Line
+	12700 6750 13700 6750
+Wire Wire Line
+	12850 6850 13700 6850
+Wire Wire Line
+	13000 6950 13700 6950
+Text Label 13050 7900 0    50   ~ 0
+ID_PIN[0..5]
+Text Label 13050 8000 0    50   ~ 0
+INT_[0..5]
+Text Label 13050 8100 0    50   ~ 0
+AUD_GND[0..5]
+Text Label 13050 8200 0    50   ~ 0
+L_IN[0..5]
+Text Label 13050 8300 0    50   ~ 0
+R_IN[0..5]
+Wire Bus Line
+	12450 8200 13800 8200
+Entry Wire Line
+	14900 3450 15000 3550
+Entry Wire Line
+	15050 3350 15150 3450
+Entry Wire Line
+	15200 3150 15300 3250
+Entry Wire Line
+	15350 3050 15450 3150
+Wire Wire Line
+	14300 4850 14900 4850
+Wire Wire Line
+	14900 4850 14900 4800
+Connection ~ 14300 4850
+Wire Wire Line
+	14200 3050 15350 3050
+Wire Wire Line
+	14200 3150 15200 3150
+Wire Wire Line
+	14200 3350 15050 3350
+Wire Wire Line
+	14200 3450 14900 3450
+Entry Wire Line
+	14900 4050 15000 4150
+Entry Wire Line
+	14900 4650 15000 4750
+Entry Wire Line
+	14900 5750 15000 5850
+Entry Wire Line
+	14900 6350 15000 6450
+Entry Wire Line
+	14900 6950 15000 7050
+Entry Wire Line
+	15050 6850 15150 6950
+Entry Wire Line
+	15050 6250 15150 6350
+Entry Wire Line
+	15050 5650 15150 5750
+Entry Wire Line
+	15050 4550 15150 4650
+Entry Wire Line
+	15050 3950 15150 4050
+Wire Wire Line
+	14200 3950 15050 3950
+Wire Wire Line
+	14200 4550 15050 4550
+Wire Wire Line
+	14200 4650 14900 4650
+Wire Wire Line
+	13000 4850 13600 4850
+Wire Wire Line
+	13000 4800 13000 4850
+$Comp
+L power:+12V #PWR?
+U 1 1 5DDCDD9A
+P 13000 4800
+F 0 "#PWR?" H 13000 4650 50  0001 C CNN
+F 1 "+12V" H 13100 4800 50  0000 C CNN
+F 2 "" H 13000 4800 50  0001 C CNN
+F 3 "" H 13000 4800 50  0001 C CNN
+	1    13000 4800
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	15200 3750 15300 3850
+Entry Wire Line
+	15200 4350 15300 4450
+Entry Wire Line
+	15200 5450 15300 5550
+Entry Wire Line
+	15200 6050 15300 6150
+Entry Wire Line
+	15350 5950 15450 6050
+Entry Wire Line
+	15350 5350 15450 5450
+Entry Wire Line
+	15350 4250 15450 4350
+Wire Wire Line
+	14200 4050 14900 4050
+Entry Wire Line
+	15350 3650 15450 3750
+Wire Wire Line
+	14200 3650 15350 3650
+Wire Wire Line
+	14200 3750 15200 3750
+Wire Wire Line
+	14200 4250 15350 4250
+Wire Wire Line
+	14200 4350 15200 4350
+Wire Wire Line
+	14200 5350 15350 5350
+Wire Wire Line
+	14200 5450 15200 5450
+Wire Wire Line
+	14200 5950 15350 5950
+Wire Wire Line
+	14200 5650 15050 5650
+Wire Wire Line
+	14200 5750 14900 5750
+Wire Wire Line
+	14200 6050 15200 6050
+Wire Wire Line
+	14200 6350 14900 6350
+Wire Wire Line
+	14200 6250 15050 6250
+Entry Wire Line
+	15200 6650 15300 6750
+Entry Wire Line
+	15350 6550 15450 6650
+Wire Wire Line
+	14200 6550 15350 6550
+Wire Wire Line
+	14200 6650 15200 6650
+Wire Wire Line
+	14200 6850 15050 6850
+Wire Wire Line
+	14200 6950 14900 6950
+Wire Bus Line
+	15000 8050 15700 8050
+Wire Bus Line
+	15150 7900 15700 7900
+Wire Bus Line
+	15450 7600 15750 7600
+Wire Bus Line
+	15300 7750 15750 7750
+Text Label 15000 7550 1    50   ~ 0
+SDA_HV[0..5]
+Text Label 15150 7550 1    50   ~ 0
+SCL_HV[0..5]
+Text Label 15300 7550 1    50   ~ 0
+L_OUT[0..5]
+Text Label 15450 7550 1    50   ~ 0
+R_OUT[0..5]
+Wire Wire Line
+	10050 5650 10150 5650
+Wire Wire Line
+	10050 5750 10150 5750
+Text Label 10050 5550 2    50   ~ 0
+M_AUD_GND3
+Text Label 10050 5750 2    50   ~ 0
+M_ID_PIN3
+Text Label 10050 5650 2    50   ~ 0
+M_INT_3
+Wire Wire Line
+	9550 7450 9550 6450
+Wire Wire Line
+	9550 6450 10150 6450
+Wire Wire Line
+	10650 6750 11250 6750
+Wire Wire Line
+	11250 6750 11250 7450
+Wire Wire Line
+	9550 7450 11250 7450
+Wire Wire Line
+	10650 6450 11250 6450
+Wire Wire Line
+	11250 6450 11250 6750
+Connection ~ 11250 6750
+Wire Wire Line
+	11250 6150 11250 6450
+Connection ~ 11250 6450
+Wire Wire Line
+	10650 6150 11250 6150
+Wire Wire Line
+	10650 5850 11250 5850
+Wire Wire Line
+	11250 5850 11250 6150
+Connection ~ 11250 6150
+Wire Wire Line
+	11250 5550 11250 5850
+Connection ~ 11250 5850
+Wire Wire Line
+	10650 5550 11250 5550
+Wire Wire Line
+	10650 5250 11250 5250
+Wire Wire Line
+	11250 5250 11250 5550
+Connection ~ 11250 5550
+Wire Wire Line
+	9550 5850 9550 6450
+Connection ~ 9550 6450
+Wire Wire Line
+	9550 5850 10150 5850
+Wire Wire Line
+	9550 5850 9550 5250
+Wire Wire Line
+	9550 5250 10150 5250
+Connection ~ 9550 5850
+Wire Wire Line
+	10150 4750 9550 4750
+Wire Wire Line
+	9550 4750 9550 5250
+Connection ~ 9550 5250
+Wire Wire Line
+	10150 4150 9550 4150
+Wire Wire Line
+	9550 4150 9550 4750
+Connection ~ 9550 4750
+Wire Wire Line
+	10150 3550 9550 3550
+Wire Wire Line
+	9550 3550 9550 4150
+Connection ~ 9550 4150
+Wire Wire Line
+	10650 3250 11250 3250
+Connection ~ 11250 5250
+Wire Wire Line
+	10650 4750 11250 4750
+Connection ~ 11250 4750
+Wire Wire Line
+	11250 4750 11250 5250
+Wire Wire Line
+	10650 4450 11250 4450
+Connection ~ 11250 4450
+Wire Wire Line
+	11250 4450 11250 4750
+Wire Wire Line
+	10650 4150 11250 4150
+Connection ~ 11250 4150
+Wire Wire Line
+	11250 4150 11250 4450
+Wire Wire Line
+	10650 3850 11250 3850
+Connection ~ 11250 3850
+Wire Wire Line
+	11250 3850 11250 4150
+Wire Wire Line
+	10650 3550 11250 3550
+Wire Wire Line
+	11250 3250 11250 3550
+Connection ~ 11250 3550
+Wire Wire Line
+	11250 3550 11250 3850
+Wire Bus Line
+	12300 3150 12300 8300
+Wire Bus Line
+	12450 3250 12450 8200
+Wire Bus Line
+	12600 3350 12600 8100
+Wire Bus Line
+	12750 3450 12750 8000
+Wire Bus Line
+	12900 3550 12900 7900
+Wire Bus Line
+	15000 3550 15000 8050
+Wire Bus Line
+	15150 3450 15150 7900
+Wire Bus Line
+	15300 3250 15300 7750
+Wire Bus Line
+	15450 3150 15450 7600
 $EndSCHEMATC

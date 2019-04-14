@@ -70,8 +70,8 @@ F 3 "" H 8100 3800 50  0001 C CNN
 	1    8100 3800
 	1    0    0    -1  
 $EndComp
-Text Notes 6800 3550 0    50   ~ 0
-+12V net is main power supply for board. Produced from unregulated power input to board.\n+3V3 net is primary digital supply and IO voltage reference\n+1V8 net is digital supply\n+1V8A net is analog supply for CODECs. Connect to +1V8 using ferrite bead\n+1V2 net is internal core voltage for FGPA\n+2V5 net is FPGA PLL Analog Supply
+Text Notes 6950 4800 0    50   ~ 0
++12VP rail is unregulated power input to board.\n+12V rail is main power supply for board. Produced from +12VP rail.\n+3V3 rail is primary digital supply and IO voltage reference\n+1V8 rail is digital supply\n+1V8A rail is analog supply for CODECs. Connect to +1V8 using ferrite bead\n+1V2 rail is internal core voltage for FGPA\n+2V5 rail is FPGA PLL Analog Supply
 $Comp
 L power:+12V #PWR?
 U 1 1 5CC7BE37
@@ -87,8 +87,8 @@ $Comp
 L SW-Intel:10CL040YF484I7G U?
 U 2 1 5CB65921
 P 5000 4750
-F 0 "U?" H 5700 3550 50  0000 C CNN
-F 1 "10CL040YF484I7G" H 4600 5950 50  0000 C CNN
+F 0 "U?" H 5500 4850 50  0000 L CNN
+F 1 "10CL040YF484I7G" H 5500 4750 50  0000 L CNN
 F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 7700 5650 50  0001 C CNN
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 7700 5650 50  0001 C CNN
 	2    5000 4750
@@ -196,4 +196,15 @@ Wire Wire Line
 Wire Wire Line
 	4450 5100 4450 5000
 Connection ~ 4450 5000
+$Comp
+L power:+12P #PWR?
+U 1 1 62666C46
+P 7350 4000
+F 0 "#PWR?" H 7350 3850 50  0001 C CNN
+F 1 "+12P" H 7350 4140 50  0000 C CNN
+F 2 "" H 7350 4000 50  0001 C CNN
+F 3 "" H 7350 4000 50  0001 C CNN
+	1    7350 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
