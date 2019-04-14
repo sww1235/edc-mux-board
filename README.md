@@ -139,7 +139,7 @@ Connector pinout:
 | 7   | SDA_HV      |
 | 8   | SCL_HV      |
 | 9   | I2C_INT     |
-| 10  |             |
+| 10  | GND         |
 | 11  | ID_PIN      |
 | 12  | +12V        |
 
@@ -290,7 +290,7 @@ conversion, truncation or zero fill is applied. Quoting from the I2S spec:
 ## Extra parts
 
 -   767KS1(X) 0.084 \[2.1\] id/od sealed locking power plug switchcraft
--   L722AS 0.08 \[2.0\] id/od sealed locking power jack switchcraft (these
+-   PCL722AS 0.08 \[2.0\] id/od sealed locking power jack switchcraft (these
     sizes are compatible with high amperage version
 -   JCAP  power jack cover
 -   35FM3AULS - Sealed locking 3.5mm panel mount jack switchcraft
