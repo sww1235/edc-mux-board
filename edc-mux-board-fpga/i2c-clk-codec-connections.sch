@@ -17,77 +17,703 @@ $EndDescr
 $Comp
 L SW-Texas:CDCLVC1108 U?
 U 1 1 5CCE0515
-P 5700 1150
+P 2600 2500
 AR Path="/5CCE0515" Ref="U?"  Part="1" 
 AR Path="/5CC3E5DC/5CCE0515" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCE0515" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCDCE34/5CCE0515" Ref="U?"  Part="1" 
-F 0 "U?" H 5700 1950 50  0000 C CNN
-F 1 "CDCLVC1108" H 5700 1850 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5900 1950 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 5650 2250 50  0001 C CNN
-	1    5700 1150
+F 0 "U?" H 2600 3300 50  0000 C CNN
+F 1 "CDCLVC1108" H 2600 3200 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2800 3300 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 2550 3600 50  0001 C CNN
+	1    2600 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:CDCLVC1108 U?
 U 1 1 5CCE051B
-P 5550 2600
+P 2600 4900
 AR Path="/5CCE051B" Ref="U?"  Part="1" 
 AR Path="/5CC3E5DC/5CCE051B" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCE051B" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCDCE34/5CCE051B" Ref="U?"  Part="1" 
-F 0 "U?" H 5550 3400 50  0000 C CNN
-F 1 "CDCLVC1108" H 5550 3300 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5750 3400 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 5500 3700 50  0001 C CNN
-	1    5550 2600
+F 0 "U?" H 2600 5700 50  0000 C CNN
+F 1 "CDCLVC1108" H 2600 5600 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2800 5700 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 2550 6000 50  0001 C CNN
+	1    2600 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TCA9548A U?
 U 1 1 5CCE0525
-P 5600 4750
+P 9900 2400
 AR Path="/5CC6CC1A/5CC6D47B/5CCE0525" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCE0525" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCDCE34/5CCE0525" Ref="U?"  Part="1" 
-F 0 "U?" H 5400 5600 60  0000 C CNN
-F 1 "TCA9548A" H 5550 3900 60  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 5750 6450 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 5700 6550 60  0001 C CNN
-F 4 "Texas Instruments" H 5650 6650 60  0001 C CNN "Manufacturer"
-F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 5750 6750 60  0001 C CNN "Description"
-F 6 "TSSOP24" H 5850 6850 60  0001 C CNN "Package ID"
-F 7 "0.00@0" H 5700 6950 60  0001 C CNN "Pricing"
-	1    5600 4750
+F 0 "U?" H 9700 3250 60  0000 C CNN
+F 1 "TCA9548A" H 9850 1550 60  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 10050 4100 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 10000 4200 60  0001 C CNN
+F 4 "Texas Instruments" H 9950 4300 60  0001 C CNN "Manufacturer"
+F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 10050 4400 60  0001 C CNN "Description"
+F 6 "TSSOP24" H 10150 4500 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 10000 4600 60  0001 C CNN "Pricing"
+	1    9900 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW-Texas:TCA9548A U?
 U 1 1 5CCE052F
-P 5800 7150
+P 9900 4800
 AR Path="/5CC6CC1A/5CC6D47B/5CCE052F" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCE052F" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCDCE34/5CCE052F" Ref="U?"  Part="1" 
-F 0 "U?" H 5600 8000 60  0000 C CNN
-F 1 "TCA9548A" H 5750 6300 60  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 5950 8850 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 5900 8950 60  0001 C CNN
-F 4 "Texas Instruments" H 5850 9050 60  0001 C CNN "Manufacturer"
-F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 5950 9150 60  0001 C CNN "Description"
-F 6 "TSSOP24" H 6050 9250 60  0001 C CNN "Package ID"
-F 7 "0.00@0" H 5900 9350 60  0001 C CNN "Pricing"
-	1    5800 7150
+F 0 "U?" H 9700 5650 60  0000 C CNN
+F 1 "TCA9548A" H 9850 3950 60  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 10050 6500 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 10000 6600 60  0001 C CNN
+F 4 "Texas Instruments" H 9950 6700 60  0001 C CNN "Manufacturer"
+F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 10050 6800 60  0001 C CNN "Description"
+F 6 "TSSOP24" H 10150 6900 60  0001 C CNN "Package ID"
+F 7 "0.00@0" H 10000 7000 60  0001 C CNN "Pricing"
+	1    9900 4800
 	1    0    0    -1  
 $EndComp
-Text HLabel 3250 3100 0    50   Output ~ 0
+Text HLabel 7950 3650 0    50   Output ~ 0
 SCL[0..15]
-Text HLabel 3250 3250 0    50   BiDi ~ 0
+Text HLabel 7950 3800 0    50   BiDi ~ 0
 SDA[0..15]
-Text HLabel 3250 3400 0    50   Output ~ 0
+Text HLabel 2500 6600 0    50   Output ~ 0
 MCLK[0..15]
-Text HLabel 3250 2900 0    50   Output ~ 0
+Text HLabel 7950 3450 0    50   Output ~ 0
 ~RESET~[0..15]
-Text Notes 2150 2700 0    50   ~ 0
+Text Notes 6850 3250 0    50   ~ 0
 RESET connects to IO expander so MCU can reset individual codecs
+Text GLabel 1600 2450 0    50   Input ~ 0
+CLK1_CODEC
+Wire Wire Line
+	1600 2450 2100 2450
+Text GLabel 1600 4850 0    50   Input ~ 0
+CLK2_CODEC
+Wire Wire Line
+	1600 4850 2100 4850
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 647D98E2
+P 2600 1500
+AR Path="/5CC6CC1A/5CC6D47B/647D98E2" Ref="FB?"  Part="1" 
+AR Path="/5CC3E5DC/647D98E2" Ref="FB?"  Part="1" 
+AR Path="/5CC6CC1A/5CCDCE34/647D98E2" Ref="FB?"  Part="1" 
+F 0 "FB?" H 2500 1450 50  0000 R CNN
+F 1 "600Ω @ 100MHz" H 2500 1500 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2530 1500 50  0001 C CNN
+F 3 "~" H 2600 1500 50  0001 C CNN
+F 4 "Murata" H 2600 1500 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2600 1500 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 2600 1500 50  0001 C CNN "Manufacturers Part Number"
+	1    2600 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 647D9902
+P 2600 3900
+AR Path="/5CC6CC1A/5CC6D47B/647D9902" Ref="FB?"  Part="1" 
+AR Path="/5CC3E5DC/647D9902" Ref="FB?"  Part="1" 
+AR Path="/5CC6CC1A/5CCDCE34/647D9902" Ref="FB?"  Part="1" 
+F 0 "FB?" H 2700 3850 50  0000 L CNN
+F 1 "600Ω @ 100MHz" H 2700 3900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2530 3900 50  0001 C CNN
+F 3 "~" H 2600 3900 50  0001 C CNN
+F 4 "Murata" H 2600 3900 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2600 3900 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601BH1" H 2600 3900 50  0001 C CNN "Manufacturers Part Number"
+	1    2600 3900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2600 1600 2600 1650
+Wire Wire Line
+	2600 4000 2600 4050
+$Comp
+L power:+3V3 #PWR?
+U 1 1 647DA8A0
+P 2600 1300
+F 0 "#PWR?" H 2600 1150 50  0001 C CNN
+F 1 "+3V3" H 2600 1440 50  0000 C CNN
+F 2 "" H 2600 1300 50  0001 C CNN
+F 3 "" H 2600 1300 50  0001 C CNN
+	1    2600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 647DB392
+P 2600 3700
+F 0 "#PWR?" H 2600 3550 50  0001 C CNN
+F 1 "+3V3" H 2600 3840 50  0000 C CNN
+F 2 "" H 2600 3700 50  0001 C CNN
+F 3 "" H 2600 3700 50  0001 C CNN
+	1    2600 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 647DBCAB
+P 2600 3250
+F 0 "#PWR?" H 2600 3000 50  0001 C CNN
+F 1 "GND" H 2600 3100 50  0000 C CNN
+F 2 "" H 2600 3250 50  0001 C CNN
+F 3 "" H 2600 3250 50  0001 C CNN
+	1    2600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 647DC121
+P 2600 5650
+F 0 "#PWR?" H 2600 5400 50  0001 C CNN
+F 1 "GND" H 2600 5500 50  0000 C CNN
+F 2 "" H 2600 5650 50  0001 C CNN
+F 3 "" H 2600 5650 50  0001 C CNN
+	1    2600 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1300 2600 1350
+Wire Wire Line
+	2600 3700 2600 3750
+$Comp
+L Device:C_Small C?
+U 1 1 647ECCDC
+P 2100 1350
+AR Path="/5CC6CC1A/5CC6D47B/647ECCDC" Ref="C?"  Part="1" 
+AR Path="/5CC6CC1A/5CCDCE34/647ECCDC" Ref="C?"  Part="1" 
+F 0 "C?" V 2050 1450 50  0000 C CNN
+F 1 "10uF" V 2050 1200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2100 1350 50  0001 C CNN
+F 3 "~" H 2100 1350 50  0001 C CNN
+F 4 "Kemet" H 2250 500 50  0001 C CNN "Manufacturer"
+F 5 "1206in/3216mm" H 2250 500 50  0001 C CNN "Package ID"
+F 6 "C1206C106J3RACAUTO" H 2250 500 50  0001 C CNN "Manufacturers Part Number"
+	1    2100 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 647ECCE3
+P 2100 1800
+AR Path="/5CC6CC1A/5CC6D47B/647ECCE3" Ref="C?"  Part="1" 
+AR Path="/5CC6CC1A/5CCDCE34/647ECCE3" Ref="C?"  Part="1" 
+F 0 "C?" V 1850 1800 50  0000 C CNN
+F 1 "100nF" V 1950 1800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 1800 50  0001 C CNN
+F 3 "~" H 2100 1800 50  0001 C CNN
+F 4 "0603in/1608mm" H -5350 -1950 50  0001 C CNN "Package ID"
+	1    2100 1800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2600 3250 2600 3100
+Wire Wire Line
+	2600 5650 2600 5500
+$Comp
+L power:GND #PWR?
+U 1 1 647F0C7D
+P 1900 1900
+F 0 "#PWR?" H 1900 1650 50  0001 C CNN
+F 1 "GND" H 1900 1750 50  0000 C CNN
+F 2 "" H 1900 1900 50  0001 C CNN
+F 3 "" H 1900 1900 50  0001 C CNN
+	1    1900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1350 2600 1350
+Connection ~ 2600 1350
+Wire Wire Line
+	2600 1350 2600 1400
+Wire Wire Line
+	2200 1650 2600 1650
+Connection ~ 2600 1650
+Wire Wire Line
+	2600 1650 2600 1800
+Wire Wire Line
+	2200 1800 2600 1800
+Connection ~ 2600 1800
+Wire Wire Line
+	2600 1800 2600 1900
+Wire Wire Line
+	2000 1350 1900 1350
+Wire Wire Line
+	1900 1350 1900 1650
+Wire Wire Line
+	2000 1650 1900 1650
+Connection ~ 1900 1650
+Wire Wire Line
+	1900 1650 1900 1800
+Wire Wire Line
+	2000 1800 1900 1800
+Connection ~ 1900 1800
+Wire Wire Line
+	1900 1800 1900 1900
+$Comp
+L Device:C_Small C?
+U 1 1 647F7845
+P 2100 4050
+AR Path="/5CC6CC1A/5CC6D47B/647F7845" Ref="C?"  Part="1" 
+AR Path="/5CC6CC1A/5CCDCE34/647F7845" Ref="C?"  Part="1" 
+F 0 "C?" V 2150 3950 50  0000 R CNN
+F 1 "1uF" H 2250 4150 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 4050 50  0001 C CNN
+F 3 "~" H 2100 4050 50  0001 C CNN
+F 4 "TDK" H 2100 4050 50  0001 C CNN "Manufacturer"
+F 5 "CGA3E1X7R1E105K080AC" H 2100 4050 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0603in/1608mm" H -5600 300 50  0001 C CNN "Package ID"
+	1    2100 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 647F784E
+P 2100 3750
+AR Path="/5CC6CC1A/5CC6D47B/647F784E" Ref="C?"  Part="1" 
+AR Path="/5CC6CC1A/5CCDCE34/647F784E" Ref="C?"  Part="1" 
+F 0 "C?" V 2050 3950 50  0000 R CNN
+F 1 "10uF" V 2050 3700 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2100 3750 50  0001 C CNN
+F 3 "~" H 2100 3750 50  0001 C CNN
+F 4 "Kemet" H 2250 2900 50  0001 C CNN "Manufacturer"
+F 5 "1206in/3216mm" H 2250 2900 50  0001 C CNN "Package ID"
+F 6 "C1206C106J3RACAUTO" H 2250 2900 50  0001 C CNN "Manufacturers Part Number"
+	1    2100 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 647F7855
+P 2100 4200
+AR Path="/5CC6CC1A/5CC6D47B/647F7855" Ref="C?"  Part="1" 
+AR Path="/5CC6CC1A/5CCDCE34/647F7855" Ref="C?"  Part="1" 
+F 0 "C?" V 2050 4400 50  0000 R CNN
+F 1 "100nF" V 2200 4300 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 4200 50  0001 C CNN
+F 3 "~" H 2100 4200 50  0001 C CNN
+F 4 "0603in/1608mm" H -5350 450 50  0001 C CNN "Package ID"
+	1    2100 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 3750 2600 3750
+Wire Wire Line
+	2200 4050 2600 4050
+Wire Wire Line
+	2200 4200 2600 4200
+Wire Wire Line
+	2000 3750 1900 3750
+Wire Wire Line
+	1900 3750 1900 4050
+Wire Wire Line
+	2000 4050 1900 4050
+Connection ~ 1900 4050
+Wire Wire Line
+	1900 4050 1900 4200
+Wire Wire Line
+	2000 4200 1900 4200
+Connection ~ 1900 4200
+Wire Wire Line
+	1900 4200 1900 4300
+$Comp
+L power:GND #PWR?
+U 1 1 647F7B96
+P 1900 4300
+F 0 "#PWR?" H 1900 4050 50  0001 C CNN
+F 1 "GND" H 1900 4150 50  0000 C CNN
+F 2 "" H 1900 4300 50  0001 C CNN
+F 3 "" H 1900 4300 50  0001 C CNN
+	1    1900 4300
+	-1   0    0    -1  
+$EndComp
+Connection ~ 2600 4050
+Wire Wire Line
+	2600 4050 2600 4200
+Connection ~ 2600 4200
+Wire Wire Line
+	2600 4200 2600 4300
+Connection ~ 2600 3750
+Wire Wire Line
+	2600 3750 2600 3800
+$Comp
+L Device:C_Small C?
+U 1 1 647ECCD3
+P 2100 1650
+AR Path="/5CC6CC1A/5CC6D47B/647ECCD3" Ref="C?"  Part="1" 
+AR Path="/5CC6CC1A/5CCDCE34/647ECCD3" Ref="C?"  Part="1" 
+F 0 "C?" V 2150 1600 50  0000 R CNN
+F 1 "1uF" V 2150 1800 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 1650 50  0001 C CNN
+F 3 "~" H 2100 1650 50  0001 C CNN
+F 4 "TDK" H 2100 1650 50  0001 C CNN "Manufacturer"
+F 5 "CGA3E1X7R1E105K080AC" H 2100 1650 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0603in/1608mm" H -5600 -2100 50  0001 C CNN "Package ID"
+	1    2100 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 64801023
+P 2050 2250
+F 0 "R?" H 2080 2270 50  0000 L CNN
+F 1 "10kΩ" H 2080 2210 50  0000 L CNN
+F 2 "" H 2050 2250 50  0001 C CNN
+F 3 "~" H 2050 2250 50  0001 C CNN
+	1    2050 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 2350 2050 2550
+Wire Wire Line
+	2050 2550 2100 2550
+Wire Wire Line
+	2050 2150 2050 2000
+Wire Wire Line
+	2050 2000 2450 2000
+Wire Wire Line
+	2450 2000 2450 1900
+Wire Wire Line
+	2450 1900 2600 1900
+Connection ~ 2600 1900
+$Comp
+L Device:R_Small_US R?
+U 1 1 64804018
+P 2050 4600
+F 0 "R?" H 2080 4620 50  0000 L CNN
+F 1 "10kΩ" H 2080 4560 50  0000 L CNN
+F 2 "" H 2050 4600 50  0001 C CNN
+F 3 "~" H 2050 4600 50  0001 C CNN
+	1    2050 4600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2100 4950 2050 4950
+Wire Wire Line
+	2050 4950 2050 4700
+Wire Wire Line
+	2600 4300 2250 4300
+Wire Wire Line
+	2250 4300 2250 4450
+Wire Wire Line
+	2250 4450 2050 4450
+Wire Wire Line
+	2050 4450 2050 4500
+Connection ~ 2600 4300
+$Comp
+L Device:R_Small_US R?
+U 1 1 64809F7D
+P 3400 2150
+F 0 "R?" V 3350 1900 50  0000 L CNN
+F 1 "5Ω" V 3350 2200 50  0000 L CNN
+F 2 "" H 3400 2150 50  0001 C CNN
+F 3 "~" H 3400 2150 50  0001 C CNN
+	1    3400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6480F5D6
+P 3400 2250
+F 0 "R?" V 3350 2000 50  0000 L CNN
+F 1 "5Ω" V 3350 2300 50  0000 L CNN
+F 2 "" H 3400 2250 50  0001 C CNN
+F 3 "~" H 3400 2250 50  0001 C CNN
+	1    3400 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6480F732
+P 3400 2350
+F 0 "R?" V 3350 2100 50  0000 L CNN
+F 1 "5Ω" V 3350 2400 50  0000 L CNN
+F 2 "" H 3400 2350 50  0001 C CNN
+F 3 "~" H 3400 2350 50  0001 C CNN
+	1    3400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6480F906
+P 3400 2450
+F 0 "R?" V 3350 2200 50  0000 L CNN
+F 1 "5Ω" V 3350 2500 50  0000 L CNN
+F 2 "" H 3400 2450 50  0001 C CNN
+F 3 "~" H 3400 2450 50  0001 C CNN
+	1    3400 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6480FAFB
+P 3400 2550
+F 0 "R?" V 3350 2300 50  0000 L CNN
+F 1 "5Ω" V 3350 2600 50  0000 L CNN
+F 2 "" H 3400 2550 50  0001 C CNN
+F 3 "~" H 3400 2550 50  0001 C CNN
+	1    3400 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6480FD04
+P 3400 2650
+F 0 "R?" V 3350 2400 50  0000 L CNN
+F 1 "5Ω" V 3350 2700 50  0000 L CNN
+F 2 "" H 3400 2650 50  0001 C CNN
+F 3 "~" H 3400 2650 50  0001 C CNN
+	1    3400 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6480FEF1
+P 3400 2750
+F 0 "R?" V 3350 2500 50  0000 L CNN
+F 1 "5Ω" V 3350 2800 50  0000 L CNN
+F 2 "" H 3400 2750 50  0001 C CNN
+F 3 "~" H 3400 2750 50  0001 C CNN
+	1    3400 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 648100EB
+P 3400 2850
+F 0 "R?" V 3350 2600 50  0000 L CNN
+F 1 "5Ω" V 3350 2900 50  0000 L CNN
+F 2 "" H 3400 2850 50  0001 C CNN
+F 3 "~" H 3400 2850 50  0001 C CNN
+	1    3400 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 2150 3300 2150
+Wire Wire Line
+	3100 2250 3300 2250
+Wire Wire Line
+	3100 2350 3300 2350
+Wire Wire Line
+	3100 2450 3300 2450
+Wire Wire Line
+	3100 2550 3300 2550
+Wire Wire Line
+	3100 2650 3300 2650
+Wire Wire Line
+	3100 2750 3300 2750
+Wire Wire Line
+	3100 2850 3300 2850
+Wire Wire Line
+	3300 4550 3100 4550
+Wire Wire Line
+	3300 4650 3100 4650
+Wire Wire Line
+	3300 4750 3100 4750
+Wire Wire Line
+	3300 4850 3100 4850
+Wire Wire Line
+	3300 4950 3100 4950
+Wire Wire Line
+	3300 5050 3100 5050
+Wire Wire Line
+	3300 5150 3100 5150
+Wire Wire Line
+	3300 5250 3100 5250
+$Comp
+L Device:R_Small_US R?
+U 1 1 6483B880
+P 3400 4550
+F 0 "R?" V 3350 4300 50  0000 L CNN
+F 1 "5Ω" V 3350 4600 50  0000 L CNN
+F 2 "" H 3400 4550 50  0001 C CNN
+F 3 "~" H 3400 4550 50  0001 C CNN
+	1    3400 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6483B886
+P 3400 4650
+F 0 "R?" V 3350 4400 50  0000 L CNN
+F 1 "5Ω" V 3350 4700 50  0000 L CNN
+F 2 "" H 3400 4650 50  0001 C CNN
+F 3 "~" H 3400 4650 50  0001 C CNN
+	1    3400 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6483B88C
+P 3400 4750
+F 0 "R?" V 3350 4500 50  0000 L CNN
+F 1 "5Ω" V 3350 4800 50  0000 L CNN
+F 2 "" H 3400 4750 50  0001 C CNN
+F 3 "~" H 3400 4750 50  0001 C CNN
+	1    3400 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6483B892
+P 3400 4850
+F 0 "R?" V 3350 4600 50  0000 L CNN
+F 1 "5Ω" V 3350 4900 50  0000 L CNN
+F 2 "" H 3400 4850 50  0001 C CNN
+F 3 "~" H 3400 4850 50  0001 C CNN
+	1    3400 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6483B898
+P 3400 4950
+F 0 "R?" V 3350 4700 50  0000 L CNN
+F 1 "5Ω" V 3350 5000 50  0000 L CNN
+F 2 "" H 3400 4950 50  0001 C CNN
+F 3 "~" H 3400 4950 50  0001 C CNN
+	1    3400 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6483B89E
+P 3400 5050
+F 0 "R?" V 3350 4800 50  0000 L CNN
+F 1 "5Ω" V 3350 5100 50  0000 L CNN
+F 2 "" H 3400 5050 50  0001 C CNN
+F 3 "~" H 3400 5050 50  0001 C CNN
+	1    3400 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6483B8A4
+P 3400 5150
+F 0 "R?" V 3350 4900 50  0000 L CNN
+F 1 "5Ω" V 3350 5200 50  0000 L CNN
+F 2 "" H 3400 5150 50  0001 C CNN
+F 3 "~" H 3400 5150 50  0001 C CNN
+	1    3400 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6483B8AA
+P 3400 5250
+F 0 "R?" V 3350 5000 50  0000 L CNN
+F 1 "5Ω" V 3350 5300 50  0000 L CNN
+F 2 "" H 3400 5250 50  0001 C CNN
+F 3 "~" H 3400 5250 50  0001 C CNN
+	1    3400 5250
+	0    1    1    0   
+$EndComp
+Text Label 3600 2150 0    50   ~ 0
+MCLK0
+Text Label 3600 2250 0    50   ~ 0
+MCLK1
+Text Label 3600 2350 0    50   ~ 0
+MCLK2
+Text Label 3600 2450 0    50   ~ 0
+MCLK3
+Text Label 3600 2550 0    50   ~ 0
+MCLK4
+Text Label 3600 2650 0    50   ~ 0
+MCLK5
+Text Label 3600 2750 0    50   ~ 0
+MCLK6
+Text Label 3600 2850 0    50   ~ 0
+MCLK7
+Text Label 3600 4550 0    50   ~ 0
+MCLK8
+Text Label 3600 4650 0    50   ~ 0
+MCLK9
+Text Label 3600 4750 0    50   ~ 0
+MCLK10
+Text Label 3600 4850 0    50   ~ 0
+MCLK11
+Text Label 3600 4950 0    50   ~ 0
+MCLK12
+Text Label 3600 5050 0    50   ~ 0
+MCLK13
+Text Label 3600 5150 0    50   ~ 0
+MCLK14
+Text Label 3600 5250 0    50   ~ 0
+MCLK15
+Entry Wire Line
+	3900 2150 4000 2250
+Entry Wire Line
+	3900 2250 4000 2350
+Entry Wire Line
+	3900 2350 4000 2450
+Entry Wire Line
+	3900 2450 4000 2550
+Entry Wire Line
+	3900 2550 4000 2650
+Entry Wire Line
+	3900 2650 4000 2750
+Entry Wire Line
+	3900 2750 4000 2850
+Entry Wire Line
+	3900 2850 4000 2950
+Entry Wire Line
+	3900 4550 4000 4650
+Entry Wire Line
+	3900 4650 4000 4750
+Entry Wire Line
+	3900 4750 4000 4850
+Entry Wire Line
+	3900 4850 4000 4950
+Entry Wire Line
+	3900 4950 4000 5050
+Entry Wire Line
+	3900 5050 4000 5150
+Entry Wire Line
+	3900 5150 4000 5250
+Entry Wire Line
+	3900 5250 4000 5350
+Wire Wire Line
+	3500 2150 3900 2150
+Wire Wire Line
+	3500 2250 3900 2250
+Wire Wire Line
+	3500 2350 3900 2350
+Wire Wire Line
+	3500 2450 3900 2450
+Wire Wire Line
+	3500 2550 3900 2550
+Wire Wire Line
+	3500 2650 3900 2650
+Wire Wire Line
+	3500 2750 3900 2750
+Wire Wire Line
+	3500 2850 3900 2850
+Wire Wire Line
+	3500 4550 3900 4550
+Wire Wire Line
+	3500 4650 3900 4650
+Wire Wire Line
+	3500 4750 3900 4750
+Wire Wire Line
+	3500 4850 3900 4850
+Wire Wire Line
+	3500 4950 3900 4950
+Wire Wire Line
+	3500 5050 3900 5050
+Wire Wire Line
+	3500 5150 3900 5150
+Wire Wire Line
+	3500 5250 3900 5250
+Wire Bus Line
+	4000 6600 2500 6600
+Wire Bus Line
+	4000 2250 4000 6600
 $EndSCHEMATC
