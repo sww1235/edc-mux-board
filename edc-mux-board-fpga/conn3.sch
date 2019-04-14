@@ -24,7 +24,7 @@ F 2 "Package_DFN_QFN:UQFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm_ThermalVias" H 5250 48
 F 3 "https://www.ti.com/lit/ds/symlink/tlv320aic3206.pdf" H 6350 3950 50  0001 C CNN
 F 4 "TLV320AIC3206" H 5200 3400 50  0001 C CNN "Manufacturers Part Number"
 	1    5200 3400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
@@ -36,7 +36,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 5200 2150 50  0001 C CNN
 F 3 "~" H 5200 2150 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    5200 2150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5100 2250 5100 2150
@@ -52,7 +52,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 6050 4250 50  0001 C CNN
 F 3 "~" H 6050 4250 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    6050 4250
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5950 4100 6050 4100
@@ -67,7 +67,7 @@ F 1 "GND" H 5750 4600 50  0000 C CNN
 F 2 "" H 5750 4750 50  0001 C CNN
 F 3 "" H 5750 4750 50  0001 C CNN
 	1    5750 4750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4950 4550 4950 4650
@@ -117,7 +117,7 @@ F 4 "TDK" H 4400 4250 50  0001 C CNN "Manufacturer"
 F 5 "CGA3E1X7R1E105K080AC" H 4400 4250 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    4400 4250
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4450 4100 4400 4100
@@ -138,7 +138,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 3950 3050 50  0001 C CNN
 F 3 "~" H 3950 3050 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    3950 3050
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C?
@@ -150,7 +150,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 4150 3050 50  0001 C CNN
 F 3 "~" H 4150 3050 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    4150 3050
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4450 2800 4400 2800
@@ -183,7 +183,7 @@ F 1 "GND" H 3550 3100 50  0000 C CNN
 F 2 "" H 3550 3250 50  0001 C CNN
 F 3 "" H 3550 3250 50  0001 C CNN
 	1    3550 3250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3950 3150 3950 3200
@@ -211,7 +211,7 @@ F 2 "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm" H 9950 4500 50  000
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4910-MAX4912.pdf" H 8350 3150 50  0001 C CNN
 F 4 "MAX4910" H 8300 3350 50  0001 C CNN "Manufacturers Part Number"
 	1    8300 3350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3750 2550 3750 2600
@@ -258,7 +258,7 @@ F 1 "GND" H 7750 4250 50  0000 C CNN
 F 2 "" H 7750 4400 50  0001 C CNN
 F 3 "" H 7750 4400 50  0001 C CNN
 	1    7750 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8650 3500 8850 3500
@@ -274,7 +274,7 @@ F 4 "TDK" H 6550 4150 50  0001 C CNN "Manufacturer"
 F 5 "0603in/1608mm" H 6550 4150 50  0001 C CNN "Package ID"
 F 6 "MPZ1608S221A" H 6550 4150 50  0001 C CNN "Manufacturers Part Number"
 	1    6550 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6550 4000 6550 4050
@@ -302,7 +302,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 3550 2750 50  0001 C CNN
 F 3 "~" H 3550 2750 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    3550 2750
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3200 2450 3550 2450
@@ -318,7 +318,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 2750 50  0001 C CNN
 F 3 "~" H 3750 2750 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    3750 2750
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3550 2650 3550 2450
@@ -372,7 +372,7 @@ F 2 "" H 6750 2100 60  0001 C CNN
 F 3 "" H 6750 2100 60  0001 C CNN
 F 4 "0.00@0" H 6850 2550 60  0001 C CNN "Pricing"
 	1    6750 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+1V8 #PWR?
@@ -383,7 +383,7 @@ F 1 "+1V8" H 6500 2240 50  0000 C CNN
 F 2 "" H 6500 2100 50  0001 C CNN
 F 3 "" H 6500 2100 50  0001 C CNN
 	1    6500 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5950 2500 6500 2500
@@ -412,7 +412,7 @@ F 1 "+3V3" H 6250 2240 50  0000 C CNN
 F 2 "" H 6250 2100 50  0001 C CNN
 F 3 "" H 6250 2100 50  0001 C CNN
 	1    6250 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5950 2600 6250 2600
@@ -430,7 +430,7 @@ F 4 "TDK" H 6750 3200 50  0001 C CNN "Manufacturer"
 F 5 "CGA3E1X7R1E105K080AC" H 6750 3200 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    6750 3200
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -441,7 +441,7 @@ F 1 "GND" H 6650 3250 50  0000 C CNN
 F 2 "" H 6650 3400 50  0001 C CNN
 F 3 "" H 6650 3400 50  0001 C CNN
 	1    6650 3400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
@@ -455,7 +455,7 @@ F 4 "Kemet" H 7050 2350 50  0001 C CNN "Manufacturer"
 F 5 "1206in/3216mm" H 7050 2350 50  0001 C CNN "Package ID"
 F 6 "C1206C106J3RACAUTO" H 7050 2350 50  0001 C CNN "Manufacturers Part Number"
 	1    6900 3200
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C?
@@ -467,7 +467,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 6500 3200 50  0001 C CNN
 F 3 "~" H 6500 3200 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    6500 3200
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6500 3000 6500 3100
@@ -515,7 +515,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 7050 2150 50  0001 C CNN
 F 3 "~" H 7050 2150 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    7050 2150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C?
@@ -529,7 +529,7 @@ F 4 "Kemet" H 7050 2350 50  0001 C CNN "Manufacturer"
 F 5 "1206in/3216mm" H 7050 2350 50  0001 C CNN "Package ID"
 F 6 "C1206C106J3RACAUTO" H 7050 2350 50  0001 C CNN "Manufacturers Part Number"
 	1    7050 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6250 2350 6950 2350
@@ -551,7 +551,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 7050 2550 50  0001 C CNN
 F 3 "~" H 7050 2550 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    7050 2550
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6500 2550 6900 2550
@@ -568,7 +568,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 7050 2750 50  0001 C CNN
 F 3 "~" H 7050 2750 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    7050 2750
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6900 2550 6900 2750
@@ -646,7 +646,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 8000 2600 50  0001 C CNN
 F 3 "~" H 8000 2600 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    8000 2600
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR?
@@ -657,7 +657,7 @@ F 1 "+3V3" H 8300 2490 50  0000 C CNN
 F 2 "" H 8300 2350 50  0001 C CNN
 F 3 "" H 8300 2350 50  0001 C CNN
 	1    8300 2350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8100 2600 8300 2600
@@ -689,7 +689,7 @@ F 1 "P82B96" H 2800 4800 50  0000 L CNN
 F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 2600 4300 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/P82B96.pdf" H 2600 4300 50  0001 C CNN
 	1    2600 4300
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR?
@@ -700,7 +700,7 @@ F 1 "+12V" H 1550 3690 50  0000 C CNN
 F 2 "" H 1550 3550 50  0001 C CNN
 F 3 "" H 1550 3550 50  0001 C CNN
 	1    1550 3550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 8950 3350 0    50   ~ 0
 HP_~LINE~_SEL
@@ -746,7 +746,7 @@ F 1 "750Ω" H 1800 3900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1700 3900 50  0001 C CNN
 F 3 "~" H 1700 3900 50  0001 C CNN
 	1    1700 3900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R?
@@ -757,7 +757,7 @@ F 1 "750Ω" H 1650 4300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1550 4300 50  0001 C CNN
 F 3 "~" H 1550 4300 50  0001 C CNN
 	1    1550 4300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1550 4400 1550 4500
@@ -784,7 +784,7 @@ F 1 "+12V" H 3250 3890 50  0000 C CNN
 F 2 "" H 3250 3750 50  0001 C CNN
 F 3 "" H 3250 3750 50  0001 C CNN
 	1    3250 3750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3250 3750 3250 4000
@@ -807,7 +807,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 3700 4000 50  0001 C CNN
 F 3 "~" H 3700 4000 50  0001 C CNN
 F 4 "0603in/1608mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    3700 4000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3200 4000 3250 4000
@@ -840,7 +840,7 @@ F 4 "Kemet" H 6150 3600 50  0001 C CNN "Manufacturer"
 F 5 "C0805X105J3RACAUTO" H 6150 3600 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0805in/2012mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    6150 3600
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C?
@@ -854,7 +854,7 @@ F 4 "Kemet" H 6400 3700 50  0001 C CNN "Manufacturer"
 F 5 "C0805X105J3RACAUTO" H 6400 3700 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0805in/2012mm" H -950 -550 50  0001 C CNN "Package ID"
 	1    6400 3700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 NoConn ~ 4450 3700
 Text HLabel 8800 2950 2    50   Output ~ 0
