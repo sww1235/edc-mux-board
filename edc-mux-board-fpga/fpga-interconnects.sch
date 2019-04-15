@@ -199,4 +199,10 @@ Wire Wire Line
 Wire Wire Line
 	8200 5700 8200 5500
 Connection ~ 8200 5500
+Text HLabel 2050 8650 0    50   Input ~ 0
+~RESET
+Text HLabel 2350 7000 0    50   Input ~ 0
+SCL
+Text HLabel 2300 7200 0    50   BiDi ~ 0
+SDA
 $EndSCHEMATC

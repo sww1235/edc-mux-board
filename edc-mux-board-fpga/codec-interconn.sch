@@ -655,34 +655,37 @@ S 3800 15150 2250 1000
 U 5CCDCE34
 F0 "Connections for MCLK and I2C Multiplexed Lines" 50
 F1 "i2c-clk-codec-connections.sch" 50
-F2 "SCL[0..15]" O L 3800 15400 50 
-F3 "SDA[0..15]" B L 3800 15650 50 
-F4 "MCLK[0..15]" O L 3800 15800 50 
+F2 "SCL[0..15]" O L 3800 15250 50 
+F3 "SDA[0..15]" B L 3800 15350 50 
+F4 "MCLK[0..15]" O L 3800 15550 50 
 F5 "~RESET~[0..15]" O R 6050 15400 50 
+F6 "SCL_Master" I L 3800 15750 50 
+F7 "SDA_Master" B L 3800 15850 50 
+F8 "~RESET~I2C" I L 3800 16050 50 
 $EndSheet
 Wire Bus Line
 	900  14650 2250 14650
 Wire Bus Line
 	750  14800 2650 14800
 Wire Bus Line
-	2900 14950 2900 15400
+	2900 14950 2900 15250
 Connection ~ 2900 14950
 Wire Bus Line
 	2900 14950 10400 14950
-Text Label 3000 15400 0    50   ~ 0
+Text Label 3000 15250 0    50   ~ 0
 SCL[0..15]
 Wire Bus Line
-	2650 14800 2650 15650
+	2650 14800 2650 15350
 Wire Bus Line
-	2650 15650 3800 15650
+	2650 15350 3800 15350
 Connection ~ 2650 14800
 Wire Bus Line
 	2650 14800 10150 14800
-Text Label 3050 15650 2    50   ~ 0
+Text Label 3050 15350 2    50   ~ 0
 SDA[0..15]
 Wire Bus Line
-	2250 15800 3800 15800
-Text Label 2800 15800 2    50   ~ 0
+	2250 15550 3800 15550
+Text Label 2800 15550 2    50   ~ 0
 MCLK[0..15]
 Text Label 3050 1400 0    50   ~ 0
 DIN0
@@ -1295,7 +1298,7 @@ Entry Wire Line
 Entry Wire Line
 	7250 2500 7350 2400
 Wire Bus Line
-	2900 15400 3800 15400
+	2900 15250 3800 15250
 Entry Wire Line
 	9700 1900 9800 2000
 Entry Wire Line
@@ -1625,14 +1628,14 @@ L_OUT15
 Wire Bus Line
 	600  14950 2900 14950
 Wire Bus Line
-	2250 15800 2250 14650
+	2250 15550 2250 14650
 Connection ~ 2250 14650
 Wire Bus Line
 	2250 14650 9950 14650
 Wire Bus Line
-	1050 14500 9800 14500
+	1050 14500 3300 14500
 Wire Bus Line
-	9650 14350 1200 14350
+	9650 14350 3450 14350
 Text Label 9650 13350 3    50   ~ 0
 SCL_HV[0..15]
 Text Label 9800 13350 3    50   ~ 0
@@ -1858,6 +1861,36 @@ Text Label 5050 13350 0    50   ~ 0
 R_OUT[0..15]
 Text Label 5050 13500 0    50   ~ 0
 L_OUT[0..15]
+Text HLabel 3500 15750 0    50   Input ~ 0
+SCL_Master
+Text HLabel 3500 15850 0    50   BiDi ~ 0
+SDA_Master
+Text HLabel 3500 16050 0    50   Input ~ 0
+~RESET~I2C
+Wire Wire Line
+	3500 15750 3800 15750
+Wire Wire Line
+	3500 15850 3800 15850
+Wire Wire Line
+	3500 16050 3800 16050
+Text HLabel 3550 14000 2    50   BiDi ~ 0
+SDA_HV[0..15]
+Wire Bus Line
+	3300 14500 3300 14000
+Wire Bus Line
+	3300 14000 3550 14000
+Connection ~ 3300 14500
+Wire Bus Line
+	3300 14500 9800 14500
+Text HLabel 3550 14150 2    50   Output ~ 0
+SCL_HV[0..15]
+Wire Bus Line
+	3450 14350 3450 14150
+Wire Bus Line
+	3450 14150 3550 14150
+Connection ~ 3450 14350
+Wire Bus Line
+	3450 14350 1200 14350
 Wire Bus Line
 	9800 2000 9800 14500
 Wire Bus Line
