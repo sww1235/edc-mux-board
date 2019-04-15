@@ -58,7 +58,7 @@ architecture FPGA of edc_mux is
 	signal data_valid								: std_logic; -- data from master contains valid data
 	signal data_from_master					: std_logic_vector(7 downto 0); -- contains data from master
 	signal read_req									: std_logic; -- data to master is ready
-	signal data_to_master						: std_logic_vector(7 downto 0); -- data to master
+	signal data_to_master						: std_logic_vector(7 downto 0) := "00000000"; -- data to master
 
 
 
