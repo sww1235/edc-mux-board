@@ -19,14 +19,29 @@ use work.edc_mux_pkg.all;
 -- i2s_in : input to FPGA from CODECs
 -- i2s_out : output from FPGA to CODECs
 entity edc_mux is
-	port (i2s_in		: in std_logic_vector(15 downto 0);  -- 16 serial i2s audio inputs (carry two channels)
-				i2s_out		: out std_logic_vector(15 downto 0); -- 16 serial i2s audio outputs (carry two channels)
-				mclk_in		: in std_logic;                     -- clock source for FPGA logic and clock dividers (50MHz)
-				bclk_in		: in std_logic_vector(15 downto 0);
-				wclk_in		: in std_logic_vector(15 downto 0);
-				scl				: in std_logic;
-				sda				: inout std_logic;
-				g_rst			: in std_logic -- global reset (active low)
+	port (-- 16 serial i2s audio inputs (carry two channels)
+				i2s_in			: in 		std_logic_vector(15 downto 0);
+				-- 16 serial i2s audio outputs (carry two channels)
+				i2s_out			: out		std_logic_vector(15 downto 0);
+				-- clock source for FPGA logic and clock dividers (50MHz)
+				mclk_in			: in 		std_logic;
+				-- bit clock inputs from CODECs
+				bclk_in			: in 		std_logic_vector(15 downto 0);
+				-- word clock (LRclk) inputs from CODECs
+				wclk_in			: in 		std_logic_vector(15 downto 0);
+				-- I2C clock input from master
+				scl					: in 		std_logic;
+				-- I2C data line
+				sda					: inout	std_logic;
+				-- Device attachment sensing interrupts.
+				-- Pulled to ground when devices are connected. Have default pullups.
+				dev_att_in	: in 		std_logic_vector(15 downto 0);
+				-- I2C IO expander (on interface board) interrupt inputs.
+				dev_int_in	: in 		std_logic_vector(15 downto 0);
+				-- Interrupt outputs to MCU
+				dev_int_out	: out		std_logic_vector(8 downto 0);
+				-- global reset (active low)
+				g_rst				: in 		std_logic
 	);
 
 end edc_mux;
@@ -100,14 +115,14 @@ architecture FPGA of edc_mux is
 		);
 	end component I2C_slave;
 
-	function unary_or (slv : in std_logic_vector) return std_logic is
-			variable res_v : std_logic := '0';
-		begin
-		for i in slv'range loop
-			res_v := res_v or slv(i);
-		end loop;
-		return res_v;
-	end function;
+	component int_handling
+port (
+  dev_att_in  : in  std_logic_vector(15 downto 0);
+  dev_int_in  : in  std_logic_vector(15 downto 0);
+  dev_int_out : out std_logic_vector(8 downto 0)
+);
+end component int_handling;
+
 
 	begin
 
@@ -125,6 +140,14 @@ architecture FPGA of edc_mux is
 				data_valid				=> data_valid,
 				data_from_master	=> data_from_master
 			);
+
+		int_handling_i : int_handling
+			port map (
+			  dev_att_in  => dev_att_in,
+			  dev_int_in  => dev_int_in,
+			  dev_int_out => dev_int_out
+			);
+
 
 		instruction_processing: process(mclk_in, data_valid, data_from_master, g_rst)
 			begin
@@ -181,6 +204,7 @@ architecture FPGA of edc_mux is
 					end if;
 				end if;
 			end process;
+
 
 
 --- audio stuff
