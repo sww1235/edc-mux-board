@@ -70,7 +70,7 @@ F 3 "" H 8100 3800 50  0001 C CNN
 	1    8100 3800
 	1    0    0    -1  
 $EndComp
-Text Notes 6950 4800 0    50   ~ 0
+Text Notes 6500 5050 0    75   ~ 0
 +12VP rail is unregulated power input to board.\n+12V rail is main power supply for board. Produced from +12VP rail.\n+3V3 rail is primary digital supply and IO voltage reference\n+1V8 rail is digital supply\n+1V8A rail is analog supply for CODECs. Connect to +1V8 using ferrite bead\n+1V2 rail is internal core voltage for FGPA\n+2V5 rail is FPGA PLL Analog Supply
 $Comp
 L power:+12V #PWR?
@@ -207,4 +207,24 @@ F 3 "" H 7350 4000 50  0001 C CNN
 	1    7350 4000
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6573E3B5
+P 6900 2550
+F 0 "#PWR?" H 6900 2300 50  0001 C CNN
+F 1 "GND" H 6900 2400 50  0000 C CNN
+F 2 "" H 6900 2550 50  0001 C CNN
+F 3 "" H 6900 2550 50  0001 C CNN
+	1    6900 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2150 6900 2150
+Wire Wire Line
+	6900 2150 6900 2400
+Wire Wire Line
+	6650 2400 6900 2400
+Connection ~ 6900 2400
+Wire Wire Line
+	6900 2400 6900 2550
 $EndSCHEMATC
