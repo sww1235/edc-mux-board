@@ -88,8 +88,8 @@ New plan is to have semi-custom **As Small As Possible** interface boards for
 devices. These might also simplify providing power to and from the devices
 through the power distribution box.
 
-Standardize the interface between mux board and interface. See Interface Specs
-Below for details.
+Standardize the interface between mux board and interface. See
+**Interface Specs** below for details.
 
 Two different overall types of device: Headset and Device.
 
@@ -99,11 +99,17 @@ inputs need to be level adjusted with an adjustable pad as seen below. Mics
 should be biased as necessary on the interface board and not expect biasing from
 the TLV320AIC3206.
 
-In general, each interface board has an I2C IO expander and an ID resistor in
-order to determine type, and set up the appropriate control logic in the
-microprocessor and FPGA, as well as determine the appropriate audio levels for
-the Codec. There will also be a P82B96 chip for I2C level conversion for "long"
-distance signalling.
+In general, each interface board has an I2C IO expander and a I2C flash chip (On
+Semi CAT24C16 in WLCSP4 package) containing a board type number, which is read
+by the microprocessor in order to set up the appropriate control logic and
+determine the appropriate audio levels for the Codec. There will also be a
+P82B96 chip for I2C level conversion for "long" distance signalling.
+
+The detection of connection and disconnection of interfaces, is done via an
+External Interrupt on the MCU, and with the `ID_PIN` on the connector connected
+to ground, so when the device is connected, the pin will flip from high to low,
+and when disconnected, it will flip from low to high via an external pull up
+resistor on the main board.
 
 There will also be application specific hardware such as ptt signalling or
 volume control interpretation for headsets.
@@ -309,8 +315,53 @@ conversion, truncation or zero fill is applied. Quoting from the I2S spec:
 
 
 
-## Power Consumption
+## Power Consumption (Worst Case Assumptions)
 
+| Device (Current Drawn) | +12V | +3V3  | +1V8  | +2V5 | +1V2  |
+|:-----------------------|------|-------|-------|------|-------|
+| FPGA                   | 0A   | 20mA  | 0A    | 40mA | 400mA |
+| CODEC x16              | 0A   | 10mA  | 40mA  | 0A   | 0A    |
+| P82B96 x16             | 2mA  | 0A    | 0A    | 0A   | 0A    |
+| MAX4910 x16            | 0A   | 5uA   | 0A    | 0A   | 0A    |
+| TCA9555                | 0A   | 2mA   | 0A    | 0A   | 0A    |
+| TCA9548A x2            | 0A   | 35uA  | 0A    | 0A   | 0A    |
+| CDCLVC1108 x2          | 0A   | 10mA  | 0A    | 0A   | 0A    |
+| W5500                  | 0A   | 132mA | 0A    | 0A   | 0A    |
+| SAMD21 MCU             | 0A   | 25mA  | 0A    | 0A   | 0A    |
+|                        |      |       |       |      |       |
+| Totals                 | 32mA | 360mA | 640mA | 40mA | 400mA |
+| Total @ 12V (+20%)     | 32mA | 119mA | 115mA | 10mA | 4.8mA |
+| Total 12V required     | 280mA | @12V~=3.4W |
+### CODEC Summary
+
+From Application Guide:
+
+Stereo ADC power consumption w/ DVDD == AVDD == 1V8, 48kHz:
+
+Highest Performance Config (max listed) = 18.2mW
+Normal (max listed) = 11.5mW
+
+Stereo DAC power consumption w/ DVDD == AVDD == 1V8, 48kHz:
+
+Headphone out (32Ω) (max listed) = 10.9mW
+
+Line out (max listed) = 9.2mW
+
+Worst case assumption of DAC + ADC = 30mA
+
+Assume +10mA for core, +10mA for IO
+
+### SAMD MCU Summary
+
+Static Power draw 4.5mA (worst case)
+
+\+ SERCOM.I2CM 70uA (worst case estimate)
+
+\+ SERCOM.SPI 70uA (worst case estimate)
+
+\+ ADC x16 1.25mA (absolute worst case, since sampling rate is far lower than datasheet numbers)
+
+Total = 24.64mA ~=25mA
 
 ## Acknowledgements
 
