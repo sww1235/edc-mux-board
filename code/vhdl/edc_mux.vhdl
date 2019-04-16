@@ -15,7 +15,7 @@ use work.edc_mux_pkg.all;
 -- wclk and bclk are inputs from each codec
 
 -- These are the direct pin connections on the FPGA. See the PIN file for pin assignments
--- This is 4*16 + 4 = 68 IO pins
+-- This is 4*16 + 4 + 2*16 + 9 = 109 IO pins
 -- i2s_in : input to FPGA from CODECs
 -- i2s_out : output from FPGA to CODECs
 entity edc_mux is
