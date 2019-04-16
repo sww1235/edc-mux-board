@@ -396,8 +396,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : N17       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : N18       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N19       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N20       :        :                   :         : 5         :                
-~ALTERA_DEV_CLRn~ / RESERVED_INPUT : N21       : input  : 3.3-V LVCMOS      :         : 5         : N              
-~ALTERA_DEV_OE~ / RESERVED_INPUT : N22       : input  : 3.3-V LVCMOS      :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N21       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N22       :        :                   :         : 5         :                
 g_rst                        : P1        : input  : 3.3-V LVCMOS      :         : 2         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : P2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P3        :        :                   :         : 2         :                
