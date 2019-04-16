@@ -1951,4 +1951,84 @@ Wire Bus Line
 	3650 2400 3650 13350
 Wire Bus Line
 	3500 2500 3500 13500
+Text Label 3050 2000 0    50   ~ 0
+L_IN0
+Text Label 3050 3500 0    50   ~ 0
+L_IN1
+Text Label 3050 5000 0    50   ~ 0
+L_IN2
+Text Label 3050 6500 0    50   ~ 0
+L_IN3
+Text Label 3050 8000 0    50   ~ 0
+L_IN4
+Text Label 3050 9500 0    50   ~ 0
+L_IN5
+Text Label 3050 11000 0    50   ~ 0
+L_IN6
+Text Label 3050 12500 0    50   ~ 0
+L_IN7
+Text Label 3050 2100 0    50   ~ 0
+R_IN0
+Text Label 3050 3600 0    50   ~ 0
+R_IN1
+Text Label 3050 5100 0    50   ~ 0
+R_IN2
+Text Label 3050 6600 0    50   ~ 0
+R_IN3
+Text Label 3050 8100 0    50   ~ 0
+R_IN4
+Text Label 3050 9600 0    50   ~ 0
+R_IN5
+Text Label 3050 11100 0    50   ~ 0
+R_IN6
+Text Label 3050 12600 0    50   ~ 0
+R_IN7
+Text Label 3050 2200 0    50   ~ 0
+AUD_GND0
+Text Label 3050 3700 0    50   ~ 0
+AUD_GND1
+Text Label 3050 5200 0    50   ~ 0
+AUD_GND2
+Text Label 3050 6700 0    50   ~ 0
+AUD_GND3
+Text Label 3050 8200 0    50   ~ 0
+AUD_GND4
+Text Label 3050 9700 0    50   ~ 0
+AUD_GND5
+Text Label 3050 11200 0    50   ~ 0
+AUD_GND6
+Text Label 3050 12700 0    50   ~ 0
+AUD_GND7
+Text Label 3050 2300 0    50   ~ 0
+R_OUT0
+Text Label 3050 3800 0    50   ~ 0
+R_OUT1
+Text Label 3050 5300 0    50   ~ 0
+R_OUT2
+Text Label 3050 6800 0    50   ~ 0
+R_OUT3
+Text Label 3050 8300 0    50   ~ 0
+R_OUT4
+Text Label 3050 9800 0    50   ~ 0
+R_OUT5
+Text Label 3050 11300 0    50   ~ 0
+R_OUT6
+Text Label 3050 12800 0    50   ~ 0
+R_OUT7
+Text Label 3050 2400 0    50   ~ 0
+L_OUT0
+Text Label 3050 3900 0    50   ~ 0
+L_OUT1
+Text Label 3050 5400 0    50   ~ 0
+L_OUT2
+Text Label 3050 6900 0    50   ~ 0
+L_OUT3
+Text Label 3050 8400 0    50   ~ 0
+L_OUT4
+Text Label 3050 9900 0    50   ~ 0
+L_OUT5
+Text Label 3050 11400 0    50   ~ 0
+L_OUT6
+Text Label 3050 12900 0    50   ~ 0
+L_OUT7
 $EndSCHEMATC

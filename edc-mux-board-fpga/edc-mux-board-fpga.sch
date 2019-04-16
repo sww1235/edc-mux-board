@@ -47,23 +47,6 @@ F14 "SDA_HV[0..15]" B R 6850 6000 50
 F15 "SCL_HV[0..15]" O R 6850 6100 50 
 $EndSheet
 $Sheet
-S 4900 3150 2050 1250
-U 5CAA362B
-F0 "Microprocessor and Support" 50
-F1 "microprocessor.sch" 50
-F2 "MISO" I R 6950 3800 50 
-F3 "MOSI" O R 6950 3700 50 
-F4 "~SS" I R 6950 3500 50 
-F5 "SCK" O R 6950 3600 50 
-F6 "SDA" B L 4900 4300 50 
-F7 "SCL" O L 4900 4200 50 
-F8 "~INT~_ETH" I R 6950 3900 50 
-F9 "~RESET~_I2C" O L 4900 4100 50 
-F10 "~RESET~_FPGA" O L 4900 4000 50 
-F11 "DEV_INT[0..15]" B L 4900 3400 50 
-F12 "DEV_ID[0..15]" B L 4900 3500 50 
-$EndSheet
-$Sheet
 S 10650 3300 1500 1100
 U 5CB02488
 F0 "Top Side Daughterboard Connector Interconnects" 50
@@ -133,6 +116,10 @@ F5 "WCLK[0..15]" I R 3000 4850 50
 F6 "~RESET" I R 3000 4100 50 
 F7 "SCL" I R 3000 4200 50 
 F8 "SDA" B R 3000 4300 50 
+F9 "DEV_INT[0..15]" I L 2000 4300 50 
+F10 "DEV_ATT[0..15]" I L 2000 4400 50 
+F11 "DEV_INT_OUT[0..7]" O L 2000 4200 50 
+F12 "ATTACH_INT_OUT" O L 2000 4100 50 
 $EndSheet
 $Sheet
 S 10400 7950 2300 1000
@@ -190,7 +177,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 3500 7300 3500
 Text Notes 4900 2850 0    50   ~ 0
-I2S Address Reference:\n\nMaster Bus:\n1110000X - I2C switch (CODECs 0-7)\n1110001X - I2C switch (CODECs 0-7)\n0100000X - I2C port expander (CODEC ~RESETS~)\n\nEach CODEC Bus:\n0011000X - CODEC\nMore than 1 P82B96 cannot be on the same circuit
+I2S Address Reference:\n\nMaster Bus:\n1110000X - I2C switch (CODECs 0-7)\n1110001X - I2C switch (CODECs 0-7)\n0100000X - I2C port expander (CODEC ~RESETS~)\n\nEach CODEC Bus:\n0011000X - CODEC\n1010000X - EEPROM\nMore than 1 P82B96 cannot be on the same circuit
 Wire Wire Line
 	6950 3900 7300 3900
 Wire Wire Line
@@ -450,14 +437,8 @@ Connection ~ 5600 9400
 Wire Bus Line
 	5600 9400 800  9400
 Wire Bus Line
-	800  8350 800  3400
-Wire Bus Line
-	800  3400 4900 3400
+	800  8350 800  4300
 Connection ~ 800  8350
-Wire Bus Line
-	4900 3500 900  3500
-Wire Bus Line
-	900  3500 900  8250
 Connection ~ 900  8250
 Text Label 6900 5300 0    50   ~ 0
 R_IN[0..15]
@@ -515,9 +496,9 @@ Text Label 8350 7600 3    50   ~ 0
 L_IN[0..5]
 Text Label 8250 7600 3    50   ~ 0
 R_IN[0..5]
-Text Label 4200 3400 0    50   ~ 0
+Text Label 1350 4300 0    50   ~ 0
 DEV_INT[0..15]
-Text Label 4200 3500 0    50   ~ 0
+Text Label 1350 4400 0    50   ~ 0
 DEV_ID[0..15]
 Text Label 3700 9300 0    50   ~ 0
 DEV_INT[0..15]
@@ -543,4 +524,44 @@ Text Label 3250 4750 0    50   ~ 0
 BCLK[0..15]
 Text Label 3250 4850 0    50   ~ 0
 WCLK[0..15]
+Wire Bus Line
+	2000 4400 900  4400
+Wire Bus Line
+	900  4400 900  8250
+Wire Bus Line
+	2000 4300 800  4300
+Wire Wire Line
+	6950 3400 7300 3400
+$Sheet
+S 4900 3150 2050 1250
+U 5CAA362B
+F0 "Microprocessor and Support" 50
+F1 "microprocessor.sch" 50
+F2 "MISO" I R 6950 3800 50 
+F3 "MOSI" O R 6950 3700 50 
+F4 "~SS" I R 6950 3500 50 
+F5 "SCK" O R 6950 3600 50 
+F6 "SDA" B L 4900 4300 50 
+F7 "SCL" O L 4900 4200 50 
+F8 "~INT~_ETH" I R 6950 3900 50 
+F9 "~RESET~_I2C" O L 4900 4100 50 
+F10 "~RESET~_FPGA" O L 4900 4000 50 
+F11 "DEV_INT[0..7]" I L 4900 3300 50 
+F12 "ATTACH_INT" I L 4900 3400 50 
+F13 "~RESET~_ETH" O R 6950 3400 50 
+$EndSheet
+Wire Bus Line
+	4900 3300 1650 3300
+Wire Bus Line
+	1650 3300 1650 4200
+Wire Bus Line
+	1650 4200 2000 4200
+Wire Wire Line
+	2000 4100 1800 4100
+Wire Wire Line
+	1800 4100 1800 3400
+Wire Wire Line
+	1800 3400 4900 3400
+Text Label 2850 3300 0    50   ~ 0
+DEV_ATTACH_INT[0..7]
 $EndSCHEMATC
