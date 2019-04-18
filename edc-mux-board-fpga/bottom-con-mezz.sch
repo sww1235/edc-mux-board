@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 26 28
+Sheet 25 28
 Title "Bottom Side Daughterboard Connector Interconnects"
 Date ""
 Rev ""
@@ -2309,34 +2309,6 @@ Wire Wire Line
 Connection ~ 11500 3650
 Wire Wire Line
 	11500 3650 11500 3950
-$Comp
-L Connector:Barrel_Jack_Switch J8
-U 1 1 61D48579
-P 6250 4550
-F 0 "J8" H 6250 4760 50  0000 C CNN
-F 1 "Power In" H 6250 4350 50  0000 C CNN
-F 2 "" H 6300 4510 50  0001 C CNN
-F 3 "~" H 6300 4510 50  0001 C CNN
-	1    6250 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_SPST SW2
-U 1 1 61D49BCA
-P 6900 4450
-F 0 "SW2" H 6900 4700 50  0000 C CNN
-F 1 "Power Switch" H 6900 4600 50  0000 C CNN
-F 2 "" H 6900 4450 50  0001 C CNN
-F 3 "~" H 6900 4450 50  0001 C CNN
-	1    6900 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6550 4450 6700 4450
-Text Label 6750 4650 0    50   ~ 0
-M_GND
-Wire Wire Line
-	6550 4650 6750 4650
 Wire Wire Line
 	11500 4850 11500 5350
 Wire Wire Line
@@ -2388,8 +2360,6 @@ Wire Wire Line
 	11500 4750 11500 4850
 Text Label 10250 4450 2    50   ~ 0
 M_PWR_IN
-Wire Wire Line
-	7100 4450 7150 4450
 Wire Wire Line
 	10400 4450 10300 4450
 Wire Wire Line
@@ -2628,37 +2598,67 @@ Wire Wire Line
 Wire Wire Line
 	13250 5550 13850 5550
 Connection ~ 13850 5550
+Wire Wire Line
+	6700 1800 6700 2600
+NoConn ~ 6550 4550
+Text Label 7150 4450 0    50   ~ 0
+M_PWR_IN
+Text Notes 5700 5350 0    250  ~ 0
+POWER IN
 Wire Notes Line
-	5650 3950 7600 3950
-Wire Notes Line
-	7600 3950 7600 5650
+	5650 5650 5650 3950
 Wire Notes Line
 	7600 5650 5650 5650
 Wire Notes Line
-	5650 5650 5650 3950
-Text Notes 5700 5350 0    250  ~ 0
-POWER IN
-Text Label 7150 4450 0    50   ~ 0
-M_PWR_IN
-NoConn ~ 6550 4550
+	7600 3950 7600 5650
+Wire Notes Line
+	5650 3950 7600 3950
 Wire Wire Line
-	6700 1800 6700 2600
-Wire Bus Line
-	15250 3650 15250 8150
-Wire Bus Line
-	15400 3550 15400 8000
-Wire Bus Line
-	15550 3350 15550 7850
+	7100 4450 7150 4450
+Wire Wire Line
+	6550 4650 6750 4650
+Text Label 6750 4650 0    50   ~ 0
+M_GND
+Wire Wire Line
+	6550 4450 6700 4450
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 61D49BCA
+P 6900 4450
+F 0 "SW2" H 6900 4700 50  0000 C CNN
+F 1 "Power Switch" H 6900 4600 50  0000 C CNN
+F 2 "" H 6900 4450 50  0001 C CNN
+F 3 "~" H 6900 4450 50  0001 C CNN
+	1    6900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J8
+U 1 1 61D48579
+P 6250 4550
+F 0 "J8" H 6250 4760 50  0000 C CNN
+F 1 "Power In" H 6250 4350 50  0000 C CNN
+F 2 "SW-Switchcraft:PCL712AS" H 6300 4510 50  0001 C CNN
+F 3 "~" H 6300 4510 50  0001 C CNN
+	1    6250 4550
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	15700 3250 15700 7700
 Wire Bus Line
-	12550 3250 12550 8400
+	15550 3350 15550 7850
 Wire Bus Line
-	12700 3350 12700 8300
+	15400 3550 15400 8000
 Wire Bus Line
-	12850 3450 12850 8200
+	15250 3650 15250 8150
 Wire Bus Line
 	13000 3550 13000 8100
 Wire Bus Line
 	13150 3650 13150 8000
+Wire Bus Line
+	12700 3350 12700 8300
+Wire Bus Line
+	12550 3250 12550 8400
+Wire Bus Line
+	12850 3450 12850 8200
 $EndSCHEMATC

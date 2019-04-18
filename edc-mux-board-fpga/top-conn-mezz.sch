@@ -26,7 +26,7 @@ F 2 "SW-CONEC:43-02758" V 2550 2075 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/81/43-02758_e-1521027.pdf" V 2550 2075 50  0001 C CNN
 F 4 "M12 X Coded Ethernet Connector" H 0   0   50  0001 C CNN "Description"
 F 5 "CONEC" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "43-02758" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "43-02758" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    2550 2050
 	1    0    0    -1  
 $EndComp
