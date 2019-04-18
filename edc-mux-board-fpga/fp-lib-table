@@ -2,4 +2,8 @@
   (lib (name SW-Texas)(type KiCad)(uri ${KISWGITHUB}/SW-Texas.pretty)(options "")(descr ""))
   (lib (name SW-Intel)(type KiCad)(uri ${KISWGITHUB}/SW-Intel.pretty)(options "")(descr ""))
   (lib (name SW-WIMA)(type KiCad)(uri ${KISWGITHUB}/SW-WIMA.pretty)(options "")(descr ""))
+  (lib (name SW-IPEM-ADEC)(type KiCad)(uri ${KISWGITHUB}/SW-IPEM-ADEC.pretty)(options "")(descr ""))
+  (lib (name SW-TEConn)(type KiCad)(uri ${KISWGITHUB}/SW-TEConn.pretty)(options "")(descr ""))
+  (lib (name SW-CONEC)(type KiCad)(uri ${KISWGITHUB}/SW-CONEC.pretty)(options "")(descr ""))
+  (lib (name SW-CUI-INC)(type KiCad)(uri ${KISWGITHUB}/SW-CUI-INC.pretty)(options "")(descr ""))
 )

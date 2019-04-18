@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 23 28
+Sheet 22 28
 Title "Top Side Daughterboard Connector Interconnects"
 Date ""
 Rev ""
@@ -22,8 +22,11 @@ AR Path="/5CA9FC45/5CB02F61" Ref="J?"  Part="1"
 AR Path="/5CB02488/5CB02F61" Ref="J2"  Part="1" 
 F 0 "J2" H 2350 2600 50  0000 R CNN
 F 1 "Ethernet" H 2650 2600 50  0000 L CNN
-F 2 "" V 2550 2075 50  0001 C CNN
-F 3 "~" V 2550 2075 50  0001 C CNN
+F 2 "SW-CONEC:43-02758" V 2550 2075 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/81/43-02758_e-1521027.pdf" V 2550 2075 50  0001 C CNN
+F 4 "M12 X Coded Ethernet Connector" H 0   0   50  0001 C CNN "Description"
+F 5 "CONEC" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "43-02758" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    2550 2050
 	1    0    0    -1  
 $EndComp
@@ -70,8 +73,12 @@ U 1 1 62BA738C
 P 2950 3150
 F 0 "D1" H 2950 3250 50  0000 C CNN
 F 1 "ACT_YLW" H 2950 3050 50  0000 C CNN
-F 2 "" H 2950 3150 50  0001 C CNN
+F 2 "SW-IPEM-ADEC:Q6-pins-epoxy" H 2950 3150 50  0001 C CNN
 F 3 "~" H 2950 3150 50  0001 C CNN
+F 4 "Yellow" H 0   0   50  0001 C CNN "Characteristics"
+F 5 "Panel Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
+F 6 "APEM" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Q6F4BXXY02E" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    2950 3150
 	1    0    0    -1  
 $EndComp
@@ -81,8 +88,12 @@ U 1 1 62BA8F21
 P 2900 3500
 F 0 "D2" H 2900 3600 50  0000 C CNN
 F 1 "LNK_GRN" H 2900 3400 50  0000 C CNN
-F 2 "" H 2900 3500 50  0001 C CNN
+F 2 "SW-IPEM-ADEC:Q6-pins-epoxy" H 2900 3500 50  0001 C CNN
 F 3 "~" H 2900 3500 50  0001 C CNN
+F 4 "green" H 0   0   50  0001 C CNN "Characteristics"
+F 5 "Panel Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
+F 6 "APEM" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Q6F4BXXG02E" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    2900 3500
 	1    0    0    -1  
 $EndComp
@@ -92,8 +103,12 @@ U 1 1 62BA953A
 P 2900 3850
 F 0 "D3" H 2900 3950 50  0000 C CNN
 F 1 "PWR_RED" H 2900 3750 50  0000 C CNN
-F 2 "" H 2900 3850 50  0001 C CNN
+F 2 "SW-IPEM-ADEC:Q6-pins-epoxy" H 2900 3850 50  0001 C CNN
 F 3 "~" H 2900 3850 50  0001 C CNN
+F 4 "red" H 0   0   50  0001 C CNN "Characteristics"
+F 5 "Panel Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
+F 6 "APEM" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Q6F4BXXR02E" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    2900 3850
 	1    0    0    -1  
 $EndComp
@@ -130,7 +145,7 @@ U 1 1 62C65987
 P 2550 3150
 F 0 "R100" H 2580 3170 50  0000 L CNN
 F 1 "330Ω" H 2580 3110 50  0000 L CNN
-F 2 "" H 2550 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2550 3150 50  0001 C CNN
 F 3 "~" H 2550 3150 50  0001 C CNN
 	1    2550 3150
 	0    1    1    0   
@@ -141,7 +156,7 @@ U 1 1 62C664E5
 P 2550 3500
 F 0 "R101" H 2580 3520 50  0000 L CNN
 F 1 "330Ω" H 2580 3460 50  0000 L CNN
-F 2 "" H 2550 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2550 3500 50  0001 C CNN
 F 3 "~" H 2550 3500 50  0001 C CNN
 	1    2550 3500
 	0    1    1    0   
@@ -152,7 +167,7 @@ U 1 1 62C66A3B
 P 2550 3850
 F 0 "R102" H 2580 3870 50  0000 L CNN
 F 1 "330Ω" H 2580 3810 50  0000 L CNN
-F 2 "" H 2550 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2550 3850 50  0001 C CNN
 F 3 "~" H 2550 3850 50  0001 C CNN
 	1    2550 3850
 	0    1    1    0   
@@ -197,7 +212,7 @@ U 1 1 62FF66EF
 P 6150 3200
 F 0 "J4" H 6200 3700 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Daughterboard)" H 6200 2600 50  0000 C CNN
-F 2 "" H 6150 3200 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 6150 3200 50  0001 C CNN
 F 3 "~" H 6150 3200 50  0001 C CNN
 	1    6150 3200
 	1    0    0    -1  
@@ -208,7 +223,7 @@ U 1 1 62FF73D0
 P 8300 3100
 F 0 "J3" H 8350 3600 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Motherboard)" H 8350 2500 50  0000 C CNN
-F 2 "" H 8300 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 8300 3100 50  0001 C CNN
 F 3 "~" H 8300 3100 50  0001 C CNN
 	1    8300 3100
 	1    0    0    -1  

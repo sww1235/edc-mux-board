@@ -1,4 +1,4 @@
-15745594117072415
+15757727783540287
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -65568,6 +65568,41 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+SW-CONEC
+43-02758
+M12 X Coded Ethernet Connector
+M12 X Coded Ethernet Connector
+0
+12
+9
+SW-CUI-INC
+Barrel_Jack_2.1x5.5mm_CUI_INC
+Barrel Jack 2.1x5.5mm
+Barrel Jack
+0
+3
+3
+SW-CUI-INC
+SJ1-353XNG-3Pin
+3.5mm Audio Jack (SJ1-353XNG
+3.5mm Audio Jack 1/8
+0
+3
+3
+SW-CUI-INC
+SJ1-353XNG-5Pin
+3.5mm Audio Jack (SJ1-353XNG
+3.5mm Audio Jack 1/8
+0
+5
+5
+SW-CUI-INC
+UJ2-BV-1-TH
+Vertical USB 2.0 Female B PCB Through Hole Connector
+Vertical USB 2.0 Female B PCB Through Hole Connector
+0
+6
+5
 SW-Intel
 FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm
 FBGA-484, https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an114.pdf
@@ -65575,6 +65610,27 @@ FBGA-484
 0
 484
 484
+SW-IPEM-ADEC
+Q6-pins-epoxy
+Q6 panelmount LED indicator - Epoxy backed
+Q6 panelmount LED indicator - Epoxy backed
+0
+2
+2
+SW-TEConn
+3-794681-8
+
+
+0
+8
+8
+SW-TEConn
+T4141012121-000
+M12 Female Panel mount 12 pin A Coded
+M12 Female Panel mount 12 pin A Coded
+0
+12
+12
 SW-Texas
 BGA_10
 

@@ -23,8 +23,10 @@ AR Path="/5CB02488/5CC29AC6" Ref="J?"  Part="1"
 AR Path="/5CBF625C/5CC29AC6" Ref="J13"  Part="1" 
 F 0 "J13" H 650 2550 50  0000 C CNN
 F 1 "Device 0" H 650 2450 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 750 1800 50  0001 C CNN
-F 3 "~" H 750 1800 50  0001 C CNN
+F 2 "SW-TEConn:T4141012121-000" H 750 1800 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 750 1800 50  0001 C CNN
+F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    750  1800
 	-1   0    0    -1  
 $EndComp
@@ -36,7 +38,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5CC29ACF" Ref="C?"  Part="1"
 AR Path="/5CB02488/5CC29ACF" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5CC29ACF" Ref="C331"  Part="1" 
 F 0 "C331" V 3400 1500 50  0000 C CNN
-F 1 "1uF" V 3500 1500 50  0000 C CNN
+F 1 "1uF X7R flex" V 3500 1500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3250 1500 50  0001 C CNN
 F 3 "~" H 3250 1500 50  0001 C CNN
 F 4 "Kemet" H 3250 1500 50  0001 C CNN "Manufacturer"
@@ -69,7 +71,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5CC29AEF" Ref="C?"  Part="1"
 AR Path="/5CB02488/5CC29AEF" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5CC29AEF" Ref="C329"  Part="1" 
 F 0 "C329" V 2800 1400 50  0000 C CNN
-F 1 "1uF" V 2900 1400 50  0000 C CNN
+F 1 "1uF X7R flex" V 2900 1400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3050 1400 50  0001 C CNN
 F 3 "~" H 3050 1400 50  0001 C CNN
 F 4 "C0805X105J3RACAUTO" H 3050 1400 50  0001 C CNN "Manufacturers Part Number"
@@ -405,7 +407,7 @@ U 1 1 5D11C575
 P 10350 4950
 F 0 "J17" H 10400 6950 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Daughterboard)" H 10400 2850 50  0000 C CNN
-F 2 "" H 10350 4950 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 10350 4950 50  0001 C CNN
 F 3 "~" H 10350 4950 50  0001 C CNN
 	1    10350 4950
 	1    0    0    -1  
@@ -437,8 +439,10 @@ AR Path="/5CB02488/5D2B6156" Ref="J?"  Part="1"
 AR Path="/5CBF625C/5D2B6156" Ref="J15"  Part="1" 
 F 0 "J15" H 650 5300 50  0000 C CNN
 F 1 "Device 1" H 650 5200 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 750 4550 50  0001 C CNN
-F 3 "~" H 750 4550 50  0001 C CNN
+F 2 "SW-TEConn:T4141012121-000" H 750 4550 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 750 4550 50  0001 C CNN
+F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    750  4550
 	-1   0    0    -1  
 $EndComp
@@ -450,7 +454,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5D2B615F" Ref="C?"  Part="1"
 AR Path="/5CB02488/5D2B615F" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2B615F" Ref="C335"  Part="1" 
 F 0 "C335" V 3400 4250 50  0000 C CNN
-F 1 "1uF" V 3500 4250 50  0000 C CNN
+F 1 "1uF X7R flex" V 3500 4250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3250 4250 50  0001 C CNN
 F 3 "~" H 3250 4250 50  0001 C CNN
 F 4 "Kemet" H 3250 4250 50  0001 C CNN "Manufacturer"
@@ -483,7 +487,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5D2B6170" Ref="C?"  Part="1"
 AR Path="/5CB02488/5D2B6170" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2B6170" Ref="C333"  Part="1" 
 F 0 "C333" V 2800 4150 50  0000 C CNN
-F 1 "1uF" V 2900 4150 50  0000 C CNN
+F 1 "1uF X7R flex" V 2900 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3050 4150 50  0001 C CNN
 F 3 "~" H 3050 4150 50  0001 C CNN
 F 4 "C0805X105J3RACAUTO" H 3050 4150 50  0001 C CNN "Manufacturers Part Number"
@@ -822,8 +826,10 @@ AR Path="/5CB02488/5D2CED2B" Ref="J?"  Part="1"
 AR Path="/5CBF625C/5D2CED2B" Ref="J19"  Part="1" 
 F 0 "J19" H 650 7950 50  0000 C CNN
 F 1 "Device 2" H 650 7850 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 750 7200 50  0001 C CNN
-F 3 "~" H 750 7200 50  0001 C CNN
+F 2 "SW-TEConn:T4141012121-000" H 750 7200 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 750 7200 50  0001 C CNN
+F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    750  7200
 	-1   0    0    -1  
 $EndComp
@@ -835,7 +841,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5D2CED34" Ref="C?"  Part="1"
 AR Path="/5CB02488/5D2CED34" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2CED34" Ref="C339"  Part="1" 
 F 0 "C339" V 3400 6900 50  0000 C CNN
-F 1 "1uF" V 3500 6900 50  0000 C CNN
+F 1 "1uF X7R flex" V 3500 6900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3250 6900 50  0001 C CNN
 F 3 "~" H 3250 6900 50  0001 C CNN
 F 4 "Kemet" H 3250 6900 50  0001 C CNN "Manufacturer"
@@ -868,7 +874,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5D2CED45" Ref="C?"  Part="1"
 AR Path="/5CB02488/5D2CED45" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2CED45" Ref="C337"  Part="1" 
 F 0 "C337" V 2800 6800 50  0000 C CNN
-F 1 "1uF" V 2900 6800 50  0000 C CNN
+F 1 "1uF X7R flex" V 2900 6800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3050 6800 50  0001 C CNN
 F 3 "~" H 3050 6800 50  0001 C CNN
 F 4 "C0805X105J3RACAUTO" H 3050 6800 50  0001 C CNN "Manufacturers Part Number"
@@ -1207,8 +1213,10 @@ AR Path="/5CB02488/5D2E227D" Ref="J?"  Part="1"
 AR Path="/5CBF625C/5D2E227D" Ref="J14"  Part="1" 
 F 0 "J14" H 5350 2550 50  0000 C CNN
 F 1 "Device 3" H 5350 2450 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 5450 1800 50  0001 C CNN
-F 3 "~" H 5450 1800 50  0001 C CNN
+F 2 "SW-TEConn:T4141012121-000" H 5450 1800 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 5450 1800 50  0001 C CNN
+F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    5450 1800
 	-1   0    0    -1  
 $EndComp
@@ -1220,7 +1228,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5D2E2286" Ref="C?"  Part="1"
 AR Path="/5CB02488/5D2E2286" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2E2286" Ref="C332"  Part="1" 
 F 0 "C332" V 8100 1500 50  0000 C CNN
-F 1 "1uF" V 8200 1500 50  0000 C CNN
+F 1 "1uF X7R flex" V 8200 1500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7950 1500 50  0001 C CNN
 F 3 "~" H 7950 1500 50  0001 C CNN
 F 4 "Kemet" H 7950 1500 50  0001 C CNN "Manufacturer"
@@ -1253,7 +1261,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5D2E2297" Ref="C?"  Part="1"
 AR Path="/5CB02488/5D2E2297" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2E2297" Ref="C330"  Part="1" 
 F 0 "C330" V 7500 1400 50  0000 C CNN
-F 1 "1uF" V 7600 1400 50  0000 C CNN
+F 1 "1uF X7R flex" V 7600 1400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7750 1400 50  0001 C CNN
 F 3 "~" H 7750 1400 50  0001 C CNN
 F 4 "C0805X105J3RACAUTO" H 7750 1400 50  0001 C CNN "Manufacturers Part Number"
@@ -1592,8 +1600,10 @@ AR Path="/5CB02488/5D2FA186" Ref="J?"  Part="1"
 AR Path="/5CBF625C/5D2FA186" Ref="J16"  Part="1" 
 F 0 "J16" H 5350 5300 50  0000 C CNN
 F 1 "Device 4" H 5350 5200 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 5450 4550 50  0001 C CNN
-F 3 "~" H 5450 4550 50  0001 C CNN
+F 2 "SW-TEConn:T4141012121-000" H 5450 4550 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 5450 4550 50  0001 C CNN
+F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    5450 4550
 	-1   0    0    -1  
 $EndComp
@@ -1605,7 +1615,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5D2FA18F" Ref="C?"  Part="1"
 AR Path="/5CB02488/5D2FA18F" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2FA18F" Ref="C336"  Part="1" 
 F 0 "C336" V 8100 4250 50  0000 C CNN
-F 1 "1uF" V 8200 4250 50  0000 C CNN
+F 1 "1uF X7R flex" V 8200 4250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7950 4250 50  0001 C CNN
 F 3 "~" H 7950 4250 50  0001 C CNN
 F 4 "Kemet" H 7950 4250 50  0001 C CNN "Manufacturer"
@@ -1638,7 +1648,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5D2FA1A0" Ref="C?"  Part="1"
 AR Path="/5CB02488/5D2FA1A0" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D2FA1A0" Ref="C334"  Part="1" 
 F 0 "C334" V 7500 4150 50  0000 C CNN
-F 1 "1uF" V 7600 4150 50  0000 C CNN
+F 1 "1uF X7R flex" V 7600 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7750 4150 50  0001 C CNN
 F 3 "~" H 7750 4150 50  0001 C CNN
 F 4 "C0805X105J3RACAUTO" H 7750 4150 50  0001 C CNN "Manufacturers Part Number"
@@ -1977,8 +1987,10 @@ AR Path="/5CB02488/5D310EBD" Ref="J?"  Part="1"
 AR Path="/5CBF625C/5D310EBD" Ref="J20"  Part="1" 
 F 0 "J20" H 5350 7950 50  0000 C CNN
 F 1 "Device 5" H 5350 7850 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical" H 5450 7200 50  0001 C CNN
-F 3 "~" H 5450 7200 50  0001 C CNN
+F 2 "SW-TEConn:T4141012121-000" H 5450 7200 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 5450 7200 50  0001 C CNN
+F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    5450 7200
 	-1   0    0    -1  
 $EndComp
@@ -1990,7 +2002,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5D310EC6" Ref="C?"  Part="1"
 AR Path="/5CB02488/5D310EC6" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D310EC6" Ref="C340"  Part="1" 
 F 0 "C340" V 8100 6900 50  0000 C CNN
-F 1 "1uF" V 8200 6900 50  0000 C CNN
+F 1 "1uF X7R flex" V 8200 6900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7950 6900 50  0001 C CNN
 F 3 "~" H 7950 6900 50  0001 C CNN
 F 4 "Kemet" H 7950 6900 50  0001 C CNN "Manufacturer"
@@ -2023,7 +2035,7 @@ AR Path="/5CC6CC1A/5CC6D47B/5D310ED7" Ref="C?"  Part="1"
 AR Path="/5CB02488/5D310ED7" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D310ED7" Ref="C338"  Part="1" 
 F 0 "C338" V 7500 6800 50  0000 C CNN
-F 1 "1uF" V 7600 6800 50  0000 C CNN
+F 1 "1uF X7R flex" V 7600 6800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7750 6800 50  0001 C CNN
 F 3 "~" H 7750 6800 50  0001 C CNN
 F 4 "C0805X105J3RACAUTO" H 7750 6800 50  0001 C CNN "Manufacturers Part Number"
@@ -2591,7 +2603,7 @@ U 1 1 5DCBDFA6
 P 13900 4950
 F 0 "J18" H 13950 6950 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Motherboard)" H 13950 2850 50  0000 C CNN
-F 2 "" H 13900 4950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 13900 4950 50  0001 C CNN
 F 3 "~" H 13900 4950 50  0001 C CNN
 	1    13900 4950
 	1    0    0    -1  
