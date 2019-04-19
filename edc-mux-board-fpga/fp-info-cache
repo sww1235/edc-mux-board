@@ -1,4 +1,4 @@
-15854795757615597
+15857907066610904
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -65352,6 +65352,20 @@ Vertical USB 2.0 Female B PCB Through Hole Connector
 6
 5
 SW-Intel
+ENPIRION_QFN16_2.5x2.25x1.1mm-0.4mm
+
+
+0
+16
+16
+SW-Intel
+ENPIRION_QFN16_3x3x1.1mm-0.5mm
+3x3x1.1mm QFN16 footprint for Intel ENPIRION Regulators
+Intel ENPIRION Regulators QFN16
+0
+16
+16
+SW-Intel
 FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm
 FBGA-484, https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an114.pdf
 FBGA-484
@@ -65384,8 +65398,8 @@ PCL712AS
 
 
 0
-0
-0
+3
+3
 SW-TEConn
 3-794681-8
 

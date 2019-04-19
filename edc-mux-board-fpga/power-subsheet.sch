@@ -227,4 +227,32 @@ Wire Wire Line
 Connection ~ 6900 2400
 Wire Wire Line
 	6900 2400 6900 2550
+$Comp
+L SW-Intel:EP5358HUI U?
+U 1 1 5CBAD4B4
+P 2950 3000
+F 0 "U?" H 2750 2650 50  0000 C CNN
+F 1 "EP5358HUI" H 2950 3400 50  0000 C CNN
+F 2 "SW-Intel:ENPIRION_QFN16_2.5x2.25x1.1mm-0.4mm" H 2750 2650 50  0001 C CNN
+F 3 "https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/ep5358xui_03541.pdf" H 2750 2650 50  0001 C CNN
+F 4 "2.4V-5.5V in, 1.8-3.3V out @ 600mA" H 2950 3000 50  0001 C CNN "Characteristics"
+	1    2950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-Intel:EP5358HUI U?
+U 1 1 5CBAE385
+P 2950 3900
+F 0 "U?" H 2750 3550 50  0000 C CNN
+F 1 "EP5358HUI" H 2950 4300 50  0000 C CNN
+F 2 "SW-Intel:ENPIRION_QFN16_2.5x2.25x1.1mm-0.4mm" H 2750 3550 50  0001 C CNN
+F 3 "https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/ep5358xui_03541.pdf" H 2750 3550 50  0001 C CNN
+F 4 "2.4V-5.5V in, 1.8-3.3V out @ 600mA" H 2950 3900 50  0001 C CNN "Characteristics"
+	1    2950 3900
+	1    0    0    -1  
+$EndComp
+Text Notes 3600 2900 0    50   ~ 0
+1V2\nfed from 3V3
+Text Notes 3600 3900 0    50   ~ 0
+2V5\nfed from 3V3
 $EndSCHEMATC
