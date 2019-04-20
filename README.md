@@ -330,8 +330,9 @@ conversion, truncation or zero fill is applied. Quoting from the I2S spec:
 | SAMD21 MCU             | 0A   | 25mA  | 0A    | 0A   | 0A    |
 |                        |      |       |       |      |       |
 | Totals                 | 32mA | 360mA | 640mA | 40mA | 400mA |
-| Total @ 12V (+20%)     | 32mA | 119mA | 115mA | 10mA | 4.8mA |
-| Total 12V required     | 280mA | @12V~=3.4W |
+| Total @ 3V (+20%)      | 0A   | 360mA | 419mA | 36.4mA | 175mA |
+| Total @ 12V (+20%)     | 32mA | 327mA | 0A | 0A | 0A |
+| Total 12V required     | 360mA | @12V~=4.32W |
 ### CODEC Summary
 
 From Application Guide:
