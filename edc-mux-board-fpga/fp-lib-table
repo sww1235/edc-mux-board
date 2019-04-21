@@ -7,4 +7,6 @@
   (lib (name SW-CONEC)(type KiCad)(uri ${KISWGITHUB}/SW-CONEC.pretty)(options "")(descr ""))
   (lib (name SW-CUI-INC)(type KiCad)(uri ${KISWGITHUB}/SW-CUI-INC.pretty)(options "")(descr ""))
   (lib (name SW-Switchcraft)(type KiCad)(uri ${KISWGITHUB}/SW-Switchcraft.pretty)(options "")(descr ""))
+  (lib (name SW-RECOM)(type KiCad)(uri ${KISWGITHUB}/SW-RECOM.pretty)(options "")(descr ""))
+  (lib (name SW-Eswitch)(type KiCad)(uri ${KISWGITHUB}/SW-Eswitch.pretty)(options "")(descr ""))
 )

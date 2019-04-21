@@ -1,4 +1,4 @@
-15857907066610904
+15867240631025432
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -65351,10 +65351,31 @@ Vertical USB 2.0 Female B PCB Through Hole Connector
 0
 6
 5
+SW-Eswitch
+M7
+https://www.e-switch.com/system/asset/product_line/data_sheet/29/800.pdf
+eswitch switch
+0
+3
+2
+SW-Eswitch
+TL1105
+
+
+0
+4
+2
+SW-Eswitch
+TL1105WF
+
+Right Angle
+0
+4
+3
 SW-Intel
 ENPIRION_QFN16_2.5x2.25x1.1mm-0.4mm
-
-
+2.5x2.25x1.1mm QFN16 footprint for Intel ENPIRION Regulators
+Intel ENPIRION Regulators QFN16
 0
 16
 16
@@ -65365,6 +65386,13 @@ Intel ENPIRION Regulators QFN16
 0
 16
 16
+SW-Intel
+ENPIRION_QFN24_6x4x1.1mm_0.65mm
+6x4x1.1mm QFN24 footprint for Intel ENPIRION Regulators
+Intel ENPIRION Regulators QFN24
+0
+41
+26
 SW-Intel
 FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm
 FBGA-484, https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an114.pdf
@@ -65379,6 +65407,13 @@ Q6 panelmount LED indicator - Epoxy backed
 0
 2
 2
+SW-RECOM
+RECOM_R-78B-2.0_THT_HORIZ
+RECOM_R-78B-2.0, SIP-3, pitch 2.54mm, package size 11.5x8.5x17.5mm^3 Horiz, https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
+dc-dc recom buck sip-3 pitch 2.54mm horiz
+0
+3
+3
 SW-Switchcraft
 CDRH6D28
 
@@ -65388,8 +65423,8 @@ CDRH6D28
 2
 SW-Switchcraft
 L712RAS
-
-
+Sealed Barrel Jack IP68
+Sealed Barrel Jack IP68
 0
 3
 3
@@ -65449,6 +65484,13 @@ RKG_(S-PB1QFN-N41)
 0
 47
 41
+SW-Texas
+RKH_(R-PQFP-N)
+
+
+0
+37
+9
 SW-Texas
 SIL0010A
 www.ti.com/lit/ml/mpds579b.pdf
