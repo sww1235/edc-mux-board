@@ -1,4 +1,410 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:interface_board_template-cache
+EELAYER 29 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x12 J?
+U 1 1 5CE64C1D
+P 2450 2600
+F 0 "J?" H 2450 3200 50  0000 C CNN
+F 1 "Mux Board Connection" H 2450 1900 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Horizontal" H 2450 2600 50  0001 C CNN
+F 3 "~" H 2450 2600 50  0001 C CNN
+	1    2450 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:P82B96 U?
+U 1 1 5CE659F7
+P 4700 2450
+F 0 "U?" H 4200 2950 50  0000 L CNN
+F 1 "P82B96" H 4900 2950 50  0000 L CNN
+F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 4700 2450 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/P82B96.pdf" H 4700 2450 50  0001 C CNN
+	1    4700 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW-ON-Semi:CAT24C16 U?
+U 1 1 5CE673BD
+P 6900 2400
+F 0 "U?" H 6950 2150 50  0000 C CNN
+F 1 "CAT24C16" V 7150 2400 50  0000 C CNN
+F 2 "SW-On-Semi:WLCSP4-0.84x0.86mm" H 6950 2650 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/collateral/CAT24C01-D.pdf" H 7950 2050 50  0001 C CNN
+	1    6900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J?
+U 1 1 5CE68406
+P 2200 1300
+F 0 "J?" H 2200 1510 50  0000 C CNN
+F 1 "Power In" H 2200 1100 50  0000 C CNN
+F 2 "SW-Switchcraft:L712RAS" H 2250 1260 50  0001 C CNN
+F 3 "~" H 2250 1260 50  0001 C CNN
+	1    2200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CE69117
+P 2950 3350
+F 0 "#PWR?" H 2950 3100 50  0001 C CNN
+F 1 "GND" H 2950 3200 50  0000 C CNN
+F 2 "" H 2950 3350 50  0001 C CNN
+F 3 "" H 2950 3350 50  0001 C CNN
+	1    2950 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2600 2950 2600
+Wire Wire Line
+	2950 2600 2950 3000
+Wire Wire Line
+	2650 3000 2950 3000
+Connection ~ 2950 3000
+Wire Wire Line
+	2950 3000 2950 3100
+Wire Wire Line
+	2650 3100 2950 3100
+Connection ~ 2950 3100
+Wire Wire Line
+	2950 3100 2950 3350
+$Comp
+L power:+12V #PWR?
+U 1 1 5CE6A273
+P 3150 3150
+F 0 "#PWR?" H 3150 3000 50  0001 C CNN
+F 1 "+12V" H 3150 3290 50  0000 C CNN
+F 2 "" H 3150 3150 50  0001 C CNN
+F 3 "" H 3150 3150 50  0001 C CNN
+	1    3150 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3200 3150 3200
+Wire Wire Line
+	3150 3200 3150 3150
+$Comp
+L Device:R_Small_US R?
+U 1 1 5CEA9C7D
+P 3700 2050
+F 0 "R?" H 3600 2100 50  0000 R CNN
+F 1 "750Ω" H 3600 2050 50  0000 R CNN
+F 2 "" H 3700 2050 50  0001 C CNN
+F 3 "~" H 3700 2050 50  0001 C CNN
+	1    3700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5CEE701D
+P 3800 2050
+F 0 "R?" H 3900 2100 50  0000 L CNN
+F 1 "750Ω" H 3900 2050 50  0000 L CNN
+F 2 "" H 3800 2050 50  0001 C CNN
+F 3 "~" H 3800 2050 50  0001 C CNN
+	1    3800 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2150 3950 2150
+Wire Wire Line
+	3950 2150 3950 2250
+Wire Wire Line
+	3950 2350 4100 2350
+Wire Wire Line
+	4100 2550 3950 2550
+Wire Wire Line
+	3950 2550 3950 2650
+Wire Wire Line
+	3950 2750 4100 2750
+Wire Wire Line
+	2650 2900 3150 2900
+Text Label 2750 2900 0    50   ~ 0
+I2C_INT
+Wire Wire Line
+	2650 2700 3600 2700
+Wire Wire Line
+	3600 2700 3600 2250
+Wire Wire Line
+	3600 2250 3700 2250
+Connection ~ 3950 2250
+Wire Wire Line
+	3950 2250 3950 2350
+Wire Wire Line
+	2650 2800 3750 2800
+Wire Wire Line
+	3750 2800 3750 2650
+Wire Wire Line
+	3750 2650 3800 2650
+Connection ~ 3950 2650
+Wire Wire Line
+	3950 2650 3950 2750
+$Comp
+L power:+12V #PWR?
+U 1 1 5CF26214
+P 3750 1700
+F 0 "#PWR?" H 3750 1550 50  0001 C CNN
+F 1 "+12V" H 3750 1840 50  0000 C CNN
+F 2 "" H 3750 1700 50  0001 C CNN
+F 3 "" H 3750 1700 50  0001 C CNN
+	1    3750 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1950 3700 1900
+Wire Wire Line
+	3800 1900 3800 1950
+Wire Wire Line
+	3700 1900 3750 1900
+Wire Wire Line
+	3750 1900 3750 1700
+Connection ~ 3750 1900
+Wire Wire Line
+	3750 1900 3800 1900
+Wire Wire Line
+	3700 2150 3700 2250
+Connection ~ 3700 2250
+Wire Wire Line
+	3700 2250 3950 2250
+Wire Wire Line
+	3800 2150 3800 2650
+Connection ~ 3800 2650
+Wire Wire Line
+	3800 2650 3950 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5CF27DC5
+P 5350 2950
+F 0 "#PWR?" H 5350 2700 50  0001 C CNN
+F 1 "GND" H 5350 2800 50  0000 C CNN
+F 2 "" H 5350 2950 50  0001 C CNN
+F 3 "" H 5350 2950 50  0001 C CNN
+	1    5350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2750 5350 2750
+Wire Wire Line
+	5350 2750 5350 2950
+$Comp
+L power:+12V #PWR?
+U 1 1 5CF28A6A
+P 5350 1700
+F 0 "#PWR?" H 5350 1550 50  0001 C CNN
+F 1 "+12V" H 5350 1840 50  0000 C CNN
+F 2 "" H 5350 1700 50  0001 C CNN
+F 3 "" H 5350 1700 50  0001 C CNN
+	1    5350 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1700 5350 2050
+Wire Wire Line
+	5350 2150 5300 2150
+Text Label 5350 2350 0    50   ~ 0
+SDA
+Text Label 5350 2550 0    50   ~ 0
+SCL
+Wire Wire Line
+	2650 2500 2950 2500
+Wire Wire Line
+	2650 2400 2950 2400
+Wire Wire Line
+	2650 2300 2950 2300
+Wire Wire Line
+	2650 2200 2950 2200
+Wire Wire Line
+	2650 2100 2950 2100
+Text Label 2700 2100 0    50   ~ 0
+AUD_GND
+Text Label 2700 2200 0    50   ~ 0
+L_AUDIO_TO_CODEC
+Text Label 2700 2300 0    50   ~ 0
+R_AUDIO_TO_CODEC
+Text Label 2700 2400 0    50   ~ 0
+L_AUDIO_FROM_CODEC
+Text Label 2700 2500 0    50   ~ 0
+R_AUDIO_FROM_CODEC
+$Comp
+L power:+12VA #PWR?
+U 1 1 5CF2E795
+P 2600 1100
+F 0 "#PWR?" H 2600 950 50  0001 C CNN
+F 1 "+12VA" H 2600 1240 50  0000 C CNN
+F 2 "" H 2600 1100 50  0001 C CNN
+F 3 "" H 2600 1100 50  0001 C CNN
+	1    2600 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1200 2600 1200
+Wire Wire Line
+	2600 1200 2600 1100
+$Comp
+L power:GND #PWR?
+U 1 1 5CF300DE
+P 2550 1500
+F 0 "#PWR?" H 2550 1250 50  0001 C CNN
+F 1 "GND" H 2550 1350 50  0000 C CNN
+F 2 "" H 2550 1500 50  0001 C CNN
+F 3 "" H 2550 1500 50  0001 C CNN
+	1    2550 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1300 2550 1300
+Wire Wire Line
+	2550 1300 2550 1400
+Wire Wire Line
+	2500 1400 2550 1400
+Connection ~ 2550 1400
+Wire Wire Line
+	2550 1400 2550 1500
+$Comp
+L Device:C_Small C?
+U 1 1 5CF32152
+P 5550 2050
+F 0 "C?" H 5560 2120 50  0000 L CNN
+F 1 "100nF" H 5560 1970 50  0000 L CNN
+F 2 "" H 5550 2050 50  0001 C CNN
+F 3 "~" H 5550 2050 50  0001 C CNN
+	1    5550 2050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5350 2050 5450 2050
+Connection ~ 5350 2050
+Wire Wire Line
+	5350 2050 5350 2150
+Wire Wire Line
+	5650 2050 5750 2050
+Wire Wire Line
+	5750 2050 5750 2750
+Wire Wire Line
+	5750 2750 5350 2750
+Connection ~ 5350 2750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CF37720
+P 6150 1850
+F 0 "#PWR?" H 6150 1700 50  0001 C CNN
+F 1 "+3V3" H 6150 1990 50  0000 C CNN
+F 2 "" H 6150 1850 50  0001 C CNN
+F 3 "" H 6150 1850 50  0001 C CNN
+	1    6150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CF385B7
+P 6500 1850
+F 0 "#PWR?" H 6500 1700 50  0001 C CNN
+F 1 "+5V" H 6500 1990 50  0000 C CNN
+F 2 "" H 6500 1850 50  0001 C CNN
+F 3 "" H 6500 1850 50  0001 C CNN
+	1    6500 1850
+	1    0    0    -1  
+$EndComp
+Text Notes 5900 1600 0    50   ~ 0
+Either 3V3 or 5V logic
+Wire Wire Line
+	5300 2350 6150 2350
+Wire Wire Line
+	6050 2450 6050 2550
+Wire Wire Line
+	5300 2550 6050 2550
+Wire Wire Line
+	6050 2450 6250 2450
+$Comp
+L Device:R_Small_US R?
+U 1 1 5CF3DD8E
+P 6150 2100
+F 0 "R?" H 6050 2150 50  0000 R CNN
+F 1 "2k2Ω" H 6050 2100 50  0000 R CNN
+F 2 "" H 6150 2100 50  0001 C CNN
+F 3 "~" H 6150 2100 50  0001 C CNN
+	1    6150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5CF3E7A8
+P 6250 2100
+F 0 "R?" H 6350 2150 50  0000 L CNN
+F 1 "2k2Ω" H 6350 2100 50  0000 L CNN
+F 2 "" H 6250 2100 50  0001 C CNN
+F 3 "~" H 6250 2100 50  0001 C CNN
+	1    6250 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2000 6150 1950
+Wire Wire Line
+	6150 1950 6250 1950
+Wire Wire Line
+	6250 1950 6250 2000
+Wire Wire Line
+	6250 1950 6600 1950
+Wire Wire Line
+	6600 1950 6600 2250
+Wire Wire Line
+	6600 2250 6700 2250
+Connection ~ 6250 1950
+Wire Wire Line
+	6150 2200 6150 2350
+Connection ~ 6150 2350
+Wire Wire Line
+	6150 2350 6700 2350
+Wire Wire Line
+	6250 2200 6250 2450
+Connection ~ 6250 2450
+Wire Wire Line
+	6250 2450 6700 2450
+Wire Wire Line
+	5750 2750 6600 2750
+Wire Wire Line
+	6600 2750 6600 2550
+Wire Wire Line
+	6600 2550 6700 2550
+Connection ~ 5750 2750
+$Comp
+L Device:C_Small C?
+U 1 1 5CF458E1
+P 6550 2400
+F 0 "C?" H 6560 2470 50  0000 L CNN
+F 1 "100nF" H 6560 2320 50  0000 L CNN
+F 2 "" H 6550 2400 50  0001 C CNN
+F 3 "~" H 6550 2400 50  0001 C CNN
+	1    6550 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6550 2300 6550 2250
+Wire Wire Line
+	6550 2250 6600 2250
+Connection ~ 6600 2250
+Wire Wire Line
+	6550 2500 6550 2550
+Wire Wire Line
+	6550 2550 6600 2550
+Connection ~ 6600 2550
+Text Notes 1750 3650 0    50   ~ 0
+M12 connector is panel mount with wire connections
+Text Notes 4300 3250 0    50   ~ 0
+I2C address Summary:\n\n1010000X: EEPROM
 $EndSCHEMATC

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name SW-On-Semi)(type KiCad)(uri ${KISWGITHUB}/SW-On-Semi.pretty)(options "")(descr ""))
+  (lib (name SW-CONEC)(type KiCad)(uri ${KISWGITHUB}/SW-CONEC.pretty)(options "")(descr ""))
+  (lib (name SW-TEConn)(type KiCad)(uri ${KISWGITHUB}/SW-TEConn.pretty)(options "")(descr ""))
+  (lib (name SW-Switchcraft)(type KiCad)(uri ${KISWGITHUB}/SW-Switchcraft.pretty)(options "")(descr ""))
+)
