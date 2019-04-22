@@ -1063,9 +1063,9 @@ F 3 "~" H 4100 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 2500 4150 2500
-Wire Bus Line
-	2550 3850 2550 7450
 Connection ~ 4150 2500
 Wire Wire Line
 	4150 2500 4150 2550
+Wire Bus Line
+	2550 3850 2550 7450
 $EndSCHEMATC

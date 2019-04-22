@@ -417,7 +417,7 @@ AR Path="/5CBF625C/61B47E0B" Ref="J?"  Part="1"
 AR Path="/5CBF628A/61B47E0B" Ref="J27"  Part="1" 
 F 0 "J27" H 10450 7150 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Daughterboard)" H 10450 3050 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 10400 5150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x40_P2.54mm_Horizontal" H 10400 5150 50  0001 C CNN
 F 3 "~" H 10400 5150 50  0001 C CNN
 F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    10400 5150
@@ -2656,7 +2656,7 @@ AR Path="/5CBF625C/61B482A6" Ref="J?"  Part="1"
 AR Path="/5CBF628A/61B482A6" Ref="J28"  Part="1" 
 F 0 "J28" H 14000 7150 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Motherboard)" H 14000 3050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 13950 5150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Vertical" H 13950 5150 50  0001 C CNN
 F 3 "~" H 13950 5150 50  0001 C CNN
 F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    13950 5150

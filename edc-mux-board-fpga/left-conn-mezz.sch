@@ -402,7 +402,7 @@ U 1 1 5D11C575
 P 10350 4950
 F 0 "J19" H 10400 6950 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Daughterboard)" H 10400 2850 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 10350 4950 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x40_P2.54mm_Horizontal" H 10350 4950 50  0001 C CNN
 F 3 "~" H 10350 4950 50  0001 C CNN
 F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    10350 4950
@@ -2574,7 +2574,7 @@ U 1 1 5DCBDFA6
 P 13900 4950
 F 0 "J20" H 13950 6950 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Motherboard)" H 13950 2850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 13900 4950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Vertical" H 13900 4950 50  0001 C CNN
 F 3 "~" H 13900 4950 50  0001 C CNN
 F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    13900 4950

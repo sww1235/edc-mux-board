@@ -415,7 +415,7 @@ U 1 1 61C153BF
 P 10600 5050
 F 0 "J11" H 10650 7050 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Daughterboard)" H 10650 2950 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 10600 5050 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x40_P2.54mm_Horizontal" H 10600 5050 50  0001 C CNN
 F 3 "~" H 10600 5050 50  0001 C CNN
 F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    10600 5050
@@ -1788,7 +1788,7 @@ U 1 1 61C1585A
 P 14150 5050
 F 0 "J12" H 14200 7050 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Motherboard)" H 14200 2950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 14150 5050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Vertical" H 14150 5050 50  0001 C CNN
 F 3 "~" H 14150 5050 50  0001 C CNN
 F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    14150 5050
