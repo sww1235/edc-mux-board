@@ -87,8 +87,6 @@ Wire Wire Line
 	1200 1900 1350 1900
 Wire Wire Line
 	1200 2500 2300 2500
-Wire Wire Line
-	2800 2500 2800 2400
 Text Label 2250 2000 0    50   ~ 0
 M_SDA_HV6
 Text Label 2250 2100 0    50   ~ 0
@@ -385,26 +383,8 @@ Text Label 2250 2200 0    50   ~ 0
 M_INT_6
 Text Label 2250 2400 0    50   ~ 0
 M_ID_PIN6
-$Comp
-L Device:Polyfuse_Small F?
-U 1 1 61C153B2
-P 2800 2300
-AR Path="/5CC6CC1A/5CC6D47B/61C153B2" Ref="F?"  Part="1" 
-AR Path="/5CB02488/61C153B2" Ref="F?"  Part="1" 
-AR Path="/5CBF625C/61C153B2" Ref="F?"  Part="1" 
-AR Path="/5CBF6239/61C153B2" Ref="F1"  Part="1" 
-F 0 "F1" H 2900 2350 50  0000 L CNN
-F 1 "1A" H 2900 2300 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 2850 2100 50  0001 L CNN
-F 3 "~" H 2800 2300 50  0001 C CNN
-F 4 "0603in/1608mm" H 600 -1700 50  0001 C CNN "Package ID"
-	1    2800 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 2500 2800 2500
-Wire Wire Line
-	2800 2200 2800 2100
 Text Label 1750 3250 0    50   ~ 0
 M_GND
 Wire Wire Line
@@ -517,8 +497,6 @@ Wire Wire Line
 	1200 4650 1350 4650
 Wire Wire Line
 	1200 5250 2300 5250
-Wire Wire Line
-	2800 5250 2800 5150
 Text Label 2250 4750 0    50   ~ 0
 M_SDA_HV7
 Text Label 2250 4850 0    50   ~ 0
@@ -815,26 +793,8 @@ Text Label 2250 4950 0    50   ~ 0
 M_INT_7
 Text Label 2250 5150 0    50   ~ 0
 M_ID_PIN7
-$Comp
-L Device:Polyfuse_Small F?
-U 1 1 61C15492
-P 2800 5050
-AR Path="/5CC6CC1A/5CC6D47B/61C15492" Ref="F?"  Part="1" 
-AR Path="/5CB02488/61C15492" Ref="F?"  Part="1" 
-AR Path="/5CBF625C/61C15492" Ref="F?"  Part="1" 
-AR Path="/5CBF6239/61C15492" Ref="F2"  Part="1" 
-F 0 "F2" H 2900 5100 50  0000 L CNN
-F 1 "1A" H 2900 5050 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 2850 4850 50  0001 L CNN
-F 3 "~" H 2800 5050 50  0001 C CNN
-F 4 "0603in/1608mm" H 600 1050 50  0001 C CNN "Package ID"
-	1    2800 5050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 5250 2800 5250
-Wire Wire Line
-	2800 4950 2800 4850
 Text Label 1750 6000 0    50   ~ 0
 M_GND
 Wire Wire Line
@@ -918,8 +878,6 @@ Wire Wire Line
 	1200 7300 1350 7300
 Wire Wire Line
 	1200 7900 2300 7900
-Wire Wire Line
-	2800 7900 2800 7800
 Text Label 2250 7400 0    50   ~ 0
 M_SDA_HV8
 Text Label 2250 7500 0    50   ~ 0
@@ -1216,26 +1174,8 @@ Text Label 2250 7600 0    50   ~ 0
 M_INT_8
 Text Label 2250 7800 0    50   ~ 0
 M_ID_PIN8
-$Comp
-L Device:Polyfuse_Small F?
-U 1 1 61C15563
-P 2800 7700
-AR Path="/5CC6CC1A/5CC6D47B/61C15563" Ref="F?"  Part="1" 
-AR Path="/5CB02488/61C15563" Ref="F?"  Part="1" 
-AR Path="/5CBF625C/61C15563" Ref="F?"  Part="1" 
-AR Path="/5CBF6239/61C15563" Ref="F3"  Part="1" 
-F 0 "F3" H 2900 7750 50  0000 L CNN
-F 1 "1A" H 2900 7700 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 2850 7500 50  0001 L CNN
-F 3 "~" H 2800 7700 50  0001 C CNN
-F 4 "0603in/1608mm" H 600 3700 50  0001 C CNN "Package ID"
-	1    2800 7700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 7900 2800 7900
-Wire Wire Line
-	2800 7600 2800 7500
 Text Label 1750 8650 0    50   ~ 0
 M_GND
 Wire Wire Line
@@ -1319,8 +1259,6 @@ Wire Wire Line
 	5900 1900 6050 1900
 Wire Wire Line
 	5900 2500 7000 2500
-Wire Wire Line
-	7500 2500 7500 2400
 Text Label 6950 2000 0    50   ~ 0
 M_SDA_HV9
 Text Label 6950 2100 0    50   ~ 0
@@ -1615,26 +1553,8 @@ Text Label 6950 2200 0    50   ~ 0
 M_INT_9
 Text Label 6950 2400 0    50   ~ 0
 M_ID_PIN9
-$Comp
-L Device:Polyfuse_Small F?
-U 1 1 61C15634
-P 7500 2300
-AR Path="/5CC6CC1A/5CC6D47B/61C15634" Ref="F?"  Part="1" 
-AR Path="/5CB02488/61C15634" Ref="F?"  Part="1" 
-AR Path="/5CBF625C/61C15634" Ref="F?"  Part="1" 
-AR Path="/5CBF6239/61C15634" Ref="F4"  Part="1" 
-F 0 "F4" H 7600 2350 50  0000 L CNN
-F 1 "1A" H 7600 2300 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 7550 2100 50  0001 L CNN
-F 3 "~" H 7500 2300 50  0001 C CNN
-F 4 "0603in/1608mm" H 5300 -1700 50  0001 C CNN "Package ID"
-	1    7500 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7000 2500 7500 2500
-Wire Wire Line
-	7500 2200 7500 2100
 Text Label 6450 3250 0    50   ~ 0
 M_GND
 Wire Wire Line
@@ -2643,6 +2563,18 @@ F 3 "~" H 6300 4510 50  0001 C CNN
 	1    6250 4550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6700 4500 6700 4550
+Connection ~ 6700 4500
+Wire Wire Line
+	6700 4500 6750 4500
+Wire Wire Line
+	6700 4750 6700 4800
+Connection ~ 6700 4800
+Wire Wire Line
+	6700 4800 7200 4800
+Wire Wire Line
+	7500 2100 7500 2500
 Wire Bus Line
 	15700 3250 15700 7700
 Wire Bus Line
