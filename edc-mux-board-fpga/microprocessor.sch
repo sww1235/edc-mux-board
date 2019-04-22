@@ -15,13 +15,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW-Microchip:SAMD21JXXAM U65
+L SW-Microchip:SAMD21JXXAM U66
 U 1 1 5CB265DB
 P 4300 4400
-F 0 "U65" H 4750 6100 50  0000 C CNN
+F 0 "U66" H 4750 6100 50  0000 C CNN
 F 1 "SAMD21JXXAM" H 3800 6100 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm_ThermalVias" H 3100 6950 50  0001 C CNN
 F 3 "ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf" H 3100 6950 50  0001 C CNN
+F 4 "SAMD21 ARM Cortex M0+ MCU" H 0   0   50  0001 C CNN "Description"
+F 5 "Atmel" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "SAMD21JXXAM" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "QFN64-EP" H 0   0   50  0001 C CNN "Package ID"
 	1    4300 4400
 	1    0    0    -1  
 $EndComp
@@ -33,25 +37,29 @@ AR Path="/5CC6CC1A/5CC6D47B/5CB0D378" Ref="FB?"  Part="1"
 AR Path="/5CAA362B/5CB0D378" Ref="FB87"  Part="1" 
 F 0 "FB87" H 4300 1900 50  0000 R CNN
 F 1 "600Ω @ 100MHz" V 4000 2450 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 4080 2000 50  0001 C CNN
-F 3 "~" H 4150 2000 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 4080 2000 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 4150 2000 50  0001 C CNN
 F 4 "Murata" H 4150 2000 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 4150 2000 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 4150 2000 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 4150 2000 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    4150 2000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C464
+L Device:C_Small C466
 U 1 1 5CB0D4F1
 P 3900 2150
-F 0 "C464" V 4150 2150 50  0000 C CNN
+F 0 "C466" V 4150 2150 50  0000 C CNN
 F 1 "10uF X7R" V 4050 2150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3900 2150 50  0001 C CNN
-F 3 "~" H 3900 2150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 3900 2150 50  0001 C CNN
 F 4 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 6 "1206in/3216mm" H 0   0   50  0001 C CNN "Package ID"
+F 7 "CAP CER 10UF 25V X7R 1206" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    3900 2150
 	0    -1   -1   0   
 $EndComp
@@ -62,14 +70,18 @@ Wire Wire Line
 Wire Wire Line
 	4150 2100 4150 2150
 $Comp
-L Device:C_Small C465
+L Device:C_Small C467
 U 1 1 5CB0E5F1
 P 3900 2300
-F 0 "C465" V 3750 2300 50  0000 C CNN
+F 0 "C467" V 3750 2300 50  0000 C CNN
 F 1 "100nF X7R" V 3700 2300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3900 2300 50  0001 C CNN
-F 3 "~" H 3900 2300 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 3900 2300 50  0001 C CNN
 F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    3900 2300
 	0    -1   -1   0   
 $EndComp
@@ -106,6 +118,7 @@ F 1 "330Ω" H 5080 6710 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 5050 6750 50  0001 C CNN
 F 3 "~" H 5050 6750 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    5050 6750
 	0    1    1    0   
 $EndComp
@@ -116,7 +129,11 @@ P 4800 7050
 F 0 "SW3" H 4850 7150 50  0000 L CNN
 F 1 "Reset (Microprocessor)" H 4800 6990 50  0000 C CNN
 F 2 "SW-Eswitch:TL1105" H 4800 7250 50  0001 C CNN
-F 3 "~" H 4800 7250 50  0001 C CNN
+F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/144/TL1105.pdf" H 4800 7250 50  0001 C CNN
+F 4 "Tactile Switch" H 0   0   50  0001 C CNN "Description"
+F 5 "Eswitch" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "TL1105AF160R" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    4800 7050
 	1    0    0    -1  
 $EndComp
@@ -134,14 +151,18 @@ F 3 "" H 4750 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C472
+L Device:C_Small C474
 U 1 1 5CB16AC7
 P 4750 6600
-F 0 "C472" H 4760 6670 50  0000 L CNN
-F 1 "100pF" H 4760 6520 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 6600 50  0001 C CNN
-F 3 "~" H 4750 6600 50  0001 C CNN
-F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
+F 0 "C474" H 4760 6670 50  0000 L CNN
+F 1 "100pF C0G" H 4760 6520 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 6600 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 4750 6600 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "CAP CER 100PF 50V C0G 0402" H 0   0   50  0001 C CNN "Characteristics"
+F 6 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "CGA2B2C0G1H101J050BA" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 6600
 	-1   0    0    1   
 $EndComp
@@ -154,6 +175,7 @@ F 1 "2k2Ω" H 4800 6600 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4900 6600 50  0001 C CNN
 F 3 "~" H 4900 6600 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    4900 6600
 	-1   0    0    1   
 $EndComp
@@ -228,54 +250,66 @@ Connection ~ 4350 1800
 Wire Wire Line
 	4350 1800 4150 1800
 $Comp
-L Device:C_Small C468
+L Device:C_Small C470
 U 1 1 5CB233A3
 P 4750 1950
-F 0 "C468" V 4800 1850 50  0000 C CNN
+F 0 "C470" V 4800 1850 50  0000 C CNN
 F 1 "10uF X7R" V 4700 2100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4750 1950 50  0001 C CNN
-F 3 "~" H 4750 1950 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4750 1950 50  0001 C CNN
 F 4 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 6 "1206in/3216mm" H 0   0   50  0001 C CNN "Package ID"
+F 7 "CAP CER 10UF 25V X7R 1206" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 1950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C469
+L Device:C_Small C471
 U 1 1 5CB24B2E
 P 4750 2150
-F 0 "C469" V 4800 2050 50  0000 C CNN
+F 0 "C471" V 4800 2050 50  0000 C CNN
 F 1 "100nF X7R" V 4700 2300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 2150 50  0001 C CNN
-F 3 "~" H 4750 2150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4750 2150 50  0001 C CNN
 F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 2150
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C470
+L Device:C_Small C472
 U 1 1 5CB2503C
 P 4750 2300
-F 0 "C470" V 4800 2200 50  0000 C CNN
+F 0 "C472" V 4800 2200 50  0000 C CNN
 F 1 "100nF X7R" V 4700 2450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 2300 50  0001 C CNN
-F 3 "~" H 4750 2300 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4750 2300 50  0001 C CNN
 F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C471
+L Device:C_Small C473
 U 1 1 5CB25350
 P 4750 2500
-F 0 "C471" V 4800 2400 50  0000 C CNN
+F 0 "C473" V 4800 2400 50  0000 C CNN
 F 1 "1uF X7R" V 4700 2600 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 2500 50  0001 C CNN
-F 3 "~" H 4750 2500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 4750 2500 50  0001 C CNN
 F 4 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "CGA3E1X7R1E105K080AC" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 6 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
+F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 2500
 	0    -1   -1   0   
 $EndComp
@@ -345,6 +379,7 @@ F 1 "1kΩ" H 1850 5850 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1950 5850 50  0001 C CNN
 F 3 "~" H 1950 5850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    1950 5850
 	-1   0    0    1   
 $EndComp
@@ -385,6 +420,7 @@ F 0 "J29" H 1600 6300 50  0000 C CNN
 F 1 "PRG/SWD" H 1600 5900 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1550 6100 50  0001 C CNN
 F 3 "~" H 1550 6100 50  0001 C CNN
+F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    1550 6100
 	1    0    0    -1  
 $EndComp
@@ -402,18 +438,26 @@ P 1850 8550
 F 0 "J30" H 1650 9000 50  0000 L CNN
 F 1 "USB PRG" H 1650 8900 50  0000 L CNN
 F 2 "SW-CUI-INC:UJ2-BV-1-TH" H 2000 8500 50  0001 C CNN
-F 3 " ~" H 2000 8500 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/uj2-bv-1-th.pdf" H 2000 8500 50  0001 C CNN
+F 4 "USB B female Vertical PBC mount connetor" H 0   0   50  0001 C CNN "Description"
+F 5 "CUI Inc" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "UJ2-BV-1-TH" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    1850 8550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Protection:TPD3S014 U64
+L Power_Protection:TPD3S014 U65
 U 1 1 5CB5AB1F
 P 3050 8450
-F 0 "U64" H 2800 8700 50  0000 C CNN
+F 0 "U65" H 2800 8700 50  0000 C CNN
 F 1 "TPD3S014" H 3150 8700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3050 8800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd3s014.pdf" H 2850 8700 50  0001 C CNN
+F 4 "ESD protection and current limiting for USB ports" H 0   0   50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "TPD3S0x4" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "SOT-23-6" H 0   0   50  0001 C CNN "Package ID"
 	1    3050 8450
 	1    0    0    -1  
 $EndComp
@@ -442,10 +486,10 @@ Text Label 2400 8350 0    50   ~ 0
 Text Label 3600 8350 0    50   ~ 0
 +5VUSB
 $Comp
-L SW-Microchip:MCP1812 U66
+L SW-Microchip:MCP1812 U67
 U 1 1 5CB77862
 P 4850 8350
-F 0 "U66" H 4700 8500 50  0000 C CNN
+F 0 "U67" H 4700 8500 50  0000 C CNN
 F 1 "MCP1812" H 4850 8350 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4800 8600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1811A-11B-12A-12B-Data-Sheet-20006088B.pdf" H 4800 8600 50  0001 C CNN
@@ -498,16 +542,18 @@ Connection ~ 3050 8900
 Wire Wire Line
 	3050 8900 3050 9000
 $Comp
-L Device:C_Small C466
+L Device:C_Small C468
 U 1 1 5CBA845F
 P 4100 8700
-F 0 "C466" H 4200 8650 50  0000 L CNN
+F 0 "C468" H 4200 8650 50  0000 L CNN
 F 1 "1uF X7R" H 4200 8700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4100 8700 50  0001 C CNN
-F 3 "~" H 4100 8700 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 4100 8700 50  0001 C CNN
 F 4 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "CGA3E1X7R1E105K080AC" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 6 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
+F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4100 8700
 	-1   0    0    1   
 $EndComp
@@ -522,14 +568,18 @@ Connection ~ 4100 8900
 Wire Wire Line
 	4100 8900 3050 8900
 $Comp
-L Device:C_Small C474
+L Device:C_Small C476
 U 1 1 5CBB2A15
 P 5450 8650
-F 0 "C474" H 5350 8600 50  0000 R CNN
+F 0 "C476" H 5350 8600 50  0000 R CNN
 F 1 "2.2uF X7R" H 5350 8650 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 8650 50  0001 C CNN
-F 3 "~" H 5450 8650 50  0001 C CNN
-F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5450 8650 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 5450 8650 50  0001 C CNN
+F 4 "0805in/2012mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CGA4J3X7R1E225K125AB" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 2.2UF 25V X7R 0805" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    5450 8650
 	-1   0    0    1   
 $EndComp
@@ -543,16 +593,18 @@ Wire Wire Line
 	5450 8900 4850 8900
 Connection ~ 4850 8900
 $Comp
-L Device:C_Small C467
+L Device:C_Small C469
 U 1 1 5CBBAF62
 P 4300 8700
-F 0 "C467" H 4200 8650 50  0000 R CNN
+F 0 "C469" H 4200 8650 50  0000 R CNN
 F 1 "10uF X7R" H 4200 8700 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4300 8700 50  0001 C CNN
-F 3 "~" H 4300 8700 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4300 8700 50  0001 C CNN
 F 4 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 6 "1206in/3216mm" H 0   0   50  0001 C CNN "Package ID"
+F 7 "CAP CER 10UF 25V X7R 1206" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4300 8700
 	-1   0    0    1   
 $EndComp
@@ -567,15 +619,17 @@ Connection ~ 4300 8900
 Wire Wire Line
 	4300 8900 4100 8900
 $Comp
-L SW-Linear:LTC4412 U67
+L SW-Linear:LTC4412 U68
 U 1 1 5CBD4266
 P 6000 1150
-F 0 "U67" H 6200 950 50  0000 C CNN
+F 0 "U68" H 6200 950 50  0000 C CNN
 F 1 "LTC4412" H 5950 1350 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6000 1450 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf" H 6550 1950 50  0001 C CNN
 F 4 "Linear Technologies" H 6000 1150 50  0001 C CNN "Manufacturer"
 F 5 "LTC4412HS6#TRMPBF" H 6000 1150 50  0001 C CNN "Manufacturers Part Number"
+F 6 "Ideal Diode Controller" H 0   0   50  0001 C CNN "Description"
+F 7 "SOT-23-6" H 0   0   50  0001 C CNN "Package ID"
 	1    6000 1150
 	-1   0    0    -1  
 $EndComp
@@ -596,13 +650,17 @@ F 3 "" H 4550 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Texas:CSD22206W Q3
+L SW-Texas:CSD22206W Q4
 U 1 1 5CC05141
 P 4650 1450
-F 0 "Q3" H 4850 1500 50  0000 L CNN
+F 0 "Q4" H 4850 1500 50  0000 L CNN
 F 1 "CSD22206W" H 4850 1400 50  0000 L CNN
 F 2 "SW-Texas:DSBGA9" H 4850 1500 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/csd22206w.pdf" H 4650 1450 50  0001 C CNN
+F 4 "P Channel MOSFET" H 0   0   50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CSD22206W" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "DSBGA9" H 0   0   50  0001 C CNN "Package ID"
 	1    4650 1450
 	-1   0    0    -1  
 $EndComp
@@ -641,13 +699,17 @@ Connection ~ 4550 1700
 Wire Wire Line
 	4550 1700 4550 1800
 $Comp
-L SW-Texas:CSD22206W Q4
+L SW-Texas:CSD22206W Q5
 U 1 1 5CC282F0
 P 5450 1600
-F 0 "Q4" V 5750 1600 50  0000 C CNN
+F 0 "Q5" V 5750 1600 50  0000 C CNN
 F 1 "CSD22206W" V 5850 1600 50  0000 C CNN
 F 2 "SW-Texas:DSBGA9" H 5650 1650 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/csd22206w.pdf" H 5450 1600 50  0001 C CNN
+F 4 "P Channel MOSFET" H 0   0   50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CSD22206W" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "DSBGA9" H 0   0   50  0001 C CNN "Package ID"
 	1    5450 1600
 	0    1    1    0   
 $EndComp
@@ -669,6 +731,7 @@ F 1 "470kΩ" H 5330 1310 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 5300 1350 50  0001 C CNN
 F 3 "~" H 5300 1350 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    5300 1350
 	0    1    1    0   
 $EndComp
@@ -703,16 +766,18 @@ Connection ~ 6600 1250
 Wire Wire Line
 	6600 1250 6600 1400
 $Comp
-L Device:C_Small C473
+L Device:C_Small C475
 U 1 1 5CC5600A
 P 5050 1800
-F 0 "C473" V 5100 1700 50  0000 C CNN
+F 0 "C475" V 5100 1700 50  0000 C CNN
 F 1 "10uF X7R" V 5000 1950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5050 1800 50  0001 C CNN
-F 3 "~" H 5050 1800 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5050 1800 50  0001 C CNN
 F 4 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 6 "1206in/3216mm" H 0   0   50  0001 C CNN "Package ID"
+F 7 "CAP CER 10UF 25V X7R 1206" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    5050 1800
 	1    0    0    -1  
 $EndComp
@@ -836,6 +901,7 @@ F 1 "10kΩ" H 1150 4900 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1250 4900 50  0001 C CNN
 F 3 "~" H 1250 4900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    1250 4900
 	-1   0    0    1   
 $EndComp
@@ -848,6 +914,7 @@ F 1 "10kΩ" H 1250 4900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1150 4900 50  0001 C CNN
 F 3 "~" H 1150 4900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    1150 4900
 	-1   0    0    1   
 $EndComp
@@ -954,10 +1021,10 @@ Wire Wire Line
 	5050 4600 5200 4600
 NoConn ~ 3550 2800
 $Comp
-L power:PWR_FLAG #FLG0106
+L power:PWR_FLAG #FLG09
 U 1 1 5D26123F
 P 4000 8250
-F 0 "#FLG0106" H 4000 8325 50  0001 C CNN
+F 0 "#FLG09" H 4000 8325 50  0001 C CNN
 F 1 "PWR_FLAG" H 4000 8400 50  0000 C CNN
 F 2 "" H 4000 8250 50  0001 C CNN
 F 3 "~" H 4000 8250 50  0001 C CNN
@@ -970,10 +1037,10 @@ Connection ~ 4000 8350
 Wire Wire Line
 	4000 8350 4100 8350
 $Comp
-L power:PWR_FLAG #FLG0107
+L power:PWR_FLAG #FLG011
 U 1 1 5D26D036
 P 4150 1700
-F 0 "#FLG0107" H 4150 1775 50  0001 C CNN
+F 0 "#FLG011" H 4150 1775 50  0001 C CNN
 F 1 "PWR_FLAG" H 4150 1850 50  0000 C CNN
 F 2 "" H 4150 1700 50  0001 C CNN
 F 3 "~" H 4150 1700 50  0001 C CNN
@@ -984,10 +1051,10 @@ Wire Wire Line
 	4150 1700 4150 1800
 Connection ~ 4150 1800
 $Comp
-L power:PWR_FLAG #FLG0108
+L power:PWR_FLAG #FLG010
 U 1 1 5D2752F0
 P 4100 2500
-F 0 "#FLG0108" H 4100 2575 50  0001 C CNN
+F 0 "#FLG010" H 4100 2575 50  0001 C CNN
 F 1 "PWR_FLAG" V 4000 2750 50  0000 C CNN
 F 2 "" H 4100 2500 50  0001 C CNN
 F 3 "~" H 4100 2500 50  0001 C CNN

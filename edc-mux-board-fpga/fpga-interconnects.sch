@@ -174,6 +174,10 @@ F 0 "U63" H 11750 4800 50  0000 C CNN
 F 1 "S25FL128L" H 11500 5300 50  0000 C CNN
 F 2 "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm" H 11550 5050 50  0001 C CNN
 F 3 "https://www.cypress.com/file/316171/download" H 11550 5050 50  0001 C CNN
+F 4 "256Mb flash memory for FPGA programming" H 0   0   50  0001 C CNN "Description"
+F 5 "Cypress" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "S25FL256L" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "WSON8" H 0   0   50  0001 C CNN "Package ID"
 	1    11550 5050
 	-1   0    0    -1  
 $EndComp
@@ -194,6 +198,7 @@ F 1 "25Ω" V 12100 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12250 4900 50  0001 C CNN
 F 3 "~" H 12250 4900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    12250 4900
 	0    1    1    0   
 $EndComp
@@ -961,8 +966,12 @@ AR Path="/5CB2F6E3/5D35C259" Ref="C431"  Part="1"
 F 0 "C431" H 10850 5000 50  0000 R CNN
 F 1 "100nF X7R" H 10850 5050 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10950 5050 50  0001 C CNN
-F 3 "~" H 10950 5050 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 10950 5050 50  0001 C CNN
 F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    10950 5050
 	1    0    0    1   
 $EndComp
@@ -996,6 +1005,7 @@ F 1 "10kΩ" V 15500 4200 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 15450 3900 50  0001 C CNN
 F 3 "~" H 15450 3900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    15450 3900
 	-1   0    0    1   
 $EndComp
@@ -1022,8 +1032,13 @@ U 1 1 5D3B4AD9
 P 15050 3550
 F 0 "D4" V 15100 3650 50  0000 L CNN
 F 1 "CONF_ERR (RED)" V 15000 3650 50  0000 L CNN
-F 2 "" H 15050 3550 50  0001 C CNN
-F 3 "~" H 15050 3550 50  0001 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 15050 3550 50  0001 C CNN
+F 3 "https://www.sunledusa.com/products/spec/XZMER68W-3.pdf" H 15050 3550 50  0001 C CNN
+F 4 "Red" H 0   0   50  0001 C CNN "Characteristics"
+F 5 "Surface Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
+F 6 "SunLED" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "XZMER68W-3" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
 	1    15050 3550
 	0    -1   -1   0   
 $EndComp
@@ -1036,6 +1051,7 @@ F 1 "200Ω" H 15150 3900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 15050 3900 50  0001 C CNN
 F 3 "~" H 15050 3900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    15050 3900
 	-1   0    0    1   
 $EndComp
@@ -1054,6 +1070,7 @@ F 1 "10kΩ" H 15300 4000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 15300 3900 50  0001 C CNN
 F 3 "~" H 15300 3900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    15300 3900
 	-1   0    0    1   
 $EndComp
@@ -1080,6 +1097,7 @@ F 1 "10kΩ" V 15650 4200 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 15600 3900 50  0001 C CNN
 F 3 "~" H 15600 3900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    15600 3900
 	-1   0    0    1   
 $EndComp
@@ -1111,8 +1129,13 @@ U 1 1 5D543BD6
 P 16050 3350
 F 0 "D5" V 16100 3200 50  0000 L CNN
 F 1 "CONF_STATUS (GREEN)" H 15700 3450 50  0000 L CNN
-F 2 "" H 16050 3350 50  0001 C CNN
-F 3 "~" H 16050 3350 50  0001 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 16050 3350 50  0001 C CNN
+F 3 "https://www.sunledusa.com/products/spec/XZVGR68W-3.pdf" H 16050 3350 50  0001 C CNN
+F 4 "green" H 0   0   50  0001 C CNN "Characteristics"
+F 5 "Surface Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
+F 6 "SunLED" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "XZVGR68W-3" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
 	1    16050 3350
 	0    1    -1   0   
 $EndComp
@@ -1125,6 +1148,7 @@ F 1 "200Ω" V 16100 4200 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 16050 3900 50  0001 C CNN
 F 3 "~" H 16050 3900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    16050 3900
 	-1   0    0    1   
 $EndComp
@@ -1150,6 +1174,7 @@ F 0 "JP1" V 15100 3000 50  0000 L CNN
 F 1 "LED_ENABLE" V 15050 3000 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 15050 2900 50  0001 C CNN
 F 3 "~" H 15050 2900 50  0001 C CNN
+F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    15050 2900
 	0    -1   -1   0   
 $EndComp
@@ -1164,6 +1189,7 @@ F 1 "1kΩ" H 15550 6150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 15550 6050 50  0001 C CNN
 F 3 "~" H 15550 6050 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    15550 6050
 	-1   0    0    1   
 $EndComp
@@ -1179,6 +1205,8 @@ F 0 "J5" H 15450 7350 50  0000 C CNN
 F 1 "FPGA_JTAG" H 15450 6750 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 15400 7050 50  0001 C CNN
 F 3 "~" H 15400 7050 50  0001 C CNN
+F 4 "FPGA JTAG Connector" H 0   0   50  0001 C CNN "Description"
+F 5 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    15400 7050
 	1    0    0    -1  
 $EndComp
@@ -1279,6 +1307,7 @@ F 1 "10kΩ" H 16100 5100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 16000 5100 50  0001 C CNN
 F 3 "~" H 16000 5100 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    16000 5100
 	-1   0    0    1   
 $EndComp
@@ -1308,6 +1337,7 @@ F 1 "10kΩ" H 16100 5100 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 16200 5100 50  0001 C CNN
 F 3 "~" H 16200 5100 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    16200 5100
 	-1   0    0    1   
 $EndComp
@@ -1343,9 +1373,14 @@ L Device:LED D6
 U 1 1 5D82826F
 P 16250 3400
 F 0 "D6" V 16350 3300 50  0000 L CNN
-F 1 "CRC_ERR" H 15900 3250 50  0000 L CNN
-F 2 "" H 16250 3400 50  0001 C CNN
-F 3 "~" H 16250 3400 50  0001 C CNN
+F 1 "CRC_ERR (YLW)" H 15900 3250 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 16250 3400 50  0001 C CNN
+F 3 "https://www.sunledusa.com/products/spec/XZMYK68W-2.pdf" H 16250 3400 50  0001 C CNN
+F 4 "Yellow" H 0   0   50  0001 C CNN "Characteristics"
+F 5 "Surface Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
+F 6 "SunLED" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "XZMYK68W-2" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
 	1    16250 3400
 	0    -1   -1   0   
 $EndComp
@@ -1358,6 +1393,7 @@ F 1 "200Ω" V 16200 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 16250 3900 50  0001 C CNN
 F 3 "~" H 16250 3900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    16250 3900
 	1    0    0    -1  
 $EndComp
@@ -1376,6 +1412,7 @@ F 1 "10kΩ" V 15800 4200 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 15750 3900 50  0001 C CNN
 F 3 "~" H 15750 3900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    15750 3900
 	-1   0    0    1   
 $EndComp
@@ -1426,6 +1463,7 @@ F 1 "10kΩ" V 15950 4200 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 15900 3900 50  0001 C CNN
 F 3 "~" H 15900 3900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    15900 3900
 	-1   0    0    1   
 $EndComp

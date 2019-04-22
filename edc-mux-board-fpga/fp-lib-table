@@ -9,4 +9,5 @@
   (lib (name SW-Switchcraft)(type KiCad)(uri ${KISWGITHUB}/SW-Switchcraft.pretty)(options "")(descr ""))
   (lib (name SW-RECOM)(type KiCad)(uri ${KISWGITHUB}/SW-RECOM.pretty)(options "")(descr ""))
   (lib (name SW-Eswitch)(type KiCad)(uri ${KISWGITHUB}/SW-Eswitch.pretty)(options "")(descr ""))
+  (lib (name SW-Wurth-Electronics)(type KiCad)(uri ${KISWGITHUB}/SW-Wurth-Electronics.pretty)(options "")(descr ""))
 )

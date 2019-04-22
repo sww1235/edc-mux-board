@@ -29,6 +29,7 @@ F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 1900 3150 50  0001 C CN
 F 4 "1:8 Clock Buffer" H 0   0   50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "CDCLVC1108" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "TSSOP16" H 0   0   50  0001 C CNN "Package ID"
 	1    1950 2050
 	1    0    0    -1  
 $EndComp
@@ -47,6 +48,7 @@ F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 1900 5550 50  0001 C CN
 F 4 "1:8 Clock Buffer" H 0   0   50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "CDCLVC1108" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "TSSOP16" H 0   0   50  0001 C CNN "Package ID"
 	1    1950 4450
 	1    0    0    -1  
 $EndComp
@@ -65,6 +67,7 @@ F 4 "Texas Instruments" H 8100 4250 60  0001 C CNN "Manufacturer"
 F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 8200 4350 60  0001 C CNN "Description"
 F 6 "TSSOP24" H 8300 4450 60  0001 C CNN "Package ID"
 F 7 "0.00@0" H 8150 4550 60  0001 C CNN "Pricing"
+F 8 "TCA9548" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    8050 2350
 	1    0    0    -1  
 $EndComp
@@ -83,6 +86,7 @@ F 4 "Texas Instruments" H 8100 6800 60  0001 C CNN "Manufacturer"
 F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 8200 6900 60  0001 C CNN "Description"
 F 6 "TSSOP24" H 8300 7000 60  0001 C CNN "Package ID"
 F 7 "0.00@0" H 8150 7100 60  0001 C CNN "Pricing"
+F 8 "TCA9548" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    8050 4900
 	1    0    0    -1  
 $EndComp
@@ -113,11 +117,13 @@ AR Path="/5CC3E5DC/647D98E2" Ref="FB?"  Part="1"
 AR Path="/5CC6CC1A/5CCDCE34/647D98E2" Ref="FB20"  Part="1" 
 F 0 "FB20" H 1850 1000 50  0000 R CNN
 F 1 "600Ω @ 100MHz" H 1850 1050 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 1880 1050 50  0001 C CNN
-F 3 "~" H 1950 1050 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 1880 1050 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1950 1050 50  0001 C CNN
 F 4 "Murata" H 1950 1050 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1950 1050 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 1950 1050 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 1950 1050 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    1950 1050
 	-1   0    0    1   
 $EndComp
@@ -130,11 +136,13 @@ AR Path="/5CC3E5DC/647D9902" Ref="FB?"  Part="1"
 AR Path="/5CC6CC1A/5CCDCE34/647D9902" Ref="FB21"  Part="1" 
 F 0 "FB21" H 2050 3400 50  0000 L CNN
 F 1 "600Ω @ 100MHz" H 2050 3450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 1880 3450 50  0001 C CNN
-F 3 "~" H 1950 3450 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 1880 3450 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1950 3450 50  0001 C CNN
 F 4 "Murata" H 1950 3450 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1950 3450 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 1950 3450 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 1950 3450 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    1950 3450
 	1    0    0    1   
 $EndComp
@@ -199,10 +207,12 @@ AR Path="/5CC6CC1A/5CCDCE34/647ECCDC" Ref="C404"  Part="1"
 F 0 "C404" V 1400 1000 50  0000 C CNN
 F 1 "10uF X7R" V 1400 750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1450 900 50  0001 C CNN
-F 3 "~" H 1450 900 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1450 900 50  0001 C CNN
 F 4 "Kemet" H 1600 50  50  0001 C CNN "Manufacturer"
 F 5 "1206in/3216mm" H 1600 50  50  0001 C CNN "Package ID"
 F 6 "C1206C106J3RACAUTO" H 1600 50  50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 10UF 25V X7R 1206" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    1450 900 
 	0    1    1    0   
 $EndComp
@@ -215,8 +225,12 @@ AR Path="/5CC6CC1A/5CCDCE34/647ECCE3" Ref="C406"  Part="1"
 F 0 "C406" V 1200 1350 50  0000 C CNN
 F 1 "100nF X7R" V 1300 1350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 1350 50  0001 C CNN
-F 3 "~" H 1450 1350 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1450 1350 50  0001 C CNN
 F 4 "0603in/1608mm" H -6000 -2400 50  0001 C CNN "Package ID"
+F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    1450 1350
 	0    1    -1   0   
 $EndComp
@@ -273,10 +287,12 @@ AR Path="/5CC6CC1A/5CCDCE34/647F7845" Ref="C408"  Part="1"
 F 0 "C408" V 1500 3500 50  0000 R CNN
 F 1 "1uF X7R" H 1600 3700 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 3600 50  0001 C CNN
-F 3 "~" H 1450 3600 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 1450 3600 50  0001 C CNN
 F 4 "TDK" H 1450 3600 50  0001 C CNN "Manufacturer"
 F 5 "CGA3E1X7R1E105K080AC" H 1450 3600 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0603in/1608mm" H -6250 -150 50  0001 C CNN "Package ID"
+F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    1450 3600
 	0    -1   -1   0   
 $EndComp
@@ -289,10 +305,12 @@ AR Path="/5CC6CC1A/5CCDCE34/647F784E" Ref="C407"  Part="1"
 F 0 "C407" V 1400 3500 50  0000 R CNN
 F 1 "10uF X7R" V 1400 3250 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1450 3300 50  0001 C CNN
-F 3 "~" H 1450 3300 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1450 3300 50  0001 C CNN
 F 4 "Kemet" H 1600 2450 50  0001 C CNN "Manufacturer"
 F 5 "1206in/3216mm" H 1600 2450 50  0001 C CNN "Package ID"
 F 6 "C1206C106J3RACAUTO" H 1600 2450 50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 10UF 25V X7R 1206" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    1450 3300
 	0    1    1    0   
 $EndComp
@@ -305,8 +323,12 @@ AR Path="/5CC6CC1A/5CCDCE34/647F7855" Ref="C409"  Part="1"
 F 0 "C409" V 1400 3950 50  0000 R CNN
 F 1 "100nF X7R" V 1550 3850 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 3750 50  0001 C CNN
-F 3 "~" H 1450 3750 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1450 3750 50  0001 C CNN
 F 4 "0603in/1608mm" H -6000 0   50  0001 C CNN "Package ID"
+F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    1450 3750
 	0    1    1    0   
 $EndComp
@@ -359,10 +381,12 @@ AR Path="/5CC6CC1A/5CCDCE34/647ECCD3" Ref="C405"  Part="1"
 F 0 "C405" V 1500 1150 50  0000 R CNN
 F 1 "1uF X7R" V 1500 1350 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 1200 50  0001 C CNN
-F 3 "~" H 1450 1200 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 1450 1200 50  0001 C CNN
 F 4 "TDK" H 1450 1200 50  0001 C CNN "Manufacturer"
 F 5 "CGA3E1X7R1E105K080AC" H 1450 1200 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0603in/1608mm" H -6250 -2550 50  0001 C CNN "Package ID"
+F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    1450 1200
 	0    -1   -1   0   
 $EndComp
@@ -375,6 +399,7 @@ F 1 "10kΩ" H 1430 1760 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1400 1800 50  0001 C CNN
 F 3 "~" H 1400 1800 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    1400 1800
 	-1   0    0    1   
 $EndComp
@@ -400,6 +425,7 @@ F 1 "10kΩ" H 1430 4110 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1400 4150 50  0001 C CNN
 F 3 "~" H 1400 4150 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    1400 4150
 	1    0    0    1   
 $EndComp
@@ -425,6 +451,7 @@ F 1 "5Ω" V 2700 1750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 1700 50  0001 C CNN
 F 3 "~" H 2750 1700 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 1700
 	0    1    1    0   
 $EndComp
@@ -437,6 +464,7 @@ F 1 "5Ω" V 2700 1850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 1800 50  0001 C CNN
 F 3 "~" H 2750 1800 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 1800
 	0    1    1    0   
 $EndComp
@@ -449,6 +477,7 @@ F 1 "5Ω" V 2700 1950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 1900 50  0001 C CNN
 F 3 "~" H 2750 1900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 1900
 	0    1    1    0   
 $EndComp
@@ -461,6 +490,7 @@ F 1 "5Ω" V 2700 2050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 2000 50  0001 C CNN
 F 3 "~" H 2750 2000 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 2000
 	0    1    1    0   
 $EndComp
@@ -473,6 +503,7 @@ F 1 "5Ω" V 2700 2150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 2100 50  0001 C CNN
 F 3 "~" H 2750 2100 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 2100
 	0    1    1    0   
 $EndComp
@@ -485,6 +516,7 @@ F 1 "5Ω" V 2700 2250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 2200 50  0001 C CNN
 F 3 "~" H 2750 2200 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 2200
 	0    1    1    0   
 $EndComp
@@ -497,6 +529,7 @@ F 1 "5Ω" V 2700 2350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 2300 50  0001 C CNN
 F 3 "~" H 2750 2300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 2300
 	0    1    1    0   
 $EndComp
@@ -509,6 +542,7 @@ F 1 "5Ω" V 2700 2450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 2400 50  0001 C CNN
 F 3 "~" H 2750 2400 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 2400
 	0    1    1    0   
 $EndComp
@@ -553,6 +587,7 @@ F 1 "5Ω" V 2700 4150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 4100 50  0001 C CNN
 F 3 "~" H 2750 4100 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 4100
 	0    1    1    0   
 $EndComp
@@ -565,6 +600,7 @@ F 1 "5Ω" V 2700 4250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 4200 50  0001 C CNN
 F 3 "~" H 2750 4200 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 4200
 	0    1    1    0   
 $EndComp
@@ -577,6 +613,7 @@ F 1 "5Ω" V 2700 4350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 4300 50  0001 C CNN
 F 3 "~" H 2750 4300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 4300
 	0    1    1    0   
 $EndComp
@@ -589,6 +626,7 @@ F 1 "5Ω" V 2700 4450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 4400 50  0001 C CNN
 F 3 "~" H 2750 4400 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 4400
 	0    1    1    0   
 $EndComp
@@ -601,6 +639,7 @@ F 1 "5Ω" V 2700 4550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 4500 50  0001 C CNN
 F 3 "~" H 2750 4500 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 4500
 	0    1    1    0   
 $EndComp
@@ -613,6 +652,7 @@ F 1 "5Ω" V 2700 4650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 4600 50  0001 C CNN
 F 3 "~" H 2750 4600 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 4600
 	0    1    1    0   
 $EndComp
@@ -625,6 +665,7 @@ F 1 "5Ω" V 2700 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 4700 50  0001 C CNN
 F 3 "~" H 2750 4700 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 4700
 	0    1    1    0   
 $EndComp
@@ -637,6 +678,7 @@ F 1 "5Ω" V 2700 4850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 4800 50  0001 C CNN
 F 3 "~" H 2750 4800 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 4800
 	0    1    1    0   
 $EndComp
@@ -746,6 +788,10 @@ F 0 "U59" H 4700 4800 50  0000 C CNN
 F 1 "TCA9555RTWR" H 5150 3850 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 6350 2850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 4650 4750 50  0001 C CNN
+F 4 "16 bit IO expander" H 0   0   50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "TCA9555" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "QFN24-EP" H 0   0   50  0001 C CNN "Package ID"
 	1    5150 3850
 	1    0    0    -1  
 $EndComp
@@ -856,8 +902,12 @@ AR Path="/5CC6CC1A/5CCDCE34/648CC406" Ref="C411"  Part="1"
 F 0 "C411" V 5200 2650 50  0000 C CNN
 F 1 "100nF X7R" V 5300 2650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 2650 50  0001 C CNN
-F 3 "~" H 5450 2650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5450 2650 50  0001 C CNN
 F 4 "0603in/1608mm" H -2000 -1100 50  0001 C CNN "Package ID"
+F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    5450 2650
 	0    1    -1   0   
 $EndComp
@@ -900,6 +950,7 @@ F 1 "10kΩ" H 4280 2860 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4250 2900 50  0001 C CNN
 F 3 "~" H 4250 2900 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    4250 2900
 	-1   0    0    1   
 $EndComp
@@ -1002,10 +1053,12 @@ AR Path="/5CC6CC1A/5CCDCE34/6497915B" Ref="C410"  Part="1"
 F 0 "C410" V 5500 2450 50  0000 R CNN
 F 1 "1uF X7R" V 5500 2650 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 2500 50  0001 C CNN
-F 3 "~" H 5450 2500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 5450 2500 50  0001 C CNN
 F 4 "TDK" H 5450 2500 50  0001 C CNN "Manufacturer"
 F 5 "CGA3E1X7R1E105K080AC" H 5450 2500 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0603in/1608mm" H -2250 -1250 50  0001 C CNN "Package ID"
+F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    5450 2500
 	0    -1   -1   0   
 $EndComp
@@ -1028,8 +1081,12 @@ AR Path="/5CC6CC1A/5CCDCE34/649844DC" Ref="C413"  Part="1"
 F 0 "C413" V 6850 1400 50  0000 C CNN
 F 1 "100nF X7R" V 6950 1400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 1400 50  0001 C CNN
-F 3 "~" H 7100 1400 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7100 1400 50  0001 C CNN
 F 4 "0603in/1608mm" H -350 -2350 50  0001 C CNN "Package ID"
+F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    7100 1400
 	0    -1   -1   0   
 $EndComp
@@ -1044,10 +1101,12 @@ AR Path="/5CC6CC1A/5CCDCE34/649844E8" Ref="C412"  Part="1"
 F 0 "C412" V 7150 1200 50  0000 R CNN
 F 1 "1uF X7R" V 7150 1400 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 1250 50  0001 C CNN
-F 3 "~" H 7100 1250 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 7100 1250 50  0001 C CNN
 F 4 "TDK" H 7100 1250 50  0001 C CNN "Manufacturer"
 F 5 "CGA3E1X7R1E105K080AC" H 7100 1250 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0603in/1608mm" H -600 -2500 50  0001 C CNN "Package ID"
+F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    7100 1250
 	0    1    -1   0   
 $EndComp
@@ -1067,6 +1126,7 @@ F 1 "10kΩ" H 7380 2210 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7350 2250 50  0001 C CNN
 F 3 "~" H 7350 2250 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    7350 2250
 	-1   0    0    1   
 $EndComp
@@ -1167,8 +1227,12 @@ AR Path="/5CC6CC1A/5CCDCE34/649F66F7" Ref="C415"  Part="1"
 F 0 "C415" V 6850 3950 50  0000 C CNN
 F 1 "100nF X7R" V 6950 3950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 3950 50  0001 C CNN
-F 3 "~" H 7100 3950 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7100 3950 50  0001 C CNN
 F 4 "0603in/1608mm" H -350 200 50  0001 C CNN "Package ID"
+F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    7100 3950
 	0    -1   -1   0   
 $EndComp
@@ -1183,10 +1247,12 @@ AR Path="/5CC6CC1A/5CCDCE34/649F6701" Ref="C414"  Part="1"
 F 0 "C414" V 7150 3750 50  0000 R CNN
 F 1 "1uF X7R" V 7150 3950 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 3800 50  0001 C CNN
-F 3 "~" H 7100 3800 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 7100 3800 50  0001 C CNN
 F 4 "TDK" H 7100 3800 50  0001 C CNN "Manufacturer"
 F 5 "CGA3E1X7R1E105K080AC" H 7100 3800 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0603in/1608mm" H -600 50  50  0001 C CNN "Package ID"
+F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    7100 3800
 	0    1    -1   0   
 $EndComp
@@ -1206,6 +1272,7 @@ F 1 "10kΩ" H 7380 4760 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7350 4800 50  0001 C CNN
 F 3 "~" H 7350 4800 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    7350 4800
 	-1   0    0    1   
 $EndComp
@@ -1283,6 +1350,7 @@ F 1 "10kΩ" V 8800 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8750 1300 50  0001 C CNN
 F 3 "~" H 8750 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    8750 1300
 	-1   0    0    1   
 $EndComp
@@ -1681,6 +1749,7 @@ F 1 "10kΩ" V 8900 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8850 1300 50  0001 C CNN
 F 3 "~" H 8850 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    8850 1300
 	-1   0    0    1   
 $EndComp
@@ -1695,6 +1764,7 @@ F 1 "10kΩ" V 9000 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8950 1300 50  0001 C CNN
 F 3 "~" H 8950 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    8950 1300
 	-1   0    0    1   
 $EndComp
@@ -1709,6 +1779,7 @@ F 1 "10kΩ" V 9100 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9050 1300 50  0001 C CNN
 F 3 "~" H 9050 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9050 1300
 	-1   0    0    1   
 $EndComp
@@ -1723,6 +1794,7 @@ F 1 "10kΩ" V 9200 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9150 1300 50  0001 C CNN
 F 3 "~" H 9150 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9150 1300
 	-1   0    0    1   
 $EndComp
@@ -1737,6 +1809,7 @@ F 1 "10kΩ" V 9300 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9250 1300 50  0001 C CNN
 F 3 "~" H 9250 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9250 1300
 	-1   0    0    1   
 $EndComp
@@ -1751,6 +1824,7 @@ F 1 "10kΩ" V 9400 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9350 1300 50  0001 C CNN
 F 3 "~" H 9350 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9350 1300
 	-1   0    0    1   
 $EndComp
@@ -1765,6 +1839,7 @@ F 1 "10kΩ" V 9500 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9450 1300 50  0001 C CNN
 F 3 "~" H 9450 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9450 1300
 	-1   0    0    1   
 $EndComp
@@ -1779,6 +1854,7 @@ F 1 "10kΩ" V 9600 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9550 1300 50  0001 C CNN
 F 3 "~" H 9550 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9550 1300
 	-1   0    0    1   
 $EndComp
@@ -1793,6 +1869,7 @@ F 1 "10kΩ" V 9700 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9650 1300 50  0001 C CNN
 F 3 "~" H 9650 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9650 1300
 	-1   0    0    1   
 $EndComp
@@ -1807,6 +1884,7 @@ F 1 "10kΩ" V 9800 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9750 1300 50  0001 C CNN
 F 3 "~" H 9750 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9750 1300
 	-1   0    0    1   
 $EndComp
@@ -1821,6 +1899,7 @@ F 1 "10kΩ" V 9900 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9850 1300 50  0001 C CNN
 F 3 "~" H 9850 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9850 1300
 	-1   0    0    1   
 $EndComp
@@ -1835,6 +1914,7 @@ F 1 "10kΩ" V 10000 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9950 1300 50  0001 C CNN
 F 3 "~" H 9950 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9950 1300
 	-1   0    0    1   
 $EndComp
@@ -1849,6 +1929,7 @@ F 1 "10kΩ" V 10100 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 10050 1300 50  0001 C CNN
 F 3 "~" H 10050 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    10050 1300
 	-1   0    0    1   
 $EndComp
@@ -1863,6 +1944,7 @@ F 1 "10kΩ" V 10200 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 10150 1300 50  0001 C CNN
 F 3 "~" H 10150 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    10150 1300
 	-1   0    0    1   
 $EndComp
@@ -1877,6 +1959,7 @@ F 1 "10kΩ" V 10300 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 10250 1300 50  0001 C CNN
 F 3 "~" H 10250 1300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    10250 1300
 	-1   0    0    1   
 $EndComp
@@ -1891,6 +1974,7 @@ F 1 "10kΩ" V 8800 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8750 3850 50  0001 C CNN
 F 3 "~" H 8750 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    8750 3850
 	-1   0    0    1   
 $EndComp
@@ -1905,6 +1989,7 @@ F 1 "10kΩ" V 8900 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8850 3850 50  0001 C CNN
 F 3 "~" H 8850 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    8850 3850
 	-1   0    0    1   
 $EndComp
@@ -1919,6 +2004,7 @@ F 1 "10kΩ" V 9000 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8950 3850 50  0001 C CNN
 F 3 "~" H 8950 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    8950 3850
 	-1   0    0    1   
 $EndComp
@@ -1933,6 +2019,7 @@ F 1 "10kΩ" V 9100 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9050 3850 50  0001 C CNN
 F 3 "~" H 9050 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9050 3850
 	-1   0    0    1   
 $EndComp
@@ -1947,6 +2034,7 @@ F 1 "10kΩ" V 9200 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9150 3850 50  0001 C CNN
 F 3 "~" H 9150 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9150 3850
 	-1   0    0    1   
 $EndComp
@@ -1961,6 +2049,7 @@ F 1 "10kΩ" V 9300 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9250 3850 50  0001 C CNN
 F 3 "~" H 9250 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9250 3850
 	-1   0    0    1   
 $EndComp
@@ -1975,6 +2064,7 @@ F 1 "10kΩ" V 9400 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9350 3850 50  0001 C CNN
 F 3 "~" H 9350 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9350 3850
 	-1   0    0    1   
 $EndComp
@@ -1989,6 +2079,7 @@ F 1 "10kΩ" V 9500 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9450 3850 50  0001 C CNN
 F 3 "~" H 9450 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9450 3850
 	-1   0    0    1   
 $EndComp
@@ -2003,6 +2094,7 @@ F 1 "10kΩ" V 9600 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9550 3850 50  0001 C CNN
 F 3 "~" H 9550 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9550 3850
 	-1   0    0    1   
 $EndComp
@@ -2017,6 +2109,7 @@ F 1 "10kΩ" V 9700 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9650 3850 50  0001 C CNN
 F 3 "~" H 9650 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9650 3850
 	-1   0    0    1   
 $EndComp
@@ -2031,6 +2124,7 @@ F 1 "10kΩ" V 9800 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9750 3850 50  0001 C CNN
 F 3 "~" H 9750 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9750 3850
 	-1   0    0    1   
 $EndComp
@@ -2045,6 +2139,7 @@ F 1 "10kΩ" V 9900 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9850 3850 50  0001 C CNN
 F 3 "~" H 9850 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9850 3850
 	-1   0    0    1   
 $EndComp
@@ -2059,6 +2154,7 @@ F 1 "10kΩ" V 10000 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9950 3850 50  0001 C CNN
 F 3 "~" H 9950 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    9950 3850
 	-1   0    0    1   
 $EndComp
@@ -2073,6 +2169,7 @@ F 1 "10kΩ" V 10100 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 10050 3850 50  0001 C CNN
 F 3 "~" H 10050 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    10050 3850
 	-1   0    0    1   
 $EndComp
@@ -2087,6 +2184,7 @@ F 1 "10kΩ" V 10200 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 10150 3850 50  0001 C CNN
 F 3 "~" H 10150 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    10150 3850
 	-1   0    0    1   
 $EndComp
@@ -2101,6 +2199,7 @@ F 1 "10kΩ" V 10300 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 10250 3850 50  0001 C CNN
 F 3 "~" H 10250 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    10250 3850
 	-1   0    0    1   
 $EndComp
@@ -2243,10 +2342,10 @@ Wire Bus Line
 Wire Bus Line
 	8250 6150 10950 6150
 $Comp
-L power:PWR_FLAG #FLG0110
+L power:PWR_FLAG #FLG06
 U 1 1 5D29107A
 P 2350 1350
-F 0 "#FLG0110" H 2350 1425 50  0001 C CNN
+F 0 "#FLG06" H 2350 1425 50  0001 C CNN
 F 1 "PWR_FLAG" H 2350 1500 50  0000 C CNN
 F 2 "" H 2350 1350 50  0001 C CNN
 F 3 "~" H 2350 1350 50  0001 C CNN
@@ -2261,10 +2360,10 @@ Connection ~ 1950 1400
 Wire Wire Line
 	1950 1400 1950 1450
 $Comp
-L power:PWR_FLAG #FLG0111
+L power:PWR_FLAG #FLG07
 U 1 1 5D2B45F0
 P 2350 3750
-F 0 "#FLG0111" H 2350 3825 50  0001 C CNN
+F 0 "#FLG07" H 2350 3825 50  0001 C CNN
 F 1 "PWR_FLAG" H 2350 3900 50  0000 C CNN
 F 2 "" H 2350 3750 50  0001 C CNN
 F 3 "~" H 2350 3750 50  0001 C CNN

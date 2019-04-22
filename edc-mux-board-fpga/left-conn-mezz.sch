@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 27 28
+Sheet 26 28
 Title "Left Side Daughterboard Connector Interconnects"
 Date ""
 Rev ""
@@ -27,6 +27,8 @@ F 2 "SW-TEConn:T4141012121-000" H 750 1800 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 750 1800 50  0001 C CNN
 F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "M12 A Coded 12 Pin Connector" H 0   0   50  0001 C CNN "Description"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    750  1800
 	-1   0    0    -1  
 $EndComp
@@ -36,14 +38,16 @@ U 1 1 5CC29ACF
 P 3250 1500
 AR Path="/5CC6CC1A/5CC6D47B/5CC29ACF" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5CC29ACF" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5CC29ACF" Ref="C443"  Part="1" 
-F 0 "C443" V 3400 1500 50  0000 C CNN
+AR Path="/5CBF625C/5CC29ACF" Ref="C445"  Part="1" 
+F 0 "C445" V 3400 1500 50  0000 C CNN
 F 1 "1uF X7R flex" V 3500 1500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3250 1500 50  0001 C CNN
-F 3 "~" H 3250 1500 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3250 1500 50  0001 C CNN
 F 4 "Kemet" H 3250 1500 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 3250 1500 50  0001 C CNN "Manufacturers Part Number"
+F 5 "C0805X105J3RECAUTO" H 3250 1500 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0805in/2012mm" H 50  -1600 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    3250 1500
 	0    1    1    0   
 $EndComp
@@ -69,14 +73,16 @@ U 1 1 5CC29AEF
 P 3050 1400
 AR Path="/5CC6CC1A/5CC6D47B/5CC29AEF" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5CC29AEF" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5CC29AEF" Ref="C440"  Part="1" 
-F 0 "C440" V 2800 1400 50  0000 C CNN
+AR Path="/5CBF625C/5CC29AEF" Ref="C442"  Part="1" 
+F 0 "C442" V 2800 1400 50  0000 C CNN
 F 1 "1uF X7R flex" V 2900 1400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3050 1400 50  0001 C CNN
-F 3 "~" H 3050 1400 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 3050 1400 50  0001 C CNN "Manufacturers Part Number"
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3050 1400 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 3050 1400 50  0001 C CNN "Manufacturers Part Number"
 F 5 "Kemet" H 3050 1400 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 50  -1600 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    3050 1400
 	0    1    1    0   
 $EndComp
@@ -105,11 +111,13 @@ AR Path="/5CB02488/5CC29B2E" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5CC29B2E" Ref="FB42"  Part="1" 
 F 0 "FB42" V 1650 1500 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 1750 1500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 1830 1500 50  0001 C CNN
-F 3 "~" H 1900 1500 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 1830 1500 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1900 1500 50  0001 C CNN
 F 4 "Murata" H 1900 1500 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1900 1500 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 1900 1500 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 1900 1500 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    1900 1500
 	0    1    1    0   
 $EndComp
@@ -124,11 +132,13 @@ AR Path="/5CB02488/5CC29B38" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5CC29B38" Ref="FB45"  Part="1" 
 F 0 "FB45" V 2050 1600 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 2150 1600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2230 1600 50  0001 C CNN
-F 3 "~" H 2300 1600 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2230 1600 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2300 1600 50  0001 C CNN
 F 4 "Murata" H 2300 1600 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 2300 1600 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2300 1600 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 2300 1600 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    2300 1600
 	0    1    1    0   
 $EndComp
@@ -143,11 +153,13 @@ AR Path="/5CB02488/5CC29B42" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5CC29B42" Ref="FB48"  Part="1" 
 F 0 "FB48" V 2450 1700 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 2550 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2630 1700 50  0001 C CNN
-F 3 "~" H 2700 1700 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2630 1700 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2700 1700 50  0001 C CNN
 F 4 "Murata" H 2700 1700 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 2700 1700 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2700 1700 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 2700 1700 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    2700 1700
 	0    1    1    0   
 $EndComp
@@ -164,11 +176,13 @@ AR Path="/5CB02488/5CC29B4D" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5CC29B4D" Ref="FB39"  Part="1" 
 F 0 "FB39" V 1250 1400 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 1350 1400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 1430 1400 50  0001 C CNN
-F 3 "~" H 1500 1400 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 1430 1400 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1500 1400 50  0001 C CNN
 F 4 "Murata" H 1500 1400 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1500 1400 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 1500 1400 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 1500 1400 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    1500 1400
 	0    1    1    0   
 $EndComp
@@ -390,6 +404,7 @@ F 0 "J19" H 10400 6950 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Daughterboard)" H 10400 2850 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 10350 4950 50  0001 C CNN
 F 3 "~" H 10350 4950 50  0001 C CNN
+F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    10350 4950
 	1    0    0    -1  
 $EndComp
@@ -424,6 +439,8 @@ F 2 "SW-TEConn:T4141012121-000" H 750 4550 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 750 4550 50  0001 C CNN
 F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "M12 A Coded 12 Pin Connector" H 0   0   50  0001 C CNN "Description"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    750  4550
 	-1   0    0    -1  
 $EndComp
@@ -433,14 +450,16 @@ U 1 1 5D2B615F
 P 3250 4250
 AR Path="/5CC6CC1A/5CC6D47B/5D2B615F" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2B615F" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5D2B615F" Ref="C444"  Part="1" 
-F 0 "C444" V 3400 4250 50  0000 C CNN
+AR Path="/5CBF625C/5D2B615F" Ref="C446"  Part="1" 
+F 0 "C446" V 3400 4250 50  0000 C CNN
 F 1 "1uF X7R flex" V 3500 4250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3250 4250 50  0001 C CNN
-F 3 "~" H 3250 4250 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3250 4250 50  0001 C CNN
 F 4 "Kemet" H 3250 4250 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 3250 4250 50  0001 C CNN "Manufacturers Part Number"
+F 5 "C0805X105J3RECAUTO" H 3250 4250 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0805in/2012mm" H 50  1150 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    3250 4250
 	0    1    1    0   
 $EndComp
@@ -466,14 +485,16 @@ U 1 1 5D2B6170
 P 3050 4150
 AR Path="/5CC6CC1A/5CC6D47B/5D2B6170" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2B6170" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5D2B6170" Ref="C441"  Part="1" 
-F 0 "C441" V 2800 4150 50  0000 C CNN
+AR Path="/5CBF625C/5D2B6170" Ref="C443"  Part="1" 
+F 0 "C443" V 2800 4150 50  0000 C CNN
 F 1 "1uF X7R flex" V 2900 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3050 4150 50  0001 C CNN
-F 3 "~" H 3050 4150 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 3050 4150 50  0001 C CNN "Manufacturers Part Number"
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3050 4150 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 3050 4150 50  0001 C CNN "Manufacturers Part Number"
 F 5 "Kemet" H 3050 4150 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 50  1150 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    3050 4150
 	0    1    1    0   
 $EndComp
@@ -502,11 +523,13 @@ AR Path="/5CB02488/5D2B6182" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2B6182" Ref="FB43"  Part="1" 
 F 0 "FB43" V 1650 4250 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 1750 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 1830 4250 50  0001 C CNN
-F 3 "~" H 1900 4250 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 1830 4250 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1900 4250 50  0001 C CNN
 F 4 "Murata" H 1900 4250 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1900 4250 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 1900 4250 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 1900 4250 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    1900 4250
 	0    1    1    0   
 $EndComp
@@ -521,11 +544,13 @@ AR Path="/5CB02488/5D2B618C" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2B618C" Ref="FB46"  Part="1" 
 F 0 "FB46" V 2050 4350 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 2150 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2230 4350 50  0001 C CNN
-F 3 "~" H 2300 4350 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2230 4350 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2300 4350 50  0001 C CNN
 F 4 "Murata" H 2300 4350 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 2300 4350 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2300 4350 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 2300 4350 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    2300 4350
 	0    1    1    0   
 $EndComp
@@ -540,11 +565,13 @@ AR Path="/5CB02488/5D2B6196" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2B6196" Ref="FB49"  Part="1" 
 F 0 "FB49" V 2450 4450 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 2550 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2630 4450 50  0001 C CNN
-F 3 "~" H 2700 4450 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2630 4450 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2700 4450 50  0001 C CNN
 F 4 "Murata" H 2700 4450 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 2700 4450 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2700 4450 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 2700 4450 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    2700 4450
 	0    1    1    0   
 $EndComp
@@ -561,11 +588,13 @@ AR Path="/5CB02488/5D2B61A1" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2B61A1" Ref="FB40"  Part="1" 
 F 0 "FB40" V 1250 4150 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 1350 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 1430 4150 50  0001 C CNN
-F 3 "~" H 1500 4150 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 1430 4150 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1500 4150 50  0001 C CNN
 F 4 "Murata" H 1500 4150 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1500 4150 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 1500 4150 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 1500 4150 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    1500 4150
 	0    1    1    0   
 $EndComp
@@ -792,6 +821,8 @@ F 2 "SW-TEConn:T4141012121-000" H 750 7200 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 750 7200 50  0001 C CNN
 F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "M12 A Coded 12 Pin Connector" H 0   0   50  0001 C CNN "Description"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    750  7200
 	-1   0    0    -1  
 $EndComp
@@ -801,14 +832,16 @@ U 1 1 5D2CED34
 P 3250 6900
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED34" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2CED34" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5D2CED34" Ref="C445"  Part="1" 
-F 0 "C445" V 3400 6900 50  0000 C CNN
+AR Path="/5CBF625C/5D2CED34" Ref="C447"  Part="1" 
+F 0 "C447" V 3400 6900 50  0000 C CNN
 F 1 "1uF X7R flex" V 3500 6900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3250 6900 50  0001 C CNN
-F 3 "~" H 3250 6900 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3250 6900 50  0001 C CNN
 F 4 "Kemet" H 3250 6900 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 3250 6900 50  0001 C CNN "Manufacturers Part Number"
+F 5 "C0805X105J3RECAUTO" H 3250 6900 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0805in/2012mm" H 50  3800 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    3250 6900
 	0    1    1    0   
 $EndComp
@@ -834,14 +867,16 @@ U 1 1 5D2CED45
 P 3050 6800
 AR Path="/5CC6CC1A/5CC6D47B/5D2CED45" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2CED45" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5D2CED45" Ref="C442"  Part="1" 
-F 0 "C442" V 2800 6800 50  0000 C CNN
+AR Path="/5CBF625C/5D2CED45" Ref="C444"  Part="1" 
+F 0 "C444" V 2800 6800 50  0000 C CNN
 F 1 "1uF X7R flex" V 2900 6800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3050 6800 50  0001 C CNN
-F 3 "~" H 3050 6800 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 3050 6800 50  0001 C CNN "Manufacturers Part Number"
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3050 6800 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 3050 6800 50  0001 C CNN "Manufacturers Part Number"
 F 5 "Kemet" H 3050 6800 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 50  3800 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    3050 6800
 	0    1    1    0   
 $EndComp
@@ -870,11 +905,13 @@ AR Path="/5CB02488/5D2CED57" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2CED57" Ref="FB44"  Part="1" 
 F 0 "FB44" V 1650 6900 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 1750 6900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 1830 6900 50  0001 C CNN
-F 3 "~" H 1900 6900 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 1830 6900 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1900 6900 50  0001 C CNN
 F 4 "Murata" H 1900 6900 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1900 6900 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 1900 6900 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 1900 6900 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    1900 6900
 	0    1    1    0   
 $EndComp
@@ -889,11 +926,13 @@ AR Path="/5CB02488/5D2CED61" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2CED61" Ref="FB47"  Part="1" 
 F 0 "FB47" V 2050 7000 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 2150 7000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2230 7000 50  0001 C CNN
-F 3 "~" H 2300 7000 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2230 7000 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2300 7000 50  0001 C CNN
 F 4 "Murata" H 2300 7000 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 2300 7000 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2300 7000 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 2300 7000 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    2300 7000
 	0    1    1    0   
 $EndComp
@@ -908,11 +947,13 @@ AR Path="/5CB02488/5D2CED6B" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2CED6B" Ref="FB50"  Part="1" 
 F 0 "FB50" V 2450 7100 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 2550 7100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2630 7100 50  0001 C CNN
-F 3 "~" H 2700 7100 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2630 7100 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2700 7100 50  0001 C CNN
 F 4 "Murata" H 2700 7100 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 2700 7100 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 2700 7100 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 2700 7100 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    2700 7100
 	0    1    1    0   
 $EndComp
@@ -929,11 +970,13 @@ AR Path="/5CB02488/5D2CED76" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2CED76" Ref="FB41"  Part="1" 
 F 0 "FB41" V 1250 6800 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 1350 6800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 1430 6800 50  0001 C CNN
-F 3 "~" H 1500 6800 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 1430 6800 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1500 6800 50  0001 C CNN
 F 4 "Murata" H 1500 6800 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1500 6800 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 1500 6800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 1500 6800 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    1500 6800
 	0    1    1    0   
 $EndComp
@@ -1160,6 +1203,8 @@ F 2 "SW-TEConn:T4141012121-000" H 5450 1800 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 5450 1800 50  0001 C CNN
 F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "M12 A Coded 12 Pin Connector" H 0   0   50  0001 C CNN "Description"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    5450 1800
 	-1   0    0    -1  
 $EndComp
@@ -1169,14 +1214,16 @@ U 1 1 5D2E2286
 P 7950 1500
 AR Path="/5CC6CC1A/5CC6D47B/5D2E2286" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2E2286" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5D2E2286" Ref="C449"  Part="1" 
-F 0 "C449" V 8100 1500 50  0000 C CNN
+AR Path="/5CBF625C/5D2E2286" Ref="C451"  Part="1" 
+F 0 "C451" V 8100 1500 50  0000 C CNN
 F 1 "1uF X7R flex" V 8200 1500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7950 1500 50  0001 C CNN
-F 3 "~" H 7950 1500 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7950 1500 50  0001 C CNN
 F 4 "Kemet" H 7950 1500 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 7950 1500 50  0001 C CNN "Manufacturers Part Number"
+F 5 "C0805X105J3RECAUTO" H 7950 1500 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0805in/2012mm" H 4750 -1600 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    7950 1500
 	0    1    1    0   
 $EndComp
@@ -1202,14 +1249,16 @@ U 1 1 5D2E2297
 P 7750 1400
 AR Path="/5CC6CC1A/5CC6D47B/5D2E2297" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2E2297" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5D2E2297" Ref="C446"  Part="1" 
-F 0 "C446" V 7500 1400 50  0000 C CNN
+AR Path="/5CBF625C/5D2E2297" Ref="C448"  Part="1" 
+F 0 "C448" V 7500 1400 50  0000 C CNN
 F 1 "1uF X7R flex" V 7600 1400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7750 1400 50  0001 C CNN
-F 3 "~" H 7750 1400 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 7750 1400 50  0001 C CNN "Manufacturers Part Number"
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7750 1400 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 7750 1400 50  0001 C CNN "Manufacturers Part Number"
 F 5 "Kemet" H 7750 1400 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 4750 -1600 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    7750 1400
 	0    1    1    0   
 $EndComp
@@ -1238,11 +1287,13 @@ AR Path="/5CB02488/5D2E22A9" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2E22A9" Ref="FB54"  Part="1" 
 F 0 "FB54" V 6350 1500 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 6450 1500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6530 1500 50  0001 C CNN
-F 3 "~" H 6600 1500 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6530 1500 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6600 1500 50  0001 C CNN
 F 4 "Murata" H 6600 1500 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 6600 1500 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 6600 1500 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 6600 1500 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    6600 1500
 	0    1    1    0   
 $EndComp
@@ -1257,11 +1308,13 @@ AR Path="/5CB02488/5D2E22B3" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2E22B3" Ref="FB57"  Part="1" 
 F 0 "FB57" V 6750 1600 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 6850 1600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6930 1600 50  0001 C CNN
-F 3 "~" H 7000 1600 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6930 1600 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7000 1600 50  0001 C CNN
 F 4 "Murata" H 7000 1600 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 7000 1600 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7000 1600 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 7000 1600 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    7000 1600
 	0    1    1    0   
 $EndComp
@@ -1276,11 +1329,13 @@ AR Path="/5CB02488/5D2E22BD" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2E22BD" Ref="FB60"  Part="1" 
 F 0 "FB60" V 7150 1700 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 7250 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7330 1700 50  0001 C CNN
-F 3 "~" H 7400 1700 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7330 1700 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7400 1700 50  0001 C CNN
 F 4 "Murata" H 7400 1700 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 7400 1700 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7400 1700 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 7400 1700 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    7400 1700
 	0    1    1    0   
 $EndComp
@@ -1297,11 +1352,13 @@ AR Path="/5CB02488/5D2E22C8" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2E22C8" Ref="FB51"  Part="1" 
 F 0 "FB51" V 5950 1400 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 6050 1400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6130 1400 50  0001 C CNN
-F 3 "~" H 6200 1400 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6130 1400 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6200 1400 50  0001 C CNN
 F 4 "Murata" H 6200 1400 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 6200 1400 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 6200 1400 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 6200 1400 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    6200 1400
 	0    1    1    0   
 $EndComp
@@ -1528,6 +1585,8 @@ F 2 "SW-TEConn:T4141012121-000" H 5450 4550 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 5450 4550 50  0001 C CNN
 F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "M12 A Coded 12 Pin Connector" H 0   0   50  0001 C CNN "Description"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    5450 4550
 	-1   0    0    -1  
 $EndComp
@@ -1537,14 +1596,16 @@ U 1 1 5D2FA18F
 P 7950 4250
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA18F" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2FA18F" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5D2FA18F" Ref="C450"  Part="1" 
-F 0 "C450" V 8100 4250 50  0000 C CNN
+AR Path="/5CBF625C/5D2FA18F" Ref="C452"  Part="1" 
+F 0 "C452" V 8100 4250 50  0000 C CNN
 F 1 "1uF X7R flex" V 8200 4250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7950 4250 50  0001 C CNN
-F 3 "~" H 7950 4250 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7950 4250 50  0001 C CNN
 F 4 "Kemet" H 7950 4250 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 7950 4250 50  0001 C CNN "Manufacturers Part Number"
+F 5 "C0805X105J3RECAUTO" H 7950 4250 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0805in/2012mm" H 4750 1150 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    7950 4250
 	0    1    1    0   
 $EndComp
@@ -1570,14 +1631,16 @@ U 1 1 5D2FA1A0
 P 7750 4150
 AR Path="/5CC6CC1A/5CC6D47B/5D2FA1A0" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D2FA1A0" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5D2FA1A0" Ref="C447"  Part="1" 
-F 0 "C447" V 7500 4150 50  0000 C CNN
+AR Path="/5CBF625C/5D2FA1A0" Ref="C449"  Part="1" 
+F 0 "C449" V 7500 4150 50  0000 C CNN
 F 1 "1uF X7R flex" V 7600 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7750 4150 50  0001 C CNN
-F 3 "~" H 7750 4150 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 7750 4150 50  0001 C CNN "Manufacturers Part Number"
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7750 4150 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 7750 4150 50  0001 C CNN "Manufacturers Part Number"
 F 5 "Kemet" H 7750 4150 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 4750 1150 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    7750 4150
 	0    1    1    0   
 $EndComp
@@ -1606,11 +1669,13 @@ AR Path="/5CB02488/5D2FA1B2" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2FA1B2" Ref="FB55"  Part="1" 
 F 0 "FB55" V 6350 4250 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 6450 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6530 4250 50  0001 C CNN
-F 3 "~" H 6600 4250 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6530 4250 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6600 4250 50  0001 C CNN
 F 4 "Murata" H 6600 4250 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 6600 4250 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 6600 4250 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 6600 4250 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    6600 4250
 	0    1    1    0   
 $EndComp
@@ -1625,11 +1690,13 @@ AR Path="/5CB02488/5D2FA1BC" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2FA1BC" Ref="FB58"  Part="1" 
 F 0 "FB58" V 6750 4350 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 6850 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6930 4350 50  0001 C CNN
-F 3 "~" H 7000 4350 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6930 4350 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7000 4350 50  0001 C CNN
 F 4 "Murata" H 7000 4350 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 7000 4350 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7000 4350 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 7000 4350 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    7000 4350
 	0    1    1    0   
 $EndComp
@@ -1644,11 +1711,13 @@ AR Path="/5CB02488/5D2FA1C6" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2FA1C6" Ref="FB61"  Part="1" 
 F 0 "FB61" V 7150 4450 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 7250 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7330 4450 50  0001 C CNN
-F 3 "~" H 7400 4450 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7330 4450 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7400 4450 50  0001 C CNN
 F 4 "Murata" H 7400 4450 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 7400 4450 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7400 4450 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 7400 4450 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    7400 4450
 	0    1    1    0   
 $EndComp
@@ -1665,11 +1734,13 @@ AR Path="/5CB02488/5D2FA1D1" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D2FA1D1" Ref="FB52"  Part="1" 
 F 0 "FB52" V 5950 4150 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 6050 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6130 4150 50  0001 C CNN
-F 3 "~" H 6200 4150 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6130 4150 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6200 4150 50  0001 C CNN
 F 4 "Murata" H 6200 4150 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 6200 4150 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 6200 4150 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 6200 4150 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    6200 4150
 	0    1    1    0   
 $EndComp
@@ -1896,6 +1967,8 @@ F 2 "SW-TEConn:T4141012121-000" H 5450 7200 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT4141012081000%7FA1%7Fpdf%7FEnglish%7FENG_CD_T4141012081000_A1.pdf%7FT4141012121-000" H 5450 7200 50  0001 C CNN
 F 4 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "T4141012121-000" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "M12 A Coded 12 Pin Connector" H 0   0   50  0001 C CNN "Description"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    5450 7200
 	-1   0    0    -1  
 $EndComp
@@ -1905,14 +1978,16 @@ U 1 1 5D310EC6
 P 7950 6900
 AR Path="/5CC6CC1A/5CC6D47B/5D310EC6" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D310EC6" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5D310EC6" Ref="C451"  Part="1" 
-F 0 "C451" V 8100 6900 50  0000 C CNN
+AR Path="/5CBF625C/5D310EC6" Ref="C453"  Part="1" 
+F 0 "C453" V 8100 6900 50  0000 C CNN
 F 1 "1uF X7R flex" V 8200 6900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7950 6900 50  0001 C CNN
-F 3 "~" H 7950 6900 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7950 6900 50  0001 C CNN
 F 4 "Kemet" H 7950 6900 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RACAUTO" H 7950 6900 50  0001 C CNN "Manufacturers Part Number"
+F 5 "C0805X105J3RECAUTO" H 7950 6900 50  0001 C CNN "Manufacturers Part Number"
 F 6 "0805in/2012mm" H 4750 3800 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    7950 6900
 	0    1    1    0   
 $EndComp
@@ -1938,14 +2013,16 @@ U 1 1 5D310ED7
 P 7750 6800
 AR Path="/5CC6CC1A/5CC6D47B/5D310ED7" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D310ED7" Ref="C?"  Part="1" 
-AR Path="/5CBF625C/5D310ED7" Ref="C448"  Part="1" 
-F 0 "C448" V 7500 6800 50  0000 C CNN
+AR Path="/5CBF625C/5D310ED7" Ref="C450"  Part="1" 
+F 0 "C450" V 7500 6800 50  0000 C CNN
 F 1 "1uF X7R flex" V 7600 6800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7750 6800 50  0001 C CNN
-F 3 "~" H 7750 6800 50  0001 C CNN
-F 4 "C0805X105J3RACAUTO" H 7750 6800 50  0001 C CNN "Manufacturers Part Number"
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7750 6800 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 7750 6800 50  0001 C CNN "Manufacturers Part Number"
 F 5 "Kemet" H 7750 6800 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 4750 3800 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    7750 6800
 	0    1    1    0   
 $EndComp
@@ -1974,11 +2051,13 @@ AR Path="/5CB02488/5D310EE9" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D310EE9" Ref="FB56"  Part="1" 
 F 0 "FB56" V 6350 6900 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 6450 6900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6530 6900 50  0001 C CNN
-F 3 "~" H 6600 6900 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6530 6900 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6600 6900 50  0001 C CNN
 F 4 "Murata" H 6600 6900 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 6600 6900 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 6600 6900 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 6600 6900 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    6600 6900
 	0    1    1    0   
 $EndComp
@@ -1993,11 +2072,13 @@ AR Path="/5CB02488/5D310EF3" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D310EF3" Ref="FB59"  Part="1" 
 F 0 "FB59" V 6750 7000 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 6850 7000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6930 7000 50  0001 C CNN
-F 3 "~" H 7000 7000 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6930 7000 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7000 7000 50  0001 C CNN
 F 4 "Murata" H 7000 7000 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 7000 7000 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7000 7000 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 7000 7000 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    7000 7000
 	0    1    1    0   
 $EndComp
@@ -2012,11 +2093,13 @@ AR Path="/5CB02488/5D310EFD" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D310EFD" Ref="FB62"  Part="1" 
 F 0 "FB62" V 7150 7100 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 7250 7100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 7330 7100 50  0001 C CNN
-F 3 "~" H 7400 7100 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7330 7100 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7400 7100 50  0001 C CNN
 F 4 "Murata" H 7400 7100 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 7400 7100 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 7400 7100 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 7400 7100 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    7400 7100
 	0    1    1    0   
 $EndComp
@@ -2033,11 +2116,13 @@ AR Path="/5CB02488/5D310F08" Ref="FB?"  Part="1"
 AR Path="/5CBF625C/5D310F08" Ref="FB53"  Part="1" 
 F 0 "FB53" V 5950 6800 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 6050 6800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 6130 6800 50  0001 C CNN
-F 3 "~" H 6200 6800 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6130 6800 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6200 6800 50  0001 C CNN
 F 4 "Murata" H 6200 6800 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 6200 6800 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601BH1" H 6200 6800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 6200 6800 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    6200 6800
 	0    1    1    0   
 $EndComp
@@ -2491,6 +2576,7 @@ F 0 "J20" H 13950 6950 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Motherboard)" H 13950 2850 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 13900 4950 50  0001 C CNN
 F 3 "~" H 13900 4950 50  0001 C CNN
+F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    13900 4950
 	1    0    0    -1  
 $EndComp

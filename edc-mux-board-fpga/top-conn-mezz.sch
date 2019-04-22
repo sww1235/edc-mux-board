@@ -27,6 +27,7 @@ F 3 "https://www.mouser.com/datasheet/2/81/43-02758_e-1521027.pdf" V 2550 2075 5
 F 4 "M12 X Coded Ethernet Connector" H 0   0   50  0001 C CNN "Description"
 F 5 "CONEC" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "43-02758" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    2550 2050
 	1    0    0    -1  
 $EndComp
@@ -74,11 +75,11 @@ P 2950 3150
 F 0 "D3" H 2950 3250 50  0000 C CNN
 F 1 "ACT_YLW" H 2950 3050 50  0000 C CNN
 F 2 "SW-IPEM-ADEC:Q6-pins-epoxy" H 2950 3150 50  0001 C CNN
-F 3 "~" H 2950 3150 50  0001 C CNN
-F 4 "Yellow" H 0   0   50  0001 C CNN "Characteristics"
-F 5 "Panel Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
-F 6 "APEM" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "Q6F4BXXY02E" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 3 "https://www.apem.com/us/index.php?controller=attachment&id_attachment=1201" H 2950 3150 50  0001 C CNN
+F 4 "Panel Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
+F 5 "APEM" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "Q6F4BXXY02E" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    2950 3150
 	1    0    0    -1  
 $EndComp
@@ -89,11 +90,12 @@ P 2900 3500
 F 0 "D1" H 2900 3600 50  0000 C CNN
 F 1 "LNK_GRN" H 2900 3400 50  0000 C CNN
 F 2 "SW-IPEM-ADEC:Q6-pins-epoxy" H 2900 3500 50  0001 C CNN
-F 3 "~" H 2900 3500 50  0001 C CNN
+F 3 "https://www.apem.com/us/index.php?controller=attachment&id_attachment=1201" H 2900 3500 50  0001 C CNN
 F 4 "green" H 0   0   50  0001 C CNN "Characteristics"
 F 5 "Panel Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
 F 6 "APEM" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "Q6F4BXXG02E" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    2900 3500
 	1    0    0    -1  
 $EndComp
@@ -104,11 +106,12 @@ P 2900 3850
 F 0 "D2" H 2900 3950 50  0000 C CNN
 F 1 "PWR_RED" H 2900 3750 50  0000 C CNN
 F 2 "SW-IPEM-ADEC:Q6-pins-epoxy" H 2900 3850 50  0001 C CNN
-F 3 "~" H 2900 3850 50  0001 C CNN
+F 3 "https://www.apem.com/us/index.php?controller=attachment&id_attachment=1201" H 2900 3850 50  0001 C CNN
 F 4 "red" H 0   0   50  0001 C CNN "Characteristics"
 F 5 "Panel Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
 F 6 "APEM" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "Q6F4BXXR02E" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    2900 3850
 	1    0    0    -1  
 $EndComp
@@ -119,7 +122,11 @@ P 3650 3400
 F 0 "SW1" H 3700 3500 50  0000 L CNN
 F 1 "LED_ENABLE" H 3650 3340 50  0000 C CNN
 F 2 "SW-Eswitch:TL1105" H 3650 3600 50  0001 C CNN
-F 3 "~" H 3650 3600 50  0001 C CNN
+F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/144/TL1105.pdf" H 3650 3600 50  0001 C CNN
+F 4 "Tactile Switch" H 0   0   50  0001 C CNN "Description"
+F 5 "Eswitch" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "TL1105AF160R" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    3650 3400
 	1    0    0    -1  
 $EndComp
@@ -148,6 +155,7 @@ F 1 "330Ω" H 2580 3110 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2550 3150 50  0001 C CNN
 F 3 "~" H 2550 3150 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2550 3150
 	0    1    1    0   
 $EndComp
@@ -160,6 +168,7 @@ F 1 "330Ω" H 2580 3460 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2550 3500 50  0001 C CNN
 F 3 "~" H 2550 3500 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2550 3500
 	0    1    1    0   
 $EndComp
@@ -172,6 +181,7 @@ F 1 "330Ω" H 2580 3810 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2550 3850 50  0001 C CNN
 F 3 "~" H 2550 3850 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2550 3850
 	0    1    1    0   
 $EndComp
@@ -217,6 +227,7 @@ F 0 "J3" H 6200 3700 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Daughterboard)" H 6200 2600 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 6150 3200 50  0001 C CNN
 F 3 "~" H 6150 3200 50  0001 C CNN
+F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    6150 3200
 	1    0    0    -1  
 $EndComp
@@ -228,6 +239,7 @@ F 0 "J4" H 8350 3600 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Motherboard)" H 8350 2500 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 8300 3100 50  0001 C CNN
 F 3 "~" H 8300 3100 50  0001 C CNN
+F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    8300 3100
 	1    0    0    -1  
 $EndComp
