@@ -2520,48 +2520,171 @@ Wire Wire Line
 Connection ~ 13850 5550
 Wire Wire Line
 	6700 1800 6700 2600
-NoConn ~ 6550 4550
-Text Label 7150 4450 0    50   ~ 0
+Text Label 7950 4300 0    50   ~ 0
 M_PWR_IN
-Text Notes 5700 5350 0    250  ~ 0
+Text Notes 5700 3950 0    250  ~ 0
 POWER IN
 Wire Notes Line
-	5650 5650 5650 3950
+	5650 6350 5650 3950
 Wire Notes Line
-	7600 5650 5650 5650
+	8900 6350 5650 6350
 Wire Notes Line
-	7600 3950 7600 5650
+	8900 3950 8900 6350
 Wire Notes Line
-	5650 3950 7600 3950
+	5650 3950 8900 3950
 Wire Wire Line
-	7100 4450 7150 4450
-Wire Wire Line
-	6550 4650 6750 4650
-Text Label 6750 4650 0    50   ~ 0
+	6550 4500 6600 4500
+Text Label 6750 4500 0    50   ~ 0
 M_GND
 Wire Wire Line
-	6550 4450 6700 4450
+	6550 4300 6700 4300
 $Comp
 L Switch:SW_SPST SW2
 U 1 1 61D49BCA
-P 6900 4450
-F 0 "SW2" H 6900 4700 50  0000 C CNN
-F 1 "Power Switch" H 6900 4600 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6900 4450 50  0001 C CNN
-F 3 "~" H 6900 4450 50  0001 C CNN
-	1    6900 4450
+P 6900 4300
+F 0 "SW2" H 6900 4550 50  0000 C CNN
+F 1 "Power Switch" H 6900 4450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6900 4300 50  0001 C CNN
+F 3 "~" H 6900 4300 50  0001 C CNN
+F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
+F 5 "Connection for panel mounted power switch" H 0   0   50  0001 C CNN "Description"
+F 6 "Eswitch" H 0   0   50  0001 C CNN "Manufacturer"
+	1    6900 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Barrel_Jack_Switch J10
 U 1 1 61D48579
-P 6250 4550
-F 0 "J10" H 6250 4760 50  0000 C CNN
-F 1 "Power In" H 6250 4350 50  0000 C CNN
-F 2 "SW-Switchcraft:PCL712AS" H 6300 4510 50  0001 C CNN
-F 3 "~" H 6300 4510 50  0001 C CNN
-	1    6250 4550
+P 6250 4400
+F 0 "J10" H 6250 4610 50  0000 C CNN
+F 1 "Power In" H 6250 4200 50  0000 C CNN
+F 2 "SW-Switchcraft:PCL712AS" H 6300 4360 50  0001 C CNN
+F 3 "http://www.switchcraft.com/Drawings/PCL712AS_PCL722AS_CD.pdf" H 6300 4360 50  0001 C CNN
+F 4 "Barrel Jack Input Connector" H 0   0   50  0001 C CNN "Description"
+F 5 "Switchcraft" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "PCL712AS" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
+	1    6250 4400
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 7500 2800 7900
+Wire Wire Line
+	2800 4850 2800 5250
+Wire Wire Line
+	2800 2100 2800 2500
+$Comp
+L SW-Texas:LM74610-Q1 U64
+U 1 1 5D8AB250
+P 7450 5200
+F 0 "U64" H 7000 5500 50  0000 C CNN
+F 1 "LM74610-Q1" H 7750 5500 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 7450 5500 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm74610-q1.pdf" H 7450 5500 50  0001 C CNN
+F 4 "Reverse polarity smart diode controller" H 0   0   50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LM74610-Q1" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "VSSOP8" H 0   0   50  0001 C CNN "Package ID"
+	1    7450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D8DFC21
+P 7450 5750
+AR Path="/5CC3E5B8/5D8DFC21" Ref="C?"  Part="1" 
+AR Path="/5CBF6239/5D8DFC21" Ref="C439"  Part="1" 
+F 0 "C439" V 7300 5750 50  0000 C CNN
+F 1 "220nF X7R" V 7200 5750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7450 5750 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 7450 5750 50  0001 C CNN
+F 4 "0603in/1608mm" H -450 2350 50  0001 C CNN "Package ID"
+F 5 "Kemet" H -450 2350 50  0001 C CNN "Manufacturer"
+F 6 "C0603X224J3RACAUTO" H -450 2350 50  0001 C CNN "Manufacturers Part Number"
+F 7 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
+	1    7450 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 5650 7300 5750
+Wire Wire Line
+	7300 5750 7350 5750
+Wire Wire Line
+	7600 5750 7550 5750
+Wire Wire Line
+	7600 5650 7600 5750
+$Comp
+L Transistor_FET:CSD18501Q5A Q3
+U 1 1 5DCADDCB
+P 7500 4400
+F 0 "Q3" H 7700 4475 50  0000 L CNN
+F 1 "CSD18501Q5A" H 7700 4400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7700 4325 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd18501q5a" V 7500 4400 50  0001 L CNN
+F 4 "N Channel MOSFET" H 0   0   50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CSD18501Q5A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "TO-SOT" H 0   0   50  0001 C CNN "Package ID"
+	1    7500 4400
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7100 4300 7200 4300
+Wire Wire Line
+	7500 4600 7500 4650
+Wire Wire Line
+	7400 4750 7400 4650
+Wire Wire Line
+	7400 4650 7500 4650
+Connection ~ 7500 4650
+Wire Wire Line
+	7500 4650 7500 4750
+Wire Wire Line
+	6800 5200 6700 5200
+Wire Wire Line
+	6700 5200 6700 4800
+Wire Wire Line
+	7200 4800 7200 4300
+Connection ~ 7200 4300
+Wire Wire Line
+	7200 4300 7300 4300
+Wire Wire Line
+	7700 4300 7800 4300
+Wire Wire Line
+	8200 5200 8300 5200
+Wire Wire Line
+	8300 5200 8300 4800
+Wire Wire Line
+	8300 4800 7800 4800
+Wire Wire Line
+	7800 4800 7800 4300
+Connection ~ 7800 4300
+Wire Wire Line
+	7800 4300 7950 4300
+Wire Wire Line
+	6550 4400 6600 4400
+Wire Wire Line
+	6600 4400 6600 4500
+Connection ~ 6600 4500
+Wire Wire Line
+	6600 4500 6700 4500
+$Comp
+L Device:C_Small C?
+U 1 1 5DF891E9
+P 6700 4650
+AR Path="/5CC3E5B8/5DF891E9" Ref="C?"  Part="1" 
+AR Path="/5CBF6239/5DF891E9" Ref="C438"  Part="1" 
+F 0 "C438" H 6710 4720 50  0000 L CNN
+F 1 "10uF X7R" H 6710 4570 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6700 4650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6700 4650 50  0001 C CNN
+F 4 "1206in/3216mm" H 6000 350 50  0001 C CNN "Package ID"
+F 5 "Kemet" H 4500 600 50  0001 C CNN "Manufacturer"
+F 6 "C1206C106J3RACAUTO" H 4500 600 50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 10UF 25V X7R 1206" H 4250 500 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
+	1    6700 4650
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6700 4500 6700 4550
