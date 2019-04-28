@@ -500,21 +500,21 @@ Text Label 1350 4300 0    50   ~ 0
 DEV_INT[0..15]
 Text Label 1350 4400 0    50   ~ 0
 DEV_ID[0..15]
-Text Label 3700 9300 0    50   ~ 0
-DEV_INT[0..15]
 Text Label 3700 9400 0    50   ~ 0
+DEV_INT[0..15]
+Text Label 3700 9300 0    50   ~ 0
 DEV_ID[0..15]
-Text Label 5500 9050 1    50   ~ 0
-DEV_INT[0..5]
 Text Label 5600 9050 1    50   ~ 0
+DEV_INT[0..5]
+Text Label 5500 9050 1    50   ~ 0
 DEV_ID[0..5]
-Text Label 1000 8250 0    50   ~ 0
-DEV_INT[10..15]
 Text Label 1000 8350 0    50   ~ 0
+DEV_INT[10..15]
+Text Label 1000 8250 0    50   ~ 0
 DEV_ID[10..15]
-Text Label 9000 9300 0    50   ~ 0
+Text Label 9050 9400 0    50   ~ 0
 DEV_INT[6..9]
-Text Label 9000 9400 0    50   ~ 0
+Text Label 9050 9300 0    50   ~ 0
 DEV_ID[6..9]
 Text Label 3250 4550 0    50   ~ 0
 DIN[0..15]
