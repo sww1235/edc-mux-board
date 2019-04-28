@@ -1179,9 +1179,9 @@ Text Label 5050 12750 0    50   ~ 0
 ~RESET~[0..15]
 Wire Bus Line
 	6500 15400 6050 15400
-Text HLabel 3450 850  0    50   Output ~ 0
+Text HLabel 3450 950  0    50   Output ~ 0
 DOUT[0..15]
-Text HLabel 3450 950  0    50   Input ~ 0
+Text HLabel 3450 850  0    50   Input ~ 0
 DIN[0..15]
 Text HLabel 3450 1050 0    50   Output ~ 0
 BCLK[0..15]
