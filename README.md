@@ -317,22 +317,22 @@ conversion, truncation or zero fill is applied. Quoting from the I2S spec:
 
 ## Power Consumption (Worst Case Assumptions)
 
-| Device (Current Drawn) | +12V | +3V3  | +1V8  | +2V5 | +1V2  |
-|:-----------------------|------|-------|-------|------|-------|
-| FPGA                   | 0A   | 20mA  | 0A    | 40mA | 400mA |
-| CODEC x16              | 0A   | 10mA  | 40mA  | 0A   | 0A    |
-| P82B96 x16             | 2mA  | 0A    | 0A    | 0A   | 0A    |
-| MAX4910 x16            | 0A   | 5uA   | 0A    | 0A   | 0A    |
-| TCA9555                | 0A   | 2mA   | 0A    | 0A   | 0A    |
-| TCA9548A x2            | 0A   | 35uA  | 0A    | 0A   | 0A    |
-| CDCLVC1108 x2          | 0A   | 10mA  | 0A    | 0A   | 0A    |
-| W5500                  | 0A   | 132mA | 0A    | 0A   | 0A    |
-| SAMD21 MCU             | 0A   | 25mA  | 0A    | 0A   | 0A    |
-|                        |      |       |       |      |       |
-| Totals                 | 32mA | 360mA | 640mA | 40mA | 400mA |
-| Total @ 3V (+20%)      | 0A   | 360mA | 419mA | 36.4mA | 175mA |
-| Total @ 12V (+20%)     | 32mA | 327mA | 0A | 0A | 0A |
-| Total 12V required     | 360mA | @12V~=4.32W |
+| Device (Current Drawn) | +12V | +3V3  | +1V8  | +2V5   | +1V2  |
+|:-----------------------|------|-------|-------|--------|-------|
+| FPGA                   | 0A   | 20mA  | 0A    | 40mA   | 400mA |
+| CODEC x16              | 0A   | 10mA  | 40mA  | 0A     | 0A    |
+| P82B96 x16             | 2mA  | 0A    | 0A    | 0A     | 0A    |
+| MAX4910 x16            | 0A   | 5uA   | 0A    | 0A     | 0A    |
+| TCA9555                | 0A   | 2mA   | 0A    | 0A     | 0A    |
+| TCA9548A x2            | 0A   | 35uA  | 0A    | 0A     | 0A    |
+| CDCLVC1108 x2          | 0A   | 10mA  | 0A    | 0A     | 0A    |
+| W5500                  | 0A   | 132mA | 0A    | 0A     | 0A    |
+| SAMD21 MCU             | 0A   | 25mA  | 0A    | 0A     | 0A    |
+|                        |      |       |       |        |       |
+| Totals                 | 32mA | 360mA | 640mA | 40mA   | 400mA |
+| Total @ 3V3 (+20%)     | 0A   | 360mA | 419mA | 36.4mA | 175mA |
+| Total @ 12V (+20%)     | 32mA | 327mA | 0A    | 0A     | 0A    |
+| Total 12V required     | 360mA | @12V~=4.32W  |
 ### CODEC Summary
 
 From Application Guide:
