@@ -747,4 +747,10 @@ Wire Wire Line
 Connection ~ 3800 2250
 Wire Wire Line
 	3800 2250 4050 2250
+Text Label 3900 2750 0    50   ~ 0
+SCL
+Text Label 3900 2850 0    50   ~ 0
+SDA
+Text Label 3800 2950 0    50   ~ 0
+CLK_IN0
 $EndSCHEMATC

@@ -1535,4 +1535,22 @@ Wire Wire Line
 Connection ~ 12950 5500
 Wire Bus Line
 	7100 1450 7100 3500
+Text Label 15250 5150 0    50   ~ 0
+INIT_DONE
+Text Label 15350 5050 0    50   ~ 0
+CRC_ERROR
+Text Label 15350 4350 0    50   ~ 0
+CONF_DONE
+Text Label 15100 4250 0    50   ~ 0
+~CONFIG
+Text Label 15150 4050 0    50   ~ 0
+~STATUS
+Text Label 12650 4900 0    50   ~ 0
+MISO
+Text Label 12650 5000 0    50   ~ 0
+MOSI
+Text Label 12650 5100 0    50   ~ 0
+~CS
+Text Label 12650 5200 0    50   ~ 0
+SCK
 $EndSCHEMATC
