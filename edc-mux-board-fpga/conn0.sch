@@ -949,4 +949,18 @@ L_IN
 Text HLabel 3200 2550 0    50   Input ~ 0
 R_IN
 NoConn ~ 4450 3400
+Text Label 6000 4100 0    50   ~ 0
+VNEG
+Text Label 6650 3900 0    50   ~ 0
+HPR
+Text Label 6650 3800 0    50   ~ 0
+HPL
+Text Label 6650 3700 0    50   ~ 0
+LINE_OUT_R
+Text Label 6650 3600 0    50   ~ 0
+LINE_OUT_L
+Text Label 4400 4100 2    50   ~ 0
+REF
+Text Label 6650 4000 0    50   ~ 0
+GND_SENSE
 $EndSCHEMATC
