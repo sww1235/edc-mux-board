@@ -791,29 +791,6 @@ Wire Wire Line
 Connection ~ 1350 7100
 Wire Wire Line
 	1350 7100 1350 7300
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5CCFE75A
-P 2700 5250
-AR Path="/5CC6CC1A/5CC6D47B/5CCFE75A" Ref="FB?"  Part="1" 
-AR Path="/5CAA362B/5CCFE75A" Ref="FB?"  Part="1" 
-AR Path="/5CC3E5B8/5CCFE75A" Ref="FB1"  Part="1" 
-F 0 "FB1" H 2850 5150 50  0000 R CNN
-F 1 "600Ω @ 100MHz" V 2550 5700 50  0000 R CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 2630 5250 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2700 5250 50  0001 C CNN
-F 4 "Murata" H 2700 5250 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2700 5250 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 2700 5250 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    2700 5250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2450 5250 2600 5250
-Wire Wire Line
-	2800 5250 2900 5250
 Wire Wire Line
 	2900 5250 2900 5100
 Text Notes 5250 3100 0    50   ~ 0
@@ -3230,20 +3207,8 @@ Wire Wire Line
 Connection ~ 1850 1650
 Wire Wire Line
 	1850 1650 1850 1600
-$Comp
-L power:PWR_FLAG #FLG03
-U 1 1 5D2304D5
-P 3250 5100
-F 0 "#FLG03" H 3250 5175 50  0001 C CNN
-F 1 "PWR_FLAG" H 3250 5250 50  0000 C CNN
-F 2 "" H 3250 5100 50  0001 C CNN
-F 3 "~" H 3250 5100 50  0001 C CNN
-	1    3250 5100
-	1    0    0    -1  
-$EndComp
+Text Label 9500 1450 2    50   ~ 0
+VCCDPLL
 Wire Wire Line
-	2900 5250 3250 5250
-Wire Wire Line
-	3250 5250 3250 5100
-Connection ~ 2900 5250
+	2450 5250 2900 5250
 $EndSCHEMATC
