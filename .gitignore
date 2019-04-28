@@ -32,3 +32,4 @@ code/vhdl/edcMuxBoard/stdout.log
 
 # *.tcl
 
+*.log
