@@ -18,7 +18,7 @@ $Sheet
 S 1700 1300 1250 1250
 U 5CC6D47B
 F0 "Interface - Connector 0" 50
-F1 "conn0.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I R 2950 1400 50 
 F3 "DOUT" O R 2950 1500 50 
 F4 "MCLK" I L 1700 1700 50 
@@ -39,7 +39,7 @@ $Sheet
 S 1700 2800 1250 1250
 U 5CC6D498
 F0 "Interface - Connector 1" 50
-F1 "conn1.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I R 2950 2900 50 
 F3 "DOUT" O R 2950 3000 50 
 F4 "MCLK" I L 1700 3200 50 
@@ -60,7 +60,7 @@ $Sheet
 S 1700 4300 1250 1250
 U 5CC6D4B3
 F0 "Interface - Connector 2" 50
-F1 "conn2.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I R 2950 4400 50 
 F3 "DOUT" O R 2950 4500 50 
 F4 "MCLK" I L 1700 4700 50 
@@ -81,7 +81,7 @@ $Sheet
 S 1700 5800 1250 1250
 U 5CC6D4D3
 F0 "Interface - Connector 3" 50
-F1 "conn3.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I R 2950 5900 50 
 F3 "DOUT" O R 2950 6000 50 
 F4 "MCLK" I L 1700 6200 50 
@@ -102,7 +102,7 @@ $Sheet
 S 1700 7300 1250 1250
 U 5CC6D4F1
 F0 "Interface - Connector 4" 50
-F1 "conn4.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I R 2950 7400 50 
 F3 "DOUT" O R 2950 7500 50 
 F4 "MCLK" I L 1700 7700 50 
@@ -123,7 +123,7 @@ $Sheet
 S 1700 8800 1250 1250
 U 5CC6D516
 F0 "Interface - Connector 5" 50
-F1 "conn5.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I R 2950 8900 50 
 F3 "DOUT" O R 2950 9000 50 
 F4 "MCLK" I L 1700 9200 50 
@@ -144,7 +144,7 @@ $Sheet
 S 1700 10300 1250 1250
 U 5CC6D538
 F0 "Interface - Connector 6" 50
-F1 "conn6.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I R 2950 10400 50 
 F3 "DOUT" O R 2950 10500 50 
 F4 "MCLK" I L 1700 10700 50 
@@ -165,7 +165,7 @@ $Sheet
 S 1700 11800 1250 1250
 U 5CC6D55D
 F0 "Interface - Connector 7" 50
-F1 "conn7.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I R 2950 11900 50 
 F3 "DOUT" O R 2950 12000 50 
 F4 "MCLK" I L 1700 12200 50 
@@ -186,7 +186,7 @@ $Sheet
 S 7800 1300 1250 1250
 U 5CC6D57F
 F0 "Interface - Connector 8" 50
-F1 "conn8.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I L 7800 1400 50 
 F3 "DOUT" O L 7800 1500 50 
 F4 "MCLK" I R 9050 1700 50 
@@ -207,7 +207,7 @@ $Sheet
 S 7800 2800 1250 1250
 U 5CC6D596
 F0 "Interface - Connector 9" 50
-F1 "conn9.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I L 7800 2900 50 
 F3 "DOUT" O L 7800 3000 50 
 F4 "MCLK" I R 9050 3200 50 
@@ -228,7 +228,7 @@ $Sheet
 S 7800 4300 1250 1250
 U 5CC6D5AE
 F0 "Interface - Connector 10" 50
-F1 "conn10.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I L 7800 4400 50 
 F3 "DOUT" O L 7800 4500 50 
 F4 "MCLK" I R 9050 4700 50 
@@ -249,7 +249,7 @@ $Sheet
 S 7800 5800 1250 1250
 U 5CC6D5DA
 F0 "Interface - Connector 11" 50
-F1 "conn11.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I L 7800 5900 50 
 F3 "DOUT" O L 7800 6000 50 
 F4 "MCLK" I R 9050 6200 50 
@@ -270,7 +270,7 @@ $Sheet
 S 7800 7300 1250 1250
 U 5CC6D5FB
 F0 "Interface - Connector 12" 50
-F1 "conn12.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I L 7800 7400 50 
 F3 "DOUT" O L 7800 7500 50 
 F4 "MCLK" I R 9050 7700 50 
@@ -291,7 +291,7 @@ $Sheet
 S 7800 8800 1250 1250
 U 5CC6D612
 F0 "Interface - Connector 13" 50
-F1 "conn13.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I L 7800 8900 50 
 F3 "DOUT" O L 7800 9000 50 
 F4 "MCLK" I R 9050 9200 50 
@@ -312,7 +312,7 @@ $Sheet
 S 7800 10300 1250 1250
 U 5CC6D62D
 F0 "Interface - Connector 14" 50
-F1 "conn14.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I L 7800 10400 50 
 F3 "DOUT" O L 7800 10500 50 
 F4 "MCLK" I R 9050 10700 50 
@@ -333,7 +333,7 @@ $Sheet
 S 7800 11800 1250 1250
 U 5CC6D64F
 F0 "Interface - Connector 15" 50
-F1 "conn15.sch" 50
+F1 "conn.sch" 50
 F2 "DIN" I L 7800 11900 50 
 F3 "DOUT" O L 7800 12000 50 
 F4 "MCLK" I R 9050 12200 50 
