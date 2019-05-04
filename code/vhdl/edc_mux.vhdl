@@ -16,8 +16,8 @@ use work.edc_mux_pkg.all;
 
 -- These are the direct pin connections on the FPGA. See the PIN file for pin assignments
 -- This is 4*16 + 4 + 2*16 + 9 = 109 IO pins
--- i2s_in : input to FPGA from CODECs
--- i2s_out : output from FPGA to CODECs
+-- i2s_in : input to FPGA from CODECs : DOUT
+-- i2s_out : output from FPGA to CODECs : DIN
 entity edc_mux is
 	port (-- 16 serial i2s audio inputs (carry two channels)
 				i2s_in			: in 		std_logic_vector(15 downto 0);
