@@ -958,35 +958,35 @@ Connection ~ 10950 5200
 $Comp
 L power:GND #PWR0213
 U 1 1 5D3828F6
-P 15250 4850
-F 0 "#PWR0213" H 15250 4600 50  0001 C CNN
-F 1 "GND" H 15250 4700 50  0000 C CNN
-F 2 "" H 15250 4850 50  0001 C CNN
-F 3 "" H 15250 4850 50  0001 C CNN
-	1    15250 4850
+P 15600 4850
+F 0 "#PWR0213" H 15600 4600 50  0001 C CNN
+F 1 "GND" H 15600 4700 50  0000 C CNN
+F 2 "" H 15600 4850 50  0001 C CNN
+F 3 "" H 15600 4850 50  0001 C CNN
+	1    15600 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15000 4450 15250 4450
+	15000 4450 15600 4450
 Wire Wire Line
-	15250 4450 15250 4700
+	15600 4450 15600 4700
 $Comp
 L Device:R_Small_US R126
 U 1 1 5D3910E3
-P 15450 3900
-F 0 "R126" V 15500 3850 50  0000 R CNN
-F 1 "10kΩ" V 15500 4200 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 15450 3900 50  0001 C CNN
-F 3 "~" H 15450 3900 50  0001 C CNN
-F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
-	1    15450 3900
+P 15450 3750
+F 0 "R126" V 15500 3700 50  0000 R CNN
+F 1 "10kΩ" V 15500 4050 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 15450 3750 50  0001 C CNN
+F 3 "~" H 15450 3750 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   -150 50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   -150 50  0001 C CNN "Description"
+	1    15450 3750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	15000 4250 15450 4250
 Wire Wire Line
-	15450 4250 15450 4000
+	15450 4250 15450 3850
 $Comp
 L power:+3V3 #PWR0212
 U 1 1 5D3A3764
@@ -998,162 +998,52 @@ F 3 "" H 15250 2500 50  0001 C CNN
 	1    15250 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15250 2500 15250 2650
-$Comp
-L Device:LED D4
-U 1 1 5D3B4AD9
-P 15050 3550
-F 0 "D4" V 15100 3650 50  0000 L CNN
-F 1 "CONF_ERR (RED)" V 15000 3650 50  0000 L CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 15050 3550 50  0001 C CNN
-F 3 "https://www.sunledusa.com/products/spec/XZMER68W-3.pdf" H 15050 3550 50  0001 C CNN
-F 4 "Red" H 0   0   50  0001 C CNN "Characteristics"
-F 5 "Surface Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
-F 6 "SunLED" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "XZMER68W-3" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 8 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
-	1    15050 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R124
-U 1 1 5D3E2FB7
-P 15050 3900
-F 0 "R124" H 15150 3850 50  0000 L CNN
-F 1 "200Ω" H 15150 3900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 15050 3900 50  0001 C CNN
-F 3 "~" H 15050 3900 50  0001 C CNN
-F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
-	1    15050 3900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	15050 4000 15050 4050
-Wire Wire Line
-	15050 4150 15000 4150
-Wire Wire Line
-	15050 3700 15050 3800
 $Comp
 L Device:R_Small_US R125
 U 1 1 5D40E2BF
-P 15300 3900
-F 0 "R125" V 15350 3750 50  0000 L CNN
-F 1 "10kΩ" H 15300 4000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 15300 3900 50  0001 C CNN
-F 3 "~" H 15300 3900 50  0001 C CNN
-F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
-	1    15300 3900
+P 15300 3750
+F 0 "R125" V 15350 3600 50  0000 L CNN
+F 1 "10kΩ" V 15300 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 15300 3750 50  0001 C CNN
+F 3 "~" H 15300 3750 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   -150 50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   -150 50  0001 C CNN "Description"
+	1    15300 3750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	15300 4000 15300 4050
-Wire Wire Line
-	15300 4050 15050 4050
-Connection ~ 15050 4050
-Wire Wire Line
-	15050 4050 15050 4150
-Wire Wire Line
-	15050 2700 15050 2650
-Wire Wire Line
-	15050 2650 15250 2650
-Connection ~ 15250 2650
-Wire Wire Line
-	15050 3100 15050 3150
+	15300 3850 15300 4150
 $Comp
 L Device:R_Small_US R128
 U 1 1 5D4C3C9C
-P 15600 3900
-F 0 "R128" V 15650 3850 50  0000 R CNN
-F 1 "10kΩ" V 15650 4200 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 15600 3900 50  0001 C CNN
-F 3 "~" H 15600 3900 50  0001 C CNN
-F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
-	1    15600 3900
+P 15600 3750
+F 0 "R128" V 15650 3700 50  0000 R CNN
+F 1 "10kΩ" V 15650 4050 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 15600 3750 50  0001 C CNN
+F 3 "~" H 15600 3750 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   -150 50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   -150 50  0001 C CNN "Description"
+	1    15600 3750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	15250 3550 15300 3550
+	15250 3400 15300 3400
 Wire Wire Line
-	15600 3550 15600 3800
+	15600 3400 15600 3650
 Wire Wire Line
-	15250 2650 15250 3550
+	15450 3650 15450 3400
+Connection ~ 15450 3400
 Wire Wire Line
-	15450 3800 15450 3550
-Connection ~ 15450 3550
+	15450 3400 15600 3400
 Wire Wire Line
-	15450 3550 15600 3550
+	15300 3650 15300 3400
+Connection ~ 15300 3400
 Wire Wire Line
-	15300 3800 15300 3550
-Connection ~ 15300 3550
+	15300 3400 15450 3400
 Wire Wire Line
-	15300 3550 15450 3550
-Wire Wire Line
-	15600 4000 15600 4350
+	15600 3850 15600 4350
 Wire Wire Line
 	15600 4350 15000 4350
-Text Notes 13550 3900 0    50   ~ 0
-LED Forward Voltage of 2V:\n(3.3V - 2V)/200Ω = 6.5mA
-$Comp
-L Device:LED D5
-U 1 1 5D543BD6
-P 16050 3350
-F 0 "D5" V 16100 3200 50  0000 L CNN
-F 1 "CONF_STATUS (GREEN)" H 15700 3450 50  0000 L CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 16050 3350 50  0001 C CNN
-F 3 "https://www.sunledusa.com/products/spec/XZVGR68W-3.pdf" H 16050 3350 50  0001 C CNN
-F 4 "green" H 0   0   50  0001 C CNN "Characteristics"
-F 5 "Surface Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
-F 6 "SunLED" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "XZVGR68W-3" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 8 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
-	1    16050 3350
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R132
-U 1 1 5D543BDC
-P 16050 3900
-F 0 "R132" V 16100 3850 50  0000 R CNN
-F 1 "200Ω" V 16100 4200 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 16050 3900 50  0001 C CNN
-F 3 "~" H 16050 3900 50  0001 C CNN
-F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
-	1    16050 3900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	16050 3500 16050 3800
-Wire Wire Line
-	15050 3150 16050 3150
-Wire Wire Line
-	16050 3150 16050 3200
-Connection ~ 15050 3150
-Wire Wire Line
-	15050 3150 15050 3400
-Wire Wire Line
-	15600 4350 16050 4350
-Wire Wire Line
-	16050 4350 16050 4000
-Connection ~ 15600 4350
-$Comp
-L Jumper:Jumper_2_Open JP1
-U 1 1 5D569108
-P 15050 2900
-F 0 "JP1" V 15100 3000 50  0000 L CNN
-F 1 "LED_ENABLE" V 15050 3000 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 15050 2900 50  0001 C CNN
-F 3 "~" H 15050 2900 50  0001 C CNN
-F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
-	1    15050 2900
-	0    -1   -1   0   
-$EndComp
-Text Notes 14100 2100 0    50   ~ 0
-CONF_STATUS: On before and during configuration\nCONF_ERR: On if configuration error
 $Comp
 L Device:R_Small_US R127
 U 1 1 5D5EBD11
@@ -1331,73 +1221,35 @@ Wire Wire Line
 Wire Wire Line
 	15000 5600 15300 5600
 Wire Wire Line
-	15000 4800 15250 4800
-Connection ~ 15250 4800
+	15000 4800 15600 4800
+Connection ~ 15600 4800
 Wire Wire Line
-	15250 4800 15250 4850
+	15600 4800 15600 4850
 Wire Wire Line
-	15000 4700 15250 4700
-Connection ~ 15250 4700
+	15000 4700 15600 4700
+Connection ~ 15600 4700
 Wire Wire Line
-	15250 4700 15250 4800
-Text Label 15350 3150 0    50   ~ 0
-LED_PWR
-$Comp
-L Device:LED D6
-U 1 1 5D82826F
-P 16250 3400
-F 0 "D6" V 16350 3300 50  0000 L CNN
-F 1 "CRC_ERR (YLW)" H 15900 3250 50  0000 L CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 16250 3400 50  0001 C CNN
-F 3 "https://www.sunledusa.com/products/spec/XZMYK68W-2.pdf" H 16250 3400 50  0001 C CNN
-F 4 "Yellow" H 0   0   50  0001 C CNN "Characteristics"
-F 5 "Surface Mount LED Indicator" H 0   0   50  0001 C CNN "Description"
-F 6 "SunLED" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "XZMYK68W-2" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 8 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
-	1    16250 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R134
-U 1 1 5D828275
-P 16250 3900
-F 0 "R134" V 16200 4000 50  0000 L CNN
-F 1 "200Ω" V 16200 3600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 16250 3900 50  0001 C CNN
-F 3 "~" H 16250 3900 50  0001 C CNN
-F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
-	1    16250 3900
-	1    0    0    -1  
-$EndComp
+	15600 4700 15600 4800
 Wire Wire Line
-	15000 5050 15450 5050
-Wire Wire Line
-	15450 4550 15450 5050
-Wire Wire Line
-	15450 4550 15750 4550
+	15000 5050 15750 5050
 $Comp
 L Device:R_Small_US R129
 U 1 1 5D8B8992
-P 15750 3900
-F 0 "R129" V 15800 3850 50  0000 R CNN
-F 1 "10kΩ" V 15800 4200 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 15750 3900 50  0001 C CNN
-F 3 "~" H 15750 3900 50  0001 C CNN
-F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
-	1    15750 3900
+P 15750 3750
+F 0 "R129" V 15800 3700 50  0000 R CNN
+F 1 "10kΩ" V 15800 4050 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 15750 3750 50  0001 C CNN
+F 3 "~" H 15750 3750 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   -150 50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   -150 50  0001 C CNN "Description"
+	1    15750 3750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	15750 4000 15750 4550
-Connection ~ 15750 4550
+	15600 3400 15750 3400
 Wire Wire Line
-	15600 3550 15750 3550
-Wire Wire Line
-	15750 3550 15750 3800
-Connection ~ 15600 3550
+	15750 3400 15750 3650
+Connection ~ 15600 3400
 $Comp
 L power:GND #PWR0211
 U 1 1 5D8ED3C5
@@ -1414,38 +1266,27 @@ Wire Wire Line
 Wire Wire Line
 	12950 5500 13100 5500
 Wire Wire Line
-	16050 3150 16250 3150
-Wire Wire Line
-	16250 3150 16250 3250
-Connection ~ 16050 3150
-Wire Wire Line
-	16250 3550 16250 3800
-Wire Wire Line
-	16250 4000 16250 4550
-Wire Wire Line
-	15750 4550 16250 4550
-Wire Wire Line
 	15000 5150 15900 5150
 Wire Wire Line
-	15900 5150 15900 4000
+	15900 5150 15900 4550
 $Comp
 L Device:R_Small_US R130
 U 1 1 5D93D511
-P 15900 3900
-F 0 "R130" V 15950 3850 50  0000 R CNN
-F 1 "10kΩ" V 15950 4200 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 15900 3900 50  0001 C CNN
-F 3 "~" H 15900 3900 50  0001 C CNN
-F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
-	1    15900 3900
+P 15900 3750
+F 0 "R130" V 15950 3700 50  0000 R CNN
+F 1 "10kΩ" V 15950 4050 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 15900 3750 50  0001 C CNN
+F 3 "~" H 15900 3750 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   -150 50  0001 C CNN "Package ID"
+F 5 "Resistor" H 0   -150 50  0001 C CNN "Description"
+	1    15900 3750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	15750 3550 15900 3550
+	15750 3400 15900 3400
 Wire Wire Line
-	15900 3550 15900 3800
-Connection ~ 15750 3550
+	15900 3400 15900 3650
+Connection ~ 15750 3400
 $Comp
 L power:GND #PWR0207
 U 1 1 5D9FF4C0
@@ -1495,7 +1336,7 @@ Wire Wire Line
 	2250 5550 2100 5550
 Connection ~ 2100 5550
 Wire Wire Line
-	2100 5550 2100 5250
+	2100 5550 2100 5450
 Wire Wire Line
 	2250 5650 2100 5650
 Connection ~ 2100 5650
@@ -1507,17 +1348,15 @@ Wire Wire Line
 Wire Wire Line
 	12950 4350 13100 4350
 Connection ~ 12950 5500
-Wire Bus Line
-	7100 1450 7100 3500
-Text Label 15250 5150 0    50   ~ 0
+Text Label 15050 5150 0    50   ~ 0
 INIT_DONE
-Text Label 15350 5050 0    50   ~ 0
+Text Label 15050 5050 0    50   ~ 0
 CRC_ERROR
-Text Label 15350 4350 0    50   ~ 0
+Text Label 15050 4350 0    50   ~ 0
 CONF_DONE
-Text Label 15100 4250 0    50   ~ 0
+Text Label 15050 4250 0    50   ~ 0
 ~CONFIG
-Text Label 15150 4050 0    50   ~ 0
+Text Label 15050 4150 0    50   ~ 0
 ~STATUS
 Text Label 12650 4900 0    50   ~ 0
 MISO
@@ -1527,6 +1366,14 @@ Text Label 12650 5100 0    50   ~ 0
 ~CS
 Text Label 12650 5200 0    50   ~ 0
 SCK
+Text HLabel 16000 4150 2    50   Output ~ 0
+~STATUS
+Text HLabel 16000 4350 2    50   Output ~ 0
+CONF_DONE
+Text HLabel 16000 4450 2    50   Output ~ 0
+CRC_ERROR
+Text HLabel 16000 4550 2    50   Output ~ 0
+INIT_DONE
 Wire Wire Line
 	15250 2500 15250 3400
 Wire Wire Line

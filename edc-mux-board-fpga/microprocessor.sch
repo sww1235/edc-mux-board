@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 28 28
+Sheet 27 28
 Title ""
 Date ""
 Rev ""
@@ -1006,10 +1006,6 @@ NoConn ~ 5050 3000
 NoConn ~ 5050 3100
 NoConn ~ 5050 3200
 NoConn ~ 5050 3300
-NoConn ~ 5050 3400
-NoConn ~ 5050 3500
-NoConn ~ 5050 3600
-NoConn ~ 5050 3700
 NoConn ~ 5050 6000
 NoConn ~ 5050 6100
 NoConn ~ 3550 4900
@@ -1066,6 +1062,22 @@ Wire Wire Line
 Connection ~ 4150 2500
 Wire Wire Line
 	4150 2500 4150 2550
+Text HLabel 5200 3400 2    50   Input ~ 0
+~STATUS
+Text HLabel 5200 3500 2    50   Input ~ 0
+CONF_DONE
+Text HLabel 5200 3600 2    50   Input ~ 0
+CRC_ERROR
+Text HLabel 5200 3700 2    50   Input ~ 0
+INIT_DONE
+Wire Wire Line
+	5200 3400 5050 3400
+Wire Wire Line
+	5200 3500 5050 3500
+Wire Wire Line
+	5200 3600 5050 3600
+Wire Wire Line
+	5200 3700 5050 3700
 Wire Bus Line
 	2550 3850 2550 7450
 $EndSCHEMATC
