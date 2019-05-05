@@ -399,7 +399,6 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x40_Odd_Even J18
 U 1 1 5D11C575
-	1    0    0    -1  
 P 10350 5050
 F 0 "J18" H 10400 7050 50  0000 C CNN
 F 1 "Left Mezzanine Board Connector (Daughterboard)" H 10400 2950 50  0000 C CNN
@@ -407,6 +406,7 @@ F 2 "Connector_PinSocket_2.54mm:PinSocket_2x40_P2.54mm_Horizontal" H 10350 5050 
 F 3 "~" H 10350 5050 50  0001 C CNN
 F 4 "Through Hole" H 0   100 50  0001 C CNN "Package ID"
 	1    10350 5050
+	1    0    0    1   
 $EndComp
 Text Label 10250 7450 0    50   ~ 0
 M_GND
