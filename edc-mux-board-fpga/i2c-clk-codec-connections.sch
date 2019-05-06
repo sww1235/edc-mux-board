@@ -2374,6 +2374,9 @@ Wire Wire Line
 	1950 3800 2350 3800
 Wire Wire Line
 	2350 3800 2350 3750
+Connection ~ 1950 3800
+Wire Wire Line
+	1950 3800 1950 3850
 Wire Bus Line
 	6400 3150 6400 5350
 Wire Bus Line
@@ -2382,7 +2385,8 @@ Wire Bus Line
 	10950 1650 10950 6150
 Wire Bus Line
 	10750 1800 10750 6000
-Connection ~ 1950 3800
-Wire Wire Line
-	1950 3800 1950 3850
+Text Label 2350 3800 0    50   ~ 0
+CLK_DISTRO_3V3_2
+Text Label 2350 1400 0    50   ~ 0
+CLK_DISTRO_3V3_1
 $EndSCHEMATC
