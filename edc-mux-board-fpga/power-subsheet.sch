@@ -1436,7 +1436,7 @@ F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 11100 3400 5
 F 4 "CAP ALUM POLY 47UF 20% 25V SMD" H 0   0   50  0001 C CNN "Characteristics"
 F 5 "Aluminium Polymer Electrolytic Capacitor" H 0   0   50  0001 C CNN "Description"
 F 6 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 " 875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    11100 3400
 	1    0    0    -1  
@@ -1452,7 +1452,7 @@ F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 11250 3400 5
 F 4 "CAP ALUM POLY 47UF 20% 25V SMD" H 0   0   50  0001 C CNN "Characteristics"
 F 5 "Aluminium Polymer Electrolytic Capacitor" H 0   0   50  0001 C CNN "Description"
 F 6 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 " 875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    11250 3400
 	1    0    0    -1  
@@ -1468,7 +1468,7 @@ F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 11400 3400 5
 F 4 "CAP ALUM POLY 47UF 20% 25V SMD" H 0   0   50  0001 C CNN "Characteristics"
 F 5 "Aluminium Polymer Electrolytic Capacitor" H 0   0   50  0001 C CNN "Description"
 F 6 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 " 875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    11400 3400
 	1    0    0    -1  
@@ -1484,7 +1484,7 @@ F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 11550 3400 5
 F 4 "CAP ALUM POLY 47UF 20% 25V SMD" H 0   0   50  0001 C CNN "Characteristics"
 F 5 "Aluminium Polymer Electrolytic Capacitor" H 0   0   50  0001 C CNN "Description"
 F 6 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 " 875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    11550 3400
 	1    0    0    -1  
@@ -1500,7 +1500,7 @@ F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 11700 3400 5
 F 4 "CAP ALUM POLY 47UF 20% 25V SMD" H 0   0   50  0001 C CNN "Characteristics"
 F 5 "Aluminium Polymer Electrolytic Capacitor" H 0   0   50  0001 C CNN "Description"
 F 6 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 " 875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    11700 3400
 	1    0    0    -1  
@@ -2726,7 +2726,7 @@ F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 9050 4400 50
 F 4 "CAP ALUM POLY 47UF 20% 25V SMD" H 0   0   50  0001 C CNN "Characteristics"
 F 5 "Aluminium Polymer Electrolytic Capacitor" H 0   0   50  0001 C CNN "Description"
 F 6 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 " 875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    9050 4400
 	1    0    0    -1  
@@ -3046,7 +3046,7 @@ F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 5700 5600 50
 F 4 "CAP ALUM POLY 47UF 20% 25V SMD" H 0   0   50  0001 C CNN "Characteristics"
 F 5 "Aluminium Polymer Electrolytic Capacitor" H 0   0   50  0001 C CNN "Description"
 F 6 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 " 875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "875075555002" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    5700 5600
 	1    0    0    -1  
