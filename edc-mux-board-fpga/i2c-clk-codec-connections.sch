@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:edc-mux-board-fpga-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLegal 14000 8500
 encoding utf-8
 Sheet 21 28
 Title ""
@@ -22,8 +22,8 @@ AR Path="/5CCE0515" Ref="U?"  Part="1"
 AR Path="/5CC3E5DC/5CCE0515" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCE0515" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCDCE34/5CCE0515" Ref="U57"  Part="1" 
-F 0 "U57" H 1950 2850 50  0000 C CNN
-F 1 "CDCLVC1108" H 1950 2750 50  0000 C CNN
+F 0 "U57" H 1700 1600 50  0000 C CNN
+F 1 "CDCLVC1108" H 2250 2500 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2150 2850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 1900 3150 50  0001 C CNN
 F 4 "1:8 Clock Buffer" H 0   0   50  0001 C CNN "Description"
@@ -41,8 +41,8 @@ AR Path="/5CCE051B" Ref="U?"  Part="1"
 AR Path="/5CC3E5DC/5CCE051B" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCE051B" Ref="U?"  Part="1" 
 AR Path="/5CC6CC1A/5CCDCE34/5CCE051B" Ref="U58"  Part="1" 
-F 0 "U58" H 1950 5250 50  0000 C CNN
-F 1 "CDCLVC1108" H 1950 5150 50  0000 C CNN
+F 0 "U58" H 1700 4000 50  0000 C CNN
+F 1 "CDCLVC1108" H 2250 4900 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2150 5250 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 1900 5550 50  0001 C CNN
 F 4 "1:8 Clock Buffer" H 0   0   50  0001 C CNN "Description"
@@ -284,7 +284,7 @@ U 1 1 647F7845
 P 1450 3600
 AR Path="/5CC6CC1A/5CC6D47B/647F7845" Ref="C?"  Part="1" 
 AR Path="/5CC6CC1A/5CCDCE34/647F7845" Ref="C408"  Part="1" 
-F 0 "C408" V 1500 3500 50  0000 R CNN
+F 0 "C408" V 1500 3550 50  0000 R CNN
 F 1 "1uF X7R" H 1600 3700 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 3600 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 1450 3600 50  0001 C CNN
@@ -302,7 +302,7 @@ U 1 1 647F784E
 P 1450 3300
 AR Path="/5CC6CC1A/5CC6D47B/647F784E" Ref="C?"  Part="1" 
 AR Path="/5CC6CC1A/5CCDCE34/647F784E" Ref="C407"  Part="1" 
-F 0 "C407" V 1400 3500 50  0000 R CNN
+F 0 "C407" V 1400 3550 50  0000 R CNN
 F 1 "10uF X7R" V 1400 3250 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1450 3300 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1450 3300 50  0001 C CNN
@@ -320,7 +320,7 @@ U 1 1 647F7855
 P 1450 3750
 AR Path="/5CC6CC1A/5CC6D47B/647F7855" Ref="C?"  Part="1" 
 AR Path="/5CC6CC1A/5CCDCE34/647F7855" Ref="C409"  Part="1" 
-F 0 "C409" V 1400 3950 50  0000 R CNN
+F 0 "C409" V 1400 4000 50  0000 R CNN
 F 1 "100nF X7R" V 1550 3850 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 3750 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1450 3750 50  0001 C CNN
