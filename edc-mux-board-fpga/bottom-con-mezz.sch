@@ -2149,17 +2149,6 @@ Wire Wire Line
 	13250 4950 13850 4950
 Wire Wire Line
 	13250 4900 13250 4950
-$Comp
-L power:+12V #PWR0208
-U 1 1 61C15958
-P 13250 4900
-F 0 "#PWR0208" H 13250 4750 50  0001 C CNN
-F 1 "+12V" H 13350 4900 50  0000 C CNN
-F 2 "" H 13250 4900 50  0001 C CNN
-F 3 "" H 13250 4900 50  0001 C CNN
-	1    13250 4900
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	15450 3850 15550 3950
 Entry Wire Line
@@ -2336,8 +2325,6 @@ Wire Wire Line
 Connection ~ 11500 4750
 Wire Wire Line
 	11500 4750 11500 4850
-Text Label 10250 4450 2    50   ~ 0
-M_PWR_IN
 Wire Wire Line
 	10400 4450 10300 4450
 Wire Wire Line
@@ -2352,8 +2339,6 @@ Wire Wire Line
 Connection ~ 10300 4550
 Wire Wire Line
 	10300 4550 10300 4650
-Text Label 11050 4450 0    50   ~ 0
-M_PWR_IN
 Wire Wire Line
 	10900 4450 11000 4450
 Wire Wire Line
@@ -2368,8 +2353,6 @@ Wire Wire Line
 Connection ~ 11000 4550
 Wire Wire Line
 	11000 4550 11000 4650
-Text Label 11050 5550 0    50   ~ 0
-M_PWR_IN
 Wire Wire Line
 	10900 5550 11000 5550
 Wire Wire Line
@@ -2384,8 +2367,6 @@ Wire Wire Line
 Connection ~ 11000 5650
 Wire Wire Line
 	11000 5650 11000 5750
-Text Label 10250 5550 2    50   ~ 0
-M_PWR_IN
 Wire Wire Line
 	10400 5550 10300 5550
 Wire Wire Line
@@ -2424,17 +2405,6 @@ Entry Wire Line
 	13000 7050 13100 6950
 Entry Wire Line
 	13150 7150 13250 7050
-$Comp
-L power:+12P #PWR0207
-U 1 1 62663BA8
-P 13250 4400
-F 0 "#PWR0207" H 13250 4250 50  0001 C CNN
-F 1 "+12P" H 13250 4540 50  0000 C CNN
-F 2 "" H 13250 4400 50  0001 C CNN
-F 3 "" H 13250 4400 50  0001 C CNN
-	1    13250 4400
-	1    0    0    -1  
-$EndComp
 Connection ~ 13450 4350
 Wire Wire Line
 	13450 4350 13950 4350
@@ -2495,17 +2465,6 @@ Wire Wire Line
 Wire Wire Line
 	13250 4450 13850 4450
 Connection ~ 13850 4450
-$Comp
-L power:+12P #PWR0212
-U 1 1 629BF751
-P 15150 4400
-F 0 "#PWR0212" H 15150 4250 50  0001 C CNN
-F 1 "+12P" H 15150 4540 50  0000 C CNN
-F 2 "" H 15150 4400 50  0001 C CNN
-F 3 "" H 15150 4400 50  0001 C CNN
-	1    15150 4400
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	14450 4450 14550 4450
 Wire Wire Line
@@ -2522,17 +2481,6 @@ Wire Wire Line
 Wire Wire Line
 	15150 4450 14550 4450
 Connection ~ 14550 4450
-$Comp
-L power:+12P #PWR0214
-U 1 1 629F0D68
-P 15150 5500
-F 0 "#PWR0214" H 15150 5350 50  0001 C CNN
-F 1 "+12P" H 15150 5640 50  0000 C CNN
-F 2 "" H 15150 5500 50  0001 C CNN
-F 3 "" H 15150 5500 50  0001 C CNN
-	1    15150 5500
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	14450 5550 14550 5550
 Wire Wire Line
@@ -2549,17 +2497,6 @@ Wire Wire Line
 Wire Wire Line
 	15150 5550 14550 5550
 Connection ~ 14550 5550
-$Comp
-L power:+12P #PWR0209
-U 1 1 62A23BDE
-P 13250 5500
-F 0 "#PWR0209" H 13250 5350 50  0001 C CNN
-F 1 "+12P" H 13250 5640 50  0000 C CNN
-F 2 "" H 13250 5500 50  0001 C CNN
-F 3 "" H 13250 5500 50  0001 C CNN
-	1    13250 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13950 5550 13850 5550
 Wire Wire Line
@@ -2578,8 +2515,6 @@ Wire Wire Line
 Connection ~ 13850 5550
 Wire Wire Line
 	6700 1800 6700 2600
-Text Label 7950 4300 0    50   ~ 0
-M_PWR_IN
 Text Notes 5700 3950 0    250  ~ 0
 POWER IN
 Wire Notes Line
@@ -2718,8 +2653,6 @@ Wire Wire Line
 	7800 4800 7800 4300
 Connection ~ 7800 4300
 Wire Wire Line
-	7800 4300 7950 4300
-Wire Wire Line
 	6550 4400 6600 4400
 Wire Wire Line
 	6600 4400 6600 4500
@@ -2756,6 +2689,83 @@ Wire Wire Line
 	6700 4800 7200 4800
 Wire Wire Line
 	7500 2100 7500 2500
+Text Label 6800 4800 0    50   ~ 0
+SW_PWR_IN
+Wire Wire Line
+	8400 4650 8400 4600
+Wire Wire Line
+	8100 4650 8400 4650
+Wire Wire Line
+	8100 4600 8100 4650
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E034F02
+P 8100 4600
+AR Path="/5CC3E5B8/5E034F02" Ref="#FLG?"  Part="1" 
+AR Path="/5CBF6239/5E034F02" Ref="#FLG02"  Part="1" 
+F 0 "#FLG02" H 8100 4675 50  0001 C CNN
+F 1 "PWR_FLAG" H 8100 4750 50  0000 C CNN
+F 2 "" H 8100 4600 50  0001 C CNN
+F 3 "~" H 8100 4600 50  0001 C CNN
+	1    8100 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4300 8100 4300
+Wire Wire Line
+	7950 4250 7950 4300
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E034F0A
+P 7950 4250
+AR Path="/5CC3E5B8/5E034F0A" Ref="#FLG?"  Part="1" 
+AR Path="/5CBF6239/5E034F0A" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 7950 4325 50  0001 C CNN
+F 1 "PWR_FLAG" H 7950 4400 50  0000 C CNN
+F 2 "" H 7950 4250 50  0001 C CNN
+F 3 "~" H 7950 4250 50  0001 C CNN
+	1    7950 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 8400 4650
+Connection ~ 7950 4300
+$Comp
+L Regulator_Switching:R-78B12-2.0 U?
+U 1 1 5E034F21
+P 8400 4300
+AR Path="/5CC3E5B8/5E034F21" Ref="U?"  Part="1" 
+AR Path="/5CBF6239/5E034F21" Ref="U1"  Part="1" 
+F 0 "U1" H 8400 4600 50  0000 C CNN
+F 1 "R-78B12-2.0" H 8400 4500 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT" H 8450 4050 50  0001 L CIN
+F 3 "https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf" H 8400 4300 50  0001 C CNN
+F 4 "switch mode power supply module" H 6550 3000 50  0001 C CNN "Description"
+F 5 "RECOM Power" H 6550 3000 50  0001 C CNN "Manufacturer"
+F 6 "R-78B12-2.0" H 6550 3000 50  0001 C CNN "Manufacturers Part Number"
+F 7 "TO-220" H 6550 3000 50  0001 C CNN "Package ID"
+	1    8400 4300
+	1    0    0    -1  
+$EndComp
+Text Notes 8350 3900 0    50   ~ 0
+regulated 12V
+Text Label 10250 4450 2    50   ~ 0
+M_+12V
+Text Label 11050 4450 0    50   ~ 0
+M_+12V
+Text Label 10250 5550 2    50   ~ 0
+M_+12V
+Text Label 11050 5550 0    50   ~ 0
+M_+12V
+Wire Wire Line
+	7800 4300 7950 4300
+Text Label 8850 4300 0    50   ~ 0
+M_+12V
+Wire Wire Line
+	8700 4300 8850 4300
+Text Label 8400 4800 3    50   ~ 0
+M_GND
+Wire Wire Line
+	8400 4650 8400 4800
 Wire Bus Line
 	15700 3250 15700 7700
 Wire Bus Line
@@ -2774,6 +2784,59 @@ Wire Bus Line
 	12550 3250 12550 8400
 Wire Bus Line
 	12850 3450 12850 8200
-Text Label 6800 4800 0    50   ~ 0
-SW_PWR_IN
+$Comp
+L power:+12V #PWR0207
+U 1 1 5E229149
+P 13250 4900
+F 0 "#PWR0207" H 13250 4750 50  0001 C CNN
+F 1 "+12V" H 13150 4900 50  0000 C CNN
+F 2 "" H 13250 4900 50  0001 C CNN
+F 3 "" H 13250 4900 50  0001 C CNN
+	1    13250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0208
+U 1 1 5E229839
+P 13250 4400
+F 0 "#PWR0208" H 13250 4250 50  0001 C CNN
+F 1 "+12V" H 13150 4400 50  0000 C CNN
+F 2 "" H 13250 4400 50  0001 C CNN
+F 3 "" H 13250 4400 50  0001 C CNN
+	1    13250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0209
+U 1 1 5E229BBE
+P 13250 5500
+F 0 "#PWR0209" H 13250 5350 50  0001 C CNN
+F 1 "+12V" H 13150 5500 50  0000 C CNN
+F 2 "" H 13250 5500 50  0001 C CNN
+F 3 "" H 13250 5500 50  0001 C CNN
+	1    13250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0212
+U 1 1 5E229FEF
+P 15150 5500
+F 0 "#PWR0212" H 15150 5350 50  0001 C CNN
+F 1 "+12V" H 15050 5500 50  0000 C CNN
+F 2 "" H 15150 5500 50  0001 C CNN
+F 3 "" H 15150 5500 50  0001 C CNN
+	1    15150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0214
+U 1 1 5E22A40A
+P 15150 4400
+F 0 "#PWR0214" H 15150 4250 50  0001 C CNN
+F 1 "+12V" H 15050 4400 50  0000 C CNN
+F 2 "" H 15150 4400 50  0001 C CNN
+F 3 "" H 15150 4400 50  0001 C CNN
+	1    15150 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

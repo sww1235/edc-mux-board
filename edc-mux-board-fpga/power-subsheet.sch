@@ -64,18 +64,7 @@ F 4 "0.00@0" H 3000 5550 60  0001 C CNN "Pricing"
 	1    0    0    -1  
 $EndComp
 Text Notes 3400 1550 0    75   ~ 0
-+12VP rail is unregulated power input to board.\n+12V rail is main power supply for board. Produced from +12VP rail.\n+3V3 rail is primary digital supply and IO voltage reference\n+1V8 rail is digital supply\n+1V8A rail is analog supply for CODECs. Connect to +1V8 using ferrite bead\n+1V2 rail is internal core voltage for FGPA\n+2V5 rail is FPGA PLL Analog Supply
-$Comp
-L power:+12V #PWR011
-U 1 1 5CC7BE37
-P 2300 1250
-F 0 "#PWR011" H 2300 1100 50  0001 C CNN
-F 1 "+12V" H 2300 1390 50  0000 C CNN
-F 2 "" H 2300 1250 50  0001 C CNN
-F 3 "" H 2300 1250 50  0001 C CNN
-	1    2300 1250
-	1    0    0    -1  
-$EndComp
++12V rail is main power supply for board. Produced from +12VP rail.\n+3V3 rail is primary digital supply and IO voltage reference\n+1V8 rail is digital supply\n+1V8A rail is analog supply for CODECs. Connect to +1V8 using ferrite bead\n+1V2 rail is internal core voltage for FGPA\n+2V5 rail is FPGA PLL Analog Supply
 $Comp
 L SW-Intel:10CL040YF484I7G U6
 U 2 1 5CB65921
@@ -196,17 +185,6 @@ Wire Wire Line
 	9550 2950 9550 2850
 Connection ~ 9550 2850
 $Comp
-L power:+12P #PWR04
-U 1 1 62666C46
-P 1200 1250
-F 0 "#PWR04" H 1200 1100 50  0001 C CNN
-F 1 "+12P" H 1200 1390 50  0000 C CNN
-F 2 "" H 1200 1250 50  0001 C CNN
-F 3 "" H 1200 1250 50  0001 C CNN
-	1    1200 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR028
 U 1 1 6573E3B5
 P 11050 1750
@@ -262,8 +240,6 @@ Text Notes 1600 6450 0    50   ~ 0
 1V2\nfed from 3V3
 Text Notes 1600 3500 0    50   ~ 0
 2V5\nfed from 3V3
-Text Notes 1600 900  0    50   ~ 0
-regulated 12V
 $Comp
 L Regulator_Switching:R-78B3.3-2.0 U2
 U 1 1 5CBC812F
@@ -279,42 +255,6 @@ F 7 "TO-220" H 0   0   50  0001 C CNN "Package ID"
 	1    1850 2450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Regulator_Switching:R-78B12-2.0 U1
-U 1 1 5CBC95CB
-P 1850 1300
-F 0 "U1" H 1850 1600 50  0000 C CNN
-F 1 "R-78B12-2.0" H 1850 1500 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT" H 1900 1050 50  0001 L CIN
-F 3 "https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf" H 1850 1300 50  0001 C CNN
-F 4 "switch mode power supply module" H 0   0   50  0001 C CNN "Description"
-F 5 "RECOM Power" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "R-78B12-2.0" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 7 "TO-220" H 0   0   50  0001 C CNN "Package ID"
-	1    1850 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 1250 1200 1300
-Wire Wire Line
-	1200 1300 1400 1300
-$Comp
-L power:GND #PWR09
-U 1 1 5CBD4D64
-P 1850 1700
-F 0 "#PWR09" H 1850 1450 50  0001 C CNN
-F 1 "GND" H 1850 1550 50  0000 C CNN
-F 2 "" H 1850 1700 50  0001 C CNN
-F 3 "" H 1850 1700 50  0001 C CNN
-	1    1850 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 1700 1850 1650
-Wire Wire Line
-	2150 1300 2300 1300
-Wire Wire Line
-	2300 1300 2300 1250
 $Comp
 L power:+12V #PWR08
 U 1 1 5CBE5529
@@ -342,7 +282,7 @@ F 3 "" H 1850 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 2850 1850 2750
+	1850 2850 1850 2800
 Wire Wire Line
 	2150 2450 2300 2450
 Wire Wire Line
@@ -3160,22 +3100,6 @@ F 3 "" H 3450 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5D18A069
-P 1400 1250
-F 0 "#FLG02" H 1400 1325 50  0001 C CNN
-F 1 "PWR_FLAG" H 1400 1400 50  0000 C CNN
-F 2 "" H 1400 1250 50  0001 C CNN
-F 3 "~" H 1400 1250 50  0001 C CNN
-	1    1400 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 1250 1400 1300
-Connection ~ 1400 1300
-Wire Wire Line
-	1400 1300 1550 1300
-$Comp
 L power:PWR_FLAG #FLG03
 U 1 1 5D1B9345
 P 9450 1450
@@ -3189,26 +3113,38 @@ $EndComp
 Wire Wire Line
 	9450 1450 9550 1450
 Connection ~ 9550 1450
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 5D1F41EB
-P 1350 1600
-F 0 "#FLG01" H 1350 1675 50  0001 C CNN
-F 1 "PWR_FLAG" H 1350 1750 50  0000 C CNN
-F 2 "" H 1350 1600 50  0001 C CNN
-F 3 "~" H 1350 1600 50  0001 C CNN
-	1    1350 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 1600 1350 1650
-Wire Wire Line
-	1350 1650 1850 1650
-Connection ~ 1850 1650
-Wire Wire Line
-	1850 1650 1850 1600
 Text Label 9500 1450 2    50   ~ 0
 VCCDPLL
 Wire Wire Line
 	2450 5250 2900 5250
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E22BE47
+P 1400 2450
+F 0 "#FLG0101" H 1400 2525 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 2600 50  0000 C CNN
+F 2 "" H 1400 2450 50  0001 C CNN
+F 3 "~" H 1400 2450 50  0001 C CNN
+	1    1400 2450
+	-1   0    0    1   
+$EndComp
+Connection ~ 1400 2450
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5E22C7F1
+P 1550 2850
+F 0 "#FLG0102" H 1550 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 3000 50  0000 C CNN
+F 2 "" H 1550 2850 50  0001 C CNN
+F 3 "~" H 1550 2850 50  0001 C CNN
+	1    1550 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 2850 1550 2800
+Wire Wire Line
+	1550 2800 1850 2800
+Connection ~ 1850 2800
+Wire Wire Line
+	1850 2800 1850 2750
 $EndSCHEMATC
