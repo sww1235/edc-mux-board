@@ -136,17 +136,17 @@ Connector pinout:
 
 | Pin | Signal      |
 |:----|:------------|
-| 1   | Audio GND   |
-| 2   | L Audio IN  |
-| 3   | R Audio IN  |
-| 4   | L Audio OUT |
-| 5   | R Audio OUT |
-| 6   | GND         |
-| 7   | SDA_HV      |
-| 8   | SCL_HV      |
-| 9   | I2C_INT     |
+| 1   | SDA_HV      |
+| 2   | SCL_HV      |
+| 3   | Audio GND   |
+| 4   | R Audio OUT |
+| 5   | L Audio OUT |
+| 6   | L Audio IN  |
+| 7   | R Audio IN  |
+| 8   | I2C_INT     |
+| 9   | ID_PIN      |
 | 10  | GND         |
-| 11  | ID_PIN      |
+| 11  | GND         |
 | 12  | +12V        |
 
 All analog audio IO is done at consumer line level. (IO direction is referenced
