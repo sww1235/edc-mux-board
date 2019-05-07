@@ -210,25 +210,6 @@ F 8 "SP1005-01ETG" H 1750 2650 50  0001 C CNN "Manufacturers Part Number"
 $EndComp
 $Comp
 L Device:D_TVS D?
-U 1 1 5CC29B88
-P 1900 2650
-AR Path="/5CC6CC1A/5CC6D47B/5CC29B88" Ref="D?"  Part="1" 
-AR Path="/5CB02488/5CC29B88" Ref="D?"  Part="1" 
-AR Path="/5CBF625C/5CC29B88" Ref="D40"  Part="1" 
-F 0 "D40" V 1750 2550 50  0000 L CNN
-F 1 "30pF 30kV" V 1900 2750 50  0001 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 1900 2650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1900 2650 50  0001 C CNN
-F 4 "30pF 30kV 100uA @5V" H 1900 2650 50  0001 C CNN "Characteristics"
-F 5 "Littelfuse" H 1900 2650 50  0001 C CNN "Manufacturer"
-F 6 "Transient Voltage Suppresion Diode" H 1900 2650 50  0001 C CNN "Description"
-F 7 "0402in/1005mm" H 1900 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 1900 2650 50  0001 C CNN "Manufacturers Part Number"
-	1    1900 2650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_TVS D?
 U 1 1 5CC29BA9
 P 2050 2650
 AR Path="/5CC6CC1A/5CC6D47B/5CC29BA9" Ref="D?"  Part="1" 
@@ -276,8 +257,6 @@ Connection ~ 1900 2950
 Wire Wire Line
 	1900 2950 1750 2950
 Wire Wire Line
-	950  2000 3450 2000
-Wire Wire Line
 	1100 2200 950  2200
 Wire Wire Line
 	1100 2200 1100 2300
@@ -290,9 +269,9 @@ Text Label 3450 1800 0    50   ~ 0
 M_L_IN0
 Text Label 3450 1900 0    50   ~ 0
 M_R_IN0
-Text Label 3450 2000 0    50   ~ 0
-M_INT_0
 Text Label 3450 2100 0    50   ~ 0
+M_INT_0
+Text Label 3450 2000 0    50   ~ 0
 M_ID_PIN0
 Text Label 1500 3150 0    50   ~ 0
 M_GND
@@ -611,7 +590,7 @@ Connection ~ 1900 5700
 Wire Wire Line
 	1900 5700 1750 5700
 Wire Wire Line
-	950  4750 3450 4750
+	950  4750 1900 4750
 Wire Wire Line
 	1100 4950 950  4950
 Wire Wire Line
@@ -625,9 +604,9 @@ Text Label 3450 4550 0    50   ~ 0
 M_L_IN1
 Text Label 3450 4650 0    50   ~ 0
 M_R_IN1
-Text Label 3450 4750 0    50   ~ 0
-M_INT_1
 Text Label 3450 4850 0    50   ~ 0
+M_INT_1
+Text Label 3450 4750 0    50   ~ 0
 M_ID_PIN1
 Text Label 1500 5900 0    50   ~ 0
 M_GND
@@ -945,7 +924,7 @@ Connection ~ 1900 8350
 Wire Wire Line
 	1900 8350 1750 8350
 Wire Wire Line
-	950  7400 3450 7400
+	950  7400 1900 7400
 Wire Wire Line
 	1100 7600 950  7600
 Wire Wire Line
@@ -959,9 +938,9 @@ Text Label 3450 7200 0    50   ~ 0
 M_L_IN2
 Text Label 3450 7300 0    50   ~ 0
 M_R_IN2
-Text Label 3450 7400 0    50   ~ 0
-M_INT_2
 Text Label 3450 7500 0    50   ~ 0
+M_INT_2
+Text Label 3450 7400 0    50   ~ 0
 M_ID_PIN2
 Text Label 1500 8550 0    50   ~ 0
 M_GND
@@ -1279,7 +1258,7 @@ Connection ~ 6600 2950
 Wire Wire Line
 	6600 2950 6450 2950
 Wire Wire Line
-	5650 2000 8150 2000
+	5650 2000 6600 2000
 Wire Wire Line
 	5800 2200 5650 2200
 Wire Wire Line
@@ -1293,9 +1272,9 @@ Text Label 8150 1800 0    50   ~ 0
 M_L_IN3
 Text Label 8150 1900 0    50   ~ 0
 M_R_IN3
-Text Label 8150 2000 0    50   ~ 0
-M_INT_3
 Text Label 8150 2100 0    50   ~ 0
+M_INT_3
+Text Label 8150 2000 0    50   ~ 0
 M_ID_PIN3
 Text Label 6200 3150 0    50   ~ 0
 M_GND
@@ -1613,7 +1592,7 @@ Connection ~ 6600 5700
 Wire Wire Line
 	6600 5700 6450 5700
 Wire Wire Line
-	5650 4750 8150 4750
+	5650 4750 6600 4750
 Wire Wire Line
 	5800 4950 5650 4950
 Wire Wire Line
@@ -1627,9 +1606,9 @@ Text Label 8150 4550 0    50   ~ 0
 M_L_IN4
 Text Label 8150 4650 0    50   ~ 0
 M_R_IN4
-Text Label 8150 4750 0    50   ~ 0
-M_INT_4
 Text Label 8150 4850 0    50   ~ 0
+M_INT_4
+Text Label 8150 4750 0    50   ~ 0
 M_ID_PIN4
 Text Label 6200 5900 0    50   ~ 0
 M_GND
@@ -1947,8 +1926,6 @@ Connection ~ 6600 8350
 Wire Wire Line
 	6600 8350 6450 8350
 Wire Wire Line
-	5650 7400 8150 7400
-Wire Wire Line
 	5800 7600 5650 7600
 Wire Wire Line
 	5800 7600 5800 7700
@@ -1961,9 +1938,9 @@ Text Label 8150 7200 0    50   ~ 0
 M_L_IN5
 Text Label 8150 7300 0    50   ~ 0
 M_R_IN5
-Text Label 8150 7400 0    50   ~ 0
-M_INT_5
 Text Label 8150 7500 0    50   ~ 0
+M_INT_5
+Text Label 8150 7400 0    50   ~ 0
 M_ID_PIN5
 Text Label 6200 8550 0    50   ~ 0
 M_GND
@@ -2965,8 +2942,6 @@ Wire Wire Line
 Wire Wire Line
 	950  4350 1300 4350
 Wire Wire Line
-	950  4850 1900 4850
-Wire Wire Line
 	3450 4250 950  4250
 Text Label 3450 4250 0    50   ~ 0
 M_AUD_GND1
@@ -2985,13 +2960,6 @@ Wire Wire Line
 Connection ~ 1100 5050
 Wire Wire Line
 	1100 5050 1100 5600
-Wire Wire Line
-	950  2100 1900 2100
-Wire Wire Line
-	1900 2500 1900 2100
-Connection ~ 1900 2100
-Wire Wire Line
-	1900 2100 3450 2100
 Wire Wire Line
 	1300 5250 1300 4350
 Connection ~ 1300 4350
@@ -3013,11 +2981,6 @@ Connection ~ 1750 4650
 Wire Wire Line
 	1750 4650 2400 4650
 Wire Wire Line
-	1900 5250 1900 4850
-Connection ~ 1900 4850
-Wire Wire Line
-	1900 4850 3450 4850
-Wire Wire Line
 	950  7000 1300 7000
 Wire Wire Line
 	950  7100 1450 7100
@@ -3025,8 +2988,6 @@ Wire Wire Line
 	950  7300 1750 7300
 Wire Wire Line
 	950  7200 1600 7200
-Wire Wire Line
-	950  7500 1900 7500
 Wire Wire Line
 	2050 7800 2650 7800
 Wire Wire Line
@@ -3052,11 +3013,6 @@ Connection ~ 1750 7300
 Wire Wire Line
 	1750 7300 2350 7300
 Wire Wire Line
-	1900 7900 1900 7500
-Connection ~ 1900 7500
-Wire Wire Line
-	1900 7500 3450 7500
-Wire Wire Line
 	5650 1800 6300 1800
 Wire Wire Line
 	5650 1900 6450 1900
@@ -3064,8 +3020,6 @@ Wire Wire Line
 	5650 1700 6150 1700
 Wire Wire Line
 	5650 1600 6000 1600
-Wire Wire Line
-	5650 2100 6600 2100
 Wire Wire Line
 	6750 2400 7450 2400
 Wire Wire Line
@@ -3096,11 +3050,6 @@ Connection ~ 6450 1900
 Wire Wire Line
 	6450 1900 7250 1900
 Wire Wire Line
-	6600 2500 6600 2100
-Connection ~ 6600 2100
-Wire Wire Line
-	6600 2100 8150 2100
-Wire Wire Line
 	5650 4550 6300 4550
 Wire Wire Line
 	5650 4650 6450 4650
@@ -3108,8 +3057,6 @@ Wire Wire Line
 	5650 4450 6150 4450
 Wire Wire Line
 	5650 4350 6000 4350
-Wire Wire Line
-	5650 4850 6600 4850
 Wire Wire Line
 	6750 5150 7400 5150
 Wire Wire Line
@@ -3140,11 +3087,6 @@ Connection ~ 6450 4650
 Wire Wire Line
 	6450 4650 6900 4650
 Wire Wire Line
-	6600 5250 6600 4850
-Connection ~ 6600 4850
-Wire Wire Line
-	6600 4850 8150 4850
-Wire Wire Line
 	5650 7200 6300 7200
 Wire Wire Line
 	5650 7300 6450 7300
@@ -3152,8 +3094,6 @@ Wire Wire Line
 	5650 7100 6150 7100
 Wire Wire Line
 	5650 7000 6000 7000
-Wire Wire Line
-	5650 7500 6600 7500
 Wire Wire Line
 	6750 7800 7400 7800
 Wire Wire Line
@@ -3163,11 +3103,6 @@ Wire Wire Line
 Connection ~ 5800 7700
 Wire Wire Line
 	5800 7700 5800 8250
-Wire Wire Line
-	6600 7900 6600 7500
-Connection ~ 6600 7500
-Wire Wire Line
-	6600 7500 8150 7500
 Wire Wire Line
 	6450 7900 6450 7300
 Connection ~ 6450 7300
@@ -3207,6 +3142,68 @@ F 8 "Ferrite Bead" H 550 400 50  0001 C CNN "Description"
 	1    2050 4550
 	0    1    -1   0   
 $EndComp
+Wire Wire Line
+	950  2100 3450 2100
+$Comp
+L Device:D_TVS D?
+U 1 1 5CC29B88
+P 1900 2650
+AR Path="/5CC6CC1A/5CC6D47B/5CC29B88" Ref="D?"  Part="1" 
+AR Path="/5CB02488/5CC29B88" Ref="D?"  Part="1" 
+AR Path="/5CBF625C/5CC29B88" Ref="D40"  Part="1" 
+F 0 "D40" V 1750 2550 50  0000 L CNN
+F 1 "30pF 30kV" V 1900 2750 50  0001 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 1900 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 1900 2650 50  0001 C CNN
+F 4 "30pF 30kV 100uA @5V" H 1900 2650 50  0001 C CNN "Characteristics"
+F 5 "Littelfuse" H 1900 2650 50  0001 C CNN "Manufacturer"
+F 6 "Transient Voltage Suppresion Diode" H 1900 2650 50  0001 C CNN "Description"
+F 7 "0402in/1005mm" H 1900 2650 50  0001 C CNN "Package ID"
+F 8 "SP1005-01ETG" H 1900 2650 50  0001 C CNN "Manufacturers Part Number"
+	1    1900 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 2500 1900 2000
+Wire Wire Line
+	950  2000 1900 2000
+Connection ~ 1900 2000
+Wire Wire Line
+	1900 2000 3450 2000
+Wire Wire Line
+	950  4850 3450 4850
+Wire Wire Line
+	1900 4750 1900 5250
+Connection ~ 1900 4750
+Wire Wire Line
+	1900 4750 3450 4750
+Wire Wire Line
+	950  7500 3450 7500
+Wire Wire Line
+	1900 7900 1900 7400
+Connection ~ 1900 7400
+Wire Wire Line
+	1900 7400 3450 7400
+Wire Wire Line
+	5650 7500 8150 7500
+Wire Wire Line
+	6600 7900 6600 7400
+Wire Wire Line
+	5650 7400 6600 7400
+Connection ~ 6600 7400
+Wire Wire Line
+	6600 7400 8150 7400
+Wire Wire Line
+	5650 4850 8150 4850
+Wire Wire Line
+	6600 4750 6600 5250
+Connection ~ 6600 4750
+Wire Wire Line
+	6600 4750 8150 4750
+Wire Wire Line
+	5650 2100 8150 2100
+Wire Wire Line
+	6600 2000 6600 2500
 Wire Bus Line
 	12300 3150 12300 8300
 Wire Bus Line
@@ -3225,4 +3222,7 @@ Wire Bus Line
 	15150 3450 15150 8550
 Wire Bus Line
 	15000 3550 15000 8450
+Connection ~ 6600 2000
+Wire Wire Line
+	6600 2000 8150 2000
 $EndSCHEMATC

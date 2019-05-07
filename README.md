@@ -143,8 +143,8 @@ Connector pinout:
 | 5   | L Audio OUT |
 | 6   | L Audio IN  |
 | 7   | R Audio IN  |
-| 8   | I2C_INT     |
-| 9   | ID_PIN      |
+| 8   | ID_PIN      |
+| 9   | I2C_INT     |
 | 10  | GND         |
 | 11  | GND         |
 | 12  | +12V        |
