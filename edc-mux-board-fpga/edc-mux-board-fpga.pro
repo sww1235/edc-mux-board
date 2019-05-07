@@ -1,4 +1,4 @@
-update=4/27/2019 00:15:51
+update=5/7/2019 01:24:16
 last_client=kicad
 [general]
 version=1
@@ -100,6 +100,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
+Name=High Voltage
+Clearance=0.2
+TrackWidth=0.127
+ViaDiameter=0.4572
+ViaDrill=0.254
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/6]
 Name=I2C
 Clearance=0.127
 TrackWidth=0.127
@@ -110,7 +121,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/6]
+[pcbnew/Netclasses/7]
 Name=I2C HV
 Clearance=0.127
 TrackWidth=0.127
@@ -121,7 +132,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/7]
+[pcbnew/Netclasses/8]
 Name=Master Clocks
 Clearance=0.127
 TrackWidth=0.127
@@ -132,7 +143,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/8]
+[pcbnew/Netclasses/9]
 Name=Other Audio Clocks
 Clearance=0.127
 TrackWidth=0.127
@@ -143,7 +154,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/9]
+[pcbnew/Netclasses/10]
 Name=USB Data
 Clearance=0.127
 TrackWidth=0.127

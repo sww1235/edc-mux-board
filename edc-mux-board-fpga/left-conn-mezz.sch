@@ -2004,9 +2004,9 @@ Text Label 10050 4950 2    50   ~ 0
 M_L_IN3
 Text Label 10750 4950 0    50   ~ 0
 M_R_IN3
-Text Label 10750 5350 0    50   ~ 0
-M_SDA_HV3
 Text Label 10750 5250 0    50   ~ 0
+M_SDA_HV3
+Text Label 10750 5350 0    50   ~ 0
 M_SCL_HV3
 Text Label 10050 3750 2    50   ~ 0
 M_L_OUT1
