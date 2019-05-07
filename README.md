@@ -136,8 +136,8 @@ Connector pinout:
 
 | Pin | Signal      |
 |:----|:------------|
-| 1   | SDA_HV      |
-| 2   | SCL_HV      |
+| 1   | SCL_HV      |
+| 2   | SDA_HV      |
 | 3   | Audio GND   |
 | 4   | R Audio OUT |
 | 5   | L Audio OUT |

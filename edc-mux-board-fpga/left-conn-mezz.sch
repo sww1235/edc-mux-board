@@ -80,9 +80,9 @@ F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	950  2400 2050 2400
-Text Label 3450 1300 0    50   ~ 0
-M_SDA_HV0
 Text Label 3450 1400 0    50   ~ 0
+M_SDA_HV0
+Text Label 3450 1300 0    50   ~ 0
 M_SCL_HV0
 Wire Wire Line
 	950  1300 3450 1300
@@ -686,9 +686,9 @@ F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	950  7800 2050 7800
-Text Label 3450 6700 0    50   ~ 0
-M_SDA_HV2
 Text Label 3450 6800 0    50   ~ 0
+M_SDA_HV2
+Text Label 3450 6700 0    50   ~ 0
 M_SCL_HV2
 Wire Wire Line
 	950  6700 3450 6700
@@ -1020,9 +1020,9 @@ F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	5650 2400 6750 2400
-Text Label 8150 1300 0    50   ~ 0
-M_SDA_HV3
 Text Label 8150 1400 0    50   ~ 0
+M_SDA_HV3
+Text Label 8150 1300 0    50   ~ 0
 M_SCL_HV3
 Wire Wire Line
 	5650 1300 8150 1300
@@ -1354,9 +1354,9 @@ F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	5650 5150 6750 5150
-Text Label 8150 4050 0    50   ~ 0
-M_SDA_HV4
 Text Label 8150 4150 0    50   ~ 0
+M_SDA_HV4
+Text Label 8150 4050 0    50   ~ 0
 M_SCL_HV4
 Wire Wire Line
 	5650 4050 8150 4050
@@ -1688,9 +1688,9 @@ F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	5650 7800 6750 7800
-Text Label 8150 6700 0    50   ~ 0
-M_SDA_HV5
 Text Label 8150 6800 0    50   ~ 0
+M_SDA_HV5
+Text Label 8150 6700 0    50   ~ 0
 M_SCL_HV5
 Wire Wire Line
 	5650 6700 8150 6700
@@ -2949,9 +2949,9 @@ Wire Wire Line
 	950  4150 3450 4150
 Wire Wire Line
 	950  4050 3450 4050
-Text Label 3450 4150 0    50   ~ 0
-M_SCL_HV1
 Text Label 3450 4050 0    50   ~ 0
+M_SCL_HV1
+Text Label 3450 4150 0    50   ~ 0
 M_SDA_HV1
 Wire Wire Line
 	950  5050 1100 5050
@@ -3204,6 +3204,9 @@ Wire Wire Line
 	5650 2100 8150 2100
 Wire Wire Line
 	6600 2000 6600 2500
+Connection ~ 6600 2000
+Wire Wire Line
+	6600 2000 8150 2000
 Wire Bus Line
 	12300 3150 12300 8300
 Wire Bus Line
@@ -3222,7 +3225,4 @@ Wire Bus Line
 	15150 3450 15150 8550
 Wire Bus Line
 	15000 3550 15000 8450
-Connection ~ 6600 2000
-Wire Wire Line
-	6600 2000 8150 2000
 $EndSCHEMATC
