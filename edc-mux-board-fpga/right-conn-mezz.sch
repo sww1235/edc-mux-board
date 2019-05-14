@@ -321,13 +321,13 @@ F 4 "Through Hole" H 0   100 50  0001 C CNN "Package ID"
 $EndComp
 Text Label 10300 7650 0    50   ~ 0
 M_GND
-Text Label 10800 3250 0    50   ~ 0
+Text Label 10100 3350 2    50   ~ 0
 M_L_OUT10
 Text Label 10800 3350 0    50   ~ 0
 M_R_OUT10
-Text Label 10100 3350 2    50   ~ 0
-M_L_IN10
 Text Label 10100 3250 2    50   ~ 0
+M_L_IN10
+Text Label 10800 3250 0    50   ~ 0
 M_R_IN10
 Wire Wire Line
 	10100 3250 10200 3250
@@ -2072,9 +2072,9 @@ Wire Wire Line
 	6050 8550 6050 8750
 Text Label 8200 8000 0    50   ~ 0
 M_+12V
-Text Label 10800 3650 0    50   ~ 0
-M_SDA_HV10
 Text Label 10800 3550 0    50   ~ 0
+M_SDA_HV10
+Text Label 10800 3650 0    50   ~ 0
 M_SCL_HV10
 Text Label 10100 3550 2    50   ~ 0
 M_INT_10
@@ -2082,65 +2082,57 @@ Text Label 10100 3650 2    50   ~ 0
 M_ID_PIN10
 Text Label 10100 3450 2    50   ~ 0
 M_AUD_GND10
-Text Label 10800 6850 0    50   ~ 0
-M_L_OUT15
-Text Label 10800 6750 0    50   ~ 0
-M_R_OUT15
-Text Label 10100 6850 2    50   ~ 0
-M_L_IN15
-Text Label 10100 6750 2    50   ~ 0
-M_R_IN15
-Text Label 10800 7150 0    50   ~ 0
-M_SDA_HV15
-Text Label 10800 7050 0    50   ~ 0
-M_SCL_HV15
-Text Label 10100 7050 2    50   ~ 0
-M_INT_15
-Text Label 10100 7150 2    50   ~ 0
-M_ID_PIN15
-Text Label 10100 6950 2    50   ~ 0
-M_AUD_GND15
-Text Label 10800 6250 0    50   ~ 0
-M_L_OUT14
-Text Label 10800 6150 0    50   ~ 0
-M_R_OUT14
-Text Label 10100 6250 2    50   ~ 0
-M_L_IN14
-Text Label 10100 6150 2    50   ~ 0
-M_R_IN14
-Text Label 10800 6550 0    50   ~ 0
-M_SDA_HV14
-Text Label 10800 6450 0    50   ~ 0
-M_SCL_HV14
 Text Label 10100 6450 2    50   ~ 0
-M_INT_14
-Text Label 10100 6550 2    50   ~ 0
-M_ID_PIN14
+M_L_OUT15
+Text Label 10800 6450 0    50   ~ 0
+M_R_OUT15
 Text Label 10100 6350 2    50   ~ 0
-M_AUD_GND14
-Text Label 10800 5650 0    50   ~ 0
-M_L_OUT13
-Text Label 10800 5550 0    50   ~ 0
-M_R_OUT13
-Text Label 10100 5650 2    50   ~ 0
-M_L_IN13
-Text Label 10100 5550 2    50   ~ 0
-M_R_IN13
-Text Label 10800 5950 0    50   ~ 0
-M_SDA_HV13
+M_L_IN15
+Text Label 10800 6350 0    50   ~ 0
+M_R_IN15
+Text Label 10100 6650 2    50   ~ 0
+M_INT_15
+Text Label 10100 6750 2    50   ~ 0
+M_ID_PIN15
+Text Label 10100 6550 2    50   ~ 0
+M_AUD_GND15
+Text Label 10100 5850 2    50   ~ 0
+M_L_OUT14
 Text Label 10800 5850 0    50   ~ 0
+M_R_OUT14
+Text Label 10100 5750 2    50   ~ 0
+M_L_IN14
+Text Label 10800 5750 0    50   ~ 0
+M_R_IN14
+Text Label 10800 6050 0    50   ~ 0
+M_SDA_HV14
+Text Label 10800 6150 0    50   ~ 0
+M_SCL_HV14
+Text Label 10100 6050 2    50   ~ 0
+M_INT_14
+Text Label 10100 6150 2    50   ~ 0
+M_ID_PIN14
+Text Label 10100 5950 2    50   ~ 0
+M_AUD_GND14
+Text Label 10100 5250 2    50   ~ 0
+M_L_OUT13
+Text Label 10800 5250 0    50   ~ 0
+M_R_OUT13
+Text Label 10100 5150 2    50   ~ 0
+M_L_IN13
+Text Label 10800 5150 0    50   ~ 0
+M_R_IN13
+Text Label 10800 5450 0    50   ~ 0
+M_SDA_HV13
+Text Label 10800 5550 0    50   ~ 0
 M_SCL_HV13
 Text Label 10800 3950 0    50   ~ 0
-M_L_OUT11
-Text Label 10800 3850 0    50   ~ 0
 M_R_OUT11
-Text Label 10100 3950 2    50   ~ 0
-M_L_IN11
-Text Label 10100 3850 2    50   ~ 0
+Text Label 10800 3850 0    50   ~ 0
 M_R_IN11
-Text Label 10800 4250 0    50   ~ 0
-M_SDA_HV11
 Text Label 10800 4150 0    50   ~ 0
+M_SDA_HV11
+Text Label 10800 4250 0    50   ~ 0
 M_SCL_HV11
 Text Label 10100 4150 2    50   ~ 0
 M_INT_11
@@ -2148,17 +2140,17 @@ Text Label 10100 4250 2    50   ~ 0
 M_ID_PIN11
 Text Label 10100 4050 2    50   ~ 0
 M_AUD_GND11
-Text Label 10800 4550 0    50   ~ 0
-M_L_OUT12
-Text Label 10800 4450 0    50   ~ 0
-M_R_OUT12
 Text Label 10100 4550 2    50   ~ 0
-M_L_IN12
+M_L_OUT12
+Text Label 10800 4550 0    50   ~ 0
+M_R_OUT12
 Text Label 10100 4450 2    50   ~ 0
+M_L_IN12
+Text Label 10800 4450 0    50   ~ 0
 M_R_IN12
-Text Label 10800 4850 0    50   ~ 0
-M_SDA_HV12
 Text Label 10800 4750 0    50   ~ 0
+M_SDA_HV12
+Text Label 10800 4850 0    50   ~ 0
 M_SCL_HV12
 Text Label 10100 4750 2    50   ~ 0
 M_INT_12
@@ -2166,56 +2158,54 @@ Text Label 10100 4850 2    50   ~ 0
 M_ID_PIN12
 Text Label 10100 4650 2    50   ~ 0
 M_AUD_GND12
-Text Label 10050 5050 2    50   ~ 0
+Text Label 10050 6850 2    50   ~ 0
 M_+12V
 Wire Wire Line
-	10050 5050 10100 5050
+	10050 6850 10100 6850
 Wire Wire Line
-	10100 5050 10100 5150
+	10100 6850 10100 6950
 Wire Wire Line
-	10100 5250 10200 5250
+	10100 7050 10200 7050
 Wire Wire Line
-	10200 5150 10100 5150
-Connection ~ 10100 5150
+	10200 6950 10100 6950
+Connection ~ 10100 6950
 Wire Wire Line
-	10100 5150 10100 5250
+	10100 6950 10100 7050
 Wire Wire Line
-	10200 5050 10100 5050
-Connection ~ 10100 5050
+	10200 6850 10100 6850
+Connection ~ 10100 6850
 Wire Wire Line
-	10200 5350 10100 5350
+	10200 7150 10100 7150
 Wire Wire Line
-	10100 5350 10100 5250
-Connection ~ 10100 5250
-Text Label 10850 5050 0    50   ~ 0
+	10100 7150 10100 7050
+Connection ~ 10100 7050
+Text Label 10850 6850 0    50   ~ 0
 M_+12V
 Wire Wire Line
-	10850 5050 10800 5050
+	10850 6850 10800 6850
 Wire Wire Line
-	10800 5050 10800 5150
+	10800 6850 10800 6950
 Wire Wire Line
-	10800 5250 10700 5250
+	10800 7050 10700 7050
 Wire Wire Line
-	10700 5150 10800 5150
-Connection ~ 10800 5150
+	10700 6950 10800 6950
+Connection ~ 10800 6950
 Wire Wire Line
-	10800 5150 10800 5250
+	10800 6950 10800 7050
 Wire Wire Line
-	10700 5050 10800 5050
-Connection ~ 10800 5050
+	10700 6850 10800 6850
+Connection ~ 10800 6850
 Wire Wire Line
-	10700 5350 10800 5350
+	10700 7150 10800 7150
 Wire Wire Line
-	10800 5350 10800 5250
-Connection ~ 10800 5250
+	10800 7150 10800 7050
+Connection ~ 10800 7050
 Wire Wire Line
 	10100 3450 10200 3450
 Wire Wire Line
 	10800 3650 10700 3650
 Wire Wire Line
 	10800 3550 10700 3550
-Wire Wire Line
-	10800 3950 10700 3950
 Wire Wire Line
 	10800 3850 10700 3850
 Wire Wire Line
@@ -2255,55 +2245,51 @@ Wire Wire Line
 Wire Wire Line
 	10700 4450 10800 4450
 Wire Wire Line
-	10800 5550 10700 5550
+	10800 5250 10700 5250
 Wire Wire Line
-	10800 5650 10700 5650
+	10100 5250 10200 5250
 Wire Wire Line
-	10700 5950 10800 5950
+	10700 5450 10800 5450
+Wire Wire Line
+	10700 5550 10800 5550
+Wire Wire Line
+	10200 5350 10100 5350
+Wire Wire Line
+	10200 5150 10100 5150
+Wire Wire Line
+	10700 5150 10800 5150
+Wire Wire Line
+	10200 6150 10100 6150
+Wire Wire Line
+	10200 6050 10100 6050
+Wire Wire Line
+	10200 5850 10100 5850
 Wire Wire Line
 	10700 5850 10800 5850
 Wire Wire Line
-	10200 5750 10100 5750
+	10800 6150 10700 6150
 Wire Wire Line
-	10200 5650 10100 5650
+	10800 6050 10700 6050
 Wire Wire Line
-	10200 5550 10100 5550
+	10100 5950 10200 5950
 Wire Wire Line
-	10200 6550 10100 6550
+	10100 5750 10200 5750
 Wire Wire Line
-	10200 6450 10100 6450
+	10800 5750 10700 5750
 Wire Wire Line
-	10700 6250 10800 6250
+	10100 6750 10200 6750
 Wire Wire Line
-	10700 6150 10800 6150
+	10100 6650 10200 6650
 Wire Wire Line
 	10800 6450 10700 6450
 Wire Wire Line
-	10800 6550 10700 6550
+	10100 6450 10200 6450
 Wire Wire Line
-	10100 6350 10200 6350
+	10200 6550 10100 6550
 Wire Wire Line
-	10100 6250 10200 6250
+	10200 6350 10100 6350
 Wire Wire Line
-	10100 6150 10200 6150
-Wire Wire Line
-	10100 7150 10200 7150
-Wire Wire Line
-	10100 7050 10200 7050
-Wire Wire Line
-	10800 6750 10700 6750
-Wire Wire Line
-	10800 6850 10700 6850
-Wire Wire Line
-	10700 7050 10800 7050
-Wire Wire Line
-	10700 7150 10800 7150
-Wire Wire Line
-	10200 6950 10100 6950
-Wire Wire Line
-	10200 6850 10100 6850
-Wire Wire Line
-	10200 6750 10100 6750
+	10700 6350 10800 6350
 $Comp
 L Connector_Generic:Conn_02x40_Odd_Even J?
 U 1 1 61B482A6
@@ -2828,65 +2814,21 @@ L_OUT[10..15]
 Text Label 15350 7750 1    50   ~ 0
 R_OUT[10..15]
 Wire Wire Line
-	10100 5850 10200 5850
+	10100 5450 10200 5450
 Wire Wire Line
-	10100 5950 10200 5950
-Text Label 10100 5750 2    50   ~ 0
+	10100 5550 10200 5550
+Text Label 10100 5350 2    50   ~ 0
 M_AUD_GND13
-Text Label 10100 5950 2    50   ~ 0
+Text Label 10100 5550 2    50   ~ 0
 M_ID_PIN13
-Text Label 10100 5850 2    50   ~ 0
+Text Label 10100 5450 2    50   ~ 0
 M_INT_13
-Wire Wire Line
-	9600 7650 9600 6650
-Wire Wire Line
-	9600 6650 10200 6650
-Wire Wire Line
-	10700 6950 11300 6950
-Wire Wire Line
-	11300 6950 11300 7650
 Wire Wire Line
 	9600 7650 11300 7650
 Wire Wire Line
-	10700 6650 11300 6650
-Wire Wire Line
-	11300 6650 11300 6950
-Connection ~ 11300 6950
-Wire Wire Line
-	11300 6350 11300 6650
-Connection ~ 11300 6650
-Wire Wire Line
-	10700 6350 11300 6350
-Wire Wire Line
-	10700 6050 11300 6050
-Wire Wire Line
-	11300 6050 11300 6350
-Connection ~ 11300 6350
-Wire Wire Line
-	11300 5750 11300 6050
-Connection ~ 11300 6050
-Wire Wire Line
-	10700 5750 11300 5750
-Wire Wire Line
-	10700 5450 11300 5450
-Wire Wire Line
-	11300 5450 11300 5750
-Connection ~ 11300 5750
-Wire Wire Line
-	9600 6050 9600 6650
-Connection ~ 9600 6650
-Wire Wire Line
-	9600 6050 10200 6050
-Wire Wire Line
-	9600 6050 9600 5450
-Wire Wire Line
-	9600 5450 10200 5450
-Connection ~ 9600 6050
-Wire Wire Line
 	10200 4950 9600 4950
 Wire Wire Line
-	9600 4950 9600 5450
-Connection ~ 9600 5450
+	9600 4950 9600 5050
 Wire Wire Line
 	10200 4350 9600 4350
 Wire Wire Line
@@ -2899,12 +2841,11 @@ Wire Wire Line
 Connection ~ 9600 4350
 Wire Wire Line
 	10700 3450 11300 3450
-Connection ~ 11300 5450
 Wire Wire Line
 	10700 4950 11300 4950
 Connection ~ 11300 4950
 Wire Wire Line
-	11300 4950 11300 5450
+	11300 4950 11300 5050
 Wire Wire Line
 	10700 4650 11300 4650
 Connection ~ 11300 4650
@@ -3300,6 +3241,65 @@ Wire Wire Line
 Connection ~ 14750 6550
 Wire Wire Line
 	14750 6550 14750 7650
+Text Label 10100 3850 2    50   ~ 0
+M_L_IN11
+Wire Wire Line
+	10800 3950 10700 3950
+Text Label 10100 3950 2    50   ~ 0
+M_L_OUT11
+Wire Wire Line
+	10700 5050 11300 5050
+Connection ~ 11300 5050
+Wire Wire Line
+	10200 5050 9600 5050
+Connection ~ 9600 5050
+Wire Wire Line
+	11300 5050 11300 5350
+Wire Wire Line
+	9600 5050 9600 5650
+Wire Wire Line
+	10700 5350 11300 5350
+Connection ~ 11300 5350
+Wire Wire Line
+	11300 5350 11300 5650
+Wire Wire Line
+	10700 5650 11300 5650
+Connection ~ 11300 5650
+Wire Wire Line
+	10200 5650 9600 5650
+Connection ~ 9600 5650
+Wire Wire Line
+	9600 5650 9600 6250
+Wire Wire Line
+	11300 5650 11300 5950
+Wire Wire Line
+	10700 5950 11300 5950
+Connection ~ 11300 5950
+Wire Wire Line
+	11300 5950 11300 6250
+Wire Wire Line
+	11300 6250 10700 6250
+Connection ~ 11300 6250
+Wire Wire Line
+	11300 6250 11300 6550
+Wire Wire Line
+	9600 6250 10200 6250
+Connection ~ 9600 6250
+Wire Wire Line
+	9600 6250 9600 7650
+Wire Wire Line
+	10700 6750 10800 6750
+Text Label 10800 6750 0    50   ~ 0
+M_SCL_HV15
+Wire Wire Line
+	10700 6650 10800 6650
+Text Label 10800 6650 0    50   ~ 0
+M_SDA_HV15
+Wire Wire Line
+	10700 6550 11300 6550
+Connection ~ 11300 6550
+Wire Wire Line
+	11300 6550 11300 7650
 Wire Bus Line
 	12350 3350 12350 8500
 Wire Bus Line

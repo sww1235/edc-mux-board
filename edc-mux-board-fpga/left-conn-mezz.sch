@@ -269,9 +269,9 @@ Text Label 3450 1800 0    50   ~ 0
 M_L_IN0
 Text Label 3450 1900 0    50   ~ 0
 M_R_IN0
-Text Label 3450 2100 0    50   ~ 0
-M_INT_0
 Text Label 3450 2000 0    50   ~ 0
+M_INT_0
+Text Label 3450 2100 0    50   ~ 0
 M_ID_PIN0
 Text Label 1500 3150 0    50   ~ 0
 M_GND
@@ -604,9 +604,9 @@ Text Label 3450 4550 0    50   ~ 0
 M_L_IN1
 Text Label 3450 4650 0    50   ~ 0
 M_R_IN1
-Text Label 3450 4850 0    50   ~ 0
-M_INT_1
 Text Label 3450 4750 0    50   ~ 0
+M_INT_1
+Text Label 3450 4850 0    50   ~ 0
 M_ID_PIN1
 Text Label 1500 5900 0    50   ~ 0
 M_GND
@@ -938,9 +938,9 @@ Text Label 3450 7200 0    50   ~ 0
 M_L_IN2
 Text Label 3450 7300 0    50   ~ 0
 M_R_IN2
-Text Label 3450 7500 0    50   ~ 0
-M_INT_2
 Text Label 3450 7400 0    50   ~ 0
+M_INT_2
+Text Label 3450 7500 0    50   ~ 0
 M_ID_PIN2
 Text Label 1500 8550 0    50   ~ 0
 M_GND
@@ -1272,9 +1272,9 @@ Text Label 8150 1800 0    50   ~ 0
 M_L_IN3
 Text Label 8150 1900 0    50   ~ 0
 M_R_IN3
-Text Label 8150 2100 0    50   ~ 0
-M_INT_3
 Text Label 8150 2000 0    50   ~ 0
+M_INT_3
+Text Label 8150 2100 0    50   ~ 0
 M_ID_PIN3
 Text Label 6200 3150 0    50   ~ 0
 M_GND
@@ -1606,9 +1606,9 @@ Text Label 8150 4550 0    50   ~ 0
 M_L_IN4
 Text Label 8150 4650 0    50   ~ 0
 M_R_IN4
-Text Label 8150 4850 0    50   ~ 0
-M_INT_4
 Text Label 8150 4750 0    50   ~ 0
+M_INT_4
+Text Label 8150 4850 0    50   ~ 0
 M_ID_PIN4
 Text Label 6200 5900 0    50   ~ 0
 M_GND
@@ -1938,9 +1938,9 @@ Text Label 8150 7200 0    50   ~ 0
 M_L_IN5
 Text Label 8150 7300 0    50   ~ 0
 M_R_IN5
-Text Label 8150 7500 0    50   ~ 0
-M_INT_5
 Text Label 8150 7400 0    50   ~ 0
+M_INT_5
+Text Label 8150 7500 0    50   ~ 0
 M_ID_PIN5
 Text Label 6200 8550 0    50   ~ 0
 M_GND
