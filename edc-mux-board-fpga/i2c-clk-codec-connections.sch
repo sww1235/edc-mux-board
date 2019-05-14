@@ -684,19 +684,19 @@ F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 $EndComp
 Text Label 2950 1700 0    50   ~ 0
 MCLK0
-Text Label 2950 1800 0    50   ~ 0
-MCLK1
-Text Label 2950 1900 0    50   ~ 0
-MCLK2
-Text Label 2950 2000 0    50   ~ 0
-MCLK3
 Text Label 2950 2100 0    50   ~ 0
-MCLK4
-Text Label 2950 2200 0    50   ~ 0
-MCLK5
+MCLK1
 Text Label 2950 2300 0    50   ~ 0
-MCLK6
+MCLK2
 Text Label 2950 2400 0    50   ~ 0
+MCLK3
+Text Label 2950 2200 0    50   ~ 0
+MCLK4
+Text Label 2950 1900 0    50   ~ 0
+MCLK5
+Text Label 2950 2000 0    50   ~ 0
+MCLK6
+Text Label 2950 1800 0    50   ~ 0
 MCLK7
 Text Label 2950 4100 0    50   ~ 0
 MCLK8
@@ -2377,6 +2377,10 @@ Wire Wire Line
 Connection ~ 1950 3800
 Wire Wire Line
 	1950 3800 1950 3850
+Text Label 2350 3800 0    50   ~ 0
+CLK_DISTRO_3V3_2
+Text Label 2350 1400 0    50   ~ 0
+CLK_DISTRO_3V3_1
 Wire Bus Line
 	6400 3150 6400 5350
 Wire Bus Line
@@ -2385,8 +2389,4 @@ Wire Bus Line
 	10950 1650 10950 6150
 Wire Bus Line
 	10750 1800 10750 6000
-Text Label 2350 3800 0    50   ~ 0
-CLK_DISTRO_3V3_2
-Text Label 2350 1400 0    50   ~ 0
-CLK_DISTRO_3V3_1
 $EndSCHEMATC
