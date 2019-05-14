@@ -87,9 +87,9 @@ F 8 "MLCC Capacitor" H -50 400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	1200 2500 2300 2500
-Text Label 3700 1400 0    50   ~ 0
-M_SDA_HV6
 Text Label 3700 1500 0    50   ~ 0
+M_SDA_HV6
+Text Label 3700 1400 0    50   ~ 0
 M_SCL_HV6
 Wire Wire Line
 	1200 1400 3700 1400
@@ -464,9 +464,9 @@ F 8 "MLCC Capacitor" H -50 400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	1200 5250 2300 5250
-Text Label 3700 4150 0    50   ~ 0
-M_SDA_HV7
 Text Label 3700 4250 0    50   ~ 0
+M_SDA_HV7
+Text Label 3700 4150 0    50   ~ 0
 M_SCL_HV7
 Wire Wire Line
 	1200 4150 3700 4150
@@ -807,9 +807,9 @@ F 8 "MLCC Capacitor" H -50 400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	1200 7900 2300 7900
-Text Label 3700 6800 0    50   ~ 0
-M_SDA_HV8
 Text Label 3700 6900 0    50   ~ 0
+M_SDA_HV8
+Text Label 3700 6800 0    50   ~ 0
 M_SCL_HV8
 Wire Wire Line
 	1200 6800 3700 6800
@@ -1110,9 +1110,9 @@ F 8 "MLCC Capacitor" H -50 400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	5900 2500 7000 2500
-Text Label 8400 1400 0    50   ~ 0
-M_SDA_HV9
 Text Label 8400 1500 0    50   ~ 0
+M_SDA_HV9
+Text Label 8400 1400 0    50   ~ 0
 M_SCL_HV9
 Wire Wire Line
 	5900 1400 8400 1400

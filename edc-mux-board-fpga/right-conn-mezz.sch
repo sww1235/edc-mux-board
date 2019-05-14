@@ -83,9 +83,9 @@ F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	1000 2600 2100 2600
-Text Label 3500 1500 0    50   ~ 0
-M_SDA_HV10
 Text Label 3500 1600 0    50   ~ 0
+M_SDA_HV10
+Text Label 3500 1500 0    50   ~ 0
 M_SCL_HV10
 $Comp
 L Device:Ferrite_Bead_Small FB?
@@ -410,9 +410,9 @@ F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	1000 5350 2100 5350
-Text Label 3500 4250 0    50   ~ 0
-M_SDA_HV11
 Text Label 3500 4350 0    50   ~ 0
+M_SDA_HV11
+Text Label 3500 4250 0    50   ~ 0
 M_SCL_HV11
 Wire Wire Line
 	1000 4250 3500 4250
@@ -757,9 +757,9 @@ F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	1000 8000 2100 8000
-Text Label 3500 6900 0    50   ~ 0
-M_SDA_HV12
 Text Label 3500 7000 0    50   ~ 0
+M_SDA_HV12
+Text Label 3500 6900 0    50   ~ 0
 M_SCL_HV12
 Wire Wire Line
 	1000 6900 3500 6900
@@ -1104,9 +1104,9 @@ F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	5700 2600 6800 2600
-Text Label 8200 1500 0    50   ~ 0
-M_SDA_HV13
 Text Label 8200 1600 0    50   ~ 0
+M_SDA_HV13
+Text Label 8200 1500 0    50   ~ 0
 M_SCL_HV13
 Wire Wire Line
 	5700 1500 8200 1500
@@ -1451,9 +1451,9 @@ F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	5700 5350 6800 5350
-Text Label 8200 4250 0    50   ~ 0
-M_SDA_HV14
 Text Label 8200 4350 0    50   ~ 0
+M_SDA_HV14
+Text Label 8200 4250 0    50   ~ 0
 M_SCL_HV14
 Wire Wire Line
 	5700 4250 8200 4250
@@ -1798,9 +1798,9 @@ F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	5700 8000 6800 8000
-Text Label 8200 6900 0    50   ~ 0
-M_SDA_HV15
 Text Label 8200 7000 0    50   ~ 0
+M_SDA_HV15
+Text Label 8200 6900 0    50   ~ 0
 M_SCL_HV15
 Wire Wire Line
 	5700 6900 8200 6900
