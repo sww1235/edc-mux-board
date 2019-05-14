@@ -36,169 +36,101 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 61B47D43
-P 3300 1700
+P 3300 2100
 AR Path="/5CC6CC1A/5CC6D47B/61B47D43" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B47D43" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B47D43" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B47D43" Ref="C456"  Part="1" 
-F 0 "C456" V 3450 1700 50  0000 C CNN
-F 1 "1uF X7R flex" V 3550 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3300 1700 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3300 1700 50  0001 C CNN
-F 4 "Kemet" H 3300 1700 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RECAUTO" H 3300 1700 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 100 -1400 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    3300 1700
+F 0 "C456" V 3450 2100 50  0000 C CNN
+F 1 "1uF X7R flex" V 3550 2100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3300 2100 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3300 2100 50  0001 C CNN
+F 4 "Kemet" H 3300 2100 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RECAUTO" H 3300 2100 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 100 -1000 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    3300 2100
 	0    1    1    0   
 $EndComp
 Text Notes 3300 1400 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	3000 1600 1650 1600
+	3000 2000 2200 2000
 Wire Wire Line
-	3200 1600 3500 1600
+	3200 2000 3500 2000
 Wire Wire Line
-	3400 1700 3500 1700
-Text Label 3500 1800 0    50   ~ 0
-M_L_OUT10
-Wire Wire Line
-	1000 1800 1650 1800
-Text Label 3500 1900 0    50   ~ 0
-M_R_OUT10
-Wire Wire Line
-	1000 1900 1800 1900
+	3400 2100 3500 2100
 $Comp
 L Device:C_Small C?
 U 1 1 61B47D54
-P 3100 1600
+P 3100 2000
 AR Path="/5CC6CC1A/5CC6D47B/61B47D54" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B47D54" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B47D54" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B47D54" Ref="C453"  Part="1" 
-F 0 "C453" V 2850 1600 50  0000 C CNN
-F 1 "1uF X7R flex" V 2950 1600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3100 1600 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3100 1600 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3100 1600 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 3100 1600 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 100 -1400 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    3100 1600
+F 0 "C453" V 2850 2000 50  0000 C CNN
+F 1 "1uF X7R flex" V 2950 2000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3100 2000 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3100 2000 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 3100 2000 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3100 2000 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 100 -1000 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    3100 2000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1000 2000 1150 2000
-Wire Wire Line
 	1000 2600 2100 2600
-Text Label 2050 2100 0    50   ~ 0
+Text Label 3500 1500 0    50   ~ 0
 M_SDA_HV10
-Text Label 2050 2200 0    50   ~ 0
+Text Label 3500 1600 0    50   ~ 0
 M_SCL_HV10
-Wire Wire Line
-	1000 2100 1150 2100
-Wire Wire Line
-	1000 2200 1150 2200
-Wire Wire Line
-	1000 2500 1950 2500
-Wire Wire Line
-	1450 1600 1350 1600
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47D66
-P 1950 1700
+P 2300 2100
 AR Path="/5CC6CC1A/5CC6D47B/61B47D66" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47D66" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47D66" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47D66" Ref="FB65"  Part="1" 
-F 0 "FB65" V 1700 1700 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 1800 1700 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 1880 1700 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1950 1700 50  0001 C CNN
-F 4 "Murata" H 1950 1700 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 1950 1700 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 1950 1700 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    1950 1700
+F 0 "FB65" V 2050 2100 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2150 2100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2230 2100 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2300 2100 50  0001 C CNN
+F 4 "Murata" H 2300 2100 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2300 2100 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 2300 2100 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 350 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 350 400 50  0001 C CNN "Description"
+	1    2300 2100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2050 1700 3200 1700
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 61B47D70
-P 2350 1800
-AR Path="/5CC6CC1A/5CC6D47B/61B47D70" Ref="FB?"  Part="1" 
-AR Path="/5CB02488/61B47D70" Ref="FB?"  Part="1" 
-AR Path="/5CBF625C/61B47D70" Ref="FB?"  Part="1" 
-AR Path="/5CBF628A/61B47D70" Ref="FB68"  Part="1" 
-F 0 "FB68" V 2100 1800 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 2200 1800 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 2280 1800 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2350 1800 50  0001 C CNN
-F 4 "Murata" H 2350 1800 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2350 1800 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 2350 1800 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    2350 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2450 1800 3500 1800
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 61B47D7A
-P 2750 1900
-AR Path="/5CC6CC1A/5CC6D47B/61B47D7A" Ref="FB?"  Part="1" 
-AR Path="/5CB02488/61B47D7A" Ref="FB?"  Part="1" 
-AR Path="/5CBF625C/61B47D7A" Ref="FB?"  Part="1" 
-AR Path="/5CBF628A/61B47D7A" Ref="FB71"  Part="1" 
-F 0 "FB71" V 2500 1900 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 2600 1900 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 2680 1900 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2750 1900 50  0001 C CNN
-F 4 "Murata" H 2750 1900 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2750 1900 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 2750 1900 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    2750 1900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2850 1900 3500 1900
-Wire Wire Line
-	1000 1700 1500 1700
+	2400 2100 3200 2100
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47D85
-P 1550 1600
+P 2100 2000
 AR Path="/5CC6CC1A/5CC6D47B/61B47D85" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47D85" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47D85" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47D85" Ref="FB62"  Part="1" 
-F 0 "FB62" V 1300 1600 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 1400 1600 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 1480 1600 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1550 1600 50  0001 C CNN
-F 4 "Murata" H 1550 1600 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 1550 1600 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 1550 1600 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    1550 1600
-	0    1    1    0   
+F 0 "FB62" V 1850 2000 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 1950 2000 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2030 2000 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2100 2000 50  0001 C CNN
+F 4 "Murata" H 2100 2000 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2100 2000 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 2100 2000 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 550 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 550 400 50  0001 C CNN "Description"
+	1    2100 2000
+	0    1    -1   0   
 $EndComp
-Text Label 1200 1400 1    50   ~ 0
+Text Label 3500 1700 0    50   ~ 0
 M_AUD_GND10
-Wire Wire Line
-	1200 1500 1200 1400
-Wire Wire Line
-	1000 1500 1200 1500
 Text Notes 1450 1250 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
@@ -301,31 +233,6 @@ F 8 "SP1005-01ETG" H 1950 2850 50  0001 C CNN "Manufacturers Part Number"
 	1    1950 2850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1350 1600 1350 2700
-Connection ~ 1350 1600
-Wire Wire Line
-	1350 1600 1000 1600
-Wire Wire Line
-	1500 1700 1500 2700
-Connection ~ 1500 1700
-Wire Wire Line
-	1500 1700 1850 1700
-Wire Wire Line
-	1650 1800 1650 2700
-Connection ~ 1650 1800
-Wire Wire Line
-	1650 1800 2250 1800
-Wire Wire Line
-	1800 1900 1800 2700
-Connection ~ 1800 1900
-Wire Wire Line
-	1800 1900 2650 1900
-Wire Wire Line
-	1950 2500 1950 2700
-Connection ~ 1950 2500
-Wire Wire Line
-	1950 2500 2050 2500
 $Comp
 L Device:D_TVS D?
 U 1 1 61B47DD9
@@ -376,52 +283,41 @@ Connection ~ 1950 3150
 Wire Wire Line
 	1950 3150 1800 3150
 Wire Wire Line
-	1000 2300 1150 2300
-Wire Wire Line
-	1150 2000 1150 2100
-Wire Wire Line
 	1150 2400 1000 2400
 Wire Wire Line
-	1150 2400 1150 3050
-Wire Wire Line
 	1150 3050 1350 3050
-Connection ~ 1150 2400
 Connection ~ 1350 3050
 Wire Wire Line
 	1350 3050 1350 3150
-Text Label 3500 1600 0    50   ~ 0
+Text Label 3500 2000 0    50   ~ 0
 M_L_IN10
-Text Label 3500 1700 0    50   ~ 0
+Text Label 3500 2100 0    50   ~ 0
 M_R_IN10
-Text Label 2050 2300 0    50   ~ 0
+Text Label 3500 2200 0    50   ~ 0
 M_INT_10
-Text Label 2050 2500 0    50   ~ 0
+Text Label 3500 2300 0    50   ~ 0
 M_ID_PIN10
-Wire Wire Line
-	2100 2600 2600 2600
 Text Label 1550 3350 0    50   ~ 0
 M_GND
 Wire Wire Line
 	1350 3350 1550 3350
 Wire Wire Line
 	1350 3150 1350 3350
-Text Label 2750 2200 0    50   ~ 0
+Text Label 3500 2600 0    50   ~ 0
 M_+12V
-Wire Wire Line
-	2600 2200 2750 2200
 $Comp
 L Connector_Generic:Conn_02x40_Odd_Even J?
 U 1 1 61B47E0B
-P 10400 5150
+P 10400 5250
 AR Path="/5CBF625C/61B47E0B" Ref="J?"  Part="1" 
 AR Path="/5CBF628A/61B47E0B" Ref="J26"  Part="1" 
-F 0 "J26" H 10450 7150 50  0000 C CNN
-F 1 "Left Mezzanine Board Connector (Daughterboard)" H 10450 3050 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x40_P2.54mm_Horizontal" H 10400 5150 50  0001 C CNN
-F 3 "~" H 10400 5150 50  0001 C CNN
-F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
-	1    10400 5150
-	1    0    0    -1  
+F 0 "J26" H 10450 7250 50  0000 C CNN
+F 1 "Left Mezzanine Board Connector (Daughterboard)" H 10450 3150 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x40_P2.54mm_Horizontal" H 10400 5250 50  0001 C CNN
+F 3 "~" H 10400 5250 50  0001 C CNN
+F 4 "Through Hole" H 0   100 50  0001 C CNN "Package ID"
+	1    10400 5250
+	1    0    0    1   
 $EndComp
 Text Label 10300 7650 0    50   ~ 0
 M_GND
@@ -463,169 +359,153 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 61B47E23
-P 3300 4450
+P 3300 4850
 AR Path="/5CC6CC1A/5CC6D47B/61B47E23" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B47E23" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B47E23" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B47E23" Ref="C457"  Part="1" 
-F 0 "C457" V 3450 4450 50  0000 C CNN
-F 1 "1uF X7R flex" V 3550 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3300 4450 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3300 4450 50  0001 C CNN
-F 4 "Kemet" H 3300 4450 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RECAUTO" H 3300 4450 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 100 1350 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    3300 4450
+F 0 "C457" V 3450 4850 50  0000 C CNN
+F 1 "1uF X7R flex" V 3550 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3300 4850 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3300 4850 50  0001 C CNN
+F 4 "Kemet" H 3300 4850 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RECAUTO" H 3300 4850 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 100 1750 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    3300 4850
 	0    1    1    0   
 $EndComp
 Text Notes 3300 4150 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	3000 4350 1650 4350
+	3000 4750 2250 4750
 Wire Wire Line
-	3200 4350 3500 4350
+	3200 4750 3500 4750
 Wire Wire Line
-	3400 4450 3500 4450
-Text Label 3500 4550 0    50   ~ 0
-M_L_OUT11
-Wire Wire Line
-	1000 4550 1650 4550
+	3400 4850 3500 4850
 Text Label 3500 4650 0    50   ~ 0
+M_L_OUT11
+Text Label 3500 4550 0    50   ~ 0
 M_R_OUT11
-Wire Wire Line
-	1000 4650 1800 4650
 $Comp
 L Device:C_Small C?
 U 1 1 61B47E34
-P 3100 4350
+P 3100 4750
 AR Path="/5CC6CC1A/5CC6D47B/61B47E34" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B47E34" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B47E34" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B47E34" Ref="C454"  Part="1" 
-F 0 "C454" V 2850 4350 50  0000 C CNN
-F 1 "1uF X7R flex" V 2950 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3100 4350 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3100 4350 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3100 4350 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 3100 4350 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 100 1350 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    3100 4350
+F 0 "C454" V 2850 4750 50  0000 C CNN
+F 1 "1uF X7R flex" V 2950 4750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3100 4750 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3100 4750 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 3100 4750 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3100 4750 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 100 1750 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    3100 4750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1000 4750 1150 4750
-Wire Wire Line
 	1000 5350 2100 5350
-Text Label 2050 4850 0    50   ~ 0
+Text Label 3500 4250 0    50   ~ 0
 M_SDA_HV11
-Text Label 2050 4950 0    50   ~ 0
+Text Label 3500 4350 0    50   ~ 0
 M_SCL_HV11
 Wire Wire Line
-	1000 4850 2050 4850
+	1000 4250 3500 4250
 Wire Wire Line
-	1000 4950 2050 4950
-Wire Wire Line
-	1000 5250 1950 5250
-Wire Wire Line
-	1450 4350 1350 4350
+	1000 4350 3500 4350
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47E46
-P 1950 4450
+P 2400 4850
 AR Path="/5CC6CC1A/5CC6D47B/61B47E46" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47E46" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47E46" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47E46" Ref="FB66"  Part="1" 
-F 0 "FB66" V 1700 4450 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 1800 4450 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 1880 4450 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1950 4450 50  0001 C CNN
-F 4 "Murata" H 1950 4450 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 1950 4450 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 1950 4450 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    1950 4450
+F 0 "FB66" V 2150 4850 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2250 4850 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2330 4850 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2400 4850 50  0001 C CNN
+F 4 "Murata" H 2400 4850 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2400 4850 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 2400 4850 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 450 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 450 400 50  0001 C CNN "Description"
+	1    2400 4850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2050 4450 3200 4450
+	2500 4850 3200 4850
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47E50
-P 2350 4550
+P 2800 4650
 AR Path="/5CC6CC1A/5CC6D47B/61B47E50" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47E50" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47E50" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47E50" Ref="FB69"  Part="1" 
-F 0 "FB69" V 2100 4550 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 2200 4550 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 2280 4550 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2350 4550 50  0001 C CNN
-F 4 "Murata" H 2350 4550 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2350 4550 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 2350 4550 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    2350 4550
-	0    1    1    0   
+F 0 "FB69" V 2550 4650 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2650 4650 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2730 4650 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2800 4650 50  0001 C CNN
+F 4 "Murata" H 2800 4650 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2800 4650 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 2800 4650 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 450 100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 450 100 50  0001 C CNN "Description"
+	1    2800 4650
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	2450 4550 3500 4550
+	2900 4650 3500 4650
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47E5A
-P 2750 4650
+P 2900 4550
 AR Path="/5CC6CC1A/5CC6D47B/61B47E5A" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47E5A" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47E5A" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47E5A" Ref="FB72"  Part="1" 
-F 0 "FB72" V 2500 4650 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 2600 4650 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 2680 4650 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2750 4650 50  0001 C CNN
-F 4 "Murata" H 2750 4650 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2750 4650 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 2750 4650 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    2750 4650
-	0    1    1    0   
+F 0 "FB72" V 3200 4550 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 3100 4550 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2830 4550 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2900 4550 50  0001 C CNN
+F 4 "Murata" H 2900 4550 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2900 4550 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 2900 4550 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 150 -100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 150 -100 50  0001 C CNN "Description"
+	1    2900 4550
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	2850 4650 3500 4650
-Wire Wire Line
-	1000 4450 1500 4450
+	3000 4550 3500 4550
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47E65
-P 1550 4350
+P 2150 4750
 AR Path="/5CC6CC1A/5CC6D47B/61B47E65" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47E65" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47E65" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47E65" Ref="FB63"  Part="1" 
-F 0 "FB63" V 1300 4350 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 1400 4350 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 1480 4350 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1550 4350 50  0001 C CNN
-F 4 "Murata" H 1550 4350 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 1550 4350 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 1550 4350 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    1550 4350
-	0    1    1    0   
+F 0 "FB63" V 1900 4750 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2000 4750 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2080 4750 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2150 4750 50  0001 C CNN
+F 4 "Murata" H 2150 4750 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2150 4750 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 2150 4750 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 600 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 600 400 50  0001 C CNN "Description"
+	1    2150 4750
+	0    1    -1   0   
 $EndComp
-Text Label 1200 4150 1    50   ~ 0
+Text Label 3500 4450 0    50   ~ 0
 M_AUD_GND11
-Wire Wire Line
-	1200 4250 1200 4150
-Wire Wire Line
-	1000 4250 1200 4250
 Text Notes 1450 4000 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
@@ -728,31 +608,6 @@ F 8 "SP1005-01ETG" H 1950 5600 50  0001 C CNN "Manufacturers Part Number"
 	1    1950 5600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1350 4350 1350 5450
-Connection ~ 1350 4350
-Wire Wire Line
-	1350 4350 1000 4350
-Wire Wire Line
-	1500 4450 1500 5450
-Connection ~ 1500 4450
-Wire Wire Line
-	1500 4450 1850 4450
-Wire Wire Line
-	1650 4550 1650 5450
-Connection ~ 1650 4550
-Wire Wire Line
-	1650 4550 2250 4550
-Wire Wire Line
-	1800 4650 1800 5450
-Connection ~ 1800 4650
-Wire Wire Line
-	1800 4650 2650 4650
-Wire Wire Line
-	1950 5250 1950 5450
-Connection ~ 1950 5250
-Wire Wire Line
-	1950 5250 2050 5250
 $Comp
 L Device:D_TVS D?
 U 1 1 61B47EB9
@@ -803,39 +658,32 @@ Connection ~ 1950 5900
 Wire Wire Line
 	1950 5900 1800 5900
 Wire Wire Line
-	1000 5050 2050 5050
-Wire Wire Line
-	1150 4750 1150 5150
+	1000 4950 3500 4950
 Wire Wire Line
 	1150 5150 1000 5150
 Wire Wire Line
-	1150 5150 1150 5800
+	1150 5150 1150 5250
 Wire Wire Line
 	1150 5800 1350 5800
-Connection ~ 1150 5150
 Connection ~ 1350 5800
 Wire Wire Line
 	1350 5800 1350 5900
-Text Label 3500 4350 0    50   ~ 0
+Text Label 3500 4750 0    50   ~ 0
 M_L_IN11
-Text Label 3500 4450 0    50   ~ 0
+Text Label 3500 4850 0    50   ~ 0
 M_R_IN11
-Text Label 2050 5050 0    50   ~ 0
+Text Label 3500 4950 0    50   ~ 0
 M_INT_11
-Text Label 2050 5250 0    50   ~ 0
+Text Label 3500 5050 0    50   ~ 0
 M_ID_PIN11
-Wire Wire Line
-	2100 5350 2600 5350
 Text Label 1550 6100 0    50   ~ 0
 M_GND
 Wire Wire Line
 	1350 6100 1550 6100
 Wire Wire Line
 	1350 5900 1350 6100
-Text Label 2750 4950 0    50   ~ 0
+Text Label 3500 5350 0    50   ~ 0
 M_+12V
-Wire Wire Line
-	2600 4950 2750 4950
 $Comp
 L Connector_Generic:Conn_01x12 J?
 U 1 1 61B47EEB
@@ -858,169 +706,153 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 61B47EF4
-P 3300 7100
+P 3300 7500
 AR Path="/5CC6CC1A/5CC6D47B/61B47EF4" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B47EF4" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B47EF4" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B47EF4" Ref="C458"  Part="1" 
-F 0 "C458" V 3450 7100 50  0000 C CNN
-F 1 "1uF X7R flex" V 3550 7100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3300 7100 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3300 7100 50  0001 C CNN
-F 4 "Kemet" H 3300 7100 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RECAUTO" H 3300 7100 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 100 4000 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    3300 7100
+F 0 "C458" V 3450 7500 50  0000 C CNN
+F 1 "1uF X7R flex" V 3550 7500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3300 7500 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3300 7500 50  0001 C CNN
+F 4 "Kemet" H 3300 7500 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RECAUTO" H 3300 7500 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 100 4400 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    3300 7500
 	0    1    1    0   
 $EndComp
 Text Notes 3300 6800 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	3000 7000 1650 7000
+	3000 7400 2450 7400
 Wire Wire Line
-	3200 7000 3500 7000
+	3200 7400 3500 7400
 Wire Wire Line
-	3400 7100 3500 7100
-Text Label 3500 7200 0    50   ~ 0
-M_L_OUT12
-Wire Wire Line
-	1000 7200 1650 7200
+	3400 7500 3500 7500
 Text Label 3500 7300 0    50   ~ 0
+M_L_OUT12
+Text Label 3500 7200 0    50   ~ 0
 M_R_OUT12
-Wire Wire Line
-	1000 7300 1800 7300
 $Comp
 L Device:C_Small C?
 U 1 1 61B47F05
-P 3100 7000
+P 3100 7400
 AR Path="/5CC6CC1A/5CC6D47B/61B47F05" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B47F05" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B47F05" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B47F05" Ref="C455"  Part="1" 
-F 0 "C455" V 2850 7000 50  0000 C CNN
-F 1 "1uF X7R flex" V 2950 7000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3100 7000 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3100 7000 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3100 7000 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 3100 7000 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 100 4000 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    3100 7000
+F 0 "C455" V 2850 7400 50  0000 C CNN
+F 1 "1uF X7R flex" V 2950 7400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3100 7400 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3100 7400 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 3100 7400 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3100 7400 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 100 4400 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    3100 7400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1000 7400 1150 7400
-Wire Wire Line
 	1000 8000 2100 8000
-Text Label 2050 7500 0    50   ~ 0
+Text Label 3500 6900 0    50   ~ 0
 M_SDA_HV12
-Text Label 2050 7600 0    50   ~ 0
+Text Label 3500 7000 0    50   ~ 0
 M_SCL_HV12
 Wire Wire Line
-	1000 7500 2050 7500
+	1000 6900 3500 6900
 Wire Wire Line
-	1000 7600 2050 7600
-Wire Wire Line
-	1000 7900 1950 7900
-Wire Wire Line
-	1450 7000 1350 7000
+	1000 7000 3500 7000
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47F17
-P 1950 7100
+P 2600 7500
 AR Path="/5CC6CC1A/5CC6D47B/61B47F17" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47F17" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47F17" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47F17" Ref="FB67"  Part="1" 
-F 0 "FB67" V 1700 7100 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 1800 7100 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 1880 7100 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1950 7100 50  0001 C CNN
-F 4 "Murata" H 1950 7100 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 1950 7100 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 1950 7100 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    1950 7100
+F 0 "FB67" V 2750 7500 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2850 7500 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2530 7500 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2600 7500 50  0001 C CNN
+F 4 "Murata" H 2600 7500 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2600 7500 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 2600 7500 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 650 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 650 400 50  0001 C CNN "Description"
+	1    2600 7500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2050 7100 3200 7100
+	2700 7500 3200 7500
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47F21
-P 2350 7200
+P 2750 7300
 AR Path="/5CC6CC1A/5CC6D47B/61B47F21" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47F21" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47F21" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47F21" Ref="FB70"  Part="1" 
-F 0 "FB70" V 2100 7200 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 2200 7200 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 2280 7200 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2350 7200 50  0001 C CNN
-F 4 "Murata" H 2350 7200 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 2350 7200 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 2350 7200 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    2350 7200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2450 7200 3500 7200
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 61B47F2B
-P 2750 7300
-AR Path="/5CC6CC1A/5CC6D47B/61B47F2B" Ref="FB?"  Part="1" 
-AR Path="/5CB02488/61B47F2B" Ref="FB?"  Part="1" 
-AR Path="/5CBF625C/61B47F2B" Ref="FB?"  Part="1" 
-AR Path="/5CBF628A/61B47F2B" Ref="FB73"  Part="1" 
-F 0 "FB73" V 2500 7300 50  0000 C CNN
+F 0 "FB70" V 2500 7300 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 2600 7300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 2680 7300 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2750 7300 50  0001 C CNN
 F 4 "Murata" H 2750 7300 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 2750 7300 50  0001 C CNN "Package ID"
 F 6 "BLM21AG601SZ1D " H 2750 7300 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 400 100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 400 100 50  0001 C CNN "Description"
 	1    2750 7300
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	2850 7300 3500 7300
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 61B47F2B
+P 2900 7200
+AR Path="/5CC6CC1A/5CC6D47B/61B47F2B" Ref="FB?"  Part="1" 
+AR Path="/5CB02488/61B47F2B" Ref="FB?"  Part="1" 
+AR Path="/5CBF625C/61B47F2B" Ref="FB?"  Part="1" 
+AR Path="/5CBF628A/61B47F2B" Ref="FB73"  Part="1" 
+F 0 "FB73" V 3150 7200 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 3050 7200 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2830 7200 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2900 7200 50  0001 C CNN
+F 4 "Murata" H 2900 7200 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2900 7200 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 2900 7200 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 150 -100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 150 -100 50  0001 C CNN "Description"
+	1    2900 7200
+	0    1    -1   0   
+$EndComp
 Wire Wire Line
-	1000 7100 1500 7100
+	3000 7200 3500 7200
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47F36
-P 1550 7000
+P 2350 7400
 AR Path="/5CC6CC1A/5CC6D47B/61B47F36" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47F36" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47F36" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47F36" Ref="FB64"  Part="1" 
-F 0 "FB64" V 1300 7000 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 1400 7000 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 1480 7000 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1550 7000 50  0001 C CNN
-F 4 "Murata" H 1550 7000 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 1550 7000 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 1550 7000 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    1550 7000
+F 0 "FB64" V 2100 7400 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2200 7400 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2280 7400 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2350 7400 50  0001 C CNN
+F 4 "Murata" H 2350 7400 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2350 7400 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 2350 7400 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 800 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 800 400 50  0001 C CNN "Description"
+	1    2350 7400
 	0    1    1    0   
 $EndComp
-Text Label 1200 6800 1    50   ~ 0
+Text Label 3500 7100 0    50   ~ 0
 M_AUD_GND12
-Wire Wire Line
-	1200 6900 1200 6800
-Wire Wire Line
-	1000 6900 1200 6900
 Text Notes 1450 6650 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
@@ -1123,31 +955,6 @@ F 8 "SP1005-01ETG" H 1950 8250 50  0001 C CNN "Manufacturers Part Number"
 	1    1950 8250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1350 7000 1350 8100
-Connection ~ 1350 7000
-Wire Wire Line
-	1350 7000 1000 7000
-Wire Wire Line
-	1500 7100 1500 8100
-Connection ~ 1500 7100
-Wire Wire Line
-	1500 7100 1850 7100
-Wire Wire Line
-	1650 7200 1650 8100
-Connection ~ 1650 7200
-Wire Wire Line
-	1650 7200 2250 7200
-Wire Wire Line
-	1800 7300 1800 8100
-Connection ~ 1800 7300
-Wire Wire Line
-	1800 7300 2650 7300
-Wire Wire Line
-	1950 7900 1950 8100
-Connection ~ 1950 7900
-Wire Wire Line
-	1950 7900 2050 7900
 $Comp
 L Device:D_TVS D?
 U 1 1 61B47F8A
@@ -1198,39 +1005,32 @@ Connection ~ 1950 8550
 Wire Wire Line
 	1950 8550 1800 8550
 Wire Wire Line
-	1000 7700 2050 7700
-Wire Wire Line
-	1150 7400 1150 7800
+	1000 7600 3500 7600
 Wire Wire Line
 	1150 7800 1000 7800
 Wire Wire Line
-	1150 7800 1150 8450
+	1150 7800 1150 7900
 Wire Wire Line
 	1150 8450 1350 8450
-Connection ~ 1150 7800
 Connection ~ 1350 8450
 Wire Wire Line
 	1350 8450 1350 8550
-Text Label 3500 7000 0    50   ~ 0
+Text Label 3500 7400 0    50   ~ 0
 M_L_IN12
-Text Label 3500 7100 0    50   ~ 0
+Text Label 3500 7500 0    50   ~ 0
 M_R_IN12
-Text Label 2050 7700 0    50   ~ 0
+Text Label 3500 7600 0    50   ~ 0
 M_INT_12
-Text Label 2050 7900 0    50   ~ 0
+Text Label 3500 7700 0    50   ~ 0
 M_ID_PIN12
-Wire Wire Line
-	2100 8000 2600 8000
 Text Label 1550 8750 0    50   ~ 0
 M_GND
 Wire Wire Line
 	1350 8750 1550 8750
 Wire Wire Line
 	1350 8550 1350 8750
-Text Label 2750 7600 0    50   ~ 0
+Text Label 3500 8000 0    50   ~ 0
 M_+12V
-Wire Wire Line
-	2600 7600 2750 7600
 $Comp
 L Connector_Generic:Conn_01x12 J?
 U 1 1 61B47FBC
@@ -1253,169 +1053,153 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 61B47FC5
-P 8000 1700
+P 8000 2100
 AR Path="/5CC6CC1A/5CC6D47B/61B47FC5" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B47FC5" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B47FC5" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B47FC5" Ref="C462"  Part="1" 
-F 0 "C462" V 8150 1700 50  0000 C CNN
-F 1 "1uF X7R flex" V 8250 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8000 1700 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 8000 1700 50  0001 C CNN
-F 4 "Kemet" H 8000 1700 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RECAUTO" H 8000 1700 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 4800 -1400 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    8000 1700
+F 0 "C462" V 8150 2100 50  0000 C CNN
+F 1 "1uF X7R flex" V 8250 2100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8000 2100 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 8000 2100 50  0001 C CNN
+F 4 "Kemet" H 8000 2100 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RECAUTO" H 8000 2100 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 4800 -1000 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    8000 2100
 	0    1    1    0   
 $EndComp
 Text Notes 8000 1400 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	7700 1600 6350 1600
+	7700 2000 7100 2000
 Wire Wire Line
-	7900 1600 8200 1600
+	7900 2000 8200 2000
 Wire Wire Line
-	8100 1700 8200 1700
-Text Label 8200 1800 0    50   ~ 0
-M_L_OUT13
-Wire Wire Line
-	5700 1800 6350 1800
+	8100 2100 8200 2100
 Text Label 8200 1900 0    50   ~ 0
+M_L_OUT13
+Text Label 8200 1800 0    50   ~ 0
 M_R_OUT13
-Wire Wire Line
-	5700 1900 6500 1900
 $Comp
 L Device:C_Small C?
 U 1 1 61B47FD6
-P 7800 1600
+P 7800 2000
 AR Path="/5CC6CC1A/5CC6D47B/61B47FD6" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B47FD6" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B47FD6" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B47FD6" Ref="C459"  Part="1" 
-F 0 "C459" V 7550 1600 50  0000 C CNN
-F 1 "1uF X7R flex" V 7650 1600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7800 1600 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7800 1600 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 7800 1600 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 7800 1600 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 4800 -1400 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    7800 1600
+F 0 "C459" V 7550 2000 50  0000 C CNN
+F 1 "1uF X7R flex" V 7650 2000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7800 2000 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7800 2000 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 7800 2000 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 7800 2000 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 4800 -1000 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    7800 2000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5700 2000 5850 2000
-Wire Wire Line
 	5700 2600 6800 2600
-Text Label 6750 2100 0    50   ~ 0
+Text Label 8200 1500 0    50   ~ 0
 M_SDA_HV13
-Text Label 6750 2200 0    50   ~ 0
+Text Label 8200 1600 0    50   ~ 0
 M_SCL_HV13
 Wire Wire Line
-	5700 2100 6750 2100
+	5700 1500 8200 1500
 Wire Wire Line
-	5700 2200 6750 2200
-Wire Wire Line
-	5700 2500 6650 2500
-Wire Wire Line
-	6150 1600 6050 1600
+	5700 1600 8200 1600
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47FE8
-P 6650 1700
+P 7100 2100
 AR Path="/5CC6CC1A/5CC6D47B/61B47FE8" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47FE8" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47FE8" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47FE8" Ref="FB77"  Part="1" 
-F 0 "FB77" V 6400 1700 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6500 1700 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 6580 1700 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6650 1700 50  0001 C CNN
-F 4 "Murata" H 6650 1700 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 6650 1700 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 6650 1700 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    6650 1700
+F 0 "FB77" V 7250 2100 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 7350 2100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7030 2100 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7100 2100 50  0001 C CNN
+F 4 "Murata" H 7100 2100 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7100 2100 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 7100 2100 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 450 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 450 400 50  0001 C CNN "Description"
+	1    7100 2100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6750 1700 7900 1700
+	7200 2100 7900 2100
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47FF2
-P 7050 1800
+P 7500 1900
 AR Path="/5CC6CC1A/5CC6D47B/61B47FF2" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47FF2" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47FF2" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47FF2" Ref="FB80"  Part="1" 
-F 0 "FB80" V 6800 1800 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6900 1800 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 6980 1800 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7050 1800 50  0001 C CNN
-F 4 "Murata" H 7050 1800 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7050 1800 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 7050 1800 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    7050 1800
-	0    1    1    0   
+F 0 "FB80" V 7250 1900 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 7350 1900 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7430 1900 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7500 1900 50  0001 C CNN
+F 4 "Murata" H 7500 1900 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7500 1900 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 7500 1900 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 450 100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 450 100 50  0001 C CNN "Description"
+	1    7500 1900
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7150 1800 8200 1800
+	7600 1900 8200 1900
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B47FFC
-P 7450 1900
+P 7600 1800
 AR Path="/5CC6CC1A/5CC6D47B/61B47FFC" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B47FFC" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B47FFC" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B47FFC" Ref="FB83"  Part="1" 
-F 0 "FB83" V 7200 1900 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 7300 1900 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 7380 1900 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7450 1900 50  0001 C CNN
-F 4 "Murata" H 7450 1900 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7450 1900 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 7450 1900 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    7450 1900
-	0    1    1    0   
+F 0 "FB83" V 7850 1800 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 7750 1800 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7530 1800 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7600 1800 50  0001 C CNN
+F 4 "Murata" H 7600 1800 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7600 1800 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 7600 1800 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 150 -100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 150 -100 50  0001 C CNN "Description"
+	1    7600 1800
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7550 1900 8200 1900
-Wire Wire Line
-	5700 1700 6200 1700
+	7700 1800 8200 1800
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B48007
-P 6250 1600
+P 7000 2000
 AR Path="/5CC6CC1A/5CC6D47B/61B48007" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B48007" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B48007" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B48007" Ref="FB74"  Part="1" 
-F 0 "FB74" V 6000 1600 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6100 1600 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 6180 1600 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6250 1600 50  0001 C CNN
-F 4 "Murata" H 6250 1600 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 6250 1600 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 6250 1600 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    6250 1600
+F 0 "FB74" V 6750 2000 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6850 2000 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6930 2000 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7000 2000 50  0001 C CNN
+F 4 "Murata" H 7000 2000 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7000 2000 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 7000 2000 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 750 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 750 400 50  0001 C CNN "Description"
+	1    7000 2000
 	0    1    1    0   
 $EndComp
-Text Label 5900 1400 1    50   ~ 0
+Text Label 8200 1700 0    50   ~ 0
 M_AUD_GND13
-Wire Wire Line
-	5900 1500 5900 1400
-Wire Wire Line
-	5700 1500 5900 1500
 Text Notes 6150 1250 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
@@ -1518,31 +1302,6 @@ F 8 "SP1005-01ETG" H 6650 2850 50  0001 C CNN "Manufacturers Part Number"
 	1    6650 2850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6050 1600 6050 2700
-Connection ~ 6050 1600
-Wire Wire Line
-	6050 1600 5700 1600
-Wire Wire Line
-	6200 1700 6200 2700
-Connection ~ 6200 1700
-Wire Wire Line
-	6200 1700 6550 1700
-Wire Wire Line
-	6350 1800 6350 2700
-Connection ~ 6350 1800
-Wire Wire Line
-	6350 1800 6950 1800
-Wire Wire Line
-	6500 1900 6500 2700
-Connection ~ 6500 1900
-Wire Wire Line
-	6500 1900 7350 1900
-Wire Wire Line
-	6650 2500 6650 2700
-Connection ~ 6650 2500
-Wire Wire Line
-	6650 2500 6750 2500
 $Comp
 L Device:D_TVS D?
 U 1 1 61B4805B
@@ -1593,39 +1352,32 @@ Connection ~ 6650 3150
 Wire Wire Line
 	6650 3150 6500 3150
 Wire Wire Line
-	5700 2300 6750 2300
-Wire Wire Line
-	5850 2000 5850 2400
+	5700 2200 8200 2200
 Wire Wire Line
 	5850 2400 5700 2400
 Wire Wire Line
-	5850 2400 5850 3050
+	5850 2400 5850 2500
 Wire Wire Line
 	5850 3050 6050 3050
-Connection ~ 5850 2400
 Connection ~ 6050 3050
 Wire Wire Line
 	6050 3050 6050 3150
-Text Label 8200 1600 0    50   ~ 0
+Text Label 8200 2000 0    50   ~ 0
 M_L_IN13
-Text Label 8200 1700 0    50   ~ 0
+Text Label 8200 2100 0    50   ~ 0
 M_R_IN13
-Text Label 6750 2300 0    50   ~ 0
+Text Label 8200 2200 0    50   ~ 0
 M_INT_13
-Text Label 6750 2500 0    50   ~ 0
+Text Label 8200 2300 0    50   ~ 0
 M_ID_PIN13
-Wire Wire Line
-	6800 2600 7300 2600
 Text Label 6250 3350 0    50   ~ 0
 M_GND
 Wire Wire Line
 	6050 3350 6250 3350
 Wire Wire Line
 	6050 3150 6050 3350
-Text Label 7450 2200 0    50   ~ 0
+Text Label 8200 2600 0    50   ~ 0
 M_+12V
-Wire Wire Line
-	7300 2200 7450 2200
 $Comp
 L Connector_Generic:Conn_01x12 J?
 U 1 1 61B4808D
@@ -1648,169 +1400,153 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 61B48096
-P 8000 4450
+P 8000 4850
 AR Path="/5CC6CC1A/5CC6D47B/61B48096" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B48096" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B48096" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B48096" Ref="C463"  Part="1" 
-F 0 "C463" V 8150 4450 50  0000 C CNN
-F 1 "1uF X7R flex" V 8250 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8000 4450 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 8000 4450 50  0001 C CNN
-F 4 "Kemet" H 8000 4450 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RECAUTO" H 8000 4450 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 4800 1350 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    8000 4450
+F 0 "C463" V 8150 4850 50  0000 C CNN
+F 1 "1uF X7R flex" V 8250 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8000 4850 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 8000 4850 50  0001 C CNN
+F 4 "Kemet" H 8000 4850 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RECAUTO" H 8000 4850 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 4800 1750 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    8000 4850
 	0    1    1    0   
 $EndComp
 Text Notes 8000 4150 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	7700 4350 6350 4350
+	7700 4750 6800 4750
 Wire Wire Line
-	7900 4350 8200 4350
+	7900 4750 8200 4750
 Wire Wire Line
-	8100 4450 8200 4450
-Text Label 8200 4550 0    50   ~ 0
-M_L_OUT14
-Wire Wire Line
-	5700 4550 6350 4550
+	8100 4850 8200 4850
 Text Label 8200 4650 0    50   ~ 0
+M_L_OUT14
+Text Label 8200 4550 0    50   ~ 0
 M_R_OUT14
-Wire Wire Line
-	5700 4650 6500 4650
 $Comp
 L Device:C_Small C?
 U 1 1 61B480A7
-P 7800 4350
+P 7800 4750
 AR Path="/5CC6CC1A/5CC6D47B/61B480A7" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B480A7" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B480A7" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B480A7" Ref="C460"  Part="1" 
-F 0 "C460" V 7550 4350 50  0000 C CNN
-F 1 "1uF X7R flex" V 7650 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7800 4350 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7800 4350 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 7800 4350 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 7800 4350 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 4800 1350 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    7800 4350
+F 0 "C460" V 7550 4750 50  0000 C CNN
+F 1 "1uF X7R flex" V 7650 4750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7800 4750 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7800 4750 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 7800 4750 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 7800 4750 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 4800 1750 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    7800 4750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5700 4750 5850 4750
-Wire Wire Line
 	5700 5350 6800 5350
-Text Label 6750 4850 0    50   ~ 0
+Text Label 8200 4250 0    50   ~ 0
 M_SDA_HV14
-Text Label 6750 4950 0    50   ~ 0
+Text Label 8200 4350 0    50   ~ 0
 M_SCL_HV14
 Wire Wire Line
-	5700 4850 6750 4850
+	5700 4250 8200 4250
 Wire Wire Line
-	5700 4950 6750 4950
-Wire Wire Line
-	5700 5250 6650 5250
-Wire Wire Line
-	6150 4350 6050 4350
+	5700 4350 8200 4350
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B480B9
-P 6650 4450
+P 7100 4850
 AR Path="/5CC6CC1A/5CC6D47B/61B480B9" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B480B9" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B480B9" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B480B9" Ref="FB78"  Part="1" 
-F 0 "FB78" V 6400 4450 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6500 4450 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 6580 4450 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6650 4450 50  0001 C CNN
-F 4 "Murata" H 6650 4450 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 6650 4450 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 6650 4450 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    6650 4450
+F 0 "FB78" V 6850 4850 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6950 4850 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7030 4850 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7100 4850 50  0001 C CNN
+F 4 "Murata" H 7100 4850 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7100 4850 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 7100 4850 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 450 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 450 400 50  0001 C CNN "Description"
+	1    7100 4850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6750 4450 7900 4450
+	7200 4850 7900 4850
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B480C3
-P 7050 4550
+P 7500 4650
 AR Path="/5CC6CC1A/5CC6D47B/61B480C3" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B480C3" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B480C3" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B480C3" Ref="FB81"  Part="1" 
-F 0 "FB81" V 6800 4550 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6900 4550 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 6980 4550 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7050 4550 50  0001 C CNN
-F 4 "Murata" H 7050 4550 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7050 4550 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 7050 4550 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    7050 4550
-	0    1    1    0   
+F 0 "FB81" V 7250 4650 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 7350 4650 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7430 4650 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7500 4650 50  0001 C CNN
+F 4 "Murata" H 7500 4650 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7500 4650 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 7500 4650 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 450 100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 450 100 50  0001 C CNN "Description"
+	1    7500 4650
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7150 4550 8200 4550
+	7600 4650 8200 4650
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B480CD
-P 7450 4650
+P 7600 4550
 AR Path="/5CC6CC1A/5CC6D47B/61B480CD" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B480CD" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B480CD" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B480CD" Ref="FB84"  Part="1" 
-F 0 "FB84" V 7200 4650 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 7300 4650 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 7380 4650 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7450 4650 50  0001 C CNN
-F 4 "Murata" H 7450 4650 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7450 4650 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 7450 4650 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    7450 4650
-	0    1    1    0   
+F 0 "FB84" V 7900 4550 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 7800 4550 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7530 4550 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7600 4550 50  0001 C CNN
+F 4 "Murata" H 7600 4550 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7600 4550 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 7600 4550 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 150 -100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 150 -100 50  0001 C CNN "Description"
+	1    7600 4550
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7550 4650 8200 4650
-Wire Wire Line
-	5700 4450 6200 4450
+	7700 4550 8200 4550
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B480D8
-P 6250 4350
+P 6700 4750
 AR Path="/5CC6CC1A/5CC6D47B/61B480D8" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B480D8" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B480D8" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B480D8" Ref="FB75"  Part="1" 
-F 0 "FB75" V 6000 4350 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6100 4350 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 6180 4350 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6250 4350 50  0001 C CNN
-F 4 "Murata" H 6250 4350 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 6250 4350 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 6250 4350 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    6250 4350
-	0    1    1    0   
+F 0 "FB75" V 6450 4750 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6550 4750 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6630 4750 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6700 4750 50  0001 C CNN
+F 4 "Murata" H 6700 4750 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 6700 4750 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 6700 4750 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 450 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 450 400 50  0001 C CNN "Description"
+	1    6700 4750
+	0    1    -1   0   
 $EndComp
-Text Label 5900 4150 1    50   ~ 0
+Text Label 8200 4450 0    50   ~ 0
 M_AUD_GND14
-Wire Wire Line
-	5900 4250 5900 4150
-Wire Wire Line
-	5700 4250 5900 4250
 Text Notes 6150 4000 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
@@ -1913,31 +1649,6 @@ F 8 "SP1005-01ETG" H 6650 5600 50  0001 C CNN "Manufacturers Part Number"
 	1    6650 5600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6050 4350 6050 5450
-Connection ~ 6050 4350
-Wire Wire Line
-	6050 4350 5700 4350
-Wire Wire Line
-	6200 4450 6200 5450
-Connection ~ 6200 4450
-Wire Wire Line
-	6200 4450 6550 4450
-Wire Wire Line
-	6350 4550 6350 5450
-Connection ~ 6350 4550
-Wire Wire Line
-	6350 4550 6950 4550
-Wire Wire Line
-	6500 4650 6500 5450
-Connection ~ 6500 4650
-Wire Wire Line
-	6500 4650 7350 4650
-Wire Wire Line
-	6650 5250 6650 5450
-Connection ~ 6650 5250
-Wire Wire Line
-	6650 5250 6750 5250
 $Comp
 L Device:D_TVS D?
 U 1 1 61B4812C
@@ -1988,39 +1699,32 @@ Connection ~ 6650 5900
 Wire Wire Line
 	6650 5900 6500 5900
 Wire Wire Line
-	5700 5050 6750 5050
-Wire Wire Line
-	5850 4750 5850 5150
+	5700 4950 8200 4950
 Wire Wire Line
 	5850 5150 5700 5150
 Wire Wire Line
-	5850 5150 5850 5800
+	5850 5150 5850 5250
 Wire Wire Line
 	5850 5800 6050 5800
-Connection ~ 5850 5150
 Connection ~ 6050 5800
 Wire Wire Line
 	6050 5800 6050 5900
-Text Label 8200 4350 0    50   ~ 0
+Text Label 8200 4750 0    50   ~ 0
 M_L_IN14
-Text Label 8200 4450 0    50   ~ 0
+Text Label 8200 4850 0    50   ~ 0
 M_R_IN14
-Text Label 6750 5050 0    50   ~ 0
+Text Label 8200 4950 0    50   ~ 0
 M_INT_14
-Text Label 6750 5250 0    50   ~ 0
+Text Label 8200 5050 0    50   ~ 0
 M_ID_PIN14
-Wire Wire Line
-	6800 5350 7300 5350
 Text Label 6250 6100 0    50   ~ 0
 M_GND
 Wire Wire Line
 	6050 6100 6250 6100
 Wire Wire Line
 	6050 5900 6050 6100
-Text Label 7450 4950 0    50   ~ 0
+Text Label 8200 5350 0    50   ~ 0
 M_+12V
-Wire Wire Line
-	7300 4950 7450 4950
 $Comp
 L Connector_Generic:Conn_01x12 J?
 U 1 1 61B4815E
@@ -2043,169 +1747,153 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 61B48167
-P 8000 7100
+P 8000 7500
 AR Path="/5CC6CC1A/5CC6D47B/61B48167" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B48167" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B48167" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B48167" Ref="C464"  Part="1" 
-F 0 "C464" V 8150 7100 50  0000 C CNN
-F 1 "1uF X7R flex" V 8250 7100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8000 7100 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 8000 7100 50  0001 C CNN
-F 4 "Kemet" H 8000 7100 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RECAUTO" H 8000 7100 50  0001 C CNN "Manufacturers Part Number"
-F 6 "0805in/2012mm" H 4800 4000 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    8000 7100
+F 0 "C464" V 8150 7500 50  0000 C CNN
+F 1 "1uF X7R flex" V 8250 7500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8000 7500 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 8000 7500 50  0001 C CNN
+F 4 "Kemet" H 8000 7500 50  0001 C CNN "Manufacturer"
+F 5 "C0805X105J3RECAUTO" H 8000 7500 50  0001 C CNN "Manufacturers Part Number"
+F 6 "0805in/2012mm" H 4800 4400 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    8000 7500
 	0    1    1    0   
 $EndComp
 Text Notes 8000 6800 0    50   ~ 0
 DC Blocking Caps\nDue to high input resistance\n(see datasheet)\nthese caps can be much \nsmaller than normal
 Wire Wire Line
-	7700 7000 6350 7000
+	7700 7400 7200 7400
 Wire Wire Line
-	7900 7000 8200 7000
+	7900 7400 8200 7400
 Wire Wire Line
-	8100 7100 8200 7100
-Text Label 8200 7200 0    50   ~ 0
-M_L_OUT15
-Wire Wire Line
-	5700 7200 6350 7200
+	8100 7500 8200 7500
 Text Label 8200 7300 0    50   ~ 0
+M_L_OUT15
+Text Label 8200 7200 0    50   ~ 0
 M_R_OUT15
-Wire Wire Line
-	5700 7300 6500 7300
 $Comp
 L Device:C_Small C?
 U 1 1 61B48178
-P 7800 7000
+P 7800 7400
 AR Path="/5CC6CC1A/5CC6D47B/61B48178" Ref="C?"  Part="1" 
 AR Path="/5CB02488/61B48178" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/61B48178" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/61B48178" Ref="C461"  Part="1" 
-F 0 "C461" V 7550 7000 50  0000 C CNN
-F 1 "1uF X7R flex" V 7650 7000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7800 7000 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7800 7000 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 7800 7000 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 7800 7000 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 4800 4000 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    7800 7000
+F 0 "C461" V 7550 7400 50  0000 C CNN
+F 1 "1uF X7R flex" V 7650 7400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7800 7400 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7800 7400 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 7800 7400 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 7800 7400 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 4800 4400 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H 0   400 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 0   400 50  0001 C CNN "Description"
+	1    7800 7400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5700 7400 5850 7400
-Wire Wire Line
 	5700 8000 6800 8000
-Text Label 6750 7500 0    50   ~ 0
+Text Label 8200 6900 0    50   ~ 0
 M_SDA_HV15
-Text Label 6750 7600 0    50   ~ 0
+Text Label 8200 7000 0    50   ~ 0
 M_SCL_HV15
 Wire Wire Line
-	5700 7500 6750 7500
+	5700 6900 8200 6900
 Wire Wire Line
-	5700 7600 6750 7600
-Wire Wire Line
-	5700 7900 6650 7900
-Wire Wire Line
-	6150 7000 6050 7000
+	5700 7000 8200 7000
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B4818A
-P 6650 7100
+P 7000 7500
 AR Path="/5CC6CC1A/5CC6D47B/61B4818A" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B4818A" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B4818A" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B4818A" Ref="FB79"  Part="1" 
-F 0 "FB79" V 6400 7100 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6500 7100 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 6580 7100 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6650 7100 50  0001 C CNN
-F 4 "Murata" H 6650 7100 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 6650 7100 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 6650 7100 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    6650 7100
-	0    1    1    0   
+F 0 "FB79" V 6750 7500 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6850 7500 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6930 7500 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7000 7500 50  0001 C CNN
+F 4 "Murata" H 7000 7500 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7000 7500 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 7000 7500 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 350 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 350 400 50  0001 C CNN "Description"
+	1    7000 7500
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	6750 7100 7900 7100
+	7100 7500 7900 7500
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B48194
-P 7050 7200
+P 7450 7300
 AR Path="/5CC6CC1A/5CC6D47B/61B48194" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B48194" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B48194" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B48194" Ref="FB82"  Part="1" 
-F 0 "FB82" V 6800 7200 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6900 7200 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 6980 7200 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7050 7200 50  0001 C CNN
-F 4 "Murata" H 7050 7200 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 7050 7200 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 7050 7200 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    7050 7200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7150 7200 8200 7200
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 61B4819E
-P 7450 7300
-AR Path="/5CC6CC1A/5CC6D47B/61B4819E" Ref="FB?"  Part="1" 
-AR Path="/5CB02488/61B4819E" Ref="FB?"  Part="1" 
-AR Path="/5CBF625C/61B4819E" Ref="FB?"  Part="1" 
-AR Path="/5CBF628A/61B4819E" Ref="FB85"  Part="1" 
-F 0 "FB85" V 7200 7300 50  0000 C CNN
+F 0 "FB82" V 7200 7300 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 7300 7300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 7380 7300 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7450 7300 50  0001 C CNN
 F 4 "Murata" H 7450 7300 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 7450 7300 50  0001 C CNN "Package ID"
 F 6 "BLM21AG601SZ1D " H 7450 7300 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 400 100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 400 100 50  0001 C CNN "Description"
 	1    7450 7300
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	7550 7300 8200 7300
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 61B4819E
+P 7600 7200
+AR Path="/5CC6CC1A/5CC6D47B/61B4819E" Ref="FB?"  Part="1" 
+AR Path="/5CB02488/61B4819E" Ref="FB?"  Part="1" 
+AR Path="/5CBF625C/61B4819E" Ref="FB?"  Part="1" 
+AR Path="/5CBF628A/61B4819E" Ref="FB85"  Part="1" 
+F 0 "FB85" V 7850 7200 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 7750 7200 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7530 7200 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7600 7200 50  0001 C CNN
+F 4 "Murata" H 7600 7200 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7600 7200 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 7600 7200 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 150 -100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 150 -100 50  0001 C CNN "Description"
+	1    7600 7200
+	0    1    -1   0   
+$EndComp
 Wire Wire Line
-	5700 7100 6200 7100
+	7700 7200 8200 7200
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61B481A9
-P 6250 7000
+P 7100 7400
 AR Path="/5CC6CC1A/5CC6D47B/61B481A9" Ref="FB?"  Part="1" 
 AR Path="/5CB02488/61B481A9" Ref="FB?"  Part="1" 
 AR Path="/5CBF625C/61B481A9" Ref="FB?"  Part="1" 
 AR Path="/5CBF628A/61B481A9" Ref="FB76"  Part="1" 
-F 0 "FB76" V 6000 7000 50  0000 C CNN
-F 1 "600Ω @ 100MHz" V 6100 7000 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 6180 7000 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6250 7000 50  0001 C CNN
-F 4 "Murata" H 6250 7000 50  0001 C CNN "Manufacturer"
-F 5 "0805in/2012mm" H 6250 7000 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 6250 7000 50  0001 C CNN "Manufacturers Part Number"
-F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
-	1    6250 7000
+F 0 "FB76" V 6850 7400 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 6950 7400 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7030 7400 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 7100 7400 50  0001 C CNN
+F 4 "Murata" H 7100 7400 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 7100 7400 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 7100 7400 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 850 400 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 850 400 50  0001 C CNN "Description"
+	1    7100 7400
 	0    1    1    0   
 $EndComp
-Text Label 5900 6800 1    50   ~ 0
+Text Label 8200 7100 0    50   ~ 0
 M_AUD_GND15
-Wire Wire Line
-	5900 6900 5900 6800
-Wire Wire Line
-	5700 6900 5900 6900
 Text Notes 6150 6650 0    50   ~ 0
 Place film caps and\nferrite beads close\nto connector
 $Comp
@@ -2308,31 +1996,6 @@ F 8 "SP1005-01ETG" H 6650 8250 50  0001 C CNN "Manufacturers Part Number"
 	1    6650 8250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6050 7000 6050 8100
-Connection ~ 6050 7000
-Wire Wire Line
-	6050 7000 5700 7000
-Wire Wire Line
-	6200 7100 6200 8100
-Connection ~ 6200 7100
-Wire Wire Line
-	6200 7100 6550 7100
-Wire Wire Line
-	6350 7200 6350 8100
-Connection ~ 6350 7200
-Wire Wire Line
-	6350 7200 6950 7200
-Wire Wire Line
-	6500 7300 6500 8100
-Connection ~ 6500 7300
-Wire Wire Line
-	6500 7300 7350 7300
-Wire Wire Line
-	6650 7900 6650 8100
-Connection ~ 6650 7900
-Wire Wire Line
-	6650 7900 6750 7900
 $Comp
 L Device:D_TVS D?
 U 1 1 61B481FD
@@ -2383,39 +2046,32 @@ Connection ~ 6650 8550
 Wire Wire Line
 	6650 8550 6500 8550
 Wire Wire Line
-	5700 7700 6750 7700
-Wire Wire Line
-	5850 7400 5850 7800
+	5700 7600 8200 7600
 Wire Wire Line
 	5850 7800 5700 7800
 Wire Wire Line
-	5850 7800 5850 8450
+	5850 7800 5850 7900
 Wire Wire Line
 	5850 8450 6050 8450
-Connection ~ 5850 7800
 Connection ~ 6050 8450
 Wire Wire Line
 	6050 8450 6050 8550
-Text Label 8200 7000 0    50   ~ 0
+Text Label 8200 7400 0    50   ~ 0
 M_L_IN15
-Text Label 8200 7100 0    50   ~ 0
+Text Label 8200 7500 0    50   ~ 0
 M_R_IN15
-Text Label 6750 7700 0    50   ~ 0
+Text Label 8200 7600 0    50   ~ 0
 M_INT_15
-Text Label 6750 7900 0    50   ~ 0
+Text Label 8200 7700 0    50   ~ 0
 M_ID_PIN15
-Wire Wire Line
-	6800 8000 7300 8000
 Text Label 6250 8750 0    50   ~ 0
 M_GND
 Wire Wire Line
 	6050 8750 6250 8750
 Wire Wire Line
 	6050 8550 6050 8750
-Text Label 7450 7600 0    50   ~ 0
+Text Label 8200 8000 0    50   ~ 0
 M_+12V
-Wire Wire Line
-	7300 7600 7450 7600
 Text Label 10800 3650 0    50   ~ 0
 M_SDA_HV10
 Text Label 10800 3550 0    50   ~ 0
@@ -2662,19 +2318,19 @@ F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    13950 5150
 	1    0    0    -1  
 $EndComp
-Text Label 14350 3350 0    50   ~ 0
-L_OUT10
-Text Label 14350 3250 0    50   ~ 0
-R_OUT10
 Text Label 13650 3350 2    50   ~ 0
-L_IN10
+L_OUT10
+Text Label 14350 3350 0    50   ~ 0
+R_OUT10
 Text Label 13650 3250 2    50   ~ 0
+L_IN10
+Text Label 14350 3250 0    50   ~ 0
 R_IN10
 Wire Wire Line
 	14250 3450 14750 3450
-Text Label 14350 3650 0    50   ~ 0
-SDA_HV10
 Text Label 14350 3550 0    50   ~ 0
+SDA_HV10
+Text Label 14350 3650 0    50   ~ 0
 SCL_HV10
 Text Label 13650 3550 2    50   ~ 0
 INT_10
@@ -2682,80 +2338,78 @@ Text Label 13650 3650 2    50   ~ 0
 ID_PIN10
 Text Label 13650 3450 2    50   ~ 0
 AUD_GND10
-Text Label 14350 6850 0    50   ~ 0
+Text Label 13650 6450 2    50   ~ 0
 L_OUT15
-Text Label 14350 6750 0    50   ~ 0
+Text Label 14350 6450 0    50   ~ 0
 R_OUT15
-Text Label 13650 6850 2    50   ~ 0
+Text Label 13650 6350 2    50   ~ 0
 L_IN15
-Text Label 13650 6750 2    50   ~ 0
+Text Label 14350 6350 0    50   ~ 0
 R_IN15
 Wire Wire Line
 	14750 3450 14750 3750
-Text Label 14350 7150 0    50   ~ 0
+Text Label 14350 6650 0    50   ~ 0
 SDA_HV15
-Text Label 14350 7050 0    50   ~ 0
+Text Label 14350 6750 0    50   ~ 0
 SCL_HV15
-Text Label 13650 7050 2    50   ~ 0
+Text Label 13650 6650 2    50   ~ 0
 INT_15
-Text Label 13650 7150 2    50   ~ 0
+Text Label 13650 6750 2    50   ~ 0
 ID_PIN15
-Text Label 13650 6950 2    50   ~ 0
+Text Label 13650 6550 2    50   ~ 0
 AUD_GND15
 Wire Wire Line
 	14250 3750 14750 3750
 Connection ~ 14750 3750
 Wire Wire Line
 	14750 3750 14750 4050
-Text Label 14350 6250 0    50   ~ 0
-L_OUT14
-Text Label 14350 6150 0    50   ~ 0
-R_OUT14
-Text Label 13650 6250 2    50   ~ 0
-L_IN14
-Text Label 13650 6150 2    50   ~ 0
-R_IN14
-Text Label 14350 6550 0    50   ~ 0
-SDA_HV14
-Text Label 14350 6450 0    50   ~ 0
-SCL_HV14
-Text Label 13650 6450 2    50   ~ 0
-INT_14
-Text Label 13650 6550 2    50   ~ 0
-ID_PIN14
-Text Label 13650 6350 2    50   ~ 0
-AUD_GND14
-Text Label 14350 5650 0    50   ~ 0
-L_OUT13
-Text Label 14350 5550 0    50   ~ 0
-R_OUT13
-Text Label 13650 5650 2    50   ~ 0
-L_IN13
-Text Label 13650 5550 2    50   ~ 0
-R_IN13
-Text Label 14350 5950 0    50   ~ 0
-SDA_HV13
-Text Label 14350 5850 0    50   ~ 0
-SCL_HV13
 Text Label 13650 5850 2    50   ~ 0
-INT_13
-Text Label 13650 5950 2    50   ~ 0
-ID_PIN13
+L_OUT14
+Text Label 14350 5850 0    50   ~ 0
+R_OUT14
 Text Label 13650 5750 2    50   ~ 0
+L_IN14
+Text Label 14350 5750 0    50   ~ 0
+R_IN14
+Text Label 14350 6050 0    50   ~ 0
+SDA_HV14
+Text Label 14350 6150 0    50   ~ 0
+SCL_HV14
+Text Label 13650 6050 2    50   ~ 0
+INT_14
+Text Label 13650 6150 2    50   ~ 0
+ID_PIN14
+Text Label 13650 5950 2    50   ~ 0
+AUD_GND14
+Text Label 13650 5250 2    50   ~ 0
+L_OUT13
+Text Label 14350 5250 0    50   ~ 0
+R_OUT13
+Text Label 13650 5150 2    50   ~ 0
+L_IN13
+Text Label 14350 5150 0    50   ~ 0
+R_IN13
+Text Label 14350 5450 0    50   ~ 0
+SDA_HV13
+Text Label 14350 5550 0    50   ~ 0
+SCL_HV13
+Text Label 13650 5450 2    50   ~ 0
+INT_13
+Text Label 13650 5550 2    50   ~ 0
+ID_PIN13
+Text Label 13650 5350 2    50   ~ 0
 AUD_GND13
-Wire Wire Line
-	13750 5450 13250 5450
-Text Label 14350 3950 0    50   ~ 0
-L_OUT11
-Text Label 14350 3850 0    50   ~ 0
-R_OUT11
 Text Label 13650 3950 2    50   ~ 0
-L_IN11
+L_OUT11
+Text Label 14350 3950 0    50   ~ 0
+R_OUT11
 Text Label 13650 3850 2    50   ~ 0
+L_IN11
+Text Label 14350 3850 0    50   ~ 0
 R_IN11
-Text Label 14350 4250 0    50   ~ 0
-SDA_HV11
 Text Label 14350 4150 0    50   ~ 0
+SDA_HV11
+Text Label 14350 4250 0    50   ~ 0
 SCL_HV11
 Text Label 13650 4150 2    50   ~ 0
 INT_11
@@ -2763,17 +2417,17 @@ Text Label 13650 4250 2    50   ~ 0
 ID_PIN11
 Text Label 13650 4050 2    50   ~ 0
 AUD_GND11
-Text Label 14350 4550 0    50   ~ 0
-L_OUT12
-Text Label 14350 4450 0    50   ~ 0
-R_OUT12
 Text Label 13650 4550 2    50   ~ 0
-L_IN12
+L_OUT12
+Text Label 14350 4550 0    50   ~ 0
+R_OUT12
 Text Label 13650 4450 2    50   ~ 0
+L_IN12
+Text Label 14350 4450 0    50   ~ 0
 R_IN12
-Text Label 14350 4850 0    50   ~ 0
-SDA_HV12
 Text Label 14350 4750 0    50   ~ 0
+SDA_HV12
+Text Label 14350 4850 0    50   ~ 0
 SCL_HV12
 Text Label 13650 4750 2    50   ~ 0
 INT_12
@@ -2782,38 +2436,37 @@ ID_PIN12
 Text Label 13650 4650 2    50   ~ 0
 AUD_GND12
 Wire Wire Line
-	13650 5050 13650 5150
+	13650 6850 13650 6950
 Wire Wire Line
-	13650 5250 13750 5250
+	13650 7050 13750 7050
 Wire Wire Line
-	13750 5150 13650 5150
-Connection ~ 13650 5150
+	13750 6950 13650 6950
+Connection ~ 13650 6950
 Wire Wire Line
-	13650 5150 13650 5250
+	13650 6950 13650 7050
 Wire Wire Line
-	13750 5050 13650 5050
-Connection ~ 13650 5050
+	13750 6850 13650 6850
 Wire Wire Line
-	13750 5350 13650 5350
+	13750 7150 13650 7150
 Wire Wire Line
-	13650 5350 13650 5250
-Connection ~ 13650 5250
+	13650 7150 13650 7050
+Connection ~ 13650 7050
 Wire Wire Line
-	14350 5050 14350 5150
+	14350 6850 14350 6950
 Wire Wire Line
-	14350 5250 14250 5250
+	14350 7050 14250 7050
 Wire Wire Line
-	14250 5150 14350 5150
-Connection ~ 14350 5150
+	14250 6950 14350 6950
+Connection ~ 14350 6950
 Wire Wire Line
-	14350 5150 14350 5250
+	14350 6950 14350 7050
 Wire Wire Line
-	14250 5050 14350 5050
+	14250 6850 14350 6850
 Wire Wire Line
-	14250 5350 14350 5350
+	14250 7150 14350 7150
 Wire Wire Line
-	14350 5350 14350 5250
-Connection ~ 14350 5250
+	14350 7150 14350 7050
+Connection ~ 14350 7050
 Wire Wire Line
 	13750 4950 13250 4950
 Connection ~ 13250 4950
@@ -2851,29 +2504,29 @@ $EndComp
 $Comp
 L power:+12V #PWR?
 U 1 1 61B4830B
-P 14950 5000
+P 14950 7050
 AR Path="/5CBF625C/61B4830B" Ref="#PWR?"  Part="1" 
 AR Path="/5CBF628A/61B4830B" Ref="#PWR0222"  Part="1" 
-F 0 "#PWR0222" H 14950 4850 50  0001 C CNN
-F 1 "+12V" H 14850 5000 50  0000 C CNN
-F 2 "" H 14950 5000 50  0001 C CNN
-F 3 "" H 14950 5000 50  0001 C CNN
-	1    14950 5000
+F 0 "#PWR0222" H 14950 6900 50  0001 C CNN
+F 1 "+12V" H 14850 7050 50  0000 C CNN
+F 2 "" H 14950 7050 50  0001 C CNN
+F 3 "" H 14950 7050 50  0001 C CNN
+	1    14950 7050
 	1    0    0    -1  
 $EndComp
-Text HLabel 13850 8500 2    50   Output ~ 0
+Text HLabel 15800 7800 2    50   Input ~ 0
 R_IN[10..15]
-Text HLabel 13850 8400 2    50   Output ~ 0
+Text HLabel 13850 8500 2    50   Input ~ 0
 L_IN[10..15]
 Text HLabel 13850 8300 2    50   UnSpc ~ 0
 AUD_GND[10..15]
-Text HLabel 15750 8250 2    50   BiDi ~ 0
+Text HLabel 15750 8100 2    50   BiDi ~ 0
 SDA_HV[10..15]
-Text HLabel 15750 8100 2    50   Input ~ 0
+Text HLabel 15750 8250 2    50   Input ~ 0
 SCL_HV[10..15]
-Text HLabel 15800 7950 2    50   Output ~ 0
+Text HLabel 13850 8400 2    50   Output ~ 0
 L_OUT[10..15]
-Text HLabel 15800 7800 2    50   Output ~ 0
+Text HLabel 15800 7950 2    50   Output ~ 0
 R_OUT[10..15]
 Text HLabel 13850 8100 2    50   UnSpc ~ 0
 ID_PIN[10..15]
@@ -2926,52 +2579,9 @@ Connection ~ 14750 4650
 Wire Wire Line
 	14750 4650 14750 4950
 Wire Wire Line
-	14250 5450 14750 5450
+	13250 4950 13250 5050
 Wire Wire Line
-	13250 4950 13250 5450
-Wire Wire Line
-	14750 4950 14750 5450
-Wire Wire Line
-	14250 6350 14750 6350
-Wire Wire Line
-	14250 5750 14750 5750
-Wire Wire Line
-	14250 6050 14750 6050
-Wire Wire Line
-	14250 6650 14750 6650
-Connection ~ 13250 5450
-Wire Wire Line
-	13250 5450 13250 6050
-Wire Wire Line
-	13750 6050 13250 6050
-Connection ~ 13250 6050
-Wire Wire Line
-	13250 6050 13250 6650
-Wire Wire Line
-	13250 6650 13750 6650
-Connection ~ 13250 6650
-Wire Wire Line
-	13250 6650 13250 7650
-Connection ~ 14750 5450
-Connection ~ 14750 5750
-Connection ~ 14750 6050
-Connection ~ 14750 6350
-Connection ~ 14750 6650
-Wire Wire Line
-	14750 6350 14750 6650
-Wire Wire Line
-	14750 5450 14750 5750
-Wire Wire Line
-	14750 5750 14750 6050
-Wire Wire Line
-	14750 6050 14750 6350
-Wire Wire Line
-	14750 6650 14750 6950
-Wire Wire Line
-	14250 6950 14750 6950
-Connection ~ 14750 6950
-Wire Wire Line
-	14750 6950 14750 7650
+	14750 4950 14750 5050
 Entry Wire Line
 	12500 4050 12600 3950
 Wire Bus Line
@@ -2993,25 +2603,25 @@ Wire Wire Line
 Entry Wire Line
 	12350 4550 12450 4450
 Entry Wire Line
-	12350 5650 12450 5550
+	12350 5250 12450 5150
 Entry Wire Line
-	12350 6250 12450 6150
+	12350 5850 12450 5750
 Entry Wire Line
-	12350 6850 12450 6750
+	12350 6450 12450 6350
 Entry Wire Line
 	12500 4650 12600 4550
 Entry Wire Line
-	12500 5750 12600 5650
+	12500 5350 12600 5250
 Entry Wire Line
-	12500 6350 12600 6250
+	12500 5950 12600 5850
 Entry Wire Line
-	12500 6950 12600 6850
+	12500 6550 12600 6450
 Entry Wire Line
-	12650 7050 12750 6950
+	12650 6650 12750 6550
 Entry Wire Line
-	12650 6450 12750 6350
+	12650 6050 12750 5950
 Entry Wire Line
-	12650 5850 12750 5750
+	12650 5450 12750 5350
 Entry Wire Line
 	12650 4750 12750 4650
 Wire Wire Line
@@ -3023,17 +2633,17 @@ Wire Wire Line
 Entry Wire Line
 	12800 4850 12900 4750
 Entry Wire Line
-	12800 5950 12900 5850
+	12800 5550 12900 5450
 Entry Wire Line
-	12800 6550 12900 6450
+	12800 6150 12900 6050
 Entry Wire Line
-	12800 7150 12900 7050
+	12800 6750 12900 6650
 Entry Wire Line
-	12950 7250 13050 7150
+	12950 6850 13050 6750
 Entry Wire Line
-	12950 6650 13050 6550
+	12950 6250 13050 6150
 Entry Wire Line
-	12950 6050 13050 5950
+	12950 5650 13050 5550
 Entry Wire Line
 	12950 4950 13050 4850
 Entry Wire Line
@@ -3049,44 +2659,44 @@ Wire Wire Line
 Wire Wire Line
 	12900 4750 13750 4750
 Wire Wire Line
-	12450 5550 13750 5550
+	12450 5150 13750 5150
 Wire Wire Line
-	12600 5650 13750 5650
+	12600 5250 13750 5250
 Wire Wire Line
-	12750 5750 13750 5750
+	12750 5350 13750 5350
 Wire Wire Line
-	12900 5850 13750 5850
+	12900 5450 13750 5450
 Wire Wire Line
-	13050 5950 13750 5950
+	13050 5550 13750 5550
 Wire Wire Line
-	13750 6150 12450 6150
+	13750 5750 12450 5750
 Wire Wire Line
-	12600 6250 13750 6250
+	12600 5850 13750 5850
 Wire Wire Line
-	12750 6350 13750 6350
+	12750 5950 13750 5950
 Wire Wire Line
-	12900 6450 13750 6450
+	12900 6050 13750 6050
 Wire Wire Line
-	13050 6550 13750 6550
+	13050 6150 13750 6150
 Wire Wire Line
-	12450 6750 13750 6750
+	12450 6350 13750 6350
 Wire Wire Line
-	12600 6850 13750 6850
+	12600 6450 13750 6450
 Wire Wire Line
-	12750 6950 13750 6950
+	12750 6550 13750 6550
 Wire Wire Line
-	12900 7050 13750 7050
+	12900 6650 13750 6650
 Wire Wire Line
-	13050 7150 13750 7150
+	13050 6750 13750 6750
 Text Label 13100 8100 0    50   ~ 0
 ID_PIN[10..15]
 Text Label 13100 8200 0    50   ~ 0
 INT_[10..15]
 Text Label 13100 8300 0    50   ~ 0
 AUD_GND[10..15]
-Text Label 13100 8400 0    50   ~ 0
-L_IN[10..15]
 Text Label 13100 8500 0    50   ~ 0
+L_IN[10..15]
+Text Label 15500 7750 1    50   ~ 0
 R_IN[10..15]
 Wire Bus Line
 	12500 8400 13850 8400
@@ -3099,10 +2709,7 @@ Entry Wire Line
 Entry Wire Line
 	15400 3250 15500 3350
 Wire Wire Line
-	14350 5050 14950 5050
-Wire Wire Line
-	14950 5050 14950 5000
-Connection ~ 14350 5050
+	14950 7150 14950 7050
 Wire Wire Line
 	14250 3250 15400 3250
 Wire Wire Line
@@ -3116,17 +2723,17 @@ Entry Wire Line
 Entry Wire Line
 	14950 4850 15050 4950
 Entry Wire Line
-	14950 5950 15050 6050
+	14950 5550 15050 5650
 Entry Wire Line
-	14950 6550 15050 6650
+	14950 6150 15050 6250
 Entry Wire Line
-	14950 7150 15050 7250
+	14950 6750 15050 6850
 Entry Wire Line
-	15100 7050 15200 7150
+	15100 6650 15200 6750
 Entry Wire Line
-	15100 6450 15200 6550
+	15100 6050 15200 6150
 Entry Wire Line
-	15100 5850 15200 5950
+	15100 5450 15200 5550
 Entry Wire Line
 	15100 4750 15200 4850
 Entry Wire Line
@@ -3137,21 +2744,17 @@ Wire Wire Line
 	14250 4750 15100 4750
 Wire Wire Line
 	14250 4850 14950 4850
-Wire Wire Line
-	13050 5050 13650 5050
-Wire Wire Line
-	13050 5000 13050 5050
 $Comp
 L power:+12V #PWR?
 U 1 1 61B483A4
-P 13050 5000
+P 13050 7050
 AR Path="/5CBF625C/61B483A4" Ref="#PWR?"  Part="1" 
 AR Path="/5CBF628A/61B483A4" Ref="#PWR0219"  Part="1" 
-F 0 "#PWR0219" H 13050 4850 50  0001 C CNN
-F 1 "+12V" H 13150 5000 50  0000 C CNN
-F 2 "" H 13050 5000 50  0001 C CNN
-F 3 "" H 13050 5000 50  0001 C CNN
-	1    13050 5000
+F 0 "#PWR0219" H 13050 6900 50  0001 C CNN
+F 1 "+12V" H 13150 7050 50  0000 C CNN
+F 2 "" H 13050 7050 50  0001 C CNN
+F 3 "" H 13050 7050 50  0001 C CNN
+	1    13050 7050
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
@@ -3159,13 +2762,13 @@ Entry Wire Line
 Entry Wire Line
 	15250 4550 15350 4650
 Entry Wire Line
-	15250 5650 15350 5750
+	15250 5250 15350 5350
 Entry Wire Line
-	15250 6250 15350 6350
+	15250 5850 15350 5950
 Entry Wire Line
-	15400 6150 15500 6250
+	15400 5750 15500 5850
 Entry Wire Line
-	15400 5550 15500 5650
+	15400 5150 15500 5250
 Entry Wire Line
 	15400 4450 15500 4550
 Wire Wire Line
@@ -3181,33 +2784,33 @@ Wire Wire Line
 Wire Wire Line
 	14250 4550 15250 4550
 Wire Wire Line
-	14250 5550 15400 5550
+	14250 5150 15400 5150
 Wire Wire Line
-	14250 5650 15250 5650
+	14250 5250 15250 5250
 Wire Wire Line
-	14250 6150 15400 6150
+	14250 5750 15400 5750
 Wire Wire Line
-	14250 5850 15100 5850
+	14250 5450 15100 5450
 Wire Wire Line
-	14250 5950 14950 5950
+	14250 5550 14950 5550
 Wire Wire Line
-	14250 6250 15250 6250
+	14250 5850 15250 5850
 Wire Wire Line
-	14250 6550 14950 6550
+	14250 6150 14950 6150
 Wire Wire Line
-	14250 6450 15100 6450
+	14250 6050 15100 6050
 Entry Wire Line
-	15250 6850 15350 6950
+	15250 6450 15350 6550
 Entry Wire Line
-	15400 6750 15500 6850
+	15400 6350 15500 6450
 Wire Wire Line
-	14250 6750 15400 6750
+	14250 6350 15400 6350
 Wire Wire Line
-	14250 6850 15250 6850
+	14250 6450 15250 6450
 Wire Wire Line
-	14250 7050 15100 7050
+	14250 6650 15100 6650
 Wire Wire Line
-	14250 7150 14950 7150
+	14250 6750 14950 6750
 Wire Bus Line
 	15050 8250 15750 8250
 Wire Bus Line
@@ -3216,13 +2819,13 @@ Wire Bus Line
 	15500 7800 15800 7800
 Wire Bus Line
 	15350 7950 15800 7950
-Text Label 15050 7750 1    50   ~ 0
-SDA_HV[10..15]
 Text Label 15200 7750 1    50   ~ 0
+SDA_HV[10..15]
+Text Label 15050 7750 1    50   ~ 0
 SCL_HV[10..15]
-Text Label 15350 7750 1    50   ~ 0
+Text Label 13100 8400 0    50   ~ 0
 L_OUT[10..15]
-Text Label 15500 7750 1    50   ~ 0
+Text Label 15350 7750 1    50   ~ 0
 R_OUT[10..15]
 Wire Wire Line
 	10100 5850 10200 5850
@@ -3324,33 +2927,379 @@ Wire Wire Line
 Connection ~ 11300 3750
 Wire Wire Line
 	11300 3750 11300 4050
-Connection ~ 1150 2100
 Wire Wire Line
-	1150 2100 2050 2100
+	1000 2000 1650 2000
 Wire Wire Line
-	1150 2100 1150 2200
-Connection ~ 1150 2200
+	1000 2100 1800 2100
 Wire Wire Line
-	1150 2200 2050 2200
+	1000 2300 1950 2300
 Wire Wire Line
-	1150 2200 1150 2300
-Connection ~ 1150 2300
+	1000 4750 1650 4750
 Wire Wire Line
-	1150 2300 2050 2300
+	1000 4850 1800 4850
 Wire Wire Line
-	1150 2300 1150 2400
+	1000 4650 1500 4650
 Wire Wire Line
-	2600 2200 2600 2600
+	1000 4550 1350 4550
 Wire Wire Line
-	2600 4950 2600 5350
+	1000 5050 1950 5050
 Wire Wire Line
-	2600 7600 2600 8000
+	1000 7400 1650 7400
 Wire Wire Line
-	7300 7600 7300 8000
+	1000 7500 1800 7500
 Wire Wire Line
-	7300 4950 7300 5350
+	1000 7300 1500 7300
 Wire Wire Line
-	7300 2200 7300 2600
+	1000 7200 1350 7200
+Wire Wire Line
+	1000 7700 1950 7700
+Wire Wire Line
+	5700 7400 6350 7400
+Wire Wire Line
+	5700 7500 6500 7500
+Wire Wire Line
+	5700 7300 6200 7300
+Wire Wire Line
+	5700 7200 6050 7200
+Wire Wire Line
+	5700 7700 6650 7700
+Wire Wire Line
+	5700 4750 6350 4750
+Wire Wire Line
+	5700 4850 6500 4850
+Wire Wire Line
+	5700 4650 6200 4650
+Wire Wire Line
+	5700 4550 6050 4550
+Wire Wire Line
+	5700 2000 6350 2000
+Wire Wire Line
+	5700 2100 6500 2100
+Wire Wire Line
+	5700 1900 6200 1900
+Wire Wire Line
+	5700 1800 6050 1800
+Wire Wire Line
+	5700 2300 6650 2300
+Wire Wire Line
+	1000 2200 3500 2200
+Wire Wire Line
+	1000 1500 3500 1500
+Wire Wire Line
+	1000 1600 3500 1600
+Wire Wire Line
+	5700 5050 6650 5050
+Wire Wire Line
+	1150 2400 1150 2500
+Wire Wire Line
+	1000 2500 1150 2500
+Connection ~ 1150 2500
+Wire Wire Line
+	1150 2500 1150 3050
+Wire Wire Line
+	3500 1700 1000 1700
+Wire Wire Line
+	3500 4450 1000 4450
+Wire Wire Line
+	3500 7100 1000 7100
+Wire Wire Line
+	8200 7100 5700 7100
+Wire Wire Line
+	8200 4450 5700 4450
+Wire Wire Line
+	8200 1700 5700 1700
+Wire Wire Line
+	1000 1800 1350 1800
+Wire Wire Line
+	1000 1900 1500 1900
+Wire Wire Line
+	2950 1800 3500 1800
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 61B47D7A
+P 2850 1800
+AR Path="/5CC6CC1A/5CC6D47B/61B47D7A" Ref="FB?"  Part="1" 
+AR Path="/5CB02488/61B47D7A" Ref="FB?"  Part="1" 
+AR Path="/5CBF625C/61B47D7A" Ref="FB?"  Part="1" 
+AR Path="/5CBF628A/61B47D7A" Ref="FB71"  Part="1" 
+F 0 "FB71" V 3100 1800 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 3000 1800 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2780 1800 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2850 1800 50  0001 C CNN
+F 4 "Murata" H 2850 1800 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2850 1800 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 2850 1800 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 100 -100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 100 -100 50  0001 C CNN "Description"
+	1    2850 1800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2800 1900 3500 1900
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 61B47D70
+P 2700 1900
+AR Path="/5CC6CC1A/5CC6D47B/61B47D70" Ref="FB?"  Part="1" 
+AR Path="/5CB02488/61B47D70" Ref="FB?"  Part="1" 
+AR Path="/5CBF625C/61B47D70" Ref="FB?"  Part="1" 
+AR Path="/5CBF628A/61B47D70" Ref="FB68"  Part="1" 
+F 0 "FB68" V 2450 1900 50  0000 C CNN
+F 1 "600Ω @ 100MHz" V 2550 1900 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2630 1900 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 2700 1900 50  0001 C CNN
+F 4 "Murata" H 2700 1900 50  0001 C CNN "Manufacturer"
+F 5 "0805in/2012mm" H 2700 1900 50  0001 C CNN "Package ID"
+F 6 "BLM21AG601SZ1D " H 2700 1900 50  0001 C CNN "Manufacturers Part Number"
+F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 350 100 50  0001 C CNN "Characteristics"
+F 8 "Ferrite Bead" H 350 100 50  0001 C CNN "Description"
+	1    2700 1900
+	0    1    -1   0   
+$EndComp
+Text Label 3500 1800 0    50   ~ 0
+M_R_OUT10
+Text Label 3500 1900 0    50   ~ 0
+M_L_OUT10
+Wire Wire Line
+	1000 7900 1150 7900
+Connection ~ 1150 7900
+Wire Wire Line
+	1150 7900 1150 8450
+Wire Wire Line
+	1000 5250 1150 5250
+Connection ~ 1150 5250
+Wire Wire Line
+	1150 5250 1150 5800
+Wire Wire Line
+	2100 2600 3500 2600
+Wire Wire Line
+	2100 5350 3500 5350
+Wire Wire Line
+	2100 8000 3500 8000
+Wire Wire Line
+	6800 2600 8200 2600
+Wire Wire Line
+	5700 2500 5850 2500
+Connection ~ 5850 2500
+Wire Wire Line
+	5850 2500 5850 3050
+Wire Wire Line
+	6800 5350 8200 5350
+Wire Wire Line
+	5700 5250 5850 5250
+Connection ~ 5850 5250
+Wire Wire Line
+	5850 5250 5850 5800
+Wire Wire Line
+	5700 7900 5850 7900
+Connection ~ 5850 7900
+Wire Wire Line
+	5850 7900 5850 8450
+Wire Wire Line
+	6800 8000 8200 8000
+Wire Wire Line
+	1350 5450 1350 4550
+Connection ~ 1350 4550
+Wire Wire Line
+	1350 4550 2800 4550
+Wire Wire Line
+	1500 5450 1500 4650
+Connection ~ 1500 4650
+Wire Wire Line
+	1500 4650 2700 4650
+Wire Wire Line
+	1650 5450 1650 4750
+Connection ~ 1650 4750
+Wire Wire Line
+	1650 4750 2050 4750
+Wire Wire Line
+	1800 5450 1800 4850
+Connection ~ 1800 4850
+Wire Wire Line
+	1800 4850 2300 4850
+Wire Wire Line
+	1950 5450 1950 5050
+Connection ~ 1950 5050
+Wire Wire Line
+	1950 5050 3500 5050
+Wire Wire Line
+	1350 2700 1350 1800
+Connection ~ 1350 1800
+Wire Wire Line
+	1350 1800 2750 1800
+Wire Wire Line
+	1500 2700 1500 1900
+Connection ~ 1500 1900
+Wire Wire Line
+	1500 1900 2600 1900
+Wire Wire Line
+	1650 2700 1650 2000
+Connection ~ 1650 2000
+Wire Wire Line
+	1650 2000 2000 2000
+Wire Wire Line
+	1800 2700 1800 2100
+Connection ~ 1800 2100
+Wire Wire Line
+	1800 2100 2200 2100
+Wire Wire Line
+	1950 2700 1950 2300
+Connection ~ 1950 2300
+Wire Wire Line
+	1950 2300 3500 2300
+Wire Wire Line
+	1350 8100 1350 7200
+Connection ~ 1350 7200
+Wire Wire Line
+	1350 7200 2800 7200
+Wire Wire Line
+	1500 8100 1500 7300
+Connection ~ 1500 7300
+Wire Wire Line
+	1500 7300 2650 7300
+Wire Wire Line
+	1650 8100 1650 7400
+Connection ~ 1650 7400
+Wire Wire Line
+	1650 7400 2250 7400
+Wire Wire Line
+	1800 8100 1800 7500
+Connection ~ 1800 7500
+Wire Wire Line
+	1800 7500 2500 7500
+Wire Wire Line
+	1950 8100 1950 7700
+Connection ~ 1950 7700
+Wire Wire Line
+	1950 7700 3500 7700
+Wire Wire Line
+	6050 2700 6050 1800
+Connection ~ 6050 1800
+Wire Wire Line
+	6050 1800 7500 1800
+Wire Wire Line
+	6200 2700 6200 1900
+Connection ~ 6200 1900
+Wire Wire Line
+	6200 1900 7400 1900
+Wire Wire Line
+	6350 2700 6350 2000
+Connection ~ 6350 2000
+Wire Wire Line
+	6350 2000 6900 2000
+Wire Wire Line
+	6500 2700 6500 2100
+Connection ~ 6500 2100
+Wire Wire Line
+	6500 2100 7000 2100
+Wire Wire Line
+	6650 2700 6650 2300
+Connection ~ 6650 2300
+Wire Wire Line
+	6650 2300 8200 2300
+Wire Wire Line
+	6050 5450 6050 4550
+Connection ~ 6050 4550
+Wire Wire Line
+	6050 4550 7500 4550
+Wire Wire Line
+	6200 5450 6200 4650
+Connection ~ 6200 4650
+Wire Wire Line
+	6200 4650 7400 4650
+Wire Wire Line
+	6350 5450 6350 4750
+Connection ~ 6350 4750
+Wire Wire Line
+	6350 4750 6600 4750
+Wire Wire Line
+	6500 5450 6500 4850
+Connection ~ 6500 4850
+Wire Wire Line
+	6500 4850 7000 4850
+Wire Wire Line
+	6650 5450 6650 5050
+Connection ~ 6650 5050
+Wire Wire Line
+	6650 5050 8200 5050
+Wire Wire Line
+	6050 8100 6050 7200
+Connection ~ 6050 7200
+Wire Wire Line
+	6050 7200 7500 7200
+Wire Wire Line
+	6200 8100 6200 7300
+Connection ~ 6200 7300
+Wire Wire Line
+	6200 7300 7350 7300
+Wire Wire Line
+	6350 8100 6350 7400
+Connection ~ 6350 7400
+Wire Wire Line
+	6350 7400 7000 7400
+Wire Wire Line
+	6500 8100 6500 7500
+Connection ~ 6500 7500
+Wire Wire Line
+	6500 7500 6900 7500
+Wire Wire Line
+	6650 8100 6650 7700
+Connection ~ 6650 7700
+Wire Wire Line
+	6650 7700 8200 7700
+Wire Wire Line
+	13750 5050 13250 5050
+Connection ~ 13250 5050
+Wire Wire Line
+	14250 5050 14750 5050
+Connection ~ 14750 5050
+Wire Wire Line
+	14750 5050 14750 5350
+Wire Wire Line
+	14250 5350 14750 5350
+Connection ~ 14750 5350
+Wire Wire Line
+	14750 5350 14750 5650
+Wire Wire Line
+	13250 5050 13250 5650
+Wire Wire Line
+	13750 5650 13250 5650
+Connection ~ 13250 5650
+Wire Wire Line
+	13250 5650 13250 6250
+Wire Wire Line
+	14250 5650 14750 5650
+Connection ~ 14750 5650
+Wire Wire Line
+	14750 5650 14750 5950
+Wire Wire Line
+	14250 5950 14750 5950
+Connection ~ 14750 5950
+Wire Wire Line
+	14750 5950 14750 6250
+Wire Wire Line
+	13250 6250 13750 6250
+Connection ~ 13250 6250
+Wire Wire Line
+	13250 6250 13250 7650
+Wire Wire Line
+	14250 6250 14750 6250
+Connection ~ 14750 6250
+Wire Wire Line
+	13650 7150 13050 7150
+Connection ~ 13650 7150
+Wire Wire Line
+	13050 7050 13050 7150
+Wire Wire Line
+	14350 7150 14950 7150
+Connection ~ 14350 7150
+Wire Wire Line
+	14250 6550 14750 6550
+Wire Wire Line
+	14750 6250 14750 6550
+Connection ~ 14750 6550
+Wire Wire Line
+	14750 6550 14750 7650
 Wire Bus Line
 	12350 3350 12350 8500
 Wire Bus Line
