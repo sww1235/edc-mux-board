@@ -1244,8 +1244,8 @@ U 1 1 649F6701
 P 7100 3800
 AR Path="/5CC6CC1A/5CC6D47B/649F6701" Ref="C?"  Part="1" 
 AR Path="/5CC6CC1A/5CCDCE34/649F6701" Ref="C414"  Part="1" 
-F 0 "C414" V 7150 3750 50  0000 R CNN
-F 1 "1uF X7R" V 7150 3950 50  0000 R CNN
+F 0 "C414" V 7350 3800 50  0000 C CNN
+F 1 "1uF X7R" V 7250 3800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 3800 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 7100 3800 50  0001 C CNN
 F 4 "TDK" H 7100 3800 50  0001 C CNN "Manufacturer"
