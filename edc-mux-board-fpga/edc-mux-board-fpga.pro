@@ -1,4 +1,4 @@
-update=5/14/2019 19:52:07
+update=5/14/2019 23:30:38
 last_client=kicad
 [general]
 version=1
@@ -96,8 +96,8 @@ ViaDiameter=0.4572
 ViaDrill=0.254
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.14732
+dPairGap=0.127
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=High Voltage
