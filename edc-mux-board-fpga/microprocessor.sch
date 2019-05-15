@@ -810,8 +810,6 @@ NoConn ~ 5050 5100
 NoConn ~ 5050 5200
 Text Notes 4950 5500 0    50   ~ 0
 SERCOM5 (I2C)\nMay reserve PB22 and PB23\nas well as PA22 and PA23
-Text HLabel 5200 3900 2    50   Input ~ 0
-~INT~_ETH
 Text HLabel 3100 5000 0    50   Output ~ 0
 ~RESET~_I2C
 Text HLabel 3100 2900 0    50   Output ~ 0
@@ -972,12 +970,10 @@ Wire Wire Line
 	2650 4000 3550 4000
 Text Label 3100 4000 2    50   ~ 0
 DEV_INT0
-Wire Wire Line
-	5200 3900 5050 3900
-Text HLabel 5200 3800 2    50   Output ~ 0
+Text HLabel 3100 3400 0    50   Output ~ 0
 ~RESET~_ETH
 Wire Wire Line
-	5050 3800 5200 3800
+	3550 3400 3100 3400
 Wire Wire Line
 	3100 5000 3550 5000
 NoConn ~ 3550 5700
@@ -986,8 +982,6 @@ NoConn ~ 3550 3000
 NoConn ~ 3550 3100
 NoConn ~ 3550 3200
 NoConn ~ 3550 3300
-NoConn ~ 3550 3400
-NoConn ~ 3550 3500
 NoConn ~ 5050 2800
 NoConn ~ 5050 2900
 NoConn ~ 5050 3000
@@ -1083,12 +1077,18 @@ Wire Wire Line
 	3550 3900 3100 3900
 Text HLabel 3100 3900 0    50   Output ~ 0
 SCK
-Text Notes 900  3650 0    50   ~ 0
-SERCOM0 (pins 17-20)\nControl A register nessary setup\nbit 30 - 0: MSB is transfered first\nbit 29 - 0x0: SCK low idle (SPI Mode 0)\nbit 28 - 0x0: SPI Mode 0\nbits 27:24 - 0x0 : SPI frame\nbits 21:20 - 0x2: MISO on SERCOM pad 2 (pin 18)\nbits 17:16 - 0x3: MOSI on SERCOM pad 0, SS on pad 1, \n     SCK on pad 3  (pins, 17, 19, 20)\nbits 4:2 - 0x3: SPI master mode\n
 NoConn ~ 5050 4000
 NoConn ~ 5050 4100
 NoConn ~ 5050 4200
 NoConn ~ 5050 4300
+Text Notes 150  3400 0    50   ~ 0
+SERCOM0 (pins 17-20)\nControl A register nessary setup\nbit 30 - 0: MSB is transfered first\nbit 29 - 0x0: SCK low idle (SPI Mode 0)\nbit 28 - 0x0: SPI Mode 0\nbits 27:24 - 0x0 : SPI frame\nbits 21:20 - 0x2: MISO on SERCOM pad 2 (pin 18)\nbits 17:16 - 0x3: MOSI on SERCOM pad 0, SS on pad 1, \n     SCK on pad 3  (pins, 17, 19, 20)\nbits 4:2 - 0x3: SPI master mode\n
+Wire Wire Line
+	3100 3500 3550 3500
+Text HLabel 3100 3500 0    50   Input ~ 0
+~INT~_ETH
+NoConn ~ 5050 3900
+NoConn ~ 5050 3800
 Wire Bus Line
 	2550 3850 2550 7450
 $EndSCHEMATC
