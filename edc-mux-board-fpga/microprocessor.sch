@@ -504,9 +504,9 @@ Wire Wire Line
 	3450 8350 4000 8350
 Text Notes 2350 7950 0    50   ~ 0
 Power from USB for programming only
-Text Label 3650 8450 0    50   ~ 0
-USB_D+
 Text Label 3650 8550 0    50   ~ 0
+USB_D+
+Text Label 3650 8450 0    50   ~ 0
 USB_D-
 Wire Wire Line
 	3450 8450 3650 8450
