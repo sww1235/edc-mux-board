@@ -226,8 +226,6 @@ Wire Wire Line
 	3800 2300 3300 2300
 Connection ~ 3300 2300
 Wire Wire Line
-	3300 2300 3300 6400
-Wire Wire Line
 	4000 2150 4150 2150
 Connection ~ 4150 2150
 Wire Wire Line
@@ -314,7 +312,7 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4650 2500 4450 2500
+	4650 2500 4500 2500
 Wire Wire Line
 	4450 2500 4450 2550
 Wire Wire Line
@@ -795,23 +793,17 @@ Wire Wire Line
 Wire Wire Line
 	3550 5300 3100 5300
 Wire Wire Line
-	5050 4000 5200 4000
+	3550 3800 3100 3800
 Wire Wire Line
-	5050 4100 5200 4100
+	3550 3600 3100 3600
 Wire Wire Line
-	5050 4200 5200 4200
-Wire Wire Line
-	5050 4300 5200 4300
-Text HLabel 5200 4000 2    50   Input ~ 0
+	3550 3700 3100 3700
+Text HLabel 3100 3800 0    50   Input ~ 0
 MISO
-Text HLabel 5200 4100 2    50   Input ~ 0
+Text HLabel 3100 3600 0    50   Input ~ 0
 MOSI
-Text HLabel 5200 4200 2    50   Input ~ 0
+Text HLabel 3100 3700 0    50   Output ~ 0
 ~SS
-Text HLabel 5200 4300 2    50   Output ~ 0
-SCK
-Text Notes 5550 4300 1    50   ~ 0
-SERCOM4
 Text GLabel 3200 4200 0    50   Input ~ 0
 CLK3_MCU
 NoConn ~ 5050 5100
@@ -996,10 +988,6 @@ NoConn ~ 3550 3200
 NoConn ~ 3550 3300
 NoConn ~ 3550 3400
 NoConn ~ 3550 3500
-NoConn ~ 3550 3600
-NoConn ~ 3550 3700
-NoConn ~ 3550 3800
-NoConn ~ 3550 3900
 NoConn ~ 5050 2800
 NoConn ~ 5050 2900
 NoConn ~ 5050 3000
@@ -1078,6 +1066,29 @@ Wire Wire Line
 	5200 3600 5050 3600
 Wire Wire Line
 	5200 3700 5050 3700
+Text Label 4150 2450 1    50   ~ 0
+MCU_VDDA
+Text Label 4550 1800 0    50   ~ 0
+MCU_VDDIO
+Text Label 4500 2650 0    50   ~ 0
+MCU_VDDCORE
+Wire Wire Line
+	4500 2650 4500 2500
+Connection ~ 4500 2500
+Wire Wire Line
+	4500 2500 4450 2500
+Wire Wire Line
+	3300 2300 3300 6400
+Wire Wire Line
+	3550 3900 3100 3900
+Text HLabel 3100 3900 0    50   Output ~ 0
+SCK
+Text Notes 900  3650 0    50   ~ 0
+SERCOM0 (pins 17-20)\nControl A register nessary setup\nbit 30 - 0: MSB is transfered first\nbit 29 - 0x0: SCK low idle (SPI Mode 0)\nbit 28 - 0x0: SPI Mode 0\nbits 27:24 - 0x0 : SPI frame\nbits 21:20 - 0x2: MISO on SERCOM pad 2 (pin 18)\nbits 17:16 - 0x3: MOSI on SERCOM pad 0, SS on pad 1, \n     SCK on pad 3  (pins, 17, 19, 20)\nbits 4:2 - 0x3: SPI master mode\n
+NoConn ~ 5050 4000
+NoConn ~ 5050 4100
+NoConn ~ 5050 4200
+NoConn ~ 5050 4300
 Wire Bus Line
 	2550 3850 2550 7450
 $EndSCHEMATC
