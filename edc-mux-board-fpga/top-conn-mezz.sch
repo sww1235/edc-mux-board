@@ -31,21 +31,21 @@ F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    2550 2050
 	1    0    0    -1  
 $EndComp
-Text HLabel 8750 3500 2    50   Output ~ 0
+Text HLabel 8750 2800 2    50   Output ~ 0
 ETH_TX+
-Text HLabel 8750 3400 2    50   Output ~ 0
+Text HLabel 8750 3100 2    50   Output ~ 0
 ETH_TX-
-Text HLabel 8750 3300 2    50   Input ~ 0
+Text HLabel 8750 3400 2    50   Input ~ 0
 ETH_RX+
-Text HLabel 8750 3000 2    50   Input ~ 0
+Text HLabel 8750 3500 2    50   Input ~ 0
 ETH_RX-
-Text HLabel 8750 3200 2    50   UnSpc ~ 0
+Text HLabel 8750 3300 2    50   UnSpc ~ 0
 NC_1+
-Text HLabel 8750 3100 2    50   UnSpc ~ 0
+Text HLabel 8750 3200 2    50   UnSpc ~ 0
 NC_1-
-Text HLabel 8750 2900 2    50   UnSpc ~ 0
+Text HLabel 8750 3000 2    50   UnSpc ~ 0
 NC_2+
-Text HLabel 8750 2800 2    50   UnSpc ~ 0
+Text HLabel 8750 2900 2    50   UnSpc ~ 0
 NC_2-
 Text HLabel 7800 2800 0    50   Output ~ 0
 LINKLED
@@ -239,21 +239,21 @@ Text Label 2350 3500 2    50   ~ 0
 M_LINKLED
 Text Label 2350 3150 2    50   ~ 0
 M_ACTLED
-Text Label 6600 2900 0    50   ~ 0
-M_NC_2-
 Text Label 6600 3000 0    50   ~ 0
-M_NC_2+
+M_NC_2-
 Text Label 6600 3100 0    50   ~ 0
+M_NC_2+
+Text Label 6650 3600 0    50   ~ 0
 M_ETH_RX-
-Text Label 6600 3200 0    50   ~ 0
-M_NC_1-
 Text Label 6600 3300 0    50   ~ 0
-M_NC_1+
+M_NC_1-
 Text Label 6600 3400 0    50   ~ 0
-M_ETH_RX+
-Text Label 6600 3600 0    50   ~ 0
-M_ETH_TX+
+M_NC_1+
 Text Label 6600 3500 0    50   ~ 0
+M_ETH_RX+
+Text Label 6600 2900 0    50   ~ 0
+M_ETH_TX+
+Text Label 6600 3200 0    50   ~ 0
 M_ETH_TX-
 Text Label 5800 2900 2    50   ~ 0
 M_LINKLED
