@@ -47,9 +47,9 @@ Text HLabel 8750 2900 2    50   UnSpc ~ 0
 NC_2+
 Text HLabel 8750 2800 2    50   UnSpc ~ 0
 NC_2-
-Text HLabel 8000 3600 0    50   Output ~ 0
+Text HLabel 7800 2800 0    50   Output ~ 0
 LINKLED
-Text HLabel 8000 2700 0    50   Output ~ 0
+Text HLabel 7800 2700 0    50   Output ~ 0
 ACTLED
 Text Label 6050 4050 0    50   ~ 0
 M_GND
@@ -219,41 +219,6 @@ Wire Wire Line
 	3350 1750 2950 1750
 Wire Wire Line
 	3350 1650 2950 1650
-$Comp
-L Connector_Generic:Conn_02x10_Counter_Clockwise J3
-U 1 1 62FF66EF
-P 6150 3200
-F 0 "J3" H 6200 3700 50  0000 C CNN
-F 1 "Left Mezzanine Board Connector (Daughterboard)" H 6200 2600 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 6150 3200 50  0001 C CNN
-F 3 "~" H 6150 3200 50  0001 C CNN
-F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
-	1    6150 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x10_Counter_Clockwise J4
-U 1 1 62FF73D0
-P 8300 3100
-F 0 "J4" H 8350 3600 50  0000 C CNN
-F 1 "Left Mezzanine Board Connector (Motherboard)" H 8350 2500 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 8300 3100 50  0001 C CNN
-F 3 "~" H 8300 3100 50  0001 C CNN
-F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
-	1    8300 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0199
-U 1 1 63024979
-P 7600 2800
-F 0 "#PWR0199" H 7600 2650 50  0001 C CNN
-F 1 "+3V3" H 7600 2940 50  0000 C CNN
-F 2 "" H 7600 2800 50  0001 C CNN
-F 3 "" H 7600 2800 50  0001 C CNN
-	1    7600 2800
-	1    0    0    -1  
-$EndComp
 Text Label 3350 1650 0    50   ~ 0
 M_NC_2-
 Text Label 3350 1750 0    50   ~ 0
@@ -290,11 +255,11 @@ Text Label 6600 3600 0    50   ~ 0
 M_ETH_TX+
 Text Label 6600 3500 0    50   ~ 0
 M_ETH_TX-
-Text Label 5800 3700 2    50   ~ 0
+Text Label 5800 2900 2    50   ~ 0
 M_LINKLED
-Text Label 5750 2800 2    50   ~ 0
+Text Label 5800 2800 2    50   ~ 0
 M_ACTLED
-Text Label 5750 2900 2    50   ~ 0
+Text Label 5800 3000 2    50   ~ 0
 M_+3V3
 Wire Wire Line
 	6450 2900 6600 2900
@@ -324,18 +289,9 @@ Connection ~ 7050 3700
 Wire Wire Line
 	7050 3700 7050 4050
 Wire Wire Line
-	5800 3700 5950 3700
+	5800 2900 5950 2900
 Wire Wire Line
-	5750 2800 5950 2800
-Wire Wire Line
-	5750 2900 5900 2900
-Wire Wire Line
-	5900 2900 5900 3000
-Wire Wire Line
-	5900 3000 5950 3000
-Connection ~ 5900 2900
-Wire Wire Line
-	5900 2900 5950 2900
+	5800 2800 5950 2800
 Wire Wire Line
 	5350 4050 5350 3600
 Wire Wire Line
@@ -390,9 +346,9 @@ Wire Wire Line
 Wire Wire Line
 	7600 3000 8100 3000
 Wire Wire Line
-	8000 3600 8100 3600
+	7800 2800 8100 2800
 Wire Wire Line
-	8000 2700 8100 2700
+	7800 2700 8100 2700
 Wire Wire Line
 	8100 3500 7600 3500
 Wire Wire Line
@@ -420,15 +376,6 @@ Wire Wire Line
 Connection ~ 7600 3100
 Wire Wire Line
 	7600 3100 7600 3200
-Wire Wire Line
-	7600 2800 8000 2800
-Wire Wire Line
-	8000 2800 8000 2900
-Wire Wire Line
-	8000 2900 8100 2900
-Wire Wire Line
-	8000 2800 8100 2800
-Connection ~ 8000 2800
 Wire Wire Line
 	8700 3900 8700 4150
 Connection ~ 8700 3900
@@ -460,4 +407,52 @@ Wire Wire Line
 Connection ~ 9200 3600
 Wire Wire Line
 	9200 3600 9200 3900
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J3
+U 1 1 5CFB92D9
+P 6150 3200
+F 0 "J3" H 6200 3700 50  0000 C CNN
+F 1 "Left Mezzanine Board Connector (Daughterboard)" H 6200 2600 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 6150 3200 50  0001 C CNN
+F 3 "~" H 6150 3200 50  0001 C CNN
+	1    6150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J4
+U 1 1 5CFC601E
+P 8300 3100
+F 0 "J4" H 8350 3600 50  0000 C CNN
+F 1 "Left Mezzanine Board Connector (Motherboard)" H 8350 2500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 8300 3100 50  0001 C CNN
+F 3 "~" H 8300 3100 50  0001 C CNN
+	1    8300 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3000 5950 3000
+Text Label 5800 3700 2    50   ~ 0
+M_+3V3
+Wire Wire Line
+	5800 3700 5950 3700
+$Comp
+L power:+3V3 #PWR0199
+U 1 1 5CFE1AAF
+P 7900 2550
+F 0 "#PWR0199" H 7900 2400 50  0001 C CNN
+F 1 "+3V3" H 7900 2690 50  0000 C CNN
+F 2 "" H 7900 2550 50  0001 C CNN
+F 3 "" H 7900 2550 50  0001 C CNN
+	1    7900 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2550 7900 2900
+Wire Wire Line
+	7900 3600 8100 3600
+Wire Wire Line
+	8100 2900 7900 2900
+Connection ~ 7900 2900
+Wire Wire Line
+	7900 2900 7900 3600
 $EndSCHEMATC
