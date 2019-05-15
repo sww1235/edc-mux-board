@@ -786,7 +786,7 @@ U 1 1 648966C0
 P 5150 3850
 F 0 "U59" H 4700 4800 50  0000 C CNN
 F 1 "TCA9555RTWR" H 5150 3850 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 6350 2850 50  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 6350 2850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 4650 4750 50  0001 C CNN
 F 4 "16 bit IO expander" H 0   0   50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
