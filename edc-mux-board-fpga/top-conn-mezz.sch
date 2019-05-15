@@ -243,7 +243,7 @@ Text Label 6600 3000 0    50   ~ 0
 M_NC_2-
 Text Label 6600 3100 0    50   ~ 0
 M_NC_2+
-Text Label 6650 3600 0    50   ~ 0
+Text Label 6600 3600 0    50   ~ 0
 M_ETH_RX-
 Text Label 6600 3300 0    50   ~ 0
 M_NC_1-
@@ -381,27 +381,8 @@ Wire Wire Line
 Connection ~ 8700 3900
 Wire Wire Line
 	8700 3900 7600 3900
-$Comp
-L power:GND #PWR?
-U 1 1 5DB88CF5
-P 2600 2750
-AR Path="/5CC6CC1A/5CC6D4D3/5DB88CF5" Ref="#PWR?"  Part="1" 
-AR Path="/5CBF625C/5DB88CF5" Ref="#PWR?"  Part="1" 
-AR Path="/5CBF6239/5DB88CF5" Ref="#PWR?"  Part="1" 
-AR Path="/5CB02488/5DB88CF5" Ref="#PWR0198"  Part="1" 
-F 0 "#PWR0198" H 2600 2500 50  0001 C CNN
-F 1 "GND" H 2600 2600 50  0000 C CNN
-F 2 "" H 2600 2750 50  0001 C CNN
-F 3 "" H 2600 2750 50  0001 C CNN
-	1    2600 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2550 2550 2550 2650
-Wire Wire Line
-	2550 2650 2600 2650
-Wire Wire Line
-	2600 2650 2600 2750
 Wire Wire Line
 	8600 3600 9200 3600
 Connection ~ 9200 3600
@@ -455,4 +436,8 @@ Wire Wire Line
 Connection ~ 7900 2900
 Wire Wire Line
 	7900 2900 7900 3600
+Text Label 2750 2650 0    50   ~ 0
+M_GND
+Wire Wire Line
+	2550 2650 2750 2650
 $EndSCHEMATC
