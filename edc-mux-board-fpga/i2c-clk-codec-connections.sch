@@ -700,19 +700,19 @@ Text Label 2950 1800 0    50   ~ 0
 MCLK7
 Text Label 2950 4100 0    50   ~ 0
 MCLK8
-Text Label 2950 4200 0    50   ~ 0
-MCLK9
-Text Label 2950 4300 0    50   ~ 0
-MCLK10
-Text Label 2950 4400 0    50   ~ 0
-MCLK11
 Text Label 2950 4500 0    50   ~ 0
-MCLK12
-Text Label 2950 4600 0    50   ~ 0
-MCLK13
+MCLK9
 Text Label 2950 4700 0    50   ~ 0
-MCLK14
+MCLK10
 Text Label 2950 4800 0    50   ~ 0
+MCLK11
+Text Label 2950 4600 0    50   ~ 0
+MCLK12
+Text Label 2950 4300 0    50   ~ 0
+MCLK13
+Text Label 2950 4400 0    50   ~ 0
+MCLK14
+Text Label 2950 4200 0    50   ~ 0
 MCLK15
 Entry Wire Line
 	3250 1700 3350 1800
