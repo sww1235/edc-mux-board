@@ -283,16 +283,12 @@ Wire Wire Line
 NoConn ~ 1100 1000
 NoConn ~ 1100 1100
 NoConn ~ 1100 1200
-NoConn ~ 1100 1300
-NoConn ~ 1100 1400
 NoConn ~ 1100 1500
 NoConn ~ 1100 1600
 NoConn ~ 1100 1800
 NoConn ~ 1100 1900
 NoConn ~ 1100 2000
-NoConn ~ 1100 2100
 NoConn ~ 1100 2200
-NoConn ~ 1100 2300
 NoConn ~ 1100 2400
 NoConn ~ 1100 2500
 NoConn ~ 1100 3200
@@ -376,24 +372,20 @@ Text Notes 8200 4650 0    50   ~ 0
 DIN = input to CODEC = i2s_out in VHDL\nDOUT = output from CODEC  = i2s_in in VHDL
 Text Label 8000 3200 2    50   ~ 0
 DEV_INT2
-Text Label 8000 1900 2    50   ~ 0
+Text Label 8000 1100 2    50   ~ 0
 DEV_INT0
-Text Label 8000 2500 2    50   ~ 0
+Text Label 8000 2200 2    50   ~ 0
 DEV_INT1
-Text Label 8000 1200 2    50   ~ 0
-DEV_ATT0
-Text Label 8000 2000 2    50   ~ 0
+Text Label 8000 2100 2    50   ~ 0
 DEV_ATT1
 Text Label 8000 2800 2    50   ~ 0
 DEV_ATT2
 Wire Wire Line
-	8000 1200 8150 1200
+	8000 1100 8150 1100
 Wire Wire Line
-	8000 1900 8150 1900
+	8000 2100 8150 2100
 Wire Wire Line
-	8000 2000 8150 2000
-Wire Wire Line
-	8000 2500 8150 2500
+	8000 2200 8150 2200
 Wire Wire Line
 	8000 2800 8150 2800
 Wire Wire Line
@@ -422,14 +414,10 @@ Wire Wire Line
 	10050 2700 10150 2700
 Wire Wire Line
 	10050 2800 10150 2800
-NoConn ~ 8150 1100
 NoConn ~ 8150 1300
 NoConn ~ 8150 1400
 NoConn ~ 8150 1500
-NoConn ~ 8150 1600
 NoConn ~ 8150 1700
-NoConn ~ 8150 2100
-NoConn ~ 8150 2200
 NoConn ~ 8150 2300
 NoConn ~ 8150 2400
 NoConn ~ 8150 2600
@@ -454,17 +442,15 @@ Text Label 11500 1950 2    50   ~ 0
 DOUT4
 Text Label 13700 1250 0    50   ~ 0
 DOUT5
-Text Label 11500 1650 2    50   ~ 0
+Text Label 1850 5550 2    50   ~ 0
 DEV_INT3
-Text Label 11500 3350 2    50   ~ 0
+Text Label 1850 5350 2    50   ~ 0
 DEV_INT4
-Text Label 13700 1550 0    50   ~ 0
+Text Label 13700 2250 0    50   ~ 0
 DEV_INT5
-Text Label 11500 3150 2    50   ~ 0
-DEV_ATT3
-Text Label 11500 2750 2    50   ~ 0
+Text Label 1850 5450 2    50   ~ 0
 DEV_ATT4
-Text Label 11500 3050 2    50   ~ 0
+Text Label 13700 2150 0    50   ~ 0
 DEV_ATT5
 Text Label 13700 1350 0    50   ~ 0
 BCLK5
@@ -473,19 +459,17 @@ Wire Wire Line
 Wire Wire Line
 	11500 1350 11650 1350
 Wire Wire Line
-	11500 1650 11650 1650
+	1850 5550 2250 5550
 Wire Wire Line
 	11500 2250 11650 2250
 Wire Wire Line
 	11500 2350 11650 2350
 Wire Wire Line
-	11500 2750 11650 2750
+	1850 5450 2250 5450
 Wire Wire Line
-	11500 3050 11650 3050
+	13700 2150 13550 2150
 Wire Wire Line
-	11500 3150 11650 3150
-Wire Wire Line
-	11500 3350 11650 3350
+	1850 5350 2250 5350
 Wire Wire Line
 	13550 1150 13700 1150
 Wire Wire Line
@@ -495,7 +479,7 @@ Wire Wire Line
 Wire Wire Line
 	13550 1450 13700 1450
 Wire Wire Line
-	13550 1550 13700 1550
+	13550 2250 13700 2250
 NoConn ~ 11650 1150
 NoConn ~ 11650 1750
 NoConn ~ 11650 2050
@@ -508,8 +492,6 @@ NoConn ~ 13550 1650
 NoConn ~ 13550 1750
 NoConn ~ 13550 1950
 NoConn ~ 13550 2050
-NoConn ~ 13550 2150
-NoConn ~ 13550 2250
 NoConn ~ 13550 2350
 NoConn ~ 13550 2450
 NoConn ~ 13550 2550
@@ -680,9 +662,9 @@ Text Label 7350 7650 2    50   ~ 0
 DOUT10
 Text Label 7350 7550 2    50   ~ 0
 DIN10
-Text Label 9550 6550 0    50   ~ 0
+Text Label 9550 7550 0    50   ~ 0
 DEV_INT10
-Text Label 9550 6750 0    50   ~ 0
+Text Label 9550 7450 0    50   ~ 0
 DEV_ATT10
 Text Label 7350 6550 2    50   ~ 0
 WCLK11
@@ -690,9 +672,7 @@ Text Label 7350 6650 2    50   ~ 0
 DIN11
 Text Label 7350 6750 2    50   ~ 0
 DOUT11
-Text Label 9550 6650 0    50   ~ 0
-DEV_INT11
-Text Label 9550 7650 0    50   ~ 0
+Text Label 7350 7750 2    50   ~ 0
 DEV_ATT11
 Text Label 7350 6450 2    50   ~ 0
 BCLK11
@@ -706,9 +686,9 @@ Text Label 13100 7700 0    50   ~ 0
 DOUT12
 Text Label 13100 7600 0    50   ~ 0
 DIN12
-Text Label 10800 8000 2    50   ~ 0
+Text Label 1850 4950 2    50   ~ 0
 DEV_INT12
-Text Label 10800 8100 2    50   ~ 0
+Text Label 1850 5050 2    50   ~ 0
 DEV_ATT12
 Wire Wire Line
 	7350 6550 7500 6550
@@ -725,13 +705,11 @@ Wire Wire Line
 Wire Wire Line
 	7350 7650 7500 7650
 Wire Wire Line
-	9400 6550 9550 6550
+	9400 7550 9550 7550
 Wire Wire Line
-	9400 6650 9550 6650
+	9400 7450 9550 7450
 Wire Wire Line
-	9400 6750 9550 6750
-Wire Wire Line
-	9400 7650 9550 7650
+	7500 7750 7350 7750
 NoConn ~ 7500 6050
 NoConn ~ 7500 6150
 NoConn ~ 7500 6250
@@ -740,8 +718,6 @@ NoConn ~ 7500 6850
 NoConn ~ 7500 6950
 NoConn ~ 7500 7350
 NoConn ~ 7500 7450
-NoConn ~ 7500 7750
-NoConn ~ 7500 7950
 NoConn ~ 7500 8250
 NoConn ~ 9400 6050
 NoConn ~ 9400 6150
@@ -753,8 +729,6 @@ NoConn ~ 9400 6950
 NoConn ~ 9400 7050
 NoConn ~ 9400 7150
 NoConn ~ 9400 7350
-NoConn ~ 9400 7450
-NoConn ~ 9400 7550
 NoConn ~ 9400 7750
 NoConn ~ 9400 7850
 NoConn ~ 9400 7950
@@ -779,17 +753,17 @@ Text Label 13100 6700 0    50   ~ 0
 DOUT14
 Text Label 10800 7700 2    50   ~ 0
 DOUT15
-Text Label 10800 6500 2    50   ~ 0
+Text Label 1850 5150 2    50   ~ 0
 DEV_INT13
-Text Label 10800 7400 2    50   ~ 0
+Text Label 900  1400 2    50   ~ 0
 DEV_INT14
-Text Label 10800 6800 2    50   ~ 0
+Text Label 900  2300 2    50   ~ 0
 DEV_INT15
-Text Label 10800 6400 2    50   ~ 0
+Text Label 1850 5250 2    50   ~ 0
 DEV_ATT13
-Text Label 10800 7300 2    50   ~ 0
+Text Label 900  1300 2    50   ~ 0
 DEV_ATT14
-Text Label 10800 6700 2    50   ~ 0
+Text Label 900  2100 2    50   ~ 0
 DEV_ATT15
 Text Label 13100 6800 0    50   ~ 0
 BCLK13
@@ -798,29 +772,25 @@ BCLK14
 Text Label 10800 7100 2    50   ~ 0
 BCLK15
 Wire Wire Line
-	10800 6400 11000 6400
+	1850 5150 2250 5150
 Wire Wire Line
-	10800 6500 11000 6500
+	900  2100 1100 2100
 Wire Wire Line
-	10800 6700 11000 6700
-Wire Wire Line
-	10800 6800 11000 6800
+	900  2300 1100 2300
 Wire Wire Line
 	10800 7100 11000 7100
 Wire Wire Line
 	10800 7200 11000 7200
 Wire Wire Line
-	10800 7300 11000 7300
+	900  1300 1100 1300
 Wire Wire Line
-	10800 7400 11000 7400
+	900  1400 1100 1400
 Wire Wire Line
 	10800 7500 11000 7500
 Wire Wire Line
 	10800 7700 11000 7700
 Wire Wire Line
-	10800 8000 11000 8000
-Wire Wire Line
-	10800 8100 11000 8100
+	1850 4950 2250 4950
 Wire Wire Line
 	10800 8200 11000 8200
 Wire Wire Line
@@ -1299,8 +1269,6 @@ F 3 "" H 2100 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 5850 2100 5650
-Wire Wire Line
 	2100 4150 2250 4150
 Wire Wire Line
 	2250 4350 2100 4350
@@ -1312,36 +1280,6 @@ Wire Wire Line
 Connection ~ 2100 4450
 Wire Wire Line
 	2100 4450 2100 4350
-Wire Wire Line
-	2250 4950 2100 4950
-Connection ~ 2100 4950
-Wire Wire Line
-	2100 4950 2100 4450
-Wire Wire Line
-	2250 5050 2100 5050
-Connection ~ 2100 5050
-Wire Wire Line
-	2100 5050 2100 4950
-Wire Wire Line
-	2250 5150 2100 5150
-Connection ~ 2100 5150
-Wire Wire Line
-	2100 5150 2100 5050
-Wire Wire Line
-	2250 5250 2100 5250
-Connection ~ 2100 5250
-Wire Wire Line
-	2100 5250 2100 5150
-Wire Wire Line
-	2250 5550 2100 5550
-Connection ~ 2100 5550
-Wire Wire Line
-	2100 5550 2100 5450
-Wire Wire Line
-	2250 5650 2100 5650
-Connection ~ 2100 5650
-Wire Wire Line
-	2100 5650 2100 5550
 NoConn ~ 15700 7150
 Wire Wire Line
 	12950 5500 12950 4350
@@ -1404,16 +1342,6 @@ Text Label 11500 2350 2    50   ~ 0
 WCLK4
 Text Label 11500 2250 2    50   ~ 0
 BCLK4
-Wire Wire Line
-	2250 5350 2100 5350
-Connection ~ 2100 5350
-Wire Wire Line
-	2100 5350 2100 5250
-Wire Wire Line
-	2250 5450 2100 5450
-Connection ~ 2100 5450
-Wire Wire Line
-	2100 5450 2100 5350
 Text Label 11500 1450 2    50   ~ 0
 BCLK3
 Text Label 11500 1550 2    50   ~ 0
@@ -1430,6 +1358,46 @@ Text Label 4250 6850 2    50   ~ 0
 DEV_ATT9
 NoConn ~ 4400 6650
 NoConn ~ 4400 6750
+NoConn ~ 11000 6700
+NoConn ~ 11000 6800
+NoConn ~ 11000 7300
+NoConn ~ 11000 7400
+Wire Wire Line
+	1850 5650 2250 5650
+Text Label 1850 5650 2    50   ~ 0
+DEV_ATT3
+Wire Wire Line
+	2100 4450 2100 5850
+Wire Wire Line
+	1850 5250 2250 5250
+Wire Wire Line
+	1850 5050 2250 5050
+Wire Wire Line
+	7500 7950 7350 7950
+Text Label 7350 7950 2    50   ~ 0
+DEV_INT11
+NoConn ~ 11000 6500
+NoConn ~ 11000 8000
+NoConn ~ 9400 6550
+NoConn ~ 9400 6650
+NoConn ~ 11000 6400
+NoConn ~ 11000 8100
+NoConn ~ 9400 7650
+NoConn ~ 9400 6750
+NoConn ~ 8150 2000
+NoConn ~ 8150 1200
+NoConn ~ 11650 3150
+NoConn ~ 11650 2750
+NoConn ~ 11650 3050
+NoConn ~ 8150 1900
+NoConn ~ 8150 2500
+NoConn ~ 11650 3350
+NoConn ~ 11650 1650
+NoConn ~ 13550 1550
+Wire Wire Line
+	8000 1600 8150 1600
+Text Label 8000 1600 2    50   ~ 0
+DEV_ATT0
 Wire Bus Line
 	7100 1450 7100 3500
 $EndSCHEMATC
