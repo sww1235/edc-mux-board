@@ -121,7 +121,7 @@ U 1 1 62BD1D5F
 P 3650 3400
 F 0 "SW1" H 3700 3500 50  0000 L CNN
 F 1 "LED_ENABLE" H 3650 3340 50  0000 C CNN
-F 2 "SW-Eswitch:TL1105" H 3650 3600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3650 3600 50  0001 C CNN
 F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/144/TL1105.pdf" H 3650 3600 50  0001 C CNN
 F 4 "Tactile Switch" H 0   0   50  0001 C CNN "Description"
 F 5 "Eswitch" H 0   0   50  0001 C CNN "Manufacturer"
@@ -440,4 +440,6 @@ Text Label 2750 2650 0    50   ~ 0
 M_GND
 Wire Wire Line
 	2550 2650 2750 2650
+Text Label 3250 3200 0    50   ~ 0
+M_LED_SW
 $EndSCHEMATC
