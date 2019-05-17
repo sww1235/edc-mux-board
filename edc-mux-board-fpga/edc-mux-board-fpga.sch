@@ -612,4 +612,88 @@ Text Label 3800 4200 0    50   ~ 0
 SCL
 Text Label 3800 4300 0    50   ~ 0
 SDA
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5CDED4C9
+P 13350 1850
+F 0 "H1" H 13350 2100 50  0000 C CNN
+F 1 "MountingHole_Pad" H 13350 2025 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 13350 1850 50  0001 C CNN
+F 3 "~" H 13350 1850 50  0001 C CNN
+F 4 "Mounting Hole" H 0   0   50  0001 C CNN "Description"
+F 5 "M4 Hole" H 0   0   50  0001 C CNN "Package ID"
+	1    13350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5CDEDFF4
+P 14100 1850
+F 0 "H2" H 14100 2100 50  0000 C CNN
+F 1 "MountingHole_Pad" H 14100 2025 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 14100 1850 50  0001 C CNN
+F 3 "~" H 14100 1850 50  0001 C CNN
+F 4 "Mounting Hole" H 0   0   50  0001 C CNN "Description"
+F 5 "M4 Hole" H 0   0   50  0001 C CNN "Package ID"
+	1    14100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5CDEE61E
+P 14850 1850
+F 0 "H3" H 14850 2100 50  0000 C CNN
+F 1 "MountingHole_Pad" H 14850 2025 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 14850 1850 50  0001 C CNN
+F 3 "~" H 14850 1850 50  0001 C CNN
+F 4 "Mounting Hole" H 0   0   50  0001 C CNN "Description"
+F 5 "M4 Hole" H 0   0   50  0001 C CNN "Package ID"
+	1    14850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5CDEEA6F
+P 15600 1850
+F 0 "H4" H 15600 2100 50  0000 C CNN
+F 1 "MountingHole_Pad" H 15600 2025 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 15600 1850 50  0001 C CNN
+F 3 "~" H 15600 1850 50  0001 C CNN
+F 4 "Mounting Hole" H 0   0   50  0001 C CNN "Description"
+F 5 "M4 Hole" H 0   0   50  0001 C CNN "Package ID"
+	1    15600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDEEEAB
+P 14500 2500
+F 0 "#PWR?" H 14500 2250 50  0001 C CNN
+F 1 "GND" H 14500 2350 50  0000 C CNN
+F 2 "" H 14500 2500 50  0001 C CNN
+F 3 "" H 14500 2500 50  0001 C CNN
+	1    14500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13350 1950 13350 2100
+Wire Wire Line
+	13350 2100 14100 2100
+Wire Wire Line
+	15600 2100 15600 1950
+Wire Wire Line
+	14100 1950 14100 2100
+Connection ~ 14100 2100
+Wire Wire Line
+	14100 2100 14500 2100
+Wire Wire Line
+	14850 1950 14850 2100
+Connection ~ 14850 2100
+Wire Wire Line
+	14850 2100 15600 2100
+Wire Wire Line
+	14500 2500 14500 2100
+Connection ~ 14500 2100
+Wire Wire Line
+	14500 2100 14850 2100
 $EndSCHEMATC
