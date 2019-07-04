@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:edc-mux-board-fpga-cache
+LIBS:edc-mux-board-fpga-main-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLedger 17000 11000
@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 28
 Title "EDC Mux Board"
 Date "2019-05-17"
-Rev "1"
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -120,19 +120,19 @@ F9 "ID_PIN[6..9]" U L 10400 8250 50
 F10 "INT_[6..9]" O L 10400 8350 50 
 $EndSheet
 $Sheet
-S 5900 7950 2200 1000
+S 1150 6250 2200 1000
 U 5CBF625C
-F0 "Left Side Daughterboard Connector Interconnects" 50
+F0 "Left Side Connector Interconnects" 50
 F1 "left-conn-mezz.sch" 50
-F2 "R_IN[0..5]" O R 8100 8050 50 
-F3 "L_IN[0..5]" O R 8100 8150 50 
-F4 "AUD_GND[0..5]" U R 8100 8250 50 
-F5 "SDA_HV[0..5]" B R 8100 8750 50 
-F6 "SCL_HV[0..5]" I R 8100 8850 50 
-F7 "L_OUT[0..5]" O R 8100 8450 50 
-F8 "R_OUT[0..5]" O R 8100 8350 50 
-F9 "ID_PIN[0..5]" U L 5900 8250 50 
-F10 "INT_[0..5]" O L 5900 8350 50 
+F2 "R_IN[0..3]" O R 3350 6350 50 
+F3 "L_IN[0..3]" O R 3350 6450 50 
+F4 "AUD_GND[0..3]" U R 3350 6550 50 
+F5 "SDA_HV[0..3]" B R 3350 7050 50 
+F6 "SCL_HV[0..3]" I R 3350 7150 50 
+F7 "L_OUT[0..3]" O R 3350 6750 50 
+F8 "R_OUT[0..3]" O R 3350 6650 50 
+F9 "ID_PIN[0..3]" U L 1150 6550 50 
+F10 "INT_[0..3]" O L 1150 6650 50 
 $EndSheet
 $Sheet
 S 1650 7950 2250 1000
@@ -149,8 +149,8 @@ F8 "R_OUT[10..15]" O R 3900 8350 50
 F9 "ID_PIN[10..15]" U L 1650 8250 50 
 F10 "INT_[10..15]" O L 1650 8350 50 
 $EndSheet
-Text Notes 8650 6800 0    50   ~ 0
-Top Connector Daughterboard: (5)\n- Ethernet\n- LEDs (Act, Link, Pwr)\n- LED Enable (Momentary)\n\nLeft Connector Daughterboard: (6)\n- Conn 0\n- Conn 1\n- Conn 2\n- Conn 3\n- Conn 4\n- Conn 5\n\nRight Connector Daughterboard: (6)\n- Conn 10\n- Conn 11\n- Conn 12\n- Conn 13\n- Conn 14\n- Conn 15\n\nBottom Connector Daughterboard: (6)\n- Conn 6\n- Conn 7\n- Conn 8\n- Conn 9\n- Power In (+12V)\n- Power Switch (Toggle)
+Text Notes 12400 6700 0    50   ~ 0
+Top, left and right connectors use\nwire to board connectors to connect\nto actual chassis mounted M12 connectors\nand devices\nBottom connector is a DD78HD connector\nwhich has signals for 8 more codecs and\npower and ground\n\nTop Connectors: (4)\n- LEDs (Act, Link, Pwr)\n- LED Enable (Momentary)\n- Power Switch (Toggle)\n\nLeft Connectors: (5)\n- Ethernet\n- Conn 0\n- Conn 1\n- Conn 2\n- Conn 3\n\nRight Connectors: (5)\n- Power In (+12V)\n- Conn 4\n- Conn 5\n- Conn 6\n- Conn 7\n\nBottom Connectors: (8)\n- Conn 8\n- Conn 9\n- Conn 10\n- Conn 11\n- Conn 12\n- Conn 13\n- Conn 14\n- Conn 15\n\n
 Wire Wire Line
 	7300 3800 6950 3800
 Wire Wire Line
