@@ -32,21 +32,6 @@ F 7 "TQFP48" H -1800 100 50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transformer:PT61017PEL TR1
-U 1 1 5CB0683C
-P 6950 3200
-F 0 "TR1" H 6950 3625 50  0000 C CNN
-F 1 "H1102NL" H 6950 2775 50  0000 C CNN
-F 2 "SW-Pulse:Transformer_Pulse_H1100NL" H 6950 2700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/336/-515479.pdf" H 6250 3550 50  0001 C CNN
-F 4 "Pulse" H 6950 3200 50  0001 C CNN "Manufacturer"
-F 5 "H1102NL" H 6950 3200 50  0001 C CNN "Manufacturers Part Number"
-F 6 "Ethernet Transformer" H -1800 100 50  0001 C CNN "Description"
-F 7 "H1102NL" H -1800 100 50  0001 C CNN "Package ID"
-	1    6950 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small_US R104
 U 1 1 5CB0B198
 P 5600 2850
@@ -172,7 +157,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 2850 5900 3100
 Wire Wire Line
-	5900 3100 6550 3100
+	5900 3100 6750 3100
 Text Label 5650 2350 2    50   ~ 0
 +3V3A
 Wire Wire Line
@@ -187,7 +172,7 @@ Connection ~ 6100 2350
 Wire Wire Line
 	6100 2350 6250 2350
 Wire Wire Line
-	6550 3000 6250 3000
+	6750 3000 6250 3000
 Wire Wire Line
 	6250 3000 6250 2750
 Wire Wire Line
@@ -197,7 +182,7 @@ Wire Wire Line
 	6100 2900 6100 2750
 Connection ~ 6100 2900
 Wire Wire Line
-	6100 2900 6550 2900
+	6100 2900 6750 2900
 Wire Wire Line
 	5900 2350 5650 2350
 Connection ~ 5900 2350
@@ -220,51 +205,51 @@ $EndComp
 $Comp
 L Device:C_Small C427
 U 1 1 5CB127F4
-P 6100 3300
-F 0 "C427" V 6050 3450 50  0000 C CNN
-F 1 "6.8nF X7R" V 5950 3300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6100 3300 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6100 3300 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "6800pF ±5% 25V Ceramic Capacitor X7R 0402 (1005 Metric)" H -1800 100 50  0001 C CNN "Characteristics"
-F 6 "AVX" H -1800 100 50  0001 C CNN "Manufacturer"
-F 7 "04023C682JAT2A" H -1800 100 50  0001 C CNN "Manufacturers Part Number"
-F 8 "MLCC Capacitor" H -1800 100 50  0001 C CNN "Description"
-	1    6100 3300
+P 6100 3250
+F 0 "C427" V 6050 3400 50  0000 C CNN
+F 1 "6.8nF X7R" V 5950 3250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6100 3250 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6100 3250 50  0001 C CNN
+F 4 "0402in/1005mm" H -1800 50  50  0001 C CNN "Package ID"
+F 5 "6800pF ±5% 25V Ceramic Capacitor X7R 0402 (1005 Metric)" H -1800 50  50  0001 C CNN "Characteristics"
+F 6 "AVX" H -1800 50  50  0001 C CNN "Manufacturer"
+F 7 "04023C682JAT2A" H -1800 50  50  0001 C CNN "Manufacturers Part Number"
+F 8 "MLCC Capacitor" H -1800 50  50  0001 C CNN "Description"
+	1    6100 3250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5850 3300 5850 3050
+	5850 3250 5850 3050
 Wire Wire Line
 	5850 3050 5700 3050
 Wire Wire Line
-	5850 3300 5900 3300
+	5850 3250 5900 3250
 Wire Wire Line
 	5700 3150 5750 3150
 Wire Wire Line
-	5750 3150 5750 3500
+	5750 3150 5750 3450
 Wire Wire Line
-	5750 3500 5800 3500
+	5750 3450 5800 3450
 Wire Wire Line
-	6200 3300 6550 3300
+	6200 3250 6750 3250
 $Comp
 L Device:C_Small C428
 U 1 1 5CB145D9
-P 6100 3500
-F 0 "C428" V 6150 3650 50  0000 C CNN
-F 1 "6.8nF X7R" V 6000 3500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6100 3500 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6100 3500 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "6800pF ±5% 25V Ceramic Capacitor X7R 0402 (1005 Metric)" H -1800 100 50  0001 C CNN "Characteristics"
-F 6 "AVX" H -1800 100 50  0001 C CNN "Manufacturer"
-F 7 "04023C682JAT2A" H -1800 100 50  0001 C CNN "Manufacturers Part Number"
-F 8 "MLCC Capacitor" H -1800 100 50  0001 C CNN "Description"
-	1    6100 3500
+P 6100 3450
+F 0 "C428" V 6150 3600 50  0000 C CNN
+F 1 "6.8nF X7R" V 6000 3450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6100 3450 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6100 3450 50  0001 C CNN
+F 4 "0402in/1005mm" H -1800 50  50  0001 C CNN "Package ID"
+F 5 "6800pF ±5% 25V Ceramic Capacitor X7R 0402 (1005 Metric)" H -1800 50  50  0001 C CNN "Characteristics"
+F 6 "AVX" H -1800 50  50  0001 C CNN "Manufacturer"
+F 7 "04023C682JAT2A" H -1800 50  50  0001 C CNN "Manufacturers Part Number"
+F 8 "MLCC Capacitor" H -1800 50  50  0001 C CNN "Description"
+	1    6100 3450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 3500 6550 3500
+	6200 3450 6750 3450
 $Comp
 L Device:R_Small_US R108
 U 1 1 5CB148AC
@@ -279,19 +264,19 @@ F 5 "Resistor" H -1800 100 50  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5900 3300 5900 3600
-Connection ~ 5900 3300
+	5900 3250 5900 3600
+Connection ~ 5900 3250
 Wire Wire Line
-	5900 3300 6000 3300
+	5900 3250 6000 3250
 Wire Wire Line
-	5800 3500 5800 3600
-Connection ~ 5800 3500
+	5800 3450 5800 3600
+Connection ~ 5800 3450
 Wire Wire Line
-	5800 3500 6000 3500
+	5800 3450 6000 3450
 Wire Wire Line
-	6550 3400 6450 3400
+	6750 3350 6450 3350
 Wire Wire Line
-	6450 3400 6450 4000
+	6450 3350 6450 3750
 Wire Wire Line
 	6450 4000 6250 4000
 Wire Wire Line
@@ -322,274 +307,6 @@ Wire Wire Line
 Connection ~ 6050 4000
 Wire Wire Line
 	6050 4000 5900 4000
-$Comp
-L Device:R_Small_US R113
-U 1 1 5CB1A862
-P 7550 4150
-F 0 "R113" V 7500 4300 50  0000 R CNN
-F 1 "75Ω 1%" V 7600 4100 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 7550 4150 50  0001 C CNN
-F 3 "~" H 7550 4150 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "Resistor" H -1800 100 50  0001 C CNN "Description"
-	1    7550 4150
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R_Small_US R114
-U 1 1 5CB1B2C7
-P 7700 4150
-F 0 "R114" V 7750 4300 50  0000 R CNN
-F 1 "75Ω 1%" V 7650 4100 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 7700 4150 50  0001 C CNN
-F 3 "~" H 7700 4150 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "Resistor" H -1800 100 50  0001 C CNN "Description"
-	1    7700 4150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7350 3000 7700 3000
-Wire Wire Line
-	7700 3000 7700 4050
-Wire Wire Line
-	7350 3400 7550 3400
-Wire Wire Line
-	7550 3400 7550 4050
-$Comp
-L Device:C_Small C430
-U 1 1 5CB1FC76
-P 7600 4550
-F 0 "C430" H 7610 4620 50  0000 L CNN
-F 1 "4.7nF X7R" H 7610 4470 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7600 4550 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 7600 4550 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "CAP CER 0402 4.7NF 25V X7R 5%" H -1800 100 50  0001 C CNN "Characteristics"
-F 6 "Kemet" H -1800 100 50  0001 C CNN "Manufacturer"
-F 7 "C0402C472J3RECAUTO" H -1800 100 50  0001 C CNN "Manufacturers Part Number"
-F 8 "MLCC Capacitor" H -1800 100 50  0001 C CNN "Description"
-	1    7600 4550
-	1    0    0    -1  
-$EndComp
-Text HLabel 8700 2900 2    50   Output ~ 0
-ETH_TX+
-Text HLabel 8700 3000 2    50   Output ~ 0
-ETH_TX-
-Text HLabel 8700 3400 2    50   Input ~ 0
-ETH_RX+
-Text HLabel 8700 3500 2    50   Input ~ 0
-ETH_RX-
-Wire Wire Line
-	7550 4250 7550 4350
-Wire Wire Line
-	7550 4350 7600 4350
-Wire Wire Line
-	7700 4250 7700 4350
-Wire Wire Line
-	7700 4350 7600 4350
-Connection ~ 7600 4350
-Wire Wire Line
-	7600 4450 7600 4350
-Wire Wire Line
-	7350 3500 7850 3500
-Text HLabel 8700 3100 2    50   UnSpc ~ 0
-NC_1+
-Text HLabel 8700 3200 2    50   UnSpc ~ 0
-NC_1-
-Text HLabel 8700 3650 2    50   UnSpc ~ 0
-NC_2+
-Text HLabel 8700 3750 2    50   UnSpc ~ 0
-NC_2-
-Wire Wire Line
-	7350 2900 8700 2900
-Wire Wire Line
-	7350 3100 7800 3100
-Wire Wire Line
-	7800 3100 7800 3000
-Wire Wire Line
-	7800 3000 8700 3000
-Wire Wire Line
-	8700 3400 7950 3400
-Wire Wire Line
-	7900 3400 7900 3300
-Wire Wire Line
-	7900 3300 7350 3300
-$Comp
-L Device:R_Small_US R119
-U 1 1 5CB2D2E0
-P 8400 3100
-F 0 "R119" V 8650 3100 50  0000 C CNN
-F 1 "49.9Ω 1%" V 8550 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 3100 50  0001 C CNN
-F 3 "~" H 8400 3100 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "Resistor" H -1800 100 50  0001 C CNN "Description"
-	1    8400 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R117
-U 1 1 5CB2D97F
-P 8100 4150
-F 0 "R117" V 8150 4300 50  0000 R CNN
-F 1 "49.9Ω 1%" V 8050 4100 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8100 4150 50  0001 C CNN
-F 3 "~" H 8100 4150 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "Resistor" H -1800 100 50  0001 C CNN "Description"
-	1    8100 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small_US R120
-U 1 1 5CB2EC6D
-P 8400 3200
-F 0 "R120" V 8550 3200 50  0000 C CNN
-F 1 "49.9Ω 1%" V 8500 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 3200 50  0001 C CNN
-F 3 "~" H 8400 3200 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "Resistor" H -1800 100 50  0001 C CNN "Description"
-	1    8400 3200
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R121
-U 1 1 5CB2F05A
-P 8400 3650
-F 0 "R121" V 8600 3650 50  0000 C CNN
-F 1 "49.9Ω 1%" V 8500 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 3650 50  0001 C CNN
-F 3 "~" H 8400 3650 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "Resistor" H -1800 100 50  0001 C CNN "Description"
-	1    8400 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R122
-U 1 1 5CB2F3B3
-P 8400 3750
-F 0 "R122" V 8600 3750 50  0000 C CNN
-F 1 "49.9Ω 1%" V 8500 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 3750 50  0001 C CNN
-F 3 "~" H 8400 3750 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "Resistor" H -1800 100 50  0001 C CNN "Description"
-	1    8400 3750
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R118
-U 1 1 5CB346E9
-P 8250 4150
-F 0 "R118" V 8300 4300 50  0000 R CNN
-F 1 "49.9Ω 1%" H 8200 4250 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8250 4150 50  0001 C CNN
-F 3 "~" H 8250 4150 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "Resistor" H -1800 100 50  0001 C CNN "Description"
-	1    8250 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small_US R115
-U 1 1 5CB35990
-P 7850 4150
-F 0 "R115" V 7900 4300 50  0000 R CNN
-F 1 "150Ω 1%" V 7800 4100 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 7850 4150 50  0001 C CNN
-F 3 "~" H 7850 4150 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "Resistor" H -1800 100 50  0001 C CNN "Description"
-	1    7850 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small_US R116
-U 1 1 5CB35D8A
-P 7950 4150
-F 0 "R116" V 8000 4300 50  0000 R CNN
-F 1 "150Ω 1%" V 7900 4100 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 7950 4150 50  0001 C CNN
-F 3 "~" H 7950 4150 50  0001 C CNN
-F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
-F 5 "Resistor" H -1800 100 50  0001 C CNN "Description"
-	1    7950 4150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7850 4050 7850 3500
-Connection ~ 7850 3500
-Wire Wire Line
-	7850 3500 8700 3500
-Wire Wire Line
-	7950 4050 7950 3400
-Connection ~ 7950 3400
-Wire Wire Line
-	7950 3400 7900 3400
-Wire Wire Line
-	8100 4050 8100 3150
-Wire Wire Line
-	8100 3150 8300 3150
-Wire Wire Line
-	8300 3150 8300 3100
-Wire Wire Line
-	8300 3150 8300 3200
-Connection ~ 8300 3150
-Wire Wire Line
-	8500 3100 8700 3100
-Wire Wire Line
-	8500 3200 8700 3200
-Wire Wire Line
-	8500 3650 8700 3650
-Wire Wire Line
-	8500 3750 8700 3750
-Wire Wire Line
-	8300 3650 8300 3700
-Wire Wire Line
-	8300 3700 8250 3700
-Wire Wire Line
-	8250 3700 8250 4050
-Connection ~ 8300 3700
-Wire Wire Line
-	8300 3700 8300 3750
-Wire Wire Line
-	7700 4350 7850 4350
-Wire Wire Line
-	8250 4350 8250 4250
-Connection ~ 7700 4350
-Wire Wire Line
-	8100 4250 8100 4350
-Connection ~ 8100 4350
-Wire Wire Line
-	8100 4350 8250 4350
-Wire Wire Line
-	7950 4250 7950 4350
-Connection ~ 7950 4350
-Wire Wire Line
-	7950 4350 8100 4350
-Wire Wire Line
-	7850 4250 7850 4350
-Connection ~ 7850 4350
-Wire Wire Line
-	7850 4350 7950 4350
-$Comp
-L power:GND #PWR0206
-U 1 1 5CB5368C
-P 7600 4750
-F 0 "#PWR0206" H 7600 4500 50  0001 C CNN
-F 1 "GND" H 7600 4600 50  0000 C CNN
-F 2 "" H 7600 4750 50  0001 C CNN
-F 3 "" H 7600 4750 50  0001 C CNN
-	1    7600 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 4650 7600 4750
-Text Notes 9250 3750 1    50   ~ 0
-Out to connector board.
 $Comp
 L Device:C_Small C423
 U 1 1 5CB60D87
@@ -1041,4 +758,38 @@ F 8 "MLCC Capacitor" H -1800 100 50  0001 C CNN "Description"
 	1    3000 1950
 	-1   0    0    1   
 $EndComp
+$Comp
+L SW-con:RJ45_Magnetics_100BaseTX_No_LEDS J?
+U 1 1 5DD8DE01
+P 7350 3650
+F 0 "J?" H 6950 3300 50  0000 C CNN
+F 1 "RJ45_Magnetics_100BaseTX_No_LEDS" H 7600 4500 50  0000 C CNN
+F 2 "" H 7400 3550 50  0001 C CNN
+F 3 "" H 6500 3150 50  0001 C CNN
+	1    7350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3750 6450 3750
+Connection ~ 6450 3750
+Wire Wire Line
+	6450 3750 6450 3850
+Wire Wire Line
+	6750 3850 6450 3850
+Connection ~ 6450 3850
+Wire Wire Line
+	6450 3850 6450 4000
+Wire Wire Line
+	6450 4000 9150 4000
+Wire Wire Line
+	9150 4000 9150 3850
+Wire Wire Line
+	9150 3750 9050 3750
+Connection ~ 6450 4000
+Wire Wire Line
+	9050 3850 9150 3850
+Connection ~ 9150 3850
+Wire Wire Line
+	9150 3850 9150 3750
+$Comp
 $EndSCHEMATC
