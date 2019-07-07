@@ -182,174 +182,6 @@ F14 "SCL_HV" O L 1700 12500 50
 F15 "L_IN" I R 2950 12500 50 
 F16 "R_IN" I R 2950 12600 50 
 $EndSheet
-$Sheet
-S 7800 1300 1250 1250
-U 5CC6D57F
-F0 "Interface - Connector 8" 50
-F1 "conn.sch" 50
-F2 "DIN" I L 7800 1400 50 
-F3 "DOUT" O L 7800 1500 50 
-F4 "MCLK" I R 9050 1700 50 
-F5 "BCLK" O L 7800 1700 50 
-F6 "WCLK" O L 7800 1800 50 
-F7 "~RESET" I L 7800 1900 50 
-F8 "SCL" I R 9050 1400 50 
-F9 "SDA" B R 9050 1500 50 
-F10 "L_OUT" O L 7800 2400 50 
-F11 "R_OUT" O L 7800 2300 50 
-F12 "AUD_GND" U L 7800 2200 50 
-F13 "SDA_HV" B R 9050 1900 50 
-F14 "SCL_HV" O R 9050 2000 50 
-F15 "L_IN" I L 7800 2000 50 
-F16 "R_IN" I L 7800 2100 50 
-$EndSheet
-$Sheet
-S 7800 2800 1250 1250
-U 5CC6D596
-F0 "Interface - Connector 9" 50
-F1 "conn.sch" 50
-F2 "DIN" I L 7800 2900 50 
-F3 "DOUT" O L 7800 3000 50 
-F4 "MCLK" I R 9050 3200 50 
-F5 "BCLK" O L 7800 3200 50 
-F6 "WCLK" O L 7800 3300 50 
-F7 "~RESET" I L 7800 3400 50 
-F8 "SCL" I R 9050 2900 50 
-F9 "SDA" B R 9050 3000 50 
-F10 "L_OUT" O L 7800 3900 50 
-F11 "R_OUT" O L 7800 3800 50 
-F12 "AUD_GND" U L 7800 3700 50 
-F13 "SDA_HV" B R 9050 3400 50 
-F14 "SCL_HV" O R 9050 3500 50 
-F15 "L_IN" I L 7800 3500 50 
-F16 "R_IN" I L 7800 3600 50 
-$EndSheet
-$Sheet
-S 7800 4300 1250 1250
-U 5CC6D5AE
-F0 "Interface - Connector 10" 50
-F1 "conn.sch" 50
-F2 "DIN" I L 7800 4400 50 
-F3 "DOUT" O L 7800 4500 50 
-F4 "MCLK" I R 9050 4700 50 
-F5 "BCLK" O L 7800 4700 50 
-F6 "WCLK" O L 7800 4800 50 
-F7 "~RESET" I L 7800 4900 50 
-F8 "SCL" I R 9050 4400 50 
-F9 "SDA" B R 9050 4500 50 
-F10 "L_OUT" O L 7800 5400 50 
-F11 "R_OUT" O L 7800 5300 50 
-F12 "AUD_GND" U L 7800 5200 50 
-F13 "SDA_HV" B R 9050 4900 50 
-F14 "SCL_HV" O R 9050 5000 50 
-F15 "L_IN" I L 7800 5000 50 
-F16 "R_IN" I L 7800 5100 50 
-$EndSheet
-$Sheet
-S 7800 5800 1250 1250
-U 5CC6D5DA
-F0 "Interface - Connector 11" 50
-F1 "conn.sch" 50
-F2 "DIN" I L 7800 5900 50 
-F3 "DOUT" O L 7800 6000 50 
-F4 "MCLK" I R 9050 6200 50 
-F5 "BCLK" O L 7800 6200 50 
-F6 "WCLK" O L 7800 6300 50 
-F7 "~RESET" I L 7800 6400 50 
-F8 "SCL" I R 9050 5900 50 
-F9 "SDA" B R 9050 6000 50 
-F10 "L_OUT" O L 7800 6900 50 
-F11 "R_OUT" O L 7800 6800 50 
-F12 "AUD_GND" U L 7800 6700 50 
-F13 "SDA_HV" B R 9050 6400 50 
-F14 "SCL_HV" O R 9050 6500 50 
-F15 "L_IN" I L 7800 6500 50 
-F16 "R_IN" I L 7800 6600 50 
-$EndSheet
-$Sheet
-S 7800 7300 1250 1250
-U 5CC6D5FB
-F0 "Interface - Connector 12" 50
-F1 "conn.sch" 50
-F2 "DIN" I L 7800 7400 50 
-F3 "DOUT" O L 7800 7500 50 
-F4 "MCLK" I R 9050 7700 50 
-F5 "BCLK" O L 7800 7700 50 
-F6 "WCLK" O L 7800 7800 50 
-F7 "~RESET" I L 7800 7900 50 
-F8 "SCL" I R 9050 7400 50 
-F9 "SDA" B R 9050 7500 50 
-F10 "L_OUT" O L 7800 8400 50 
-F11 "R_OUT" O L 7800 8300 50 
-F12 "AUD_GND" U L 7800 8200 50 
-F13 "SDA_HV" B R 9050 7900 50 
-F14 "SCL_HV" O R 9050 8000 50 
-F15 "L_IN" I L 7800 8000 50 
-F16 "R_IN" I L 7800 8100 50 
-$EndSheet
-$Sheet
-S 7800 8800 1250 1250
-U 5CC6D612
-F0 "Interface - Connector 13" 50
-F1 "conn.sch" 50
-F2 "DIN" I L 7800 8900 50 
-F3 "DOUT" O L 7800 9000 50 
-F4 "MCLK" I R 9050 9200 50 
-F5 "BCLK" O L 7800 9200 50 
-F6 "WCLK" O L 7800 9300 50 
-F7 "~RESET" I L 7800 9400 50 
-F8 "SCL" I R 9050 8900 50 
-F9 "SDA" B R 9050 9000 50 
-F10 "L_OUT" O L 7800 9900 50 
-F11 "R_OUT" O L 7800 9800 50 
-F12 "AUD_GND" U L 7800 9700 50 
-F13 "SDA_HV" B R 9050 9400 50 
-F14 "SCL_HV" O R 9050 9500 50 
-F15 "L_IN" I L 7800 9500 50 
-F16 "R_IN" I L 7800 9600 50 
-$EndSheet
-$Sheet
-S 7800 10300 1250 1250
-U 5CC6D62D
-F0 "Interface - Connector 14" 50
-F1 "conn.sch" 50
-F2 "DIN" I L 7800 10400 50 
-F3 "DOUT" O L 7800 10500 50 
-F4 "MCLK" I R 9050 10700 50 
-F5 "BCLK" O L 7800 10700 50 
-F6 "WCLK" O L 7800 10800 50 
-F7 "~RESET" I L 7800 10900 50 
-F8 "SCL" I R 9050 10400 50 
-F9 "SDA" B R 9050 10500 50 
-F10 "L_OUT" O L 7800 11400 50 
-F11 "R_OUT" O L 7800 11300 50 
-F12 "AUD_GND" U L 7800 11200 50 
-F13 "SDA_HV" B R 9050 10900 50 
-F14 "SCL_HV" O R 9050 11000 50 
-F15 "L_IN" I L 7800 11000 50 
-F16 "R_IN" I L 7800 11100 50 
-$EndSheet
-$Sheet
-S 7800 11800 1250 1250
-U 5CC6D64F
-F0 "Interface - Connector 15" 50
-F1 "conn.sch" 50
-F2 "DIN" I L 7800 11900 50 
-F3 "DOUT" O L 7800 12000 50 
-F4 "MCLK" I R 9050 12200 50 
-F5 "BCLK" O L 7800 12200 50 
-F6 "WCLK" O L 7800 12300 50 
-F7 "~RESET" I L 7800 12400 50 
-F8 "SCL" I R 9050 11900 50 
-F9 "SDA" B R 9050 12000 50 
-F10 "L_OUT" O L 7800 12900 50 
-F11 "R_OUT" O L 7800 12800 50 
-F12 "AUD_GND" U L 7800 12700 50 
-F13 "SDA_HV" B R 9050 12400 50 
-F14 "SCL_HV" O R 9050 12500 50 
-F15 "L_IN" I L 7800 12500 50 
-F16 "R_IN" I L 7800 12600 50 
-$EndSheet
 Text Label 1600 1400 2    50   ~ 0
 SCL0
 Text Label 1600 2900 2    50   ~ 0
@@ -366,22 +198,6 @@ Text Label 1600 10400 2    50   ~ 0
 SCL6
 Text Label 1600 11900 2    50   ~ 0
 SCL7
-Text Label 9150 1400 0    50   ~ 0
-SCL8
-Text Label 9150 2900 0    50   ~ 0
-SCL9
-Text Label 9150 4400 0    50   ~ 0
-SCL10
-Text Label 9150 5900 0    50   ~ 0
-SCL11
-Text Label 9150 7400 0    50   ~ 0
-SCL12
-Text Label 9150 8900 0    50   ~ 0
-SCL13
-Text Label 9150 10400 0    50   ~ 0
-SCL14
-Text Label 9150 11900 0    50   ~ 0
-SCL15
 Text Label 1600 1500 2    50   ~ 0
 SDA0
 Text Label 1600 3000 2    50   ~ 0
@@ -414,38 +230,6 @@ Text Label 1600 10700 2    50   ~ 0
 MCLK6
 Text Label 1600 12200 2    50   ~ 0
 MCLK7
-Text Label 9150 1500 0    50   ~ 0
-SDA8
-Text Label 9150 3000 0    50   ~ 0
-SDA9
-Text Label 9150 4500 0    50   ~ 0
-SDA10
-Text Label 9150 6000 0    50   ~ 0
-SDA11
-Text Label 9150 7500 0    50   ~ 0
-SDA12
-Text Label 9150 9000 0    50   ~ 0
-SDA13
-Text Label 9150 10500 0    50   ~ 0
-SDA14
-Text Label 9150 12000 0    50   ~ 0
-SDA15
-Text Label 9150 1700 0    50   ~ 0
-MCLK8
-Text Label 9150 3200 0    50   ~ 0
-MCLK9
-Text Label 9150 4700 0    50   ~ 0
-MCLK10
-Text Label 9150 6200 0    50   ~ 0
-MCLK11
-Text Label 9150 7700 0    50   ~ 0
-MCLK12
-Text Label 9150 9200 0    50   ~ 0
-MCLK13
-Text Label 9150 10700 0    50   ~ 0
-MCLK14
-Text Label 9150 12200 0    50   ~ 0
-MCLK15
 Entry Wire Line
 	900  1800 1000 1700
 Entry Wire Line
@@ -548,145 +332,37 @@ Text Label 750  13550 1    50   ~ 0
 SDA[0..7]
 Text Label 600  13550 1    50   ~ 0
 SCL[0..7]
-Entry Wire Line
-	9950 1800 9850 1700
-Entry Wire Line
-	9950 3300 9850 3200
-Entry Wire Line
-	9950 4800 9850 4700
-Entry Wire Line
-	9950 6300 9850 6200
-Entry Wire Line
-	9950 7800 9850 7700
-Entry Wire Line
-	9950 9300 9850 9200
-Entry Wire Line
-	9950 10800 9850 10700
-Entry Wire Line
-	9950 12300 9850 12200
-Entry Wire Line
-	10150 1600 10050 1500
-Entry Wire Line
-	10150 3100 10050 3000
-Entry Wire Line
-	10150 4600 10050 4500
-Entry Wire Line
-	10150 6100 10050 6000
-Entry Wire Line
-	10150 7600 10050 7500
-Entry Wire Line
-	10150 9100 10050 9000
-Entry Wire Line
-	10150 10600 10050 10500
-Entry Wire Line
-	10150 12100 10050 12000
-Entry Wire Line
-	10400 1500 10300 1400
-Entry Wire Line
-	10400 3000 10300 2900
-Entry Wire Line
-	10400 4500 10300 4400
-Entry Wire Line
-	10400 6000 10300 5900
-Entry Wire Line
-	10400 7500 10300 7400
-Entry Wire Line
-	10400 9000 10300 8900
-Entry Wire Line
-	10400 10500 10300 10400
-Entry Wire Line
-	10400 12000 10300 11900
-Wire Wire Line
-	9050 1700 9850 1700
-Wire Wire Line
-	9050 3200 9850 3200
-Wire Wire Line
-	9050 4700 9850 4700
-Wire Wire Line
-	9050 6200 9850 6200
-Wire Wire Line
-	9050 7700 9850 7700
-Wire Wire Line
-	9050 9200 9850 9200
-Wire Wire Line
-	9050 10700 9850 10700
-Wire Wire Line
-	9050 12200 9850 12200
-Wire Wire Line
-	9050 1500 10050 1500
-Wire Wire Line
-	9050 3000 10050 3000
-Wire Wire Line
-	9050 4500 10050 4500
-Wire Wire Line
-	9050 6000 10050 6000
-Wire Wire Line
-	9050 7500 10050 7500
-Wire Wire Line
-	9050 9000 10050 9000
-Wire Wire Line
-	9050 10500 10050 10500
-Wire Wire Line
-	9050 12000 10050 12000
-Wire Wire Line
-	9050 1400 10300 1400
-Wire Wire Line
-	9050 2900 10300 2900
-Wire Wire Line
-	9050 4400 10300 4400
-Wire Wire Line
-	9050 5900 10300 5900
-Wire Wire Line
-	9050 7400 10300 7400
-Wire Wire Line
-	9050 8900 10300 8900
-Wire Wire Line
-	9050 10400 10300 10400
-Wire Wire Line
-	9050 11900 10300 11900
-Text Label 10400 13900 1    50   ~ 0
-SCL[8..15]
-Text Label 10150 13800 1    50   ~ 0
-SDA[8..15]
-Text Label 9950 13800 1    50   ~ 0
-MCLK[8..15]
 $Sheet
-S 3800 15150 2250 1000
+S 3750 14500 2250 1000
 U 5CCDCE34
 F0 "Connections for MCLK and I2C Multiplexed Lines" 50
 F1 "i2c-clk-codec-connections.sch" 50
-F2 "SCL[0..15]" O L 3800 15250 50 
-F3 "SDA[0..15]" B L 3800 15350 50 
-F4 "MCLK[0..15]" O L 3800 15550 50 
-F5 "~RESET~[0..15]" O R 6050 15400 50 
-F6 "SCL_Master" I L 3800 15750 50 
-F7 "SDA_Master" B L 3800 15850 50 
-F8 "~RESET~I2C" I L 3800 16050 50 
+F2 "SCL[0..7]" O L 3750 14600 50 
+F3 "SDA[0..7]" B L 3750 14700 50 
+F4 "MCLK[0..7]" O L 3750 14900 50 
+F5 "~RESET~[0..7]" O R 6000 14750 50 
+F6 "SCL_Master" I L 3750 15100 50 
+F7 "SDA_Master" B L 3750 15200 50 
+F8 "~RESET~I2C" I L 3750 15400 50 
 $EndSheet
 Wire Bus Line
-	900  14650 2250 14650
+	900  13950 2200 13950
 Wire Bus Line
-	750  14800 2650 14800
+	750  14100 2600 14100
 Wire Bus Line
-	2900 14950 2900 15250
-Connection ~ 2900 14950
+	2850 14250 2850 14600
+Text Label 2950 14600 0    50   ~ 0
+SCL[0..7]
 Wire Bus Line
-	2900 14950 10400 14950
-Text Label 3000 15250 0    50   ~ 0
-SCL[0..15]
+	2600 14100 2600 14700
 Wire Bus Line
-	2650 14800 2650 15350
+	2600 14700 3750 14700
+Text Label 3000 14700 2    50   ~ 0
+SDA[0..7]
 Wire Bus Line
-	2650 15350 3800 15350
-Connection ~ 2650 14800
-Wire Bus Line
-	2650 14800 10150 14800
-Text Label 3050 15350 2    50   ~ 0
-SDA[0..15]
-Wire Bus Line
-	2250 15550 3800 15550
-Text Label 2800 15550 2    50   ~ 0
-MCLK[0..15]
+	2200 14900 3750 14900
+Text Label 2750 14900 2    50   ~ 0
+MCLK[0..7]
 Text Label 3050 1400 0    50   ~ 0
 DIN0
 Text Label 3050 2900 0    50   ~ 0
@@ -751,70 +427,6 @@ Text Label 3050 10800 0    50   ~ 0
 WCLK6
 Text Label 3050 12300 0    50   ~ 0
 WCLK7
-Text Label 7700 1400 2    50   ~ 0
-DIN8
-Text Label 7700 2900 2    50   ~ 0
-DIN9
-Text Label 7700 4400 2    50   ~ 0
-DIN10
-Text Label 7700 5900 2    50   ~ 0
-DIN11
-Text Label 7700 7400 2    50   ~ 0
-DIN12
-Text Label 7700 8900 2    50   ~ 0
-DIN13
-Text Label 7700 10400 2    50   ~ 0
-DIN14
-Text Label 7700 11900 2    50   ~ 0
-DIN15
-Text Label 7700 1500 2    50   ~ 0
-DOUT8
-Text Label 7700 3000 2    50   ~ 0
-DOUT9
-Text Label 7700 4500 2    50   ~ 0
-DOUT10
-Text Label 7700 6000 2    50   ~ 0
-DOUT11
-Text Label 7700 7500 2    50   ~ 0
-DOUT12
-Text Label 7700 9000 2    50   ~ 0
-DOUT13
-Text Label 7700 10500 2    50   ~ 0
-DOUT14
-Text Label 7700 12000 2    50   ~ 0
-DOUT15
-Text Label 7700 1700 2    50   ~ 0
-BCLK8
-Text Label 7700 3200 2    50   ~ 0
-BCLK9
-Text Label 7700 4700 2    50   ~ 0
-BCLK10
-Text Label 7700 6200 2    50   ~ 0
-BCLK11
-Text Label 7700 7700 2    50   ~ 0
-BCLK12
-Text Label 7700 9200 2    50   ~ 0
-BCLK13
-Text Label 7700 10700 2    50   ~ 0
-BCLK14
-Text Label 7700 12200 2    50   ~ 0
-BCLK15
-Text Label 7700 1800 2    50   ~ 0
-WCLK8
-Text Label 7700 3300 2    50   ~ 0
-WCLK9
-Text Label 7700 4800 2    50   ~ 0
-WCLK10
-Text Label 7700 6300 2    50   ~ 0
-WCLK11
-Text Label 7700 7800 2    50   ~ 0
-WCLK12
-Text Label 7700 9300 2    50   ~ 0
-WCLK13
-Text Label 7700 10800 2    50   ~ 0
-WCLK14
-Text Label 7700 12300 2    50   ~ 0
-WCLK15
 Text Label 3050 1900 0    50   ~ 0
 ~RESET~0
 Text Label 3050 3400 0    50   ~ 0
@@ -831,182 +443,6 @@ Text Label 3050 10900 0    50   ~ 0
 ~RESET~6
 Text Label 3050 12400 0    50   ~ 0
 ~RESET~7
-Text Label 7700 1900 2    50   ~ 0
-~RESET~8
-Text Label 7700 3400 2    50   ~ 0
-~RESET~9
-Text Label 7700 4900 2    50   ~ 0
-~RESET~10
-Text Label 7700 6400 2    50   ~ 0
-~RESET~11
-Text Label 7700 7900 2    50   ~ 0
-~RESET~12
-Text Label 7700 9400 2    50   ~ 0
-~RESET~13
-Text Label 7700 10900 2    50   ~ 0
-~RESET~14
-Text Label 7700 12400 2    50   ~ 0
-~RESET~15
-Entry Wire Line
-	6500 2000 6600 1900
-Entry Wire Line
-	6500 3500 6600 3400
-Entry Wire Line
-	6500 5000 6600 4900
-Entry Wire Line
-	6500 6500 6600 6400
-Entry Wire Line
-	6500 8000 6600 7900
-Entry Wire Line
-	6500 9500 6600 9400
-Entry Wire Line
-	6500 11000 6600 10900
-Entry Wire Line
-	6500 12500 6600 12400
-Entry Wire Line
-	6350 1900 6450 1800
-Entry Wire Line
-	6350 3400 6450 3300
-Entry Wire Line
-	6350 4900 6450 4800
-Entry Wire Line
-	6350 6400 6450 6300
-Entry Wire Line
-	6350 7900 6450 7800
-Entry Wire Line
-	6350 9400 6450 9300
-Entry Wire Line
-	6350 10900 6450 10800
-Entry Wire Line
-	6350 12400 6450 12300
-Entry Wire Line
-	6200 1800 6300 1700
-Entry Wire Line
-	6200 3300 6300 3200
-Entry Wire Line
-	6200 4800 6300 4700
-Entry Wire Line
-	6200 6300 6300 6200
-Entry Wire Line
-	6200 7800 6300 7700
-Entry Wire Line
-	6200 9300 6300 9200
-Entry Wire Line
-	6200 10800 6300 10700
-Entry Wire Line
-	6200 12300 6300 12200
-Wire Wire Line
-	6600 1900 7800 1900
-Wire Wire Line
-	6600 3400 7800 3400
-Wire Wire Line
-	6600 4900 7800 4900
-Wire Wire Line
-	6600 6400 7800 6400
-Wire Wire Line
-	6600 7900 7800 7900
-Wire Wire Line
-	6600 9400 7800 9400
-Wire Wire Line
-	6600 10900 7800 10900
-Wire Wire Line
-	6600 12400 7800 12400
-Wire Wire Line
-	6450 1800 7800 1800
-Wire Wire Line
-	6450 3300 7800 3300
-Wire Wire Line
-	6450 4800 7800 4800
-Wire Wire Line
-	6450 6300 7800 6300
-Wire Wire Line
-	6450 7800 7800 7800
-Wire Wire Line
-	6450 9300 7800 9300
-Wire Wire Line
-	6450 10800 7800 10800
-Wire Wire Line
-	6450 12300 7800 12300
-Wire Wire Line
-	6300 1700 7800 1700
-Wire Wire Line
-	6300 3200 7800 3200
-Wire Wire Line
-	6300 4700 7800 4700
-Wire Wire Line
-	6300 6200 7800 6200
-Wire Wire Line
-	6300 7700 7800 7700
-Wire Wire Line
-	6300 9200 7800 9200
-Wire Wire Line
-	6300 10700 7800 10700
-Wire Wire Line
-	6300 12200 7800 12200
-Entry Wire Line
-	6050 1600 6150 1500
-Entry Wire Line
-	6050 3100 6150 3000
-Entry Wire Line
-	6050 4600 6150 4500
-Entry Wire Line
-	6050 6100 6150 6000
-Entry Wire Line
-	6050 7600 6150 7500
-Entry Wire Line
-	6050 9100 6150 9000
-Entry Wire Line
-	6050 10600 6150 10500
-Entry Wire Line
-	6050 12100 6150 12000
-Entry Wire Line
-	5900 1500 6000 1400
-Entry Wire Line
-	5900 3000 6000 2900
-Entry Wire Line
-	5900 4500 6000 4400
-Entry Wire Line
-	5900 6000 6000 5900
-Entry Wire Line
-	5900 7500 6000 7400
-Entry Wire Line
-	5900 9000 6000 8900
-Entry Wire Line
-	5900 10500 6000 10400
-Entry Wire Line
-	5900 12000 6000 11900
-Wire Wire Line
-	6150 1500 7800 1500
-Wire Wire Line
-	6150 3000 7800 3000
-Wire Wire Line
-	6150 4500 7800 4500
-Wire Wire Line
-	6150 6000 7800 6000
-Wire Wire Line
-	6150 7500 7800 7500
-Wire Wire Line
-	6150 9000 7800 9000
-Wire Wire Line
-	6150 10500 7800 10500
-Wire Wire Line
-	6150 12000 7800 12000
-Wire Wire Line
-	6000 1400 7800 1400
-Wire Wire Line
-	6000 2900 7800 2900
-Wire Wire Line
-	6000 4400 7800 4400
-Wire Wire Line
-	6000 5900 7800 5900
-Wire Wire Line
-	6000 7400 7800 7400
-Wire Wire Line
-	6000 8900 7800 8900
-Wire Wire Line
-	6000 10400 7800 10400
-Wire Wire Line
-	6000 11900 7800 11900
 Entry Wire Line
 	4250 2000 4150 1900
 Entry Wire Line
@@ -1133,8 +569,6 @@ Entry Wire Line
 	4850 9000 4750 8900
 Entry Wire Line
 	4850 10500 4750 10400
-Entry Wire Line
-	4850 12000 4750 11900
 Wire Wire Line
 	4600 1500 2950 1500
 Wire Wire Line
@@ -1167,26 +601,26 @@ Wire Wire Line
 	4750 10400 2950 10400
 Wire Wire Line
 	4750 11900 2950 11900
-Text Label 5050 12150 0    50   ~ 0
-DIN[0..15]
-Text Label 5050 12300 0    50   ~ 0
-DOUT[0..15]
-Text Label 5050 12450 0    50   ~ 0
-BCLK[0..15]
-Text Label 5050 12600 0    50   ~ 0
-WCLK[0..15]
-Text Label 5050 12750 0    50   ~ 0
-~RESET~[0..15]
+Text Label 4850 11850 1    50   ~ 0
+DIN[0..7]
+Text Label 4700 11850 1    50   ~ 0
+DOUT[0..7]
+Text Label 4550 11850 1    50   ~ 0
+BCLK[0..7]
+Text Label 4400 11850 1    50   ~ 0
+WCLK[0..7]
+Text Label 4250 11850 1    50   ~ 0
+~RESET~[0..7]
 Wire Bus Line
-	6500 15400 6050 15400
+	6150 14750 6000 14750
 Text HLabel 3450 950  0    50   Output ~ 0
-DOUT[0..15]
+DOUT[0..7]
 Text HLabel 3450 850  0    50   Input ~ 0
-DIN[0..15]
+DIN[0..7]
 Text HLabel 3450 1050 0    50   Output ~ 0
-BCLK[0..15]
+BCLK[0..7]
 Text HLabel 3450 1150 0    50   Output ~ 0
-WCLK[0..15]
+WCLK[0..7]
 Entry Wire Line
 	1050 2000 1150 1900
 Entry Wire Line
@@ -1284,395 +718,29 @@ SCL_HV6
 Text Label 1600 12500 2    50   ~ 0
 SCL_HV7
 Text Label 1050 13550 1    50   ~ 0
-SDA_HV[0..15]
+SDA_HV[0..7]
 Text Label 1200 13550 1    50   ~ 0
-SCL_HV[0..15]
-Entry Wire Line
-	6650 2100 6750 2000
-Entry Wire Line
-	6800 2200 6900 2100
-Entry Wire Line
-	6950 2300 7050 2200
-Entry Wire Line
-	7100 2400 7200 2300
-Entry Wire Line
-	7250 2500 7350 2400
+SCL_HV[0..7]
 Wire Bus Line
-	2900 15250 3800 15250
-Entry Wire Line
-	9700 1900 9800 2000
-Entry Wire Line
-	9550 2000 9650 2100
-Entry Wire Line
-	9550 3500 9650 3600
-Entry Wire Line
-	9550 5000 9650 5100
-Entry Wire Line
-	9550 6500 9650 6600
-Entry Wire Line
-	9550 8000 9650 8100
-Entry Wire Line
-	9550 9500 9650 9600
-Entry Wire Line
-	9550 11000 9650 11100
-Entry Wire Line
-	9550 12500 9650 12600
-Entry Wire Line
-	9700 3400 9800 3500
-Entry Wire Line
-	9700 4900 9800 5000
-Entry Wire Line
-	9700 6400 9800 6500
-Entry Wire Line
-	9700 7900 9800 8000
-Entry Wire Line
-	9700 9400 9800 9500
-Entry Wire Line
-	9700 10900 9800 11000
-Entry Wire Line
-	9700 12400 9800 12500
-Wire Wire Line
-	9050 1900 9700 1900
-Wire Wire Line
-	9050 3400 9700 3400
-Wire Wire Line
-	9050 4900 9700 4900
-Wire Wire Line
-	9050 6400 9700 6400
-Wire Wire Line
-	9050 7900 9700 7900
-Wire Wire Line
-	9050 9400 9700 9400
-Wire Wire Line
-	9050 10900 9700 10900
-Wire Wire Line
-	9050 12400 9700 12400
-Wire Wire Line
-	9050 2000 9550 2000
-Wire Wire Line
-	9050 3500 9550 3500
-Wire Wire Line
-	9050 5000 9550 5000
-Wire Wire Line
-	9050 6500 9550 6500
-Wire Wire Line
-	9050 8000 9550 8000
-Wire Wire Line
-	9050 9500 9550 9500
-Wire Wire Line
-	9050 11000 9550 11000
-Wire Wire Line
-	9050 12500 9550 12500
-Text Label 9150 1900 0    50   ~ 0
-SDA_HV8
-Text Label 9150 3400 0    50   ~ 0
-SDA_HV9
-Text Label 9150 4900 0    50   ~ 0
-SDA_HV10
-Text Label 9150 6400 0    50   ~ 0
-SDA_HV11
-Text Label 9150 7900 0    50   ~ 0
-SDA_HV12
-Text Label 9150 9400 0    50   ~ 0
-SDA_HV13
-Text Label 9150 10900 0    50   ~ 0
-SDA_HV14
-Text Label 9150 12400 0    50   ~ 0
-SDA_HV15
-Text Label 9150 2000 0    50   ~ 0
-SCL_HV8
-Text Label 9150 3500 0    50   ~ 0
-SCL_HV9
-Text Label 9150 5000 0    50   ~ 0
-SCL_HV10
-Text Label 9150 6500 0    50   ~ 0
-SCL_HV11
-Text Label 9150 8000 0    50   ~ 0
-SCL_HV12
-Text Label 9150 9500 0    50   ~ 0
-SCL_HV13
-Text Label 9150 11000 0    50   ~ 0
-SCL_HV14
-Text Label 9150 12500 0    50   ~ 0
-SCL_HV15
-Wire Wire Line
-	7350 2400 7800 2400
-Wire Wire Line
-	7200 2300 7800 2300
-Wire Wire Line
-	7050 2200 7800 2200
-Wire Wire Line
-	6900 2100 7800 2100
-Wire Wire Line
-	6750 2000 7800 2000
-Entry Wire Line
-	6650 3600 6750 3500
-Entry Wire Line
-	6800 3700 6900 3600
-Entry Wire Line
-	6950 3800 7050 3700
-Entry Wire Line
-	7100 3900 7200 3800
-Entry Wire Line
-	7250 4000 7350 3900
-Wire Wire Line
-	7350 3900 7800 3900
-Wire Wire Line
-	7200 3800 7800 3800
-Wire Wire Line
-	7050 3700 7800 3700
-Wire Wire Line
-	6900 3600 7800 3600
-Wire Wire Line
-	6750 3500 7800 3500
-Entry Wire Line
-	6650 5100 6750 5000
-Entry Wire Line
-	6800 5200 6900 5100
-Entry Wire Line
-	6950 5300 7050 5200
-Entry Wire Line
-	7100 5400 7200 5300
-Entry Wire Line
-	7250 5500 7350 5400
-Wire Wire Line
-	7350 5400 7800 5400
-Wire Wire Line
-	7200 5300 7800 5300
-Wire Wire Line
-	7050 5200 7800 5200
-Wire Wire Line
-	6900 5100 7800 5100
-Wire Wire Line
-	6750 5000 7800 5000
-Entry Wire Line
-	6650 6600 6750 6500
-Entry Wire Line
-	6800 6700 6900 6600
-Entry Wire Line
-	6950 6800 7050 6700
-Entry Wire Line
-	7100 6900 7200 6800
-Entry Wire Line
-	7250 7000 7350 6900
-Wire Wire Line
-	7350 6900 7800 6900
-Wire Wire Line
-	7200 6800 7800 6800
-Wire Wire Line
-	7050 6700 7800 6700
-Wire Wire Line
-	6900 6600 7800 6600
-Wire Wire Line
-	6750 6500 7800 6500
-Entry Wire Line
-	6650 8100 6750 8000
-Entry Wire Line
-	6800 8200 6900 8100
-Entry Wire Line
-	6950 8300 7050 8200
-Entry Wire Line
-	7100 8400 7200 8300
-Entry Wire Line
-	7250 8500 7350 8400
-Wire Wire Line
-	7350 8400 7800 8400
-Wire Wire Line
-	7200 8300 7800 8300
-Wire Wire Line
-	7050 8200 7800 8200
-Wire Wire Line
-	6900 8100 7800 8100
-Wire Wire Line
-	6750 8000 7800 8000
-Entry Wire Line
-	6650 9600 6750 9500
-Entry Wire Line
-	6800 9700 6900 9600
-Entry Wire Line
-	6950 9800 7050 9700
-Entry Wire Line
-	7100 9900 7200 9800
-Entry Wire Line
-	7250 10000 7350 9900
-Wire Wire Line
-	7350 9900 7800 9900
-Wire Wire Line
-	7200 9800 7800 9800
-Wire Wire Line
-	7050 9700 7800 9700
-Wire Wire Line
-	6900 9600 7800 9600
-Wire Wire Line
-	6750 9500 7800 9500
-Entry Wire Line
-	6650 11100 6750 11000
-Entry Wire Line
-	6800 11200 6900 11100
-Entry Wire Line
-	6950 11300 7050 11200
-Entry Wire Line
-	7100 11400 7200 11300
-Entry Wire Line
-	7250 11500 7350 11400
-Wire Wire Line
-	7350 11400 7800 11400
-Wire Wire Line
-	7200 11300 7800 11300
-Wire Wire Line
-	7050 11200 7800 11200
-Wire Wire Line
-	6900 11100 7800 11100
-Wire Wire Line
-	6750 11000 7800 11000
-Entry Wire Line
-	6650 12600 6750 12500
-Entry Wire Line
-	6800 12700 6900 12600
-Entry Wire Line
-	6950 12800 7050 12700
-Entry Wire Line
-	7100 12900 7200 12800
-Entry Wire Line
-	7250 13000 7350 12900
-Wire Wire Line
-	7350 12900 7800 12900
-Wire Wire Line
-	7200 12800 7800 12800
-Wire Wire Line
-	7050 12700 7800 12700
-Wire Wire Line
-	6900 12600 7800 12600
-Wire Wire Line
-	6750 12500 7800 12500
-Text Label 7700 2000 2    50   ~ 0
-L_IN8
-Text Label 7700 3500 2    50   ~ 0
-L_IN9
-Text Label 7700 5000 2    50   ~ 0
-L_IN10
-Text Label 7700 6500 2    50   ~ 0
-L_IN11
-Text Label 7700 8000 2    50   ~ 0
-L_IN12
-Text Label 7700 9500 2    50   ~ 0
-L_IN13
-Text Label 7700 11000 2    50   ~ 0
-L_IN14
-Text Label 7700 12500 2    50   ~ 0
-L_IN15
-Text Label 7700 2100 2    50   ~ 0
-R_IN8
-Text Label 7700 3600 2    50   ~ 0
-R_IN9
-Text Label 7700 5100 2    50   ~ 0
-R_IN10
-Text Label 7700 6600 2    50   ~ 0
-R_IN11
-Text Label 7700 8100 2    50   ~ 0
-R_IN12
-Text Label 7700 9600 2    50   ~ 0
-R_IN13
-Text Label 7700 11100 2    50   ~ 0
-R_IN14
-Text Label 7700 12600 2    50   ~ 0
-R_IN15
-Text Label 7700 2200 2    50   ~ 0
-AUD_GND8
-Text Label 7700 3700 2    50   ~ 0
-AUD_GND9
-Text Label 7700 5200 2    50   ~ 0
-AUD_GND10
-Text Label 7700 6700 2    50   ~ 0
-AUD_GND11
-Text Label 7700 8200 2    50   ~ 0
-AUD_GND12
-Text Label 7700 9700 2    50   ~ 0
-AUD_GND13
-Text Label 7700 11200 2    50   ~ 0
-AUD_GND14
-Text Label 7700 12700 2    50   ~ 0
-AUD_GND15
-Text Label 7700 2300 2    50   ~ 0
-R_OUT8
-Text Label 7700 3800 2    50   ~ 0
-R_OUT9
-Text Label 7700 5300 2    50   ~ 0
-R_OUT10
-Text Label 7700 6800 2    50   ~ 0
-R_OUT11
-Text Label 7700 8300 2    50   ~ 0
-R_OUT12
-Text Label 7700 9800 2    50   ~ 0
-R_OUT13
-Text Label 7700 11300 2    50   ~ 0
-R_OUT14
-Text Label 7700 12800 2    50   ~ 0
-R_OUT15
-Text Label 7700 2400 2    50   ~ 0
-L_OUT8
-Text Label 7700 3900 2    50   ~ 0
-L_OUT9
-Text Label 7700 5400 2    50   ~ 0
-L_OUT10
-Text Label 7700 6900 2    50   ~ 0
-L_OUT11
-Text Label 7700 8400 2    50   ~ 0
-L_OUT12
-Text Label 7700 9900 2    50   ~ 0
-L_OUT13
-Text Label 7700 11400 2    50   ~ 0
-L_OUT14
-Text Label 7700 12900 2    50   ~ 0
-L_OUT15
+	2850 14600 3750 14600
 Wire Bus Line
-	600  14950 2900 14950
+	600  14250 2850 14250
 Wire Bus Line
-	2250 15550 2250 14650
-Connection ~ 2250 14650
+	2200 14900 2200 13950
 Wire Bus Line
-	2250 14650 9950 14650
+	4250 12750 6150 12750
 Wire Bus Line
-	1050 14500 3300 14500
-Wire Bus Line
-	9650 14350 3450 14350
-Text Label 9650 13350 3    50   ~ 0
-SCL_HV[0..15]
-Text Label 9800 13350 3    50   ~ 0
-SDA_HV[0..15]
-Wire Bus Line
-	4850 12150 5900 12150
-Wire Bus Line
-	4700 12300 6050 12300
-Wire Bus Line
-	4550 12450 6200 12450
-Wire Bus Line
-	4400 12600 6350 12600
-Wire Bus Line
-	4250 12750 6500 12750
-Connection ~ 6500 12750
-Wire Bus Line
-	6500 12750 6500 15400
-Text HLabel 7700 1100 2    50   Output ~ 0
-L_OUT[0..15]
-Wire Bus Line
-	7250 1100 7700 1100
-Wire Bus Line
-	7100 1000 7700 1000
-Text HLabel 7700 1000 2    50   Output ~ 0
-R_OUT[0..15]
-Wire Bus Line
-	6950 900  7700 900 
-Text HLabel 7700 900  2    50   UnSpc ~ 0
-AUD_GND[0..15]
-Wire Bus Line
-	6800 800  7700 800 
-Text HLabel 7700 800  2    50   Output ~ 0
-R_IN[0..15]
-Text HLabel 7700 700  2    50   Output ~ 0
-L_IN[0..15]
-Wire Bus Line
-	6650 700  7700 700 
+	6150 12750 6150 14750
+Text HLabel 4400 13500 2    50   Output ~ 0
+L_OUT[0..7]
+Text HLabel 4400 13350 2    50   Output ~ 0
+R_OUT[0..7]
+Text HLabel 4400 13200 2    50   UnSpc ~ 0
+AUD_GND[0..7]
+Text HLabel 4400 13050 2    50   Output ~ 0
+R_IN[0..7]
+Text HLabel 4400 12900 2    50   Output ~ 0
+L_IN[0..7]
 Wire Bus Line
 	3450 950  4700 950 
 Wire Bus Line
@@ -1842,55 +910,39 @@ Wire Wire Line
 Wire Wire Line
 	4000 2000 2950 2000
 Wire Bus Line
-	4100 12900 6650 12900
+	4100 12900 4400 12900
 Wire Bus Line
-	3950 13050 6800 13050
+	3950 13050 4400 13050
 Wire Bus Line
-	3800 13200 6950 13200
+	3800 13200 4400 13200
 Wire Bus Line
-	3650 13350 7100 13350
-Wire Bus Line
-	3500 13500 7250 13500
-Text Label 5050 12900 0    50   ~ 0
-L_IN[0..15]
-Text Label 5050 13050 0    50   ~ 0
-R_IN[0..15]
-Text Label 5050 13200 0    50   ~ 0
-AUD_GND[0..15]
-Text Label 5050 13350 0    50   ~ 0
-R_OUT[0..15]
-Text Label 5050 13500 0    50   ~ 0
-L_OUT[0..15]
-Text HLabel 3500 15750 0    50   Input ~ 0
+	3650 13350 4400 13350
+Text Label 4100 11850 1    50   ~ 0
+L_IN[0..7]
+Text Label 3950 11850 1    50   ~ 0
+R_IN[0..7]
+Text Label 3800 11850 1    50   ~ 0
+AUD_GND[0..7]
+Text Label 3650 11850 1    50   ~ 0
+R_OUT[0..7]
+Text Label 3500 11850 1    50   ~ 0
+L_OUT[0..7]
+Text HLabel 3450 15100 0    50   Input ~ 0
 SCL_Master
-Text HLabel 3500 15850 0    50   BiDi ~ 0
+Text HLabel 3450 15200 0    50   BiDi ~ 0
 SDA_Master
-Text HLabel 3500 16050 0    50   Input ~ 0
+Text HLabel 3450 15400 0    50   Input ~ 0
 ~RESET~I2C
 Wire Wire Line
-	3500 15750 3800 15750
+	3450 15100 3750 15100
 Wire Wire Line
-	3500 15850 3800 15850
+	3450 15200 3750 15200
 Wire Wire Line
-	3500 16050 3800 16050
-Text HLabel 3550 14000 2    50   BiDi ~ 0
-SDA_HV[0..15]
-Wire Bus Line
-	3300 14500 3300 14000
-Wire Bus Line
-	3300 14000 3550 14000
-Connection ~ 3300 14500
-Wire Bus Line
-	3300 14500 9800 14500
-Text HLabel 3550 14150 2    50   Output ~ 0
-SCL_HV[0..15]
-Wire Bus Line
-	3450 14350 3450 14150
-Wire Bus Line
-	3450 14150 3550 14150
-Connection ~ 3450 14350
-Wire Bus Line
-	3450 14350 1200 14350
+	3450 15400 3750 15400
+Text HLabel 4400 13800 2    50   BiDi ~ 0
+SDA_HV[0..7]
+Text HLabel 4400 13650 2    50   Output ~ 0
+SCL_HV[0..7]
 Text Label 3050 2000 0    50   ~ 0
 L_IN0
 Text Label 3050 3500 0    50   ~ 0
@@ -1972,57 +1024,33 @@ L_OUT6
 Text Label 3050 12900 0    50   ~ 0
 L_OUT7
 Wire Bus Line
-	9800 2000 9800 14500
+	3500 13500 4400 13500
+Entry Wire Line
+	4850 12000 4750 11900
 Wire Bus Line
-	9650 2100 9650 14350
+	1050 13800 4400 13800
 Wire Bus Line
-	7100 1000 7100 13350
+	1200 13650 4400 13650
 Wire Bus Line
-	6950 900  6950 13200
+	900  1800 900  13950
 Wire Bus Line
-	6800 800  6800 13050
+	1200 2100 1200 13650
 Wire Bus Line
-	6650 700  6650 12900
+	1050 2000 1050 13800
 Wire Bus Line
-	1200 2100 1200 14350
+	4700 950  4700 12100
 Wire Bus Line
-	1050 2000 1050 14500
+	4550 1050 4550 12300
 Wire Bus Line
-	4850 850  4850 12150
-Wire Bus Line
-	4700 950  4700 12300
-Wire Bus Line
-	4550 1050 4550 12450
-Wire Bus Line
-	4400 1150 4400 12600
+	4400 1150 4400 12400
 Wire Bus Line
 	4250 2000 4250 12750
 Wire Bus Line
-	5900 1500 5900 12150
+	600  1500 600  14250
 Wire Bus Line
-	6050 1600 6050 12300
-Wire Bus Line
-	6200 1800 6200 12450
-Wire Bus Line
-	6350 1900 6350 12600
-Wire Bus Line
-	6500 2000 6500 12750
-Wire Bus Line
-	10400 1500 10400 14950
-Wire Bus Line
-	10150 1600 10150 14800
-Wire Bus Line
-	9950 1800 9950 14650
-Wire Bus Line
-	600  1500 600  14950
-Wire Bus Line
-	750  1600 750  14800
-Wire Bus Line
-	900  1800 900  14650
+	750  1600 750  14100
 Wire Bus Line
 	4100 2100 4100 12900
-Wire Bus Line
-	7250 1100 7250 13500
 Wire Bus Line
 	3950 2200 3950 13050
 Wire Bus Line
@@ -2031,4 +1059,6 @@ Wire Bus Line
 	3650 2400 3650 13350
 Wire Bus Line
 	3500 2500 3500 13500
+Wire Bus Line
+	4850 850  4850 12000
 $EndSCHEMATC
