@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLedger 11000 17000 portrait
 encoding utf-8
-Sheet 26 19
+Sheet 15 19
 Title "EDC Mux Board"
 Date "2019-05-17"
 Rev "2"
@@ -2244,8 +2244,6 @@ Wire Bus Line
 	7300 11200 6300 11200
 Wire Bus Line
 	7400 11300 6300 11300
-Wire Bus Line
-	7400 1400 7400 11300
 Text Label 5750 12850 0    50   ~ 0
 12VP
 Wire Wire Line
@@ -2505,6 +2503,8 @@ F 3 "" H 6700 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
+	7400 1400 7400 11300
+Wire Bus Line
 	2600 1400 2600 10900
 Wire Bus Line
 	2900 1800 2900 11200
@@ -2513,11 +2513,11 @@ Wire Bus Line
 Wire Bus Line
 	2700 1600 2700 11000
 Wire Bus Line
+	7000 1900 7000 10900
+Wire Bus Line
 	7100 1800 7100 11000
 Wire Bus Line
 	7200 1700 7200 11100
 Wire Bus Line
 	7300 1600 7300 11200
-Wire Bus Line
-	7000 1900 7000 10900
 $EndSCHEMATC
