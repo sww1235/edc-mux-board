@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 14 19
+Sheet 19 19
 Title "EDC Mux Board"
 Date "2019-05-17"
 Rev "2"
@@ -683,14 +683,6 @@ Wire Wire Line
 Connection ~ 4600 4650
 NoConn ~ 5200 3550
 NoConn ~ 5200 3350
-Text HLabel 5350 3450 2    50   Output ~ 0
-LINKLED
-Text HLabel 5350 3650 2    50   Output ~ 0
-ACTLED
-Wire Wire Line
-	5200 3650 5350 3650
-Wire Wire Line
-	5200 3450 5350 3450
 Text HLabel 3050 3650 0    50   Input ~ 0
 ~RESET~_ETH
 Wire Wire Line
@@ -716,14 +708,8 @@ Wire Wire Line
 	3200 3250 3000 3250
 Wire Wire Line
 	3200 3150 3000 3150
-Text HLabel 5500 3950 2    50   Output ~ 0
+Text HLabel 5250 3850 2    50   Output ~ 0
 ~INT
-Wire Wire Line
-	5400 3850 5400 3950
-Wire Wire Line
-	5400 3950 5500 3950
-Wire Wire Line
-	5200 3850 5400 3850
 $Comp
 L power:PWR_FLAG #FLG07
 U 1 1 5D283DDB
@@ -759,13 +745,17 @@ F 8 "MLCC Capacitor" H -1800 100 50  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SW-con:RJ45_Magnetics_100BaseTX_No_LEDS J?
+L SW-con:RJ45_Magnetics_100BaseTX_No_LEDS J12
 U 1 1 5DD8DE01
 P 7350 3650
-F 0 "J?" H 6950 3300 50  0000 C CNN
+F 0 "J12" H 6950 3300 50  0000 C CNN
 F 1 "RJ45_Magnetics_100BaseTX_No_LEDS" H 7600 4500 50  0000 C CNN
-F 2 "" H 7400 3550 50  0001 C CNN
-F 3 "" H 6500 3150 50  0001 C CNN
+F 2 "SW-Pulse:J1_Series_RJ45" H 7400 3550 50  0001 C CNN
+F 3 "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/J402/doc_part/J402.pdf" H 6500 3150 50  0001 C CNN
+F 4 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
+F 5 "10/100 Base TX Magjack" H 0   0   50  0001 C CNN "Description"
+F 6 "Pulse Electronics" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "J1026F01NL" H 0   0   50  0001 C CNN "Manufacturers Part Number"
 	1    7350 3650
 	1    0    0    -1  
 $EndComp
@@ -792,4 +782,176 @@ Connection ~ 9150 3850
 Wire Wire Line
 	9150 3850 9150 3750
 $Comp
+L Device:LED_Small D81
+U 1 1 5DDDE278
+P 7200 4400
+F 0 "D81" H 7050 4450 50  0000 C CNN
+F 1 "LINK_GRN" H 7450 4450 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" V 7200 4400 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" V 7200 4400 50  0001 C CNN
+F 4 "Panel Mount Lamp connected: Q6F7BXXG02E from APEM" H 0   0   50  0001 C CNN "Characteristics"
+F 5 "Board to wire connector for panel mount LED indicator" H 0   0   50  0001 C CNN "Description"
+F 6 "JST" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "B2B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
+	1    7200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D83
+U 1 1 5DDDF327
+P 7200 4800
+F 0 "D83" H 7000 4850 50  0000 L CNN
+F 1 "PWR_RED" H 7300 4850 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" V 7200 4800 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" V 7200 4800 50  0001 C CNN
+F 4 "Panel Mount Lamp connected: Q6F7BXXR02E from APEM" H 0   0   50  0001 C CNN "Characteristics"
+F 5 "Board to wire connector for panel mount LED indicator" H 0   0   50  0001 C CNN "Description"
+F 6 "JST" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "B2B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
+	1    7200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D82
+U 1 1 5DDE0368
+P 7200 4600
+F 0 "D82" H 7050 4650 50  0000 C CNN
+F 1 "ACT_YLW" H 7450 4650 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" V 7200 4600 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" V 7200 4600 50  0001 C CNN
+F 4 "Panel Mount Lamp connected: Q6F7BXXY02E from APEM" H 0   0   50  0001 C CNN "Characteristics"
+F 5 "Board to wire connector for panel mount LED indicator" H 0   0   50  0001 C CNN "Description"
+F 6 "JST" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "B2B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
+	1    7200 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3850 5250 3850
+Wire Wire Line
+	5650 3450 5650 4400
+Wire Wire Line
+	5650 4400 6500 4400
+Wire Wire Line
+	5200 3450 5650 3450
+Wire Wire Line
+	5550 3650 5550 4600
+Wire Wire Line
+	5550 4600 6500 4600
+Wire Wire Line
+	5200 3650 5550 3650
+Text Label 5350 3450 0    50   ~ 0
+LINKLED
+Text Label 5350 3650 0    50   ~ 0
+ACTLED
+$Comp
+L Device:R_Small_US R31
+U 1 1 5DE18673
+P 6600 4400
+F 0 "R31" V 6550 4200 50  0000 C CNN
+F 1 "330Ω" V 6550 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6600 4400 50  0001 C CNN
+F 3 "~" H 6600 4400 50  0001 C CNN
+F 4 "Resistor" H 0   0   50  0001 C CNN "Description"
+F 5 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+	1    6600 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4400 7100 4400
+$Comp
+L Device:R_Small_US R32
+U 1 1 5DE194A0
+P 6600 4600
+F 0 "R32" V 6550 4400 50  0000 C CNN
+F 1 "330Ω" V 6550 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6600 4600 50  0001 C CNN
+F 3 "~" H 6600 4600 50  0001 C CNN
+F 4 "Resistor" H 0   0   50  0001 C CNN "Description"
+F 5 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+	1    6600 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4600 7100 4600
+$Comp
+L Device:R_Small_US R33
+U 1 1 5DE19AA4
+P 6600 4800
+F 0 "R33" V 6550 4600 50  0000 C CNN
+F 1 "330Ω" V 6550 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6600 4800 50  0001 C CNN
+F 3 "~" H 6600 4800 50  0001 C CNN
+F 4 "Resistor" H 0   0   50  0001 C CNN "Description"
+F 5 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+	1    6600 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5DE203EF
+P 6350 4900
+F 0 "#PWR0127" H 6350 4650 50  0001 C CNN
+F 1 "GND" H 6350 4750 50  0000 C CNN
+F 2 "" H 6350 4900 50  0001 C CNN
+F 3 "" H 6350 4900 50  0001 C CNN
+	1    6350 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4800 6350 4800
+Wire Wire Line
+	6350 4800 6350 4900
+Wire Wire Line
+	6700 4800 7100 4800
+$Comp
+L power:+3V3 #PWR0128
+U 1 1 5DE2AA64
+P 8500 4300
+F 0 "#PWR0128" H 8500 4150 50  0001 C CNN
+F 1 "+3V3" H 8500 4440 50  0000 C CNN
+F 2 "" H 8500 4300 50  0001 C CNN
+F 3 "" H 8500 4300 50  0001 C CNN
+	1    8500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5DE416E4
+P 8100 4400
+F 0 "SW2" H 8150 4500 50  0000 L CNN
+F 1 "LED_EN" H 8100 4340 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 8100 4600 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 8100 4600 50  0001 C CNN
+	1    8100 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4400 7750 4400
+Wire Wire Line
+	7750 4400 7750 4600
+Wire Wire Line
+	7750 4800 7300 4800
+Wire Wire Line
+	7300 4600 7750 4600
+Connection ~ 7750 4600
+Wire Wire Line
+	7750 4600 7750 4800
+Wire Wire Line
+	7750 4400 7900 4400
+Connection ~ 7750 4400
+Wire Wire Line
+	8300 4400 8500 4400
+Wire Wire Line
+	8500 4400 8500 4300
+Text Label 7850 4800 0    50   ~ 0
+LED_PWR
+Wire Wire Line
+	7750 4800 7850 4800
+Connection ~ 7750 4800
+Text Notes 6700 5150 0    50   ~ 0
+LEDs used are panel mount Q6 series from\nAPEM\nConnected using wire to board headers
 $EndSCHEMATC
