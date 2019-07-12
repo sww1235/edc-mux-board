@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:edc-mux-board-fpga-cache
+LIBS:edc-mux-board-fpga-expansion-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 20 28
+Sheet 20 15
 Title "EDC Mux Board"
 Date "2019-05-17"
 Rev "1"
