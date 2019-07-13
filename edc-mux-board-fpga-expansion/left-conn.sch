@@ -1209,8 +1209,6 @@ $EndComp
 Wire Wire Line
 	4100 6400 3900 6400
 Wire Wire Line
-	3900 6400 3900 6200
-Wire Wire Line
 	4600 6400 5400 6400
 $Comp
 L Device:Ferrite_Bead_Small FB?
@@ -1360,8 +1358,6 @@ F 8 "SP1005-01ETG" H 3600 6750 50  0001 C CNN "Manufacturers Part Number"
 	1    3600 6750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3600 6100 3600 6200
 Connection ~ 3600 6100
 Wire Wire Line
 	3600 6100 3550 6100
@@ -2244,18 +2240,16 @@ Wire Bus Line
 	6650 11700 5650 11700
 Wire Bus Line
 	6750 11800 5650 11800
-Connection ~ 3600 6200
-Wire Wire Line
-	3600 6200 3600 6600
 Wire Wire Line
 	3600 6200 3900 6200
-Connection ~ 3900 6200
-Wire Wire Line
-	3900 6200 3900 5600
 Wire Wire Line
 	3900 6200 4100 6200
 Wire Bus Line
 	6750 1900 6750 11800
+Wire Wire Line
+	3600 6100 3600 6600
+Wire Wire Line
+	3900 5600 3900 6400
 Wire Bus Line
 	1950 1900 1950 11400
 Wire Bus Line
@@ -2265,11 +2259,11 @@ Wire Bus Line
 Wire Bus Line
 	2050 2100 2050 11500
 Wire Bus Line
-	6350 2400 6350 11400
-Wire Bus Line
 	6450 2300 6450 11500
 Wire Bus Line
 	6550 2200 6550 11600
 Wire Bus Line
 	6650 2100 6650 11700
+Wire Bus Line
+	6350 2400 6350 11400
 $EndSCHEMATC
