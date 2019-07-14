@@ -57,20 +57,20 @@ R_IN[12..15]
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5D430503
-P 4500 2100
+P 4600 2200
 AR Path="/5D27ED02/5D430503" Ref="J?"  Part="1" 
 AR Path="/5CBF628A/5D430503" Ref="J6"  Part="1" 
-F 0 "J6" H 4550 2400 50  0000 C CNN
-F 1 "Device 12" H 4550 1700 50  0000 C CNN
-F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4500 2100 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4500 2100 50  0001 C CNN
-F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 200 500 50  0001 C CNN "Characteristics"
-F 5 "Board to wire connector for Device M12 Connector" H 200 500 50  0001 C CNN "Description"
-F 6 "JST" H 200 500 50  0001 C CNN "Manufacturer"
-F 7 "B12B-PHDSS(LF)(SN) " H 200 500 50  0001 C CNN "Manufacturers Part Number"
-F 8 "Through Hole" H 200 500 50  0001 C CNN "Package ID"
-	1    4500 2100
-	1    0    0    -1  
+F 0 "J6" H 4650 2500 50  0000 C CNN
+F 1 "Device 12" H 4650 1800 50  0000 C CNN
+F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4600 2200 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4600 2200 50  0001 C CNN
+F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 300 600 50  0001 C CNN "Characteristics"
+F 5 "Board to wire connector for Device M12 Connector" H 300 600 50  0001 C CNN "Description"
+F 6 "JST" H 300 600 50  0001 C CNN "Manufacturer"
+F 7 "B12B-PHDSS(LF)(SN) " H 300 600 50  0001 C CNN "Manufacturers Part Number"
+F 8 "Through Hole" H 300 600 50  0001 C CNN "Package ID"
+	1    4600 2200
+	-1   0    0    1   
 $EndComp
 Text Label 6350 1900 2    50   ~ 0
 SDA_HV12
@@ -156,17 +156,17 @@ Wire Wire Line
 Connection ~ 4550 3100
 Wire Wire Line
 	4550 3100 4900 3100
-Text Label 2650 2100 0    50   ~ 0
+Text Label 6350 2200 2    50   ~ 0
 R_OUT12
 Wire Wire Line
 	4300 2100 3800 2100
-Text Label 6350 2100 2    50   ~ 0
+Text Label 2650 2200 0    50   ~ 0
 L_OUT12
 Wire Wire Line
 	4800 2100 5150 2100
-Text Label 2650 2200 0    50   ~ 0
+Text Label 6350 2100 2    50   ~ 0
 R_IN12
-Text Label 6350 2200 2    50   ~ 0
+Text Label 2650 2100 0    50   ~ 0
 L_IN12
 Wire Wire Line
 	4800 2200 5300 2200
@@ -223,26 +223,24 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 5D430559
-P 3200 2200
+P 3200 2100
 AR Path="/5CC6CC1A/5CC6D47B/5D430559" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D430559" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D430559" Ref="C?"  Part="1" 
 AR Path="/5D27ED02/5D430559" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/5D430559" Ref="C162"  Part="1" 
-F 0 "C162" V 2950 2200 50  0000 C CNN
-F 1 "1uF X7R flex" V 3050 2200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 2200 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 2200 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3200 2200 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 3200 2200 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 200 -800 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 800 50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H -4550 800 50  0001 C CNN "Description"
-	1    3200 2200
+F 0 "C162" V 2950 2100 50  0000 C CNN
+F 1 "1uF X7R flex" V 3050 2100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 2100 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 2100 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 3200 2100 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3200 2100 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 200 -900 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 700 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H -4550 700 50  0001 C CNN "Description"
+	1    3200 2100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3300 2200 3400 2200
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D430565
@@ -306,27 +304,25 @@ F 8 "Ferrite Bead" H 3150 600 50  0001 C CNN "Description"
 	1    5450 2200
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5550 2200 5650 2200
 $Comp
 L Device:C_Small C?
 U 1 1 5D430587
-P 5750 2200
+P 5750 2100
 AR Path="/5CC6CC1A/5CC6D47B/5D430587" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D430587" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D430587" Ref="C?"  Part="1" 
 AR Path="/5D27ED02/5D430587" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/5D430587" Ref="C166"  Part="1" 
-F 0 "C166" V 5500 2200 50  0000 C CNN
-F 1 "1uF X7R flex" V 5600 2200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 2200 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 2200 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 5750 2200 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 5750 2200 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 2750 -800 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 800 50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H -2000 800 50  0001 C CNN "Description"
-	1    5750 2200
+F 0 "C166" V 5500 2100 50  0000 C CNN
+F 1 "1uF X7R flex" V 5600 2100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 2100 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 2100 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 5750 2100 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 5750 2100 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 2750 -900 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 700 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H -2000 700 50  0001 C CNN "Description"
+	1    5750 2100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -589,20 +585,20 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5D43061F
-P 4500 4150
+P 4600 4250
 AR Path="/5D27ED02/5D43061F" Ref="J?"  Part="1" 
 AR Path="/5CBF628A/5D43061F" Ref="J7"  Part="1" 
-F 0 "J7" H 4550 4450 50  0000 C CNN
-F 1 "Device 13" H 4550 3750 50  0000 C CNN
-F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4500 4150 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4500 4150 50  0001 C CNN
-F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 200 500 50  0001 C CNN "Characteristics"
-F 5 "Board to wire connector for Device M12 Connector" H 200 500 50  0001 C CNN "Description"
-F 6 "JST" H 200 500 50  0001 C CNN "Manufacturer"
-F 7 "B12B-PHDSS(LF)(SN) " H 200 500 50  0001 C CNN "Manufacturers Part Number"
-F 8 "Through Hole" H 200 500 50  0001 C CNN "Package ID"
-	1    4500 4150
-	1    0    0    -1  
+F 0 "J7" H 4650 4550 50  0000 C CNN
+F 1 "Device 13" H 4650 3850 50  0000 C CNN
+F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4600 4250 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4600 4250 50  0001 C CNN
+F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 300 600 50  0001 C CNN "Characteristics"
+F 5 "Board to wire connector for Device M12 Connector" H 300 600 50  0001 C CNN "Description"
+F 6 "JST" H 300 600 50  0001 C CNN "Manufacturer"
+F 7 "B12B-PHDSS(LF)(SN) " H 300 600 50  0001 C CNN "Manufacturers Part Number"
+F 8 "Through Hole" H 300 600 50  0001 C CNN "Package ID"
+	1    4600 4250
+	-1   0    0    1   
 $EndComp
 Text Label 6350 3950 2    50   ~ 0
 SDA_HV13
@@ -688,17 +684,17 @@ Wire Wire Line
 Connection ~ 4550 5150
 Wire Wire Line
 	4550 5150 4900 5150
-Text Label 2650 4150 0    50   ~ 0
+Text Label 6350 4250 2    50   ~ 0
 R_OUT13
 Wire Wire Line
 	4300 4150 3800 4150
-Text Label 6350 4150 2    50   ~ 0
+Text Label 2650 4250 0    50   ~ 0
 L_OUT13
 Wire Wire Line
 	4800 4150 5150 4150
-Text Label 2650 4250 0    50   ~ 0
+Text Label 6350 4150 2    50   ~ 0
 R_IN13
-Text Label 6350 4250 2    50   ~ 0
+Text Label 2650 4150 0    50   ~ 0
 L_IN13
 Wire Wire Line
 	4800 4250 5300 4250
@@ -755,26 +751,24 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 5D430675
-P 3200 4250
+P 3200 4150
 AR Path="/5CC6CC1A/5CC6D47B/5D430675" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D430675" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D430675" Ref="C?"  Part="1" 
 AR Path="/5D27ED02/5D430675" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/5D430675" Ref="C163"  Part="1" 
-F 0 "C163" V 2950 4250 50  0000 C CNN
-F 1 "1uF X7R flex" V 3050 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 4250 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 4250 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3200 4250 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 3200 4250 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 200 1250 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 2850 50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H -4550 2850 50  0001 C CNN "Description"
-	1    3200 4250
+F 0 "C163" V 2950 4150 50  0000 C CNN
+F 1 "1uF X7R flex" V 3050 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 4150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 4150 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 3200 4150 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3200 4150 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 200 1150 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 2750 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H -4550 2750 50  0001 C CNN "Description"
+	1    3200 4150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3300 4250 3400 4250
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D430681
@@ -838,27 +832,25 @@ F 8 "Ferrite Bead" H 3150 2650 50  0001 C CNN "Description"
 	1    5450 4250
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5550 4250 5650 4250
 $Comp
 L Device:C_Small C?
 U 1 1 5D4306A3
-P 5750 4250
+P 5750 4150
 AR Path="/5CC6CC1A/5CC6D47B/5D4306A3" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D4306A3" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D4306A3" Ref="C?"  Part="1" 
 AR Path="/5D27ED02/5D4306A3" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/5D4306A3" Ref="C167"  Part="1" 
-F 0 "C167" V 5500 4250 50  0000 C CNN
-F 1 "1uF X7R flex" V 5600 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 4250 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 4250 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 5750 4250 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 5750 4250 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 2750 1250 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 2850 50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H -2000 2850 50  0001 C CNN "Description"
-	1    5750 4250
+F 0 "C167" V 5500 4150 50  0000 C CNN
+F 1 "1uF X7R flex" V 5600 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 4150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 4150 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 5750 4150 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 5750 4150 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 2750 1150 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 2750 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H -2000 2750 50  0001 C CNN "Description"
+	1    5750 4150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1121,20 +1113,20 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5D43073B
-P 4500 6200
+P 4600 6300
 AR Path="/5D27ED02/5D43073B" Ref="J?"  Part="1" 
 AR Path="/5CBF628A/5D43073B" Ref="J8"  Part="1" 
-F 0 "J8" H 4550 6500 50  0000 C CNN
-F 1 "Device 14" H 4550 5800 50  0000 C CNN
-F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4500 6200 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4500 6200 50  0001 C CNN
-F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 200 500 50  0001 C CNN "Characteristics"
-F 5 "Board to wire connector for Device M12 Connector" H 200 500 50  0001 C CNN "Description"
-F 6 "JST" H 200 500 50  0001 C CNN "Manufacturer"
-F 7 "B12B-PHDSS(LF)(SN) " H 200 500 50  0001 C CNN "Manufacturers Part Number"
-F 8 "Through Hole" H 200 500 50  0001 C CNN "Package ID"
-	1    4500 6200
-	1    0    0    -1  
+F 0 "J8" H 4650 6600 50  0000 C CNN
+F 1 "Device 14" H 4650 5900 50  0000 C CNN
+F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4600 6300 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4600 6300 50  0001 C CNN
+F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 300 600 50  0001 C CNN "Characteristics"
+F 5 "Board to wire connector for Device M12 Connector" H 300 600 50  0001 C CNN "Description"
+F 6 "JST" H 300 600 50  0001 C CNN "Manufacturer"
+F 7 "B12B-PHDSS(LF)(SN) " H 300 600 50  0001 C CNN "Manufacturers Part Number"
+F 8 "Through Hole" H 300 600 50  0001 C CNN "Package ID"
+	1    4600 6300
+	-1   0    0    1   
 $EndComp
 Text Label 6350 6000 2    50   ~ 0
 SDA_HV14
@@ -1220,17 +1212,17 @@ Wire Wire Line
 Connection ~ 4550 7200
 Wire Wire Line
 	4550 7200 4900 7200
-Text Label 2650 6200 0    50   ~ 0
+Text Label 6350 6300 2    50   ~ 0
 R_OUT14
 Wire Wire Line
 	4300 6200 3800 6200
-Text Label 6350 6200 2    50   ~ 0
+Text Label 2650 6300 0    50   ~ 0
 L_OUT14
 Wire Wire Line
 	4800 6200 5150 6200
-Text Label 2650 6300 0    50   ~ 0
+Text Label 6350 6200 2    50   ~ 0
 R_IN14
-Text Label 6350 6300 2    50   ~ 0
+Text Label 2650 6200 0    50   ~ 0
 L_IN14
 Wire Wire Line
 	4800 6300 5300 6300
@@ -1287,26 +1279,24 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 5D430791
-P 3200 6300
+P 3200 6200
 AR Path="/5CC6CC1A/5CC6D47B/5D430791" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D430791" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D430791" Ref="C?"  Part="1" 
 AR Path="/5D27ED02/5D430791" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/5D430791" Ref="C164"  Part="1" 
-F 0 "C164" V 2950 6300 50  0000 C CNN
-F 1 "1uF X7R flex" V 3050 6300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 6300 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 6300 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3200 6300 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 3200 6300 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 200 3300 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 4900 50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H -4550 4900 50  0001 C CNN "Description"
-	1    3200 6300
+F 0 "C164" V 2950 6200 50  0000 C CNN
+F 1 "1uF X7R flex" V 3050 6200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 6200 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 6200 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 3200 6200 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3200 6200 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 200 3200 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 4800 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H -4550 4800 50  0001 C CNN "Description"
+	1    3200 6200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3300 6300 3400 6300
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D43079D
@@ -1370,27 +1360,25 @@ F 8 "Ferrite Bead" H 3150 4700 50  0001 C CNN "Description"
 	1    5450 6300
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5550 6300 5650 6300
 $Comp
 L Device:C_Small C?
 U 1 1 5D4307BF
-P 5750 6300
+P 5750 6200
 AR Path="/5CC6CC1A/5CC6D47B/5D4307BF" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D4307BF" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D4307BF" Ref="C?"  Part="1" 
 AR Path="/5D27ED02/5D4307BF" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/5D4307BF" Ref="C168"  Part="1" 
-F 0 "C168" V 5500 6300 50  0000 C CNN
-F 1 "1uF X7R flex" V 5600 6300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 6300 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 6300 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 5750 6300 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 5750 6300 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 2750 3300 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 4900 50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H -2000 4900 50  0001 C CNN "Description"
-	1    5750 6300
+F 0 "C168" V 5500 6200 50  0000 C CNN
+F 1 "1uF X7R flex" V 5600 6200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 6200 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 6200 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 5750 6200 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 5750 6200 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 2750 3200 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 4800 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H -2000 4800 50  0001 C CNN "Description"
+	1    5750 6200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1653,20 +1641,20 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5D430857
-P 4500 8300
+P 4600 8400
 AR Path="/5D27ED02/5D430857" Ref="J?"  Part="1" 
 AR Path="/5CBF628A/5D430857" Ref="J9"  Part="1" 
-F 0 "J9" H 4550 8600 50  0000 C CNN
-F 1 "Device 15" H 4550 7900 50  0000 C CNN
-F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4500 8300 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4500 8300 50  0001 C CNN
-F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 200 500 50  0001 C CNN "Characteristics"
-F 5 "Board to wire connector for Device M12 Connector" H 200 500 50  0001 C CNN "Description"
-F 6 "JST" H 200 500 50  0001 C CNN "Manufacturer"
-F 7 "B12B-PHDSS(LF)(SN) " H 200 500 50  0001 C CNN "Manufacturers Part Number"
-F 8 "Through Hole" H 200 500 50  0001 C CNN "Package ID"
-	1    4500 8300
-	1    0    0    -1  
+F 0 "J9" H 4650 8700 50  0000 C CNN
+F 1 "Device 15" H 4650 8000 50  0000 C CNN
+F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4600 8400 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4600 8400 50  0001 C CNN
+F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 300 600 50  0001 C CNN "Characteristics"
+F 5 "Board to wire connector for Device M12 Connector" H 300 600 50  0001 C CNN "Description"
+F 6 "JST" H 300 600 50  0001 C CNN "Manufacturer"
+F 7 "B12B-PHDSS(LF)(SN) " H 300 600 50  0001 C CNN "Manufacturers Part Number"
+F 8 "Through Hole" H 300 600 50  0001 C CNN "Package ID"
+	1    4600 8400
+	-1   0    0    1   
 $EndComp
 Text Label 6350 8100 2    50   ~ 0
 SDA_HV15
@@ -1752,17 +1740,17 @@ Wire Wire Line
 Connection ~ 4550 9300
 Wire Wire Line
 	4550 9300 4900 9300
-Text Label 2650 8300 0    50   ~ 0
+Text Label 6350 8400 2    50   ~ 0
 R_OUT15
 Wire Wire Line
 	4300 8300 3800 8300
-Text Label 6350 8300 2    50   ~ 0
+Text Label 2650 8400 0    50   ~ 0
 L_OUT15
 Wire Wire Line
 	4800 8300 5150 8300
-Text Label 2650 8400 0    50   ~ 0
+Text Label 6350 8300 2    50   ~ 0
 R_IN15
-Text Label 6350 8400 2    50   ~ 0
+Text Label 2650 8300 0    50   ~ 0
 L_IN15
 Wire Wire Line
 	4800 8400 5300 8400
@@ -1819,26 +1807,24 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 5D4308AD
-P 3200 8400
+P 3200 8300
 AR Path="/5CC6CC1A/5CC6D47B/5D4308AD" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D4308AD" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D4308AD" Ref="C?"  Part="1" 
 AR Path="/5D27ED02/5D4308AD" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/5D4308AD" Ref="C165"  Part="1" 
-F 0 "C165" V 2950 8400 50  0000 C CNN
-F 1 "1uF X7R flex" V 3050 8400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 8400 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 8400 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3200 8400 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 3200 8400 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 200 5400 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 7000 50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H -4550 7000 50  0001 C CNN "Description"
-	1    3200 8400
+F 0 "C165" V 2950 8300 50  0000 C CNN
+F 1 "1uF X7R flex" V 3050 8300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 8300 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 8300 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 3200 8300 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 3200 8300 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 200 5300 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 6900 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H -4550 6900 50  0001 C CNN "Description"
+	1    3200 8300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3300 8400 3400 8400
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D4308B9
@@ -1902,27 +1888,25 @@ F 8 "Ferrite Bead" H 3150 6800 50  0001 C CNN "Description"
 	1    5450 8400
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5550 8400 5650 8400
 $Comp
 L Device:C_Small C?
 U 1 1 5D4308DB
-P 5750 8400
+P 5750 8300
 AR Path="/5CC6CC1A/5CC6D47B/5D4308DB" Ref="C?"  Part="1" 
 AR Path="/5CB02488/5D4308DB" Ref="C?"  Part="1" 
 AR Path="/5CBF625C/5D4308DB" Ref="C?"  Part="1" 
 AR Path="/5D27ED02/5D4308DB" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/5D4308DB" Ref="C169"  Part="1" 
-F 0 "C169" V 5500 8400 50  0000 C CNN
-F 1 "1uF X7R flex" V 5600 8400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 8400 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 8400 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 5750 8400 50  0001 C CNN "Manufacturers Part Number"
-F 5 "Kemet" H 5750 8400 50  0001 C CNN "Manufacturer"
-F 6 "0805in/2012mm" H 2750 5400 50  0001 C CNN "Package ID"
-F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 7000 50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H -2000 7000 50  0001 C CNN "Description"
-	1    5750 8400
+F 0 "C169" V 5500 8300 50  0000 C CNN
+F 1 "1uF X7R flex" V 5600 8300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 8300 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 8300 50  0001 C CNN
+F 4 "C0805X105J3RECAUTO" H 5750 8300 50  0001 C CNN "Manufacturers Part Number"
+F 5 "Kemet" H 5750 8300 50  0001 C CNN "Manufacturer"
+F 6 "0805in/2012mm" H 2750 5300 50  0001 C CNN "Package ID"
+F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 6900 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H -2000 6900 50  0001 C CNN "Description"
+	1    5750 8300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2193,9 +2177,7 @@ Entry Wire Line
 Wire Wire Line
 	2250 1900 3950 1900
 Wire Wire Line
-	2350 2100 3550 2100
-Wire Wire Line
-	2450 2200 3100 2200
+	2350 2100 3100 2100
 Entry Wire Line
 	2450 4450 2550 4350
 Entry Wire Line
@@ -2205,9 +2187,7 @@ Entry Wire Line
 Entry Wire Line
 	2150 4050 2250 3950
 Wire Wire Line
-	2350 4150 3550 4150
-Wire Wire Line
-	2450 4250 3100 4250
+	2350 4150 3100 4150
 Wire Wire Line
 	2250 3950 3950 3950
 Entry Wire Line
@@ -2219,9 +2199,7 @@ Entry Wire Line
 Entry Wire Line
 	2150 6100 2250 6000
 Wire Wire Line
-	2350 6200 3550 6200
-Wire Wire Line
-	2450 6300 3100 6300
+	2350 6200 3100 6200
 Wire Wire Line
 	2250 6000 3950 6000
 Entry Wire Line
@@ -2233,9 +2211,7 @@ Entry Wire Line
 Entry Wire Line
 	2150 8200 2250 8100
 Wire Wire Line
-	2350 8300 3550 8300
-Wire Wire Line
-	2450 8400 3100 8400
+	2350 8300 3100 8300
 Wire Wire Line
 	2250 8100 3950 8100
 Entry Wire Line
@@ -2281,33 +2257,25 @@ Entry Wire Line
 Wire Wire Line
 	5450 8500 6550 8500
 Wire Wire Line
-	5850 8400 6650 8400
-Wire Wire Line
-	5400 8300 6750 8300
+	5400 8300 5650 8300
 Wire Wire Line
 	5000 8100 6850 8100
 Wire Wire Line
 	5450 6400 6550 6400
 Wire Wire Line
-	5850 6300 6650 6300
-Wire Wire Line
-	5400 6200 6750 6200
+	5400 6200 5650 6200
 Wire Wire Line
 	5000 6000 6850 6000
 Wire Wire Line
 	5450 4350 6550 4350
 Wire Wire Line
-	5850 4250 6650 4250
-Wire Wire Line
-	5400 4150 6750 4150
+	5400 4150 5650 4150
 Wire Wire Line
 	5000 3950 6850 3950
 Wire Wire Line
 	5450 2300 6550 2300
 Wire Wire Line
-	5850 2200 6650 2200
-Wire Wire Line
-	5400 2100 6750 2100
+	5400 2100 5650 2100
 Wire Wire Line
 	5000 1900 6850 1900
 Wire Bus Line
@@ -2330,6 +2298,38 @@ Wire Bus Line
 	6950 11900 5850 11900
 Wire Bus Line
 	6950 2000 6950 11900
+Wire Wire Line
+	5850 8300 6750 8300
+Wire Wire Line
+	3300 8300 3550 8300
+Wire Wire Line
+	3300 6200 3550 6200
+Wire Wire Line
+	5850 6200 6750 6200
+Wire Wire Line
+	5850 4150 6750 4150
+Wire Wire Line
+	3300 4150 3550 4150
+Wire Wire Line
+	3300 2100 3550 2100
+Wire Wire Line
+	5850 2100 6750 2100
+Wire Wire Line
+	2450 2200 3400 2200
+Wire Wire Line
+	5550 2200 6650 2200
+Wire Wire Line
+	2450 4250 3400 4250
+Wire Wire Line
+	5550 4250 6650 4250
+Wire Wire Line
+	2450 6300 3400 6300
+Wire Wire Line
+	5550 6300 6650 6300
+Wire Wire Line
+	2450 8400 3400 8400
+Wire Wire Line
+	5550 8400 6650 8400
 Wire Bus Line
 	2150 2000 2150 11500
 Wire Bus Line
