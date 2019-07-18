@@ -86,4 +86,100 @@ F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 $EndComp
 Wire Wire Line
 	10850 6700 11050 6700
+Text Label 6400 6150 1    50   ~ 0
+BCLK11
+Text Label 6500 6150 1    50   ~ 0
+WCLK11
+Text Label 6600 6150 1    50   ~ 0
+DIN11
+Text Label 6700 6150 1    50   ~ 0
+DOUT11
+Text Label 6800 6150 1    50   ~ 0
+BCLK10
+Text Label 6900 6150 1    50   ~ 0
+WCLK10
+Text Label 7000 6150 1    50   ~ 0
+DIN10
+Text Label 7100 6150 1    50   ~ 0
+DOUT10
+Text Label 7200 6150 1    50   ~ 0
+BCLK9
+Text Label 7300 6150 1    50   ~ 0
+WCLK9
+Text Label 7400 6150 1    50   ~ 0
+DIN9
+Text Label 7500 6150 1    50   ~ 0
+DOUT9
+Text Label 7600 6150 1    50   ~ 0
+BCLK8
+Text Label 7700 6150 1    50   ~ 0
+WCLK8
+Text Label 7800 6150 1    50   ~ 0
+DIN8
+Text Label 7900 6150 1    50   ~ 0
+DOUT8
+Wire Wire Line
+	6400 6150 6400 6300
+Wire Wire Line
+	6800 6150 6800 6300
+Wire Wire Line
+	7200 6150 7200 6300
+Wire Wire Line
+	7600 6150 7600 6300
+Entry Wire Line
+	7800 3900 7900 4000
+Wire Wire Line
+	7900 4000 7900 6300
+Entry Wire Line
+	7400 3900 7500 4000
+Wire Wire Line
+	7500 4000 7500 6300
+Entry Wire Line
+	7000 3900 7100 4000
+Wire Wire Line
+	7100 4000 7100 6300
+Entry Wire Line
+	6600 3900 6700 4000
+Wire Wire Line
+	6700 4000 6700 6300
+Entry Wire Line
+	7700 4150 7800 4250
+Wire Wire Line
+	7800 4250 7800 6300
+Entry Wire Line
+	7300 4150 7400 4250
+Wire Wire Line
+	7400 4250 7400 6300
+Entry Wire Line
+	6900 4150 7000 4250
+Wire Wire Line
+	7000 4250 7000 6300
+Entry Wire Line
+	6500 4150 6600 4250
+Wire Wire Line
+	6600 4250 6600 6300
+Entry Wire Line
+	7600 4350 7700 4450
+Wire Wire Line
+	7700 4450 7700 6300
+Entry Wire Line
+	7200 4350 7300 4450
+Wire Wire Line
+	7300 4450 7300 6300
+Entry Wire Line
+	6800 4350 6900 4450
+Wire Wire Line
+	6900 4450 6900 6300
+Entry Wire Line
+	6400 4350 6500 4450
+Wire Wire Line
+	6500 4450 6500 6300
+Wire Bus Line
+	5800 4600 8000 4600
+Wire Bus Line
+	5850 3900 8000 3900
+Wire Bus Line
+	5850 4150 8000 4150
+Wire Bus Line
+	5850 4350 8000 4350
 $EndSCHEMATC
