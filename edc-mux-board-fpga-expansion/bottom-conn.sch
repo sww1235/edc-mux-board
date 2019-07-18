@@ -22,21 +22,6 @@ Text HLabel 5650 4500 0    50   Input ~ 0
 BCLK[8..15]
 Text HLabel 5650 4600 0    50   Input ~ 0
 WCLK[8..15]
-$Comp
-L SW-con:DD-78F J1
-U 1 1 5DA032DD
-P 8500 6700
-F 0 "J1" H 10800 7200 50  0000 C CNN
-F 1 "DD-78F" H 6400 7200 50  0000 C CNN
-F 2 "SW-Harting:09565525612" H 8600 6250 50  0001 C CNN
-F 3 "https://b2b.harting.com/files/download/PRD/PDF_TS/0956552X612_100510349DRW001B.pdf" H 9200 6300 50  0001 C CNN
-F 4 "DD-78 Right Angle Female connector" H 0   0   50  0001 C CNN "Description"
-F 5 "Harting" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "09565525612" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
-	1    8500 6700
-	1    0    0    -1  
-$EndComp
 Text HLabel 5450 5550 0    50   Output ~ 0
 SCL_Master
 Text HLabel 5450 5650 0    50   BiDi ~ 0
@@ -83,7 +68,22 @@ F 3 "" H 11050 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10900 6700 11050 6700
-Wire Wire Line
 	11050 6700 11050 6900
+$Comp
+L SW-con:DC-62F J1
+U 1 1 5D2FFC98
+P 8500 6700
+F 0 "J1" H 10700 7050 50  0000 C CNN
+F 1 "DC-62F" H 6100 7000 50  0000 C CNN
+F 2 "SW-Harting:09564525612" H 8500 6100 50  0001 C CNN
+F 3 "https://b2b.harting.com/files/download/PRD/PDF_TS/0956452X612_100510347DRW001B.pdf" H 9100 6150 50  0001 C CNN
+F 4 "DC-62 Connector" H 0   0   50  0001 C CNN "Description"
+F 5 "Harting" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "09564525612" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
+	1    8500 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 6700 11050 6700
 $EndSCHEMATC
