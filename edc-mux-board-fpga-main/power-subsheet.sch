@@ -3135,4 +3135,38 @@ Wire Wire Line
 Connection ~ 1850 2800
 Wire Wire Line
 	1850 2800 1850 2750
+$Comp
+L Device:CP1_Small C278
+U 1 1 5D4C0BBD
+P 2550 2600
+F 0 "C278" V 2600 2650 50  0000 L CNN
+F 1 "47uF" V 2600 2350 50  0000 L CNN
+F 2 "SW-Wurth-Electronics:CP_ELEC_8.3x8.3x11.7mm_SMD" H 2550 2600 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 2550 2600 50  0001 C CNN
+F 4 "CAP ALUM POLY 47UF 20% 25V SMD" H -9150 -800 50  0001 C CNN "Characteristics"
+F 5 "Aluminium Polymer Electrolytic Capacitor" H -9150 -800 50  0001 C CNN "Description"
+F 6 "Wurth Elektronik" H -9150 -800 50  0001 C CNN "Manufacturer"
+F 7 "875075555002" H -9150 -800 50  0001 C CNN "Manufacturers Part Number"
+F 8 "8.3x8.3x11.7mm" H -9150 -800 50  0001 C CNN "Package ID"
+	1    2550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2450 2550 2450
+Wire Wire Line
+	2550 2450 2550 2500
+Connection ~ 2300 2450
+$Comp
+L power:GND #PWR0129
+U 1 1 5D4EBFB3
+P 2550 2850
+F 0 "#PWR0129" H 2550 2600 50  0001 C CNN
+F 1 "GND" H 2550 2700 50  0000 C CNN
+F 2 "" H 2550 2850 50  0001 C CNN
+F 3 "" H 2550 2850 50  0001 C CNN
+	1    2550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2850 2550 2700
 $EndSCHEMATC

@@ -22,11 +22,11 @@ Text HLabel 5650 4500 0    50   Input ~ 0
 BCLK[8..15]
 Text HLabel 5650 4600 0    50   Input ~ 0
 WCLK[8..15]
-Text HLabel 5450 5550 0    50   Output ~ 0
+Text HLabel 8500 5350 1    50   Output ~ 0
 SCL_Master
-Text HLabel 5450 5650 0    50   BiDi ~ 0
+Text HLabel 8400 5350 1    50   BiDi ~ 0
 SDA_Master
-Text HLabel 5450 5850 0    50   Output ~ 0
+Text HLabel 8300 5350 1    50   Output ~ 0
 ~RESET~I2C
 Text HLabel 4900 6700 0    50   UnSpc ~ 0
 ID_PIN[8..15]
@@ -35,26 +35,26 @@ INT_[8..15]
 $Comp
 L power:+12V #PWR090
 U 1 1 5D5500B2
-P 11150 5150
-F 0 "#PWR090" H 11150 5000 50  0001 C CNN
-F 1 "+12V" H 11150 5290 50  0000 C CNN
-F 2 "" H 11150 5150 50  0001 C CNN
-F 3 "" H 11150 5150 50  0001 C CNN
-	1    11150 5150
+P 8450 4550
+F 0 "#PWR090" H 8450 4400 50  0001 C CNN
+F 1 "+12V" H 8450 4690 50  0000 C CNN
+F 2 "" H 8450 4550 50  0001 C CNN
+F 3 "" H 8450 4550 50  0001 C CNN
+	1    8450 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR091
 U 1 1 5D550BF6
-P 11150 5550
-F 0 "#PWR091" H 11150 5300 50  0001 C CNN
-F 1 "GND" H 11150 5400 50  0000 C CNN
-F 2 "" H 11150 5550 50  0001 C CNN
-F 3 "" H 11150 5550 50  0001 C CNN
-	1    11150 5550
+P 8500 7400
+F 0 "#PWR091" H 8500 7150 50  0001 C CNN
+F 1 "GND" H 8500 7250 50  0000 C CNN
+F 2 "" H 8500 7400 50  0001 C CNN
+F 3 "" H 8500 7400 50  0001 C CNN
+	1    8500 7400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5500 6250 0    50   Input ~ 0
+Text GLabel 8600 5350 1    50   Input ~ 0
 CLK2_CODEC
 $Comp
 L power:GND #PWR0108
@@ -230,4 +230,140 @@ Wire Wire Line
 	10100 6150 10100 6300
 Wire Wire Line
 	10500 6150 10500 6300
+Text Label 6600 7300 3    50   ~ 0
+ID_PIN11
+Text Label 6800 7300 3    50   ~ 0
+INT_11
+Text Label 7000 7300 3    50   ~ 0
+ID_PIN10
+Text Label 7200 7300 3    50   ~ 0
+INT_10
+Text Label 7400 7300 3    50   ~ 0
+ID_PIN9
+Text Label 7600 7300 3    50   ~ 0
+INT_9
+Text Label 7800 7300 3    50   ~ 0
+ID_PIN8
+Text Label 8000 7300 3    50   ~ 0
+INT_8
+Wire Wire Line
+	6600 7100 6600 7300
+Wire Wire Line
+	6800 7100 6800 7300
+Wire Wire Line
+	7000 7100 7000 7300
+Wire Wire Line
+	7200 7100 7200 7300
+Wire Wire Line
+	7400 7100 7400 7300
+Wire Wire Line
+	7600 7100 7600 7300
+Wire Wire Line
+	7800 7100 7800 7300
+Wire Wire Line
+	8000 7100 8000 7300
+Text Label 10400 7300 3    50   ~ 0
+INT_12
+Text Label 10200 7300 3    50   ~ 0
+ID_PIN12
+Text Label 10000 7300 3    50   ~ 0
+INT_13
+Text Label 9800 7300 3    50   ~ 0
+ID_PIN13
+Text Label 9600 7300 3    50   ~ 0
+INT_14
+Text Label 9400 7300 3    50   ~ 0
+ID_PIN14
+Text Label 9200 7300 3    50   ~ 0
+INT_15
+Text Label 9000 7300 3    50   ~ 0
+ID_PIN15
+Wire Wire Line
+	9000 7300 9000 7100
+Wire Wire Line
+	9200 7300 9200 7100
+Wire Wire Line
+	9400 7300 9400 7100
+Wire Wire Line
+	9600 7300 9600 7100
+Wire Wire Line
+	9800 7300 9800 7100
+Wire Wire Line
+	10000 7300 10000 7100
+Wire Wire Line
+	10200 7300 10200 7100
+Wire Wire Line
+	10400 7300 10400 7100
+Text Label 5250 6700 0    50   ~ 0
+ID_PIN[8..15]
+Text Label 5250 6850 0    50   ~ 0
+INT_[8..15]
+Wire Bus Line
+	4900 6700 5250 6700
+Wire Bus Line
+	4900 6850 5250 6850
+Wire Wire Line
+	8500 5350 8500 6300
+Wire Wire Line
+	8400 5350 8400 6300
+Wire Wire Line
+	8600 5350 8600 6300
+Wire Wire Line
+	8300 5350 8300 6300
+Wire Wire Line
+	8200 7100 8200 7250
+Wire Wire Line
+	8200 7250 8400 7250
+Wire Wire Line
+	8800 7250 8800 7100
+Wire Wire Line
+	8600 7100 8600 7250
+Connection ~ 8600 7250
+Wire Wire Line
+	8600 7250 8800 7250
+Wire Wire Line
+	8400 7100 8400 7250
+Connection ~ 8400 7250
+Wire Wire Line
+	8400 7250 8500 7250
+Wire Wire Line
+	8500 7250 8500 7400
+Connection ~ 8500 7250
+Wire Wire Line
+	8500 7250 8600 7250
+Wire Wire Line
+	8000 6300 8000 6150
+Wire Wire Line
+	8000 6150 8100 6150
+Wire Wire Line
+	8200 6150 8200 6300
+Wire Wire Line
+	8100 6300 8100 6150
+Connection ~ 8100 6150
+Wire Wire Line
+	8100 6150 8200 6150
+Wire Wire Line
+	8200 6150 8200 4700
+Wire Wire Line
+	8200 4700 8450 4700
+Wire Wire Line
+	8450 4700 8450 4550
+Connection ~ 8200 6150
+Wire Wire Line
+	8450 4700 8700 4700
+Wire Wire Line
+	8700 4700 8700 6150
+Connection ~ 8450 4700
+Wire Wire Line
+	8900 6300 8900 6150
+Wire Wire Line
+	8900 6150 8800 6150
+Connection ~ 8700 6150
+Wire Wire Line
+	8700 6150 8700 6300
+Connection ~ 8800 6150
+Wire Wire Line
+	8800 6150 8700 6150
+Wire Wire Line
+	8800 6150 8800 6300
 $EndSCHEMATC

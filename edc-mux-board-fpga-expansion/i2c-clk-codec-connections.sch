@@ -110,8 +110,6 @@ F 3 "" H 1950 5200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 3250 1950 3300
-Wire Wire Line
 	1950 5200 1950 5050
 $Comp
 L Device:C_Small C?
@@ -133,24 +131,6 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 647F784E
-P 1450 3300
-AR Path="/5CC6CC1A/5CC6D47B/647F784E" Ref="C?"  Part="1" 
-AR Path="/5CC6CC1A/5CCDCE34/647F784E" Ref="C147"  Part="1" 
-F 0 "C147" V 1400 3550 50  0000 R CNN
-F 1 "10uF X7R" V 1400 3250 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1450 3300 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1450 3300 50  0001 C CNN
-F 4 "Kemet" H 1600 2450 50  0001 C CNN "Manufacturer"
-F 5 "1206in/3216mm" H 1600 2450 50  0001 C CNN "Package ID"
-F 6 "C1206C106J3RACAUTO" H 1600 2450 50  0001 C CNN "Manufacturers Part Number"
-F 7 "CAP CER 10UF 25V X7R 1206" H 0   0   50  0001 C CNN "Characteristics"
-F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
-	1    1450 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 647F7855
 P 1450 3750
 AR Path="/5CC6CC1A/5CC6D47B/647F7855" Ref="C?"  Part="1" 
@@ -168,18 +148,11 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1550 3300 1950 3300
-Wire Wire Line
 	1550 3600 1950 3600
 Wire Wire Line
 	1550 3750 1950 3750
 Wire Wire Line
-	1350 3300 1250 3300
-Wire Wire Line
-	1250 3300 1250 3600
-Wire Wire Line
 	1350 3600 1250 3600
-Connection ~ 1250 3600
 Wire Wire Line
 	1250 3600 1250 3750
 Wire Wire Line
@@ -204,9 +177,6 @@ Wire Wire Line
 Connection ~ 1950 3750
 Wire Wire Line
 	1950 3750 1950 3800
-Connection ~ 1950 3300
-Wire Wire Line
-	1950 3300 1950 3350
 $Comp
 L Device:R_Small_US R17
 U 1 1 64804018
@@ -353,21 +323,17 @@ F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    2750 4800
 	0    1    1    0   
 $EndComp
-Text Label 2950 4100 0    50   ~ 0
-MCLK8
-Text Label 2950 4500 0    50   ~ 0
-MCLK9
-Text Label 2950 4700 0    50   ~ 0
-MCLK10
-Text Label 2950 4800 0    50   ~ 0
-MCLK11
-Text Label 2950 4600 0    50   ~ 0
-MCLK12
-Text Label 2950 4300 0    50   ~ 0
-MCLK13
 Text Label 2950 4400 0    50   ~ 0
+MCLK9
+Text Label 2950 4100 0    50   ~ 0
+MCLK11
+Text Label 2950 4500 0    50   ~ 0
+MCLK12
+Text Label 2950 4700 0    50   ~ 0
+MCLK13
+Text Label 2950 4800 0    50   ~ 0
 MCLK14
-Text Label 2950 4200 0    50   ~ 0
+Text Label 2950 4600 0    50   ~ 0
 MCLK15
 Entry Wire Line
 	3250 4100 3350 4200
@@ -418,13 +384,13 @@ F 7 "QFN24-EP" H 0   0   50  0001 C CNN "Package ID"
 	1    5150 3850
 	1    0    0    -1  
 $EndComp
-Text Label 5950 3950 0    50   ~ 0
+Text Label 5950 3050 0    50   ~ 0
 ~RESET~8
-Text Label 5950 4050 0    50   ~ 0
+Text Label 5950 3150 0    50   ~ 0
 ~RESET~9
-Text Label 5950 4150 0    50   ~ 0
+Text Label 5950 3250 0    50   ~ 0
 ~RESET~10
-Text Label 5950 4250 0    50   ~ 0
+Text Label 5950 3350 0    50   ~ 0
 ~RESET~11
 Text Label 5950 4350 0    50   ~ 0
 ~RESET~12
@@ -435,13 +401,13 @@ Text Label 5950 4550 0    50   ~ 0
 Text Label 5950 4650 0    50   ~ 0
 ~RESET~15
 Entry Wire Line
-	6300 3950 6400 4050
+	6300 3050 6400 3150
 Entry Wire Line
-	6300 4050 6400 4150
+	6300 3150 6400 3250
 Entry Wire Line
-	6300 4150 6400 4250
+	6300 3250 6400 3350
 Entry Wire Line
-	6300 4250 6400 4350
+	6300 3350 6400 3450
 Entry Wire Line
 	6300 4350 6400 4450
 Entry Wire Line
@@ -451,13 +417,13 @@ Entry Wire Line
 Entry Wire Line
 	6300 4650 6400 4750
 Wire Wire Line
-	5850 3950 6300 3950
+	5850 3050 6300 3050
 Wire Wire Line
-	5850 4050 6300 4050
+	5850 3150 6300 3150
 Wire Wire Line
-	5850 4150 6300 4150
+	5850 3250 6300 3250
 Wire Wire Line
-	5850 4250 6300 4250
+	5850 3350 6300 3350
 Wire Wire Line
 	5850 4350 6300 4350
 Wire Wire Line
@@ -1285,10 +1251,6 @@ Wire Wire Line
 	1950 3800 1950 3850
 Text Label 2350 3800 0    50   ~ 0
 CLK_DISTRO_3V3_2
-NoConn ~ 5850 3050
-NoConn ~ 5850 3150
-NoConn ~ 5850 3250
-NoConn ~ 5850 3350
 NoConn ~ 5850 3450
 NoConn ~ 5850 3550
 NoConn ~ 5850 3650
@@ -1302,12 +1264,22 @@ Wire Wire Line
 Wire Wire Line
 	4150 4650 4450 4650
 Connection ~ 4250 2550
+Wire Wire Line
+	1950 3250 1950 3350
+Text Label 2950 4300 0    50   ~ 0
+MCLK8
+Text Label 2950 4200 0    50   ~ 0
+MCLK10
+NoConn ~ 5850 3950
+NoConn ~ 5850 4050
+NoConn ~ 5850 4150
+NoConn ~ 5850 4250
 Wire Bus Line
 	3350 4200 3350 6150
-Wire Bus Line
-	6400 4050 6400 5350
 Wire Bus Line
 	10750 4350 10750 6000
 Wire Bus Line
 	10950 4200 10950 6150
+Wire Bus Line
+	6400 3150 6400 5350
 $EndSCHEMATC

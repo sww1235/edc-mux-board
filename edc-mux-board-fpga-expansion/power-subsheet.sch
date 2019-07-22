@@ -281,4 +281,27 @@ Wire Wire Line
 Connection ~ 5100 3100
 Wire Wire Line
 	5100 3100 5100 3050
+$Comp
+L Device:CP1_Small C171
+U 1 1 5D520353
+P 5700 2850
+F 0 "C171" H 5710 2920 50  0000 L CNN
+F 1 "47uF" H 5710 2770 50  0000 L CNN
+F 2 "SW-Wurth-Electronics:CP_ELEC_8.3x8.3x11.7mm_SMD" H 5700 2850 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 5700 2850 50  0001 C CNN
+F 4 "CAP ALUM POLY 47UF 20% 25V SMD" H 5700 2850 50  0001 C CNN "Characteristics"
+F 5 "Wurth Elektronik" H 5700 2850 50  0001 C CNN "Manufacturer"
+F 6 "Aluminium Polymer Electrolytic Capacitor" H 5700 2850 50  0001 C CNN "Description"
+F 7 "8.3x8.3x11.7mm" H 5700 2850 50  0001 C CNN "Package ID"
+F 8 "875075555002" H 5700 2850 50  0001 C CNN "Manufacturers Part Number"
+	1    5700 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3100 5700 2950
+Wire Wire Line
+	5550 2750 5700 2750
+Connection ~ 5550 2750
+Wire Wire Line
+	5100 3100 5700 3100
 $EndSCHEMATC
