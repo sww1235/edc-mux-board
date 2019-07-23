@@ -4,4 +4,5 @@
   (lib (name SW-Pulse)(type KiCad)(uri ${KISWGITHUB}/SW-Pulse.pretty)(options "")(descr ""))
   (lib (name SW-Harting)(type KiCad)(uri ${KISWGITHUB}/SW-Harting.pretty)(options "")(descr ""))
   (lib (name SW-Wurth-Electronics)(type KiCad)(uri ${KISWGITHUB}/SW-Wurth-Electronics.pretty)(options "")(descr ""))
+  (lib (name SW-JST)(type KiCad)(uri ${KISWGITHUB}/SW-JST.pretty)(options "")(descr ""))
 )
