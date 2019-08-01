@@ -9,4 +9,5 @@
   (lib (name SW-Linear)(type Legacy)(uri ${KISWGITHUB}/SW-Linear.lib)(options "")(descr ""))
   (lib (name SW-Cypress)(type Legacy)(uri ${KISWGITHUB}/SW-Cypress.lib)(options "")(descr ""))
   (lib (name SW-con)(type Legacy)(uri ${KISWGITHUB}/SW-con.lib)(options "")(descr ""))
+  (lib (name SW-ON-Semi)(type Legacy)(uri ${KISWGITHUB}/SW-ON-Semi.lib)(options "")(descr ""))
 )
