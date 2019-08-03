@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW-Texas:TLV320AIC3206 U?
+L SW-Texas:TLV320AIC3206 U4
 U 1 1 5DAC04B2
 P 5200 3400
 AR Path="/5CC6CC1A/5CC6D57F/5DAC04B2" Ref="U4"  Part="1"
@@ -38,7 +38,7 @@ F 7 "UQFN40" H 0   0   50  0001 C CNN "Package ID"
 	1    0    0    -1
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C9
 U 1 1 5DAC04C4
 P 5200 2150
 AR Path="/5CC6CC1A/5CC6D57F/5DAC04C4" Ref="C9"  Part="1"
@@ -66,7 +66,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2250 5300 2150
 $Comp
-L Device:C_Small C?
+L Device:C_Small C10
 U 1 1 5DAC04D3
 P 6050 4250
 AR Path="/5CC6CC1A/5CC6D57F/5DAC04D3" Ref="C10"  Part="1"
@@ -94,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 4100 6050 4150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR012
 U 1 1 5DAC04E5
 P 5750 4750
 AR Path="/5CC6CC1A/5CC6D57F/5DAC04E5" Ref="#PWR012"  Part="1"
@@ -149,7 +149,7 @@ Connection ~ 5450 4650
 Wire Wire Line
 	5450 4650 5750 4650
 $Comp
-L Device:C_Small C?
+L Device:C_Small C8
 U 1 1 5D2F4C59
 P 4400 4250
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C59" Ref="C8"  Part="1"
@@ -182,7 +182,7 @@ Wire Wire Line
 	4400 4650 4950 4650
 Connection ~ 4950 4650
 $Comp
-L Device:C_Small C?
+L Device:C_Small C6
 U 1 1 5CE6F348
 P 3950 3050
 AR Path="/5CC6CC1A/5CC6D57F/5CE6F348" Ref="C6"  Part="1"
@@ -206,7 +206,7 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	-1   0    0    1
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C7
 U 1 1 5D2F4C5A
 P 4150 3050
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C5A" Ref="C7"  Part="1"
@@ -252,7 +252,7 @@ Wire Wire Line
 	4400 3000 4400 2950
 Connection ~ 4400 2950
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 5D2F4C5B
 P 3550 3250
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C5B" Ref="#PWR011"  Part="1"
@@ -309,7 +309,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 3300 7750 4250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR016
 U 1 1 5D2F4C5D
 P 8300 4400
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C5D" Ref="#PWR016"  Part="1"
@@ -330,7 +330,7 @@ $EndComp
 Wire Wire Line
 	8700 3100 8850 3100
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB1
 U 1 1 5D2F4C5E
 P 6550 4150
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C5E" Ref="FB1"  Part="1"
@@ -367,7 +367,7 @@ DOUT
 Wire Wire Line
 	3750 2600 4450 2600
 $Comp
-L Device:C_Small C?
+L Device:C_Small C3
 U 1 1 5D2F4C5F
 P 3550 2750
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C5F" Ref="C3"  Part="1"
@@ -395,7 +395,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 2550 3750 2550
 $Comp
-L Device:C_Small C?
+L Device:C_Small C5
 U 1 1 5D2F4C52
 P 3750 2750
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C52" Ref="C5"  Part="1"
@@ -461,7 +461,7 @@ Power up sequence:\n1: Vsys\n2: IOVdd\n3: DVdd\n4: DVdd_CP\n5: AVdd\n6: DRVdd_HP
 Wire Wire Line
 	5950 3000 6500 3000
 $Comp
-L SW-power:+1V8A #+1V8A?
+L SW-power:+1V8A #+1V8A02
 U 1 1 5D2F4C60
 P 6750 2100
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C60" Ref="#+1V8A02"  Part="1"
@@ -481,7 +481,7 @@ F 4 "0.00@0" H 6850 2550 60  0001 C CNN "Pricing"
 	1    0    0    -1
 $EndComp
 $Comp
-L power:+1V8 #PWR?
+L power:+1V8 #PWR014
 U 1 1 5DAC0585
 P 6500 2100
 AR Path="/5CC6CC1A/5CC6D57F/5DAC0585" Ref="#PWR014"  Part="1"
@@ -518,7 +518,7 @@ Connection ~ 6750 2800
 Wire Wire Line
 	6750 2800 6750 2900
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR013
 U 1 1 5DAC0596
 P 6250 2100
 AR Path="/5CC6CC1A/5CC6D57F/5DAC0596" Ref="#PWR013"  Part="1"
@@ -541,7 +541,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 2600 6250 2350
 $Comp
-L Device:C_Small C?
+L Device:C_Small C14
 U 1 1 5DAC059F
 P 6750 3200
 AR Path="/5CC6CC1A/5CC6D57F/5DAC059F" Ref="C14"  Part="1"
@@ -565,7 +565,7 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	-1   0    0    1
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR015
 U 1 1 5D2F4C64
 P 6650 3400
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C64" Ref="#PWR015"  Part="1"
@@ -584,7 +584,7 @@ F 3 "" H 6650 3400 50  0001 C CNN
 	1    0    0    -1
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C15
 U 1 1 5D2F4C65
 P 6900 3200
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C65" Ref="C15"  Part="1"
@@ -608,7 +608,7 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	-1   0    0    1
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C13
 U 1 1 5D2F4C66
 P 6500 3200
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C66" Ref="C13"  Part="1"
@@ -668,7 +668,7 @@ Connection ~ 6650 3350
 Wire Wire Line
 	6650 3350 6750 3350
 $Comp
-L Device:C_Small C?
+L Device:C_Small C16
 U 1 1 5D2F4C67
 P 7050 2150
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C67" Ref="C16"  Part="1"
@@ -692,7 +692,7 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	0    1    1    0
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C17
 U 1 1 5D2F4C68
 P 7050 2350
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C68" Ref="C17"  Part="1"
@@ -726,7 +726,7 @@ Connection ~ 6250 2150
 Wire Wire Line
 	6250 2150 6250 2100
 $Comp
-L Device:C_Small C?
+L Device:C_Small C18
 U 1 1 5D2F4C69
 P 7050 2550
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C69" Ref="C18"  Part="1"
@@ -755,7 +755,7 @@ Connection ~ 6500 2550
 Wire Wire Line
 	6500 2550 6500 2500
 $Comp
-L Device:C_Small C?
+L Device:C_Small C19
 U 1 1 5DAC0610
 P 7050 2750
 AR Path="/5CC6CC1A/5CC6D57F/5DAC0610" Ref="C19"  Part="1"
@@ -840,7 +840,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3700 7550 3700
 $Comp
-L Device:C_Small C?
+L Device:C_Small C20
 U 1 1 5DAC061B
 P 8000 2600
 AR Path="/5CC6CC1A/5CC6D57F/5DAC061B" Ref="C20"  Part="1"
@@ -864,7 +864,7 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	0    -1   -1   0
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR017
 U 1 1 5DAC062C
 P 8350 2350
 AR Path="/5CC6CC1A/5CC6D57F/5DAC062C" Ref="#PWR017"  Part="1"
@@ -900,7 +900,7 @@ Wire Wire Line
 	8300 3550 8300 4250
 Connection ~ 8300 4250
 $Comp
-L Interface_Expansion:P82B96 U?
+L Interface_Expansion:P82B96 U3
 U 1 1 5D2F4C6D
 P 2600 4300
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C6D" Ref="U3"  Part="1"
@@ -923,7 +923,7 @@ F 7 "TSSOP8" H 0   0   50  0001 C CNN "Package ID"
 	-1   0    0    -1
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR09
 U 1 1 5D2F4C6E
 P 1550 3550
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C6E" Ref="#PWR09"  Part="1"
@@ -970,7 +970,7 @@ Connection ~ 1900 4100
 Wire Wire Line
 	1900 4100 1900 4200
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R2
 U 1 1 5DAC065C
 P 1700 3900
 AR Path="/5CC6CC1A/5CC6D57F/5DAC065C" Ref="R2"  Part="1"
@@ -991,7 +991,7 @@ F 5 "Resistor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R1
 U 1 1 5DAC0662
 P 1550 4300
 AR Path="/5CC6CC1A/5CC6D57F/5DAC0662" Ref="R1"  Part="1"
@@ -1028,7 +1028,7 @@ Connection ~ 1700 4100
 Wire Wire Line
 	1700 4100 1900 4100
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR010
 U 1 1 5D2F4C71
 P 3250 3750
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C71" Ref="#PWR010"  Part="1"
@@ -1058,7 +1058,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 4400 3400 4400
 $Comp
-L Device:C_Small C?
+L Device:C_Small C4
 U 1 1 5D2F4C72
 P 3700 4000
 AR Path="/5CC6CC1A/5CC6D57F/5D2F4C72" Ref="C4"  Part="1"
@@ -1101,7 +1101,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 4500 1550 4500
 $Comp
-L Device:C_Small C?
+L Device:C_Small C11
 U 1 1 5DAC0492
 P 6150 3600
 AR Path="/5CC6CC1A/5CC6D57F/5DAC0492" Ref="C11"  Part="1"
@@ -1125,7 +1125,7 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	0    1    1    0
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C12
 U 1 1 5DAC04AA
 P 6400 3700
 AR Path="/5CC6CC1A/5CC6D57F/5DAC04AA" Ref="C12"  Part="1"
