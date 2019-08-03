@@ -3169,4 +3169,270 @@ F 3 "" H 2550 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 2850 2550 2700
+Wire Wire Line
+	11900 4600 12050 4600
+Text Notes 12450 4200 0    50   ~ 0
+regulated 12V
+$Comp
+L Regulator_Switching:R-78B12-2.0 U33
+U 1 1 5D4E2FAE
+P 12500 4600
+AR Path="/5CC3E5B8/5D4E2FAE" Ref="U33"  Part="1" 
+AR Path="/5CBF6239/5D4E2FAE" Ref="U?"  Part="1" 
+AR Path="/5CBF628A/5D4E2FAE" Ref="U?"  Part="1" 
+F 0 "U33" H 12500 4900 50  0000 C CNN
+F 1 "R-78B12-2.0" H 12500 4800 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT" H 12550 4350 50  0001 L CIN
+F 3 "https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf" H 12500 4600 50  0001 C CNN
+F 4 "switch mode power supply module" H 10650 3300 50  0001 C CNN "Description"
+F 5 "RECOM Power" H 10650 3300 50  0001 C CNN "Manufacturer"
+F 6 "R-78B12-2.0" H 10650 3300 50  0001 C CNN "Manufacturers Part Number"
+F 7 "TO-220" H 10650 3300 50  0001 C CNN "Package ID"
+	1    12500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5D4E2FB4
+P 12050 4550
+AR Path="/5CC3E5B8/5D4E2FB4" Ref="#FLG01"  Part="1" 
+AR Path="/5CBF6239/5D4E2FB4" Ref="#FLG?"  Part="1" 
+AR Path="/5CBF628A/5D4E2FB4" Ref="#FLG?"  Part="1" 
+F 0 "#FLG01" H 12050 4625 50  0001 C CNN
+F 1 "PWR_FLAG" H 12050 4700 50  0000 C CNN
+F 2 "" H 12050 4550 50  0001 C CNN
+F 3 "~" H 12050 4550 50  0001 C CNN
+	1    12050 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 4550 12050 4600
+Connection ~ 12050 4600
+Wire Wire Line
+	12050 4600 12200 4600
+Text Label 10850 5400 1    50   ~ 0
+SW_PWR_IN
+Wire Wire Line
+	10850 5100 11300 5100
+$Comp
+L Device:C_Small C272
+U 1 1 5D4E2FC4
+P 11000 4800
+AR Path="/5CC3E5B8/5D4E2FC4" Ref="C272"  Part="1" 
+AR Path="/5CBF6239/5D4E2FC4" Ref="C?"  Part="1" 
+AR Path="/5CBF628A/5D4E2FC4" Ref="C?"  Part="1" 
+F 0 "C272" V 10750 4800 50  0000 C CNN
+F 1 "10uF X7R" V 10850 4800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 11000 4800 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 11000 4800 50  0001 C CNN
+F 4 "1206in/3216mm" H 10300 500 50  0001 C CNN "Package ID"
+F 5 "Kemet" H 8800 750 50  0001 C CNN "Manufacturer"
+F 6 "C1206C106J3RACAUTO" H 8800 750 50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 10UF 25V X7R 1206" H 8550 650 50  0001 C CNN "Characteristics"
+F 8 "MLCC Capacitor" H 4300 150 50  0001 C CNN "Description"
+	1    11000 4800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	10700 4700 10700 4800
+Wire Wire Line
+	10650 4700 10700 4700
+Wire Wire Line
+	11900 5100 11900 4600
+Wire Wire Line
+	12400 5100 11900 5100
+Wire Wire Line
+	12400 5500 12400 5100
+Wire Wire Line
+	12300 5500 12400 5500
+Connection ~ 11900 4600
+Wire Wire Line
+	11800 4600 11900 4600
+Wire Wire Line
+	11300 4600 11400 4600
+Wire Wire Line
+	11300 5100 11300 4800
+Wire Wire Line
+	10850 5500 10850 5100
+Wire Wire Line
+	10900 5500 10850 5500
+Wire Wire Line
+	11600 4950 11600 5050
+Wire Wire Line
+	11500 4950 11600 4950
+Wire Wire Line
+	11500 5050 11500 4950
+Connection ~ 11600 4950
+Wire Wire Line
+	11600 4900 11600 4950
+Connection ~ 11300 4600
+Wire Wire Line
+	11200 4600 11300 4600
+$Comp
+L Transistor_FET:CSD18501Q5A Q?
+U 1 1 5D4E2FE1
+P 11600 4700
+AR Path="/5CBF6239/5D4E2FE1" Ref="Q?"  Part="1" 
+AR Path="/5CBF628A/5D4E2FE1" Ref="Q?"  Part="1" 
+AR Path="/5CC3E5B8/5D4E2FE1" Ref="Q3"  Part="1" 
+F 0 "Q3" H 11800 4775 50  0000 L CNN
+F 1 "CSD18501Q5A" H 11800 4700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 11800 4625 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd18501q5a" V 11600 4700 50  0001 L CNN
+F 4 "N Channel MOSFET" H 4100 300 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 4100 300 50  0001 C CNN "Manufacturer"
+F 6 "CSD18501Q5A" H 4100 300 50  0001 C CNN "Manufacturers Part Number"
+F 7 "TO-SOT" H 4100 300 50  0001 C CNN "Package ID"
+	1    11600 4700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	11700 5950 11700 6050
+Wire Wire Line
+	11700 6050 11650 6050
+Wire Wire Line
+	11400 6050 11450 6050
+Wire Wire Line
+	11400 5950 11400 6050
+$Comp
+L Device:C_Small C273
+U 1 1 5D4E2FEF
+P 11550 6050
+AR Path="/5CC3E5B8/5D4E2FEF" Ref="C273"  Part="1" 
+AR Path="/5CBF6239/5D4E2FEF" Ref="C?"  Part="1" 
+AR Path="/5CBF628A/5D4E2FEF" Ref="C?"  Part="1" 
+F 0 "C273" V 11400 6050 50  0000 C CNN
+F 1 "220nF X7R" V 11300 6050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11550 6050 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 11550 6050 50  0001 C CNN
+F 4 "0603in/1608mm" H 3650 2650 50  0001 C CNN "Package ID"
+F 5 "Kemet" H 3650 2650 50  0001 C CNN "Manufacturer"
+F 6 "C0603X224J3RACAUTO" H 3650 2650 50  0001 C CNN "Manufacturers Part Number"
+F 7 "MLCC Capacitor" H 4100 300 50  0001 C CNN "Description"
+	1    11550 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW-Texas:LM74610-Q1 U?
+U 1 1 5D4E2FF9
+P 11550 5500
+AR Path="/5CBF6239/5D4E2FF9" Ref="U?"  Part="1" 
+AR Path="/5CBF628A/5D4E2FF9" Ref="U?"  Part="1" 
+AR Path="/5CC3E5B8/5D4E2FF9" Ref="U1"  Part="1" 
+F 0 "U1" H 11100 5800 50  0000 C CNN
+F 1 "LM74610-Q1" H 11850 5800 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 11550 5800 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm74610-q1.pdf" H 11550 5800 50  0001 C CNN
+F 4 "Reverse polarity smart diode controller" H 4100 300 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 4100 300 50  0001 C CNN "Manufacturer"
+F 6 "LM74610-Q1" H 4100 300 50  0001 C CNN "Manufacturers Part Number"
+F 7 "VSSOP8" H 4100 300 50  0001 C CNN "Package ID"
+	1    11550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J?
+U 1 1 5D4E3003
+P 10350 4700
+AR Path="/5CBF6239/5D4E3003" Ref="J?"  Part="1" 
+AR Path="/5CBF628A/5D4E3003" Ref="J?"  Part="1" 
+AR Path="/5CC3E5B8/5D4E3003" Ref="J6"  Part="1" 
+F 0 "J6" H 10350 4910 50  0000 C CNN
+F 1 "Power In" H 10350 4500 50  0000 C CNN
+F 2 "SW-Switchcraft:PCL712AS" H 10400 4660 50  0001 C CNN
+F 3 "http://www.switchcraft.com/Drawings/PCL712AS_PCL722AS_CD.pdf" H 10400 4660 50  0001 C CNN
+F 4 "Barrel Jack Input Connector" H 4100 300 50  0001 C CNN "Description"
+F 5 "Switchcraft" H 4100 300 50  0001 C CNN "Manufacturer"
+F 6 "PCL712AS" H 4100 300 50  0001 C CNN "Manufacturers Part Number"
+F 7 "Through Hole" H 4100 300 50  0001 C CNN "Package ID"
+	1    10350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5D4E300C
+P 11000 4600
+AR Path="/5CBF6239/5D4E300C" Ref="SW?"  Part="1" 
+AR Path="/5CBF628A/5D4E300C" Ref="SW?"  Part="1" 
+AR Path="/5CC3E5B8/5D4E300C" Ref="SW1"  Part="1" 
+F 0 "SW1" H 11000 4850 50  0000 C CNN
+F 1 "Power Switch" H 11000 4750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11000 4600 50  0001 C CNN
+F 3 "~" H 11000 4600 50  0001 C CNN
+F 4 "Through Hole" H 4100 300 50  0001 C CNN "Package ID"
+F 5 "Connection for panel mounted power switch" H 4100 300 50  0001 C CNN "Description"
+F 6 "Eswitch" H 4100 300 50  0001 C CNN "Manufacturer"
+	1    11000 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 4600 10800 4600
+Wire Wire Line
+	10650 4800 10700 4800
+Wire Notes Line
+	9750 4250 13000 4250
+Wire Notes Line
+	13000 4250 13000 6650
+Wire Notes Line
+	13000 6650 9750 6650
+Wire Notes Line
+	9750 6650 9750 4250
+Text Notes 9800 4250 0    250  ~ 0
+POWER IN
+$Comp
+L power:GND #PWR?
+U 1 1 5D4E3019
+P 10750 5550
+AR Path="/5CBF628A/5D4E3019" Ref="#PWR?"  Part="1" 
+AR Path="/5CC3E5B8/5D4E3019" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 10750 5300 50  0001 C CNN
+F 1 "GND" H 10750 5400 50  0000 C CNN
+F 2 "" H 10750 5550 50  0001 C CNN
+F 3 "" H 10750 5550 50  0001 C CNN
+	1    10750 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 4800
+Wire Wire Line
+	11100 4800 11300 4800
+Connection ~ 11300 4800
+Wire Wire Line
+	11300 4800 11300 4600
+Wire Wire Line
+	10700 4800 10750 4800
+Wire Wire Line
+	10750 4800 10750 5550
+Connection ~ 10750 4800
+Wire Wire Line
+	10750 4800 10900 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5D4E3027
+P 12500 5550
+AR Path="/5CBF628A/5D4E3027" Ref="#PWR?"  Part="1" 
+AR Path="/5CC3E5B8/5D4E3027" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 12500 5300 50  0001 C CNN
+F 1 "GND" H 12500 5400 50  0000 C CNN
+F 2 "" H 12500 5550 50  0001 C CNN
+F 3 "" H 12500 5550 50  0001 C CNN
+	1    12500 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 4900 12500 5550
+$Comp
+L power:+12V #PWR?
+U 1 1 5D4E302E
+P 12950 4600
+AR Path="/5CBF628A/5D4E302E" Ref="#PWR?"  Part="1" 
+AR Path="/5CC3E5B8/5D4E302E" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 12950 4450 50  0001 C CNN
+F 1 "+12V" H 12950 4740 50  0000 C CNN
+F 2 "" H 12950 4600 50  0001 C CNN
+F 3 "" H 12950 4600 50  0001 C CNN
+	1    12950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 4600 12950 4600
 $EndSCHEMATC
