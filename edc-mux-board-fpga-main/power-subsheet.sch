@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW-Intel:10CL040YF484I7G U6
+L SW-Intel:10CL040YF484I7G U5
 U 1 1 5CB1DD91
 P 10300 1450
-F 0 "U6" H 10300 2050 50  0000 C CNN
+F 0 "U5" H 10300 2050 50  0000 C CNN
 F 1 "10CL040YF484I7G" H 10300 1950 50  0000 C CNN
 F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 13000 2350 50  0001 C CNN
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 13000 2350 50  0001 C CNN
@@ -30,10 +30,10 @@ F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR012
+L power:+3V3 #PWR010
 U 1 1 5CC2D266
 P 2300 2400
-F 0 "#PWR012" H 2300 2250 50  0001 C CNN
+F 0 "#PWR010" H 2300 2250 50  0001 C CNN
 F 1 "+3V3" H 2300 2540 50  0000 C CNN
 F 2 "" H 2300 2400 50  0001 C CNN
 F 3 "" H 2300 2400 50  0001 C CNN
@@ -41,10 +41,10 @@ F 3 "" H 2300 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V8 #PWR017
+L power:+1V8 #PWR015
 U 1 1 5CC2D9F8
 P 2450 5100
-F 0 "#PWR017" H 2450 4950 50  0001 C CNN
+F 0 "#PWR015" H 2450 4950 50  0001 C CNN
 F 1 "+1V8" H 2450 5240 50  0000 C CNN
 F 2 "" H 2450 5100 50  0001 C CNN
 F 3 "" H 2450 5100 50  0001 C CNN
@@ -66,10 +66,10 @@ $EndComp
 Text Notes 3400 1550 0    75   ~ 0
 +12V rail is main power supply for board. Produced from +12VP rail.\n+3V3 rail is primary digital supply and IO voltage reference\n+1V8 rail is digital supply\n+1V8A rail is analog supply for CODECs. Connect to +1V8 using ferrite bead\n+1V2 rail is internal core voltage for FGPA\n+2V5 rail is FPGA PLL Analog Supply
 $Comp
-L SW-Intel:10CL040YF484I7G U6
+L SW-Intel:10CL040YF484I7G U5
 U 2 1 5CB65921
 P 9850 2600
-F 0 "U6" H 10350 2700 50  0000 L CNN
+F 0 "U5" H 10350 2700 50  0000 L CNN
 F 1 "10CL040YF484I7G" H 10350 2600 50  0000 L CNN
 F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 12550 3500 50  0001 C CNN
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 12550 3500 50  0001 C CNN
@@ -81,10 +81,10 @@ F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR026
+L power:+1V2 #PWR025
 U 1 1 5CB73B8B
 P 9450 950
-F 0 "#PWR026" H 9450 800 50  0001 C CNN
+F 0 "#PWR025" H 9450 800 50  0001 C CNN
 F 1 "+1V2" H 9450 1090 50  0000 C CNN
 F 2 "" H 9450 950 50  0001 C CNN
 F 3 "" H 9450 950 50  0001 C CNN
@@ -92,10 +92,10 @@ F 3 "" H 9450 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR025
+L power:+2V5 #PWR024
 U 1 1 5CB747E3
 P 9200 950
-F 0 "#PWR025" H 9200 800 50  0001 C CNN
+F 0 "#PWR024" H 9200 800 50  0001 C CNN
 F 1 "+2V5" H 9200 1090 50  0000 C CNN
 F 2 "" H 9200 950 50  0001 C CNN
 F 3 "" H 9200 950 50  0001 C CNN
@@ -135,10 +135,10 @@ Connection ~ 9550 1250
 Wire Wire Line
 	9550 1250 9700 1250
 $Comp
-L power:+3V3 #PWR027
+L power:+3V3 #PWR026
 U 1 1 5CB85315
 P 9550 2000
-F 0 "#PWR027" H 9550 1850 50  0001 C CNN
+F 0 "#PWR026" H 9550 1850 50  0001 C CNN
 F 1 "+3V3" H 9550 2140 50  0000 C CNN
 F 2 "" H 9550 2000 50  0001 C CNN
 F 3 "" H 9550 2000 50  0001 C CNN
@@ -205,10 +205,10 @@ Connection ~ 11050 1600
 Wire Wire Line
 	11050 1600 11050 1750
 $Comp
-L SW-Intel:EP5358HUI U5
+L SW-Intel:EP5358HUI U4
 U 1 1 5CBAD4B4
 P 1850 6950
-F 0 "U5" H 1650 6600 50  0000 C CNN
+F 0 "U4" H 1650 6600 50  0000 C CNN
 F 1 "EP5358LUI" H 1850 7350 50  0000 C CNN
 F 2 "SW-Intel:ENPIRION_QFN16_2.5x2.25x1.1mm-0.4mm" H 1650 6600 50  0001 C CNN
 F 3 "https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/ep5358xui_03541.pdf" H 1650 6600 50  0001 C CNN
@@ -221,10 +221,10 @@ F 8 "QFN16" H 0   0   50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Intel:EP5358HUI U3
+L SW-Intel:EP5358HUI U2
 U 1 1 5CBAE385
 P 1850 4050
-F 0 "U3" H 1650 3700 50  0000 C CNN
+F 0 "U2" H 1650 3700 50  0000 C CNN
 F 1 "EP5358HUI" H 1850 4450 50  0000 C CNN
 F 2 "SW-Intel:ENPIRION_QFN16_2.5x2.25x1.1mm-0.4mm" H 1650 3700 50  0001 C CNN
 F 3 "https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/ep5358xui_03541.pdf" H 1650 3700 50  0001 C CNN
@@ -241,10 +241,10 @@ Text Notes 1600 6450 0    50   ~ 0
 Text Notes 1600 3500 0    50   ~ 0
 2V5\nfed from 3V3
 $Comp
-L Regulator_Switching:R-78B3.3-2.0 U2
+L Regulator_Switching:R-78B3.3-2.0 U1
 U 1 1 5CBC812F
 P 1850 2450
-F 0 "U2" H 1850 2750 50  0000 C CNN
+F 0 "U1" H 1850 2750 50  0000 C CNN
 F 1 "R-78B3.3-2.0" H 1850 2650 50  0000 C CNN
 F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT" H 1900 2200 50  0001 L CIN
 F 3 "https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf" H 1850 2450 50  0001 C CNN
@@ -271,10 +271,10 @@ Wire Wire Line
 Wire Wire Line
 	1400 2450 1550 2450
 $Comp
-L power:GND #PWR010
+L power:GND #PWR09
 U 1 1 5CBEA9D8
 P 1850 2850
-F 0 "#PWR010" H 1850 2600 50  0001 C CNN
+F 0 "#PWR09" H 1850 2600 50  0001 C CNN
 F 1 "GND" H 1850 2700 50  0000 C CNN
 F 2 "" H 1850 2850 50  0001 C CNN
 F 3 "" H 1850 2850 50  0001 C CNN
@@ -347,10 +347,10 @@ Wire Wire Line
 Wire Wire Line
 	2450 3850 2300 3850
 $Comp
-L power:+2V5 #PWR016
+L power:+2V5 #PWR014
 U 1 1 5CC4054D
 P 2450 3700
-F 0 "#PWR016" H 2450 3550 50  0001 C CNN
+F 0 "#PWR014" H 2450 3550 50  0001 C CNN
 F 1 "+2V5" H 2450 3840 50  0000 C CNN
 F 2 "" H 2450 3700 50  0001 C CNN
 F 3 "" H 2450 3700 50  0001 C CNN
@@ -361,10 +361,10 @@ Wire Wire Line
 	2450 3700 2450 3850
 Connection ~ 2450 3850
 $Comp
-L power:GND #PWR013
+L power:GND #PWR011
 U 1 1 5CC43295
 P 2350 4500
-F 0 "#PWR013" H 2350 4250 50  0001 C CNN
+F 0 "#PWR011" H 2350 4250 50  0001 C CNN
 F 1 "GND" H 2350 4350 50  0000 C CNN
 F 2 "" H 2350 4500 50  0001 C CNN
 F 3 "" H 2350 4500 50  0001 C CNN
@@ -396,10 +396,10 @@ Wire Wire Line
 	1150 3750 1250 3750
 Connection ~ 1250 3750
 $Comp
-L power:GND #PWR01
+L power:GND #PWR02
 U 1 1 5CC55FCC
 P 1150 4500
-F 0 "#PWR01" H 1150 4250 50  0001 C CNN
+F 0 "#PWR02" H 1150 4250 50  0001 C CNN
 F 1 "GND" H 1150 4350 50  0000 C CNN
 F 2 "" H 1150 4500 50  0001 C CNN
 F 3 "" H 1150 4500 50  0001 C CNN
@@ -460,10 +460,10 @@ Wire Wire Line
 	2450 6600 2450 6750
 Connection ~ 2450 6750
 $Comp
-L power:GND #PWR015
+L power:GND #PWR013
 U 1 1 5CC6F9CC
 P 2350 7400
-F 0 "#PWR015" H 2350 7150 50  0001 C CNN
+F 0 "#PWR013" H 2350 7150 50  0001 C CNN
 F 1 "GND" H 2350 7250 50  0000 C CNN
 F 2 "" H 2350 7400 50  0001 C CNN
 F 3 "" H 2350 7400 50  0001 C CNN
@@ -490,10 +490,10 @@ Wire Wire Line
 	2350 7300 2350 7400
 Connection ~ 2350 7300
 $Comp
-L power:+1V2 #PWR018
+L power:+1V2 #PWR016
 U 1 1 5CC74D97
 P 2450 6600
-F 0 "#PWR018" H 2450 6450 50  0001 C CNN
+F 0 "#PWR016" H 2450 6450 50  0001 C CNN
 F 1 "+1V2" H 2450 6740 50  0000 C CNN
 F 2 "" H 2450 6600 50  0001 C CNN
 F 3 "" H 2450 6600 50  0001 C CNN
@@ -501,10 +501,10 @@ F 3 "" H 2450 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW-Intel:EP5358HUI U4
+L SW-Intel:EP5358HUI U3
 U 1 1 5CC7ED6A
 P 1850 5450
-F 0 "U4" H 1650 5100 50  0000 C CNN
+F 0 "U3" H 1650 5100 50  0000 C CNN
 F 1 "EP5358HUI" H 1850 5850 50  0000 C CNN
 F 2 "SW-Intel:ENPIRION_QFN16_2.5x2.25x1.1mm-0.4mm" H 1650 5100 50  0001 C CNN
 F 3 "https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/ep5358xui_03541.pdf" H 1650 5100 50  0001 C CNN
@@ -581,10 +581,10 @@ Wire Wire Line
 	2450 5100 2450 5250
 Connection ~ 2450 5250
 $Comp
-L power:GND #PWR014
+L power:GND #PWR012
 U 1 1 5CC7ED98
 P 2350 5900
-F 0 "#PWR014" H 2350 5650 50  0001 C CNN
+F 0 "#PWR012" H 2350 5650 50  0001 C CNN
 F 1 "GND" H 2350 5750 50  0000 C CNN
 F 2 "" H 2350 5900 50  0001 C CNN
 F 3 "" H 2350 5900 50  0001 C CNN
@@ -616,10 +616,10 @@ Wire Wire Line
 	1150 5150 1250 5150
 Connection ~ 1250 5150
 $Comp
-L power:GND #PWR02
+L power:GND #PWR03
 U 1 1 5CC7EDAC
 P 1150 5900
-F 0 "#PWR02" H 1150 5650 50  0001 C CNN
+F 0 "#PWR03" H 1150 5650 50  0001 C CNN
 F 1 "GND" H 1150 5750 50  0000 C CNN
 F 2 "" H 1150 5900 50  0001 C CNN
 F 3 "" H 1150 5900 50  0001 C CNN
@@ -693,10 +693,10 @@ Wire Wire Line
 	1150 6650 1250 6650
 Connection ~ 1250 6650
 $Comp
-L power:GND #PWR03
+L power:GND #PWR04
 U 1 1 5CCBB98E
 P 1150 7400
-F 0 "#PWR03" H 1150 7150 50  0001 C CNN
+F 0 "#PWR04" H 1150 7150 50  0001 C CNN
 F 1 "GND" H 1150 7250 50  0000 C CNN
 F 2 "" H 1150 7400 50  0001 C CNN
 F 3 "" H 1150 7400 50  0001 C CNN
@@ -736,10 +736,10 @@ Wire Wire Line
 Text Notes 5250 3100 0    50   ~ 0
 FPGA power rail decoupling\nPlace as close to power input pins \nas possible (on back)\nwith the bulk capacitors \ntowards the outside
 $Comp
-L Device:C_Small C7
+L Device:C_Small C8
 U 1 1 5CD1A161
 P 3250 3400
-F 0 "C7" V 3300 3450 50  0000 L CNN
+F 0 "C8" V 3300 3450 50  0000 L CNN
 F 1 "4.7nF X7R" V 3300 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3250 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3250 3400 50  0001 C CNN
@@ -752,10 +752,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C8
+L Device:C_Small C9
 U 1 1 5CD20F2A
 P 3400 3400
-F 0 "C8" V 3450 3450 50  0000 L CNN
+F 0 "C9" V 3450 3450 50  0000 L CNN
 F 1 "4.7nF X7R" V 3450 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3400 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3400 3400 50  0001 C CNN
@@ -768,10 +768,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C9
+L Device:C_Small C10
 U 1 1 5CD21243
 P 3550 3400
-F 0 "C9" V 3600 3450 50  0000 L CNN
+F 0 "C10" V 3600 3450 50  0000 L CNN
 F 1 "4.7nF X7R" V 3600 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3550 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3550 3400 50  0001 C CNN
@@ -784,10 +784,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C12
+L Device:C_Small C13
 U 1 1 5CD268BC
 P 3700 3400
-F 0 "C12" V 3750 3450 50  0000 L CNN
+F 0 "C13" V 3750 3450 50  0000 L CNN
 F 1 "4.7nF X7R" V 3750 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3700 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3700 3400 50  0001 C CNN
@@ -800,10 +800,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C15
+L Device:C_Small C16
 U 1 1 5CD26B12
 P 3850 3400
-F 0 "C15" V 3900 3450 50  0000 L CNN
+F 0 "C16" V 3900 3450 50  0000 L CNN
 F 1 "4.7nF X7R" V 3900 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3850 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3850 3400 50  0001 C CNN
@@ -816,10 +816,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C18
+L Device:C_Small C19
 U 1 1 5CD26FC5
 P 4000 3400
-F 0 "C18" V 4050 3450 50  0000 L CNN
+F 0 "C19" V 4050 3450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4050 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4000 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4000 3400 50  0001 C CNN
@@ -832,10 +832,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C21
+L Device:C_Small C22
 U 1 1 5CD26FCF
 P 4150 3400
-F 0 "C21" V 4200 3450 50  0000 L CNN
+F 0 "C22" V 4200 3450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4200 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4150 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4150 3400 50  0001 C CNN
@@ -848,10 +848,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C24
+L Device:C_Small C25
 U 1 1 5CD26FD9
 P 4300 3400
-F 0 "C24" V 4350 3450 50  0000 L CNN
+F 0 "C25" V 4350 3450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4350 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4300 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4300 3400 50  0001 C CNN
@@ -864,10 +864,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C27
+L Device:C_Small C28
 U 1 1 5CD26FE3
 P 4450 3400
-F 0 "C27" V 4500 3450 50  0000 L CNN
+F 0 "C28" V 4500 3450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4500 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4450 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4450 3400 50  0001 C CNN
@@ -880,10 +880,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C30
+L Device:C_Small C31
 U 1 1 5CD26FED
 P 4600 3400
-F 0 "C30" V 4650 3450 50  0000 L CNN
+F 0 "C31" V 4650 3450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4650 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4600 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4600 3400 50  0001 C CNN
@@ -896,10 +896,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C34
+L Device:C_Small C35
 U 1 1 5CD2E9A1
 P 4800 3400
-F 0 "C34" V 4850 3450 50  0000 L CNN
+F 0 "C35" V 4850 3450 50  0000 L CNN
 F 1 "47nF X7R" V 4850 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4800 3400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C473J3RACAUTO.pdf" H 4800 3400 50  0001 C CNN
@@ -912,10 +912,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C37
+L Device:C_Small C38
 U 1 1 5CD2F23A
 P 4950 3400
-F 0 "C37" V 5000 3450 50  0000 L CNN
+F 0 "C38" V 5000 3450 50  0000 L CNN
 F 1 "47nF X7R" V 5000 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4950 3400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C473J3RACAUTO.pdf" H 4950 3400 50  0001 C CNN
@@ -928,10 +928,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C39
+L Device:C_Small C40
 U 1 1 5CD2F3B1
 P 5100 3400
-F 0 "C39" V 5150 3450 50  0000 L CNN
+F 0 "C40" V 5150 3450 50  0000 L CNN
 F 1 "47nF X7R" V 5150 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 3400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C473J3RACAUTO.pdf" H 5100 3400 50  0001 C CNN
@@ -944,10 +944,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C42
+L Device:C_Small C43
 U 1 1 5CD2F5F9
 P 5250 3400
-F 0 "C42" V 5300 3450 50  0000 L CNN
+F 0 "C43" V 5300 3450 50  0000 L CNN
 F 1 "47nF X7R" V 5300 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 3400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C473J3RACAUTO.pdf" H 5250 3400 50  0001 C CNN
@@ -960,10 +960,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C45
+L Device:C_Small C46
 U 1 1 5CD2F859
 P 5400 3400
-F 0 "C45" V 5450 3450 50  0000 L CNN
+F 0 "C46" V 5450 3450 50  0000 L CNN
 F 1 "47nF X7R" V 5450 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5400 3400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C473J3RACAUTO.pdf" H 5400 3400 50  0001 C CNN
@@ -976,10 +976,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C48
+L Device:C_Small C49
 U 1 1 5CD30B96
 P 5550 3400
-F 0 "C48" V 5600 3450 50  0000 L CNN
+F 0 "C49" V 5600 3450 50  0000 L CNN
 F 1 "47nF X7R" V 5600 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5550 3400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C473J3RACAUTO.pdf" H 5550 3400 50  0001 C CNN
@@ -992,10 +992,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C50
+L Device:C_Small C51
 U 1 1 5CD30B9C
 P 5700 3400
-F 0 "C50" V 5750 3450 50  0000 L CNN
+F 0 "C51" V 5750 3450 50  0000 L CNN
 F 1 "47nF X7R" V 5750 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5700 3400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C473J3RACAUTO.pdf" H 5700 3400 50  0001 C CNN
@@ -1008,10 +1008,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C53
+L Device:C_Small C54
 U 1 1 5CD30BA2
 P 5850 3400
-F 0 "C53" V 5900 3450 50  0000 L CNN
+F 0 "C54" V 5900 3450 50  0000 L CNN
 F 1 "47nF X7R" V 5900 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5850 3400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C473J3RACAUTO.pdf" H 5850 3400 50  0001 C CNN
@@ -1024,10 +1024,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C55
+L Device:C_Small C56
 U 1 1 5CD30BA8
 P 6000 3400
-F 0 "C55" V 6050 3450 50  0000 L CNN
+F 0 "C56" V 6050 3450 50  0000 L CNN
 F 1 "47nF X7R" V 6050 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6000 3400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C473J3RACAUTO.pdf" H 6000 3400 50  0001 C CNN
@@ -1040,10 +1040,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C57
+L Device:C_Small C58
 U 1 1 5CD30BAE
 P 6150 3400
-F 0 "C57" V 6200 3450 50  0000 L CNN
+F 0 "C58" V 6200 3450 50  0000 L CNN
 F 1 "47nF X7R" V 6200 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6150 3400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C473J3RACAUTO.pdf" H 6150 3400 50  0001 C CNN
@@ -1056,10 +1056,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C80
+L Device:C_Small C81
 U 1 1 5CD48BD4
 P 7900 3400
-F 0 "C80" V 7950 3450 50  0000 L CNN
+F 0 "C81" V 7950 3450 50  0000 L CNN
 F 1 "220nF X7R" V 7950 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7900 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 7900 3400 50  0001 C CNN
@@ -1071,10 +1071,10 @@ F 7 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C82
+L Device:C_Small C83
 U 1 1 5CD48FAE
 P 8050 3400
-F 0 "C82" V 8100 3450 50  0000 L CNN
+F 0 "C83" V 8100 3450 50  0000 L CNN
 F 1 "220nF X7R" V 8100 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8050 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 8050 3400 50  0001 C CNN
@@ -1086,10 +1086,10 @@ F 7 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C83
+L Device:C_Small C84
 U 1 1 5CD49132
 P 8200 3400
-F 0 "C83" V 8250 3450 50  0000 L CNN
+F 0 "C84" V 8250 3450 50  0000 L CNN
 F 1 "220nF X7R" V 8250 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8200 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 8200 3400 50  0001 C CNN
@@ -1101,10 +1101,10 @@ F 7 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C85
+L Device:C_Small C86
 U 1 1 5CD4935E
 P 8350 3400
-F 0 "C85" V 8400 3450 50  0000 L CNN
+F 0 "C86" V 8400 3450 50  0000 L CNN
 F 1 "220nF X7R" V 8400 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8350 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 8350 3400 50  0001 C CNN
@@ -1116,10 +1116,10 @@ F 7 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C87
+L Device:C_Small C88
 U 1 1 5CD495A4
 P 8500 3400
-F 0 "C87" V 8550 3450 50  0000 L CNN
+F 0 "C88" V 8550 3450 50  0000 L CNN
 F 1 "220nF X7R" V 8550 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8500 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 8500 3400 50  0001 C CNN
@@ -1131,10 +1131,10 @@ F 7 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C89
+L Device:C_Small C90
 U 1 1 5CD4A5AF
 P 8650 3400
-F 0 "C89" V 8700 3450 50  0000 L CNN
+F 0 "C90" V 8700 3450 50  0000 L CNN
 F 1 "220nF X7R" V 8700 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8650 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 8650 3400 50  0001 C CNN
@@ -1146,10 +1146,10 @@ F 7 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C91
+L Device:C_Small C92
 U 1 1 5CD4A5B5
 P 8800 3400
-F 0 "C91" V 8850 3450 50  0000 L CNN
+F 0 "C92" V 8850 3450 50  0000 L CNN
 F 1 "220nF X7R" V 8850 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8800 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 8800 3400 50  0001 C CNN
@@ -1161,10 +1161,10 @@ F 7 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C93
+L Device:C_Small C94
 U 1 1 5CD4A5BB
 P 8950 3400
-F 0 "C93" V 9000 3450 50  0000 L CNN
+F 0 "C94" V 9000 3450 50  0000 L CNN
 F 1 "220nF X7R" V 9000 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 8950 3400 50  0001 C CNN
@@ -1176,10 +1176,10 @@ F 7 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C95
+L Device:C_Small C96
 U 1 1 5CD4A5C1
 P 9100 3400
-F 0 "C95" V 9150 3450 50  0000 L CNN
+F 0 "C96" V 9150 3450 50  0000 L CNN
 F 1 "220nF X7R" V 9150 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9100 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 9100 3400 50  0001 C CNN
@@ -1191,10 +1191,10 @@ F 7 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C96
+L Device:C_Small C97
 U 1 1 5CD4A5C7
 P 9250 3400
-F 0 "C96" V 9300 3450 50  0000 L CNN
+F 0 "C97" V 9300 3450 50  0000 L CNN
 F 1 "220nF X7R" V 9300 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9250 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 9250 3400 50  0001 C CNN
@@ -1206,10 +1206,10 @@ F 7 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C97
+L Device:C_Small C98
 U 1 1 5CDB1570
 P 9450 3400
-F 0 "C97" V 9500 3450 50  0000 L CNN
+F 0 "C98" V 9500 3450 50  0000 L CNN
 F 1 "1uF X7R" V 9500 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9450 3400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 9450 3400 50  0001 C CNN
@@ -1222,10 +1222,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C98
+L Device:C_Small C99
 U 1 1 5CDB17DF
 P 9600 3400
-F 0 "C98" V 9650 3450 50  0000 L CNN
+F 0 "C99" V 9650 3450 50  0000 L CNN
 F 1 "1uF X7R" V 9650 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9600 3400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 9600 3400 50  0001 C CNN
@@ -1238,10 +1238,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C99
+L Device:C_Small C100
 U 1 1 5CDB19ED
 P 9750 3400
-F 0 "C99" V 9800 3450 50  0000 L CNN
+F 0 "C100" V 9800 3450 50  0000 L CNN
 F 1 "1uF X7R" V 9800 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9750 3400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 9750 3400 50  0001 C CNN
@@ -1254,10 +1254,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C100
+L Device:C_Small C101
 U 1 1 5CDB1C33
 P 9900 3400
-F 0 "C100" V 9950 3450 50  0000 L CNN
+F 0 "C101" V 9950 3450 50  0000 L CNN
 F 1 "1uF X7R" V 9950 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9900 3400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 9900 3400 50  0001 C CNN
@@ -1270,10 +1270,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C101
+L Device:C_Small C102
 U 1 1 5CDB1E1D
 P 10050 3400
-F 0 "C101" V 10100 3450 50  0000 L CNN
+F 0 "C102" V 10100 3450 50  0000 L CNN
 F 1 "1uF X7R" V 10100 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10050 3400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 10050 3400 50  0001 C CNN
@@ -1286,10 +1286,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C102
+L Device:C_Small C103
 U 1 1 5CDB308B
 P 10200 3400
-F 0 "C102" V 10250 3450 50  0000 L CNN
+F 0 "C103" V 10250 3450 50  0000 L CNN
 F 1 "1uF X7R" V 10250 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10200 3400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 10200 3400 50  0001 C CNN
@@ -1302,10 +1302,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C103
+L Device:C_Small C104
 U 1 1 5CDB3091
 P 10350 3400
-F 0 "C103" V 10400 3450 50  0000 L CNN
+F 0 "C104" V 10400 3450 50  0000 L CNN
 F 1 "1uF X7R" V 10400 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10350 3400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 10350 3400 50  0001 C CNN
@@ -1318,10 +1318,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C104
+L Device:C_Small C105
 U 1 1 5CDB3097
 P 10500 3400
-F 0 "C104" V 10550 3450 50  0000 L CNN
+F 0 "C105" V 10550 3450 50  0000 L CNN
 F 1 "1uF X7R" V 10550 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10500 3400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 10500 3400 50  0001 C CNN
@@ -1334,10 +1334,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C105
+L Device:C_Small C106
 U 1 1 5CDB309D
 P 10650 3400
-F 0 "C105" V 10700 3450 50  0000 L CNN
+F 0 "C106" V 10700 3450 50  0000 L CNN
 F 1 "1uF X7R" V 10700 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10650 3400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 10650 3400 50  0001 C CNN
@@ -1350,10 +1350,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C106
+L Device:C_Small C107
 U 1 1 5CDB30A3
 P 10800 3400
-F 0 "C106" V 10850 3450 50  0000 L CNN
+F 0 "C107" V 10850 3450 50  0000 L CNN
 F 1 "1uF X7R" V 10850 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10800 3400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 10800 3400 50  0001 C CNN
@@ -1366,10 +1366,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C107
+L Device:CP1_Small C109
 U 1 1 5CDB9ED7
 P 11100 3400
-F 0 "C107" V 11150 3450 50  0000 L CNN
+F 0 "C109" V 11150 3450 50  0000 L CNN
 F 1 "47uF" V 11150 3150 50  0000 L CNN
 F 2 "SW-Wurth-Electronics:CP_ELEC_8.3x8.3x11.7mm_SMD" H 11100 3400 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 11100 3400 50  0001 C CNN
@@ -1382,10 +1382,10 @@ F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C108
+L Device:CP1_Small C110
 U 1 1 5CDC049D
 P 11250 3400
-F 0 "C108" V 11300 3450 50  0000 L CNN
+F 0 "C110" V 11300 3450 50  0000 L CNN
 F 1 "47uF" V 11300 3150 50  0000 L CNN
 F 2 "SW-Wurth-Electronics:CP_ELEC_8.3x8.3x11.7mm_SMD" H 11250 3400 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 11250 3400 50  0001 C CNN
@@ -1398,10 +1398,10 @@ F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C109
+L Device:CP1_Small C111
 U 1 1 5CDC08FC
 P 11400 3400
-F 0 "C109" V 11450 3450 50  0000 L CNN
+F 0 "C111" V 11450 3450 50  0000 L CNN
 F 1 "47uF" V 11450 3150 50  0000 L CNN
 F 2 "SW-Wurth-Electronics:CP_ELEC_8.3x8.3x11.7mm_SMD" H 11400 3400 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 11400 3400 50  0001 C CNN
@@ -1414,10 +1414,10 @@ F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C110
+L Device:CP1_Small C112
 U 1 1 5CDC0C30
 P 11550 3400
-F 0 "C110" V 11600 3450 50  0000 L CNN
+F 0 "C112" V 11600 3450 50  0000 L CNN
 F 1 "47uF" V 11600 3150 50  0000 L CNN
 F 2 "SW-Wurth-Electronics:CP_ELEC_8.3x8.3x11.7mm_SMD" H 11550 3400 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 11550 3400 50  0001 C CNN
@@ -1430,10 +1430,10 @@ F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C111
+L Device:CP1_Small C114
 U 1 1 5CDC0FF9
 P 11700 3400
-F 0 "C111" V 11750 3450 50  0000 L CNN
+F 0 "C114" V 11750 3450 50  0000 L CNN
 F 1 "47uF" V 11750 3150 50  0000 L CNN
 F 2 "SW-Wurth-Electronics:CP_ELEC_8.3x8.3x11.7mm_SMD" H 11700 3400 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 11700 3400 50  0001 C CNN
@@ -1446,10 +1446,10 @@ F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR019
+L power:+1V2 #PWR018
 U 1 1 5CDC5586
 P 3250 3150
-F 0 "#PWR019" H 3250 3000 50  0001 C CNN
+F 0 "#PWR018" H 3250 3000 50  0001 C CNN
 F 1 "+1V2" H 3250 3290 50  0000 C CNN
 F 2 "" H 3250 3150 50  0001 C CNN
 F 3 "" H 3250 3150 50  0001 C CNN
@@ -1721,10 +1721,10 @@ Connection ~ 11550 3500
 Wire Wire Line
 	11550 3500 11400 3500
 $Comp
-L power:GND #PWR020
+L power:GND #PWR019
 U 1 1 5CDDD15E
 P 3250 3900
-F 0 "#PWR020" H 3250 3650 50  0001 C CNN
+F 0 "#PWR019" H 3250 3650 50  0001 C CNN
 F 1 "GND" H 3250 3750 50  0000 C CNN
 F 2 "" H 3250 3900 50  0001 C CNN
 F 3 "" H 3250 3900 50  0001 C CNN
@@ -1734,10 +1734,10 @@ $EndComp
 Wire Wire Line
 	3250 3500 3250 3900
 $Comp
-L Device:C_Small C10
+L Device:C_Small C11
 U 1 1 5CDF8E02
 P 3550 4400
-F 0 "C10" V 3600 4450 50  0000 L CNN
+F 0 "C11" V 3600 4450 50  0000 L CNN
 F 1 "4.7nF X7R" V 3600 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3550 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3550 4400 50  0001 C CNN
@@ -1750,10 +1750,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C13
+L Device:C_Small C14
 U 1 1 5CDF8E08
 P 3700 4400
-F 0 "C13" V 3750 4450 50  0000 L CNN
+F 0 "C14" V 3750 4450 50  0000 L CNN
 F 1 "4.7nF X7R" V 3750 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3700 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3700 4400 50  0001 C CNN
@@ -1766,10 +1766,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C16
+L Device:C_Small C17
 U 1 1 5CDF8E0E
 P 3850 4400
-F 0 "C16" V 3900 4450 50  0000 L CNN
+F 0 "C17" V 3900 4450 50  0000 L CNN
 F 1 "4.7nF X7R" V 3900 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3850 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3850 4400 50  0001 C CNN
@@ -1782,10 +1782,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C19
+L Device:C_Small C20
 U 1 1 5CDF8E14
 P 4000 4400
-F 0 "C19" V 4050 4450 50  0000 L CNN
+F 0 "C20" V 4050 4450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4050 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4000 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4000 4400 50  0001 C CNN
@@ -1798,10 +1798,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C22
+L Device:C_Small C23
 U 1 1 5CDF8E1A
 P 4150 4400
-F 0 "C22" V 4200 4450 50  0000 L CNN
+F 0 "C23" V 4200 4450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4200 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4150 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4150 4400 50  0001 C CNN
@@ -1814,10 +1814,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C25
+L Device:C_Small C26
 U 1 1 5CDF8E20
 P 4300 4400
-F 0 "C25" V 4350 4450 50  0000 L CNN
+F 0 "C26" V 4350 4450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4350 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4300 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4300 4400 50  0001 C CNN
@@ -1830,10 +1830,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C28
+L Device:C_Small C29
 U 1 1 5CDF8E26
 P 4450 4400
-F 0 "C28" V 4500 4450 50  0000 L CNN
+F 0 "C29" V 4500 4450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4500 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4450 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4450 4400 50  0001 C CNN
@@ -1846,10 +1846,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C31
+L Device:C_Small C32
 U 1 1 5CDF8E2C
 P 4600 4400
-F 0 "C31" V 4650 4450 50  0000 L CNN
+F 0 "C32" V 4650 4450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4650 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4600 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4600 4400 50  0001 C CNN
@@ -1862,10 +1862,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C33
+L Device:C_Small C34
 U 1 1 5CDF8E32
 P 4750 4400
-F 0 "C33" V 4800 4450 50  0000 L CNN
+F 0 "C34" V 4800 4450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4800 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4750 4400 50  0001 C CNN
@@ -1878,10 +1878,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C36
+L Device:C_Small C37
 U 1 1 5CDF8E38
 P 4900 4400
-F 0 "C36" V 4950 4450 50  0000 L CNN
+F 0 "C37" V 4950 4450 50  0000 L CNN
 F 1 "4.7nF X7R" V 4950 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4900 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4900 4400 50  0001 C CNN
@@ -1952,10 +1952,10 @@ Connection ~ 4900 4500
 Wire Wire Line
 	4900 4500 4750 4500
 $Comp
-L power:GND #PWR024
+L power:GND #PWR023
 U 1 1 5CDF8ECB
 P 3550 4900
-F 0 "#PWR024" H 3550 4650 50  0001 C CNN
+F 0 "#PWR023" H 3550 4650 50  0001 C CNN
 F 1 "GND" H 3550 4750 50  0000 C CNN
 F 2 "" H 3550 4900 50  0001 C CNN
 F 3 "" H 3550 4900 50  0001 C CNN
@@ -1965,10 +1965,10 @@ $EndComp
 Wire Wire Line
 	3550 4500 3550 4900
 $Comp
-L power:+2V5 #PWR023
+L power:+2V5 #PWR022
 U 1 1 5CE0E39E
 P 3550 4150
-F 0 "#PWR023" H 3550 4000 50  0001 C CNN
+F 0 "#PWR022" H 3550 4000 50  0001 C CNN
 F 1 "+2V5" H 3550 4290 50  0000 C CNN
 F 2 "" H 3550 4150 50  0001 C CNN
 F 3 "" H 3550 4150 50  0001 C CNN
@@ -1976,10 +1976,10 @@ F 3 "" H 3550 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C60
+L Device:C_Small C61
 U 1 1 5CE62492
 P 6350 3400
-F 0 "C60" V 6400 3450 50  0000 L CNN
+F 0 "C61" V 6400 3450 50  0000 L CNN
 F 1 "100nF X7R" V 6400 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6350 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6350 3400 50  0001 C CNN
@@ -1992,10 +1992,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C62
+L Device:C_Small C63
 U 1 1 5CE629CC
 P 6500 3400
-F 0 "C62" V 6550 3450 50  0000 L CNN
+F 0 "C63" V 6550 3450 50  0000 L CNN
 F 1 "100nF X7R" V 6550 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6500 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6500 3400 50  0001 C CNN
@@ -2008,10 +2008,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C63
+L Device:C_Small C64
 U 1 1 5CE77CF7
 P 6650 3400
-F 0 "C63" V 6700 3450 50  0000 L CNN
+F 0 "C64" V 6700 3450 50  0000 L CNN
 F 1 "100nF X7R" V 6700 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6650 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6650 3400 50  0001 C CNN
@@ -2024,10 +2024,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C65
+L Device:C_Small C66
 U 1 1 5CE77ED7
 P 6800 3400
-F 0 "C65" V 6850 3450 50  0000 L CNN
+F 0 "C66" V 6850 3450 50  0000 L CNN
 F 1 "100nF X7R" V 6850 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6800 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6800 3400 50  0001 C CNN
@@ -2040,10 +2040,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C67
+L Device:C_Small C68
 U 1 1 5CE78109
 P 6950 3400
-F 0 "C67" V 7000 3450 50  0000 L CNN
+F 0 "C68" V 7000 3450 50  0000 L CNN
 F 1 "100nF X7R" V 7000 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6950 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6950 3400 50  0001 C CNN
@@ -2056,10 +2056,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C69
+L Device:C_Small C70
 U 1 1 5CE792E9
 P 7100 3400
-F 0 "C69" V 7150 3450 50  0000 L CNN
+F 0 "C70" V 7150 3450 50  0000 L CNN
 F 1 "100nF X7R" V 7150 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7100 3400 50  0001 C CNN
@@ -2072,10 +2072,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C71
+L Device:C_Small C72
 U 1 1 5CE792EF
 P 7250 3400
-F 0 "C71" V 7300 3450 50  0000 L CNN
+F 0 "C72" V 7300 3450 50  0000 L CNN
 F 1 "100nF X7R" V 7300 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7250 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7250 3400 50  0001 C CNN
@@ -2088,10 +2088,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C73
+L Device:C_Small C74
 U 1 1 5CE792F5
 P 7400 3400
-F 0 "C73" V 7450 3450 50  0000 L CNN
+F 0 "C74" V 7450 3450 50  0000 L CNN
 F 1 "100nF X7R" V 7450 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7400 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7400 3400 50  0001 C CNN
@@ -2104,10 +2104,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C75
+L Device:C_Small C76
 U 1 1 5CE792FB
 P 7550 3400
-F 0 "C75" V 7600 3450 50  0000 L CNN
+F 0 "C76" V 7600 3450 50  0000 L CNN
 F 1 "100nF X7R" V 7600 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7550 3400 50  0001 C CNN
@@ -2120,10 +2120,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C77
+L Device:C_Small C78
 U 1 1 5CE79301
 P 7700 3400
-F 0 "C77" V 7750 3450 50  0000 L CNN
+F 0 "C78" V 7750 3450 50  0000 L CNN
 F 1 "100nF X7R" V 7750 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7700 3400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7700 3400 50  0001 C CNN
@@ -2202,10 +2202,10 @@ Wire Wire Line
 Wire Wire Line
 	4900 4500 5100 4500
 $Comp
-L Device:C_Small C40
+L Device:C_Small C41
 U 1 1 5CEF3D64
 P 5100 4400
-F 0 "C40" V 5150 4450 50  0000 L CNN
+F 0 "C41" V 5150 4450 50  0000 L CNN
 F 1 "10nF X7R" V 5150 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5100 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5100 4400 50  0001 C CNN
@@ -2224,10 +2224,10 @@ Connection ~ 5100 4500
 Wire Wire Line
 	5100 4500 5250 4500
 $Comp
-L Device:C_Small C43
+L Device:C_Small C44
 U 1 1 5CEF40E1
 P 5250 4400
-F 0 "C43" V 5300 4450 50  0000 L CNN
+F 0 "C44" V 5300 4450 50  0000 L CNN
 F 1 "10nF X7R" V 5300 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5250 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5250 4400 50  0001 C CNN
@@ -2246,10 +2246,10 @@ Connection ~ 5250 4500
 Wire Wire Line
 	5250 4500 5400 4500
 $Comp
-L Device:C_Small C46
+L Device:C_Small C47
 U 1 1 5CEF4318
 P 5400 4400
-F 0 "C46" V 5450 4450 50  0000 L CNN
+F 0 "C47" V 5450 4450 50  0000 L CNN
 F 1 "10nF X7R" V 5450 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5400 4400 50  0001 C CNN
@@ -2268,10 +2268,10 @@ Connection ~ 5400 4500
 Wire Wire Line
 	5400 4500 5550 4500
 $Comp
-L Device:C_Small C49
+L Device:C_Small C50
 U 1 1 5CEF450D
 P 5550 4400
-F 0 "C49" V 5600 4450 50  0000 L CNN
+F 0 "C50" V 5600 4450 50  0000 L CNN
 F 1 "10nF X7R" V 5600 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5550 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5550 4400 50  0001 C CNN
@@ -2290,10 +2290,10 @@ Wire Wire Line
 Wire Wire Line
 	5550 4300 5700 4300
 $Comp
-L Device:C_Small C51
+L Device:C_Small C52
 U 1 1 5CEF59EB
 P 5700 4400
-F 0 "C51" V 5750 4450 50  0000 L CNN
+F 0 "C52" V 5750 4450 50  0000 L CNN
 F 1 "10nF X7R" V 5750 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5700 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5700 4400 50  0001 C CNN
@@ -2312,10 +2312,10 @@ Connection ~ 5700 4500
 Wire Wire Line
 	5700 4500 5850 4500
 $Comp
-L Device:C_Small C54
+L Device:C_Small C55
 U 1 1 5CEF76E9
 P 5850 4400
-F 0 "C54" V 5900 4450 50  0000 L CNN
+F 0 "C55" V 5900 4450 50  0000 L CNN
 F 1 "10nF X7R" V 5900 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5850 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5850 4400 50  0001 C CNN
@@ -2328,10 +2328,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C56
+L Device:C_Small C57
 U 1 1 5CEF76EF
 P 6000 4400
-F 0 "C56" V 6050 4450 50  0000 L CNN
+F 0 "C57" V 6050 4450 50  0000 L CNN
 F 1 "10nF X7R" V 6050 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6000 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6000 4400 50  0001 C CNN
@@ -2344,10 +2344,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C58
+L Device:C_Small C59
 U 1 1 5CEF76F5
 P 6150 4400
-F 0 "C58" V 6200 4450 50  0000 L CNN
+F 0 "C59" V 6200 4450 50  0000 L CNN
 F 1 "10nF X7R" V 6200 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6150 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6150 4400 50  0001 C CNN
@@ -2360,10 +2360,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C59
+L Device:C_Small C60
 U 1 1 5CEF76FB
 P 6300 4400
-F 0 "C59" V 6350 4450 50  0000 L CNN
+F 0 "C60" V 6350 4450 50  0000 L CNN
 F 1 "10nF X7R" V 6350 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6300 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6300 4400 50  0001 C CNN
@@ -2376,10 +2376,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C61
+L Device:C_Small C62
 U 1 1 5CEF7701
 P 6450 4400
-F 0 "C61" V 6500 4450 50  0000 L CNN
+F 0 "C62" V 6500 4450 50  0000 L CNN
 F 1 "10nF X7R" V 6500 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6450 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6450 4400 50  0001 C CNN
@@ -2416,10 +2416,10 @@ Connection ~ 6300 4300
 Wire Wire Line
 	6300 4300 6450 4300
 $Comp
-L Device:C_Small C64
+L Device:C_Small C65
 U 1 1 5CF7AE1F
 P 6650 4400
-F 0 "C64" V 6700 4450 50  0000 L CNN
+F 0 "C65" V 6700 4450 50  0000 L CNN
 F 1 "100nF X7R" V 6700 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6650 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6650 4400 50  0001 C CNN
@@ -2432,10 +2432,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C66
+L Device:C_Small C67
 U 1 1 5CF7AE25
 P 6800 4400
-F 0 "C66" V 6850 4450 50  0000 L CNN
+F 0 "C67" V 6850 4450 50  0000 L CNN
 F 1 "100nF X7R" V 6850 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6800 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6800 4400 50  0001 C CNN
@@ -2448,10 +2448,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C68
+L Device:C_Small C69
 U 1 1 5CF7AE2B
 P 6950 4400
-F 0 "C68" V 7000 4450 50  0000 L CNN
+F 0 "C69" V 7000 4450 50  0000 L CNN
 F 1 "100nF X7R" V 7000 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6950 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6950 4400 50  0001 C CNN
@@ -2464,10 +2464,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C70
+L Device:C_Small C71
 U 1 1 5CF7AE31
 P 7100 4400
-F 0 "C70" V 7150 4450 50  0000 L CNN
+F 0 "C71" V 7150 4450 50  0000 L CNN
 F 1 "100nF X7R" V 7150 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7100 4400 50  0001 C CNN
@@ -2480,10 +2480,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C72
+L Device:C_Small C73
 U 1 1 5CF7AE37
 P 7250 4400
-F 0 "C72" V 7300 4450 50  0000 L CNN
+F 0 "C73" V 7300 4450 50  0000 L CNN
 F 1 "100nF X7R" V 7300 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7250 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7250 4400 50  0001 C CNN
@@ -2496,10 +2496,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C74
+L Device:C_Small C75
 U 1 1 5CF7AE3D
 P 7400 4400
-F 0 "C74" V 7450 4450 50  0000 L CNN
+F 0 "C75" V 7450 4450 50  0000 L CNN
 F 1 "100nF X7R" V 7450 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7400 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7400 4400 50  0001 C CNN
@@ -2512,10 +2512,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C76
+L Device:C_Small C77
 U 1 1 5CF7AE43
 P 7550 4400
-F 0 "C76" V 7600 4450 50  0000 L CNN
+F 0 "C77" V 7600 4450 50  0000 L CNN
 F 1 "100nF X7R" V 7600 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7550 4400 50  0001 C CNN
@@ -2528,10 +2528,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C78
+L Device:C_Small C79
 U 1 1 5CF7AE49
 P 7700 4400
-F 0 "C78" V 7750 4450 50  0000 L CNN
+F 0 "C79" V 7750 4450 50  0000 L CNN
 F 1 "100nF X7R" V 7750 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7700 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7700 4400 50  0001 C CNN
@@ -2544,10 +2544,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C79
+L Device:C_Small C80
 U 1 1 5CF7AE4F
 P 7850 4400
-F 0 "C79" V 7900 4450 50  0000 L CNN
+F 0 "C80" V 7900 4450 50  0000 L CNN
 F 1 "100nF X7R" V 7900 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7850 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7850 4400 50  0001 C CNN
@@ -2560,10 +2560,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C81
+L Device:C_Small C82
 U 1 1 5CF7AE55
 P 8000 4400
-F 0 "C81" V 8050 4450 50  0000 L CNN
+F 0 "C82" V 8050 4450 50  0000 L CNN
 F 1 "100nF X7R" V 8050 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8000 4400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 8000 4400 50  0001 C CNN
@@ -2576,10 +2576,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C84
+L Device:C_Small C85
 U 1 1 5CF96238
 P 8200 4400
-F 0 "C84" V 8250 4450 50  0000 L CNN
+F 0 "C85" V 8250 4450 50  0000 L CNN
 F 1 "1uF X7R" V 8250 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8200 4400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 8200 4400 50  0001 C CNN
@@ -2592,10 +2592,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C86
+L Device:C_Small C87
 U 1 1 5CF9623E
 P 8350 4400
-F 0 "C86" V 8400 4450 50  0000 L CNN
+F 0 "C87" V 8400 4450 50  0000 L CNN
 F 1 "1uF X7R" V 8400 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8350 4400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 8350 4400 50  0001 C CNN
@@ -2608,10 +2608,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C88
+L Device:C_Small C89
 U 1 1 5CF96244
 P 8500 4400
-F 0 "C88" V 8550 4450 50  0000 L CNN
+F 0 "C89" V 8550 4450 50  0000 L CNN
 F 1 "1uF X7R" V 8550 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8500 4400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 8500 4400 50  0001 C CNN
@@ -2624,10 +2624,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C90
+L Device:C_Small C91
 U 1 1 5CF9624A
 P 8650 4400
-F 0 "C90" V 8700 4450 50  0000 L CNN
+F 0 "C91" V 8700 4450 50  0000 L CNN
 F 1 "1uF X7R" V 8700 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8650 4400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 8650 4400 50  0001 C CNN
@@ -2640,10 +2640,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C92
+L Device:C_Small C93
 U 1 1 5CF96250
 P 8800 4400
-F 0 "C92" V 8850 4450 50  0000 L CNN
+F 0 "C93" V 8850 4450 50  0000 L CNN
 F 1 "1uF X7R" V 8850 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8800 4400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 8800 4400 50  0001 C CNN
@@ -2656,10 +2656,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C94
+L Device:CP1_Small C95
 U 1 1 5CFAEE6D
 P 9050 4400
-F 0 "C94" V 9100 4450 50  0000 L CNN
+F 0 "C95" V 9100 4450 50  0000 L CNN
 F 1 "47uF" V 9100 4150 50  0000 L CNN
 F 2 "SW-Wurth-Electronics:CP_ELEC_8.3x8.3x11.7mm_SMD" H 9050 4400 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 9050 4400 50  0001 C CNN
@@ -2768,10 +2768,10 @@ Connection ~ 8800 4500
 Wire Wire Line
 	8800 4500 9050 4500
 $Comp
-L Device:C_Small C11
+L Device:C_Small C12
 U 1 1 5D033FD0
 P 3550 5600
-F 0 "C11" V 3600 5650 50  0000 L CNN
+F 0 "C12" V 3600 5650 50  0000 L CNN
 F 1 "4.7nF X7R" V 3600 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3550 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3550 5600 50  0001 C CNN
@@ -2784,10 +2784,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C14
+L Device:C_Small C15
 U 1 1 5D033FD6
 P 3700 5600
-F 0 "C14" V 3750 5650 50  0000 L CNN
+F 0 "C15" V 3750 5650 50  0000 L CNN
 F 1 "4.7nF X7R" V 3750 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3700 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3700 5600 50  0001 C CNN
@@ -2800,10 +2800,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C17
+L Device:C_Small C18
 U 1 1 5D033FDC
 P 3850 5600
-F 0 "C17" V 3900 5650 50  0000 L CNN
+F 0 "C18" V 3900 5650 50  0000 L CNN
 F 1 "4.7nF X7R" V 3900 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3850 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3850 5600 50  0001 C CNN
@@ -2816,10 +2816,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C20
+L Device:C_Small C21
 U 1 1 5D033FE2
 P 4000 5600
-F 0 "C20" V 4050 5650 50  0000 L CNN
+F 0 "C21" V 4050 5650 50  0000 L CNN
 F 1 "4.7nF X7R" V 4050 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4000 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4000 5600 50  0001 C CNN
@@ -2832,10 +2832,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C23
+L Device:C_Small C24
 U 1 1 5D033FE8
 P 4150 5600
-F 0 "C23" V 4200 5650 50  0000 L CNN
+F 0 "C24" V 4200 5650 50  0000 L CNN
 F 1 "4.7nF X7R" V 4200 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4150 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 4150 5600 50  0001 C CNN
@@ -2848,10 +2848,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C26
+L Device:C_Small C27
 U 1 1 5D054C94
 P 4350 5600
-F 0 "C26" V 4400 5650 50  0000 L CNN
+F 0 "C27" V 4400 5650 50  0000 L CNN
 F 1 "10nF X7R" V 4400 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4350 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4350 5600 50  0001 C CNN
@@ -2864,10 +2864,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C29
+L Device:C_Small C30
 U 1 1 5D054C9A
 P 4500 5600
-F 0 "C29" V 4550 5650 50  0000 L CNN
+F 0 "C30" V 4550 5650 50  0000 L CNN
 F 1 "10nF X7R" V 4550 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4500 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4500 5600 50  0001 C CNN
@@ -2880,10 +2880,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C32
+L Device:C_Small C33
 U 1 1 5D054CA0
 P 4650 5600
-F 0 "C32" V 4700 5650 50  0000 L CNN
+F 0 "C33" V 4700 5650 50  0000 L CNN
 F 1 "10nF X7R" V 4700 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4650 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4650 5600 50  0001 C CNN
@@ -2896,10 +2896,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C35
+L Device:C_Small C36
 U 1 1 5D054CA6
 P 4800 5600
-F 0 "C35" V 4850 5650 50  0000 L CNN
+F 0 "C36" V 4850 5650 50  0000 L CNN
 F 1 "10nF X7R" V 4850 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4800 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4800 5600 50  0001 C CNN
@@ -2912,10 +2912,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C38
+L Device:C_Small C39
 U 1 1 5D054CAC
 P 4950 5600
-F 0 "C38" V 5000 5650 50  0000 L CNN
+F 0 "C39" V 5000 5650 50  0000 L CNN
 F 1 "10nF X7R" V 5000 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4950 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4950 5600 50  0001 C CNN
@@ -2928,10 +2928,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C41
+L Device:C_Small C42
 U 1 1 5D074499
 P 5150 5600
-F 0 "C41" V 5200 5650 50  0000 L CNN
+F 0 "C42" V 5200 5650 50  0000 L CNN
 F 1 "100nF X7R" V 5200 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5150 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5150 5600 50  0001 C CNN
@@ -2944,10 +2944,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C44
+L Device:C_Small C45
 U 1 1 5D074BB0
 P 5300 5600
-F 0 "C44" V 5350 5650 50  0000 L CNN
+F 0 "C45" V 5350 5650 50  0000 L CNN
 F 1 "100nF X7R" V 5350 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5300 5600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5300 5600 50  0001 C CNN
@@ -2960,10 +2960,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C47
+L Device:C_Small C48
 U 1 1 5D074DB1
 P 5500 5600
-F 0 "C47" V 5550 5650 50  0000 L CNN
+F 0 "C48" V 5550 5650 50  0000 L CNN
 F 1 "1uF X7R" V 5550 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5500 5600 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 5500 5600 50  0001 C CNN
@@ -2976,10 +2976,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C52
+L Device:CP1_Small C53
 U 1 1 5D075337
 P 5700 5600
-F 0 "C52" V 5750 5650 50  0000 L CNN
+F 0 "C53" V 5750 5650 50  0000 L CNN
 F 1 "47uF" V 5750 5350 50  0000 L CNN
 F 2 "SW-Wurth-Electronics:CP_ELEC_8.3x8.3x11.7mm_SMD" H 5700 5600 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 5700 5600 50  0001 C CNN
@@ -2992,10 +2992,10 @@ F 8 "8.3x8.3x11.7mm" H 0   0   50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR021
+L power:+3V3 #PWR020
 U 1 1 5D075AFA
 P 3400 5350
-F 0 "#PWR021" H 3400 5200 50  0001 C CNN
+F 0 "#PWR020" H 3400 5200 50  0001 C CNN
 F 1 "+3V3" H 3400 5490 50  0000 C CNN
 F 2 "" H 3400 5350 50  0001 C CNN
 F 3 "" H 3400 5350 50  0001 C CNN
@@ -3089,10 +3089,10 @@ Connection ~ 5500 5700
 Wire Wire Line
 	5500 5700 5300 5700
 $Comp
-L power:GND #PWR022
+L power:GND #PWR021
 U 1 1 5D0BCDF8
 P 3450 5850
-F 0 "#PWR022" H 3450 5600 50  0001 C CNN
+F 0 "#PWR021" H 3450 5600 50  0001 C CNN
 F 1 "GND" H 3450 5700 50  0000 C CNN
 F 2 "" H 3450 5850 50  0001 C CNN
 F 3 "" H 3450 5850 50  0001 C CNN
@@ -3100,10 +3100,10 @@ F 3 "" H 3450 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG03
+L power:PWR_FLAG #FLG02
 U 1 1 5D1B9345
 P 9450 1450
-F 0 "#FLG03" H 9450 1525 50  0001 C CNN
+F 0 "#FLG02" H 9450 1525 50  0001 C CNN
 F 1 "PWR_FLAG" H 9450 1600 50  0000 C CNN
 F 2 "" H 9450 1450 50  0001 C CNN
 F 3 "~" H 9450 1450 50  0001 C CNN
@@ -3118,10 +3118,10 @@ VCCDPLL
 Wire Wire Line
 	2450 5250 2900 5250
 $Comp
-L power:PWR_FLAG #FLG0102
+L power:PWR_FLAG #FLG01
 U 1 1 5E22C7F1
 P 1550 2850
-F 0 "#FLG0102" H 1550 2925 50  0001 C CNN
+F 0 "#FLG01" H 1550 2925 50  0001 C CNN
 F 1 "PWR_FLAG" H 1550 3000 50  0000 C CNN
 F 2 "" H 1550 2850 50  0001 C CNN
 F 3 "~" H 1550 2850 50  0001 C CNN
@@ -3136,10 +3136,10 @@ Connection ~ 1850 2800
 Wire Wire Line
 	1850 2800 1850 2750
 $Comp
-L Device:CP1_Small C278
+L Device:CP1_Small C7
 U 1 1 5D4C0BBD
 P 2550 2600
-F 0 "C278" V 2600 2650 50  0000 L CNN
+F 0 "C7" V 2600 2650 50  0000 L CNN
 F 1 "47uF" V 2600 2350 50  0000 L CNN
 F 2 "SW-Wurth-Electronics:CP_ELEC_8.3x8.3x11.7mm_SMD" H 2550 2600 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/875075555002.pdf" H 2550 2600 50  0001 C CNN
@@ -3157,10 +3157,10 @@ Wire Wire Line
 	2550 2450 2550 2500
 Connection ~ 2300 2450
 $Comp
-L power:GND #PWR0129
+L power:GND #PWR017
 U 1 1 5D4EBFB3
 P 2550 2850
-F 0 "#PWR0129" H 2550 2600 50  0001 C CNN
+F 0 "#PWR017" H 2550 2600 50  0001 C CNN
 F 1 "GND" H 2550 2700 50  0000 C CNN
 F 2 "" H 2550 2850 50  0001 C CNN
 F 3 "" H 2550 2850 50  0001 C CNN
@@ -3174,13 +3174,13 @@ Wire Wire Line
 Text Notes 12450 4200 0    50   ~ 0
 regulated 12V
 $Comp
-L Regulator_Switching:R-78B12-2.0 U33
+L Regulator_Switching:R-78B12-2.0 U7
 U 1 1 5D4E2FAE
 P 12500 4600
-AR Path="/5CC3E5B8/5D4E2FAE" Ref="U33"  Part="1" 
+AR Path="/5CC3E5B8/5D4E2FAE" Ref="U7"  Part="1" 
 AR Path="/5CBF6239/5D4E2FAE" Ref="U?"  Part="1" 
 AR Path="/5CBF628A/5D4E2FAE" Ref="U?"  Part="1" 
-F 0 "U33" H 12500 4900 50  0000 C CNN
+F 0 "U7" H 12500 4900 50  0000 C CNN
 F 1 "R-78B12-2.0" H 12500 4800 50  0000 C CNN
 F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT" H 12550 4350 50  0001 L CIN
 F 3 "https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf" H 12500 4600 50  0001 C CNN
@@ -3192,13 +3192,13 @@ F 7 "TO-220" H 10650 3300 50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG01
+L power:PWR_FLAG #FLG03
 U 1 1 5D4E2FB4
 P 12050 4550
-AR Path="/5CC3E5B8/5D4E2FB4" Ref="#FLG01"  Part="1" 
+AR Path="/5CC3E5B8/5D4E2FB4" Ref="#FLG03"  Part="1" 
 AR Path="/5CBF6239/5D4E2FB4" Ref="#FLG?"  Part="1" 
 AR Path="/5CBF628A/5D4E2FB4" Ref="#FLG?"  Part="1" 
-F 0 "#FLG01" H 12050 4625 50  0001 C CNN
+F 0 "#FLG03" H 12050 4625 50  0001 C CNN
 F 1 "PWR_FLAG" H 12050 4700 50  0000 C CNN
 F 2 "" H 12050 4550 50  0001 C CNN
 F 3 "~" H 12050 4550 50  0001 C CNN
@@ -3215,13 +3215,13 @@ SW_PWR_IN
 Wire Wire Line
 	10850 5100 11300 5100
 $Comp
-L Device:C_Small C272
+L Device:C_Small C108
 U 1 1 5D4E2FC4
 P 11000 4800
-AR Path="/5CC3E5B8/5D4E2FC4" Ref="C272"  Part="1" 
+AR Path="/5CC3E5B8/5D4E2FC4" Ref="C108"  Part="1" 
 AR Path="/5CBF6239/5D4E2FC4" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/5D4E2FC4" Ref="C?"  Part="1" 
-F 0 "C272" V 10750 4800 50  0000 C CNN
+F 0 "C108" V 10750 4800 50  0000 C CNN
 F 1 "10uF X7R" V 10850 4800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 11000 4800 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 11000 4800 50  0001 C CNN
@@ -3274,8 +3274,8 @@ U 1 1 5D4E2FE1
 P 11600 4700
 AR Path="/5CBF6239/5D4E2FE1" Ref="Q?"  Part="1" 
 AR Path="/5CBF628A/5D4E2FE1" Ref="Q?"  Part="1" 
-AR Path="/5CC3E5B8/5D4E2FE1" Ref="Q3"  Part="1" 
-F 0 "Q3" H 11800 4775 50  0000 L CNN
+AR Path="/5CC3E5B8/5D4E2FE1" Ref="Q1"  Part="1" 
+F 0 "Q1" H 11800 4775 50  0000 L CNN
 F 1 "CSD18501Q5A" H 11800 4700 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 11800 4625 50  0001 L CIN
 F 3 "http://www.ti.com/lit/gpn/csd18501q5a" V 11600 4700 50  0001 L CNN
@@ -3295,13 +3295,13 @@ Wire Wire Line
 Wire Wire Line
 	11400 5950 11400 6050
 $Comp
-L Device:C_Small C273
+L Device:C_Small C113
 U 1 1 5D4E2FEF
 P 11550 6050
-AR Path="/5CC3E5B8/5D4E2FEF" Ref="C273"  Part="1" 
+AR Path="/5CC3E5B8/5D4E2FEF" Ref="C113"  Part="1" 
 AR Path="/5CBF6239/5D4E2FEF" Ref="C?"  Part="1" 
 AR Path="/5CBF628A/5D4E2FEF" Ref="C?"  Part="1" 
-F 0 "C273" V 11400 6050 50  0000 C CNN
+F 0 "C113" V 11400 6050 50  0000 C CNN
 F 1 "220nF X7R" V 11300 6050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 11550 6050 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" H 11550 6050 50  0001 C CNN
@@ -3318,8 +3318,8 @@ U 1 1 5D4E2FF9
 P 11550 5500
 AR Path="/5CBF6239/5D4E2FF9" Ref="U?"  Part="1" 
 AR Path="/5CBF628A/5D4E2FF9" Ref="U?"  Part="1" 
-AR Path="/5CC3E5B8/5D4E2FF9" Ref="U1"  Part="1" 
-F 0 "U1" H 11100 5800 50  0000 C CNN
+AR Path="/5CC3E5B8/5D4E2FF9" Ref="U6"  Part="1" 
+F 0 "U6" H 11100 5800 50  0000 C CNN
 F 1 "LM74610-Q1" H 11850 5800 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 11550 5800 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm74610-q1.pdf" H 11550 5800 50  0001 C CNN
@@ -3336,8 +3336,8 @@ U 1 1 5D4E3003
 P 10350 4700
 AR Path="/5CBF6239/5D4E3003" Ref="J?"  Part="1" 
 AR Path="/5CBF628A/5D4E3003" Ref="J?"  Part="1" 
-AR Path="/5CC3E5B8/5D4E3003" Ref="J6"  Part="1" 
-F 0 "J6" H 10350 4910 50  0000 C CNN
+AR Path="/5CC3E5B8/5D4E3003" Ref="J1"  Part="1" 
+F 0 "J1" H 10350 4910 50  0000 C CNN
 F 1 "Power In" H 10350 4500 50  0000 C CNN
 F 2 "SW-Switchcraft:PCL712AS" H 10400 4660 50  0001 C CNN
 F 3 "http://www.switchcraft.com/Drawings/PCL712AS_PCL722AS_CD.pdf" H 10400 4660 50  0001 C CNN
@@ -3384,8 +3384,8 @@ L power:GND #PWR?
 U 1 1 5D4E3019
 P 10750 5550
 AR Path="/5CBF628A/5D4E3019" Ref="#PWR?"  Part="1" 
-AR Path="/5CC3E5B8/5D4E3019" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 10750 5300 50  0001 C CNN
+AR Path="/5CC3E5B8/5D4E3019" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 10750 5300 50  0001 C CNN
 F 1 "GND" H 10750 5400 50  0000 C CNN
 F 2 "" H 10750 5550 50  0001 C CNN
 F 3 "" H 10750 5550 50  0001 C CNN
@@ -3410,8 +3410,8 @@ L power:GND #PWR?
 U 1 1 5D4E3027
 P 12500 5550
 AR Path="/5CBF628A/5D4E3027" Ref="#PWR?"  Part="1" 
-AR Path="/5CC3E5B8/5D4E3027" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 12500 5300 50  0001 C CNN
+AR Path="/5CC3E5B8/5D4E3027" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 12500 5300 50  0001 C CNN
 F 1 "GND" H 12500 5400 50  0000 C CNN
 F 2 "" H 12500 5550 50  0001 C CNN
 F 3 "" H 12500 5550 50  0001 C CNN
@@ -3425,8 +3425,8 @@ L power:+12V #PWR?
 U 1 1 5D4E302E
 P 12950 4600
 AR Path="/5CBF628A/5D4E302E" Ref="#PWR?"  Part="1" 
-AR Path="/5CC3E5B8/5D4E302E" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 12950 4450 50  0001 C CNN
+AR Path="/5CC3E5B8/5D4E302E" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 12950 4450 50  0001 C CNN
 F 1 "+12V" H 12950 4740 50  0000 C CNN
 F 2 "" H 12950 4600 50  0001 C CNN
 F 3 "" H 12950 4600 50  0001 C CNN
