@@ -55,10 +55,10 @@ SDA_HV[4..7]
 Text Label 2150 9900 1    50   ~ 0
 R_IN[4..7]
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J7
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5D2BDD15
 P 4600 2200
-F 0 "J7" H 4650 2500 50  0000 C CNN
+F 0 "J?" H 4650 2500 50  0000 C CNN
 F 1 "Device 4" H 4650 1800 50  0000 C CNN
 F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4600 2200 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4600 2200 50  0001 C CNN
@@ -75,10 +75,10 @@ SDA_HV4
 Text Label 6400 2400 2    50   ~ 0
 SCL_HV4
 $Comp
-L Device:D_TVS D53
+L Device:D_TVS D?
 U 1 1 5D2BDD22
 P 3950 2750
-F 0 "D53" H 3800 2700 50  0000 R CNN
+F 0 "D?" H 3800 2700 50  0000 R CNN
 F 1 "30pF 30kV" V 4200 2200 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3950 2750 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3950 2750 50  0001 C CNN
@@ -91,10 +91,10 @@ F 8 "SP1005-01ETG" H 3950 2750 50  0001 C CNN "Manufacturers Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D61
+L Device:D_TVS D?
 U 1 1 5D2BDD2D
 P 5000 2750
-F 0 "D61" H 4850 2700 50  0000 R CNN
+F 0 "D?" H 4850 2700 50  0000 R CNN
 F 1 "30pF 30kV" V 5300 3900 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5000 2750 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5000 2750 50  0001 C CNN
@@ -121,10 +121,10 @@ Connection ~ 4900 3100
 Wire Wire Line
 	4900 3100 5000 3100
 $Comp
-L power:GND #PWR0133
+L power:GND #PWR?
 U 1 1 5D2BDD3D
 P 4550 3500
-F 0 "#PWR0133" H 4550 3250 50  0001 C CNN
+F 0 "#PWR?" H 4550 3250 50  0001 C CNN
 F 1 "GND" H 4550 3350 50  0000 C CNN
 F 2 "" H 4550 3500 50  0001 C CNN
 F 3 "" H 4550 3500 50  0001 C CNN
@@ -157,10 +157,10 @@ ID_PIN4
 Text Label 6400 2000 2    50   ~ 0
 INT_4
 $Comp
-L power:+12V #PWR0129
+L power:+12V #PWR?
 U 1 1 5D2BDD51
 P 4100 1600
-F 0 "#PWR0129" H 4100 1450 50  0001 C CNN
+F 0 "#PWR?" H 4100 1450 50  0001 C CNN
 F 1 "+12V" H 4200 1600 50  0000 C CNN
 F 2 "" H 4100 1600 50  0001 C CNN
 F 3 "" H 4100 1600 50  0001 C CNN
@@ -170,10 +170,10 @@ $EndComp
 Wire Wire Line
 	4800 2400 5600 2400
 $Comp
-L Device:Ferrite_Bead_Small FB36
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDD5F
 P 5300 2100
-F 0 "FB36" V 5350 1950 50  0000 C CNN
+F 0 "FB?" V 5350 1950 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 5550 2000 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 5230 2100 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5300 2100 50  0001 C CNN
@@ -188,10 +188,10 @@ $EndComp
 Wire Wire Line
 	3600 2200 3650 2200
 $Comp
-L Device:C_Small C278
+L Device:C_Small C?
 U 1 1 5D2BDD6B
 P 3200 2100
-F 0 "C278" V 3150 2250 50  0000 C CNN
+F 0 "C?" V 3150 2250 50  0000 C CNN
 F 1 "1uF X7R flex" V 3050 2100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 2100 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 2100 50  0001 C CNN
@@ -204,10 +204,10 @@ F 8 "MLCC Capacitor" H -4550 700 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB32
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDD77
 P 3650 2100
-F 0 "FB32" V 3700 2250 50  0000 C CNN
+F 0 "FB?" V 3700 2250 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 3900 2100 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 3580 2100 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3650 2100 50  0001 C CNN
@@ -220,10 +220,10 @@ F 8 "Ferrite Bead" H 950 400 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB28
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDD82
 P 3500 2200
-F 0 "FB28" V 3550 2050 50  0000 C CNN
+F 0 "FB?" V 3550 2050 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 3350 2200 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 3430 2200 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3500 2200 50  0001 C CNN
@@ -236,10 +236,10 @@ F 8 "Ferrite Bead" H 2000 800 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB40
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDD8D
 P 5650 2200
-F 0 "FB40" V 5700 2350 50  0000 C CNN
+F 0 "FB?" V 5700 2350 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 5500 2200 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 5580 2200 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5650 2200 50  0001 C CNN
@@ -252,10 +252,10 @@ F 8 "Ferrite Bead" H 3350 600 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C_Small C282
+L Device:C_Small C?
 U 1 1 5D2BDD99
 P 5950 2100
-F 0 "C282" V 5900 1950 50  0000 C CNN
+F 0 "C?" V 5900 1950 50  0000 C CNN
 F 1 "1uF X7R flex" V 5700 1950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5950 2100 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5950 2100 50  0001 C CNN
@@ -270,10 +270,10 @@ $EndComp
 Wire Wire Line
 	2550 2300 3500 2300
 $Comp
-L Device:D_TVS D49
+L Device:D_TVS D?
 U 1 1 5D430593
 P 3800 2750
-F 0 "D49" H 3500 2700 50  0000 L CNN
+F 0 "D?" H 3500 2700 50  0000 L CNN
 F 1 "30pF 30kV" V 3950 1950 50  0000 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3800 2750 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3800 2750 50  0001 C CNN
@@ -291,10 +291,10 @@ Connection ~ 3800 2100
 Wire Wire Line
 	3800 2100 3750 2100
 $Comp
-L Device:D_TVS D45
+L Device:D_TVS D?
 U 1 1 5D4305A1
 P 3650 2750
-F 0 "D45" H 3350 2700 50  0000 L CNN
+F 0 "D?" H 3350 2700 50  0000 L CNN
 F 1 "30pF 30kV" V 3700 2100 50  0000 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3650 2750 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3650 2750 50  0001 C CNN
@@ -312,10 +312,10 @@ Connection ~ 3650 2200
 Wire Wire Line
 	3650 2200 4300 2200
 $Comp
-L Device:D_TVS D41
+L Device:D_TVS D?
 U 1 1 5D4305AF
 P 3500 2750
-F 0 "D41" H 3350 2700 50  0000 R CNN
+F 0 "D?" H 3350 2700 50  0000 R CNN
 F 1 "30pF 30kV" V 3450 2650 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3500 2750 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3500 2750 50  0001 C CNN
@@ -333,10 +333,10 @@ Connection ~ 3500 2300
 Wire Wire Line
 	3500 2300 4300 2300
 $Comp
-L Device:D_TVS D65
+L Device:D_TVS D?
 U 1 1 5D4305BD
 P 5150 2750
-F 0 "D65" H 5000 2800 50  0000 R CNN
+F 0 "D?" H 5000 2800 50  0000 R CNN
 F 1 "30pF 30kV" V 5350 2150 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5150 2750 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5150 2750 50  0001 C CNN
@@ -351,10 +351,10 @@ $EndComp
 Wire Wire Line
 	5150 2100 5150 2600
 $Comp
-L Device:D_TVS D69
+L Device:D_TVS D?
 U 1 1 5D4305C9
 P 5300 2750
-F 0 "D69" H 5150 2800 50  0000 R CNN
+F 0 "D?" H 5150 2800 50  0000 R CNN
 F 1 "30pF 30kV" V 5400 2300 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5300 2750 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5300 2750 50  0001 C CNN
@@ -369,10 +369,10 @@ $EndComp
 Wire Wire Line
 	5300 2200 5300 2600
 $Comp
-L Device:D_TVS D73
+L Device:D_TVS D?
 U 1 1 5D4305D5
 P 5450 2750
-F 0 "D73" H 5300 2800 50  0000 R CNN
+F 0 "D?" H 5300 2800 50  0000 R CNN
 F 1 "30pF 30kV" V 5450 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5450 2750 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5450 2750 50  0001 C CNN
@@ -422,10 +422,10 @@ Connection ~ 5450 3100
 Wire Wire Line
 	5450 3100 5600 3100
 $Comp
-L Device:D_TVS D57
+L Device:D_TVS D?
 U 1 1 5D4305F6
 P 4100 2750
-F 0 "D57" H 3800 2700 50  0000 L CNN
+F 0 "D?" H 3800 2700 50  0000 L CNN
 F 1 "12V_Vrso" V 4100 2850 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 4100 2750 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 4100 2750 50  0001 C CNN
@@ -442,10 +442,10 @@ Connection ~ 4100 3100
 Wire Wire Line
 	4100 3100 4200 3100
 $Comp
-L Device:D_TVS D77
+L Device:D_TVS D?
 U 1 1 5D430606
 P 5600 2750
-F 0 "D77" H 5450 2800 50  0000 R CNN
+F 0 "D?" H 5450 2800 50  0000 R CNN
 F 1 "30pF 30kV" V 5500 2600 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5600 2750 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5600 2750 50  0001 C CNN
@@ -480,10 +480,10 @@ Connection ~ 5000 3100
 Wire Wire Line
 	5000 3100 5150 3100
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J8
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5D2BDE2C
 P 4600 4250
-F 0 "J8" H 4650 4550 50  0000 C CNN
+F 0 "J?" H 4650 4550 50  0000 C CNN
 F 1 "Device 5" H 4650 3850 50  0000 C CNN
 F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4600 4250 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4600 4250 50  0001 C CNN
@@ -500,10 +500,10 @@ SDA_HV5
 Text Label 6400 4450 2    50   ~ 0
 SCL_HV5
 $Comp
-L Device:D_TVS D54
+L Device:D_TVS D?
 U 1 1 5D43062C
 P 3950 4800
-F 0 "D54" H 3800 4750 50  0000 R CNN
+F 0 "D?" H 3800 4750 50  0000 R CNN
 F 1 "30pF 30kV" V 4250 4250 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3950 4800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3950 4800 50  0001 C CNN
@@ -516,10 +516,10 @@ F 8 "SP1005-01ETG" H 3950 4800 50  0001 C CNN "Manufacturers Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D62
+L Device:D_TVS D?
 U 1 1 5D430637
 P 5000 4800
-F 0 "D62" H 4850 4750 50  0000 R CNN
+F 0 "D?" H 4850 4750 50  0000 R CNN
 F 1 "30pF 30kV" V 5300 5950 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5000 4800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5000 4800 50  0001 C CNN
@@ -546,10 +546,10 @@ Connection ~ 4900 5150
 Wire Wire Line
 	4900 5150 5000 5150
 $Comp
-L power:GND #PWR0134
+L power:GND #PWR?
 U 1 1 5D2BDE54
 P 4550 5550
-F 0 "#PWR0134" H 4550 5300 50  0001 C CNN
+F 0 "#PWR?" H 4550 5300 50  0001 C CNN
 F 1 "GND" H 4550 5400 50  0000 C CNN
 F 2 "" H 4550 5550 50  0001 C CNN
 F 3 "" H 4550 5550 50  0001 C CNN
@@ -582,10 +582,10 @@ ID_PIN5
 Text Label 6400 4050 2    50   ~ 0
 INT_5
 $Comp
-L power:+12V #PWR0130
+L power:+12V #PWR?
 U 1 1 5D2BDE68
 P 4100 3650
-F 0 "#PWR0130" H 4100 3500 50  0001 C CNN
+F 0 "#PWR?" H 4100 3500 50  0001 C CNN
 F 1 "+12V" H 4200 3650 50  0000 C CNN
 F 2 "" H 4100 3650 50  0001 C CNN
 F 3 "" H 4100 3650 50  0001 C CNN
@@ -595,10 +595,10 @@ $EndComp
 Wire Wire Line
 	4800 4450 5600 4450
 $Comp
-L Device:Ferrite_Bead_Small FB37
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDE76
 P 5300 4150
-F 0 "FB37" V 5350 4000 50  0000 C CNN
+F 0 "FB?" V 5350 4000 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 5550 4050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 5230 4150 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5300 4150 50  0001 C CNN
@@ -613,10 +613,10 @@ $EndComp
 Wire Wire Line
 	3600 4250 3650 4250
 $Comp
-L Device:C_Small C279
+L Device:C_Small C?
 U 1 1 5D2BDE82
 P 3200 4150
-F 0 "C279" V 3150 4300 50  0000 C CNN
+F 0 "C?" V 3150 4300 50  0000 C CNN
 F 1 "1uF X7R flex" V 3050 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 4150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 4150 50  0001 C CNN
@@ -629,10 +629,10 @@ F 8 "MLCC Capacitor" H -4550 2750 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB33
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDE8E
 P 3650 4150
-F 0 "FB33" V 3700 4300 50  0000 C CNN
+F 0 "FB?" V 3700 4300 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 3900 4150 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 3580 4150 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3650 4150 50  0001 C CNN
@@ -645,10 +645,10 @@ F 8 "Ferrite Bead" H 950 2450 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB29
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDE99
 P 3500 4250
-F 0 "FB29" V 3550 4100 50  0000 C CNN
+F 0 "FB?" V 3550 4100 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 3350 4250 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 3430 4250 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3500 4250 50  0001 C CNN
@@ -661,10 +661,10 @@ F 8 "Ferrite Bead" H 2000 2850 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB41
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDEA4
 P 5650 4250
-F 0 "FB41" V 5700 4400 50  0000 C CNN
+F 0 "FB?" V 5700 4400 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 5500 4250 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 5580 4250 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5650 4250 50  0001 C CNN
@@ -677,10 +677,10 @@ F 8 "Ferrite Bead" H 3350 2650 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C_Small C283
+L Device:C_Small C?
 U 1 1 5D2BDEB0
 P 5950 4150
-F 0 "C283" V 5900 4000 50  0000 C CNN
+F 0 "C?" V 5900 4000 50  0000 C CNN
 F 1 "1uF X7R flex" V 5700 4000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5950 4150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5950 4150 50  0001 C CNN
@@ -695,10 +695,10 @@ $EndComp
 Wire Wire Line
 	2550 4350 3500 4350
 $Comp
-L Device:D_TVS D50
+L Device:D_TVS D?
 U 1 1 5D4306AF
 P 3800 4800
-F 0 "D50" H 3500 4750 50  0000 L CNN
+F 0 "D?" H 3500 4750 50  0000 L CNN
 F 1 "30pF 30kV" V 4000 4000 50  0000 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3800 4800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3800 4800 50  0001 C CNN
@@ -716,10 +716,10 @@ Connection ~ 3800 4150
 Wire Wire Line
 	3800 4150 3750 4150
 $Comp
-L Device:D_TVS D46
+L Device:D_TVS D?
 U 1 1 5D4306BD
 P 3650 4800
-F 0 "D46" H 3350 4750 50  0000 L CNN
+F 0 "D?" H 3350 4750 50  0000 L CNN
 F 1 "30pF 30kV" V 3750 4150 50  0000 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3650 4800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3650 4800 50  0001 C CNN
@@ -737,10 +737,10 @@ Connection ~ 3650 4250
 Wire Wire Line
 	3650 4250 4300 4250
 $Comp
-L Device:D_TVS D42
+L Device:D_TVS D?
 U 1 1 5D4306CB
 P 3500 4800
-F 0 "D42" H 3350 4750 50  0000 R CNN
+F 0 "D?" H 3350 4750 50  0000 R CNN
 F 1 "30pF 30kV" V 3500 4700 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3500 4800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3500 4800 50  0001 C CNN
@@ -758,10 +758,10 @@ Connection ~ 3500 4350
 Wire Wire Line
 	3500 4350 4300 4350
 $Comp
-L Device:D_TVS D66
+L Device:D_TVS D?
 U 1 1 5D4306D9
 P 5150 4800
-F 0 "D66" H 5000 4850 50  0000 R CNN
+F 0 "D?" H 5000 4850 50  0000 R CNN
 F 1 "30pF 30kV" V 5350 4200 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5150 4800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5150 4800 50  0001 C CNN
@@ -776,10 +776,10 @@ $EndComp
 Wire Wire Line
 	5150 4150 5150 4650
 $Comp
-L Device:D_TVS D70
+L Device:D_TVS D?
 U 1 1 5D4306E5
 P 5300 4800
-F 0 "D70" H 5150 4850 50  0000 R CNN
+F 0 "D?" H 5150 4850 50  0000 R CNN
 F 1 "30pF 30kV" V 5400 4350 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5300 4800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5300 4800 50  0001 C CNN
@@ -794,10 +794,10 @@ $EndComp
 Wire Wire Line
 	5300 4250 5300 4650
 $Comp
-L Device:D_TVS D74
+L Device:D_TVS D?
 U 1 1 5D4306F1
 P 5450 4800
-F 0 "D74" H 5300 4850 50  0000 R CNN
+F 0 "D?" H 5300 4850 50  0000 R CNN
 F 1 "30pF 30kV" V 5450 4500 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5450 4800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5450 4800 50  0001 C CNN
@@ -847,10 +847,10 @@ Connection ~ 5450 5150
 Wire Wire Line
 	5450 5150 5600 5150
 $Comp
-L Device:D_TVS D58
+L Device:D_TVS D?
 U 1 1 5D430712
 P 4100 4800
-F 0 "D58" H 3800 4750 50  0000 L CNN
+F 0 "D?" H 3800 4750 50  0000 L CNN
 F 1 "12V_Vrso" V 4100 4900 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 4100 4800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 4100 4800 50  0001 C CNN
@@ -867,10 +867,10 @@ Connection ~ 4100 5150
 Wire Wire Line
 	4100 5150 4200 5150
 $Comp
-L Device:D_TVS D78
+L Device:D_TVS D?
 U 1 1 5D430722
 P 5600 4800
-F 0 "D78" H 5450 4850 50  0000 R CNN
+F 0 "D?" H 5450 4850 50  0000 R CNN
 F 1 "30pF 30kV" V 5500 4650 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5600 4800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5600 4800 50  0001 C CNN
@@ -905,10 +905,10 @@ Connection ~ 5000 5150
 Wire Wire Line
 	5000 5150 5150 5150
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J9
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5D2BDF43
 P 4600 6300
-F 0 "J9" H 4650 6600 50  0000 C CNN
+F 0 "J?" H 4650 6600 50  0000 C CNN
 F 1 "Device 6" H 4650 5900 50  0000 C CNN
 F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4600 6300 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4600 6300 50  0001 C CNN
@@ -925,10 +925,10 @@ SDA_HV6
 Text Label 6400 6500 2    50   ~ 0
 SCL_HV6
 $Comp
-L Device:D_TVS D55
+L Device:D_TVS D?
 U 1 1 5D430748
 P 3950 6850
-F 0 "D55" H 3800 6800 50  0000 R CNN
+F 0 "D?" H 3800 6800 50  0000 R CNN
 F 1 "30pF 30kV" V 4250 6300 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3950 6850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3950 6850 50  0001 C CNN
@@ -941,10 +941,10 @@ F 8 "SP1005-01ETG" H 3950 6850 50  0001 C CNN "Manufacturers Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D63
+L Device:D_TVS D?
 U 1 1 5D430753
 P 5000 6850
-F 0 "D63" H 4850 6800 50  0000 R CNN
+F 0 "D?" H 4850 6800 50  0000 R CNN
 F 1 "30pF 30kV" V 5300 8000 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5000 6850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5000 6850 50  0001 C CNN
@@ -969,10 +969,10 @@ Connection ~ 4900 7200
 Wire Wire Line
 	4900 7200 5000 7200
 $Comp
-L power:GND #PWR0135
+L power:GND #PWR?
 U 1 1 5D2BDF6B
 P 4550 7600
-F 0 "#PWR0135" H 4100 7950 50  0001 C CNN
+F 0 "#PWR?" H 4100 7950 50  0001 C CNN
 F 1 "GND" H 4550 7450 50  0000 C CNN
 F 2 "" H 4100 8200 50  0001 C CNN
 F 3 "" H 4100 8200 50  0001 C CNN
@@ -1005,10 +1005,10 @@ ID_PIN6
 Text Label 6400 6100 2    50   ~ 0
 INT_6
 $Comp
-L power:+12V #PWR0131
+L power:+12V #PWR?
 U 1 1 5D2BDF7F
 P 4100 5700
-F 0 "#PWR0131" H 4100 5550 50  0001 C CNN
+F 0 "#PWR?" H 4100 5550 50  0001 C CNN
 F 1 "+12V" H 4200 5700 50  0000 C CNN
 F 2 "" H 4100 5700 50  0001 C CNN
 F 3 "" H 4100 5700 50  0001 C CNN
@@ -1018,10 +1018,10 @@ $EndComp
 Wire Wire Line
 	4800 6500 5600 6500
 $Comp
-L Device:Ferrite_Bead_Small FB38
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDF8D
 P 5300 6200
-F 0 "FB38" V 5350 6050 50  0000 C CNN
+F 0 "FB?" V 5350 6050 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 5450 6200 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 5230 6200 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5300 6200 50  0001 C CNN
@@ -1036,10 +1036,10 @@ $EndComp
 Wire Wire Line
 	3600 6300 3650 6300
 $Comp
-L Device:C_Small C280
+L Device:C_Small C?
 U 1 1 5D2BDF99
 P 3200 6200
-F 0 "C280" V 3150 6350 50  0000 C CNN
+F 0 "C?" V 3150 6350 50  0000 C CNN
 F 1 "1uF X7R flex" V 3050 6200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 6200 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 6200 50  0001 C CNN
@@ -1052,10 +1052,10 @@ F 8 "MLCC Capacitor" H -4550 4800 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB34
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDFA5
 P 3650 6200
-F 0 "FB34" V 3700 6350 50  0000 C CNN
+F 0 "FB?" V 3700 6350 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 3900 6200 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 3580 6200 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3650 6200 50  0001 C CNN
@@ -1068,10 +1068,10 @@ F 8 "Ferrite Bead" H 950 4500 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB30
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDFB0
 P 3500 6300
-F 0 "FB30" V 3550 6150 50  0000 C CNN
+F 0 "FB?" V 3550 6150 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 3350 6300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 3430 6300 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3500 6300 50  0001 C CNN
@@ -1084,10 +1084,10 @@ F 8 "Ferrite Bead" H 2000 4900 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB42
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BDFBB
 P 5650 6300
-F 0 "FB42" V 5700 6450 50  0000 C CNN
+F 0 "FB?" V 5700 6450 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 5500 6300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 5580 6300 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5650 6300 50  0001 C CNN
@@ -1100,10 +1100,10 @@ F 8 "Ferrite Bead" H 3350 4700 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C_Small C284
+L Device:C_Small C?
 U 1 1 5D2BDFC7
 P 5950 6200
-F 0 "C284" V 5900 6050 50  0000 C CNN
+F 0 "C?" V 5900 6050 50  0000 C CNN
 F 1 "1uF X7R flex" V 5700 6050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5950 6200 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5950 6200 50  0001 C CNN
@@ -1118,10 +1118,10 @@ $EndComp
 Wire Wire Line
 	2550 6400 3500 6400
 $Comp
-L Device:D_TVS D51
+L Device:D_TVS D?
 U 1 1 5D4307CB
 P 3800 6850
-F 0 "D51" H 3500 6800 50  0000 L CNN
+F 0 "D?" H 3500 6800 50  0000 L CNN
 F 1 "30pF 30kV" V 4000 6050 50  0000 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3800 6850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3800 6850 50  0001 C CNN
@@ -1139,10 +1139,10 @@ Connection ~ 3800 6200
 Wire Wire Line
 	3800 6200 3750 6200
 $Comp
-L Device:D_TVS D47
+L Device:D_TVS D?
 U 1 1 5D4307D9
 P 3650 6850
-F 0 "D47" H 3350 6800 50  0000 L CNN
+F 0 "D?" H 3350 6800 50  0000 L CNN
 F 1 "30pF 30kV" V 3750 6200 50  0000 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3650 6850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3650 6850 50  0001 C CNN
@@ -1160,10 +1160,10 @@ Connection ~ 3650 6300
 Wire Wire Line
 	3650 6300 4300 6300
 $Comp
-L Device:D_TVS D43
+L Device:D_TVS D?
 U 1 1 5D4307E7
 P 3500 6850
-F 0 "D43" H 3350 6800 50  0000 R CNN
+F 0 "D?" H 3350 6800 50  0000 R CNN
 F 1 "30pF 30kV" V 3500 6750 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3500 6850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3500 6850 50  0001 C CNN
@@ -1181,10 +1181,10 @@ Connection ~ 3500 6400
 Wire Wire Line
 	3500 6400 4300 6400
 $Comp
-L Device:D_TVS D67
+L Device:D_TVS D?
 U 1 1 5D4307F5
 P 5150 6850
-F 0 "D67" H 5000 6900 50  0000 R CNN
+F 0 "D?" H 5000 6900 50  0000 R CNN
 F 1 "30pF 30kV" V 5350 6250 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5150 6850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5150 6850 50  0001 C CNN
@@ -1199,10 +1199,10 @@ $EndComp
 Wire Wire Line
 	5150 6200 5150 6700
 $Comp
-L Device:D_TVS D71
+L Device:D_TVS D?
 U 1 1 5D430801
 P 5300 6850
-F 0 "D71" H 5150 6900 50  0000 R CNN
+F 0 "D?" H 5150 6900 50  0000 R CNN
 F 1 "30pF 30kV" V 5400 6400 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5300 6850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5300 6850 50  0001 C CNN
@@ -1217,10 +1217,10 @@ $EndComp
 Wire Wire Line
 	5300 6300 5300 6700
 $Comp
-L Device:D_TVS D75
+L Device:D_TVS D?
 U 1 1 5D43080D
 P 5450 6850
-F 0 "D75" H 5300 6900 50  0000 R CNN
+F 0 "D?" H 5300 6900 50  0000 R CNN
 F 1 "30pF 30kV" V 5450 6550 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5450 6850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5450 6850 50  0001 C CNN
@@ -1270,10 +1270,10 @@ Connection ~ 5450 7200
 Wire Wire Line
 	5450 7200 5600 7200
 $Comp
-L Device:D_TVS D59
+L Device:D_TVS D?
 U 1 1 5D43082E
 P 4100 6850
-F 0 "D59" H 3800 6800 50  0000 L CNN
+F 0 "D?" H 3800 6800 50  0000 L CNN
 F 1 "12V_Vrso" V 4100 6950 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 4100 6850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 4100 6850 50  0001 C CNN
@@ -1290,10 +1290,10 @@ Connection ~ 4100 7200
 Wire Wire Line
 	4100 7200 4200 7200
 $Comp
-L Device:D_TVS D79
+L Device:D_TVS D?
 U 1 1 5D43083E
 P 5600 6850
-F 0 "D79" H 5450 6900 50  0000 R CNN
+F 0 "D?" H 5450 6900 50  0000 R CNN
 F 1 "30pF 30kV" V 5500 6700 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5600 6850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5600 6850 50  0001 C CNN
@@ -1328,10 +1328,10 @@ Connection ~ 5000 7200
 Wire Wire Line
 	5000 7200 5150 7200
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J10
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5D2BE05A
 P 4600 8400
-F 0 "J10" H 4650 8700 50  0000 C CNN
+F 0 "J?" H 4650 8700 50  0000 C CNN
 F 1 "Device 7" H 4650 8000 50  0000 C CNN
 F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 4600 8400 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4600 8400 50  0001 C CNN
@@ -1348,10 +1348,10 @@ SDA_HV7
 Text Label 6400 8600 2    50   ~ 0
 SCL_HV7
 $Comp
-L Device:D_TVS D56
+L Device:D_TVS D?
 U 1 1 5D430864
 P 3950 8950
-F 0 "D56" H 3800 8900 50  0000 R CNN
+F 0 "D?" H 3800 8900 50  0000 R CNN
 F 1 "30pF 30kV" V 4250 8400 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3950 8950 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3950 8950 50  0001 C CNN
@@ -1364,10 +1364,10 @@ F 8 "SP1005-01ETG" H 3950 8950 50  0001 C CNN "Manufacturers Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D64
+L Device:D_TVS D?
 U 1 1 5D43086F
 P 5000 8950
-F 0 "D64" H 4850 8900 50  0000 R CNN
+F 0 "D?" H 4850 8900 50  0000 R CNN
 F 1 "30pF 30kV" V 5300 10100 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5000 8950 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5000 8950 50  0001 C CNN
@@ -1394,10 +1394,10 @@ Connection ~ 4900 9300
 Wire Wire Line
 	4900 9300 5000 9300
 $Comp
-L power:GND #PWR0136
+L power:GND #PWR?
 U 1 1 5D2BE082
 P 4550 9700
-F 0 "#PWR0136" H 4550 9450 50  0001 C CNN
+F 0 "#PWR?" H 4550 9450 50  0001 C CNN
 F 1 "GND" H 4550 9550 50  0000 C CNN
 F 2 "" H 4550 9700 50  0001 C CNN
 F 3 "" H 4550 9700 50  0001 C CNN
@@ -1430,10 +1430,10 @@ ID_PIN7
 Text Label 6400 8200 2    50   ~ 0
 INT_7
 $Comp
-L power:+12V #PWR0132
+L power:+12V #PWR?
 U 1 1 5D2BE096
 P 4100 7800
-F 0 "#PWR0132" H 4100 7650 50  0001 C CNN
+F 0 "#PWR?" H 4100 7650 50  0001 C CNN
 F 1 "+12V" H 4200 7800 50  0000 C CNN
 F 2 "" H 4100 7800 50  0001 C CNN
 F 3 "" H 4100 7800 50  0001 C CNN
@@ -1441,10 +1441,10 @@ F 3 "" H 4100 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB39
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BE0A4
 P 5300 8300
-F 0 "FB39" V 5350 8150 50  0000 C CNN
+F 0 "FB?" V 5350 8150 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 5450 8300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 5230 8300 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5300 8300 50  0001 C CNN
@@ -1459,10 +1459,10 @@ $EndComp
 Wire Wire Line
 	3600 8400 3650 8400
 $Comp
-L Device:C_Small C281
+L Device:C_Small C?
 U 1 1 5D2BE0B0
 P 3200 8300
-F 0 "C281" V 3150 8450 50  0000 C CNN
+F 0 "C?" V 3150 8450 50  0000 C CNN
 F 1 "1uF X7R flex" V 3050 8300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 8300 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3200 8300 50  0001 C CNN
@@ -1475,10 +1475,10 @@ F 8 "MLCC Capacitor" H -4550 6900 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB35
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BE0BC
 P 3650 8300
-F 0 "FB35" V 3700 8450 50  0000 C CNN
+F 0 "FB?" V 3700 8450 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 3900 8300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 3580 8300 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3650 8300 50  0001 C CNN
@@ -1491,10 +1491,10 @@ F 8 "Ferrite Bead" H 950 6600 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB31
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BE0C7
 P 3500 8400
-F 0 "FB31" V 3550 8250 50  0000 C CNN
+F 0 "FB?" V 3550 8250 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 3350 8400 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 3430 8400 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3500 8400 50  0001 C CNN
@@ -1507,10 +1507,10 @@ F 8 "Ferrite Bead" H 2000 7000 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB43
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5D2BE0D2
 P 5650 8400
-F 0 "FB43" V 5700 8550 50  0000 C CNN
+F 0 "FB?" V 5700 8550 50  0000 C CNN
 F 1 "600Ω @ 100MHz" V 5500 8400 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 5580 8400 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5650 8400 50  0001 C CNN
@@ -1523,10 +1523,10 @@ F 8 "Ferrite Bead" H 3350 6800 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C_Small C285
+L Device:C_Small C?
 U 1 1 5D2BE0DE
 P 5950 8300
-F 0 "C285" V 5900 8150 50  0000 C CNN
+F 0 "C?" V 5900 8150 50  0000 C CNN
 F 1 "1uF X7R flex" V 5700 8150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5950 8300 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5950 8300 50  0001 C CNN
@@ -1541,10 +1541,10 @@ $EndComp
 Wire Wire Line
 	2550 8500 3500 8500
 $Comp
-L Device:D_TVS D52
+L Device:D_TVS D?
 U 1 1 5D4308E7
 P 3800 8950
-F 0 "D52" H 3500 8900 50  0000 L CNN
+F 0 "D?" H 3500 8900 50  0000 L CNN
 F 1 "30pF 30kV" V 4000 8150 50  0000 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3800 8950 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3800 8950 50  0001 C CNN
@@ -1562,10 +1562,10 @@ Connection ~ 3800 8300
 Wire Wire Line
 	3800 8300 3750 8300
 $Comp
-L Device:D_TVS D48
+L Device:D_TVS D?
 U 1 1 5D4308F5
 P 3650 8950
-F 0 "D48" H 3350 8900 50  0000 L CNN
+F 0 "D?" H 3350 8900 50  0000 L CNN
 F 1 "30pF 30kV" V 3750 8300 50  0000 L CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3650 8950 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3650 8950 50  0001 C CNN
@@ -1583,10 +1583,10 @@ Connection ~ 3650 8400
 Wire Wire Line
 	3650 8400 4300 8400
 $Comp
-L Device:D_TVS D44
+L Device:D_TVS D?
 U 1 1 5D430903
 P 3500 8950
-F 0 "D44" H 3350 8900 50  0000 R CNN
+F 0 "D?" H 3350 8900 50  0000 R CNN
 F 1 "30pF 30kV" V 3500 8850 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 3500 8950 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 3500 8950 50  0001 C CNN
@@ -1604,10 +1604,10 @@ Connection ~ 3500 8500
 Wire Wire Line
 	3500 8500 4300 8500
 $Comp
-L Device:D_TVS D68
+L Device:D_TVS D?
 U 1 1 5D430911
 P 5150 8950
-F 0 "D68" H 5000 9000 50  0000 R CNN
+F 0 "D?" H 5000 9000 50  0000 R CNN
 F 1 "30pF 30kV" V 5350 8350 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5150 8950 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5150 8950 50  0001 C CNN
@@ -1622,10 +1622,10 @@ $EndComp
 Wire Wire Line
 	5150 8300 5150 8800
 $Comp
-L Device:D_TVS D72
+L Device:D_TVS D?
 U 1 1 5D43091D
 P 5300 8950
-F 0 "D72" H 5150 9000 50  0000 R CNN
+F 0 "D?" H 5150 9000 50  0000 R CNN
 F 1 "30pF 30kV" V 5400 8500 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5300 8950 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5300 8950 50  0001 C CNN
@@ -1640,10 +1640,10 @@ $EndComp
 Wire Wire Line
 	5300 8400 5300 8800
 $Comp
-L Device:D_TVS D76
+L Device:D_TVS D?
 U 1 1 5D430929
 P 5450 8950
-F 0 "D76" H 5300 9000 50  0000 R CNN
+F 0 "D?" H 5300 9000 50  0000 R CNN
 F 1 "30pF 30kV" V 5450 8650 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5450 8950 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5450 8950 50  0001 C CNN
@@ -1693,10 +1693,10 @@ Connection ~ 5450 9300
 Wire Wire Line
 	5450 9300 5600 9300
 $Comp
-L Device:D_TVS D60
+L Device:D_TVS D?
 U 1 1 5D43094A
 P 4100 8950
-F 0 "D60" H 3800 8900 50  0000 L CNN
+F 0 "D?" H 3800 8900 50  0000 L CNN
 F 1 "12V_Vrso" V 4100 9050 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 4100 8950 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 4100 8950 50  0001 C CNN
@@ -1713,10 +1713,10 @@ Connection ~ 4100 9300
 Wire Wire Line
 	4100 9300 4200 9300
 $Comp
-L Device:D_TVS D80
+L Device:D_TVS D?
 U 1 1 5D43095A
 P 5600 8950
-F 0 "D80" H 5450 9000 50  0000 R CNN
+F 0 "D?" H 5450 9000 50  0000 R CNN
 F 1 "30pF 30kV" V 5500 8800 50  0000 R CNN
 F 2 "Diode_SMD:D_0402_1005Metric" H 5600 8950 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5600 8950 50  0001 C CNN

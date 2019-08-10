@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 19 19
+Sheet 19 17
 Title "EDC Mux Board"
 Date "2019-05-17"
 Rev "2"
