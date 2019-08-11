@@ -70,92 +70,92 @@ Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage 
 -------------------------------------------------------------------------------------------------------------
 GND                          : A1        : gnd    :                   :         :           :                
 VCCIO8                       : A2        : power  :                   : 3.3V    : 8         :                
-wclk_in[15]                  : A3        : input  : 3.3-V LVCMOS      :         : 8         : Y              
-i2s_in[15]                   : A4        : input  : 3.3-V LVCMOS      :         : 8         : Y              
-wclk_in[14]                  : A5        : input  : 3.3-V LVCMOS      :         : 8         : Y              
-i2s_in[14]                   : A6        : input  : 3.3-V LVCMOS      :         : 8         : Y              
-wclk_in[13]                  : A7        : input  : 3.3-V LVCMOS      :         : 8         : Y              
-i2s_in[13]                   : A8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
-wclk_in[12]                  : A9        : input  : 3.3-V LVCMOS      :         : 8         : Y              
-i2s_in[12]                   : A10       : input  : 3.3-V LVCMOS      :         : 8         : Y              
-dev_int_in[13]               : A11       : input  : 3.3-V LVCMOS      :         : 8         : Y              
-dev_int_in[12]               : A12       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-wclk_in[11]                  : A13       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-i2s_in[11]                   : A14       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-wclk_in[10]                  : A15       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-i2s_in[10]                   : A16       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-dev_int_in[11]               : A17       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-dev_int_in[10]               : A18       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : A19       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A20       :        :                   :         : 7         :                
+wclk_in[7]                   : A3        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+i2s_in[7]                    : A4        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+dev_int_in[6]                : A5        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+wclk_in[6]                   : A6        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+i2s_in[6]                    : A7        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+dev_int_in[5]                : A8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+wclk_in[5]                   : A9        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+i2s_in[5]                    : A10       : input  : 3.3-V LVCMOS      :         : 8         : Y              
+dev_int_in[4]                : A11       : input  : 3.3-V LVCMOS      :         : 8         : Y              
+wclk_in[4]                   : A12       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+i2s_in[4]                    : A13       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A14       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A15       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A16       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A17       :        :                   :         : 7         :                
+dev_att_in[12]               : A18       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+i2s_out[12]                  : A19       : output : 3.3-V LVCMOS      :         : 7         : Y              
+bclk_in[12]                  : A20       : input  : 3.3-V LVCMOS      :         : 7         : Y              
 VCCIO7                       : A21       : power  :                   : 3.3V    : 7         :                
 GND                          : A22       : gnd    :                   :         :           :                
 GND                          : AA1       : gnd    :                   :         :           :                
 GND                          : AA2       : gnd    :                   :         :           :                
 i2s_out[0]                   : AA3       : output : 3.3-V LVCMOS      :         : 3         : Y              
 bclk_in[0]                   : AA4       : input  : 3.3-V LVCMOS      :         : 3         : Y              
-dev_att_in[1]                : AA5       : input  : 3.3-V LVCMOS      :         : 3         : Y              
+dev_att_in[0]                : AA5       : input  : 3.3-V LVCMOS      :         : 3         : Y              
 VCCIO3                       : AA6       : power  :                   : 3.3V    : 3         :                
 i2s_out[1]                   : AA7       : output : 3.3-V LVCMOS      :         : 3         : Y              
 bclk_in[1]                   : AA8       : input  : 3.3-V LVCMOS      :         : 3         : Y              
-i2s_out[2]                   : AA9       : output : 3.3-V LVCMOS      :         : 3         : Y              
-bclk_in[2]                   : AA10      : input  : 3.3-V LVCMOS      :         : 3         : Y              
-dev_att_in[3]                : AA11      : input  : 3.3-V LVCMOS      :         : 3         : Y              
-dev_att_in[4]                : AA12      : input  : 3.3-V LVCMOS      :         : 4         : Y              
+dev_att_in[1]                : AA9       : input  : 3.3-V LVCMOS      :         : 3         : Y              
+i2s_out[2]                   : AA10      : output : 3.3-V LVCMOS      :         : 3         : Y              
+bclk_in[2]                   : AA11      : input  : 3.3-V LVCMOS      :         : 3         : Y              
+dev_att_in[2]                : AA12      : input  : 3.3-V LVCMOS      :         : 4         : Y              
 i2s_out[3]                   : AA13      : output : 3.3-V LVCMOS      :         : 4         : Y              
 bclk_in[3]                   : AA14      : input  : 3.3-V LVCMOS      :         : 4         : Y              
-i2s_out[4]                   : AA15      : output : 3.3-V LVCMOS      :         : 4         : Y              
-bclk_in[4]                   : AA16      : input  : 3.3-V LVCMOS      :         : 4         : Y              
+dev_att_in[3]                : AA15      : input  : 3.3-V LVCMOS      :         : 4         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA16      :        :                   :         : 4         :                
 GND                          : AA17      : gnd    :                   :         :           :                
-i2s_out[5]                   : AA18      : output : 3.3-V LVCMOS      :         : 4         : Y              
-bclk_in[5]                   : AA19      : input  : 3.3-V LVCMOS      :         : 4         : Y              
-dev_att_in[5]                : AA20      : input  : 3.3-V LVCMOS      :         : 4         : Y              
-i2s_out[6]                   : AA21      : output : 3.3-V LVCMOS      :         : 5         : Y              
-i2s_in[6]                    : AA22      : input  : 3.3-V LVCMOS      :         : 5         : Y              
+wclk_in[11]                  : AA18      : input  : 3.3-V LVCMOS      :         : 4         : Y              
+i2s_in[11]                   : AA19      : input  : 3.3-V LVCMOS      :         : 4         : Y              
+dev_int_in[11]               : AA20      : input  : 3.3-V LVCMOS      :         : 4         : Y              
+wclk_in[10]                  : AA21      : input  : 3.3-V LVCMOS      :         : 5         : Y              
+bclk_in[10]                  : AA22      : input  : 3.3-V LVCMOS      :         : 5         : Y              
 GND                          : AB1       : gnd    :                   :         :           :                
 VCCIO3                       : AB2       : power  :                   : 3.3V    : 3         :                
 i2s_in[0]                    : AB3       : input  : 3.3-V LVCMOS      :         : 3         : Y              
 wclk_in[0]                   : AB4       : input  : 3.3-V LVCMOS      :         : 3         : Y              
-dev_int_in[1]                : AB5       : input  : 3.3-V LVCMOS      :         : 3         : Y              
+dev_int_in[0]                : AB5       : input  : 3.3-V LVCMOS      :         : 3         : Y              
 GND                          : AB6       : gnd    :                   :         :           :                
 i2s_in[1]                    : AB7       : input  : 3.3-V LVCMOS      :         : 3         : Y              
 wclk_in[1]                   : AB8       : input  : 3.3-V LVCMOS      :         : 3         : Y              
-i2s_in[2]                    : AB9       : input  : 3.3-V LVCMOS      :         : 3         : Y              
-wclk_in[2]                   : AB10      : input  : 3.3-V LVCMOS      :         : 3         : Y              
-dev_int_in[3]                : AB11      : input  : 3.3-V LVCMOS      :         : 3         : Y              
-dev_int_in[4]                : AB12      : input  : 3.3-V LVCMOS      :         : 4         : Y              
+dev_int_in[1]                : AB9       : input  : 3.3-V LVCMOS      :         : 3         : Y              
+i2s_in[2]                    : AB10      : input  : 3.3-V LVCMOS      :         : 3         : Y              
+wclk_in[2]                   : AB11      : input  : 3.3-V LVCMOS      :         : 3         : Y              
+dev_int_in[2]                : AB12      : input  : 3.3-V LVCMOS      :         : 4         : Y              
 i2s_in[3]                    : AB13      : input  : 3.3-V LVCMOS      :         : 4         : Y              
 wclk_in[3]                   : AB14      : input  : 3.3-V LVCMOS      :         : 4         : Y              
-i2s_in[4]                    : AB15      : input  : 3.3-V LVCMOS      :         : 4         : Y              
-wclk_in[4]                   : AB16      : input  : 3.3-V LVCMOS      :         : 4         : Y              
+dev_int_in[3]                : AB15      : input  : 3.3-V LVCMOS      :         : 4         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB16      :        :                   :         : 4         :                
 GND                          : AB17      : gnd    :                   :         :           :                
-i2s_in[5]                    : AB18      : input  : 3.3-V LVCMOS      :         : 4         : Y              
-wclk_in[5]                   : AB19      : input  : 3.3-V LVCMOS      :         : 4         : Y              
-dev_int_in[5]                : AB20      : input  : 3.3-V LVCMOS      :         : 4         : Y              
+bclk_in[11]                  : AB18      : input  : 3.3-V LVCMOS      :         : 4         : Y              
+i2s_out[11]                  : AB19      : output : 3.3-V LVCMOS      :         : 4         : Y              
+dev_att_in[11]               : AB20      : input  : 3.3-V LVCMOS      :         : 4         : Y              
 VCCIO4                       : AB21      : power  :                   : 3.3V    : 4         :                
 GND                          : AB22      : gnd    :                   :         :           :                
-dev_int_in[14]               : B1        : input  : 3.3-V LVCMOS      :         : 1         : Y              
-dev_att_in[14]               : B2        : input  : 3.3-V LVCMOS      :         : 1         : Y              
-bclk_in[15]                  : B3        : input  : 3.3-V LVCMOS      :         : 8         : Y              
-i2s_out[15]                  : B4        : output : 3.3-V LVCMOS      :         : 8         : Y              
-bclk_in[14]                  : B5        : input  : 3.3-V LVCMOS      :         : 8         : Y              
-i2s_out[14]                  : B6        : output : 3.3-V LVCMOS      :         : 8         : Y              
-bclk_in[13]                  : B7        : input  : 3.3-V LVCMOS      :         : 8         : Y              
-i2s_out[13]                  : B8        : output : 3.3-V LVCMOS      :         : 8         : Y              
-bclk_in[12]                  : B9        : input  : 3.3-V LVCMOS      :         : 8         : Y              
-i2s_out[12]                  : B10       : output : 3.3-V LVCMOS      :         : 8         : Y              
-dev_att_in[13]               : B11       : input  : 3.3-V LVCMOS      :         : 8         : Y              
-dev_att_in[12]               : B12       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-bclk_in[11]                  : B13       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-i2s_out[11]                  : B14       : output : 3.3-V LVCMOS      :         : 7         : Y              
-bclk_in[10]                  : B15       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-i2s_out[10]                  : B16       : output : 3.3-V LVCMOS      :         : 7         : Y              
-dev_att_in[11]               : B17       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-dev_att_in[10]               : B18       : input  : 3.3-V LVCMOS      :         : 7         : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : B19       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B20       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B21       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B22       :        :                   :         : 6         :                
+dev_att_in[7]                : B1        : input  : 3.3-V LVCMOS      :         : 1         : Y              
+dev_int_in[7]                : B2        : input  : 3.3-V LVCMOS      :         : 1         : Y              
+bclk_in[7]                   : B3        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+i2s_out[7]                   : B4        : output : 3.3-V LVCMOS      :         : 8         : Y              
+dev_att_in[6]                : B5        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+bclk_in[6]                   : B6        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+i2s_out[6]                   : B7        : output : 3.3-V LVCMOS      :         : 8         : Y              
+dev_att_in[5]                : B8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+bclk_in[5]                   : B9        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+i2s_out[5]                   : B10       : output : 3.3-V LVCMOS      :         : 8         : Y              
+dev_att_in[4]                : B11       : input  : 3.3-V LVCMOS      :         : 8         : Y              
+bclk_in[4]                   : B12       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+i2s_out[4]                   : B13       : output : 3.3-V LVCMOS      :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B14       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B15       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B16       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B17       :        :                   :         : 7         :                
+dev_int_in[12]               : B18       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+i2s_in[12]                   : B19       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+wclk_in[12]                  : B20       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+dev_int_in[13]               : B21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+dev_att_in[13]               : B22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
 GND                          : C1        : gnd    :                   :         :           :                
 GND                          : C2        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C3        :        :                   :         : 8         :                
@@ -176,8 +176,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : C17       :        :                   :      
 GND                          : C18       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C19       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C20       :        :                   :         : 6         :                
-dev_att_in[9]                : C21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
-dev_int_in[9]                : C22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+i2s_in[13]                   : C21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+i2s_out[13]                  : C22       : output : 3.3-V LVCMOS      :         : 6         : Y              
 ~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : D1        : input  : 3.3-V LVCMOS      :         : 1         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : D2        :        :                   :         : 1         :                
 GND                          : D3        : gnd    :                   :         :           :                
@@ -198,9 +198,9 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : D17       :        :                   :      
 VCCIO7                       : D18       : power  :                   : 3.3V    : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D19       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D20       :        :                   :         : 6         :                
-bclk_in[9]                   : D21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
-wclk_in[9]                   : D22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
-dev_att_in[15]               : E1        : input  : 3.3-V LVCMOS      :         : 1         : Y              
+wclk_in[13]                  : D21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+bclk_in[13]                  : D22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E1        :        :                   :         : 1         :                
 ~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : E2        : input  : 3.3-V LVCMOS      :         : 1         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : E3        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E4        :        :                   :         : 1         :                
@@ -220,9 +220,9 @@ VCCD_PLL2                    : E17       : power  :                   : 1.2V    
 GNDA2                        : E18       : gnd    :                   :         :           :                
 VCCIO6                       : E19       : power  :                   : 3.3V    : 6         :                
 GND                          : E20       : gnd    :                   :         :           :                
-i2s_out[9]                   : E21       : output : 3.3-V LVCMOS      :         : 6         : Y              
-i2s_in[9]                    : E22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
-dev_int_in[15]               : F1        : input  : 3.3-V LVCMOS      :         : 1         : Y              
+dev_int_in[14]               : E21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+dev_att_in[14]               : E22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F1        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F2        :        :                   :         : 1         :                
 GND                          : F3        : gnd    :                   :         :           :                
 VCCIO1                       : F4        : power  :                   : 3.3V    : 1         :                
@@ -242,8 +242,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : F17       :        :                   :      
 VCCA2                        : F18       : power  :                   : 2.5V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F19       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F20       :        :                   :         : 6         :                
-dev_att_in[8]                : F21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
-dev_int_in[8]                : F22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+i2s_in[14]                   : F21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+i2s_out[14]                  : F22       : output : 3.3-V LVCMOS      :         : 6         : Y              
 mclk_in                      : G1        : input  : 3.3-V LVCMOS      :         : 1         : Y              
 GND+                         : G2        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G3        :        :                   :         : 1         :                
@@ -264,8 +264,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : G17       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : G18       :        :                   :         : 6         :                
 VCCIO6                       : G19       : power  :                   : 3.3V    : 6         :                
 GND                          : G20       : gnd    :                   :         :           :                
-bclk_in[8]                   : G21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
-wclk_in[8]                   : G22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+wclk_in[14]                  : G21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+bclk_in[14]                  : G22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : H1        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H2        :        :                   :         : 1         :                
 GND                          : H3        : gnd    :                   :         :           :                
@@ -286,8 +286,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : H17       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : H18       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H19       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H20       :        :                   :         : 6         :                
-i2s_out[8]                   : H21       : output : 3.3-V LVCMOS      :         : 6         : Y              
-i2s_in[8]                    : H22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+dev_int_in[15]               : H21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+dev_att_in[15]               : H22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : J1        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J2        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J3        :        :                   :         : 1         :                
@@ -308,8 +308,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : J17       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : J18       :        :                   :         : 6         :                
 GND                          : J19       : gnd    :                   :         :           :                
 VCCIO6                       : J20       : power  :                   : 3.3V    : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J21       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J22       :        :                   :         : 6         :                
+i2s_in[15]                   : J21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+i2s_out[15]                  : J22       : output : 3.3-V LVCMOS      :         : 6         : Y              
 ~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : K1        : input  : 3.3-V LVCMOS      :         : 1         : N              
 ~ALTERA_DCLK~                : K2        : output : 3.3-V LVCMOS      :         : 1         : N              
 GND                          : K3        : gnd    :                   :         :           :                
@@ -330,8 +330,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : K17       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : K18       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : K19       :        :                   :         : 6         :                
 MSEL3                        : K20       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K21       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K22       :        :                   :         : 6         :                
+wclk_in[15]                  : K21       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+bclk_in[15]                  : K22       : input  : 3.3-V LVCMOS      :         : 6         : Y              
 TMS                          : L1        : input  :                   :         : 1         :                
 TCK                          : L2        : input  :                   :         : 1         :                
 nCE                          : L3        :        :                   :         : 1         :                
@@ -396,8 +396,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : N17       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : N18       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N19       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N20       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N21       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N22       :        :                   :         : 5         :                
+dev_int_in[8]                : N21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+dev_att_in[8]                : N22       : input  : 3.3-V LVCMOS      :         : 5         : Y              
 g_rst                        : P1        : input  : 3.3-V LVCMOS      :         : 2         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : P2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P3        :        :                   :         : 2         :                
@@ -418,8 +418,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : P17       :        :                   :      
 VCCIO5                       : P18       : power  :                   : 3.3V    : 5         :                
 GND                          : P19       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P20       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P21       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P22       :        :                   :         : 5         :                
+i2s_in[8]                    : P21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+i2s_out[8]                   : P22       : output : 3.3-V LVCMOS      :         : 5         : Y              
 dev_int_out[8]               : R1        : output : 3.3-V LVCMOS      :         : 2         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : R2        :        :                   :         : 2         :                
 GND                          : R3        : gnd    :                   :         :           :                
@@ -440,8 +440,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : R17       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : R18       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R19       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R20       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R21       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R22       :        :                   :         : 5         :                
+wclk_in[8]                   : R21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+bclk_in[8]                   : R22       : input  : 3.3-V LVCMOS      :         : 5         : Y              
 GND+                         : T1        :        :                   :         : 2         :                
 GND+                         : T2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 2         :                
@@ -462,8 +462,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : T17       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : T18       :        :                   :         : 5         :                
 VCCIO5                       : T19       : power  :                   : 3.3V    : 5         :                
 GND                          : T20       : gnd    :                   :         :           :                
-dev_att_in[7]                : T21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
-dev_int_in[7]                : T22       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+dev_int_in[9]                : T21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+dev_att_in[9]                : T22       : input  : 3.3-V LVCMOS      :         : 5         : Y              
 dev_int_out[6]               : U1        : output : 3.3-V LVCMOS      :         : 2         : Y              
 dev_int_out[7]               : U2        : output : 3.3-V LVCMOS      :         : 2         : Y              
 GND                          : U3        : gnd    :                   :         :           :                
@@ -484,8 +484,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : U17       :        :                   :      
 VCCA4                        : U18       : power  :                   : 2.5V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U19       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U20       :        :                   :         : 5         :                
-bclk_in[7]                   : U21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
-wclk_in[7]                   : U22       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+i2s_in[9]                    : U21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+i2s_out[9]                   : U22       : output : 3.3-V LVCMOS      :         : 5         : Y              
 dev_int_out[4]               : V1        : output : 3.3-V LVCMOS      :         : 2         : Y              
 dev_int_out[5]               : V2        : output : 3.3-V LVCMOS      :         : 2         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : V3        :        :                   :         : 2         :                
@@ -493,7 +493,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : V4        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : V5        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V6        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V7        :        :                   :         : 3         :                
-dev_att_in[2]                : V8        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V8        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V9        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V10       :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V11       :        :                   :         : 3         :                
@@ -506,8 +506,8 @@ VCCD_PLL4                    : V17       : power  :                   : 1.2V    
 GNDA4                        : V18       : gnd    :                   :         :           :                
 VCCIO5                       : V19       : power  :                   : 3.3V    : 5         :                
 GND                          : V20       : gnd    :                   :         :           :                
-i2s_out[7]                   : V21       : output : 3.3-V LVCMOS      :         : 5         : Y              
-i2s_in[7]                    : V22       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+wclk_in[9]                   : V21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+bclk_in[9]                   : V22       : input  : 3.3-V LVCMOS      :         : 5         : Y              
 dev_int_out[2]               : W1        : output : 3.3-V LVCMOS      :         : 2         : Y              
 dev_int_out[3]               : W2        : output : 3.3-V LVCMOS      :         : 2         : Y              
 GND                          : W3        : gnd    :                   :         :           :                
@@ -515,7 +515,7 @@ VCCIO2                       : W4        : power  :                   : 3.3V    
 VCCIO3                       : W5        : power  :                   : 3.3V    : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W6        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W7        :        :                   :         : 3         :                
-dev_int_in[2]                : W8        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W8        :        :                   :         : 3         :                
 VCCIO3                       : W9        : power  :                   : 3.3V    : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W10       :        :                   :         : 3         :                
 VCCIO3                       : W11       : power  :                   : 3.3V    : 3         :                
@@ -528,12 +528,12 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : W17       :        :                   :      
 VCCIO4                       : W18       : power  :                   : 3.3V    : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W19       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W20       :        :                   :         : 5         :                
-dev_att_in[6]                : W21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
-dev_int_in[6]                : W22       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+dev_int_in[10]               : W21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+dev_att_in[10]               : W22       : input  : 3.3-V LVCMOS      :         : 5         : Y              
 dev_int_out[0]               : Y1        : output : 3.3-V LVCMOS      :         : 2         : Y              
 dev_int_out[1]               : Y2        : output : 3.3-V LVCMOS      :         : 2         : Y              
-dev_att_in[0]                : Y3        : input  : 3.3-V LVCMOS      :         : 3         : Y              
-dev_int_in[0]                : Y4        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y3        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y4        :        :                   :         : 3         :                
 GND                          : Y5        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y6        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y7        :        :                   :         : 3         :                
@@ -550,5 +550,5 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : Y17       :        :                   :      
 GND                          : Y18       : gnd    :                   :         :           :                
 VCCIO5                       : Y19       : power  :                   : 3.3V    : 5         :                
 GND                          : Y20       : gnd    :                   :         :           :                
-bclk_in[6]                   : Y21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
-wclk_in[6]                   : Y22       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+i2s_in[10]                   : Y21       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+i2s_out[10]                  : Y22       : output : 3.3-V LVCMOS      :         : 5         : Y              
