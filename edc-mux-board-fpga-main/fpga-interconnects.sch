@@ -704,7 +704,7 @@ Text Label 4250 7550 2    50   ~ 0
 WCLK13
 Text Label 1850 4550 2    50   ~ 0
 WCLK14
-Text Label 6450 7250 0    50   ~ 0
+Text Label 13000 5500 2    50   ~ 0
 WCLK15
 Text Label 4250 7050 2    50   ~ 0
 DIN13
@@ -734,7 +734,7 @@ Text Label 4250 7650 2    50   ~ 0
 BCLK13
 Text Label 1850 4650 2    50   ~ 0
 BCLK14
-Text Label 13000 5500 2    50   ~ 0
+Text Label 6450 7250 0    50   ~ 0
 BCLK15
 Wire Wire Line
 	1850 5150 2250 5150
