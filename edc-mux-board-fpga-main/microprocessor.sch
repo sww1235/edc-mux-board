@@ -75,12 +75,12 @@ U 1 1 5CB0E5F1
 P 3900 2300
 F 0 "C287" V 3750 2300 50  0000 C CNN
 F 1 "100nF X7R" V 3700 2300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3900 2300 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 3900 2300 50  0001 C CNN
-F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3900 2300 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3900 2300 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    3900 2300
 	0    -1   -1   0   
@@ -269,12 +269,12 @@ U 1 1 5CB24B2E
 P 4750 2150
 F 0 "C291" V 4800 2050 50  0000 C CNN
 F 1 "100nF X7R" V 4700 2300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 2150 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4750 2150 50  0001 C CNN
-F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4750 2150 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 2150
 	0    -1   -1   0   
@@ -285,12 +285,12 @@ U 1 1 5CB2503C
 P 4750 2300
 F 0 "C292" V 4800 2200 50  0000 C CNN
 F 1 "100nF X7R" V 4700 2450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 2300 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4750 2300 50  0001 C CNN
-F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2300 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4750 2300 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 2300
 	0    -1   -1   0   
