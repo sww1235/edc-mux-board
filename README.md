@@ -73,6 +73,43 @@ Use TS12A4514 NO SPST switches for PTT signalling on Interface boards.
 Alternatively, if large numbers of switches are needed use a direct i2c
 controlled XPST switch rather than using multiple chips.
 
+## SAMD21 IO multiplexed function reference
+
+| Pin | IO Pin | Multiplexed Peripheral function | Connected signal |
+|-----|--------|---------------------------------|------------------|
+| 10  | PB07   | N/A                             | RESETI2C         |
+| 11  | PB08   |          |               |
+| 12  | PB09   |          |               |
+| 17  | PA08   | SERCOM0/PAD\[0\]                | MOSI             |
+| 18  | PA09   | SERCOM0/PAD\[1\]                | \~SS             |
+| 19  | PA10   | SERCOM0/PAD\[2\]                | MISO             |
+| 20  | PA11   | SERCOM0/PAD\[3\]                | SCK              |
+| 23  | PB10   | EXTINT\[10\]                    | CRC_ERROR        |
+| 24  | PB11   | EXTINT\[11\]                    | CONF_DONE        |
+| 25  | PB12   | SERCOM4/PAD\[0\]  (SDA)         | SDA              |
+| 26  | PB13   | SERCOM4/PAD\[1\]  (SCL)         | SCL              |
+| 29  | PA12   | EXTINT\[12\]                    | DEV_INT0         |
+| 30  | PA13   | EXTINT\[13\]                    | DEV_INT1         |
+| 31  | PA14   | XIN (external clock in)         | CLK3_MCU         |
+| 32  | PA15   | EXTINT\[15\]                    | DEV_INT2         |
+| 35  | PA16   | EXTINT\[0\]                     | DEV_INT3         |
+| 36  | PA17   | EXTINT\[1\]                     | DEV_INT4         |
+| 37  | PA18   | EXTINT\[2\]                     | DEV_INT5         |
+| 38  | PA19   | EXTINT\[3\]                     | DEV_INT6         |
+| 41  | PA20   | EXTINT\[4\]                     | DEV_INT7         |
+| 42  | PA21   | EXTINT\[5\]                     | ATTACH_INT       |
+| 43  | PA22   | EXTINT\[6\]                     | INIT_DONE        |
+| 44  | PA23   | EXTINT\[7\]                     | \~STATUS         |
+| 45  | PA24   | USB/DM                          | USB_D-           |
+| 46  | PA25   | USB/DP                          | USB_D+           |
+| 57  | PA30   | SWCLK                           | SWCLK            |
+| 58  | PA31   | SWDIO                           | SWDIO            |
+
+Available interrupts on:
+
+Pin 11 / Pin 53 - EXTINT\[8\]
+Pin 12 - EXTINT\[9\]
+Pin 27 / Pin 59 - EXTINT\[14\]
 
 ## Device Interface Notes
 
