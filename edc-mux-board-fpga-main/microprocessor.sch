@@ -808,8 +808,6 @@ Text GLabel 3200 4200 0    50   Input ~ 0
 CLK3_MCU
 NoConn ~ 5050 5100
 NoConn ~ 5050 5200
-Text Notes 4950 5500 0    50   ~ 0
-SERCOM5 (I2C)\nMay reserve PB22 and PB23\nas well as PA22 and PA23
 Text HLabel 1750 3850 0    50   Input ~ 0
 DEV_INT[0..7]
 Text HLabel 3100 5000 0    50   Input ~ 0
@@ -904,9 +902,9 @@ Text HLabel 1050 5200 0    50   Output ~ 0
 SCL
 Text HLabel 1050 5100 0    50   BiDi ~ 0
 SDA
-Text Label 5200 3600 0    50   ~ 0
+Text Label 5200 4000 0    50   ~ 0
 SDA
-Text Label 5200 3700 0    50   ~ 0
+Text Label 5200 4100 0    50   ~ 0
 SCL
 Text Label 1450 5100 0    50   ~ 0
 SDA
@@ -1032,9 +1030,9 @@ CRC_ERROR
 Text HLabel 3100 5100 0    50   Input ~ 0
 INIT_DONE
 Wire Wire Line
-	5200 3600 5050 3600
+	5200 4000 5050 4000
 Wire Wire Line
-	5200 3700 5050 3700
+	5200 4100 5050 4100
 Text Label 4150 2450 1    50   ~ 0
 MCU_VDDA
 Text Label 4550 1800 0    50   ~ 0
@@ -1052,10 +1050,7 @@ Wire Wire Line
 	3550 3900 3100 3900
 Text HLabel 3100 3900 0    50   Output ~ 0
 SCK
-NoConn ~ 5050 4000
-NoConn ~ 5050 4100
 NoConn ~ 5050 4200
-NoConn ~ 5050 4300
 Text Notes 150  3400 0    50   ~ 0
 SERCOM0 (pins 17-20) (pin mux C)\nSPI\nControl A register nessary setup\nbit 30 - 0: MSB is transfered first\nbit 29 - 0x0: SCK low idle (SPI Mode 0)\nbit 28 - 0x0: SPI Mode 0\nbits 27:24 - 0x0 : SPI frame\nbits 21:20 - 0x2: MISO on SERCOM pad 2 (pin 18)\nbits 17:16 - 0x3: MOSI on SERCOM pad 0, SS on pad 1, \n     SCK on pad 3  (pins, 17, 19, 20)\nbits 4:2 - 0x3: SPI master mode\n
 Wire Wire Line
@@ -1066,7 +1061,7 @@ Text Notes 1850 2250 0    50   ~ 0
 Interrupts Used:\npin23 - int10\npin24 - int11\npin29 - int12\npin30 - int13\npin32 - int15\npin35 - int0\npin36 - int1\npin37 - int2\npin38 - int3\npin41 - int4\npin42 - int5\npin43 - int6\npin44 - int7\n
 Text HLabel 5200 3500 2    50   Output ~ 0
 ~RESET~_I2C
-Text HLabel 5200 4500 2    50   Output ~ 0
+Text HLabel 5200 4300 2    50   Output ~ 0
 ~RESET~_FPGA
 Text Label 3100 4900 2    50   ~ 0
 DEV_INT7
@@ -1077,9 +1072,9 @@ Wire Wire Line
 Wire Wire Line
 	5050 3500 5200 3500
 Wire Wire Line
-	5050 4500 5200 4500
+	5050 4300 5200 4300
 Text Notes 5250 3300 0    50   ~ 0
-SERCOM4 (pins 11-12) (pin mux D)\nI2C\nControl A register nessary setup\nbit 16 - 0x0: 4 wire operation disabled\nbits 4:2 - 0x5: selects i2c master mode
+SERCOM4 (pins 25-26) (pin mux D)\nI2C\nControl A register nessary setup\nbit 16 - 0x0: 4 wire operation disabled\nbits 4:2 - 0x5: selects i2c master mode
 NoConn ~ 3550 2900
 NoConn ~ 5050 3400
 NoConn ~ 5050 4600
@@ -1087,6 +1082,9 @@ Wire Wire Line
 	5200 3800 5050 3800
 Wire Wire Line
 	5200 3900 5050 3900
+NoConn ~ 5050 3600
+NoConn ~ 5050 3700
+NoConn ~ 5050 4500
 Wire Bus Line
 	2550 3850 2550 4800
 $EndSCHEMATC

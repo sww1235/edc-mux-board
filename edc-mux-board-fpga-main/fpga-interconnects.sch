@@ -206,7 +206,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 4450 12850 4250
 Connection ~ 12850 4250
-Text HLabel 4200 2050 0    50   Input ~ 0
+Text HLabel 8050 1600 0    50   Input ~ 0
 ~RESET
 Text HLabel 4200 1350 0    50   Input ~ 0
 SCL
@@ -260,8 +260,6 @@ Wire Wire Line
 	4200 1350 4350 1350
 Wire Wire Line
 	4200 1750 4350 1750
-Wire Wire Line
-	4200 2050 4350 2050
 Text Label 6350 2550 0    50   ~ 0
 DEV_INT_OUT0
 Text Label 6350 2450 0    50   ~ 0
@@ -358,7 +356,6 @@ Wire Wire Line
 NoConn ~ 6250 950 
 NoConn ~ 6250 1050
 NoConn ~ 6250 1150
-NoConn ~ 6250 1250
 NoConn ~ 6250 1750
 NoConn ~ 6250 1850
 NoConn ~ 6250 1950
@@ -1384,8 +1381,11 @@ Wire Wire Line
 	1000 7550 1150 7550
 NoConn ~ 8150 2800
 NoConn ~ 8150 3200
-NoConn ~ 8150 1600
 NoConn ~ 8150 1100
+NoConn ~ 4350 2050
+Wire Wire Line
+	8150 1600 8050 1600
+NoConn ~ 6250 1250
 Wire Bus Line
 	7100 1450 7100 3500
 $EndSCHEMATC
