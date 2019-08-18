@@ -3234,10 +3234,6 @@ F 8 "MLCC Capacitor" H 4300 150 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	10700 4700 10700 4800
-Wire Wire Line
-	10650 4700 10700 4700
-Wire Wire Line
 	11900 5100 11900 4600
 Wire Wire Line
 	12400 5100 11900 5100
@@ -3265,9 +3261,6 @@ Wire Wire Line
 Connection ~ 11600 4950
 Wire Wire Line
 	11600 4900 11600 4950
-Connection ~ 11300 4600
-Wire Wire Line
-	11200 4600 11300 4600
 $Comp
 L Transistor_FET:CSD18501Q5A Q?
 U 1 1 5D4E2FE1
@@ -3331,44 +3324,24 @@ F 7 "VSSOP8" H 4100 300 50  0001 C CNN "Package ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Barrel_Jack_Switch J?
-U 1 1 5D4E3003
-P 10350 4700
-AR Path="/5CBF6239/5D4E3003" Ref="J?"  Part="1" 
-AR Path="/5CBF628A/5D4E3003" Ref="J?"  Part="1" 
-AR Path="/5CC3E5B8/5D4E3003" Ref="J1"  Part="1" 
-F 0 "J1" H 10350 4910 50  0000 C CNN
-F 1 "Power In" H 10350 4500 50  0000 C CNN
-F 2 "SW-Switchcraft:PCL712AS" H 10400 4660 50  0001 C CNN
-F 3 "http://www.switchcraft.com/Drawings/PCL712AS_PCL722AS_CD.pdf" H 10400 4660 50  0001 C CNN
-F 4 "Barrel Jack Input Connector" H 4100 300 50  0001 C CNN "Description"
-F 5 "Switchcraft" H 4100 300 50  0001 C CNN "Manufacturer"
-F 6 "PCL712AS" H 4100 300 50  0001 C CNN "Manufacturers Part Number"
-F 7 "Through Hole" H 4100 300 50  0001 C CNN "Package ID"
-	1    10350 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_SPST SW?
 U 1 1 5D4E300C
-P 11000 4600
+P 11000 4700
 AR Path="/5CBF6239/5D4E300C" Ref="SW?"  Part="1" 
 AR Path="/5CBF628A/5D4E300C" Ref="SW?"  Part="1" 
 AR Path="/5CC3E5B8/5D4E300C" Ref="SW1"  Part="1" 
-F 0 "SW1" H 11000 4850 50  0000 C CNN
-F 1 "Power Switch" H 11000 4750 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11000 4600 50  0001 C CNN
-F 3 "~" H 11000 4600 50  0001 C CNN
-F 4 "Through Hole" H 4100 300 50  0001 C CNN "Package ID"
-F 5 "Connection for panel mounted power switch" H 4100 300 50  0001 C CNN "Description"
-F 6 "Eswitch" H 4100 300 50  0001 C CNN "Manufacturer"
-	1    11000 4600
+F 0 "SW1" H 11000 4950 50  0000 C CNN
+F 1 "Power Switch" H 11000 4850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11000 4700 50  0001 C CNN
+F 3 "~" H 11000 4700 50  0001 C CNN
+F 4 "Through Hole" H 4100 400 50  0001 C CNN "Package ID"
+F 5 "Connection for panel mounted power switch" H 4100 400 50  0001 C CNN "Description"
+F 6 "Eswitch" H 4100 400 50  0001 C CNN "Manufacturer"
+	1    11000 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10650 4600 10800 4600
-Wire Wire Line
-	10650 4800 10700 4800
+	10600 4700 10800 4700
 Wire Notes Line
 	9750 4250 13000 4250
 Wire Notes Line
@@ -3392,14 +3365,11 @@ F 3 "" H 10750 5550 50  0001 C CNN
 	1    10750 5550
 	1    0    0    -1  
 $EndComp
-Connection ~ 10700 4800
 Wire Wire Line
 	11100 4800 11300 4800
 Connection ~ 11300 4800
 Wire Wire Line
-	11300 4800 11300 4600
-Wire Wire Line
-	10700 4800 10750 4800
+	11300 4800 11300 4700
 Wire Wire Line
 	10750 4800 10750 5550
 Connection ~ 10750 4800
@@ -3435,4 +3405,26 @@ F 3 "" H 12950 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12800 4600 12950 4600
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5DB64CFB
+P 10400 4800
+F 0 "J1" H 10400 4900 50  0000 C CNN
+F 1 "Power In" H 10400 4600 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 10400 4800 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10400 4800 50  0001 C CNN
+F 4 "Power input" H 0   0   50  0001 C CNN "Description"
+F 5 "JST" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "B2B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
+	1    10400 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10600 4800 10750 4800
+Wire Wire Line
+	11200 4700 11300 4700
+Connection ~ 11300 4700
+Wire Wire Line
+	11300 4700 11300 4600
 $EndSCHEMATC
