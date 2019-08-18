@@ -3397,6 +3397,7 @@ Text Label 11950 5100 0    50   ~ 0
 PROT_PWR_IN
 Text Label 10650 4700 0    50   ~ 0
 UNSW_PWR_IN
+<<<<<<< HEAD
 $Comp
 L Device:Jumper JP1
 U 1 1 5DE7782A
@@ -3433,4 +3434,6 @@ F 3 "" H 3150 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 5100 3150 5400
+=======
+>>>>>>> parent of 1cf6846... adding jumper to 3V3 trace
 $EndSCHEMATC
