@@ -592,7 +592,7 @@ F 3 "" H 2350 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 5450 2450 5400
+	2450 5450 2450 5350
 Connection ~ 2450 5350
 Wire Wire Line
 	2300 5550 2350 5550
@@ -3400,37 +3400,35 @@ UNSW_PWR_IN
 $Comp
 L Device:Jumper JP1
 U 1 1 5DE7782A
-P 2800 5400
-F 0 "JP1" H 2800 5600 50  0000 C CNN
-F 1 "0Ω" H 2800 5320 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 2800 5400 50  0001 C CNN
-F 3 "http://www.koaspeer.com/catimages/Products/RK73B/RK73B.pdf" H 2800 5400 50  0001 C CNN
-F 4 "Zero Ohm Jumper" H 50  2950 50  0001 C CNN "Characteristics"
-F 5 "Zero Ohm Jumper" H 50  2950 50  0001 C CNN "Description"
-F 6 "KOA Speer Electronics" H 50  2950 50  0001 C CNN "Manufacturer"
-F 7 "RK73Z2ETTD" H 50  2950 50  0001 C CNN "Manufacturers Part Number"
-F 8 "1210in/3225mm" H 50  2950 50  0001 C CNN "Package ID"
-	1    2800 5400
+P 2750 2450
+F 0 "JP1" H 2750 2600 50  0000 C CNN
+F 1 "0Ω" H 2750 2370 50  0000 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" H 2750 2450 50  0001 C CNN
+F 3 "http://www.koaspeer.com/catimages/Products/RK73B/RK73B.pdf" H 2750 2450 50  0001 C CNN
+F 4 "Zero Ohm Jumper" H 0   0   50  0001 C CNN "Characteristics"
+F 5 "Zero Ohm Jumper" H 0   0   50  0001 C CNN "Description"
+F 6 "KOA Speer Electronics" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "RK73Z2ETTD" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "1210in/3225mm" H 0   0   50  0001 C CNN "Package ID"
+	1    2750 2450
 	1    0    0    -1  
 $EndComp
+Connection ~ 2300 2450
 Wire Wire Line
-	2450 5400 2500 5400
-Wire Wire Line
-	3100 5400 3150 5400
-Connection ~ 2450 5400
-Wire Wire Line
-	2450 5400 2450 5350
+	2300 2450 2450 2450
 $Comp
-L power:+1V8 #PWR?
-U 1 1 5DF7B81F
-P 3150 5100
-F 0 "#PWR?" H 3150 4950 50  0001 C CNN
-F 1 "+1V8" H 3150 5240 50  0000 C CNN
-F 2 "" H 3150 5100 50  0001 C CNN
-F 3 "" H 3150 5100 50  0001 C CNN
-	1    3150 5100
+L power:+3V3 #PWR0169
+U 1 1 5DEA8E42
+P 3100 2400
+F 0 "#PWR0169" H 3100 2250 50  0001 C CNN
+F 1 "+3V3" H 3100 2540 50  0000 C CNN
+F 2 "" H 3100 2400 50  0001 C CNN
+F 3 "" H 3100 2400 50  0001 C CNN
+	1    3100 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 5100 3150 5400
+	3050 2450 3100 2450
+Wire Wire Line
+	3100 2450 3100 2400
 $EndSCHEMATC
