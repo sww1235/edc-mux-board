@@ -3427,4 +3427,8 @@ Wire Wire Line
 Connection ~ 11300 4700
 Wire Wire Line
 	11300 4700 11300 4600
+Text Label 11950 5100 0    50   ~ 0
+PROT_PWR_IN
+Text Label 10650 4700 0    50   ~ 0
+UNSW_PWR_IN
 $EndSCHEMATC
