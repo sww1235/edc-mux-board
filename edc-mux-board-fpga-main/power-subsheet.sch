@@ -3397,4 +3397,38 @@ Text Label 11950 5100 0    50   ~ 0
 PROT_PWR_IN
 Text Label 10650 4700 0    50   ~ 0
 UNSW_PWR_IN
+$Comp
+L Device:Jumper JP1
+U 1 1 5DE7782A
+P 2750 2450
+F 0 "JP1" H 2750 2600 50  0000 C CNN
+F 1 "0Ω" H 2750 2370 50  0000 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" H 2750 2450 50  0001 C CNN
+F 3 "http://www.koaspeer.com/catimages/Products/RK73B/RK73B.pdf" H 2750 2450 50  0001 C CNN
+F 4 "Zero Ohm Jumper" H 0   0   50  0001 C CNN "Characteristics"
+F 5 "Zero Ohm Jumper" H 0   0   50  0001 C CNN "Description"
+F 6 "KOA Speer Electronics" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "RK73Z2ETTD" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "1210in/3225mm" H 0   0   50  0001 C CNN "Package ID"
+	1    2750 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 2450
+Wire Wire Line
+	2300 2450 2450 2450
+$Comp
+L power:+3V3 #PWR0169
+U 1 1 5DEA8E42
+P 3100 2400
+F 0 "#PWR0169" H 3100 2250 50  0001 C CNN
+F 1 "+3V3" H 3100 2540 50  0000 C CNN
+F 2 "" H 3100 2400 50  0001 C CNN
+F 3 "" H 3100 2400 50  0001 C CNN
+	1    3100 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2450 3100 2450
+Wire Wire Line
+	3100 2450 3100 2400
 $EndSCHEMATC
