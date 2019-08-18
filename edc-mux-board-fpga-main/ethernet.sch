@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 19 17
+Sheet 17 17
 Title "EDC Mux Board"
 Date "2019-05-17"
 Rev "2"
@@ -184,7 +184,7 @@ Connection ~ 6100 2900
 Wire Wire Line
 	6100 2900 6750 2900
 Wire Wire Line
-	5900 2350 5650 2350
+	5900 2350 5700 2350
 Connection ~ 5900 2350
 Wire Wire Line
 	5900 2750 5900 2850
@@ -536,7 +536,7 @@ Connection ~ 3000 1800
 Wire Wire Line
 	3000 1800 3150 1800
 Wire Wire Line
-	3150 1800 3700 1800
+	3150 1800 3300 1800
 Wire Wire Line
 	3950 1800 3950 2500
 Connection ~ 3150 1800
@@ -954,4 +954,26 @@ Wire Wire Line
 Connection ~ 7750 4800
 Text Notes 6700 5150 0    50   ~ 0
 LEDs used are panel mount Q6 series from\nAPEM\nConnected using wire to board headers
+Wire Wire Line
+	3300 1800 3300 1300
+Wire Wire Line
+	3300 1300 5700 1300
+Wire Wire Line
+	5700 1300 5700 2350
+Connection ~ 3300 1800
+Wire Wire Line
+	3300 1800 3700 1800
+Connection ~ 5700 2350
+Wire Wire Line
+	5700 2350 5650 2350
+Text Label 6550 2900 0    50   ~ 0
+TD+
+Text Label 6550 3100 0    50   ~ 0
+TD-
+Text Label 6550 3250 0    50   ~ 0
+RD+
+Text Label 6550 3450 0    50   ~ 0
+RD-
+Text Label 6550 3000 0    50   ~ 0
+TCT
 $EndSCHEMATC
