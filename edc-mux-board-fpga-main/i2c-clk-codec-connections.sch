@@ -426,13 +426,13 @@ Text Label 3200 4700 0    50   ~ 0
 ~RESET~2
 Text Label 3200 4800 0    50   ~ 0
 ~RESET~3
-Text Label 3200 4900 0    50   ~ 0
+Text Label 3200 5800 0    50   ~ 0
 ~RESET~4
-Text Label 3200 5000 0    50   ~ 0
+Text Label 3200 5900 0    50   ~ 0
 ~RESET~5
-Text Label 3200 5100 0    50   ~ 0
+Text Label 3200 6000 0    50   ~ 0
 ~RESET~6
-Text Label 3200 5200 0    50   ~ 0
+Text Label 3200 6100 0    50   ~ 0
 ~RESET~7
 Entry Wire Line
 	3550 4500 3650 4600
@@ -443,13 +443,13 @@ Entry Wire Line
 Entry Wire Line
 	3550 4800 3650 4900
 Entry Wire Line
-	3550 4900 3650 5000
+	3550 5800 3650 5900
 Entry Wire Line
-	3550 5000 3650 5100
+	3550 5900 3650 6000
 Entry Wire Line
-	3550 5100 3650 5200
+	3550 6000 3650 6100
 Entry Wire Line
-	3550 5200 3650 5300
+	3550 6100 3650 6200
 Wire Wire Line
 	3100 4500 3550 4500
 Wire Wire Line
@@ -459,13 +459,13 @@ Wire Wire Line
 Wire Wire Line
 	3100 4800 3550 4800
 Wire Wire Line
-	3100 4900 3550 4900
+	3100 5800 3550 5800
 Wire Wire Line
-	3100 5000 3550 5000
+	3100 5900 3550 5900
 Wire Wire Line
-	3100 5100 3550 5100
+	3100 6000 3550 6000
 Wire Wire Line
-	3100 5200 3550 5200
+	3100 6100 3550 6100
 Wire Bus Line
 	3650 6800 2950 6800
 $Comp
@@ -1296,10 +1296,10 @@ NoConn ~ 3100 5400
 NoConn ~ 3100 5500
 NoConn ~ 3100 5600
 NoConn ~ 3100 5700
-NoConn ~ 3100 5800
-NoConn ~ 3100 5900
-NoConn ~ 3100 6000
-NoConn ~ 3100 6100
+NoConn ~ 3100 4900
+NoConn ~ 3100 5000
+NoConn ~ 3100 5100
+NoConn ~ 3100 5200
 Wire Bus Line
 	8350 3350 8350 5550
 Wire Bus Line
