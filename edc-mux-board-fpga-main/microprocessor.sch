@@ -450,7 +450,7 @@ U 1 1 5CB5AB1F
 P 3050 8450
 F 0 "U37" H 2800 8700 50  0000 C CNN
 F 1 "TPD3S014" H 3150 8700 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3050 8800 50  0001 C CNN
+F 2 "SW-Package-TO-SOT-SMD:SOT-23-6" H 3050 8800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd3s014.pdf" H 2850 8700 50  0001 C CNN
 F 4 "ESD protection and current limiting for USB ports" H 0   0   50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
@@ -622,7 +622,7 @@ U 1 1 5CBD4266
 P 6000 1150
 F 0 "U40" H 6200 950 50  0000 C CNN
 F 1 "LTC4412" H 5950 1350 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6000 1450 50  0001 C CNN
+F 2 "SW-Package-TO-SOT-SMD:TSOT-23-6" H 6000 1450 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf" H 6550 1950 50  0001 C CNN
 F 4 "Linear Technologies" H 6000 1150 50  0001 C CNN "Manufacturer"
 F 5 "LTC4412HS6#TRMPBF" H 6000 1150 50  0001 C CNN "Manufacturers Part Number"

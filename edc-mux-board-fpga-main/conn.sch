@@ -1343,7 +1343,7 @@ AR Path="/5CC6CC1A/5CC6D4D3/5D554E3D" Ref="D34"  Part="1"
 AR Path="/5CC6CC1A/5CC6D4B3/5D554E3D" Ref="D24"  Part="1" 
 F 0 "D74" H 4550 5750 50  0000 R CNN
 F 1 "30pF 30kV" V 5000 5250 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 4700 5800 50  0001 C CNN
+F 2 "SW-gSMD:D_0402_1005Metric" H 4700 5800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 4700 5800 50  0001 C CNN
 F 4 "30pF 30kV 100uA @5V" H 4700 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4700 5800 50  0001 C CNN "Manufacturer"
@@ -1368,7 +1368,7 @@ AR Path="/5CC6CC1A/5CC6D4D3/5D554E48" Ref="D36"  Part="1"
 AR Path="/5CC6CC1A/5CC6D4B3/5D554E48" Ref="D26"  Part="1" 
 F 0 "D76" H 5600 5750 50  0000 R CNN
 F 1 "30pF 30kV" V 6000 7050 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 5750 5800 50  0001 C CNN
+F 2 "SW-gSMD:D_0402_1005Metric" H 5750 5800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5750 5800 50  0001 C CNN
 F 4 "30pF 30kV 100uA @5V" H 5750 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5750 5800 50  0001 C CNN "Manufacturer"
@@ -1611,7 +1611,7 @@ AR Path="/5CC6CC1A/5CC6D4D3/5D554EB1" Ref="D33"  Part="1"
 AR Path="/5CC6CC1A/5CC6D4B3/5D554EB1" Ref="D23"  Part="1" 
 F 0 "D73" H 4300 5750 50  0000 L CNN
 F 1 "30pF 30kV" V 4750 5000 50  0000 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 4550 5800 50  0001 C CNN
+F 2 "SW-gSMD:D_0402_1005Metric" H 4550 5800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 4550 5800 50  0001 C CNN
 F 4 "30pF 30kV 100uA @5V" H 4550 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4550 5800 50  0001 C CNN "Manufacturer"
@@ -1641,7 +1641,7 @@ AR Path="/5CC6CC1A/5CC6D4D3/5D554EBF" Ref="D32"  Part="1"
 AR Path="/5CC6CC1A/5CC6D4B3/5D554EBF" Ref="D22"  Part="1" 
 F 0 "D72" H 4150 5750 50  0000 L CNN
 F 1 "30pF 30kV" V 4500 5150 50  0000 L CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 4400 5800 50  0001 C CNN
+F 2 "SW-gSMD:D_0402_1005Metric" H 4400 5800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 4400 5800 50  0001 C CNN
 F 4 "30pF 30kV 100uA @5V" H 4400 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4400 5800 50  0001 C CNN "Manufacturer"
@@ -1669,7 +1669,7 @@ AR Path="/5CC6CC1A/5CC6D4D3/5D554ECC" Ref="D31"  Part="1"
 AR Path="/5CC6CC1A/5CC6D4B3/5D554ECC" Ref="D21"  Part="1" 
 F 0 "D71" H 4100 5750 50  0000 R CNN
 F 1 "30pF 30kV" V 4250 5700 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 4250 5800 50  0001 C CNN
+F 2 "SW-gSMD:D_0402_1005Metric" H 4250 5800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 4250 5800 50  0001 C CNN
 F 4 "30pF 30kV 100uA @5V" H 4250 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4250 5800 50  0001 C CNN "Manufacturer"
@@ -1697,7 +1697,7 @@ AR Path="/5CC6CC1A/5CC6D4D3/5D554ED9" Ref="D37"  Part="1"
 AR Path="/5CC6CC1A/5CC6D4B3/5D554ED9" Ref="D27"  Part="1" 
 F 0 "D77" H 5750 5850 50  0000 R CNN
 F 1 "30pF 30kV" V 6050 5100 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 5900 5800 50  0001 C CNN
+F 2 "SW-gSMD:D_0402_1005Metric" H 5900 5800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 5900 5800 50  0001 C CNN
 F 4 "30pF 30kV 100uA @5V" H 5900 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5900 5800 50  0001 C CNN "Manufacturer"
@@ -1724,7 +1724,7 @@ AR Path="/5CC6CC1A/5CC6D4D3/5D554EE5" Ref="D38"  Part="1"
 AR Path="/5CC6CC1A/5CC6D4B3/5D554EE5" Ref="D28"  Part="1" 
 F 0 "D78" H 5900 5850 50  0000 R CNN
 F 1 "30pF 30kV" V 6100 5250 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6050 5800 50  0001 C CNN
+F 2 "SW-gSMD:D_0402_1005Metric" H 6050 5800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6050 5800 50  0001 C CNN
 F 4 "30pF 30kV 100uA @5V" H 6050 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 6050 5800 50  0001 C CNN "Manufacturer"
@@ -1751,7 +1751,7 @@ AR Path="/5CC6CC1A/5CC6D4D3/5D554EF1" Ref="D39"  Part="1"
 AR Path="/5CC6CC1A/5CC6D4B3/5D554EF1" Ref="D29"  Part="1" 
 F 0 "D79" H 6050 5850 50  0000 R CNN
 F 1 "30pF 30kV" V 6150 5400 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6200 5800 50  0001 C CNN
+F 2 "SW-gSMD:D_0402_1005Metric" H 6200 5800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6200 5800 50  0001 C CNN
 F 4 "30pF 30kV 100uA @5V" H 6200 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 6200 5800 50  0001 C CNN "Manufacturer"
@@ -1840,7 +1840,7 @@ AR Path="/5CC6CC1A/5CC6D4D3/5D554F1E" Ref="D40"  Part="1"
 AR Path="/5CC6CC1A/5CC6D4B3/5D554F1E" Ref="D30"  Part="1" 
 F 0 "D80" H 6200 5850 50  0000 R CNN
 F 1 "30pF 30kV" V 6200 5550 50  0000 R CNN
-F 2 "Diode_SMD:D_0402_1005Metric" H 6350 5800 50  0001 C CNN
+F 2 "SW-gSMD:D_0402_1005Metric" H 6350 5800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1005_datasheet.pdf.pdf" H 6350 5800 50  0001 C CNN
 F 4 "30pF 30kV 100uA @5V" H 6350 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 6350 5800 50  0001 C CNN "Manufacturer"

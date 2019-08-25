@@ -508,7 +508,7 @@ AR Path="/5CAA362B/5CC5E70E" Ref="U?"  Part="1"
 AR Path="/5CC3E5DC/5CC5E70E" Ref="U9"  Part="1" 
 F 0 "U9" H 7000 1700 50  0000 C CNN
 F 1 "LTC4412" H 6750 2100 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6800 2200 50  0001 C CNN
+F 2 "SW-Package-TO-SOT-SMD:TSOT-23-6" H 6800 2200 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf" H 7350 2700 50  0001 C CNN
 F 4 "Linear Technologies" H 6800 1900 50  0001 C CNN "Manufacturer"
 F 5 "LTC4412HS6#TRMPBF" H 6800 1900 50  0001 C CNN "Manufacturers Part Number"

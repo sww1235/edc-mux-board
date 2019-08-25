@@ -162,7 +162,7 @@ U 1 1 5CB411F7
 P 11550 5050
 F 0 "U41" H 11750 4800 50  0000 C CNN
 F 1 "S25FL128L" H 11500 5300 50  0000 C CNN
-F 2 "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm" H 11550 5050 50  0001 C CNN
+F 2 "SW-Package-SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm" H 11550 5050 50  0001 C CNN
 F 3 "https://www.cypress.com/file/316171/download" H 11550 5050 50  0001 C CNN
 F 4 "256Mb flash memory for FPGA programming" H 0   0   50  0001 C CNN "Description"
 F 5 "Cypress" H 0   0   50  0001 C CNN "Manufacturer"
