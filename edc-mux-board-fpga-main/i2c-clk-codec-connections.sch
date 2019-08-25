@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 13 19
+Sheet 13 17
 Title "EDC Mux Board"
 Date "2019-05-17"
 Rev "2"
@@ -137,12 +137,12 @@ AR Path="/5CC6CC1A/5CC6D47B/647ECCE3" Ref="C?"  Part="1"
 AR Path="/5CC6CC1A/5CCDCE34/647ECCE3" Ref="C265"  Part="1" 
 F 0 "C265" V 1200 1350 50  0000 C CNN
 F 1 "100nF X7R" V 1300 1350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 1350 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1450 1350 50  0001 C CNN
-F 4 "0603in/1608mm" H -6000 -2400 50  0001 C CNN "Package ID"
-F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1450 1350 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1450 1350 50  0001 C CNN
+F 4 "0402in/1005mm" H -6000 -2400 50  0001 C CNN "Package ID"
+F 5 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    1450 1350
 	0    1    -1   0   
@@ -426,13 +426,13 @@ Text Label 3200 4700 0    50   ~ 0
 ~RESET~2
 Text Label 3200 4800 0    50   ~ 0
 ~RESET~3
-Text Label 3200 4900 0    50   ~ 0
+Text Label 3200 5800 0    50   ~ 0
 ~RESET~4
-Text Label 3200 5000 0    50   ~ 0
+Text Label 3200 5900 0    50   ~ 0
 ~RESET~5
-Text Label 3200 5100 0    50   ~ 0
+Text Label 3200 6000 0    50   ~ 0
 ~RESET~6
-Text Label 3200 5200 0    50   ~ 0
+Text Label 3200 6100 0    50   ~ 0
 ~RESET~7
 Entry Wire Line
 	3550 4500 3650 4600
@@ -443,13 +443,13 @@ Entry Wire Line
 Entry Wire Line
 	3550 4800 3650 4900
 Entry Wire Line
-	3550 4900 3650 5000
+	3550 5800 3650 5900
 Entry Wire Line
-	3550 5000 3650 5100
+	3550 5900 3650 6000
 Entry Wire Line
-	3550 5100 3650 5200
+	3550 6000 3650 6100
 Entry Wire Line
-	3550 5200 3650 5300
+	3550 6100 3650 6200
 Wire Wire Line
 	3100 4500 3550 4500
 Wire Wire Line
@@ -459,13 +459,13 @@ Wire Wire Line
 Wire Wire Line
 	3100 4800 3550 4800
 Wire Wire Line
-	3100 4900 3550 4900
+	3100 5800 3550 5800
 Wire Wire Line
-	3100 5000 3550 5000
+	3100 5900 3550 5900
 Wire Wire Line
-	3100 5100 3550 5100
+	3100 6000 3550 6000
 Wire Wire Line
-	3100 5200 3550 5200
+	3100 6100 3550 6100
 Wire Bus Line
 	3650 6800 2950 6800
 $Comp
@@ -476,12 +476,12 @@ AR Path="/5CC6CC1A/5CC6D47B/648CC406" Ref="C?"  Part="1"
 AR Path="/5CC6CC1A/5CCDCE34/648CC406" Ref="C267"  Part="1" 
 F 0 "C267" V 2450 4100 50  0000 C CNN
 F 1 "100nF X7R" V 2550 4100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2700 4100 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 2700 4100 50  0001 C CNN
-F 4 "0603in/1608mm" H -4750 350 50  0001 C CNN "Package ID"
-F 5 "Kemet" H -2750 1450 50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H -2750 1450 50  0001 C CNN "Manufacturers Part Number"
-F 7 "CAP CER 0.1UF 25V X7R 0603" H -2750 1450 50  0001 C CNN "Characteristics"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2700 4100 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2700 4100 50  0001 C CNN
+F 4 "0402in/1005mm" H -4750 350 50  0001 C CNN "Package ID"
+F 5 "AVX" H -2750 1450 50  0001 C CNN "Manufacturer"
+F 6 "04023C104JAT2A" H -2750 1450 50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H -2750 1450 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H -2750 1450 50  0001 C CNN "Description"
 	1    2700 4100
 	0    1    -1   0   
@@ -655,12 +655,12 @@ AR Path="/5CC6CC1A/5CC6D47B/649844DC" Ref="C?"  Part="1"
 AR Path="/5CC6CC1A/5CCDCE34/649844DC" Ref="C269"  Part="1" 
 F 0 "C269" V 4250 3100 50  0000 C CNN
 F 1 "100nF X7R" V 4350 3100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4500 3100 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4500 3100 50  0001 C CNN
-F 4 "0603in/1608mm" H -2950 -650 50  0001 C CNN "Package ID"
-F 5 "Kemet" H -2600 1700 50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H -2600 1700 50  0001 C CNN "Manufacturers Part Number"
-F 7 "CAP CER 0.1UF 25V X7R 0603" H -2600 1700 50  0001 C CNN "Characteristics"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4500 3100 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4500 3100 50  0001 C CNN
+F 4 "0402in/1005mm" H -2950 -650 50  0001 C CNN "Package ID"
+F 5 "AVX" H -2600 1700 50  0001 C CNN "Manufacturer"
+F 6 "04023C104JAT2A" H -2600 1700 50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H -2600 1700 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H -2600 1700 50  0001 C CNN "Description"
 	1    4500 3100
 	0    -1   -1   0   
@@ -1296,10 +1296,10 @@ NoConn ~ 3100 5400
 NoConn ~ 3100 5500
 NoConn ~ 3100 5600
 NoConn ~ 3100 5700
-NoConn ~ 3100 5800
-NoConn ~ 3100 5900
-NoConn ~ 3100 6000
-NoConn ~ 3100 6100
+NoConn ~ 3100 4900
+NoConn ~ 3100 5000
+NoConn ~ 3100 5100
+NoConn ~ 3100 5200
 Wire Bus Line
 	8350 3350 8350 5550
 Wire Bus Line

@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 19
+Sheet 1 17
 Title "EDC Mux Board"
 Date "2019-05-17"
 Rev "2"
@@ -35,46 +35,11 @@ F2 "DOUT[0..7]" O L 4900 5950 50
 F3 "DIN[0..7]" I L 4900 5850 50 
 F4 "BCLK[0..7]" O L 4900 6050 50 
 F5 "WCLK[0..7]" O L 4900 6150 50 
-F6 "L_OUT[0..7]" O R 6850 5700 50 
-F7 "R_OUT[0..7]" O R 6850 5600 50 
-F8 "AUD_GND[0..7]" U R 6850 5500 50 
-F9 "R_IN[0..7]" O R 6850 5300 50 
-F10 "L_IN[0..7]" O R 6850 5400 50 
-F11 "SCL_Master" I L 4900 5400 50 
-F12 "SDA_Master" B L 4900 5300 50 
-F13 "~RESET~I2C" I L 4900 5500 50 
-F14 "SDA_HV[0..7]" B R 6850 6000 50 
-F15 "SCL_HV[0..7]" O R 6850 6100 50 
-$EndSheet
-$Sheet
-S 4900 8000 1950 1000
-U 5CBF625C
-F0 "Left Side Connector Interconnects" 50
-F1 "left-conn.sch" 50
-F2 "R_IN[0..3]" O R 6850 8100 50 
-F3 "L_IN[0..3]" O R 6850 8200 50 
-F4 "AUD_GND[0..3]" U R 6850 8300 50 
-F5 "SDA_HV[0..3]" B R 6850 8800 50 
-F6 "SCL_HV[0..3]" I R 6850 8900 50 
-F7 "L_OUT[0..3]" O R 6850 8500 50 
-F8 "R_OUT[0..3]" O R 6850 8400 50 
-F9 "ID_PIN[0..3]" U L 4900 8100 50 
-F10 "INT_[0..3]" O L 4900 8200 50 
-$EndSheet
-$Sheet
-S 4900 9200 1950 1000
-U 5CBF628A
-F0 "Right Side Connector Interconnects" 50
-F1 "right-conn.sch" 50
-F2 "R_IN[4..7]" O R 6850 9300 50 
-F3 "L_IN[4..7]" O R 6850 9400 50 
-F4 "AUD_GND[4..7]" U R 6850 9500 50 
-F5 "SDA_HV[4..7]" B R 6850 10000 50 
-F6 "SCL_HV[4..7]" I R 6850 10100 50 
-F7 "L_OUT[4..7]" O R 6850 9700 50 
-F8 "R_OUT[4..7]" O R 6850 9600 50 
-F9 "ID_PIN[4..7]" U L 4900 9500 50 
-F10 "INT_[4..7]" O L 4900 9600 50 
+F6 "SCL_Master" I L 4900 5400 50 
+F7 "SDA_Master" B L 4900 5300 50 
+F8 "~RESET~I2C" I L 4900 5500 50 
+F9 "ID_PIN[0..7]" B R 6850 5850 50 
+F10 "INT[0..7]" O R 6850 5750 50 
 $EndSheet
 Text Notes 17350 6950 0    50   ~ 0
 Top, left and right connectors use\nwire to board connectors to connect\nto actual chassis mounted M12 connectors\nand devices\nBottom connector is a DD78HD connector\nwhich has signals for 8 more codecs and\npower and ground\n\nTop Connectors: (4)\n- LEDs (Act, Link, Pwr)\n- LED Enable (Momentary)\n- Power Switch (Toggle)\n\nLeft Connectors: (5)\n- Ethernet\n- Conn 0\n- Conn 1\n- Conn 2\n- Conn 3\n\nRight Connectors: (5)\n- Power In (+12V)\n- Conn 4\n- Conn 5\n- Conn 6\n- Conn 7\n\nBottom Connectors: (8)\n- Conn 8\n- Conn 9\n- Conn 10\n- Conn 11\n- Conn 12\n- Conn 13\n- Conn 14\n- Conn 15\n\n
@@ -145,75 +110,19 @@ Wire Bus Line
 Wire Bus Line
 	3800 6150 4900 6150
 Wire Bus Line
-	6850 5300 8100 5300
-Wire Bus Line
-	6850 5400 8000 5400
-Wire Bus Line
-	6850 5500 7900 5500
-Wire Bus Line
-	6850 5600 7800 5600
-Wire Bus Line
-	6850 5700 7700 5700
-Wire Bus Line
-	6850 6000 7600 6000
-Wire Bus Line
-	6850 6100 7500 6100
-Wire Bus Line
 	900  8100 3500 8100
 Wire Bus Line
 	800  8200 3600 8200
 Wire Bus Line
 	800  8200 800  4750
-Text Label 6900 5300 0    50   ~ 0
-R_IN[0..7]
-Text Label 6900 5400 0    50   ~ 0
-L_IN[0..7]
-Text Label 6900 5500 0    50   ~ 0
-AUD_GND[0..7]
-Text Label 6900 5600 0    50   ~ 0
-R_OUT[0..7]
-Text Label 6900 5700 0    50   ~ 0
-L_OUT[0..7]
-Text Label 6900 6000 0    50   ~ 0
-SDA_HV[0..7]
-Text Label 6900 6100 0    50   ~ 0
-SCL_HV[0..7]
-Text Label 6950 8900 0    50   ~ 0
-SCL_HV[0..3]
-Text Label 6950 8800 0    50   ~ 0
-SDA_HV[0..3]
-Text Label 6950 8500 0    50   ~ 0
-L_OUT[0..3]
-Text Label 6950 8400 0    50   ~ 0
-R_OUT[0..3]
-Text Label 6950 8300 0    50   ~ 0
-AUD_GND[0..3]
-Text Label 6950 8200 0    50   ~ 0
-L_IN[0..3]
-Text Label 6950 8100 0    50   ~ 0
-R_IN[0..3]
-Text Label 6950 10100 0    50   ~ 0
-SCL_HV[4..7]
-Text Label 6950 10000 0    50   ~ 0
-SDA_HV[4..7]
-Text Label 6950 9700 0    50   ~ 0
-L_OUT[4..7]
-Text Label 6950 9600 0    50   ~ 0
-R_OUT[4..7]
-Text Label 6950 9500 0    50   ~ 0
-AUD_GND[4..7]
-Text Label 6950 9400 0    50   ~ 0
-L_IN[4..7]
-Text Label 6950 9300 0    50   ~ 0
-R_IN[4..7]
 Text Label 950  4750 0    50   ~ 0
 DEV_INT[0..15]
 Text Label 950  4850 0    50   ~ 0
 DEV_ID[0..15]
-Text Label 4250 8200 0    50   ~ 0
-DEV_INT[0..3]
-Text Label 4250 8100 0    50   ~ 0
-DEV_ID[0..3]
+Text Label 7000 5750 0    50   ~ 0
+DEV_INT[0..7]
+Text Label 7000 5850 0    50   ~ 0
+DEV_ID[0..7]
 Text Label 3250 4550 0    50   ~ 0
 DIN[0..15]
 Text Label 3250 4650 0    50   ~ 0
@@ -462,104 +371,19 @@ Wire Bus Line
 	3800 7300 4900 7300
 Connection ~ 3800 6150
 Wire Bus Line
-	3950 8100 3950 9500
-Wire Bus Line
-	3950 9500 4900 9500
-Connection ~ 3950 8100
-Wire Bus Line
-	3950 8100 4900 8100
-Wire Bus Line
-	3750 8200 3750 9600
-Wire Bus Line
-	3750 9600 4900 9600
-Connection ~ 3750 8200
-Wire Bus Line
-	3750 8200 4900 8200
-Text Label 4250 9500 0    50   ~ 0
-DEV_ID[4..7]
-Text Label 4250 9600 0    50   ~ 0
-DEV_INT[4..7]
-Wire Bus Line
 	4900 7450 3500 7450
 Wire Bus Line
 	3500 7450 3500 8100
 Connection ~ 3500 8100
 Wire Bus Line
-	3500 8100 3950 8100
-Wire Bus Line
 	4900 7550 3600 7550
 Wire Bus Line
 	3600 7550 3600 8200
 Connection ~ 3600 8200
-Wire Bus Line
-	3600 8200 3750 8200
 Text Label 4250 7450 0    50   ~ 0
 DEV_ID[8..15]
 Text Label 4250 7550 0    50   ~ 0
 DEV_INT[8..15]
-Wire Bus Line
-	6850 10100 7500 10100
-Wire Bus Line
-	7500 10100 7500 8900
-Wire Bus Line
-	6850 8900 7500 8900
-Connection ~ 7500 8900
-Wire Bus Line
-	7500 8900 7500 6100
-Wire Bus Line
-	7600 6000 7600 8800
-Wire Bus Line
-	7600 10000 6850 10000
-Wire Bus Line
-	6850 8800 7600 8800
-Connection ~ 7600 8800
-Wire Bus Line
-	7600 8800 7600 10000
-Wire Bus Line
-	7700 5700 7700 8500
-Wire Bus Line
-	7700 9700 6850 9700
-Connection ~ 7700 8500
-Wire Bus Line
-	7700 8500 7700 9700
-Wire Bus Line
-	7800 5600 7800 8400
-Wire Bus Line
-	7800 9600 6850 9600
-Wire Bus Line
-	6850 8400 7800 8400
-Connection ~ 7800 8400
-Wire Bus Line
-	7800 8400 7800 9600
-Wire Bus Line
-	7900 5500 7900 8300
-Wire Bus Line
-	7900 9500 6850 9500
-Wire Bus Line
-	6850 8300 7900 8300
-Connection ~ 7900 8300
-Wire Bus Line
-	7900 8300 7900 9500
-Wire Bus Line
-	8000 5400 8000 8200
-Wire Bus Line
-	8000 9400 6850 9400
-Wire Bus Line
-	6850 8200 8000 8200
-Connection ~ 8000 8200
-Wire Bus Line
-	8000 8200 8000 9400
-Wire Bus Line
-	8100 5300 8100 8100
-Wire Bus Line
-	8100 9300 6850 9300
-Wire Bus Line
-	6850 8100 8100 8100
-Connection ~ 8100 8100
-Wire Bus Line
-	8100 8100 8100 9300
-Wire Bus Line
-	6850 8500 7700 8500
 $Sheet
 S 7300 3300 2550 1100
 U 5CA9FC45
@@ -572,4 +396,16 @@ F5 "MOSI" I L 7300 3700 50
 F6 "MISO" O L 7300 3800 50 
 F7 "~INT" O L 7300 3900 50 
 $EndSheet
+Wire Bus Line
+	7650 8100 7650 5850
+Wire Bus Line
+	7650 5850 6850 5850
+Wire Bus Line
+	3500 8100 7650 8100
+Wire Bus Line
+	7750 8200 7750 5750
+Wire Bus Line
+	7750 5750 6850 5750
+Wire Bus Line
+	3600 8200 7750 8200
 $EndSCHEMATC

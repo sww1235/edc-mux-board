@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 16 19
+Sheet 14 17
 Title "EDC Mux Board"
 Date "2019-05-17"
 Rev "2"
@@ -75,12 +75,12 @@ U 1 1 5CB0E5F1
 P 3900 2300
 F 0 "C287" V 3750 2300 50  0000 C CNN
 F 1 "100nF X7R" V 3700 2300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3900 2300 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 3900 2300 50  0001 C CNN
-F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3900 2300 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3900 2300 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    3900 2300
 	0    -1   -1   0   
@@ -269,12 +269,12 @@ U 1 1 5CB24B2E
 P 4750 2150
 F 0 "C291" V 4800 2050 50  0000 C CNN
 F 1 "100nF X7R" V 4700 2300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 2150 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4750 2150 50  0001 C CNN
-F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4750 2150 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 2150
 	0    -1   -1   0   
@@ -285,12 +285,12 @@ U 1 1 5CB2503C
 P 4750 2300
 F 0 "C292" V 4800 2200 50  0000 C CNN
 F 1 "100nF X7R" V 4700 2450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 2300 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4750 2300 50  0001 C CNN
-F 4 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
-F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
-F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2300 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4750 2300 50  0001 C CNN
+F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
+F 5 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 2300
 	0    -1   -1   0   
@@ -808,8 +808,6 @@ Text GLabel 3200 4200 0    50   Input ~ 0
 CLK3_MCU
 NoConn ~ 5050 5100
 NoConn ~ 5050 5200
-Text Notes 4950 5500 0    50   ~ 0
-SERCOM5 (I2C)\nMay reserve PB22 and PB23\nas well as PA22 and PA23
 Text HLabel 1750 3850 0    50   Input ~ 0
 DEV_INT[0..7]
 Text HLabel 3100 5000 0    50   Input ~ 0
@@ -904,9 +902,9 @@ Text HLabel 1050 5200 0    50   Output ~ 0
 SCL
 Text HLabel 1050 5100 0    50   BiDi ~ 0
 SDA
-Text Label 5200 3600 0    50   ~ 0
+Text Label 5200 4000 0    50   ~ 0
 SDA
-Text Label 5200 3700 0    50   ~ 0
+Text Label 5200 4100 0    50   ~ 0
 SCL
 Text Label 1450 5100 0    50   ~ 0
 SDA
@@ -1032,9 +1030,9 @@ CRC_ERROR
 Text HLabel 3100 5100 0    50   Input ~ 0
 INIT_DONE
 Wire Wire Line
-	5200 3600 5050 3600
+	5200 4000 5050 4000
 Wire Wire Line
-	5200 3700 5050 3700
+	5200 4100 5050 4100
 Text Label 4150 2450 1    50   ~ 0
 MCU_VDDA
 Text Label 4550 1800 0    50   ~ 0
@@ -1052,10 +1050,7 @@ Wire Wire Line
 	3550 3900 3100 3900
 Text HLabel 3100 3900 0    50   Output ~ 0
 SCK
-NoConn ~ 5050 4000
-NoConn ~ 5050 4100
 NoConn ~ 5050 4200
-NoConn ~ 5050 4300
 Text Notes 150  3400 0    50   ~ 0
 SERCOM0 (pins 17-20) (pin mux C)\nSPI\nControl A register nessary setup\nbit 30 - 0: MSB is transfered first\nbit 29 - 0x0: SCK low idle (SPI Mode 0)\nbit 28 - 0x0: SPI Mode 0\nbits 27:24 - 0x0 : SPI frame\nbits 21:20 - 0x2: MISO on SERCOM pad 2 (pin 18)\nbits 17:16 - 0x3: MOSI on SERCOM pad 0, SS on pad 1, \n     SCK on pad 3  (pins, 17, 19, 20)\nbits 4:2 - 0x3: SPI master mode\n
 Wire Wire Line
@@ -1066,7 +1061,7 @@ Text Notes 1850 2250 0    50   ~ 0
 Interrupts Used:\npin23 - int10\npin24 - int11\npin29 - int12\npin30 - int13\npin32 - int15\npin35 - int0\npin36 - int1\npin37 - int2\npin38 - int3\npin41 - int4\npin42 - int5\npin43 - int6\npin44 - int7\n
 Text HLabel 5200 3500 2    50   Output ~ 0
 ~RESET~_I2C
-Text HLabel 5200 4500 2    50   Output ~ 0
+Text HLabel 5200 4300 2    50   Output ~ 0
 ~RESET~_FPGA
 Text Label 3100 4900 2    50   ~ 0
 DEV_INT7
@@ -1077,9 +1072,9 @@ Wire Wire Line
 Wire Wire Line
 	5050 3500 5200 3500
 Wire Wire Line
-	5050 4500 5200 4500
+	5050 4300 5200 4300
 Text Notes 5250 3300 0    50   ~ 0
-SERCOM4 (pins 11-12) (pin mux D)\nI2C\nControl A register nessary setup\nbit 16 - 0x0: 4 wire operation disabled\nbits 4:2 - 0x5: selects i2c master mode
+SERCOM4 (pins 25-26) (pin mux D)\nI2C\nControl A register nessary setup\nbit 16 - 0x0: 4 wire operation disabled\nbits 4:2 - 0x5: selects i2c master mode
 NoConn ~ 3550 2900
 NoConn ~ 5050 3400
 NoConn ~ 5050 4600
@@ -1087,6 +1082,9 @@ Wire Wire Line
 	5200 3800 5050 3800
 Wire Wire Line
 	5200 3900 5050 3900
+NoConn ~ 5050 3600
+NoConn ~ 5050 3700
+NoConn ~ 5050 4500
 Wire Bus Line
 	2550 3850 2550 4800
 $EndSCHEMATC

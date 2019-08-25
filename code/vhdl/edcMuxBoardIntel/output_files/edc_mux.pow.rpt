@@ -1,5 +1,5 @@
 Power Analyzer report for edc_mux
-Sat May 04 14:13:29 2019
+Sat Aug 10 20:42:02 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -52,29 +52,29 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.12        ;
+; Average used               ; 1.16        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   4.0%      ;
+;     Processors 2-4         ;   5.3%      ;
 +----------------------------+-------------+
 
 
 +-------------------------------------------------------------------------------------------+
 ; Power Analyzer Summary                                                                    ;
 +----------------------------------------+--------------------------------------------------+
-; Power Analyzer Status                  ; Successful - Sat May 04 14:13:29 2019            ;
+; Power Analyzer Status                  ; Successful - Sat Aug 10 20:42:02 2019            ;
 ; Quartus Prime Version                  ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition      ;
 ; Revision Name                          ; edc_mux                                          ;
 ; Top-level Entity Name                  ; edc_mux                                          ;
 ; Family                                 ; Cyclone 10 LP                                    ;
 ; Device                                 ; 10CL040YF484I7G                                  ;
 ; Power Models                           ; Final                                            ;
-; Total Thermal Power Dissipation        ; 509.79 mW                                        ;
-; Core Dynamic Thermal Power Dissipation ; 347.70 mW                                        ;
-; Core Static Thermal Power Dissipation  ; 76.37 mW                                         ;
-; I/O Thermal Power Dissipation          ; 85.73 mW                                         ;
+; Total Thermal Power Dissipation        ; 511.15 mW                                        ;
+; Core Dynamic Thermal Power Dissipation ; 353.49 mW                                        ;
+; Core Static Thermal Power Dissipation  ; 76.39 mW                                         ;
+; I/O Thermal Power Dissipation          ; 81.27 mW                                         ;
 ; Power Estimation Confidence            ; Low: user provided insufficient toggle rate data ;
 +----------------------------------------+--------------------------------------------------+
 
@@ -1327,11 +1327,11 @@ refer to the applicable agreement for further details.
 ; Block Type                 ; Total Thermal Power by Block Type ; Block Thermal Dynamic Power ; Block Thermal Static Power (1) ; Routing Thermal Dynamic Power ; Block Average Toggle Rate (millions of transitions / sec) ;
 +----------------------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
 ; Embedded multiplier block  ; 14.78 mW                          ; 14.78 mW                    ; --                             ; 0.00 mW                       ;    0.667                                                  ;
-; Embedded multiplier output ; 4.08 mW                           ; 0.00 mW                     ; --                             ; 4.08 mW                       ;   24.004                                                  ;
-; Combinational cell         ; 156.78 mW                         ; 74.36 mW                    ; --                             ; 82.42 mW                      ;   23.992                                                  ;
-; Clock control block        ; 44.55 mW                          ; 0.00 mW                     ; --                             ; 44.55 mW                      ;   96.015                                                  ;
-; Register cell              ; 124.59 mW                         ; 66.49 mW                    ; --                             ; 58.10 mW                      ;   24.003                                                  ;
-; I/O                        ; 49.04 mW                          ; 11.11 mW                    ; 35.02 mW                       ; 2.92 mW                       ;   14.820                                                  ;
+; Embedded multiplier output ; 4.07 mW                           ; 0.00 mW                     ; --                             ; 4.07 mW                       ;   24.004                                                  ;
+; Combinational cell         ; 158.58 mW                         ; 74.28 mW                    ; --                             ; 84.29 mW                      ;   23.992                                                  ;
+; Clock control block        ; 46.40 mW                          ; 0.00 mW                     ; --                             ; 46.40 mW                      ;   96.015                                                  ;
+; Register cell              ; 126.33 mW                         ; 66.53 mW                    ; --                             ; 59.80 mW                      ;   24.003                                                  ;
+; I/O                        ; 45.00 mW                          ; 10.95 mW                    ; 30.72 mW                       ; 3.33 mW                       ;   14.820                                                  ;
 +----------------------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
 (1) The "Block Thermal Static Power" for all block types except Pins and the Voltage Regulator, if one exists, is part of the "Core Static Thermal Power Dissipation" value found on the PowerPlay Power Analyzer-->Summary report panel. The "Core Static Thermal Power Dissipation" also contains the thermal static power dissipated by the routing.
 
@@ -1341,93 +1341,93 @@ refer to the applicable agreement for further details.
 +------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+---------------------------------------------------------------------------------------------+
 ; Compilation Hierarchy Node               ; Total Thermal Power by Hierarchy (1) ; Block Thermal Dynamic Power (1) ; Block Thermal Static Power (1)(2) ; Routing Thermal Dynamic Power (1) ; Full Hierarchy Name                                                                         ;
 +------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+---------------------------------------------------------------------------------------------+
-; |edc_mux                                 ; 393.82 mW (213.20 mW)                ; 166.73 mW (90.84 mW)            ; 35.02 mW (35.02 mW)               ; 192.07 mW (87.34 mW)              ; |edc_mux                                                                                    ;
-;     |i2s_interface:\gen_codecs:0:CODEC   ; 1.14 mW (1.14 mW)                    ; 0.65 mW (0.65 mW)               ; --                                ; 0.49 mW (0.49 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:0:CODEC                                                  ;
-;     |i2s_interface:\gen_codecs:1:CODEC   ; 1.30 mW (1.30 mW)                    ; 0.64 mW (0.64 mW)               ; --                                ; 0.65 mW (0.65 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:1:CODEC                                                  ;
-;     |i2s_interface:\gen_codecs:2:CODEC   ; 1.15 mW (1.15 mW)                    ; 0.65 mW (0.65 mW)               ; --                                ; 0.51 mW (0.51 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:2:CODEC                                                  ;
-;     |i2s_interface:\gen_codecs:3:CODEC   ; 1.11 mW (1.11 mW)                    ; 0.64 mW (0.64 mW)               ; --                                ; 0.47 mW (0.47 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:3:CODEC                                                  ;
-;     |i2s_interface:\gen_codecs:4:CODEC   ; 1.15 mW (1.15 mW)                    ; 0.67 mW (0.67 mW)               ; --                                ; 0.49 mW (0.49 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:4:CODEC                                                  ;
-;     |i2s_interface:\gen_codecs:5:CODEC   ; 1.27 mW (1.27 mW)                    ; 0.66 mW (0.66 mW)               ; --                                ; 0.61 mW (0.61 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:5:CODEC                                                  ;
-;     |i2s_interface:\gen_codecs:6:CODEC   ; 1.17 mW (1.17 mW)                    ; 0.66 mW (0.66 mW)               ; --                                ; 0.51 mW (0.51 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:6:CODEC                                                  ;
-;     |i2s_interface:\gen_codecs:7:CODEC   ; 1.15 mW (1.15 mW)                    ; 0.66 mW (0.66 mW)               ; --                                ; 0.50 mW (0.50 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:7:CODEC                                                  ;
-;     |i2s_interface:\gen_codecs:8:CODEC   ; 1.21 mW (1.21 mW)                    ; 0.63 mW (0.63 mW)               ; --                                ; 0.59 mW (0.59 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:8:CODEC                                                  ;
-;     |i2s_interface:\gen_codecs:9:CODEC   ; 1.25 mW (1.25 mW)                    ; 0.67 mW (0.67 mW)               ; --                                ; 0.58 mW (0.58 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:9:CODEC                                                  ;
-;     |i2s_interface:\gen_codecs:10:CODEC  ; 1.22 mW (1.22 mW)                    ; 0.63 mW (0.63 mW)               ; --                                ; 0.60 mW (0.60 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:10:CODEC                                                 ;
-;     |i2s_interface:\gen_codecs:11:CODEC  ; 1.16 mW (1.16 mW)                    ; 0.64 mW (0.64 mW)               ; --                                ; 0.52 mW (0.52 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:11:CODEC                                                 ;
-;     |i2s_interface:\gen_codecs:12:CODEC  ; 1.14 mW (1.14 mW)                    ; 0.66 mW (0.66 mW)               ; --                                ; 0.48 mW (0.48 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:12:CODEC                                                 ;
-;     |i2s_interface:\gen_codecs:13:CODEC  ; 1.30 mW (1.30 mW)                    ; 0.65 mW (0.65 mW)               ; --                                ; 0.65 mW (0.65 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:13:CODEC                                                 ;
-;     |i2s_interface:\gen_codecs:14:CODEC  ; 1.24 mW (1.24 mW)                    ; 0.62 mW (0.62 mW)               ; --                                ; 0.62 mW (0.62 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:14:CODEC                                                 ;
-;     |i2s_interface:\gen_codecs:15:CODEC  ; 1.21 mW (1.21 mW)                    ; 0.66 mW (0.66 mW)               ; --                                ; 0.55 mW (0.55 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:15:CODEC                                                 ;
-;     |fullmixer:audio_mixer               ; 160.25 mW (126.41 mW)                ; 64.76 mW (48.23 mW)             ; --                                ; 95.49 mW (78.18 mW)               ; |edc_mux|fullmixer:audio_mixer                                                              ;
-;         |mixerChannel:channel            ; 33.84 mW (29.76 mW)                  ; 16.53 mW (16.53 mW)             ; --                                ; 17.31 mW (13.23 mW)               ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel                                         ;
+; |edc_mux                                 ; 395.16 mW (208.62 mW)                ; 166.54 mW (90.75 mW)            ; 30.72 mW (30.72 mW)               ; 197.90 mW (87.15 mW)              ; |edc_mux                                                                                    ;
+;     |i2s_interface:\gen_codecs:0:CODEC   ; 1.30 mW (1.30 mW)                    ; 0.66 mW (0.66 mW)               ; --                                ; 0.64 mW (0.64 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:0:CODEC                                                  ;
+;     |i2s_interface:\gen_codecs:1:CODEC   ; 1.25 mW (1.25 mW)                    ; 0.66 mW (0.66 mW)               ; --                                ; 0.59 mW (0.59 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:1:CODEC                                                  ;
+;     |i2s_interface:\gen_codecs:2:CODEC   ; 1.21 mW (1.21 mW)                    ; 0.64 mW (0.64 mW)               ; --                                ; 0.57 mW (0.57 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:2:CODEC                                                  ;
+;     |i2s_interface:\gen_codecs:3:CODEC   ; 1.34 mW (1.34 mW)                    ; 0.61 mW (0.61 mW)               ; --                                ; 0.73 mW (0.73 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:3:CODEC                                                  ;
+;     |i2s_interface:\gen_codecs:4:CODEC   ; 1.18 mW (1.18 mW)                    ; 0.64 mW (0.64 mW)               ; --                                ; 0.54 mW (0.54 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:4:CODEC                                                  ;
+;     |i2s_interface:\gen_codecs:5:CODEC   ; 1.12 mW (1.12 mW)                    ; 0.64 mW (0.64 mW)               ; --                                ; 0.48 mW (0.48 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:5:CODEC                                                  ;
+;     |i2s_interface:\gen_codecs:6:CODEC   ; 1.42 mW (1.42 mW)                    ; 0.66 mW (0.66 mW)               ; --                                ; 0.76 mW (0.76 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:6:CODEC                                                  ;
+;     |i2s_interface:\gen_codecs:7:CODEC   ; 1.52 mW (1.52 mW)                    ; 0.62 mW (0.62 mW)               ; --                                ; 0.89 mW (0.89 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:7:CODEC                                                  ;
+;     |i2s_interface:\gen_codecs:8:CODEC   ; 1.17 mW (1.17 mW)                    ; 0.62 mW (0.62 mW)               ; --                                ; 0.55 mW (0.55 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:8:CODEC                                                  ;
+;     |i2s_interface:\gen_codecs:9:CODEC   ; 1.21 mW (1.21 mW)                    ; 0.65 mW (0.65 mW)               ; --                                ; 0.56 mW (0.56 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:9:CODEC                                                  ;
+;     |i2s_interface:\gen_codecs:10:CODEC  ; 1.26 mW (1.26 mW)                    ; 0.67 mW (0.67 mW)               ; --                                ; 0.59 mW (0.59 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:10:CODEC                                                 ;
+;     |i2s_interface:\gen_codecs:11:CODEC  ; 1.36 mW (1.36 mW)                    ; 0.67 mW (0.67 mW)               ; --                                ; 0.68 mW (0.68 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:11:CODEC                                                 ;
+;     |i2s_interface:\gen_codecs:12:CODEC  ; 1.42 mW (1.42 mW)                    ; 0.65 mW (0.65 mW)               ; --                                ; 0.77 mW (0.77 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:12:CODEC                                                 ;
+;     |i2s_interface:\gen_codecs:13:CODEC  ; 1.35 mW (1.35 mW)                    ; 0.67 mW (0.67 mW)               ; --                                ; 0.68 mW (0.68 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:13:CODEC                                                 ;
+;     |i2s_interface:\gen_codecs:14:CODEC  ; 1.30 mW (1.30 mW)                    ; 0.65 mW (0.65 mW)               ; --                                ; 0.65 mW (0.65 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:14:CODEC                                                 ;
+;     |i2s_interface:\gen_codecs:15:CODEC  ; 1.22 mW (1.22 mW)                    ; 0.64 mW (0.64 mW)               ; --                                ; 0.58 mW (0.58 mW)                 ; |edc_mux|i2s_interface:\gen_codecs:15:CODEC                                                 ;
+;     |fullmixer:audio_mixer               ; 164.45 mW (130.00 mW)                ; 64.65 mW (48.18 mW)             ; --                                ; 99.81 mW (81.82 mW)               ; |edc_mux|fullmixer:audio_mixer                                                              ;
+;         |mixerChannel:channel            ; 34.45 mW (30.39 mW)                  ; 16.47 mW (16.47 mW)             ; --                                ; 17.98 mW (13.92 mW)               ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel                                         ;
 ;             |lpm_mult:Mult0              ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult0                          ;
 ;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult0|mult_g4t:auto_generated  ;
-;             |lpm_mult:Mult1              ; 0.15 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.15 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult1                          ;
-;                 |mult_g4t:auto_generated ; 0.15 mW (0.15 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.15 mW (0.15 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult1|mult_g4t:auto_generated  ;
-;             |lpm_mult:Mult2              ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult2                          ;
-;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult2|mult_g4t:auto_generated  ;
+;             |lpm_mult:Mult1              ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult1                          ;
+;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult1|mult_g4t:auto_generated  ;
+;             |lpm_mult:Mult2              ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult2                          ;
+;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult2|mult_g4t:auto_generated  ;
 ;             |lpm_mult:Mult3              ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult3                          ;
 ;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult3|mult_g4t:auto_generated  ;
-;             |lpm_mult:Mult4              ; 0.20 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.20 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult4                          ;
-;                 |mult_g4t:auto_generated ; 0.20 mW (0.20 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.20 mW (0.20 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult4|mult_g4t:auto_generated  ;
-;             |lpm_mult:Mult5              ; 0.13 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult5                          ;
-;                 |mult_g4t:auto_generated ; 0.13 mW (0.13 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.13 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult5|mult_g4t:auto_generated  ;
-;             |lpm_mult:Mult6              ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult6                          ;
-;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult6|mult_g4t:auto_generated  ;
-;             |lpm_mult:Mult7              ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult7                          ;
-;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult7|mult_g4t:auto_generated  ;
-;             |lpm_mult:Mult8              ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult8                          ;
-;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult8|mult_g4t:auto_generated  ;
-;             |lpm_mult:Mult9              ; 0.23 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.23 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult9                          ;
-;                 |mult_g4t:auto_generated ; 0.23 mW (0.23 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.23 mW (0.23 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult9|mult_g4t:auto_generated  ;
-;             |lpm_mult:Mult10             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult10                         ;
-;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult10|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult4              ; 0.16 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.16 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult4                          ;
+;                 |mult_g4t:auto_generated ; 0.16 mW (0.16 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.16 mW (0.16 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult4|mult_g4t:auto_generated  ;
+;             |lpm_mult:Mult5              ; 0.15 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.15 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult5                          ;
+;                 |mult_g4t:auto_generated ; 0.15 mW (0.15 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.15 mW (0.15 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult5|mult_g4t:auto_generated  ;
+;             |lpm_mult:Mult6              ; 0.13 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult6                          ;
+;                 |mult_g4t:auto_generated ; 0.13 mW (0.13 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.13 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult6|mult_g4t:auto_generated  ;
+;             |lpm_mult:Mult7              ; 0.13 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult7                          ;
+;                 |mult_g4t:auto_generated ; 0.13 mW (0.13 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.13 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult7|mult_g4t:auto_generated  ;
+;             |lpm_mult:Mult8              ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult8                          ;
+;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult8|mult_g4t:auto_generated  ;
+;             |lpm_mult:Mult9              ; 0.18 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.18 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult9                          ;
+;                 |mult_g4t:auto_generated ; 0.18 mW (0.18 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.18 mW (0.18 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult9|mult_g4t:auto_generated  ;
+;             |lpm_mult:Mult10             ; 0.10 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.10 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult10                         ;
+;                 |mult_g4t:auto_generated ; 0.10 mW (0.10 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.10 mW (0.10 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult10|mult_g4t:auto_generated ;
 ;             |lpm_mult:Mult11             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult11                         ;
 ;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult11|mult_g4t:auto_generated ;
 ;             |lpm_mult:Mult12             ; 0.10 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.10 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult12                         ;
 ;                 |mult_g4t:auto_generated ; 0.10 mW (0.10 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.10 mW (0.10 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult12|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult13             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult13                         ;
-;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult13|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult14             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult14                         ;
-;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult14|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult13             ; 0.14 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.14 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult13                         ;
+;                 |mult_g4t:auto_generated ; 0.14 mW (0.14 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.14 mW (0.14 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult13|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult14             ; 0.09 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.09 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult14                         ;
+;                 |mult_g4t:auto_generated ; 0.09 mW (0.09 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.09 mW (0.09 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult14|mult_g4t:auto_generated ;
 ;             |lpm_mult:Mult15             ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult15                         ;
 ;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult15|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult16             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult16                         ;
-;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult16|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult17             ; 0.15 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.15 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult17                         ;
-;                 |mult_g4t:auto_generated ; 0.15 mW (0.15 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.15 mW (0.15 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult17|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult18             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult18                         ;
-;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult18|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult19             ; 0.13 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult19                         ;
-;                 |mult_g4t:auto_generated ; 0.13 mW (0.13 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.13 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult19|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult20             ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult20                         ;
-;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult20|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult21             ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult21                         ;
-;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult21|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult22             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult22                         ;
-;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult22|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult23             ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult23                         ;
-;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult23|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult24             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult24                         ;
-;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult24|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult25             ; 0.16 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.16 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult25                         ;
-;                 |mult_g4t:auto_generated ; 0.16 mW (0.16 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.16 mW (0.16 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult25|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult26             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult26                         ;
-;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult26|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult27             ; 0.13 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult27                         ;
-;                 |mult_g4t:auto_generated ; 0.13 mW (0.13 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.13 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult27|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult16             ; 0.10 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.10 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult16                         ;
+;                 |mult_g4t:auto_generated ; 0.10 mW (0.10 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.10 mW (0.10 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult16|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult17             ; 0.22 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.22 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult17                         ;
+;                 |mult_g4t:auto_generated ; 0.22 mW (0.22 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.22 mW (0.22 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult17|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult18             ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult18                         ;
+;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult18|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult19             ; 0.09 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.09 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult19                         ;
+;                 |mult_g4t:auto_generated ; 0.09 mW (0.09 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.09 mW (0.09 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult19|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult20             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult20                         ;
+;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult20|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult21             ; 0.13 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult21                         ;
+;                 |mult_g4t:auto_generated ; 0.13 mW (0.13 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.13 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult21|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult22             ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult22                         ;
+;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult22|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult23             ; 0.15 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.15 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult23                         ;
+;                 |mult_g4t:auto_generated ; 0.15 mW (0.15 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.15 mW (0.15 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult23|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult24             ; 0.19 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.19 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult24                         ;
+;                 |mult_g4t:auto_generated ; 0.19 mW (0.19 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.19 mW (0.19 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult24|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult25             ; 0.14 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.14 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult25                         ;
+;                 |mult_g4t:auto_generated ; 0.14 mW (0.14 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.14 mW (0.14 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult25|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult26             ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult26                         ;
+;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult26|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult27             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult27                         ;
+;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult27|mult_g4t:auto_generated ;
 ;             |lpm_mult:Mult28             ; 0.11 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult28                         ;
 ;                 |mult_g4t:auto_generated ; 0.11 mW (0.11 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.11 mW (0.11 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult28|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult29             ; 0.10 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.10 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult29                         ;
-;                 |mult_g4t:auto_generated ; 0.10 mW (0.10 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.10 mW (0.10 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult29|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult30             ; 0.21 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.21 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult30                         ;
-;                 |mult_g4t:auto_generated ; 0.21 mW (0.21 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.21 mW (0.21 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult30|mult_g4t:auto_generated ;
-;             |lpm_mult:Mult31             ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult31                         ;
-;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult31|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult29             ; 0.13 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult29                         ;
+;                 |mult_g4t:auto_generated ; 0.13 mW (0.13 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.13 mW (0.13 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult29|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult30             ; 0.12 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult30                         ;
+;                 |mult_g4t:auto_generated ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.12 mW (0.12 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult30|mult_g4t:auto_generated ;
+;             |lpm_mult:Mult31             ; 0.14 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.14 mW (0.00 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult31                         ;
+;                 |mult_g4t:auto_generated ; 0.14 mW (0.14 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.14 mW (0.14 mW)                 ; |edc_mux|fullmixer:audio_mixer|mixerChannel:channel|lpm_mult:Mult31|mult_g4t:auto_generated ;
 ;     |hard_block:auto_generated_inst      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |edc_mux|hard_block:auto_generated_inst                                                     ;
-;     |I2C_slave:I2C                       ; 1.19 mW (1.01 mW)                    ; 0.76 mW (0.63 mW)               ; --                                ; 0.43 mW (0.38 mW)                 ; |edc_mux|I2C_slave:I2C                                                                      ;
+;     |I2C_slave:I2C                       ; 1.47 mW (1.26 mW)                    ; 0.78 mW (0.65 mW)               ; --                                ; 0.68 mW (0.61 mW)                 ; |edc_mux|I2C_slave:I2C                                                                      ;
 ;         |debounce:SCL_debounce           ; 0.08 mW (0.08 mW)                    ; 0.06 mW (0.06 mW)               ; --                                ; 0.02 mW (0.02 mW)                 ; |edc_mux|I2C_slave:I2C|debounce:SCL_debounce                                                ;
-;         |debounce:SDA_debounce           ; 0.10 mW (0.10 mW)                    ; 0.07 mW (0.07 mW)               ; --                                ; 0.04 mW (0.04 mW)                 ; |edc_mux|I2C_slave:I2C|debounce:SDA_debounce                                                ;
+;         |debounce:SDA_debounce           ; 0.13 mW (0.13 mW)                    ; 0.07 mW (0.07 mW)               ; --                                ; 0.06 mW (0.06 mW)                 ; |edc_mux|I2C_slave:I2C|debounce:SDA_debounce                                                ;
 ;     |int_handling:int_handling_i         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |edc_mux|int_handling:int_handling_i                                                        ;
 +------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+---------------------------------------------------------------------------------------------+
 (1) Value in parentheses is the power consumed at that level of hierarchy. Value not in parentheses is the power consumed at that level of hierarchy plus the power consumed by all levels of hierarchy below it.
@@ -1440,7 +1440,7 @@ refer to the applicable agreement for further details.
 +-----------------+-----------------------+--------------------------+
 ; Clock Domain    ; Clock Frequency (MHz) ; Total Core Dynamic Power ;
 +-----------------+-----------------------+--------------------------+
-; mclk_in         ; 48.01                 ; 332.92                   ;
+; mclk_in         ; 48.01                 ; 338.71                   ;
 ; No clock domain ; 0.00                  ; 14.78                    ;
 +-----------------+-----------------------+--------------------------+
 
@@ -1450,8 +1450,8 @@ refer to the applicable agreement for further details.
 +----------------+-------------------------+---------------------------+--------------------------+----------------------------------+
 ; Voltage Supply ; Total Current Drawn (1) ; Dynamic Current Drawn (1) ; Static Current Drawn (1) ; Minimum Power Supply Current (2) ;
 +----------------+-------------------------+---------------------------+--------------------------+----------------------------------+
-; VCCINT         ; 320.98 mA               ; 291.62 mA                 ; 29.36 mA                 ; 320.98 mA                        ;
-; VCCIO          ; 16.51 mA                ; 2.53 mA                   ; 13.99 mA                 ; 16.51 mA                         ;
+; VCCINT         ; 322.19 mA               ; 296.35 mA                 ; 25.85 mA                 ; 322.19 mA                        ;
+; VCCIO          ; 16.50 mA                ; 2.51 mA                   ; 13.99 mA                 ; 16.50 mA                         ;
 ; VCCA           ; 26.96 mA                ; 0.00 mA                   ; 26.96 mA                 ; 26.96 mA                         ;
 ; VCCD           ; 1.92 mA                 ; 0.00 mA                   ; 1.92 mA                  ; 1.92 mA                          ;
 +----------------+-------------------------+---------------------------+--------------------------+----------------------------------+
@@ -1464,14 +1464,14 @@ refer to the applicable agreement for further details.
 +----------+---------------+---------------------+-----------------------+----------------------+
 ; I/O Bank ; VCCIO Voltage ; Total Current Drawn ; Dynamic Current Drawn ; Static Current Drawn ;
 +----------+---------------+---------------------+-----------------------+----------------------+
-; 1        ; 3.3V          ; 1.66 mA             ; 0.07 mA               ; 1.59 mA              ;
+; 1        ; 3.3V          ; 1.69 mA             ; 0.07 mA               ; 1.62 mA              ;
 ; 2        ; 3.3V          ; 1.83 mA             ; 0.12 mA               ; 1.71 mA              ;
-; 3        ; 3.3V          ; 2.26 mA             ; 0.44 mA               ; 1.81 mA              ;
-; 4        ; 3.3V          ; 2.26 mA             ; 0.44 mA               ; 1.81 mA              ;
-; 5        ; 3.3V          ; 1.99 mA             ; 0.28 mA               ; 1.71 mA              ;
-; 6        ; 3.3V          ; 2.02 mA             ; 0.28 mA               ; 1.74 mA              ;
-; 7        ; 3.3V          ; 2.00 mA             ; 0.30 mA               ; 1.71 mA              ;
-; 8        ; 3.3V          ; 2.51 mA             ; 0.59 mA               ; 1.92 mA              ;
+; 3        ; 3.3V          ; 2.22 mA             ; 0.44 mA               ; 1.78 mA              ;
+; 4        ; 3.3V          ; 2.04 mA             ; 0.30 mA               ; 1.74 mA              ;
+; 5        ; 3.3V          ; 2.23 mA             ; 0.42 mA               ; 1.81 mA              ;
+; 6        ; 3.3V          ; 2.26 mA             ; 0.42 mA               ; 1.85 mA              ;
+; 7        ; 3.3V          ; 1.97 mA             ; 0.30 mA               ; 1.67 mA              ;
+; 8        ; 3.3V          ; 2.26 mA             ; 0.44 mA               ; 1.81 mA              ;
 +----------+---------------+---------------------+-----------------------+----------------------+
 
 
@@ -1480,7 +1480,7 @@ refer to the applicable agreement for further details.
 +---------------+-------------------------+---------------------------+--------------------------+----------------------------------+
 ; VCCIO Voltage ; Total Current Drawn (1) ; Dynamic Current Drawn (1) ; Static Current Drawn (1) ; Minimum Power Supply Current (2) ;
 +---------------+-------------------------+---------------------------+--------------------------+----------------------------------+
-; 3.3V          ; 16.51 mA                ; 2.53 mA                   ; 13.99 mA                 ; 16.51 mA                         ;
+; 3.3V          ; 16.50 mA                ; 2.51 mA                   ; 13.99 mA                 ; 16.50 mA                         ;
 +---------------+-------------------------+---------------------------+--------------------------+----------------------------------+
 (1) Currents reported in columns "Total Current Drawn", "Dynamic Current Drawn", and "Static Current Drawn" are sufficient for user operation of the device.  
 (2) Currents reported in column "Minimum Power Supply Current" are sufficient for power-up, configuration, and user operation of the device.
@@ -1504,8 +1504,8 @@ refer to the applicable agreement for further details.
 ;     -- Number of signals with Static Probability from Vectorless estimation            ; 0 (0.0%)       ; 0 (0.0%)    ; 0 (0.0%)       ; 0 (0.0%)       ;
 ;                                                                                        ;                ;             ;                ;                ;
 ; Default assignment                                                                     ;                ;             ;                ;                ;
-;     -- Number of signals with Toggle Rate from Default assignment                      ; 29871 (96.1%)  ; 68 (58.6%)  ; 10510 (100.0%) ; 19293 (94.3%)  ;
-;     -- Number of signals with Static Probability from Default assignment               ; 31095 (100.0%) ; 115 (99.1%) ; 10510 (100.0%) ; 20470 (100.0%) ;
+;     -- Number of signals with Toggle Rate from Default assignment                      ; 29889 (96.1%)  ; 68 (58.6%)  ; 10510 (100.0%) ; 19311 (94.3%)  ;
+;     -- Number of signals with Static Probability from Default assignment               ; 31113 (100.0%) ; 115 (99.1%) ; 10510 (100.0%) ; 20488 (100.0%) ;
 ;                                                                                        ;                ;             ;                ;                ;
 ; Assumed 0                                                                              ;                ;             ;                ;                ;
 ;     -- Number of signals with Toggle Rate assumed 0                                    ; 1224 (3.9%)    ; 47 (40.5%)  ; 0 (0.0%)       ; 1177 (5.7%)    ;
@@ -1526,7 +1526,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Power Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat May 04 14:13:16 2019
+    Info: Processing started: Sat Aug 10 20:41:46 2019
 Info: Command: quartus_pow --read_settings_files=off --write_settings_files=off edcMuxBoard -c edc_mux
 Info (21077): Low junction temperature is -40 degrees C
 Info (21077): High junction temperature is 100 degrees C
@@ -1534,20 +1534,20 @@ Warning (335093): The Timing Analyzer is analyzing 768 combinational loops as la
 Info (332104): Reading SDC File: '../implementation/edcMuxBoard_syn.sdc'
 Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
 Warning (332060): Node: fullmixer:audio_mixer|outSel[0] was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Latch fullmixer:audio_mixer|o[2][0] is being clocked by fullmixer:audio_mixer|outSel[0]
+    Info (13166): Latch fullmixer:audio_mixer|o[1][0] is being clocked by fullmixer:audio_mixer|outSel[0]
 Warning (332060): Node: fullmixer:audio_mixer|outSel[5] was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Latch fullmixer:audio_mixer|channelctl[3][0] is being clocked by fullmixer:audio_mixer|outSel[5]
+    Info (13166): Latch fullmixer:audio_mixer|channelctl[18][0] is being clocked by fullmixer:audio_mixer|outSel[5]
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Warning (222013): Relative toggle rates could not be calculated because no clock domain could be identified for some nodes
 Info (218000): Using Advanced I/O Power to simulate I/O buffers with the specified board trace model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (215049): Average toggle rate for this design is 23.140 millions of transitions / sec
-Info (215031): Total thermal power estimate for the design is 509.79 mW
+Info (215031): Total thermal power estimate for the design is 511.15 mW
 Info: Quartus Prime Power Analyzer was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 4972 megabytes
-    Info: Processing ended: Sat May 04 14:13:29 2019
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Processing ended: Sat Aug 10 20:42:02 2019
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:17
 
 
