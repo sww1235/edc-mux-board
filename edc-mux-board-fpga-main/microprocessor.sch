@@ -24,7 +24,7 @@ F 2 "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm_ThermalVias" H 3100 695
 F 3 "ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf" H 3100 6950 50  0001 C CNN
 F 4 "SAMD21 ARM Cortex M0+ MCU" H 0   0   50  0001 C CNN "Description"
 F 5 "Atmel" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "SAMD21JXXAM" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "SAMD21JXXAM" H 0   0   50  0001 C CNN "MPN"
 F 7 "QFN64-EP" H 0   0   50  0001 C CNN "Package ID"
 	1    4300 4400
 	1    0    0    -1  
@@ -41,7 +41,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 4080 2000 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 4150 2000 50  0001 C CNN
 F 4 "Murata" H 4150 2000 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 4150 2000 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 4150 2000 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 4150 2000 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    4150 2000
@@ -56,7 +56,7 @@ F 1 "10uF X7R" V 4050 2150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3900 2150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 3900 2150 50  0001 C CNN
 F 4 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "MPN"
 F 6 "1206in/3216mm" H 0   0   50  0001 C CNN "Package ID"
 F 7 "CAP CER 10UF 25V X7R 1206" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
@@ -79,7 +79,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 3900 2300 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3900 2300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
 F 5 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    3900 2300
@@ -132,7 +132,7 @@ F 2 "SW-Eswitch:TL1105" H 4800 7250 50  0001 C CNN
 F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/144/TL1105.pdf" H 4800 7250 50  0001 C CNN
 F 4 "Tactile Switch" H 0   0   50  0001 C CNN "Description"
 F 5 "Eswitch" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "TL1105AF160R" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "TL1105AF160R" H 0   0   50  0001 C CNN "MPN"
 F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    4800 7050
 	1    0    0    -1  
@@ -161,7 +161,7 @@ F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
 F 5 "CAP CER 100PF 50V C0G 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 6 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "CGA2B2C0G1H101J050BA" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 7 "CGA2B2C0G1H101J050BA" H 0   0   50  0001 C CNN "MPN"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 6600
 	-1   0    0    1   
@@ -256,7 +256,7 @@ F 1 "10uF X7R" V 4700 2100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4750 1950 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4750 1950 50  0001 C CNN
 F 4 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "MPN"
 F 6 "1206in/3216mm" H 0   0   50  0001 C CNN "Package ID"
 F 7 "CAP CER 10UF 25V X7R 1206" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
@@ -273,7 +273,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2150 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4750 2150 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
 F 5 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 2150
@@ -289,7 +289,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2300 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4750 2300 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
 F 5 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    4750 2300
@@ -304,7 +304,7 @@ F 1 "1uF X7R" V 4700 2600 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 2500 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 4750 2500 50  0001 C CNN
 F 4 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "CGA3E1X7R1E105K080AC" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 5 "CGA3E1X7R1E105K080AC" H 0   0   50  0001 C CNN "MPN"
 F 6 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
@@ -439,7 +439,7 @@ F 2 "SW-CUI-INC:UJ2-BV-1-TH" H 2000 8500 50  0001 C CNN
 F 3 "https://www.cui.com/product/resource/uj2-bv-1-th.pdf" H 2000 8500 50  0001 C CNN
 F 4 "USB B female Vertical PBC mount connetor" H 0   0   50  0001 C CNN "Description"
 F 5 "CUI Inc" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "UJ2-BV-1-TH" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "UJ2-BV-1-TH" H 0   0   50  0001 C CNN "MPN"
 F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    1850 8550
 	1    0    0    -1  
@@ -454,7 +454,7 @@ F 2 "SW-Package-TO-SOT-SMD:SOT-23-6" H 3050 8800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd3s014.pdf" H 2850 8700 50  0001 C CNN
 F 4 "ESD protection and current limiting for USB ports" H 0   0   50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "TPD3S0x4" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "TPD3S0x4" H 0   0   50  0001 C CNN "MPN"
 F 7 "SOT-23-6" H 0   0   50  0001 C CNN "Package ID"
 	1    3050 8450
 	1    0    0    -1  
@@ -494,7 +494,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1811A-11B-12A-12B-Data-S
 F 4 "SOT-23/SC70/SOT-323" H 4900 8550 50  0001 C CNN "Package ID"
 F 5 "Microchip" H 4850 8350 50  0001 C CNN "Manufacturer"
 F 6 "3v3 regulator 300mA" H 4850 8350 50  0001 C CNN "Description"
-F 7 "MCP1812AT-033/TT" H 4850 8350 50  0001 C CNN "Manufacturers Part Number"
+F 7 "MCP1812AT-033/TT" H 4850 8350 50  0001 C CNN "MPN"
 	1    4850 8350
 	1    0    0    -1  
 $EndComp
@@ -548,7 +548,7 @@ F 1 "1uF X7R" H 4200 8700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4100 8700 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 4100 8700 50  0001 C CNN
 F 4 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "CGA3E1X7R1E105K080AC" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 5 "CGA3E1X7R1E105K080AC" H 0   0   50  0001 C CNN "MPN"
 F 6 "0603in/1608mm" H 0   0   50  0001 C CNN "Package ID"
 F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
@@ -575,7 +575,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric" H 5450 8650 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 5450 8650 50  0001 C CNN
 F 4 "0805in/2012mm" H 0   0   50  0001 C CNN "Package ID"
 F 5 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "CGA4J3X7R1E225K125AB" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "CGA4J3X7R1E225K125AB" H 0   0   50  0001 C CNN "MPN"
 F 7 "CAP CER 2.2UF 25V X7R 0805" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    5450 8650
@@ -599,7 +599,7 @@ F 1 "10uF X7R" H 4200 8700 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4300 8700 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4300 8700 50  0001 C CNN
 F 4 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "MPN"
 F 6 "1206in/3216mm" H 0   0   50  0001 C CNN "Package ID"
 F 7 "CAP CER 10UF 25V X7R 1206" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
@@ -625,7 +625,7 @@ F 1 "LTC4412" H 5950 1350 50  0000 C CNN
 F 2 "SW-Package-TO-SOT-SMD:TSOT-23-6" H 6000 1450 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf" H 6550 1950 50  0001 C CNN
 F 4 "Linear Technologies" H 6000 1150 50  0001 C CNN "Manufacturer"
-F 5 "LTC4412HS6#TRMPBF" H 6000 1150 50  0001 C CNN "Manufacturers Part Number"
+F 5 "LTC4412HS6#TRMPBF" H 6000 1150 50  0001 C CNN "MPN"
 F 6 "Ideal Diode Controller" H 0   0   50  0001 C CNN "Description"
 F 7 "SOT-23-6" H 0   0   50  0001 C CNN "Package ID"
 	1    6000 1150
@@ -657,7 +657,7 @@ F 2 "SW-Texas:DSBGA9" H 4850 1500 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/csd22206w.pdf" H 4650 1450 50  0001 C CNN
 F 4 "P Channel MOSFET" H 0   0   50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "CSD22206W" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "CSD22206W" H 0   0   50  0001 C CNN "MPN"
 F 7 "DSBGA9" H 0   0   50  0001 C CNN "Package ID"
 	1    4650 1450
 	-1   0    0    -1  
@@ -706,7 +706,7 @@ F 2 "SW-Texas:DSBGA9" H 5650 1650 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/csd22206w.pdf" H 5450 1600 50  0001 C CNN
 F 4 "P Channel MOSFET" H 0   0   50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "CSD22206W" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "CSD22206W" H 0   0   50  0001 C CNN "MPN"
 F 7 "DSBGA9" H 0   0   50  0001 C CNN "Package ID"
 	1    5450 1600
 	0    1    1    0   
@@ -772,7 +772,7 @@ F 1 "10uF X7R" V 5000 1950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5050 1800 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5050 1800 50  0001 C CNN
 F 4 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 5 "C1206C106J3RACAUTO" H 0   0   50  0001 C CNN "MPN"
 F 6 "1206in/3216mm" H 0   0   50  0001 C CNN "Package ID"
 F 7 "CAP CER 10UF 25V X7R 1206" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"

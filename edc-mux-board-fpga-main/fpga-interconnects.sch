@@ -32,7 +32,7 @@ F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 11800 3100 50  0001 C C
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 11800 3100 50  0001 C CNN
 F 4 "Intel Cyclone 10 LP FPGA" H 0   0   50  0001 C CNN "Description"
 F 5 "Intel" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "MPN"
 F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	7    9100 2200
 	1    0    0    -1  
@@ -47,7 +47,7 @@ F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 15300 3150 50  0001 C C
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 15300 3150 50  0001 C CNN
 F 4 "Intel Cyclone 10 LP FPGA" H 0   0   50  0001 C CNN "Description"
 F 5 "Intel" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "MPN"
 F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	8    12600 2250
 	1    0    0    -1  
@@ -62,7 +62,7 @@ F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 4800 8350 50  0001 C CN
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 4800 8350 50  0001 C CNN
 F 4 "Intel Cyclone 10 LP FPGA" H 0   0   50  0001 C CNN "Description"
 F 5 "Intel" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "MPN"
 F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	9    2100 7450
 	1    0    0    -1  
@@ -77,7 +77,7 @@ F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 11150 8050 50  0001 C C
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 11150 8050 50  0001 C CNN
 F 4 "Intel Cyclone 10 LP FPGA" H 0   0   50  0001 C CNN "Description"
 F 5 "Intel" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "MPN"
 F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	11   8450 7150
 	1    0    0    -1  
@@ -92,7 +92,7 @@ F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 14650 8100 50  0001 C C
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 14650 8100 50  0001 C CNN
 F 4 "Intel Cyclone 10 LP FPGA" H 0   0   50  0001 C CNN "Description"
 F 5 "Intel" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "MPN"
 F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	12   11950 7200
 	1    0    0    -1  
@@ -130,7 +130,7 @@ F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 5200 5800 50  0001 C CN
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 5200 5800 50  0001 C CNN
 F 4 "Intel Cyclone 10 LP FPGA" H 0   0   50  0001 C CNN "Description"
 F 5 "Intel" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "MPN"
 F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	4    2500 4900
 	1    0    0    -1  
@@ -151,7 +151,7 @@ F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 16750 6150 50  0001 C C
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 16750 6150 50  0001 C CNN
 F 4 "Intel Cyclone 10 LP FPGA" H 0   0   50  0001 C CNN "Description"
 F 5 "Intel" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "MPN"
 F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	3    14050 5250
 	1    0    0    -1  
@@ -166,7 +166,7 @@ F 2 "SW-Package-SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm" H 11550 5050 50  0001 C 
 F 3 "https://www.cypress.com/file/316171/download" H 11550 5050 50  0001 C CNN
 F 4 "256Mb flash memory for FPGA programming" H 0   0   50  0001 C CNN "Description"
 F 5 "Cypress" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "S25FL256L" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "S25FL256L" H 0   0   50  0001 C CNN "MPN"
 F 7 "WSON8" H 0   0   50  0001 C CNN "Package ID"
 	1    11550 5050
 	-1   0    0    -1  
@@ -236,7 +236,7 @@ F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 8000 2950 50  0001 C CN
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 8000 2950 50  0001 C CNN
 F 4 "Intel Cyclone 10 LP FPGA" H 0   0   50  0001 C CNN "Description"
 F 5 "Intel" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "MPN"
 F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	6    5300 2050
 	1    0    0    -1  
@@ -251,7 +251,7 @@ F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 4750 3000 50  0001 C CN
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 4750 3000 50  0001 C CNN
 F 4 "Intel Cyclone 10 LP FPGA" H 0   0   50  0001 C CNN "Description"
 F 5 "Intel" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "MPN"
 F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	5    2050 2100
 	1    0    0    -1  
@@ -610,7 +610,7 @@ F 2 "SW-Intel:FBGA-484_23.0x23.0mm_Layout22x22_P1.0mm" H 8050 8250 50  0001 C CN
 F 3 "https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html" H 8050 8250 50  0001 C CNN
 F 4 "Intel Cyclone 10 LP FPGA" H 0   0   50  0001 C CNN "Description"
 F 5 "Intel" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "10CL040YF484I7G" H 0   0   50  0001 C CNN "MPN"
 F 7 "484BGA" H 0   0   50  0001 C CNN "Package ID"
 	10   5350 7350
 	1    0    0    -1  
@@ -871,7 +871,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 10950 5050 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 10950 5050 50  0001 C CNN
 F 4 "0402in/1005mm" H 0   0   50  0001 C CNN "Package ID"
 F 5 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 0   0   50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    10950 5050

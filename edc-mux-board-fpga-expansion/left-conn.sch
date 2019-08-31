@@ -69,7 +69,7 @@ F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4400 2100 50  0001 C CNN
 F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 100 500 50  0001 C CNN "Characteristics"
 F 5 "Board to wire connector for Device M12 Connector" H 100 500 50  0001 C CNN "Description"
 F 6 "JST" H 100 500 50  0001 C CNN "Manufacturer"
-F 7 "B12B-PHDSS(LF)(SN) " H 100 500 50  0001 C CNN "Manufacturers Part Number"
+F 7 "B12B-PHDSS(LF)(SN) " H 100 500 50  0001 C CNN "MPN"
 F 8 "Through Hole" H 100 500 50  0001 C CNN "Package ID"
 	1    4400 2100
 	-1   0    0    1
@@ -86,7 +86,7 @@ F 4 "30pF 30kV 100uA @5V" H 3750 2650 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3750 2650 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3750 2650 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3750 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3750 2650 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3750 2650 50  0001 C CNN "MPN"
 	1    3750 2650
 	0    1    1    0
 $EndComp
@@ -102,7 +102,7 @@ F 4 "30pF 30kV 100uA @5V" H 4800 2650 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4800 2650 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4800 2650 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4800 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4800 2650 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4800 2650 50  0001 C CNN "MPN"
 	1    4800 2650
 	0    1    1    0
 $EndComp
@@ -164,7 +164,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 5030 2000 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5100 2000 50  0001 C CNN
 F 4 "Murata" H 5100 2000 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 5100 2000 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 5100 2000 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 5100 2000 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 2800 400 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 2800 400 50  0001 C CNN "Description"
 	1    5100 2000
@@ -180,7 +180,7 @@ F 0 "C154" V 2950 2150 50  0000 C CNN
 F 1 "1uF X7R flex" V 2850 2000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 2000 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3000 2000 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3000 2000 50  0001 C CNN "Manufacturers Part Number"
+F 4 "C0805X105J3RECAUTO" H 3000 2000 50  0001 C CNN "MPN"
 F 5 "Kemet" H 3000 2000 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 0   -1000 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4750 600 50  0001 C CNN "Characteristics"
@@ -198,7 +198,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 3380 1600 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3450 1600 50  0001 C CNN
 F 4 "Murata" H 3450 1600 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 3450 1600 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 3450 1600 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 3450 1600 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 750 -100 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 750 -100 50  0001 C CNN "Description"
 	1    3450 1600
@@ -214,7 +214,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 3230 2100 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3300 2100 50  0001 C CNN
 F 4 "Murata" H 3300 2100 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 3300 2100 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 3300 2100 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 3300 2100 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 1800 700 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 1800 700 50  0001 C CNN "Description"
 	1    3300 2100
@@ -230,7 +230,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 5380 2100 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5450 2100 50  0001 C CNN
 F 4 "Murata" H 5450 2100 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 5450 2100 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 5450 2100 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 5450 2100 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3150 500 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3150 500 50  0001 C CNN "Description"
 	1    5450 2100
@@ -244,7 +244,7 @@ F 0 "C158" V 5700 1850 50  0000 C CNN
 F 1 "1uF X7R flex" V 5600 1900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 2000 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 2000 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 5750 2000 50  0001 C CNN "Manufacturers Part Number"
+F 4 "C0805X105J3RECAUTO" H 5750 2000 50  0001 C CNN "MPN"
 F 5 "Kemet" H 5750 2000 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 2750 -1000 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 600 50  0001 C CNN "Characteristics"
@@ -266,7 +266,7 @@ F 4 "30pF 30kV 100uA @5V" H 3600 2650 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3600 2650 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3600 2650 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3600 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3600 2650 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3600 2650 50  0001 C CNN "MPN"
 	1    3600 2650
 	0    1    1    0
 $EndComp
@@ -287,7 +287,7 @@ F 4 "30pF 30kV 100uA @5V" H 3450 2650 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3450 2650 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3450 2650 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3450 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3450 2650 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3450 2650 50  0001 C CNN "MPN"
 	1    3450 2650
 	0    1    1    0
 $EndComp
@@ -306,7 +306,7 @@ F 4 "30pF 30kV 100uA @5V" H 3300 2650 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3300 2650 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3300 2650 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3300 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3300 2650 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3300 2650 50  0001 C CNN "MPN"
 	1    3300 2650
 	0    1    1    0
 $EndComp
@@ -325,7 +325,7 @@ F 4 "30pF 30kV 100uA @5V" H 4950 2650 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4950 2650 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4950 2650 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4950 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4950 2650 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4950 2650 50  0001 C CNN "MPN"
 	1    4950 2650
 	0    -1   1    0
 $EndComp
@@ -343,7 +343,7 @@ F 4 "30pF 30kV 100uA @5V" H 5100 2650 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5100 2650 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5100 2650 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5100 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5100 2650 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5100 2650 50  0001 C CNN "MPN"
 	1    5100 2650
 	0    -1   1    0
 $EndComp
@@ -361,7 +361,7 @@ F 4 "30pF 30kV 100uA @5V" H 5250 2650 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5250 2650 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5250 2650 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5250 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5250 2650 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5250 2650 50  0001 C CNN "MPN"
 	1    5250 2650
 	0    -1   1    0
 $EndComp
@@ -410,7 +410,7 @@ F 2 "Diode_SMD:D_SMA" H 3900 2650 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 3900 2650 50  0001 C CNN
 F 4 "Littelfuse" H 3900 2650 50  0001 C CNN "Manufacturer"
 F 5 "Transient Voltage Suppresion Diode" H 3900 2650 50  0001 C CNN "Description"
-F 6 "SMAJ12CA" H 3900 2650 50  0001 C CNN "Manufacturers Part Number"
+F 6 "SMAJ12CA" H 3900 2650 50  0001 C CNN "MPN"
 F 7 "SMA Diode" H 1900 -1600 50  0001 C CNN "Package ID"
 	1    3900 2650
 	0    1    1    0
@@ -432,7 +432,7 @@ F 4 "30pF 30kV 100uA @5V" H 5400 2650 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5400 2650 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5400 2650 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5400 2650 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5400 2650 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5400 2650 50  0001 C CNN "MPN"
 	1    5400 2650
 	0    -1   1    0
 $EndComp
@@ -467,7 +467,7 @@ F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4400 4150 50  0001 C CNN
 F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 100 500 50  0001 C CNN "Characteristics"
 F 5 "Board to wire connector for Device M12 Connector" H 100 500 50  0001 C CNN "Description"
 F 6 "JST" H 100 500 50  0001 C CNN "Manufacturer"
-F 7 "B12B-PHDSS(LF)(SN) " H 100 500 50  0001 C CNN "Manufacturers Part Number"
+F 7 "B12B-PHDSS(LF)(SN) " H 100 500 50  0001 C CNN "MPN"
 F 8 "Through Hole" H 100 500 50  0001 C CNN "Package ID"
 	1    4400 4150
 	-1   0    0    1
@@ -488,7 +488,7 @@ F 4 "30pF 30kV 100uA @5V" H 3750 4700 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3750 4700 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3750 4700 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3750 4700 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3750 4700 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3750 4700 50  0001 C CNN "MPN"
 	1    3750 4700
 	0    1    1    0
 $EndComp
@@ -504,7 +504,7 @@ F 4 "30pF 30kV 100uA @5V" H 4800 4700 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4800 4700 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4800 4700 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4800 4700 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4800 4700 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4800 4700 50  0001 C CNN "MPN"
 	1    4800 4700
 	0    1    1    0
 $EndComp
@@ -579,7 +579,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 5030 4050 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5100 4050 50  0001 C CNN
 F 4 "Murata" H 5100 4050 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 5100 4050 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 5100 4050 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 5100 4050 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 2800 2450 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 2800 2450 50  0001 C CNN "Description"
 	1    5100 4050
@@ -595,7 +595,7 @@ F 0 "C155" V 2950 4200 50  0000 C CNN
 F 1 "1uF X7R flex" V 2850 4050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 4050 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3000 4050 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3000 4050 50  0001 C CNN "Manufacturers Part Number"
+F 4 "C0805X105J3RECAUTO" H 3000 4050 50  0001 C CNN "MPN"
 F 5 "Kemet" H 3000 4050 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 0   1050 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4750 2650 50  0001 C CNN "Characteristics"
@@ -613,7 +613,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 3380 4050 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3450 4050 50  0001 C CNN
 F 4 "Murata" H 3450 4050 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 3450 4050 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 3450 4050 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 3450 4050 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 750 2350 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 750 2350 50  0001 C CNN "Description"
 	1    3450 4050
@@ -629,7 +629,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 3230 4150 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3300 4150 50  0001 C CNN
 F 4 "Murata" H 3300 4150 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 3300 4150 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 3300 4150 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 3300 4150 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 1800 2750 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 1800 2750 50  0001 C CNN "Description"
 	1    3300 4150
@@ -645,7 +645,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 5380 4150 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5450 4150 50  0001 C CNN
 F 4 "Murata" H 5450 4150 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 5450 4150 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 5450 4150 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 5450 4150 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3150 2550 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3150 2550 50  0001 C CNN "Description"
 	1    5450 4150
@@ -659,7 +659,7 @@ F 0 "C159" V 5700 4200 50  0000 C CNN
 F 1 "1uF X7R flex" V 5600 4050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 4050 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 4050 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 5750 4050 50  0001 C CNN "Manufacturers Part Number"
+F 4 "C0805X105J3RECAUTO" H 5750 4050 50  0001 C CNN "MPN"
 F 5 "Kemet" H 5750 4050 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 2750 1050 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 2650 50  0001 C CNN "Characteristics"
@@ -681,7 +681,7 @@ F 4 "30pF 30kV 100uA @5V" H 3600 4700 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3600 4700 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3600 4700 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3600 4700 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3600 4700 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3600 4700 50  0001 C CNN "MPN"
 	1    3600 4700
 	0    1    1    0
 $EndComp
@@ -702,7 +702,7 @@ F 4 "30pF 30kV 100uA @5V" H 3450 4700 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3450 4700 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3450 4700 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3450 4700 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3450 4700 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3450 4700 50  0001 C CNN "MPN"
 	1    3450 4700
 	0    1    1    0
 $EndComp
@@ -723,7 +723,7 @@ F 4 "30pF 30kV 100uA @5V" H 3300 4700 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3300 4700 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3300 4700 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3300 4700 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3300 4700 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3300 4700 50  0001 C CNN "MPN"
 	1    3300 4700
 	0    1    1    0
 $EndComp
@@ -744,7 +744,7 @@ F 4 "30pF 30kV 100uA @5V" H 4950 4700 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4950 4700 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4950 4700 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4950 4700 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4950 4700 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4950 4700 50  0001 C CNN "MPN"
 	1    4950 4700
 	0    -1   1    0
 $EndComp
@@ -762,7 +762,7 @@ F 4 "30pF 30kV 100uA @5V" H 5100 4700 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5100 4700 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5100 4700 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5100 4700 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5100 4700 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5100 4700 50  0001 C CNN "MPN"
 	1    5100 4700
 	0    -1   1    0
 $EndComp
@@ -780,7 +780,7 @@ F 4 "30pF 30kV 100uA @5V" H 5250 4700 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5250 4700 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5250 4700 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5250 4700 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5250 4700 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5250 4700 50  0001 C CNN "MPN"
 	1    5250 4700
 	0    -1   1    0
 $EndComp
@@ -829,7 +829,7 @@ F 2 "Diode_SMD:D_SMA" H 3900 4700 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 3900 4700 50  0001 C CNN
 F 4 "Littelfuse" H 3900 4700 50  0001 C CNN "Manufacturer"
 F 5 "Transient Voltage Suppresion Diode" H 3900 4700 50  0001 C CNN "Description"
-F 6 "SMAJ12CA" H 3900 4700 50  0001 C CNN "Manufacturers Part Number"
+F 6 "SMAJ12CA" H 3900 4700 50  0001 C CNN "MPN"
 F 7 "SMA Diode" H 1900 450 50  0001 C CNN "Package ID"
 	1    3900 4700
 	0    1    1    0
@@ -851,7 +851,7 @@ F 4 "30pF 30kV 100uA @5V" H 5400 4700 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5400 4700 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5400 4700 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5400 4700 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5400 4700 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5400 4700 50  0001 C CNN "MPN"
 	1    5400 4700
 	0    -1   1    0
 $EndComp
@@ -888,7 +888,7 @@ F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4400 6200 50  0001 C CNN
 F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 100 500 50  0001 C CNN "Characteristics"
 F 5 "Board to wire connector for Device M12 Connector" H 100 500 50  0001 C CNN "Description"
 F 6 "JST" H 100 500 50  0001 C CNN "Manufacturer"
-F 7 "B12B-PHDSS(LF)(SN) " H 100 500 50  0001 C CNN "Manufacturers Part Number"
+F 7 "B12B-PHDSS(LF)(SN) " H 100 500 50  0001 C CNN "MPN"
 F 8 "Through Hole" H 100 500 50  0001 C CNN "Package ID"
 	1    4400 6200
 	-1   0    0    1
@@ -909,7 +909,7 @@ F 4 "30pF 30kV 100uA @5V" H 3750 6750 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3750 6750 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3750 6750 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3750 6750 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3750 6750 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3750 6750 50  0001 C CNN "MPN"
 	1    3750 6750
 	0    1    1    0
 $EndComp
@@ -925,7 +925,7 @@ F 4 "30pF 30kV 100uA @5V" H 4800 6750 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4800 6750 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4800 6750 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4800 6750 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4800 6750 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4800 6750 50  0001 C CNN "MPN"
 	1    4800 6750
 	0    1    1    0
 $EndComp
@@ -1000,7 +1000,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 5030 6100 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5100 6100 50  0001 C CNN
 F 4 "Murata" H 5100 6100 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 5100 6100 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 5100 6100 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 5100 6100 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 2800 4500 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 2800 4500 50  0001 C CNN "Description"
 	1    5100 6100
@@ -1016,7 +1016,7 @@ F 0 "C156" V 2950 6250 50  0000 C CNN
 F 1 "1uF X7R flex" V 2850 6100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 6100 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3000 6100 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3000 6100 50  0001 C CNN "Manufacturers Part Number"
+F 4 "C0805X105J3RECAUTO" H 3000 6100 50  0001 C CNN "MPN"
 F 5 "Kemet" H 3000 6100 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 0   3100 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4750 4700 50  0001 C CNN "Characteristics"
@@ -1034,7 +1034,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 3380 6100 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3450 6100 50  0001 C CNN
 F 4 "Murata" H 3450 6100 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 3450 6100 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 3450 6100 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 3450 6100 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 750 4400 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 750 4400 50  0001 C CNN "Description"
 	1    3450 6100
@@ -1050,7 +1050,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 3230 6200 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3300 6200 50  0001 C CNN
 F 4 "Murata" H 3300 6200 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 3300 6200 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 3300 6200 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 3300 6200 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 1800 4800 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 1800 4800 50  0001 C CNN "Description"
 	1    3300 6200
@@ -1066,7 +1066,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 5380 6200 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5450 6200 50  0001 C CNN
 F 4 "Murata" H 5450 6200 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 5450 6200 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 5450 6200 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 5450 6200 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3150 4600 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3150 4600 50  0001 C CNN "Description"
 	1    5450 6200
@@ -1080,7 +1080,7 @@ F 0 "C160" V 5700 5950 50  0000 C CNN
 F 1 "1uF X7R flex" V 5600 6000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 6100 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 6100 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 5750 6100 50  0001 C CNN "Manufacturers Part Number"
+F 4 "C0805X105J3RECAUTO" H 5750 6100 50  0001 C CNN "MPN"
 F 5 "Kemet" H 5750 6100 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 2750 3100 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 4700 50  0001 C CNN "Characteristics"
@@ -1102,7 +1102,7 @@ F 4 "30pF 30kV 100uA @5V" H 3600 6750 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3600 6750 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3600 6750 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3600 6750 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3600 6750 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3600 6750 50  0001 C CNN "MPN"
 	1    3600 6750
 	0    1    1    0
 $EndComp
@@ -1121,7 +1121,7 @@ F 4 "30pF 30kV 100uA @5V" H 3450 6750 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3450 6750 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3450 6750 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3450 6750 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3450 6750 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3450 6750 50  0001 C CNN "MPN"
 	1    3450 6750
 	0    1    1    0
 $EndComp
@@ -1142,7 +1142,7 @@ F 4 "30pF 30kV 100uA @5V" H 3300 6750 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3300 6750 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3300 6750 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3300 6750 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3300 6750 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3300 6750 50  0001 C CNN "MPN"
 	1    3300 6750
 	0    1    1    0
 $EndComp
@@ -1163,7 +1163,7 @@ F 4 "30pF 30kV 100uA @5V" H 4950 6750 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4950 6750 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4950 6750 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4950 6750 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4950 6750 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4950 6750 50  0001 C CNN "MPN"
 	1    4950 6750
 	0    -1   1    0
 $EndComp
@@ -1181,7 +1181,7 @@ F 4 "30pF 30kV 100uA @5V" H 5100 6750 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5100 6750 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5100 6750 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5100 6750 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5100 6750 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5100 6750 50  0001 C CNN "MPN"
 	1    5100 6750
 	0    -1   1    0
 $EndComp
@@ -1199,7 +1199,7 @@ F 4 "30pF 30kV 100uA @5V" H 5250 6750 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5250 6750 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5250 6750 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5250 6750 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5250 6750 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5250 6750 50  0001 C CNN "MPN"
 	1    5250 6750
 	0    -1   1    0
 $EndComp
@@ -1248,7 +1248,7 @@ F 2 "Diode_SMD:D_SMA" H 3900 6750 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 3900 6750 50  0001 C CNN
 F 4 "Littelfuse" H 3900 6750 50  0001 C CNN "Manufacturer"
 F 5 "Transient Voltage Suppresion Diode" H 3900 6750 50  0001 C CNN "Description"
-F 6 "SMAJ12CA" H 3900 6750 50  0001 C CNN "Manufacturers Part Number"
+F 6 "SMAJ12CA" H 3900 6750 50  0001 C CNN "MPN"
 F 7 "SMA Diode" H 1900 2500 50  0001 C CNN "Package ID"
 	1    3900 6750
 	0    1    1    0
@@ -1270,7 +1270,7 @@ F 4 "30pF 30kV 100uA @5V" H 5400 6750 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5400 6750 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5400 6750 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5400 6750 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5400 6750 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5400 6750 50  0001 C CNN "MPN"
 	1    5400 6750
 	0    -1   1    0
 $EndComp
@@ -1307,7 +1307,7 @@ F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 4400 8300 50  0001 C CNN
 F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 100 500 50  0001 C CNN "Characteristics"
 F 5 "Board to wire connector for Device M12 Connector" H 100 500 50  0001 C CNN "Description"
 F 6 "JST" H 100 500 50  0001 C CNN "Manufacturer"
-F 7 "B12B-PHDSS(LF)(SN) " H 100 500 50  0001 C CNN "Manufacturers Part Number"
+F 7 "B12B-PHDSS(LF)(SN) " H 100 500 50  0001 C CNN "MPN"
 F 8 "Through Hole" H 100 500 50  0001 C CNN "Package ID"
 	1    4400 8300
 	-1   0    0    1
@@ -1328,7 +1328,7 @@ F 4 "30pF 30kV 100uA @5V" H 3750 8850 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3750 8850 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3750 8850 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3750 8850 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3750 8850 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3750 8850 50  0001 C CNN "MPN"
 	1    3750 8850
 	0    1    1    0
 $EndComp
@@ -1344,7 +1344,7 @@ F 4 "30pF 30kV 100uA @5V" H 4800 8850 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4800 8850 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4800 8850 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4800 8850 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4800 8850 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4800 8850 50  0001 C CNN "MPN"
 	1    4800 8850
 	0    1    1    0
 $EndComp
@@ -1421,7 +1421,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 5030 8200 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5100 8200 50  0001 C CNN
 F 4 "Murata" H 5100 8200 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 5100 8200 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 5100 8200 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 5100 8200 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 2800 6600 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 2800 6600 50  0001 C CNN "Description"
 	1    5100 8200
@@ -1437,7 +1437,7 @@ F 0 "C157" V 2750 8200 50  0000 C CNN
 F 1 "1uF X7R flex" V 2850 8200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 8200 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3000 8200 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3000 8200 50  0001 C CNN "Manufacturers Part Number"
+F 4 "C0805X105J3RECAUTO" H 3000 8200 50  0001 C CNN "MPN"
 F 5 "Kemet" H 3000 8200 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 0   5200 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4750 6800 50  0001 C CNN "Characteristics"
@@ -1455,7 +1455,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 3380 8200 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3450 8200 50  0001 C CNN
 F 4 "Murata" H 3450 8200 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 3450 8200 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 3450 8200 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 3450 8200 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 750 6500 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 750 6500 50  0001 C CNN "Description"
 	1    3450 8200
@@ -1471,7 +1471,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 3230 8300 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 3300 8300 50  0001 C CNN
 F 4 "Murata" H 3300 8300 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 3300 8300 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 3300 8300 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 3300 8300 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 1800 6900 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 1800 6900 50  0001 C CNN "Description"
 	1    3300 8300
@@ -1487,7 +1487,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 5380 8300 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5450 8300 50  0001 C CNN
 F 4 "Murata" H 5450 8300 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 5450 8300 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 5450 8300 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 5450 8300 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3150 6700 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3150 6700 50  0001 C CNN "Description"
 	1    5450 8300
@@ -1501,7 +1501,7 @@ F 0 "C161" V 5700 8050 50  0000 C CNN
 F 1 "1uF X7R flex" V 5600 8050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 8200 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 5750 8200 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 5750 8200 50  0001 C CNN "Manufacturers Part Number"
+F 4 "C0805X105J3RECAUTO" H 5750 8200 50  0001 C CNN "MPN"
 F 5 "Kemet" H 5750 8200 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 2750 5200 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -2000 6800 50  0001 C CNN "Characteristics"
@@ -1523,7 +1523,7 @@ F 4 "30pF 30kV 100uA @5V" H 3600 8850 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3600 8850 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3600 8850 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3600 8850 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3600 8850 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3600 8850 50  0001 C CNN "MPN"
 	1    3600 8850
 	0    1    1    0
 $EndComp
@@ -1544,7 +1544,7 @@ F 4 "30pF 30kV 100uA @5V" H 3450 8850 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3450 8850 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3450 8850 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3450 8850 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3450 8850 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3450 8850 50  0001 C CNN "MPN"
 	1    3450 8850
 	0    1    1    0
 $EndComp
@@ -1565,7 +1565,7 @@ F 4 "30pF 30kV 100uA @5V" H 3300 8850 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 3300 8850 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 3300 8850 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 3300 8850 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 3300 8850 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 3300 8850 50  0001 C CNN "MPN"
 	1    3300 8850
 	0    1    1    0
 $EndComp
@@ -1584,7 +1584,7 @@ F 4 "30pF 30kV 100uA @5V" H 4950 8850 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4950 8850 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4950 8850 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4950 8850 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4950 8850 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4950 8850 50  0001 C CNN "MPN"
 	1    4950 8850
 	0    -1   1    0
 $EndComp
@@ -1602,7 +1602,7 @@ F 4 "30pF 30kV 100uA @5V" H 5100 8850 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5100 8850 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5100 8850 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5100 8850 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5100 8850 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5100 8850 50  0001 C CNN "MPN"
 	1    5100 8850
 	0    -1   1    0
 $EndComp
@@ -1620,7 +1620,7 @@ F 4 "30pF 30kV 100uA @5V" H 5250 8850 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5250 8850 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5250 8850 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5250 8850 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5250 8850 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5250 8850 50  0001 C CNN "MPN"
 	1    5250 8850
 	0    -1   1    0
 $EndComp
@@ -1669,7 +1669,7 @@ F 2 "Diode_SMD:D_SMA" H 3900 8850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 3900 8850 50  0001 C CNN
 F 4 "Littelfuse" H 3900 8850 50  0001 C CNN "Manufacturer"
 F 5 "Transient Voltage Suppresion Diode" H 3900 8850 50  0001 C CNN "Description"
-F 6 "SMAJ12CA" H 3900 8850 50  0001 C CNN "Manufacturers Part Number"
+F 6 "SMAJ12CA" H 3900 8850 50  0001 C CNN "MPN"
 F 7 "SMA Diode" H 1900 4600 50  0001 C CNN "Package ID"
 	1    3900 8850
 	0    1    1    0
@@ -1691,7 +1691,7 @@ F 4 "30pF 30kV 100uA @5V" H 5400 8850 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5400 8850 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5400 8850 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5400 8850 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5400 8850 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5400 8850 50  0001 C CNN "MPN"
 	1    5400 8850
 	0    -1   1    0
 $EndComp

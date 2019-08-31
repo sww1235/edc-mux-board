@@ -28,7 +28,7 @@ F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2150 5250 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf" H 1900 5550 50  0001 C CNN
 F 4 "1:8 Clock Buffer" H 0   0   50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "CDCLVC1108" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "CDCLVC1108" H 0   0   50  0001 C CNN "MPN"
 F 7 "TSSOP16" H 0   0   50  0001 C CNN "Package ID"
 	1    1950 4450
 	1    0    0    -1  
@@ -48,7 +48,7 @@ F 4 "Texas Instruments" H 8100 6800 60  0001 C CNN "Manufacturer"
 F 5 "Low-Voltage 8-Channel I2C Switch with Reset" H 8200 6900 60  0001 C CNN "Description"
 F 6 "TSSOP24" H 8300 7000 60  0001 C CNN "Package ID"
 F 7 "0.00@0" H 8150 7100 60  0001 C CNN "Pricing"
-F 8 "TCA9548" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 8 "TCA9548" H 0   0   50  0001 C CNN "MPN"
 	1    8050 4900
 	1    0    0    -1  
 $EndComp
@@ -79,7 +79,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 1880 3450 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 1950 3450 50  0001 C CNN
 F 4 "Murata" H 1950 3450 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 1950 3450 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 1950 3450 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 1950 3450 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	1    1950 3450
@@ -122,7 +122,7 @@ F 1 "1uF X7R" H 1600 3700 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 3600 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 1450 3600 50  0001 C CNN
 F 4 "TDK" H 1450 3600 50  0001 C CNN "Manufacturer"
-F 5 "CGA3E1X7R1E105K080AC" H 1450 3600 50  0001 C CNN "Manufacturers Part Number"
+F 5 "CGA3E1X7R1E105K080AC" H 1450 3600 50  0001 C CNN "MPN"
 F 6 "0603in/1608mm" H -6250 -150 50  0001 C CNN "Package ID"
 F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
@@ -141,7 +141,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 3750 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1450 3750 50  0001 C CNN
 F 4 "0603in/1608mm" H -6000 0   50  0001 C CNN "Package ID"
 F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    1450 3750
@@ -379,7 +379,7 @@ F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 6350 285
 F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 4650 4750 50  0001 C CNN
 F 4 "16 bit IO expander" H 0   0   50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "TCA9555" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "TCA9555" H 0   0   50  0001 C CNN "MPN"
 F 7 "QFN24-EP" H 0   0   50  0001 C CNN "Package ID"
 	1    5150 3850
 	1    0    0    -1  
@@ -446,7 +446,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 2650 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5450 2650 50  0001 C CNN
 F 4 "0603in/1608mm" H -2000 -1100 50  0001 C CNN "Package ID"
 F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    5450 2650
@@ -566,7 +566,7 @@ F 1 "1uF X7R" V 5500 2650 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 2500 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 5450 2500 50  0001 C CNN
 F 4 "TDK" H 5450 2500 50  0001 C CNN "Manufacturer"
-F 5 "CGA3E1X7R1E105K080AC" H 5450 2500 50  0001 C CNN "Manufacturers Part Number"
+F 5 "CGA3E1X7R1E105K080AC" H 5450 2500 50  0001 C CNN "MPN"
 F 6 "0603in/1608mm" H -2250 -1250 50  0001 C CNN "Package ID"
 F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
@@ -618,7 +618,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 3950 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7100 3950 50  0001 C CNN
 F 4 "0603in/1608mm" H -350 200 50  0001 C CNN "Package ID"
 F 5 "Kemet" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "C0603C104J3RACAUTO" H 0   0   50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	1    7100 3950
@@ -637,7 +637,7 @@ F 1 "1uF X7R" V 7250 3800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 3800 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 7100 3800 50  0001 C CNN
 F 4 "TDK" H 7100 3800 50  0001 C CNN "Manufacturer"
-F 5 "CGA3E1X7R1E105K080AC" H 7100 3800 50  0001 C CNN "Manufacturers Part Number"
+F 5 "CGA3E1X7R1E105K080AC" H 7100 3800 50  0001 C CNN "MPN"
 F 6 "0603in/1608mm" H -600 50  50  0001 C CNN "Package ID"
 F 7 "CAP CER 1UF 25V X7R 0603" H 0   0   50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"

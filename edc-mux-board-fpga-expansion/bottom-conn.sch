@@ -79,7 +79,7 @@ F 2 "SW-Harting:09564525612" H 8500 6100 50  0001 C CNN
 F 3 "https://b2b.harting.com/files/download/PRD/PDF_TS/0956452X612_100510347DRW001B.pdf" H 9100 6150 50  0001 C CNN
 F 4 "DC-62 Connector" H 0   0   50  0001 C CNN "Description"
 F 5 "Harting" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "09564525612" H 0   0   50  0001 C CNN "Manufacturers Part Number"
+F 6 "09564525612" H 0   0   50  0001 C CNN "MPN"
 F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    8500 6700
 	1    0    0    -1  

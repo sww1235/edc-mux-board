@@ -60,7 +60,7 @@ F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT" H 5150 2500 50  0001 L C
 F 3 "https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf" H 5100 2750 50  0001 C CNN
 F 4 "switch mode power supply module" H 3250 300 50  0001 C CNN "Description"
 F 5 "RECOM Power" H 3250 300 50  0001 C CNN "Manufacturer"
-F 6 "R-78B3.3-2.0" H 3250 300 50  0001 C CNN "Manufacturers Part Number"
+F 6 "R-78B3.3-2.0" H 3250 300 50  0001 C CNN "MPN"
 F 7 "TO-220" H 3250 300 50  0001 C CNN "Package ID"
 	1    5100 2750
 	1    0    0    -1  
@@ -108,7 +108,7 @@ F 3 "https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds
 F 4 "2.4V-5.5V in, 1.8-3.3V out @ 600mA" H 5050 4450 50  0001 C CNN "Characteristics"
 F 5 "switch mode power supply module" H 3200 -1000 50  0001 C CNN "Description"
 F 6 "Intel" H 3200 -1000 50  0001 C CNN "Manufacturer"
-F 7 "EP5358HUI" H 3200 -1000 50  0001 C CNN "Manufacturers Part Number"
+F 7 "EP5358HUI" H 3200 -1000 50  0001 C CNN "MPN"
 F 8 "QFN16" H 3200 -1000 50  0001 C CNN "Package ID"
 	1    5050 4450
 	1    0    0    -1  
@@ -147,7 +147,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric" H 4350 4500 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 4350 4500 50  0001 C CNN
 F 4 "0805in/2012mm" H 3650 200 50  0001 C CNN "Package ID"
 F 5 "TDK" H 3200 -1000 50  0001 C CNN "Manufacturer"
-F 6 "C2012X7R1E475K125AB" H 3200 -1000 50  0001 C CNN "Manufacturers Part Number"
+F 6 "C2012X7R1E475K125AB" H 3200 -1000 50  0001 C CNN "MPN"
 F 7 "MLCC Capacitor" H 3200 -1000 50  0001 C CNN "Description"
 	1    4350 4500
 	1    0    0    -1  
@@ -162,7 +162,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric" H 5650 4550 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5650 4550 50  0001 C CNN
 F 4 "1206in/3216mm" H 4950 250 50  0001 C CNN "Package ID"
 F 5 "Kemet" H 3450 500 50  0001 C CNN "Manufacturer"
-F 6 "C1206C106J3RACAUTO" H 3450 500 50  0001 C CNN "Manufacturers Part Number"
+F 6 "C1206C106J3RACAUTO" H 3450 500 50  0001 C CNN "MPN"
 F 7 "CAP CER 10UF 25V X7R 1206" H 3200 -1000 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 3200 -1000 50  0001 C CNN "Description"
 	1    5650 4550
@@ -293,7 +293,7 @@ F 4 "CAP ALUM POLY 47UF 20% 25V SMD" H 5700 2850 50  0001 C CNN "Characteristics
 F 5 "Wurth Elektronik" H 5700 2850 50  0001 C CNN "Manufacturer"
 F 6 "Aluminium Polymer Electrolytic Capacitor" H 5700 2850 50  0001 C CNN "Description"
 F 7 "8.3x8.3x11.7mm" H 5700 2850 50  0001 C CNN "Package ID"
-F 8 "875075555002" H 5700 2850 50  0001 C CNN "Manufacturers Part Number"
+F 8 "875075555002" H 5700 2850 50  0001 C CNN "MPN"
 	1    5700 2850
 	1    0    0    -1  
 $EndComp

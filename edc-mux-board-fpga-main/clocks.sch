@@ -112,7 +112,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 2850 3100 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2850 3100 50  0001 C CNN
 F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
 F 5 "AVX" H 250 850 50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 250 850 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 250 850 50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 250 850 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 250 850 50  0001 C CNN "Description"
 	1    2850 3100
@@ -158,7 +158,7 @@ F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 2450 5700 50  0001 C CNN
 F 3 "https://www.sitime.com/datasheet/SiT1602" H 3500 6300 50  0001 C CNN
 F 4 "MEMS Oscillator" H 250 850 50  0001 C CNN "Description"
 F 5 "SI-Time" H 250 850 50  0001 C CNN "Manufacturer"
-F 6 "SiT1602BI-71-33E-48.000000" H 250 850 50  0001 C CNN "Manufacturers Part Number"
+F 6 "SiT1602BI-71-33E-48.000000" H 250 850 50  0001 C CNN "MPN"
 F 7 "Crystal 2016-4pim SMD" H 250 850 50  0001 C CNN "Package ID"
 	1    2600 3800
 	1    0    0    -1  
@@ -182,7 +182,7 @@ F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4550 4750 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cdce706.pdf" H 5850 4600 50  0001 C CNN
 F 4 "Programmable Clock Generator" H 250 850 50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 250 850 50  0001 C CNN "Manufacturer"
-F 6 "CDCE706" H 250 850 50  0001 C CNN "Manufacturers Part Number"
+F 6 "CDCE706" H 250 850 50  0001 C CNN "MPN"
 F 7 "TSSOP20" H 250 850 50  0001 C CNN "Package ID"
 	1    5350 3850
 	1    0    0    -1  
@@ -419,7 +419,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 5850 3100 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5850 3100 50  0001 C CNN
 F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
 F 5 "AVX" H 250 850 50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 250 850 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 250 850 50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 250 850 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 250 850 50  0001 C CNN "Description"
 	1    5850 3100
@@ -435,7 +435,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 5650 3100 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5650 3100 50  0001 C CNN
 F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
 F 5 "AVX" H 250 850 50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 250 850 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 250 850 50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 250 850 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 250 850 50  0001 C CNN "Description"
 	1    5650 3100
@@ -494,7 +494,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 5280 2800 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 5350 2800 50  0001 C CNN
 F 4 "Murata" H 5350 2800 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 5350 2800 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 5350 2800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 5350 2800 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 250 850 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 250 850 50  0001 C CNN "Description"
 	1    5350 2800
@@ -511,7 +511,7 @@ F 1 "LTC4412" H 6750 2100 50  0000 C CNN
 F 2 "SW-Package-TO-SOT-SMD:TSOT-23-6" H 6800 2200 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf" H 7350 2700 50  0001 C CNN
 F 4 "Linear Technologies" H 6800 1900 50  0001 C CNN "Manufacturer"
-F 5 "LTC4412HS6#TRMPBF" H 6800 1900 50  0001 C CNN "Manufacturers Part Number"
+F 5 "LTC4412HS6#TRMPBF" H 6800 1900 50  0001 C CNN "MPN"
 F 6 "Ideal Diode Controller" H 250 850 50  0001 C CNN "Description"
 F 7 "SOT-23-6" H 250 850 50  0001 C CNN "Package ID"
 	1    6800 1900
@@ -542,7 +542,7 @@ F 2 "SW-Texas:DSBGA9" H 5650 2250 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/csd22206w.pdf" H 5450 2200 50  0001 C CNN
 F 4 "P Channel MOSFET" H 250 850 50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 250 850 50  0001 C CNN "Manufacturer"
-F 6 "CSD22206W" H 250 850 50  0001 C CNN "Manufacturers Part Number"
+F 6 "CSD22206W" H 250 850 50  0001 C CNN "MPN"
 F 7 "DSBGA9" H 250 850 50  0001 C CNN "Package ID"
 	1    5450 2200
 	-1   0    0    -1  
@@ -591,7 +591,7 @@ F 2 "SW-Texas:DSBGA9" H 6450 2400 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/csd22206w.pdf" H 6250 2350 50  0001 C CNN
 F 4 "P Channel MOSFET" H 250 850 50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 250 850 50  0001 C CNN "Manufacturer"
-F 6 "CSD22206W" H 250 850 50  0001 C CNN "Manufacturers Part Number"
+F 6 "CSD22206W" H 250 850 50  0001 C CNN "MPN"
 F 7 "DSBGA9" H 250 850 50  0001 C CNN "Package ID"
 	1    6250 2350
 	0    1    1    0   
@@ -663,7 +663,7 @@ F 1 "10uF X7R" H 5950 2550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5850 2550 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5850 2550 50  0001 C CNN
 F 4 "Kemet" H 250 850 50  0001 C CNN "Manufacturer"
-F 5 "C1206C106J3RACAUTO" H 250 850 50  0001 C CNN "Manufacturers Part Number"
+F 5 "C1206C106J3RACAUTO" H 250 850 50  0001 C CNN "MPN"
 F 6 "1206in/3216mm" H 250 850 50  0001 C CNN "Package ID"
 F 7 "CAP CER 10UF 25V X7R 1206" H 250 850 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 250 850 50  0001 C CNN "Description"

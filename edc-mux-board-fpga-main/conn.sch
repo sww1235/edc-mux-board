@@ -30,7 +30,7 @@ F 0 "U32" H 5700 1550 50  0000 C CNN
 F 1 "TLV320AIC3206" H 4750 3650 50  0000 C CNN
 F 2 "Package_DFN_QFN:UQFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm_ThermalVias" H 5300 4000 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tlv320aic3206.pdf" H 6400 3150 50  0001 C CNN
-F 4 "TLV320AIC3206" H 5250 2600 50  0001 C CNN "Manufacturers Part Number"
+F 4 "TLV320AIC3206" H 5250 2600 50  0001 C CNN "MPN"
 F 5 "I2S Audio Codec" H 50  -800 50  0001 C CNN "Description"
 F 6 "Texas Instruments" H 50  -800 50  0001 C CNN "Manufacturer"
 F 7 "UQFN40" H 50  -800 50  0001 C CNN "Package ID"
@@ -55,7 +55,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric" H 5250 1350 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 5250 1350 50  0001 C CNN
 F 4 "0805in/2012mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "TDK" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "CGA4J3X7R1E225K125AB" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "CGA4J3X7R1E225K125AB" H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 2.2UF 25V X7R 0805" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    5250 1350
@@ -83,7 +83,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric" H 6100 3450 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 6100 3450 50  0001 C CNN
 F 4 "0805in/2012mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "TDK" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "CGA4J3X7R1E225K125AB" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "CGA4J3X7R1E225K125AB" H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 2.2UF 25V X7R 0805" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    6100 3450
@@ -173,7 +173,7 @@ F 1 "1uF X7R" H 4550 3450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4450 3450 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 4450 3450 50  0001 C CNN
 F 4 "TDK" H 4450 3450 50  0001 C CNN "Manufacturer"
-F 5 "CGA3E1X7R1E105K080AC" H 4450 3450 50  0001 C CNN "Manufacturers Part Number"
+F 5 "CGA3E1X7R1E105K080AC" H 4450 3450 50  0001 C CNN "MPN"
 F 6 "0603in/1608mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 7 "CAP CER 1UF 25V X7R 0603" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
@@ -207,7 +207,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 4000 2250 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4000 2250 50  0001 C CNN
 F 4 "0402in/1005mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "AVX" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    4000 2250
@@ -231,7 +231,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 4200 2250 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4200 2250 50  0001 C CNN
 F 4 "0402in/1005mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "AVX" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    4200 2250
@@ -371,7 +371,7 @@ F 2 "Inductor_SMD:L_0603_1608Metric" V 6530 3350 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz1608_en.pdf" H 6600 3350 50  0001 C CNN
 F 4 "TDK" H 6600 3350 50  0001 C CNN "Manufacturer"
 F 5 "0603in/1608mm" H 6600 3350 50  0001 C CNN "Package ID"
-F 6 "MPZ1608S221A" H 6600 3350 50  0001 C CNN "Manufacturers Part Number"
+F 6 "MPZ1608S221A" H 6600 3350 50  0001 C CNN "MPN"
 F 7 "Ferrite Bead" H 50  -800 50  0001 C CNN "Description"
 	1    6600 3350
 	1    0    0    -1  
@@ -408,7 +408,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 3600 1950 50  0001 C CNN
 F 3 "http://datasheets.avx.com/C0GNP0-Dielectric.pdf" H 3600 1950 50  0001 C CNN
 F 4 "0402in/1005mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "AVX" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "04023A330FAT2A " H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023A330FAT2A " H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 33PF 25V NP0 0402" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    3600 1950
@@ -436,7 +436,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 3800 1950 50  0001 C CNN
 F 3 "http://datasheets.avx.com/C0GNP0-Dielectric.pdf" H 3800 1950 50  0001 C CNN
 F 4 "0402in/1005mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "AVX" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "04023A330FAT2A " H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023A330FAT2A " H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 33PF 25V NP0 0402" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    3800 1950
@@ -605,7 +605,7 @@ F 1 "1uF X7R" H 6950 2500 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6800 2400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 6800 2400 50  0001 C CNN
 F 4 "TDK" H 6800 2400 50  0001 C CNN "Manufacturer"
-F 5 "CGA3E1X7R1E105K080AC" H 6800 2400 50  0001 C CNN "Manufacturers Part Number"
+F 5 "CGA3E1X7R1E105K080AC" H 6800 2400 50  0001 C CNN "MPN"
 F 6 "0603in/1608mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 7 "CAP CER 1UF 25V X7R 0603" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
@@ -657,7 +657,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric" H 6950 2400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6950 2400 50  0001 C CNN
 F 4 "Kemet" H 7100 1550 50  0001 C CNN "Manufacturer"
 F 5 "1206in/3216mm" H 7100 1550 50  0001 C CNN "Package ID"
-F 6 "C1206C106J3RACAUTO" H 7100 1550 50  0001 C CNN "Manufacturers Part Number"
+F 6 "C1206C106J3RACAUTO" H 7100 1550 50  0001 C CNN "MPN"
 F 7 "CAP CER 10UF 25V X7R 1206" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    6950 2400
@@ -681,7 +681,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 6550 2400 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6550 2400 50  0001 C CNN
 F 4 "0402in/1005mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "AVX" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    6550 2400
@@ -741,7 +741,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 7100 1350 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7100 1350 50  0001 C CNN
 F 4 "0402in/1005mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "AVX" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    7100 1350
@@ -765,7 +765,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric" H 7100 1550 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7100 1550 50  0001 C CNN
 F 4 "Kemet" H 7100 1550 50  0001 C CNN "Manufacturer"
 F 5 "1206in/3216mm" H 7100 1550 50  0001 C CNN "Package ID"
-F 6 "C1206C106J3RACAUTO" H 7100 1550 50  0001 C CNN "Manufacturers Part Number"
+F 6 "C1206C106J3RACAUTO" H 7100 1550 50  0001 C CNN "MPN"
 F 7 "CAP CER 10UF 25V X7R 1206" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    7100 1550
@@ -799,7 +799,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 7100 1750 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7100 1750 50  0001 C CNN
 F 4 "0402in/1005mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "AVX" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    7100 1750
@@ -828,7 +828,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 7100 1950 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7100 1950 50  0001 C CNN
 F 4 "0402in/1005mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "AVX" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    7100 1950
@@ -913,7 +913,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 8050 1800 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8050 1800 50  0001 C CNN
 F 4 "0402in/1005mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "AVX" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    8050 1800
@@ -981,7 +981,7 @@ F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 2650 3500 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/P82B96.pdf" H 2650 3500 50  0001 C CNN
 F 4 "I2C Buffer / Voltage Translator" H 50  -800 50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "P82B96" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "P82B96" H 50  -800 50  0001 C CNN "MPN"
 F 7 "TSSOP8" H 50  -800 50  0001 C CNN "Package ID"
 	1    2650 3500
 	-1   0    0    -1  
@@ -1155,7 +1155,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 3200 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3750 3200 50  0001 C CNN
 F 4 "0402in/1005mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 5 "AVX" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "04023C104JAT2A" H 50  -800 50  0001 C CNN "MPN"
 F 7 "CAP CER 0.1UF 25V X7R 0402" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
 	1    3750 3200
@@ -1195,7 +1195,7 @@ F 1 "1uF X7R flex" V 6450 2800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6200 2800 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 6200 2800 50  0001 C CNN
 F 4 "Kemet" H 6200 2800 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RECAUTO" H 6200 2800 50  0001 C CNN "Manufacturers Part Number"
+F 5 "C0805X105J3RECAUTO" H 6200 2800 50  0001 C CNN "MPN"
 F 6 "0805in/2012mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
@@ -1219,7 +1219,7 @@ F 1 "1uF X7R flex" V 6700 2900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6450 2900 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 6450 2900 50  0001 C CNN
 F 4 "Kemet" H 6450 2900 50  0001 C CNN "Manufacturer"
-F 5 "C0805X105J3RECAUTO" H 6450 2900 50  0001 C CNN "Manufacturers Part Number"
+F 5 "C0805X105J3RECAUTO" H 6450 2900 50  0001 C CNN "MPN"
 F 6 "0805in/2012mm" H -900 -1350 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H 50  -800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H 50  -800 50  0001 C CNN "Description"
@@ -1266,7 +1266,7 @@ F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 8900 2000 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/FSA2367-D.pdf" H 8300 2200 50  0001 C CNN
 F 4 "2:1 Three Channel Audio Switch" H 50  -800 50  0001 C CNN "Description"
 F 5 "On Semi" H 50  -800 50  0001 C CNN "Manufacturer"
-F 6 "FSA2367MTCX" H 50  -800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "FSA2367MTCX" H 50  -800 50  0001 C CNN "MPN"
 F 7 "TSSOP14" H 50  -800 50  0001 C CNN "Package ID"
 	1    8400 2350
 	1    0    0    -1  
@@ -1323,7 +1323,7 @@ F 3 "http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf" H 5350 5250 50  0001 C CNN
 F 4 "Panel Mount Connector: T4171130012-001 from TE Conn" H 1050 3650 50  0001 C CNN "Characteristics"
 F 5 "Board to wire connector for Device M12 Connector" H 1050 3650 50  0001 C CNN "Description"
 F 6 "JST" H 1050 3650 50  0001 C CNN "Manufacturer"
-F 7 "B12B-PHDSS(LF)(SN) " H 1050 3650 50  0001 C CNN "Manufacturers Part Number"
+F 7 "B12B-PHDSS(LF)(SN) " H 1050 3650 50  0001 C CNN "MPN"
 F 8 "Through Hole" H 1050 3650 50  0001 C CNN "Package ID"
 	1    5350 5250
 	-1   0    0    1   
@@ -1349,7 +1349,7 @@ F 4 "30pF 30kV 100uA @5V" H 4700 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4700 5800 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4700 5800 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4700 5800 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4700 5800 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4700 5800 50  0001 C CNN "MPN"
 	1    4700 5800
 	0    1    1    0   
 $EndComp
@@ -1374,7 +1374,7 @@ F 4 "30pF 30kV 100uA @5V" H 5750 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5750 5800 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5750 5800 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5750 5800 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5750 5800 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5750 5800 50  0001 C CNN "MPN"
 	1    5750 5800
 	0    1    1    0   
 $EndComp
@@ -1461,7 +1461,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 5980 5150 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6050 5150 50  0001 C CNN
 F 4 "Murata" H 6050 5150 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 6050 5150 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 6050 5150 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 6050 5150 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3750 3550 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3750 3550 50  0001 C CNN "Description"
 	1    6050 5150
@@ -1486,7 +1486,7 @@ F 0 "C284" V 3900 5300 50  0000 C CNN
 F 1 "1uF X7R flex" V 3800 5150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3950 5150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 3950 5150 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 3950 5150 50  0001 C CNN "Manufacturers Part Number"
+F 4 "C0805X105J3RECAUTO" H 3950 5150 50  0001 C CNN "MPN"
 F 5 "Kemet" H 3950 5150 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 950 2150 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -3800 3750 50  0001 C CNN "Characteristics"
@@ -1513,7 +1513,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 4330 4750 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 4400 4750 50  0001 C CNN
 F 4 "Murata" H 4400 4750 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 4400 4750 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 4400 4750 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 4400 4750 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 1700 3050 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 1700 3050 50  0001 C CNN "Description"
 	1    4400 5150
@@ -1538,7 +1538,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 4180 5250 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 4250 5250 50  0001 C CNN
 F 4 "Murata" H 4250 5250 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 4250 5250 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 4250 5250 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 4250 5250 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 2750 3850 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 2750 3850 50  0001 C CNN "Description"
 	1    4250 5250
@@ -1563,7 +1563,7 @@ F 2 "Inductor_SMD:L_0805_2012Metric" V 6330 5250 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796749987870/QNFA9114.pdf" H 6400 5250 50  0001 C CNN
 F 4 "Murata" H 6400 5250 50  0001 C CNN "Manufacturer"
 F 5 "0805in/2012mm" H 6400 5250 50  0001 C CNN "Package ID"
-F 6 "BLM21AG601SZ1D " H 6400 5250 50  0001 C CNN "Manufacturers Part Number"
+F 6 "BLM21AG601SZ1D " H 6400 5250 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 4100 3650 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 4100 3650 50  0001 C CNN "Description"
 	1    6400 5250
@@ -1586,7 +1586,7 @@ F 0 "C285" V 6650 5000 50  0000 C CNN
 F 1 "1uF X7R flex" V 6550 5050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6700 5150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 6700 5150 50  0001 C CNN
-F 4 "C0805X105J3RECAUTO" H 6700 5150 50  0001 C CNN "Manufacturers Part Number"
+F 4 "C0805X105J3RECAUTO" H 6700 5150 50  0001 C CNN "MPN"
 F 5 "Kemet" H 6700 5150 50  0001 C CNN "Manufacturer"
 F 6 "0805in/2012mm" H 3700 2150 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -1050 3750 50  0001 C CNN "Characteristics"
@@ -1617,7 +1617,7 @@ F 4 "30pF 30kV 100uA @5V" H 4550 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4550 5800 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4550 5800 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4550 5800 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4550 5800 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4550 5800 50  0001 C CNN "MPN"
 	1    4550 5800
 	0    1    1    0   
 $EndComp
@@ -1647,7 +1647,7 @@ F 4 "30pF 30kV 100uA @5V" H 4400 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4400 5800 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4400 5800 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4400 5800 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4400 5800 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4400 5800 50  0001 C CNN "MPN"
 	1    4400 5800
 	0    1    1    0   
 $EndComp
@@ -1675,7 +1675,7 @@ F 4 "30pF 30kV 100uA @5V" H 4250 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 4250 5800 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 4250 5800 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 4250 5800 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 4250 5800 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 4250 5800 50  0001 C CNN "MPN"
 	1    4250 5800
 	0    1    1    0   
 $EndComp
@@ -1703,7 +1703,7 @@ F 4 "30pF 30kV 100uA @5V" H 5900 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 5900 5800 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 5900 5800 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 5900 5800 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 5900 5800 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 5900 5800 50  0001 C CNN "MPN"
 	1    5900 5800
 	0    -1   1    0   
 $EndComp
@@ -1730,7 +1730,7 @@ F 4 "30pF 30kV 100uA @5V" H 6050 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 6050 5800 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 6050 5800 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 6050 5800 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6050 5800 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 6050 5800 50  0001 C CNN "MPN"
 	1    6050 5800
 	0    -1   1    0   
 $EndComp
@@ -1757,7 +1757,7 @@ F 4 "30pF 30kV 100uA @5V" H 6200 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 6200 5800 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 6200 5800 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 6200 5800 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6200 5800 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 6200 5800 50  0001 C CNN "MPN"
 	1    6200 5800
 	0    -1   1    0   
 $EndComp
@@ -1815,7 +1815,7 @@ F 2 "Diode_SMD:D_SMA" H 4850 5800 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 4850 5800 50  0001 C CNN
 F 4 "Littelfuse" H 4850 5800 50  0001 C CNN "Manufacturer"
 F 5 "Transient Voltage Suppresion Diode" H 4850 5800 50  0001 C CNN "Description"
-F 6 "SMAJ12CA" H 4850 5800 50  0001 C CNN "Manufacturers Part Number"
+F 6 "SMAJ12CA" H 4850 5800 50  0001 C CNN "MPN"
 F 7 "SMA Diode" H 2850 1550 50  0001 C CNN "Package ID"
 	1    4850 5800
 	0    1    1    0   
@@ -1846,7 +1846,7 @@ F 4 "30pF 30kV 100uA @5V" H 6350 5800 50  0001 C CNN "Characteristics"
 F 5 "Littelfuse" H 6350 5800 50  0001 C CNN "Manufacturer"
 F 6 "Transient Voltage Suppresion Diode" H 6350 5800 50  0001 C CNN "Description"
 F 7 "0402in/1005mm" H 6350 5800 50  0001 C CNN "Package ID"
-F 8 "SP1005-01ETG" H 6350 5800 50  0001 C CNN "Manufacturers Part Number"
+F 8 "SP1005-01ETG" H 6350 5800 50  0001 C CNN "MPN"
 	1    6350 5800
 	0    -1   1    0   
 $EndComp
