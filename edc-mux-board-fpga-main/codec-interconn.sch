@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:edc-mux-board-fpga-main-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLegal 8500 14000 portrait
 encoding utf-8

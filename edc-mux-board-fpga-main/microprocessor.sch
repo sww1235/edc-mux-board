@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:edc-mux-board-fpga-main-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
@@ -48,10 +48,10 @@ F 8 "Ferrite Bead" H 0   0   50  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C286
+L Device:C_Small C285
 U 1 1 5CB0D4F1
 P 3900 2150
-F 0 "C286" V 4150 2150 50  0000 C CNN
+F 0 "C285" V 4150 2150 50  0000 C CNN
 F 1 "10uF X7R" V 4050 2150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3900 2150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 3900 2150 50  0001 C CNN
@@ -70,10 +70,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 2100 4150 2150
 $Comp
-L Device:C_Small C287
+L Device:C_Small C286
 U 1 1 5CB0E5F1
 P 3900 2300
-F 0 "C287" V 3750 2300 50  0000 C CNN
+F 0 "C286" V 3750 2300 50  0000 C CNN
 F 1 "100nF X7R" V 3700 2300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3900 2300 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3900 2300 50  0001 C CNN
@@ -86,10 +86,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0141
+L power:GND #PWR0140
 U 1 1 5CB0E9A0
 P 4250 7100
-F 0 "#PWR0141" H 4250 6850 50  0001 C CNN
+F 0 "#PWR0140" H 4250 6850 50  0001 C CNN
 F 1 "GND" H 4250 6950 50  0000 C CNN
 F 2 "" H 4250 7100 50  0001 C CNN
 F 3 "" H 4250 7100 50  0001 C CNN
@@ -140,10 +140,10 @@ $EndComp
 Wire Wire Line
 	5150 6750 5200 6750
 $Comp
-L power:+3.3V #PWR0143
+L power:+3.3V #PWR0142
 U 1 1 5CB13FCD
 P 4750 6450
-F 0 "#PWR0143" H 4750 6300 50  0001 C CNN
+F 0 "#PWR0142" H 4750 6300 50  0001 C CNN
 F 1 "+3.3V" H 4750 6590 50  0000 C CNN
 F 2 "" H 4750 6450 50  0001 C CNN
 F 3 "" H 4750 6450 50  0001 C CNN
@@ -151,10 +151,10 @@ F 3 "" H 4750 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C294
+L Device:C_Small C293
 U 1 1 5CB16AC7
 P 4750 6600
-F 0 "C294" H 4760 6670 50  0000 L CNN
+F 0 "C293" H 4760 6670 50  0000 L CNN
 F 1 "100pF C0G" H 4760 6520 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 6600 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 4750 6600 50  0001 C CNN
@@ -208,10 +208,10 @@ Connection ~ 4250 7050
 Wire Wire Line
 	4250 7050 4250 7100
 $Comp
-L power:GND #PWR0140
+L power:GND #PWR0139
 U 1 1 5CB20169
 P 3300 6700
-F 0 "#PWR0140" H 3300 6450 50  0001 C CNN
+F 0 "#PWR0139" H 3300 6450 50  0001 C CNN
 F 1 "GND" H 3300 6550 50  0000 C CNN
 F 2 "" H 3300 6700 50  0001 C CNN
 F 3 "" H 3300 6700 50  0001 C CNN
@@ -248,10 +248,10 @@ Connection ~ 4350 1800
 Wire Wire Line
 	4350 1800 4150 1800
 $Comp
-L Device:C_Small C290
+L Device:C_Small C289
 U 1 1 5CB233A3
 P 4750 1950
-F 0 "C290" V 4800 1850 50  0000 C CNN
+F 0 "C289" V 4800 1850 50  0000 C CNN
 F 1 "10uF X7R" V 4700 2100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4750 1950 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4750 1950 50  0001 C CNN
@@ -264,10 +264,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C291
+L Device:C_Small C290
 U 1 1 5CB24B2E
 P 4750 2150
-F 0 "C291" V 4800 2050 50  0000 C CNN
+F 0 "C290" V 4800 2050 50  0000 C CNN
 F 1 "100nF X7R" V 4700 2300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2150 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4750 2150 50  0001 C CNN
@@ -280,10 +280,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C292
+L Device:C_Small C291
 U 1 1 5CB2503C
 P 4750 2300
-F 0 "C292" V 4800 2200 50  0000 C CNN
+F 0 "C291" V 4800 2200 50  0000 C CNN
 F 1 "100nF X7R" V 4700 2450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2300 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4750 2300 50  0001 C CNN
@@ -296,10 +296,10 @@ F 8 "MLCC Capacitor" H 0   0   50  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C293
+L Device:C_Small C292
 U 1 1 5CB25350
 P 4750 2500
-F 0 "C293" V 4800 2400 50  0000 C CNN
+F 0 "C292" V 4800 2400 50  0000 C CNN
 F 1 "1uF X7R" V 4700 2600 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 2500 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 4750 2500 50  0001 C CNN
@@ -331,10 +331,10 @@ Connection ~ 4350 1950
 Wire Wire Line
 	4350 1950 4350 1800
 $Comp
-L power:GND #PWR0144
+L power:GND #PWR0143
 U 1 1 5CB2911C
 P 5100 2550
-F 0 "#PWR0144" H 5100 2300 50  0001 C CNN
+F 0 "#PWR0143" H 5100 2300 50  0001 C CNN
 F 1 "GND" H 5100 2400 50  0000 C CNN
 F 2 "" H 5100 2550 50  0001 C CNN
 F 3 "" H 5100 2550 50  0001 C CNN
@@ -358,10 +358,10 @@ SWCLK
 Text Label 2000 6100 0    50   ~ 0
 SWDIO
 $Comp
-L power:+3.3V #PWR0138
+L power:+3.3V #PWR0137
 U 1 1 5CB4123B
 P 1300 5650
-F 0 "#PWR0138" H 1300 5500 50  0001 C CNN
+F 0 "#PWR0137" H 1300 5500 50  0001 C CNN
 F 1 "+3.3V" H 1300 5790 50  0000 C CNN
 F 2 "" H 1300 5650 50  0001 C CNN
 F 3 "" H 1300 5650 50  0001 C CNN
@@ -469,10 +469,10 @@ Connection ~ 2600 8350
 Wire Wire Line
 	2600 8350 2650 8350
 $Comp
-L power:GND #PWR0139
+L power:GND #PWR0138
 U 1 1 5CB67BAB
 P 3050 9050
-F 0 "#PWR0139" H 3050 8800 50  0001 C CNN
+F 0 "#PWR0138" H 3050 8800 50  0001 C CNN
 F 1 "GND" H 3050 8900 50  0000 C CNN
 F 2 "" H 3050 9050 50  0001 C CNN
 F 3 "" H 3050 9050 50  0001 C CNN
@@ -540,10 +540,10 @@ Connection ~ 3050 8900
 Wire Wire Line
 	3050 8900 3050 9000
 $Comp
-L Device:C_Small C288
+L Device:C_Small C287
 U 1 1 5CBA845F
 P 4100 8700
-F 0 "C288" H 4200 8650 50  0000 L CNN
+F 0 "C287" H 4200 8650 50  0000 L CNN
 F 1 "1uF X7R" H 4200 8700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4100 8700 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 4100 8700 50  0001 C CNN
@@ -566,10 +566,10 @@ Connection ~ 4100 8900
 Wire Wire Line
 	4100 8900 3050 8900
 $Comp
-L Device:C_Small C296
+L Device:C_Small C295
 U 1 1 5CBB2A15
 P 5450 8650
-F 0 "C296" H 5350 8600 50  0000 R CNN
+F 0 "C295" H 5350 8600 50  0000 R CNN
 F 1 "2.2uF X7R" H 5350 8650 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5450 8650 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 5450 8650 50  0001 C CNN
@@ -591,10 +591,10 @@ Wire Wire Line
 	5450 8900 4850 8900
 Connection ~ 4850 8900
 $Comp
-L Device:C_Small C289
+L Device:C_Small C288
 U 1 1 5CBBAF62
 P 4300 8700
-F 0 "C289" H 4200 8650 50  0000 R CNN
+F 0 "C288" H 4200 8650 50  0000 R CNN
 F 1 "10uF X7R" H 4200 8700 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4300 8700 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4300 8700 50  0001 C CNN
@@ -637,10 +637,10 @@ Wire Wire Line
 	5450 8350 5600 8350
 Connection ~ 5450 8350
 $Comp
-L power:+3.3V #PWR0142
+L power:+3.3V #PWR0141
 U 1 1 5CAEE20A
 P 4550 1150
-F 0 "#PWR0142" H 4550 1000 50  0001 C CNN
+F 0 "#PWR0141" H 4550 1000 50  0001 C CNN
 F 1 "+3.3V" H 4550 1290 50  0000 C CNN
 F 2 "" H 4550 1150 50  0001 C CNN
 F 3 "" H 4550 1150 50  0001 C CNN
@@ -675,10 +675,10 @@ Wire Wire Line
 Text Label 5950 1700 0    50   ~ 0
 +3V3USB
 $Comp
-L power:+3.3V #PWR0145
+L power:+3.3V #PWR0144
 U 1 1 5CC1D178
 P 6400 850
-F 0 "#PWR0145" H 6400 700 50  0001 C CNN
+F 0 "#PWR0144" H 6400 700 50  0001 C CNN
 F 1 "+3.3V" H 6400 990 50  0000 C CNN
 F 2 "" H 6400 850 50  0001 C CNN
 F 3 "" H 6400 850 50  0001 C CNN
@@ -744,10 +744,10 @@ Connection ~ 5450 1350
 Wire Wire Line
 	5450 1350 5450 1400
 $Comp
-L power:GND #PWR0146
+L power:GND #PWR0145
 U 1 1 5CC4B8C6
 P 6600 1400
-F 0 "#PWR0146" H 6600 1150 50  0001 C CNN
+F 0 "#PWR0145" H 6600 1150 50  0001 C CNN
 F 1 "GND" H 6600 1250 50  0000 C CNN
 F 2 "" H 6600 1400 50  0001 C CNN
 F 3 "" H 6600 1400 50  0001 C CNN
@@ -764,10 +764,10 @@ Connection ~ 6600 1250
 Wire Wire Line
 	6600 1250 6600 1400
 $Comp
-L Device:C_Small C295
+L Device:C_Small C294
 U 1 1 5CC5600A
 P 5050 1800
-F 0 "C295" V 5100 1700 50  0000 C CNN
+F 0 "C294" V 5100 1700 50  0000 C CNN
 F 1 "10uF X7R" V 5000 1950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5050 1800 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5050 1800 50  0001 C CNN
@@ -854,10 +854,10 @@ Wire Wire Line
 Wire Wire Line
 	1150 4800 1150 4750
 $Comp
-L power:+3.3V #PWR0137
+L power:+3.3V #PWR0136
 U 1 1 648F73B7
 P 1200 4650
-F 0 "#PWR0137" H 1200 4500 50  0001 C CNN
+F 0 "#PWR0136" H 1200 4500 50  0001 C CNN
 F 1 "+3.3V" H 1200 4790 50  0000 C CNN
 F 2 "" H 1200 4650 50  0001 C CNN
 F 3 "" H 1200 4650 50  0001 C CNN
