@@ -310,11 +310,14 @@ L Device:R_Small_US R9
 U 1 1 5CBCD139
 P 6250 3600
 F 0 "R9" V 6200 3450 50  0000 C CNN
-F 1 "5Ω" V 6200 3750 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6200 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 3600 50  0001 C CNN
-F 3 "~" H 6250 3600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 3600 50  0001 C CNN
 F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
 F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 3600 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6250 3600 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6250 3600 50  0001 C CNN "Manufacturer"
 	1    6250 3600
 	0    1    1    0   
 $EndComp
@@ -323,11 +326,14 @@ L Device:R_Small_US R10
 U 1 1 5CBCE005
 P 6250 3700
 F 0 "R10" V 6200 3550 50  0000 C CNN
-F 1 "5Ω" V 6200 3850 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6200 3850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 3700 50  0001 C CNN
-F 3 "~" H 6250 3700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 3700 50  0001 C CNN
 F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
 F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 3700 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6250 3700 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6250 3700 50  0001 C CNN "Manufacturer"
 	1    6250 3700
 	0    1    1    0   
 $EndComp
@@ -336,11 +342,14 @@ L Device:R_Small_US R11
 U 1 1 5CBCE2A6
 P 6250 3800
 F 0 "R11" V 6200 3650 50  0000 C CNN
-F 1 "5Ω" V 6200 3950 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6200 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 3800 50  0001 C CNN
-F 3 "~" H 6250 3800 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 3800 50  0001 C CNN
 F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
 F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 3800 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6250 3800 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6250 3800 50  0001 C CNN "Manufacturer"
 	1    6250 3800
 	0    1    1    0   
 $EndComp
@@ -349,11 +358,14 @@ L Device:R_Small_US R12
 U 1 1 5CBCE616
 P 6250 3900
 F 0 "R12" V 6200 3750 50  0000 C CNN
-F 1 "5Ω" V 6200 4050 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6200 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 3900 50  0001 C CNN
-F 3 "~" H 6250 3900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 3900 50  0001 C CNN
 F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
 F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 3900 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6250 3900 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6250 3900 50  0001 C CNN "Manufacturer"
 	1    6250 3900
 	0    1    1    0   
 $EndComp
@@ -362,11 +374,14 @@ L Device:R_Small_US R13
 U 1 1 5CBCE913
 P 6250 4000
 F 0 "R13" V 6200 3850 50  0000 C CNN
-F 1 "5Ω" V 6200 4150 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6200 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 4000 50  0001 C CNN
-F 3 "~" H 6250 4000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 4000 50  0001 C CNN
 F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
 F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 4000 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6250 4000 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6250 4000 50  0001 C CNN "Manufacturer"
 	1    6250 4000
 	0    1    1    0   
 $EndComp
@@ -375,11 +390,14 @@ L Device:R_Small_US R14
 U 1 1 5CBCEA5B
 P 6250 4100
 F 0 "R14" V 6200 3950 50  0000 C CNN
-F 1 "5Ω" V 6200 4250 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6200 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 4100 50  0001 C CNN
-F 3 "~" H 6250 4100 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 4100 50  0001 C CNN
 F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
 F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 4100 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6250 4100 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6250 4100 50  0001 C CNN "Manufacturer"
 	1    6250 4100
 	0    1    1    0   
 $EndComp

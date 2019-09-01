@@ -3298,7 +3298,7 @@ AR Path="/5CBF628A/5D4E300C" Ref="SW?"  Part="1"
 AR Path="/5CC3E5B8/5D4E300C" Ref="SW1"  Part="1" 
 F 0 "SW1" H 11000 4950 50  0000 C CNN
 F 1 "Power Switch" H 11000 4850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11000 4700 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 11000 4700 50  0001 C CNN
 F 3 "~" H 11000 4700 50  0001 C CNN
 F 4 "Through Hole" H 4100 400 50  0001 C CNN "Package ID"
 F 5 "Connection for panel mounted power switch" H 4100 400 50  0001 C CNN "Description"
