@@ -74,8 +74,6 @@ Wire Wire Line
 Connection ~ 5350 3250
 Wire Wire Line
 	5350 3250 5350 3100
-Text Notes 5550 5150 0    50   ~ 0
-Do I need a separate Reset connection\nto the MCU so it can reset the clock chips\nindependantly?
 $Comp
 L power:GND #PWR035
 U 1 1 5CB6F7AE
@@ -153,12 +151,12 @@ L SW-SiTime:SiT1602B Y1
 U 1 1 5CAC6025
 P 2600 3800
 F 0 "Y1" H 2800 3500 50  0000 R CNN
-F 1 "SiT1602BI-71-33E-48.000000" H 2250 3600 50  0000 R CNN
+F 1 "SiT1602BI-72-33E-24.000000" H 2250 3600 50  0000 R CNN
 F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 2450 5700 50  0001 C CNN
 F 3 "https://www.sitime.com/datasheet/SiT1602" H 3500 6300 50  0001 C CNN
 F 4 "MEMS Oscillator" H 250 850 50  0001 C CNN "Description"
 F 5 "SI-Time" H 250 850 50  0001 C CNN "Manufacturer"
-F 6 "SiT1602BI-71-33E-48.000000" H 250 850 50  0001 C CNN "MPN"
+F 6 "SiT1602BI-72-33E-24.000000" H 250 850 50  0001 C CNN "MPN"
 F 7 "Crystal 2016-4pim SMD" H 250 850 50  0001 C CNN "Package ID"
 	1    2600 3800
 	1    0    0    -1  
@@ -170,8 +168,8 @@ Wire Wire Line
 Connection ~ 2600 3100
 Wire Wire Line
 	2600 3100 2600 3450
-Text Notes 7100 3950 0    50   ~ 0
-Y0 = 48MHz for FPGA\nY1 = 48MHz for CODECs\nY2 = 48MHz for CODECs\nY3 = for Microprocessor\nY4 = 25MHz for W5500 Ethernet
+Text Notes 7750 4350 0    50   ~ 0
+Y0 = 48MHz for FPGA\nY1 = 48MHz for CODECs\nY2 = 48MHz for CODECs\nY3 = 48MHz for Microprocessor\nY4 = 25MHz for W5500 Ethernet\n\nfout = Fin * (N/M)/P\n\nfor 25MHz: N=25, M=24, P=1\nfor 48MHz: N=2, M=1, P=1
 $Comp
 L SW-Texas:CDCE706 U8
 U 1 1 5CB9BD83
@@ -293,140 +291,140 @@ F 5 "Resistor" H 0   750 50  0001 C CNN "Description"
 	1    4000 4100
 	0    -1   1    0   
 $EndComp
-Text GLabel 6550 3600 2    50   Output ~ 0
+Text GLabel 7050 3600 2    50   Output ~ 0
 CLK0_FPGA
-Text GLabel 6550 3700 2    50   Output ~ 0
+Text GLabel 7050 3700 2    50   Output ~ 0
 CLK1_CODEC
-Text GLabel 6550 3800 2    50   Output ~ 0
+Text GLabel 7050 3800 2    50   Output ~ 0
 CLK2_CODEC
-Text GLabel 6550 3900 2    50   Output ~ 0
+Text GLabel 7050 3900 2    50   Output ~ 0
 CLK3_MCU
-Text GLabel 6550 4000 2    50   Output ~ 0
+Text GLabel 7050 4000 2    50   Output ~ 0
 CLK4_ETH
-Text GLabel 6550 4100 2    50   Output ~ 0
+Text GLabel 7050 4100 2    50   Output ~ 0
 CLK5
 $Comp
 L Device:R_Small_US R9
 U 1 1 5CBCD139
-P 6250 3600
-F 0 "R9" V 6200 3450 50  0000 C CNN
-F 1 "4.99Ω 0.1%" V 6200 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 3600 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 3600 50  0001 C CNN
-F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
-F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
-F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 3600 50  0001 C CNN "Characteristics"
-F 7 "RT0402BRE074R99L" H 6250 3600 50  0001 C CNN "MPN"
-F 8 "Yageo" H 6250 3600 50  0001 C CNN "Manufacturer"
-	1    6250 3600
+P 6450 3600
+F 0 "R9" V 6400 3450 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6400 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6450 3600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6450 3600 50  0001 C CNN
+F 4 "0402in/1005mm" H 450 850 50  0001 C CNN "Package ID"
+F 5 "Resistor" H 450 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6450 3600 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6450 3600 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6450 3600 50  0001 C CNN "Manufacturer"
+	1    6450 3600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R10
 U 1 1 5CBCE005
-P 6250 3700
-F 0 "R10" V 6200 3550 50  0000 C CNN
-F 1 "4.99Ω 0.1%" V 6200 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 3700 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 3700 50  0001 C CNN
-F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
-F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
-F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 3700 50  0001 C CNN "Characteristics"
-F 7 "RT0402BRE074R99L" H 6250 3700 50  0001 C CNN "MPN"
-F 8 "Yageo" H 6250 3700 50  0001 C CNN "Manufacturer"
-	1    6250 3700
+P 6450 3700
+F 0 "R10" V 6400 3550 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6400 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6450 3700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6450 3700 50  0001 C CNN
+F 4 "0402in/1005mm" H 450 850 50  0001 C CNN "Package ID"
+F 5 "Resistor" H 450 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6450 3700 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6450 3700 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6450 3700 50  0001 C CNN "Manufacturer"
+	1    6450 3700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R11
 U 1 1 5CBCE2A6
-P 6250 3800
-F 0 "R11" V 6200 3650 50  0000 C CNN
-F 1 "4.99Ω 0.1%" V 6200 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 3800 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 3800 50  0001 C CNN
-F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
-F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
-F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 3800 50  0001 C CNN "Characteristics"
-F 7 "RT0402BRE074R99L" H 6250 3800 50  0001 C CNN "MPN"
-F 8 "Yageo" H 6250 3800 50  0001 C CNN "Manufacturer"
-	1    6250 3800
+P 6450 3800
+F 0 "R11" V 6400 3650 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6400 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6450 3800 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6450 3800 50  0001 C CNN
+F 4 "0402in/1005mm" H 450 850 50  0001 C CNN "Package ID"
+F 5 "Resistor" H 450 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6450 3800 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6450 3800 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6450 3800 50  0001 C CNN "Manufacturer"
+	1    6450 3800
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R12
 U 1 1 5CBCE616
-P 6250 3900
-F 0 "R12" V 6200 3750 50  0000 C CNN
-F 1 "4.99Ω 0.1%" V 6200 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 3900 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 3900 50  0001 C CNN
-F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
-F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
-F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 3900 50  0001 C CNN "Characteristics"
-F 7 "RT0402BRE074R99L" H 6250 3900 50  0001 C CNN "MPN"
-F 8 "Yageo" H 6250 3900 50  0001 C CNN "Manufacturer"
-	1    6250 3900
+P 6450 3900
+F 0 "R12" V 6400 3750 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6400 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6450 3900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6450 3900 50  0001 C CNN
+F 4 "0402in/1005mm" H 450 850 50  0001 C CNN "Package ID"
+F 5 "Resistor" H 450 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6450 3900 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6450 3900 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6450 3900 50  0001 C CNN "Manufacturer"
+	1    6450 3900
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R13
 U 1 1 5CBCE913
-P 6250 4000
-F 0 "R13" V 6200 3850 50  0000 C CNN
-F 1 "4.99Ω 0.1%" V 6200 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 4000 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 4000 50  0001 C CNN
-F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
-F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
-F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 4000 50  0001 C CNN "Characteristics"
-F 7 "RT0402BRE074R99L" H 6250 4000 50  0001 C CNN "MPN"
-F 8 "Yageo" H 6250 4000 50  0001 C CNN "Manufacturer"
-	1    6250 4000
+P 6450 4000
+F 0 "R13" V 6400 3850 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6400 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6450 4000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6450 4000 50  0001 C CNN
+F 4 "0402in/1005mm" H 450 850 50  0001 C CNN "Package ID"
+F 5 "Resistor" H 450 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6450 4000 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6450 4000 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6450 4000 50  0001 C CNN "Manufacturer"
+	1    6450 4000
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R14
 U 1 1 5CBCEA5B
-P 6250 4100
-F 0 "R14" V 6200 3950 50  0000 C CNN
-F 1 "4.99Ω 0.1%" V 6200 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 4100 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6250 4100 50  0001 C CNN
-F 4 "0402in/1005mm" H 250 850 50  0001 C CNN "Package ID"
-F 5 "Resistor" H 250 850 50  0001 C CNN "Description"
-F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6250 4100 50  0001 C CNN "Characteristics"
-F 7 "RT0402BRE074R99L" H 6250 4100 50  0001 C CNN "MPN"
-F 8 "Yageo" H 6250 4100 50  0001 C CNN "Manufacturer"
-	1    6250 4100
+P 6450 4100
+F 0 "R14" V 6400 3950 50  0000 C CNN
+F 1 "4.99Ω 0.1%" V 6400 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6450 4100 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6450 4100 50  0001 C CNN
+F 4 "0402in/1005mm" H 450 850 50  0001 C CNN "Package ID"
+F 5 "Resistor" H 450 850 50  0001 C CNN "Description"
+F 6 "RES SMD 4.99 OHM 0.1% 1/16W 0402" H 6450 4100 50  0001 C CNN "Characteristics"
+F 7 "RT0402BRE074R99L" H 6450 4100 50  0001 C CNN "MPN"
+F 8 "Yageo" H 6450 4100 50  0001 C CNN "Manufacturer"
+	1    6450 4100
 	0    1    1    0   
 $EndComp
-Text Notes 5800 4650 0    50   ~ 0
-Resistors for source termination of 50Ω\ntransmission lines per TI App Note:\nSCAA080A
+Text Notes 5950 4700 0    50   ~ 0
+Resistors for source termination of 50Ω\ntransmission lines per TI App Note:\nSCAA080A\n4.99Ω resistors are the closest you\ncan get in 0402
 Wire Wire Line
-	6050 3600 6150 3600
+	6050 3600 6350 3600
 Wire Wire Line
-	6050 3700 6150 3700
+	6050 3700 6350 3700
 Wire Wire Line
-	6050 3800 6150 3800
+	6050 3800 6350 3800
 Wire Wire Line
-	6050 3900 6150 3900
+	6050 3900 6350 3900
 Wire Wire Line
-	6050 4000 6150 4000
+	6050 4000 6350 4000
 Wire Wire Line
-	6050 4100 6150 4100
+	6050 4100 6350 4100
 Wire Wire Line
-	6350 4100 6550 4100
+	6550 4100 7050 4100
 Wire Wire Line
-	6350 4000 6550 4000
+	6550 4000 7050 4000
 Wire Wire Line
-	6350 3900 6550 3900
+	6550 3900 7050 3900
 Wire Wire Line
-	6350 3800 6550 3800
+	6550 3800 7050 3800
 Wire Wire Line
-	6350 3700 6550 3700
+	6550 3700 7050 3700
 Wire Wire Line
-	6350 3600 6550 3600
+	6550 3600 7050 3600
 $Comp
 L Device:C_Small C117
 U 1 1 5CBDE920
@@ -476,7 +474,7 @@ L power:GND #PWR036
 U 1 1 5CBE6F18
 P 5750 3250
 F 0 "#PWR036" H 5750 3000 50  0001 C CNN
-F 1 "GND" H 5800 3050 50  0000 C CNN
+F 1 "GND" H 5900 3200 50  0000 C CNN
 F 2 "" H 5750 3250 50  0001 C CNN
 F 3 "" H 5750 3250 50  0001 C CNN
 	1    5750 3250
@@ -701,11 +699,11 @@ Connection ~ 7400 2700
 Wire Wire Line
 	7400 2700 7400 2850
 Wire Wire Line
-	6350 4100 6350 4250
+	6550 4100 6550 4250
 Wire Wire Line
-	6350 4250 6500 4250
-Connection ~ 6350 4100
-NoConn ~ 6500 4250
+	6550 4250 6700 4250
+Connection ~ 6550 4100
+NoConn ~ 6700 4250
 $Comp
 L power:PWR_FLAG #FLG04
 U 1 1 5D1E9100

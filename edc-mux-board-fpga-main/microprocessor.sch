@@ -132,7 +132,7 @@ F 2 "SW-Eswitch:TL1105" H 4800 7250 50  0001 C CNN
 F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/144/TL1105.pdf" H 4800 7250 50  0001 C CNN
 F 4 "Tactile Switch" H 0   0   50  0001 C CNN "Description"
 F 5 "Eswitch" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "TL1105AF160R" H 0   0   50  0001 C CNN "MPN"
+F 6 "TL1105AF160Q" H 0   0   50  0001 C CNN "MPN"
 F 7 "Through Hole" H 0   0   50  0001 C CNN "Package ID"
 	1    4800 7050
 	1    0    0    -1  

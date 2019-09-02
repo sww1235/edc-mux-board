@@ -3303,6 +3303,7 @@ F 3 "~" H 11000 4700 50  0001 C CNN
 F 4 "Through Hole" H 4100 400 50  0001 C CNN "Package ID"
 F 5 "Connection for panel mounted power switch" H 4100 400 50  0001 C CNN "Description"
 F 6 "Eswitch" H 4100 400 50  0001 C CNN "Manufacturer"
+F 7 "B2B-PH-K-S(LF)(SN)" H 11000 4700 50  0001 C CNN "MPN"
 	1    11000 4700
 	1    0    0    -1  
 $EndComp

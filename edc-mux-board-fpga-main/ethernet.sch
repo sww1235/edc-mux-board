@@ -141,7 +141,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 6250 3700 50 
 F 4 "0402in/1005mm" H -1800 100 50  0001 C CNN "Package ID"
 F 5 "CAP CER 0402 22NF 25V X7R 5%" H -1800 100 50  0001 C CNN "Characteristics"
 F 6 "Kemet" H -1800 100 50  0001 C CNN "Manufacturer"
-F 7 "C0402C223J3RECAUTO7411" H -1800 100 50  0001 C CNN "MPN"
+F 7 "C0402C223J3RECAUTO" H -1800 100 50  0001 C CNN "MPN"
 F 8 "MLCC Capacitor" H -1800 100 50  0001 C CNN "Description"
 	1    6250 3700
 	1    0    0    -1  
@@ -926,6 +926,7 @@ F 0 "SW3" H 8150 4500 50  0000 L CNN
 F 1 "LED_EN" H 8100 4340 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 8100 4600 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 8100 4600 50  0001 C CNN
+F 4 "B2B-PH-K-S(LF)(SN)" H 8100 4400 50  0001 C CNN "MPN"
 	1    8100 4400
 	1    0    0    -1  
 $EndComp

@@ -166,7 +166,7 @@ F 2 "SW-Package-SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm" H 11550 5050 50  0001 C 
 F 3 "https://www.cypress.com/file/316171/download" H 11550 5050 50  0001 C CNN
 F 4 "256Mb flash memory for FPGA programming" H 0   0   50  0001 C CNN "Description"
 F 5 "Cypress" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "S25FL256L" H 0   0   50  0001 C CNN "MPN"
+F 6 "S25FL128L" H 0   0   50  0001 C CNN "MPN"
 F 7 "WSON8" H 0   0   50  0001 C CNN "Package ID"
 	1    11550 5050
 	-1   0    0    -1  
