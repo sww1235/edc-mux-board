@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:edc-mux-board-fpga-expansion-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLegal 8500 14000 portrait
 encoding utf-8
@@ -68,7 +68,7 @@ F 6 "JST" H 300 600 50  0001 C CNN "Manufacturer"
 F 7 "B12B-PHDSS(LF)(SN) " H 300 600 50  0001 C CNN "MPN"
 F 8 "Through Hole" H 300 600 50  0001 C CNN "Package ID"
 	1    4600 2200
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Text Label 2800 2400 0    50   ~ 0
 SDA_HV12
@@ -88,7 +88,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3950 2750 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3950 2750 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3950 2750 50  0001 C CNN "MPN"
 	1    3950 2750
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D61
@@ -104,7 +104,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5000 2750 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5000 2750 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5000 2750 50  0001 C CNN "MPN"
 	1    5000 2750
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4800 1900 5000 1900
@@ -129,7 +129,7 @@ F 1 "GND" H 4550 3350 50  0000 C CNN
 F 2 "" H 4550 3500 50  0001 C CNN
 F 3 "" H 4550 3500 50  0001 C CNN
 	1    4550 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4550 3500 4550 3100
@@ -165,7 +165,7 @@ F 1 "+12V" H 4200 1600 50  0000 C CNN
 F 2 "" H 4100 1600 50  0001 C CNN
 F 3 "" H 4100 1600 50  0001 C CNN
 	1    4100 1600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4800 2400 5600 2400
@@ -183,7 +183,7 @@ F 6 "BLM21AG601SZ1D " H 5300 2100 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3000 500 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3000 500 50  0001 C CNN "Description"
 	1    5300 2100
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	3600 2200 3650 2200
@@ -201,7 +201,7 @@ F 6 "0805in/2012mm" H 200 -900 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 700 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H -4550 700 50  0001 C CNN "Description"
 	1    3200 2100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB30
@@ -217,7 +217,7 @@ F 6 "BLM21AG601SZ1D " H 3650 2100 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 950 400 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 950 400 50  0001 C CNN "Description"
 	1    3650 2100
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB26
@@ -233,7 +233,7 @@ F 6 "BLM21AG601SZ1D " H 3500 2200 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 2000 800 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 2000 800 50  0001 C CNN "Description"
 	1    3500 2200
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB38
@@ -249,7 +249,7 @@ F 6 "BLM21AG601SZ1D " H 5650 2200 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3350 600 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3350 600 50  0001 C CNN "Description"
 	1    5650 2200
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:C_Small C166
@@ -265,7 +265,7 @@ F 6 "0805in/2012mm" H 2950 -900 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -1800 700 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H -1800 700 50  0001 C CNN "Description"
 	1    5950 2100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2550 2300 3500 2300
@@ -283,7 +283,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3800 2750 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3800 2750 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3800 2750 50  0001 C CNN "MPN"
 	1    3800 2750
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3800 2100 3800 2600
@@ -304,7 +304,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3650 2750 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3650 2750 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3650 2750 50  0001 C CNN "MPN"
 	1    3650 2750
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3650 2200 3650 2600
@@ -325,7 +325,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3500 2750 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3500 2750 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3500 2750 50  0001 C CNN "MPN"
 	1    3500 2750
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3500 2300 3500 2600
@@ -346,7 +346,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5150 2750 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5150 2750 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5150 2750 50  0001 C CNN "MPN"
 	1    5150 2750
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5150 2100 5150 2600
@@ -364,7 +364,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5300 2750 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5300 2750 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5300 2750 50  0001 C CNN "MPN"
 	1    5300 2750
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5300 2200 5300 2600
@@ -382,7 +382,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5450 2750 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5450 2750 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5450 2750 50  0001 C CNN "MPN"
 	1    5450 2750
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5450 2000 5450 2600
@@ -434,7 +434,7 @@ F 5 "Transient Voltage Suppresion Diode" H 4100 2750 50  0001 C CNN "Description
 F 6 "SMAJ12CA" H 4100 2750 50  0001 C CNN "MPN"
 F 7 "SMA Diode" H 2100 -1500 50  0001 C CNN "Package ID"
 	1    4100 2750
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4100 2900 4100 3100
@@ -455,7 +455,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5600 2750 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5600 2750 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5600 2750 50  0001 C CNN "MPN"
 	1    5600 2750
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5600 2600 5600 2400
@@ -493,7 +493,7 @@ F 6 "JST" H 300 600 50  0001 C CNN "Manufacturer"
 F 7 "B12B-PHDSS(LF)(SN) " H 300 600 50  0001 C CNN "MPN"
 F 8 "Through Hole" H 300 600 50  0001 C CNN "Package ID"
 	1    4600 4250
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Text Label 2800 4450 0    50   ~ 0
 SDA_HV13
@@ -513,7 +513,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3950 4800 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3950 4800 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3950 4800 50  0001 C CNN "MPN"
 	1    3950 4800
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D62
@@ -529,7 +529,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5000 4800 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5000 4800 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5000 4800 50  0001 C CNN "MPN"
 	1    5000 4800
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4800 3950 5000 3950
@@ -554,7 +554,7 @@ F 1 "GND" H 4550 5400 50  0000 C CNN
 F 2 "" H 4550 5550 50  0001 C CNN
 F 3 "" H 4550 5550 50  0001 C CNN
 	1    4550 5550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4550 5550 4550 5150
@@ -590,7 +590,7 @@ F 1 "+12V" H 4200 3650 50  0000 C CNN
 F 2 "" H 4100 3650 50  0001 C CNN
 F 3 "" H 4100 3650 50  0001 C CNN
 	1    4100 3650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4800 4450 5600 4450
@@ -608,7 +608,7 @@ F 6 "BLM21AG601SZ1D " H 5300 4150 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3000 2550 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3000 2550 50  0001 C CNN "Description"
 	1    5300 4150
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	3600 4250 3650 4250
@@ -626,7 +626,7 @@ F 6 "0805in/2012mm" H 200 1150 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 2750 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H -4550 2750 50  0001 C CNN "Description"
 	1    3200 4150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB31
@@ -642,7 +642,7 @@ F 6 "BLM21AG601SZ1D " H 3650 4150 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 950 2450 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 950 2450 50  0001 C CNN "Description"
 	1    3650 4150
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB27
@@ -658,7 +658,7 @@ F 6 "BLM21AG601SZ1D " H 3500 4250 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 2000 2850 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 2000 2850 50  0001 C CNN "Description"
 	1    3500 4250
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB39
@@ -674,7 +674,7 @@ F 6 "BLM21AG601SZ1D " H 5650 4250 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3350 2650 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3350 2650 50  0001 C CNN "Description"
 	1    5650 4250
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:C_Small C167
@@ -690,7 +690,7 @@ F 6 "0805in/2012mm" H 2950 1150 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -1800 2750 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H -1800 2750 50  0001 C CNN "Description"
 	1    5950 4150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2550 4350 3500 4350
@@ -708,7 +708,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3800 4800 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3800 4800 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3800 4800 50  0001 C CNN "MPN"
 	1    3800 4800
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3800 4150 3800 4650
@@ -729,7 +729,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3650 4800 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3650 4800 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3650 4800 50  0001 C CNN "MPN"
 	1    3650 4800
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3650 4250 3650 4650
@@ -750,7 +750,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3500 4800 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3500 4800 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3500 4800 50  0001 C CNN "MPN"
 	1    3500 4800
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3500 4350 3500 4650
@@ -771,7 +771,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5150 4800 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5150 4800 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5150 4800 50  0001 C CNN "MPN"
 	1    5150 4800
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5150 4150 5150 4650
@@ -789,7 +789,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5300 4800 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5300 4800 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5300 4800 50  0001 C CNN "MPN"
 	1    5300 4800
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5300 4250 5300 4650
@@ -807,7 +807,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5450 4800 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5450 4800 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5450 4800 50  0001 C CNN "MPN"
 	1    5450 4800
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5450 4050 5450 4650
@@ -859,7 +859,7 @@ F 5 "Transient Voltage Suppresion Diode" H 4100 4800 50  0001 C CNN "Description
 F 6 "SMAJ12CA" H 4100 4800 50  0001 C CNN "MPN"
 F 7 "SMA Diode" H 2100 550 50  0001 C CNN "Package ID"
 	1    4100 4800
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4100 4950 4100 5150
@@ -880,7 +880,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5600 4800 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5600 4800 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5600 4800 50  0001 C CNN "MPN"
 	1    5600 4800
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5600 4650 5600 4450
@@ -918,7 +918,7 @@ F 6 "JST" H 300 600 50  0001 C CNN "Manufacturer"
 F 7 "B12B-PHDSS(LF)(SN) " H 300 600 50  0001 C CNN "MPN"
 F 8 "Through Hole" H 300 600 50  0001 C CNN "Package ID"
 	1    4600 6300
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Text Label 2800 6500 0    50   ~ 0
 SDA_HV14
@@ -938,7 +938,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3950 6850 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3950 6850 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3950 6850 50  0001 C CNN "MPN"
 	1    3950 6850
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D63
@@ -954,7 +954,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5000 6850 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5000 6850 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5000 6850 50  0001 C CNN "MPN"
 	1    5000 6850
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4800 6000 5000 6000
@@ -977,7 +977,7 @@ F 1 "GND" H 4550 7450 50  0000 C CNN
 F 2 "" H 4100 8200 50  0001 C CNN
 F 3 "" H 4100 8200 50  0001 C CNN
 	1    4550 7600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4550 7600 4550 7200
@@ -1013,7 +1013,7 @@ F 1 "+12V" H 4200 5700 50  0000 C CNN
 F 2 "" H 4100 5700 50  0001 C CNN
 F 3 "" H 4100 5700 50  0001 C CNN
 	1    4100 5700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4800 6500 5600 6500
@@ -1031,7 +1031,7 @@ F 6 "BLM21AG601SZ1D " H 5300 6200 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3000 4600 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3000 4600 50  0001 C CNN "Description"
 	1    5300 6200
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	3600 6300 3650 6300
@@ -1049,7 +1049,7 @@ F 6 "0805in/2012mm" H 200 3200 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 4800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H -4550 4800 50  0001 C CNN "Description"
 	1    3200 6200
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB32
@@ -1065,7 +1065,7 @@ F 6 "BLM21AG601SZ1D " H 3650 6200 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 950 4500 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 950 4500 50  0001 C CNN "Description"
 	1    3650 6200
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB28
@@ -1081,7 +1081,7 @@ F 6 "BLM21AG601SZ1D " H 3500 6300 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 2000 4900 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 2000 4900 50  0001 C CNN "Description"
 	1    3500 6300
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB40
@@ -1097,7 +1097,7 @@ F 6 "BLM21AG601SZ1D " H 5650 6300 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3350 4700 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3350 4700 50  0001 C CNN "Description"
 	1    5650 6300
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:C_Small C168
@@ -1113,7 +1113,7 @@ F 6 "0805in/2012mm" H 2950 3200 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -1800 4800 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H -1800 4800 50  0001 C CNN "Description"
 	1    5950 6200
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2550 6400 3500 6400
@@ -1131,7 +1131,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3800 6850 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3800 6850 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3800 6850 50  0001 C CNN "MPN"
 	1    3800 6850
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3800 6200 3800 6700
@@ -1152,7 +1152,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3650 6850 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3650 6850 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3650 6850 50  0001 C CNN "MPN"
 	1    3650 6850
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3650 6300 3650 6700
@@ -1173,7 +1173,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3500 6850 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3500 6850 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3500 6850 50  0001 C CNN "MPN"
 	1    3500 6850
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3500 6400 3500 6700
@@ -1194,7 +1194,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5150 6850 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5150 6850 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5150 6850 50  0001 C CNN "MPN"
 	1    5150 6850
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5150 6200 5150 6700
@@ -1212,7 +1212,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5300 6850 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5300 6850 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5300 6850 50  0001 C CNN "MPN"
 	1    5300 6850
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5300 6300 5300 6700
@@ -1230,7 +1230,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5450 6850 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5450 6850 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5450 6850 50  0001 C CNN "MPN"
 	1    5450 6850
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5450 6100 5450 6700
@@ -1282,7 +1282,7 @@ F 5 "Transient Voltage Suppresion Diode" H 4100 6850 50  0001 C CNN "Description
 F 6 "SMAJ12CA" H 4100 6850 50  0001 C CNN "MPN"
 F 7 "SMA Diode" H 2100 2600 50  0001 C CNN "Package ID"
 	1    4100 6850
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4100 7000 4100 7200
@@ -1303,7 +1303,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5600 6850 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5600 6850 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5600 6850 50  0001 C CNN "MPN"
 	1    5600 6850
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5600 6700 5600 6500
@@ -1341,7 +1341,7 @@ F 6 "JST" H 300 600 50  0001 C CNN "Manufacturer"
 F 7 "B12B-PHDSS(LF)(SN) " H 300 600 50  0001 C CNN "MPN"
 F 8 "Through Hole" H 300 600 50  0001 C CNN "Package ID"
 	1    4600 8400
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Text Label 2800 8600 0    50   ~ 0
 SDA_HV15
@@ -1361,7 +1361,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3950 8950 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3950 8950 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3950 8950 50  0001 C CNN "MPN"
 	1    3950 8950
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_TVS D64
@@ -1377,7 +1377,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5000 8950 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5000 8950 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5000 8950 50  0001 C CNN "MPN"
 	1    5000 8950
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4800 8100 5000 8100
@@ -1402,7 +1402,7 @@ F 1 "GND" H 4550 9550 50  0000 C CNN
 F 2 "" H 4550 9700 50  0001 C CNN
 F 3 "" H 4550 9700 50  0001 C CNN
 	1    4550 9700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4550 9700 4550 9300
@@ -1438,7 +1438,7 @@ F 1 "+12V" H 4200 7800 50  0000 C CNN
 F 2 "" H 4100 7800 50  0001 C CNN
 F 3 "" H 4100 7800 50  0001 C CNN
 	1    4100 7800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB37
@@ -1454,7 +1454,7 @@ F 6 "BLM21AG601SZ1D " H 5300 8300 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3000 6700 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3000 6700 50  0001 C CNN "Description"
 	1    5300 8300
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	3600 8400 3650 8400
@@ -1472,7 +1472,7 @@ F 6 "0805in/2012mm" H 200 5300 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -4550 6900 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H -4550 6900 50  0001 C CNN "Description"
 	1    3200 8300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB33
@@ -1488,7 +1488,7 @@ F 6 "BLM21AG601SZ1D " H 3650 8300 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 950 6600 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 950 6600 50  0001 C CNN "Description"
 	1    3650 8300
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB29
@@ -1504,7 +1504,7 @@ F 6 "BLM21AG601SZ1D " H 3500 8400 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 2000 7000 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 2000 7000 50  0001 C CNN "Description"
 	1    3500 8400
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB41
@@ -1520,7 +1520,7 @@ F 6 "BLM21AG601SZ1D " H 5650 8400 50  0001 C CNN "MPN"
 F 7 "600 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 700mA 210mOhm" H 3350 6800 50  0001 C CNN "Characteristics"
 F 8 "Ferrite Bead" H 3350 6800 50  0001 C CNN "Description"
 	1    5650 8400
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:C_Small C169
@@ -1536,7 +1536,7 @@ F 6 "0805in/2012mm" H 2950 5300 50  0001 C CNN "Package ID"
 F 7 "CAP CER 0805 1UF 25V X7R 5%" H -1800 6900 50  0001 C CNN "Characteristics"
 F 8 "MLCC Capacitor" H -1800 6900 50  0001 C CNN "Description"
 	1    5950 8300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2550 8500 3500 8500
@@ -1554,7 +1554,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3800 8950 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3800 8950 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3800 8950 50  0001 C CNN "MPN"
 	1    3800 8950
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3800 8300 3800 8800
@@ -1575,7 +1575,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3650 8950 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3650 8950 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3650 8950 50  0001 C CNN "MPN"
 	1    3650 8950
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3650 8400 3650 8800
@@ -1596,7 +1596,7 @@ F 6 "Transient Voltage Suppresion Diode" H 3500 8950 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 3500 8950 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 3500 8950 50  0001 C CNN "MPN"
 	1    3500 8950
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3500 8500 3500 8800
@@ -1617,7 +1617,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5150 8950 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5150 8950 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5150 8950 50  0001 C CNN "MPN"
 	1    5150 8950
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5150 8300 5150 8800
@@ -1635,7 +1635,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5300 8950 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5300 8950 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5300 8950 50  0001 C CNN "MPN"
 	1    5300 8950
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5300 8400 5300 8800
@@ -1653,7 +1653,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5450 8950 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5450 8950 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5450 8950 50  0001 C CNN "MPN"
 	1    5450 8950
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5450 8200 5450 8800
@@ -1705,7 +1705,7 @@ F 5 "Transient Voltage Suppresion Diode" H 4100 8950 50  0001 C CNN "Description
 F 6 "SMAJ12CA" H 4100 8950 50  0001 C CNN "MPN"
 F 7 "SMA Diode" H 2100 4700 50  0001 C CNN "Package ID"
 	1    4100 8950
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4100 9100 4100 9300
@@ -1726,7 +1726,7 @@ F 6 "Transient Voltage Suppresion Diode" H 5600 8950 50  0001 C CNN "Description
 F 7 "0402in/1005mm" H 5600 8950 50  0001 C CNN "Package ID"
 F 8 "SP1005-01ETG" H 5600 8950 50  0001 C CNN "MPN"
 	1    5600 8950
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5600 8800 5600 8600
